@@ -1,0 +1,246 @@
+{
+	"devices": [
+		{
+			"id": "ipad-pro-11-m5",
+			"name": "iPad Pro 11‑in. (M5)",
+			"priceAud": 1999,
+			"colors": [
+				{
+					"name": "Space Black",
+					"swatch": "#2e2c2e",
+					"images": [
+						{
+							"label": "front",
+							"url": "https://www.apple.com/v/ipad/compare/al/images/overview/ipad_pro_11_m4_spaceblack__eoez1rzzqmye_large.jpg",
+							"file": "public/data/ipad/images/ipad_pro_11_m4_spaceblack__eoez1rzzqmye_large.jpg",
+							"width": 255,
+							"height": 292
+						}
+					]
+				},
+				{
+					"name": "Silver",
+					"swatch": "#e2e3e4",
+					"images": [
+						{
+							"label": "front",
+							"url": "https://www.apple.com/v/ipad/compare/al/images/overview/ipad_pro_11_m4_silver__eowi3mx395qq_large.jpg",
+							"file": "public/data/ipad/images/ipad_pro_11_m4_silver__eowi3mx395qq_large.jpg",
+							"width": 255,
+							"height": 292
+						}
+					]
+				}
+			],
+			"summary": [
+				"11″ Ultra Retina XDR display",
+				"ProMotion technology",
+				"P3 wide colour",
+				"True Tone",
+				"Antireflective coating",
+				"Nano-texture display glass option on 1TB and 2TB models",
+				"M5 chip",
+				"Up to 10-core CPU",
+				"10-core GPU",
+				"16-core Neural Engine",
+				"Apple Intelligence",
+				"12MP Wide camera",
+				"4K video, ProRes",
+				"Landscape 12MP Center Stage camera",
+				"Centre Stage",
+				"TrueDepth camera system",
+				"USB-C connector with support for Thunderbolt/USB 4",
+				"Face ID",
+				"Four-speaker audio",
+				"Four studio-quality microphones",
+				"Wi-Fi 7",
+				"5G",
+				"Supports Apple Pencil Pro",
+				"Supports Apple Pencil (USB-C)",
+				"Supports Magic Keyboard for iPad Pro"
+			],
+			"capacity": ["256GB", "512GB", "1TB", "2TB"],
+			"weight": [
+				{
+					"label": "Wi-Fi",
+					"value": 444,
+					"unit": "g"
+				},
+				{
+					"label": "Wi-Fi + Cellular",
+					"value": 446,
+					"unit": "g"
+				}
+			],
+			"display": [
+				"Ultra Retina XDR display",
+				"Tandem OLED",
+				"2420-by-1668 resolution at 264 ppi",
+				"SDR brightness: 1,000 nits max; XDR brightness: 1,000 nits max full screen, 1,600 nits peak (HDR content only)",
+				"Fully laminated",
+				"Antireflective coating",
+				"Nano-texture display glass option on 1TB and 2TB models",
+				"ProMotion technology",
+				"Wide colour (P3)",
+				"True Tone",
+				"Apple Pencil hover"
+			],
+			"chip": [
+				"Apple M5 chip",
+				"Models with 256GB or 512GB storage: 9-core CPU with 3 super cores and 6 efficiency cores; 10-core GPU; Neural Accelerators; Hardware-accelerated ray tracing; 16-core Neural Engine; 153GB/s memory bandwidth; 12GB unified memory",
+				"Models with 1TB or 2TB storage: 10-core CPU with 4 super cores and 6 efficiency cores; 10-core GPU; Neural Accelerators; Hardware-accelerated ray tracing; 16-core Neural Engine; 153GB/s memory bandwidth; 16GB unified memory",
+				"Media Engine",
+				"Hardware-accelerated H.264, HEVC, ProRes and ProRes RAW",
+				"Video decode engine",
+				"Video encode engine",
+				"ProRes encode and decode engine",
+				"AV1 decode"
+			],
+			"battery": [
+				"Up to 10 hours of surfing the web on Wi-Fi or watching video",
+				"Up to 9 hours of surfing the web using a mobile data network",
+				"Charging via USB-C to a computer system or power adapter",
+				"Fast-charge–capable",
+				"Up to 50% charge in 30 minutes with 60W adapter or higher (available separately)"
+			],
+			"applePencil": ["Apple Pencil Pro", "Apple Pencil (USB-C)"],
+			"keyboards": ["Magic Keyboard for iPad Pro"],
+			"authentication": "Face ID",
+			"port": "Thunderbolt/USB 4",
+			"lidar": "LiDAR Scanner"
+		},
+		{
+			"id": "ipad-air-11-m4",
+			"name": "iPad Air 11‑in. (M4)",
+			"priceAud": 1249,
+			"colors": [
+				{
+					"name": "Space Grey",
+					"swatch": "#68696d",
+					"images": [
+						{
+							"label": "front",
+							"url": "https://www.apple.com/v/ipad/compare/al/images/overview/ipad_air_11_m4_spacegray__foa0ijnqpi2y_large.jpg",
+							"file": "public/data/ipad/images/ipad_air_11_m4_spacegray__foa0ijnqpi2y_large.jpg",
+							"width": 257,
+							"height": 292
+						}
+					]
+				},
+				{
+					"name": "Blue",
+					"swatch": "#88aebf",
+					"images": [
+						{
+							"label": "front",
+							"url": "https://www.apple.com/v/ipad/compare/al/images/overview/ipad_air_11_m4_blue__exgp5c6s4zgy_large.jpg",
+							"file": "public/data/ipad/images/ipad_air_11_m4_blue__exgp5c6s4zgy_large.jpg",
+							"width": 257,
+							"height": 292
+						}
+					]
+				},
+				{
+					"name": "Purple",
+					"swatch": "#b9b8d1",
+					"images": [
+						{
+							"label": "front",
+							"url": "https://www.apple.com/v/ipad/compare/al/images/overview/ipad_air_11_m4_purple__dc5imizwemwm_large.jpg",
+							"file": "public/data/ipad/images/ipad_air_11_m4_purple__dc5imizwemwm_large.jpg",
+							"width": 257,
+							"height": 292
+						}
+					]
+				},
+				{
+					"name": "Starlight",
+					"swatch": "#e3dcd1",
+					"images": [
+						{
+							"label": "front",
+							"url": "https://www.apple.com/v/ipad/compare/al/images/overview/ipad_air_11_m4_starlight__ckjmo75jgej6_large.jpg",
+							"file": "public/data/ipad/images/ipad_air_11_m4_starlight__ckjmo75jgej6_large.jpg",
+							"width": 257,
+							"height": 292
+						}
+					]
+				}
+			],
+			"summary": [
+				"11″ Liquid Retina display",
+				"Liquid Retina display",
+				"P3 wide colour",
+				"True Tone",
+				"Antireflective coating",
+				"M4 chip",
+				"8-core CPU",
+				"9-core GPU",
+				"16-core Neural Engine",
+				"Apple Intelligence",
+				"12MP Wide camera",
+				"4K video",
+				"Landscape 12MP Center Stage camera",
+				"Centre Stage",
+				"USB-C connector",
+				"Touch ID in top button",
+				"Landscape stereo speakers",
+				"Two microphones",
+				"Wi-Fi 7",
+				"5G",
+				"Supports Apple Pencil Pro",
+				"Supports Apple Pencil (USB-C)",
+				"Supports Magic Keyboard for iPad Air"
+			],
+			"capacity": ["128GB", "256GB", "512GB", "1TB"],
+			"weight": [
+				{
+					"label": "Wi-Fi",
+					"value": 464,
+					"unit": "g"
+				},
+				{
+					"label": "Wi-Fi + Cellular",
+					"value": 465,
+					"unit": "g"
+				}
+			],
+			"display": [
+				"Liquid Retina display",
+				"LED-backlit Multi-Touch display with IPS technology",
+				"2360-by-1640 resolution at 264 ppi",
+				"SDR brightness: 500 nits max",
+				"Fully laminated",
+				"Antireflective coating",
+				"Wide colour (P3)",
+				"True Tone",
+				"Apple Pencil hover"
+			],
+			"chip": [
+				"Apple M4 chip",
+				"8-core CPU with 3 performance cores and 5 efficiency cores",
+				"9-core GPU",
+				"Hardware-accelerated ray tracing",
+				"16-core Neural Engine",
+				"120GB/s memory bandwidth",
+				"12GB unified memory",
+				"Media Engine",
+				"Hardware-accelerated H.264, HEVC, ProRes and ProRes RAW",
+				"Video decode engine",
+				"Video encode engine",
+				"ProRes encode and decode engine",
+				"AV1 decode"
+			],
+			"battery": [
+				"Up to 10 hours of surfing the web on Wi-Fi or watching video",
+				"Up to 9 hours of surfing the web using a mobile data network",
+				"Charging via USB-C to a computer system or power adapter"
+			],
+			"applePencil": ["Apple Pencil Pro", "Apple Pencil (USB-C)"],
+			"keyboards": ["Magic Keyboard for iPad Air"],
+			"authentication": "Touch ID",
+			"port": "USB-C",
+			"lidar": null
+		}
+	]
+}

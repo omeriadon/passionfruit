@@ -4,16 +4,15 @@ Scope: only devices that support the current OS release (iPadOS 26). Devices no 
 
 ## Added
 
-None yet — waiting on DevTools HTML exports in `data/tmp/`.
+- [x] iPad Pro 11-inch (M5)
+- [x] iPad Air 11-inch (M4)
 
 ## Known, not yet added
 
 Currently sold:
 
 - [ ] iPad Pro 13-inch (M5)
-- [ ] iPad Pro 11-inch (M5)
-- [ ] iPad Air 13-inch (M3)
-- [ ] iPad Air 11-inch (M3)
+- [ ] iPad Air 13-inch (M4)
 - [ ] iPad (A16)
 - [ ] iPad mini (A17 Pro)
 

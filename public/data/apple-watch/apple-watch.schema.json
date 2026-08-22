@@ -1,17 +1,15 @@
 {
 	"$schema": "http://json-schema.org/draft-07/schema#",
-	"title": "iPad dataset",
-	"description": "Extracted iPad product data. See data/rules/ipad.md for what must be extracted.",
+	"title": "Apple Watch dataset",
+	"description": "Extracted Apple Watch product data. See data/rules/apple-watch.md for what must be extracted.",
 	"type": "object",
 	"additionalProperties": false,
 	"required": ["devices"],
 	"properties": {
 		"devices": {
 			"type": "array",
-			"description": "One entry per iPad model.",
-			"items": {
-				"$ref": "#/definitions/device"
-			}
+			"description": "One entry per Apple Watch model.",
+			"items": { "$ref": "#/definitions/device" }
 		}
 	},
 	"definitions": {
@@ -60,13 +58,7 @@
 				"images": {
 					"type": "array",
 					"description": "Product images for this colour and its variants.",
-					"items": {
-						"$ref": "#/definitions/image"
-					}
-				},
-				"colorPriceAud": {
-					"type": "number",
-					"description": "Distinct starting price in AUD for this colour when Apple shows colour-specific pricing. Omit when pricing is uniform across colours."
+					"items": { "$ref": "#/definitions/image" }
 				}
 			}
 		},
@@ -77,15 +69,10 @@
 			"properties": {
 				"label": {
 					"type": "string",
-					"description": "Optional qualifier when a model lists several weights, e.g. \"Wi-Fi model\"."
+					"description": "Optional qualifier when a model lists several weights, e.g. \"41mm case\"."
 				},
-				"value": {
-					"type": "number"
-				},
-				"unit": {
-					"type": "string",
-					"examples": ["kg", "g"]
-				}
+				"value": { "type": "number" },
+				"unit": { "type": "string", "examples": ["g"] }
 			}
 		},
 		"device": {
@@ -97,21 +84,25 @@
 				"priceAud",
 				"colors",
 				"summary",
-				"capacity",
+				"caseSizes",
+				"alwaysOnDisplay",
+				"brightness",
+				"wideAngleDisplay",
 				"weight",
-				"display",
+				"thickness",
 				"chip",
+				"u1UwbChip",
+				"otherWirelessChip",
+				"hasSpeaker",
+				"hasSiren",
 				"battery",
-				"applePencil",
-				"keyboards",
-				"authentication",
-				"port",
-				"lidar"
+				"waterResistanceDepth",
+				"ipRating"
 			],
 			"properties": {
 				"id": {
 					"type": "string",
-					"description": "Stable slug identifier, e.g. \"ipad-pro-13-m4\"."
+					"description": "Stable slug identifier, e.g. \"apple-watch-series-10\"."
 				},
 				"name": {
 					"type": "string",
@@ -119,89 +110,78 @@
 				},
 				"priceAud": {
 					"type": "number",
-					"description": "Cheapest available price in AUD."
+					"description": "Cheapest available starting price in AUD."
 				},
 				"colors": {
 					"type": "array",
 					"description": "Every colour found in the HTML.",
-					"items": {
-						"$ref": "#/definitions/color"
-					}
+					"items": { "$ref": "#/definitions/color" }
 				},
 				"summary": {
 					"type": "array",
 					"description": "Everything in the Summary section.",
-					"items": {
-						"type": "string"
-					}
+					"items": { "type": "string" }
 				},
-				"capacity": {
+				"caseSizes": {
 					"type": "array",
-					"description": "Storage capacities/configurations.",
-					"items": {
-						"type": "string"
-					}
+					"description": "Available case sizes.",
+					"items": { "type": "string" }
+				},
+				"alwaysOnDisplay": {
+					"type": "boolean",
+					"description": "Whether the display supports Always On."
+				},
+				"brightness": {
+					"type": "array",
+					"description": "All brightness specifications bundled together as entries; include minimum brightness where present.",
+					"items": { "type": "string" }
+				},
+				"wideAngleDisplay": {
+					"type": ["boolean", "null"],
+					"description": "Whether the display has wide-angle capability, or null when not applicable or unspecified."
 				},
 				"weight": {
 					"type": "array",
-					"description": "Usually one entry; several when Apple lists weights per configuration.",
-					"items": {
-						"$ref": "#/definitions/weight"
-					}
+					"description": "Usually one entry per size or material combination.",
+					"items": { "$ref": "#/definitions/weight" }
 				},
-				"display": {
-					"type": "array",
-					"description": "Every display spec line except \"Fingerprint-resistant oleophobic coating\". Brightness items bundled together as one entry.",
-					"items": {
-						"type": "string"
-					}
+				"thickness": {
+					"type": "string",
+					"description": "Case thickness exactly as Apple displays it."
 				},
 				"chip": {
 					"type": "array",
 					"description": "Chip details.",
-					"items": {
-						"type": "string"
-					}
+					"items": { "type": "string" }
+				},
+				"u1UwbChip": {
+					"type": ["string", "null"],
+					"description": "U1/UWB wireless chip details, or null when absent."
+				},
+				"otherWirelessChip": {
+					"type": ["string", "null"],
+					"description": "Other wireless chip details, or null when absent."
+				},
+				"hasSpeaker": {
+					"type": "boolean",
+					"description": "Whether the model has a speaker."
+				},
+				"hasSiren": {
+					"type": "boolean",
+					"description": "Whether the model has a siren."
 				},
 				"battery": {
 					"type": "array",
 					"description": "All battery information.",
-					"items": {
-						"type": "string"
-					}
+					"items": { "type": "string" }
 				},
-				"applePencil": {
-					"type": "array",
-					"description": "Supported Apple Pencil model names only — no sub-functions of each pencil.",
-					"items": {
-						"type": "string"
-					}
+				"waterResistanceDepth": {
+					"type": ["string", "null"],
+					"description": "Rated water resistance depth, or null when not rated by depth."
 				},
-				"keyboards": {
-					"type": "array",
-					"description": "Supported keyboard names only — no sub-functions of each keyboard.",
-					"items": {
-						"type": "string"
-					}
-				},
-				"authentication": {
-					"type": "string",
-					"description": "\"Face ID\", \"Touch ID\", or \"Passcode\"."
-				},
-				"port": {
-					"type": "string",
-					"description": "Port/connector type."
-				},
-				"lidar": {
-					"anyOf": [
-						{
-							"type": "null"
-						},
-						{
-							"type": "string"
-						}
-					],
-					"description": "LiDAR scanner description, or null when the model has none."
+				"ipRating": {
+					"type": ["string", "null"],
+					"description": "IP rating exactly as Apple displays it, or null when no IP rating applies."
 				}
 			}
 		}
