@@ -1,0 +1,16 @@
+#!/bin/sh
+
+set -eu
+
+format_check_dir="$(mktemp -d "${TMPDIR:-/tmp}/passionfruit-format.XXXXXX")"
+trap 'rm -rf "$format_check_dir"' EXIT
+
+git diff --binary > "$format_check_dir/before.patch"
+bun run format
+git diff --binary > "$format_check_dir/after.patch"
+
+if ! cmp -s "$format_check_dir/before.patch" "$format_check_dir/after.patch"; then
+	printf '%s\n' "Prettier changed files. Review, commit, and push the formatting changes first."
+	git diff --stat
+	exit 1
+fi
