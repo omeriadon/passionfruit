@@ -1,0 +1,171 @@
+{
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"title": "iPad dataset",
+	"description": "Extracted iPad product data. See data/rules/ipad.md for what must be extracted.",
+	"type": "object",
+	"additionalProperties": false,
+	"required": ["devices"],
+	"properties": {
+		"devices": {
+			"type": "array",
+			"description": "One entry per iPad model.",
+			"items": { "$ref": "#/definitions/device" }
+		}
+	},
+	"definitions": {
+		"image": {
+			"type": "object",
+			"description": "An image variant: original Apple URL plus the local copy served from this repo. Canvas dimensions and transparent padding are preserved from Apple's original file.",
+			"additionalProperties": false,
+			"required": ["label", "url", "file", "width", "height"],
+			"properties": {
+				"label": {
+					"type": "string",
+					"description": "Short variant descriptor, e.g. \"front\", \"back\", \"side\"."
+				},
+				"url": {
+					"type": "string",
+					"format": "uri",
+					"description": "Original Apple-hosted image URL; the app may fetch directly from Apple."
+				},
+				"file": {
+					"type": "string",
+					"description": "Public path of the local copy in this repo."
+				},
+				"width": {
+					"type": "integer",
+					"description": "Original canvas width in pixels."
+				},
+				"height": {
+					"type": "integer",
+					"description": "Original canvas height in pixels."
+				}
+			}
+		},
+		"color": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["name", "swatch", "images"],
+			"properties": {
+				"name": {
+					"type": "string",
+					"description": "Colour name exactly as Apple displays it."
+				},
+				"swatch": {
+					"type": "string",
+					"description": "The single-colour circle preview: CSS colour value or Apple-hosted swatch image URL."
+				},
+				"images": {
+					"type": "array",
+					"description": "Product images for this colour and its variants.",
+					"items": { "$ref": "#/definitions/image" }
+				}
+			}
+		},
+		"weight": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["value", "unit"],
+			"properties": {
+				"label": {
+					"type": "string",
+					"description": "Optional qualifier when a model lists several weights, e.g. \"Wi-Fi model\"."
+				},
+				"value": { "type": "number" },
+				"unit": { "type": "string", "examples": ["kg", "g"] }
+			}
+		},
+		"device": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": [
+				"id",
+				"name",
+				"priceAud",
+				"colors",
+				"summary",
+				"capacity",
+				"weight",
+				"display",
+				"chip",
+				"battery",
+				"applePencil",
+				"keyboards",
+				"authentication",
+				"port",
+				"lidar"
+			],
+			"properties": {
+				"id": {
+					"type": "string",
+					"description": "Stable slug identifier, e.g. \"ipad-pro-13-m4\"."
+				},
+				"name": {
+					"type": "string",
+					"description": "Model name exactly as Apple displays it."
+				},
+				"priceAud": {
+					"type": "number",
+					"description": "Cheapest available price in AUD."
+				},
+				"colors": {
+					"type": "array",
+					"description": "Every colour found in the HTML.",
+					"items": { "$ref": "#/definitions/color" }
+				},
+				"summary": {
+					"type": "array",
+					"description": "Everything in the Summary section.",
+					"items": { "type": "string" }
+				},
+				"capacity": {
+					"type": "array",
+					"description": "Storage capacities/configurations.",
+					"items": { "type": "string" }
+				},
+				"weight": {
+					"type": "array",
+					"description": "Usually one entry; several when Apple lists weights per configuration.",
+					"items": { "$ref": "#/definitions/weight" }
+				},
+				"display": {
+					"type": "array",
+					"description": "Every display spec line except \"Fingerprint-resistant oleophobic coating\". Brightness items bundled together as one entry.",
+					"items": { "type": "string" }
+				},
+				"chip": {
+					"type": "array",
+					"description": "Chip details.",
+					"items": { "type": "string" }
+				},
+				"battery": {
+					"type": "array",
+					"description": "All battery information.",
+					"items": { "type": "string" }
+				},
+				"applePencil": {
+					"type": "array",
+					"description": "Supported Apple Pencil model names only — no sub-functions of each pencil.",
+					"items": { "type": "string" }
+				},
+				"keyboards": {
+					"type": "array",
+					"description": "Supported keyboard names only — no sub-functions of each keyboard.",
+					"items": { "type": "string" }
+				},
+				"authentication": {
+					"type": "string",
+					"description": "\"Face ID\", \"Touch ID\", or \"Passcode\"."
+				},
+				"port": {
+					"type": "string",
+					"description": "Port/connector type."
+				},
+				"lidar": {
+					"anyOf": [{ "type": "null" }, { "type": "string" }],
+					"description": "LiDAR scanner description, or null when the model has none."
+				}
+			}
+		}
+	}
+}
