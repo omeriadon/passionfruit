@@ -15,6 +15,12 @@ These rules apply to every device type (iPad, Apple Pencil, keyboards, …). Dev
 - Related datasets for the same section (e.g. `apple-pencils.json`, `keyboards.json`) sit next to it in the same folder.
 - Every JSON file has a schema file directly next to it, named `<name>.schema.json`, describing the exact shape of that JSON. Keep schemas in sync whenever data changes.
 
+## Status
+
+- Each device type has a status file at `data/status/<device>.md` listing which devices have been added and which known devices are not yet extracted.
+- Only devices that support the current OS release are tracked; devices dropped from current OS support are out of scope.
+- Keep the status file updated as part of every extraction change.
+
 ## Data conventions
 
 - Prices are in AUD and are always the cheapest available price for that model.
