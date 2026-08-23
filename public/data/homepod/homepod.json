@@ -3,7 +3,6 @@
 		{
 			"id": "homepod-mini",
 			"name": "HomePod mini",
-			"family": "homepod",
 			"releaseYear": 2020,
 			"priceAud": null,
 			"colors": [
@@ -310,29 +309,14 @@
 					]
 				}
 			],
-			"configurations": [],
-			"storageOptions": [],
 			"chips": [
 				{
 					"id": "ultra-wideband",
 					"displayName": "Ultra Wideband chip",
 					"family": "Ultra Wideband",
-					"cpuCores": {
-						"total": 1,
-						"performance": null,
-						"efficiency": null
-					},
-					"gpuCores": null,
-					"neuralEngineCores": null,
-					"memoryBandwidthGbps": null,
-					"neuralAccelerators": false,
-					"hardwareRayTracing": null,
-					"processNode": "",
 					"sourceNotes": "Source identifies an Ultra Wideband chip for device proximity; implementation details are not specified."
 				}
 			],
-			"displays": [],
-			"cameras": [],
 			"audio": {
 				"speaker": true,
 				"microphone": true,
@@ -352,31 +336,14 @@
 				],
 				"sourceNotes": "Audio sources are represented under formats because the shared contract has no dedicated audio-sources array."
 			},
-			"batteryAndPower": {
-				"hasBattery": false,
-				"batteryCapacityMah": null,
-				"batteryCapacityWhr": null,
-				"runtimeHours": [],
-				"charging": {
-					"portId": null,
-					"wiredFastCharge": null,
-					"wirelessCharging": false,
-					"wirelessStandards": null,
-					"fastChargeMinutesToPercent": null,
-					"adapterPowerW": 20
+			"power": {
+				"hasExternalPowerAdapter": true,
+				"outputPowerW": 20,
+				"inputVoltageRangeV": {
+					"minimum": 100,
+					"maximum": 240
 				},
-				"powerSupply": {
-					"hasExternalPowerAdapter": true,
-					"outputVoltageV": null,
-					"outputCurrentA": null,
-					"outputPowerW": 20,
-					"inputVoltageRangeV": {
-						"minimum": 100,
-						"maximum": 240
-					},
-					"frequencyHz": null,
-					"consumptionW": null
-				}
+				"sourceNotes": "HomePod mini uses the supplied 20 W external power adapter."
 			},
 			"connectivity": {
 				"ports": [
@@ -388,12 +355,13 @@
 					}
 				],
 				"wifi": {
-					"standards": ["Wi-Fi 4"]
+					"standards": [
+						"Wi-Fi 4"
+					]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.0"
 				},
-				"cellular": null,
 				"uwb": {
 					"chip": "Ultra Wideband chip",
 					"secondGeneration": false
@@ -402,8 +370,7 @@
 					"supported": true
 				},
 				"infrared": {
-					"present": false,
-					"purpose": null
+					"present": false
 				},
 				"nearFieldCommunication": {
 					"present": false
@@ -411,11 +378,6 @@
 				"gps": {
 					"present": false
 				}
-			},
-			"authentication": {
-				"methods": ["none"],
-				"primaryMethod": "none",
-				"placement": null
 			},
 			"physical": {
 				"weights": [
@@ -457,16 +419,8 @@
 					}
 				]
 			},
-			"resistance": {
-				"ipRating": null,
-				"waterDepthM": null,
-				"splashPressureAtm": null,
-				"dustProtected": null,
-				"sweatResistant": null
-			},
 			"software": {
 				"operatingSystem": "HomePod Software",
-				"operatingSystemVersionAtLaunch": null,
 				"compatibleOperatingSystems": [
 					"iOS",
 					"iPadOS",
@@ -477,12 +431,11 @@
 				"builtInApps": []
 			},
 			"accessories": [],
-			"sourceNotes": "Remodeled from the supplied Apple specification HTML checkpoint. Controls, compatibility, sensors, sound recognition, room sensing, and in-box contents lack dedicated shared-contract fields. Unknown values use null; empty arrays indicate that the contract category has no applicable structured value."
+			"sourceNotes": "Remodeled from the supplied Apple specification HTML checkpoint. Controls, compatibility, sensors, sound recognition, room sensing, and in-box contents remain in typed audio, connectivity, power, physical, software, or source-note fields where the HomePod contract supports them. Unsupported device-category fields were removed."
 		},
 		{
 			"id": "homepod-2nd-generation",
 			"name": "HomePod (2nd generation)",
-			"family": "homepod",
 			"releaseYear": 2023,
 			"priceAud": null,
 			"colors": [
@@ -654,29 +607,14 @@
 					]
 				}
 			],
-			"configurations": [],
-			"storageOptions": [],
 			"chips": [
 				{
 					"id": "ultra-wideband",
 					"displayName": "Ultra Wideband chip",
 					"family": "Ultra Wideband",
-					"cpuCores": {
-						"total": 1,
-						"performance": null,
-						"efficiency": null
-					},
-					"gpuCores": null,
-					"neuralEngineCores": null,
-					"memoryBandwidthGbps": null,
-					"neuralAccelerators": false,
-					"hardwareRayTracing": null,
-					"processNode": "",
 					"sourceNotes": "Source identifies an Ultra Wideband chip for device proximity; implementation details are not specified."
 				}
 			],
-			"displays": [],
-			"cameras": [],
 			"audio": {
 				"speaker": true,
 				"microphone": true,
@@ -697,31 +635,13 @@
 				],
 				"sourceNotes": "Audio sources are represented under formats because the shared contract has no dedicated audio-sources array."
 			},
-			"batteryAndPower": {
-				"hasBattery": false,
-				"batteryCapacityMah": null,
-				"batteryCapacityWhr": null,
-				"runtimeHours": [],
-				"charging": {
-					"portId": null,
-					"wiredFastCharge": null,
-					"wirelessCharging": false,
-					"wirelessStandards": null,
-					"fastChargeMinutesToPercent": null,
-					"adapterPowerW": null
+			"power": {
+				"hasExternalPowerAdapter": false,
+				"inputVoltageRangeV": {
+					"minimum": 100,
+					"maximum": 240
 				},
-				"powerSupply": {
-					"hasExternalPowerAdapter": null,
-					"outputVoltageV": null,
-					"outputCurrentA": null,
-					"outputPowerW": null,
-					"inputVoltageRangeV": {
-						"minimum": 100,
-						"maximum": 240
-					},
-					"frequencyHz": null,
-					"consumptionW": null
-				}
+				"sourceNotes": "HomePod (2nd generation) uses an integrated fixed power cable rather than an external power adapter."
 			},
 			"connectivity": {
 				"ports": [
@@ -733,12 +653,13 @@
 					}
 				],
 				"wifi": {
-					"standards": ["Wi-Fi 4"]
+					"standards": [
+						"Wi-Fi 4"
+					]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.0"
 				},
-				"cellular": null,
 				"uwb": {
 					"chip": "Ultra Wideband chip",
 					"secondGeneration": true
@@ -747,8 +668,7 @@
 					"supported": true
 				},
 				"infrared": {
-					"present": false,
-					"purpose": null
+					"present": false
 				},
 				"nearFieldCommunication": {
 					"present": false
@@ -756,11 +676,6 @@
 				"gps": {
 					"present": false
 				}
-			},
-			"authentication": {
-				"methods": ["none"],
-				"primaryMethod": "none",
-				"placement": null
 			},
 			"physical": {
 				"weights": [
@@ -802,16 +717,8 @@
 					}
 				]
 			},
-			"resistance": {
-				"ipRating": null,
-				"waterDepthM": null,
-				"splashPressureAtm": null,
-				"dustProtected": null,
-				"sweatResistant": null
-			},
 			"software": {
 				"operatingSystem": "HomePod Software",
-				"operatingSystemVersionAtLaunch": null,
 				"compatibleOperatingSystems": [
 					"iOS",
 					"iPadOS",
@@ -822,7 +729,7 @@
 				"builtInApps": []
 			},
 			"accessories": [],
-			"sourceNotes": "Remodeled from the supplied Apple specification HTML checkpoint. Controls, compatibility, sensors, sound recognition, room sensing, and in-box contents lack dedicated shared-contract fields. Unknown values use null; empty arrays indicate that the contract category has no applicable structured value."
+			"sourceNotes": "Remodeled from the supplied Apple specification HTML checkpoint. Controls, compatibility, sensors, sound recognition, room sensing, and in-box contents remain in typed audio, connectivity, power, physical, software, or source-note fields where the HomePod contract supports them. Unsupported device-category fields were removed."
 		}
 	]
 }

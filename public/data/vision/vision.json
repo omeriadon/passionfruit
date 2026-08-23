@@ -3,7 +3,6 @@
 		{
 			"id": "apple-vision-pro-m5",
 			"name": "Apple Vision Pro",
-			"family": "vision",
 			"releaseYear": 2025,
 			"priceAud": null,
 			"colors": [
@@ -318,15 +317,8 @@
 					"id": "apple-r1",
 					"displayName": "Apple R1 chip",
 					"family": "R1",
-					"cpuCores": {
-						"total": 1,
-						"performance": null,
-						"efficiency": null
-					},
-					"gpuCores": null,
-					"neuralEngineCores": null,
 					"memoryBandwidthGbps": 256,
-					"sourceNotes": "Apple does not publish R1 CPU core counts. The schema requires a positive integer total; this value is a contract-compliance placeholder, not source evidence. Source evidence: 12-millisecond photon-to-photon latency."
+					"sourceNotes": "Apple does not publish R1 CPU core counts. Source evidence states 12-millisecond photon-to-photon latency and 256GB/s memory bandwidth."
 				}
 			],
 			"displays": [
@@ -334,10 +326,7 @@
 					"id": "micro-oled-3d-display-system",
 					"technology": "3D display system",
 					"panelKind": "micro-OLED",
-					"sizeIn": null,
 					"resolutionWidthPx": 23000000,
-					"resolutionHeightPx": null,
-					"pixelsPerInch": null,
 					"refreshRateRange": {
 						"minimum": 90,
 						"maximum": 120,
@@ -359,8 +348,35 @@
 					"sourceNotes": "Spatial photo and video capture; 18 mm lens."
 				}
 			],
+			"sensors": [
+				{
+					"id": "true-depth-camera",
+					"name": "TrueDepth camera",
+					"purpose": "Depth sensing and spatial tracking"
+				},
+				{
+					"id": "lidar-scanner",
+					"name": "LiDAR Scanner",
+					"purpose": "Depth sensing and spatial mapping"
+				},
+				{
+					"id": "inertial-measurement-units",
+					"name": "Four inertial measurement units",
+					"purpose": "Motion tracking"
+				},
+				{
+					"id": "flicker-sensor",
+					"name": "Flicker sensor",
+					"purpose": "Ambient light flicker detection"
+				},
+				{
+					"id": "ambient-light-sensor",
+					"name": "Ambient light sensor",
+					"purpose": "Ambient light measurement"
+				}
+			],
 			"audio": {
-				"speaker": null,
+				"speaker": true,
 				"microphone": true,
 				"microphoneConfiguration": "Six‑mic array with directional beamforming",
 				"spatialAudio": true,
@@ -383,37 +399,28 @@
 				"sourceNotes": "Personalised Spatial Audio and audio ray tracing. Supports H2‑to‑H2 ultra‑low‑latency connection to AirPods Pro 2 with USB‑C, AirPods Pro 3 and AirPods 4. Audio playback formats are AAC through Dolby Atmos; video playback formats are HEVC through HLG."
 			},
 			"batteryAndPower": {
-				"hasBattery": true,
-				"batteryCapacityMah": null,
-				"batteryCapacityWhr": null,
-				"runtimeHours": [
-					{
-						"id": "general-use",
-						"activity": "general use",
-						"hours": 2.5
-					},
-					{
-						"id": "video-watching",
-						"activity": "video watching",
-						"hours": 3
+				"battery": {
+					"runtimeHours": [
+						{
+							"id": "general-use",
+							"activity": "general use",
+							"hours": 2.5
+						},
+						{
+							"id": "video-watching",
+							"activity": "video watching",
+							"hours": 3
+						}
+					],
+					"charging": {
+						"portId": "battery-power-connector",
+						"wirelessCharging": false,
+						"adapterPowerW": 30
 					}
-				],
-				"charging": {
-					"portId": "battery-power-connector",
-					"wiredFastCharge": null,
-					"wirelessCharging": false,
-					"wirelessStandards": null,
-					"fastChargeMinutesToPercent": null,
-					"adapterPowerW": 30
 				},
-				"powerSupply": {
+				"power": {
 					"hasExternalPowerAdapter": true,
-					"outputVoltageV": null,
-					"outputCurrentA": null,
-					"outputPowerW": 30,
-					"inputVoltageRangeV": null,
-					"frequencyHz": null,
-					"consumptionW": null
+					"outputPowerW": 30
 				}
 			},
 			"connectivity": {
@@ -425,21 +432,23 @@
 					}
 				],
 				"wifi": {
-					"standards": ["Wi-Fi 6"]
+					"standards": [
+						"Wi-Fi 6"
+					]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.3"
-				},
-				"cellular": null,
-				"uwb": null,
-				"thread": null,
-				"infrared": null,
-				"nearFieldCommunication": null,
-				"gps": null
+				}
 			},
 			"authentication": {
-				"methods": ["Optic ID"],
+				"methods": [
+					"Optic ID"
+				],
 				"primaryMethod": "Optic ID",
+				"opticId": {
+					"available": true,
+					"description": "Iris-based biometric authentication secured by the Secure Enclave."
+				},
 				"sourceNotes": "Iris‑based biometric authentication. Optic ID data is encrypted and accessible only to the Secure Enclave processor. Secures personal data within apps. Make purchases from the iTunes Store and App Store."
 			},
 			"physical": {
@@ -464,13 +473,6 @@
 				],
 				"components": [
 					{
-						"id": "light-seal-and-dual-knit-band",
-						"displayName": "Light Seal and counterbalanced Dual Knit Band",
-						"dimensions": [],
-						"weight": null,
-						"weightUnit": null
-					},
-					{
 						"id": "separate-battery",
 						"displayName": "Battery",
 						"dimensions": [],
@@ -479,16 +481,8 @@
 					}
 				]
 			},
-			"resistance": {
-				"ipRating": null,
-				"waterDepthM": null,
-				"splashPressureAtm": null,
-				"dustProtected": null,
-				"sweatResistant": null
-			},
 			"software": {
 				"operatingSystem": "visionOS 26",
-				"operatingSystemVersionAtLaunch": "26",
 				"builtInApps": [
 					"App Store",
 					"Encounter Dinosaurs",
@@ -545,7 +539,9 @@
 				{
 					"displayName": "Trackpads and mouse devices",
 					"category": "input",
-					"capabilities": ["Mouse support requires visionOS 2 or later."],
+					"capabilities": [
+						"Mouse support requires visionOS 2 or later."
+					],
 					"accessoryId": "trackpads-and-mouse-devices"
 				},
 				{
@@ -599,7 +595,7 @@
 					"accessoryId": "usb-c-charge-cable-1-5-m"
 				}
 			],
-			"sourceNotes": "Camera/sensor list retained because the strict contract has no sensors section: Two high‑resolution main cameras | Six world‑facing tracking cameras | Four eye‑tracking cameras | TrueDepth camera | LiDAR Scanner | Four inertial measurement units (IMUs) | Flicker sensor | Ambient light sensor. Electrical/environmental requirements retained verbatim: Operating ambient temperature: 0º to 30º C (32º to 86º F); Storage temperature: −20º to 45º C (−4º to 113º F); Relative humidity: 0% to 95%. In the Box labels preserved in accessories catalog. Battery and power: undefined Connectivity: undefined Physical: Audio Straps are named in hero alt text. IPD is functional sizing rather than enclosure dimension."
+			"sourceNotes": "Camera systems not fully representable by the camera contract: two high-resolution main cameras, six world-facing tracking cameras and four eye-tracking cameras. Typed sensors preserve the TrueDepth camera, LiDAR Scanner, four inertial measurement units, flicker sensor and ambient light sensor. Electrical and environmental evidence: operating ambient temperature 0 to 30 degrees C; storage temperature -20 to 45 degrees C; relative humidity 0% to 95%. Audio Straps provide speakers. Light Seal and counterbalanced Dual Knit Band exist but have no separately published weight, so they remain represented by the included accessory and colour-image evidence rather than a fabricated physical-component measurement. Battery is separate from the headset and supports up to 2.5 hours of general use or 3 hours of video playback with the included 30 W USB-C power adapter."
 		}
 	]
 }
