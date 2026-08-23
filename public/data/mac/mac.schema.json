@@ -69,6 +69,17 @@
 				"qualifier": { "type": "string", "minLength": 1 }
 			}
 		},
+		"measurementRange": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["minimum", "maximum", "unit"],
+			"properties": {
+				"minimum": { "type": "number" },
+				"maximum": { "type": "number" },
+				"unit": { "type": "string", "minLength": 1 },
+				"qualifier": { "type": "string", "minLength": 1 }
+			}
+		},
 		"cpuCores": {
 			"type": "object",
 			"additionalProperties": false,
@@ -104,6 +115,7 @@
 				"gpuCores": { "type": "integer", "minimum": 1 },
 				"neuralEngineCores": { "type": "integer", "minimum": 1 },
 				"memoryBandwidthGbps": { "type": "number", "minimum": 0 },
+				"cpuCoreConfiguration": { "type": "string", "minLength": 1 },
 				"mediaEngines": {
 					"type": "array",
 					"items": { "$ref": "#/$defs/mediaEngine" }
@@ -166,13 +178,7 @@
 		"display": {
 			"type": "object",
 			"additionalProperties": false,
-			"required": [
-				"id",
-				"technology",
-				"sizeIn",
-				"resolutionWidthPx",
-				"resolutionHeightPx"
-			],
+			"required": ["id", "technology"],
 			"properties": {
 				"id": { "type": "string", "minLength": 1 },
 				"technology": { "type": "string", "minLength": 1 },
@@ -182,6 +188,7 @@
 				"resolutionHeightPx": { "type": "integer", "minimum": 1 },
 				"pixelsPerInch": { "type": "number", "minimum": 1 },
 				"refreshRateHz": { "type": "number", "minimum": 1 },
+				"refreshRateRange": { "$ref": "#/$defs/measurementRange" },
 				"sdrPeakBrightnessNits": { "type": "number", "minimum": 0 },
 				"hdrPeakBrightnessNits": { "type": "number", "minimum": 0 },
 				"fullScreenHdrBrightnessNits": { "type": "number", "minimum": 0 },
@@ -221,7 +228,6 @@
 		"audio": {
 			"type": "object",
 			"additionalProperties": false,
-			"required": ["speaker", "microphone"],
 			"properties": {
 				"speaker": { "type": "boolean" },
 				"microphone": { "type": "boolean" },
@@ -243,7 +249,8 @@
 				"id": { "type": "string", "minLength": 1 },
 				"activity": { "type": "string", "minLength": 1 },
 				"hours": { "type": "number", "minimum": 0 },
-				"network": { "type": "string", "minLength": 1 }
+				"network": { "type": "string", "minLength": 1 },
+				"qualifier": { "type": "string", "minLength": 1 }
 			}
 		},
 		"charging": {
@@ -265,7 +272,7 @@
 		"battery": {
 			"type": "object",
 			"additionalProperties": false,
-			"required": ["capacityWhr", "runtimeHours", "charging"],
+			"required": ["runtimeHours", "charging"],
 			"properties": {
 				"capacityMah": { "type": "number", "minimum": 0 },
 				"capacityWhr": { "type": "number", "minimum": 0 },
@@ -326,7 +333,7 @@
 		"connectivity": {
 			"type": "object",
 			"additionalProperties": false,
-			"required": ["ports", "wifi", "bluetooth"],
+			"required": ["ports"],
 			"properties": {
 				"ports": { "type": "array", "items": { "$ref": "#/$defs/port" } },
 				"wifi": {
@@ -365,7 +372,7 @@
 		"physicalComponent": {
 			"type": "object",
 			"additionalProperties": false,
-			"required": ["id", "displayName", "dimensions", "weight", "weightUnit"],
+			"required": ["id", "displayName", "dimensions"],
 			"properties": {
 				"id": { "type": "string", "minLength": 1 },
 				"displayName": { "type": "string", "minLength": 1 },
@@ -403,6 +410,10 @@
 			"required": ["operatingSystem", "builtInApps"],
 			"properties": {
 				"operatingSystem": { "type": "string", "minLength": 1 },
+				"operatingSystemVersionAtLaunch": {
+					"type": "string",
+					"minLength": 1
+				},
 				"builtInApps": {
 					"type": "array",
 					"items": { "type": "string", "minLength": 1 }
