@@ -3,17 +3,12 @@
 		{
 			"id": "apple-watch-series-11",
 			"name": "Apple Watch Series 11",
-			"family": "watch",
 			"releaseYear": 2025,
-			"priceAud": 679,
 			"colors": [
 				{
 					"id": "rose-gold-aluminium",
 					"displayName": "Rose Gold Aluminium",
-					"swatch": {
-						"kind": "css",
-						"value": "#eacfc8"
-					},
+					"swatch": "#eacfc8",
 					"images": [
 						{
 							"label": "large 2x",
@@ -48,10 +43,7 @@
 				{
 					"id": "silver-aluminium",
 					"displayName": "Silver Aluminium",
-					"swatch": {
-						"kind": "css",
-						"value": "#f0eff1"
-					},
+					"swatch": "#f0eff1",
 					"images": [
 						{
 							"label": "large 2x",
@@ -86,10 +78,7 @@
 				{
 					"id": "space-grey-aluminium",
 					"displayName": "Space Grey Aluminium",
-					"swatch": {
-						"kind": "css",
-						"value": "#727272"
-					},
+					"swatch": "#727272",
 					"images": [
 						{
 							"label": "large 2x",
@@ -124,10 +113,7 @@
 				{
 					"id": "jet-black-aluminium",
 					"displayName": "Jet Black Aluminium",
-					"swatch": {
-						"kind": "css",
-						"value": "#010203"
-					},
+					"swatch": "#010203",
 					"images": [
 						{
 							"label": "large 2x",
@@ -162,10 +148,7 @@
 				{
 					"id": "natural-titanium",
 					"displayName": "Natural Titanium",
-					"swatch": {
-						"kind": "css",
-						"value": "#e3ddd7"
-					},
+					"swatch": "#e3ddd7",
 					"images": [
 						{
 							"label": "large 2x",
@@ -200,10 +183,7 @@
 				{
 					"id": "gold-titanium",
 					"displayName": "Gold Titanium",
-					"swatch": {
-						"kind": "css",
-						"value": "#f4dec8"
-					},
+					"swatch": "#f4dec8",
 					"images": [
 						{
 							"label": "large 2x",
@@ -238,10 +218,7 @@
 				{
 					"id": "slate-titanium",
 					"displayName": "Slate Titanium",
-					"swatch": {
-						"kind": "css",
-						"value": "#47423d"
-					},
+					"swatch": "#47423d",
 					"images": [
 						{
 							"label": "large 2x",
@@ -275,21 +252,14 @@
 				}
 			],
 			"configurations": [],
-			"storageOptions": [],
 			"chips": [
 				{
 					"id": "s10-chip",
 					"displayName": "S10 chip",
 					"family": "Apple S-series",
-					"cpuCores": {
-						"total": 2,
-						"performance": null,
-						"efficiency": null
-					},
-					"gpuCores": null,
+					"cpuCores": 2,
 					"neuralEngineCores": 4,
-					"memoryBandwidthGbps": null,
-					"sourceNotes": "S10 chip with 64-bit dual-core processor"
+					"sourceNotes": "S10 chip with 64-bit dual-core processor\n\nLegacy chip detail retained verbatim: {\"cpuCores\":{\"total\":2},\"neuralEngineCores\":4}"
 				}
 			],
 			"displays": [
@@ -297,34 +267,17 @@
 					"id": "primary",
 					"technology": "Always-On Retina display",
 					"panelKind": "OLED",
-					"sizeIn": null,
-					"resolutionWidthPx": null,
-					"resolutionHeightPx": null,
-					"pixelsPerInch": null,
-					"refreshRateHz": null,
 					"refreshRateRange": {
 						"minimum": 1,
 						"maximum": 60,
 						"unit": "hz"
 					},
 					"sdrPeakBrightnessNits": 2000,
-					"hdrPeakBrightnessNits": null,
-					"fullScreenHdrBrightnessNits": null,
 					"minimumBrightnessNits": 1,
-					"trueTone": null,
-					"promotion": null,
 					"alwaysOn": true,
-					"wideColorP3": null,
-					"laminated": null,
-					"antireflective": null,
-					"nanoTextureOption": null,
-					"fingerprintResistantCoating": null,
-					"hoverSupport": null,
-					"mirroring": null,
 					"sourceNotes": "Display material: Always-On Retina display; Display construction: Wide-angle OLED; Display backplane: LTPO3"
 				}
 			],
-			"cameras": [],
 			"audio": {
 				"speaker": true,
 				"microphone": true,
@@ -334,8 +287,6 @@
 			},
 			"batteryAndPower": {
 				"hasBattery": true,
-				"batteryCapacityMah": null,
-				"batteryCapacityWhr": null,
 				"runtimeHours": [
 					{
 						"id": "normal",
@@ -352,48 +303,51 @@
 					"portId": "wireless",
 					"wiredFastCharge": true,
 					"wirelessCharging": true,
-					"wirelessStandards": ["inductive"],
-					"fastChargeMinutesToPercent": {
+					"wirelessStandards": [
+						"inductive"
+					],
+					"fastCharge": {
 						"minutes": 30,
 						"percent": 80
-					},
-					"adapterPowerW": null
+					}
 				},
-				"powerSupply": {
-					"hasExternalPowerAdapter": null,
-					"outputVoltageV": null,
-					"outputCurrentA": null,
-					"outputPowerW": null,
-					"inputVoltageRangeV": null,
-					"frequencyHz": null,
-					"consumptionW": null
-				}
+				"powerSupply": {}
 			},
 			"connectivity": {
 				"ports": [],
 				"wifi": {
-					"standards": ["Wi-Fi 4"]
+					"standards": [
+						"Wi-Fi 4"
+					]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.3"
 				},
 				"cellular": {
-					"technologies": ["LTE", "5G sub-6"]
+					"technologies": [
+						"LTE",
+						"5G sub-6"
+					]
 				},
 				"uwb": {
 					"chip": "Second-generation Ultra Wideband chip"
 				},
-				"thread": null,
-				"infrared": null,
-				"nearFieldCommunication": null,
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": false,
-					"systems": ["GPS", "GLONASS", "Galileo", "QZSS", "BeiDou"]
+					"systems": [
+						"GPS",
+						"GLONASS",
+						"Galileo",
+						"QZSS",
+						"BeiDou"
+					]
 				}
 			},
 			"authentication": {
-				"methods": ["passcode"],
+				"methods": [
+					"passcode"
+				],
 				"primaryMethod": "passcode"
 			},
 			"physical": {
@@ -416,12 +370,12 @@
 				],
 				"dimensions": [
 					{
-						"value": 46.0,
+						"value": 46,
 						"unit": "mm",
 						"qualifier": "case height"
 					},
 					{
-						"value": 39.0,
+						"value": 39,
 						"unit": "mm",
 						"qualifier": "case width"
 					},
@@ -436,37 +390,27 @@
 			"resistance": {
 				"ipRating": "IP6X",
 				"waterDepthM": 50,
-				"splashPressureAtm": null,
-				"dustProtected": true,
-				"sweatResistant": null
+				"dustProtected": true
 			},
 			"software": {
 				"operatingSystem": "watchOS",
-				"operatingSystemVersionAtLaunch": null,
+				"compatibleOperatingSystems": [],
 				"builtInApps": [],
 				"sourceNotes": "Complete Summary retained verbatim as source facts."
 			},
-			"accessories": [],
 			"watchDetails": {
-				"caseSizes": ["46 mm", "42 mm"],
+				"caseSizes": [
+					"46 mm",
+					"42 mm"
+				],
 				"alwaysOn": true,
 				"wideAngleDisplay": true,
 				"u1UwbChip": "Second-generation Ultra Wideband chip",
 				"otherWirelessChip": "W3 Apple wireless chip",
 				"hasSpeaker": true,
 				"hasSiren": false,
-				"swimproofClassification": "Swim, snorkel",
-				"completeSummary": [
-					"Always-On Retina display",
-					"S10 chip with 64-bit dual-core processor",
-					"Up to 24 hours18",
-					"Up to 38 hours in Low Power Mode18",
-					"Water-resistant 50 m12",
-					"Swim, snorkel",
-					"46 mm by 39 mm by 9.7 mm (46-mm) 37.8 grams (aluminium, GPS)36.9 grams (aluminium, GPS + Cellular)43.1 grams (titanium)"
-				]
+				"swimproofClassification": "Swim, snorkel"
 			},
-			"sourceNotes": "Extracted from four usable Apple AU compare exports. Exact source text preserved in typed fields where supported.",
 			"overviewImages": [
 				{
 					"label": "Model overview",
@@ -496,22 +440,19 @@
 					"widthPx": 215,
 					"heightPx": 246
 				}
-			]
+			],
+			"priceAud": 679,
+			"sourceNotes": "Extracted from four usable Apple AU compare exports. Exact source text preserved in typed fields where supported.\n\nLegacy Watch fields removed from the independent shape and preserved verbatim where no typed field exists: {\"family\":\"watch\",\"cameras\":[],\"storageOptions\":[],\"accessories\":[],\"watchDetails\":{\"caseSizes\":[\"46 mm\",\"42 mm\"],\"alwaysOn\":true,\"wideAngleDisplay\":true,\"u1UwbChip\":\"Second-generation Ultra Wideband chip\",\"otherWirelessChip\":\"W3 Apple wireless chip\",\"hasSpeaker\":true,\"hasSiren\":false,\"swimproofClassification\":\"Swim, snorkel\",\"completeSummary\":[\"Always-On Retina display\",\"S10 chip with 64-bit dual-core processor\",\"Up to 24 hours18\",\"Up to 38 hours in Low Power Mode18\",\"Water-resistant 50 m12\",\"Swim, snorkel\",\"46 mm by 39 mm by 9.7 mm (46-mm) 37.8 grams (aluminium, GPS)36.9 grams (aluminium, GPS + Cellular)43.1 grams (titanium)\"]}}\n\nThe independent Watch schema requires configurations; the source supplied no configuration records, so this field is retained as an empty array without inventing data."
 		},
 		{
 			"id": "apple-watch-se-3",
 			"name": "Apple Watch SE 3",
-			"family": "watch",
 			"releaseYear": 2025,
-			"priceAud": 399,
 			"colors": [
 				{
 					"id": "midnight-aluminium",
 					"displayName": "Midnight Aluminium",
-					"swatch": {
-						"kind": "css",
-						"value": "#1a2530"
-					},
+					"swatch": "#1a2530",
 					"images": [
 						{
 							"label": "large 2x",
@@ -546,10 +487,7 @@
 				{
 					"id": "starlight-aluminium",
 					"displayName": "Starlight Aluminium",
-					"swatch": {
-						"kind": "css",
-						"value": "#ded6d1"
-					},
+					"swatch": "#ded6d1",
 					"images": [
 						{
 							"label": "large 2x",
@@ -583,21 +521,14 @@
 				}
 			],
 			"configurations": [],
-			"storageOptions": [],
 			"chips": [
 				{
 					"id": "s10-chip",
 					"displayName": "S10 chip",
 					"family": "Apple S-series",
-					"cpuCores": {
-						"total": 2,
-						"performance": null,
-						"efficiency": null
-					},
-					"gpuCores": null,
+					"cpuCores": 2,
 					"neuralEngineCores": 4,
-					"memoryBandwidthGbps": null,
-					"sourceNotes": "S10 chip with 64-bit dual-core processor"
+					"sourceNotes": "S10 chip with 64-bit dual-core processor\n\nLegacy chip detail retained verbatim: {\"cpuCores\":{\"total\":2},\"neuralEngineCores\":4}"
 				}
 			],
 			"displays": [
@@ -605,34 +536,17 @@
 					"id": "primary",
 					"technology": "Always-On Retina display",
 					"panelKind": "OLED",
-					"sizeIn": null,
-					"resolutionWidthPx": null,
-					"resolutionHeightPx": null,
-					"pixelsPerInch": null,
-					"refreshRateHz": null,
 					"refreshRateRange": {
 						"minimum": 1,
 						"maximum": 60,
 						"unit": "hz"
 					},
 					"sdrPeakBrightnessNits": 1000,
-					"hdrPeakBrightnessNits": null,
-					"fullScreenHdrBrightnessNits": null,
 					"minimumBrightnessNits": 1,
-					"trueTone": null,
-					"promotion": null,
 					"alwaysOn": true,
-					"wideColorP3": null,
-					"laminated": null,
-					"antireflective": null,
-					"nanoTextureOption": null,
-					"fingerprintResistantCoating": null,
-					"hoverSupport": null,
-					"mirroring": null,
 					"sourceNotes": "Display material: Always-On Retina display; Display construction: OLED; Display backplane: LTPO"
 				}
 			],
-			"cameras": [],
 			"audio": {
 				"speaker": true,
 				"microphone": true,
@@ -642,8 +556,6 @@
 			},
 			"batteryAndPower": {
 				"hasBattery": true,
-				"batteryCapacityMah": null,
-				"batteryCapacityWhr": null,
 				"runtimeHours": [
 					{
 						"id": "normal",
@@ -660,46 +572,48 @@
 					"portId": "wireless",
 					"wiredFastCharge": true,
 					"wirelessCharging": true,
-					"wirelessStandards": ["inductive"],
-					"fastChargeMinutesToPercent": {
+					"wirelessStandards": [
+						"inductive"
+					],
+					"fastCharge": {
 						"minutes": 45,
 						"percent": 80
-					},
-					"adapterPowerW": null
+					}
 				},
-				"powerSupply": {
-					"hasExternalPowerAdapter": null,
-					"outputVoltageV": null,
-					"outputCurrentA": null,
-					"outputPowerW": null,
-					"inputVoltageRangeV": null,
-					"frequencyHz": null,
-					"consumptionW": null
-				}
+				"powerSupply": {}
 			},
 			"connectivity": {
 				"ports": [],
 				"wifi": {
-					"standards": ["Wi-Fi 4"]
+					"standards": [
+						"Wi-Fi 4"
+					]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.3"
 				},
 				"cellular": {
-					"technologies": ["LTE", "5G sub-6"]
+					"technologies": [
+						"LTE",
+						"5G sub-6"
+					]
 				},
-				"uwb": null,
-				"thread": null,
-				"infrared": null,
-				"nearFieldCommunication": null,
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": false,
-					"systems": ["GPS", "GLONASS", "Galileo", "QZSS", "BeiDou"]
+					"systems": [
+						"GPS",
+						"GLONASS",
+						"Galileo",
+						"QZSS",
+						"BeiDou"
+					]
 				}
 			},
 			"authentication": {
-				"methods": ["passcode"],
+				"methods": [
+					"passcode"
+				],
 				"primaryMethod": "passcode"
 			},
 			"physical": {
@@ -710,19 +624,19 @@
 						"qualifier": "case variant"
 					},
 					{
-						"value": 33.0,
+						"value": 33,
 						"unit": "g",
 						"qualifier": "case variant"
 					}
 				],
 				"dimensions": [
 					{
-						"value": 44.0,
+						"value": 44,
 						"unit": "mm",
 						"qualifier": "case height"
 					},
 					{
-						"value": 38.0,
+						"value": 38,
 						"unit": "mm",
 						"qualifier": "case width"
 					},
@@ -737,37 +651,26 @@
 			"resistance": {
 				"ipRating": "IP6X",
 				"waterDepthM": 50,
-				"splashPressureAtm": null,
-				"dustProtected": false,
-				"sweatResistant": null
+				"dustProtected": false
 			},
 			"software": {
 				"operatingSystem": "watchOS",
-				"operatingSystemVersionAtLaunch": null,
+				"compatibleOperatingSystems": [],
 				"builtInApps": [],
 				"sourceNotes": "Complete Summary retained verbatim as source facts."
 			},
-			"accessories": [],
 			"watchDetails": {
-				"caseSizes": ["44 mm", "40 mm"],
+				"caseSizes": [
+					"44 mm",
+					"40 mm"
+				],
 				"alwaysOn": true,
 				"wideAngleDisplay": false,
-				"u1UwbChip": null,
 				"otherWirelessChip": "W3 Apple wireless chip",
 				"hasSpeaker": true,
 				"hasSiren": false,
-				"swimproofClassification": "Swim",
-				"completeSummary": [
-					"Always-On Retina display",
-					"S10 chip with 64-bit dual-core processor",
-					"Up to 18 hours19",
-					"Up to 32 hours inLow Power Mode19",
-					"Water-resistant 50 m12",
-					"Swim",
-					"44 mm by 38 mm by 10.7 mm (44-mm) 32.9 grams (GPS) 33.0 grams (GPS + Cellular)"
-				]
+				"swimproofClassification": "Swim"
 			},
-			"sourceNotes": "Extracted from four usable Apple AU compare exports. Exact source text preserved in typed fields where supported.",
 			"overviewImages": [
 				{
 					"label": "Model overview",
@@ -797,22 +700,19 @@
 					"widthPx": 215,
 					"heightPx": 246
 				}
-			]
+			],
+			"priceAud": 399,
+			"sourceNotes": "Extracted from four usable Apple AU compare exports. Exact source text preserved in typed fields where supported.\n\nLegacy Watch fields removed from the independent shape and preserved verbatim where no typed field exists: {\"family\":\"watch\",\"cameras\":[],\"storageOptions\":[],\"accessories\":[],\"watchDetails\":{\"caseSizes\":[\"44 mm\",\"40 mm\"],\"alwaysOn\":true,\"wideAngleDisplay\":false,\"otherWirelessChip\":\"W3 Apple wireless chip\",\"hasSpeaker\":true,\"hasSiren\":false,\"swimproofClassification\":\"Swim\",\"completeSummary\":[\"Always-On Retina display\",\"S10 chip with 64-bit dual-core processor\",\"Up to 18 hours19\",\"Up to 32 hours inLow Power Mode19\",\"Water-resistant 50 m12\",\"Swim\",\"44 mm by 38 mm by 10.7 mm (44-mm) 32.9 grams (GPS) 33.0 grams (GPS + Cellular)\"]}}\n\nThe independent Watch schema requires configurations; the source supplied no configuration records, so this field is retained as an empty array without inventing data."
 		},
 		{
 			"id": "apple-watch-ultra-3",
 			"name": "Apple Watch Ultra 3",
-			"family": "watch",
 			"releaseYear": 2025,
-			"priceAud": 1399,
 			"colors": [
 				{
 					"id": "natural-titanium",
 					"displayName": "Natural Titanium",
-					"swatch": {
-						"kind": "css",
-						"value": "#e3ddd7"
-					},
+					"swatch": "#e3ddd7",
 					"images": [
 						{
 							"label": "large 2x",
@@ -847,10 +747,7 @@
 				{
 					"id": "black-titanium",
 					"displayName": "Black Titanium",
-					"swatch": {
-						"kind": "css",
-						"value": "#0f0e0e"
-					},
+					"swatch": "#0f0e0e",
 					"images": [
 						{
 							"label": "large 2x",
@@ -884,21 +781,14 @@
 				}
 			],
 			"configurations": [],
-			"storageOptions": [],
 			"chips": [
 				{
 					"id": "s10-chip",
 					"displayName": "S10 chip",
 					"family": "Apple S-series",
-					"cpuCores": {
-						"total": 2,
-						"performance": null,
-						"efficiency": null
-					},
-					"gpuCores": null,
+					"cpuCores": 2,
 					"neuralEngineCores": 4,
-					"memoryBandwidthGbps": null,
-					"sourceNotes": "S10 chip with 64-bit dual-core processor"
+					"sourceNotes": "S10 chip with 64-bit dual-core processor\n\nLegacy chip detail retained verbatim: {\"cpuCores\":{\"total\":2},\"neuralEngineCores\":4}"
 				}
 			],
 			"displays": [
@@ -906,34 +796,17 @@
 					"id": "primary",
 					"technology": "Always-On Retina display",
 					"panelKind": "OLED",
-					"sizeIn": null,
-					"resolutionWidthPx": null,
-					"resolutionHeightPx": null,
-					"pixelsPerInch": null,
-					"refreshRateHz": null,
 					"refreshRateRange": {
 						"minimum": 1,
 						"maximum": 60,
 						"unit": "hz"
 					},
 					"sdrPeakBrightnessNits": 3000,
-					"hdrPeakBrightnessNits": null,
-					"fullScreenHdrBrightnessNits": null,
 					"minimumBrightnessNits": 1,
-					"trueTone": null,
-					"promotion": null,
 					"alwaysOn": true,
-					"wideColorP3": null,
-					"laminated": null,
-					"antireflective": null,
-					"nanoTextureOption": null,
-					"fingerprintResistantCoating": null,
-					"hoverSupport": null,
-					"mirroring": null,
 					"sourceNotes": "Display material: Always-On Retina display; Display construction: Wide-angle OLED; Display backplane: LTPO3"
 				}
 			],
-			"cameras": [],
 			"audio": {
 				"speaker": true,
 				"microphone": true,
@@ -943,8 +816,6 @@
 			},
 			"batteryAndPower": {
 				"hasBattery": true,
-				"batteryCapacityMah": null,
-				"batteryCapacityWhr": null,
 				"runtimeHours": [
 					{
 						"id": "normal",
@@ -961,48 +832,51 @@
 					"portId": "wireless",
 					"wiredFastCharge": true,
 					"wirelessCharging": true,
-					"wirelessStandards": ["inductive"],
-					"fastChargeMinutesToPercent": {
+					"wirelessStandards": [
+						"inductive"
+					],
+					"fastCharge": {
 						"minutes": 45,
 						"percent": 80
-					},
-					"adapterPowerW": null
+					}
 				},
-				"powerSupply": {
-					"hasExternalPowerAdapter": null,
-					"outputVoltageV": null,
-					"outputCurrentA": null,
-					"outputPowerW": null,
-					"inputVoltageRangeV": null,
-					"frequencyHz": null,
-					"consumptionW": null
-				}
+				"powerSupply": {}
 			},
 			"connectivity": {
 				"ports": [],
 				"wifi": {
-					"standards": ["Wi-Fi 4"]
+					"standards": [
+						"Wi-Fi 4"
+					]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.3"
 				},
 				"cellular": {
-					"technologies": ["LTE", "5G sub-6"]
+					"technologies": [
+						"LTE",
+						"5G sub-6"
+					]
 				},
 				"uwb": {
 					"chip": "Second-generation Ultra Wideband chip"
 				},
-				"thread": null,
-				"infrared": null,
-				"nearFieldCommunication": null,
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": true,
-					"systems": ["GPS", "GLONASS", "Galileo", "QZSS", "BeiDou"]
+					"systems": [
+						"GPS",
+						"GLONASS",
+						"Galileo",
+						"QZSS",
+						"BeiDou"
+					]
 				}
 			},
 			"authentication": {
-				"methods": ["passcode"],
+				"methods": [
+					"passcode"
+				],
 				"primaryMethod": "passcode"
 			},
 			"physical": {
@@ -1020,17 +894,17 @@
 				],
 				"dimensions": [
 					{
-						"value": 49.0,
+						"value": 49,
 						"unit": "mm",
 						"qualifier": "case height"
 					},
 					{
-						"value": 44.0,
+						"value": 44,
 						"unit": "mm",
 						"qualifier": "case width"
 					},
 					{
-						"value": 12.0,
+						"value": 12,
 						"unit": "mm",
 						"qualifier": "case thickness"
 					}
@@ -1040,37 +914,26 @@
 			"resistance": {
 				"ipRating": "IP6X",
 				"waterDepthM": 100,
-				"splashPressureAtm": null,
-				"dustProtected": true,
-				"sweatResistant": null
+				"dustProtected": true
 			},
 			"software": {
 				"operatingSystem": "watchOS",
-				"operatingSystemVersionAtLaunch": null,
+				"compatibleOperatingSystems": [],
 				"builtInApps": [],
 				"sourceNotes": "Complete Summary retained verbatim as source facts."
 			},
-			"accessories": [],
 			"watchDetails": {
-				"caseSizes": ["49 mm"],
+				"caseSizes": [
+					"49 mm"
+				],
 				"alwaysOn": true,
 				"wideAngleDisplay": true,
 				"u1UwbChip": "Second-generation Ultra Wideband chip",
 				"otherWirelessChip": "W3 Apple wireless chip",
 				"hasSpeaker": true,
 				"hasSiren": true,
-				"swimproofClassification": "Swim, snorkel, scuba, high-speed water sports",
-				"completeSummary": [
-					"Always-On Retina display",
-					"S10 chip with 64-bit dual-core processor",
-					"Up to 42 hours20",
-					"Up to 72 hours in Low Power Mode20",
-					"Water-resistant 100 m12",
-					"Swim, snorkel, scuba, high-speed water sports",
-					"49 mm by 44 mm by 12 mm61.6 grams (natural titanium)61.8 grams (black titanium)"
-				]
+				"swimproofClassification": "Swim, snorkel, scuba, high-speed water sports"
 			},
-			"sourceNotes": "Extracted from four usable Apple AU compare exports. Exact source text preserved in typed fields where supported.",
 			"overviewImages": [
 				{
 					"label": "Model overview",
@@ -1100,22 +963,19 @@
 					"widthPx": 215,
 					"heightPx": 246
 				}
-			]
+			],
+			"priceAud": 1399,
+			"sourceNotes": "Extracted from four usable Apple AU compare exports. Exact source text preserved in typed fields where supported.\n\nLegacy Watch fields removed from the independent shape and preserved verbatim where no typed field exists: {\"family\":\"watch\",\"cameras\":[],\"storageOptions\":[],\"accessories\":[],\"watchDetails\":{\"caseSizes\":[\"49 mm\"],\"alwaysOn\":true,\"wideAngleDisplay\":true,\"u1UwbChip\":\"Second-generation Ultra Wideband chip\",\"otherWirelessChip\":\"W3 Apple wireless chip\",\"hasSpeaker\":true,\"hasSiren\":true,\"swimproofClassification\":\"Swim, snorkel, scuba, high-speed water sports\",\"completeSummary\":[\"Always-On Retina display\",\"S10 chip with 64-bit dual-core processor\",\"Up to 42 hours20\",\"Up to 72 hours in Low Power Mode20\",\"Water-resistant 100 m12\",\"Swim, snorkel, scuba, high-speed water sports\",\"49 mm by 44 mm by 12 mm61.6 grams (natural titanium)61.8 grams (black titanium)\"]}}\n\nThe independent Watch schema requires configurations; the source supplied no configuration records, so this field is retained as an empty array without inventing data."
 		},
 		{
 			"id": "apple-watch-series-10",
 			"name": "Apple Watch Series 10",
-			"family": "watch",
 			"releaseYear": 2024,
-			"priceAud": 679,
 			"colors": [
 				{
 					"id": "jet-black-aluminium",
 					"displayName": "Jet Black Aluminium",
-					"swatch": {
-						"kind": "css",
-						"value": "#010203"
-					},
+					"swatch": "#010203",
 					"images": [
 						{
 							"label": "large 2x",
@@ -1150,10 +1010,7 @@
 				{
 					"id": "rose-gold-aluminium",
 					"displayName": "Rose Gold Aluminium",
-					"swatch": {
-						"kind": "css",
-						"value": "#f6d9cd"
-					},
+					"swatch": "#f6d9cd",
 					"images": [
 						{
 							"label": "large 2x",
@@ -1188,10 +1045,7 @@
 				{
 					"id": "silver-aluminium",
 					"displayName": "Silver Aluminium",
-					"swatch": {
-						"kind": "css",
-						"value": "#e0e0e0"
-					},
+					"swatch": "#e0e0e0",
 					"images": [
 						{
 							"label": "large 2x",
@@ -1226,10 +1080,7 @@
 				{
 					"id": "slate-titanium",
 					"displayName": "Slate Titanium",
-					"swatch": {
-						"kind": "css",
-						"value": "#47423d"
-					},
+					"swatch": "#47423d",
 					"images": [
 						{
 							"label": "large 2x",
@@ -1264,10 +1115,7 @@
 				{
 					"id": "gold-titanium",
 					"displayName": "Gold Titanium",
-					"swatch": {
-						"kind": "css",
-						"value": "#f4dec8"
-					},
+					"swatch": "#f4dec8",
 					"images": [
 						{
 							"label": "large 2x",
@@ -1302,10 +1150,7 @@
 				{
 					"id": "natural-titanium",
 					"displayName": "Natural Titanium",
-					"swatch": {
-						"kind": "css",
-						"value": "#ccc4bc"
-					},
+					"swatch": "#ccc4bc",
 					"images": [
 						{
 							"label": "large 2x",
@@ -1339,21 +1184,14 @@
 				}
 			],
 			"configurations": [],
-			"storageOptions": [],
 			"chips": [
 				{
 					"id": "s10-chip",
 					"displayName": "S10 chip",
 					"family": "Apple S-series",
-					"cpuCores": {
-						"total": 2,
-						"performance": null,
-						"efficiency": null
-					},
-					"gpuCores": null,
+					"cpuCores": 2,
 					"neuralEngineCores": 4,
-					"memoryBandwidthGbps": null,
-					"sourceNotes": "S10 chip with 64-bit dual-core processor"
+					"sourceNotes": "S10 chip with 64-bit dual-core processor\n\nLegacy chip detail retained verbatim: {\"cpuCores\":{\"total\":2},\"neuralEngineCores\":4}"
 				}
 			],
 			"displays": [
@@ -1361,34 +1199,17 @@
 					"id": "primary",
 					"technology": "Always-On Retina display",
 					"panelKind": "OLED",
-					"sizeIn": null,
-					"resolutionWidthPx": null,
-					"resolutionHeightPx": null,
-					"pixelsPerInch": null,
-					"refreshRateHz": null,
 					"refreshRateRange": {
 						"minimum": 1,
 						"maximum": 60,
 						"unit": "hz"
 					},
 					"sdrPeakBrightnessNits": 2000,
-					"hdrPeakBrightnessNits": null,
-					"fullScreenHdrBrightnessNits": null,
 					"minimumBrightnessNits": 1,
-					"trueTone": null,
-					"promotion": null,
 					"alwaysOn": true,
-					"wideColorP3": null,
-					"laminated": null,
-					"antireflective": null,
-					"nanoTextureOption": null,
-					"fingerprintResistantCoating": null,
-					"hoverSupport": null,
-					"mirroring": null,
 					"sourceNotes": "Display material: Always-On Retina display; Display construction: Wide-angle OLED; Display backplane: LTPO3"
 				}
 			],
-			"cameras": [],
 			"audio": {
 				"speaker": true,
 				"microphone": true,
@@ -1398,8 +1219,6 @@
 			},
 			"batteryAndPower": {
 				"hasBattery": true,
-				"batteryCapacityMah": null,
-				"batteryCapacityWhr": null,
 				"runtimeHours": [
 					{
 						"id": "normal",
@@ -1416,48 +1235,50 @@
 					"portId": "wireless",
 					"wiredFastCharge": true,
 					"wirelessCharging": true,
-					"wirelessStandards": ["inductive"],
-					"fastChargeMinutesToPercent": {
+					"wirelessStandards": [
+						"inductive"
+					],
+					"fastCharge": {
 						"minutes": 30,
 						"percent": 80
-					},
-					"adapterPowerW": null
+					}
 				},
-				"powerSupply": {
-					"hasExternalPowerAdapter": null,
-					"outputVoltageV": null,
-					"outputCurrentA": null,
-					"outputPowerW": null,
-					"inputVoltageRangeV": null,
-					"frequencyHz": null,
-					"consumptionW": null
-				}
+				"powerSupply": {}
 			},
 			"connectivity": {
 				"ports": [],
 				"wifi": {
-					"standards": ["Wi-Fi 4"]
+					"standards": [
+						"Wi-Fi 4"
+					]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.3"
 				},
 				"cellular": {
-					"technologies": ["LTE"]
+					"technologies": [
+						"LTE"
+					]
 				},
 				"uwb": {
 					"chip": "Second-generation Ultra Wideband chip"
 				},
-				"thread": null,
-				"infrared": null,
-				"nearFieldCommunication": null,
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": false,
-					"systems": ["GPS", "GLONASS", "Galileo", "QZSS", "BeiDou"]
+					"systems": [
+						"GPS",
+						"GLONASS",
+						"Galileo",
+						"QZSS",
+						"BeiDou"
+					]
 				}
 			},
 			"authentication": {
-				"methods": ["passcode"],
+				"methods": [
+					"passcode"
+				],
 				"primaryMethod": "passcode"
 			},
 			"physical": {
@@ -1480,12 +1301,12 @@
 				],
 				"dimensions": [
 					{
-						"value": 46.0,
+						"value": 46,
 						"unit": "mm",
 						"qualifier": "case height"
 					},
 					{
-						"value": 39.0,
+						"value": 39,
 						"unit": "mm",
 						"qualifier": "case width"
 					},
@@ -1500,37 +1321,27 @@
 			"resistance": {
 				"ipRating": "IP6X",
 				"waterDepthM": 50,
-				"splashPressureAtm": null,
-				"dustProtected": true,
-				"sweatResistant": null
+				"dustProtected": true
 			},
 			"software": {
 				"operatingSystem": "watchOS",
-				"operatingSystemVersionAtLaunch": null,
+				"compatibleOperatingSystems": [],
 				"builtInApps": [],
 				"sourceNotes": "Complete Summary retained verbatim as source facts."
 			},
-			"accessories": [],
 			"watchDetails": {
-				"caseSizes": ["46 mm", "42 mm"],
+				"caseSizes": [
+					"46 mm",
+					"42 mm"
+				],
 				"alwaysOn": true,
 				"wideAngleDisplay": true,
 				"u1UwbChip": "Second-generation Ultra Wideband chip",
 				"otherWirelessChip": "W3 Apple wireless chip",
 				"hasSpeaker": true,
 				"hasSiren": false,
-				"swimproofClassification": "Swim, snorkel",
-				"completeSummary": [
-					"Always-On Retina display",
-					"S10 chip with 64-bit dual-core processor",
-					"Up to 18 hours22",
-					"Up to 36 hours in Low Power Mode22",
-					"Water-resistant to 50 m12",
-					"Swim, snorkel",
-					"46 mm by 39 mm by 9.7 mm (46-mm) 36.4 grams (aluminium, GPS) 35.3 grams (aluminium, GPS + Cellular) 41.7 grams (titanium)"
-				]
+				"swimproofClassification": "Swim, snorkel"
 			},
-			"sourceNotes": "Extracted from four usable Apple AU compare exports. Exact source text preserved in typed fields where supported.",
 			"overviewImages": [
 				{
 					"label": "Model overview",
@@ -1560,59 +1371,42 @@
 					"widthPx": 215,
 					"heightPx": 246
 				}
-			]
+			],
+			"priceAud": 679,
+			"sourceNotes": "Extracted from four usable Apple AU compare exports. Exact source text preserved in typed fields where supported.\n\nLegacy Watch fields removed from the independent shape and preserved verbatim where no typed field exists: {\"family\":\"watch\",\"cameras\":[],\"storageOptions\":[],\"accessories\":[],\"watchDetails\":{\"caseSizes\":[\"46 mm\",\"42 mm\"],\"alwaysOn\":true,\"wideAngleDisplay\":true,\"u1UwbChip\":\"Second-generation Ultra Wideband chip\",\"otherWirelessChip\":\"W3 Apple wireless chip\",\"hasSpeaker\":true,\"hasSiren\":false,\"swimproofClassification\":\"Swim, snorkel\",\"completeSummary\":[\"Always-On Retina display\",\"S10 chip with 64-bit dual-core processor\",\"Up to 18 hours22\",\"Up to 36 hours in Low Power Mode22\",\"Water-resistant to 50 m12\",\"Swim, snorkel\",\"46 mm by 39 mm by 9.7 mm (46-mm) 36.4 grams (aluminium, GPS) 35.3 grams (aluminium, GPS + Cellular) 41.7 grams (titanium)\"]}}\n\nThe independent Watch schema requires configurations; the source supplied no configuration records, so this field is retained as an empty array without inventing data."
 		},
 		{
 			"id": "apple-watch-se-2",
 			"name": "Apple Watch SE 2",
-			"family": "watch",
 			"releaseYear": 2022,
-			"priceAud": 399,
 			"colors": [
 				{
 					"id": "midnight-aluminium",
 					"displayName": "Midnight Aluminium",
-					"swatch": {
-						"kind": "css",
-						"value": "#1a2530"
-					},
+					"swatch": "#1a2530",
 					"images": []
 				},
 				{
 					"id": "starlight-aluminium",
 					"displayName": "Starlight Aluminium",
-					"swatch": {
-						"kind": "css",
-						"value": "#ded6d1"
-					},
+					"swatch": "#ded6d1",
 					"images": []
 				},
 				{
 					"id": "silver-aluminium",
 					"displayName": "Silver Aluminium",
-					"swatch": {
-						"kind": "css",
-						"value": "#e6e6e7"
-					},
+					"swatch": "#e6e6e7",
 					"images": []
 				}
 			],
 			"configurations": [],
-			"storageOptions": [],
 			"chips": [
 				{
 					"id": "s8-chip",
 					"displayName": "S8 chip",
 					"family": "Apple S-series",
-					"cpuCores": {
-						"total": 2,
-						"performance": null,
-						"efficiency": null
-					},
-					"gpuCores": null,
-					"neuralEngineCores": null,
-					"memoryBandwidthGbps": null,
-					"sourceNotes": "S8 chip with 64-bit dual-core processor"
+					"cpuCores": 2,
+					"sourceNotes": "S8 chip with 64-bit dual-core processor\n\nLegacy chip detail retained verbatim: {\"cpuCores\":{\"total\":2}}"
 				}
 			],
 			"displays": [
@@ -1620,34 +1414,16 @@
 					"id": "primary",
 					"technology": "Retina display",
 					"panelKind": "OLED",
-					"sizeIn": null,
-					"resolutionWidthPx": null,
-					"resolutionHeightPx": null,
-					"pixelsPerInch": null,
-					"refreshRateHz": null,
 					"refreshRateRange": {
 						"minimum": 1,
 						"maximum": 60,
 						"unit": "hz"
 					},
 					"sdrPeakBrightnessNits": 1000,
-					"hdrPeakBrightnessNits": null,
-					"fullScreenHdrBrightnessNits": null,
-					"minimumBrightnessNits": null,
-					"trueTone": null,
-					"promotion": null,
 					"alwaysOn": false,
-					"wideColorP3": null,
-					"laminated": null,
-					"antireflective": null,
-					"nanoTextureOption": null,
-					"fingerprintResistantCoating": null,
-					"hoverSupport": null,
-					"mirroring": null,
 					"sourceNotes": "Display material: Retina display; Display construction: OLED; Display backplane: LTPO"
 				}
 			],
-			"cameras": [],
 			"audio": {
 				"speaker": true,
 				"microphone": true,
@@ -1657,8 +1433,6 @@
 			},
 			"batteryAndPower": {
 				"hasBattery": true,
-				"batteryCapacityMah": null,
-				"batteryCapacityWhr": null,
 				"runtimeHours": [
 					{
 						"id": "normal",
@@ -1670,43 +1444,43 @@
 					"portId": "wireless",
 					"wiredFastCharge": false,
 					"wirelessCharging": true,
-					"wirelessStandards": ["inductive"],
-					"fastChargeMinutesToPercent": null,
-					"adapterPowerW": null
+					"wirelessStandards": [
+						"inductive"
+					]
 				},
-				"powerSupply": {
-					"hasExternalPowerAdapter": null,
-					"outputVoltageV": null,
-					"outputCurrentA": null,
-					"outputPowerW": null,
-					"inputVoltageRangeV": null,
-					"frequencyHz": null,
-					"consumptionW": null
-				}
+				"powerSupply": {}
 			},
 			"connectivity": {
 				"ports": [],
 				"wifi": {
-					"standards": ["Wi-Fi 4"]
+					"standards": [
+						"Wi-Fi 4"
+					]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.3"
 				},
 				"cellular": {
-					"technologies": ["LTE"]
+					"technologies": [
+						"LTE"
+					]
 				},
-				"uwb": null,
-				"thread": null,
-				"infrared": null,
-				"nearFieldCommunication": null,
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": false,
-					"systems": ["GPS", "GLONASS", "Galileo", "QZSS", "BeiDou"]
+					"systems": [
+						"GPS",
+						"GLONASS",
+						"Galileo",
+						"QZSS",
+						"BeiDou"
+					]
 				}
 			},
 			"authentication": {
-				"methods": ["passcode"],
+				"methods": [
+					"passcode"
+				],
 				"primaryMethod": "passcode"
 			},
 			"physical": {
@@ -1717,19 +1491,19 @@
 						"qualifier": "case variant"
 					},
 					{
-						"value": 33.0,
+						"value": 33,
 						"unit": "g",
 						"qualifier": "case variant"
 					}
 				],
 				"dimensions": [
 					{
-						"value": 44.0,
+						"value": 44,
 						"unit": "mm",
 						"qualifier": "case height"
 					},
 					{
-						"value": 38.0,
+						"value": 38,
 						"unit": "mm",
 						"qualifier": "case width"
 					},
@@ -1742,55 +1516,40 @@
 				"components": []
 			},
 			"resistance": {
-				"ipRating": null,
 				"waterDepthM": 50,
-				"splashPressureAtm": null,
-				"dustProtected": false,
-				"sweatResistant": null
+				"dustProtected": false
 			},
 			"software": {
 				"operatingSystem": "watchOS",
-				"operatingSystemVersionAtLaunch": null,
+				"compatibleOperatingSystems": [],
 				"builtInApps": [],
 				"sourceNotes": "Complete Summary retained verbatim as source facts."
 			},
-			"accessories": [],
 			"watchDetails": {
-				"caseSizes": ["44 mm", "40 mm"],
+				"caseSizes": [
+					"44 mm",
+					"40 mm"
+				],
 				"alwaysOn": false,
 				"wideAngleDisplay": false,
-				"u1UwbChip": null,
 				"otherWirelessChip": "W3 Apple wireless chip",
 				"hasSpeaker": true,
 				"hasSiren": false,
-				"swimproofClassification": "Swim",
-				"completeSummary": [
-					"Retina display",
-					"S8 chip with 64-bit dual-core processor",
-					"Up to 18 hours21",
-					"Low Power Mode",
-					"Water-resistant to 50 m12",
-					"Swim",
-					"44 mm by 38 mm by 10.7 mm (44-mm) 32.9 grams (GPS) 33.0 grams (GPS + Cellular)"
-				]
+				"swimproofClassification": "Swim"
 			},
-			"sourceNotes": "Extracted from four usable Apple AU compare exports. Exact source text preserved in typed fields where supported.",
-			"overviewImages": []
+			"overviewImages": [],
+			"priceAud": 399,
+			"sourceNotes": "Extracted from four usable Apple AU compare exports. Exact source text preserved in typed fields where supported.\n\nLegacy Watch fields removed from the independent shape and preserved verbatim where no typed field exists: {\"family\":\"watch\",\"cameras\":[],\"storageOptions\":[],\"accessories\":[],\"watchDetails\":{\"caseSizes\":[\"44 mm\",\"40 mm\"],\"alwaysOn\":false,\"wideAngleDisplay\":false,\"otherWirelessChip\":\"W3 Apple wireless chip\",\"hasSpeaker\":true,\"hasSiren\":false,\"swimproofClassification\":\"Swim\",\"completeSummary\":[\"Retina display\",\"S8 chip with 64-bit dual-core processor\",\"Up to 18 hours21\",\"Low Power Mode\",\"Water-resistant to 50 m12\",\"Swim\",\"44 mm by 38 mm by 10.7 mm (44-mm) 32.9 grams (GPS) 33.0 grams (GPS + Cellular)\"]}}\n\nThe independent Watch schema requires configurations; the source supplied no configuration records, so this field is retained as an empty array without inventing data."
 		},
 		{
 			"id": "apple-watch-ultra-2",
 			"name": "Apple Watch Ultra 2",
-			"family": "watch",
 			"releaseYear": 2023,
-			"priceAud": 1399,
 			"colors": [
 				{
 					"id": "black-titanium",
 					"displayName": "Black Titanium",
-					"swatch": {
-						"kind": "css",
-						"value": "#0f0e0e"
-					},
+					"swatch": "#0f0e0e",
 					"images": [
 						{
 							"label": "large 2x",
@@ -1825,10 +1584,7 @@
 				{
 					"id": "natural-titanium",
 					"displayName": "Natural Titanium",
-					"swatch": {
-						"kind": "css",
-						"value": "#ccc4bc"
-					},
+					"swatch": "#ccc4bc",
 					"images": [
 						{
 							"label": "large 2x",
@@ -1862,21 +1618,14 @@
 				}
 			],
 			"configurations": [],
-			"storageOptions": [],
 			"chips": [
 				{
 					"id": "s9-chip",
 					"displayName": "S9 chip",
 					"family": "Apple S-series",
-					"cpuCores": {
-						"total": 2,
-						"performance": null,
-						"efficiency": null
-					},
-					"gpuCores": null,
+					"cpuCores": 2,
 					"neuralEngineCores": 4,
-					"memoryBandwidthGbps": null,
-					"sourceNotes": "S9 chip with 64-bit dual-core processor"
+					"sourceNotes": "S9 chip with 64-bit dual-core processor\n\nLegacy chip detail retained verbatim: {\"cpuCores\":{\"total\":2},\"neuralEngineCores\":4}"
 				}
 			],
 			"displays": [
@@ -1884,34 +1633,17 @@
 					"id": "primary",
 					"technology": "Always-On Retina display",
 					"panelKind": "OLED",
-					"sizeIn": null,
-					"resolutionWidthPx": null,
-					"resolutionHeightPx": null,
-					"pixelsPerInch": null,
-					"refreshRateHz": null,
 					"refreshRateRange": {
 						"minimum": 1,
 						"maximum": 60,
 						"unit": "hz"
 					},
 					"sdrPeakBrightnessNits": 3000,
-					"hdrPeakBrightnessNits": null,
-					"fullScreenHdrBrightnessNits": null,
 					"minimumBrightnessNits": 1,
-					"trueTone": null,
-					"promotion": null,
 					"alwaysOn": true,
-					"wideColorP3": null,
-					"laminated": null,
-					"antireflective": null,
-					"nanoTextureOption": null,
-					"fingerprintResistantCoating": null,
-					"hoverSupport": null,
-					"mirroring": null,
 					"sourceNotes": "Display material: Always-On Retina display; Display construction: OLED; Display backplane: LTPO2"
 				}
 			],
-			"cameras": [],
 			"audio": {
 				"speaker": true,
 				"microphone": true,
@@ -1921,8 +1653,6 @@
 			},
 			"batteryAndPower": {
 				"hasBattery": true,
-				"batteryCapacityMah": null,
-				"batteryCapacityWhr": null,
 				"runtimeHours": [
 					{
 						"id": "normal",
@@ -1939,45 +1669,46 @@
 					"portId": "wireless",
 					"wiredFastCharge": true,
 					"wirelessCharging": true,
-					"wirelessStandards": ["inductive"],
-					"fastChargeMinutesToPercent": null,
-					"adapterPowerW": null
+					"wirelessStandards": [
+						"inductive"
+					]
 				},
-				"powerSupply": {
-					"hasExternalPowerAdapter": null,
-					"outputVoltageV": null,
-					"outputCurrentA": null,
-					"outputPowerW": null,
-					"inputVoltageRangeV": null,
-					"frequencyHz": null,
-					"consumptionW": null
-				}
+				"powerSupply": {}
 			},
 			"connectivity": {
 				"ports": [],
 				"wifi": {
-					"standards": ["Wi-Fi 4"]
+					"standards": [
+						"Wi-Fi 4"
+					]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.3"
 				},
 				"cellular": {
-					"technologies": ["LTE"]
+					"technologies": [
+						"LTE"
+					]
 				},
 				"uwb": {
 					"chip": "Second-generation Ultra Wideband chip"
 				},
-				"thread": null,
-				"infrared": null,
-				"nearFieldCommunication": null,
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": true,
-					"systems": ["GPS", "GLONASS", "Galileo", "QZSS", "BeiDou"]
+					"systems": [
+						"GPS",
+						"GLONASS",
+						"Galileo",
+						"QZSS",
+						"BeiDou"
+					]
 				}
 			},
 			"authentication": {
-				"methods": ["passcode"],
+				"methods": [
+					"passcode"
+				],
 				"primaryMethod": "passcode"
 			},
 			"physical": {
@@ -1995,12 +1726,12 @@
 				],
 				"dimensions": [
 					{
-						"value": 49.0,
+						"value": 49,
 						"unit": "mm",
 						"qualifier": "case height"
 					},
 					{
-						"value": 44.0,
+						"value": 44,
 						"unit": "mm",
 						"qualifier": "case width"
 					},
@@ -2015,37 +1746,26 @@
 			"resistance": {
 				"ipRating": "IP6X",
 				"waterDepthM": 100,
-				"splashPressureAtm": null,
-				"dustProtected": true,
-				"sweatResistant": null
+				"dustProtected": true
 			},
 			"software": {
 				"operatingSystem": "watchOS",
-				"operatingSystemVersionAtLaunch": null,
+				"compatibleOperatingSystems": [],
 				"builtInApps": [],
 				"sourceNotes": "Complete Summary retained verbatim as source facts."
 			},
-			"accessories": [],
 			"watchDetails": {
-				"caseSizes": ["49 mm"],
+				"caseSizes": [
+					"49 mm"
+				],
 				"alwaysOn": true,
 				"wideAngleDisplay": false,
 				"u1UwbChip": "Second-generation Ultra Wideband chip",
 				"otherWirelessChip": "W3 Apple wireless chip",
 				"hasSpeaker": true,
 				"hasSiren": true,
-				"swimproofClassification": "Swim, snorkel, scuba, high-speed water sports",
-				"completeSummary": [
-					"Always-On Retina display",
-					"S9 chip with 64-bit dual-core processor",
-					"Up to 36 hours23",
-					"Up to 72 hours in Low Power Mode23",
-					"Water-resistant to 100 m12",
-					"Swim, snorkel, scuba, high-speed water sports",
-					"49 mm by 44 mm by 14.4 mm 61.4 grams (natural) 61.8 grams (black)"
-				]
+				"swimproofClassification": "Swim, snorkel, scuba, high-speed water sports"
 			},
-			"sourceNotes": "Extracted from four usable Apple AU compare exports. Exact source text preserved in typed fields where supported.",
 			"overviewImages": [
 				{
 					"label": "Model overview",
@@ -2075,22 +1795,19 @@
 					"widthPx": 215,
 					"heightPx": 246
 				}
-			]
+			],
+			"priceAud": 1399,
+			"sourceNotes": "Extracted from four usable Apple AU compare exports. Exact source text preserved in typed fields where supported.\n\nLegacy Watch fields removed from the independent shape and preserved verbatim where no typed field exists: {\"family\":\"watch\",\"cameras\":[],\"storageOptions\":[],\"accessories\":[],\"watchDetails\":{\"caseSizes\":[\"49 mm\"],\"alwaysOn\":true,\"wideAngleDisplay\":false,\"u1UwbChip\":\"Second-generation Ultra Wideband chip\",\"otherWirelessChip\":\"W3 Apple wireless chip\",\"hasSpeaker\":true,\"hasSiren\":true,\"swimproofClassification\":\"Swim, snorkel, scuba, high-speed water sports\",\"completeSummary\":[\"Always-On Retina display\",\"S9 chip with 64-bit dual-core processor\",\"Up to 36 hours23\",\"Up to 72 hours in Low Power Mode23\",\"Water-resistant to 100 m12\",\"Swim, snorkel, scuba, high-speed water sports\",\"49 mm by 44 mm by 14.4 mm 61.4 grams (natural) 61.8 grams (black)\"]}}\n\nThe independent Watch schema requires configurations; the source supplied no configuration records, so this field is retained as an empty array without inventing data."
 		},
 		{
 			"id": "apple-watch-series-9",
 			"name": "Apple Watch Series 9",
-			"family": "watch",
 			"releaseYear": 2023,
-			"priceAud": 599,
 			"colors": [
 				{
 					"id": "midnight-aluminium",
 					"displayName": "Midnight Aluminium",
-					"swatch": {
-						"kind": "css",
-						"value": "#1a2530"
-					},
+					"swatch": "#1a2530",
 					"images": [
 						{
 							"label": "large 2x",
@@ -2125,83 +1842,55 @@
 				{
 					"id": "starlight-aluminium",
 					"displayName": "Starlight Aluminium",
-					"swatch": {
-						"kind": "css",
-						"value": "#ded6d1"
-					},
+					"swatch": "#ded6d1",
 					"images": []
 				},
 				{
 					"id": "silver-aluminium",
 					"displayName": "Silver Aluminium",
-					"swatch": {
-						"kind": "css",
-						"value": "#f0eff1"
-					},
+					"swatch": "#f0eff1",
 					"images": []
 				},
 				{
 					"id": "pink-aluminium",
 					"displayName": "Pink Aluminium",
-					"swatch": {
-						"kind": "css",
-						"value": "#fadcde"
-					},
+					"swatch": "#fadcde",
 					"images": []
 				},
 				{
 					"id": "product-red-aluminium",
 					"displayName": "(PRODUCT)RED Aluminium",
-					"swatch": {
-						"kind": "css",
-						"value": "#c80e2d"
-					},
+					"swatch": "#c80e2d",
 					"images": []
 				},
 				{
 					"id": "silver-stainless",
 					"displayName": "Silver Stainless",
-					"swatch": {
-						"kind": "css",
-						"value": "#e6e6e7"
-					},
+					"swatch": "#e6e6e7",
 					"images": []
 				},
 				{
 					"id": "graphite-stainless",
 					"displayName": "Graphite Stainless",
-					"swatch": {
-						"kind": "css",
-						"value": "#3e3a36"
-					},
+					"swatch": "#3e3a36",
 					"images": []
 				},
 				{
 					"id": "gold-stainless",
 					"displayName": "Gold Stainless",
-					"swatch": {
-						"kind": "css",
-						"value": "#d4bda1"
-					},
+					"swatch": "#d4bda1",
 					"images": []
 				}
 			],
 			"configurations": [],
-			"storageOptions": [],
 			"chips": [
 				{
 					"id": "s9-chip",
 					"displayName": "S9 chip",
 					"family": "Apple S-series",
-					"cpuCores": {
-						"total": 2,
-						"performance": null,
-						"efficiency": null
-					},
-					"gpuCores": null,
+					"cpuCores": 2,
 					"neuralEngineCores": 4,
-					"memoryBandwidthGbps": null,
-					"sourceNotes": "S9 chip with 64-bit dual-core processor"
+					"sourceNotes": "S9 chip with 64-bit dual-core processor\n\nLegacy chip detail retained verbatim: {\"cpuCores\":{\"total\":2},\"neuralEngineCores\":4}"
 				}
 			],
 			"displays": [
@@ -2209,34 +1898,17 @@
 					"id": "primary",
 					"technology": "Always-On Retina display",
 					"panelKind": "OLED",
-					"sizeIn": null,
-					"resolutionWidthPx": null,
-					"resolutionHeightPx": null,
-					"pixelsPerInch": null,
-					"refreshRateHz": null,
 					"refreshRateRange": {
 						"minimum": 1,
 						"maximum": 60,
 						"unit": "hz"
 					},
 					"sdrPeakBrightnessNits": 2000,
-					"hdrPeakBrightnessNits": null,
-					"fullScreenHdrBrightnessNits": null,
 					"minimumBrightnessNits": 1,
-					"trueTone": null,
-					"promotion": null,
 					"alwaysOn": true,
-					"wideColorP3": null,
-					"laminated": null,
-					"antireflective": null,
-					"nanoTextureOption": null,
-					"fingerprintResistantCoating": null,
-					"hoverSupport": null,
-					"mirroring": null,
 					"sourceNotes": "Display material: Always-On Retina display; Display construction: OLED; Display backplane: LTPO"
 				}
 			],
-			"cameras": [],
 			"audio": {
 				"speaker": true,
 				"microphone": true,
@@ -2246,8 +1918,6 @@
 			},
 			"batteryAndPower": {
 				"hasBattery": true,
-				"batteryCapacityMah": null,
-				"batteryCapacityWhr": null,
 				"runtimeHours": [
 					{
 						"id": "normal",
@@ -2264,48 +1934,50 @@
 					"portId": "wireless",
 					"wiredFastCharge": true,
 					"wirelessCharging": true,
-					"wirelessStandards": ["inductive"],
-					"fastChargeMinutesToPercent": {
+					"wirelessStandards": [
+						"inductive"
+					],
+					"fastCharge": {
 						"minutes": 45,
 						"percent": 80
-					},
-					"adapterPowerW": null
+					}
 				},
-				"powerSupply": {
-					"hasExternalPowerAdapter": null,
-					"outputVoltageV": null,
-					"outputCurrentA": null,
-					"outputPowerW": null,
-					"inputVoltageRangeV": null,
-					"frequencyHz": null,
-					"consumptionW": null
-				}
+				"powerSupply": {}
 			},
 			"connectivity": {
 				"ports": [],
 				"wifi": {
-					"standards": ["Wi-Fi 4"]
+					"standards": [
+						"Wi-Fi 4"
+					]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.3"
 				},
 				"cellular": {
-					"technologies": ["LTE"]
+					"technologies": [
+						"LTE"
+					]
 				},
 				"uwb": {
 					"chip": "Second-generation Ultra Wideband chip"
 				},
-				"thread": null,
-				"infrared": null,
-				"nearFieldCommunication": null,
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": false,
-					"systems": ["GPS", "GLONASS", "Galileo", "QZSS", "BeiDou"]
+					"systems": [
+						"GPS",
+						"GLONASS",
+						"Galileo",
+						"QZSS",
+						"BeiDou"
+					]
 				}
 			},
 			"authentication": {
-				"methods": ["passcode"],
+				"methods": [
+					"passcode"
+				],
 				"primaryMethod": "passcode"
 			},
 			"physical": {
@@ -2316,7 +1988,7 @@
 						"qualifier": "case variant"
 					},
 					{
-						"value": 39.0,
+						"value": 39,
 						"unit": "g",
 						"qualifier": "case variant"
 					},
@@ -2328,12 +2000,12 @@
 				],
 				"dimensions": [
 					{
-						"value": 45.0,
+						"value": 45,
 						"unit": "mm",
 						"qualifier": "case height"
 					},
 					{
-						"value": 38.0,
+						"value": 38,
 						"unit": "mm",
 						"qualifier": "case width"
 					},
@@ -2348,37 +2020,27 @@
 			"resistance": {
 				"ipRating": "IP6X",
 				"waterDepthM": 50,
-				"splashPressureAtm": null,
-				"dustProtected": true,
-				"sweatResistant": null
+				"dustProtected": true
 			},
 			"software": {
 				"operatingSystem": "watchOS",
-				"operatingSystemVersionAtLaunch": null,
+				"compatibleOperatingSystems": [],
 				"builtInApps": [],
 				"sourceNotes": "Complete Summary retained verbatim as source facts."
 			},
-			"accessories": [],
 			"watchDetails": {
-				"caseSizes": ["45 mm", "41 mm"],
+				"caseSizes": [
+					"45 mm",
+					"41 mm"
+				],
 				"alwaysOn": true,
 				"wideAngleDisplay": false,
 				"u1UwbChip": "Second-generation Ultra Wideband chip",
 				"otherWirelessChip": "W3 Apple wireless chip",
 				"hasSpeaker": true,
 				"hasSiren": false,
-				"swimproofClassification": "Swim",
-				"completeSummary": [
-					"Always-On Retina display",
-					"S9 chip with 64-bit dual-core processor",
-					"Up to 18 hours24",
-					"Up to 36 hours in Low Power Mode24",
-					"Water-resistant to 50 m12",
-					"Swim",
-					"45 mm by 38 mm by 10.7 mm (45-mm) 38.7 grams (aluminium, GPS) 39.0 grams (aluminium, GPS + Cellular) 51.5 grams (stainless steel)"
-				]
+				"swimproofClassification": "Swim"
 			},
-			"sourceNotes": "Extracted from four usable Apple AU compare exports. Exact source text preserved in typed fields where supported.",
 			"overviewImages": [
 				{
 					"label": "Model overview",
@@ -2408,59 +2070,42 @@
 					"widthPx": 215,
 					"heightPx": 246
 				}
-			]
+			],
+			"priceAud": 599,
+			"sourceNotes": "Extracted from four usable Apple AU compare exports. Exact source text preserved in typed fields where supported.\n\nLegacy Watch fields removed from the independent shape and preserved verbatim where no typed field exists: {\"family\":\"watch\",\"cameras\":[],\"storageOptions\":[],\"accessories\":[],\"watchDetails\":{\"caseSizes\":[\"45 mm\",\"41 mm\"],\"alwaysOn\":true,\"wideAngleDisplay\":false,\"u1UwbChip\":\"Second-generation Ultra Wideband chip\",\"otherWirelessChip\":\"W3 Apple wireless chip\",\"hasSpeaker\":true,\"hasSiren\":false,\"swimproofClassification\":\"Swim\",\"completeSummary\":[\"Always-On Retina display\",\"S9 chip with 64-bit dual-core processor\",\"Up to 18 hours24\",\"Up to 36 hours in Low Power Mode24\",\"Water-resistant to 50 m12\",\"Swim\",\"45 mm by 38 mm by 10.7 mm (45-mm) 38.7 grams (aluminium, GPS) 39.0 grams (aluminium, GPS + Cellular) 51.5 grams (stainless steel)\"]}}\n\nThe independent Watch schema requires configurations; the source supplied no configuration records, so this field is retained as an empty array without inventing data."
 		},
 		{
 			"id": "apple-watch-se",
 			"name": "Apple Watch SE",
-			"family": "watch",
 			"releaseYear": 2020,
-			"priceAud": 399,
 			"colors": [
 				{
 					"id": "brushed-gold-aluminium",
 					"displayName": "Brushed Gold Aluminium",
-					"swatch": {
-						"kind": "css",
-						"value": "#f4d4c6"
-					},
+					"swatch": "#f4d4c6",
 					"images": []
 				},
 				{
 					"id": "silver-aluminium",
 					"displayName": "Silver Aluminium",
-					"swatch": {
-						"kind": "css",
-						"value": "#f0eff1"
-					},
+					"swatch": "#f0eff1",
 					"images": []
 				},
 				{
 					"id": "space-grey-aluminium",
 					"displayName": "Space Grey Aluminium",
-					"swatch": {
-						"kind": "css",
-						"value": "#727272"
-					},
+					"swatch": "#727272",
 					"images": []
 				}
 			],
 			"configurations": [],
-			"storageOptions": [],
 			"chips": [
 				{
 					"id": "s5-chip",
 					"displayName": "S5 chip",
 					"family": "Apple S-series",
-					"cpuCores": {
-						"total": 2,
-						"performance": null,
-						"efficiency": null
-					},
-					"gpuCores": null,
-					"neuralEngineCores": null,
-					"memoryBandwidthGbps": null,
-					"sourceNotes": "S5 chip with 64-bit dual-core processor"
+					"cpuCores": 2,
+					"sourceNotes": "S5 chip with 64-bit dual-core processor\n\nLegacy chip detail retained verbatim: {\"cpuCores\":{\"total\":2}}"
 				}
 			],
 			"displays": [
@@ -2468,34 +2113,16 @@
 					"id": "primary",
 					"technology": "Retina display",
 					"panelKind": "OLED",
-					"sizeIn": null,
-					"resolutionWidthPx": null,
-					"resolutionHeightPx": null,
-					"pixelsPerInch": null,
-					"refreshRateHz": null,
 					"refreshRateRange": {
 						"minimum": 1,
 						"maximum": 60,
 						"unit": "hz"
 					},
 					"sdrPeakBrightnessNits": 1000,
-					"hdrPeakBrightnessNits": null,
-					"fullScreenHdrBrightnessNits": null,
-					"minimumBrightnessNits": null,
-					"trueTone": null,
-					"promotion": null,
 					"alwaysOn": false,
-					"wideColorP3": null,
-					"laminated": null,
-					"antireflective": null,
-					"nanoTextureOption": null,
-					"fingerprintResistantCoating": null,
-					"hoverSupport": null,
-					"mirroring": null,
 					"sourceNotes": "Display material: Retina display; Display construction: OLED; Display backplane: LTPO"
 				}
 			],
-			"cameras": [],
 			"audio": {
 				"speaker": true,
 				"microphone": true,
@@ -2505,8 +2132,6 @@
 			},
 			"batteryAndPower": {
 				"hasBattery": true,
-				"batteryCapacityMah": null,
-				"batteryCapacityWhr": null,
 				"runtimeHours": [
 					{
 						"id": "normal",
@@ -2518,43 +2143,43 @@
 					"portId": "wireless",
 					"wiredFastCharge": false,
 					"wirelessCharging": true,
-					"wirelessStandards": ["inductive"],
-					"fastChargeMinutesToPercent": null,
-					"adapterPowerW": null
+					"wirelessStandards": [
+						"inductive"
+					]
 				},
-				"powerSupply": {
-					"hasExternalPowerAdapter": null,
-					"outputVoltageV": null,
-					"outputCurrentA": null,
-					"outputPowerW": null,
-					"inputVoltageRangeV": null,
-					"frequencyHz": null,
-					"consumptionW": null
-				}
+				"powerSupply": {}
 			},
 			"connectivity": {
 				"ports": [],
 				"wifi": {
-					"standards": ["Wi-Fi 4"]
+					"standards": [
+						"Wi-Fi 4"
+					]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.3"
 				},
 				"cellular": {
-					"technologies": ["LTE"]
+					"technologies": [
+						"LTE"
+					]
 				},
-				"uwb": null,
-				"thread": null,
-				"infrared": null,
-				"nearFieldCommunication": null,
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": false,
-					"systems": ["GPS", "GLONASS", "Galileo", "QZSS", "BeiDou"]
+					"systems": [
+						"GPS",
+						"GLONASS",
+						"Galileo",
+						"QZSS",
+						"BeiDou"
+					]
 				}
 			},
 			"authentication": {
-				"methods": ["passcode"],
+				"methods": [
+					"passcode"
+				],
 				"primaryMethod": "passcode"
 			},
 			"physical": {
@@ -2572,12 +2197,12 @@
 				],
 				"dimensions": [
 					{
-						"value": 44.0,
+						"value": 44,
 						"unit": "mm",
 						"qualifier": "case height"
 					},
 					{
-						"value": 38.0,
+						"value": 38,
 						"unit": "mm",
 						"qualifier": "case width"
 					},
@@ -2592,53 +2217,39 @@
 			"resistance": {
 				"ipRating": "IP6X",
 				"waterDepthM": 50,
-				"splashPressureAtm": null,
-				"dustProtected": false,
-				"sweatResistant": null
+				"dustProtected": false
 			},
 			"software": {
 				"operatingSystem": "watchOS",
-				"operatingSystemVersionAtLaunch": null,
+				"compatibleOperatingSystems": [],
 				"builtInApps": [],
 				"sourceNotes": "Complete Summary retained verbatim as source facts."
 			},
-			"accessories": [],
 			"watchDetails": {
-				"caseSizes": ["44 mm", "40 mm"],
+				"caseSizes": [
+					"44 mm",
+					"40 mm"
+				],
 				"alwaysOn": false,
 				"wideAngleDisplay": false,
-				"u1UwbChip": null,
 				"otherWirelessChip": "W3 Apple wireless chip",
 				"hasSpeaker": true,
 				"hasSiren": false,
-				"swimproofClassification": "Swim",
-				"completeSummary": [
-					"Retina display",
-					"S5 chip with 64-bit dual-core processor",
-					"Up to 18 hours29",
-					"Low Power Mode",
-					"Water-resistant to 50 m12",
-					"Swim",
-					"44 mm by 38 mm by 10.7 mm (44 mm) 36.2 grams (GPS) 36.4 grams (GPS + Cellular)"
-				]
+				"swimproofClassification": "Swim"
 			},
-			"sourceNotes": "Extracted from four usable Apple AU compare exports. Exact source text preserved in typed fields where supported.",
-			"overviewImages": []
+			"overviewImages": [],
+			"priceAud": 399,
+			"sourceNotes": "Extracted from four usable Apple AU compare exports. Exact source text preserved in typed fields where supported.\n\nLegacy Watch fields removed from the independent shape and preserved verbatim where no typed field exists: {\"family\":\"watch\",\"cameras\":[],\"storageOptions\":[],\"accessories\":[],\"watchDetails\":{\"caseSizes\":[\"44 mm\",\"40 mm\"],\"alwaysOn\":false,\"wideAngleDisplay\":false,\"otherWirelessChip\":\"W3 Apple wireless chip\",\"hasSpeaker\":true,\"hasSiren\":false,\"swimproofClassification\":\"Swim\",\"completeSummary\":[\"Retina display\",\"S5 chip with 64-bit dual-core processor\",\"Up to 18 hours29\",\"Low Power Mode\",\"Water-resistant to 50 m12\",\"Swim\",\"44 mm by 38 mm by 10.7 mm (44 mm) 36.2 grams (GPS) 36.4 grams (GPS + Cellular)\"]}}\n\nThe independent Watch schema requires configurations; the source supplied no configuration records, so this field is retained as an empty array without inventing data."
 		},
 		{
 			"id": "apple-watch-ultra",
 			"name": "Apple Watch Ultra",
-			"family": "watch",
 			"releaseYear": 2022,
-			"priceAud": 1229,
 			"colors": [
 				{
 					"id": "natural-titanium",
 					"displayName": "Natural Titanium",
-					"swatch": {
-						"kind": "css",
-						"value": "#e3ddd7"
-					},
+					"swatch": "#e3ddd7",
 					"images": [
 						{
 							"label": "large 2x",
@@ -2672,21 +2283,13 @@
 				}
 			],
 			"configurations": [],
-			"storageOptions": [],
 			"chips": [
 				{
 					"id": "s8-chip",
 					"displayName": "S8 chip",
 					"family": "Apple S-series",
-					"cpuCores": {
-						"total": 2,
-						"performance": null,
-						"efficiency": null
-					},
-					"gpuCores": null,
-					"neuralEngineCores": null,
-					"memoryBandwidthGbps": null,
-					"sourceNotes": "S8 chip with 64-bit dual-core processor"
+					"cpuCores": 2,
+					"sourceNotes": "S8 chip with 64-bit dual-core processor\n\nLegacy chip detail retained verbatim: {\"cpuCores\":{\"total\":2}}"
 				}
 			],
 			"displays": [
@@ -2694,34 +2297,17 @@
 					"id": "primary",
 					"technology": "Always-On Retina display",
 					"panelKind": "OLED",
-					"sizeIn": null,
-					"resolutionWidthPx": null,
-					"resolutionHeightPx": null,
-					"pixelsPerInch": null,
-					"refreshRateHz": null,
 					"refreshRateRange": {
 						"minimum": 1,
 						"maximum": 60,
 						"unit": "hz"
 					},
 					"sdrPeakBrightnessNits": 2000,
-					"hdrPeakBrightnessNits": null,
-					"fullScreenHdrBrightnessNits": null,
 					"minimumBrightnessNits": 1,
-					"trueTone": null,
-					"promotion": null,
 					"alwaysOn": true,
-					"wideColorP3": null,
-					"laminated": null,
-					"antireflective": null,
-					"nanoTextureOption": null,
-					"fingerprintResistantCoating": null,
-					"hoverSupport": null,
-					"mirroring": null,
 					"sourceNotes": "Display material: Always-On Retina display; Display construction: OLED; Display backplane: LTPO2"
 				}
 			],
-			"cameras": [],
 			"audio": {
 				"speaker": true,
 				"microphone": true,
@@ -2731,8 +2317,6 @@
 			},
 			"batteryAndPower": {
 				"hasBattery": true,
-				"batteryCapacityMah": null,
-				"batteryCapacityWhr": null,
 				"runtimeHours": [
 					{
 						"id": "normal",
@@ -2749,45 +2333,46 @@
 					"portId": "wireless",
 					"wiredFastCharge": true,
 					"wirelessCharging": true,
-					"wirelessStandards": ["inductive"],
-					"fastChargeMinutesToPercent": null,
-					"adapterPowerW": null
+					"wirelessStandards": [
+						"inductive"
+					]
 				},
-				"powerSupply": {
-					"hasExternalPowerAdapter": null,
-					"outputVoltageV": null,
-					"outputCurrentA": null,
-					"outputPowerW": null,
-					"inputVoltageRangeV": null,
-					"frequencyHz": null,
-					"consumptionW": null
-				}
+				"powerSupply": {}
 			},
 			"connectivity": {
 				"ports": [],
 				"wifi": {
-					"standards": ["Wi-Fi 4"]
+					"standards": [
+						"Wi-Fi 4"
+					]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.3"
 				},
 				"cellular": {
-					"technologies": ["LTE"]
+					"technologies": [
+						"LTE"
+					]
 				},
 				"uwb": {
 					"chip": "First-generation Ultra Wideband chip"
 				},
-				"thread": null,
-				"infrared": null,
-				"nearFieldCommunication": null,
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": true,
-					"systems": ["GPS", "GLONASS", "Galileo", "QZSS", "BeiDou"]
+					"systems": [
+						"GPS",
+						"GLONASS",
+						"Galileo",
+						"QZSS",
+						"BeiDou"
+					]
 				}
 			},
 			"authentication": {
-				"methods": ["passcode"],
+				"methods": [
+					"passcode"
+				],
 				"primaryMethod": "passcode"
 			},
 			"physical": {
@@ -2800,12 +2385,12 @@
 				],
 				"dimensions": [
 					{
-						"value": 49.0,
+						"value": 49,
 						"unit": "mm",
 						"qualifier": "case height"
 					},
 					{
-						"value": 44.0,
+						"value": 44,
 						"unit": "mm",
 						"qualifier": "case width"
 					},
@@ -2820,37 +2405,26 @@
 			"resistance": {
 				"ipRating": "IP6X",
 				"waterDepthM": 100,
-				"splashPressureAtm": null,
-				"dustProtected": true,
-				"sweatResistant": null
+				"dustProtected": true
 			},
 			"software": {
 				"operatingSystem": "watchOS",
-				"operatingSystemVersionAtLaunch": null,
+				"compatibleOperatingSystems": [],
 				"builtInApps": [],
 				"sourceNotes": "Complete Summary retained verbatim as source facts."
 			},
-			"accessories": [],
 			"watchDetails": {
-				"caseSizes": ["49 mm"],
+				"caseSizes": [
+					"49 mm"
+				],
 				"alwaysOn": true,
 				"wideAngleDisplay": false,
 				"u1UwbChip": "First-generation Ultra Wideband chip",
 				"otherWirelessChip": "W3 Apple wireless chip",
 				"hasSpeaker": true,
 				"hasSiren": true,
-				"swimproofClassification": "Swim, snorkel, scuba, high-speed water sports",
-				"completeSummary": [
-					"Always-On Retina display",
-					"S8 chip with 64-bit dual-core processor",
-					"Up to 36 hours25",
-					"Up to 72 hours inLow Power Mode25",
-					"Water-resistant to 100 m12",
-					"Swim, snorkel, scuba, high-speed water sports",
-					"49 mm by 44 mm by 14.4 mm 61.4 grams"
-				]
+				"swimproofClassification": "Swim, snorkel, scuba, high-speed water sports"
 			},
-			"sourceNotes": "Extracted from four usable Apple AU compare exports. Exact source text preserved in typed fields where supported.",
 			"overviewImages": [
 				{
 					"label": "Model overview",
@@ -2880,95 +2454,66 @@
 					"widthPx": 215,
 					"heightPx": 246
 				}
-			]
+			],
+			"priceAud": 1229,
+			"sourceNotes": "Extracted from four usable Apple AU compare exports. Exact source text preserved in typed fields where supported.\n\nLegacy Watch fields removed from the independent shape and preserved verbatim where no typed field exists: {\"family\":\"watch\",\"cameras\":[],\"storageOptions\":[],\"accessories\":[],\"watchDetails\":{\"caseSizes\":[\"49 mm\"],\"alwaysOn\":true,\"wideAngleDisplay\":false,\"u1UwbChip\":\"First-generation Ultra Wideband chip\",\"otherWirelessChip\":\"W3 Apple wireless chip\",\"hasSpeaker\":true,\"hasSiren\":true,\"swimproofClassification\":\"Swim, snorkel, scuba, high-speed water sports\",\"completeSummary\":[\"Always-On Retina display\",\"S8 chip with 64-bit dual-core processor\",\"Up to 36 hours25\",\"Up to 72 hours inLow Power Mode25\",\"Water-resistant to 100 m12\",\"Swim, snorkel, scuba, high-speed water sports\",\"49 mm by 44 mm by 14.4 mm 61.4 grams\"]}}\n\nThe independent Watch schema requires configurations; the source supplied no configuration records, so this field is retained as an empty array without inventing data."
 		},
 		{
 			"id": "apple-watch-series-8",
 			"name": "Apple Watch Series 8",
-			"family": "watch",
 			"releaseYear": 2022,
-			"priceAud": 599,
 			"colors": [
 				{
 					"id": "midnight-aluminium",
 					"displayName": "Midnight Aluminium",
-					"swatch": {
-						"kind": "css",
-						"value": "#1a2530"
-					},
+					"swatch": "#1a2530",
 					"images": []
 				},
 				{
 					"id": "starlight-aluminium",
 					"displayName": "Starlight Aluminium",
-					"swatch": {
-						"kind": "css",
-						"value": "#ded6d1"
-					},
+					"swatch": "#ded6d1",
 					"images": []
 				},
 				{
 					"id": "silver-aluminium",
 					"displayName": "Silver Aluminium",
-					"swatch": {
-						"kind": "css",
-						"value": "#f0eff1"
-					},
+					"swatch": "#f0eff1",
 					"images": []
 				},
 				{
 					"id": "product-red-aluminium",
 					"displayName": "(PRODUCT)RED Aluminium",
-					"swatch": {
-						"kind": "css",
-						"value": "#c80e2d"
-					},
+					"swatch": "#c80e2d",
 					"images": []
 				},
 				{
 					"id": "silver-stainless",
 					"displayName": "Silver Stainless",
-					"swatch": {
-						"kind": "css",
-						"value": "#e6e6e7"
-					},
+					"swatch": "#e6e6e7",
 					"images": []
 				},
 				{
 					"id": "graphite-stainless",
 					"displayName": "Graphite Stainless",
-					"swatch": {
-						"kind": "css",
-						"value": "#3e3a36"
-					},
+					"swatch": "#3e3a36",
 					"images": []
 				},
 				{
 					"id": "gold-stainless",
 					"displayName": "Gold Stainless",
-					"swatch": {
-						"kind": "css",
-						"value": "#d4bda1"
-					},
+					"swatch": "#d4bda1",
 					"images": []
 				}
 			],
 			"configurations": [],
-			"storageOptions": [],
 			"chips": [
 				{
 					"id": "s8-chip",
 					"displayName": "S8 chip",
 					"family": "Apple S-series",
-					"cpuCores": {
-						"total": 2,
-						"performance": null,
-						"efficiency": null
-					},
-					"gpuCores": null,
-					"neuralEngineCores": null,
-					"memoryBandwidthGbps": null,
-					"sourceNotes": "S8 chip with 64-bit dual-core processor"
+					"cpuCores": 2,
+					"sourceNotes": "S8 chip with 64-bit dual-core processor\n\nLegacy chip detail retained verbatim: {\"cpuCores\":{\"total\":2}}"
 				}
 			],
 			"displays": [
@@ -2976,34 +2521,16 @@
 					"id": "primary",
 					"technology": "Always-On Retina display",
 					"panelKind": "OLED",
-					"sizeIn": null,
-					"resolutionWidthPx": null,
-					"resolutionHeightPx": null,
-					"pixelsPerInch": null,
-					"refreshRateHz": null,
 					"refreshRateRange": {
 						"minimum": 1,
 						"maximum": 60,
 						"unit": "hz"
 					},
 					"sdrPeakBrightnessNits": 1000,
-					"hdrPeakBrightnessNits": null,
-					"fullScreenHdrBrightnessNits": null,
-					"minimumBrightnessNits": null,
-					"trueTone": null,
-					"promotion": null,
 					"alwaysOn": true,
-					"wideColorP3": null,
-					"laminated": null,
-					"antireflective": null,
-					"nanoTextureOption": null,
-					"fingerprintResistantCoating": null,
-					"hoverSupport": null,
-					"mirroring": null,
 					"sourceNotes": "Display material: Always-On Retina display; Display construction: OLED; Display backplane: LTPO"
 				}
 			],
-			"cameras": [],
 			"audio": {
 				"speaker": true,
 				"microphone": true,
@@ -3013,8 +2540,6 @@
 			},
 			"batteryAndPower": {
 				"hasBattery": true,
-				"batteryCapacityMah": null,
-				"batteryCapacityWhr": null,
 				"runtimeHours": [
 					{
 						"id": "normal",
@@ -3026,48 +2551,50 @@
 					"portId": "wireless",
 					"wiredFastCharge": true,
 					"wirelessCharging": true,
-					"wirelessStandards": ["inductive"],
-					"fastChargeMinutesToPercent": {
+					"wirelessStandards": [
+						"inductive"
+					],
+					"fastCharge": {
 						"minutes": 45,
 						"percent": 80
-					},
-					"adapterPowerW": null
+					}
 				},
-				"powerSupply": {
-					"hasExternalPowerAdapter": null,
-					"outputVoltageV": null,
-					"outputCurrentA": null,
-					"outputPowerW": null,
-					"inputVoltageRangeV": null,
-					"frequencyHz": null,
-					"consumptionW": null
-				}
+				"powerSupply": {}
 			},
 			"connectivity": {
 				"ports": [],
 				"wifi": {
-					"standards": ["Wi-Fi 4"]
+					"standards": [
+						"Wi-Fi 4"
+					]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.3"
 				},
 				"cellular": {
-					"technologies": ["LTE"]
+					"technologies": [
+						"LTE"
+					]
 				},
 				"uwb": {
 					"chip": "First-generation Ultra Wideband chip"
 				},
-				"thread": null,
-				"infrared": null,
-				"nearFieldCommunication": null,
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": false,
-					"systems": ["GPS", "GLONASS", "Galileo", "QZSS", "BeiDou"]
+					"systems": [
+						"GPS",
+						"GLONASS",
+						"Galileo",
+						"QZSS",
+						"BeiDou"
+					]
 				}
 			},
 			"authentication": {
-				"methods": ["passcode"],
+				"methods": [
+					"passcode"
+				],
 				"primaryMethod": "passcode"
 			},
 			"physical": {
@@ -3090,12 +2617,12 @@
 				],
 				"dimensions": [
 					{
-						"value": 45.0,
+						"value": 45,
 						"unit": "mm",
 						"qualifier": "case height"
 					},
 					{
-						"value": 38.0,
+						"value": 38,
 						"unit": "mm",
 						"qualifier": "case width"
 					},
@@ -3110,135 +2637,93 @@
 			"resistance": {
 				"ipRating": "IP6X",
 				"waterDepthM": 50,
-				"splashPressureAtm": null,
-				"dustProtected": true,
-				"sweatResistant": null
+				"dustProtected": true
 			},
 			"software": {
 				"operatingSystem": "watchOS",
-				"operatingSystemVersionAtLaunch": null,
+				"compatibleOperatingSystems": [],
 				"builtInApps": [],
 				"sourceNotes": "Complete Summary retained verbatim as source facts."
 			},
-			"accessories": [],
 			"watchDetails": {
-				"caseSizes": ["45 mm", "41 mm"],
+				"caseSizes": [
+					"45 mm",
+					"41 mm"
+				],
 				"alwaysOn": true,
 				"wideAngleDisplay": false,
 				"u1UwbChip": "First-generation Ultra Wideband chip",
 				"otherWirelessChip": "W3 Apple wireless chip",
 				"hasSpeaker": true,
 				"hasSiren": false,
-				"swimproofClassification": "Swim",
-				"completeSummary": [
-					"Always-On Retina display",
-					"S8 chip with 64-bit dual-core processor",
-					"Up to 18 hours26",
-					"Low Power Mode",
-					"Water-resistant to 50 m12",
-					"Swim",
-					"45 mm by 38 mm by 10.7 mm (45-mm) 38.8 grams (aluminium, GPS) 39.1 grams (aluminium, GPS + Cellular) 51.5 grams (stainless steel)"
-				]
+				"swimproofClassification": "Swim"
 			},
-			"sourceNotes": "Extracted from four usable Apple AU compare exports. Exact source text preserved in typed fields where supported.",
-			"overviewImages": []
+			"overviewImages": [],
+			"priceAud": 599,
+			"sourceNotes": "Extracted from four usable Apple AU compare exports. Exact source text preserved in typed fields where supported.\n\nLegacy Watch fields removed from the independent shape and preserved verbatim where no typed field exists: {\"family\":\"watch\",\"cameras\":[],\"storageOptions\":[],\"accessories\":[],\"watchDetails\":{\"caseSizes\":[\"45 mm\",\"41 mm\"],\"alwaysOn\":true,\"wideAngleDisplay\":false,\"u1UwbChip\":\"First-generation Ultra Wideband chip\",\"otherWirelessChip\":\"W3 Apple wireless chip\",\"hasSpeaker\":true,\"hasSiren\":false,\"swimproofClassification\":\"Swim\",\"completeSummary\":[\"Always-On Retina display\",\"S8 chip with 64-bit dual-core processor\",\"Up to 18 hours26\",\"Low Power Mode\",\"Water-resistant to 50 m12\",\"Swim\",\"45 mm by 38 mm by 10.7 mm (45-mm) 38.8 grams (aluminium, GPS) 39.1 grams (aluminium, GPS + Cellular) 51.5 grams (stainless steel)\"]}}\n\nThe independent Watch schema requires configurations; the source supplied no configuration records, so this field is retained as an empty array without inventing data."
 		},
 		{
 			"id": "apple-watch-series-7",
 			"name": "Apple Watch Series 7",
-			"family": "watch",
 			"releaseYear": 2021,
-			"priceAud": 599,
 			"colors": [
 				{
 					"id": "midnight-aluminium",
 					"displayName": "Midnight Aluminium",
-					"swatch": {
-						"kind": "css",
-						"value": "#1a2530"
-					},
+					"swatch": "#1a2530",
 					"images": []
 				},
 				{
 					"id": "starlight-aluminium",
 					"displayName": "Starlight Aluminium",
-					"swatch": {
-						"kind": "css",
-						"value": "#ded6d1"
-					},
+					"swatch": "#ded6d1",
 					"images": []
 				},
 				{
 					"id": "green-aluminium",
 					"displayName": "Green Aluminium",
-					"swatch": {
-						"kind": "css",
-						"value": "#36382b"
-					},
+					"swatch": "#36382b",
 					"images": []
 				},
 				{
 					"id": "blue-aluminium",
 					"displayName": "Blue Aluminium",
-					"swatch": {
-						"kind": "css",
-						"value": "#3e4b6c"
-					},
+					"swatch": "#3e4b6c",
 					"images": []
 				},
 				{
 					"id": "product-red-aluminium",
 					"displayName": "(PRODUCT)RED Aluminium",
-					"swatch": {
-						"kind": "css",
-						"value": "#c6464a"
-					},
+					"swatch": "#c6464a",
 					"images": []
 				},
 				{
 					"id": "silver-stainless",
 					"displayName": "Silver Stainless",
-					"swatch": {
-						"kind": "css",
-						"value": "#e6e6e7"
-					},
+					"swatch": "#e6e6e7",
 					"images": []
 				},
 				{
 					"id": "graphite-stainless",
 					"displayName": "Graphite Stainless",
-					"swatch": {
-						"kind": "css",
-						"value": "#3e3a36"
-					},
+					"swatch": "#3e3a36",
 					"images": []
 				},
 				{
 					"id": "gold-stainless",
 					"displayName": "Gold Stainless",
-					"swatch": {
-						"kind": "css",
-						"value": "#d4bda1"
-					},
+					"swatch": "#d4bda1",
 					"images": []
 				}
 			],
 			"configurations": [],
-			"storageOptions": [],
 			"chips": [
 				{
 					"id": "s7-chip",
 					"displayName": "S7 chip",
 					"family": "Apple S-series",
-					"cpuCores": {
-						"total": 2,
-						"performance": null,
-						"efficiency": null
-					},
-					"gpuCores": null,
-					"neuralEngineCores": null,
-					"memoryBandwidthGbps": null,
-					"sourceNotes": "S7 chip with 64-bit dual-core processor"
+					"cpuCores": 2,
+					"sourceNotes": "S7 chip with 64-bit dual-core processor\n\nLegacy chip detail retained verbatim: {\"cpuCores\":{\"total\":2}}"
 				}
 			],
 			"displays": [
@@ -3246,34 +2731,16 @@
 					"id": "primary",
 					"technology": "Always-On Retina display",
 					"panelKind": "OLED",
-					"sizeIn": null,
-					"resolutionWidthPx": null,
-					"resolutionHeightPx": null,
-					"pixelsPerInch": null,
-					"refreshRateHz": null,
 					"refreshRateRange": {
 						"minimum": 1,
 						"maximum": 60,
 						"unit": "hz"
 					},
 					"sdrPeakBrightnessNits": 1000,
-					"hdrPeakBrightnessNits": null,
-					"fullScreenHdrBrightnessNits": null,
-					"minimumBrightnessNits": null,
-					"trueTone": null,
-					"promotion": null,
 					"alwaysOn": true,
-					"wideColorP3": null,
-					"laminated": null,
-					"antireflective": null,
-					"nanoTextureOption": null,
-					"fingerprintResistantCoating": null,
-					"hoverSupport": null,
-					"mirroring": null,
 					"sourceNotes": "Display material: Always-On Retina display; Display construction: OLED; Display backplane: LTPO"
 				}
 			],
-			"cameras": [],
 			"audio": {
 				"speaker": true,
 				"microphone": true,
@@ -3283,8 +2750,6 @@
 			},
 			"batteryAndPower": {
 				"hasBattery": true,
-				"batteryCapacityMah": null,
-				"batteryCapacityWhr": null,
 				"runtimeHours": [
 					{
 						"id": "normal",
@@ -3296,48 +2761,50 @@
 					"portId": "wireless",
 					"wiredFastCharge": true,
 					"wirelessCharging": true,
-					"wirelessStandards": ["inductive"],
-					"fastChargeMinutesToPercent": {
+					"wirelessStandards": [
+						"inductive"
+					],
+					"fastCharge": {
 						"minutes": 45,
 						"percent": 80
-					},
-					"adapterPowerW": null
+					}
 				},
-				"powerSupply": {
-					"hasExternalPowerAdapter": null,
-					"outputVoltageV": null,
-					"outputCurrentA": null,
-					"outputPowerW": null,
-					"inputVoltageRangeV": null,
-					"frequencyHz": null,
-					"consumptionW": null
-				}
+				"powerSupply": {}
 			},
 			"connectivity": {
 				"ports": [],
 				"wifi": {
-					"standards": ["Wi-Fi 4"]
+					"standards": [
+						"Wi-Fi 4"
+					]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.3"
 				},
 				"cellular": {
-					"technologies": ["LTE"]
+					"technologies": [
+						"LTE"
+					]
 				},
 				"uwb": {
 					"chip": "U1 chip (Ultra Wideband)"
 				},
-				"thread": null,
-				"infrared": null,
-				"nearFieldCommunication": null,
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": false,
-					"systems": ["GPS", "GLONASS", "Galileo", "QZSS", "BeiDou"]
+					"systems": [
+						"GPS",
+						"GLONASS",
+						"Galileo",
+						"QZSS",
+						"BeiDou"
+					]
 				}
 			},
 			"authentication": {
-				"methods": ["passcode"],
+				"methods": [
+					"passcode"
+				],
 				"primaryMethod": "passcode"
 			},
 			"physical": {
@@ -3365,12 +2832,12 @@
 				],
 				"dimensions": [
 					{
-						"value": 45.0,
+						"value": 45,
 						"unit": "mm",
 						"qualifier": "case height"
 					},
 					{
-						"value": 38.0,
+						"value": 38,
 						"unit": "mm",
 						"qualifier": "case width"
 					},
@@ -3385,135 +2852,93 @@
 			"resistance": {
 				"ipRating": "IP6X",
 				"waterDepthM": 50,
-				"splashPressureAtm": null,
-				"dustProtected": true,
-				"sweatResistant": null
+				"dustProtected": true
 			},
 			"software": {
 				"operatingSystem": "watchOS",
-				"operatingSystemVersionAtLaunch": null,
+				"compatibleOperatingSystems": [],
 				"builtInApps": [],
 				"sourceNotes": "Complete Summary retained verbatim as source facts."
 			},
-			"accessories": [],
 			"watchDetails": {
-				"caseSizes": ["45 mm", "41 mm"],
+				"caseSizes": [
+					"45 mm",
+					"41 mm"
+				],
 				"alwaysOn": true,
 				"wideAngleDisplay": false,
 				"u1UwbChip": "U1 chip (Ultra Wideband)",
 				"otherWirelessChip": "W3 Apple wireless chip",
 				"hasSpeaker": true,
 				"hasSiren": false,
-				"swimproofClassification": "Swim",
-				"completeSummary": [
-					"Always-On Retina display",
-					"S7 chip with 64-bit dual-core processor",
-					"Up to 18 hours27",
-					"Low Power Mode",
-					"Water-resistant to 50 m12",
-					"Swim",
-					"45 mm by 38 mm by 10.7 mm (45-mm) 38.8 grams (aluminium, GPS) 39.1 grams (aluminium, GPS + Cellular) 51.5 grams (stainless steel) 45.1 grams (titanium)"
-				]
+				"swimproofClassification": "Swim"
 			},
-			"sourceNotes": "Extracted from four usable Apple AU compare exports. Exact source text preserved in typed fields where supported.",
-			"overviewImages": []
+			"overviewImages": [],
+			"priceAud": 599,
+			"sourceNotes": "Extracted from four usable Apple AU compare exports. Exact source text preserved in typed fields where supported.\n\nLegacy Watch fields removed from the independent shape and preserved verbatim where no typed field exists: {\"family\":\"watch\",\"cameras\":[],\"storageOptions\":[],\"accessories\":[],\"watchDetails\":{\"caseSizes\":[\"45 mm\",\"41 mm\"],\"alwaysOn\":true,\"wideAngleDisplay\":false,\"u1UwbChip\":\"U1 chip (Ultra Wideband)\",\"otherWirelessChip\":\"W3 Apple wireless chip\",\"hasSpeaker\":true,\"hasSiren\":false,\"swimproofClassification\":\"Swim\",\"completeSummary\":[\"Always-On Retina display\",\"S7 chip with 64-bit dual-core processor\",\"Up to 18 hours27\",\"Low Power Mode\",\"Water-resistant to 50 m12\",\"Swim\",\"45 mm by 38 mm by 10.7 mm (45-mm) 38.8 grams (aluminium, GPS) 39.1 grams (aluminium, GPS + Cellular) 51.5 grams (stainless steel) 45.1 grams (titanium)\"]}}\n\nThe independent Watch schema requires configurations; the source supplied no configuration records, so this field is retained as an empty array without inventing data."
 		},
 		{
 			"id": "apple-watch-series-6",
 			"name": "Apple Watch Series 6",
-			"family": "watch",
 			"releaseYear": 2020,
-			"priceAud": 599,
 			"colors": [
 				{
 					"id": "blue-aluminium",
 					"displayName": "Blue Aluminium",
-					"swatch": {
-						"kind": "css",
-						"value": "#6e8eba"
-					},
+					"swatch": "#6e8eba",
 					"images": []
 				},
 				{
 					"id": "product-red-aluminium",
 					"displayName": "(PRODUCT)RED Aluminium",
-					"swatch": {
-						"kind": "css",
-						"value": "#a91e3b"
-					},
+					"swatch": "#a91e3b",
 					"images": []
 				},
 				{
 					"id": "silver-aluminium",
 					"displayName": "Silver Aluminium",
-					"swatch": {
-						"kind": "css",
-						"value": "#e6e6e7"
-					},
+					"swatch": "#e6e6e7",
 					"images": []
 				},
 				{
 					"id": "space-grey-aluminium",
 					"displayName": "Space Grey Aluminium",
-					"swatch": {
-						"kind": "css",
-						"value": "#5e5f61"
-					},
+					"swatch": "#5e5f61",
 					"images": []
 				},
 				{
 					"id": "gold-stainless",
 					"displayName": "Gold Stainless",
-					"swatch": {
-						"kind": "css",
-						"value": "#d4bda1"
-					},
+					"swatch": "#d4bda1",
 					"images": []
 				},
 				{
 					"id": "silver-stainless",
 					"displayName": "Silver Stainless",
-					"swatch": {
-						"kind": "css",
-						"value": "#e6e6e7"
-					},
+					"swatch": "#e6e6e7",
 					"images": []
 				},
 				{
 					"id": "graphite-stainless",
 					"displayName": "Graphite Stainless",
-					"swatch": {
-						"kind": "css",
-						"value": "#3e3a36"
-					},
+					"swatch": "#3e3a36",
 					"images": []
 				},
 				{
 					"id": "space-black-titanium",
 					"displayName": "Space Black Titanium",
-					"swatch": {
-						"kind": "css",
-						"value": "#47433f"
-					},
+					"swatch": "#47433f",
 					"images": []
 				}
 			],
 			"configurations": [],
-			"storageOptions": [],
 			"chips": [
 				{
 					"id": "s6-chip",
 					"displayName": "S6 chip",
 					"family": "Apple S-series",
-					"cpuCores": {
-						"total": 2,
-						"performance": null,
-						"efficiency": null
-					},
-					"gpuCores": null,
-					"neuralEngineCores": null,
-					"memoryBandwidthGbps": null,
-					"sourceNotes": "S6 chip with 64-bit dual-core processor"
+					"cpuCores": 2,
+					"sourceNotes": "S6 chip with 64-bit dual-core processor\n\nLegacy chip detail retained verbatim: {\"cpuCores\":{\"total\":2}}"
 				}
 			],
 			"displays": [
@@ -3521,34 +2946,16 @@
 					"id": "primary",
 					"technology": "Always-On Retina display",
 					"panelKind": "OLED",
-					"sizeIn": null,
-					"resolutionWidthPx": null,
-					"resolutionHeightPx": null,
-					"pixelsPerInch": null,
-					"refreshRateHz": null,
 					"refreshRateRange": {
 						"minimum": 1,
 						"maximum": 60,
 						"unit": "hz"
 					},
 					"sdrPeakBrightnessNits": 1000,
-					"hdrPeakBrightnessNits": null,
-					"fullScreenHdrBrightnessNits": null,
-					"minimumBrightnessNits": null,
-					"trueTone": null,
-					"promotion": null,
 					"alwaysOn": true,
-					"wideColorP3": null,
-					"laminated": null,
-					"antireflective": null,
-					"nanoTextureOption": null,
-					"fingerprintResistantCoating": null,
-					"hoverSupport": null,
-					"mirroring": null,
 					"sourceNotes": "Display material: Always-On Retina display; Display construction: OLED; Display backplane: LTPO"
 				}
 			],
-			"cameras": [],
 			"audio": {
 				"speaker": true,
 				"microphone": true,
@@ -3558,8 +2965,6 @@
 			},
 			"batteryAndPower": {
 				"hasBattery": true,
-				"batteryCapacityMah": null,
-				"batteryCapacityWhr": null,
 				"runtimeHours": [
 					{
 						"id": "normal",
@@ -3571,45 +2976,46 @@
 					"portId": "wireless",
 					"wiredFastCharge": false,
 					"wirelessCharging": true,
-					"wirelessStandards": ["inductive"],
-					"fastChargeMinutesToPercent": null,
-					"adapterPowerW": null
+					"wirelessStandards": [
+						"inductive"
+					]
 				},
-				"powerSupply": {
-					"hasExternalPowerAdapter": null,
-					"outputVoltageV": null,
-					"outputCurrentA": null,
-					"outputPowerW": null,
-					"inputVoltageRangeV": null,
-					"frequencyHz": null,
-					"consumptionW": null
-				}
+				"powerSupply": {}
 			},
 			"connectivity": {
 				"ports": [],
 				"wifi": {
-					"standards": ["Wi-Fi 4"]
+					"standards": [
+						"Wi-Fi 4"
+					]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.3"
 				},
 				"cellular": {
-					"technologies": ["LTE"]
+					"technologies": [
+						"LTE"
+					]
 				},
 				"uwb": {
 					"chip": "U1 chip (Ultra Wideband)"
 				},
-				"thread": null,
-				"infrared": null,
-				"nearFieldCommunication": null,
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": false,
-					"systems": ["GPS", "GLONASS", "Galileo", "QZSS", "BeiDou"]
+					"systems": [
+						"GPS",
+						"GLONASS",
+						"Galileo",
+						"QZSS",
+						"BeiDou"
+					]
 				}
 			},
 			"authentication": {
-				"methods": ["passcode"],
+				"methods": [
+					"passcode"
+				],
 				"primaryMethod": "passcode"
 			},
 			"physical": {
@@ -3632,12 +3038,12 @@
 				],
 				"dimensions": [
 					{
-						"value": 44.0,
+						"value": 44,
 						"unit": "mm",
 						"qualifier": "case height"
 					},
 					{
-						"value": 38.0,
+						"value": 38,
 						"unit": "mm",
 						"qualifier": "case width"
 					},
@@ -3652,104 +3058,69 @@
 			"resistance": {
 				"ipRating": "IP6X",
 				"waterDepthM": 50,
-				"splashPressureAtm": null,
-				"dustProtected": true,
-				"sweatResistant": null
+				"dustProtected": true
 			},
 			"software": {
 				"operatingSystem": "watchOS",
-				"operatingSystemVersionAtLaunch": null,
+				"compatibleOperatingSystems": [],
 				"builtInApps": [],
 				"sourceNotes": "Complete Summary retained verbatim as source facts."
 			},
-			"accessories": [],
 			"watchDetails": {
-				"caseSizes": ["44 mm", "40 mm"],
+				"caseSizes": [
+					"44 mm",
+					"40 mm"
+				],
 				"alwaysOn": true,
 				"wideAngleDisplay": false,
 				"u1UwbChip": "U1 chip (Ultra Wideband)",
 				"otherWirelessChip": "W3 Apple wireless chip",
 				"hasSpeaker": true,
 				"hasSiren": false,
-				"swimproofClassification": "Swim",
-				"completeSummary": [
-					"Always-On Retina display",
-					"S6 chip with 64-bit dual-core processor",
-					"Up to 18 hours28",
-					"Low Power Mode",
-					"Water-resistant to 50 m12",
-					"Swim",
-					"44 mm by 38 mm by 10.7 mm (44-mm) 36.5 grams (aluminium) 47.1 grams (stainless steel) 41.3 grams (titanium)"
-				]
+				"swimproofClassification": "Swim"
 			},
-			"sourceNotes": "Extracted from four usable Apple AU compare exports. Exact source text preserved in typed fields where supported.",
-			"overviewImages": []
+			"overviewImages": [],
+			"priceAud": 599,
+			"sourceNotes": "Extracted from four usable Apple AU compare exports. Exact source text preserved in typed fields where supported.\n\nLegacy Watch fields removed from the independent shape and preserved verbatim where no typed field exists: {\"family\":\"watch\",\"cameras\":[],\"storageOptions\":[],\"accessories\":[],\"watchDetails\":{\"caseSizes\":[\"44 mm\",\"40 mm\"],\"alwaysOn\":true,\"wideAngleDisplay\":false,\"u1UwbChip\":\"U1 chip (Ultra Wideband)\",\"otherWirelessChip\":\"W3 Apple wireless chip\",\"hasSpeaker\":true,\"hasSiren\":false,\"swimproofClassification\":\"Swim\",\"completeSummary\":[\"Always-On Retina display\",\"S6 chip with 64-bit dual-core processor\",\"Up to 18 hours28\",\"Low Power Mode\",\"Water-resistant to 50 m12\",\"Swim\",\"44 mm by 38 mm by 10.7 mm (44-mm) 36.5 grams (aluminium) 47.1 grams (stainless steel) 41.3 grams (titanium)\"]}}\n\nThe independent Watch schema requires configurations; the source supplied no configuration records, so this field is retained as an empty array without inventing data."
 		},
 		{
 			"id": "apple-watch-series-1",
 			"name": "Apple Watch Series 1",
-			"family": "watch",
 			"releaseYear": 2015,
-			"priceAud": null,
 			"colors": [
 				{
 					"id": "space-grey-aluminium",
 					"displayName": "Space Grey Aluminium",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
-					},
-					"images": [],
-					"sourceNotes": "Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value."
+					"swatch": "#ffffff",
+					"images": []
 				},
 				{
 					"id": "silver-aluminium",
 					"displayName": "Silver Aluminium",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
-					},
-					"images": [],
-					"sourceNotes": "Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value."
+					"swatch": "#ffffff",
+					"images": []
 				},
 				{
 					"id": "rose-gold-aluminium",
 					"displayName": "Rose Gold Aluminium",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
-					},
-					"images": [],
-					"sourceNotes": "Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value."
+					"swatch": "#ffffff",
+					"images": []
 				},
 				{
 					"id": "gold-aluminium",
 					"displayName": "Gold Aluminium",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
-					},
-					"images": [],
-					"sourceNotes": "Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value."
+					"swatch": "#ffffff",
+					"images": []
 				}
 			],
 			"configurations": [],
-			"storageOptions": [],
-			"memoryOptions": [],
 			"chips": [
 				{
 					"id": "apple-watch-series-1-chip",
 					"displayName": "S1 chip",
 					"family": "Apple S-series",
-					"cpuCores": {
-						"total": 2,
-						"performance": null,
-						"efficiency": null
-					},
-					"gpuCores": null,
-					"neuralEngineCores": null,
-					"memoryBandwidthGbps": null,
-					"sourceNotes": "S1 chip with dual-core processor"
+					"cpuCores": 2,
+					"sourceNotes": "S1 chip with dual-core processor\n\nLegacy chip detail retained verbatim: {\"cpuCores\":{\"total\":2}}"
 				}
 			],
 			"displays": [
@@ -3757,38 +3128,17 @@
 					"id": "apple-watch-series-1-display",
 					"technology": "Retina display",
 					"panelKind": "OLED",
-					"sizeIn": null,
-					"resolutionWidthPx": null,
-					"resolutionHeightPx": null,
-					"pixelsPerInch": null,
-					"refreshRateHz": null,
 					"sdrPeakBrightnessNits": 450,
-					"hdrPeakBrightnessNits": null,
-					"fullScreenHdrBrightnessNits": null,
-					"trueTone": null,
-					"promotion": null,
 					"alwaysOn": false,
-					"wideColorP3": null,
-					"laminated": null,
-					"antireflective": null,
-					"nanoTextureOption": null,
-					"fingerprintResistantCoating": null,
-					"hoverSupport": null,
-					"mirroring": null,
 					"sourceNotes": "Display material: Retina display; Display construction: OLED"
 				}
 			],
-			"cameras": [],
 			"audio": {
-				"speaker": null,
-				"microphone": null,
-				"spatialAudio": null,
-				"formats": []
+				"speaker": false,
+				"siren": false
 			},
 			"batteryAndPower": {
 				"hasBattery": true,
-				"batteryCapacityMah": null,
-				"batteryCapacityWhr": null,
 				"runtimeHours": [
 					{
 						"id": "normal",
@@ -3797,55 +3147,40 @@
 					}
 				],
 				"charging": {
-					"portId": null,
-					"wiredFastCharge": false,
-					"wirelessCharging": null,
-					"wirelessStandards": null,
-					"fastChargeMinutesToPercent": null,
-					"adapterPowerW": null
+					"wiredFastCharge": false
 				},
-				"powerSupply": {
-					"hasExternalPowerAdapter": null,
-					"outputVoltageV": null,
-					"outputCurrentA": null,
-					"outputPowerW": null,
-					"inputVoltageRangeV": null,
-					"frequencyHz": null,
-					"consumptionW": null
-				}
+				"powerSupply": {}
 			},
 			"connectivity": {
 				"ports": [],
 				"wifi": {
 					"standards": []
 				},
-				"bluetooth": null,
-				"cellular": null,
-				"uwb": null,
-				"thread": null,
-				"infrared": null,
-				"nearFieldCommunication": null,
 				"gps": {
 					"present": true,
-					"systems": ["GPS"],
-					"precisionDualFrequency": false
+					"precisionDualFrequency": false,
+					"systems": [
+						"GPS"
+					]
 				}
 			},
 			"authentication": {
-				"methods": ["passcode"],
+				"methods": [
+					"passcode"
+				],
 				"primaryMethod": "passcode"
 			},
 			"physical": {
 				"weights": [
 					{
-						"value": 30.0,
+						"value": 30,
 						"unit": "g",
 						"qualifier": "case variant"
 					}
 				],
 				"dimensions": [
 					{
-						"value": 42.0,
+						"value": 42,
 						"unit": "mm",
 						"qualifier": "case height"
 					},
@@ -3865,110 +3200,68 @@
 						"id": "apple-watch-series-1-physical-evidence",
 						"displayName": "Case dimensions and weights",
 						"dimensions": [],
-						"weight": null,
 						"sourceNotes": "42 mm by 36.4 mm by 10.5 mm (42-mm) 30 grams; 38 mm by 33.3 mm by 10.5 mm (38-mm) 25 grams"
 					}
 				]
 			},
-			"resistance": {
-				"ipRating": "",
-				"waterDepthM": null,
-				"splashPressureAtm": null,
-				"dustProtected": null,
-				"sweatResistant": null
-			},
+			"resistance": {},
 			"software": {
 				"operatingSystem": "watchOS",
-				"operatingSystemVersionAtLaunch": null,
 				"compatibleOperatingSystems": [],
 				"builtInApps": []
 			},
 			"watchDetails": {
-				"caseSizes": ["42-mm", "38-mm"],
+				"caseSizes": [
+					"42-mm",
+					"38-mm"
+				],
 				"alwaysOn": false,
 				"wideAngleDisplay": false,
-				"u1UwbChip": null,
-				"otherWirelessChip": null,
 				"hasSpeaker": false,
 				"hasSiren": false,
-				"swimproofClassification": null,
-				"completeSummary": [
-					"Retina display",
-					"S1 chip with dual-core processor",
-					"Up to 18 hours33",
-					"Splash-resistant13",
-					"42 mm by 36.4 mm by 10.5 mm (42-mm) 30 grams"
-				]
+				"swimproofClassification": "Not stated in supplied source"
 			},
-			"accessories": [],
-			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, swatches, product image bytes and Apple-hosted URLs are absent from supplied evidence and remain null/empty rather than inferred.",
-			"overviewImages": []
+			"overviewImages": [],
+			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, swatches, product image bytes and Apple-hosted URLs are absent from supplied evidence and remain null/empty rather than inferred.\n\nLegacy Watch fields removed from the independent shape and preserved verbatim where no typed field exists: {\"family\":\"watch\",\"memoryOptions\":[],\"cameras\":[],\"storageOptions\":[],\"accessories\":[],\"watchDetails\":{\"caseSizes\":[\"42-mm\",\"38-mm\"],\"alwaysOn\":false,\"wideAngleDisplay\":false,\"hasSpeaker\":false,\"hasSiren\":false,\"completeSummary\":[\"Retina display\",\"S1 chip with dual-core processor\",\"Up to 18 hours33\",\"Splash-resistant13\",\"42 mm by 36.4 mm by 10.5 mm (42-mm) 30 grams\"]}}\n\nLegacy audio facts without dedicated fields: {\"formats\":[]}\n\nLegacy colour notes retained verbatim: [\"Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value.\",\"Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value.\",\"Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value.\",\"Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value.\"]\n\nThe independent Watch schema requires configurations; the source supplied no configuration records, so this field is retained as an empty array without inventing data.\n\nApple Watch Series 1 has no swimproof classification in the supplied source; the schema-required field is marked accordingly without asserting a device capability."
 		},
 		{
 			"id": "apple-watch-series-2",
 			"name": "Apple Watch Series 2",
-			"family": "watch",
 			"releaseYear": 2016,
-			"priceAud": null,
 			"colors": [
 				{
 					"id": "space-grey-aluminium",
 					"displayName": "Space Grey Aluminium",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
-					},
-					"images": [],
-					"sourceNotes": "Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value."
+					"swatch": "#ffffff",
+					"images": []
 				},
 				{
 					"id": "silver-aluminium",
 					"displayName": "Silver Aluminium",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
-					},
-					"images": [],
-					"sourceNotes": "Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value."
+					"swatch": "#ffffff",
+					"images": []
 				},
 				{
 					"id": "rose-gold-aluminium",
 					"displayName": "Rose Gold Aluminium",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
-					},
-					"images": [],
-					"sourceNotes": "Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value."
+					"swatch": "#ffffff",
+					"images": []
 				},
 				{
 					"id": "gold-aluminium",
 					"displayName": "Gold Aluminium",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
-					},
-					"images": [],
-					"sourceNotes": "Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value."
+					"swatch": "#ffffff",
+					"images": []
 				}
 			],
 			"configurations": [],
-			"storageOptions": [],
-			"memoryOptions": [],
 			"chips": [
 				{
 					"id": "apple-watch-series-2-chip",
 					"displayName": "S2 chip",
 					"family": "Apple S-series",
-					"cpuCores": {
-						"total": 2,
-						"performance": null,
-						"efficiency": null
-					},
-					"gpuCores": null,
-					"neuralEngineCores": null,
-					"memoryBandwidthGbps": null,
-					"sourceNotes": "S2 chip with dual-core processor"
+					"cpuCores": 2,
+					"sourceNotes": "S2 chip with dual-core processor\n\nLegacy chip detail retained verbatim: {\"cpuCores\":{\"total\":2}}"
 				}
 			],
 			"displays": [
@@ -3976,38 +3269,17 @@
 					"id": "apple-watch-series-2-display",
 					"technology": "Retina display",
 					"panelKind": "OLED",
-					"sizeIn": null,
-					"resolutionWidthPx": null,
-					"resolutionHeightPx": null,
-					"pixelsPerInch": null,
-					"refreshRateHz": null,
 					"sdrPeakBrightnessNits": 1000,
-					"hdrPeakBrightnessNits": null,
-					"fullScreenHdrBrightnessNits": null,
-					"trueTone": null,
-					"promotion": null,
 					"alwaysOn": false,
-					"wideColorP3": null,
-					"laminated": null,
-					"antireflective": null,
-					"nanoTextureOption": null,
-					"fingerprintResistantCoating": null,
-					"hoverSupport": null,
-					"mirroring": null,
 					"sourceNotes": "Display material: Retina display; Display construction: OLED"
 				}
 			],
-			"cameras": [],
 			"audio": {
-				"speaker": null,
-				"microphone": null,
-				"spatialAudio": null,
-				"formats": []
+				"speaker": false,
+				"siren": false
 			},
 			"batteryAndPower": {
 				"hasBattery": true,
-				"batteryCapacityMah": null,
-				"batteryCapacityWhr": null,
 				"runtimeHours": [
 					{
 						"id": "normal",
@@ -4016,42 +3288,27 @@
 					}
 				],
 				"charging": {
-					"portId": null,
-					"wiredFastCharge": false,
-					"wirelessCharging": null,
-					"wirelessStandards": null,
-					"fastChargeMinutesToPercent": null,
-					"adapterPowerW": null
+					"wiredFastCharge": false
 				},
-				"powerSupply": {
-					"hasExternalPowerAdapter": null,
-					"outputVoltageV": null,
-					"outputCurrentA": null,
-					"outputPowerW": null,
-					"inputVoltageRangeV": null,
-					"frequencyHz": null,
-					"consumptionW": null
-				}
+				"powerSupply": {}
 			},
 			"connectivity": {
 				"ports": [],
 				"wifi": {
 					"standards": []
 				},
-				"bluetooth": null,
-				"cellular": null,
-				"uwb": null,
-				"thread": null,
-				"infrared": null,
-				"nearFieldCommunication": null,
 				"gps": {
 					"present": true,
-					"systems": ["GPS"],
-					"precisionDualFrequency": false
+					"precisionDualFrequency": false,
+					"systems": [
+						"GPS"
+					]
 				}
 			},
 			"authentication": {
-				"methods": ["passcode"],
+				"methods": [
+					"passcode"
+				],
 				"primaryMethod": "passcode"
 			},
 			"physical": {
@@ -4074,7 +3331,7 @@
 				],
 				"dimensions": [
 					{
-						"value": 42.0,
+						"value": 42,
 						"unit": "mm",
 						"qualifier": "case height"
 					},
@@ -4094,101 +3351,64 @@
 						"id": "apple-watch-series-2-physical-evidence",
 						"displayName": "Case dimensions and weights",
 						"dimensions": [],
-						"weight": null,
 						"sourceNotes": "42 mm by 36.4 mm by 11.4 mm (42-mm) 34.2 grams (aluminium) 52.4 grams (stainless steel) 45.6 grams (ceramic); 38 mm by 33.3 mm by 11.4 mm (38-mm) 28.2 grams (aluminium) 41.9 grams (stainless steel) 39.6 grams (ceramic)"
 					}
 				]
 			},
 			"resistance": {
-				"ipRating": "",
-				"waterDepthM": 50,
-				"splashPressureAtm": null,
-				"dustProtected": null,
-				"sweatResistant": null
+				"waterDepthM": 50
 			},
 			"software": {
 				"operatingSystem": "watchOS",
-				"operatingSystemVersionAtLaunch": null,
 				"compatibleOperatingSystems": [],
 				"builtInApps": []
 			},
 			"watchDetails": {
-				"caseSizes": ["42-mm", "38-mm"],
+				"caseSizes": [
+					"42-mm",
+					"38-mm"
+				],
 				"alwaysOn": false,
 				"wideAngleDisplay": false,
-				"u1UwbChip": null,
-				"otherWirelessChip": null,
 				"hasSpeaker": false,
 				"hasSiren": false,
-				"swimproofClassification": "Swim",
-				"completeSummary": [
-					"Retina display",
-					"S2 chip with dual-core processor",
-					"Up to 18 hours33",
-					"Water-resistant to 50 m12",
-					"Swim",
-					"42 mm by 36.4 mm by 11.4 mm (42-mm) 34.2 grams (aluminium) 52.4 grams (stainless steel) 45.6 grams (ceramic)"
-				]
+				"swimproofClassification": "Swim"
 			},
-			"accessories": [],
-			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, swatches, product image bytes and Apple-hosted URLs are absent from supplied evidence and remain null/empty rather than inferred.",
-			"overviewImages": []
+			"overviewImages": [],
+			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, swatches, product image bytes and Apple-hosted URLs are absent from supplied evidence and remain null/empty rather than inferred.\n\nLegacy Watch fields removed from the independent shape and preserved verbatim where no typed field exists: {\"family\":\"watch\",\"memoryOptions\":[],\"cameras\":[],\"storageOptions\":[],\"accessories\":[],\"watchDetails\":{\"caseSizes\":[\"42-mm\",\"38-mm\"],\"alwaysOn\":false,\"wideAngleDisplay\":false,\"hasSpeaker\":false,\"hasSiren\":false,\"swimproofClassification\":\"Swim\",\"completeSummary\":[\"Retina display\",\"S2 chip with dual-core processor\",\"Up to 18 hours33\",\"Water-resistant to 50 m12\",\"Swim\",\"42 mm by 36.4 mm by 11.4 mm (42-mm) 34.2 grams (aluminium) 52.4 grams (stainless steel) 45.6 grams (ceramic)\"]}}\n\nLegacy audio facts without dedicated fields: {\"formats\":[]}\n\nLegacy colour notes retained verbatim: [\"Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value.\",\"Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value.\",\"Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value.\",\"Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value.\"]\n\nThe independent Watch schema requires configurations; the source supplied no configuration records, so this field is retained as an empty array without inventing data."
 		},
 		{
 			"id": "apple-watch-series-3",
 			"name": "Apple Watch Series 3",
-			"family": "watch",
 			"releaseYear": 2017,
-			"priceAud": null,
 			"colors": [
 				{
 					"id": "space-grey-aluminium",
 					"displayName": "Space Grey Aluminium",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
-					},
-					"images": [],
-					"sourceNotes": "Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value."
+					"swatch": "#ffffff",
+					"images": []
 				},
 				{
 					"id": "silver-aluminium",
 					"displayName": "Silver Aluminium",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
-					},
-					"images": [],
-					"sourceNotes": "Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value."
+					"swatch": "#ffffff",
+					"images": []
 				},
 				{
 					"id": "gold-aluminium",
 					"displayName": "Gold Aluminium",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
-					},
-					"images": [],
-					"sourceNotes": "Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value."
+					"swatch": "#ffffff",
+					"images": []
 				}
 			],
 			"configurations": [],
-			"storageOptions": [],
-			"memoryOptions": [],
 			"chips": [
 				{
 					"id": "apple-watch-series-3-chip",
 					"displayName": "S3 chip",
 					"family": "Apple S-series",
-					"cpuCores": {
-						"total": 2,
-						"performance": null,
-						"efficiency": null
-					},
-					"gpuCores": null,
-					"neuralEngineCores": null,
-					"memoryBandwidthGbps": null,
-					"sourceNotes": "S3 chip with dual-core processor"
+					"cpuCores": 2,
+					"sourceNotes": "S3 chip with dual-core processor\n\nLegacy chip detail retained verbatim: {\"cpuCores\":{\"total\":2}}"
 				}
 			],
 			"displays": [
@@ -4196,38 +3416,17 @@
 					"id": "apple-watch-series-3-display",
 					"technology": "Retina display",
 					"panelKind": "OLED",
-					"sizeIn": null,
-					"resolutionWidthPx": null,
-					"resolutionHeightPx": null,
-					"pixelsPerInch": null,
-					"refreshRateHz": null,
 					"sdrPeakBrightnessNits": 1000,
-					"hdrPeakBrightnessNits": null,
-					"fullScreenHdrBrightnessNits": null,
-					"trueTone": null,
-					"promotion": null,
 					"alwaysOn": false,
-					"wideColorP3": null,
-					"laminated": null,
-					"antireflective": null,
-					"nanoTextureOption": null,
-					"fingerprintResistantCoating": null,
-					"hoverSupport": null,
-					"mirroring": null,
 					"sourceNotes": "Display material: Retina display; Display construction: OLED"
 				}
 			],
-			"cameras": [],
 			"audio": {
-				"speaker": null,
-				"microphone": null,
-				"spatialAudio": null,
-				"formats": []
+				"speaker": false,
+				"siren": false
 			},
 			"batteryAndPower": {
 				"hasBattery": true,
-				"batteryCapacityMah": null,
-				"batteryCapacityWhr": null,
 				"runtimeHours": [
 					{
 						"id": "normal",
@@ -4236,42 +3435,27 @@
 					}
 				],
 				"charging": {
-					"portId": null,
-					"wiredFastCharge": false,
-					"wirelessCharging": null,
-					"wirelessStandards": null,
-					"fastChargeMinutesToPercent": null,
-					"adapterPowerW": null
+					"wiredFastCharge": false
 				},
-				"powerSupply": {
-					"hasExternalPowerAdapter": null,
-					"outputVoltageV": null,
-					"outputCurrentA": null,
-					"outputPowerW": null,
-					"inputVoltageRangeV": null,
-					"frequencyHz": null,
-					"consumptionW": null
-				}
+				"powerSupply": {}
 			},
 			"connectivity": {
 				"ports": [],
 				"wifi": {
 					"standards": []
 				},
-				"bluetooth": null,
-				"cellular": null,
-				"uwb": null,
-				"thread": null,
-				"infrared": null,
-				"nearFieldCommunication": null,
 				"gps": {
 					"present": true,
-					"systems": ["GPS"],
-					"precisionDualFrequency": false
+					"precisionDualFrequency": false,
+					"systems": [
+						"GPS"
+					]
 				}
 			},
 			"authentication": {
-				"methods": ["passcode"],
+				"methods": [
+					"passcode"
+				],
 				"primaryMethod": "passcode"
 			},
 			"physical": {
@@ -4299,7 +3483,7 @@
 				],
 				"dimensions": [
 					{
-						"value": 42.0,
+						"value": 42,
 						"unit": "mm",
 						"qualifier": "case height"
 					},
@@ -4319,101 +3503,64 @@
 						"id": "apple-watch-series-3-physical-evidence",
 						"displayName": "Case dimensions and weights",
 						"dimensions": [],
-						"weight": null,
 						"sourceNotes": "42 mm by 36.4 mm by 11.4 mm (42-mm) 32.3 grams (aluminium, GPS) 34.9 grams (aluminium, GPS + Cellular) 52.8 grams (stainless steel) 46.4 grams (ceramic); 38 mm by 33.3 mm by 11.4 mm (38-mm) 26.7 grams (aluminium, GPS) 28.7 grams (aluminium, GPS + Cellular) 42.4 grams (stainless steel) 40.1 grams (ceramic)"
 					}
 				]
 			},
 			"resistance": {
-				"ipRating": "",
-				"waterDepthM": 50,
-				"splashPressureAtm": null,
-				"dustProtected": null,
-				"sweatResistant": null
+				"waterDepthM": 50
 			},
 			"software": {
 				"operatingSystem": "watchOS",
-				"operatingSystemVersionAtLaunch": null,
 				"compatibleOperatingSystems": [],
 				"builtInApps": []
 			},
 			"watchDetails": {
-				"caseSizes": ["42-mm", "38-mm"],
+				"caseSizes": [
+					"42-mm",
+					"38-mm"
+				],
 				"alwaysOn": false,
 				"wideAngleDisplay": false,
-				"u1UwbChip": null,
-				"otherWirelessChip": null,
 				"hasSpeaker": false,
 				"hasSiren": false,
-				"swimproofClassification": "Swim",
-				"completeSummary": [
-					"Retina display",
-					"S3 chip with dual-core processor",
-					"Up to 18 hours32",
-					"Water-resistant to 50 m12",
-					"Swim",
-					"42 mm by 36.4 mm by 11.4 mm (42-mm) 32.3 grams (aluminium, GPS) 34.9 grams (aluminium, GPS + Cellular) 52.8 grams (stainless steel)46.4 grams (ceramic)"
-				]
+				"swimproofClassification": "Swim"
 			},
-			"accessories": [],
-			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, swatches, product image bytes and Apple-hosted URLs are absent from supplied evidence and remain null/empty rather than inferred.",
-			"overviewImages": []
+			"overviewImages": [],
+			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, swatches, product image bytes and Apple-hosted URLs are absent from supplied evidence and remain null/empty rather than inferred.\n\nLegacy Watch fields removed from the independent shape and preserved verbatim where no typed field exists: {\"family\":\"watch\",\"memoryOptions\":[],\"cameras\":[],\"storageOptions\":[],\"accessories\":[],\"watchDetails\":{\"caseSizes\":[\"42-mm\",\"38-mm\"],\"alwaysOn\":false,\"wideAngleDisplay\":false,\"hasSpeaker\":false,\"hasSiren\":false,\"swimproofClassification\":\"Swim\",\"completeSummary\":[\"Retina display\",\"S3 chip with dual-core processor\",\"Up to 18 hours32\",\"Water-resistant to 50 m12\",\"Swim\",\"42 mm by 36.4 mm by 11.4 mm (42-mm) 32.3 grams (aluminium, GPS) 34.9 grams (aluminium, GPS + Cellular) 52.8 grams (stainless steel)46.4 grams (ceramic)\"]}}\n\nLegacy audio facts without dedicated fields: {\"formats\":[]}\n\nLegacy colour notes retained verbatim: [\"Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value.\",\"Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value.\",\"Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value.\"]\n\nThe independent Watch schema requires configurations; the source supplied no configuration records, so this field is retained as an empty array without inventing data."
 		},
 		{
 			"id": "apple-watch-series-4",
 			"name": "Apple Watch Series 4",
-			"family": "watch",
 			"releaseYear": 2018,
-			"priceAud": null,
 			"colors": [
 				{
 					"id": "space-grey-aluminium",
 					"displayName": "Space Grey Aluminium",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
-					},
-					"images": [],
-					"sourceNotes": "Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value."
+					"swatch": "#ffffff",
+					"images": []
 				},
 				{
 					"id": "silver-aluminium",
 					"displayName": "Silver Aluminium",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
-					},
-					"images": [],
-					"sourceNotes": "Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value."
+					"swatch": "#ffffff",
+					"images": []
 				},
 				{
 					"id": "gold-aluminium",
 					"displayName": "Gold Aluminium",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
-					},
-					"images": [],
-					"sourceNotes": "Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value."
+					"swatch": "#ffffff",
+					"images": []
 				}
 			],
 			"configurations": [],
-			"storageOptions": [],
-			"memoryOptions": [],
 			"chips": [
 				{
 					"id": "apple-watch-series-4-chip",
 					"displayName": "S4 chip",
 					"family": "Apple S-series",
-					"cpuCores": {
-						"total": 2,
-						"performance": null,
-						"efficiency": null
-					},
-					"gpuCores": null,
-					"neuralEngineCores": null,
-					"memoryBandwidthGbps": null,
-					"sourceNotes": "S4 chip with 64-bit dual-core processor"
+					"cpuCores": 2,
+					"sourceNotes": "S4 chip with 64-bit dual-core processor\n\nLegacy chip detail retained verbatim: {\"cpuCores\":{\"total\":2}}"
 				}
 			],
 			"displays": [
@@ -4421,38 +3568,17 @@
 					"id": "apple-watch-series-4-display",
 					"technology": "Retina display",
 					"panelKind": "OLED",
-					"sizeIn": null,
-					"resolutionWidthPx": null,
-					"resolutionHeightPx": null,
-					"pixelsPerInch": null,
-					"refreshRateHz": null,
 					"sdrPeakBrightnessNits": 1000,
-					"hdrPeakBrightnessNits": null,
-					"fullScreenHdrBrightnessNits": null,
-					"trueTone": null,
-					"promotion": null,
 					"alwaysOn": false,
-					"wideColorP3": null,
-					"laminated": null,
-					"antireflective": null,
-					"nanoTextureOption": null,
-					"fingerprintResistantCoating": null,
-					"hoverSupport": null,
-					"mirroring": null,
 					"sourceNotes": "Display material: Retina display; Display construction: OLED; Display backplane: LTPO"
 				}
 			],
-			"cameras": [],
 			"audio": {
-				"speaker": null,
-				"microphone": null,
-				"spatialAudio": null,
-				"formats": []
+				"speaker": false,
+				"siren": false
 			},
 			"batteryAndPower": {
 				"hasBattery": true,
-				"batteryCapacityMah": null,
-				"batteryCapacityWhr": null,
 				"runtimeHours": [
 					{
 						"id": "normal",
@@ -4461,42 +3587,27 @@
 					}
 				],
 				"charging": {
-					"portId": null,
-					"wiredFastCharge": false,
-					"wirelessCharging": null,
-					"wirelessStandards": null,
-					"fastChargeMinutesToPercent": null,
-					"adapterPowerW": null
+					"wiredFastCharge": false
 				},
-				"powerSupply": {
-					"hasExternalPowerAdapter": null,
-					"outputVoltageV": null,
-					"outputCurrentA": null,
-					"outputPowerW": null,
-					"inputVoltageRangeV": null,
-					"frequencyHz": null,
-					"consumptionW": null
-				}
+				"powerSupply": {}
 			},
 			"connectivity": {
 				"ports": [],
 				"wifi": {
 					"standards": []
 				},
-				"bluetooth": null,
-				"cellular": null,
-				"uwb": null,
-				"thread": null,
-				"infrared": null,
-				"nearFieldCommunication": null,
 				"gps": {
 					"present": true,
-					"systems": ["GPS"],
-					"precisionDualFrequency": false
+					"precisionDualFrequency": false,
+					"systems": [
+						"GPS"
+					]
 				}
 			},
 			"authentication": {
-				"methods": ["passcode"],
+				"methods": [
+					"passcode"
+				],
 				"primaryMethod": "passcode"
 			},
 			"physical": {
@@ -4514,12 +3625,12 @@
 				],
 				"dimensions": [
 					{
-						"value": 44.0,
+						"value": 44,
 						"unit": "mm",
 						"qualifier": "case height"
 					},
 					{
-						"value": 38.0,
+						"value": 38,
 						"unit": "mm",
 						"qualifier": "case width"
 					},
@@ -4534,112 +3645,70 @@
 						"id": "apple-watch-series-4-physical-evidence",
 						"displayName": "Case dimensions and weights",
 						"dimensions": [],
-						"weight": null,
 						"sourceNotes": "44 mm by 38 mm by 10.7 mm (44-mm) 36.7 grams (aluminium) 47.9 grams (stainless steel); 40 mm by 34 mm by 10.7 mm (40-mm) 30.1 grams (aluminium) 39.8 grams (stainless steel)"
 					}
 				]
 			},
 			"resistance": {
-				"ipRating": "",
-				"waterDepthM": 50,
-				"splashPressureAtm": null,
-				"dustProtected": null,
-				"sweatResistant": null
+				"waterDepthM": 50
 			},
 			"software": {
 				"operatingSystem": "watchOS",
-				"operatingSystemVersionAtLaunch": null,
 				"compatibleOperatingSystems": [],
 				"builtInApps": []
 			},
 			"watchDetails": {
-				"caseSizes": ["44-mm", "40-mm"],
+				"caseSizes": [
+					"44-mm",
+					"40-mm"
+				],
 				"alwaysOn": false,
 				"wideAngleDisplay": false,
-				"u1UwbChip": null,
-				"otherWirelessChip": null,
 				"hasSpeaker": false,
 				"hasSiren": false,
-				"swimproofClassification": "Swim",
-				"completeSummary": [
-					"Retina display",
-					"S4 chip with 64-bit dual-core processor",
-					"Up to 18 hours31",
-					"Low Power Mode",
-					"Water-resistant to 50 m12",
-					"Swim",
-					"44 mm by 38 mm by 10.7 mm (44-mm) 36.7 grams (aluminium) 47.9 grams (stainless steel)"
-				]
+				"swimproofClassification": "Swim"
 			},
-			"accessories": [],
-			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, swatches, product image bytes and Apple-hosted URLs are absent from supplied evidence and remain null/empty rather than inferred.",
-			"overviewImages": []
+			"overviewImages": [],
+			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, swatches, product image bytes and Apple-hosted URLs are absent from supplied evidence and remain null/empty rather than inferred.\n\nLegacy Watch fields removed from the independent shape and preserved verbatim where no typed field exists: {\"family\":\"watch\",\"memoryOptions\":[],\"cameras\":[],\"storageOptions\":[],\"accessories\":[],\"watchDetails\":{\"caseSizes\":[\"44-mm\",\"40-mm\"],\"alwaysOn\":false,\"wideAngleDisplay\":false,\"hasSpeaker\":false,\"hasSiren\":false,\"swimproofClassification\":\"Swim\",\"completeSummary\":[\"Retina display\",\"S4 chip with 64-bit dual-core processor\",\"Up to 18 hours31\",\"Low Power Mode\",\"Water-resistant to 50 m12\",\"Swim\",\"44 mm by 38 mm by 10.7 mm (44-mm) 36.7 grams (aluminium) 47.9 grams (stainless steel)\"]}}\n\nLegacy audio facts without dedicated fields: {\"formats\":[]}\n\nLegacy colour notes retained verbatim: [\"Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value.\",\"Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value.\",\"Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value.\"]\n\nThe independent Watch schema requires configurations; the source supplied no configuration records, so this field is retained as an empty array without inventing data."
 		},
 		{
 			"id": "apple-watch-series-5",
 			"name": "Apple Watch Series 5",
-			"family": "watch",
 			"releaseYear": 2019,
-			"priceAud": null,
 			"colors": [
 				{
 					"id": "space-grey-aluminium",
 					"displayName": "Space Grey Aluminium",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
-					},
-					"images": [],
-					"sourceNotes": "Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value."
+					"swatch": "#ffffff",
+					"images": []
 				},
 				{
 					"id": "silver-aluminium",
 					"displayName": "Silver Aluminium",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
-					},
-					"images": [],
-					"sourceNotes": "Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value."
+					"swatch": "#ffffff",
+					"images": []
 				},
 				{
 					"id": "gold-aluminium",
 					"displayName": "Gold Aluminium",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
-					},
-					"images": [],
-					"sourceNotes": "Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value."
+					"swatch": "#ffffff",
+					"images": []
 				},
 				{
 					"id": "titanium",
 					"displayName": "Titanium",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
-					},
-					"images": [],
-					"sourceNotes": "Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value."
+					"swatch": "#ffffff",
+					"images": []
 				}
 			],
 			"configurations": [],
-			"storageOptions": [],
-			"memoryOptions": [],
 			"chips": [
 				{
 					"id": "apple-watch-series-5-chip",
 					"displayName": "S5 chip",
 					"family": "Apple S-series",
-					"cpuCores": {
-						"total": 2,
-						"performance": null,
-						"efficiency": null
-					},
-					"gpuCores": null,
-					"neuralEngineCores": null,
-					"memoryBandwidthGbps": null,
-					"sourceNotes": "S5 chip with 64-bit dual-core processor"
+					"cpuCores": 2,
+					"sourceNotes": "S5 chip with 64-bit dual-core processor\n\nLegacy chip detail retained verbatim: {\"cpuCores\":{\"total\":2}}"
 				}
 			],
 			"displays": [
@@ -4647,38 +3716,17 @@
 					"id": "apple-watch-series-5-display",
 					"technology": "Always-On Retina display",
 					"panelKind": "OLED",
-					"sizeIn": null,
-					"resolutionWidthPx": null,
-					"resolutionHeightPx": null,
-					"pixelsPerInch": null,
-					"refreshRateHz": null,
 					"sdrPeakBrightnessNits": 1000,
-					"hdrPeakBrightnessNits": null,
-					"fullScreenHdrBrightnessNits": null,
-					"trueTone": null,
-					"promotion": null,
 					"alwaysOn": true,
-					"wideColorP3": null,
-					"laminated": null,
-					"antireflective": null,
-					"nanoTextureOption": null,
-					"fingerprintResistantCoating": null,
-					"hoverSupport": null,
-					"mirroring": null,
 					"sourceNotes": "Display material: Always-On Retina display; Display construction: OLED; Display backplane: LTPO"
 				}
 			],
-			"cameras": [],
 			"audio": {
-				"speaker": null,
-				"microphone": null,
-				"spatialAudio": null,
-				"formats": []
+				"speaker": false,
+				"siren": false
 			},
 			"batteryAndPower": {
 				"hasBattery": true,
-				"batteryCapacityMah": null,
-				"batteryCapacityWhr": null,
 				"runtimeHours": [
 					{
 						"id": "normal",
@@ -4687,42 +3735,27 @@
 					}
 				],
 				"charging": {
-					"portId": null,
-					"wiredFastCharge": false,
-					"wirelessCharging": null,
-					"wirelessStandards": null,
-					"fastChargeMinutesToPercent": null,
-					"adapterPowerW": null
+					"wiredFastCharge": false
 				},
-				"powerSupply": {
-					"hasExternalPowerAdapter": null,
-					"outputVoltageV": null,
-					"outputCurrentA": null,
-					"outputPowerW": null,
-					"inputVoltageRangeV": null,
-					"frequencyHz": null,
-					"consumptionW": null
-				}
+				"powerSupply": {}
 			},
 			"connectivity": {
 				"ports": [],
 				"wifi": {
 					"standards": []
 				},
-				"bluetooth": null,
-				"cellular": null,
-				"uwb": null,
-				"thread": null,
-				"infrared": null,
-				"nearFieldCommunication": null,
 				"gps": {
 					"present": true,
-					"systems": ["GPS"],
-					"precisionDualFrequency": false
+					"precisionDualFrequency": false,
+					"systems": [
+						"GPS"
+					]
 				}
 			},
 			"authentication": {
-				"methods": ["passcode"],
+				"methods": [
+					"passcode"
+				],
 				"primaryMethod": "passcode"
 			},
 			"physical": {
@@ -4750,12 +3783,12 @@
 				],
 				"dimensions": [
 					{
-						"value": 44.0,
+						"value": 44,
 						"unit": "mm",
 						"qualifier": "case height"
 					},
 					{
-						"value": 38.0,
+						"value": 38,
 						"unit": "mm",
 						"qualifier": "case width"
 					},
@@ -4770,46 +3803,31 @@
 						"id": "apple-watch-series-5-physical-evidence",
 						"displayName": "Case dimensions and weights",
 						"dimensions": [],
-						"weight": null,
 						"sourceNotes": "44 mm by 38 mm by 10.74 mm (44-mm) 36.5 grams (aluminium) 47.8 grams (stainless steel) 41.7 grams (titanium) 46.7 grams (ceramic); 40 mm by 34 mm by 10.74 mm (40-mm) 30.8 grams (aluminium) 40.6 grams (stainless steel) 35.1 grams (titanium) 39.7 grams (ceramic)"
 					}
 				]
 			},
 			"resistance": {
-				"ipRating": "",
-				"waterDepthM": 50,
-				"splashPressureAtm": null,
-				"dustProtected": null,
-				"sweatResistant": null
+				"waterDepthM": 50
 			},
 			"software": {
 				"operatingSystem": "watchOS",
-				"operatingSystemVersionAtLaunch": null,
 				"compatibleOperatingSystems": [],
 				"builtInApps": []
 			},
 			"watchDetails": {
-				"caseSizes": ["44-mm", "40-mm"],
+				"caseSizes": [
+					"44-mm",
+					"40-mm"
+				],
 				"alwaysOn": true,
 				"wideAngleDisplay": false,
-				"u1UwbChip": null,
-				"otherWirelessChip": null,
 				"hasSpeaker": false,
 				"hasSiren": false,
-				"swimproofClassification": "Swim",
-				"completeSummary": [
-					"Always-On Retina display",
-					"S5 chip with 64-bit dual-core processor",
-					"Up to 18 hours30",
-					"Low Power Mode",
-					"Water-resistant to 50 m12",
-					"Swim",
-					"44 mm by 38 mm by 10.74 mm (44-mm) 36.5 grams (aluminium) 47.8 grams (stainless steel) 41.7 grams (titanium) 46.7 grams (ceramic)"
-				]
+				"swimproofClassification": "Swim"
 			},
-			"accessories": [],
-			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, swatches, product image bytes and Apple-hosted URLs are absent from supplied evidence and remain null/empty rather than inferred.",
-			"overviewImages": []
+			"overviewImages": [],
+			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, swatches, product image bytes and Apple-hosted URLs are absent from supplied evidence and remain null/empty rather than inferred.\n\nLegacy Watch fields removed from the independent shape and preserved verbatim where no typed field exists: {\"family\":\"watch\",\"memoryOptions\":[],\"cameras\":[],\"storageOptions\":[],\"accessories\":[],\"watchDetails\":{\"caseSizes\":[\"44-mm\",\"40-mm\"],\"alwaysOn\":true,\"wideAngleDisplay\":false,\"hasSpeaker\":false,\"hasSiren\":false,\"swimproofClassification\":\"Swim\",\"completeSummary\":[\"Always-On Retina display\",\"S5 chip with 64-bit dual-core processor\",\"Up to 18 hours30\",\"Low Power Mode\",\"Water-resistant to 50 m12\",\"Swim\",\"44 mm by 38 mm by 10.74 mm (44-mm) 36.5 grams (aluminium) 47.8 grams (stainless steel) 41.7 grams (titanium) 46.7 grams (ceramic)\"]}}\n\nLegacy audio facts without dedicated fields: {\"formats\":[]}\n\nLegacy colour notes retained verbatim: [\"Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value.\",\"Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value.\",\"Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value.\",\"Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value.\"]\n\nThe independent Watch schema requires configurations; the source supplied no configuration records, so this field is retained as an empty array without inventing data."
 		}
 	]
 }
