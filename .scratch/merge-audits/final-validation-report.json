@@ -1,5 +1,5 @@
 {
-	"schemaSha256": "ac7c726982165354a7aa06e91b84ba998d0e11d38e21350585536e986ae7cef7",
+	"schemaSha256": "3c5a0489409517496ea081852246a5f63b44b30b8bc1772cd75de03d8905cfa4",
 	"draft": "Draft 2020-12",
 	"sections": [
 		{
@@ -46,7 +46,7 @@
 		},
 		{
 			"section": "mac",
-			"devices": 49,
+			"devices": 53,
 			"imageReferences": 45,
 			"valid": true,
 			"errorCount": 0
@@ -59,7 +59,7 @@
 			"errorCount": 0
 		}
 	],
-	"totalDevices": 157,
+	"totalDevices": 161,
 	"imageReferences": 392,
 	"invalidImageReferences": []
 }

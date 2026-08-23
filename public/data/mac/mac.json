@@ -12064,6 +12064,526 @@
 			"accessories": [],
 			"overviewImages": [],
 			"sourceNotes": "Extracted from rendered compare table in mac4.html using only the five supplied Mac snapshots. Unrendered prices, exact CSS swatches, target image bytes, Apple-hosted URLs, unsupported camera megapixel values, and launch OS versions remain omitted rather than inferred."
+		},
+		{
+			"id": "macbook-pro-16-in-m3-pro-or-m3-max",
+			"name": "MacBook Pro 16-in. (M3 Pro or M3 Max)",
+			"family": "mac",
+			"releaseYear": 2023,
+			"priceAud": null,
+			"colors": [
+				{
+					"id": "space-black",
+					"displayName": "Space Black",
+					"swatch": {
+						"kind": "css",
+						"value": "#ffffff"
+					},
+					"images": [],
+					"sourceNotes": "Rendered finish label and gallery image class image-compare-macbook-pro-16-m3-spaceblack; exact swatch value, target image bytes, Apple-hosted URL, and dimensions unavailable in supplied HTML."
+				},
+				{
+					"id": "silver",
+					"displayName": "Silver",
+					"swatch": {
+						"kind": "css",
+						"value": "#ffffff"
+					},
+					"images": [],
+					"sourceNotes": "Rendered finish label and gallery image class image-compare-macbook-pro-16-m3-silver; exact swatch value, target image bytes, Apple-hosted URL, and dimensions unavailable in supplied HTML."
+				}
+			],
+			"chips": [
+				{
+					"id": "macbook-pro-16-in-m3-pro-or-m3-max-chip",
+					"displayName": "Apple M3 Pro chip or Apple M3 Max chip",
+					"family": "M3 Pro or M3 Max",
+					"cpuCores": {
+						"total": 12,
+						"performance": 6,
+						"efficiency": 6
+					},
+					"gpuCores": 18,
+					"neuralEngineCores": 16,
+					"memoryBandwidthGbps": 150,
+					"hardwareRayTracing": true,
+					"sourceNotes": "Quick Look names both chips; System on Chip row states up to 12-core CPU with 6 performance and 6 efficiency cores, up to 18-core GPU, hardware-accelerated ray tracing, 16-core Neural Engine, and 150GB/s memory bandwidth."
+				}
+			],
+			"displays": [
+				{
+					"id": "macbook-pro-16-in-m3-pro-or-m3-max-display",
+					"technology": "Liquid Retina XDR display",
+					"panelKind": null,
+					"sizeIn": 16.2,
+					"resolutionWidthPx": null,
+					"resolutionHeightPx": null,
+					"pixelsPerInch": null,
+					"sourceNotes": "Rendered Quick Look badge only; detailed display facts absent from the target columns of supplied HTML."
+				}
+			],
+			"authentication": {
+				"methods": [
+					"Touch ID"
+				],
+				"primaryMethod": "Touch ID",
+				"placement": "keyboard",
+				"sourceNotes": "Rendered authentication row for the selected target column identifies Touch ID; placement is inferred from MacBook keyboard context and recorded explicitly."
+			},
+			"overviewImages": [],
+			"sourceNotes": "Source: data/tmp/mac/mac7.html. Canonical source: https://www.apple.com/au/mac/compare/?modelList=MacBook-Pro-16-M3,MacBook-Pro-16-M2,MacBook-Pro-14. Price row contains an unrendered price proxy, so AUD price remains explicitly null."
+		},
+		{
+			"id": "macbook-pro-16-in-m2-pro-or-m2-max-2023",
+			"name": "MacBook Pro 16-in. (M2 Pro or M2 Max, 2023)",
+			"family": "mac",
+			"releaseYear": 2023,
+			"priceAud": null,
+			"colors": [
+				{
+					"id": "space-gray",
+					"displayName": "Space Grey",
+					"swatch": {
+						"kind": "css",
+						"value": "#ffffff"
+					},
+					"images": [],
+					"sourceNotes": "Rendered finish label and gallery image class image-compare-macbook-pro-16-m2-spacegray; exact swatch value, target image bytes, Apple-hosted URL, and dimensions unavailable in supplied HTML."
+				},
+				{
+					"id": "silver",
+					"displayName": "Silver",
+					"swatch": {
+						"kind": "css",
+						"value": "#ffffff"
+					},
+					"images": [],
+					"sourceNotes": "Rendered finish label and gallery image class image-compare-macbook-pro-16-m2-silver; exact swatch value, target image bytes, Apple-hosted URL, and dimensions unavailable in supplied HTML."
+				}
+			],
+			"chips": [
+				{
+					"id": "macbook-pro-16-in-m2-pro-or-m2-max-2023-chip",
+					"displayName": "Apple M2 Pro chip or Apple M2 Max chip",
+					"family": "M2 Pro or M2 Max",
+					"cpuCores": {
+						"total": 12,
+						"performance": 8,
+						"efficiency": 4
+					},
+					"gpuCores": 38,
+					"neuralEngineCores": 16,
+					"memoryBandwidthGbps": 400,
+					"hardwareRayTracing": true,
+					"sourceNotes": "Quick Look names both chips; System on Chip rows state 12-core CPU with 8 performance and 4 efficiency cores, up to 38-core GPU, hardware-accelerated ray tracing, 16-core Neural Engine, and 400GB/s memory bandwidth."
+				}
+			],
+			"displays": [
+				{
+					"id": "macbook-pro-16-in-m2-pro-or-m2-max-2023-display",
+					"technology": "Liquid Retina XDR display",
+					"panelKind": null,
+					"sizeIn": 16.2,
+					"resolutionWidthPx": null,
+					"resolutionHeightPx": null,
+					"pixelsPerInch": null,
+					"sourceNotes": "Rendered Quick Look badge only; detailed display facts absent from the target columns of supplied HTML."
+				}
+			],
+			"authentication": {
+				"methods": [
+					"Touch ID"
+				],
+				"primaryMethod": "Touch ID",
+				"placement": "keyboard",
+				"sourceNotes": "Rendered authentication row for the selected target column identifies Touch ID; placement is inferred from MacBook keyboard context and recorded explicitly."
+			},
+			"overviewImages": [],
+			"sourceNotes": "Source: data/tmp/mac/mac7.html. Canonical source: https://www.apple.com/au/mac/compare/?modelList=MacBook-Pro-16-M3,MacBook-Pro-16-M2,MacBook-Pro-14. Price row contains an unrendered price proxy, so AUD price remains explicitly null."
+		},
+		{
+			"id": "macbook-pro-14-in-m1-pro-or-m1-max-2021",
+			"name": "MacBook Pro 14-in. (M1 Pro or M1 Max, 2021)",
+			"family": "mac",
+			"releaseYear": 2021,
+			"priceAud": null,
+			"colors": [
+				{
+					"id": "space-gray",
+					"displayName": "Space Grey",
+					"swatch": {
+						"kind": "css",
+						"value": "#ffffff"
+					},
+					"images": [],
+					"sourceNotes": "Rendered finish label and gallery image class image-compare-macbook-pro-14-spacegray; exact swatch value, target image bytes, Apple-hosted URL, and dimensions unavailable in supplied HTML."
+				},
+				{
+					"id": "silver",
+					"displayName": "Silver",
+					"swatch": {
+						"kind": "css",
+						"value": "#ffffff"
+					},
+					"images": [],
+					"sourceNotes": "Rendered finish label and gallery image class image-compare-macbook-pro-14-silver; exact swatch value, target image bytes, Apple-hosted URL, and dimensions unavailable in supplied HTML."
+				}
+			],
+			"chips": [
+				{
+					"id": "macbook-pro-14-in-m1-pro-or-m1-max-2021-chip",
+					"displayName": "Apple M1 Pro chip or Apple M1 Max chip",
+					"family": "M1 Pro or M1 Max",
+					"cpuCores": {
+						"total": 10,
+						"performance": 8,
+						"efficiency": 2
+					},
+					"gpuCores": 32,
+					"neuralEngineCores": 16,
+					"memoryBandwidthGbps": 400,
+					"hardwareRayTracing": true,
+					"sourceNotes": "Quick Look names both chips; System on Chip rows state up to 10-core CPU with 8 performance and 2 efficiency cores, up to 32-core GPU, hardware-accelerated ray tracing, 16-core Neural Engine, and 400GB/s memory bandwidth."
+				}
+			],
+			"displays": [
+				{
+					"id": "macbook-pro-14-in-m1-pro-or-m1-max-2021-display",
+					"technology": "Liquid Retina XDR display",
+					"panelKind": null,
+					"sizeIn": 14.2,
+					"resolutionWidthPx": null,
+					"resolutionHeightPx": null,
+					"pixelsPerInch": null,
+					"sourceNotes": "Rendered Quick Look badge only; detailed display facts absent from the target columns of supplied HTML."
+				}
+			],
+			"authentication": {
+				"methods": [
+					"Touch ID"
+				],
+				"primaryMethod": "Touch ID",
+				"placement": "keyboard",
+				"sourceNotes": "Rendered authentication row for the selected target column identifies Touch ID; placement is inferred from MacBook keyboard context and recorded explicitly."
+			},
+			"overviewImages": [],
+			"sourceNotes": "Source: data/tmp/mac/mac7.html. Canonical source: https://www.apple.com/au/mac/compare/?modelList=MacBook-Pro-16-M3,MacBook-Pro-16-M2,MacBook-Pro-14. Price row contains an unrendered price proxy, so AUD price remains explicitly null."
+		},
+		{
+			"id": "macbook-pro-16-in-m1-pro-or-m1-max-2021",
+			"name": "MacBook Pro 16-in. (M1 Pro or M1 Max, 2021)",
+			"family": "mac",
+			"releaseYear": 2021,
+			"priceAud": null,
+			"colors": [],
+			"configurations": [],
+			"storageOptions": [
+				{
+					"id": "512gb",
+					"displayName": "512GB",
+					"capacityValue": 512,
+					"capacityUnit": "GB",
+					"sourceNotes": "512GB SSD"
+				},
+				{
+					"id": "1tb",
+					"displayName": "1TB",
+					"capacityValue": 1,
+					"capacityUnit": "TB",
+					"sourceNotes": "1TB SSD"
+				},
+				{
+					"id": "2tb",
+					"displayName": "2TB",
+					"capacityValue": 2,
+					"capacityUnit": "TB",
+					"sourceNotes": "2TB SSD"
+				},
+				{
+					"id": "4tb",
+					"displayName": "4TB",
+					"capacityValue": 4,
+					"capacityUnit": "TB",
+					"sourceNotes": "4TB SSD"
+				},
+				{
+					"id": "8tb",
+					"displayName": "8TB",
+					"capacityValue": 8,
+					"capacityUnit": "TB",
+					"sourceNotes": "8TB SSD"
+				}
+			],
+			"memoryOptions": [
+				{
+					"id": "16gb",
+					"displayName": "16GB",
+					"capacityValue": 16,
+					"capacityUnit": "GB",
+					"kind": "unified",
+					"sourceNotes": "16GB memory"
+				},
+				{
+					"id": "32gb",
+					"displayName": "32GB",
+					"capacityValue": 32,
+					"capacityUnit": "GB",
+					"kind": "unified",
+					"sourceNotes": "32GB memory"
+				},
+				{
+					"id": "64gb-m1-max",
+					"displayName": "64GB (M1 Max)",
+					"capacityValue": 64,
+					"capacityUnit": "GB",
+					"kind": "unified",
+					"sourceNotes": "64GB memory; source labels availability to M1 Max."
+				}
+			],
+			"chips": [
+				{
+					"id": "apple-m1-pro-chip",
+					"displayName": "Apple M1 Pro chip",
+					"family": "M1 Pro chip",
+					"cpuCores": {
+						"total": 10,
+						"performance": 8,
+						"efficiency": 2
+					},
+					"gpuCores": null,
+					"neuralEngineCores": 16,
+					"memoryBandwidthGbps": 200,
+					"mediaEngines": [
+						{
+							"id": "m1-pro-media-engine",
+							"displayName": "Media Engine",
+							"kinds": [
+								"video-decode",
+								"video-encode"
+							]
+						}
+					],
+					"sourceNotes": "10-core CPU with 8 performance cores and 2 efficiency cores; 16-core GPU; 16-core Neural Engine; 200GB/s memory bandwidth."
+				},
+				{
+					"id": "apple-m1-max-chip",
+					"displayName": "Apple M1 Max chip",
+					"family": "M1 Max chip",
+					"cpuCores": {
+						"total": 10,
+						"performance": 8,
+						"efficiency": 2
+					},
+					"gpuCores": 32,
+					"neuralEngineCores": 16,
+					"memoryBandwidthGbps": 400,
+					"cpuCoreConfiguration": "10-core CPU with 8 performance cores and 2 efficiency cores; up to 32-core GPU.",
+					"mediaEngines": [
+						{
+							"id": "m1-max-media-engine",
+							"displayName": "Media Engine",
+							"kinds": [
+								"video-decode",
+								"video-encode"
+							]
+						},
+						{
+							"id": "m1-max-prores-engine",
+							"displayName": "ProRes engine",
+							"kinds": [
+								"ProRes encode-decode"
+							]
+						}
+					],
+					"sourceNotes": "Second listed processor row: up to 32-core GPU; 400GB/s memory bandwidth. Media engine supports H.264, HEVC, ProRes and ProRes RAW decode and encode."
+				}
+			],
+			"displays": [
+				{
+					"id": "display-16-2-xdr",
+					"technology": "Liquid Retina XDR display",
+					"panelKind": "LED-backlit LCD",
+					"sizeIn": 16.2,
+					"resolutionWidthPx": 3456,
+					"resolutionHeightPx": 2234,
+					"pixelsPerInch": null,
+					"refreshRateRange": {
+						"minimum": 0,
+						"maximum": 120,
+						"unit": "hz",
+						"qualifier": "Adaptive refresh rates with ProMotion technology"
+					},
+					"sdrPeakBrightnessNits": 500,
+					"hdrPeakBrightnessNits": 1600,
+					"fullScreenHdrBrightnessNits": 1000,
+					"trueTone": true,
+					"promotion": true,
+					"wideColorP3": true,
+					"sourceNotes": "Mini-LED-backlit display footnote 9; XDR brightness: 1000 nits sustained full-screen and 1600 nits peak for HDR content only; SDR brightness: 500 nits max; Wide colour P3; True Tone; ProMotion up to 120Hz."
+				}
+			],
+			"cameras": [
+				{
+					"id": "camera-facetime-hd",
+					"role": "FaceTime",
+					"displayName": "1080p FaceTime HD camera with advanced image signal processor and computational video",
+					"megapixels": null
+				}
+			],
+			"audio": {
+				"speaker": true,
+				"microphone": true,
+				"spatialAudio": true,
+				"speakerConfiguration": "High-fidelity six-speaker sound system with force-cancelling woofers and wide stereo sound",
+				"microphoneConfiguration": "Studio-quality three-mic array with high signal-to-noise ratio and directional beamforming",
+				"formats": [
+					"Dolby Atmos playback",
+					"Spatial Audio"
+				],
+				"sourceNotes": "Supports Dolby Atmos playback on built-in speakers; Spatial Audio with dynamic head tracking using supported AirPods models."
+			},
+			"batteryAndPower": {
+				"hasBattery": true,
+				"batteryCapacityMah": null,
+				"batteryCapacityWhr": 100,
+				"runtimeHours": [
+					{
+						"id": "wireless-web",
+						"activity": "Wireless web",
+						"hours": 14,
+						"qualifier": "Up to"
+					},
+					{
+						"id": "apple-tv-movie-playback",
+						"activity": "Apple TV app movie playback",
+						"hours": 21,
+						"qualifier": "Up to"
+					}
+				],
+				"charging": {
+					"portId": null,
+					"wiredFastCharge": true,
+					"wirelessCharging": false,
+					"wirelessStandards": [],
+					"fastChargeMinutesToPercent": null,
+					"adapterPowerW": 140
+				},
+				"powerSupply": {
+					"hasExternalPowerAdapter": true,
+					"outputVoltageV": null,
+					"outputCurrentA": null,
+					"outputPowerW": 140,
+					"inputVoltageRangeV": null,
+					"frequencyHz": null,
+					"consumptionW": null
+				}
+			},
+			"connectivity": {
+				"ports": [
+					{
+						"id": "thunderbolt-4-three-port",
+						"kind": "Thunderbolt 4",
+						"standard": "Thunderbolt 4",
+						"quantity": 3,
+						"supportsDisplayOut": null,
+						"maxPowerW": null,
+						"sourceNotes": "Three Thunderbolt 4 (USB-C) ports"
+					},
+					{
+						"id": "hdmi-port",
+						"kind": "HDMI",
+						"quantity": 1,
+						"supportsDisplayOut": null,
+						"maxPowerW": null,
+						"sourceNotes": "HDMI port"
+					},
+					{
+						"id": "sdxc-card-slot",
+						"kind": "proprietary",
+						"quantity": 1,
+						"supportsDisplayOut": null,
+						"maxPowerW": null,
+						"sourceNotes": "SDXC card slot"
+					},
+					{
+						"id": "headphone-jack",
+						"kind": "3.5 mm audio jack",
+						"quantity": 1,
+						"supportsDisplayOut": null,
+						"maxPowerW": null,
+						"sourceNotes": "3.5-mm headphone jack with advanced support for high-impedance headphones"
+					}
+				],
+				"wifi": {
+					"standards": [
+						"Wi-Fi 6"
+					]
+				},
+				"bluetooth": {
+					"version": "Bluetooth 5.0"
+				},
+				"cellular": null,
+				"uwb": null,
+				"thread": null,
+				"infrared": null,
+				"nearFieldCommunication": null,
+				"gps": null
+			},
+			"authentication": {
+				"methods": [
+					"Touch ID",
+					"passcode"
+				],
+				"primaryMethod": "Touch ID",
+				"placement": "keyboard",
+				"sourceNotes": "Touch ID; authorise payments using Touch ID."
+			},
+			"physical": {
+				"weights": [
+					{
+						"value": 2.1,
+						"unit": "kg",
+						"qualifier": "4.7 pounds"
+					}
+				],
+				"dimensions": [
+					{
+						"value": 1.68,
+						"unit": "cm",
+						"qualifier": "Height; 0.66 inch"
+					},
+					{
+						"value": 35.57,
+						"unit": "cm",
+						"qualifier": "Width; 14.01 inches"
+					},
+					{
+						"value": 24.81,
+						"unit": "cm",
+						"qualifier": "Depth; 9.77 inches"
+					}
+				],
+				"components": []
+			},
+			"resistance": {
+				"ipRating": null,
+				"waterDepthM": null,
+				"splashPressureAtm": null,
+				"dustProtected": null,
+				"sweatResistant": null
+			},
+			"software": {
+				"operatingSystem": "macOS",
+				"operatingSystemVersionAtLaunch": null,
+				"builtInApps": [
+					"FaceTime video",
+					"FaceTime audio"
+				]
+			},
+			"forceTouchTrackpad": true,
+			"backlitKeyboard": true,
+			"accessories": [],
+			"sourceNotes": "Backlit Magic Keyboard with Touch ID and full-height function keys; Force Touch trackpad; integrated 100-watt-hour lithium-polymer battery, included 140W USB-C Power Adapter, and fast charging with included adapter; Wi-Fi 6 (802.11ax); source evidence from data/tmp/mac/mac6.html."
 		}
 	]
 }

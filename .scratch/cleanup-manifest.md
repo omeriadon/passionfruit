@@ -1,0 +1,99 @@
+# Conservative scratch cleanup
+
+Date: 2026-08-23
+
+## Deleted
+
+- `.scratch/tmp/mac-rendered-rows.txt` — intermediate rendered Mac comparison rows; no canonical, schema, source, validation, or audit artifact references it.
+
+## Intentionally preserved
+
+- `.scratch/full-context.md`
+- Source HTML under `data/tmp/`
+- Canonical JSON, schemas, templates, and public images
+- Strict extraction artifacts and validation reports
+- Audit reports, checkpoints, heartbeats, extraction scripts, and quarantine assets that may preserve provenance or reproducibility
+- Pending audit snapshots were retained during the first cleanup pass and are included in the second-pass historical-artifact deletion below.
+
+## Watch image overlap check
+
+The requested byte-level comparison found 112 files in `public/data/watch/images/images/`. All 112 have byte-identical SHA-256 matches under `public/data/apple-watch/images/`; zero files are unique to the doubled directory. The public directory was not modified because public JSON and image paths were explicitly out of scope.
+
+## Second-pass deletions
+
+Date: 2026-08-23
+
+All paths below were explicitly proposed, checked for references from preserved operational files, and deleted. The proposal itself is retained at `.scratch/cleanup-proposal.md`.
+
+### Historical worker logs
+
+- `.scratch/heartbeats/Accessory-Schema.log` — historical worker heartbeat log; not runtime data or extraction evidence.
+- `.scratch/heartbeats/Bohr.log` — historical worker heartbeat log; not runtime data or extraction evidence.
+- `.scratch/heartbeats/Contract-Docs.log` — historical worker heartbeat log; not runtime data or extraction evidence.
+- `.scratch/heartbeats/Coverage-Audit.log` — historical worker heartbeat log; not runtime data or extraction evidence.
+- `.scratch/heartbeats/Fleet-Sync.log` — historical worker heartbeat log; not runtime data or extraction evidence.
+- `.scratch/heartbeats/Lovelace.log` — historical worker heartbeat log; not runtime data or extraction evidence.
+- `.scratch/heartbeats/Mac-Legacy.log` — historical worker heartbeat log; not runtime data or extraction evidence.
+- `.scratch/heartbeats/Mac-Modern.log` — historical worker heartbeat log; not runtime data or extraction evidence.
+- `.scratch/heartbeats/Mac-Resume.log` — historical worker heartbeat log; not runtime data or extraction evidence.
+- `.scratch/heartbeats/Maxwell.log` — historical worker heartbeat log; not runtime data or extraction evidence.
+- `.scratch/heartbeats/Merge-Prep.log` — historical worker heartbeat log; not runtime data or extraction evidence.
+- `.scratch/heartbeats/Noether.log` — historical worker heartbeat log; not runtime data or extraction evidence.
+- `.scratch/heartbeats/Pauli.log` — historical worker heartbeat log; not runtime data or extraction evidence.
+- `.scratch/heartbeats/Planck-Resume.log` — historical worker heartbeat log; not runtime data or extraction evidence.
+- `.scratch/heartbeats/Planck.log` — historical worker heartbeat log; not runtime data or extraction evidence.
+- `.scratch/heartbeats/Ramanujan.log` — historical worker heartbeat log; not runtime data or extraction evidence.
+- `.scratch/heartbeats/iPhone-Max.log` — historical worker heartbeat log; not runtime data or extraction evidence.
+- `.scratch/heartbeats/orchestrator.log` — historical worker heartbeat log; not runtime data or extraction evidence.
+
+### Historical worker checkpoints
+
+- `.scratch/checkpoints/Accessory-Schema.md` — historical worker checkpoint; superseded by the preserved final reports and strict evidence.
+- `.scratch/checkpoints/Aquinas.md` — historical worker checkpoint; superseded by the preserved final reports and strict evidence.
+- `.scratch/checkpoints/Bohr.md` — historical worker checkpoint; superseded by the preserved final reports and strict evidence.
+- `.scratch/checkpoints/Chandrasekhar.md` — historical worker checkpoint; superseded by the preserved final reports and strict evidence.
+- `.scratch/checkpoints/Contract-Docs.md` — historical worker checkpoint; superseded by the preserved final reports and strict evidence.
+- `.scratch/checkpoints/Dirac.md` — historical worker checkpoint; superseded by the preserved final reports and strict evidence.
+- `.scratch/checkpoints/Euler.md` — historical worker checkpoint; superseded by the preserved final reports and strict evidence.
+- `.scratch/checkpoints/Feynman.md` — historical worker checkpoint; superseded by the preserved final reports and strict evidence.
+- `.scratch/checkpoints/Hertz.md` — historical worker checkpoint; superseded by the preserved final reports and strict evidence.
+- `.scratch/checkpoints/Linnaeus.md` — historical worker checkpoint; superseded by the preserved final reports and strict evidence.
+- `.scratch/checkpoints/Lovelace.md` — historical worker checkpoint; superseded by the preserved final reports and strict evidence.
+- `.scratch/checkpoints/Mac-Legacy.md` — historical worker checkpoint; superseded by the preserved final reports and strict evidence.
+- `.scratch/checkpoints/Mac-Modern.md` — historical worker checkpoint; superseded by the preserved final reports and strict evidence.
+- `.scratch/checkpoints/Mac-Resume.md` — historical worker checkpoint; superseded by the preserved final reports and strict evidence.
+- `.scratch/checkpoints/Noether.md` — historical worker checkpoint; superseded by the preserved final reports and strict evidence.
+- `.scratch/checkpoints/Pauli.md` — historical worker checkpoint; superseded by the preserved final reports and strict evidence.
+- `.scratch/checkpoints/Planck.md` — historical worker checkpoint; superseded by the preserved final reports and strict evidence.
+- `.scratch/checkpoints/Ramanujan.md` — historical worker checkpoint; superseded by the preserved final reports and strict evidence.
+- `.scratch/checkpoints/Turing.md` — historical worker checkpoint; superseded by the preserved final reports and strict evidence.
+- `.scratch/checkpoints/iPhone-Max.md` — historical worker checkpoint; superseded by the preserved final reports and strict evidence.
+
+### Superseded one-off scripts
+
+- `.scratch/add-watch-notes.mjs` — one-off extraction, merge, normalization, or probe script superseded by canonical data and preserved validation/audit artifacts.
+- `.scratch/build-batch1.mjs` — one-off extraction, merge, normalization, or probe script superseded by canonical data and preserved validation/audit artifacts.
+- `.scratch/build-iphone-remaining.mjs` — one-off extraction, merge, normalization, or probe script superseded by canonical data and preserved validation/audit artifacts.
+- `.scratch/build-mini2.mjs` — one-off extraction, merge, normalization, or probe script superseded by canonical data and preserved validation/audit artifacts.
+- `.scratch/coverage-audit-compare.mjs` — one-off extraction, merge, normalization, or probe script superseded by canonical data and preserved validation/audit artifacts.
+- `.scratch/coverage-audit-extract-v2.mjs` — one-off extraction, merge, normalization, or probe script superseded by canonical data and preserved validation/audit artifacts.
+- `.scratch/coverage-audit-extract.mjs` — one-off extraction, merge, normalization, or probe script superseded by canonical data and preserved validation/audit artifacts.
+- `.scratch/dump-target-values.mjs` — one-off extraction, merge, normalization, or probe script superseded by canonical data and preserved validation/audit artifacts.
+- `.scratch/extract-hidden.mjs` — one-off extraction, merge, normalization, or probe script superseded by canonical data and preserved validation/audit artifacts.
+- `.scratch/extract-visible-targets.mjs` — one-off extraction, merge, normalization, or probe script superseded by canonical data and preserved validation/audit artifacts.
+- `.scratch/merge-remaining.mjs` — one-off extraction, merge, normalization, or probe script superseded by canonical data and preserved validation/audit artifacts.
+- `.scratch/mini2-values.mjs` — one-off extraction, merge, normalization, or probe script superseded by canonical data and preserved validation/audit artifacts.
+- `.scratch/pauli-fix-tv-dimensions.mjs` — one-off extraction, merge, normalization, or probe script superseded by canonical data and preserved validation/audit artifacts.
+- `.scratch/pauli-normalize-images.mjs` — one-off extraction, merge, normalization, or probe script superseded by canonical data and preserved validation/audit artifacts.
+- `.scratch/probe-order.mjs` — one-off extraction, merge, normalization, or probe script superseded by canonical data and preserved validation/audit artifacts.
+- `.scratch/probe-rows.mjs` — one-off extraction, merge, normalization, or probe script superseded by canonical data and preserved validation/audit artifacts.
+- `.scratch/probe-selectors.mjs` — one-off extraction, merge, normalization, or probe script superseded by canonical data and preserved validation/audit artifacts.
+
+### Superseded intermediate audit/error outputs
+
+- `.scratch/ampere-validation.pending.json` — intermediate validation, audit, normalization, or error output; not a final report and not required by preserved operational files.
+- `.scratch/coverage-audit-raw.json` — intermediate validation, audit, normalization, or error output; not a final report and not required by preserved operational files.
+- `.scratch/coverage-audit-result.json` — intermediate validation, audit, normalization, or error output; not a final report and not required by preserved operational files.
+- `.scratch/maxwell-errors.txt` — intermediate validation, audit, normalization, or error output; not a final report and not required by preserved operational files.
+- `.scratch/pauli-normalization.json` — intermediate validation, audit, normalization, or error output; not a final report and not required by preserved operational files.
+- `.scratch/relocation-audit.pending.json` — intermediate validation, audit, normalization, or error output; not a final report and not required by preserved operational files.
