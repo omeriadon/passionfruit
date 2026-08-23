@@ -1,0 +1,799 @@
+{
+	"group": "magic-keyboard",
+	"source": {
+		"url": "https://www.apple.com/au/ipad-keyboards/",
+		"localHtmlPath": "data/tmp/other/magic-keyboard.html",
+		"styleUrl": "https://www.apple.com/au/ipad-keyboards/styles/overview.css"
+	},
+	"accessories": [
+		{
+			"id": "magic-keyboard-for-ipad-pro-13",
+			"displayName": "Magic Keyboard for iPad Pro",
+			"category": "keyboard",
+			"priceAud": 579,
+			"colors": [
+				{
+					"id": "white",
+					"displayName": "White",
+					"swatch": {
+						"kind": "css",
+						"value": "#ffffff"
+					},
+					"images": [
+						{
+							"label": "White large",
+							"appleUrl": "https://www.apple.com/au/ipad-keyboards/images/overview/magic_keyboard_ipad_pro_white__bc7esfytpazm_large.png",
+							"localPath": "public/data/other/magic-keyboard/images/magic_keyboard_ipad_pro_white__bc7esfytpazm_large.png",
+							"widthPx": 1114,
+							"heightPx": 1226
+						},
+						{
+							"label": "White large 2x",
+							"appleUrl": "https://www.apple.com/au/ipad-keyboards/images/overview/magic_keyboard_ipad_pro_white__bc7esfytpazm_large_2x.png",
+							"localPath": "public/data/other/magic-keyboard/images/magic_keyboard_ipad_pro_white__bc7esfytpazm_large_2x.png",
+							"widthPx": 2228,
+							"heightPx": 2452
+						},
+						{
+							"label": "White medium",
+							"appleUrl": "https://www.apple.com/au/ipad-keyboards/images/overview/magic_keyboard_ipad_pro_white__bc7esfytpazm_medium.png",
+							"localPath": "public/data/other/magic-keyboard/images/magic_keyboard_ipad_pro_white__bc7esfytpazm_medium.png",
+							"widthPx": 741,
+							"heightPx": 857
+						},
+						{
+							"label": "White medium 2x",
+							"appleUrl": "https://www.apple.com/au/ipad-keyboards/images/overview/magic_keyboard_ipad_pro_white__bc7esfytpazm_medium_2x.png",
+							"localPath": "public/data/other/magic-keyboard/images/magic_keyboard_ipad_pro_white__bc7esfytpazm_medium_2x.png",
+							"widthPx": 1482,
+							"heightPx": 1714
+						},
+						{
+							"label": "White small",
+							"appleUrl": "https://www.apple.com/au/ipad-keyboards/images/overview/magic_keyboard_ipad_pro_white__bc7esfytpazm_small.png",
+							"localPath": "public/data/other/magic-keyboard/images/magic_keyboard_ipad_pro_white__bc7esfytpazm_small.png",
+							"widthPx": 430,
+							"heightPx": 505
+						},
+						{
+							"label": "White small 2x",
+							"appleUrl": "https://www.apple.com/au/ipad-keyboards/images/overview/magic_keyboard_ipad_pro_white__bc7esfytpazm_small_2x.png",
+							"localPath": "public/data/other/magic-keyboard/images/magic_keyboard_ipad_pro_white__bc7esfytpazm_small_2x.png",
+							"widthPx": 860,
+							"heightPx": 1010
+						}
+					]
+				},
+				{
+					"id": "black",
+					"displayName": "Black",
+					"swatch": {
+						"kind": "css",
+						"value": "#000000"
+					},
+					"images": [
+						{
+							"label": "Black large",
+							"appleUrl": "https://www.apple.com/au/ipad-keyboards/images/overview/magic_keyboard_ipad_pro_black__cctzqpac9zqu_large.png",
+							"localPath": "public/data/other/magic-keyboard/images/magic_keyboard_ipad_pro_black__cctzqpac9zqu_large.png",
+							"widthPx": 1114,
+							"heightPx": 1226
+						},
+						{
+							"label": "Black large 2x",
+							"appleUrl": "https://www.apple.com/au/ipad-keyboards/images/overview/magic_keyboard_ipad_pro_black__cctzqpac9zqu_large_2x.png",
+							"localPath": "public/data/other/magic-keyboard/images/magic_keyboard_ipad_pro_black__cctzqpac9zqu_large_2x.png",
+							"widthPx": 2228,
+							"heightPx": 2452
+						},
+						{
+							"label": "Black medium",
+							"appleUrl": "https://www.apple.com/au/ipad-keyboards/images/overview/magic_keyboard_ipad_pro_black__cctzqpac9zqu_medium.png",
+							"localPath": "public/data/other/magic-keyboard/images/magic_keyboard_ipad_pro_black__cctzqpac9zqu_medium.png",
+							"widthPx": 741,
+							"heightPx": 857
+						},
+						{
+							"label": "Black medium 2x",
+							"appleUrl": "https://www.apple.com/au/ipad-keyboards/images/overview/magic_keyboard_ipad_pro_black__cctzqpac9zqu_medium_2x.png",
+							"localPath": "public/data/other/magic-keyboard/images/magic_keyboard_ipad_pro_black__cctzqpac9zqu_medium_2x.png",
+							"widthPx": 1482,
+							"heightPx": 1714
+						},
+						{
+							"label": "Black small",
+							"appleUrl": "https://www.apple.com/au/ipad-keyboards/images/overview/magic_keyboard_ipad_pro_black__cctzqpac9zqu_small.png",
+							"localPath": "public/data/other/magic-keyboard/images/magic_keyboard_ipad_pro_black__cctzqpac9zqu_small.png",
+							"widthPx": 430,
+							"heightPx": 436
+						},
+						{
+							"label": "Black small 2x",
+							"appleUrl": "https://www.apple.com/au/ipad-keyboards/images/overview/magic_keyboard_ipad_pro_black__cctzqpac9zqu_small_2x.png",
+							"localPath": "public/data/other/magic-keyboard/images/magic_keyboard_ipad_pro_black__cctzqpac9zqu_small_2x.png",
+							"widthPx": 860,
+							"heightPx": 872
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"label": "Product selector small",
+					"appleUrl": "https://www.apple.com/au/ipad-keyboards/images/overview/selector_magic_keyboard_ipad_pro__c1obcq3hlaoi_small.jpg",
+					"localPath": "public/data/other/magic-keyboard/images/selector_magic_keyboard_ipad_pro__c1obcq3hlaoi_small.jpg",
+					"widthPx": 192,
+					"heightPx": 194
+				},
+				{
+					"label": "Product selector small 2x",
+					"appleUrl": "https://www.apple.com/au/ipad-keyboards/images/overview/selector_magic_keyboard_ipad_pro__c1obcq3hlaoi_small_2x.jpg",
+					"localPath": "public/data/other/magic-keyboard/images/selector_magic_keyboard_ipad_pro__c1obcq3hlaoi_small_2x.jpg",
+					"widthPx": 384,
+					"heightPx": 388
+				},
+				{
+					"label": "Product selector medium",
+					"appleUrl": "https://www.apple.com/au/ipad-keyboards/images/overview/selector_magic_keyboard_ipad_pro__c1obcq3hlaoi_medium.jpg",
+					"localPath": "public/data/other/magic-keyboard/images/selector_magic_keyboard_ipad_pro__c1obcq3hlaoi_medium.jpg",
+					"widthPx": 256,
+					"heightPx": 260
+				},
+				{
+					"label": "Product selector medium 2x",
+					"appleUrl": "https://www.apple.com/au/ipad-keyboards/images/overview/selector_magic_keyboard_ipad_pro__c1obcq3hlaoi_medium_2x.jpg",
+					"localPath": "public/data/other/magic-keyboard/images/selector_magic_keyboard_ipad_pro__c1obcq3hlaoi_medium_2x.jpg",
+					"widthPx": 512,
+					"heightPx": 520
+				},
+				{
+					"label": "Product selector large",
+					"appleUrl": "https://www.apple.com/au/ipad-keyboards/images/overview/selector_magic_keyboard_ipad_pro__c1obcq3hlaoi_large.jpg",
+					"localPath": "public/data/other/magic-keyboard/images/selector_magic_keyboard_ipad_pro__c1obcq3hlaoi_large.jpg",
+					"widthPx": 312,
+					"heightPx": 314
+				},
+				{
+					"label": "Product selector large 2x",
+					"appleUrl": "https://www.apple.com/au/ipad-keyboards/images/overview/selector_magic_keyboard_ipad_pro__c1obcq3hlaoi_large_2x.jpg",
+					"localPath": "public/data/other/magic-keyboard/images/selector_magic_keyboard_ipad_pro__c1obcq3hlaoi_large_2x.jpg",
+					"widthPx": 624,
+					"heightPx": 628
+				}
+			],
+			"compatibleDeviceIds": [
+				"ipad-pro-13-m5",
+				"ipad-pro-13-m4"
+			],
+			"capabilities": [
+				"Thin, light, portable floating cantilever design with multiple viewing angles.",
+				"Aluminium palm rest.",
+				"14-key function row for screen brightness, volume controls and other features.",
+				"USB-C connector for pass-through charging.",
+				"Front and back protection for iPad.",
+				"Large glass trackpad with haptic feedback and Multi-Touch gesture support."
+			],
+			"sourceUrl": "https://www.apple.com/au/ipad-keyboards/",
+			"sourceNotes": "The compatibility selector maps this accessory to iPad Pro 13-inch (M5 and M4). The overview selector displays A$579. Colour names, feature copy, and gallery image URLs are evidence-backed by the supplied HTML and its linked Apple stylesheet. Apple product code: MWR43."
+		},
+		{
+			"id": "magic-keyboard-for-ipad-pro-11",
+			"displayName": "Magic Keyboard for iPad Pro",
+			"category": "keyboard",
+			"priceAud": 499,
+			"colors": [
+				{
+					"id": "white",
+					"displayName": "White",
+					"swatch": {
+						"kind": "css",
+						"value": "#ffffff"
+					},
+					"images": [
+						{
+							"label": "White large",
+							"appleUrl": "https://www.apple.com/au/ipad-keyboards/images/overview/magic_keyboard_ipad_pro_white__bc7esfytpazm_large.png",
+							"localPath": "public/data/other/magic-keyboard/images/magic_keyboard_ipad_pro_white__bc7esfytpazm_large.png",
+							"widthPx": 1114,
+							"heightPx": 1226
+						},
+						{
+							"label": "White large 2x",
+							"appleUrl": "https://www.apple.com/au/ipad-keyboards/images/overview/magic_keyboard_ipad_pro_white__bc7esfytpazm_large_2x.png",
+							"localPath": "public/data/other/magic-keyboard/images/magic_keyboard_ipad_pro_white__bc7esfytpazm_large_2x.png",
+							"widthPx": 2228,
+							"heightPx": 2452
+						},
+						{
+							"label": "White medium",
+							"appleUrl": "https://www.apple.com/au/ipad-keyboards/images/overview/magic_keyboard_ipad_pro_white__bc7esfytpazm_medium.png",
+							"localPath": "public/data/other/magic-keyboard/images/magic_keyboard_ipad_pro_white__bc7esfytpazm_medium.png",
+							"widthPx": 741,
+							"heightPx": 857
+						},
+						{
+							"label": "White medium 2x",
+							"appleUrl": "https://www.apple.com/au/ipad-keyboards/images/overview/magic_keyboard_ipad_pro_white__bc7esfytpazm_medium_2x.png",
+							"localPath": "public/data/other/magic-keyboard/images/magic_keyboard_ipad_pro_white__bc7esfytpazm_medium_2x.png",
+							"widthPx": 1482,
+							"heightPx": 1714
+						},
+						{
+							"label": "White small",
+							"appleUrl": "https://www.apple.com/au/ipad-keyboards/images/overview/magic_keyboard_ipad_pro_white__bc7esfytpazm_small.png",
+							"localPath": "public/data/other/magic-keyboard/images/magic_keyboard_ipad_pro_white__bc7esfytpazm_small.png",
+							"widthPx": 430,
+							"heightPx": 505
+						},
+						{
+							"label": "White small 2x",
+							"appleUrl": "https://www.apple.com/au/ipad-keyboards/images/overview/magic_keyboard_ipad_pro_white__bc7esfytpazm_small_2x.png",
+							"localPath": "public/data/other/magic-keyboard/images/magic_keyboard_ipad_pro_white__bc7esfytpazm_small_2x.png",
+							"widthPx": 860,
+							"heightPx": 1010
+						}
+					]
+				},
+				{
+					"id": "black",
+					"displayName": "Black",
+					"swatch": {
+						"kind": "css",
+						"value": "#000000"
+					},
+					"images": [
+						{
+							"label": "Black large",
+							"appleUrl": "https://www.apple.com/au/ipad-keyboards/images/overview/magic_keyboard_ipad_pro_black__cctzqpac9zqu_large.png",
+							"localPath": "public/data/other/magic-keyboard/images/magic_keyboard_ipad_pro_black__cctzqpac9zqu_large.png",
+							"widthPx": 1114,
+							"heightPx": 1226
+						},
+						{
+							"label": "Black large 2x",
+							"appleUrl": "https://www.apple.com/au/ipad-keyboards/images/overview/magic_keyboard_ipad_pro_black__cctzqpac9zqu_large_2x.png",
+							"localPath": "public/data/other/magic-keyboard/images/magic_keyboard_ipad_pro_black__cctzqpac9zqu_large_2x.png",
+							"widthPx": 2228,
+							"heightPx": 2452
+						},
+						{
+							"label": "Black medium",
+							"appleUrl": "https://www.apple.com/au/ipad-keyboards/images/overview/magic_keyboard_ipad_pro_black__cctzqpac9zqu_medium.png",
+							"localPath": "public/data/other/magic-keyboard/images/magic_keyboard_ipad_pro_black__cctzqpac9zqu_medium.png",
+							"widthPx": 741,
+							"heightPx": 857
+						},
+						{
+							"label": "Black medium 2x",
+							"appleUrl": "https://www.apple.com/au/ipad-keyboards/images/overview/magic_keyboard_ipad_pro_black__cctzqpac9zqu_medium_2x.png",
+							"localPath": "public/data/other/magic-keyboard/images/magic_keyboard_ipad_pro_black__cctzqpac9zqu_medium_2x.png",
+							"widthPx": 1482,
+							"heightPx": 1714
+						},
+						{
+							"label": "Black small",
+							"appleUrl": "https://www.apple.com/au/ipad-keyboards/images/overview/magic_keyboard_ipad_pro_black__cctzqpac9zqu_small.png",
+							"localPath": "public/data/other/magic-keyboard/images/magic_keyboard_ipad_pro_black__cctzqpac9zqu_small.png",
+							"widthPx": 430,
+							"heightPx": 436
+						},
+						{
+							"label": "Black small 2x",
+							"appleUrl": "https://www.apple.com/au/ipad-keyboards/images/overview/magic_keyboard_ipad_pro_black__cctzqpac9zqu_small_2x.png",
+							"localPath": "public/data/other/magic-keyboard/images/magic_keyboard_ipad_pro_black__cctzqpac9zqu_small_2x.png",
+							"widthPx": 860,
+							"heightPx": 872
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"label": "Product selector small",
+					"appleUrl": "https://www.apple.com/au/ipad-keyboards/images/overview/selector_magic_keyboard_ipad_pro__c1obcq3hlaoi_small.jpg",
+					"localPath": "public/data/other/magic-keyboard/images/selector_magic_keyboard_ipad_pro__c1obcq3hlaoi_small.jpg",
+					"widthPx": 192,
+					"heightPx": 194
+				},
+				{
+					"label": "Product selector small 2x",
+					"appleUrl": "https://www.apple.com/au/ipad-keyboards/images/overview/selector_magic_keyboard_ipad_pro__c1obcq3hlaoi_small_2x.jpg",
+					"localPath": "public/data/other/magic-keyboard/images/selector_magic_keyboard_ipad_pro__c1obcq3hlaoi_small_2x.jpg",
+					"widthPx": 384,
+					"heightPx": 388
+				},
+				{
+					"label": "Product selector medium",
+					"appleUrl": "https://www.apple.com/au/ipad-keyboards/images/overview/selector_magic_keyboard_ipad_pro__c1obcq3hlaoi_medium.jpg",
+					"localPath": "public/data/other/magic-keyboard/images/selector_magic_keyboard_ipad_pro__c1obcq3hlaoi_medium.jpg",
+					"widthPx": 256,
+					"heightPx": 260
+				},
+				{
+					"label": "Product selector medium 2x",
+					"appleUrl": "https://www.apple.com/au/ipad-keyboards/images/overview/selector_magic_keyboard_ipad_pro__c1obcq3hlaoi_medium_2x.jpg",
+					"localPath": "public/data/other/magic-keyboard/images/selector_magic_keyboard_ipad_pro__c1obcq3hlaoi_medium_2x.jpg",
+					"widthPx": 512,
+					"heightPx": 520
+				},
+				{
+					"label": "Product selector large",
+					"appleUrl": "https://www.apple.com/au/ipad-keyboards/images/overview/selector_magic_keyboard_ipad_pro__c1obcq3hlaoi_large.jpg",
+					"localPath": "public/data/other/magic-keyboard/images/selector_magic_keyboard_ipad_pro__c1obcq3hlaoi_large.jpg",
+					"widthPx": 312,
+					"heightPx": 314
+				},
+				{
+					"label": "Product selector large 2x",
+					"appleUrl": "https://www.apple.com/au/ipad-keyboards/images/overview/selector_magic_keyboard_ipad_pro__c1obcq3hlaoi_large_2x.jpg",
+					"localPath": "public/data/other/magic-keyboard/images/selector_magic_keyboard_ipad_pro__c1obcq3hlaoi_large_2x.jpg",
+					"widthPx": 624,
+					"heightPx": 628
+				}
+			],
+			"compatibleDeviceIds": [
+				"ipad-pro-11-m5",
+				"ipad-pro-11-m4"
+			],
+			"capabilities": [
+				"Thin, light, portable floating cantilever design with multiple viewing angles.",
+				"Aluminium palm rest.",
+				"14-key function row for screen brightness, volume controls and other features.",
+				"USB-C connector for pass-through charging.",
+				"Front and back protection for iPad.",
+				"Large glass trackpad with haptic feedback and Multi-Touch gesture support."
+			],
+			"sourceUrl": "https://www.apple.com/au/ipad-keyboards/",
+			"sourceNotes": "The compatibility selector maps this accessory to iPad Pro 11-inch (M5 and M4). The overview selector displays A$499. Colour names, feature copy, and gallery image URLs are evidence-backed by the supplied HTML and its linked Apple stylesheet. Apple product code: MWR03."
+		},
+		{
+			"id": "magic-keyboard-for-ipad-air-13",
+			"displayName": "Magic Keyboard for iPad Air",
+			"category": "keyboard",
+			"priceAud": 499,
+			"colors": [
+				{
+					"id": "white",
+					"displayName": "White",
+					"swatch": {
+						"kind": "css",
+						"value": "#ffffff"
+					},
+					"images": [
+						{
+							"label": "White large",
+							"appleUrl": "https://www.apple.com/au/ipad-keyboards/images/overview/magic_keyboard_ipad_air_white__9s0wtoadc6q2_large.png",
+							"localPath": "public/data/other/magic-keyboard/images/magic_keyboard_ipad_air_white__9s0wtoadc6q2_large.png",
+							"widthPx": 1060,
+							"heightPx": 1167
+						},
+						{
+							"label": "White large 2x",
+							"appleUrl": "https://www.apple.com/au/ipad-keyboards/images/overview/magic_keyboard_ipad_air_white__9s0wtoadc6q2_large_2x.png",
+							"localPath": "public/data/other/magic-keyboard/images/magic_keyboard_ipad_air_white__9s0wtoadc6q2_large_2x.png",
+							"widthPx": 2120,
+							"heightPx": 2334
+						},
+						{
+							"label": "White medium",
+							"appleUrl": "https://www.apple.com/au/ipad-keyboards/images/overview/magic_keyboard_ipad_air_white__9s0wtoadc6q2_medium.png",
+							"localPath": "public/data/other/magic-keyboard/images/magic_keyboard_ipad_air_white__9s0wtoadc6q2_medium.png",
+							"widthPx": 741,
+							"heightPx": 857
+						},
+						{
+							"label": "White medium 2x",
+							"appleUrl": "https://www.apple.com/au/ipad-keyboards/images/overview/magic_keyboard_ipad_air_white__9s0wtoadc6q2_medium_2x.png",
+							"localPath": "public/data/other/magic-keyboard/images/magic_keyboard_ipad_air_white__9s0wtoadc6q2_medium_2x.png",
+							"widthPx": 1482,
+							"heightPx": 1714
+						},
+						{
+							"label": "White small",
+							"appleUrl": "https://www.apple.com/au/ipad-keyboards/images/overview/magic_keyboard_ipad_air_white__9s0wtoadc6q2_small.png",
+							"localPath": "public/data/other/magic-keyboard/images/magic_keyboard_ipad_air_white__9s0wtoadc6q2_small.png",
+							"widthPx": 430,
+							"heightPx": 505
+						},
+						{
+							"label": "White small 2x",
+							"appleUrl": "https://www.apple.com/au/ipad-keyboards/images/overview/magic_keyboard_ipad_air_white__9s0wtoadc6q2_small_2x.png",
+							"localPath": "public/data/other/magic-keyboard/images/magic_keyboard_ipad_air_white__9s0wtoadc6q2_small_2x.png",
+							"widthPx": 860,
+							"heightPx": 1010
+						}
+					]
+				},
+				{
+					"id": "black",
+					"displayName": "Black",
+					"swatch": {
+						"kind": "css",
+						"value": "#000000"
+					},
+					"images": [
+						{
+							"label": "Black large",
+							"appleUrl": "https://www.apple.com/au/ipad-keyboards/images/overview/magic_keyboard_ipad_air_black__dlwj24puj46e_large.png",
+							"localPath": "public/data/other/magic-keyboard/images/magic_keyboard_ipad_air_black__dlwj24puj46e_large.png",
+							"widthPx": 1060,
+							"heightPx": 1167
+						},
+						{
+							"label": "Black large 2x",
+							"appleUrl": "https://www.apple.com/au/ipad-keyboards/images/overview/magic_keyboard_ipad_air_black__dlwj24puj46e_large_2x.png",
+							"localPath": "public/data/other/magic-keyboard/images/magic_keyboard_ipad_air_black__dlwj24puj46e_large_2x.png",
+							"widthPx": 2120,
+							"heightPx": 2334
+						},
+						{
+							"label": "Black medium",
+							"appleUrl": "https://www.apple.com/au/ipad-keyboards/images/overview/magic_keyboard_ipad_air_black__dlwj24puj46e_medium.png",
+							"localPath": "public/data/other/magic-keyboard/images/magic_keyboard_ipad_air_black__dlwj24puj46e_medium.png",
+							"widthPx": 741,
+							"heightPx": 857
+						},
+						{
+							"label": "Black medium 2x",
+							"appleUrl": "https://www.apple.com/au/ipad-keyboards/images/overview/magic_keyboard_ipad_air_black__dlwj24puj46e_medium_2x.png",
+							"localPath": "public/data/other/magic-keyboard/images/magic_keyboard_ipad_air_black__dlwj24puj46e_medium_2x.png",
+							"widthPx": 1482,
+							"heightPx": 1714
+						},
+						{
+							"label": "Black small",
+							"appleUrl": "https://www.apple.com/au/ipad-keyboards/images/overview/magic_keyboard_ipad_air_black__dlwj24puj46e_small.png",
+							"localPath": "public/data/other/magic-keyboard/images/magic_keyboard_ipad_air_black__dlwj24puj46e_small.png",
+							"widthPx": 430,
+							"heightPx": 505
+						},
+						{
+							"label": "Black small 2x",
+							"appleUrl": "https://www.apple.com/au/ipad-keyboards/images/overview/magic_keyboard_ipad_air_black__dlwj24puj46e_small_2x.png",
+							"localPath": "public/data/other/magic-keyboard/images/magic_keyboard_ipad_air_black__dlwj24puj46e_small_2x.png",
+							"widthPx": 860,
+							"heightPx": 1010
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"label": "Product selector small",
+					"appleUrl": "https://www.apple.com/au/ipad-keyboards/images/overview/selector_magic_keyboard_ipad_air__gbkvq5mhqlyu_small.jpg",
+					"localPath": "public/data/other/magic-keyboard/images/selector_magic_keyboard_ipad_air__gbkvq5mhqlyu_small.jpg",
+					"widthPx": 181,
+					"heightPx": 196
+				},
+				{
+					"label": "Product selector small 2x",
+					"appleUrl": "https://www.apple.com/au/ipad-keyboards/images/overview/selector_magic_keyboard_ipad_air__gbkvq5mhqlyu_small_2x.jpg",
+					"localPath": "public/data/other/magic-keyboard/images/selector_magic_keyboard_ipad_air__gbkvq5mhqlyu_small_2x.jpg",
+					"widthPx": 362,
+					"heightPx": 392
+				},
+				{
+					"label": "Product selector medium",
+					"appleUrl": "https://www.apple.com/au/ipad-keyboards/images/overview/selector_magic_keyboard_ipad_air__gbkvq5mhqlyu_medium.jpg",
+					"localPath": "public/data/other/magic-keyboard/images/selector_magic_keyboard_ipad_air__gbkvq5mhqlyu_medium.jpg",
+					"widthPx": 255,
+					"heightPx": 265
+				},
+				{
+					"label": "Product selector medium 2x",
+					"appleUrl": "https://www.apple.com/au/ipad-keyboards/images/overview/selector_magic_keyboard_ipad_air__gbkvq5mhqlyu_medium_2x.jpg",
+					"localPath": "public/data/other/magic-keyboard/images/selector_magic_keyboard_ipad_air__gbkvq5mhqlyu_medium_2x.jpg",
+					"widthPx": 510,
+					"heightPx": 530
+				},
+				{
+					"label": "Product selector large",
+					"appleUrl": "https://www.apple.com/au/ipad-keyboards/images/overview/selector_magic_keyboard_ipad_air__gbkvq5mhqlyu_large.jpg",
+					"localPath": "public/data/other/magic-keyboard/images/selector_magic_keyboard_ipad_air__gbkvq5mhqlyu_large.jpg",
+					"widthPx": 312,
+					"heightPx": 325
+				},
+				{
+					"label": "Product selector large 2x",
+					"appleUrl": "https://www.apple.com/au/ipad-keyboards/images/overview/selector_magic_keyboard_ipad_air__gbkvq5mhqlyu_large_2x.jpg",
+					"localPath": "public/data/other/magic-keyboard/images/selector_magic_keyboard_ipad_air__gbkvq5mhqlyu_large_2x.jpg",
+					"widthPx": 624,
+					"heightPx": 650
+				}
+			],
+			"compatibleDeviceIds": [
+				"ipad-air-13-m4",
+				"ipad-air-13-m3",
+				"ipad-air-13-m2"
+			],
+			"capabilities": [
+				"Thin, portable floating cantilever design with multiple viewing angles.",
+				"14-key function row for screen brightness, volume controls and other features.",
+				"USB-C connector for pass-through charging.",
+				"Front and back protection for iPad.",
+				"Large glass trackpad with Multi-Touch gesture support."
+			],
+			"sourceUrl": "https://www.apple.com/au/ipad-keyboards/",
+			"sourceNotes": "The compatibility selector maps this accessory to iPad Air 13-inch (M4, M3, and M2). The overview selector displays A$499. Colour names, feature copy, and gallery image URLs are evidence-backed by the supplied HTML and its linked Apple stylesheet. Apple product code: MDFW4."
+		},
+		{
+			"id": "magic-keyboard-for-ipad-air-11",
+			"displayName": "Magic Keyboard for iPad Air",
+			"category": "keyboard",
+			"priceAud": 449,
+			"colors": [
+				{
+					"id": "white",
+					"displayName": "White",
+					"swatch": {
+						"kind": "css",
+						"value": "#ffffff"
+					},
+					"images": [
+						{
+							"label": "White large",
+							"appleUrl": "https://www.apple.com/au/ipad-keyboards/images/overview/magic_keyboard_ipad_air_white__9s0wtoadc6q2_large.png",
+							"localPath": "public/data/other/magic-keyboard/images/magic_keyboard_ipad_air_white__9s0wtoadc6q2_large.png",
+							"widthPx": 1060,
+							"heightPx": 1167
+						},
+						{
+							"label": "White large 2x",
+							"appleUrl": "https://www.apple.com/au/ipad-keyboards/images/overview/magic_keyboard_ipad_air_white__9s0wtoadc6q2_large_2x.png",
+							"localPath": "public/data/other/magic-keyboard/images/magic_keyboard_ipad_air_white__9s0wtoadc6q2_large_2x.png",
+							"widthPx": 2120,
+							"heightPx": 2334
+						},
+						{
+							"label": "White medium",
+							"appleUrl": "https://www.apple.com/au/ipad-keyboards/images/overview/magic_keyboard_ipad_air_white__9s0wtoadc6q2_medium.png",
+							"localPath": "public/data/other/magic-keyboard/images/magic_keyboard_ipad_air_white__9s0wtoadc6q2_medium.png",
+							"widthPx": 741,
+							"heightPx": 857
+						},
+						{
+							"label": "White medium 2x",
+							"appleUrl": "https://www.apple.com/au/ipad-keyboards/images/overview/magic_keyboard_ipad_air_white__9s0wtoadc6q2_medium_2x.png",
+							"localPath": "public/data/other/magic-keyboard/images/magic_keyboard_ipad_air_white__9s0wtoadc6q2_medium_2x.png",
+							"widthPx": 1482,
+							"heightPx": 1714
+						},
+						{
+							"label": "White small",
+							"appleUrl": "https://www.apple.com/au/ipad-keyboards/images/overview/magic_keyboard_ipad_air_white__9s0wtoadc6q2_small.png",
+							"localPath": "public/data/other/magic-keyboard/images/magic_keyboard_ipad_air_white__9s0wtoadc6q2_small.png",
+							"widthPx": 430,
+							"heightPx": 505
+						},
+						{
+							"label": "White small 2x",
+							"appleUrl": "https://www.apple.com/au/ipad-keyboards/images/overview/magic_keyboard_ipad_air_white__9s0wtoadc6q2_small_2x.png",
+							"localPath": "public/data/other/magic-keyboard/images/magic_keyboard_ipad_air_white__9s0wtoadc6q2_small_2x.png",
+							"widthPx": 860,
+							"heightPx": 1010
+						}
+					]
+				},
+				{
+					"id": "black",
+					"displayName": "Black",
+					"swatch": {
+						"kind": "css",
+						"value": "#000000"
+					},
+					"images": [
+						{
+							"label": "Black large",
+							"appleUrl": "https://www.apple.com/au/ipad-keyboards/images/overview/magic_keyboard_ipad_air_black__dlwj24puj46e_large.png",
+							"localPath": "public/data/other/magic-keyboard/images/magic_keyboard_ipad_air_black__dlwj24puj46e_large.png",
+							"widthPx": 1060,
+							"heightPx": 1167
+						},
+						{
+							"label": "Black large 2x",
+							"appleUrl": "https://www.apple.com/au/ipad-keyboards/images/overview/magic_keyboard_ipad_air_black__dlwj24puj46e_large_2x.png",
+							"localPath": "public/data/other/magic-keyboard/images/magic_keyboard_ipad_air_black__dlwj24puj46e_large_2x.png",
+							"widthPx": 2120,
+							"heightPx": 2334
+						},
+						{
+							"label": "Black medium",
+							"appleUrl": "https://www.apple.com/au/ipad-keyboards/images/overview/magic_keyboard_ipad_air_black__dlwj24puj46e_medium.png",
+							"localPath": "public/data/other/magic-keyboard/images/magic_keyboard_ipad_air_black__dlwj24puj46e_medium.png",
+							"widthPx": 741,
+							"heightPx": 857
+						},
+						{
+							"label": "Black medium 2x",
+							"appleUrl": "https://www.apple.com/au/ipad-keyboards/images/overview/magic_keyboard_ipad_air_black__dlwj24puj46e_medium_2x.png",
+							"localPath": "public/data/other/magic-keyboard/images/magic_keyboard_ipad_air_black__dlwj24puj46e_medium_2x.png",
+							"widthPx": 1482,
+							"heightPx": 1714
+						},
+						{
+							"label": "Black small",
+							"appleUrl": "https://www.apple.com/au/ipad-keyboards/images/overview/magic_keyboard_ipad_air_black__dlwj24puj46e_small.png",
+							"localPath": "public/data/other/magic-keyboard/images/magic_keyboard_ipad_air_black__dlwj24puj46e_small.png",
+							"widthPx": 430,
+							"heightPx": 505
+						},
+						{
+							"label": "Black small 2x",
+							"appleUrl": "https://www.apple.com/au/ipad-keyboards/images/overview/magic_keyboard_ipad_air_black__dlwj24puj46e_small_2x.png",
+							"localPath": "public/data/other/magic-keyboard/images/magic_keyboard_ipad_air_black__dlwj24puj46e_small_2x.png",
+							"widthPx": 860,
+							"heightPx": 1010
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"label": "Product selector small",
+					"appleUrl": "https://www.apple.com/au/ipad-keyboards/images/overview/selector_magic_keyboard_ipad_air__gbkvq5mhqlyu_small.jpg",
+					"localPath": "public/data/other/magic-keyboard/images/selector_magic_keyboard_ipad_air__gbkvq5mhqlyu_small.jpg",
+					"widthPx": 181,
+					"heightPx": 196
+				},
+				{
+					"label": "Product selector small 2x",
+					"appleUrl": "https://www.apple.com/au/ipad-keyboards/images/overview/selector_magic_keyboard_ipad_air__gbkvq5mhqlyu_small_2x.jpg",
+					"localPath": "public/data/other/magic-keyboard/images/selector_magic_keyboard_ipad_air__gbkvq5mhqlyu_small_2x.jpg",
+					"widthPx": 362,
+					"heightPx": 392
+				},
+				{
+					"label": "Product selector medium",
+					"appleUrl": "https://www.apple.com/au/ipad-keyboards/images/overview/selector_magic_keyboard_ipad_air__gbkvq5mhqlyu_medium.jpg",
+					"localPath": "public/data/other/magic-keyboard/images/selector_magic_keyboard_ipad_air__gbkvq5mhqlyu_medium.jpg",
+					"widthPx": 255,
+					"heightPx": 265
+				},
+				{
+					"label": "Product selector medium 2x",
+					"appleUrl": "https://www.apple.com/au/ipad-keyboards/images/overview/selector_magic_keyboard_ipad_air__gbkvq5mhqlyu_medium_2x.jpg",
+					"localPath": "public/data/other/magic-keyboard/images/selector_magic_keyboard_ipad_air__gbkvq5mhqlyu_medium_2x.jpg",
+					"widthPx": 510,
+					"heightPx": 530
+				},
+				{
+					"label": "Product selector large",
+					"appleUrl": "https://www.apple.com/au/ipad-keyboards/images/overview/selector_magic_keyboard_ipad_air__gbkvq5mhqlyu_large.jpg",
+					"localPath": "public/data/other/magic-keyboard/images/selector_magic_keyboard_ipad_air__gbkvq5mhqlyu_large.jpg",
+					"widthPx": 312,
+					"heightPx": 325
+				},
+				{
+					"label": "Product selector large 2x",
+					"appleUrl": "https://www.apple.com/au/ipad-keyboards/images/overview/selector_magic_keyboard_ipad_air__gbkvq5mhqlyu_large_2x.jpg",
+					"localPath": "public/data/other/magic-keyboard/images/selector_magic_keyboard_ipad_air__gbkvq5mhqlyu_large_2x.jpg",
+					"widthPx": 624,
+					"heightPx": 650
+				}
+			],
+			"compatibleDeviceIds": [
+				"ipad-air-11-m4",
+				"ipad-air-11-m3",
+				"ipad-air-11-m2",
+				"ipad-air-5th-generation",
+				"ipad-air-4th-generation"
+			],
+			"capabilities": [
+				"Thin, portable floating cantilever design with multiple viewing angles.",
+				"14-key function row for screen brightness, volume controls and other features.",
+				"USB-C connector for pass-through charging.",
+				"Front and back protection for iPad.",
+				"Large glass trackpad with Multi-Touch gesture support."
+			],
+			"sourceUrl": "https://www.apple.com/au/ipad-keyboards/",
+			"sourceNotes": "The compatibility selector maps this accessory to iPad Air 11-inch (M4, M3, and M2), iPad Air (5th generation), and iPad Air (4th generation). The overview selector displays A$449. Colour names, feature copy, and gallery image URLs are evidence-backed by the supplied HTML and its linked Apple stylesheet. Apple product code: MDFV4."
+		},
+		{
+			"id": "magic-keyboard-folio",
+			"displayName": "Magic Keyboard Folio",
+			"category": "keyboard",
+			"priceAud": 399,
+			"colors": [],
+			"images": [
+				{
+					"label": "Product selector small",
+					"appleUrl": "https://www.apple.com/au/ipad-keyboards/images/overview/selector_magic_keyboard_folio__x42zptqodpem_small.jpg",
+					"localPath": "public/data/other/magic-keyboard/images/selector_magic_keyboard_folio__x42zptqodpem_small.jpg",
+					"widthPx": 166,
+					"heightPx": 202
+				},
+				{
+					"label": "Product selector small 2x",
+					"appleUrl": "https://www.apple.com/au/ipad-keyboards/images/overview/selector_magic_keyboard_folio__x42zptqodpem_small_2x.jpg",
+					"localPath": "public/data/other/magic-keyboard/images/selector_magic_keyboard_folio__x42zptqodpem_small_2x.jpg",
+					"widthPx": 332,
+					"heightPx": 404
+				},
+				{
+					"label": "Product selector medium",
+					"appleUrl": "https://www.apple.com/au/ipad-keyboards/images/overview/selector_magic_keyboard_folio__x42zptqodpem_medium.jpg",
+					"localPath": "public/data/other/magic-keyboard/images/selector_magic_keyboard_folio__x42zptqodpem_medium.jpg",
+					"widthPx": 233,
+					"heightPx": 284
+				},
+				{
+					"label": "Product selector medium 2x",
+					"appleUrl": "https://www.apple.com/au/ipad-keyboards/images/overview/selector_magic_keyboard_folio__x42zptqodpem_medium_2x.jpg",
+					"localPath": "public/data/other/magic-keyboard/images/selector_magic_keyboard_folio__x42zptqodpem_medium_2x.jpg",
+					"widthPx": 466,
+					"heightPx": 568
+				},
+				{
+					"label": "Product selector large",
+					"appleUrl": "https://www.apple.com/au/ipad-keyboards/images/overview/selector_magic_keyboard_folio__x42zptqodpem_large.jpg",
+					"localPath": "public/data/other/magic-keyboard/images/selector_magic_keyboard_folio__x42zptqodpem_large.jpg",
+					"widthPx": 282,
+					"heightPx": 344
+				},
+				{
+					"label": "Product selector large 2x",
+					"appleUrl": "https://www.apple.com/au/ipad-keyboards/images/overview/selector_magic_keyboard_folio__x42zptqodpem_large_2x.jpg",
+					"localPath": "public/data/other/magic-keyboard/images/selector_magic_keyboard_folio__x42zptqodpem_large_2x.jpg",
+					"widthPx": 564,
+					"heightPx": 688
+				},
+				{
+					"label": "Product large",
+					"appleUrl": "https://www.apple.com/au/ipad-keyboards/images/overview/magic_keyboard_folio__bksjnsz6ol5y_large.png",
+					"localPath": "public/data/other/magic-keyboard/images/magic_keyboard_folio__bksjnsz6ol5y_large.png",
+					"widthPx": 1008,
+					"heightPx": 1226
+				},
+				{
+					"label": "Product large 2x",
+					"appleUrl": "https://www.apple.com/au/ipad-keyboards/images/overview/magic_keyboard_folio__bksjnsz6ol5y_large_2x.png",
+					"localPath": "public/data/other/magic-keyboard/images/magic_keyboard_folio__bksjnsz6ol5y_large_2x.png",
+					"widthPx": 2016,
+					"heightPx": 2452
+				},
+				{
+					"label": "Product medium",
+					"appleUrl": "https://www.apple.com/au/ipad-keyboards/images/overview/magic_keyboard_folio__bksjnsz6ol5y_medium.png",
+					"localPath": "public/data/other/magic-keyboard/images/magic_keyboard_folio__bksjnsz6ol5y_medium.png",
+					"widthPx": 741,
+					"heightPx": 857
+				},
+				{
+					"label": "Product medium 2x",
+					"appleUrl": "https://www.apple.com/au/ipad-keyboards/images/overview/magic_keyboard_folio__bksjnsz6ol5y_medium_2x.png",
+					"localPath": "public/data/other/magic-keyboard/images/magic_keyboard_folio__bksjnsz6ol5y_medium_2x.png",
+					"widthPx": 1482,
+					"heightPx": 1714
+				},
+				{
+					"label": "Product small",
+					"appleUrl": "https://www.apple.com/au/ipad-keyboards/images/overview/magic_keyboard_folio__bksjnsz6ol5y_small.png",
+					"localPath": "public/data/other/magic-keyboard/images/magic_keyboard_folio__bksjnsz6ol5y_small.png",
+					"widthPx": 430,
+					"heightPx": 505
+				},
+				{
+					"label": "Product small 2x",
+					"appleUrl": "https://www.apple.com/au/ipad-keyboards/images/overview/magic_keyboard_folio__bksjnsz6ol5y_small_2x.png",
+					"localPath": "public/data/other/magic-keyboard/images/magic_keyboard_folio__bksjnsz6ol5y_small_2x.png",
+					"widthPx": 860,
+					"heightPx": 1010
+				}
+			],
+			"compatibleDeviceIds": [
+				"ipad-a16",
+				"ipad-10th-generation"
+			],
+			"capabilities": [
+				"Amazing typing experience.",
+				"Built-in trackpad for precision tasks and the cursor in iPadOS.",
+				"14-key function row.",
+				"Two-piece design with detachable keyboard and protective back panel attaching magnetically.",
+				"Adjustable stand with smooth, continuous viewing.",
+				"Protective design for iPad."
+			],
+			"sourceUrl": "https://www.apple.com/au/ipad-keyboards/",
+			"sourceNotes": "The compatibility selector maps this accessory to iPad (A16 and 10th generation). The overview selector displays A$399. The source does not expose a colour selector for Magic Keyboard Folio; its product images and feature copy are retained without inventing a colour. Apple product code: MQDP3."
+		}
+	]
+}

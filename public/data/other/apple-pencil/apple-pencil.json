@@ -1,0 +1,130 @@
+{
+	"group": "apple-pencil",
+	"source": {
+		"url": "https://www.apple.com/au-edu/shop/select-apple-pencil",
+		"localHtmlPath": "data/tmp/other/pencil.html",
+		"styleUrl": "https://store.storeimages.cdn-apple.com/8756/store.apple.com/shop/Catalog/global/css/dd/buy-flow/splitter.css"
+	},
+	"accessories": [
+		{
+			"id": "apple-pencil-pro",
+			"displayName": "Apple Pencil Pro",
+			"category": "pencil",
+			"priceAud": 199,
+			"colors": [],
+			"images": [
+				{
+					"label": "Product image",
+					"appleUrl": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/apple-pencil-pro-splitter-202405?wid=448&hei=800&fmt=png-alpha&.v=cU9HSUJpZUhzWS81ZmZ1ZWtXeDJEdlRJWGw3S3R6dEpCTGNXeVVhZUFHWTZCNnRNaFdpT1B0RFFDMmZuUkNvUVM0TjRWdzF2UjRGVEY0c3dBQVZ6VGJ5a3JRQ2g4MFJBQW5adWxqRlVpRWM",
+					"localPath": "public/data/other/apple-pencil/images/apple-pencil-pro-splitter-202405.png",
+					"widthPx": 448,
+					"heightPx": 800
+				}
+			],
+			"compatibleDeviceIds": [
+				"ipad-pro-13-m5",
+				"ipad-pro-13-m4",
+				"ipad-pro-11-m5",
+				"ipad-pro-11-m4",
+				"ipad-air-13-m4",
+				"ipad-air-13-m3",
+				"ipad-air-13-m2",
+				"ipad-air-11-m4",
+				"ipad-air-11-m3",
+				"ipad-air-11-m2",
+				"ipad-mini-a17-pro"
+			],
+			"capabilities": [
+				"Pixel-perfect precision.",
+				"Low latency.",
+				"Tilt sensitivity.",
+				"Pressure sensitivity.",
+				"Attaches magnetically.",
+				"Wireless pairing and charging.",
+				"Supports Apple Pencil hover.",
+				"Double-tap to change tools.",
+				"Barrel roll.",
+				"Squeeze.",
+				"Haptic feedback.",
+				"Find My.",
+				"Free engraving."
+			],
+			"sourceUrl": "https://www.apple.com/au-edu/shop/product/mx2d3za/a/apple-pencil-pro",
+			"sourceNotes": "The supplied Apple Pencil comparison page lists Apple Pencil Pro at A$199.00, links product code MX2D3, identifies compatibility with iPad Pro 13-inch and 11-inch (M4 and M5), iPad Air 13-inch and 11-inch (M2, M3 and M4), and iPad mini (A17 Pro), and documents the listed capabilities. The product image URL and dimensions are from the supplied page. No colour selector is present, so colors is empty."
+		},
+		{
+			"id": "apple-pencil-usb-c",
+			"displayName": "Apple Pencil (USB-C)",
+			"category": "pencil",
+			"priceAud": 119,
+			"colors": [],
+			"images": [
+				{
+					"label": "Product image",
+					"appleUrl": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/apple-pencil-usbc-splitter-202405?wid=448&hei=800&fmt=png-alpha&.v=T1UzeHljZElpYVY1a2xjdUcrNzVYcGpxWHU1d0U4T2d5b1U4cDBGejdMQXU5S3pJT29ETmxKUC9Ccmk1NWh4NnV5NVU0QmM2b3hmeWJWTTVtN1o5Zmh1OHRIS2JVaVNHRTdCZUcvYXVtODErYWpGdS9XeFgvbS9ITnNYOEhYaG4",
+					"localPath": "public/data/other/apple-pencil/images/apple-pencil-usbc-splitter-202405.png",
+					"widthPx": 448,
+					"heightPx": 800
+				}
+			],
+			"compatibleDeviceIds": [
+				"ipad-pro-13-m5",
+				"ipad-pro-13-m4",
+				"ipad-pro-12-9-6th-gen",
+				"ipad-pro-12-9-5th-gen",
+				"ipad-pro-12-9-4th-gen",
+				"ipad-pro-12-9-3rd-gen",
+				"ipad-pro-11-m5",
+				"ipad-pro-11-m4",
+				"ipad-pro-11-4th-gen",
+				"ipad-pro-11-3rd-gen",
+				"ipad-pro-11-2nd-gen",
+				"ipad-pro-11-1st-gen",
+				"ipad-air-13-m4",
+				"ipad-air-13-m3",
+				"ipad-air-13-m2",
+				"ipad-air-11-m4",
+				"ipad-air-11-m3",
+				"ipad-air-11-m2",
+				"ipad-air-5th-generation",
+				"ipad-air-4th-generation",
+				"ipad-a16",
+				"ipad-10th-generation",
+				"ipad-mini-a17-pro",
+				"ipad-mini-6th-generation"
+			],
+			"capabilities": [
+				"Pixel-perfect precision.",
+				"Low latency.",
+				"Tilt sensitivity.",
+				"Attaches magnetically."
+			],
+			"sourceUrl": "https://www.apple.com/au-edu/shop/product/muwa3za/a/apple-pencil-usb-c",
+			"sourceNotes": "The supplied Apple Pencil comparison page lists Apple Pencil (USB-C) at A$119.00, links product code MUWA3, identifies compatibility with the listed iPad Pro, iPad Air, iPad, and iPad mini models, and documents the listed capabilities. The product image URL and dimensions are from the supplied page. No colour selector is present, so colors is empty."
+		},
+		{
+			"id": "apple-pencil-1st-generation",
+			"displayName": "Apple Pencil (1st generation)",
+			"category": "pencil",
+			"priceAud": null,
+			"colors": [],
+			"images": [],
+			"compatibleDeviceIds": [],
+			"capabilities": [],
+			"sourceUrl": "https://www.apple.com/au-edu/shop/product/myqw3za/a/apple-pencil-1st-generation",
+			"sourceNotes": "The supplied Apple Pencil comparison page lists a purchase link for Apple Pencil (1st generation), product code MYQW3. The page does not provide a price, compatibility list, capability comparison, or product image for this item, so those fields remain empty or null."
+		},
+		{
+			"id": "apple-pencil-2nd-generation",
+			"displayName": "Apple Pencil (2nd generation)",
+			"category": "pencil",
+			"priceAud": null,
+			"colors": [],
+			"images": [],
+			"compatibleDeviceIds": [],
+			"capabilities": [],
+			"sourceUrl": "https://www.apple.com/au-edu/shop/product/mxn43za/a/apple-pencil-2nd-generation",
+			"sourceNotes": "The supplied Apple Pencil comparison page lists a purchase link for Apple Pencil (2nd generation), product code MXN43. The page does not provide a price, compatibility list, capability comparison, or product image for this item, so those fields remain empty or null."
+		}
+	]
+}
