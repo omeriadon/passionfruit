@@ -6,7 +6,6 @@
 		"build": "next build",
 		"dev": "next dev",
 		"format": "prettier --ignore-unknown --write .",
-		"prepare": "husky",
 		"start": "next start",
 		"types:check": "next typegen && tsc --noEmit"
 	},
@@ -27,7 +26,6 @@
 		"@types/react": "^19.2.18",
 		"@types/react-dom": "^19.2.4",
 		"ajv": "^8.20.0",
-		"husky": "^9.1.7",
 		"postcss": "^8.5.26",
 		"prettier": "^3.9.6",
 		"tailwindcss": "^4.3.3",
