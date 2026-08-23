@@ -1,0 +1,9 @@
+{
+	"schemaPath": ".scratch/strict/data-model-contract.schema.json",
+	"dataPath": ".scratch/strict/mac/remaining-devices.json",
+	"draft": "Draft 2020-12",
+	"valid": true,
+	"deviceCount": 35,
+	"errorCount": 0,
+	"errors": []
+}

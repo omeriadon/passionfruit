@@ -1,0 +1,28 @@
+# Mac-Resume checkpoint
+
+- Timestamp: 2026-08-23T15:20:00+08:00.
+- Branch: `data/ipad`.
+- Working candidate: `.scratch/strict/mac/remaining-devices.json`; object wrapper key `devices` preserved.
+- Authoritative target: 35 source-backed Mac devices, derived as the complete 50-product source catalogue minus the 15 exact canonical Mac devices.
+- Reconciliation:
+  - Removed unsupported duplicate `mac-studio-m1-max-or-m1-ultra-2022` placeholder.
+  - Removed unsupported `MacBook Air 13-in. (M2)` duplicate of the canonical device.
+  - Restored source-backed `MacBook Air 13-in. (M2)` as the final unique target member.
+- Contract normalization:
+  - Preserved `displayName` and object swatches required by the authoritative schema.
+  - Normalized battery, connectivity, authentication, and physical shapes to the shared contract.
+  - Preserved repository-relative `public/data/mac/images/` paths and existing Apple URL fields.
+- Ajv Draft 2020-12 validation:
+  - Schema: `.scratch/strict/data-model-contract.schema.json`.
+  - Result: valid; 35 devices; 0 errors.
+  - Report: `.scratch/strict/mac/validation-remaining.json`.
+- Final integrity:
+  - 35 unique names and IDs.
+  - 35 unique target devices.
+  - 0 image references in the final candidate; therefore no local image path audit applies to this candidate.
+- Candidate SHA-256: `a479d4a85706dddd619f373dbd808d5b0a2c5bd53ced8bfb3747415662ae9bd5`.
+- Validation report SHA-256: `38713b8b0efeb0b0b1b17a573715bbc465a7977cabf42b62d89492ab21252c8e`.
+- Temporary helpers removed after completion:
+  - `.scratch/extract-target-values.mjs`
+  - `.scratch/probe-parser.mjs`
+  - `.scratch/build-mac-remaining.mjs`
