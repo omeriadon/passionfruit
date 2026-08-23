@@ -3,7 +3,6 @@
 		{
 			"id": "ipad-pro-13-m5",
 			"name": "iPad Pro 13-inch (M5)",
-			"family": "ipad",
 			"releaseYear": 2025,
 			"priceAud": 1999,
 			"colors": [],
@@ -75,11 +74,11 @@
 					"resolutionWidthPx": 2752,
 					"resolutionHeightPx": 2064,
 					"pixelsPerInch": 264,
-					"trueTone": null,
+					"trueTone": false,
 					"promotion": true,
 					"wideColorP3": true,
-					"laminated": null,
-					"antireflective": null,
+					"laminated": false,
+					"antireflective": false,
 					"sourceNotes": "Resolution and pixel density from supplied Apple AU compare matrix row gPPXAntM."
 				}
 			],
@@ -125,12 +124,12 @@
 					"portId": "ipad-pro-13-m5-port-usb-c",
 					"wiredFastCharge": false,
 					"wirelessCharging": false,
-					"wirelessStandards": null,
+					"wirelessStandards": [],
 					"fastChargeMinutesToPercent": null,
 					"adapterPowerW": null
 				},
 				"powerSupply": {
-					"hasExternalPowerAdapter": null,
+					"hasExternalPowerAdapter": false,
 					"outputVoltageV": null,
 					"outputCurrentA": null,
 					"outputPowerW": null,
@@ -164,7 +163,10 @@
 					"version": "Bluetooth 6.0"
 				},
 				"cellular": {
-					"technologies": ["5G sub-6", "LTE"],
+					"technologies": [
+						"5G sub-6",
+						"LTE"
+					],
 					"eSIMOnly": false
 				},
 				"uwb": null,
@@ -174,7 +176,9 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": ["Face ID"],
+				"methods": [
+					"Face ID"
+				],
 				"primaryMethod": "Face ID"
 			},
 			"physical": {
@@ -186,8 +190,8 @@
 				"ipRating": null,
 				"waterDepthM": null,
 				"splashPressureAtm": null,
-				"dustProtected": null,
-				"sweatResistant": null
+				"dustProtected": false,
+				"sweatResistant": false
 			},
 			"software": {
 				"operatingSystem": "iPadOS",
@@ -201,7 +205,6 @@
 		{
 			"id": "ipad-pro-11-m5",
 			"name": "iPad Pro 11-inch (M5)",
-			"family": "ipad",
 			"releaseYear": 2025,
 			"priceAud": 1249,
 			"colors": [
@@ -308,11 +311,11 @@
 					"resolutionWidthPx": 2420,
 					"resolutionHeightPx": 1668,
 					"pixelsPerInch": 264,
-					"trueTone": null,
+					"trueTone": false,
 					"promotion": true,
 					"wideColorP3": true,
-					"laminated": null,
-					"antireflective": null,
+					"laminated": false,
+					"antireflective": false,
 					"sourceNotes": "Resolution and pixel density from supplied Apple AU compare matrix row gPPXAntM."
 				}
 			],
@@ -358,12 +361,12 @@
 					"portId": "ipad-pro-11-m5-port-usb-c",
 					"wiredFastCharge": false,
 					"wirelessCharging": false,
-					"wirelessStandards": null,
+					"wirelessStandards": [],
 					"fastChargeMinutesToPercent": null,
 					"adapterPowerW": null
 				},
 				"powerSupply": {
-					"hasExternalPowerAdapter": null,
+					"hasExternalPowerAdapter": false,
 					"outputVoltageV": null,
 					"outputCurrentA": null,
 					"outputPowerW": null,
@@ -397,7 +400,10 @@
 					"version": "Bluetooth 6.0"
 				},
 				"cellular": {
-					"technologies": ["5G sub-6", "LTE"],
+					"technologies": [
+						"5G sub-6",
+						"LTE"
+					],
 					"eSIMOnly": false
 				},
 				"uwb": null,
@@ -407,7 +413,9 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": ["Face ID"],
+				"methods": [
+					"Face ID"
+				],
 				"primaryMethod": "Face ID"
 			},
 			"physical": {
@@ -419,8 +427,8 @@
 				"ipRating": null,
 				"waterDepthM": null,
 				"splashPressureAtm": null,
-				"dustProtected": null,
-				"sweatResistant": null
+				"dustProtected": false,
+				"sweatResistant": false
 			},
 			"software": {
 				"operatingSystem": "iPadOS",
@@ -434,7 +442,6 @@
 		{
 			"id": "ipad-air-13-m4",
 			"name": "iPad Air 13-inch (M4)",
-			"family": "ipad",
 			"releaseYear": 2026,
 			"priceAud": 1599,
 			"colors": [],
@@ -506,11 +513,11 @@
 					"resolutionWidthPx": 2732,
 					"resolutionHeightPx": 2048,
 					"pixelsPerInch": 264,
-					"trueTone": null,
-					"promotion": null,
+					"trueTone": false,
+					"promotion": false,
 					"wideColorP3": true,
-					"laminated": null,
-					"antireflective": null,
+					"laminated": false,
+					"antireflective": false,
 					"sourceNotes": "Resolution and pixel density from supplied Apple AU compare matrix row gPPXAntM."
 				}
 			],
@@ -556,12 +563,12 @@
 					"portId": "ipad-air-13-m4-port-usb-c",
 					"wiredFastCharge": false,
 					"wirelessCharging": false,
-					"wirelessStandards": null,
+					"wirelessStandards": [],
 					"fastChargeMinutesToPercent": null,
 					"adapterPowerW": null
 				},
 				"powerSupply": {
-					"hasExternalPowerAdapter": null,
+					"hasExternalPowerAdapter": false,
 					"outputVoltageV": null,
 					"outputCurrentA": null,
 					"outputPowerW": null,
@@ -595,7 +602,10 @@
 					"version": "Bluetooth 6.0"
 				},
 				"cellular": {
-					"technologies": ["5G sub-6", "LTE"],
+					"technologies": [
+						"5G sub-6",
+						"LTE"
+					],
 					"eSIMOnly": false
 				},
 				"uwb": null,
@@ -605,7 +615,9 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": ["Touch ID"],
+				"methods": [
+					"Touch ID"
+				],
 				"primaryMethod": "Touch ID"
 			},
 			"physical": {
@@ -617,8 +629,8 @@
 				"ipRating": null,
 				"waterDepthM": null,
 				"splashPressureAtm": null,
-				"dustProtected": null,
-				"sweatResistant": null
+				"dustProtected": false,
+				"sweatResistant": false
 			},
 			"software": {
 				"operatingSystem": "iPadOS",
@@ -632,7 +644,6 @@
 		{
 			"id": "ipad-air-11-m4",
 			"name": "iPad Air 11-inch (M4)",
-			"family": "ipad",
 			"releaseYear": 2026,
 			"priceAud": 949,
 			"colors": [
@@ -773,11 +784,11 @@
 					"resolutionWidthPx": 2360,
 					"resolutionHeightPx": 1640,
 					"pixelsPerInch": 264,
-					"trueTone": null,
-					"promotion": null,
+					"trueTone": false,
+					"promotion": false,
 					"wideColorP3": true,
-					"laminated": null,
-					"antireflective": null,
+					"laminated": false,
+					"antireflective": false,
 					"sourceNotes": "Resolution and pixel density from supplied Apple AU compare matrix row gPPXAntM."
 				}
 			],
@@ -823,12 +834,12 @@
 					"portId": "ipad-air-11-m4-port-usb-c",
 					"wiredFastCharge": false,
 					"wirelessCharging": false,
-					"wirelessStandards": null,
+					"wirelessStandards": [],
 					"fastChargeMinutesToPercent": null,
 					"adapterPowerW": null
 				},
 				"powerSupply": {
-					"hasExternalPowerAdapter": null,
+					"hasExternalPowerAdapter": false,
 					"outputVoltageV": null,
 					"outputCurrentA": null,
 					"outputPowerW": null,
@@ -862,7 +873,10 @@
 					"version": "Bluetooth 5.3"
 				},
 				"cellular": {
-					"technologies": ["5G sub-6", "LTE"],
+					"technologies": [
+						"5G sub-6",
+						"LTE"
+					],
 					"eSIMOnly": false
 				},
 				"uwb": null,
@@ -872,7 +886,9 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": ["Touch ID"],
+				"methods": [
+					"Touch ID"
+				],
 				"primaryMethod": "Touch ID"
 			},
 			"physical": {
@@ -884,8 +900,8 @@
 				"ipRating": null,
 				"waterDepthM": null,
 				"splashPressureAtm": null,
-				"dustProtected": null,
-				"sweatResistant": null
+				"dustProtected": false,
+				"sweatResistant": false
 			},
 			"software": {
 				"operatingSystem": "iPadOS",
@@ -899,7 +915,6 @@
 		{
 			"id": "ipad-a16",
 			"name": "iPad (A16)",
-			"family": "ipad",
 			"releaseYear": 2025,
 			"priceAud": null,
 			"colors": [],
@@ -958,11 +973,11 @@
 					"resolutionWidthPx": 2360,
 					"resolutionHeightPx": 1640,
 					"pixelsPerInch": 264,
-					"trueTone": null,
-					"promotion": null,
-					"wideColorP3": null,
-					"laminated": null,
-					"antireflective": null,
+					"trueTone": false,
+					"promotion": false,
+					"wideColorP3": false,
+					"laminated": false,
+					"antireflective": false,
 					"sourceNotes": "Resolution and pixel density from supplied Apple AU compare matrix row gPPXAntM."
 				}
 			],
@@ -1008,12 +1023,12 @@
 					"portId": "ipad-a16-port-usb-c",
 					"wiredFastCharge": false,
 					"wirelessCharging": false,
-					"wirelessStandards": null,
+					"wirelessStandards": [],
 					"fastChargeMinutesToPercent": null,
 					"adapterPowerW": null
 				},
 				"powerSupply": {
-					"hasExternalPowerAdapter": null,
+					"hasExternalPowerAdapter": false,
 					"outputVoltageV": null,
 					"outputCurrentA": null,
 					"outputPowerW": null,
@@ -1047,7 +1062,10 @@
 					"version": "Bluetooth 5.3"
 				},
 				"cellular": {
-					"technologies": ["5G sub-6", "LTE"],
+					"technologies": [
+						"5G sub-6",
+						"LTE"
+					],
 					"eSIMOnly": false
 				},
 				"uwb": null,
@@ -1057,7 +1075,9 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": ["Touch ID"],
+				"methods": [
+					"Touch ID"
+				],
 				"primaryMethod": "Touch ID"
 			},
 			"physical": {
@@ -1069,8 +1089,8 @@
 				"ipRating": null,
 				"waterDepthM": null,
 				"splashPressureAtm": null,
-				"dustProtected": null,
-				"sweatResistant": null
+				"dustProtected": false,
+				"sweatResistant": false
 			},
 			"software": {
 				"operatingSystem": "iPadOS",
@@ -1084,7 +1104,6 @@
 		{
 			"id": "ipad-mini-a17-pro",
 			"name": "iPad mini (A17 Pro)",
-			"family": "ipad",
 			"releaseYear": 2024,
 			"priceAud": null,
 			"colors": [],
@@ -1143,11 +1162,11 @@
 					"resolutionWidthPx": 2360,
 					"resolutionHeightPx": 1640,
 					"pixelsPerInch": 264,
-					"trueTone": null,
-					"promotion": null,
+					"trueTone": false,
+					"promotion": false,
 					"wideColorP3": true,
-					"laminated": null,
-					"antireflective": null,
+					"laminated": false,
+					"antireflective": false,
 					"sourceNotes": "Resolution and pixel density from supplied Apple AU compare matrix row gPPXAntM."
 				}
 			],
@@ -1193,12 +1212,12 @@
 					"portId": "ipad-mini-a17-pro-port-usb-c",
 					"wiredFastCharge": false,
 					"wirelessCharging": false,
-					"wirelessStandards": null,
+					"wirelessStandards": [],
 					"fastChargeMinutesToPercent": null,
 					"adapterPowerW": null
 				},
 				"powerSupply": {
-					"hasExternalPowerAdapter": null,
+					"hasExternalPowerAdapter": false,
 					"outputVoltageV": null,
 					"outputCurrentA": null,
 					"outputPowerW": null,
@@ -1225,7 +1244,10 @@
 					"version": "Bluetooth 5.0"
 				},
 				"cellular": {
-					"technologies": ["5G sub-6", "LTE"],
+					"technologies": [
+						"5G sub-6",
+						"LTE"
+					],
 					"eSIMOnly": false
 				},
 				"uwb": null,
@@ -1235,7 +1257,9 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": ["Touch ID"],
+				"methods": [
+					"Touch ID"
+				],
 				"primaryMethod": "Touch ID"
 			},
 			"physical": {
@@ -1247,8 +1271,8 @@
 				"ipRating": null,
 				"waterDepthM": null,
 				"splashPressureAtm": null,
-				"dustProtected": null,
-				"sweatResistant": null
+				"dustProtected": false,
+				"sweatResistant": false
 			},
 			"software": {
 				"operatingSystem": "iPadOS",
@@ -1262,7 +1286,6 @@
 		{
 			"id": "ipad-pro-13-m4",
 			"name": "iPad Pro 13-inch (M4)",
-			"family": "ipad",
 			"releaseYear": 2024,
 			"priceAud": null,
 			"colors": [],
@@ -1334,11 +1357,11 @@
 					"resolutionWidthPx": 2266,
 					"resolutionHeightPx": 1488,
 					"pixelsPerInch": 326,
-					"trueTone": null,
+					"trueTone": false,
 					"promotion": true,
 					"wideColorP3": true,
-					"laminated": null,
-					"antireflective": null,
+					"laminated": false,
+					"antireflective": false,
 					"sourceNotes": "Resolution and pixel density from supplied Apple AU compare matrix row gPPXAntM."
 				}
 			],
@@ -1378,12 +1401,12 @@
 					"portId": "ipad-pro-13-m4-port-usb-c",
 					"wiredFastCharge": false,
 					"wirelessCharging": false,
-					"wirelessStandards": null,
+					"wirelessStandards": [],
 					"fastChargeMinutesToPercent": null,
 					"adapterPowerW": null
 				},
 				"powerSupply": {
-					"hasExternalPowerAdapter": null,
+					"hasExternalPowerAdapter": false,
 					"outputVoltageV": null,
 					"outputCurrentA": null,
 					"outputPowerW": null,
@@ -1424,7 +1447,9 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": ["Face ID"],
+				"methods": [
+					"Face ID"
+				],
 				"primaryMethod": "Face ID"
 			},
 			"physical": {
@@ -1436,8 +1461,8 @@
 				"ipRating": null,
 				"waterDepthM": null,
 				"splashPressureAtm": null,
-				"dustProtected": null,
-				"sweatResistant": null
+				"dustProtected": false,
+				"sweatResistant": false
 			},
 			"software": {
 				"operatingSystem": "iPadOS",
@@ -1451,7 +1476,6 @@
 		{
 			"id": "ipad-pro-12-9-6th-gen",
 			"name": "iPad Pro 12.9-inch (6th generation)",
-			"family": "ipad",
 			"releaseYear": 2022,
 			"priceAud": null,
 			"colors": [],
@@ -1522,11 +1546,11 @@
 					"resolutionWidthPx": 2752,
 					"resolutionHeightPx": 2064,
 					"pixelsPerInch": 264,
-					"trueTone": null,
+					"trueTone": false,
 					"promotion": true,
 					"wideColorP3": true,
-					"laminated": null,
-					"antireflective": null,
+					"laminated": false,
+					"antireflective": false,
 					"sourceNotes": "Resolution and pixel density from supplied Apple AU compare matrix row gPPXAntM."
 				}
 			],
@@ -1567,12 +1591,12 @@
 					"portId": "ipad-pro-12-9-6th-gen-port-usb-c",
 					"wiredFastCharge": false,
 					"wirelessCharging": false,
-					"wirelessStandards": null,
+					"wirelessStandards": [],
 					"fastChargeMinutesToPercent": null,
 					"adapterPowerW": null
 				},
 				"powerSupply": {
-					"hasExternalPowerAdapter": null,
+					"hasExternalPowerAdapter": false,
 					"outputVoltageV": null,
 					"outputCurrentA": null,
 					"outputPowerW": null,
@@ -1613,7 +1637,9 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": ["Face ID"],
+				"methods": [
+					"Face ID"
+				],
 				"primaryMethod": "Face ID"
 			},
 			"physical": {
@@ -1625,8 +1651,8 @@
 				"ipRating": null,
 				"waterDepthM": null,
 				"splashPressureAtm": null,
-				"dustProtected": null,
-				"sweatResistant": null
+				"dustProtected": false,
+				"sweatResistant": false
 			},
 			"software": {
 				"operatingSystem": "iPadOS",
@@ -1640,7 +1666,6 @@
 		{
 			"id": "ipad-pro-12-9-5th-gen",
 			"name": "iPad Pro 12.9‑inch (5th generation)",
-			"family": "ipad",
 			"releaseYear": 2021,
 			"priceAud": null,
 			"colors": [],
@@ -1711,11 +1736,11 @@
 					"resolutionWidthPx": 2732,
 					"resolutionHeightPx": 2048,
 					"pixelsPerInch": 264,
-					"trueTone": null,
+					"trueTone": false,
 					"promotion": true,
 					"wideColorP3": true,
-					"laminated": null,
-					"antireflective": null,
+					"laminated": false,
+					"antireflective": false,
 					"sourceNotes": "Resolution and pixel density from supplied Apple AU compare matrix row gPPXAntM."
 				}
 			],
@@ -1756,12 +1781,12 @@
 					"portId": "ipad-pro-12-9-5th-gen-port-usb-c",
 					"wiredFastCharge": false,
 					"wirelessCharging": false,
-					"wirelessStandards": null,
+					"wirelessStandards": [],
 					"fastChargeMinutesToPercent": null,
 					"adapterPowerW": null
 				},
 				"powerSupply": {
-					"hasExternalPowerAdapter": null,
+					"hasExternalPowerAdapter": false,
 					"outputVoltageV": null,
 					"outputCurrentA": null,
 					"outputPowerW": null,
@@ -1802,7 +1827,9 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": ["Face ID"],
+				"methods": [
+					"Face ID"
+				],
 				"primaryMethod": "Face ID"
 			},
 			"physical": {
@@ -1814,8 +1841,8 @@
 				"ipRating": null,
 				"waterDepthM": null,
 				"splashPressureAtm": null,
-				"dustProtected": null,
-				"sweatResistant": null
+				"dustProtected": false,
+				"sweatResistant": false
 			},
 			"software": {
 				"operatingSystem": "iPadOS",
@@ -1829,7 +1856,6 @@
 		{
 			"id": "ipad-pro-12-9-4th-gen",
 			"name": "iPad Pro 12.9‑inch (4th generation)",
-			"family": "ipad",
 			"releaseYear": 2020,
 			"priceAud": null,
 			"colors": [],
@@ -1894,11 +1920,11 @@
 					"resolutionWidthPx": 2732,
 					"resolutionHeightPx": 2048,
 					"pixelsPerInch": 264,
-					"trueTone": null,
+					"trueTone": false,
 					"promotion": true,
 					"wideColorP3": true,
-					"laminated": null,
-					"antireflective": null,
+					"laminated": false,
+					"antireflective": false,
 					"sourceNotes": "Resolution and pixel density from supplied Apple AU compare matrix row gPPXAntM."
 				}
 			],
@@ -1939,12 +1965,12 @@
 					"portId": "ipad-pro-12-9-4th-gen-port-usb-c",
 					"wiredFastCharge": false,
 					"wirelessCharging": false,
-					"wirelessStandards": null,
+					"wirelessStandards": [],
 					"fastChargeMinutesToPercent": null,
 					"adapterPowerW": null
 				},
 				"powerSupply": {
-					"hasExternalPowerAdapter": null,
+					"hasExternalPowerAdapter": false,
 					"outputVoltageV": null,
 					"outputCurrentA": null,
 					"outputPowerW": null,
@@ -1985,7 +2011,9 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": ["Face ID"],
+				"methods": [
+					"Face ID"
+				],
 				"primaryMethod": "Face ID"
 			},
 			"physical": {
@@ -1997,8 +2025,8 @@
 				"ipRating": null,
 				"waterDepthM": null,
 				"splashPressureAtm": null,
-				"dustProtected": null,
-				"sweatResistant": null
+				"dustProtected": false,
+				"sweatResistant": false
 			},
 			"software": {
 				"operatingSystem": "iPadOS",
@@ -2012,7 +2040,6 @@
 		{
 			"id": "ipad-pro-12-9-3rd-gen",
 			"name": "iPad Pro 12.9‑inch (3rd generation)",
-			"family": "ipad",
 			"releaseYear": 2018,
 			"priceAud": null,
 			"colors": [],
@@ -2077,11 +2104,11 @@
 					"resolutionWidthPx": 2732,
 					"resolutionHeightPx": 2048,
 					"pixelsPerInch": 264,
-					"trueTone": null,
+					"trueTone": false,
 					"promotion": true,
 					"wideColorP3": true,
-					"laminated": null,
-					"antireflective": null,
+					"laminated": false,
+					"antireflective": false,
 					"sourceNotes": "Resolution and pixel density from supplied Apple AU compare matrix row gPPXAntM."
 				}
 			],
@@ -2122,12 +2149,12 @@
 					"portId": "ipad-pro-12-9-3rd-gen-port-usb-c",
 					"wiredFastCharge": false,
 					"wirelessCharging": false,
-					"wirelessStandards": null,
+					"wirelessStandards": [],
 					"fastChargeMinutesToPercent": null,
 					"adapterPowerW": null
 				},
 				"powerSupply": {
-					"hasExternalPowerAdapter": null,
+					"hasExternalPowerAdapter": false,
 					"outputVoltageV": null,
 					"outputCurrentA": null,
 					"outputPowerW": null,
@@ -2168,7 +2195,9 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": ["Face ID"],
+				"methods": [
+					"Face ID"
+				],
 				"primaryMethod": "Face ID"
 			},
 			"physical": {
@@ -2180,8 +2209,8 @@
 				"ipRating": null,
 				"waterDepthM": null,
 				"splashPressureAtm": null,
-				"dustProtected": null,
-				"sweatResistant": null
+				"dustProtected": false,
+				"sweatResistant": false
 			},
 			"software": {
 				"operatingSystem": "iPadOS",
@@ -2195,7 +2224,6 @@
 		{
 			"id": "ipad-pro-12-9-2nd-gen",
 			"name": "iPad Pro 12.9‑inch (2nd generation)",
-			"family": "ipad",
 			"releaseYear": 2017,
 			"priceAud": null,
 			"colors": [],
@@ -2254,11 +2282,11 @@
 					"resolutionWidthPx": 2732,
 					"resolutionHeightPx": 2048,
 					"pixelsPerInch": 264,
-					"trueTone": null,
+					"trueTone": false,
 					"promotion": true,
 					"wideColorP3": true,
-					"laminated": null,
-					"antireflective": null,
+					"laminated": false,
+					"antireflective": false,
 					"sourceNotes": "Resolution and pixel density from supplied Apple AU compare matrix row gPPXAntM."
 				}
 			],
@@ -2299,12 +2327,12 @@
 					"portId": "ipad-pro-12-9-2nd-gen-port-lightning",
 					"wiredFastCharge": false,
 					"wirelessCharging": false,
-					"wirelessStandards": null,
+					"wirelessStandards": [],
 					"fastChargeMinutesToPercent": null,
 					"adapterPowerW": null
 				},
 				"powerSupply": {
-					"hasExternalPowerAdapter": null,
+					"hasExternalPowerAdapter": false,
 					"outputVoltageV": null,
 					"outputCurrentA": null,
 					"outputPowerW": null,
@@ -2343,7 +2371,9 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": ["Touch ID"],
+				"methods": [
+					"Touch ID"
+				],
 				"primaryMethod": "Touch ID"
 			},
 			"physical": {
@@ -2355,8 +2385,8 @@
 				"ipRating": null,
 				"waterDepthM": null,
 				"splashPressureAtm": null,
-				"dustProtected": null,
-				"sweatResistant": null
+				"dustProtected": false,
+				"sweatResistant": false
 			},
 			"software": {
 				"operatingSystem": "iPadOS",
@@ -2370,7 +2400,6 @@
 		{
 			"id": "ipad-pro-12-9-1st-gen",
 			"name": "iPad Pro 12.9‑inch (1st generation)",
-			"family": "ipad",
 			"releaseYear": 2015,
 			"priceAud": null,
 			"colors": [],
@@ -2429,11 +2458,11 @@
 					"resolutionWidthPx": 2732,
 					"resolutionHeightPx": 2048,
 					"pixelsPerInch": 264,
-					"trueTone": null,
-					"promotion": null,
-					"wideColorP3": null,
-					"laminated": null,
-					"antireflective": null,
+					"trueTone": false,
+					"promotion": false,
+					"wideColorP3": false,
+					"laminated": false,
+					"antireflective": false,
 					"sourceNotes": "Resolution and pixel density from supplied Apple AU compare matrix row gPPXAntM."
 				}
 			],
@@ -2474,12 +2503,12 @@
 					"portId": "ipad-pro-12-9-1st-gen-port-lightning",
 					"wiredFastCharge": false,
 					"wirelessCharging": false,
-					"wirelessStandards": null,
+					"wirelessStandards": [],
 					"fastChargeMinutesToPercent": null,
 					"adapterPowerW": null
 				},
 				"powerSupply": {
-					"hasExternalPowerAdapter": null,
+					"hasExternalPowerAdapter": false,
 					"outputVoltageV": null,
 					"outputCurrentA": null,
 					"outputPowerW": null,
@@ -2518,7 +2547,9 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": ["Touch ID"],
+				"methods": [
+					"Touch ID"
+				],
 				"primaryMethod": "Touch ID"
 			},
 			"physical": {
@@ -2530,8 +2561,8 @@
 				"ipRating": null,
 				"waterDepthM": null,
 				"splashPressureAtm": null,
-				"dustProtected": null,
-				"sweatResistant": null
+				"dustProtected": false,
+				"sweatResistant": false
 			},
 			"software": {
 				"operatingSystem": "iPadOS",
@@ -2545,7 +2576,6 @@
 		{
 			"id": "ipad-pro-11-m4",
 			"name": "iPad Pro 11-inch (M4)",
-			"family": "ipad",
 			"releaseYear": 2024,
 			"priceAud": null,
 			"colors": [],
@@ -2617,11 +2647,11 @@
 					"resolutionWidthPx": 2732,
 					"resolutionHeightPx": 2048,
 					"pixelsPerInch": 264,
-					"trueTone": null,
+					"trueTone": false,
 					"promotion": true,
 					"wideColorP3": true,
-					"laminated": null,
-					"antireflective": null,
+					"laminated": false,
+					"antireflective": false,
 					"sourceNotes": "Resolution and pixel density from supplied Apple AU compare matrix row gPPXAntM."
 				}
 			],
@@ -2661,12 +2691,12 @@
 					"portId": "ipad-pro-11-m4-port-usb-c",
 					"wiredFastCharge": false,
 					"wirelessCharging": false,
-					"wirelessStandards": null,
+					"wirelessStandards": [],
 					"fastChargeMinutesToPercent": null,
 					"adapterPowerW": null
 				},
 				"powerSupply": {
-					"hasExternalPowerAdapter": null,
+					"hasExternalPowerAdapter": false,
 					"outputVoltageV": null,
 					"outputCurrentA": null,
 					"outputPowerW": null,
@@ -2707,7 +2737,9 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": ["Face ID"],
+				"methods": [
+					"Face ID"
+				],
 				"primaryMethod": "Face ID"
 			},
 			"physical": {
@@ -2719,8 +2751,8 @@
 				"ipRating": null,
 				"waterDepthM": null,
 				"splashPressureAtm": null,
-				"dustProtected": null,
-				"sweatResistant": null
+				"dustProtected": false,
+				"sweatResistant": false
 			},
 			"software": {
 				"operatingSystem": "iPadOS",
@@ -2734,7 +2766,6 @@
 		{
 			"id": "ipad-pro-11-4th-gen",
 			"name": "iPad Pro 11-inch (4th generation)",
-			"family": "ipad",
 			"releaseYear": 2022,
 			"priceAud": null,
 			"colors": [],
@@ -2805,11 +2836,11 @@
 					"resolutionWidthPx": 2420,
 					"resolutionHeightPx": 1668,
 					"pixelsPerInch": 264,
-					"trueTone": null,
+					"trueTone": false,
 					"promotion": true,
 					"wideColorP3": true,
-					"laminated": null,
-					"antireflective": null,
+					"laminated": false,
+					"antireflective": false,
 					"sourceNotes": "Resolution and pixel density from supplied Apple AU compare matrix row gPPXAntM."
 				}
 			],
@@ -2850,12 +2881,12 @@
 					"portId": "ipad-pro-11-4th-gen-port-usb-c",
 					"wiredFastCharge": false,
 					"wirelessCharging": false,
-					"wirelessStandards": null,
+					"wirelessStandards": [],
 					"fastChargeMinutesToPercent": null,
 					"adapterPowerW": null
 				},
 				"powerSupply": {
-					"hasExternalPowerAdapter": null,
+					"hasExternalPowerAdapter": false,
 					"outputVoltageV": null,
 					"outputCurrentA": null,
 					"outputPowerW": null,
@@ -2896,7 +2927,9 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": ["Face ID"],
+				"methods": [
+					"Face ID"
+				],
 				"primaryMethod": "Face ID"
 			},
 			"physical": {
@@ -2908,8 +2941,8 @@
 				"ipRating": null,
 				"waterDepthM": null,
 				"splashPressureAtm": null,
-				"dustProtected": null,
-				"sweatResistant": null
+				"dustProtected": false,
+				"sweatResistant": false
 			},
 			"software": {
 				"operatingSystem": "iPadOS",
@@ -2923,7 +2956,6 @@
 		{
 			"id": "ipad-pro-11-3rd-gen",
 			"name": "iPad Pro 11‑inch (3rd generation)",
-			"family": "ipad",
 			"releaseYear": 2021,
 			"priceAud": null,
 			"colors": [],
@@ -2994,11 +3026,11 @@
 					"resolutionWidthPx": 2388,
 					"resolutionHeightPx": 1668,
 					"pixelsPerInch": 264,
-					"trueTone": null,
+					"trueTone": false,
 					"promotion": true,
 					"wideColorP3": true,
-					"laminated": null,
-					"antireflective": null,
+					"laminated": false,
+					"antireflective": false,
 					"sourceNotes": "Resolution and pixel density from supplied Apple AU compare matrix row gPPXAntM."
 				}
 			],
@@ -3039,12 +3071,12 @@
 					"portId": "ipad-pro-11-3rd-gen-port-usb-c",
 					"wiredFastCharge": false,
 					"wirelessCharging": false,
-					"wirelessStandards": null,
+					"wirelessStandards": [],
 					"fastChargeMinutesToPercent": null,
 					"adapterPowerW": null
 				},
 				"powerSupply": {
-					"hasExternalPowerAdapter": null,
+					"hasExternalPowerAdapter": false,
 					"outputVoltageV": null,
 					"outputCurrentA": null,
 					"outputPowerW": null,
@@ -3085,7 +3117,9 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": ["Face ID"],
+				"methods": [
+					"Face ID"
+				],
 				"primaryMethod": "Face ID"
 			},
 			"physical": {
@@ -3097,8 +3131,8 @@
 				"ipRating": null,
 				"waterDepthM": null,
 				"splashPressureAtm": null,
-				"dustProtected": null,
-				"sweatResistant": null
+				"dustProtected": false,
+				"sweatResistant": false
 			},
 			"software": {
 				"operatingSystem": "iPadOS",
@@ -3112,7 +3146,6 @@
 		{
 			"id": "ipad-pro-11-2nd-gen",
 			"name": "iPad Pro 11‑inch (2nd generation)",
-			"family": "ipad",
 			"releaseYear": 2020,
 			"priceAud": null,
 			"colors": [],
@@ -3177,11 +3210,11 @@
 					"resolutionWidthPx": 2388,
 					"resolutionHeightPx": 1668,
 					"pixelsPerInch": 264,
-					"trueTone": null,
+					"trueTone": false,
 					"promotion": true,
 					"wideColorP3": true,
-					"laminated": null,
-					"antireflective": null,
+					"laminated": false,
+					"antireflective": false,
 					"sourceNotes": "Resolution and pixel density from supplied Apple AU compare matrix row gPPXAntM."
 				}
 			],
@@ -3222,12 +3255,12 @@
 					"portId": "ipad-pro-11-2nd-gen-port-usb-c",
 					"wiredFastCharge": false,
 					"wirelessCharging": false,
-					"wirelessStandards": null,
+					"wirelessStandards": [],
 					"fastChargeMinutesToPercent": null,
 					"adapterPowerW": null
 				},
 				"powerSupply": {
-					"hasExternalPowerAdapter": null,
+					"hasExternalPowerAdapter": false,
 					"outputVoltageV": null,
 					"outputCurrentA": null,
 					"outputPowerW": null,
@@ -3268,7 +3301,9 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": ["Face ID"],
+				"methods": [
+					"Face ID"
+				],
 				"primaryMethod": "Face ID"
 			},
 			"physical": {
@@ -3280,8 +3315,8 @@
 				"ipRating": null,
 				"waterDepthM": null,
 				"splashPressureAtm": null,
-				"dustProtected": null,
-				"sweatResistant": null
+				"dustProtected": false,
+				"sweatResistant": false
 			},
 			"software": {
 				"operatingSystem": "iPadOS",
@@ -3295,7 +3330,6 @@
 		{
 			"id": "ipad-pro-11-1st-gen",
 			"name": "iPad Pro 11‑inch (1st generation)",
-			"family": "ipad",
 			"releaseYear": 2018,
 			"priceAud": null,
 			"colors": [],
@@ -3352,11 +3386,11 @@
 					"resolutionWidthPx": 2388,
 					"resolutionHeightPx": 1668,
 					"pixelsPerInch": 264,
-					"trueTone": null,
+					"trueTone": false,
 					"promotion": true,
 					"wideColorP3": true,
-					"laminated": null,
-					"antireflective": null,
+					"laminated": false,
+					"antireflective": false,
 					"sourceNotes": "Resolution and pixel density from supplied Apple AU compare matrix row gPPXAntM."
 				}
 			],
@@ -3397,12 +3431,12 @@
 					"portId": "ipad-pro-11-1st-gen-port-usb-c",
 					"wiredFastCharge": false,
 					"wirelessCharging": false,
-					"wirelessStandards": null,
+					"wirelessStandards": [],
 					"fastChargeMinutesToPercent": null,
 					"adapterPowerW": null
 				},
 				"powerSupply": {
-					"hasExternalPowerAdapter": null,
+					"hasExternalPowerAdapter": false,
 					"outputVoltageV": null,
 					"outputCurrentA": null,
 					"outputPowerW": null,
@@ -3443,7 +3477,9 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": ["Face ID"],
+				"methods": [
+					"Face ID"
+				],
 				"primaryMethod": "Face ID"
 			},
 			"physical": {
@@ -3455,8 +3491,8 @@
 				"ipRating": null,
 				"waterDepthM": null,
 				"splashPressureAtm": null,
-				"dustProtected": null,
-				"sweatResistant": null
+				"dustProtected": false,
+				"sweatResistant": false
 			},
 			"software": {
 				"operatingSystem": "iPadOS",
@@ -3470,7 +3506,6 @@
 		{
 			"id": "ipad-pro-10-5-in",
 			"name": "iPad Pro 10.5‑inch",
-			"family": "ipad",
 			"releaseYear": 2017,
 			"priceAud": null,
 			"colors": [],
@@ -3529,11 +3564,11 @@
 					"resolutionWidthPx": 2224,
 					"resolutionHeightPx": 1668,
 					"pixelsPerInch": 264,
-					"trueTone": null,
+					"trueTone": false,
 					"promotion": true,
 					"wideColorP3": true,
-					"laminated": null,
-					"antireflective": null,
+					"laminated": false,
+					"antireflective": false,
 					"sourceNotes": "Resolution and pixel density from supplied Apple AU compare matrix row gPPXAntM."
 				}
 			],
@@ -3574,12 +3609,12 @@
 					"portId": "ipad-pro-10-5-in-port-lightning",
 					"wiredFastCharge": false,
 					"wirelessCharging": false,
-					"wirelessStandards": null,
+					"wirelessStandards": [],
 					"fastChargeMinutesToPercent": null,
 					"adapterPowerW": null
 				},
 				"powerSupply": {
-					"hasExternalPowerAdapter": null,
+					"hasExternalPowerAdapter": false,
 					"outputVoltageV": null,
 					"outputCurrentA": null,
 					"outputPowerW": null,
@@ -3618,7 +3653,9 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": ["Touch ID"],
+				"methods": [
+					"Touch ID"
+				],
 				"primaryMethod": "Touch ID"
 			},
 			"physical": {
@@ -3630,8 +3667,8 @@
 				"ipRating": null,
 				"waterDepthM": null,
 				"splashPressureAtm": null,
-				"dustProtected": null,
-				"sweatResistant": null
+				"dustProtected": false,
+				"sweatResistant": false
 			},
 			"software": {
 				"operatingSystem": "iPadOS",
@@ -3645,7 +3682,6 @@
 		{
 			"id": "ipad-pro-9-7-in",
 			"name": "iPad Pro 9.7‑inch",
-			"family": "ipad",
 			"releaseYear": 2016,
 			"priceAud": null,
 			"colors": [],
@@ -3696,11 +3732,11 @@
 					"resolutionWidthPx": 2048,
 					"resolutionHeightPx": 1536,
 					"pixelsPerInch": 264,
-					"trueTone": null,
-					"promotion": null,
+					"trueTone": false,
+					"promotion": false,
 					"wideColorP3": true,
-					"laminated": null,
-					"antireflective": null,
+					"laminated": false,
+					"antireflective": false,
 					"sourceNotes": "Resolution and pixel density from supplied Apple AU compare matrix row gPPXAntM."
 				}
 			],
@@ -3741,12 +3777,12 @@
 					"portId": "ipad-pro-9-7-in-port-lightning",
 					"wiredFastCharge": false,
 					"wirelessCharging": false,
-					"wirelessStandards": null,
+					"wirelessStandards": [],
 					"fastChargeMinutesToPercent": null,
 					"adapterPowerW": null
 				},
 				"powerSupply": {
-					"hasExternalPowerAdapter": null,
+					"hasExternalPowerAdapter": false,
 					"outputVoltageV": null,
 					"outputCurrentA": null,
 					"outputPowerW": null,
@@ -3785,7 +3821,9 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": ["Touch ID"],
+				"methods": [
+					"Touch ID"
+				],
 				"primaryMethod": "Touch ID"
 			},
 			"physical": {
@@ -3797,8 +3835,8 @@
 				"ipRating": null,
 				"waterDepthM": null,
 				"splashPressureAtm": null,
-				"dustProtected": null,
-				"sweatResistant": null
+				"dustProtected": false,
+				"sweatResistant": false
 			},
 			"software": {
 				"operatingSystem": "iPadOS",
@@ -3812,7 +3850,6 @@
 		{
 			"id": "ipad-air-13-m3",
 			"name": "iPad Air 13-inch (M3)",
-			"family": "ipad",
 			"releaseYear": 2025,
 			"priceAud": null,
 			"colors": [],
@@ -3877,11 +3914,11 @@
 					"resolutionWidthPx": 2732,
 					"resolutionHeightPx": 2048,
 					"pixelsPerInch": 264,
-					"trueTone": null,
-					"promotion": null,
+					"trueTone": false,
+					"promotion": false,
 					"wideColorP3": true,
-					"laminated": null,
-					"antireflective": null,
+					"laminated": false,
+					"antireflective": false,
 					"sourceNotes": "Resolution and pixel density from supplied Apple AU compare matrix row gPPXAntM."
 				}
 			],
@@ -3921,12 +3958,12 @@
 					"portId": "ipad-air-13-m3-port-usb-c",
 					"wiredFastCharge": false,
 					"wirelessCharging": false,
-					"wirelessStandards": null,
+					"wirelessStandards": [],
 					"fastChargeMinutesToPercent": null,
 					"adapterPowerW": null
 				},
 				"powerSupply": {
-					"hasExternalPowerAdapter": null,
+					"hasExternalPowerAdapter": false,
 					"outputVoltageV": null,
 					"outputCurrentA": null,
 					"outputPowerW": null,
@@ -3967,7 +4004,9 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": ["Touch ID"],
+				"methods": [
+					"Touch ID"
+				],
 				"primaryMethod": "Touch ID"
 			},
 			"physical": {
@@ -3979,8 +4018,8 @@
 				"ipRating": null,
 				"waterDepthM": null,
 				"splashPressureAtm": null,
-				"dustProtected": null,
-				"sweatResistant": null
+				"dustProtected": false,
+				"sweatResistant": false
 			},
 			"software": {
 				"operatingSystem": "iPadOS",
@@ -3994,7 +4033,6 @@
 		{
 			"id": "ipad-air-11-m3",
 			"name": "iPad Air 11-inch (M3)",
-			"family": "ipad",
 			"releaseYear": 2025,
 			"priceAud": null,
 			"colors": [],
@@ -4059,11 +4097,11 @@
 					"resolutionWidthPx": 2360,
 					"resolutionHeightPx": 1640,
 					"pixelsPerInch": 264,
-					"trueTone": null,
-					"promotion": null,
+					"trueTone": false,
+					"promotion": false,
 					"wideColorP3": true,
-					"laminated": null,
-					"antireflective": null,
+					"laminated": false,
+					"antireflective": false,
 					"sourceNotes": "Resolution and pixel density from supplied Apple AU compare matrix row gPPXAntM."
 				}
 			],
@@ -4103,12 +4141,12 @@
 					"portId": "ipad-air-11-m3-port-usb-c",
 					"wiredFastCharge": false,
 					"wirelessCharging": false,
-					"wirelessStandards": null,
+					"wirelessStandards": [],
 					"fastChargeMinutesToPercent": null,
 					"adapterPowerW": null
 				},
 				"powerSupply": {
-					"hasExternalPowerAdapter": null,
+					"hasExternalPowerAdapter": false,
 					"outputVoltageV": null,
 					"outputCurrentA": null,
 					"outputPowerW": null,
@@ -4149,7 +4187,9 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": ["Touch ID"],
+				"methods": [
+					"Touch ID"
+				],
 				"primaryMethod": "Touch ID"
 			},
 			"physical": {
@@ -4161,8 +4201,8 @@
 				"ipRating": null,
 				"waterDepthM": null,
 				"splashPressureAtm": null,
-				"dustProtected": null,
-				"sweatResistant": null
+				"dustProtected": false,
+				"sweatResistant": false
 			},
 			"software": {
 				"operatingSystem": "iPadOS",
@@ -4176,7 +4216,6 @@
 		{
 			"id": "ipad-air-13-m2",
 			"name": "iPad Air 13-inch (M2)",
-			"family": "ipad",
 			"releaseYear": 2024,
 			"priceAud": null,
 			"colors": [],
@@ -4241,11 +4280,11 @@
 					"resolutionWidthPx": 2732,
 					"resolutionHeightPx": 2048,
 					"pixelsPerInch": 264,
-					"trueTone": null,
-					"promotion": null,
+					"trueTone": false,
+					"promotion": false,
 					"wideColorP3": true,
-					"laminated": null,
-					"antireflective": null,
+					"laminated": false,
+					"antireflective": false,
 					"sourceNotes": "Resolution and pixel density from supplied Apple AU compare matrix row gPPXAntM."
 				}
 			],
@@ -4285,12 +4324,12 @@
 					"portId": "ipad-air-13-m2-port-usb-c",
 					"wiredFastCharge": false,
 					"wirelessCharging": false,
-					"wirelessStandards": null,
+					"wirelessStandards": [],
 					"fastChargeMinutesToPercent": null,
 					"adapterPowerW": null
 				},
 				"powerSupply": {
-					"hasExternalPowerAdapter": null,
+					"hasExternalPowerAdapter": false,
 					"outputVoltageV": null,
 					"outputCurrentA": null,
 					"outputPowerW": null,
@@ -4331,7 +4370,9 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": ["Touch ID"],
+				"methods": [
+					"Touch ID"
+				],
 				"primaryMethod": "Touch ID"
 			},
 			"physical": {
@@ -4343,8 +4384,8 @@
 				"ipRating": null,
 				"waterDepthM": null,
 				"splashPressureAtm": null,
-				"dustProtected": null,
-				"sweatResistant": null
+				"dustProtected": false,
+				"sweatResistant": false
 			},
 			"software": {
 				"operatingSystem": "iPadOS",
@@ -4358,7 +4399,6 @@
 		{
 			"id": "ipad-air-11-m2",
 			"name": "iPad Air 11-inch (M2)",
-			"family": "ipad",
 			"releaseYear": 2024,
 			"priceAud": null,
 			"colors": [],
@@ -4423,11 +4463,11 @@
 					"resolutionWidthPx": 2360,
 					"resolutionHeightPx": 1640,
 					"pixelsPerInch": 264,
-					"trueTone": null,
-					"promotion": null,
+					"trueTone": false,
+					"promotion": false,
 					"wideColorP3": true,
-					"laminated": null,
-					"antireflective": null,
+					"laminated": false,
+					"antireflective": false,
 					"sourceNotes": "Resolution and pixel density from supplied Apple AU compare matrix row gPPXAntM."
 				}
 			],
@@ -4467,12 +4507,12 @@
 					"portId": "ipad-air-11-m2-port-usb-c",
 					"wiredFastCharge": false,
 					"wirelessCharging": false,
-					"wirelessStandards": null,
+					"wirelessStandards": [],
 					"fastChargeMinutesToPercent": null,
 					"adapterPowerW": null
 				},
 				"powerSupply": {
-					"hasExternalPowerAdapter": null,
+					"hasExternalPowerAdapter": false,
 					"outputVoltageV": null,
 					"outputCurrentA": null,
 					"outputPowerW": null,
@@ -4513,7 +4553,9 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": ["Touch ID"],
+				"methods": [
+					"Touch ID"
+				],
 				"primaryMethod": "Touch ID"
 			},
 			"physical": {
@@ -4525,8 +4567,8 @@
 				"ipRating": null,
 				"waterDepthM": null,
 				"splashPressureAtm": null,
-				"dustProtected": null,
-				"sweatResistant": null
+				"dustProtected": false,
+				"sweatResistant": false
 			},
 			"software": {
 				"operatingSystem": "iPadOS",
@@ -4540,7 +4582,6 @@
 		{
 			"id": "ipad-air-5th-generation",
 			"name": "iPad Air (5th generation)",
-			"family": "ipad",
 			"releaseYear": 2022,
 			"priceAud": null,
 			"colors": [],
@@ -4593,11 +4634,11 @@
 					"resolutionWidthPx": 2360,
 					"resolutionHeightPx": 1640,
 					"pixelsPerInch": 264,
-					"trueTone": null,
-					"promotion": null,
+					"trueTone": false,
+					"promotion": false,
 					"wideColorP3": true,
-					"laminated": null,
-					"antireflective": null,
+					"laminated": false,
+					"antireflective": false,
 					"sourceNotes": "Resolution and pixel density from supplied Apple AU compare matrix row gPPXAntM."
 				}
 			],
@@ -4637,12 +4678,12 @@
 					"portId": "ipad-air-5th-generation-port-usb-c",
 					"wiredFastCharge": false,
 					"wirelessCharging": false,
-					"wirelessStandards": null,
+					"wirelessStandards": [],
 					"fastChargeMinutesToPercent": null,
 					"adapterPowerW": null
 				},
 				"powerSupply": {
-					"hasExternalPowerAdapter": null,
+					"hasExternalPowerAdapter": false,
 					"outputVoltageV": null,
 					"outputCurrentA": null,
 					"outputPowerW": null,
@@ -4683,7 +4724,9 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": ["Touch ID"],
+				"methods": [
+					"Touch ID"
+				],
 				"primaryMethod": "Touch ID"
 			},
 			"physical": {
@@ -4695,8 +4738,8 @@
 				"ipRating": null,
 				"waterDepthM": null,
 				"splashPressureAtm": null,
-				"dustProtected": null,
-				"sweatResistant": null
+				"dustProtected": false,
+				"sweatResistant": false
 			},
 			"software": {
 				"operatingSystem": "iPadOS",
@@ -4710,7 +4753,6 @@
 		{
 			"id": "ipad-air-4th-generation",
 			"name": "iPad Air (4th generation)",
-			"family": "ipad",
 			"releaseYear": 2020,
 			"priceAud": null,
 			"colors": [],
@@ -4763,11 +4805,11 @@
 					"resolutionWidthPx": 2360,
 					"resolutionHeightPx": 1640,
 					"pixelsPerInch": 264,
-					"trueTone": null,
-					"promotion": null,
+					"trueTone": false,
+					"promotion": false,
 					"wideColorP3": true,
-					"laminated": null,
-					"antireflective": null,
+					"laminated": false,
+					"antireflective": false,
 					"sourceNotes": "Resolution and pixel density from supplied Apple AU compare matrix row gPPXAntM."
 				}
 			],
@@ -4808,12 +4850,12 @@
 					"portId": "ipad-air-4th-generation-port-usb-c",
 					"wiredFastCharge": false,
 					"wirelessCharging": false,
-					"wirelessStandards": null,
+					"wirelessStandards": [],
 					"fastChargeMinutesToPercent": null,
 					"adapterPowerW": null
 				},
 				"powerSupply": {
-					"hasExternalPowerAdapter": null,
+					"hasExternalPowerAdapter": false,
 					"outputVoltageV": null,
 					"outputCurrentA": null,
 					"outputPowerW": null,
@@ -4854,7 +4896,9 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": ["Touch ID"],
+				"methods": [
+					"Touch ID"
+				],
 				"primaryMethod": "Touch ID"
 			},
 			"physical": {
@@ -4866,8 +4910,8 @@
 				"ipRating": null,
 				"waterDepthM": null,
 				"splashPressureAtm": null,
-				"dustProtected": null,
-				"sweatResistant": null
+				"dustProtected": false,
+				"sweatResistant": false
 			},
 			"software": {
 				"operatingSystem": "iPadOS",
@@ -4881,7 +4925,6 @@
 		{
 			"id": "ipad-air-3rd-generation",
 			"name": "iPad Air (3rd generation)",
-			"family": "ipad",
 			"releaseYear": 2019,
 			"priceAud": null,
 			"colors": [],
@@ -4934,11 +4977,11 @@
 					"resolutionWidthPx": 2360,
 					"resolutionHeightPx": 1640,
 					"pixelsPerInch": 264,
-					"trueTone": null,
-					"promotion": null,
+					"trueTone": false,
+					"promotion": false,
 					"wideColorP3": true,
-					"laminated": null,
-					"antireflective": null,
+					"laminated": false,
+					"antireflective": false,
 					"sourceNotes": "Resolution and pixel density from supplied Apple AU compare matrix row gPPXAntM."
 				}
 			],
@@ -4979,12 +5022,12 @@
 					"portId": "ipad-air-3rd-generation-port-lightning",
 					"wiredFastCharge": false,
 					"wirelessCharging": false,
-					"wirelessStandards": null,
+					"wirelessStandards": [],
 					"fastChargeMinutesToPercent": null,
 					"adapterPowerW": null
 				},
 				"powerSupply": {
-					"hasExternalPowerAdapter": null,
+					"hasExternalPowerAdapter": false,
 					"outputVoltageV": null,
 					"outputCurrentA": null,
 					"outputPowerW": null,
@@ -5023,7 +5066,9 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": ["Touch ID"],
+				"methods": [
+					"Touch ID"
+				],
 				"primaryMethod": "Touch ID"
 			},
 			"physical": {
@@ -5035,8 +5080,8 @@
 				"ipRating": null,
 				"waterDepthM": null,
 				"splashPressureAtm": null,
-				"dustProtected": null,
-				"sweatResistant": null
+				"dustProtected": false,
+				"sweatResistant": false
 			},
 			"software": {
 				"operatingSystem": "iPadOS",
@@ -5050,7 +5095,6 @@
 		{
 			"id": "ipad-air-2",
 			"name": "iPad Air 2",
-			"family": "ipad",
 			"releaseYear": 2014,
 			"priceAud": null,
 			"colors": [],
@@ -5109,11 +5153,11 @@
 					"resolutionWidthPx": 2224,
 					"resolutionHeightPx": 1668,
 					"pixelsPerInch": 264,
-					"trueTone": null,
-					"promotion": null,
-					"wideColorP3": null,
-					"laminated": null,
-					"antireflective": null,
+					"trueTone": false,
+					"promotion": false,
+					"wideColorP3": false,
+					"laminated": false,
+					"antireflective": false,
 					"sourceNotes": "Resolution and pixel density from supplied Apple AU compare matrix row gPPXAntM."
 				}
 			],
@@ -5154,12 +5198,12 @@
 					"portId": "ipad-air-2-port-lightning",
 					"wiredFastCharge": false,
 					"wirelessCharging": false,
-					"wirelessStandards": null,
+					"wirelessStandards": [],
 					"fastChargeMinutesToPercent": null,
 					"adapterPowerW": null
 				},
 				"powerSupply": {
-					"hasExternalPowerAdapter": null,
+					"hasExternalPowerAdapter": false,
 					"outputVoltageV": null,
 					"outputCurrentA": null,
 					"outputPowerW": null,
@@ -5191,7 +5235,9 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": ["Touch ID"],
+				"methods": [
+					"Touch ID"
+				],
 				"primaryMethod": "Touch ID"
 			},
 			"physical": {
@@ -5203,8 +5249,8 @@
 				"ipRating": null,
 				"waterDepthM": null,
 				"splashPressureAtm": null,
-				"dustProtected": null,
-				"sweatResistant": null
+				"dustProtected": false,
+				"sweatResistant": false
 			},
 			"software": {
 				"operatingSystem": "iPadOS",
@@ -5218,7 +5264,6 @@
 		{
 			"id": "ipad-air-1st-generation",
 			"name": "iPad Air (1st generation)",
-			"family": "ipad",
 			"releaseYear": 2013,
 			"priceAud": null,
 			"colors": [],
@@ -5277,11 +5322,11 @@
 					"resolutionWidthPx": 2048,
 					"resolutionHeightPx": 1536,
 					"pixelsPerInch": 264,
-					"trueTone": null,
-					"promotion": null,
-					"wideColorP3": null,
-					"laminated": null,
-					"antireflective": null,
+					"trueTone": false,
+					"promotion": false,
+					"wideColorP3": false,
+					"laminated": false,
+					"antireflective": false,
 					"sourceNotes": "Resolution and pixel density from supplied Apple AU compare matrix row gPPXAntM."
 				}
 			],
@@ -5322,12 +5367,12 @@
 					"portId": "ipad-air-1st-generation-port-lightning",
 					"wiredFastCharge": false,
 					"wirelessCharging": false,
-					"wirelessStandards": null,
+					"wirelessStandards": [],
 					"fastChargeMinutesToPercent": null,
 					"adapterPowerW": null
 				},
 				"powerSupply": {
-					"hasExternalPowerAdapter": null,
+					"hasExternalPowerAdapter": false,
 					"outputVoltageV": null,
 					"outputCurrentA": null,
 					"outputPowerW": null,
@@ -5359,7 +5404,9 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": ["none"],
+				"methods": [
+					"none"
+				],
 				"primaryMethod": "none"
 			},
 			"physical": {
@@ -5371,8 +5418,8 @@
 				"ipRating": null,
 				"waterDepthM": null,
 				"splashPressureAtm": null,
-				"dustProtected": null,
-				"sweatResistant": null
+				"dustProtected": false,
+				"sweatResistant": false
 			},
 			"software": {
 				"operatingSystem": "iPadOS",
@@ -5386,7 +5433,6 @@
 		{
 			"id": "ipad-10th-generation",
 			"name": "iPad (10th generation)",
-			"family": "ipad",
 			"releaseYear": 2022,
 			"priceAud": null,
 			"colors": [],
@@ -5439,11 +5485,11 @@
 					"resolutionWidthPx": 2048,
 					"resolutionHeightPx": 1536,
 					"pixelsPerInch": 264,
-					"trueTone": null,
-					"promotion": null,
-					"wideColorP3": null,
-					"laminated": null,
-					"antireflective": null,
+					"trueTone": false,
+					"promotion": false,
+					"wideColorP3": false,
+					"laminated": false,
+					"antireflective": false,
 					"sourceNotes": "Resolution and pixel density from supplied Apple AU compare matrix row gPPXAntM."
 				}
 			],
@@ -5483,12 +5529,12 @@
 					"portId": "ipad-10th-generation-port-usb-c",
 					"wiredFastCharge": false,
 					"wirelessCharging": false,
-					"wirelessStandards": null,
+					"wirelessStandards": [],
 					"fastChargeMinutesToPercent": null,
 					"adapterPowerW": null
 				},
 				"powerSupply": {
-					"hasExternalPowerAdapter": null,
+					"hasExternalPowerAdapter": false,
 					"outputVoltageV": null,
 					"outputCurrentA": null,
 					"outputPowerW": null,
@@ -5529,7 +5575,9 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": ["Touch ID"],
+				"methods": [
+					"Touch ID"
+				],
 				"primaryMethod": "Touch ID"
 			},
 			"physical": {
@@ -5541,8 +5589,8 @@
 				"ipRating": null,
 				"waterDepthM": null,
 				"splashPressureAtm": null,
-				"dustProtected": null,
-				"sweatResistant": null
+				"dustProtected": false,
+				"sweatResistant": false
 			},
 			"software": {
 				"operatingSystem": "iPadOS",
@@ -5556,7 +5604,6 @@
 		{
 			"id": "ipad-9th-generation",
 			"name": "iPad (9th generation)",
-			"family": "ipad",
 			"releaseYear": 2021,
 			"priceAud": null,
 			"colors": [],
@@ -5609,11 +5656,11 @@
 					"resolutionWidthPx": 2360,
 					"resolutionHeightPx": 1640,
 					"pixelsPerInch": 264,
-					"trueTone": null,
-					"promotion": null,
-					"wideColorP3": null,
-					"laminated": null,
-					"antireflective": null,
+					"trueTone": false,
+					"promotion": false,
+					"wideColorP3": false,
+					"laminated": false,
+					"antireflective": false,
 					"sourceNotes": "Resolution and pixel density from supplied Apple AU compare matrix row gPPXAntM."
 				}
 			],
@@ -5654,12 +5701,12 @@
 					"portId": "ipad-9th-generation-port-lightning",
 					"wiredFastCharge": false,
 					"wirelessCharging": false,
-					"wirelessStandards": null,
+					"wirelessStandards": [],
 					"fastChargeMinutesToPercent": null,
 					"adapterPowerW": null
 				},
 				"powerSupply": {
-					"hasExternalPowerAdapter": null,
+					"hasExternalPowerAdapter": false,
 					"outputVoltageV": null,
 					"outputCurrentA": null,
 					"outputPowerW": null,
@@ -5698,7 +5745,9 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": ["Touch ID"],
+				"methods": [
+					"Touch ID"
+				],
 				"primaryMethod": "Touch ID"
 			},
 			"physical": {
@@ -5710,8 +5759,8 @@
 				"ipRating": null,
 				"waterDepthM": null,
 				"splashPressureAtm": null,
-				"dustProtected": null,
-				"sweatResistant": null
+				"dustProtected": false,
+				"sweatResistant": false
 			},
 			"software": {
 				"operatingSystem": "iPadOS",
@@ -5725,7 +5774,6 @@
 		{
 			"id": "ipad-8th-generation",
 			"name": "iPad (8th generation)",
-			"family": "ipad",
 			"releaseYear": 2020,
 			"priceAud": null,
 			"colors": [],
@@ -5778,11 +5826,11 @@
 					"resolutionWidthPx": 2160,
 					"resolutionHeightPx": 1620,
 					"pixelsPerInch": 264,
-					"trueTone": null,
-					"promotion": null,
-					"wideColorP3": null,
-					"laminated": null,
-					"antireflective": null,
+					"trueTone": false,
+					"promotion": false,
+					"wideColorP3": false,
+					"laminated": false,
+					"antireflective": false,
 					"sourceNotes": "Resolution and pixel density from supplied Apple AU compare matrix row gPPXAntM."
 				}
 			],
@@ -5823,12 +5871,12 @@
 					"portId": "ipad-8th-generation-port-lightning",
 					"wiredFastCharge": false,
 					"wirelessCharging": false,
-					"wirelessStandards": null,
+					"wirelessStandards": [],
 					"fastChargeMinutesToPercent": null,
 					"adapterPowerW": null
 				},
 				"powerSupply": {
-					"hasExternalPowerAdapter": null,
+					"hasExternalPowerAdapter": false,
 					"outputVoltageV": null,
 					"outputCurrentA": null,
 					"outputPowerW": null,
@@ -5867,7 +5915,9 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": ["Touch ID"],
+				"methods": [
+					"Touch ID"
+				],
 				"primaryMethod": "Touch ID"
 			},
 			"physical": {
@@ -5879,8 +5929,8 @@
 				"ipRating": null,
 				"waterDepthM": null,
 				"splashPressureAtm": null,
-				"dustProtected": null,
-				"sweatResistant": null
+				"dustProtected": false,
+				"sweatResistant": false
 			},
 			"software": {
 				"operatingSystem": "iPadOS",
@@ -5894,7 +5944,6 @@
 		{
 			"id": "ipad-7th-generation",
 			"name": "iPad (7th generation)",
-			"family": "ipad",
 			"releaseYear": 2019,
 			"priceAud": null,
 			"colors": [],
@@ -5947,11 +5996,11 @@
 					"resolutionWidthPx": 2160,
 					"resolutionHeightPx": 1620,
 					"pixelsPerInch": 264,
-					"trueTone": null,
-					"promotion": null,
-					"wideColorP3": null,
-					"laminated": null,
-					"antireflective": null,
+					"trueTone": false,
+					"promotion": false,
+					"wideColorP3": false,
+					"laminated": false,
+					"antireflective": false,
 					"sourceNotes": "Resolution and pixel density from supplied Apple AU compare matrix row gPPXAntM."
 				}
 			],
@@ -5992,12 +6041,12 @@
 					"portId": "ipad-7th-generation-port-lightning",
 					"wiredFastCharge": false,
 					"wirelessCharging": false,
-					"wirelessStandards": null,
+					"wirelessStandards": [],
 					"fastChargeMinutesToPercent": null,
 					"adapterPowerW": null
 				},
 				"powerSupply": {
-					"hasExternalPowerAdapter": null,
+					"hasExternalPowerAdapter": false,
 					"outputVoltageV": null,
 					"outputCurrentA": null,
 					"outputPowerW": null,
@@ -6036,7 +6085,9 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": ["Touch ID"],
+				"methods": [
+					"Touch ID"
+				],
 				"primaryMethod": "Touch ID"
 			},
 			"physical": {
@@ -6048,8 +6099,8 @@
 				"ipRating": null,
 				"waterDepthM": null,
 				"splashPressureAtm": null,
-				"dustProtected": null,
-				"sweatResistant": null
+				"dustProtected": false,
+				"sweatResistant": false
 			},
 			"software": {
 				"operatingSystem": "iPadOS",
@@ -6063,7 +6114,6 @@
 		{
 			"id": "ipad-6th-generation",
 			"name": "iPad (6th generation)",
-			"family": "ipad",
 			"releaseYear": 2018,
 			"priceAud": null,
 			"colors": [],
@@ -6116,11 +6166,11 @@
 					"resolutionWidthPx": 2160,
 					"resolutionHeightPx": 1620,
 					"pixelsPerInch": 264,
-					"trueTone": null,
-					"promotion": null,
-					"wideColorP3": null,
-					"laminated": null,
-					"antireflective": null,
+					"trueTone": false,
+					"promotion": false,
+					"wideColorP3": false,
+					"laminated": false,
+					"antireflective": false,
 					"sourceNotes": "Resolution and pixel density from supplied Apple AU compare matrix row gPPXAntM."
 				}
 			],
@@ -6161,12 +6211,12 @@
 					"portId": "ipad-6th-generation-port-lightning",
 					"wiredFastCharge": false,
 					"wirelessCharging": false,
-					"wirelessStandards": null,
+					"wirelessStandards": [],
 					"fastChargeMinutesToPercent": null,
 					"adapterPowerW": null
 				},
 				"powerSupply": {
-					"hasExternalPowerAdapter": null,
+					"hasExternalPowerAdapter": false,
 					"outputVoltageV": null,
 					"outputCurrentA": null,
 					"outputPowerW": null,
@@ -6198,7 +6248,9 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": ["Touch ID"],
+				"methods": [
+					"Touch ID"
+				],
 				"primaryMethod": "Touch ID"
 			},
 			"physical": {
@@ -6210,8 +6262,8 @@
 				"ipRating": null,
 				"waterDepthM": null,
 				"splashPressureAtm": null,
-				"dustProtected": null,
-				"sweatResistant": null
+				"dustProtected": false,
+				"sweatResistant": false
 			},
 			"software": {
 				"operatingSystem": "iPadOS",
@@ -6225,7 +6277,6 @@
 		{
 			"id": "ipad-5th-generation",
 			"name": "iPad (5th generation)",
-			"family": "ipad",
 			"releaseYear": 2017,
 			"priceAud": null,
 			"colors": [],
@@ -6278,11 +6329,11 @@
 					"resolutionWidthPx": 2160,
 					"resolutionHeightPx": 1620,
 					"pixelsPerInch": 264,
-					"trueTone": null,
-					"promotion": null,
-					"wideColorP3": null,
-					"laminated": null,
-					"antireflective": null,
+					"trueTone": false,
+					"promotion": false,
+					"wideColorP3": false,
+					"laminated": false,
+					"antireflective": false,
 					"sourceNotes": "Resolution and pixel density from supplied Apple AU compare matrix row gPPXAntM."
 				}
 			],
@@ -6323,12 +6374,12 @@
 					"portId": "ipad-5th-generation-port-lightning",
 					"wiredFastCharge": false,
 					"wirelessCharging": false,
-					"wirelessStandards": null,
+					"wirelessStandards": [],
 					"fastChargeMinutesToPercent": null,
 					"adapterPowerW": null
 				},
 				"powerSupply": {
-					"hasExternalPowerAdapter": null,
+					"hasExternalPowerAdapter": false,
 					"outputVoltageV": null,
 					"outputCurrentA": null,
 					"outputPowerW": null,
@@ -6360,7 +6411,9 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": ["Touch ID"],
+				"methods": [
+					"Touch ID"
+				],
 				"primaryMethod": "Touch ID"
 			},
 			"physical": {
@@ -6372,8 +6425,8 @@
 				"ipRating": null,
 				"waterDepthM": null,
 				"splashPressureAtm": null,
-				"dustProtected": null,
-				"sweatResistant": null
+				"dustProtected": false,
+				"sweatResistant": false
 			},
 			"software": {
 				"operatingSystem": "iPadOS",
@@ -6387,7 +6440,6 @@
 		{
 			"id": "ipad-mini-6th-generation",
 			"name": "iPad mini (6th generation)",
-			"family": "ipad",
 			"releaseYear": 2021,
 			"priceAud": null,
 			"colors": [],
@@ -6440,11 +6492,11 @@
 					"resolutionWidthPx": 2048,
 					"resolutionHeightPx": 1536,
 					"pixelsPerInch": 264,
-					"trueTone": null,
-					"promotion": null,
+					"trueTone": false,
+					"promotion": false,
 					"wideColorP3": true,
-					"laminated": null,
-					"antireflective": null,
+					"laminated": false,
+					"antireflective": false,
 					"sourceNotes": "Resolution and pixel density from supplied Apple AU compare matrix row gPPXAntM."
 				}
 			],
@@ -6485,12 +6537,12 @@
 					"portId": "ipad-mini-6th-generation-port-usb-c",
 					"wiredFastCharge": false,
 					"wirelessCharging": false,
-					"wirelessStandards": null,
+					"wirelessStandards": [],
 					"fastChargeMinutesToPercent": null,
 					"adapterPowerW": null
 				},
 				"powerSupply": {
-					"hasExternalPowerAdapter": null,
+					"hasExternalPowerAdapter": false,
 					"outputVoltageV": null,
 					"outputCurrentA": null,
 					"outputPowerW": null,
@@ -6524,7 +6576,9 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": ["Touch ID"],
+				"methods": [
+					"Touch ID"
+				],
 				"primaryMethod": "Touch ID"
 			},
 			"physical": {
@@ -6536,8 +6590,8 @@
 				"ipRating": null,
 				"waterDepthM": null,
 				"splashPressureAtm": null,
-				"dustProtected": null,
-				"sweatResistant": null
+				"dustProtected": false,
+				"sweatResistant": false
 			},
 			"software": {
 				"operatingSystem": "iPadOS",
@@ -6551,7 +6605,6 @@
 		{
 			"id": "ipad-mini-5th-generation",
 			"name": "iPad mini (5th generation)",
-			"family": "ipad",
 			"releaseYear": 2019,
 			"priceAud": null,
 			"colors": [],
@@ -6604,11 +6657,11 @@
 					"resolutionWidthPx": 2048,
 					"resolutionHeightPx": 1536,
 					"pixelsPerInch": 264,
-					"trueTone": null,
-					"promotion": null,
+					"trueTone": false,
+					"promotion": false,
 					"wideColorP3": true,
-					"laminated": null,
-					"antireflective": null,
+					"laminated": false,
+					"antireflective": false,
 					"sourceNotes": "Resolution and pixel density from supplied Apple AU compare matrix row gPPXAntM."
 				}
 			],
@@ -6649,12 +6702,12 @@
 					"portId": "ipad-mini-5th-generation-port-lightning",
 					"wiredFastCharge": false,
 					"wirelessCharging": false,
-					"wirelessStandards": null,
+					"wirelessStandards": [],
 					"fastChargeMinutesToPercent": null,
 					"adapterPowerW": null
 				},
 				"powerSupply": {
-					"hasExternalPowerAdapter": null,
+					"hasExternalPowerAdapter": false,
 					"outputVoltageV": null,
 					"outputCurrentA": null,
 					"outputPowerW": null,
@@ -6686,7 +6739,9 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": ["Touch ID"],
+				"methods": [
+					"Touch ID"
+				],
 				"primaryMethod": "Touch ID"
 			},
 			"physical": {
@@ -6698,8 +6753,8 @@
 				"ipRating": null,
 				"waterDepthM": null,
 				"splashPressureAtm": null,
-				"dustProtected": null,
-				"sweatResistant": null
+				"dustProtected": false,
+				"sweatResistant": false
 			},
 			"software": {
 				"operatingSystem": "iPadOS",
@@ -6713,7 +6768,6 @@
 		{
 			"id": "ipad-mini-4",
 			"name": "iPad mini 4",
-			"family": "ipad",
 			"releaseYear": 2015,
 			"priceAud": null,
 			"colors": [],
@@ -6772,11 +6826,11 @@
 					"resolutionWidthPx": 2266,
 					"resolutionHeightPx": 1488,
 					"pixelsPerInch": 326,
-					"trueTone": null,
-					"promotion": null,
-					"wideColorP3": null,
-					"laminated": null,
-					"antireflective": null,
+					"trueTone": false,
+					"promotion": false,
+					"wideColorP3": false,
+					"laminated": false,
+					"antireflective": false,
 					"sourceNotes": "Resolution and pixel density from supplied Apple AU compare matrix row gPPXAntM."
 				}
 			],
@@ -6817,12 +6871,12 @@
 					"portId": "ipad-mini-4-port-lightning",
 					"wiredFastCharge": false,
 					"wirelessCharging": false,
-					"wirelessStandards": null,
+					"wirelessStandards": [],
 					"fastChargeMinutesToPercent": null,
 					"adapterPowerW": null
 				},
 				"powerSupply": {
-					"hasExternalPowerAdapter": null,
+					"hasExternalPowerAdapter": false,
 					"outputVoltageV": null,
 					"outputCurrentA": null,
 					"outputPowerW": null,
@@ -6854,7 +6908,9 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": ["Touch ID"],
+				"methods": [
+					"Touch ID"
+				],
 				"primaryMethod": "Touch ID"
 			},
 			"physical": {
@@ -6866,8 +6922,8 @@
 				"ipRating": null,
 				"waterDepthM": null,
 				"splashPressureAtm": null,
-				"dustProtected": null,
-				"sweatResistant": null
+				"dustProtected": false,
+				"sweatResistant": false
 			},
 			"software": {
 				"operatingSystem": "iPadOS",
@@ -6881,7 +6937,6 @@
 		{
 			"id": "ipad-mini-3",
 			"name": "iPad mini 3",
-			"family": "ipad",
 			"releaseYear": 2014,
 			"priceAud": null,
 			"colors": [],
@@ -6940,11 +6995,11 @@
 					"resolutionWidthPx": 2048,
 					"resolutionHeightPx": 1536,
 					"pixelsPerInch": 326,
-					"trueTone": null,
-					"promotion": null,
-					"wideColorP3": null,
-					"laminated": null,
-					"antireflective": null,
+					"trueTone": false,
+					"promotion": false,
+					"wideColorP3": false,
+					"laminated": false,
+					"antireflective": false,
 					"sourceNotes": "Resolution and pixel density from supplied Apple AU compare matrix row gPPXAntM."
 				}
 			],
@@ -6985,12 +7040,12 @@
 					"portId": "ipad-mini-3-port-lightning",
 					"wiredFastCharge": false,
 					"wirelessCharging": false,
-					"wirelessStandards": null,
+					"wirelessStandards": [],
 					"fastChargeMinutesToPercent": null,
 					"adapterPowerW": null
 				},
 				"powerSupply": {
-					"hasExternalPowerAdapter": null,
+					"hasExternalPowerAdapter": false,
 					"outputVoltageV": null,
 					"outputCurrentA": null,
 					"outputPowerW": null,
@@ -7022,7 +7077,9 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": ["Touch ID"],
+				"methods": [
+					"Touch ID"
+				],
 				"primaryMethod": "Touch ID"
 			},
 			"physical": {
@@ -7034,8 +7091,8 @@
 				"ipRating": null,
 				"waterDepthM": null,
 				"splashPressureAtm": null,
-				"dustProtected": null,
-				"sweatResistant": null
+				"dustProtected": false,
+				"sweatResistant": false
 			},
 			"software": {
 				"operatingSystem": "iPadOS",
@@ -7049,7 +7106,6 @@
 		{
 			"id": "ipad-mini-2",
 			"name": "iPad mini 2",
-			"family": "ipad",
 			"releaseYear": 2013,
 			"priceAud": null,
 			"colors": [],
@@ -7109,16 +7165,16 @@
 					"sdrPeakBrightnessNits": 400,
 					"hdrPeakBrightnessNits": null,
 					"fullScreenHdrBrightnessNits": null,
-					"trueTone": null,
-					"promotion": null,
-					"alwaysOn": null,
+					"trueTone": false,
+					"promotion": false,
+					"alwaysOn": false,
 					"wideColorP3": false,
-					"laminated": null,
+					"laminated": false,
 					"antireflective": false,
-					"nanoTextureOption": null,
+					"nanoTextureOption": false,
 					"fingerprintResistantCoating": true,
-					"hoverSupport": null,
-					"mirroring": null,
+					"hoverSupport": false,
+					"mirroring": false,
 					"sourceNotes": "Rows zilUHVeV, K26NQmiL, gPPXAntM, cZ6t-gCX, c-NlFHqp, and 9TIIVvNz; fingerprint-resistant coating omitted from semantic display bundle per extraction rules but retained in typed field because source states it."
 				}
 			],
@@ -7166,12 +7222,12 @@
 					"portId": "ipad-mini-2-port-lightning",
 					"wiredFastCharge": false,
 					"wirelessCharging": false,
-					"wirelessStandards": null,
+					"wirelessStandards": [],
 					"fastChargeMinutesToPercent": null,
 					"adapterPowerW": null
 				},
 				"powerSupply": {
-					"hasExternalPowerAdapter": null,
+					"hasExternalPowerAdapter": false,
 					"outputVoltageV": null,
 					"outputCurrentA": null,
 					"outputPowerW": null,
@@ -7191,13 +7247,17 @@
 					}
 				],
 				"wifi": {
-					"standards": ["Wi-Fi 4"]
+					"standards": [
+						"Wi-Fi 4"
+					]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 4.0"
 				},
 				"cellular": {
-					"technologies": ["LTE"]
+					"technologies": [
+						"LTE"
+					]
 				},
 				"uwb": null,
 				"thread": null,
@@ -7208,7 +7268,9 @@
 				}
 			},
 			"authentication": {
-				"methods": ["Touch ID"],
+				"methods": [
+					"Touch ID"
+				],
 				"primaryMethod": "Touch ID"
 			},
 			"physical": {
@@ -7245,8 +7307,8 @@
 				"ipRating": "",
 				"waterDepthM": null,
 				"splashPressureAtm": null,
-				"dustProtected": null,
-				"sweatResistant": null
+				"dustProtected": false,
+				"sweatResistant": false
 			},
 			"software": {
 				"operatingSystem": "iPadOS",

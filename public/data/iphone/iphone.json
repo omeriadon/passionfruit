@@ -3,7 +3,6 @@
 		{
 			"id": "iphone-17",
 			"name": "iPhone 17",
-			"family": "iphone",
 			"releaseYear": 2025,
 			"priceAud": 1399,
 			"colors": [
@@ -102,14 +101,26 @@
 				{
 					"id": "256gb-configuration",
 					"displayName": "iPhone 17 256GB",
-					"colorIds": ["lavender", "sage", "mist-blue", "white", "black"],
+					"colorIds": [
+						"lavender",
+						"sage",
+						"mist-blue",
+						"white",
+						"black"
+					],
 					"storageId": "256gb",
 					"priceAud": 1399
 				},
 				{
 					"id": "512gb-configuration",
 					"displayName": "iPhone 17 512GB",
-					"colorIds": ["lavender", "sage", "mist-blue", "white", "black"],
+					"colorIds": [
+						"lavender",
+						"sage",
+						"mist-blue",
+						"white",
+						"black"
+					],
 					"storageId": "512gb",
 					"priceAud": null
 				}
@@ -226,7 +237,10 @@
 					"portId": "USB-C",
 					"wiredFastCharge": true,
 					"wirelessCharging": true,
-					"wirelessStandards": ["MagSafe", "Qi2"],
+					"wirelessStandards": [
+						"MagSafe",
+						"Qi2"
+					],
 					"fastChargeMinutesToPercent": {
 						"percent": 50,
 						"minutes": 20
@@ -263,7 +277,10 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": ["Face ID", "passcode"],
+				"methods": [
+					"Face ID",
+					"passcode"
+				],
 				"primaryMethod": "Face ID",
 				"placement": null,
 				"sourceNotes": "Exact authentication section establishes Face ID."
@@ -283,7 +300,7 @@
 				"waterDepthM": 6,
 				"splashPressureAtm": null,
 				"dustProtected": true,
-				"sweatResistant": null
+				"sweatResistant": false
 			},
 			"software": {
 				"operatingSystem": "iOS",
@@ -297,7 +314,6 @@
 		{
 			"id": "iphone-17-pro-max",
 			"name": "iPhone 17 Pro Max",
-			"family": "iphone",
 			"releaseYear": 2025,
 			"priceAud": 2199,
 			"colors": [
@@ -360,28 +376,44 @@
 				{
 					"id": "256gb-configuration",
 					"displayName": "iPhone 17 Pro Max 256GB",
-					"colorIds": ["cosmic-orange", "deep-blue", "silver"],
+					"colorIds": [
+						"cosmic-orange",
+						"deep-blue",
+						"silver"
+					],
 					"storageId": "256gb",
 					"priceAud": 2199
 				},
 				{
 					"id": "512gb-configuration",
 					"displayName": "iPhone 17 Pro Max 512GB",
-					"colorIds": ["cosmic-orange", "deep-blue", "silver"],
+					"colorIds": [
+						"cosmic-orange",
+						"deep-blue",
+						"silver"
+					],
 					"storageId": "512gb",
 					"priceAud": null
 				},
 				{
 					"id": "1tb-configuration",
 					"displayName": "iPhone 17 Pro Max 1TB",
-					"colorIds": ["cosmic-orange", "deep-blue", "silver"],
+					"colorIds": [
+						"cosmic-orange",
+						"deep-blue",
+						"silver"
+					],
 					"storageId": "1tb",
 					"priceAud": null
 				},
 				{
 					"id": "2tb-configuration",
 					"displayName": "iPhone 17 Pro Max 2TB",
-					"colorIds": ["cosmic-orange", "deep-blue", "silver"],
+					"colorIds": [
+						"cosmic-orange",
+						"deep-blue",
+						"silver"
+					],
 					"storageId": "2tb",
 					"priceAud": null
 				}
@@ -522,7 +554,10 @@
 					"portId": "USB-C",
 					"wiredFastCharge": true,
 					"wirelessCharging": true,
-					"wirelessStandards": ["MagSafe", "Qi2"],
+					"wirelessStandards": [
+						"MagSafe",
+						"Qi2"
+					],
 					"fastChargeMinutesToPercent": {
 						"percent": 50,
 						"minutes": 20
@@ -559,7 +594,10 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": ["Face ID", "passcode"],
+				"methods": [
+					"Face ID",
+					"passcode"
+				],
 				"primaryMethod": "Face ID",
 				"placement": null,
 				"sourceNotes": "Exact authentication section establishes Face ID."
@@ -579,7 +617,7 @@
 				"waterDepthM": 6,
 				"splashPressureAtm": null,
 				"dustProtected": true,
-				"sweatResistant": null
+				"sweatResistant": false
 			},
 			"software": {
 				"operatingSystem": "iOS",
@@ -593,7 +631,6 @@
 		{
 			"id": "iphone-17e",
 			"name": "iPhone 17e",
-			"family": "iphone",
 			"releaseYear": 2025,
 			"priceAud": 999,
 			"colors": [
@@ -656,14 +693,22 @@
 				{
 					"id": "256gb-configuration",
 					"displayName": "iPhone 17e 256GB",
-					"colorIds": ["soft-pink", "white", "black"],
+					"colorIds": [
+						"soft-pink",
+						"white",
+						"black"
+					],
 					"storageId": "256gb",
 					"priceAud": 999
 				},
 				{
 					"id": "512gb-configuration",
 					"displayName": "iPhone 17e 512GB",
-					"colorIds": ["soft-pink", "white", "black"],
+					"colorIds": [
+						"soft-pink",
+						"white",
+						"black"
+					],
 					"storageId": "512gb",
 					"priceAud": null
 				}
@@ -715,8 +760,8 @@
 					"fullScreenHdrBrightnessNits": null,
 					"minimumBrightnessNits": null,
 					"trueTone": true,
-					"promotion": null,
-					"alwaysOn": null,
+					"promotion": false,
+					"alwaysOn": false,
 					"wideColorP3": true,
 					"sourceNotes": "Exact Display section lines retained in source evidence; unsupported typed facts are null."
 				}
@@ -768,7 +813,10 @@
 					"portId": "USB-C",
 					"wiredFastCharge": true,
 					"wirelessCharging": true,
-					"wirelessStandards": ["MagSafe", "Qi2"],
+					"wirelessStandards": [
+						"MagSafe",
+						"Qi2"
+					],
 					"fastChargeMinutesToPercent": {
 						"percent": 50,
 						"minutes": 30
@@ -805,7 +853,10 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": ["Face ID", "passcode"],
+				"methods": [
+					"Face ID",
+					"passcode"
+				],
 				"primaryMethod": "Face ID",
 				"placement": null,
 				"sourceNotes": "Exact authentication section establishes Face ID."
@@ -825,7 +876,7 @@
 				"waterDepthM": 6,
 				"splashPressureAtm": null,
 				"dustProtected": true,
-				"sweatResistant": null
+				"sweatResistant": false
 			},
 			"software": {
 				"operatingSystem": "iOS",
@@ -839,7 +890,6 @@
 		{
 			"id": "iphone-air",
 			"name": "iPhone Air",
-			"family": "iphone",
 			"releaseYear": 2025,
 			"priceAud": 1799,
 			"colors": [
@@ -920,21 +970,36 @@
 				{
 					"id": "256gb-configuration",
 					"displayName": "iPhone Air 256GB",
-					"colorIds": ["sky-blue", "light-gold", "cloud-white", "space-black"],
+					"colorIds": [
+						"sky-blue",
+						"light-gold",
+						"cloud-white",
+						"space-black"
+					],
 					"storageId": "256gb",
 					"priceAud": 1799
 				},
 				{
 					"id": "512gb-configuration",
 					"displayName": "iPhone Air 512GB",
-					"colorIds": ["sky-blue", "light-gold", "cloud-white", "space-black"],
+					"colorIds": [
+						"sky-blue",
+						"light-gold",
+						"cloud-white",
+						"space-black"
+					],
 					"storageId": "512gb",
 					"priceAud": null
 				},
 				{
 					"id": "1tb-configuration",
 					"displayName": "iPhone Air 1TB",
-					"colorIds": ["sky-blue", "light-gold", "cloud-white", "space-black"],
+					"colorIds": [
+						"sky-blue",
+						"light-gold",
+						"cloud-white",
+						"space-black"
+					],
 					"storageId": "1tb",
 					"priceAud": null
 				}
@@ -1057,7 +1122,10 @@
 					"portId": "USB-C",
 					"wiredFastCharge": true,
 					"wirelessCharging": true,
-					"wirelessStandards": ["MagSafe", "Qi2"],
+					"wirelessStandards": [
+						"MagSafe",
+						"Qi2"
+					],
 					"fastChargeMinutesToPercent": {
 						"percent": 50,
 						"minutes": 30
@@ -1094,7 +1162,10 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": ["Face ID", "passcode"],
+				"methods": [
+					"Face ID",
+					"passcode"
+				],
 				"primaryMethod": "Face ID",
 				"placement": null,
 				"sourceNotes": "Exact authentication section establishes Face ID."
@@ -1114,7 +1185,7 @@
 				"waterDepthM": 6,
 				"splashPressureAtm": null,
 				"dustProtected": true,
-				"sweatResistant": null
+				"sweatResistant": false
 			},
 			"software": {
 				"operatingSystem": "iOS",
@@ -1128,7 +1199,6 @@
 		{
 			"id": "iphone-16",
 			"name": "iPhone 16",
-			"family": "iphone",
 			"releaseYear": 2024,
 			"priceAud": 999,
 			"colors": [
@@ -1227,21 +1297,39 @@
 				{
 					"id": "128gb-configuration",
 					"displayName": "iPhone 16 128GB",
-					"colorIds": ["ultramarine", "teal", "pink", "white", "black"],
+					"colorIds": [
+						"ultramarine",
+						"teal",
+						"pink",
+						"white",
+						"black"
+					],
 					"storageId": "128gb",
 					"priceAud": 999
 				},
 				{
 					"id": "256gb-configuration",
 					"displayName": "iPhone 16 256GB",
-					"colorIds": ["ultramarine", "teal", "pink", "white", "black"],
+					"colorIds": [
+						"ultramarine",
+						"teal",
+						"pink",
+						"white",
+						"black"
+					],
 					"storageId": "256gb",
 					"priceAud": null
 				},
 				{
 					"id": "512gb-configuration",
 					"displayName": "iPhone 16 512GB",
-					"colorIds": ["ultramarine", "teal", "pink", "white", "black"],
+					"colorIds": [
+						"ultramarine",
+						"teal",
+						"pink",
+						"white",
+						"black"
+					],
 					"storageId": "512gb",
 					"priceAud": null
 				}
@@ -1299,8 +1387,8 @@
 					"fullScreenHdrBrightnessNits": 2000,
 					"minimumBrightnessNits": 1,
 					"trueTone": true,
-					"promotion": null,
-					"alwaysOn": null,
+					"promotion": false,
+					"alwaysOn": false,
 					"wideColorP3": true,
 					"sourceNotes": "Exact Display section lines retained in source evidence; unsupported typed facts are null."
 				}
@@ -1340,7 +1428,10 @@
 					"portId": "USB-C",
 					"wiredFastCharge": true,
 					"wirelessCharging": true,
-					"wirelessStandards": ["MagSafe", "Qi2"],
+					"wirelessStandards": [
+						"MagSafe",
+						"Qi2"
+					],
 					"fastChargeMinutesToPercent": {
 						"percent": 50,
 						"minutes": 30
@@ -1377,7 +1468,10 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": ["Face ID", "passcode"],
+				"methods": [
+					"Face ID",
+					"passcode"
+				],
 				"primaryMethod": "Face ID",
 				"placement": null,
 				"sourceNotes": "Exact authentication section establishes Face ID."
@@ -1397,7 +1491,7 @@
 				"waterDepthM": 6,
 				"splashPressureAtm": null,
 				"dustProtected": true,
-				"sweatResistant": null
+				"sweatResistant": false
 			},
 			"software": {
 				"operatingSystem": "iOS",
@@ -1411,7 +1505,6 @@
 		{
 			"id": "iphone-16-pro-max",
 			"name": "iPhone 16 Pro Max",
-			"family": "iphone",
 			"releaseYear": 2024,
 			"priceAud": 1249,
 			"colors": [
@@ -1656,7 +1749,10 @@
 					"portId": "USB-C",
 					"wiredFastCharge": true,
 					"wirelessCharging": true,
-					"wirelessStandards": ["MagSafe", "Qi2"],
+					"wirelessStandards": [
+						"MagSafe",
+						"Qi2"
+					],
 					"fastChargeMinutesToPercent": {
 						"percent": 50,
 						"minutes": 35
@@ -1693,7 +1789,10 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": ["Face ID", "passcode"],
+				"methods": [
+					"Face ID",
+					"passcode"
+				],
 				"primaryMethod": "Face ID",
 				"placement": null,
 				"sourceNotes": "Exact authentication section establishes Face ID."
@@ -1713,7 +1812,7 @@
 				"waterDepthM": 6,
 				"splashPressureAtm": null,
 				"dustProtected": true,
-				"sweatResistant": null
+				"sweatResistant": false
 			},
 			"software": {
 				"operatingSystem": "iOS",
@@ -1727,7 +1826,6 @@
 		{
 			"id": "iphone-15-pro-max",
 			"name": "iPhone 15 Pro Max",
-			"family": "iphone",
 			"releaseYear": 2023,
 			"priceAud": null,
 			"colors": [
@@ -1972,7 +2070,10 @@
 					"portId": "USB-C",
 					"wiredFastCharge": true,
 					"wirelessCharging": true,
-					"wirelessStandards": ["MagSafe", "Qi2"],
+					"wirelessStandards": [
+						"MagSafe",
+						"Qi2"
+					],
 					"fastChargeMinutesToPercent": {
 						"percent": 50,
 						"minutes": 35
@@ -2009,7 +2110,10 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": ["Face ID", "passcode"],
+				"methods": [
+					"Face ID",
+					"passcode"
+				],
 				"primaryMethod": "Face ID",
 				"placement": null,
 				"sourceNotes": "Exact authentication section establishes Face ID."
@@ -2029,7 +2133,7 @@
 				"waterDepthM": 6,
 				"splashPressureAtm": null,
 				"dustProtected": true,
-				"sweatResistant": null
+				"sweatResistant": false
 			},
 			"software": {
 				"operatingSystem": "iOS",
@@ -2043,7 +2147,6 @@
 		{
 			"id": "iphone-14",
 			"name": "iPhone 14",
-			"family": "iphone",
 			"releaseYear": 2022,
 			"priceAud": null,
 			"colors": [
@@ -2235,7 +2338,7 @@
 					"memoryBandwidthGbps": null,
 					"cpuCoreConfiguration": "6-core CPU with 2 performance and 4 efficiency cores",
 					"neuralAccelerators": false,
-					"hardwareRayTracing": null
+					"hardwareRayTracing": false
 				}
 			],
 			"displays": [
@@ -2253,8 +2356,8 @@
 					"fullScreenHdrBrightnessNits": null,
 					"minimumBrightnessNits": null,
 					"trueTone": true,
-					"promotion": null,
-					"alwaysOn": null,
+					"promotion": false,
+					"alwaysOn": false,
 					"wideColorP3": true,
 					"sourceNotes": "Exact Display section lines retained in source evidence; unsupported typed facts are null."
 				}
@@ -2294,7 +2397,10 @@
 					"portId": "Lightning",
 					"wiredFastCharge": true,
 					"wirelessCharging": true,
-					"wirelessStandards": ["MagSafe", "Qi2"],
+					"wirelessStandards": [
+						"MagSafe",
+						"Qi2"
+					],
 					"fastChargeMinutesToPercent": {
 						"percent": 50,
 						"minutes": 30
@@ -2331,7 +2437,10 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": ["Face ID", "passcode"],
+				"methods": [
+					"Face ID",
+					"passcode"
+				],
 				"primaryMethod": "Face ID",
 				"placement": null,
 				"sourceNotes": "Exact authentication section establishes Face ID."
@@ -2351,7 +2460,7 @@
 				"waterDepthM": 6,
 				"splashPressureAtm": null,
 				"dustProtected": true,
-				"sweatResistant": null
+				"sweatResistant": false
 			},
 			"software": {
 				"operatingSystem": "iOS",
@@ -2365,7 +2474,6 @@
 		{
 			"id": "iphone-14-plus",
 			"name": "iPhone 14 Plus",
-			"family": "iphone",
 			"releaseYear": 2022,
 			"priceAud": null,
 			"colors": [
@@ -2557,7 +2665,7 @@
 					"memoryBandwidthGbps": null,
 					"cpuCoreConfiguration": "6-core CPU with 2 performance and 4 efficiency cores",
 					"neuralAccelerators": false,
-					"hardwareRayTracing": null
+					"hardwareRayTracing": false
 				}
 			],
 			"displays": [
@@ -2575,8 +2683,8 @@
 					"fullScreenHdrBrightnessNits": null,
 					"minimumBrightnessNits": null,
 					"trueTone": true,
-					"promotion": null,
-					"alwaysOn": null,
+					"promotion": false,
+					"alwaysOn": false,
 					"wideColorP3": true,
 					"sourceNotes": "Exact Display section lines retained in source evidence; unsupported typed facts are null."
 				}
@@ -2640,7 +2748,10 @@
 					"portId": "Lightning",
 					"wiredFastCharge": true,
 					"wirelessCharging": true,
-					"wirelessStandards": ["MagSafe", "Qi2"],
+					"wirelessStandards": [
+						"MagSafe",
+						"Qi2"
+					],
 					"fastChargeMinutesToPercent": {
 						"percent": 50,
 						"minutes": 35
@@ -2677,7 +2788,10 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": ["Face ID", "passcode"],
+				"methods": [
+					"Face ID",
+					"passcode"
+				],
 				"primaryMethod": "Face ID",
 				"placement": null,
 				"sourceNotes": "Exact authentication section establishes Face ID."
@@ -2697,7 +2811,7 @@
 				"waterDepthM": 6,
 				"splashPressureAtm": null,
 				"dustProtected": true,
-				"sweatResistant": null
+				"sweatResistant": false
 			},
 			"software": {
 				"operatingSystem": "iOS",
@@ -2711,7 +2825,6 @@
 		{
 			"id": "iphone-14-pro",
 			"name": "iPhone 14 Pro",
-			"family": "iphone",
 			"releaseYear": 2022,
 			"priceAud": null,
 			"colors": [
@@ -2792,28 +2905,48 @@
 				{
 					"id": "128gb-configuration",
 					"displayName": "iPhone 14 Pro 128GB",
-					"colorIds": ["deep-purple", "gold", "silver", "space-black"],
+					"colorIds": [
+						"deep-purple",
+						"gold",
+						"silver",
+						"space-black"
+					],
 					"storageId": "128gb",
 					"priceAud": null
 				},
 				{
 					"id": "256gb-configuration",
 					"displayName": "iPhone 14 Pro 256GB",
-					"colorIds": ["deep-purple", "gold", "silver", "space-black"],
+					"colorIds": [
+						"deep-purple",
+						"gold",
+						"silver",
+						"space-black"
+					],
 					"storageId": "256gb",
 					"priceAud": null
 				},
 				{
 					"id": "512gb-configuration",
 					"displayName": "iPhone 14 Pro 512GB",
-					"colorIds": ["deep-purple", "gold", "silver", "space-black"],
+					"colorIds": [
+						"deep-purple",
+						"gold",
+						"silver",
+						"space-black"
+					],
 					"storageId": "512gb",
 					"priceAud": null
 				},
 				{
 					"id": "1tb-configuration",
 					"displayName": "iPhone 14 Pro 1TB",
-					"colorIds": ["deep-purple", "gold", "silver", "space-black"],
+					"colorIds": [
+						"deep-purple",
+						"gold",
+						"silver",
+						"space-black"
+					],
 					"storageId": "1tb",
 					"priceAud": null
 				}
@@ -2859,7 +2992,7 @@
 					"memoryBandwidthGbps": null,
 					"cpuCoreConfiguration": "6-core CPU with 2 performance and 4 efficiency cores",
 					"neuralAccelerators": false,
-					"hardwareRayTracing": null
+					"hardwareRayTracing": false
 				}
 			],
 			"displays": [
@@ -2954,7 +3087,10 @@
 					"portId": "Lightning",
 					"wiredFastCharge": true,
 					"wirelessCharging": true,
-					"wirelessStandards": ["MagSafe", "Qi2"],
+					"wirelessStandards": [
+						"MagSafe",
+						"Qi2"
+					],
 					"fastChargeMinutesToPercent": {
 						"percent": 50,
 						"minutes": 30
@@ -2991,7 +3127,10 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": ["Face ID", "passcode"],
+				"methods": [
+					"Face ID",
+					"passcode"
+				],
 				"primaryMethod": "Face ID",
 				"placement": null,
 				"sourceNotes": "Exact authentication section establishes Face ID."
@@ -3011,7 +3150,7 @@
 				"waterDepthM": 6,
 				"splashPressureAtm": null,
 				"dustProtected": true,
-				"sweatResistant": null
+				"sweatResistant": false
 			},
 			"software": {
 				"operatingSystem": "iOS",
@@ -3025,7 +3164,6 @@
 		{
 			"id": "iphone-se-3rd-generation",
 			"name": "iPhone SE (3rd generation)",
-			"family": "iphone",
 			"releaseYear": 2022,
 			"priceAud": null,
 			"colors": [
@@ -3088,21 +3226,33 @@
 				{
 					"id": "64gb-configuration",
 					"displayName": "iPhone SE (3rd generation) 64GB",
-					"colorIds": ["midnight", "starlight", "red"],
+					"colorIds": [
+						"midnight",
+						"starlight",
+						"red"
+					],
 					"storageId": "64gb",
 					"priceAud": null
 				},
 				{
 					"id": "128gb-configuration",
 					"displayName": "iPhone SE (3rd generation) 128GB",
-					"colorIds": ["midnight", "starlight", "red"],
+					"colorIds": [
+						"midnight",
+						"starlight",
+						"red"
+					],
 					"storageId": "128gb",
 					"priceAud": null
 				},
 				{
 					"id": "256gb-configuration",
 					"displayName": "iPhone SE (3rd generation) 256GB",
-					"colorIds": ["midnight", "starlight", "red"],
+					"colorIds": [
+						"midnight",
+						"starlight",
+						"red"
+					],
 					"storageId": "256gb",
 					"priceAud": null
 				}
@@ -3142,7 +3292,7 @@
 					"memoryBandwidthGbps": null,
 					"cpuCoreConfiguration": "6-core CPU with 2 performance and 4 efficiency cores",
 					"neuralAccelerators": false,
-					"hardwareRayTracing": null
+					"hardwareRayTracing": false
 				}
 			],
 			"displays": [
@@ -3160,8 +3310,8 @@
 					"fullScreenHdrBrightnessNits": null,
 					"minimumBrightnessNits": null,
 					"trueTone": true,
-					"promotion": null,
-					"alwaysOn": null,
+					"promotion": false,
+					"alwaysOn": false,
 					"wideColorP3": true,
 					"sourceNotes": "Exact Display section lines retained in source evidence; unsupported typed facts are null."
 				}
@@ -3213,7 +3363,9 @@
 					"portId": "Lightning",
 					"wiredFastCharge": true,
 					"wirelessCharging": true,
-					"wirelessStandards": ["Qi"],
+					"wirelessStandards": [
+						"Qi"
+					],
 					"fastChargeMinutesToPercent": {
 						"percent": 50,
 						"minutes": 30
@@ -3250,7 +3402,10 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": ["Touch ID", "passcode"],
+				"methods": [
+					"Touch ID",
+					"passcode"
+				],
 				"primaryMethod": "Touch ID",
 				"placement": "other",
 				"sourceNotes": "Home-button iPhone SE uses Touch ID; placement modeled as other."
@@ -3270,7 +3425,7 @@
 				"waterDepthM": null,
 				"splashPressureAtm": null,
 				"dustProtected": false,
-				"sweatResistant": null
+				"sweatResistant": false
 			},
 			"software": {
 				"operatingSystem": "iOS",
@@ -3284,7 +3439,6 @@
 		{
 			"id": "iphone-13",
 			"name": "iPhone 13",
-			"family": "iphone",
 			"releaseYear": 2021,
 			"priceAud": null,
 			"colors": [
@@ -3401,21 +3555,42 @@
 				{
 					"id": "128gb-configuration",
 					"displayName": "iPhone 13 128GB",
-					"colorIds": ["green", "pink", "blue", "midnight", "starlight", "red"],
+					"colorIds": [
+						"green",
+						"pink",
+						"blue",
+						"midnight",
+						"starlight",
+						"red"
+					],
 					"storageId": "128gb",
 					"priceAud": null
 				},
 				{
 					"id": "256gb-configuration",
 					"displayName": "iPhone 13 256GB",
-					"colorIds": ["green", "pink", "blue", "midnight", "starlight", "red"],
+					"colorIds": [
+						"green",
+						"pink",
+						"blue",
+						"midnight",
+						"starlight",
+						"red"
+					],
 					"storageId": "256gb",
 					"priceAud": null
 				},
 				{
 					"id": "512gb-configuration",
 					"displayName": "iPhone 13 512GB",
-					"colorIds": ["green", "pink", "blue", "midnight", "starlight", "red"],
+					"colorIds": [
+						"green",
+						"pink",
+						"blue",
+						"midnight",
+						"starlight",
+						"red"
+					],
 					"storageId": "512gb",
 					"priceAud": null
 				}
@@ -3455,7 +3630,7 @@
 					"memoryBandwidthGbps": null,
 					"cpuCoreConfiguration": "6-core CPU with 2 performance and 4 efficiency cores",
 					"neuralAccelerators": false,
-					"hardwareRayTracing": null
+					"hardwareRayTracing": false
 				}
 			],
 			"displays": [
@@ -3473,8 +3648,8 @@
 					"fullScreenHdrBrightnessNits": null,
 					"minimumBrightnessNits": null,
 					"trueTone": true,
-					"promotion": null,
-					"alwaysOn": null,
+					"promotion": false,
+					"alwaysOn": false,
 					"wideColorP3": true,
 					"sourceNotes": "Exact Display section lines retained in source evidence; unsupported typed facts are null."
 				}
@@ -3514,7 +3689,10 @@
 					"portId": "Lightning",
 					"wiredFastCharge": true,
 					"wirelessCharging": true,
-					"wirelessStandards": ["MagSafe", "Qi2"],
+					"wirelessStandards": [
+						"MagSafe",
+						"Qi2"
+					],
 					"fastChargeMinutesToPercent": {
 						"percent": 50,
 						"minutes": 30
@@ -3551,7 +3729,10 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": ["Face ID", "passcode"],
+				"methods": [
+					"Face ID",
+					"passcode"
+				],
 				"primaryMethod": "Face ID",
 				"placement": null,
 				"sourceNotes": "Exact authentication section establishes Face ID."
@@ -3571,7 +3752,7 @@
 				"waterDepthM": 6,
 				"splashPressureAtm": null,
 				"dustProtected": true,
-				"sweatResistant": null
+				"sweatResistant": false
 			},
 			"software": {
 				"operatingSystem": "iOS",
@@ -3585,7 +3766,6 @@
 		{
 			"id": "iphone-13-mini",
 			"name": "iPhone 13 mini",
-			"family": "iphone",
 			"releaseYear": 2021,
 			"priceAud": null,
 			"colors": [
@@ -3702,21 +3882,42 @@
 				{
 					"id": "128gb-configuration",
 					"displayName": "iPhone 13 mini 128GB",
-					"colorIds": ["green", "pink", "blue", "midnight", "starlight", "red"],
+					"colorIds": [
+						"green",
+						"pink",
+						"blue",
+						"midnight",
+						"starlight",
+						"red"
+					],
 					"storageId": "128gb",
 					"priceAud": null
 				},
 				{
 					"id": "256gb-configuration",
 					"displayName": "iPhone 13 mini 256GB",
-					"colorIds": ["green", "pink", "blue", "midnight", "starlight", "red"],
+					"colorIds": [
+						"green",
+						"pink",
+						"blue",
+						"midnight",
+						"starlight",
+						"red"
+					],
 					"storageId": "256gb",
 					"priceAud": null
 				},
 				{
 					"id": "512gb-configuration",
 					"displayName": "iPhone 13 mini 512GB",
-					"colorIds": ["green", "pink", "blue", "midnight", "starlight", "red"],
+					"colorIds": [
+						"green",
+						"pink",
+						"blue",
+						"midnight",
+						"starlight",
+						"red"
+					],
 					"storageId": "512gb",
 					"priceAud": null
 				}
@@ -3756,7 +3957,7 @@
 					"memoryBandwidthGbps": null,
 					"cpuCoreConfiguration": "6-core CPU with 2 performance and 4 efficiency cores",
 					"neuralAccelerators": false,
-					"hardwareRayTracing": null
+					"hardwareRayTracing": false
 				}
 			],
 			"displays": [
@@ -3774,8 +3975,8 @@
 					"fullScreenHdrBrightnessNits": null,
 					"minimumBrightnessNits": null,
 					"trueTone": true,
-					"promotion": null,
-					"alwaysOn": null,
+					"promotion": false,
+					"alwaysOn": false,
 					"wideColorP3": true,
 					"sourceNotes": "Exact Display section lines retained in source evidence; unsupported typed facts are null."
 				}
@@ -3839,7 +4040,10 @@
 					"portId": "Lightning",
 					"wiredFastCharge": true,
 					"wirelessCharging": true,
-					"wirelessStandards": ["MagSafe", "Qi2"],
+					"wirelessStandards": [
+						"MagSafe",
+						"Qi2"
+					],
 					"fastChargeMinutesToPercent": {
 						"percent": 50,
 						"minutes": 30
@@ -3876,7 +4080,10 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": ["Face ID", "passcode"],
+				"methods": [
+					"Face ID",
+					"passcode"
+				],
 				"primaryMethod": "Face ID",
 				"placement": null,
 				"sourceNotes": "Exact authentication section establishes Face ID."
@@ -3896,7 +4103,7 @@
 				"waterDepthM": 6,
 				"splashPressureAtm": null,
 				"dustProtected": true,
-				"sweatResistant": null
+				"sweatResistant": false
 			},
 			"software": {
 				"operatingSystem": "iOS",
@@ -3910,7 +4117,6 @@
 		{
 			"id": "iphone-13-pro-max",
 			"name": "iPhone 13 Pro Max",
-			"family": "iphone",
 			"releaseYear": 2021,
 			"priceAud": null,
 			"colors": [
@@ -4100,7 +4306,7 @@
 					"memoryBandwidthGbps": null,
 					"cpuCoreConfiguration": "6-core CPU with 2 performance and 4 efficiency cores",
 					"neuralAccelerators": false,
-					"hardwareRayTracing": null
+					"hardwareRayTracing": false
 				}
 			],
 			"displays": [
@@ -4119,7 +4325,7 @@
 					"minimumBrightnessNits": null,
 					"trueTone": true,
 					"promotion": true,
-					"alwaysOn": null,
+					"alwaysOn": false,
 					"wideColorP3": true,
 					"sourceNotes": "Exact Display section lines retained in source evidence; unsupported typed facts are null."
 				}
@@ -4195,7 +4401,10 @@
 					"portId": "Lightning",
 					"wiredFastCharge": true,
 					"wirelessCharging": true,
-					"wirelessStandards": ["MagSafe", "Qi2"],
+					"wirelessStandards": [
+						"MagSafe",
+						"Qi2"
+					],
 					"fastChargeMinutesToPercent": {
 						"percent": 50,
 						"minutes": 35
@@ -4232,7 +4441,10 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": ["Face ID", "passcode"],
+				"methods": [
+					"Face ID",
+					"passcode"
+				],
 				"primaryMethod": "Face ID",
 				"placement": null,
 				"sourceNotes": "Exact authentication section establishes Face ID."
@@ -4252,7 +4464,7 @@
 				"waterDepthM": 6,
 				"splashPressureAtm": null,
 				"dustProtected": true,
-				"sweatResistant": null
+				"sweatResistant": false
 			},
 			"software": {
 				"operatingSystem": "iOS",
@@ -4266,7 +4478,6 @@
 		{
 			"id": "iphone-12",
 			"name": "iPhone 12",
-			"family": "iphone",
 			"releaseYear": 2020,
 			"priceAud": null,
 			"colors": [
@@ -4383,21 +4594,42 @@
 				{
 					"id": "64gb-configuration",
 					"displayName": "iPhone 12 64GB",
-					"colorIds": ["purple", "blue", "green", "red", "white", "black"],
+					"colorIds": [
+						"purple",
+						"blue",
+						"green",
+						"red",
+						"white",
+						"black"
+					],
 					"storageId": "64gb",
 					"priceAud": null
 				},
 				{
 					"id": "128gb-configuration",
 					"displayName": "iPhone 12 128GB",
-					"colorIds": ["purple", "blue", "green", "red", "white", "black"],
+					"colorIds": [
+						"purple",
+						"blue",
+						"green",
+						"red",
+						"white",
+						"black"
+					],
 					"storageId": "128gb",
 					"priceAud": null
 				},
 				{
 					"id": "256gb-configuration",
 					"displayName": "iPhone 12 256GB",
-					"colorIds": ["purple", "blue", "green", "red", "white", "black"],
+					"colorIds": [
+						"purple",
+						"blue",
+						"green",
+						"red",
+						"white",
+						"black"
+					],
 					"storageId": "256gb",
 					"priceAud": null
 				}
@@ -4437,7 +4669,7 @@
 					"memoryBandwidthGbps": null,
 					"cpuCoreConfiguration": "6-core CPU with 2 performance and 4 efficiency cores",
 					"neuralAccelerators": false,
-					"hardwareRayTracing": null
+					"hardwareRayTracing": false
 				}
 			],
 			"displays": [
@@ -4455,8 +4687,8 @@
 					"fullScreenHdrBrightnessNits": null,
 					"minimumBrightnessNits": null,
 					"trueTone": true,
-					"promotion": null,
-					"alwaysOn": null,
+					"promotion": false,
+					"alwaysOn": false,
 					"wideColorP3": true,
 					"sourceNotes": "Exact Display section lines retained in source evidence; unsupported typed facts are null."
 				}
@@ -4496,7 +4728,10 @@
 					"portId": "Lightning",
 					"wiredFastCharge": true,
 					"wirelessCharging": true,
-					"wirelessStandards": ["MagSafe", "Qi2"],
+					"wirelessStandards": [
+						"MagSafe",
+						"Qi2"
+					],
 					"fastChargeMinutesToPercent": {
 						"percent": 50,
 						"minutes": 30
@@ -4533,7 +4768,10 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": ["Face ID", "passcode"],
+				"methods": [
+					"Face ID",
+					"passcode"
+				],
 				"primaryMethod": "Face ID",
 				"placement": null,
 				"sourceNotes": "Exact authentication section establishes Face ID."
@@ -4553,7 +4791,7 @@
 				"waterDepthM": 6,
 				"splashPressureAtm": null,
 				"dustProtected": true,
-				"sweatResistant": null
+				"sweatResistant": false
 			},
 			"software": {
 				"operatingSystem": "iOS",
@@ -4567,7 +4805,6 @@
 		{
 			"id": "iphone-12-pro",
 			"name": "iPhone 12 Pro",
-			"family": "iphone",
 			"releaseYear": 2020,
 			"priceAud": null,
 			"colors": [
@@ -4648,21 +4885,36 @@
 				{
 					"id": "128gb-configuration",
 					"displayName": "iPhone 12 Pro 128GB",
-					"colorIds": ["pacific-blue", "gold", "graphite", "silver"],
+					"colorIds": [
+						"pacific-blue",
+						"gold",
+						"graphite",
+						"silver"
+					],
 					"storageId": "128gb",
 					"priceAud": null
 				},
 				{
 					"id": "256gb-configuration",
 					"displayName": "iPhone 12 Pro 256GB",
-					"colorIds": ["pacific-blue", "gold", "graphite", "silver"],
+					"colorIds": [
+						"pacific-blue",
+						"gold",
+						"graphite",
+						"silver"
+					],
 					"storageId": "256gb",
 					"priceAud": null
 				},
 				{
 					"id": "512gb-configuration",
 					"displayName": "iPhone 12 Pro 512GB",
-					"colorIds": ["pacific-blue", "gold", "graphite", "silver"],
+					"colorIds": [
+						"pacific-blue",
+						"gold",
+						"graphite",
+						"silver"
+					],
 					"storageId": "512gb",
 					"priceAud": null
 				}
@@ -4702,7 +4954,7 @@
 					"memoryBandwidthGbps": null,
 					"cpuCoreConfiguration": "6-core CPU with 2 performance and 4 efficiency cores",
 					"neuralAccelerators": false,
-					"hardwareRayTracing": null
+					"hardwareRayTracing": false
 				}
 			],
 			"displays": [
@@ -4720,8 +4972,8 @@
 					"fullScreenHdrBrightnessNits": null,
 					"minimumBrightnessNits": null,
 					"trueTone": true,
-					"promotion": null,
-					"alwaysOn": null,
+					"promotion": false,
+					"alwaysOn": false,
 					"wideColorP3": true,
 					"sourceNotes": "Exact Display section lines retained in source evidence; unsupported typed facts are null."
 				}
@@ -4797,7 +5049,10 @@
 					"portId": "Lightning",
 					"wiredFastCharge": true,
 					"wirelessCharging": true,
-					"wirelessStandards": ["MagSafe", "Qi2"],
+					"wirelessStandards": [
+						"MagSafe",
+						"Qi2"
+					],
 					"fastChargeMinutesToPercent": {
 						"percent": 50,
 						"minutes": 30
@@ -4834,7 +5089,10 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": ["Face ID", "passcode"],
+				"methods": [
+					"Face ID",
+					"passcode"
+				],
 				"primaryMethod": "Face ID",
 				"placement": null,
 				"sourceNotes": "Exact authentication section establishes Face ID."
@@ -4854,7 +5112,7 @@
 				"waterDepthM": 6,
 				"splashPressureAtm": null,
 				"dustProtected": true,
-				"sweatResistant": null
+				"sweatResistant": false
 			},
 			"software": {
 				"operatingSystem": "iOS",
@@ -4868,7 +5126,6 @@
 		{
 			"id": "iphone-12-pro-max",
 			"name": "iPhone 12 Pro Max",
-			"family": "iphone",
 			"releaseYear": 2020,
 			"priceAud": null,
 			"colors": [
@@ -4949,21 +5206,36 @@
 				{
 					"id": "128gb-configuration",
 					"displayName": "iPhone 12 Pro Max 128GB",
-					"colorIds": ["pacific-blue", "gold", "graphite", "silver"],
+					"colorIds": [
+						"pacific-blue",
+						"gold",
+						"graphite",
+						"silver"
+					],
 					"storageId": "128gb",
 					"priceAud": null
 				},
 				{
 					"id": "256gb-configuration",
 					"displayName": "iPhone 12 Pro Max 256GB",
-					"colorIds": ["pacific-blue", "gold", "graphite", "silver"],
+					"colorIds": [
+						"pacific-blue",
+						"gold",
+						"graphite",
+						"silver"
+					],
 					"storageId": "256gb",
 					"priceAud": null
 				},
 				{
 					"id": "512gb-configuration",
 					"displayName": "iPhone 12 Pro Max 512GB",
-					"colorIds": ["pacific-blue", "gold", "graphite", "silver"],
+					"colorIds": [
+						"pacific-blue",
+						"gold",
+						"graphite",
+						"silver"
+					],
 					"storageId": "512gb",
 					"priceAud": null
 				}
@@ -5003,7 +5275,7 @@
 					"memoryBandwidthGbps": null,
 					"cpuCoreConfiguration": "6-core CPU with 2 performance and 4 efficiency cores",
 					"neuralAccelerators": false,
-					"hardwareRayTracing": null
+					"hardwareRayTracing": false
 				}
 			],
 			"displays": [
@@ -5021,8 +5293,8 @@
 					"fullScreenHdrBrightnessNits": null,
 					"minimumBrightnessNits": null,
 					"trueTone": true,
-					"promotion": null,
-					"alwaysOn": null,
+					"promotion": false,
+					"alwaysOn": false,
 					"wideColorP3": true,
 					"sourceNotes": "Exact Display section lines retained in source evidence; unsupported typed facts are null."
 				}
@@ -5098,7 +5370,10 @@
 					"portId": "Lightning",
 					"wiredFastCharge": true,
 					"wirelessCharging": true,
-					"wirelessStandards": ["MagSafe", "Qi2"],
+					"wirelessStandards": [
+						"MagSafe",
+						"Qi2"
+					],
 					"fastChargeMinutesToPercent": {
 						"percent": 50,
 						"minutes": 30
@@ -5135,7 +5410,10 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": ["Face ID", "passcode"],
+				"methods": [
+					"Face ID",
+					"passcode"
+				],
 				"primaryMethod": "Face ID",
 				"placement": null,
 				"sourceNotes": "Exact authentication section establishes Face ID."
@@ -5155,7 +5433,7 @@
 				"waterDepthM": 6,
 				"splashPressureAtm": null,
 				"dustProtected": true,
-				"sweatResistant": null
+				"sweatResistant": false
 			},
 			"software": {
 				"operatingSystem": "iOS",
@@ -5169,7 +5447,6 @@
 		{
 			"id": "iphone-11",
 			"name": "iPhone 11",
-			"family": "iphone",
 			"releaseYear": 2019,
 			"priceAud": null,
 			"colors": [
@@ -5286,14 +5563,28 @@
 				{
 					"id": "64gb-configuration",
 					"displayName": "iPhone 11 64GB",
-					"colorIds": ["purple", "yellow", "green", "black", "white", "red"],
+					"colorIds": [
+						"purple",
+						"yellow",
+						"green",
+						"black",
+						"white",
+						"red"
+					],
 					"storageId": "64gb",
 					"priceAud": null
 				},
 				{
 					"id": "128gb-configuration",
 					"displayName": "iPhone 11 128GB",
-					"colorIds": ["purple", "yellow", "green", "black", "white", "red"],
+					"colorIds": [
+						"purple",
+						"yellow",
+						"green",
+						"black",
+						"white",
+						"red"
+					],
 					"storageId": "128gb",
 					"priceAud": null
 				}
@@ -5327,7 +5618,7 @@
 					"memoryBandwidthGbps": null,
 					"cpuCoreConfiguration": "6-core CPU with 2 performance and 4 efficiency cores",
 					"neuralAccelerators": false,
-					"hardwareRayTracing": null
+					"hardwareRayTracing": false
 				}
 			],
 			"displays": [
@@ -5345,8 +5636,8 @@
 					"fullScreenHdrBrightnessNits": null,
 					"minimumBrightnessNits": null,
 					"trueTone": true,
-					"promotion": null,
-					"alwaysOn": null,
+					"promotion": false,
+					"alwaysOn": false,
 					"wideColorP3": true,
 					"sourceNotes": "Exact Display section lines retained in source evidence; unsupported typed facts are null."
 				}
@@ -5386,7 +5677,9 @@
 					"portId": "Lightning",
 					"wiredFastCharge": true,
 					"wirelessCharging": true,
-					"wirelessStandards": ["Qi"],
+					"wirelessStandards": [
+						"Qi"
+					],
 					"fastChargeMinutesToPercent": {
 						"percent": 50,
 						"minutes": 30
@@ -5423,7 +5716,10 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": ["Face ID", "passcode"],
+				"methods": [
+					"Face ID",
+					"passcode"
+				],
 				"primaryMethod": "Face ID",
 				"placement": null,
 				"sourceNotes": "Exact authentication section establishes Face ID."
@@ -5443,7 +5739,7 @@
 				"waterDepthM": null,
 				"splashPressureAtm": null,
 				"dustProtected": false,
-				"sweatResistant": null
+				"sweatResistant": false
 			},
 			"software": {
 				"operatingSystem": "iOS",
@@ -5457,7 +5753,6 @@
 		{
 			"id": "iphone-11-pro",
 			"name": "iPhone 11 Pro",
-			"family": "iphone",
 			"releaseYear": 2019,
 			"priceAud": null,
 			"colors": [
@@ -5538,21 +5833,36 @@
 				{
 					"id": "64gb-configuration",
 					"displayName": "iPhone 11 Pro 64GB",
-					"colorIds": ["midnight-green", "silver", "spacegray", "gold"],
+					"colorIds": [
+						"midnight-green",
+						"silver",
+						"spacegray",
+						"gold"
+					],
 					"storageId": "64gb",
 					"priceAud": null
 				},
 				{
 					"id": "256gb-configuration",
 					"displayName": "iPhone 11 Pro 256GB",
-					"colorIds": ["midnight-green", "silver", "spacegray", "gold"],
+					"colorIds": [
+						"midnight-green",
+						"silver",
+						"spacegray",
+						"gold"
+					],
 					"storageId": "256gb",
 					"priceAud": null
 				},
 				{
 					"id": "512gb-configuration",
 					"displayName": "iPhone 11 Pro 512GB",
-					"colorIds": ["midnight-green", "silver", "spacegray", "gold"],
+					"colorIds": [
+						"midnight-green",
+						"silver",
+						"spacegray",
+						"gold"
+					],
 					"storageId": "512gb",
 					"priceAud": null
 				}
@@ -5592,7 +5902,7 @@
 					"memoryBandwidthGbps": null,
 					"cpuCoreConfiguration": "6-core CPU with 2 performance and 4 efficiency cores",
 					"neuralAccelerators": false,
-					"hardwareRayTracing": null
+					"hardwareRayTracing": false
 				}
 			],
 			"displays": [
@@ -5610,8 +5920,8 @@
 					"fullScreenHdrBrightnessNits": null,
 					"minimumBrightnessNits": null,
 					"trueTone": true,
-					"promotion": null,
-					"alwaysOn": null,
+					"promotion": false,
+					"alwaysOn": false,
 					"wideColorP3": true,
 					"sourceNotes": "Exact Display section lines retained in source evidence; unsupported typed facts are null."
 				}
@@ -5687,7 +5997,9 @@
 					"portId": "Lightning",
 					"wiredFastCharge": true,
 					"wirelessCharging": true,
-					"wirelessStandards": ["Qi"],
+					"wirelessStandards": [
+						"Qi"
+					],
 					"fastChargeMinutesToPercent": {
 						"percent": 50,
 						"minutes": 30
@@ -5724,7 +6036,10 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": ["Face ID", "passcode"],
+				"methods": [
+					"Face ID",
+					"passcode"
+				],
 				"primaryMethod": "Face ID",
 				"placement": null,
 				"sourceNotes": "Exact authentication section establishes Face ID."
@@ -5744,7 +6059,7 @@
 				"waterDepthM": null,
 				"splashPressureAtm": null,
 				"dustProtected": false,
-				"sweatResistant": null
+				"sweatResistant": false
 			},
 			"software": {
 				"operatingSystem": "iOS",
@@ -5758,7 +6073,6 @@
 		{
 			"id": "iphone-7",
 			"name": "iPhone 7",
-			"family": "iphone",
 			"releaseYear": 2016,
 			"priceAud": null,
 			"colors": [],
@@ -5809,7 +6123,7 @@
 					"resolutionHeightPx": 750,
 					"pixelsPerInch": 326,
 					"refreshRateHz": null,
-					"trueTone": null,
+					"trueTone": false,
 					"promotion": false,
 					"alwaysOn": false,
 					"wideColorP3": true,
@@ -5822,7 +6136,7 @@
 					"role": "rear-wide",
 					"displayName": "Single camera",
 					"megapixels": 12,
-					"sensorShiftOis": null,
+					"sensorShiftOis": false,
 					"lidar": true,
 					"sourceNotes": "Hidden compare rows 30, 104 and 163."
 				},
@@ -5831,8 +6145,8 @@
 					"role": "front",
 					"displayName": "FaceTime HD camera",
 					"megapixels": 7,
-					"trueDepthSystem": null,
-					"centerStage": null,
+					"trueDepthSystem": false,
+					"centerStage": false,
 					"sourceNotes": "Hidden compare rows 109, 110 and 148."
 				}
 			],
@@ -5853,14 +6167,14 @@
 				],
 				"charging": {
 					"portId": "iphone-7-lightning-port",
-					"wiredFastCharge": null,
-					"wirelessCharging": null,
-					"wirelessStandards": null,
+					"wiredFastCharge": false,
+					"wirelessCharging": false,
+					"wirelessStandards": [],
 					"fastChargeMinutesToPercent": null,
 					"adapterPowerW": null
 				},
 				"powerSupply": {
-					"hasExternalPowerAdapter": null,
+					"hasExternalPowerAdapter": false,
 					"outputVoltageV": null,
 					"outputCurrentA": null,
 					"outputPowerW": null,
@@ -5878,7 +6192,9 @@
 					}
 				],
 				"wifi": {
-					"standards": ["Wi-Fi 5"]
+					"standards": [
+						"Wi-Fi 5"
+					]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 4.2"
@@ -5889,17 +6205,22 @@
 				"infrared": null,
 				"nearFieldCommunication": {
 					"present": true,
-					"readWriteMode": null,
-					"backgroundTagReading": null
+					"readWriteMode": false,
+					"backgroundTagReading": false
 				},
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": false,
-					"systems": ["GPS"]
+					"systems": [
+						"GPS"
+					]
 				}
 			},
 			"authentication": {
-				"methods": ["Touch ID", "passcode"],
+				"methods": [
+					"Touch ID",
+					"passcode"
+				],
 				"primaryMethod": "Touch ID"
 			},
 			"physical": {
@@ -5918,8 +6239,8 @@
 				"ipRating": "",
 				"waterDepthM": 1,
 				"splashPressureAtm": null,
-				"dustProtected": null,
-				"sweatResistant": null
+				"dustProtected": false,
+				"sweatResistant": false
 			},
 			"software": {
 				"operatingSystem": "iOS",
@@ -5927,12 +6248,12 @@
 				"builtInApps": []
 			},
 			"overviewImages": [],
-			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, colours, swatches, image bytes and Apple-hosted URLs are absent from target-specific evidence and remain null/empty rather than inferred."
+			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, colours, swatches, image bytes and Apple-hosted URLs are absent from target-specific evidence and remain null/empty rather than inferred.",
+			"accessories": []
 		},
 		{
 			"id": "iphone-7-plus",
 			"name": "iPhone 7 Plus",
-			"family": "iphone",
 			"releaseYear": 2016,
 			"priceAud": null,
 			"colors": [],
@@ -5964,7 +6285,7 @@
 					"resolutionHeightPx": 1080,
 					"pixelsPerInch": 401,
 					"refreshRateHz": null,
-					"trueTone": null,
+					"trueTone": false,
 					"promotion": false,
 					"alwaysOn": false,
 					"wideColorP3": true,
@@ -5977,8 +6298,8 @@
 					"role": "rear-wide",
 					"displayName": "Dual cameras Telephoto",
 					"megapixels": 12,
-					"sensorShiftOis": null,
-					"lidar": null,
+					"sensorShiftOis": false,
+					"lidar": false,
 					"sourceNotes": "Hidden compare rows 30, 104 and 163."
 				},
 				{
@@ -5986,8 +6307,8 @@
 					"role": "front",
 					"displayName": "FaceTime HD camera",
 					"megapixels": 7,
-					"trueDepthSystem": null,
-					"centerStage": null,
+					"trueDepthSystem": false,
+					"centerStage": false,
 					"sourceNotes": "Hidden compare rows 109, 110 and 148."
 				}
 			],
@@ -6008,14 +6329,14 @@
 				],
 				"charging": {
 					"portId": "iphone-7-plus-lightning-port",
-					"wiredFastCharge": null,
-					"wirelessCharging": null,
-					"wirelessStandards": null,
+					"wiredFastCharge": false,
+					"wirelessCharging": false,
+					"wirelessStandards": [],
 					"fastChargeMinutesToPercent": null,
 					"adapterPowerW": null
 				},
 				"powerSupply": {
-					"hasExternalPowerAdapter": null,
+					"hasExternalPowerAdapter": false,
 					"outputVoltageV": null,
 					"outputCurrentA": null,
 					"outputPowerW": null,
@@ -6033,7 +6354,9 @@
 					}
 				],
 				"wifi": {
-					"standards": ["Wi-Fi 5"]
+					"standards": [
+						"Wi-Fi 5"
+					]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 4.2"
@@ -6044,17 +6367,22 @@
 				"infrared": null,
 				"nearFieldCommunication": {
 					"present": true,
-					"readWriteMode": null,
-					"backgroundTagReading": null
+					"readWriteMode": false,
+					"backgroundTagReading": false
 				},
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": false,
-					"systems": ["GPS"]
+					"systems": [
+						"GPS"
+					]
 				}
 			},
 			"authentication": {
-				"methods": ["Touch ID", "passcode"],
+				"methods": [
+					"Touch ID",
+					"passcode"
+				],
 				"primaryMethod": "Touch ID"
 			},
 			"physical": {
@@ -6073,8 +6401,8 @@
 				"ipRating": "",
 				"waterDepthM": 1,
 				"splashPressureAtm": null,
-				"dustProtected": null,
-				"sweatResistant": null
+				"dustProtected": false,
+				"sweatResistant": false
 			},
 			"software": {
 				"operatingSystem": "iOS",
@@ -6082,12 +6410,12 @@
 				"builtInApps": []
 			},
 			"overviewImages": [],
-			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, colours, swatches, image bytes and Apple-hosted URLs are absent from target-specific evidence and remain null/empty rather than inferred."
+			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, colours, swatches, image bytes and Apple-hosted URLs are absent from target-specific evidence and remain null/empty rather than inferred.",
+			"accessories": []
 		},
 		{
 			"id": "iphone-8",
 			"name": "iPhone 8",
-			"family": "iphone",
 			"releaseYear": 2017,
 			"priceAud": null,
 			"colors": [],
@@ -6151,8 +6479,8 @@
 					"role": "rear-wide",
 					"displayName": "Single camera",
 					"megapixels": 12,
-					"sensorShiftOis": null,
-					"lidar": null,
+					"sensorShiftOis": false,
+					"lidar": false,
 					"sourceNotes": "Hidden compare rows 30, 104 and 163."
 				},
 				{
@@ -6160,8 +6488,8 @@
 					"role": "front",
 					"displayName": "FaceTime HD camera",
 					"megapixels": 7,
-					"trueDepthSystem": null,
-					"centerStage": null,
+					"trueDepthSystem": false,
+					"centerStage": false,
 					"sourceNotes": "Hidden compare rows 109, 110 and 148."
 				}
 			],
@@ -6182,14 +6510,16 @@
 				],
 				"charging": {
 					"portId": "iphone-8-lightning-port",
-					"wiredFastCharge": null,
+					"wiredFastCharge": false,
 					"wirelessCharging": true,
-					"wirelessStandards": ["Qi"],
+					"wirelessStandards": [
+						"Qi"
+					],
 					"fastChargeMinutesToPercent": null,
 					"adapterPowerW": null
 				},
 				"powerSupply": {
-					"hasExternalPowerAdapter": null,
+					"hasExternalPowerAdapter": false,
 					"outputVoltageV": null,
 					"outputCurrentA": null,
 					"outputPowerW": null,
@@ -6207,7 +6537,9 @@
 					}
 				],
 				"wifi": {
-					"standards": ["Wi-Fi 5"]
+					"standards": [
+						"Wi-Fi 5"
+					]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.0"
@@ -6218,17 +6550,22 @@
 				"infrared": null,
 				"nearFieldCommunication": {
 					"present": true,
-					"readWriteMode": null,
-					"backgroundTagReading": null
+					"readWriteMode": false,
+					"backgroundTagReading": false
 				},
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": false,
-					"systems": ["GPS"]
+					"systems": [
+						"GPS"
+					]
 				}
 			},
 			"authentication": {
-				"methods": ["Touch ID", "passcode"],
+				"methods": [
+					"Touch ID",
+					"passcode"
+				],
 				"primaryMethod": "Touch ID"
 			},
 			"physical": {
@@ -6247,8 +6584,8 @@
 				"ipRating": "",
 				"waterDepthM": 1,
 				"splashPressureAtm": null,
-				"dustProtected": null,
-				"sweatResistant": null
+				"dustProtected": false,
+				"sweatResistant": false
 			},
 			"software": {
 				"operatingSystem": "iOS",
@@ -6256,12 +6593,12 @@
 				"builtInApps": []
 			},
 			"overviewImages": [],
-			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, colours, swatches, image bytes and Apple-hosted URLs are absent from target-specific evidence and remain null/empty rather than inferred."
+			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, colours, swatches, image bytes and Apple-hosted URLs are absent from target-specific evidence and remain null/empty rather than inferred.",
+			"accessories": []
 		},
 		{
 			"id": "iphone-8-plus",
 			"name": "iPhone 8 Plus",
-			"family": "iphone",
 			"releaseYear": 2017,
 			"priceAud": null,
 			"colors": [],
@@ -6306,8 +6643,8 @@
 					"role": "rear-wide",
 					"displayName": "Dual cameras Telephoto",
 					"megapixels": 12,
-					"sensorShiftOis": null,
-					"lidar": null,
+					"sensorShiftOis": false,
+					"lidar": false,
 					"sourceNotes": "Hidden compare rows 30, 104 and 163."
 				},
 				{
@@ -6315,8 +6652,8 @@
 					"role": "front",
 					"displayName": "FaceTime HD camera",
 					"megapixels": 7,
-					"trueDepthSystem": null,
-					"centerStage": null,
+					"trueDepthSystem": false,
+					"centerStage": false,
 					"sourceNotes": "Hidden compare rows 109, 110 and 148."
 				}
 			],
@@ -6337,14 +6674,16 @@
 				],
 				"charging": {
 					"portId": "iphone-8-plus-lightning-port",
-					"wiredFastCharge": null,
+					"wiredFastCharge": false,
 					"wirelessCharging": true,
-					"wirelessStandards": ["Qi"],
+					"wirelessStandards": [
+						"Qi"
+					],
 					"fastChargeMinutesToPercent": null,
 					"adapterPowerW": null
 				},
 				"powerSupply": {
-					"hasExternalPowerAdapter": null,
+					"hasExternalPowerAdapter": false,
 					"outputVoltageV": null,
 					"outputCurrentA": null,
 					"outputPowerW": null,
@@ -6362,7 +6701,9 @@
 					}
 				],
 				"wifi": {
-					"standards": ["Wi-Fi 5"]
+					"standards": [
+						"Wi-Fi 5"
+					]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.0"
@@ -6373,17 +6714,22 @@
 				"infrared": null,
 				"nearFieldCommunication": {
 					"present": true,
-					"readWriteMode": null,
-					"backgroundTagReading": null
+					"readWriteMode": false,
+					"backgroundTagReading": false
 				},
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": false,
-					"systems": ["GPS"]
+					"systems": [
+						"GPS"
+					]
 				}
 			},
 			"authentication": {
-				"methods": ["Touch ID", "passcode"],
+				"methods": [
+					"Touch ID",
+					"passcode"
+				],
 				"primaryMethod": "Touch ID"
 			},
 			"physical": {
@@ -6402,8 +6748,8 @@
 				"ipRating": "",
 				"waterDepthM": 1,
 				"splashPressureAtm": null,
-				"dustProtected": null,
-				"sweatResistant": null
+				"dustProtected": false,
+				"sweatResistant": false
 			},
 			"software": {
 				"operatingSystem": "iOS",
@@ -6411,12 +6757,12 @@
 				"builtInApps": []
 			},
 			"overviewImages": [],
-			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, colours, swatches, image bytes and Apple-hosted URLs are absent from target-specific evidence and remain null/empty rather than inferred."
+			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, colours, swatches, image bytes and Apple-hosted URLs are absent from target-specific evidence and remain null/empty rather than inferred.",
+			"accessories": []
 		},
 		{
 			"id": "iphone-se-2nd-generation",
 			"name": "iPhone SE (2nd generation)",
-			"family": "iphone",
 			"releaseYear": 2020,
 			"priceAud": null,
 			"colors": [],
@@ -6480,8 +6826,8 @@
 					"role": "rear-wide",
 					"displayName": "Single camera",
 					"megapixels": 12,
-					"sensorShiftOis": null,
-					"lidar": null,
+					"sensorShiftOis": false,
+					"lidar": false,
 					"sourceNotes": "Hidden compare rows 30, 104 and 163."
 				},
 				{
@@ -6489,8 +6835,8 @@
 					"role": "front",
 					"displayName": "FaceTime HD camera",
 					"megapixels": 7,
-					"trueDepthSystem": null,
-					"centerStage": null,
+					"trueDepthSystem": false,
+					"centerStage": false,
 					"sourceNotes": "Hidden compare rows 109, 110 and 148."
 				}
 			],
@@ -6511,14 +6857,16 @@
 				],
 				"charging": {
 					"portId": "iphone-se-2nd-generation-lightning-port",
-					"wiredFastCharge": null,
+					"wiredFastCharge": false,
 					"wirelessCharging": true,
-					"wirelessStandards": ["Qi"],
+					"wirelessStandards": [
+						"Qi"
+					],
 					"fastChargeMinutesToPercent": null,
 					"adapterPowerW": null
 				},
 				"powerSupply": {
-					"hasExternalPowerAdapter": null,
+					"hasExternalPowerAdapter": false,
 					"outputVoltageV": null,
 					"outputCurrentA": null,
 					"outputPowerW": null,
@@ -6536,7 +6884,9 @@
 					}
 				],
 				"wifi": {
-					"standards": ["Wi-Fi 6"]
+					"standards": [
+						"Wi-Fi 6"
+					]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.0"
@@ -6547,17 +6897,22 @@
 				"infrared": null,
 				"nearFieldCommunication": {
 					"present": true,
-					"readWriteMode": null,
-					"backgroundTagReading": null
+					"readWriteMode": false,
+					"backgroundTagReading": false
 				},
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": false,
-					"systems": ["GPS"]
+					"systems": [
+						"GPS"
+					]
 				}
 			},
 			"authentication": {
-				"methods": ["Touch ID", "passcode"],
+				"methods": [
+					"Touch ID",
+					"passcode"
+				],
 				"primaryMethod": "Touch ID"
 			},
 			"physical": {
@@ -6576,8 +6931,8 @@
 				"ipRating": "",
 				"waterDepthM": 1,
 				"splashPressureAtm": null,
-				"dustProtected": null,
-				"sweatResistant": null
+				"dustProtected": false,
+				"sweatResistant": false
 			},
 			"software": {
 				"operatingSystem": "iOS",
@@ -6585,12 +6940,12 @@
 				"builtInApps": []
 			},
 			"overviewImages": [],
-			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, colours, swatches, image bytes and Apple-hosted URLs are absent from target-specific evidence and remain null/empty rather than inferred."
+			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, colours, swatches, image bytes and Apple-hosted URLs are absent from target-specific evidence and remain null/empty rather than inferred.",
+			"accessories": []
 		},
 		{
 			"id": "iphone-x",
 			"name": "iPhone X",
-			"family": "iphone",
 			"releaseYear": 2017,
 			"priceAud": null,
 			"colors": [],
@@ -6654,8 +7009,8 @@
 					"role": "rear-wide",
 					"displayName": "Dual cameras Telephoto",
 					"megapixels": 12,
-					"sensorShiftOis": null,
-					"lidar": null,
+					"sensorShiftOis": false,
+					"lidar": false,
 					"sourceNotes": "Hidden compare rows 30, 104 and 163."
 				},
 				{
@@ -6664,7 +7019,7 @@
 					"displayName": "TrueDepth front camera",
 					"megapixels": 7,
 					"trueDepthSystem": true,
-					"centerStage": null,
+					"centerStage": false,
 					"sourceNotes": "Hidden compare rows 109, 110 and 148."
 				}
 			],
@@ -6685,14 +7040,16 @@
 				],
 				"charging": {
 					"portId": "iphone-x-lightning-port",
-					"wiredFastCharge": null,
+					"wiredFastCharge": false,
 					"wirelessCharging": true,
-					"wirelessStandards": ["Qi"],
+					"wirelessStandards": [
+						"Qi"
+					],
 					"fastChargeMinutesToPercent": null,
 					"adapterPowerW": null
 				},
 				"powerSupply": {
-					"hasExternalPowerAdapter": null,
+					"hasExternalPowerAdapter": false,
 					"outputVoltageV": null,
 					"outputCurrentA": null,
 					"outputPowerW": null,
@@ -6710,7 +7067,9 @@
 					}
 				],
 				"wifi": {
-					"standards": ["Wi-Fi 5"]
+					"standards": [
+						"Wi-Fi 5"
+					]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.0"
@@ -6721,17 +7080,22 @@
 				"infrared": null,
 				"nearFieldCommunication": {
 					"present": true,
-					"readWriteMode": null,
-					"backgroundTagReading": null
+					"readWriteMode": false,
+					"backgroundTagReading": false
 				},
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": false,
-					"systems": ["GPS"]
+					"systems": [
+						"GPS"
+					]
 				}
 			},
 			"authentication": {
-				"methods": ["Face ID", "passcode"],
+				"methods": [
+					"Face ID",
+					"passcode"
+				],
 				"primaryMethod": "Face ID"
 			},
 			"physical": {
@@ -6750,8 +7114,8 @@
 				"ipRating": "",
 				"waterDepthM": 1,
 				"splashPressureAtm": null,
-				"dustProtected": null,
-				"sweatResistant": null
+				"dustProtected": false,
+				"sweatResistant": false
 			},
 			"software": {
 				"operatingSystem": "iOS",
@@ -6759,12 +7123,12 @@
 				"builtInApps": []
 			},
 			"overviewImages": [],
-			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, colours, swatches, image bytes and Apple-hosted URLs are absent from target-specific evidence and remain null/empty rather than inferred."
+			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, colours, swatches, image bytes and Apple-hosted URLs are absent from target-specific evidence and remain null/empty rather than inferred.",
+			"accessories": []
 		},
 		{
 			"id": "iphone-xr",
 			"name": "iPhone XR",
-			"family": "iphone",
 			"releaseYear": 2018,
 			"priceAud": null,
 			"colors": [],
@@ -6809,8 +7173,8 @@
 					"role": "rear-wide",
 					"displayName": "Single camera",
 					"megapixels": 12,
-					"sensorShiftOis": null,
-					"lidar": null,
+					"sensorShiftOis": false,
+					"lidar": false,
 					"sourceNotes": "Hidden compare rows 30, 104 and 163."
 				},
 				{
@@ -6819,7 +7183,7 @@
 					"displayName": "TrueDepth front camera",
 					"megapixels": 7,
 					"trueDepthSystem": true,
-					"centerStage": null,
+					"centerStage": false,
 					"sourceNotes": "Hidden compare rows 109, 110 and 148."
 				}
 			],
@@ -6840,14 +7204,16 @@
 				],
 				"charging": {
 					"portId": "iphone-xr-lightning-port",
-					"wiredFastCharge": null,
+					"wiredFastCharge": false,
 					"wirelessCharging": true,
-					"wirelessStandards": ["Qi"],
+					"wirelessStandards": [
+						"Qi"
+					],
 					"fastChargeMinutesToPercent": null,
 					"adapterPowerW": null
 				},
 				"powerSupply": {
-					"hasExternalPowerAdapter": null,
+					"hasExternalPowerAdapter": false,
 					"outputVoltageV": null,
 					"outputCurrentA": null,
 					"outputPowerW": null,
@@ -6865,7 +7231,9 @@
 					}
 				],
 				"wifi": {
-					"standards": ["Wi-Fi 5"]
+					"standards": [
+						"Wi-Fi 5"
+					]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.0"
@@ -6876,17 +7244,22 @@
 				"infrared": null,
 				"nearFieldCommunication": {
 					"present": true,
-					"readWriteMode": null,
-					"backgroundTagReading": null
+					"readWriteMode": false,
+					"backgroundTagReading": false
 				},
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": false,
-					"systems": ["GPS"]
+					"systems": [
+						"GPS"
+					]
 				}
 			},
 			"authentication": {
-				"methods": ["Face ID", "passcode"],
+				"methods": [
+					"Face ID",
+					"passcode"
+				],
 				"primaryMethod": "Face ID"
 			},
 			"physical": {
@@ -6905,8 +7278,8 @@
 				"ipRating": "",
 				"waterDepthM": 1,
 				"splashPressureAtm": null,
-				"dustProtected": null,
-				"sweatResistant": null
+				"dustProtected": false,
+				"sweatResistant": false
 			},
 			"software": {
 				"operatingSystem": "iOS",
@@ -6914,12 +7287,12 @@
 				"builtInApps": []
 			},
 			"overviewImages": [],
-			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, colours, swatches, image bytes and Apple-hosted URLs are absent from target-specific evidence and remain null/empty rather than inferred."
+			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, colours, swatches, image bytes and Apple-hosted URLs are absent from target-specific evidence and remain null/empty rather than inferred.",
+			"accessories": []
 		},
 		{
 			"id": "iphone-xs",
 			"name": "iPhone XS",
-			"family": "iphone",
 			"releaseYear": 2018,
 			"priceAud": null,
 			"colors": [],
@@ -6964,8 +7337,8 @@
 					"role": "rear-wide",
 					"displayName": "Dual cameras Telephoto",
 					"megapixels": 12,
-					"sensorShiftOis": null,
-					"lidar": null,
+					"sensorShiftOis": false,
+					"lidar": false,
 					"sourceNotes": "Hidden compare rows 30, 104 and 163."
 				},
 				{
@@ -6974,7 +7347,7 @@
 					"displayName": "TrueDepth front camera",
 					"megapixels": 7,
 					"trueDepthSystem": true,
-					"centerStage": null,
+					"centerStage": false,
 					"sourceNotes": "Hidden compare rows 109, 110 and 148."
 				}
 			],
@@ -6995,14 +7368,16 @@
 				],
 				"charging": {
 					"portId": "iphone-xs-lightning-port",
-					"wiredFastCharge": null,
+					"wiredFastCharge": false,
 					"wirelessCharging": true,
-					"wirelessStandards": ["Qi"],
+					"wirelessStandards": [
+						"Qi"
+					],
 					"fastChargeMinutesToPercent": null,
 					"adapterPowerW": null
 				},
 				"powerSupply": {
-					"hasExternalPowerAdapter": null,
+					"hasExternalPowerAdapter": false,
 					"outputVoltageV": null,
 					"outputCurrentA": null,
 					"outputPowerW": null,
@@ -7020,7 +7395,9 @@
 					}
 				],
 				"wifi": {
-					"standards": ["Wi-Fi 5"]
+					"standards": [
+						"Wi-Fi 5"
+					]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.0"
@@ -7031,17 +7408,22 @@
 				"infrared": null,
 				"nearFieldCommunication": {
 					"present": true,
-					"readWriteMode": null,
-					"backgroundTagReading": null
+					"readWriteMode": false,
+					"backgroundTagReading": false
 				},
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": false,
-					"systems": ["GPS"]
+					"systems": [
+						"GPS"
+					]
 				}
 			},
 			"authentication": {
-				"methods": ["Face ID", "passcode"],
+				"methods": [
+					"Face ID",
+					"passcode"
+				],
 				"primaryMethod": "Face ID"
 			},
 			"physical": {
@@ -7060,8 +7442,8 @@
 				"ipRating": "",
 				"waterDepthM": 2,
 				"splashPressureAtm": null,
-				"dustProtected": null,
-				"sweatResistant": null
+				"dustProtected": false,
+				"sweatResistant": false
 			},
 			"software": {
 				"operatingSystem": "iOS",
@@ -7069,12 +7451,12 @@
 				"builtInApps": []
 			},
 			"overviewImages": [],
-			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, colours, swatches, image bytes and Apple-hosted URLs are absent from target-specific evidence and remain null/empty rather than inferred."
+			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, colours, swatches, image bytes and Apple-hosted URLs are absent from target-specific evidence and remain null/empty rather than inferred.",
+			"accessories": []
 		},
 		{
 			"id": "iphone-xs-max",
 			"name": "iPhone XS Max",
-			"family": "iphone",
 			"releaseYear": 2018,
 			"priceAud": null,
 			"colors": [],
@@ -7138,8 +7520,8 @@
 					"role": "rear-wide",
 					"displayName": "Dual cameras Telephoto",
 					"megapixels": 12,
-					"sensorShiftOis": null,
-					"lidar": null,
+					"sensorShiftOis": false,
+					"lidar": false,
 					"sourceNotes": "Hidden compare rows 30, 104 and 163."
 				},
 				{
@@ -7148,7 +7530,7 @@
 					"displayName": "TrueDepth front camera",
 					"megapixels": 7,
 					"trueDepthSystem": true,
-					"centerStage": null,
+					"centerStage": false,
 					"sourceNotes": "Hidden compare rows 109, 110 and 148."
 				}
 			],
@@ -7169,14 +7551,16 @@
 				],
 				"charging": {
 					"portId": "iphone-xs-max-lightning-port",
-					"wiredFastCharge": null,
+					"wiredFastCharge": false,
 					"wirelessCharging": true,
-					"wirelessStandards": ["Qi"],
+					"wirelessStandards": [
+						"Qi"
+					],
 					"fastChargeMinutesToPercent": null,
 					"adapterPowerW": null
 				},
 				"powerSupply": {
-					"hasExternalPowerAdapter": null,
+					"hasExternalPowerAdapter": false,
 					"outputVoltageV": null,
 					"outputCurrentA": null,
 					"outputPowerW": null,
@@ -7194,7 +7578,9 @@
 					}
 				],
 				"wifi": {
-					"standards": ["Wi-Fi 5"]
+					"standards": [
+						"Wi-Fi 5"
+					]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.0"
@@ -7205,17 +7591,22 @@
 				"infrared": null,
 				"nearFieldCommunication": {
 					"present": true,
-					"readWriteMode": null,
-					"backgroundTagReading": null
+					"readWriteMode": false,
+					"backgroundTagReading": false
 				},
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": false,
-					"systems": ["GPS"]
+					"systems": [
+						"GPS"
+					]
 				}
 			},
 			"authentication": {
-				"methods": ["Face ID", "passcode"],
+				"methods": [
+					"Face ID",
+					"passcode"
+				],
 				"primaryMethod": "Face ID"
 			},
 			"physical": {
@@ -7234,8 +7625,8 @@
 				"ipRating": "",
 				"waterDepthM": 2,
 				"splashPressureAtm": null,
-				"dustProtected": null,
-				"sweatResistant": null
+				"dustProtected": false,
+				"sweatResistant": false
 			},
 			"software": {
 				"operatingSystem": "iOS",
@@ -7243,12 +7634,12 @@
 				"builtInApps": []
 			},
 			"overviewImages": [],
-			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, colours, swatches, image bytes and Apple-hosted URLs are absent from target-specific evidence and remain null/empty rather than inferred."
+			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, colours, swatches, image bytes and Apple-hosted URLs are absent from target-specific evidence and remain null/empty rather than inferred.",
+			"accessories": []
 		},
 		{
 			"id": "iphone-11-pro-max",
 			"name": "iPhone 11 Pro Max",
-			"family": "iphone",
 			"releaseYear": 2019,
 			"priceAud": null,
 			"colors": [],
@@ -7312,8 +7703,8 @@
 					"role": "rear-wide",
 					"displayName": "Triple cameras Ultra Wide Telephoto",
 					"megapixels": 12,
-					"sensorShiftOis": null,
-					"lidar": null,
+					"sensorShiftOis": false,
+					"lidar": false,
 					"sourceNotes": "Hidden compare rows 30, 104 and 163."
 				},
 				{
@@ -7322,7 +7713,7 @@
 					"displayName": "TrueDepth front camera",
 					"megapixels": 12,
 					"trueDepthSystem": true,
-					"centerStage": null,
+					"centerStage": false,
 					"sourceNotes": "Hidden compare rows 109, 110 and 148."
 				}
 			],
@@ -7343,14 +7734,16 @@
 				],
 				"charging": {
 					"portId": "iphone-11-pro-max-lightning-port",
-					"wiredFastCharge": null,
+					"wiredFastCharge": false,
 					"wirelessCharging": true,
-					"wirelessStandards": ["Qi"],
+					"wirelessStandards": [
+						"Qi"
+					],
 					"fastChargeMinutesToPercent": null,
 					"adapterPowerW": null
 				},
 				"powerSupply": {
-					"hasExternalPowerAdapter": null,
+					"hasExternalPowerAdapter": false,
 					"outputVoltageV": null,
 					"outputCurrentA": null,
 					"outputPowerW": null,
@@ -7368,7 +7761,9 @@
 					}
 				],
 				"wifi": {
-					"standards": ["Wi-Fi 6"]
+					"standards": [
+						"Wi-Fi 6"
+					]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.0"
@@ -7382,17 +7777,22 @@
 				"infrared": null,
 				"nearFieldCommunication": {
 					"present": true,
-					"readWriteMode": null,
-					"backgroundTagReading": null
+					"readWriteMode": false,
+					"backgroundTagReading": false
 				},
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": false,
-					"systems": ["GPS"]
+					"systems": [
+						"GPS"
+					]
 				}
 			},
 			"authentication": {
-				"methods": ["Face ID", "passcode"],
+				"methods": [
+					"Face ID",
+					"passcode"
+				],
 				"primaryMethod": "Face ID"
 			},
 			"physical": {
@@ -7411,8 +7811,8 @@
 				"ipRating": "",
 				"waterDepthM": 4,
 				"splashPressureAtm": null,
-				"dustProtected": null,
-				"sweatResistant": null
+				"dustProtected": false,
+				"sweatResistant": false
 			},
 			"software": {
 				"operatingSystem": "iOS",
@@ -7420,12 +7820,12 @@
 				"builtInApps": []
 			},
 			"overviewImages": [],
-			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, colours, swatches, image bytes and Apple-hosted URLs are absent from target-specific evidence and remain null/empty rather than inferred."
+			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, colours, swatches, image bytes and Apple-hosted URLs are absent from target-specific evidence and remain null/empty rather than inferred.",
+			"accessories": []
 		},
 		{
 			"id": "iphone-12-mini",
 			"name": "iPhone 12 mini",
-			"family": "iphone",
 			"releaseYear": 2020,
 			"priceAud": null,
 			"colors": [],
@@ -7477,8 +7877,8 @@
 					"role": "rear-wide",
 					"displayName": "Dual-camera system Ultra Wide",
 					"megapixels": 12,
-					"sensorShiftOis": null,
-					"lidar": null,
+					"sensorShiftOis": false,
+					"lidar": false,
 					"sourceNotes": "Hidden compare rows 30, 104 and 163."
 				},
 				{
@@ -7487,7 +7887,7 @@
 					"displayName": "TrueDepth front camera",
 					"megapixels": 12,
 					"trueDepthSystem": true,
-					"centerStage": null,
+					"centerStage": false,
 					"sourceNotes": "Hidden compare rows 109, 110 and 148."
 				}
 			],
@@ -7508,14 +7908,17 @@
 				],
 				"charging": {
 					"portId": "iphone-12-mini-lightning-port",
-					"wiredFastCharge": null,
+					"wiredFastCharge": false,
 					"wirelessCharging": true,
-					"wirelessStandards": ["MagSafe", "Qi"],
+					"wirelessStandards": [
+						"MagSafe",
+						"Qi"
+					],
 					"fastChargeMinutesToPercent": null,
 					"adapterPowerW": null
 				},
 				"powerSupply": {
-					"hasExternalPowerAdapter": null,
+					"hasExternalPowerAdapter": false,
 					"outputVoltageV": null,
 					"outputCurrentA": null,
 					"outputPowerW": null,
@@ -7533,7 +7936,9 @@
 					}
 				],
 				"wifi": {
-					"standards": ["Wi-Fi 6"]
+					"standards": [
+						"Wi-Fi 6"
+					]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.0"
@@ -7547,17 +7952,22 @@
 				"infrared": null,
 				"nearFieldCommunication": {
 					"present": true,
-					"readWriteMode": null,
-					"backgroundTagReading": null
+					"readWriteMode": false,
+					"backgroundTagReading": false
 				},
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": false,
-					"systems": ["GPS"]
+					"systems": [
+						"GPS"
+					]
 				}
 			},
 			"authentication": {
-				"methods": ["Face ID", "passcode"],
+				"methods": [
+					"Face ID",
+					"passcode"
+				],
 				"primaryMethod": "Face ID"
 			},
 			"physical": {
@@ -7576,8 +7986,8 @@
 				"ipRating": "",
 				"waterDepthM": 6,
 				"splashPressureAtm": null,
-				"dustProtected": null,
-				"sweatResistant": null
+				"dustProtected": false,
+				"sweatResistant": false
 			},
 			"software": {
 				"operatingSystem": "iOS",
@@ -7585,12 +7995,12 @@
 				"builtInApps": []
 			},
 			"overviewImages": [],
-			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, colours, swatches, image bytes and Apple-hosted URLs are absent from target-specific evidence and remain null/empty rather than inferred."
+			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, colours, swatches, image bytes and Apple-hosted URLs are absent from target-specific evidence and remain null/empty rather than inferred.",
+			"accessories": []
 		},
 		{
 			"id": "iphone-13-pro",
 			"name": "iPhone 13 Pro",
-			"family": "iphone",
 			"releaseYear": 2021,
 			"priceAud": null,
 			"colors": [],
@@ -7654,8 +8064,8 @@
 					"role": "rear-wide",
 					"displayName": "Pro camera system Ultra Wide Telephoto",
 					"megapixels": 12,
-					"sensorShiftOis": null,
-					"lidar": null,
+					"sensorShiftOis": false,
+					"lidar": false,
 					"sourceNotes": "Hidden compare rows 30, 104 and 163."
 				},
 				{
@@ -7664,7 +8074,7 @@
 					"displayName": "TrueDepth front camera",
 					"megapixels": 12,
 					"trueDepthSystem": true,
-					"centerStage": null,
+					"centerStage": false,
 					"sourceNotes": "Hidden compare rows 109, 110 and 148."
 				}
 			],
@@ -7685,14 +8095,17 @@
 				],
 				"charging": {
 					"portId": "iphone-13-pro-lightning-port",
-					"wiredFastCharge": null,
+					"wiredFastCharge": false,
 					"wirelessCharging": true,
-					"wirelessStandards": ["MagSafe", "Qi"],
+					"wirelessStandards": [
+						"MagSafe",
+						"Qi"
+					],
 					"fastChargeMinutesToPercent": null,
 					"adapterPowerW": null
 				},
 				"powerSupply": {
-					"hasExternalPowerAdapter": null,
+					"hasExternalPowerAdapter": false,
 					"outputVoltageV": null,
 					"outputCurrentA": null,
 					"outputPowerW": null,
@@ -7710,7 +8123,9 @@
 					}
 				],
 				"wifi": {
-					"standards": ["Wi-Fi 6"]
+					"standards": [
+						"Wi-Fi 6"
+					]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.0"
@@ -7724,17 +8139,22 @@
 				"infrared": null,
 				"nearFieldCommunication": {
 					"present": true,
-					"readWriteMode": null,
-					"backgroundTagReading": null
+					"readWriteMode": false,
+					"backgroundTagReading": false
 				},
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": false,
-					"systems": ["GPS"]
+					"systems": [
+						"GPS"
+					]
 				}
 			},
 			"authentication": {
-				"methods": ["Face ID", "passcode"],
+				"methods": [
+					"Face ID",
+					"passcode"
+				],
 				"primaryMethod": "Face ID"
 			},
 			"physical": {
@@ -7753,8 +8173,8 @@
 				"ipRating": "",
 				"waterDepthM": 6,
 				"splashPressureAtm": null,
-				"dustProtected": null,
-				"sweatResistant": null
+				"dustProtected": false,
+				"sweatResistant": false
 			},
 			"software": {
 				"operatingSystem": "iOS",
@@ -7762,12 +8182,12 @@
 				"builtInApps": []
 			},
 			"overviewImages": [],
-			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, colours, swatches, image bytes and Apple-hosted URLs are absent from target-specific evidence and remain null/empty rather than inferred."
+			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, colours, swatches, image bytes and Apple-hosted URLs are absent from target-specific evidence and remain null/empty rather than inferred.",
+			"accessories": []
 		},
 		{
 			"id": "iphone-15",
 			"name": "iPhone 15",
-			"family": "iphone",
 			"releaseYear": 2023,
 			"priceAud": null,
 			"colors": [],
@@ -7837,8 +8257,8 @@
 					"role": "rear-wide",
 					"displayName": "Dual-camera system Ultra Wide",
 					"megapixels": 48,
-					"sensorShiftOis": null,
-					"lidar": null,
+					"sensorShiftOis": false,
+					"lidar": false,
 					"sourceNotes": "Hidden compare rows 30, 104 and 163."
 				},
 				{
@@ -7847,7 +8267,7 @@
 					"displayName": "TrueDepth front camera",
 					"megapixels": 12,
 					"trueDepthSystem": true,
-					"centerStage": null,
+					"centerStage": false,
 					"sourceNotes": "Hidden compare rows 109, 110 and 148."
 				}
 			],
@@ -7868,14 +8288,17 @@
 				],
 				"charging": {
 					"portId": "iphone-15-usb-c-port",
-					"wiredFastCharge": null,
+					"wiredFastCharge": false,
 					"wirelessCharging": true,
-					"wirelessStandards": ["MagSafe", "Qi"],
+					"wirelessStandards": [
+						"MagSafe",
+						"Qi"
+					],
 					"fastChargeMinutesToPercent": null,
 					"adapterPowerW": null
 				},
 				"powerSupply": {
-					"hasExternalPowerAdapter": null,
+					"hasExternalPowerAdapter": false,
 					"outputVoltageV": null,
 					"outputCurrentA": null,
 					"outputPowerW": null,
@@ -7893,7 +8316,9 @@
 					}
 				],
 				"wifi": {
-					"standards": ["Wi-Fi 6"]
+					"standards": [
+						"Wi-Fi 6"
+					]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.3"
@@ -7907,17 +8332,22 @@
 				"infrared": null,
 				"nearFieldCommunication": {
 					"present": true,
-					"readWriteMode": null,
-					"backgroundTagReading": null
+					"readWriteMode": false,
+					"backgroundTagReading": false
 				},
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": false,
-					"systems": ["GPS"]
+					"systems": [
+						"GPS"
+					]
 				}
 			},
 			"authentication": {
-				"methods": ["Face ID", "passcode"],
+				"methods": [
+					"Face ID",
+					"passcode"
+				],
 				"primaryMethod": "Face ID"
 			},
 			"physical": {
@@ -7936,8 +8366,8 @@
 				"ipRating": "",
 				"waterDepthM": 6,
 				"splashPressureAtm": null,
-				"dustProtected": null,
-				"sweatResistant": null
+				"dustProtected": false,
+				"sweatResistant": false
 			},
 			"software": {
 				"operatingSystem": "iOS",
@@ -7945,12 +8375,12 @@
 				"builtInApps": []
 			},
 			"overviewImages": [],
-			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, colours, swatches, image bytes and Apple-hosted URLs are absent from target-specific evidence and remain null/empty rather than inferred."
+			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, colours, swatches, image bytes and Apple-hosted URLs are absent from target-specific evidence and remain null/empty rather than inferred.",
+			"accessories": []
 		},
 		{
 			"id": "iphone-15-plus",
 			"name": "iPhone 15 Plus",
-			"family": "iphone",
 			"releaseYear": 2023,
 			"priceAud": null,
 			"colors": [],
@@ -7995,8 +8425,8 @@
 					"role": "rear-wide",
 					"displayName": "Dual-camera system Ultra Wide",
 					"megapixels": 48,
-					"sensorShiftOis": null,
-					"lidar": null,
+					"sensorShiftOis": false,
+					"lidar": false,
 					"sourceNotes": "Hidden compare rows 30, 104 and 163."
 				},
 				{
@@ -8005,7 +8435,7 @@
 					"displayName": "TrueDepth front camera",
 					"megapixels": 12,
 					"trueDepthSystem": true,
-					"centerStage": null,
+					"centerStage": false,
 					"sourceNotes": "Hidden compare rows 109, 110 and 148."
 				}
 			],
@@ -8026,14 +8456,17 @@
 				],
 				"charging": {
 					"portId": "iphone-15-plus-usb-c-port",
-					"wiredFastCharge": null,
+					"wiredFastCharge": false,
 					"wirelessCharging": true,
-					"wirelessStandards": ["MagSafe", "Qi"],
+					"wirelessStandards": [
+						"MagSafe",
+						"Qi"
+					],
 					"fastChargeMinutesToPercent": null,
 					"adapterPowerW": null
 				},
 				"powerSupply": {
-					"hasExternalPowerAdapter": null,
+					"hasExternalPowerAdapter": false,
 					"outputVoltageV": null,
 					"outputCurrentA": null,
 					"outputPowerW": null,
@@ -8051,7 +8484,9 @@
 					}
 				],
 				"wifi": {
-					"standards": ["Wi-Fi 6"]
+					"standards": [
+						"Wi-Fi 6"
+					]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.3"
@@ -8065,17 +8500,22 @@
 				"infrared": null,
 				"nearFieldCommunication": {
 					"present": true,
-					"readWriteMode": null,
-					"backgroundTagReading": null
+					"readWriteMode": false,
+					"backgroundTagReading": false
 				},
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": false,
-					"systems": ["GPS"]
+					"systems": [
+						"GPS"
+					]
 				}
 			},
 			"authentication": {
-				"methods": ["Face ID", "passcode"],
+				"methods": [
+					"Face ID",
+					"passcode"
+				],
 				"primaryMethod": "Face ID"
 			},
 			"physical": {
@@ -8094,8 +8534,8 @@
 				"ipRating": "",
 				"waterDepthM": 6,
 				"splashPressureAtm": null,
-				"dustProtected": null,
-				"sweatResistant": null
+				"dustProtected": false,
+				"sweatResistant": false
 			},
 			"software": {
 				"operatingSystem": "iOS",
@@ -8103,12 +8543,12 @@
 				"builtInApps": []
 			},
 			"overviewImages": [],
-			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, colours, swatches, image bytes and Apple-hosted URLs are absent from target-specific evidence and remain null/empty rather than inferred."
+			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, colours, swatches, image bytes and Apple-hosted URLs are absent from target-specific evidence and remain null/empty rather than inferred.",
+			"accessories": []
 		},
 		{
 			"id": "iphone-15-pro",
 			"name": "iPhone 15 Pro",
-			"family": "iphone",
 			"releaseYear": 2023,
 			"priceAud": null,
 			"colors": [],
@@ -8173,7 +8613,7 @@
 					"displayName": "Pro camera system Ultra Wide Telephoto",
 					"megapixels": 48,
 					"sensorShiftOis": true,
-					"lidar": null,
+					"lidar": false,
 					"sourceNotes": "Hidden compare rows 30, 104 and 163."
 				},
 				{
@@ -8182,7 +8622,7 @@
 					"displayName": "TrueDepth front camera",
 					"megapixels": 12,
 					"trueDepthSystem": true,
-					"centerStage": null,
+					"centerStage": false,
 					"sourceNotes": "Hidden compare rows 109, 110 and 148."
 				}
 			],
@@ -8203,14 +8643,17 @@
 				],
 				"charging": {
 					"portId": "iphone-15-pro-usb-c-port",
-					"wiredFastCharge": null,
+					"wiredFastCharge": false,
 					"wirelessCharging": true,
-					"wirelessStandards": ["MagSafe", "Qi"],
+					"wirelessStandards": [
+						"MagSafe",
+						"Qi"
+					],
 					"fastChargeMinutesToPercent": null,
 					"adapterPowerW": null
 				},
 				"powerSupply": {
-					"hasExternalPowerAdapter": null,
+					"hasExternalPowerAdapter": false,
 					"outputVoltageV": null,
 					"outputCurrentA": null,
 					"outputPowerW": null,
@@ -8228,7 +8671,9 @@
 					}
 				],
 				"wifi": {
-					"standards": ["Wi-Fi 6E"]
+					"standards": [
+						"Wi-Fi 6E"
+					]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.3"
@@ -8242,17 +8687,22 @@
 				"infrared": null,
 				"nearFieldCommunication": {
 					"present": true,
-					"readWriteMode": null,
-					"backgroundTagReading": null
+					"readWriteMode": false,
+					"backgroundTagReading": false
 				},
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": true,
-					"systems": ["GPS"]
+					"systems": [
+						"GPS"
+					]
 				}
 			},
 			"authentication": {
-				"methods": ["Face ID", "passcode"],
+				"methods": [
+					"Face ID",
+					"passcode"
+				],
 				"primaryMethod": "Face ID"
 			},
 			"physical": {
@@ -8271,8 +8721,8 @@
 				"ipRating": "",
 				"waterDepthM": 6,
 				"splashPressureAtm": null,
-				"dustProtected": null,
-				"sweatResistant": null
+				"dustProtected": false,
+				"sweatResistant": false
 			},
 			"software": {
 				"operatingSystem": "iOS",
@@ -8280,12 +8730,12 @@
 				"builtInApps": []
 			},
 			"overviewImages": [],
-			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, colours, swatches, image bytes and Apple-hosted URLs are absent from target-specific evidence and remain null/empty rather than inferred."
+			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, colours, swatches, image bytes and Apple-hosted URLs are absent from target-specific evidence and remain null/empty rather than inferred.",
+			"accessories": []
 		},
 		{
 			"id": "iphone-16-plus",
 			"name": "iPhone 16 Plus",
-			"family": "iphone",
 			"releaseYear": 2024,
 			"priceAud": null,
 			"colors": [],
@@ -8349,8 +8799,8 @@
 					"role": "rear-wide",
 					"displayName": "Advanced dual-camera system",
 					"megapixels": 48,
-					"sensorShiftOis": null,
-					"lidar": null,
+					"sensorShiftOis": false,
+					"lidar": false,
 					"sourceNotes": "Hidden compare rows 30, 104 and 163."
 				},
 				{
@@ -8359,7 +8809,7 @@
 					"displayName": "TrueDepth front camera",
 					"megapixels": 12,
 					"trueDepthSystem": true,
-					"centerStage": null,
+					"centerStage": false,
 					"sourceNotes": "Hidden compare rows 109, 110 and 148."
 				}
 			],
@@ -8380,14 +8830,17 @@
 				],
 				"charging": {
 					"portId": "iphone-16-plus-usb-c-port",
-					"wiredFastCharge": null,
+					"wiredFastCharge": false,
 					"wirelessCharging": true,
-					"wirelessStandards": ["MagSafe", "Qi"],
+					"wirelessStandards": [
+						"MagSafe",
+						"Qi"
+					],
 					"fastChargeMinutesToPercent": null,
 					"adapterPowerW": null
 				},
 				"powerSupply": {
-					"hasExternalPowerAdapter": null,
+					"hasExternalPowerAdapter": false,
 					"outputVoltageV": null,
 					"outputCurrentA": null,
 					"outputPowerW": null,
@@ -8405,7 +8858,9 @@
 					}
 				],
 				"wifi": {
-					"standards": ["Wi-Fi 7"]
+					"standards": [
+						"Wi-Fi 7"
+					]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.3"
@@ -8419,17 +8874,22 @@
 				"infrared": null,
 				"nearFieldCommunication": {
 					"present": true,
-					"readWriteMode": null,
-					"backgroundTagReading": null
+					"readWriteMode": false,
+					"backgroundTagReading": false
 				},
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": false,
-					"systems": ["GPS"]
+					"systems": [
+						"GPS"
+					]
 				}
 			},
 			"authentication": {
-				"methods": ["Face ID", "passcode"],
+				"methods": [
+					"Face ID",
+					"passcode"
+				],
 				"primaryMethod": "Face ID"
 			},
 			"physical": {
@@ -8448,8 +8908,8 @@
 				"ipRating": "",
 				"waterDepthM": 6,
 				"splashPressureAtm": null,
-				"dustProtected": null,
-				"sweatResistant": null
+				"dustProtected": false,
+				"sweatResistant": false
 			},
 			"software": {
 				"operatingSystem": "iOS",
@@ -8457,12 +8917,12 @@
 				"builtInApps": []
 			},
 			"overviewImages": [],
-			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, colours, swatches, image bytes and Apple-hosted URLs are absent from target-specific evidence and remain null/empty rather than inferred."
+			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, colours, swatches, image bytes and Apple-hosted URLs are absent from target-specific evidence and remain null/empty rather than inferred.",
+			"accessories": []
 		},
 		{
 			"id": "iphone-16-pro",
 			"name": "iPhone 16 Pro",
-			"family": "iphone",
 			"releaseYear": 2024,
 			"priceAud": null,
 			"colors": [],
@@ -8508,7 +8968,7 @@
 					"displayName": "Pro camera system Telephoto",
 					"megapixels": 48,
 					"sensorShiftOis": true,
-					"lidar": null,
+					"lidar": false,
 					"sourceNotes": "Hidden compare rows 30, 104 and 163."
 				},
 				{
@@ -8517,7 +8977,7 @@
 					"displayName": "TrueDepth front camera",
 					"megapixels": 12,
 					"trueDepthSystem": true,
-					"centerStage": null,
+					"centerStage": false,
 					"sourceNotes": "Hidden compare rows 109, 110 and 148."
 				}
 			],
@@ -8538,14 +8998,17 @@
 				],
 				"charging": {
 					"portId": "iphone-16-pro-usb-c-port",
-					"wiredFastCharge": null,
+					"wiredFastCharge": false,
 					"wirelessCharging": true,
-					"wirelessStandards": ["MagSafe", "Qi"],
+					"wirelessStandards": [
+						"MagSafe",
+						"Qi"
+					],
 					"fastChargeMinutesToPercent": null,
 					"adapterPowerW": null
 				},
 				"powerSupply": {
-					"hasExternalPowerAdapter": null,
+					"hasExternalPowerAdapter": false,
 					"outputVoltageV": null,
 					"outputCurrentA": null,
 					"outputPowerW": null,
@@ -8563,7 +9026,9 @@
 					}
 				],
 				"wifi": {
-					"standards": ["Wi-Fi 7"]
+					"standards": [
+						"Wi-Fi 7"
+					]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.3"
@@ -8577,17 +9042,22 @@
 				"infrared": null,
 				"nearFieldCommunication": {
 					"present": true,
-					"readWriteMode": null,
-					"backgroundTagReading": null
+					"readWriteMode": false,
+					"backgroundTagReading": false
 				},
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": true,
-					"systems": ["GPS"]
+					"systems": [
+						"GPS"
+					]
 				}
 			},
 			"authentication": {
-				"methods": ["Face ID", "passcode"],
+				"methods": [
+					"Face ID",
+					"passcode"
+				],
 				"primaryMethod": "Face ID"
 			},
 			"physical": {
@@ -8606,8 +9076,8 @@
 				"ipRating": "",
 				"waterDepthM": 6,
 				"splashPressureAtm": null,
-				"dustProtected": null,
-				"sweatResistant": null
+				"dustProtected": false,
+				"sweatResistant": false
 			},
 			"software": {
 				"operatingSystem": "iOS",
@@ -8615,12 +9085,12 @@
 				"builtInApps": []
 			},
 			"overviewImages": [],
-			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, colours, swatches, image bytes and Apple-hosted URLs are absent from target-specific evidence and remain null/empty rather than inferred."
+			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, colours, swatches, image bytes and Apple-hosted URLs are absent from target-specific evidence and remain null/empty rather than inferred.",
+			"accessories": []
 		},
 		{
 			"id": "iphone-16e",
 			"name": "iPhone 16e",
-			"family": "iphone",
 			"releaseYear": 2025,
 			"priceAud": null,
 			"colors": [],
@@ -8665,8 +9135,8 @@
 					"role": "rear-wide",
 					"displayName": "2-in-1 camera system",
 					"megapixels": 48,
-					"sensorShiftOis": null,
-					"lidar": null,
+					"sensorShiftOis": false,
+					"lidar": false,
 					"sourceNotes": "Hidden compare rows 30, 104 and 163."
 				},
 				{
@@ -8675,7 +9145,7 @@
 					"displayName": "TrueDepth front camera",
 					"megapixels": 12,
 					"trueDepthSystem": true,
-					"centerStage": null,
+					"centerStage": false,
 					"sourceNotes": "Hidden compare rows 109, 110 and 148."
 				}
 			],
@@ -8696,14 +9166,16 @@
 				],
 				"charging": {
 					"portId": "iphone-16e-usb-c-port",
-					"wiredFastCharge": null,
+					"wiredFastCharge": false,
 					"wirelessCharging": true,
-					"wirelessStandards": ["Qi"],
+					"wirelessStandards": [
+						"Qi"
+					],
 					"fastChargeMinutesToPercent": null,
 					"adapterPowerW": null
 				},
 				"powerSupply": {
-					"hasExternalPowerAdapter": null,
+					"hasExternalPowerAdapter": false,
 					"outputVoltageV": null,
 					"outputCurrentA": null,
 					"outputPowerW": null,
@@ -8721,7 +9193,9 @@
 					}
 				],
 				"wifi": {
-					"standards": ["Wi-Fi 6"]
+					"standards": [
+						"Wi-Fi 6"
+					]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.3"
@@ -8732,17 +9206,22 @@
 				"infrared": null,
 				"nearFieldCommunication": {
 					"present": true,
-					"readWriteMode": null,
-					"backgroundTagReading": null
+					"readWriteMode": false,
+					"backgroundTagReading": false
 				},
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": false,
-					"systems": ["GPS"]
+					"systems": [
+						"GPS"
+					]
 				}
 			},
 			"authentication": {
-				"methods": ["Face ID", "passcode"],
+				"methods": [
+					"Face ID",
+					"passcode"
+				],
 				"primaryMethod": "Face ID"
 			},
 			"physical": {
@@ -8761,8 +9240,8 @@
 				"ipRating": "",
 				"waterDepthM": 6,
 				"splashPressureAtm": null,
-				"dustProtected": null,
-				"sweatResistant": null
+				"dustProtected": false,
+				"sweatResistant": false
 			},
 			"software": {
 				"operatingSystem": "iOS",
@@ -8770,12 +9249,12 @@
 				"builtInApps": []
 			},
 			"overviewImages": [],
-			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, colours, swatches, image bytes and Apple-hosted URLs are absent from target-specific evidence and remain null/empty rather than inferred."
+			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, colours, swatches, image bytes and Apple-hosted URLs are absent from target-specific evidence and remain null/empty rather than inferred.",
+			"accessories": []
 		},
 		{
 			"id": "iphone-17-pro",
 			"name": "iPhone 17 Pro",
-			"family": "iphone",
 			"releaseYear": 2025,
 			"priceAud": null,
 			"colors": [],
@@ -8840,7 +9319,7 @@
 					"displayName": "48MP Pro Fusion camera system",
 					"megapixels": 48,
 					"sensorShiftOis": true,
-					"lidar": null,
+					"lidar": false,
 					"sourceNotes": "Hidden compare rows 30, 104 and 163."
 				},
 				{
@@ -8848,7 +9327,7 @@
 					"role": "front",
 					"displayName": "18MP Center Stage front camera",
 					"megapixels": 18,
-					"trueDepthSystem": null,
+					"trueDepthSystem": false,
 					"centerStage": true,
 					"sourceNotes": "Hidden compare rows 109, 110 and 148."
 				}
@@ -8870,14 +9349,17 @@
 				],
 				"charging": {
 					"portId": "iphone-17-pro-usb-c-port",
-					"wiredFastCharge": null,
+					"wiredFastCharge": false,
 					"wirelessCharging": true,
-					"wirelessStandards": ["MagSafe", "Qi"],
+					"wirelessStandards": [
+						"MagSafe",
+						"Qi"
+					],
 					"fastChargeMinutesToPercent": null,
 					"adapterPowerW": null
 				},
 				"powerSupply": {
-					"hasExternalPowerAdapter": null,
+					"hasExternalPowerAdapter": false,
 					"outputVoltageV": null,
 					"outputCurrentA": null,
 					"outputPowerW": null,
@@ -8895,7 +9377,9 @@
 					}
 				],
 				"wifi": {
-					"standards": ["Wi-Fi 7"]
+					"standards": [
+						"Wi-Fi 7"
+					]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 6.0"
@@ -8909,17 +9393,22 @@
 				"infrared": null,
 				"nearFieldCommunication": {
 					"present": true,
-					"readWriteMode": null,
-					"backgroundTagReading": null
+					"readWriteMode": false,
+					"backgroundTagReading": false
 				},
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": true,
-					"systems": ["GPS"]
+					"systems": [
+						"GPS"
+					]
 				}
 			},
 			"authentication": {
-				"methods": ["Face ID", "passcode"],
+				"methods": [
+					"Face ID",
+					"passcode"
+				],
 				"primaryMethod": "Face ID"
 			},
 			"physical": {
@@ -8938,8 +9427,8 @@
 				"ipRating": "",
 				"waterDepthM": 6,
 				"splashPressureAtm": null,
-				"dustProtected": null,
-				"sweatResistant": null
+				"dustProtected": false,
+				"sweatResistant": false
 			},
 			"software": {
 				"operatingSystem": "iOS",
@@ -8947,7 +9436,8 @@
 				"builtInApps": []
 			},
 			"overviewImages": [],
-			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, colours, swatches, image bytes and Apple-hosted URLs are absent from target-specific evidence and remain null/empty rather than inferred."
+			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, colours, swatches, image bytes and Apple-hosted URLs are absent from target-specific evidence and remain null/empty rather than inferred.",
+			"accessories": []
 		}
 	]
 }
