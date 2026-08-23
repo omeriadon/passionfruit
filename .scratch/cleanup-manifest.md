@@ -125,3 +125,27 @@ All eight files under `data/status/` were preserved. `data/rules/general.md` def
 - Canonical JSON and public schemas under `public/data/`
 - Public templates under `public/data/templates/`
 - Preserved final validation, audit, provenance, strict-evidence, image, and quarantine artifacts
+
+## Fourth-pass cleanup
+
+Date: 2026-08-23
+
+The remaining `.scratch` tree was inventoried by file and directory. Strict
+candidate records, local image sets, hash manifests, validation scripts, and
+reports were retained where they provide source provenance, reproducibility,
+or evidence for the current canonical data. Current contract documents, image
+audits, merge audits, source-gap reports, and template validation were also
+retained. Raw HTML remains under `data/tmp/` and was not touched.
+
+### Deleted
+
+- `.scratch/agent-fleet.md` — obsolete historical worker-coordination/status log; all workers had completed and it was not referenced by operational rules, status files, validation scripts, or final reports.
+- `.scratch/cleanup-proposal.md` — completed cleanup proposal superseded by this manifest; it contained no unique evidence and was not referenced by operational files.
+- `.scratch/merge-audits/airpods.pre-strict-migration.json` — superseded pre-strict AirPods snapshot; the final AirPods audit, canonical validation report, strict candidate, and canonical JSON provide the active evidence.
+
+### Explicitly retained after this inventory
+
+- `.scratch/full-context.md` — preserved because it contains another worker's uncommitted change and was not modified or deleted.
+- `.scratch/human-device-contract.md`, `.scratch/device-data-reference.md`, and `.scratch/device-templates.md` — current human-readable contract and review documentation.
+- `.scratch/final-validate.mjs`, `.scratch/strict/`, `.scratch/merge-audits/`, `.scratch/image-audit/`, `.scratch/template-validation/`, and `.scratch/merge-audits/quarantine/` — reproducibility, strict evidence, final validation, image auditing, and quarantine assets.
+- `.scratch/coverage-audit-os26-os27*.md`, `.scratch/data-presence-audit.md`, `.scratch/apple-watch-data-completeness-audit.md`, `.scratch/source-gap-report.md`, and `.scratch/merge-readiness.md` — current coverage, completeness, provenance, and readiness reports.
