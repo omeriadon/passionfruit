@@ -425,7 +425,9 @@
 					}
 				],
 				"wifi": {
-					"standards": ["Wi-Fi 6"]
+					"standards": [
+						"Wi-Fi 6"
+					]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.3"
@@ -438,7 +440,9 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": ["Optic ID"],
+				"methods": [
+					"Optic ID"
+				],
 				"primaryMethod": "Optic ID",
 				"sourceNotes": "Iris‑based biometric authentication. Optic ID data is encrypted and accessible only to the Secure Enclave processor. Secures personal data within apps. Make purchases from the iTunes Store and App Store."
 			},
@@ -523,80 +527,82 @@
 			},
 			"accessories": [
 				{
-					"id": "hands",
 					"displayName": "Hands",
-					"category": "input"
+					"category": "input",
+					"accessoryId": "hands"
 				},
 				{
-					"id": "eyes",
 					"displayName": "Eyes",
-					"category": "input"
+					"category": "input",
+					"accessoryId": "eyes"
 				},
 				{
-					"id": "voice",
 					"displayName": "Voice",
-					"category": "input"
+					"category": "input",
+					"accessoryId": "voice"
 				},
 				{
-					"id": "keyboards",
 					"displayName": "Keyboards",
-					"category": "keyboard"
+					"category": "keyboard",
+					"accessoryId": "keyboards"
 				},
 				{
-					"id": "trackpads-and-mouse-devices",
 					"displayName": "Trackpads and mouse devices",
 					"category": "input",
-					"capabilities": ["Mouse support requires visionOS 2 or later."]
+					"capabilities": [
+						"Mouse support requires visionOS 2 or later."
+					],
+					"accessoryId": "trackpads-and-mouse-devices"
 				},
 				{
-					"id": "game-controllers",
 					"displayName": "Game controllers",
-					"category": "input"
+					"category": "input",
+					"accessoryId": "game-controllers"
 				},
 				{
-					"id": "logitech-muse",
 					"displayName": "Logitech Muse",
-					"category": "spatial"
+					"category": "spatial",
+					"accessoryId": "logitech-muse"
 				},
 				{
-					"id": "playstation-vr2-sense-controller",
 					"displayName": "PlayStation VR2 Sense controller",
-					"category": "spatial"
+					"category": "spatial",
+					"accessoryId": "playstation-vr2-sense-controller"
 				},
 				{
-					"id": "apple-vision-pro-with-light-seal-light-seal-cushion-and-dual-knit-band",
 					"displayName": "Apple Vision Pro with Light Seal, Light Seal Cushion and Dual Knit Band",
-					"category": "seal"
+					"category": "seal",
+					"accessoryId": "apple-vision-pro-with-light-seal-light-seal-cushion-and-dual-knit-band"
 				},
 				{
-					"id": "cover",
 					"displayName": "Cover",
-					"category": "other"
+					"category": "other",
+					"accessoryId": "cover"
 				},
 				{
-					"id": "additional-light-seal-cushion",
 					"displayName": "Additional Light Seal Cushion",
-					"category": "seal"
+					"category": "seal",
+					"accessoryId": "additional-light-seal-cushion"
 				},
 				{
-					"id": "battery",
 					"displayName": "Battery",
-					"category": "other"
+					"category": "other",
+					"accessoryId": "battery"
 				},
 				{
-					"id": "polishing-cloth",
 					"displayName": "Polishing Cloth",
-					"category": "other"
+					"category": "other",
+					"accessoryId": "polishing-cloth"
 				},
 				{
-					"id": "30w-usb-c-power-adapter",
 					"displayName": "30W USB‑C Power Adapter",
-					"category": "adapter"
+					"category": "adapter",
+					"accessoryId": "30w-usb-c-power-adapter"
 				},
 				{
-					"id": "usb-c-charge-cable-1-5-m",
 					"displayName": "USB‑C Charge Cable (1.5 m)",
-					"category": "cable"
+					"category": "cable",
+					"accessoryId": "usb-c-charge-cable-1-5-m"
 				}
 			],
 			"sourceNotes": "Camera/sensor list retained because the strict contract has no sensors section: Two high‑resolution main cameras | Six world‑facing tracking cameras | Four eye‑tracking cameras | TrueDepth camera | LiDAR Scanner | Four inertial measurement units (IMUs) | Flicker sensor | Ambient light sensor. Electrical/environmental requirements retained verbatim: Operating ambient temperature: 0º to 30º C (32º to 86º F); Storage temperature: −20º to 45º C (−4º to 113º F); Relative humidity: 0% to 95%. In the Box labels preserved in accessories catalog. Battery and power: undefined Connectivity: undefined Physical: Audio Straps are named in hero alt text. IPD is functional sizing rather than enclosure dimension."

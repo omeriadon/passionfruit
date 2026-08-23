@@ -1,0 +1,94 @@
+{
+	"generatedAt": "2026-08-23T10:49:40.182Z",
+	"validator": "Ajv Draft 2020-12",
+	"strictMode": true,
+	"allErrors": true,
+	"schemaSha256": "3c5a0489409517496ea081852246a5f63b44b30b8bc1772cd75de03d8905cfa4",
+	"schemaCopiesMatchCanonical": true,
+	"sections": [
+		{
+			"section": "airpods",
+			"dataPath": "public/data/airpods/airpods.json",
+			"schemaPath": "public/data/airpods/airpods.schema.json",
+			"schemaMatchesCanonical": true,
+			"valid": true,
+			"errorCount": 0,
+			"errors": [],
+			"deviceCount": 9
+		},
+		{
+			"section": "apple-tv",
+			"dataPath": "public/data/apple-tv/apple-tv.json",
+			"schemaPath": "public/data/apple-tv/apple-tv.schema.json",
+			"schemaMatchesCanonical": true,
+			"valid": true,
+			"errorCount": 0,
+			"errors": [],
+			"deviceCount": 1
+		},
+		{
+			"section": "apple-watch",
+			"dataPath": "public/data/apple-watch/apple-watch.json",
+			"schemaPath": "public/data/apple-watch/apple-watch.schema.json",
+			"schemaMatchesCanonical": true,
+			"valid": true,
+			"errorCount": 0,
+			"errors": [],
+			"deviceCount": 17
+		},
+		{
+			"section": "homepod",
+			"dataPath": "public/data/homepod/homepod.json",
+			"schemaPath": "public/data/homepod/homepod.schema.json",
+			"schemaMatchesCanonical": true,
+			"valid": true,
+			"errorCount": 0,
+			"errors": [],
+			"deviceCount": 2
+		},
+		{
+			"section": "ipad",
+			"dataPath": "public/data/ipad/ipad.json",
+			"schemaPath": "public/data/ipad/ipad.schema.json",
+			"schemaMatchesCanonical": true,
+			"valid": true,
+			"errorCount": 0,
+			"errors": [],
+			"deviceCount": 40
+		},
+		{
+			"section": "iphone",
+			"dataPath": "public/data/iphone/iphone.json",
+			"schemaPath": "public/data/iphone/iphone.schema.json",
+			"schemaMatchesCanonical": true,
+			"valid": true,
+			"errorCount": 0,
+			"errors": [],
+			"deviceCount": 38
+		},
+		{
+			"section": "mac",
+			"dataPath": "public/data/mac/mac.json",
+			"schemaPath": "public/data/mac/mac.schema.json",
+			"schemaMatchesCanonical": true,
+			"valid": true,
+			"errorCount": 0,
+			"errors": [],
+			"deviceCount": 49
+		},
+		{
+			"section": "vision",
+			"dataPath": "public/data/vision/vision.json",
+			"schemaPath": "public/data/vision/vision.schema.json",
+			"schemaMatchesCanonical": true,
+			"valid": true,
+			"errorCount": 0,
+			"errors": [],
+			"deviceCount": 1
+		}
+	],
+	"totalDevices": 157,
+	"validSections": 8,
+	"invalidSections": 0,
+	"totalErrors": 0
+}

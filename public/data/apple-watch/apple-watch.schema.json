@@ -1164,33 +1164,78 @@
 		"accessoryReference": {
 			"type": "object",
 			"additionalProperties": false,
-			"required": ["id", "displayName", "category"],
+			"required": ["accessoryId", "displayName", "category"],
 			"properties": {
-				"id": {
-					"type": "string"
+				"accessoryId": {
+					"type": "string",
+					"pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
 				},
 				"displayName": {
 					"type": "string"
 				},
 				"category": {
-					"enum": [
-						"Apple Pencil",
-						"keyboard",
-						"input",
-						"spatial",
-						"case",
-						"cable",
-						"adapter",
-						"remote",
-						"strap",
-						"seal",
-						"other"
-					]
+					"$ref": "#/$defs/accessoryCategory"
 				},
 				"capabilities": {
 					"type": "array",
 					"items": {
 						"type": "string"
+					}
+				}
+			}
+		},
+		"accessory": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["id", "displayName", "category"],
+			"properties": {
+				"id": {
+					"type": "string",
+					"pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+				},
+				"displayName": {
+					"type": "string"
+				},
+				"category": {
+					"$ref": "#/$defs/accessoryCategory"
+				},
+				"capabilities": {
+					"type": "array",
+					"items": {
+						"type": "string"
+					}
+				}
+			}
+		},
+		"accessoryCategory": {
+			"type": "string",
+			"enum": [
+				"Apple Pencil",
+				"keyboard",
+				"input",
+				"spatial",
+				"case",
+				"cable",
+				"adapter",
+				"remote",
+				"strap",
+				"seal",
+				"other"
+			]
+		},
+		"accessoryGroup": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["group", "accessories"],
+			"properties": {
+				"group": {
+					"type": "string",
+					"pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+				},
+				"accessories": {
+					"type": "array",
+					"items": {
+						"$ref": "#/$defs/accessory"
 					}
 				}
 			}

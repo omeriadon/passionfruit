@@ -4,7 +4,9 @@
 	"title": "Canonical Apple device data-model fragments and concrete examples",
 	"type": "object",
 	"additionalProperties": false,
-	"required": ["devices"],
+	"required": [
+		"devices"
+	],
 	"properties": {
 		"devices": {
 			"type": "array",
@@ -18,10 +20,16 @@
 		"measurement": {
 			"type": "object",
 			"additionalProperties": false,
-			"required": ["value", "unit"],
+			"required": [
+				"value",
+				"unit"
+			],
 			"properties": {
 				"value": {
-					"type": ["number", "null"]
+					"type": [
+						"number",
+						"null"
+					]
 				},
 				"unit": {
 					"type": "string",
@@ -60,7 +68,11 @@
 		"measurementRange": {
 			"type": "object",
 			"additionalProperties": false,
-			"required": ["minimum", "maximum", "unit"],
+			"required": [
+				"minimum",
+				"maximum",
+				"unit"
+			],
 			"properties": {
 				"minimum": {
 					"type": "number"
@@ -107,7 +119,10 @@
 				{
 					"type": "object",
 					"additionalProperties": false,
-					"required": ["kind", "value"],
+					"required": [
+						"kind",
+						"value"
+					],
 					"properties": {
 						"kind": {
 							"const": "css"
@@ -121,7 +136,10 @@
 				{
 					"type": "object",
 					"additionalProperties": false,
-					"required": ["kind", "url"],
+					"required": [
+						"kind",
+						"url"
+					],
 					"properties": {
 						"kind": {
 							"const": "image"
@@ -137,7 +155,13 @@
 		"image": {
 			"type": "object",
 			"additionalProperties": false,
-			"required": ["label", "appleUrl", "localPath", "widthPx", "heightPx"],
+			"required": [
+				"label",
+				"appleUrl",
+				"localPath",
+				"widthPx",
+				"heightPx"
+			],
 			"properties": {
 				"label": {
 					"type": "string"
@@ -162,7 +186,12 @@
 		"color": {
 			"type": "object",
 			"additionalProperties": false,
-			"required": ["id", "displayName", "swatch", "images"],
+			"required": [
+				"id",
+				"displayName",
+				"swatch",
+				"images"
+			],
 			"properties": {
 				"id": {
 					"type": "string",
@@ -192,7 +221,11 @@
 		"storageOption": {
 			"type": "object",
 			"additionalProperties": false,
-			"required": ["id", "capacityValue", "capacityUnit"],
+			"required": [
+				"id",
+				"capacityValue",
+				"capacityUnit"
+			],
 			"properties": {
 				"id": {
 					"type": "string"
@@ -205,7 +238,10 @@
 					"minimum": 1
 				},
 				"capacityUnit": {
-					"enum": ["GB", "TB"]
+					"enum": [
+						"GB",
+						"TB"
+					]
 				},
 				"priceDeltaAud": {
 					"type": "number"
@@ -224,7 +260,12 @@
 		"memoryOption": {
 			"type": "object",
 			"additionalProperties": false,
-			"required": ["id", "capacityValue", "capacityUnit", "kind"],
+			"required": [
+				"id",
+				"capacityValue",
+				"capacityUnit",
+				"kind"
+			],
 			"properties": {
 				"id": {
 					"type": "string"
@@ -237,10 +278,18 @@
 					"minimum": 1
 				},
 				"capacityUnit": {
-					"enum": ["GB", "TB"]
+					"enum": [
+						"GB",
+						"TB"
+					]
 				},
 				"kind": {
-					"enum": ["unified", "DRAM", "NAND cache", "other"]
+					"enum": [
+						"unified",
+						"DRAM",
+						"NAND cache",
+						"other"
+					]
 				},
 				"speedMbps": {
 					"type": "integer"
@@ -259,7 +308,10 @@
 		"port": {
 			"type": "object",
 			"additionalProperties": false,
-			"required": ["id", "kind"],
+			"required": [
+				"id",
+				"kind"
+			],
 			"properties": {
 				"id": {
 					"type": "string"
@@ -294,10 +346,16 @@
 					"minimum": 1
 				},
 				"supportsDisplayOut": {
-					"type": ["boolean", "null"]
+					"type": [
+						"boolean",
+						"null"
+					]
 				},
 				"maxPowerW": {
-					"type": ["number", "null"],
+					"type": [
+						"number",
+						"null"
+					],
 					"description": "Watts"
 				},
 				"sourceNotes": {
@@ -308,18 +366,28 @@
 		"cpuCores": {
 			"type": "object",
 			"additionalProperties": false,
-			"required": ["total", "performance", "efficiency"],
+			"required": [
+				"total",
+				"performance",
+				"efficiency"
+			],
 			"properties": {
 				"total": {
 					"type": "integer",
 					"minimum": 1
 				},
 				"performance": {
-					"type": ["integer", "null"],
+					"type": [
+						"integer",
+						"null"
+					],
 					"minimum": 0
 				},
 				"efficiency": {
-					"type": ["integer", "null"],
+					"type": [
+						"integer",
+						"null"
+					],
 					"minimum": 0
 				}
 			}
@@ -327,7 +395,11 @@
 		"mediaEngine": {
 			"type": "object",
 			"additionalProperties": false,
-			"required": ["id", "displayName", "kinds"],
+			"required": [
+				"id",
+				"displayName",
+				"kinds"
+			],
 			"properties": {
 				"id": {
 					"type": "string"
@@ -377,15 +449,24 @@
 					"$ref": "#/$defs/cpuCores"
 				},
 				"gpuCores": {
-					"type": ["integer", "null"],
+					"type": [
+						"integer",
+						"null"
+					],
 					"minimum": 0
 				},
 				"neuralEngineCores": {
-					"type": ["integer", "null"],
+					"type": [
+						"integer",
+						"null"
+					],
 					"minimum": 0
 				},
 				"memoryBandwidthGbps": {
-					"type": ["number", "null"],
+					"type": [
+						"number",
+						"null"
+					],
 					"minimum": 0,
 					"description": "Gigabits per second unless sourceNotes states bytes per second."
 				},
@@ -396,7 +477,10 @@
 					"type": "boolean"
 				},
 				"hardwareRayTracing": {
-					"type": ["boolean", "null"]
+					"type": [
+						"boolean",
+						"null"
+					]
 				},
 				"mediaEngines": {
 					"type": "array",
@@ -408,7 +492,10 @@
 					"type": "string"
 				},
 				"transistorCountBillions": {
-					"type": ["number", "null"],
+					"type": [
+						"number",
+						"null"
+					],
 					"minimum": 0
 				},
 				"sourceNotes": {
@@ -446,74 +533,131 @@
 					]
 				},
 				"sizeIn": {
-					"type": ["number", "null"],
+					"type": [
+						"number",
+						"null"
+					],
 					"minimum": 0,
 					"description": "Inches"
 				},
 				"resolutionWidthPx": {
-					"type": ["integer", "null"],
+					"type": [
+						"integer",
+						"null"
+					],
 					"minimum": 1
 				},
 				"resolutionHeightPx": {
-					"type": ["integer", "null"],
+					"type": [
+						"integer",
+						"null"
+					],
 					"minimum": 1
 				},
 				"pixelsPerInch": {
-					"type": ["number", "null"],
+					"type": [
+						"number",
+						"null"
+					],
 					"minimum": 0
 				},
 				"refreshRateHz": {
-					"type": ["number", "null"],
+					"type": [
+						"number",
+						"null"
+					],
 					"minimum": 0
 				},
 				"refreshRateRange": {
 					"$ref": "#/$defs/measurementRange"
 				},
 				"sdrPeakBrightnessNits": {
-					"type": ["number", "null"],
+					"type": [
+						"number",
+						"null"
+					],
 					"minimum": 0
 				},
 				"hdrPeakBrightnessNits": {
-					"type": ["number", "null"],
+					"type": [
+						"number",
+						"null"
+					],
 					"minimum": 0
 				},
 				"fullScreenHdrBrightnessNits": {
-					"type": ["number", "null"],
+					"type": [
+						"number",
+						"null"
+					],
 					"minimum": 0
 				},
 				"minimumBrightnessNits": {
-					"type": ["number", "null"],
+					"type": [
+						"number",
+						"null"
+					],
 					"minimum": 0
 				},
 				"trueTone": {
-					"type": ["boolean", "null"]
+					"type": [
+						"boolean",
+						"null"
+					]
 				},
 				"promotion": {
-					"type": ["boolean", "null"]
+					"type": [
+						"boolean",
+						"null"
+					]
 				},
 				"alwaysOn": {
-					"type": ["boolean", "null"]
+					"type": [
+						"boolean",
+						"null"
+					]
 				},
 				"wideColorP3": {
-					"type": ["boolean", "null"]
+					"type": [
+						"boolean",
+						"null"
+					]
 				},
 				"laminated": {
-					"type": ["boolean", "null"]
+					"type": [
+						"boolean",
+						"null"
+					]
 				},
 				"antireflective": {
-					"type": ["boolean", "null"]
+					"type": [
+						"boolean",
+						"null"
+					]
 				},
 				"nanoTextureOption": {
-					"type": ["boolean", "null"]
+					"type": [
+						"boolean",
+						"null"
+					]
 				},
 				"fingerprintResistantCoating": {
-					"type": ["boolean", "null"]
+					"type": [
+						"boolean",
+						"null"
+					]
 				},
 				"hoverSupport": {
-					"type": ["boolean", "null"]
+					"type": [
+						"boolean",
+						"null"
+					]
 				},
 				"mirroring": {
-					"type": ["boolean", "null"]
+					"type": [
+						"boolean",
+						"null"
+					]
 				},
 				"sourceNotes": {
 					"type": "string"
@@ -523,7 +667,12 @@
 		"camera": {
 			"type": "object",
 			"additionalProperties": false,
-			"required": ["id", "role", "displayName", "megapixels"],
+			"required": [
+				"id",
+				"role",
+				"displayName",
+				"megapixels"
+			],
 			"properties": {
 				"id": {
 					"type": "string"
@@ -544,52 +693,94 @@
 					"type": "string"
 				},
 				"megapixels": {
-					"type": ["number", "null"],
+					"type": [
+						"number",
+						"null"
+					],
 					"exclusiveMinimum": 0
 				},
 				"opticalZoomMultiplier": {
-					"type": ["number", "null"],
+					"type": [
+						"number",
+						"null"
+					],
 					"exclusiveMinimum": 0
 				},
 				"apertureFNumber": {
-					"type": ["number", "null"],
+					"type": [
+						"number",
+						"null"
+					],
 					"exclusiveMinimum": 0
 				},
 				"sensorShiftOis": {
-					"type": ["boolean", "null"]
+					"type": [
+						"boolean",
+						"null"
+					]
 				},
 				"proRAW": {
-					"type": ["boolean", "null"]
+					"type": [
+						"boolean",
+						"null"
+					]
 				},
 				"spatialCapture": {
-					"type": ["boolean", "null"]
+					"type": [
+						"boolean",
+						"null"
+					]
 				},
 				"macro": {
-					"type": ["boolean", "null"]
+					"type": [
+						"boolean",
+						"null"
+					]
 				},
 				"centerStage": {
-					"type": ["boolean", "null"]
+					"type": [
+						"boolean",
+						"null"
+					]
 				},
 				"trueDepthSystem": {
-					"type": ["boolean", "null"]
+					"type": [
+						"boolean",
+						"null"
+					]
 				},
 				"videoMaxResolutionWidthPx": {
-					"type": ["integer", "null"],
+					"type": [
+						"integer",
+						"null"
+					],
 					"minimum": 1
 				},
 				"videoMaxResolutionHeightPx": {
-					"type": ["integer", "null"],
+					"type": [
+						"integer",
+						"null"
+					],
 					"minimum": 1
 				},
 				"videoMaxFrameRateHz": {
-					"type": ["number", "null"],
+					"type": [
+						"number",
+						"null"
+					],
 					"exclusiveMinimum": 0
 				},
 				"proRes": {
-					"type": ["boolean", "null"]
+					"type": [
+						"boolean",
+						"null"
+					]
 				},
 				"lidar": {
-					"type": ["boolean", "null"]
+					"type": [
+						"boolean",
+						"null"
+					]
 				},
 				"sourceNotes": {
 					"type": "string"
@@ -599,13 +790,22 @@
 		"audio": {
 			"type": "object",
 			"additionalProperties": false,
-			"required": ["speaker", "microphone"],
+			"required": [
+				"speaker",
+				"microphone"
+			],
 			"properties": {
 				"speaker": {
-					"type": ["boolean", "null"]
+					"type": [
+						"boolean",
+						"null"
+					]
 				},
 				"microphone": {
-					"type": ["boolean", "null"]
+					"type": [
+						"boolean",
+						"null"
+					]
 				},
 				"speakerConfiguration": {
 					"type": "string"
@@ -614,19 +814,34 @@
 					"type": "string"
 				},
 				"siren": {
-					"type": ["boolean", "null"]
+					"type": [
+						"boolean",
+						"null"
+					]
 				},
 				"spatialAudio": {
-					"type": ["boolean", "null"]
+					"type": [
+						"boolean",
+						"null"
+					]
 				},
 				"adaptiveAudio": {
-					"type": ["boolean", "null"]
+					"type": [
+						"boolean",
+						"null"
+					]
 				},
 				"activeNoiseCancellation": {
-					"type": ["boolean", "null"]
+					"type": [
+						"boolean",
+						"null"
+					]
 				},
 				"transparency": {
-					"type": ["boolean", "null"]
+					"type": [
+						"boolean",
+						"null"
+					]
 				},
 				"formats": {
 					"type": "array",
@@ -642,7 +857,11 @@
 		"batteryRuntime": {
 			"type": "object",
 			"additionalProperties": false,
-			"required": ["id", "activity", "hours"],
+			"required": [
+				"id",
+				"activity",
+				"hours"
+			],
 			"properties": {
 				"id": {
 					"type": "string"
@@ -651,14 +870,22 @@
 					"type": "string"
 				},
 				"hours": {
-					"type": ["number", "null"],
+					"type": [
+						"number",
+						"null"
+					],
 					"minimum": 0
 				},
 				"qualifier": {
 					"type": "string"
 				},
 				"network": {
-					"enum": ["Wi-Fi", "cellular", "offline", null]
+					"enum": [
+						"Wi-Fi",
+						"cellular",
+						"offline",
+						null
+					]
 				}
 			}
 		},
@@ -675,13 +902,22 @@
 			],
 			"properties": {
 				"portId": {
-					"type": ["string", "null"]
+					"type": [
+						"string",
+						"null"
+					]
 				},
 				"wiredFastCharge": {
-					"type": ["boolean", "null"]
+					"type": [
+						"boolean",
+						"null"
+					]
 				},
 				"wirelessCharging": {
-					"type": ["boolean", "null"]
+					"type": [
+						"boolean",
+						"null"
+					]
 				},
 				"wirelessStandards": {
 					"anyOf": [
@@ -692,7 +928,13 @@
 							"type": "array",
 							"uniqueItems": true,
 							"items": {
-								"enum": ["MagSafe", "Qi", "Qi2", "inductive", "other"]
+								"enum": [
+									"MagSafe",
+									"Qi",
+									"Qi2",
+									"inductive",
+									"other"
+								]
 							}
 						}
 					]
@@ -705,7 +947,10 @@
 						{
 							"type": "object",
 							"additionalProperties": false,
-							"required": ["minutes", "percent"],
+							"required": [
+								"minutes",
+								"percent"
+							],
 							"properties": {
 								"minutes": {
 									"type": "number",
@@ -721,7 +966,10 @@
 					]
 				},
 				"adapterPowerW": {
-					"type": ["number", "null"],
+					"type": [
+						"number",
+						"null"
+					],
 					"minimum": 0
 				}
 			}
@@ -740,18 +988,30 @@
 			],
 			"properties": {
 				"hasExternalPowerAdapter": {
-					"type": ["boolean", "null"]
+					"type": [
+						"boolean",
+						"null"
+					]
 				},
 				"outputVoltageV": {
-					"type": ["number", "null"],
+					"type": [
+						"number",
+						"null"
+					],
 					"minimum": 0
 				},
 				"outputCurrentA": {
-					"type": ["number", "null"],
+					"type": [
+						"number",
+						"null"
+					],
 					"minimum": 0
 				},
 				"outputPowerW": {
-					"type": ["number", "null"],
+					"type": [
+						"number",
+						"null"
+					],
 					"minimum": 0
 				},
 				"inputVoltageRangeV": {
@@ -762,7 +1022,10 @@
 						{
 							"type": "object",
 							"additionalProperties": false,
-							"required": ["minimum", "maximum"],
+							"required": [
+								"minimum",
+								"maximum"
+							],
 							"properties": {
 								"minimum": {
 									"type": "number",
@@ -777,11 +1040,17 @@
 					]
 				},
 				"frequencyHz": {
-					"type": ["number", "null"],
+					"type": [
+						"number",
+						"null"
+					],
 					"minimum": 0
 				},
 				"consumptionW": {
-					"type": ["number", "null"],
+					"type": [
+						"number",
+						"null"
+					],
 					"minimum": 0
 				}
 			}
@@ -802,11 +1071,17 @@
 					"type": "boolean"
 				},
 				"batteryCapacityMah": {
-					"type": ["number", "null"],
+					"type": [
+						"number",
+						"null"
+					],
 					"minimum": 0
 				},
 				"batteryCapacityWhr": {
-					"type": ["number", "null"],
+					"type": [
+						"number",
+						"null"
+					],
 					"minimum": 0
 				},
 				"runtimeHours": {
@@ -826,7 +1101,9 @@
 		"wifi": {
 			"type": "object",
 			"additionalProperties": false,
-			"required": ["standards"],
+			"required": [
+				"standards"
+			],
 			"properties": {
 				"standards": {
 					"type": "array",
@@ -849,14 +1126,19 @@
 					"type": "string"
 				},
 				"simultaneousDualBand": {
-					"type": ["boolean", "null"]
+					"type": [
+						"boolean",
+						"null"
+					]
 				}
 			}
 		},
 		"bluetooth": {
 			"type": "object",
 			"additionalProperties": false,
-			"required": ["version"],
+			"required": [
+				"version"
+			],
 			"properties": {
 				"version": {
 					"enum": [
@@ -873,13 +1155,19 @@
 		"cellular": {
 			"type": "object",
 			"additionalProperties": false,
-			"required": ["technologies"],
+			"required": [
+				"technologies"
+			],
 			"properties": {
 				"technologies": {
 					"type": "array",
 					"uniqueItems": true,
 					"items": {
-						"enum": ["LTE", "5G sub-6", "5G mmWave"]
+						"enum": [
+							"LTE",
+							"5G sub-6",
+							"5G mmWave"
+						]
 					}
 				},
 				"bands": {
@@ -889,80 +1177,121 @@
 					}
 				},
 				"eSIMOnly": {
-					"type": ["boolean", "null"]
+					"type": [
+						"boolean",
+						"null"
+					]
 				}
 			}
 		},
 		"uwb": {
 			"type": "object",
 			"additionalProperties": false,
-			"required": ["chip"],
+			"required": [
+				"chip"
+			],
 			"properties": {
 				"chip": {
 					"type": "string"
 				},
 				"secondGeneration": {
-					"type": ["boolean", "null"]
+					"type": [
+						"boolean",
+						"null"
+					]
 				}
 			}
 		},
 		"thread": {
 			"type": "object",
 			"additionalProperties": false,
-			"required": ["supported"],
+			"required": [
+				"supported"
+			],
 			"properties": {
 				"supported": {
 					"type": "boolean"
 				},
 				"role": {
-					"enum": ["endpoint", "border-router", "both", null]
+					"enum": [
+						"endpoint",
+						"border-router",
+						"both",
+						null
+					]
 				}
 			}
 		},
 		"infrared": {
 			"type": "object",
 			"additionalProperties": false,
-			"required": ["present", "purpose"],
+			"required": [
+				"present",
+				"purpose"
+			],
 			"properties": {
 				"present": {
 					"type": "boolean"
 				},
 				"purpose": {
-					"type": ["string", "null"]
+					"type": [
+						"string",
+						"null"
+					]
 				}
 			}
 		},
 		"nearFieldCommunication": {
 			"type": "object",
 			"additionalProperties": false,
-			"required": ["present"],
+			"required": [
+				"present"
+			],
 			"properties": {
 				"present": {
 					"type": "boolean"
 				},
 				"readWriteMode": {
-					"type": ["boolean", "null"]
+					"type": [
+						"boolean",
+						"null"
+					]
 				},
 				"backgroundTagReading": {
-					"type": ["boolean", "null"]
+					"type": [
+						"boolean",
+						"null"
+					]
 				}
 			}
 		},
 		"gps": {
 			"type": "object",
 			"additionalProperties": false,
-			"required": ["present"],
+			"required": [
+				"present"
+			],
 			"properties": {
 				"present": {
 					"type": "boolean"
 				},
 				"precisionDualFrequency": {
-					"type": ["boolean", "null"]
+					"type": [
+						"boolean",
+						"null"
+					]
 				},
 				"systems": {
 					"type": "array",
 					"items": {
-						"enum": ["GPS", "GLONASS", "Galileo", "QZSS", "BeiDou", "NavIC"]
+						"enum": [
+							"GPS",
+							"GLONASS",
+							"Galileo",
+							"QZSS",
+							"BeiDou",
+							"NavIC"
+						]
 					}
 				}
 			}
@@ -1073,7 +1402,10 @@
 		"authentication": {
 			"type": "object",
 			"additionalProperties": false,
-			"required": ["methods", "primaryMethod"],
+			"required": [
+				"methods",
+				"primaryMethod"
+			],
 			"properties": {
 				"methods": {
 					"type": "array",
@@ -1100,7 +1432,13 @@
 					]
 				},
 				"placement": {
-					"enum": ["top button", "keyboard", "side button", "other", null]
+					"enum": [
+						"top button",
+						"keyboard",
+						"side button",
+						"other",
+						null
+					]
 				},
 				"sourceNotes": {
 					"type": "string"
@@ -1110,7 +1448,12 @@
 		"physicalComponent": {
 			"type": "object",
 			"additionalProperties": false,
-			"required": ["id", "displayName", "dimensions", "weight"],
+			"required": [
+				"id",
+				"displayName",
+				"dimensions",
+				"weight"
+			],
 			"properties": {
 				"id": {
 					"type": "string"
@@ -1125,11 +1468,20 @@
 					}
 				},
 				"weight": {
-					"type": ["number", "null"],
+					"type": [
+						"number",
+						"null"
+					],
 					"minimum": 0
 				},
 				"weightUnit": {
-					"enum": ["g", "kg", "oz", "lb", null]
+					"enum": [
+						"g",
+						"kg",
+						"oz",
+						"lb",
+						null
+					]
 				},
 				"sourceNotes": {
 					"type": "string"
@@ -1139,7 +1491,11 @@
 		"physical": {
 			"type": "object",
 			"additionalProperties": false,
-			"required": ["weights", "dimensions", "components"],
+			"required": [
+				"weights",
+				"dimensions",
+				"components"
+			],
 			"properties": {
 				"weights": {
 					"type": "array",
@@ -1164,33 +1520,89 @@
 		"accessoryReference": {
 			"type": "object",
 			"additionalProperties": false,
-			"required": ["id", "displayName", "category"],
+			"required": [
+				"accessoryId",
+				"displayName",
+				"category"
+			],
 			"properties": {
-				"id": {
-					"type": "string"
+				"accessoryId": {
+					"type": "string",
+					"pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
 				},
 				"displayName": {
 					"type": "string"
 				},
 				"category": {
-					"enum": [
-						"Apple Pencil",
-						"keyboard",
-						"input",
-						"spatial",
-						"case",
-						"cable",
-						"adapter",
-						"remote",
-						"strap",
-						"seal",
-						"other"
-					]
+					"$ref": "#/$defs/accessoryCategory"
 				},
 				"capabilities": {
 					"type": "array",
 					"items": {
 						"type": "string"
+					}
+				}
+			}
+		},
+		"accessory": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": [
+				"id",
+				"displayName",
+				"category"
+			],
+			"properties": {
+				"id": {
+					"type": "string",
+					"pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+				},
+				"displayName": {
+					"type": "string"
+				},
+				"category": {
+					"$ref": "#/$defs/accessoryCategory"
+				},
+				"capabilities": {
+					"type": "array",
+					"items": {
+						"type": "string"
+					}
+				}
+			}
+		},
+		"accessoryCategory": {
+			"type": "string",
+			"enum": [
+				"Apple Pencil",
+				"keyboard",
+				"input",
+				"spatial",
+				"case",
+				"cable",
+				"adapter",
+				"remote",
+				"strap",
+				"seal",
+				"other"
+			]
+		},
+		"accessoryGroup": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": [
+				"group",
+				"accessories"
+			],
+			"properties": {
+				"group": {
+					"type": "string",
+					"pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+				},
+				"accessories": {
+					"type": "array",
+					"items": {
+						"$ref": "#/$defs/accessory"
 					}
 				}
 			}
@@ -1207,22 +1619,37 @@
 			],
 			"properties": {
 				"ipRating": {
-					"type": ["string", "null"],
+					"type": [
+						"string",
+						"null"
+					],
 					"pattern": "^(IP[0-9]X?|IP6X|IP68)$|^$|^null$"
 				},
 				"waterDepthM": {
-					"type": ["number", "null"],
+					"type": [
+						"number",
+						"null"
+					],
 					"minimum": 0
 				},
 				"splashPressureAtm": {
-					"type": ["number", "null"],
+					"type": [
+						"number",
+						"null"
+					],
 					"minimum": 0
 				},
 				"dustProtected": {
-					"type": ["boolean", "null"]
+					"type": [
+						"boolean",
+						"null"
+					]
 				},
 				"sweatResistant": {
-					"type": ["boolean", "null"]
+					"type": [
+						"boolean",
+						"null"
+					]
 				}
 			}
 		},
@@ -1239,7 +1666,10 @@
 					"type": "string"
 				},
 				"operatingSystemVersionAtLaunch": {
-					"type": ["string", "null"]
+					"type": [
+						"string",
+						"null"
+					]
 				},
 				"compatibleOperatingSystems": {
 					"type": "array",
@@ -1261,7 +1691,9 @@
 		"configurationVariant": {
 			"type": "object",
 			"additionalProperties": false,
-			"required": ["id"],
+			"required": [
+				"id"
+			],
 			"properties": {
 				"id": {
 					"type": "string"
@@ -1294,14 +1726,20 @@
 					]
 				},
 				"caseSizeMm": {
-					"type": ["number", "null"],
+					"type": [
+						"number",
+						"null"
+					],
 					"minimum": 0
 				},
 				"chipId": {
 					"type": "string"
 				},
 				"priceAud": {
-					"type": ["number", "null"],
+					"type": [
+						"number",
+						"null"
+					],
 					"minimum": 0
 				},
 				"sourceNotes": {
@@ -1337,10 +1775,16 @@
 					"type": "boolean"
 				},
 				"u1UwbChip": {
-					"type": ["string", "null"]
+					"type": [
+						"string",
+						"null"
+					]
 				},
 				"otherWirelessChip": {
-					"type": ["string", "null"]
+					"type": [
+						"string",
+						"null"
+					]
 				},
 				"hasSpeaker": {
 					"type": "boolean"
@@ -1349,7 +1793,10 @@
 					"type": "boolean"
 				},
 				"swimproofClassification": {
-					"type": ["string", "null"]
+					"type": [
+						"string",
+						"null"
+					]
 				},
 				"completeSummary": {
 					"type": "array",
@@ -1362,7 +1809,13 @@
 		"overviewImage": {
 			"type": "object",
 			"additionalProperties": false,
-			"required": ["label", "appleUrl", "localPath", "widthPx", "heightPx"],
+			"required": [
+				"label",
+				"appleUrl",
+				"localPath",
+				"widthPx",
+				"heightPx"
+			],
 			"properties": {
 				"label": {
 					"type": "string"
@@ -1386,7 +1839,13 @@
 		"airPodsImage": {
 			"type": "object",
 			"additionalProperties": false,
-			"required": ["label", "appleUrl", "localPath", "widthPx", "heightPx"],
+			"required": [
+				"label",
+				"appleUrl",
+				"localPath",
+				"widthPx",
+				"heightPx"
+			],
 			"properties": {
 				"label": {
 					"type": "string"
@@ -1411,7 +1870,11 @@
 		"airPodsColor": {
 			"type": "object",
 			"additionalProperties": false,
-			"required": ["name", "swatch", "images"],
+			"required": [
+				"name",
+				"swatch",
+				"images"
+			],
 			"properties": {
 				"name": {
 					"type": "string"
@@ -1459,7 +1922,10 @@
 					"type": "string"
 				},
 				"priceAud": {
-					"type": ["number", "null"],
+					"type": [
+						"number",
+						"null"
+					],
 					"minimum": 0
 				},
 				"colors": {
@@ -1495,7 +1961,10 @@
 				"chips": {
 					"type": "array",
 					"items": {
-						"type": ["string", "object"]
+						"type": [
+							"string",
+							"object"
+						]
 					}
 				},
 				"microphones": {
@@ -1511,13 +1980,19 @@
 					}
 				},
 				"hearingHealth": {
-					"type": ["array", "null"],
+					"type": [
+						"array",
+						"null"
+					],
 					"items": {
 						"type": "string"
 					}
 				},
 				"liveTranslation": {
-					"type": ["array", "null"],
+					"type": [
+						"array",
+						"null"
+					],
 					"items": {
 						"type": "string"
 					}
@@ -1532,7 +2007,10 @@
 					}
 				},
 				"ipRating": {
-					"type": ["string", "null"]
+					"type": [
+						"string",
+						"null"
+					]
 				},
 				"connectivity": {
 					"type": "array",
@@ -1551,7 +2029,10 @@
 		"device": {
 			"type": "object",
 			"additionalProperties": false,
-			"required": ["id", "name"],
+			"required": [
+				"id",
+				"name"
+			],
 			"properties": {
 				"id": {
 					"type": "string",
@@ -1561,7 +2042,15 @@
 					"type": "string"
 				},
 				"family": {
-					"enum": ["ipad", "iphone", "watch", "mac", "vision", "tv", "homepod"]
+					"enum": [
+						"ipad",
+						"iphone",
+						"watch",
+						"mac",
+						"vision",
+						"tv",
+						"homepod"
+					]
 				},
 				"releaseYear": {
 					"type": "integer",
@@ -1569,7 +2058,10 @@
 					"maximum": 2100
 				},
 				"priceAud": {
-					"type": ["number", "null"],
+					"type": [
+						"number",
+						"null"
+					],
 					"minimum": 0
 				},
 				"colors": {
@@ -1645,10 +2137,16 @@
 					}
 				},
 				"forceTouchTrackpad": {
-					"type": ["boolean", "null"]
+					"type": [
+						"boolean",
+						"null"
+					]
 				},
 				"backlitKeyboard": {
-					"type": ["boolean", "null"]
+					"type": [
+						"boolean",
+						"null"
+					]
 				},
 				"accessories": {
 					"type": "array",
