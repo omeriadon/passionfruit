@@ -4,14 +4,14 @@
 
 Hard cap: four active workers including Orchestrator.
 
-| Agent        | Role                                                      | Status | Progress                                                                         |
-| ------------ | --------------------------------------------------------- | ------ | -------------------------------------------------------------------------------- |
+| Agent        | Role                                                    | Status   | Progress                                                                                               |
+| ------------ | ------------------------------------------------------- | -------- | ------------------------------------------------------------------------------------------------------ |
 | Orchestrator | Coordination, final merge, validation, commit oversight | Complete | 100% (157 unique canonical devices; 158 reconciled target identities; Ajv zero errors; images 392/392) |
-| Hegel        | iPhone SOURCE_ONLY extraction                             | Complete | 19 devices merged and Ajv-valid |
-| Herschel     | Mac SOURCE_ONLY extraction                                | Complete | 35 candidates delivered; 34 added after duplicate identity reconciliation |
-| Fleet-Sync   | Fleet/status reconciliation                               | Complete | Status tables reconciled to PRESENT; readiness READY |
+| Hegel        | iPhone SOURCE_ONLY extraction                           | Complete | 19 devices merged and Ajv-valid                                                                        |
+| Herschel     | Mac SOURCE_ONLY extraction                              | Complete | 35 candidates delivered; 34 added after duplicate identity reconciliation                              |
+| Fleet-Sync   | Fleet/status reconciliation                             | Complete | Status tables reconciled to PRESENT; readiness READY                                                   |
 
-Final reconciliation: canonical JSON contains 157 unique device identities across eight sections. The evidence map has 158 rows because `Mac Studio (M1 Max or M1 Ultra, 2022)` was duplicated; status now maps it once as PRESENT. All sections pass Ajv Draft 2020-12 with zero errors and all 392 image references pass existence checks. Historical rows are retained below this section and are not active workers.
+Pushed commit 611edf9. Final reconciliation: canonical JSON contains 157 unique device identities across eight sections. The evidence map has 158 rows because `Mac Studio (M1 Max or M1 Ultra, 2022)` was duplicated; status now maps it once as PRESENT. All sections pass Ajv Draft 2020-12 with zero errors and all 392 image references pass existence checks. Historical rows are retained below this section and are not active workers.
 
 ## Status Reporting Protocol
 
