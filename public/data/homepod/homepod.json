@@ -1,0 +1,828 @@
+{
+	"devices": [
+		{
+			"id": "homepod-mini",
+			"name": "HomePod mini",
+			"family": "homepod",
+			"releaseYear": 2020,
+			"priceAud": null,
+			"colors": [
+				{
+					"id": "white",
+					"displayName": "White",
+					"swatch": {
+						"kind": "css",
+						"value": "#00000000"
+					},
+					"images": [
+						{
+							"label": "small",
+							"appleUrl": "https://www.apple.com/v/homepod-mini/j/images/specs/hero_homepod_mini_white__byv5v65oppg2_small.jpg",
+							"localPath": "public/data/homepod/images/hero_homepod_mini_white__byv5v65oppg2_small.jpg",
+							"widthPx": 230,
+							"heightPx": 208
+						},
+						{
+							"label": "small_2x",
+							"appleUrl": "https://www.apple.com/v/homepod-mini/j/images/specs/hero_homepod_mini_white__byv5v65oppg2_small_2x.jpg",
+							"localPath": "public/data/homepod/images/hero_homepod_mini_white__byv5v65oppg2_small_2x.jpg",
+							"widthPx": 460,
+							"heightPx": 416
+						},
+						{
+							"label": "medium",
+							"appleUrl": "https://www.apple.com/v/homepod-mini/j/images/specs/hero_homepod_mini_white__byv5v65oppg2_medium.jpg",
+							"localPath": "public/data/homepod/images/hero_homepod_mini_white__byv5v65oppg2_medium.jpg",
+							"widthPx": 242,
+							"heightPx": 219
+						},
+						{
+							"label": "medium_2x",
+							"appleUrl": "https://www.apple.com/v/homepod-mini/j/images/specs/hero_homepod_mini_white__byv5v65oppg2_medium_2x.jpg",
+							"localPath": "public/data/homepod/images/hero_homepod_mini_white__byv5v65oppg2_medium_2x.jpg",
+							"widthPx": 484,
+							"heightPx": 438
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/v/homepod-mini/j/images/specs/hero_homepod_mini_white__byv5v65oppg2_large.jpg",
+							"localPath": "public/data/homepod/images/hero_homepod_mini_white__byv5v65oppg2_large.jpg",
+							"widthPx": 342,
+							"heightPx": 309
+						},
+						{
+							"label": "large_2x",
+							"appleUrl": "https://www.apple.com/v/homepod-mini/j/images/specs/hero_homepod_mini_white__byv5v65oppg2_large_2x.jpg",
+							"localPath": "public/data/homepod/images/hero_homepod_mini_white__byv5v65oppg2_large_2x.jpg",
+							"widthPx": 684,
+							"heightPx": 618
+						},
+						{
+							"label": "metadata",
+							"appleUrl": "https://www.apple.com/v/homepod-mini/j/images/meta/homepod-mini__bnxwvz5xrtpy_og.png",
+							"localPath": "public/data/homepod/images/homepod-mini__bnxwvz5xrtpy_og.png",
+							"widthPx": 1200,
+							"heightPx": 630
+						},
+						{
+							"label": "metadata WeChat",
+							"appleUrl": "https://www.apple.com/v/homepod-mini/j/images/meta/homepod-mini_wechat__g5ia51xot9ea_og.png",
+							"localPath": "public/data/homepod/images/homepod-mini_wechat__g5ia51xot9ea_og.png",
+							"widthPx": 300,
+							"heightPx": 300
+						}
+					]
+				},
+				{
+					"id": "yellow",
+					"displayName": "Yellow",
+					"swatch": {
+						"kind": "css",
+						"value": "#00000000"
+					},
+					"images": [
+						{
+							"label": "small",
+							"appleUrl": "https://www.apple.com/v/homepod-mini/j/images/specs/hero_homepod_mini_yellow__b2iuq7a04aia_small.jpg",
+							"localPath": "public/data/homepod/images/hero_homepod_mini_yellow__b2iuq7a04aia_small.jpg",
+							"widthPx": 230,
+							"heightPx": 208
+						},
+						{
+							"label": "small_2x",
+							"appleUrl": "https://www.apple.com/v/homepod-mini/j/images/specs/hero_homepod_mini_yellow__b2iuq7a04aia_small_2x.jpg",
+							"localPath": "public/data/homepod/images/hero_homepod_mini_yellow__b2iuq7a04aia_small_2x.jpg",
+							"widthPx": 460,
+							"heightPx": 416
+						},
+						{
+							"label": "medium",
+							"appleUrl": "https://www.apple.com/v/homepod-mini/j/images/specs/hero_homepod_mini_yellow__b2iuq7a04aia_medium.jpg",
+							"localPath": "public/data/homepod/images/hero_homepod_mini_yellow__b2iuq7a04aia_medium.jpg",
+							"widthPx": 242,
+							"heightPx": 219
+						},
+						{
+							"label": "medium_2x",
+							"appleUrl": "https://www.apple.com/v/homepod-mini/j/images/specs/hero_homepod_mini_yellow__b2iuq7a04aia_medium_2x.jpg",
+							"localPath": "public/data/homepod/images/hero_homepod_mini_yellow__b2iuq7a04aia_medium_2x.jpg",
+							"widthPx": 484,
+							"heightPx": 438
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/v/homepod-mini/j/images/specs/hero_homepod_mini_yellow__b2iuq7a04aia_large.jpg",
+							"localPath": "public/data/homepod/images/hero_homepod_mini_yellow__b2iuq7a04aia_large.jpg",
+							"widthPx": 342,
+							"heightPx": 309
+						},
+						{
+							"label": "large_2x",
+							"appleUrl": "https://www.apple.com/v/homepod-mini/j/images/specs/hero_homepod_mini_yellow__b2iuq7a04aia_large_2x.jpg",
+							"localPath": "public/data/homepod/images/hero_homepod_mini_yellow__b2iuq7a04aia_large_2x.jpg",
+							"widthPx": 684,
+							"heightPx": 618
+						},
+						{
+							"label": "metadata",
+							"appleUrl": "https://www.apple.com/v/homepod-mini/j/images/meta/homepod-mini__bnxwvz5xrtpy_og.png",
+							"localPath": "public/data/homepod/images/homepod-mini__bnxwvz5xrtpy_og.png",
+							"widthPx": 1200,
+							"heightPx": 630
+						}
+					]
+				},
+				{
+					"id": "orange",
+					"displayName": "Orange",
+					"swatch": {
+						"kind": "css",
+						"value": "#00000000"
+					},
+					"images": [
+						{
+							"label": "small",
+							"appleUrl": "https://www.apple.com/v/homepod-mini/j/images/specs/hero_homepod_mini_orange__bep40x4vnd42_small.jpg",
+							"localPath": "public/data/homepod/images/hero_homepod_mini_orange__bep40x4vnd42_small.jpg",
+							"widthPx": 230,
+							"heightPx": 208
+						},
+						{
+							"label": "small_2x",
+							"appleUrl": "https://www.apple.com/v/homepod-mini/j/images/specs/hero_homepod_mini_orange__bep40x4vnd42_small_2x.jpg",
+							"localPath": "public/data/homepod/images/hero_homepod_mini_orange__bep40x4vnd42_small_2x.jpg",
+							"widthPx": 460,
+							"heightPx": 416
+						},
+						{
+							"label": "medium",
+							"appleUrl": "https://www.apple.com/v/homepod-mini/j/images/specs/hero_homepod_mini_orange__bep40x4vnd42_medium.jpg",
+							"localPath": "public/data/homepod/images/hero_homepod_mini_orange__bep40x4vnd42_medium.jpg",
+							"widthPx": 242,
+							"heightPx": 219
+						},
+						{
+							"label": "medium_2x",
+							"appleUrl": "https://www.apple.com/v/homepod-mini/j/images/specs/hero_homepod_mini_orange__bep40x4vnd42_medium_2x.jpg",
+							"localPath": "public/data/homepod/images/hero_homepod_mini_orange__bep40x4vnd42_medium_2x.jpg",
+							"widthPx": 484,
+							"heightPx": 438
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/v/homepod-mini/j/images/specs/hero_homepod_mini_orange__bep40x4vnd42_large.jpg",
+							"localPath": "public/data/homepod/images/hero_homepod_mini_orange__bep40x4vnd42_large.jpg",
+							"widthPx": 342,
+							"heightPx": 309
+						},
+						{
+							"label": "large_2x",
+							"appleUrl": "https://www.apple.com/v/homepod-mini/j/images/specs/hero_homepod_mini_orange__bep40x4vnd42_large_2x.jpg",
+							"localPath": "public/data/homepod/images/hero_homepod_mini_orange__bep40x4vnd42_large_2x.jpg",
+							"widthPx": 684,
+							"heightPx": 618
+						},
+						{
+							"label": "metadata",
+							"appleUrl": "https://www.apple.com/v/homepod-mini/j/images/meta/homepod-mini__bnxwvz5xrtpy_og.png",
+							"localPath": "public/data/homepod/images/homepod-mini__bnxwvz5xrtpy_og.png",
+							"widthPx": 1200,
+							"heightPx": 630
+						}
+					]
+				},
+				{
+					"id": "blue",
+					"displayName": "Blue",
+					"swatch": {
+						"kind": "css",
+						"value": "#00000000"
+					},
+					"images": [
+						{
+							"label": "small",
+							"appleUrl": "https://www.apple.com/v/homepod-mini/j/images/specs/hero_homepod_mini_blue__ena1vcc2dgeq_small.jpg",
+							"localPath": "public/data/homepod/images/hero_homepod_mini_blue__ena1vcc2dgeq_small.jpg",
+							"widthPx": 230,
+							"heightPx": 208
+						},
+						{
+							"label": "small_2x",
+							"appleUrl": "https://www.apple.com/v/homepod-mini/j/images/specs/hero_homepod_mini_blue__ena1vcc2dgeq_small_2x.jpg",
+							"localPath": "public/data/homepod/images/hero_homepod_mini_blue__ena1vcc2dgeq_small_2x.jpg",
+							"widthPx": 460,
+							"heightPx": 416
+						},
+						{
+							"label": "medium",
+							"appleUrl": "https://www.apple.com/v/homepod-mini/j/images/specs/hero_homepod_mini_blue__ena1vcc2dgeq_medium.jpg",
+							"localPath": "public/data/homepod/images/hero_homepod_mini_blue__ena1vcc2dgeq_medium.jpg",
+							"widthPx": 242,
+							"heightPx": 219
+						},
+						{
+							"label": "medium_2x",
+							"appleUrl": "https://www.apple.com/v/homepod-mini/j/images/specs/hero_homepod_mini_blue__ena1vcc2dgeq_medium_2x.jpg",
+							"localPath": "public/data/homepod/images/hero_homepod_mini_blue__ena1vcc2dgeq_medium_2x.jpg",
+							"widthPx": 484,
+							"heightPx": 438
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/v/homepod-mini/j/images/specs/hero_homepod_mini_blue__ena1vcc2dgeq_large.jpg",
+							"localPath": "public/data/homepod/images/hero_homepod_mini_blue__ena1vcc2dgeq_large.jpg",
+							"widthPx": 342,
+							"heightPx": 309
+						},
+						{
+							"label": "large_2x",
+							"appleUrl": "https://www.apple.com/v/homepod-mini/j/images/specs/hero_homepod_mini_blue__ena1vcc2dgeq_large_2x.jpg",
+							"localPath": "public/data/homepod/images/hero_homepod_mini_blue__ena1vcc2dgeq_large_2x.jpg",
+							"widthPx": 684,
+							"heightPx": 618
+						},
+						{
+							"label": "metadata",
+							"appleUrl": "https://www.apple.com/v/homepod-mini/j/images/meta/homepod-mini__bnxwvz5xrtpy_og.png",
+							"localPath": "public/data/homepod/images/homepod-mini__bnxwvz5xrtpy_og.png",
+							"widthPx": 1200,
+							"heightPx": 630
+						}
+					]
+				},
+				{
+					"id": "midnight",
+					"displayName": "Midnight",
+					"swatch": {
+						"kind": "css",
+						"value": "#00000000"
+					},
+					"images": [
+						{
+							"label": "small",
+							"appleUrl": "https://www.apple.com/v/homepod-mini/j/images/specs/hero_homepod_mini_midnight__cjkkcqkqtaqa_small.jpg",
+							"localPath": "public/data/homepod/images/hero_homepod_mini_midnight__cjkkcqkqtaqa_small.jpg",
+							"widthPx": 230,
+							"heightPx": 208
+						},
+						{
+							"label": "small_2x",
+							"appleUrl": "https://www.apple.com/v/homepod-mini/j/images/specs/hero_homepod_mini_midnight__cjkkcqkqtaqa_small_2x.jpg",
+							"localPath": "public/data/homepod/images/hero_homepod_mini_midnight__cjkkcqkqtaqa_small_2x.jpg",
+							"widthPx": 460,
+							"heightPx": 416
+						},
+						{
+							"label": "medium",
+							"appleUrl": "https://www.apple.com/v/homepod-mini/j/images/specs/hero_homepod_mini_midnight__cjkkcqkqtaqa_medium.jpg",
+							"localPath": "public/data/homepod/images/hero_homepod_mini_midnight__cjkkcqkqtaqa_medium.jpg",
+							"widthPx": 242,
+							"heightPx": 219
+						},
+						{
+							"label": "medium_2x",
+							"appleUrl": "https://www.apple.com/v/homepod-mini/j/images/specs/hero_homepod_mini_midnight__cjkkcqkqtaqa_medium_2x.jpg",
+							"localPath": "public/data/homepod/images/hero_homepod_mini_midnight__cjkkcqkqtaqa_medium_2x.jpg",
+							"widthPx": 484,
+							"heightPx": 438
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/v/homepod-mini/j/images/specs/hero_homepod_mini_midnight__cjkkcqkqtaqa_large.jpg",
+							"localPath": "public/data/homepod/images/hero_homepod_mini_midnight__cjkkcqkqtaqa_large.jpg",
+							"widthPx": 342,
+							"heightPx": 309
+						},
+						{
+							"label": "large_2x",
+							"appleUrl": "https://www.apple.com/v/homepod-mini/j/images/specs/hero_homepod_mini_midnight__cjkkcqkqtaqa_large_2x.jpg",
+							"localPath": "public/data/homepod/images/hero_homepod_mini_midnight__cjkkcqkqtaqa_large_2x.jpg",
+							"widthPx": 684,
+							"heightPx": 618
+						},
+						{
+							"label": "metadata",
+							"appleUrl": "https://www.apple.com/v/homepod-mini/j/images/meta/homepod-mini__bnxwvz5xrtpy_og.png",
+							"localPath": "public/data/homepod/images/homepod-mini__bnxwvz5xrtpy_og.png",
+							"widthPx": 1200,
+							"heightPx": 630
+						}
+					]
+				}
+			],
+			"configurations": [],
+			"storageOptions": [],
+			"chips": [
+				{
+					"id": "ultra-wideband",
+					"displayName": "Ultra Wideband chip",
+					"family": "Ultra Wideband",
+					"cpuCores": {
+						"total": 1,
+						"performance": null,
+						"efficiency": null
+					},
+					"gpuCores": null,
+					"neuralEngineCores": null,
+					"memoryBandwidthGbps": null,
+					"neuralAccelerators": false,
+					"hardwareRayTracing": null,
+					"processNode": "",
+					"sourceNotes": "Source identifies an Ultra Wideband chip for device proximity; implementation details are not specified."
+				}
+			],
+			"displays": [],
+			"cameras": [],
+			"audio": {
+				"speaker": true,
+				"microphone": true,
+				"speakerConfiguration": "Full-range driver and dual passive radiators for deep bass and crisp high frequencies; Custom-designed acoustic waveguide for a 360-degree sound field; Acoustically transparent fabric; Computational audio for real-time tuning; Sound Recognition for smoke and carbon monoxide alarm sounds; Multiroom audio with AirPlay; Stereo pair–capable",
+				"microphoneConfiguration": "Four-microphone design for far-field Siri",
+				"spatialAudio": false,
+				"formats": [
+					"Apple Music",
+					"iTunes music purchases",
+					"iCloud Music Library with an Apple Music or iTunes Match subscription",
+					"Third-party music services",
+					"Apple Music Radio or episodes on demand",
+					"Radio stations from TuneIn, iHeartRadio and Audacy",
+					"Apple Podcasts",
+					"News briefings",
+					"AirPlay to share other content to HomePod mini from iPhone, iPad, iPod touch, Apple TV or Mac"
+				],
+				"sourceNotes": "Audio sources are represented under formats because the shared contract has no dedicated audio-sources array."
+			},
+			"batteryAndPower": {
+				"hasBattery": false,
+				"batteryCapacityMah": null,
+				"batteryCapacityWhr": null,
+				"runtimeHours": [],
+				"charging": {
+					"portId": null,
+					"wiredFastCharge": null,
+					"wirelessCharging": false,
+					"wirelessStandards": null,
+					"fastChargeMinutesToPercent": null,
+					"adapterPowerW": 20
+				},
+				"powerSupply": {
+					"hasExternalPowerAdapter": true,
+					"outputVoltageV": null,
+					"outputCurrentA": null,
+					"outputPowerW": 20,
+					"inputVoltageRangeV": {
+						"minimum": 100,
+						"maximum": 240
+					},
+					"frequencyHz": null,
+					"consumptionW": null
+				}
+			},
+			"connectivity": {
+				"ports": [
+					{
+						"id": "power-adapter",
+						"kind": "power connector",
+						"quantity": 1,
+						"sourceNotes": "HomePod mini connects through its supplied 20 W power adapter."
+					}
+				],
+				"wifi": {
+					"standards": ["Wi-Fi 4"]
+				},
+				"bluetooth": {
+					"version": "Bluetooth 5.0"
+				},
+				"cellular": null,
+				"uwb": {
+					"chip": "Ultra Wideband chip",
+					"secondGeneration": false
+				},
+				"thread": {
+					"supported": true
+				},
+				"infrared": {
+					"present": false,
+					"purpose": null
+				},
+				"nearFieldCommunication": {
+					"present": false
+				},
+				"gps": {
+					"present": false
+				}
+			},
+			"authentication": {
+				"methods": ["none"],
+				"primaryMethod": "none",
+				"placement": null
+			},
+			"physical": {
+				"weights": [
+					{
+						"value": 345,
+						"unit": "g"
+					}
+				],
+				"dimensions": [
+					{
+						"value": 84.3,
+						"unit": "mm",
+						"qualifier": "height"
+					},
+					{
+						"value": 97.9,
+						"unit": "mm",
+						"qualifier": "width or diameter"
+					}
+				],
+				"components": [
+					{
+						"id": "homepod-mini-speaker",
+						"displayName": "HomePod mini",
+						"dimensions": [
+							{
+								"value": 84.3,
+								"unit": "mm",
+								"qualifier": "height"
+							},
+							{
+								"value": 97.9,
+								"unit": "mm",
+								"qualifier": "width or diameter"
+							}
+						],
+						"weight": 345,
+						"weightUnit": "g"
+					}
+				]
+			},
+			"resistance": {
+				"ipRating": null,
+				"waterDepthM": null,
+				"splashPressureAtm": null,
+				"dustProtected": null,
+				"sweatResistant": null
+			},
+			"software": {
+				"operatingSystem": "HomePod Software",
+				"operatingSystemVersionAtLaunch": null,
+				"compatibleOperatingSystems": [
+					"iOS",
+					"iPadOS",
+					"macOS",
+					"tvOS",
+					"watchOS"
+				],
+				"builtInApps": []
+			},
+			"accessories": [],
+			"sourceNotes": "Remodeled from the supplied Apple specification HTML checkpoint. Controls, compatibility, sensors, sound recognition, room sensing, and in-box contents lack dedicated shared-contract fields. Unknown values use null; empty arrays indicate that the contract category has no applicable structured value."
+		},
+		{
+			"id": "homepod-2nd-generation",
+			"name": "HomePod (2nd generation)",
+			"family": "homepod",
+			"releaseYear": 2023,
+			"priceAud": null,
+			"colors": [
+				{
+					"id": "midnight",
+					"displayName": "Midnight",
+					"swatch": {
+						"kind": "css",
+						"value": "#00000000"
+					},
+					"images": [
+						{
+							"label": "small",
+							"appleUrl": "https://www.apple.com/v/homepod-2nd-generation/b/images/specs/hero_midnight__e68gtnjhjz0i_small.jpg",
+							"localPath": "public/data/homepod/images/hero_midnight__e68gtnjhjz0i_small.jpg",
+							"widthPx": 252,
+							"heightPx": 336
+						},
+						{
+							"label": "small_2x",
+							"appleUrl": "https://www.apple.com/v/homepod-2nd-generation/b/images/specs/hero_midnight__e68gtnjhjz0i_small_2x.jpg",
+							"localPath": "public/data/homepod/images/hero_midnight__e68gtnjhjz0i_small_2x.jpg",
+							"widthPx": 504,
+							"heightPx": 672
+						},
+						{
+							"label": "medium",
+							"appleUrl": "https://www.apple.com/v/homepod-2nd-generation/b/images/specs/hero_midnight__e68gtnjhjz0i_medium.jpg",
+							"localPath": "public/data/homepod/images/hero_midnight__e68gtnjhjz0i_medium.jpg",
+							"widthPx": 302,
+							"heightPx": 404
+						},
+						{
+							"label": "medium_2x",
+							"appleUrl": "https://www.apple.com/v/homepod-2nd-generation/b/images/specs/hero_midnight__e68gtnjhjz0i_medium_2x.jpg",
+							"localPath": "public/data/homepod/images/hero_midnight__e68gtnjhjz0i_medium_2x.jpg",
+							"widthPx": 604,
+							"heightPx": 808
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/v/homepod-2nd-generation/b/images/specs/hero_midnight__e68gtnjhjz0i_large.jpg",
+							"localPath": "public/data/homepod/images/hero_midnight__e68gtnjhjz0i_large.jpg",
+							"widthPx": 366,
+							"heightPx": 490
+						},
+						{
+							"label": "large_2x",
+							"appleUrl": "https://www.apple.com/v/homepod-2nd-generation/b/images/specs/hero_midnight__e68gtnjhjz0i_large_2x.jpg",
+							"localPath": "public/data/homepod/images/hero_midnight__e68gtnjhjz0i_large_2x.jpg",
+							"widthPx": 732,
+							"heightPx": 980
+						},
+						{
+							"label": "metadata",
+							"appleUrl": "https://www.apple.com/v/homepod-2nd-generation/b/images/meta/homepod__dlwt789yhxme_og.png",
+							"localPath": "public/data/homepod/images/homepod__dlwt789yhxme_og.png",
+							"widthPx": 1200,
+							"heightPx": 630
+						},
+						{
+							"label": "dimensions",
+							"appleUrl": "https://www.apple.com/v/homepod-2nd-generation/b/images/specs/homepod__dlwt789yhxme_small.jpg",
+							"localPath": "public/data/homepod/images/homepod__dlwt789yhxme_small.jpg",
+							"widthPx": 236,
+							"heightPx": 278
+						},
+						{
+							"label": "dimensions 2x",
+							"appleUrl": "https://www.apple.com/v/homepod-2nd-generation/b/images/specs/homepod__dlwt789yhxme_small_2x.jpg",
+							"localPath": "public/data/homepod/images/homepod__dlwt789yhxme_small_2x.jpg",
+							"widthPx": 472,
+							"heightPx": 556
+						},
+						{
+							"label": "dimensions",
+							"appleUrl": "https://www.apple.com/v/homepod-2nd-generation/b/images/specs/homepod__dlwt789yhxme_medium.jpg",
+							"localPath": "public/data/homepod/images/homepod__dlwt789yhxme_medium.jpg",
+							"widthPx": 323,
+							"heightPx": 406
+						},
+						{
+							"label": "dimensions 2x",
+							"appleUrl": "https://www.apple.com/v/homepod-2nd-generation/b/images/specs/homepod__dlwt789yhxme_medium_2x.jpg",
+							"localPath": "public/data/homepod/images/homepod__dlwt789yhxme_medium_2x.jpg",
+							"widthPx": 646,
+							"heightPx": 812
+						},
+						{
+							"label": "dimensions",
+							"appleUrl": "https://www.apple.com/v/homepod-2nd-generation/b/images/specs/homepod__dlwt789yhxme_large.jpg",
+							"localPath": "public/data/homepod/images/homepod__dlwt789yhxme_large.jpg",
+							"widthPx": 432,
+							"heightPx": 495
+						},
+						{
+							"label": "dimensions 2x",
+							"appleUrl": "https://www.apple.com/v/homepod-2nd-generation/b/images/specs/homepod__dlwt789yhxme_large_2x.jpg",
+							"localPath": "public/data/homepod/images/homepod__dlwt789yhxme_large_2x.jpg",
+							"widthPx": 864,
+							"heightPx": 990
+						},
+						{
+							"label": "environment icon 2x",
+							"appleUrl": "https://www.apple.com/v/homepod-2nd-generation/b/images/specs/icon_environment__blww9xnqkg5e_large_2x.png",
+							"localPath": "public/data/homepod/images/icon_environment__blww9xnqkg5e_large_2x.png",
+							"widthPx": 58,
+							"heightPx": 72
+						}
+					]
+				},
+				{
+					"id": "white",
+					"displayName": "White",
+					"swatch": {
+						"kind": "css",
+						"value": "#00000000"
+					},
+					"images": [
+						{
+							"label": "small",
+							"appleUrl": "https://www.apple.com/v/homepod-2nd-generation/b/images/specs/hero_white__fvbvm63ks9e2_small.jpg",
+							"localPath": "public/data/homepod/images/hero_white__fvbvm63ks9e2_small.jpg",
+							"widthPx": 252,
+							"heightPx": 336
+						},
+						{
+							"label": "small_2x",
+							"appleUrl": "https://www.apple.com/v/homepod-2nd-generation/b/images/specs/hero_white__fvbvm63ks9e2_small_2x.jpg",
+							"localPath": "public/data/homepod/images/hero_white__fvbvm63ks9e2_small_2x.jpg",
+							"widthPx": 504,
+							"heightPx": 672
+						},
+						{
+							"label": "medium",
+							"appleUrl": "https://www.apple.com/v/homepod-2nd-generation/b/images/specs/hero_white__fvbvm63ks9e2_medium.jpg",
+							"localPath": "public/data/homepod/images/hero_white__fvbvm63ks9e2_medium.jpg",
+							"widthPx": 301,
+							"heightPx": 403
+						},
+						{
+							"label": "medium_2x",
+							"appleUrl": "https://www.apple.com/v/homepod-2nd-generation/b/images/specs/hero_white__fvbvm63ks9e2_medium_2x.jpg",
+							"localPath": "public/data/homepod/images/hero_white__fvbvm63ks9e2_medium_2x.jpg",
+							"widthPx": 602,
+							"heightPx": 806
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/v/homepod-2nd-generation/b/images/specs/hero_white__fvbvm63ks9e2_large.jpg",
+							"localPath": "public/data/homepod/images/hero_white__fvbvm63ks9e2_large.jpg",
+							"widthPx": 365,
+							"heightPx": 489
+						},
+						{
+							"label": "large_2x",
+							"appleUrl": "https://www.apple.com/v/homepod-2nd-generation/b/images/specs/hero_white__fvbvm63ks9e2_large_2x.jpg",
+							"localPath": "public/data/homepod/images/hero_white__fvbvm63ks9e2_large_2x.jpg",
+							"widthPx": 730,
+							"heightPx": 978
+						},
+						{
+							"label": "metadata",
+							"appleUrl": "https://www.apple.com/v/homepod-2nd-generation/b/images/meta/homepod__dlwt789yhxme_og.png",
+							"localPath": "public/data/homepod/images/homepod__dlwt789yhxme_og.png",
+							"widthPx": 1200,
+							"heightPx": 630
+						}
+					]
+				}
+			],
+			"configurations": [],
+			"storageOptions": [],
+			"chips": [
+				{
+					"id": "ultra-wideband",
+					"displayName": "Ultra Wideband chip",
+					"family": "Ultra Wideband",
+					"cpuCores": {
+						"total": 1,
+						"performance": null,
+						"efficiency": null
+					},
+					"gpuCores": null,
+					"neuralEngineCores": null,
+					"memoryBandwidthGbps": null,
+					"neuralAccelerators": false,
+					"hardwareRayTracing": null,
+					"processNode": "",
+					"sourceNotes": "Source identifies an Ultra Wideband chip for device proximity; implementation details are not specified."
+				}
+			],
+			"displays": [],
+			"cameras": [],
+			"audio": {
+				"speaker": true,
+				"microphone": true,
+				"speakerConfiguration": "4-inch high-excursion woofer; Array of five horn-loaded tweeters, each tweeter with its own neodymium magnet; Internal low-frequency calibration microphone for automatic bass correction; Advanced computational audio with system sensing for real-time tuning; Room sensing; Spatial Audio with Dolby Atmos for music and video; Sound Recognition for smoke and carbon monoxide alarm sounds; Multiroom audio with AirPlay; Stereo pair–capable",
+				"microphoneConfiguration": "Four-microphone design for far-field Siri; Internal low-frequency calibration microphone for automatic bass correction",
+				"spatialAudio": true,
+				"formats": [
+					"Apple Music",
+					"iTunes music purchases",
+					"iCloud Music Library with an Apple Music or iTunes Match subscription",
+					"Third-party music services",
+					"Apple Music Radio or episodes on demand",
+					"Radio stations from TuneIn, iHeartRadio and Audacy",
+					"Apple Podcasts",
+					"News briefings",
+					"Remastered ambient sounds",
+					"AirPlay to share other content to HomePod from iPhone, iPad, Apple TV or Mac"
+				],
+				"sourceNotes": "Audio sources are represented under formats because the shared contract has no dedicated audio-sources array."
+			},
+			"batteryAndPower": {
+				"hasBattery": false,
+				"batteryCapacityMah": null,
+				"batteryCapacityWhr": null,
+				"runtimeHours": [],
+				"charging": {
+					"portId": null,
+					"wiredFastCharge": null,
+					"wirelessCharging": false,
+					"wirelessStandards": null,
+					"fastChargeMinutesToPercent": null,
+					"adapterPowerW": null
+				},
+				"powerSupply": {
+					"hasExternalPowerAdapter": null,
+					"outputVoltageV": null,
+					"outputCurrentA": null,
+					"outputPowerW": null,
+					"inputVoltageRangeV": {
+						"minimum": 100,
+						"maximum": 240
+					},
+					"frequencyHz": null,
+					"consumptionW": null
+				}
+			},
+			"connectivity": {
+				"ports": [
+					{
+						"id": "power-cable",
+						"kind": "power connector",
+						"quantity": 1,
+						"sourceNotes": "HomePod uses a fixed power cable."
+					}
+				],
+				"wifi": {
+					"standards": ["Wi-Fi 4"]
+				},
+				"bluetooth": {
+					"version": "Bluetooth 5.0"
+				},
+				"cellular": null,
+				"uwb": {
+					"chip": "Ultra Wideband chip",
+					"secondGeneration": true
+				},
+				"thread": {
+					"supported": true
+				},
+				"infrared": {
+					"present": false,
+					"purpose": null
+				},
+				"nearFieldCommunication": {
+					"present": false
+				},
+				"gps": {
+					"present": false
+				}
+			},
+			"authentication": {
+				"methods": ["none"],
+				"primaryMethod": "none",
+				"placement": null
+			},
+			"physical": {
+				"weights": [
+					{
+						"value": 2.3,
+						"unit": "kg"
+					}
+				],
+				"dimensions": [
+					{
+						"value": 168,
+						"unit": "mm",
+						"qualifier": "height"
+					},
+					{
+						"value": 142,
+						"unit": "mm",
+						"qualifier": "width or diameter"
+					}
+				],
+				"components": [
+					{
+						"id": "homepod-2nd-generation-speaker",
+						"displayName": "HomePod (2nd generation)",
+						"dimensions": [
+							{
+								"value": 168,
+								"unit": "mm",
+								"qualifier": "height"
+							},
+							{
+								"value": 142,
+								"unit": "mm",
+								"qualifier": "width or diameter"
+							}
+						],
+						"weight": 2.3,
+						"weightUnit": "kg"
+					}
+				]
+			},
+			"resistance": {
+				"ipRating": null,
+				"waterDepthM": null,
+				"splashPressureAtm": null,
+				"dustProtected": null,
+				"sweatResistant": null
+			},
+			"software": {
+				"operatingSystem": "HomePod Software",
+				"operatingSystemVersionAtLaunch": null,
+				"compatibleOperatingSystems": [
+					"iOS",
+					"iPadOS",
+					"macOS",
+					"tvOS",
+					"watchOS"
+				],
+				"builtInApps": []
+			},
+			"accessories": [],
+			"sourceNotes": "Remodeled from the supplied Apple specification HTML checkpoint. Controls, compatibility, sensors, sound recognition, room sensing, and in-box contents lack dedicated shared-contract fields. Unknown values use null; empty arrays indicate that the contract category has no applicable structured value."
+		}
+	]
+}

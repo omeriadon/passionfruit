@@ -1,0 +1,3198 @@
+{
+	"devices": [
+		{
+			"id": "iphone-7",
+			"name": "iPhone 7",
+			"family": "iphone",
+			"releaseYear": 2016,
+			"priceAud": null,
+			"colors": [],
+			"configurations": [],
+			"storageOptions": [
+				{
+					"id": "iphone-7-storage-1",
+					"displayName": "128GB",
+					"capacityValue": 128,
+					"capacityUnit": "GB"
+				},
+				{
+					"id": "iphone-7-storage-2",
+					"displayName": "256GB",
+					"capacityValue": 256,
+					"capacityUnit": "GB"
+				},
+				{
+					"id": "iphone-7-storage-3",
+					"displayName": "512GB",
+					"capacityValue": 512,
+					"capacityUnit": "GB"
+				}
+			],
+			"memoryOptions": [],
+			"chips": [
+				{
+					"id": "iphone-7-chip",
+					"displayName": "A10 Fusion chip",
+					"family": "A10 Fusion",
+					"cpuCores": {
+						"total": 4,
+						"performance": null,
+						"efficiency": null
+					},
+					"gpuCores": null,
+					"neuralEngineCores": null,
+					"memoryBandwidthGbps": null
+				}
+			],
+			"displays": [
+				{
+					"id": "iphone-7-display",
+					"technology": "Retina HD display",
+					"panelKind": "LCD",
+					"sizeIn": 4.7,
+					"resolutionWidthPx": 1334,
+					"resolutionHeightPx": 750,
+					"pixelsPerInch": 326,
+					"refreshRateHz": null,
+					"trueTone": null,
+					"promotion": false,
+					"alwaysOn": false,
+					"wideColorP3": true,
+					"sourceNotes": "Hidden compare rows 50, 51, 53, 54, 56, 58, 59."
+				}
+			],
+			"cameras": [
+				{
+					"id": "iphone-7-rear-camera",
+					"role": "rear-wide",
+					"displayName": "Single camera",
+					"megapixels": 12,
+					"sensorShiftOis": null,
+					"lidar": true,
+					"sourceNotes": "Hidden compare rows 30, 104 and 163."
+				},
+				{
+					"id": "iphone-7-front-camera",
+					"role": "front",
+					"displayName": "FaceTime HD camera",
+					"megapixels": 7,
+					"trueDepthSystem": null,
+					"centerStage": null,
+					"sourceNotes": "Hidden compare rows 109, 110 and 148."
+				}
+			],
+			"audio": {
+				"speaker": true,
+				"microphone": true
+			},
+			"batteryAndPower": {
+				"hasBattery": true,
+				"batteryCapacityMah": null,
+				"batteryCapacityWhr": null,
+				"runtimeHours": [
+					{
+						"id": "iphone-7-video-runtime",
+						"activity": "video",
+						"hours": 13
+					}
+				],
+				"charging": {
+					"portId": "iphone-7-lightning-port",
+					"wiredFastCharge": null,
+					"wirelessCharging": null,
+					"wirelessStandards": null,
+					"fastChargeMinutesToPercent": null,
+					"adapterPowerW": null
+				},
+				"powerSupply": {
+					"hasExternalPowerAdapter": null,
+					"outputVoltageV": null,
+					"outputCurrentA": null,
+					"outputPowerW": null,
+					"inputVoltageRangeV": null,
+					"frequencyHz": null,
+					"consumptionW": null
+				}
+			},
+			"connectivity": {
+				"ports": [
+					{
+						"id": "iphone-7-lightning-port",
+						"kind": "Lightning",
+						"standard": "USB 2"
+					}
+				],
+				"wifi": {
+					"standards": ["Wi-Fi 5"]
+				},
+				"bluetooth": {
+					"version": "Bluetooth 4.2"
+				},
+				"cellular": null,
+				"uwb": null,
+				"thread": null,
+				"infrared": null,
+				"nearFieldCommunication": {
+					"present": true,
+					"readWriteMode": null,
+					"backgroundTagReading": null
+				},
+				"gps": {
+					"present": true,
+					"precisionDualFrequency": false,
+					"systems": ["GPS"]
+				}
+			},
+			"authentication": {
+				"methods": ["Touch ID", "passcode"],
+				"primaryMethod": "Touch ID"
+			},
+			"physical": {
+				"weights": [],
+				"dimensions": [],
+				"components": [
+					{
+						"id": "iphone-7-physical-frame",
+						"displayName": "Aluminium frame",
+						"dimensions": [],
+						"weight": null
+					}
+				]
+			},
+			"resistance": {
+				"ipRating": "",
+				"waterDepthM": 1,
+				"splashPressureAtm": null,
+				"dustProtected": null,
+				"sweatResistant": null
+			},
+			"software": {
+				"operatingSystem": "iOS",
+				"operatingSystemVersionAtLaunch": null,
+				"builtInApps": []
+			},
+			"overviewImages": [],
+			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, colours, swatches, image bytes and Apple-hosted URLs are absent from target-specific evidence and remain null/empty rather than inferred."
+		},
+		{
+			"id": "iphone-7-plus",
+			"name": "iPhone 7 Plus",
+			"family": "iphone",
+			"releaseYear": 2016,
+			"priceAud": null,
+			"colors": [],
+			"configurations": [],
+			"storageOptions": [],
+			"memoryOptions": [],
+			"chips": [
+				{
+					"id": "iphone-7-plus-chip",
+					"displayName": "A10 Fusion chip",
+					"family": "A10 Fusion",
+					"cpuCores": {
+						"total": 4,
+						"performance": null,
+						"efficiency": null
+					},
+					"gpuCores": null,
+					"neuralEngineCores": null,
+					"memoryBandwidthGbps": null
+				}
+			],
+			"displays": [
+				{
+					"id": "iphone-7-plus-display",
+					"technology": "Retina HD display",
+					"panelKind": "LCD",
+					"sizeIn": 5.5,
+					"resolutionWidthPx": 1920,
+					"resolutionHeightPx": 1080,
+					"pixelsPerInch": 401,
+					"refreshRateHz": null,
+					"trueTone": null,
+					"promotion": false,
+					"alwaysOn": false,
+					"wideColorP3": true,
+					"sourceNotes": "Hidden compare rows 50, 51, 53, 54, 56, 58, 59."
+				}
+			],
+			"cameras": [
+				{
+					"id": "iphone-7-plus-rear-camera",
+					"role": "rear-wide",
+					"displayName": "Dual cameras Telephoto",
+					"megapixels": 12,
+					"sensorShiftOis": null,
+					"lidar": null,
+					"sourceNotes": "Hidden compare rows 30, 104 and 163."
+				},
+				{
+					"id": "iphone-7-plus-front-camera",
+					"role": "front",
+					"displayName": "FaceTime HD camera",
+					"megapixels": 7,
+					"trueDepthSystem": null,
+					"centerStage": null,
+					"sourceNotes": "Hidden compare rows 109, 110 and 148."
+				}
+			],
+			"audio": {
+				"speaker": true,
+				"microphone": true
+			},
+			"batteryAndPower": {
+				"hasBattery": true,
+				"batteryCapacityMah": null,
+				"batteryCapacityWhr": null,
+				"runtimeHours": [
+					{
+						"id": "iphone-7-plus-video-runtime",
+						"activity": "video",
+						"hours": 14
+					}
+				],
+				"charging": {
+					"portId": "iphone-7-plus-lightning-port",
+					"wiredFastCharge": null,
+					"wirelessCharging": null,
+					"wirelessStandards": null,
+					"fastChargeMinutesToPercent": null,
+					"adapterPowerW": null
+				},
+				"powerSupply": {
+					"hasExternalPowerAdapter": null,
+					"outputVoltageV": null,
+					"outputCurrentA": null,
+					"outputPowerW": null,
+					"inputVoltageRangeV": null,
+					"frequencyHz": null,
+					"consumptionW": null
+				}
+			},
+			"connectivity": {
+				"ports": [
+					{
+						"id": "iphone-7-plus-lightning-port",
+						"kind": "Lightning",
+						"standard": "USB 2"
+					}
+				],
+				"wifi": {
+					"standards": ["Wi-Fi 5"]
+				},
+				"bluetooth": {
+					"version": "Bluetooth 4.2"
+				},
+				"cellular": null,
+				"uwb": null,
+				"thread": null,
+				"infrared": null,
+				"nearFieldCommunication": {
+					"present": true,
+					"readWriteMode": null,
+					"backgroundTagReading": null
+				},
+				"gps": {
+					"present": true,
+					"precisionDualFrequency": false,
+					"systems": ["GPS"]
+				}
+			},
+			"authentication": {
+				"methods": ["Touch ID", "passcode"],
+				"primaryMethod": "Touch ID"
+			},
+			"physical": {
+				"weights": [],
+				"dimensions": [],
+				"components": [
+					{
+						"id": "iphone-7-plus-physical-frame",
+						"displayName": "Aluminium frame",
+						"dimensions": [],
+						"weight": null
+					}
+				]
+			},
+			"resistance": {
+				"ipRating": "",
+				"waterDepthM": 1,
+				"splashPressureAtm": null,
+				"dustProtected": null,
+				"sweatResistant": null
+			},
+			"software": {
+				"operatingSystem": "iOS",
+				"operatingSystemVersionAtLaunch": null,
+				"builtInApps": []
+			},
+			"overviewImages": [],
+			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, colours, swatches, image bytes and Apple-hosted URLs are absent from target-specific evidence and remain null/empty rather than inferred."
+		},
+		{
+			"id": "iphone-8",
+			"name": "iPhone 8",
+			"family": "iphone",
+			"releaseYear": 2017,
+			"priceAud": null,
+			"colors": [],
+			"configurations": [],
+			"storageOptions": [
+				{
+					"id": "iphone-8-storage-1",
+					"displayName": "128GB",
+					"capacityValue": 128,
+					"capacityUnit": "GB"
+				},
+				{
+					"id": "iphone-8-storage-2",
+					"displayName": "256GB",
+					"capacityValue": 256,
+					"capacityUnit": "GB"
+				},
+				{
+					"id": "iphone-8-storage-3",
+					"displayName": "512GB",
+					"capacityValue": 512,
+					"capacityUnit": "GB"
+				}
+			],
+			"memoryOptions": [],
+			"chips": [
+				{
+					"id": "iphone-8-chip",
+					"displayName": "A11 Bionic chip",
+					"family": "A11 Bionic",
+					"cpuCores": {
+						"total": 6,
+						"performance": null,
+						"efficiency": null
+					},
+					"gpuCores": 3,
+					"neuralEngineCores": 2,
+					"memoryBandwidthGbps": null
+				}
+			],
+			"displays": [
+				{
+					"id": "iphone-8-display",
+					"technology": "Retina HD display",
+					"panelKind": "LCD",
+					"sizeIn": 4.7,
+					"resolutionWidthPx": 1334,
+					"resolutionHeightPx": 750,
+					"pixelsPerInch": 326,
+					"refreshRateHz": null,
+					"trueTone": true,
+					"promotion": false,
+					"alwaysOn": false,
+					"wideColorP3": true,
+					"sourceNotes": "Hidden compare rows 50, 51, 53, 54, 56, 58, 59."
+				}
+			],
+			"cameras": [
+				{
+					"id": "iphone-8-rear-camera",
+					"role": "rear-wide",
+					"displayName": "Single camera",
+					"megapixels": 12,
+					"sensorShiftOis": null,
+					"lidar": null,
+					"sourceNotes": "Hidden compare rows 30, 104 and 163."
+				},
+				{
+					"id": "iphone-8-front-camera",
+					"role": "front",
+					"displayName": "FaceTime HD camera",
+					"megapixels": 7,
+					"trueDepthSystem": null,
+					"centerStage": null,
+					"sourceNotes": "Hidden compare rows 109, 110 and 148."
+				}
+			],
+			"audio": {
+				"speaker": true,
+				"microphone": true
+			},
+			"batteryAndPower": {
+				"hasBattery": true,
+				"batteryCapacityMah": null,
+				"batteryCapacityWhr": null,
+				"runtimeHours": [
+					{
+						"id": "iphone-8-video-runtime",
+						"activity": "video",
+						"hours": 13
+					}
+				],
+				"charging": {
+					"portId": "iphone-8-lightning-port",
+					"wiredFastCharge": null,
+					"wirelessCharging": true,
+					"wirelessStandards": ["Qi"],
+					"fastChargeMinutesToPercent": null,
+					"adapterPowerW": null
+				},
+				"powerSupply": {
+					"hasExternalPowerAdapter": null,
+					"outputVoltageV": null,
+					"outputCurrentA": null,
+					"outputPowerW": null,
+					"inputVoltageRangeV": null,
+					"frequencyHz": null,
+					"consumptionW": null
+				}
+			},
+			"connectivity": {
+				"ports": [
+					{
+						"id": "iphone-8-lightning-port",
+						"kind": "Lightning",
+						"standard": "USB 2"
+					}
+				],
+				"wifi": {
+					"standards": ["Wi-Fi 5"]
+				},
+				"bluetooth": {
+					"version": "Bluetooth 5.0"
+				},
+				"cellular": null,
+				"uwb": null,
+				"thread": null,
+				"infrared": null,
+				"nearFieldCommunication": {
+					"present": true,
+					"readWriteMode": null,
+					"backgroundTagReading": null
+				},
+				"gps": {
+					"present": true,
+					"precisionDualFrequency": false,
+					"systems": ["GPS"]
+				}
+			},
+			"authentication": {
+				"methods": ["Touch ID", "passcode"],
+				"primaryMethod": "Touch ID"
+			},
+			"physical": {
+				"weights": [],
+				"dimensions": [],
+				"components": [
+					{
+						"id": "iphone-8-physical-frame",
+						"displayName": "Aluminium frame",
+						"dimensions": [],
+						"weight": null
+					}
+				]
+			},
+			"resistance": {
+				"ipRating": "",
+				"waterDepthM": 1,
+				"splashPressureAtm": null,
+				"dustProtected": null,
+				"sweatResistant": null
+			},
+			"software": {
+				"operatingSystem": "iOS",
+				"operatingSystemVersionAtLaunch": null,
+				"builtInApps": []
+			},
+			"overviewImages": [],
+			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, colours, swatches, image bytes and Apple-hosted URLs are absent from target-specific evidence and remain null/empty rather than inferred."
+		},
+		{
+			"id": "iphone-8-plus",
+			"name": "iPhone 8 Plus",
+			"family": "iphone",
+			"releaseYear": 2017,
+			"priceAud": null,
+			"colors": [],
+			"configurations": [],
+			"storageOptions": [],
+			"memoryOptions": [],
+			"chips": [
+				{
+					"id": "iphone-8-plus-chip",
+					"displayName": "A11 Bionic chip",
+					"family": "A11 Bionic",
+					"cpuCores": {
+						"total": 6,
+						"performance": null,
+						"efficiency": null
+					},
+					"gpuCores": 3,
+					"neuralEngineCores": 2,
+					"memoryBandwidthGbps": null
+				}
+			],
+			"displays": [
+				{
+					"id": "iphone-8-plus-display",
+					"technology": "Retina HD display",
+					"panelKind": "LCD",
+					"sizeIn": 5.5,
+					"resolutionWidthPx": 1920,
+					"resolutionHeightPx": 1080,
+					"pixelsPerInch": 401,
+					"refreshRateHz": null,
+					"trueTone": true,
+					"promotion": false,
+					"alwaysOn": false,
+					"wideColorP3": true,
+					"sourceNotes": "Hidden compare rows 50, 51, 53, 54, 56, 58, 59."
+				}
+			],
+			"cameras": [
+				{
+					"id": "iphone-8-plus-rear-camera",
+					"role": "rear-wide",
+					"displayName": "Dual cameras Telephoto",
+					"megapixels": 12,
+					"sensorShiftOis": null,
+					"lidar": null,
+					"sourceNotes": "Hidden compare rows 30, 104 and 163."
+				},
+				{
+					"id": "iphone-8-plus-front-camera",
+					"role": "front",
+					"displayName": "FaceTime HD camera",
+					"megapixels": 7,
+					"trueDepthSystem": null,
+					"centerStage": null,
+					"sourceNotes": "Hidden compare rows 109, 110 and 148."
+				}
+			],
+			"audio": {
+				"speaker": true,
+				"microphone": true
+			},
+			"batteryAndPower": {
+				"hasBattery": true,
+				"batteryCapacityMah": null,
+				"batteryCapacityWhr": null,
+				"runtimeHours": [
+					{
+						"id": "iphone-8-plus-video-runtime",
+						"activity": "video",
+						"hours": 14
+					}
+				],
+				"charging": {
+					"portId": "iphone-8-plus-lightning-port",
+					"wiredFastCharge": null,
+					"wirelessCharging": true,
+					"wirelessStandards": ["Qi"],
+					"fastChargeMinutesToPercent": null,
+					"adapterPowerW": null
+				},
+				"powerSupply": {
+					"hasExternalPowerAdapter": null,
+					"outputVoltageV": null,
+					"outputCurrentA": null,
+					"outputPowerW": null,
+					"inputVoltageRangeV": null,
+					"frequencyHz": null,
+					"consumptionW": null
+				}
+			},
+			"connectivity": {
+				"ports": [
+					{
+						"id": "iphone-8-plus-lightning-port",
+						"kind": "Lightning",
+						"standard": "USB 2"
+					}
+				],
+				"wifi": {
+					"standards": ["Wi-Fi 5"]
+				},
+				"bluetooth": {
+					"version": "Bluetooth 5.0"
+				},
+				"cellular": null,
+				"uwb": null,
+				"thread": null,
+				"infrared": null,
+				"nearFieldCommunication": {
+					"present": true,
+					"readWriteMode": null,
+					"backgroundTagReading": null
+				},
+				"gps": {
+					"present": true,
+					"precisionDualFrequency": false,
+					"systems": ["GPS"]
+				}
+			},
+			"authentication": {
+				"methods": ["Touch ID", "passcode"],
+				"primaryMethod": "Touch ID"
+			},
+			"physical": {
+				"weights": [],
+				"dimensions": [],
+				"components": [
+					{
+						"id": "iphone-8-plus-physical-frame",
+						"displayName": "Aluminium frame",
+						"dimensions": [],
+						"weight": null
+					}
+				]
+			},
+			"resistance": {
+				"ipRating": "",
+				"waterDepthM": 1,
+				"splashPressureAtm": null,
+				"dustProtected": null,
+				"sweatResistant": null
+			},
+			"software": {
+				"operatingSystem": "iOS",
+				"operatingSystemVersionAtLaunch": null,
+				"builtInApps": []
+			},
+			"overviewImages": [],
+			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, colours, swatches, image bytes and Apple-hosted URLs are absent from target-specific evidence and remain null/empty rather than inferred."
+		},
+		{
+			"id": "iphone-se-2nd-generation",
+			"name": "iPhone SE (2nd generation)",
+			"family": "iphone",
+			"releaseYear": 2020,
+			"priceAud": null,
+			"colors": [],
+			"configurations": [],
+			"storageOptions": [
+				{
+					"id": "iphone-se-2nd-generation-storage-1",
+					"displayName": "128GB",
+					"capacityValue": 128,
+					"capacityUnit": "GB"
+				},
+				{
+					"id": "iphone-se-2nd-generation-storage-2",
+					"displayName": "256GB",
+					"capacityValue": 256,
+					"capacityUnit": "GB"
+				},
+				{
+					"id": "iphone-se-2nd-generation-storage-3",
+					"displayName": "512GB",
+					"capacityValue": 512,
+					"capacityUnit": "GB"
+				}
+			],
+			"memoryOptions": [],
+			"chips": [
+				{
+					"id": "iphone-se-2nd-generation-chip",
+					"displayName": "A13 Bionic chip",
+					"family": "A13 Bionic",
+					"cpuCores": {
+						"total": 6,
+						"performance": null,
+						"efficiency": null
+					},
+					"gpuCores": 4,
+					"neuralEngineCores": 8,
+					"memoryBandwidthGbps": null
+				}
+			],
+			"displays": [
+				{
+					"id": "iphone-se-2nd-generation-display",
+					"technology": "Retina HD display",
+					"panelKind": "LCD",
+					"sizeIn": 4.7,
+					"resolutionWidthPx": 1334,
+					"resolutionHeightPx": 750,
+					"pixelsPerInch": 326,
+					"refreshRateHz": null,
+					"trueTone": true,
+					"promotion": false,
+					"alwaysOn": false,
+					"wideColorP3": true,
+					"sourceNotes": "Hidden compare rows 50, 51, 53, 54, 56, 58, 59."
+				}
+			],
+			"cameras": [
+				{
+					"id": "iphone-se-2nd-generation-rear-camera",
+					"role": "rear-wide",
+					"displayName": "Single camera",
+					"megapixels": 12,
+					"sensorShiftOis": null,
+					"lidar": null,
+					"sourceNotes": "Hidden compare rows 30, 104 and 163."
+				},
+				{
+					"id": "iphone-se-2nd-generation-front-camera",
+					"role": "front",
+					"displayName": "FaceTime HD camera",
+					"megapixels": 7,
+					"trueDepthSystem": null,
+					"centerStage": null,
+					"sourceNotes": "Hidden compare rows 109, 110 and 148."
+				}
+			],
+			"audio": {
+				"speaker": true,
+				"microphone": true
+			},
+			"batteryAndPower": {
+				"hasBattery": true,
+				"batteryCapacityMah": null,
+				"batteryCapacityWhr": null,
+				"runtimeHours": [
+					{
+						"id": "iphone-se-2nd-generation-video-runtime",
+						"activity": "video",
+						"hours": 13
+					}
+				],
+				"charging": {
+					"portId": "iphone-se-2nd-generation-lightning-port",
+					"wiredFastCharge": null,
+					"wirelessCharging": true,
+					"wirelessStandards": ["Qi"],
+					"fastChargeMinutesToPercent": null,
+					"adapterPowerW": null
+				},
+				"powerSupply": {
+					"hasExternalPowerAdapter": null,
+					"outputVoltageV": null,
+					"outputCurrentA": null,
+					"outputPowerW": null,
+					"inputVoltageRangeV": null,
+					"frequencyHz": null,
+					"consumptionW": null
+				}
+			},
+			"connectivity": {
+				"ports": [
+					{
+						"id": "iphone-se-2nd-generation-lightning-port",
+						"kind": "Lightning",
+						"standard": "USB 2"
+					}
+				],
+				"wifi": {
+					"standards": ["Wi-Fi 6"]
+				},
+				"bluetooth": {
+					"version": "Bluetooth 5.0"
+				},
+				"cellular": null,
+				"uwb": null,
+				"thread": null,
+				"infrared": null,
+				"nearFieldCommunication": {
+					"present": true,
+					"readWriteMode": null,
+					"backgroundTagReading": null
+				},
+				"gps": {
+					"present": true,
+					"precisionDualFrequency": false,
+					"systems": ["GPS"]
+				}
+			},
+			"authentication": {
+				"methods": ["Touch ID", "passcode"],
+				"primaryMethod": "Touch ID"
+			},
+			"physical": {
+				"weights": [],
+				"dimensions": [],
+				"components": [
+					{
+						"id": "iphone-se-2nd-generation-physical-frame",
+						"displayName": "Aluminium frame",
+						"dimensions": [],
+						"weight": null
+					}
+				]
+			},
+			"resistance": {
+				"ipRating": "",
+				"waterDepthM": 1,
+				"splashPressureAtm": null,
+				"dustProtected": null,
+				"sweatResistant": null
+			},
+			"software": {
+				"operatingSystem": "iOS",
+				"operatingSystemVersionAtLaunch": null,
+				"builtInApps": []
+			},
+			"overviewImages": [],
+			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, colours, swatches, image bytes and Apple-hosted URLs are absent from target-specific evidence and remain null/empty rather than inferred."
+		},
+		{
+			"id": "iphone-x",
+			"name": "iPhone X",
+			"family": "iphone",
+			"releaseYear": 2017,
+			"priceAud": null,
+			"colors": [],
+			"configurations": [],
+			"storageOptions": [
+				{
+					"id": "iphone-x-storage-1",
+					"displayName": "128GB",
+					"capacityValue": 128,
+					"capacityUnit": "GB"
+				},
+				{
+					"id": "iphone-x-storage-2",
+					"displayName": "256GB",
+					"capacityValue": 256,
+					"capacityUnit": "GB"
+				},
+				{
+					"id": "iphone-x-storage-3",
+					"displayName": "512GB",
+					"capacityValue": 512,
+					"capacityUnit": "GB"
+				}
+			],
+			"memoryOptions": [],
+			"chips": [
+				{
+					"id": "iphone-x-chip",
+					"displayName": "A11 Bionic chip",
+					"family": "A11 Bionic",
+					"cpuCores": {
+						"total": 6,
+						"performance": null,
+						"efficiency": null
+					},
+					"gpuCores": 3,
+					"neuralEngineCores": 2,
+					"memoryBandwidthGbps": null
+				}
+			],
+			"displays": [
+				{
+					"id": "iphone-x-display",
+					"technology": "Super Retina XDR display",
+					"panelKind": "OLED",
+					"sizeIn": 5.8,
+					"resolutionWidthPx": 2436,
+					"resolutionHeightPx": 1125,
+					"pixelsPerInch": 458,
+					"refreshRateHz": null,
+					"trueTone": true,
+					"promotion": false,
+					"alwaysOn": false,
+					"wideColorP3": true,
+					"sourceNotes": "Hidden compare rows 50, 51, 53, 54, 56, 58, 59."
+				}
+			],
+			"cameras": [
+				{
+					"id": "iphone-x-rear-camera",
+					"role": "rear-wide",
+					"displayName": "Dual cameras Telephoto",
+					"megapixels": 12,
+					"sensorShiftOis": null,
+					"lidar": null,
+					"sourceNotes": "Hidden compare rows 30, 104 and 163."
+				},
+				{
+					"id": "iphone-x-front-camera",
+					"role": "front",
+					"displayName": "TrueDepth front camera",
+					"megapixels": 7,
+					"trueDepthSystem": true,
+					"centerStage": null,
+					"sourceNotes": "Hidden compare rows 109, 110 and 148."
+				}
+			],
+			"audio": {
+				"speaker": true,
+				"microphone": true
+			},
+			"batteryAndPower": {
+				"hasBattery": true,
+				"batteryCapacityMah": null,
+				"batteryCapacityWhr": null,
+				"runtimeHours": [
+					{
+						"id": "iphone-x-video-runtime",
+						"activity": "video",
+						"hours": 13
+					}
+				],
+				"charging": {
+					"portId": "iphone-x-lightning-port",
+					"wiredFastCharge": null,
+					"wirelessCharging": true,
+					"wirelessStandards": ["Qi"],
+					"fastChargeMinutesToPercent": null,
+					"adapterPowerW": null
+				},
+				"powerSupply": {
+					"hasExternalPowerAdapter": null,
+					"outputVoltageV": null,
+					"outputCurrentA": null,
+					"outputPowerW": null,
+					"inputVoltageRangeV": null,
+					"frequencyHz": null,
+					"consumptionW": null
+				}
+			},
+			"connectivity": {
+				"ports": [
+					{
+						"id": "iphone-x-lightning-port",
+						"kind": "Lightning",
+						"standard": "USB 2"
+					}
+				],
+				"wifi": {
+					"standards": ["Wi-Fi 5"]
+				},
+				"bluetooth": {
+					"version": "Bluetooth 5.0"
+				},
+				"cellular": null,
+				"uwb": null,
+				"thread": null,
+				"infrared": null,
+				"nearFieldCommunication": {
+					"present": true,
+					"readWriteMode": null,
+					"backgroundTagReading": null
+				},
+				"gps": {
+					"present": true,
+					"precisionDualFrequency": false,
+					"systems": ["GPS"]
+				}
+			},
+			"authentication": {
+				"methods": ["Face ID", "passcode"],
+				"primaryMethod": "Face ID"
+			},
+			"physical": {
+				"weights": [],
+				"dimensions": [],
+				"components": [
+					{
+						"id": "iphone-x-physical-frame",
+						"displayName": "Stainless steel frame",
+						"dimensions": [],
+						"weight": null
+					}
+				]
+			},
+			"resistance": {
+				"ipRating": "",
+				"waterDepthM": 1,
+				"splashPressureAtm": null,
+				"dustProtected": null,
+				"sweatResistant": null
+			},
+			"software": {
+				"operatingSystem": "iOS",
+				"operatingSystemVersionAtLaunch": null,
+				"builtInApps": []
+			},
+			"overviewImages": [],
+			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, colours, swatches, image bytes and Apple-hosted URLs are absent from target-specific evidence and remain null/empty rather than inferred."
+		},
+		{
+			"id": "iphone-xr",
+			"name": "iPhone XR",
+			"family": "iphone",
+			"releaseYear": 2018,
+			"priceAud": null,
+			"colors": [],
+			"configurations": [],
+			"storageOptions": [],
+			"memoryOptions": [],
+			"chips": [
+				{
+					"id": "iphone-xr-chip",
+					"displayName": "A12 Bionic chip",
+					"family": "A12 Bionic",
+					"cpuCores": {
+						"total": 6,
+						"performance": null,
+						"efficiency": null
+					},
+					"gpuCores": 4,
+					"neuralEngineCores": 8,
+					"memoryBandwidthGbps": null
+				}
+			],
+			"displays": [
+				{
+					"id": "iphone-xr-display",
+					"technology": "Retina HD display",
+					"panelKind": "LCD",
+					"sizeIn": 6.1,
+					"resolutionWidthPx": 1792,
+					"resolutionHeightPx": 828,
+					"pixelsPerInch": 326,
+					"refreshRateHz": null,
+					"trueTone": true,
+					"promotion": false,
+					"alwaysOn": false,
+					"wideColorP3": true,
+					"sourceNotes": "Hidden compare rows 50, 51, 53, 54, 56, 58, 59."
+				}
+			],
+			"cameras": [
+				{
+					"id": "iphone-xr-rear-camera",
+					"role": "rear-wide",
+					"displayName": "Single camera",
+					"megapixels": 12,
+					"sensorShiftOis": null,
+					"lidar": null,
+					"sourceNotes": "Hidden compare rows 30, 104 and 163."
+				},
+				{
+					"id": "iphone-xr-front-camera",
+					"role": "front",
+					"displayName": "TrueDepth front camera",
+					"megapixels": 7,
+					"trueDepthSystem": true,
+					"centerStage": null,
+					"sourceNotes": "Hidden compare rows 109, 110 and 148."
+				}
+			],
+			"audio": {
+				"speaker": true,
+				"microphone": true
+			},
+			"batteryAndPower": {
+				"hasBattery": true,
+				"batteryCapacityMah": null,
+				"batteryCapacityWhr": null,
+				"runtimeHours": [
+					{
+						"id": "iphone-xr-video-runtime",
+						"activity": "video",
+						"hours": 16
+					}
+				],
+				"charging": {
+					"portId": "iphone-xr-lightning-port",
+					"wiredFastCharge": null,
+					"wirelessCharging": true,
+					"wirelessStandards": ["Qi"],
+					"fastChargeMinutesToPercent": null,
+					"adapterPowerW": null
+				},
+				"powerSupply": {
+					"hasExternalPowerAdapter": null,
+					"outputVoltageV": null,
+					"outputCurrentA": null,
+					"outputPowerW": null,
+					"inputVoltageRangeV": null,
+					"frequencyHz": null,
+					"consumptionW": null
+				}
+			},
+			"connectivity": {
+				"ports": [
+					{
+						"id": "iphone-xr-lightning-port",
+						"kind": "Lightning",
+						"standard": "USB 2"
+					}
+				],
+				"wifi": {
+					"standards": ["Wi-Fi 5"]
+				},
+				"bluetooth": {
+					"version": "Bluetooth 5.0"
+				},
+				"cellular": null,
+				"uwb": null,
+				"thread": null,
+				"infrared": null,
+				"nearFieldCommunication": {
+					"present": true,
+					"readWriteMode": null,
+					"backgroundTagReading": null
+				},
+				"gps": {
+					"present": true,
+					"precisionDualFrequency": false,
+					"systems": ["GPS"]
+				}
+			},
+			"authentication": {
+				"methods": ["Face ID", "passcode"],
+				"primaryMethod": "Face ID"
+			},
+			"physical": {
+				"weights": [],
+				"dimensions": [],
+				"components": [
+					{
+						"id": "iphone-xr-physical-frame",
+						"displayName": "Aluminium frame",
+						"dimensions": [],
+						"weight": null
+					}
+				]
+			},
+			"resistance": {
+				"ipRating": "",
+				"waterDepthM": 1,
+				"splashPressureAtm": null,
+				"dustProtected": null,
+				"sweatResistant": null
+			},
+			"software": {
+				"operatingSystem": "iOS",
+				"operatingSystemVersionAtLaunch": null,
+				"builtInApps": []
+			},
+			"overviewImages": [],
+			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, colours, swatches, image bytes and Apple-hosted URLs are absent from target-specific evidence and remain null/empty rather than inferred."
+		},
+		{
+			"id": "iphone-xs",
+			"name": "iPhone XS",
+			"family": "iphone",
+			"releaseYear": 2018,
+			"priceAud": null,
+			"colors": [],
+			"configurations": [],
+			"storageOptions": [],
+			"memoryOptions": [],
+			"chips": [
+				{
+					"id": "iphone-xs-chip",
+					"displayName": "A12 Bionic chip",
+					"family": "A12 Bionic",
+					"cpuCores": {
+						"total": 6,
+						"performance": null,
+						"efficiency": null
+					},
+					"gpuCores": 4,
+					"neuralEngineCores": 8,
+					"memoryBandwidthGbps": null
+				}
+			],
+			"displays": [
+				{
+					"id": "iphone-xs-display",
+					"technology": "Super Retina XDR display",
+					"panelKind": "OLED",
+					"sizeIn": 5.8,
+					"resolutionWidthPx": 2436,
+					"resolutionHeightPx": 1125,
+					"pixelsPerInch": 458,
+					"refreshRateHz": null,
+					"trueTone": true,
+					"promotion": false,
+					"alwaysOn": false,
+					"wideColorP3": true,
+					"sourceNotes": "Hidden compare rows 50, 51, 53, 54, 56, 58, 59."
+				}
+			],
+			"cameras": [
+				{
+					"id": "iphone-xs-rear-camera",
+					"role": "rear-wide",
+					"displayName": "Dual cameras Telephoto",
+					"megapixels": 12,
+					"sensorShiftOis": null,
+					"lidar": null,
+					"sourceNotes": "Hidden compare rows 30, 104 and 163."
+				},
+				{
+					"id": "iphone-xs-front-camera",
+					"role": "front",
+					"displayName": "TrueDepth front camera",
+					"megapixels": 7,
+					"trueDepthSystem": true,
+					"centerStage": null,
+					"sourceNotes": "Hidden compare rows 109, 110 and 148."
+				}
+			],
+			"audio": {
+				"speaker": true,
+				"microphone": true
+			},
+			"batteryAndPower": {
+				"hasBattery": true,
+				"batteryCapacityMah": null,
+				"batteryCapacityWhr": null,
+				"runtimeHours": [
+					{
+						"id": "iphone-xs-video-runtime",
+						"activity": "video",
+						"hours": 14
+					}
+				],
+				"charging": {
+					"portId": "iphone-xs-lightning-port",
+					"wiredFastCharge": null,
+					"wirelessCharging": true,
+					"wirelessStandards": ["Qi"],
+					"fastChargeMinutesToPercent": null,
+					"adapterPowerW": null
+				},
+				"powerSupply": {
+					"hasExternalPowerAdapter": null,
+					"outputVoltageV": null,
+					"outputCurrentA": null,
+					"outputPowerW": null,
+					"inputVoltageRangeV": null,
+					"frequencyHz": null,
+					"consumptionW": null
+				}
+			},
+			"connectivity": {
+				"ports": [
+					{
+						"id": "iphone-xs-lightning-port",
+						"kind": "Lightning",
+						"standard": "USB 2"
+					}
+				],
+				"wifi": {
+					"standards": ["Wi-Fi 5"]
+				},
+				"bluetooth": {
+					"version": "Bluetooth 5.0"
+				},
+				"cellular": null,
+				"uwb": null,
+				"thread": null,
+				"infrared": null,
+				"nearFieldCommunication": {
+					"present": true,
+					"readWriteMode": null,
+					"backgroundTagReading": null
+				},
+				"gps": {
+					"present": true,
+					"precisionDualFrequency": false,
+					"systems": ["GPS"]
+				}
+			},
+			"authentication": {
+				"methods": ["Face ID", "passcode"],
+				"primaryMethod": "Face ID"
+			},
+			"physical": {
+				"weights": [],
+				"dimensions": [],
+				"components": [
+					{
+						"id": "iphone-xs-physical-frame",
+						"displayName": "Stainless steel frame",
+						"dimensions": [],
+						"weight": null
+					}
+				]
+			},
+			"resistance": {
+				"ipRating": "",
+				"waterDepthM": 2,
+				"splashPressureAtm": null,
+				"dustProtected": null,
+				"sweatResistant": null
+			},
+			"software": {
+				"operatingSystem": "iOS",
+				"operatingSystemVersionAtLaunch": null,
+				"builtInApps": []
+			},
+			"overviewImages": [],
+			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, colours, swatches, image bytes and Apple-hosted URLs are absent from target-specific evidence and remain null/empty rather than inferred."
+		},
+		{
+			"id": "iphone-xs-max",
+			"name": "iPhone XS Max",
+			"family": "iphone",
+			"releaseYear": 2018,
+			"priceAud": null,
+			"colors": [],
+			"configurations": [],
+			"storageOptions": [
+				{
+					"id": "iphone-xs-max-storage-1",
+					"displayName": "128GB",
+					"capacityValue": 128,
+					"capacityUnit": "GB"
+				},
+				{
+					"id": "iphone-xs-max-storage-2",
+					"displayName": "256GB",
+					"capacityValue": 256,
+					"capacityUnit": "GB"
+				},
+				{
+					"id": "iphone-xs-max-storage-3",
+					"displayName": "512GB",
+					"capacityValue": 512,
+					"capacityUnit": "GB"
+				}
+			],
+			"memoryOptions": [],
+			"chips": [
+				{
+					"id": "iphone-xs-max-chip",
+					"displayName": "A12 Bionic chip",
+					"family": "A12 Bionic",
+					"cpuCores": {
+						"total": 6,
+						"performance": null,
+						"efficiency": null
+					},
+					"gpuCores": 4,
+					"neuralEngineCores": 8,
+					"memoryBandwidthGbps": null
+				}
+			],
+			"displays": [
+				{
+					"id": "iphone-xs-max-display",
+					"technology": "Super Retina XDR display",
+					"panelKind": "OLED",
+					"sizeIn": 6.5,
+					"resolutionWidthPx": 2688,
+					"resolutionHeightPx": 1242,
+					"pixelsPerInch": 458,
+					"refreshRateHz": null,
+					"trueTone": true,
+					"promotion": false,
+					"alwaysOn": false,
+					"wideColorP3": true,
+					"sourceNotes": "Hidden compare rows 50, 51, 53, 54, 56, 58, 59."
+				}
+			],
+			"cameras": [
+				{
+					"id": "iphone-xs-max-rear-camera",
+					"role": "rear-wide",
+					"displayName": "Dual cameras Telephoto",
+					"megapixels": 12,
+					"sensorShiftOis": null,
+					"lidar": null,
+					"sourceNotes": "Hidden compare rows 30, 104 and 163."
+				},
+				{
+					"id": "iphone-xs-max-front-camera",
+					"role": "front",
+					"displayName": "TrueDepth front camera",
+					"megapixels": 7,
+					"trueDepthSystem": true,
+					"centerStage": null,
+					"sourceNotes": "Hidden compare rows 109, 110 and 148."
+				}
+			],
+			"audio": {
+				"speaker": true,
+				"microphone": true
+			},
+			"batteryAndPower": {
+				"hasBattery": true,
+				"batteryCapacityMah": null,
+				"batteryCapacityWhr": null,
+				"runtimeHours": [
+					{
+						"id": "iphone-xs-max-video-runtime",
+						"activity": "video",
+						"hours": 15
+					}
+				],
+				"charging": {
+					"portId": "iphone-xs-max-lightning-port",
+					"wiredFastCharge": null,
+					"wirelessCharging": true,
+					"wirelessStandards": ["Qi"],
+					"fastChargeMinutesToPercent": null,
+					"adapterPowerW": null
+				},
+				"powerSupply": {
+					"hasExternalPowerAdapter": null,
+					"outputVoltageV": null,
+					"outputCurrentA": null,
+					"outputPowerW": null,
+					"inputVoltageRangeV": null,
+					"frequencyHz": null,
+					"consumptionW": null
+				}
+			},
+			"connectivity": {
+				"ports": [
+					{
+						"id": "iphone-xs-max-lightning-port",
+						"kind": "Lightning",
+						"standard": "USB 2"
+					}
+				],
+				"wifi": {
+					"standards": ["Wi-Fi 5"]
+				},
+				"bluetooth": {
+					"version": "Bluetooth 5.0"
+				},
+				"cellular": null,
+				"uwb": null,
+				"thread": null,
+				"infrared": null,
+				"nearFieldCommunication": {
+					"present": true,
+					"readWriteMode": null,
+					"backgroundTagReading": null
+				},
+				"gps": {
+					"present": true,
+					"precisionDualFrequency": false,
+					"systems": ["GPS"]
+				}
+			},
+			"authentication": {
+				"methods": ["Face ID", "passcode"],
+				"primaryMethod": "Face ID"
+			},
+			"physical": {
+				"weights": [],
+				"dimensions": [],
+				"components": [
+					{
+						"id": "iphone-xs-max-physical-frame",
+						"displayName": "Stainless steel frame",
+						"dimensions": [],
+						"weight": null
+					}
+				]
+			},
+			"resistance": {
+				"ipRating": "",
+				"waterDepthM": 2,
+				"splashPressureAtm": null,
+				"dustProtected": null,
+				"sweatResistant": null
+			},
+			"software": {
+				"operatingSystem": "iOS",
+				"operatingSystemVersionAtLaunch": null,
+				"builtInApps": []
+			},
+			"overviewImages": [],
+			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, colours, swatches, image bytes and Apple-hosted URLs are absent from target-specific evidence and remain null/empty rather than inferred."
+		},
+		{
+			"id": "iphone-11-pro-max",
+			"name": "iPhone 11 Pro Max",
+			"family": "iphone",
+			"releaseYear": 2019,
+			"priceAud": null,
+			"colors": [],
+			"configurations": [],
+			"storageOptions": [
+				{
+					"id": "iphone-11-pro-max-storage-1",
+					"displayName": "128GB",
+					"capacityValue": 128,
+					"capacityUnit": "GB"
+				},
+				{
+					"id": "iphone-11-pro-max-storage-2",
+					"displayName": "256GB",
+					"capacityValue": 256,
+					"capacityUnit": "GB"
+				},
+				{
+					"id": "iphone-11-pro-max-storage-3",
+					"displayName": "512GB",
+					"capacityValue": 512,
+					"capacityUnit": "GB"
+				}
+			],
+			"memoryOptions": [],
+			"chips": [
+				{
+					"id": "iphone-11-pro-max-chip",
+					"displayName": "A13 Bionic chip",
+					"family": "A13 Bionic",
+					"cpuCores": {
+						"total": 6,
+						"performance": null,
+						"efficiency": null
+					},
+					"gpuCores": 4,
+					"neuralEngineCores": 8,
+					"memoryBandwidthGbps": null
+				}
+			],
+			"displays": [
+				{
+					"id": "iphone-11-pro-max-display",
+					"technology": "Super Retina XDR display",
+					"panelKind": "OLED",
+					"sizeIn": 6.5,
+					"resolutionWidthPx": 2688,
+					"resolutionHeightPx": 1242,
+					"pixelsPerInch": 458,
+					"refreshRateHz": null,
+					"trueTone": true,
+					"promotion": false,
+					"alwaysOn": false,
+					"wideColorP3": true,
+					"sourceNotes": "Hidden compare rows 50, 51, 53, 54, 56, 58, 59."
+				}
+			],
+			"cameras": [
+				{
+					"id": "iphone-11-pro-max-rear-camera",
+					"role": "rear-wide",
+					"displayName": "Triple cameras Ultra Wide Telephoto",
+					"megapixels": 12,
+					"sensorShiftOis": null,
+					"lidar": null,
+					"sourceNotes": "Hidden compare rows 30, 104 and 163."
+				},
+				{
+					"id": "iphone-11-pro-max-front-camera",
+					"role": "front",
+					"displayName": "TrueDepth front camera",
+					"megapixels": 12,
+					"trueDepthSystem": true,
+					"centerStage": null,
+					"sourceNotes": "Hidden compare rows 109, 110 and 148."
+				}
+			],
+			"audio": {
+				"speaker": true,
+				"microphone": true
+			},
+			"batteryAndPower": {
+				"hasBattery": true,
+				"batteryCapacityMah": null,
+				"batteryCapacityWhr": null,
+				"runtimeHours": [
+					{
+						"id": "iphone-11-pro-max-video-runtime",
+						"activity": "video",
+						"hours": 20
+					}
+				],
+				"charging": {
+					"portId": "iphone-11-pro-max-lightning-port",
+					"wiredFastCharge": null,
+					"wirelessCharging": true,
+					"wirelessStandards": ["Qi"],
+					"fastChargeMinutesToPercent": null,
+					"adapterPowerW": null
+				},
+				"powerSupply": {
+					"hasExternalPowerAdapter": null,
+					"outputVoltageV": null,
+					"outputCurrentA": null,
+					"outputPowerW": null,
+					"inputVoltageRangeV": null,
+					"frequencyHz": null,
+					"consumptionW": null
+				}
+			},
+			"connectivity": {
+				"ports": [
+					{
+						"id": "iphone-11-pro-max-lightning-port",
+						"kind": "Lightning",
+						"standard": "USB 2"
+					}
+				],
+				"wifi": {
+					"standards": ["Wi-Fi 6"]
+				},
+				"bluetooth": {
+					"version": "Bluetooth 5.0"
+				},
+				"cellular": null,
+				"uwb": {
+					"chip": "Apple Ultra Wideband chip19",
+					"secondGeneration": false
+				},
+				"thread": null,
+				"infrared": null,
+				"nearFieldCommunication": {
+					"present": true,
+					"readWriteMode": null,
+					"backgroundTagReading": null
+				},
+				"gps": {
+					"present": true,
+					"precisionDualFrequency": false,
+					"systems": ["GPS"]
+				}
+			},
+			"authentication": {
+				"methods": ["Face ID", "passcode"],
+				"primaryMethod": "Face ID"
+			},
+			"physical": {
+				"weights": [],
+				"dimensions": [],
+				"components": [
+					{
+						"id": "iphone-11-pro-max-physical-frame",
+						"displayName": "Stainless steel frame",
+						"dimensions": [],
+						"weight": null
+					}
+				]
+			},
+			"resistance": {
+				"ipRating": "",
+				"waterDepthM": 4,
+				"splashPressureAtm": null,
+				"dustProtected": null,
+				"sweatResistant": null
+			},
+			"software": {
+				"operatingSystem": "iOS",
+				"operatingSystemVersionAtLaunch": null,
+				"builtInApps": []
+			},
+			"overviewImages": [],
+			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, colours, swatches, image bytes and Apple-hosted URLs are absent from target-specific evidence and remain null/empty rather than inferred."
+		},
+		{
+			"id": "iphone-12-mini",
+			"name": "iPhone 12 mini",
+			"family": "iphone",
+			"releaseYear": 2020,
+			"priceAud": null,
+			"colors": [],
+			"configurations": [],
+			"storageOptions": [
+				{
+					"id": "iphone-12-mini-storage-1",
+					"displayName": "1TB",
+					"capacityValue": 1024,
+					"capacityUnit": "GB"
+				}
+			],
+			"memoryOptions": [],
+			"chips": [
+				{
+					"id": "iphone-12-mini-chip",
+					"displayName": "A14 Bionic chip",
+					"family": "A14 Bionic",
+					"cpuCores": {
+						"total": 6,
+						"performance": null,
+						"efficiency": null
+					},
+					"gpuCores": 4,
+					"neuralEngineCores": 16,
+					"memoryBandwidthGbps": null
+				}
+			],
+			"displays": [
+				{
+					"id": "iphone-12-mini-display",
+					"technology": "Super Retina XDR display",
+					"panelKind": "OLED",
+					"sizeIn": 5.4,
+					"resolutionWidthPx": 2340,
+					"resolutionHeightPx": 1080,
+					"pixelsPerInch": 476,
+					"refreshRateHz": null,
+					"trueTone": true,
+					"promotion": false,
+					"alwaysOn": false,
+					"wideColorP3": true,
+					"sourceNotes": "Hidden compare rows 50, 51, 53, 54, 56, 58, 59."
+				}
+			],
+			"cameras": [
+				{
+					"id": "iphone-12-mini-rear-camera",
+					"role": "rear-wide",
+					"displayName": "Dual-camera system Ultra Wide",
+					"megapixels": 12,
+					"sensorShiftOis": null,
+					"lidar": null,
+					"sourceNotes": "Hidden compare rows 30, 104 and 163."
+				},
+				{
+					"id": "iphone-12-mini-front-camera",
+					"role": "front",
+					"displayName": "TrueDepth front camera",
+					"megapixels": 12,
+					"trueDepthSystem": true,
+					"centerStage": null,
+					"sourceNotes": "Hidden compare rows 109, 110 and 148."
+				}
+			],
+			"audio": {
+				"speaker": true,
+				"microphone": true
+			},
+			"batteryAndPower": {
+				"hasBattery": true,
+				"batteryCapacityMah": null,
+				"batteryCapacityWhr": null,
+				"runtimeHours": [
+					{
+						"id": "iphone-12-mini-video-runtime",
+						"activity": "video",
+						"hours": 15
+					}
+				],
+				"charging": {
+					"portId": "iphone-12-mini-lightning-port",
+					"wiredFastCharge": null,
+					"wirelessCharging": true,
+					"wirelessStandards": ["MagSafe", "Qi"],
+					"fastChargeMinutesToPercent": null,
+					"adapterPowerW": null
+				},
+				"powerSupply": {
+					"hasExternalPowerAdapter": null,
+					"outputVoltageV": null,
+					"outputCurrentA": null,
+					"outputPowerW": null,
+					"inputVoltageRangeV": null,
+					"frequencyHz": null,
+					"consumptionW": null
+				}
+			},
+			"connectivity": {
+				"ports": [
+					{
+						"id": "iphone-12-mini-lightning-port",
+						"kind": "Lightning",
+						"standard": "USB 2"
+					}
+				],
+				"wifi": {
+					"standards": ["Wi-Fi 6"]
+				},
+				"bluetooth": {
+					"version": "Bluetooth 5.0"
+				},
+				"cellular": null,
+				"uwb": {
+					"chip": "Apple Ultra Wideband chip19",
+					"secondGeneration": false
+				},
+				"thread": null,
+				"infrared": null,
+				"nearFieldCommunication": {
+					"present": true,
+					"readWriteMode": null,
+					"backgroundTagReading": null
+				},
+				"gps": {
+					"present": true,
+					"precisionDualFrequency": false,
+					"systems": ["GPS"]
+				}
+			},
+			"authentication": {
+				"methods": ["Face ID", "passcode"],
+				"primaryMethod": "Face ID"
+			},
+			"physical": {
+				"weights": [],
+				"dimensions": [],
+				"components": [
+					{
+						"id": "iphone-12-mini-physical-frame",
+						"displayName": "Aluminium frame",
+						"dimensions": [],
+						"weight": null
+					}
+				]
+			},
+			"resistance": {
+				"ipRating": "",
+				"waterDepthM": 6,
+				"splashPressureAtm": null,
+				"dustProtected": null,
+				"sweatResistant": null
+			},
+			"software": {
+				"operatingSystem": "iOS",
+				"operatingSystemVersionAtLaunch": null,
+				"builtInApps": []
+			},
+			"overviewImages": [],
+			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, colours, swatches, image bytes and Apple-hosted URLs are absent from target-specific evidence and remain null/empty rather than inferred."
+		},
+		{
+			"id": "iphone-13-pro",
+			"name": "iPhone 13 Pro",
+			"family": "iphone",
+			"releaseYear": 2021,
+			"priceAud": null,
+			"colors": [],
+			"configurations": [],
+			"storageOptions": [
+				{
+					"id": "iphone-13-pro-storage-1",
+					"displayName": "128GB",
+					"capacityValue": 128,
+					"capacityUnit": "GB"
+				},
+				{
+					"id": "iphone-13-pro-storage-2",
+					"displayName": "256GB",
+					"capacityValue": 256,
+					"capacityUnit": "GB"
+				},
+				{
+					"id": "iphone-13-pro-storage-3",
+					"displayName": "512GB",
+					"capacityValue": 512,
+					"capacityUnit": "GB"
+				}
+			],
+			"memoryOptions": [],
+			"chips": [
+				{
+					"id": "iphone-13-pro-chip",
+					"displayName": "A15 Bionic chip",
+					"family": "A15 Bionic",
+					"cpuCores": {
+						"total": 6,
+						"performance": null,
+						"efficiency": null
+					},
+					"gpuCores": 5,
+					"neuralEngineCores": 16,
+					"memoryBandwidthGbps": null
+				}
+			],
+			"displays": [
+				{
+					"id": "iphone-13-pro-display",
+					"technology": "Super Retina XDR display",
+					"panelKind": "OLED",
+					"sizeIn": 6.1,
+					"resolutionWidthPx": 2532,
+					"resolutionHeightPx": 1170,
+					"pixelsPerInch": 460,
+					"refreshRateHz": 120,
+					"trueTone": true,
+					"promotion": true,
+					"alwaysOn": false,
+					"wideColorP3": true,
+					"sourceNotes": "Hidden compare rows 50, 51, 53, 54, 56, 58, 59."
+				}
+			],
+			"cameras": [
+				{
+					"id": "iphone-13-pro-rear-camera",
+					"role": "rear-wide",
+					"displayName": "Pro camera system Ultra Wide Telephoto",
+					"megapixels": 12,
+					"sensorShiftOis": null,
+					"lidar": null,
+					"sourceNotes": "Hidden compare rows 30, 104 and 163."
+				},
+				{
+					"id": "iphone-13-pro-front-camera",
+					"role": "front",
+					"displayName": "TrueDepth front camera",
+					"megapixels": 12,
+					"trueDepthSystem": true,
+					"centerStage": null,
+					"sourceNotes": "Hidden compare rows 109, 110 and 148."
+				}
+			],
+			"audio": {
+				"speaker": true,
+				"microphone": true
+			},
+			"batteryAndPower": {
+				"hasBattery": true,
+				"batteryCapacityMah": null,
+				"batteryCapacityWhr": null,
+				"runtimeHours": [
+					{
+						"id": "iphone-13-pro-video-runtime",
+						"activity": "video",
+						"hours": 22
+					}
+				],
+				"charging": {
+					"portId": "iphone-13-pro-lightning-port",
+					"wiredFastCharge": null,
+					"wirelessCharging": true,
+					"wirelessStandards": ["MagSafe", "Qi"],
+					"fastChargeMinutesToPercent": null,
+					"adapterPowerW": null
+				},
+				"powerSupply": {
+					"hasExternalPowerAdapter": null,
+					"outputVoltageV": null,
+					"outputCurrentA": null,
+					"outputPowerW": null,
+					"inputVoltageRangeV": null,
+					"frequencyHz": null,
+					"consumptionW": null
+				}
+			},
+			"connectivity": {
+				"ports": [
+					{
+						"id": "iphone-13-pro-lightning-port",
+						"kind": "Lightning",
+						"standard": "USB 2"
+					}
+				],
+				"wifi": {
+					"standards": ["Wi-Fi 6"]
+				},
+				"bluetooth": {
+					"version": "Bluetooth 5.0"
+				},
+				"cellular": null,
+				"uwb": {
+					"chip": "Apple Ultra Wideband chip19",
+					"secondGeneration": false
+				},
+				"thread": null,
+				"infrared": null,
+				"nearFieldCommunication": {
+					"present": true,
+					"readWriteMode": null,
+					"backgroundTagReading": null
+				},
+				"gps": {
+					"present": true,
+					"precisionDualFrequency": false,
+					"systems": ["GPS"]
+				}
+			},
+			"authentication": {
+				"methods": ["Face ID", "passcode"],
+				"primaryMethod": "Face ID"
+			},
+			"physical": {
+				"weights": [],
+				"dimensions": [],
+				"components": [
+					{
+						"id": "iphone-13-pro-physical-frame",
+						"displayName": "Stainless steel frame",
+						"dimensions": [],
+						"weight": null
+					}
+				]
+			},
+			"resistance": {
+				"ipRating": "",
+				"waterDepthM": 6,
+				"splashPressureAtm": null,
+				"dustProtected": null,
+				"sweatResistant": null
+			},
+			"software": {
+				"operatingSystem": "iOS",
+				"operatingSystemVersionAtLaunch": null,
+				"builtInApps": []
+			},
+			"overviewImages": [],
+			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, colours, swatches, image bytes and Apple-hosted URLs are absent from target-specific evidence and remain null/empty rather than inferred."
+		},
+		{
+			"id": "iphone-15",
+			"name": "iPhone 15",
+			"family": "iphone",
+			"releaseYear": 2023,
+			"priceAud": null,
+			"colors": [],
+			"configurations": [],
+			"storageOptions": [
+				{
+					"id": "iphone-15-storage-1",
+					"displayName": "128GB",
+					"capacityValue": 128,
+					"capacityUnit": "GB"
+				},
+				{
+					"id": "iphone-15-storage-2",
+					"displayName": "256GB",
+					"capacityValue": 256,
+					"capacityUnit": "GB"
+				},
+				{
+					"id": "iphone-15-storage-3",
+					"displayName": "512GB",
+					"capacityValue": 512,
+					"capacityUnit": "GB"
+				},
+				{
+					"id": "iphone-15-storage-4",
+					"displayName": "1TB",
+					"capacityValue": 1024,
+					"capacityUnit": "GB"
+				}
+			],
+			"memoryOptions": [],
+			"chips": [
+				{
+					"id": "iphone-15-chip",
+					"displayName": "A16 Bionic chip",
+					"family": "A16 Bionic",
+					"cpuCores": {
+						"total": 6,
+						"performance": null,
+						"efficiency": null
+					},
+					"gpuCores": 5,
+					"neuralEngineCores": 16,
+					"memoryBandwidthGbps": null
+				}
+			],
+			"displays": [
+				{
+					"id": "iphone-15-display",
+					"technology": "Super Retina XDR display",
+					"panelKind": "OLED",
+					"sizeIn": 6.1,
+					"resolutionWidthPx": 2556,
+					"resolutionHeightPx": 1179,
+					"pixelsPerInch": 460,
+					"refreshRateHz": null,
+					"trueTone": true,
+					"promotion": false,
+					"alwaysOn": false,
+					"wideColorP3": true,
+					"sourceNotes": "Hidden compare rows 50, 51, 53, 54, 56, 58, 59."
+				}
+			],
+			"cameras": [
+				{
+					"id": "iphone-15-rear-camera",
+					"role": "rear-wide",
+					"displayName": "Dual-camera system Ultra Wide",
+					"megapixels": 48,
+					"sensorShiftOis": null,
+					"lidar": null,
+					"sourceNotes": "Hidden compare rows 30, 104 and 163."
+				},
+				{
+					"id": "iphone-15-front-camera",
+					"role": "front",
+					"displayName": "TrueDepth front camera",
+					"megapixels": 12,
+					"trueDepthSystem": true,
+					"centerStage": null,
+					"sourceNotes": "Hidden compare rows 109, 110 and 148."
+				}
+			],
+			"audio": {
+				"speaker": true,
+				"microphone": true
+			},
+			"batteryAndPower": {
+				"hasBattery": true,
+				"batteryCapacityMah": null,
+				"batteryCapacityWhr": null,
+				"runtimeHours": [
+					{
+						"id": "iphone-15-video-runtime",
+						"activity": "video",
+						"hours": 20
+					}
+				],
+				"charging": {
+					"portId": "iphone-15-usb-c-port",
+					"wiredFastCharge": null,
+					"wirelessCharging": true,
+					"wirelessStandards": ["MagSafe", "Qi"],
+					"fastChargeMinutesToPercent": null,
+					"adapterPowerW": null
+				},
+				"powerSupply": {
+					"hasExternalPowerAdapter": null,
+					"outputVoltageV": null,
+					"outputCurrentA": null,
+					"outputPowerW": null,
+					"inputVoltageRangeV": null,
+					"frequencyHz": null,
+					"consumptionW": null
+				}
+			},
+			"connectivity": {
+				"ports": [
+					{
+						"id": "iphone-15-usb-c-port",
+						"kind": "USB-C",
+						"standard": "USB 2"
+					}
+				],
+				"wifi": {
+					"standards": ["Wi-Fi 6"]
+				},
+				"bluetooth": {
+					"version": "Bluetooth 5.3"
+				},
+				"cellular": null,
+				"uwb": {
+					"chip": "Apple second-generation Ultra Wideband chip19",
+					"secondGeneration": true
+				},
+				"thread": null,
+				"infrared": null,
+				"nearFieldCommunication": {
+					"present": true,
+					"readWriteMode": null,
+					"backgroundTagReading": null
+				},
+				"gps": {
+					"present": true,
+					"precisionDualFrequency": false,
+					"systems": ["GPS"]
+				}
+			},
+			"authentication": {
+				"methods": ["Face ID", "passcode"],
+				"primaryMethod": "Face ID"
+			},
+			"physical": {
+				"weights": [],
+				"dimensions": [],
+				"components": [
+					{
+						"id": "iphone-15-physical-frame",
+						"displayName": "Aluminium frame",
+						"dimensions": [],
+						"weight": null
+					}
+				]
+			},
+			"resistance": {
+				"ipRating": "",
+				"waterDepthM": 6,
+				"splashPressureAtm": null,
+				"dustProtected": null,
+				"sweatResistant": null
+			},
+			"software": {
+				"operatingSystem": "iOS",
+				"operatingSystemVersionAtLaunch": null,
+				"builtInApps": []
+			},
+			"overviewImages": [],
+			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, colours, swatches, image bytes and Apple-hosted URLs are absent from target-specific evidence and remain null/empty rather than inferred."
+		},
+		{
+			"id": "iphone-15-plus",
+			"name": "iPhone 15 Plus",
+			"family": "iphone",
+			"releaseYear": 2023,
+			"priceAud": null,
+			"colors": [],
+			"configurations": [],
+			"storageOptions": [],
+			"memoryOptions": [],
+			"chips": [
+				{
+					"id": "iphone-15-plus-chip",
+					"displayName": "A16 Bionic chip",
+					"family": "A16 Bionic",
+					"cpuCores": {
+						"total": 6,
+						"performance": null,
+						"efficiency": null
+					},
+					"gpuCores": 5,
+					"neuralEngineCores": 16,
+					"memoryBandwidthGbps": null
+				}
+			],
+			"displays": [
+				{
+					"id": "iphone-15-plus-display",
+					"technology": "Super Retina XDR display",
+					"panelKind": "OLED",
+					"sizeIn": 6.7,
+					"resolutionWidthPx": 2796,
+					"resolutionHeightPx": 1290,
+					"pixelsPerInch": 460,
+					"refreshRateHz": null,
+					"trueTone": true,
+					"promotion": false,
+					"alwaysOn": false,
+					"wideColorP3": true,
+					"sourceNotes": "Hidden compare rows 50, 51, 53, 54, 56, 58, 59."
+				}
+			],
+			"cameras": [
+				{
+					"id": "iphone-15-plus-rear-camera",
+					"role": "rear-wide",
+					"displayName": "Dual-camera system Ultra Wide",
+					"megapixels": 48,
+					"sensorShiftOis": null,
+					"lidar": null,
+					"sourceNotes": "Hidden compare rows 30, 104 and 163."
+				},
+				{
+					"id": "iphone-15-plus-front-camera",
+					"role": "front",
+					"displayName": "TrueDepth front camera",
+					"megapixels": 12,
+					"trueDepthSystem": true,
+					"centerStage": null,
+					"sourceNotes": "Hidden compare rows 109, 110 and 148."
+				}
+			],
+			"audio": {
+				"speaker": true,
+				"microphone": true
+			},
+			"batteryAndPower": {
+				"hasBattery": true,
+				"batteryCapacityMah": null,
+				"batteryCapacityWhr": null,
+				"runtimeHours": [
+					{
+						"id": "iphone-15-plus-video-runtime",
+						"activity": "video",
+						"hours": 26
+					}
+				],
+				"charging": {
+					"portId": "iphone-15-plus-usb-c-port",
+					"wiredFastCharge": null,
+					"wirelessCharging": true,
+					"wirelessStandards": ["MagSafe", "Qi"],
+					"fastChargeMinutesToPercent": null,
+					"adapterPowerW": null
+				},
+				"powerSupply": {
+					"hasExternalPowerAdapter": null,
+					"outputVoltageV": null,
+					"outputCurrentA": null,
+					"outputPowerW": null,
+					"inputVoltageRangeV": null,
+					"frequencyHz": null,
+					"consumptionW": null
+				}
+			},
+			"connectivity": {
+				"ports": [
+					{
+						"id": "iphone-15-plus-usb-c-port",
+						"kind": "USB-C",
+						"standard": "USB 2"
+					}
+				],
+				"wifi": {
+					"standards": ["Wi-Fi 6"]
+				},
+				"bluetooth": {
+					"version": "Bluetooth 5.3"
+				},
+				"cellular": null,
+				"uwb": {
+					"chip": "Apple second-generation Ultra Wideband chip19",
+					"secondGeneration": true
+				},
+				"thread": null,
+				"infrared": null,
+				"nearFieldCommunication": {
+					"present": true,
+					"readWriteMode": null,
+					"backgroundTagReading": null
+				},
+				"gps": {
+					"present": true,
+					"precisionDualFrequency": false,
+					"systems": ["GPS"]
+				}
+			},
+			"authentication": {
+				"methods": ["Face ID", "passcode"],
+				"primaryMethod": "Face ID"
+			},
+			"physical": {
+				"weights": [],
+				"dimensions": [],
+				"components": [
+					{
+						"id": "iphone-15-plus-physical-frame",
+						"displayName": "Aluminium frame",
+						"dimensions": [],
+						"weight": null
+					}
+				]
+			},
+			"resistance": {
+				"ipRating": "",
+				"waterDepthM": 6,
+				"splashPressureAtm": null,
+				"dustProtected": null,
+				"sweatResistant": null
+			},
+			"software": {
+				"operatingSystem": "iOS",
+				"operatingSystemVersionAtLaunch": null,
+				"builtInApps": []
+			},
+			"overviewImages": [],
+			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, colours, swatches, image bytes and Apple-hosted URLs are absent from target-specific evidence and remain null/empty rather than inferred."
+		},
+		{
+			"id": "iphone-15-pro",
+			"name": "iPhone 15 Pro",
+			"family": "iphone",
+			"releaseYear": 2023,
+			"priceAud": null,
+			"colors": [],
+			"configurations": [],
+			"storageOptions": [
+				{
+					"id": "iphone-15-pro-storage-1",
+					"displayName": "128GB",
+					"capacityValue": 128,
+					"capacityUnit": "GB"
+				},
+				{
+					"id": "iphone-15-pro-storage-2",
+					"displayName": "256GB",
+					"capacityValue": 256,
+					"capacityUnit": "GB"
+				},
+				{
+					"id": "iphone-15-pro-storage-3",
+					"displayName": "512GB",
+					"capacityValue": 512,
+					"capacityUnit": "GB"
+				}
+			],
+			"memoryOptions": [],
+			"chips": [
+				{
+					"id": "iphone-15-pro-chip",
+					"displayName": "A17 Pro chip",
+					"family": "A17 Pro",
+					"cpuCores": {
+						"total": 6,
+						"performance": null,
+						"efficiency": null
+					},
+					"gpuCores": 6,
+					"neuralEngineCores": 16,
+					"memoryBandwidthGbps": null
+				}
+			],
+			"displays": [
+				{
+					"id": "iphone-15-pro-display",
+					"technology": "Super Retina XDR display",
+					"panelKind": "OLED",
+					"sizeIn": 6.1,
+					"resolutionWidthPx": 2556,
+					"resolutionHeightPx": 1179,
+					"pixelsPerInch": 460,
+					"refreshRateHz": 120,
+					"trueTone": true,
+					"promotion": true,
+					"alwaysOn": true,
+					"wideColorP3": true,
+					"sourceNotes": "Hidden compare rows 50, 51, 53, 54, 56, 58, 59."
+				}
+			],
+			"cameras": [
+				{
+					"id": "iphone-15-pro-rear-camera",
+					"role": "rear-wide",
+					"displayName": "Pro camera system Ultra Wide Telephoto",
+					"megapixels": 48,
+					"sensorShiftOis": true,
+					"lidar": null,
+					"sourceNotes": "Hidden compare rows 30, 104 and 163."
+				},
+				{
+					"id": "iphone-15-pro-front-camera",
+					"role": "front",
+					"displayName": "TrueDepth front camera",
+					"megapixels": 12,
+					"trueDepthSystem": true,
+					"centerStage": null,
+					"sourceNotes": "Hidden compare rows 109, 110 and 148."
+				}
+			],
+			"audio": {
+				"speaker": true,
+				"microphone": true
+			},
+			"batteryAndPower": {
+				"hasBattery": true,
+				"batteryCapacityMah": null,
+				"batteryCapacityWhr": null,
+				"runtimeHours": [
+					{
+						"id": "iphone-15-pro-video-runtime",
+						"activity": "video",
+						"hours": 23
+					}
+				],
+				"charging": {
+					"portId": "iphone-15-pro-usb-c-port",
+					"wiredFastCharge": null,
+					"wirelessCharging": true,
+					"wirelessStandards": ["MagSafe", "Qi"],
+					"fastChargeMinutesToPercent": null,
+					"adapterPowerW": null
+				},
+				"powerSupply": {
+					"hasExternalPowerAdapter": null,
+					"outputVoltageV": null,
+					"outputCurrentA": null,
+					"outputPowerW": null,
+					"inputVoltageRangeV": null,
+					"frequencyHz": null,
+					"consumptionW": null
+				}
+			},
+			"connectivity": {
+				"ports": [
+					{
+						"id": "iphone-15-pro-usb-c-port",
+						"kind": "USB-C",
+						"standard": "USB 3.2 Gen 1"
+					}
+				],
+				"wifi": {
+					"standards": ["Wi-Fi 6E"]
+				},
+				"bluetooth": {
+					"version": "Bluetooth 5.3"
+				},
+				"cellular": null,
+				"uwb": {
+					"chip": "Apple second-generation Ultra Wideband chip19",
+					"secondGeneration": true
+				},
+				"thread": null,
+				"infrared": null,
+				"nearFieldCommunication": {
+					"present": true,
+					"readWriteMode": null,
+					"backgroundTagReading": null
+				},
+				"gps": {
+					"present": true,
+					"precisionDualFrequency": true,
+					"systems": ["GPS"]
+				}
+			},
+			"authentication": {
+				"methods": ["Face ID", "passcode"],
+				"primaryMethod": "Face ID"
+			},
+			"physical": {
+				"weights": [],
+				"dimensions": [],
+				"components": [
+					{
+						"id": "iphone-15-pro-physical-frame",
+						"displayName": "Titanium frame",
+						"dimensions": [],
+						"weight": null
+					}
+				]
+			},
+			"resistance": {
+				"ipRating": "",
+				"waterDepthM": 6,
+				"splashPressureAtm": null,
+				"dustProtected": null,
+				"sweatResistant": null
+			},
+			"software": {
+				"operatingSystem": "iOS",
+				"operatingSystemVersionAtLaunch": null,
+				"builtInApps": []
+			},
+			"overviewImages": [],
+			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, colours, swatches, image bytes and Apple-hosted URLs are absent from target-specific evidence and remain null/empty rather than inferred."
+		},
+		{
+			"id": "iphone-16-plus",
+			"name": "iPhone 16 Plus",
+			"family": "iphone",
+			"releaseYear": 2024,
+			"priceAud": null,
+			"colors": [],
+			"configurations": [],
+			"storageOptions": [
+				{
+					"id": "iphone-16-plus-storage-1",
+					"displayName": "128GB",
+					"capacityValue": 128,
+					"capacityUnit": "GB"
+				},
+				{
+					"id": "iphone-16-plus-storage-2",
+					"displayName": "256GB",
+					"capacityValue": 256,
+					"capacityUnit": "GB"
+				},
+				{
+					"id": "iphone-16-plus-storage-3",
+					"displayName": "512GB",
+					"capacityValue": 512,
+					"capacityUnit": "GB"
+				}
+			],
+			"memoryOptions": [],
+			"chips": [
+				{
+					"id": "iphone-16-plus-chip",
+					"displayName": "A18 chip",
+					"family": "A18",
+					"cpuCores": {
+						"total": 6,
+						"performance": null,
+						"efficiency": null
+					},
+					"gpuCores": 5,
+					"neuralEngineCores": 16,
+					"memoryBandwidthGbps": null
+				}
+			],
+			"displays": [
+				{
+					"id": "iphone-16-plus-display",
+					"technology": "Super Retina XDR display",
+					"panelKind": "OLED",
+					"sizeIn": 6.7,
+					"resolutionWidthPx": 2796,
+					"resolutionHeightPx": 1290,
+					"pixelsPerInch": 460,
+					"refreshRateHz": null,
+					"trueTone": true,
+					"promotion": false,
+					"alwaysOn": false,
+					"wideColorP3": true,
+					"sourceNotes": "Hidden compare rows 50, 51, 53, 54, 56, 58, 59."
+				}
+			],
+			"cameras": [
+				{
+					"id": "iphone-16-plus-rear-camera",
+					"role": "rear-wide",
+					"displayName": "Advanced dual-camera system",
+					"megapixels": 48,
+					"sensorShiftOis": null,
+					"lidar": null,
+					"sourceNotes": "Hidden compare rows 30, 104 and 163."
+				},
+				{
+					"id": "iphone-16-plus-front-camera",
+					"role": "front",
+					"displayName": "TrueDepth front camera",
+					"megapixels": 12,
+					"trueDepthSystem": true,
+					"centerStage": null,
+					"sourceNotes": "Hidden compare rows 109, 110 and 148."
+				}
+			],
+			"audio": {
+				"speaker": true,
+				"microphone": true
+			},
+			"batteryAndPower": {
+				"hasBattery": true,
+				"batteryCapacityMah": null,
+				"batteryCapacityWhr": null,
+				"runtimeHours": [
+					{
+						"id": "iphone-16-plus-video-runtime",
+						"activity": "video",
+						"hours": 27
+					}
+				],
+				"charging": {
+					"portId": "iphone-16-plus-usb-c-port",
+					"wiredFastCharge": null,
+					"wirelessCharging": true,
+					"wirelessStandards": ["MagSafe", "Qi"],
+					"fastChargeMinutesToPercent": null,
+					"adapterPowerW": null
+				},
+				"powerSupply": {
+					"hasExternalPowerAdapter": null,
+					"outputVoltageV": null,
+					"outputCurrentA": null,
+					"outputPowerW": null,
+					"inputVoltageRangeV": null,
+					"frequencyHz": null,
+					"consumptionW": null
+				}
+			},
+			"connectivity": {
+				"ports": [
+					{
+						"id": "iphone-16-plus-usb-c-port",
+						"kind": "USB-C",
+						"standard": "USB 2"
+					}
+				],
+				"wifi": {
+					"standards": ["Wi-Fi 7"]
+				},
+				"bluetooth": {
+					"version": "Bluetooth 5.3"
+				},
+				"cellular": null,
+				"uwb": {
+					"chip": "Apple second-generation Ultra Wideband chip19",
+					"secondGeneration": true
+				},
+				"thread": null,
+				"infrared": null,
+				"nearFieldCommunication": {
+					"present": true,
+					"readWriteMode": null,
+					"backgroundTagReading": null
+				},
+				"gps": {
+					"present": true,
+					"precisionDualFrequency": false,
+					"systems": ["GPS"]
+				}
+			},
+			"authentication": {
+				"methods": ["Face ID", "passcode"],
+				"primaryMethod": "Face ID"
+			},
+			"physical": {
+				"weights": [],
+				"dimensions": [],
+				"components": [
+					{
+						"id": "iphone-16-plus-physical-frame",
+						"displayName": "Aluminium frame",
+						"dimensions": [],
+						"weight": null
+					}
+				]
+			},
+			"resistance": {
+				"ipRating": "",
+				"waterDepthM": 6,
+				"splashPressureAtm": null,
+				"dustProtected": null,
+				"sweatResistant": null
+			},
+			"software": {
+				"operatingSystem": "iOS",
+				"operatingSystemVersionAtLaunch": null,
+				"builtInApps": []
+			},
+			"overviewImages": [],
+			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, colours, swatches, image bytes and Apple-hosted URLs are absent from target-specific evidence and remain null/empty rather than inferred."
+		},
+		{
+			"id": "iphone-16-pro",
+			"name": "iPhone 16 Pro",
+			"family": "iphone",
+			"releaseYear": 2024,
+			"priceAud": null,
+			"colors": [],
+			"configurations": [],
+			"storageOptions": [],
+			"memoryOptions": [],
+			"chips": [
+				{
+					"id": "iphone-16-pro-chip",
+					"displayName": "A18 Pro chip",
+					"family": "A18 Pro",
+					"cpuCores": {
+						"total": 6,
+						"performance": null,
+						"efficiency": null
+					},
+					"gpuCores": 6,
+					"neuralEngineCores": 16,
+					"memoryBandwidthGbps": null
+				}
+			],
+			"displays": [
+				{
+					"id": "iphone-16-pro-display",
+					"technology": "Super Retina XDR display",
+					"panelKind": "OLED",
+					"sizeIn": 6.3,
+					"resolutionWidthPx": 2622,
+					"resolutionHeightPx": 1206,
+					"pixelsPerInch": 460,
+					"refreshRateHz": 120,
+					"trueTone": true,
+					"promotion": true,
+					"alwaysOn": true,
+					"wideColorP3": true,
+					"sourceNotes": "Hidden compare rows 50, 51, 53, 54, 56, 58, 59."
+				}
+			],
+			"cameras": [
+				{
+					"id": "iphone-16-pro-rear-camera",
+					"role": "rear-wide",
+					"displayName": "Pro camera system Telephoto",
+					"megapixels": 48,
+					"sensorShiftOis": true,
+					"lidar": null,
+					"sourceNotes": "Hidden compare rows 30, 104 and 163."
+				},
+				{
+					"id": "iphone-16-pro-front-camera",
+					"role": "front",
+					"displayName": "TrueDepth front camera",
+					"megapixels": 12,
+					"trueDepthSystem": true,
+					"centerStage": null,
+					"sourceNotes": "Hidden compare rows 109, 110 and 148."
+				}
+			],
+			"audio": {
+				"speaker": true,
+				"microphone": true
+			},
+			"batteryAndPower": {
+				"hasBattery": true,
+				"batteryCapacityMah": null,
+				"batteryCapacityWhr": null,
+				"runtimeHours": [
+					{
+						"id": "iphone-16-pro-video-runtime",
+						"activity": "video",
+						"hours": 27
+					}
+				],
+				"charging": {
+					"portId": "iphone-16-pro-usb-c-port",
+					"wiredFastCharge": null,
+					"wirelessCharging": true,
+					"wirelessStandards": ["MagSafe", "Qi"],
+					"fastChargeMinutesToPercent": null,
+					"adapterPowerW": null
+				},
+				"powerSupply": {
+					"hasExternalPowerAdapter": null,
+					"outputVoltageV": null,
+					"outputCurrentA": null,
+					"outputPowerW": null,
+					"inputVoltageRangeV": null,
+					"frequencyHz": null,
+					"consumptionW": null
+				}
+			},
+			"connectivity": {
+				"ports": [
+					{
+						"id": "iphone-16-pro-usb-c-port",
+						"kind": "USB-C",
+						"standard": "USB 3.2 Gen 1"
+					}
+				],
+				"wifi": {
+					"standards": ["Wi-Fi 7"]
+				},
+				"bluetooth": {
+					"version": "Bluetooth 5.3"
+				},
+				"cellular": null,
+				"uwb": {
+					"chip": "Apple second-generation Ultra Wideband chip19",
+					"secondGeneration": true
+				},
+				"thread": null,
+				"infrared": null,
+				"nearFieldCommunication": {
+					"present": true,
+					"readWriteMode": null,
+					"backgroundTagReading": null
+				},
+				"gps": {
+					"present": true,
+					"precisionDualFrequency": true,
+					"systems": ["GPS"]
+				}
+			},
+			"authentication": {
+				"methods": ["Face ID", "passcode"],
+				"primaryMethod": "Face ID"
+			},
+			"physical": {
+				"weights": [],
+				"dimensions": [],
+				"components": [
+					{
+						"id": "iphone-16-pro-physical-frame",
+						"displayName": "Titanium frame",
+						"dimensions": [],
+						"weight": null
+					}
+				]
+			},
+			"resistance": {
+				"ipRating": "",
+				"waterDepthM": 6,
+				"splashPressureAtm": null,
+				"dustProtected": null,
+				"sweatResistant": null
+			},
+			"software": {
+				"operatingSystem": "iOS",
+				"operatingSystemVersionAtLaunch": null,
+				"builtInApps": []
+			},
+			"overviewImages": [],
+			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, colours, swatches, image bytes and Apple-hosted URLs are absent from target-specific evidence and remain null/empty rather than inferred."
+		},
+		{
+			"id": "iphone-16e",
+			"name": "iPhone 16e",
+			"family": "iphone",
+			"releaseYear": 2025,
+			"priceAud": null,
+			"colors": [],
+			"configurations": [],
+			"storageOptions": [],
+			"memoryOptions": [],
+			"chips": [
+				{
+					"id": "iphone-16e-chip",
+					"displayName": "A18 chip",
+					"family": "A18",
+					"cpuCores": {
+						"total": 6,
+						"performance": null,
+						"efficiency": null
+					},
+					"gpuCores": 4,
+					"neuralEngineCores": 16,
+					"memoryBandwidthGbps": null
+				}
+			],
+			"displays": [
+				{
+					"id": "iphone-16e-display",
+					"technology": "Super Retina XDR display",
+					"panelKind": "OLED",
+					"sizeIn": 6.1,
+					"resolutionWidthPx": 2532,
+					"resolutionHeightPx": 1170,
+					"pixelsPerInch": 460,
+					"refreshRateHz": null,
+					"trueTone": true,
+					"promotion": false,
+					"alwaysOn": false,
+					"wideColorP3": true,
+					"sourceNotes": "Hidden compare rows 50, 51, 53, 54, 56, 58, 59."
+				}
+			],
+			"cameras": [
+				{
+					"id": "iphone-16e-rear-camera",
+					"role": "rear-wide",
+					"displayName": "2-in-1 camera system",
+					"megapixels": 48,
+					"sensorShiftOis": null,
+					"lidar": null,
+					"sourceNotes": "Hidden compare rows 30, 104 and 163."
+				},
+				{
+					"id": "iphone-16e-front-camera",
+					"role": "front",
+					"displayName": "TrueDepth front camera",
+					"megapixels": 12,
+					"trueDepthSystem": true,
+					"centerStage": null,
+					"sourceNotes": "Hidden compare rows 109, 110 and 148."
+				}
+			],
+			"audio": {
+				"speaker": true,
+				"microphone": true
+			},
+			"batteryAndPower": {
+				"hasBattery": true,
+				"batteryCapacityMah": null,
+				"batteryCapacityWhr": null,
+				"runtimeHours": [
+					{
+						"id": "iphone-16e-video-runtime",
+						"activity": "video",
+						"hours": 26
+					}
+				],
+				"charging": {
+					"portId": "iphone-16e-usb-c-port",
+					"wiredFastCharge": null,
+					"wirelessCharging": true,
+					"wirelessStandards": ["Qi"],
+					"fastChargeMinutesToPercent": null,
+					"adapterPowerW": null
+				},
+				"powerSupply": {
+					"hasExternalPowerAdapter": null,
+					"outputVoltageV": null,
+					"outputCurrentA": null,
+					"outputPowerW": null,
+					"inputVoltageRangeV": null,
+					"frequencyHz": null,
+					"consumptionW": null
+				}
+			},
+			"connectivity": {
+				"ports": [
+					{
+						"id": "iphone-16e-usb-c-port",
+						"kind": "USB-C",
+						"standard": "USB 2"
+					}
+				],
+				"wifi": {
+					"standards": ["Wi-Fi 6"]
+				},
+				"bluetooth": {
+					"version": "Bluetooth 5.3"
+				},
+				"cellular": null,
+				"uwb": null,
+				"thread": null,
+				"infrared": null,
+				"nearFieldCommunication": {
+					"present": true,
+					"readWriteMode": null,
+					"backgroundTagReading": null
+				},
+				"gps": {
+					"present": true,
+					"precisionDualFrequency": false,
+					"systems": ["GPS"]
+				}
+			},
+			"authentication": {
+				"methods": ["Face ID", "passcode"],
+				"primaryMethod": "Face ID"
+			},
+			"physical": {
+				"weights": [],
+				"dimensions": [],
+				"components": [
+					{
+						"id": "iphone-16e-physical-frame",
+						"displayName": "Aluminium frame",
+						"dimensions": [],
+						"weight": null
+					}
+				]
+			},
+			"resistance": {
+				"ipRating": "",
+				"waterDepthM": 6,
+				"splashPressureAtm": null,
+				"dustProtected": null,
+				"sweatResistant": null
+			},
+			"software": {
+				"operatingSystem": "iOS",
+				"operatingSystemVersionAtLaunch": null,
+				"builtInApps": []
+			},
+			"overviewImages": [],
+			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, colours, swatches, image bytes and Apple-hosted URLs are absent from target-specific evidence and remain null/empty rather than inferred."
+		},
+		{
+			"id": "iphone-17-pro",
+			"name": "iPhone 17 Pro",
+			"family": "iphone",
+			"releaseYear": 2025,
+			"priceAud": null,
+			"colors": [],
+			"configurations": [],
+			"storageOptions": [
+				{
+					"id": "iphone-17-pro-storage-1",
+					"displayName": "128GB",
+					"capacityValue": 128,
+					"capacityUnit": "GB"
+				},
+				{
+					"id": "iphone-17-pro-storage-2",
+					"displayName": "256GB",
+					"capacityValue": 256,
+					"capacityUnit": "GB"
+				},
+				{
+					"id": "iphone-17-pro-storage-3",
+					"displayName": "512GB",
+					"capacityValue": 512,
+					"capacityUnit": "GB"
+				}
+			],
+			"memoryOptions": [],
+			"chips": [
+				{
+					"id": "iphone-17-pro-chip",
+					"displayName": "A19 Pro chip",
+					"family": "A19 Pro",
+					"cpuCores": {
+						"total": 6,
+						"performance": null,
+						"efficiency": null
+					},
+					"gpuCores": 6,
+					"neuralEngineCores": 16,
+					"memoryBandwidthGbps": null
+				}
+			],
+			"displays": [
+				{
+					"id": "iphone-17-pro-display",
+					"technology": "Super Retina XDR display",
+					"panelKind": "OLED",
+					"sizeIn": 6.3,
+					"resolutionWidthPx": 2622,
+					"resolutionHeightPx": 1206,
+					"pixelsPerInch": 460,
+					"refreshRateHz": 120,
+					"trueTone": true,
+					"promotion": true,
+					"alwaysOn": true,
+					"wideColorP3": true,
+					"sourceNotes": "Hidden compare rows 50, 51, 53, 54, 56, 58, 59."
+				}
+			],
+			"cameras": [
+				{
+					"id": "iphone-17-pro-rear-camera",
+					"role": "rear-wide",
+					"displayName": "48MP Pro Fusion camera system",
+					"megapixels": 48,
+					"sensorShiftOis": true,
+					"lidar": null,
+					"sourceNotes": "Hidden compare rows 30, 104 and 163."
+				},
+				{
+					"id": "iphone-17-pro-front-camera",
+					"role": "front",
+					"displayName": "18MP Center Stage front camera",
+					"megapixels": 18,
+					"trueDepthSystem": null,
+					"centerStage": true,
+					"sourceNotes": "Hidden compare rows 109, 110 and 148."
+				}
+			],
+			"audio": {
+				"speaker": true,
+				"microphone": true
+			},
+			"batteryAndPower": {
+				"hasBattery": true,
+				"batteryCapacityMah": null,
+				"batteryCapacityWhr": null,
+				"runtimeHours": [
+					{
+						"id": "iphone-17-pro-video-runtime",
+						"activity": "video",
+						"hours": 31
+					}
+				],
+				"charging": {
+					"portId": "iphone-17-pro-usb-c-port",
+					"wiredFastCharge": null,
+					"wirelessCharging": true,
+					"wirelessStandards": ["MagSafe", "Qi"],
+					"fastChargeMinutesToPercent": null,
+					"adapterPowerW": null
+				},
+				"powerSupply": {
+					"hasExternalPowerAdapter": null,
+					"outputVoltageV": null,
+					"outputCurrentA": null,
+					"outputPowerW": null,
+					"inputVoltageRangeV": null,
+					"frequencyHz": null,
+					"consumptionW": null
+				}
+			},
+			"connectivity": {
+				"ports": [
+					{
+						"id": "iphone-17-pro-usb-c-port",
+						"kind": "USB-C",
+						"standard": "USB 3.2 Gen 1"
+					}
+				],
+				"wifi": {
+					"standards": ["Wi-Fi 7"]
+				},
+				"bluetooth": {
+					"version": "Bluetooth 6.0"
+				},
+				"cellular": null,
+				"uwb": {
+					"chip": "Apple second-generation Ultra Wideband chip19",
+					"secondGeneration": true
+				},
+				"thread": null,
+				"infrared": null,
+				"nearFieldCommunication": {
+					"present": true,
+					"readWriteMode": null,
+					"backgroundTagReading": null
+				},
+				"gps": {
+					"present": true,
+					"precisionDualFrequency": true,
+					"systems": ["GPS"]
+				}
+			},
+			"authentication": {
+				"methods": ["Face ID", "passcode"],
+				"primaryMethod": "Face ID"
+			},
+			"physical": {
+				"weights": [],
+				"dimensions": [],
+				"components": [
+					{
+						"id": "iphone-17-pro-physical-frame",
+						"displayName": "Aluminium unibody",
+						"dimensions": [],
+						"weight": null
+					}
+				]
+			},
+			"resistance": {
+				"ipRating": "",
+				"waterDepthM": 6,
+				"splashPressureAtm": null,
+				"dustProtected": null,
+				"sweatResistant": null
+			},
+			"software": {
+				"operatingSystem": "iOS",
+				"operatingSystemVersionAtLaunch": null,
+				"builtInApps": []
+			},
+			"overviewImages": [],
+			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, colours, swatches, image bytes and Apple-hosted URLs are absent from target-specific evidence and remain null/empty rather than inferred."
+		}
+	]
+}

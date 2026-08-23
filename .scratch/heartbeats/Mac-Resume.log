@@ -38,3 +38,6 @@
 2026-08-23T15:15:52+0800 Mac-Resume active: checkpointing and cleaning completed helpers
 2026-08-23T15:16:08+0800 Mac-Resume active: preparing atomic commit
 2026-08-23T15:16:16+0800 Mac-Resume active: committing atomic Mac reconciliation
+2026-08-23T15:17:00+0800 Mac-Resume active: committing scoped paths without repository-wide hook
+2026-08-23T15:17:48+0800 Mac-Resume active: restoring scoped files after push-hook formatting
+2026-08-23T15:18:10+0800 Mac-Resume complete: 35 devices; Ajv valid; 0 errors

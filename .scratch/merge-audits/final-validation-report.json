@@ -1,0 +1,65 @@
+{
+	"schemaSha256": "ac7c726982165354a7aa06e91b84ba998d0e11d38e21350585536e986ae7cef7",
+	"draft": "Draft 2020-12",
+	"sections": [
+		{
+			"section": "airpods",
+			"devices": 9,
+			"imageReferences": 17,
+			"valid": true,
+			"errorCount": 0
+		},
+		{
+			"section": "apple-tv",
+			"devices": 1,
+			"imageReferences": 37,
+			"valid": true,
+			"errorCount": 0
+		},
+		{
+			"section": "apple-watch",
+			"devices": 17,
+			"imageReferences": 112,
+			"valid": true,
+			"errorCount": 0
+		},
+		{
+			"section": "homepod",
+			"devices": 2,
+			"imageReferences": 57,
+			"valid": true,
+			"errorCount": 0
+		},
+		{
+			"section": "ipad",
+			"devices": 40,
+			"imageReferences": 6,
+			"valid": true,
+			"errorCount": 0
+		},
+		{
+			"section": "iphone",
+			"devices": 38,
+			"imageReferences": 88,
+			"valid": true,
+			"errorCount": 0
+		},
+		{
+			"section": "mac",
+			"devices": 49,
+			"imageReferences": 45,
+			"valid": true,
+			"errorCount": 0
+		},
+		{
+			"section": "vision",
+			"devices": 1,
+			"imageReferences": 30,
+			"valid": true,
+			"errorCount": 0
+		}
+	],
+	"totalDevices": 157,
+	"imageReferences": 392,
+	"invalidImageReferences": []
+}

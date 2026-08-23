@@ -1,0 +1,35 @@
+{
+	"generatedAt": "2026-08-23T07:23:23.331Z",
+	"schemaSha256": "ac7c726982165354a7aa06e91b84ba998d0e11d38e21350585536e986ae7cef7",
+	"targetDevices": 158,
+	"merges": [
+		{
+			"canonicalPath": "public/data/apple-watch/apple-watch.json",
+			"candidatePath": ".scratch/strict/apple-watch/remaining-devices.json",
+			"before": 12,
+			"added": 5,
+			"after": 17
+		},
+		{
+			"canonicalPath": "public/data/ipad/ipad.json",
+			"candidatePath": ".scratch/strict/ipad/remaining-devices.json",
+			"before": 39,
+			"added": 1,
+			"after": 40
+		},
+		{
+			"canonicalPath": "public/data/iphone/iphone.json",
+			"candidatePath": ".scratch/strict/iphone/remaining-devices.json",
+			"before": 19,
+			"added": 19,
+			"after": 38
+		},
+		{
+			"canonicalPath": "public/data/mac/mac.json",
+			"candidatePath": ".scratch/strict/mac/remaining-devices.json",
+			"before": 15,
+			"added": 34,
+			"after": 49
+		}
+	]
+}
