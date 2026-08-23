@@ -288,13 +288,14 @@
 					},
 					"gpuCores": null,
 					"neuralEngineCores": 4,
-					"memoryBandwidthGbps": null
+					"memoryBandwidthGbps": null,
+					"sourceNotes": "S10 chip with 64-bit dual-core processor"
 				}
 			],
 			"displays": [
 				{
 					"id": "primary",
-					"technology": "Retina OLED",
+					"technology": "Always-On Retina display",
 					"panelKind": "OLED",
 					"sizeIn": null,
 					"resolutionWidthPx": null,
@@ -320,7 +321,7 @@
 					"fingerprintResistantCoating": null,
 					"hoverSupport": null,
 					"mirroring": null,
-					"sourceNotes": "Wide-angle display: yes"
+					"sourceNotes": "Display material: Always-On Retina display; Display construction: Wide-angle OLED; Display backplane: LTPO3"
 				}
 			],
 			"cameras": [],
@@ -349,7 +350,7 @@
 				],
 				"charging": {
 					"portId": "wireless",
-					"wiredFastCharge": false,
+					"wiredFastCharge": true,
 					"wirelessCharging": true,
 					"wirelessStandards": [
 						"inductive"
@@ -382,7 +383,8 @@
 				},
 				"cellular": {
 					"technologies": [
-						"LTE"
+						"LTE",
+						"5G sub-6"
 					]
 				},
 				"uwb": {
@@ -412,11 +414,32 @@
 			"physical": {
 				"weights": [
 					{
-						"value": 32.9,
-						"unit": "g"
+						"value": 37.8,
+						"unit": "g",
+						"qualifier": "case variant"
+					},
+					{
+						"value": 36.9,
+						"unit": "g",
+						"qualifier": "case variant"
+					},
+					{
+						"value": 43.1,
+						"unit": "g",
+						"qualifier": "case variant"
 					}
 				],
 				"dimensions": [
+					{
+						"value": 46.0,
+						"unit": "mm",
+						"qualifier": "case height"
+					},
+					{
+						"value": 39.0,
+						"unit": "mm",
+						"qualifier": "case width"
+					},
 					{
 						"value": 9.7,
 						"unit": "mm",
@@ -451,7 +474,15 @@
 				"hasSpeaker": true,
 				"hasSiren": false,
 				"swimproofClassification": "Swim, snorkel",
-				"completeSummary": []
+				"completeSummary": [
+					"Always-On Retina display",
+					"S10 chip with 64-bit dual-core processor",
+					"Up to 24 hours18",
+					"Up to 38 hours in Low Power Mode18",
+					"Water-resistant 50 m12",
+					"Swim, snorkel",
+					"46 mm by 39 mm by 9.7 mm (46-mm) 37.8 grams (aluminium, GPS)36.9 grams (aluminium, GPS + Cellular)43.1 grams (titanium)"
+				]
 			},
 			"sourceNotes": "Extracted from four usable Apple AU compare exports. Exact source text preserved in typed fields where supported.",
 			"overviewImages": [
@@ -583,13 +614,14 @@
 					},
 					"gpuCores": null,
 					"neuralEngineCores": 4,
-					"memoryBandwidthGbps": null
+					"memoryBandwidthGbps": null,
+					"sourceNotes": "S10 chip with 64-bit dual-core processor"
 				}
 			],
 			"displays": [
 				{
 					"id": "primary",
-					"technology": "Retina OLED",
+					"technology": "Always-On Retina display",
 					"panelKind": "OLED",
 					"sizeIn": null,
 					"resolutionWidthPx": null,
@@ -615,7 +647,7 @@
 					"fingerprintResistantCoating": null,
 					"hoverSupport": null,
 					"mirroring": null,
-					"sourceNotes": "Wide-angle display: no"
+					"sourceNotes": "Display material: Always-On Retina display; Display construction: OLED; Display backplane: LTPO"
 				}
 			],
 			"cameras": [],
@@ -644,7 +676,7 @@
 				],
 				"charging": {
 					"portId": "wireless",
-					"wiredFastCharge": false,
+					"wiredFastCharge": true,
 					"wirelessCharging": true,
 					"wirelessStandards": [
 						"inductive"
@@ -677,7 +709,8 @@
 				},
 				"cellular": {
 					"technologies": [
-						"LTE"
+						"LTE",
+						"5G sub-6"
 					]
 				},
 				"uwb": null,
@@ -705,11 +738,27 @@
 			"physical": {
 				"weights": [
 					{
-						"value": 26.4,
-						"unit": "g"
+						"value": 32.9,
+						"unit": "g",
+						"qualifier": "case variant"
+					},
+					{
+						"value": 33.0,
+						"unit": "g",
+						"qualifier": "case variant"
 					}
 				],
 				"dimensions": [
+					{
+						"value": 44.0,
+						"unit": "mm",
+						"qualifier": "case height"
+					},
+					{
+						"value": 38.0,
+						"unit": "mm",
+						"qualifier": "case width"
+					},
 					{
 						"value": 10.7,
 						"unit": "mm",
@@ -744,7 +793,15 @@
 				"hasSpeaker": true,
 				"hasSiren": false,
 				"swimproofClassification": "Swim",
-				"completeSummary": []
+				"completeSummary": [
+					"Always-On Retina display",
+					"S10 chip with 64-bit dual-core processor",
+					"Up to 18 hours19",
+					"Up to 32 hours inLow Power Mode19",
+					"Water-resistant 50 m12",
+					"Swim",
+					"44 mm by 38 mm by 10.7 mm (44-mm) 32.9 grams (GPS) 33.0 grams (GPS + Cellular)"
+				]
 			},
 			"sourceNotes": "Extracted from four usable Apple AU compare exports. Exact source text preserved in typed fields where supported.",
 			"overviewImages": [
@@ -876,13 +933,14 @@
 					},
 					"gpuCores": null,
 					"neuralEngineCores": 4,
-					"memoryBandwidthGbps": null
+					"memoryBandwidthGbps": null,
+					"sourceNotes": "S10 chip with 64-bit dual-core processor"
 				}
 			],
 			"displays": [
 				{
 					"id": "primary",
-					"technology": "Retina OLED",
+					"technology": "Always-On Retina display",
 					"panelKind": "OLED",
 					"sizeIn": null,
 					"resolutionWidthPx": null,
@@ -908,7 +966,7 @@
 					"fingerprintResistantCoating": null,
 					"hoverSupport": null,
 					"mirroring": null,
-					"sourceNotes": "Wide-angle display: yes"
+					"sourceNotes": "Display material: Always-On Retina display; Display construction: Wide-angle OLED; Display backplane: LTPO3"
 				}
 			],
 			"cameras": [],
@@ -937,7 +995,7 @@
 				],
 				"charging": {
 					"portId": "wireless",
-					"wiredFastCharge": false,
+					"wiredFastCharge": true,
 					"wirelessCharging": true,
 					"wirelessStandards": [
 						"inductive"
@@ -970,7 +1028,8 @@
 				},
 				"cellular": {
 					"technologies": [
-						"LTE"
+						"LTE",
+						"5G sub-6"
 					]
 				},
 				"uwb": {
@@ -1000,13 +1059,29 @@
 			"physical": {
 				"weights": [
 					{
-						"value": 61.4,
-						"unit": "g"
+						"value": 61.6,
+						"unit": "g",
+						"qualifier": "case variant"
+					},
+					{
+						"value": 61.8,
+						"unit": "g",
+						"qualifier": "case variant"
 					}
 				],
 				"dimensions": [
 					{
-						"value": 14.4,
+						"value": 49.0,
+						"unit": "mm",
+						"qualifier": "case height"
+					},
+					{
+						"value": 44.0,
+						"unit": "mm",
+						"qualifier": "case width"
+					},
+					{
+						"value": 12.0,
 						"unit": "mm",
 						"qualifier": "case thickness"
 					}
@@ -1038,7 +1113,15 @@
 				"hasSpeaker": true,
 				"hasSiren": true,
 				"swimproofClassification": "Swim, snorkel, scuba, high-speed water sports",
-				"completeSummary": []
+				"completeSummary": [
+					"Always-On Retina display",
+					"S10 chip with 64-bit dual-core processor",
+					"Up to 42 hours20",
+					"Up to 72 hours in Low Power Mode20",
+					"Water-resistant 100 m12",
+					"Swim, snorkel, scuba, high-speed water sports",
+					"49 mm by 44 mm by 12 mm61.6 grams (natural titanium)61.8 grams (black titanium)"
+				]
 			},
 			"sourceNotes": "Extracted from four usable Apple AU compare exports. Exact source text preserved in typed fields where supported.",
 			"overviewImages": [
@@ -1322,13 +1405,14 @@
 					},
 					"gpuCores": null,
 					"neuralEngineCores": 4,
-					"memoryBandwidthGbps": null
+					"memoryBandwidthGbps": null,
+					"sourceNotes": "S10 chip with 64-bit dual-core processor"
 				}
 			],
 			"displays": [
 				{
 					"id": "primary",
-					"technology": "Retina OLED",
+					"technology": "Always-On Retina display",
 					"panelKind": "OLED",
 					"sizeIn": null,
 					"resolutionWidthPx": null,
@@ -1354,7 +1438,7 @@
 					"fingerprintResistantCoating": null,
 					"hoverSupport": null,
 					"mirroring": null,
-					"sourceNotes": "Wide-angle display: yes"
+					"sourceNotes": "Display material: Always-On Retina display; Display construction: Wide-angle OLED; Display backplane: LTPO3"
 				}
 			],
 			"cameras": [],
@@ -1383,7 +1467,7 @@
 				],
 				"charging": {
 					"portId": "wireless",
-					"wiredFastCharge": false,
+					"wiredFastCharge": true,
 					"wirelessCharging": true,
 					"wirelessStandards": [
 						"inductive"
@@ -1446,11 +1530,32 @@
 			"physical": {
 				"weights": [
 					{
-						"value": 30,
-						"unit": "g"
+						"value": 36.4,
+						"unit": "g",
+						"qualifier": "case variant"
+					},
+					{
+						"value": 35.3,
+						"unit": "g",
+						"qualifier": "case variant"
+					},
+					{
+						"value": 41.7,
+						"unit": "g",
+						"qualifier": "case variant"
 					}
 				],
 				"dimensions": [
+					{
+						"value": 46.0,
+						"unit": "mm",
+						"qualifier": "case height"
+					},
+					{
+						"value": 39.0,
+						"unit": "mm",
+						"qualifier": "case width"
+					},
 					{
 						"value": 9.7,
 						"unit": "mm",
@@ -1485,7 +1590,15 @@
 				"hasSpeaker": true,
 				"hasSiren": false,
 				"swimproofClassification": "Swim, snorkel",
-				"completeSummary": []
+				"completeSummary": [
+					"Always-On Retina display",
+					"S10 chip with 64-bit dual-core processor",
+					"Up to 18 hours22",
+					"Up to 36 hours in Low Power Mode22",
+					"Water-resistant to 50 m12",
+					"Swim, snorkel",
+					"46 mm by 39 mm by 9.7 mm (46-mm) 36.4 grams (aluminium, GPS) 35.3 grams (aluminium, GPS + Cellular) 41.7 grams (titanium)"
+				]
 			},
 			"sourceNotes": "Extracted from four usable Apple AU compare exports. Exact source text preserved in typed fields where supported.",
 			"overviewImages": [
@@ -1568,13 +1681,14 @@
 					},
 					"gpuCores": null,
 					"neuralEngineCores": null,
-					"memoryBandwidthGbps": null
+					"memoryBandwidthGbps": null,
+					"sourceNotes": "S8 chip with 64-bit dual-core processor"
 				}
 			],
 			"displays": [
 				{
 					"id": "primary",
-					"technology": "Retina OLED",
+					"technology": "Retina display",
 					"panelKind": "OLED",
 					"sizeIn": null,
 					"resolutionWidthPx": null,
@@ -1600,7 +1714,7 @@
 					"fingerprintResistantCoating": null,
 					"hoverSupport": null,
 					"mirroring": null,
-					"sourceNotes": "Wide-angle display: no"
+					"sourceNotes": "Display material: Retina display; Display construction: OLED; Display backplane: LTPO"
 				}
 			],
 			"cameras": [],
@@ -1620,11 +1734,6 @@
 						"id": "normal",
 						"activity": "All-day battery life",
 						"hours": 18
-					},
-					{
-						"id": "low-power",
-						"activity": "Low Power Mode",
-						"hours": null
 					}
 				],
 				"charging": {
@@ -1687,11 +1796,27 @@
 			"physical": {
 				"weights": [
 					{
-						"value": 26.4,
-						"unit": "g"
+						"value": 32.9,
+						"unit": "g",
+						"qualifier": "case variant"
+					},
+					{
+						"value": 33.0,
+						"unit": "g",
+						"qualifier": "case variant"
 					}
 				],
 				"dimensions": [
+					{
+						"value": 44.0,
+						"unit": "mm",
+						"qualifier": "case height"
+					},
+					{
+						"value": 38.0,
+						"unit": "mm",
+						"qualifier": "case width"
+					},
 					{
 						"value": 10.7,
 						"unit": "mm",
@@ -1726,7 +1851,15 @@
 				"hasSpeaker": true,
 				"hasSiren": false,
 				"swimproofClassification": "Swim",
-				"completeSummary": []
+				"completeSummary": [
+					"Retina display",
+					"S8 chip with 64-bit dual-core processor",
+					"Up to 18 hours21",
+					"Low Power Mode",
+					"Water-resistant to 50 m12",
+					"Swim",
+					"44 mm by 38 mm by 10.7 mm (44-mm) 32.9 grams (GPS) 33.0 grams (GPS + Cellular)"
+				]
 			},
 			"sourceNotes": "Extracted from four usable Apple AU compare exports. Exact source text preserved in typed fields where supported.",
 			"overviewImages": []
@@ -1829,13 +1962,14 @@
 					},
 					"gpuCores": null,
 					"neuralEngineCores": 4,
-					"memoryBandwidthGbps": null
+					"memoryBandwidthGbps": null,
+					"sourceNotes": "S9 chip with 64-bit dual-core processor"
 				}
 			],
 			"displays": [
 				{
 					"id": "primary",
-					"technology": "Retina OLED",
+					"technology": "Always-On Retina display",
 					"panelKind": "OLED",
 					"sizeIn": null,
 					"resolutionWidthPx": null,
@@ -1861,7 +1995,7 @@
 					"fingerprintResistantCoating": null,
 					"hoverSupport": null,
 					"mirroring": null,
-					"sourceNotes": "Wide-angle display: no"
+					"sourceNotes": "Display material: Always-On Retina display; Display construction: OLED; Display backplane: LTPO2"
 				}
 			],
 			"cameras": [],
@@ -1890,15 +2024,12 @@
 				],
 				"charging": {
 					"portId": "wireless",
-					"wiredFastCharge": false,
+					"wiredFastCharge": true,
 					"wirelessCharging": true,
 					"wirelessStandards": [
 						"inductive"
 					],
-					"fastChargeMinutesToPercent": {
-						"minutes": 60,
-						"percent": 80
-					},
+					"fastChargeMinutesToPercent": null,
 					"adapterPowerW": null
 				},
 				"powerSupply": {
@@ -1934,7 +2065,7 @@
 				"nearFieldCommunication": null,
 				"gps": {
 					"present": true,
-					"precisionDualFrequency": false,
+					"precisionDualFrequency": true,
 					"systems": [
 						"GPS",
 						"GLONASS",
@@ -1954,10 +2085,26 @@
 				"weights": [
 					{
 						"value": 61.4,
-						"unit": "g"
+						"unit": "g",
+						"qualifier": "case variant"
+					},
+					{
+						"value": 61.8,
+						"unit": "g",
+						"qualifier": "case variant"
 					}
 				],
 				"dimensions": [
+					{
+						"value": 49.0,
+						"unit": "mm",
+						"qualifier": "case height"
+					},
+					{
+						"value": 44.0,
+						"unit": "mm",
+						"qualifier": "case width"
+					},
 					{
 						"value": 14.4,
 						"unit": "mm",
@@ -1991,7 +2138,15 @@
 				"hasSpeaker": true,
 				"hasSiren": true,
 				"swimproofClassification": "Swim, snorkel, scuba, high-speed water sports",
-				"completeSummary": []
+				"completeSummary": [
+					"Always-On Retina display",
+					"S9 chip with 64-bit dual-core processor",
+					"Up to 36 hours23",
+					"Up to 72 hours in Low Power Mode23",
+					"Water-resistant to 100 m12",
+					"Swim, snorkel, scuba, high-speed water sports",
+					"49 mm by 44 mm by 14.4 mm 61.4 grams (natural) 61.8 grams (black)"
+				]
 			},
 			"sourceNotes": "Extracted from four usable Apple AU compare exports. Exact source text preserved in typed fields where supported.",
 			"overviewImages": [
@@ -2148,13 +2303,14 @@
 					},
 					"gpuCores": null,
 					"neuralEngineCores": 4,
-					"memoryBandwidthGbps": null
+					"memoryBandwidthGbps": null,
+					"sourceNotes": "S9 chip with 64-bit dual-core processor"
 				}
 			],
 			"displays": [
 				{
 					"id": "primary",
-					"technology": "Retina OLED",
+					"technology": "Always-On Retina display",
 					"panelKind": "OLED",
 					"sizeIn": null,
 					"resolutionWidthPx": null,
@@ -2180,7 +2336,7 @@
 					"fingerprintResistantCoating": null,
 					"hoverSupport": null,
 					"mirroring": null,
-					"sourceNotes": "Wide-angle display: no"
+					"sourceNotes": "Display material: Always-On Retina display; Display construction: OLED; Display backplane: LTPO"
 				}
 			],
 			"cameras": [],
@@ -2209,7 +2365,7 @@
 				],
 				"charging": {
 					"portId": "wireless",
-					"wiredFastCharge": false,
+					"wiredFastCharge": true,
 					"wirelessCharging": true,
 					"wirelessStandards": [
 						"inductive"
@@ -2272,11 +2428,32 @@
 			"physical": {
 				"weights": [
 					{
-						"value": 31.9,
-						"unit": "g"
+						"value": 38.7,
+						"unit": "g",
+						"qualifier": "case variant"
+					},
+					{
+						"value": 39.0,
+						"unit": "g",
+						"qualifier": "case variant"
+					},
+					{
+						"value": 51.5,
+						"unit": "g",
+						"qualifier": "case variant"
 					}
 				],
 				"dimensions": [
+					{
+						"value": 45.0,
+						"unit": "mm",
+						"qualifier": "case height"
+					},
+					{
+						"value": 38.0,
+						"unit": "mm",
+						"qualifier": "case width"
+					},
 					{
 						"value": 10.7,
 						"unit": "mm",
@@ -2311,7 +2488,15 @@
 				"hasSpeaker": true,
 				"hasSiren": false,
 				"swimproofClassification": "Swim",
-				"completeSummary": []
+				"completeSummary": [
+					"Always-On Retina display",
+					"S9 chip with 64-bit dual-core processor",
+					"Up to 18 hours24",
+					"Up to 36 hours in Low Power Mode24",
+					"Water-resistant to 50 m12",
+					"Swim",
+					"45 mm by 38 mm by 10.7 mm (45-mm) 38.7 grams (aluminium, GPS) 39.0 grams (aluminium, GPS + Cellular) 51.5 grams (stainless steel)"
+				]
 			},
 			"sourceNotes": "Extracted from four usable Apple AU compare exports. Exact source text preserved in typed fields where supported.",
 			"overviewImages": [
@@ -2394,13 +2579,14 @@
 					},
 					"gpuCores": null,
 					"neuralEngineCores": null,
-					"memoryBandwidthGbps": null
+					"memoryBandwidthGbps": null,
+					"sourceNotes": "S5 chip with 64-bit dual-core processor"
 				}
 			],
 			"displays": [
 				{
 					"id": "primary",
-					"technology": "Retina OLED",
+					"technology": "Retina display",
 					"panelKind": "OLED",
 					"sizeIn": null,
 					"resolutionWidthPx": null,
@@ -2426,7 +2612,7 @@
 					"fingerprintResistantCoating": null,
 					"hoverSupport": null,
 					"mirroring": null,
-					"sourceNotes": "Wide-angle display: no"
+					"sourceNotes": "Display material: Retina display; Display construction: OLED; Display backplane: LTPO"
 				}
 			],
 			"cameras": [],
@@ -2446,11 +2632,6 @@
 						"id": "normal",
 						"activity": "All-day battery life",
 						"hours": 18
-					},
-					{
-						"id": "low-power",
-						"activity": "Low Power Mode",
-						"hours": null
 					}
 				],
 				"charging": {
@@ -2513,11 +2694,27 @@
 			"physical": {
 				"weights": [
 					{
-						"value": 30.5,
-						"unit": "g"
+						"value": 36.2,
+						"unit": "g",
+						"qualifier": "case variant"
+					},
+					{
+						"value": 36.4,
+						"unit": "g",
+						"qualifier": "case variant"
 					}
 				],
 				"dimensions": [
+					{
+						"value": 44.0,
+						"unit": "mm",
+						"qualifier": "case height"
+					},
+					{
+						"value": 38.0,
+						"unit": "mm",
+						"qualifier": "case width"
+					},
 					{
 						"value": 10.7,
 						"unit": "mm",
@@ -2552,7 +2749,15 @@
 				"hasSpeaker": true,
 				"hasSiren": false,
 				"swimproofClassification": "Swim",
-				"completeSummary": []
+				"completeSummary": [
+					"Retina display",
+					"S5 chip with 64-bit dual-core processor",
+					"Up to 18 hours29",
+					"Low Power Mode",
+					"Water-resistant to 50 m12",
+					"Swim",
+					"44 mm by 38 mm by 10.7 mm (44 mm) 36.2 grams (GPS) 36.4 grams (GPS + Cellular)"
+				]
 			},
 			"sourceNotes": "Extracted from four usable Apple AU compare exports. Exact source text preserved in typed fields where supported.",
 			"overviewImages": []
@@ -2617,13 +2822,14 @@
 					},
 					"gpuCores": null,
 					"neuralEngineCores": null,
-					"memoryBandwidthGbps": null
+					"memoryBandwidthGbps": null,
+					"sourceNotes": "S8 chip with 64-bit dual-core processor"
 				}
 			],
 			"displays": [
 				{
 					"id": "primary",
-					"technology": "Retina OLED",
+					"technology": "Always-On Retina display",
 					"panelKind": "OLED",
 					"sizeIn": null,
 					"resolutionWidthPx": null,
@@ -2649,7 +2855,7 @@
 					"fingerprintResistantCoating": null,
 					"hoverSupport": null,
 					"mirroring": null,
-					"sourceNotes": "Wide-angle display: no"
+					"sourceNotes": "Display material: Always-On Retina display; Display construction: OLED; Display backplane: LTPO2"
 				}
 			],
 			"cameras": [],
@@ -2678,15 +2884,12 @@
 				],
 				"charging": {
 					"portId": "wireless",
-					"wiredFastCharge": false,
+					"wiredFastCharge": true,
 					"wirelessCharging": true,
 					"wirelessStandards": [
 						"inductive"
 					],
-					"fastChargeMinutesToPercent": {
-						"minutes": 60,
-						"percent": 80
-					},
+					"fastChargeMinutesToPercent": null,
 					"adapterPowerW": null
 				},
 				"powerSupply": {
@@ -2722,7 +2925,7 @@
 				"nearFieldCommunication": null,
 				"gps": {
 					"present": true,
-					"precisionDualFrequency": false,
+					"precisionDualFrequency": true,
 					"systems": [
 						"GPS",
 						"GLONASS",
@@ -2742,10 +2945,21 @@
 				"weights": [
 					{
 						"value": 61.4,
-						"unit": "g"
+						"unit": "g",
+						"qualifier": "case variant"
 					}
 				],
 				"dimensions": [
+					{
+						"value": 49.0,
+						"unit": "mm",
+						"qualifier": "case height"
+					},
+					{
+						"value": 44.0,
+						"unit": "mm",
+						"qualifier": "case width"
+					},
 					{
 						"value": 14.4,
 						"unit": "mm",
@@ -2779,7 +2993,15 @@
 				"hasSpeaker": true,
 				"hasSiren": true,
 				"swimproofClassification": "Swim, snorkel, scuba, high-speed water sports",
-				"completeSummary": []
+				"completeSummary": [
+					"Always-On Retina display",
+					"S8 chip with 64-bit dual-core processor",
+					"Up to 36 hours25",
+					"Up to 72 hours inLow Power Mode25",
+					"Water-resistant to 100 m12",
+					"Swim, snorkel, scuba, high-speed water sports",
+					"49 mm by 44 mm by 14.4 mm 61.4 grams"
+				]
 			},
 			"sourceNotes": "Extracted from four usable Apple AU compare exports. Exact source text preserved in typed fields where supported.",
 			"overviewImages": [
@@ -2898,13 +3120,14 @@
 					},
 					"gpuCores": null,
 					"neuralEngineCores": null,
-					"memoryBandwidthGbps": null
+					"memoryBandwidthGbps": null,
+					"sourceNotes": "S8 chip with 64-bit dual-core processor"
 				}
 			],
 			"displays": [
 				{
 					"id": "primary",
-					"technology": "Retina OLED",
+					"technology": "Always-On Retina display",
 					"panelKind": "OLED",
 					"sizeIn": null,
 					"resolutionWidthPx": null,
@@ -2930,7 +3153,7 @@
 					"fingerprintResistantCoating": null,
 					"hoverSupport": null,
 					"mirroring": null,
-					"sourceNotes": "Wide-angle display: no"
+					"sourceNotes": "Display material: Always-On Retina display; Display construction: OLED; Display backplane: LTPO"
 				}
 			],
 			"cameras": [],
@@ -2950,16 +3173,11 @@
 						"id": "normal",
 						"activity": "All-day battery life",
 						"hours": 18
-					},
-					{
-						"id": "low-power",
-						"activity": "Low Power Mode",
-						"hours": null
 					}
 				],
 				"charging": {
 					"portId": "wireless",
-					"wiredFastCharge": false,
+					"wiredFastCharge": true,
 					"wirelessCharging": true,
 					"wirelessStandards": [
 						"inductive"
@@ -3022,11 +3240,32 @@
 			"physical": {
 				"weights": [
 					{
-						"value": 31.9,
-						"unit": "g"
+						"value": 38.8,
+						"unit": "g",
+						"qualifier": "case variant"
+					},
+					{
+						"value": 39.1,
+						"unit": "g",
+						"qualifier": "case variant"
+					},
+					{
+						"value": 51.5,
+						"unit": "g",
+						"qualifier": "case variant"
 					}
 				],
 				"dimensions": [
+					{
+						"value": 45.0,
+						"unit": "mm",
+						"qualifier": "case height"
+					},
+					{
+						"value": 38.0,
+						"unit": "mm",
+						"qualifier": "case width"
+					},
 					{
 						"value": 10.7,
 						"unit": "mm",
@@ -3061,7 +3300,15 @@
 				"hasSpeaker": true,
 				"hasSiren": false,
 				"swimproofClassification": "Swim",
-				"completeSummary": []
+				"completeSummary": [
+					"Always-On Retina display",
+					"S8 chip with 64-bit dual-core processor",
+					"Up to 18 hours26",
+					"Low Power Mode",
+					"Water-resistant to 50 m12",
+					"Swim",
+					"45 mm by 38 mm by 10.7 mm (45-mm) 38.8 grams (aluminium, GPS) 39.1 grams (aluminium, GPS + Cellular) 51.5 grams (stainless steel)"
+				]
 			},
 			"sourceNotes": "Extracted from four usable Apple AU compare exports. Exact source text preserved in typed fields where supported.",
 			"overviewImages": []
@@ -3160,13 +3407,14 @@
 					},
 					"gpuCores": null,
 					"neuralEngineCores": null,
-					"memoryBandwidthGbps": null
+					"memoryBandwidthGbps": null,
+					"sourceNotes": "S7 chip with 64-bit dual-core processor"
 				}
 			],
 			"displays": [
 				{
 					"id": "primary",
-					"technology": "Retina OLED",
+					"technology": "Always-On Retina display",
 					"panelKind": "OLED",
 					"sizeIn": null,
 					"resolutionWidthPx": null,
@@ -3192,7 +3440,7 @@
 					"fingerprintResistantCoating": null,
 					"hoverSupport": null,
 					"mirroring": null,
-					"sourceNotes": "Wide-angle display: no"
+					"sourceNotes": "Display material: Always-On Retina display; Display construction: OLED; Display backplane: LTPO"
 				}
 			],
 			"cameras": [],
@@ -3212,16 +3460,11 @@
 						"id": "normal",
 						"activity": "All-day battery life",
 						"hours": 18
-					},
-					{
-						"id": "low-power",
-						"activity": "Low Power Mode",
-						"hours": null
 					}
 				],
 				"charging": {
 					"portId": "wireless",
-					"wiredFastCharge": false,
+					"wiredFastCharge": true,
 					"wirelessCharging": true,
 					"wirelessStandards": [
 						"inductive"
@@ -3284,11 +3527,37 @@
 			"physical": {
 				"weights": [
 					{
-						"value": 31.9,
-						"unit": "g"
+						"value": 38.8,
+						"unit": "g",
+						"qualifier": "case variant"
+					},
+					{
+						"value": 39.1,
+						"unit": "g",
+						"qualifier": "case variant"
+					},
+					{
+						"value": 51.5,
+						"unit": "g",
+						"qualifier": "case variant"
+					},
+					{
+						"value": 45.1,
+						"unit": "g",
+						"qualifier": "case variant"
 					}
 				],
 				"dimensions": [
+					{
+						"value": 45.0,
+						"unit": "mm",
+						"qualifier": "case height"
+					},
+					{
+						"value": 38.0,
+						"unit": "mm",
+						"qualifier": "case width"
+					},
 					{
 						"value": 10.7,
 						"unit": "mm",
@@ -3323,7 +3592,15 @@
 				"hasSpeaker": true,
 				"hasSiren": false,
 				"swimproofClassification": "Swim",
-				"completeSummary": []
+				"completeSummary": [
+					"Always-On Retina display",
+					"S7 chip with 64-bit dual-core processor",
+					"Up to 18 hours27",
+					"Low Power Mode",
+					"Water-resistant to 50 m12",
+					"Swim",
+					"45 mm by 38 mm by 10.7 mm (45-mm) 38.8 grams (aluminium, GPS) 39.1 grams (aluminium, GPS + Cellular) 51.5 grams (stainless steel) 45.1 grams (titanium)"
+				]
 			},
 			"sourceNotes": "Extracted from four usable Apple AU compare exports. Exact source text preserved in typed fields where supported.",
 			"overviewImages": []
@@ -3422,13 +3699,14 @@
 					},
 					"gpuCores": null,
 					"neuralEngineCores": null,
-					"memoryBandwidthGbps": null
+					"memoryBandwidthGbps": null,
+					"sourceNotes": "S6 chip with 64-bit dual-core processor"
 				}
 			],
 			"displays": [
 				{
 					"id": "primary",
-					"technology": "Retina OLED",
+					"technology": "Always-On Retina display",
 					"panelKind": "OLED",
 					"sizeIn": null,
 					"resolutionWidthPx": null,
@@ -3454,7 +3732,7 @@
 					"fingerprintResistantCoating": null,
 					"hoverSupport": null,
 					"mirroring": null,
-					"sourceNotes": "Wide-angle display: no"
+					"sourceNotes": "Display material: Always-On Retina display; Display construction: OLED; Display backplane: LTPO"
 				}
 			],
 			"cameras": [],
@@ -3474,11 +3752,6 @@
 						"id": "normal",
 						"activity": "All-day battery life",
 						"hours": 18
-					},
-					{
-						"id": "low-power",
-						"activity": "Low Power Mode",
-						"hours": null
 					}
 				],
 				"charging": {
@@ -3543,11 +3816,32 @@
 			"physical": {
 				"weights": [
 					{
-						"value": 30.5,
-						"unit": "g"
+						"value": 36.5,
+						"unit": "g",
+						"qualifier": "case variant"
+					},
+					{
+						"value": 47.1,
+						"unit": "g",
+						"qualifier": "case variant"
+					},
+					{
+						"value": 41.3,
+						"unit": "g",
+						"qualifier": "case variant"
 					}
 				],
 				"dimensions": [
+					{
+						"value": 44.0,
+						"unit": "mm",
+						"qualifier": "case height"
+					},
+					{
+						"value": 38.0,
+						"unit": "mm",
+						"qualifier": "case width"
+					},
 					{
 						"value": 10.7,
 						"unit": "mm",
@@ -3582,7 +3876,15 @@
 				"hasSpeaker": true,
 				"hasSiren": false,
 				"swimproofClassification": "Swim",
-				"completeSummary": []
+				"completeSummary": [
+					"Always-On Retina display",
+					"S6 chip with 64-bit dual-core processor",
+					"Up to 18 hours28",
+					"Low Power Mode",
+					"Water-resistant to 50 m12",
+					"Swim",
+					"44 mm by 38 mm by 10.7 mm (44-mm) 36.5 grams (aluminium) 47.1 grams (stainless steel) 41.3 grams (titanium)"
+				]
 			},
 			"sourceNotes": "Extracted from four usable Apple AU compare exports. Exact source text preserved in typed fields where supported.",
 			"overviewImages": []
@@ -3642,16 +3944,16 @@
 				{
 					"id": "apple-watch-series-1-chip",
 					"displayName": "S1 chip",
-					"family": "S1 chip",
+					"family": "Apple S-series",
 					"cpuCores": {
-						"total": 1,
+						"total": 2,
 						"performance": null,
 						"efficiency": null
 					},
 					"gpuCores": null,
 					"neuralEngineCores": null,
 					"memoryBandwidthGbps": null,
-					"sourceNotes": "Chip name from hidden compare row 95Idq52L."
+					"sourceNotes": "S1 chip with dual-core processor"
 				}
 			],
 			"displays": [
@@ -3677,7 +3979,7 @@
 					"fingerprintResistantCoating": null,
 					"hoverSupport": null,
 					"mirroring": null,
-					"sourceNotes": "Display evidence from hidden compare rows S_qJAQES, azYbTrUl, and hX_cPMqx."
+					"sourceNotes": "Display material: Retina display; Display construction: OLED"
 				}
 			],
 			"cameras": [],
@@ -3693,15 +3995,14 @@
 				"batteryCapacityWhr": null,
 				"runtimeHours": [
 					{
-						"id": "apple-watch-series-1-runtime",
-						"activity": "Battery life",
-						"hours": 18,
-						"network": null
+						"id": "normal",
+						"activity": "All-day battery life",
+						"hours": 18
 					}
 				],
 				"charging": {
 					"portId": null,
-					"wiredFastCharge": null,
+					"wiredFastCharge": false,
 					"wirelessCharging": null,
 					"wirelessStandards": null,
 					"fastChargeMinutesToPercent": null,
@@ -3732,7 +4033,8 @@
 					"present": true,
 					"systems": [
 						"GPS"
-					]
+					],
+					"precisionDualFrequency": false
 				}
 			},
 			"authentication": {
@@ -3742,8 +4044,30 @@
 				"primaryMethod": "passcode"
 			},
 			"physical": {
-				"weights": [],
-				"dimensions": [],
+				"weights": [
+					{
+						"value": 30.0,
+						"unit": "g",
+						"qualifier": "case variant"
+					}
+				],
+				"dimensions": [
+					{
+						"value": 42.0,
+						"unit": "mm",
+						"qualifier": "case height"
+					},
+					{
+						"value": 36.4,
+						"unit": "mm",
+						"qualifier": "case width"
+					},
+					{
+						"value": 10.5,
+						"unit": "mm",
+						"qualifier": "case thickness"
+					}
+				],
 				"components": [
 					{
 						"id": "apple-watch-series-1-physical-evidence",
@@ -3779,7 +4103,13 @@
 				"hasSpeaker": false,
 				"hasSiren": false,
 				"swimproofClassification": null,
-				"completeSummary": []
+				"completeSummary": [
+					"Retina display",
+					"S1 chip with dual-core processor",
+					"Up to 18 hours33",
+					"Splash-resistant13",
+					"42 mm by 36.4 mm by 10.5 mm (42-mm) 30 grams"
+				]
 			},
 			"accessories": [],
 			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, swatches, product image bytes and Apple-hosted URLs are absent from supplied evidence and remain null/empty rather than inferred.",
@@ -3840,16 +4170,16 @@
 				{
 					"id": "apple-watch-series-2-chip",
 					"displayName": "S2 chip",
-					"family": "S2 chip",
+					"family": "Apple S-series",
 					"cpuCores": {
-						"total": 1,
+						"total": 2,
 						"performance": null,
 						"efficiency": null
 					},
 					"gpuCores": null,
 					"neuralEngineCores": null,
 					"memoryBandwidthGbps": null,
-					"sourceNotes": "Chip name from hidden compare row 95Idq52L."
+					"sourceNotes": "S2 chip with dual-core processor"
 				}
 			],
 			"displays": [
@@ -3875,7 +4205,7 @@
 					"fingerprintResistantCoating": null,
 					"hoverSupport": null,
 					"mirroring": null,
-					"sourceNotes": "Display evidence from hidden compare rows S_qJAQES, azYbTrUl, and hX_cPMqx."
+					"sourceNotes": "Display material: Retina display; Display construction: OLED"
 				}
 			],
 			"cameras": [],
@@ -3891,15 +4221,14 @@
 				"batteryCapacityWhr": null,
 				"runtimeHours": [
 					{
-						"id": "apple-watch-series-2-runtime",
-						"activity": "Battery life",
-						"hours": 18,
-						"network": null
+						"id": "normal",
+						"activity": "All-day battery life",
+						"hours": 18
 					}
 				],
 				"charging": {
 					"portId": null,
-					"wiredFastCharge": null,
+					"wiredFastCharge": false,
 					"wirelessCharging": null,
 					"wirelessStandards": null,
 					"fastChargeMinutesToPercent": null,
@@ -3930,7 +4259,8 @@
 					"present": true,
 					"systems": [
 						"GPS"
-					]
+					],
+					"precisionDualFrequency": false
 				}
 			},
 			"authentication": {
@@ -3940,8 +4270,40 @@
 				"primaryMethod": "passcode"
 			},
 			"physical": {
-				"weights": [],
-				"dimensions": [],
+				"weights": [
+					{
+						"value": 34.2,
+						"unit": "g",
+						"qualifier": "case variant"
+					},
+					{
+						"value": 52.4,
+						"unit": "g",
+						"qualifier": "case variant"
+					},
+					{
+						"value": 45.6,
+						"unit": "g",
+						"qualifier": "case variant"
+					}
+				],
+				"dimensions": [
+					{
+						"value": 42.0,
+						"unit": "mm",
+						"qualifier": "case height"
+					},
+					{
+						"value": 36.4,
+						"unit": "mm",
+						"qualifier": "case width"
+					},
+					{
+						"value": 11.4,
+						"unit": "mm",
+						"qualifier": "case thickness"
+					}
+				],
 				"components": [
 					{
 						"id": "apple-watch-series-2-physical-evidence",
@@ -3977,7 +4339,14 @@
 				"hasSpeaker": false,
 				"hasSiren": false,
 				"swimproofClassification": "Swim",
-				"completeSummary": []
+				"completeSummary": [
+					"Retina display",
+					"S2 chip with dual-core processor",
+					"Up to 18 hours33",
+					"Water-resistant to 50 m12",
+					"Swim",
+					"42 mm by 36.4 mm by 11.4 mm (42-mm) 34.2 grams (aluminium) 52.4 grams (stainless steel) 45.6 grams (ceramic)"
+				]
 			},
 			"accessories": [],
 			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, swatches, product image bytes and Apple-hosted URLs are absent from supplied evidence and remain null/empty rather than inferred.",
@@ -4028,16 +4397,16 @@
 				{
 					"id": "apple-watch-series-3-chip",
 					"displayName": "S3 chip",
-					"family": "S3 chip",
+					"family": "Apple S-series",
 					"cpuCores": {
-						"total": 1,
+						"total": 2,
 						"performance": null,
 						"efficiency": null
 					},
 					"gpuCores": null,
 					"neuralEngineCores": null,
 					"memoryBandwidthGbps": null,
-					"sourceNotes": "Chip name from hidden compare row 95Idq52L."
+					"sourceNotes": "S3 chip with dual-core processor"
 				}
 			],
 			"displays": [
@@ -4063,7 +4432,7 @@
 					"fingerprintResistantCoating": null,
 					"hoverSupport": null,
 					"mirroring": null,
-					"sourceNotes": "Display evidence from hidden compare rows S_qJAQES, azYbTrUl, and hX_cPMqx."
+					"sourceNotes": "Display material: Retina display; Display construction: OLED"
 				}
 			],
 			"cameras": [],
@@ -4079,15 +4448,14 @@
 				"batteryCapacityWhr": null,
 				"runtimeHours": [
 					{
-						"id": "apple-watch-series-3-runtime",
-						"activity": "Battery life",
-						"hours": 18,
-						"network": null
+						"id": "normal",
+						"activity": "All-day battery life",
+						"hours": 18
 					}
 				],
 				"charging": {
 					"portId": null,
-					"wiredFastCharge": null,
+					"wiredFastCharge": false,
 					"wirelessCharging": null,
 					"wirelessStandards": null,
 					"fastChargeMinutesToPercent": null,
@@ -4118,7 +4486,8 @@
 					"present": true,
 					"systems": [
 						"GPS"
-					]
+					],
+					"precisionDualFrequency": false
 				}
 			},
 			"authentication": {
@@ -4128,8 +4497,45 @@
 				"primaryMethod": "passcode"
 			},
 			"physical": {
-				"weights": [],
-				"dimensions": [],
+				"weights": [
+					{
+						"value": 32.3,
+						"unit": "g",
+						"qualifier": "case variant"
+					},
+					{
+						"value": 34.9,
+						"unit": "g",
+						"qualifier": "case variant"
+					},
+					{
+						"value": 52.8,
+						"unit": "g",
+						"qualifier": "case variant"
+					},
+					{
+						"value": 46.4,
+						"unit": "g",
+						"qualifier": "case variant"
+					}
+				],
+				"dimensions": [
+					{
+						"value": 42.0,
+						"unit": "mm",
+						"qualifier": "case height"
+					},
+					{
+						"value": 36.4,
+						"unit": "mm",
+						"qualifier": "case width"
+					},
+					{
+						"value": 11.4,
+						"unit": "mm",
+						"qualifier": "case thickness"
+					}
+				],
 				"components": [
 					{
 						"id": "apple-watch-series-3-physical-evidence",
@@ -4165,7 +4571,14 @@
 				"hasSpeaker": false,
 				"hasSiren": false,
 				"swimproofClassification": "Swim",
-				"completeSummary": []
+				"completeSummary": [
+					"Retina display",
+					"S3 chip with dual-core processor",
+					"Up to 18 hours32",
+					"Water-resistant to 50 m12",
+					"Swim",
+					"42 mm by 36.4 mm by 11.4 mm (42-mm) 32.3 grams (aluminium, GPS) 34.9 grams (aluminium, GPS + Cellular) 52.8 grams (stainless steel)46.4 grams (ceramic)"
+				]
 			},
 			"accessories": [],
 			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, swatches, product image bytes and Apple-hosted URLs are absent from supplied evidence and remain null/empty rather than inferred.",
@@ -4216,16 +4629,16 @@
 				{
 					"id": "apple-watch-series-4-chip",
 					"displayName": "S4 chip",
-					"family": "S4 chip",
+					"family": "Apple S-series",
 					"cpuCores": {
-						"total": 1,
+						"total": 2,
 						"performance": null,
 						"efficiency": null
 					},
 					"gpuCores": null,
 					"neuralEngineCores": null,
 					"memoryBandwidthGbps": null,
-					"sourceNotes": "Chip name from hidden compare row 95Idq52L."
+					"sourceNotes": "S4 chip with 64-bit dual-core processor"
 				}
 			],
 			"displays": [
@@ -4251,7 +4664,7 @@
 					"fingerprintResistantCoating": null,
 					"hoverSupport": null,
 					"mirroring": null,
-					"sourceNotes": "Display evidence from hidden compare rows S_qJAQES, azYbTrUl, and hX_cPMqx."
+					"sourceNotes": "Display material: Retina display; Display construction: OLED; Display backplane: LTPO"
 				}
 			],
 			"cameras": [],
@@ -4267,15 +4680,14 @@
 				"batteryCapacityWhr": null,
 				"runtimeHours": [
 					{
-						"id": "apple-watch-series-4-runtime",
-						"activity": "Battery life",
-						"hours": 18,
-						"network": null
+						"id": "normal",
+						"activity": "All-day battery life",
+						"hours": 18
 					}
 				],
 				"charging": {
 					"portId": null,
-					"wiredFastCharge": null,
+					"wiredFastCharge": false,
 					"wirelessCharging": null,
 					"wirelessStandards": null,
 					"fastChargeMinutesToPercent": null,
@@ -4306,7 +4718,8 @@
 					"present": true,
 					"systems": [
 						"GPS"
-					]
+					],
+					"precisionDualFrequency": false
 				}
 			},
 			"authentication": {
@@ -4316,8 +4729,35 @@
 				"primaryMethod": "passcode"
 			},
 			"physical": {
-				"weights": [],
-				"dimensions": [],
+				"weights": [
+					{
+						"value": 36.7,
+						"unit": "g",
+						"qualifier": "case variant"
+					},
+					{
+						"value": 47.9,
+						"unit": "g",
+						"qualifier": "case variant"
+					}
+				],
+				"dimensions": [
+					{
+						"value": 44.0,
+						"unit": "mm",
+						"qualifier": "case height"
+					},
+					{
+						"value": 38.0,
+						"unit": "mm",
+						"qualifier": "case width"
+					},
+					{
+						"value": 10.7,
+						"unit": "mm",
+						"qualifier": "case thickness"
+					}
+				],
 				"components": [
 					{
 						"id": "apple-watch-series-4-physical-evidence",
@@ -4353,7 +4793,15 @@
 				"hasSpeaker": false,
 				"hasSiren": false,
 				"swimproofClassification": "Swim",
-				"completeSummary": []
+				"completeSummary": [
+					"Retina display",
+					"S4 chip with 64-bit dual-core processor",
+					"Up to 18 hours31",
+					"Low Power Mode",
+					"Water-resistant to 50 m12",
+					"Swim",
+					"44 mm by 38 mm by 10.7 mm (44-mm) 36.7 grams (aluminium) 47.9 grams (stainless steel)"
+				]
 			},
 			"accessories": [],
 			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, swatches, product image bytes and Apple-hosted URLs are absent from supplied evidence and remain null/empty rather than inferred.",
@@ -4414,16 +4862,16 @@
 				{
 					"id": "apple-watch-series-5-chip",
 					"displayName": "S5 chip",
-					"family": "S5 chip",
+					"family": "Apple S-series",
 					"cpuCores": {
-						"total": 1,
+						"total": 2,
 						"performance": null,
 						"efficiency": null
 					},
 					"gpuCores": null,
 					"neuralEngineCores": null,
 					"memoryBandwidthGbps": null,
-					"sourceNotes": "Chip name from hidden compare row 95Idq52L."
+					"sourceNotes": "S5 chip with 64-bit dual-core processor"
 				}
 			],
 			"displays": [
@@ -4449,7 +4897,7 @@
 					"fingerprintResistantCoating": null,
 					"hoverSupport": null,
 					"mirroring": null,
-					"sourceNotes": "Display evidence from hidden compare rows S_qJAQES, azYbTrUl, and hX_cPMqx."
+					"sourceNotes": "Display material: Always-On Retina display; Display construction: OLED; Display backplane: LTPO"
 				}
 			],
 			"cameras": [],
@@ -4465,15 +4913,14 @@
 				"batteryCapacityWhr": null,
 				"runtimeHours": [
 					{
-						"id": "apple-watch-series-5-runtime",
-						"activity": "Battery life",
-						"hours": 18,
-						"network": null
+						"id": "normal",
+						"activity": "All-day battery life",
+						"hours": 18
 					}
 				],
 				"charging": {
 					"portId": null,
-					"wiredFastCharge": null,
+					"wiredFastCharge": false,
 					"wirelessCharging": null,
 					"wirelessStandards": null,
 					"fastChargeMinutesToPercent": null,
@@ -4504,7 +4951,8 @@
 					"present": true,
 					"systems": [
 						"GPS"
-					]
+					],
+					"precisionDualFrequency": false
 				}
 			},
 			"authentication": {
@@ -4514,8 +4962,45 @@
 				"primaryMethod": "passcode"
 			},
 			"physical": {
-				"weights": [],
-				"dimensions": [],
+				"weights": [
+					{
+						"value": 36.5,
+						"unit": "g",
+						"qualifier": "case variant"
+					},
+					{
+						"value": 47.8,
+						"unit": "g",
+						"qualifier": "case variant"
+					},
+					{
+						"value": 41.7,
+						"unit": "g",
+						"qualifier": "case variant"
+					},
+					{
+						"value": 46.7,
+						"unit": "g",
+						"qualifier": "case variant"
+					}
+				],
+				"dimensions": [
+					{
+						"value": 44.0,
+						"unit": "mm",
+						"qualifier": "case height"
+					},
+					{
+						"value": 38.0,
+						"unit": "mm",
+						"qualifier": "case width"
+					},
+					{
+						"value": 10.74,
+						"unit": "mm",
+						"qualifier": "case thickness"
+					}
+				],
 				"components": [
 					{
 						"id": "apple-watch-series-5-physical-evidence",
@@ -4551,7 +5036,15 @@
 				"hasSpeaker": false,
 				"hasSiren": false,
 				"swimproofClassification": "Swim",
-				"completeSummary": []
+				"completeSummary": [
+					"Always-On Retina display",
+					"S5 chip with 64-bit dual-core processor",
+					"Up to 18 hours30",
+					"Low Power Mode",
+					"Water-resistant to 50 m12",
+					"Swim",
+					"44 mm by 38 mm by 10.74 mm (44-mm) 36.5 grams (aluminium) 47.8 grams (stainless steel) 41.7 grams (titanium) 46.7 grams (ceramic)"
+				]
 			},
 			"accessories": [],
 			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, swatches, product image bytes and Apple-hosted URLs are absent from supplied evidence and remain null/empty rather than inferred.",
