@@ -97,3 +97,31 @@ All paths below were explicitly proposed, checked for references from preserved 
 - `.scratch/maxwell-errors.txt` — intermediate validation, audit, normalization, or error output; not a final report and not required by preserved operational files.
 - `.scratch/pauli-normalization.json` — intermediate validation, audit, normalization, or error output; not a final report and not required by preserved operational files.
 - `.scratch/relocation-audit.pending.json` — intermediate validation, audit, normalization, or error output; not a final report and not required by preserved operational files.
+
+## Third-pass cleanup
+
+Date: 2026-08-23
+
+### Deleted
+
+- `.scratch/devices-not-yet-extracted.md` — stale catalogue-gap report. Its listed iPhone and Mac gaps are superseded by the canonical reconciliation and the eight `data/status/*.md` source-of-truth tables; no preserved file referenced it.
+- `.scratch/strict/apple-watch/remaining-hidden-evidence.tsv` — unreferenced intermediate hidden-evidence export, superseded by the preserved Apple Watch status and audit documents.
+- `.scratch/strict/ipad/remaining-hidden-evidence.tsv` — unreferenced intermediate hidden-evidence export, superseded by the preserved iPad status and audit documents.
+- `.scratch/strict/iphone/remaining-hidden-evidence.tsv` — unreferenced intermediate hidden-evidence export, superseded by the preserved iPhone status and audit documents.
+- `.scratch/strict/mac/remaining-hidden-evidence.tsv` — unreferenced intermediate hidden-evidence export, superseded by the preserved Mac status and audit documents.
+- `.scratch/strict/ipad/remaining-devices.json` — superseded iPad candidate subset; the status table and preserved `strict-devices.merge-ready.json` are the active evidence.
+- `.scratch/strict/ipad/validate-remaining.mjs` — validator for the deleted superseded iPad candidate subset.
+- `.scratch/strict/ipad/validation-remaining.json` — validation result for the deleted superseded iPad candidate subset.
+
+### Status-file audit
+
+All eight files under `data/status/` were preserved. `data/rules/general.md` defines them as required status source-of-truth files, and they document device-to-source mappings and canonical state. Several status files also reference preserved strict candidate artifacts. No status file met the deletion condition.
+
+### Protected paths verified unchanged by this pass
+
+- Raw HTML under `data/tmp/`
+- All `data/rules/*.md` files
+- All `data/status/*.md` files
+- Canonical JSON and public schemas under `public/data/`
+- Public templates under `public/data/templates/`
+- Preserved final validation, audit, provenance, strict-evidence, image, and quarantine artifacts
