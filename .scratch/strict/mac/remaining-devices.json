@@ -194,9 +194,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"placement": null,
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
@@ -438,9 +436,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"placement": null,
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
@@ -662,9 +658,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"placement": null,
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
@@ -886,9 +880,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"placement": null,
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
@@ -1130,9 +1122,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"placement": null,
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
@@ -1354,9 +1344,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"placement": null,
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
@@ -1598,9 +1586,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"placement": null,
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
@@ -1822,9 +1808,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"placement": null,
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
@@ -2066,9 +2050,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"placement": null,
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
@@ -2290,9 +2272,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"placement": null,
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
@@ -2534,9 +2514,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"placement": null,
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
@@ -2758,9 +2736,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"placement": null,
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
@@ -2936,9 +2912,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"placement": null,
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
@@ -3180,9 +3154,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"placement": null,
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
@@ -3404,9 +3376,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"placement": null,
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
@@ -3582,9 +3552,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"placement": null,
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
@@ -3826,9 +3794,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"placement": null,
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
@@ -4050,9 +4016,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"placement": null,
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
@@ -4228,9 +4192,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"placement": null,
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
@@ -4487,9 +4449,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"placement": null,
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
@@ -4711,9 +4671,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"placement": null,
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
@@ -4946,9 +4904,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"placement": null,
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
@@ -5205,9 +5161,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"placement": null,
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
@@ -5429,9 +5383,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"placement": null,
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
@@ -5664,9 +5616,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"placement": null,
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
@@ -5811,9 +5761,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"placement": null,
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
@@ -5958,9 +5906,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"placement": null,
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
@@ -6105,9 +6051,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"placement": null,
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
@@ -6252,9 +6196,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"placement": null,
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
@@ -6399,9 +6341,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"placement": null,
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
@@ -6546,9 +6486,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"placement": null,
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
@@ -6780,9 +6718,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"placement": null,
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
@@ -7024,9 +6960,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"placement": null,
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
@@ -7243,9 +7177,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"placement": null,
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
@@ -7467,9 +7399,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"placement": null,
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."

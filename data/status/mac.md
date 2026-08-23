@@ -2,37 +2,37 @@
 
 ## Inputs
 
-| Input                      | State          | Evidence                                                                                                        |
-| -------------------------- | -------------- | --------------------------------------------------------------------------------------------------------------- |
-| `data/tmp/mac/mac.html`    | Present usable | 55 product cells; featured MacBook Neo A18 Pro, MacBook Air 13-in. M5, and MacBook Pro 14-in. M5                |
-| `data/tmp/mac/mac2.html`   | Present usable | 55 product cells; featured iMac M4 two ports, MacBook Pro 14-in. M5 Pro, and MacBook Pro 16-in. M5 Max          |
-| `data/tmp/mac/mac3.html`   | Present usable | 55 product cells; featured Mac mini M4, Mac mini M4 Pro, and Mac Studio M4 Max                                  |
-| `data/tmp/mac/mac4.html`   | Present usable | 55 product cells; featured MacBook Air 13-in. M3, MacBook Air 13-in. M4, and Mac Studio M3 Ultra                |
-| `data/tmp/mac/mac5.html`   | Present usable | 55 product cells; featured MacBook Air 13-in. M2, MacBook Air 13-in. M1 2020, and iMac 24-in. M1 two ports 2021 |
-| Legacy candidate source | Superseded     | `.scratch/strict/mac/strict-devices.json`, 15 devices                                                           |
-| Canonical output           | Present usable | `public/data/mac/mac.json`, 49 devices; Ajv Draft 2020-12 validation passes with zero errors                    |
+| Input                    | State          | Evidence                                                                                                        |
+| ------------------------ | -------------- | --------------------------------------------------------------------------------------------------------------- |
+| `data/tmp/mac/mac.html`  | Present usable | 55 product cells; featured MacBook Neo A18 Pro, MacBook Air 13-in. M5, and MacBook Pro 14-in. M5                |
+| `data/tmp/mac/mac2.html` | Present usable | 55 product cells; featured iMac M4 two ports, MacBook Pro 14-in. M5 Pro, and MacBook Pro 16-in. M5 Max          |
+| `data/tmp/mac/mac3.html` | Present usable | 55 product cells; featured Mac mini M4, Mac mini M4 Pro, and Mac Studio M4 Max                                  |
+| `data/tmp/mac/mac4.html` | Present usable | 55 product cells; featured MacBook Air 13-in. M3, MacBook Air 13-in. M4, and Mac Studio M3 Ultra                |
+| `data/tmp/mac/mac5.html` | Present usable | 55 product cells; featured MacBook Air 13-in. M2, MacBook Air 13-in. M1 2020, and iMac 24-in. M1 two ports 2021 |
+| Legacy candidate source  | Superseded     | `.scratch/strict/mac/strict-devices.json`, 15 devices                                                           |
+| Canonical output         | Present usable | `public/data/mac/mac.json`, 49 devices; Ajv Draft 2020-12 validation passes with zero errors                    |
 
 Every usable page exposes the same 54-device catalogue selector. Five usable pages cover all 15 merged devices.
 
 ## Devices
 
-| Device                                      | State       | Source HTML                                                    |
-| ------------------------------------------- | ----------- | -------------------------------------------------------------- |
-| MacBook Neo (A18 Pro)                       | PRESENT     | `mac.html`, `mac2.html`, `mac3.html`, `mac4.html`, `mac5.html` |
-| MacBook Air 13-in. (M5)                     | PRESENT     | `mac.html`, `mac2.html`, `mac3.html`, `mac4.html`, `mac5.html` |
-| MacBook Pro 14-in. (M5)                     | PRESENT     | `mac.html`, `mac2.html`, `mac3.html`, `mac4.html`, `mac5.html` |
-| iMac (M4, two ports)                        | PRESENT     | `mac.html`, `mac2.html`, `mac3.html`, `mac4.html`, `mac5.html` |
-| MacBook Pro 14-in. (M5 Pro)                 | PRESENT     | `mac.html`, `mac2.html`, `mac3.html`, `mac4.html`, `mac5.html` |
-| MacBook Pro 16-in. (M5 Max)                 | PRESENT     | `mac.html`, `mac2.html`, `mac3.html`, `mac4.html`, `mac5.html` |
-| Mac mini (M4)                               | PRESENT     | `mac.html`, `mac2.html`, `mac3.html`, `mac4.html`, `mac5.html` |
-| Mac mini (M4 Pro)                           | PRESENT     | `mac.html`, `mac2.html`, `mac3.html`, `mac4.html`, `mac5.html` |
-| Mac Studio (M4 Max)                         | PRESENT     | `mac.html`, `mac2.html`, `mac3.html`, `mac4.html`, `mac5.html` |
-| MacBook Air 13-in. (M3)                     | PRESENT     | `mac.html`, `mac2.html`, `mac3.html`, `mac4.html`, `mac5.html` |
-| MacBook Air 13-in. (M4)                     | PRESENT     | `mac.html`, `mac2.html`, `mac3.html`, `mac4.html`, `mac5.html` |
-| Mac Studio (M3 Ultra)                       | PRESENT     | `mac.html`, `mac2.html`, `mac3.html`, `mac4.html`, `mac5.html` |
-| MacBook Air 13-in. (M2)                     | PRESENT     | `mac.html`, `mac2.html`, `mac3.html`, `mac4.html`, `mac5.html` |
-| MacBook Air 13-in. (M1, 2020)               | PRESENT     | `mac.html`, `mac2.html`, `mac3.html`, `mac4.html`, `mac5.html` |
-| iMac 24-in. (M1, two ports, 2021)           | PRESENT     | `mac.html`, `mac2.html`, `mac3.html`, `mac4.html`, `mac5.html` |
+| Device                                      | State   | Source HTML                                                    |
+| ------------------------------------------- | ------- | -------------------------------------------------------------- |
+| MacBook Neo (A18 Pro)                       | PRESENT | `mac.html`, `mac2.html`, `mac3.html`, `mac4.html`, `mac5.html` |
+| MacBook Air 13-in. (M5)                     | PRESENT | `mac.html`, `mac2.html`, `mac3.html`, `mac4.html`, `mac5.html` |
+| MacBook Pro 14-in. (M5)                     | PRESENT | `mac.html`, `mac2.html`, `mac3.html`, `mac4.html`, `mac5.html` |
+| iMac (M4, two ports)                        | PRESENT | `mac.html`, `mac2.html`, `mac3.html`, `mac4.html`, `mac5.html` |
+| MacBook Pro 14-in. (M5 Pro)                 | PRESENT | `mac.html`, `mac2.html`, `mac3.html`, `mac4.html`, `mac5.html` |
+| MacBook Pro 16-in. (M5 Max)                 | PRESENT | `mac.html`, `mac2.html`, `mac3.html`, `mac4.html`, `mac5.html` |
+| Mac mini (M4)                               | PRESENT | `mac.html`, `mac2.html`, `mac3.html`, `mac4.html`, `mac5.html` |
+| Mac mini (M4 Pro)                           | PRESENT | `mac.html`, `mac2.html`, `mac3.html`, `mac4.html`, `mac5.html` |
+| Mac Studio (M4 Max)                         | PRESENT | `mac.html`, `mac2.html`, `mac3.html`, `mac4.html`, `mac5.html` |
+| MacBook Air 13-in. (M3)                     | PRESENT | `mac.html`, `mac2.html`, `mac3.html`, `mac4.html`, `mac5.html` |
+| MacBook Air 13-in. (M4)                     | PRESENT | `mac.html`, `mac2.html`, `mac3.html`, `mac4.html`, `mac5.html` |
+| Mac Studio (M3 Ultra)                       | PRESENT | `mac.html`, `mac2.html`, `mac3.html`, `mac4.html`, `mac5.html` |
+| MacBook Air 13-in. (M2)                     | PRESENT | `mac.html`, `mac2.html`, `mac3.html`, `mac4.html`, `mac5.html` |
+| MacBook Air 13-in. (M1, 2020)               | PRESENT | `mac.html`, `mac2.html`, `mac3.html`, `mac4.html`, `mac5.html` |
+| iMac 24-in. (M1, two ports, 2021)           | PRESENT | `mac.html`, `mac2.html`, `mac3.html`, `mac4.html`, `mac5.html` |
 | MacBook Air 15-in. (M5)                     | PRESENT | `mac.html`, `mac2.html`, `mac3.html`, `mac4.html`, `mac5.html` |
 | MacBook Pro 14-in. (M5 Max)                 | PRESENT | `mac.html`, `mac2.html`, `mac3.html`, `mac4.html`, `mac5.html` |
 | MacBook Pro 16-in. (M5 Pro)                 | PRESENT | `mac.html`, `mac2.html`, `mac3.html`, `mac4.html`, `mac5.html` |

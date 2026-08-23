@@ -102,26 +102,14 @@
 				{
 					"id": "256gb-configuration",
 					"displayName": "iPhone 17 256GB",
-					"colorIds": [
-						"lavender",
-						"sage",
-						"mist-blue",
-						"white",
-						"black"
-					],
+					"colorIds": ["lavender", "sage", "mist-blue", "white", "black"],
 					"storageId": "256gb",
 					"priceAud": 1399
 				},
 				{
 					"id": "512gb-configuration",
 					"displayName": "iPhone 17 512GB",
-					"colorIds": [
-						"lavender",
-						"sage",
-						"mist-blue",
-						"white",
-						"black"
-					],
+					"colorIds": ["lavender", "sage", "mist-blue", "white", "black"],
 					"storageId": "512gb",
 					"priceAud": null
 				}
@@ -238,10 +226,7 @@
 					"portId": "USB-C",
 					"wiredFastCharge": true,
 					"wirelessCharging": true,
-					"wirelessStandards": [
-						"MagSafe",
-						"Qi2"
-					],
+					"wirelessStandards": ["MagSafe", "Qi2"],
 					"fastChargeMinutesToPercent": {
 						"percent": 50,
 						"minutes": 20
@@ -278,10 +263,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"Face ID",
-					"passcode"
-				],
+				"methods": ["Face ID", "passcode"],
 				"primaryMethod": "Face ID",
 				"placement": null,
 				"sourceNotes": "Exact authentication section establishes Face ID."
@@ -378,44 +360,28 @@
 				{
 					"id": "256gb-configuration",
 					"displayName": "iPhone 17 Pro Max 256GB",
-					"colorIds": [
-						"cosmic-orange",
-						"deep-blue",
-						"silver"
-					],
+					"colorIds": ["cosmic-orange", "deep-blue", "silver"],
 					"storageId": "256gb",
 					"priceAud": 2199
 				},
 				{
 					"id": "512gb-configuration",
 					"displayName": "iPhone 17 Pro Max 512GB",
-					"colorIds": [
-						"cosmic-orange",
-						"deep-blue",
-						"silver"
-					],
+					"colorIds": ["cosmic-orange", "deep-blue", "silver"],
 					"storageId": "512gb",
 					"priceAud": null
 				},
 				{
 					"id": "1tb-configuration",
 					"displayName": "iPhone 17 Pro Max 1TB",
-					"colorIds": [
-						"cosmic-orange",
-						"deep-blue",
-						"silver"
-					],
+					"colorIds": ["cosmic-orange", "deep-blue", "silver"],
 					"storageId": "1tb",
 					"priceAud": null
 				},
 				{
 					"id": "2tb-configuration",
 					"displayName": "iPhone 17 Pro Max 2TB",
-					"colorIds": [
-						"cosmic-orange",
-						"deep-blue",
-						"silver"
-					],
+					"colorIds": ["cosmic-orange", "deep-blue", "silver"],
 					"storageId": "2tb",
 					"priceAud": null
 				}
@@ -556,10 +522,7 @@
 					"portId": "USB-C",
 					"wiredFastCharge": true,
 					"wirelessCharging": true,
-					"wirelessStandards": [
-						"MagSafe",
-						"Qi2"
-					],
+					"wirelessStandards": ["MagSafe", "Qi2"],
 					"fastChargeMinutesToPercent": {
 						"percent": 50,
 						"minutes": 20
@@ -596,10 +559,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"Face ID",
-					"passcode"
-				],
+				"methods": ["Face ID", "passcode"],
 				"primaryMethod": "Face ID",
 				"placement": null,
 				"sourceNotes": "Exact authentication section establishes Face ID."
@@ -696,22 +656,14 @@
 				{
 					"id": "256gb-configuration",
 					"displayName": "iPhone 17e 256GB",
-					"colorIds": [
-						"soft-pink",
-						"white",
-						"black"
-					],
+					"colorIds": ["soft-pink", "white", "black"],
 					"storageId": "256gb",
 					"priceAud": 999
 				},
 				{
 					"id": "512gb-configuration",
 					"displayName": "iPhone 17e 512GB",
-					"colorIds": [
-						"soft-pink",
-						"white",
-						"black"
-					],
+					"colorIds": ["soft-pink", "white", "black"],
 					"storageId": "512gb",
 					"priceAud": null
 				}
@@ -816,10 +768,7 @@
 					"portId": "USB-C",
 					"wiredFastCharge": true,
 					"wirelessCharging": true,
-					"wirelessStandards": [
-						"MagSafe",
-						"Qi2"
-					],
+					"wirelessStandards": ["MagSafe", "Qi2"],
 					"fastChargeMinutesToPercent": {
 						"percent": 50,
 						"minutes": 30
@@ -856,10 +805,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"Face ID",
-					"passcode"
-				],
+				"methods": ["Face ID", "passcode"],
 				"primaryMethod": "Face ID",
 				"placement": null,
 				"sourceNotes": "Exact authentication section establishes Face ID."
@@ -974,36 +920,21 @@
 				{
 					"id": "256gb-configuration",
 					"displayName": "iPhone Air 256GB",
-					"colorIds": [
-						"sky-blue",
-						"light-gold",
-						"cloud-white",
-						"space-black"
-					],
+					"colorIds": ["sky-blue", "light-gold", "cloud-white", "space-black"],
 					"storageId": "256gb",
 					"priceAud": 1799
 				},
 				{
 					"id": "512gb-configuration",
 					"displayName": "iPhone Air 512GB",
-					"colorIds": [
-						"sky-blue",
-						"light-gold",
-						"cloud-white",
-						"space-black"
-					],
+					"colorIds": ["sky-blue", "light-gold", "cloud-white", "space-black"],
 					"storageId": "512gb",
 					"priceAud": null
 				},
 				{
 					"id": "1tb-configuration",
 					"displayName": "iPhone Air 1TB",
-					"colorIds": [
-						"sky-blue",
-						"light-gold",
-						"cloud-white",
-						"space-black"
-					],
+					"colorIds": ["sky-blue", "light-gold", "cloud-white", "space-black"],
 					"storageId": "1tb",
 					"priceAud": null
 				}
@@ -1126,10 +1057,7 @@
 					"portId": "USB-C",
 					"wiredFastCharge": true,
 					"wirelessCharging": true,
-					"wirelessStandards": [
-						"MagSafe",
-						"Qi2"
-					],
+					"wirelessStandards": ["MagSafe", "Qi2"],
 					"fastChargeMinutesToPercent": {
 						"percent": 50,
 						"minutes": 30
@@ -1166,10 +1094,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"Face ID",
-					"passcode"
-				],
+				"methods": ["Face ID", "passcode"],
 				"primaryMethod": "Face ID",
 				"placement": null,
 				"sourceNotes": "Exact authentication section establishes Face ID."
@@ -1302,39 +1227,21 @@
 				{
 					"id": "128gb-configuration",
 					"displayName": "iPhone 16 128GB",
-					"colorIds": [
-						"ultramarine",
-						"teal",
-						"pink",
-						"white",
-						"black"
-					],
+					"colorIds": ["ultramarine", "teal", "pink", "white", "black"],
 					"storageId": "128gb",
 					"priceAud": 999
 				},
 				{
 					"id": "256gb-configuration",
 					"displayName": "iPhone 16 256GB",
-					"colorIds": [
-						"ultramarine",
-						"teal",
-						"pink",
-						"white",
-						"black"
-					],
+					"colorIds": ["ultramarine", "teal", "pink", "white", "black"],
 					"storageId": "256gb",
 					"priceAud": null
 				},
 				{
 					"id": "512gb-configuration",
 					"displayName": "iPhone 16 512GB",
-					"colorIds": [
-						"ultramarine",
-						"teal",
-						"pink",
-						"white",
-						"black"
-					],
+					"colorIds": ["ultramarine", "teal", "pink", "white", "black"],
 					"storageId": "512gb",
 					"priceAud": null
 				}
@@ -1433,10 +1340,7 @@
 					"portId": "USB-C",
 					"wiredFastCharge": true,
 					"wirelessCharging": true,
-					"wirelessStandards": [
-						"MagSafe",
-						"Qi2"
-					],
+					"wirelessStandards": ["MagSafe", "Qi2"],
 					"fastChargeMinutesToPercent": {
 						"percent": 50,
 						"minutes": 30
@@ -1473,10 +1377,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"Face ID",
-					"passcode"
-				],
+				"methods": ["Face ID", "passcode"],
 				"primaryMethod": "Face ID",
 				"placement": null,
 				"sourceNotes": "Exact authentication section establishes Face ID."
@@ -1755,10 +1656,7 @@
 					"portId": "USB-C",
 					"wiredFastCharge": true,
 					"wirelessCharging": true,
-					"wirelessStandards": [
-						"MagSafe",
-						"Qi2"
-					],
+					"wirelessStandards": ["MagSafe", "Qi2"],
 					"fastChargeMinutesToPercent": {
 						"percent": 50,
 						"minutes": 35
@@ -1795,10 +1693,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"Face ID",
-					"passcode"
-				],
+				"methods": ["Face ID", "passcode"],
 				"primaryMethod": "Face ID",
 				"placement": null,
 				"sourceNotes": "Exact authentication section establishes Face ID."
@@ -2077,10 +1972,7 @@
 					"portId": "USB-C",
 					"wiredFastCharge": true,
 					"wirelessCharging": true,
-					"wirelessStandards": [
-						"MagSafe",
-						"Qi2"
-					],
+					"wirelessStandards": ["MagSafe", "Qi2"],
 					"fastChargeMinutesToPercent": {
 						"percent": 50,
 						"minutes": 35
@@ -2117,10 +2009,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"Face ID",
-					"passcode"
-				],
+				"methods": ["Face ID", "passcode"],
 				"primaryMethod": "Face ID",
 				"placement": null,
 				"sourceNotes": "Exact authentication section establishes Face ID."
@@ -2405,10 +2294,7 @@
 					"portId": "Lightning",
 					"wiredFastCharge": true,
 					"wirelessCharging": true,
-					"wirelessStandards": [
-						"MagSafe",
-						"Qi2"
-					],
+					"wirelessStandards": ["MagSafe", "Qi2"],
 					"fastChargeMinutesToPercent": {
 						"percent": 50,
 						"minutes": 30
@@ -2445,10 +2331,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"Face ID",
-					"passcode"
-				],
+				"methods": ["Face ID", "passcode"],
 				"primaryMethod": "Face ID",
 				"placement": null,
 				"sourceNotes": "Exact authentication section establishes Face ID."
@@ -2757,10 +2640,7 @@
 					"portId": "Lightning",
 					"wiredFastCharge": true,
 					"wirelessCharging": true,
-					"wirelessStandards": [
-						"MagSafe",
-						"Qi2"
-					],
+					"wirelessStandards": ["MagSafe", "Qi2"],
 					"fastChargeMinutesToPercent": {
 						"percent": 50,
 						"minutes": 35
@@ -2797,10 +2677,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"Face ID",
-					"passcode"
-				],
+				"methods": ["Face ID", "passcode"],
 				"primaryMethod": "Face ID",
 				"placement": null,
 				"sourceNotes": "Exact authentication section establishes Face ID."
@@ -2915,48 +2792,28 @@
 				{
 					"id": "128gb-configuration",
 					"displayName": "iPhone 14 Pro 128GB",
-					"colorIds": [
-						"deep-purple",
-						"gold",
-						"silver",
-						"space-black"
-					],
+					"colorIds": ["deep-purple", "gold", "silver", "space-black"],
 					"storageId": "128gb",
 					"priceAud": null
 				},
 				{
 					"id": "256gb-configuration",
 					"displayName": "iPhone 14 Pro 256GB",
-					"colorIds": [
-						"deep-purple",
-						"gold",
-						"silver",
-						"space-black"
-					],
+					"colorIds": ["deep-purple", "gold", "silver", "space-black"],
 					"storageId": "256gb",
 					"priceAud": null
 				},
 				{
 					"id": "512gb-configuration",
 					"displayName": "iPhone 14 Pro 512GB",
-					"colorIds": [
-						"deep-purple",
-						"gold",
-						"silver",
-						"space-black"
-					],
+					"colorIds": ["deep-purple", "gold", "silver", "space-black"],
 					"storageId": "512gb",
 					"priceAud": null
 				},
 				{
 					"id": "1tb-configuration",
 					"displayName": "iPhone 14 Pro 1TB",
-					"colorIds": [
-						"deep-purple",
-						"gold",
-						"silver",
-						"space-black"
-					],
+					"colorIds": ["deep-purple", "gold", "silver", "space-black"],
 					"storageId": "1tb",
 					"priceAud": null
 				}
@@ -3097,10 +2954,7 @@
 					"portId": "Lightning",
 					"wiredFastCharge": true,
 					"wirelessCharging": true,
-					"wirelessStandards": [
-						"MagSafe",
-						"Qi2"
-					],
+					"wirelessStandards": ["MagSafe", "Qi2"],
 					"fastChargeMinutesToPercent": {
 						"percent": 50,
 						"minutes": 30
@@ -3137,10 +2991,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"Face ID",
-					"passcode"
-				],
+				"methods": ["Face ID", "passcode"],
 				"primaryMethod": "Face ID",
 				"placement": null,
 				"sourceNotes": "Exact authentication section establishes Face ID."
@@ -3237,33 +3088,21 @@
 				{
 					"id": "64gb-configuration",
 					"displayName": "iPhone SE (3rd generation) 64GB",
-					"colorIds": [
-						"midnight",
-						"starlight",
-						"red"
-					],
+					"colorIds": ["midnight", "starlight", "red"],
 					"storageId": "64gb",
 					"priceAud": null
 				},
 				{
 					"id": "128gb-configuration",
 					"displayName": "iPhone SE (3rd generation) 128GB",
-					"colorIds": [
-						"midnight",
-						"starlight",
-						"red"
-					],
+					"colorIds": ["midnight", "starlight", "red"],
 					"storageId": "128gb",
 					"priceAud": null
 				},
 				{
 					"id": "256gb-configuration",
 					"displayName": "iPhone SE (3rd generation) 256GB",
-					"colorIds": [
-						"midnight",
-						"starlight",
-						"red"
-					],
+					"colorIds": ["midnight", "starlight", "red"],
 					"storageId": "256gb",
 					"priceAud": null
 				}
@@ -3374,9 +3213,7 @@
 					"portId": "Lightning",
 					"wiredFastCharge": true,
 					"wirelessCharging": true,
-					"wirelessStandards": [
-						"Qi"
-					],
+					"wirelessStandards": ["Qi"],
 					"fastChargeMinutesToPercent": {
 						"percent": 50,
 						"minutes": 30
@@ -3413,10 +3250,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"Touch ID",
-					"passcode"
-				],
+				"methods": ["Touch ID", "passcode"],
 				"primaryMethod": "Touch ID",
 				"placement": "other",
 				"sourceNotes": "Home-button iPhone SE uses Touch ID; placement modeled as other."
@@ -3567,42 +3401,21 @@
 				{
 					"id": "128gb-configuration",
 					"displayName": "iPhone 13 128GB",
-					"colorIds": [
-						"green",
-						"pink",
-						"blue",
-						"midnight",
-						"starlight",
-						"red"
-					],
+					"colorIds": ["green", "pink", "blue", "midnight", "starlight", "red"],
 					"storageId": "128gb",
 					"priceAud": null
 				},
 				{
 					"id": "256gb-configuration",
 					"displayName": "iPhone 13 256GB",
-					"colorIds": [
-						"green",
-						"pink",
-						"blue",
-						"midnight",
-						"starlight",
-						"red"
-					],
+					"colorIds": ["green", "pink", "blue", "midnight", "starlight", "red"],
 					"storageId": "256gb",
 					"priceAud": null
 				},
 				{
 					"id": "512gb-configuration",
 					"displayName": "iPhone 13 512GB",
-					"colorIds": [
-						"green",
-						"pink",
-						"blue",
-						"midnight",
-						"starlight",
-						"red"
-					],
+					"colorIds": ["green", "pink", "blue", "midnight", "starlight", "red"],
 					"storageId": "512gb",
 					"priceAud": null
 				}
@@ -3701,10 +3514,7 @@
 					"portId": "Lightning",
 					"wiredFastCharge": true,
 					"wirelessCharging": true,
-					"wirelessStandards": [
-						"MagSafe",
-						"Qi2"
-					],
+					"wirelessStandards": ["MagSafe", "Qi2"],
 					"fastChargeMinutesToPercent": {
 						"percent": 50,
 						"minutes": 30
@@ -3741,10 +3551,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"Face ID",
-					"passcode"
-				],
+				"methods": ["Face ID", "passcode"],
 				"primaryMethod": "Face ID",
 				"placement": null,
 				"sourceNotes": "Exact authentication section establishes Face ID."
@@ -3895,42 +3702,21 @@
 				{
 					"id": "128gb-configuration",
 					"displayName": "iPhone 13 mini 128GB",
-					"colorIds": [
-						"green",
-						"pink",
-						"blue",
-						"midnight",
-						"starlight",
-						"red"
-					],
+					"colorIds": ["green", "pink", "blue", "midnight", "starlight", "red"],
 					"storageId": "128gb",
 					"priceAud": null
 				},
 				{
 					"id": "256gb-configuration",
 					"displayName": "iPhone 13 mini 256GB",
-					"colorIds": [
-						"green",
-						"pink",
-						"blue",
-						"midnight",
-						"starlight",
-						"red"
-					],
+					"colorIds": ["green", "pink", "blue", "midnight", "starlight", "red"],
 					"storageId": "256gb",
 					"priceAud": null
 				},
 				{
 					"id": "512gb-configuration",
 					"displayName": "iPhone 13 mini 512GB",
-					"colorIds": [
-						"green",
-						"pink",
-						"blue",
-						"midnight",
-						"starlight",
-						"red"
-					],
+					"colorIds": ["green", "pink", "blue", "midnight", "starlight", "red"],
 					"storageId": "512gb",
 					"priceAud": null
 				}
@@ -4053,10 +3839,7 @@
 					"portId": "Lightning",
 					"wiredFastCharge": true,
 					"wirelessCharging": true,
-					"wirelessStandards": [
-						"MagSafe",
-						"Qi2"
-					],
+					"wirelessStandards": ["MagSafe", "Qi2"],
 					"fastChargeMinutesToPercent": {
 						"percent": 50,
 						"minutes": 30
@@ -4093,10 +3876,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"Face ID",
-					"passcode"
-				],
+				"methods": ["Face ID", "passcode"],
 				"primaryMethod": "Face ID",
 				"placement": null,
 				"sourceNotes": "Exact authentication section establishes Face ID."
@@ -4415,10 +4195,7 @@
 					"portId": "Lightning",
 					"wiredFastCharge": true,
 					"wirelessCharging": true,
-					"wirelessStandards": [
-						"MagSafe",
-						"Qi2"
-					],
+					"wirelessStandards": ["MagSafe", "Qi2"],
 					"fastChargeMinutesToPercent": {
 						"percent": 50,
 						"minutes": 35
@@ -4455,10 +4232,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"Face ID",
-					"passcode"
-				],
+				"methods": ["Face ID", "passcode"],
 				"primaryMethod": "Face ID",
 				"placement": null,
 				"sourceNotes": "Exact authentication section establishes Face ID."
@@ -4609,42 +4383,21 @@
 				{
 					"id": "64gb-configuration",
 					"displayName": "iPhone 12 64GB",
-					"colorIds": [
-						"purple",
-						"blue",
-						"green",
-						"red",
-						"white",
-						"black"
-					],
+					"colorIds": ["purple", "blue", "green", "red", "white", "black"],
 					"storageId": "64gb",
 					"priceAud": null
 				},
 				{
 					"id": "128gb-configuration",
 					"displayName": "iPhone 12 128GB",
-					"colorIds": [
-						"purple",
-						"blue",
-						"green",
-						"red",
-						"white",
-						"black"
-					],
+					"colorIds": ["purple", "blue", "green", "red", "white", "black"],
 					"storageId": "128gb",
 					"priceAud": null
 				},
 				{
 					"id": "256gb-configuration",
 					"displayName": "iPhone 12 256GB",
-					"colorIds": [
-						"purple",
-						"blue",
-						"green",
-						"red",
-						"white",
-						"black"
-					],
+					"colorIds": ["purple", "blue", "green", "red", "white", "black"],
 					"storageId": "256gb",
 					"priceAud": null
 				}
@@ -4743,10 +4496,7 @@
 					"portId": "Lightning",
 					"wiredFastCharge": true,
 					"wirelessCharging": true,
-					"wirelessStandards": [
-						"MagSafe",
-						"Qi2"
-					],
+					"wirelessStandards": ["MagSafe", "Qi2"],
 					"fastChargeMinutesToPercent": {
 						"percent": 50,
 						"minutes": 30
@@ -4783,10 +4533,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"Face ID",
-					"passcode"
-				],
+				"methods": ["Face ID", "passcode"],
 				"primaryMethod": "Face ID",
 				"placement": null,
 				"sourceNotes": "Exact authentication section establishes Face ID."
@@ -4901,36 +4648,21 @@
 				{
 					"id": "128gb-configuration",
 					"displayName": "iPhone 12 Pro 128GB",
-					"colorIds": [
-						"pacific-blue",
-						"gold",
-						"graphite",
-						"silver"
-					],
+					"colorIds": ["pacific-blue", "gold", "graphite", "silver"],
 					"storageId": "128gb",
 					"priceAud": null
 				},
 				{
 					"id": "256gb-configuration",
 					"displayName": "iPhone 12 Pro 256GB",
-					"colorIds": [
-						"pacific-blue",
-						"gold",
-						"graphite",
-						"silver"
-					],
+					"colorIds": ["pacific-blue", "gold", "graphite", "silver"],
 					"storageId": "256gb",
 					"priceAud": null
 				},
 				{
 					"id": "512gb-configuration",
 					"displayName": "iPhone 12 Pro 512GB",
-					"colorIds": [
-						"pacific-blue",
-						"gold",
-						"graphite",
-						"silver"
-					],
+					"colorIds": ["pacific-blue", "gold", "graphite", "silver"],
 					"storageId": "512gb",
 					"priceAud": null
 				}
@@ -5065,10 +4797,7 @@
 					"portId": "Lightning",
 					"wiredFastCharge": true,
 					"wirelessCharging": true,
-					"wirelessStandards": [
-						"MagSafe",
-						"Qi2"
-					],
+					"wirelessStandards": ["MagSafe", "Qi2"],
 					"fastChargeMinutesToPercent": {
 						"percent": 50,
 						"minutes": 30
@@ -5105,10 +4834,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"Face ID",
-					"passcode"
-				],
+				"methods": ["Face ID", "passcode"],
 				"primaryMethod": "Face ID",
 				"placement": null,
 				"sourceNotes": "Exact authentication section establishes Face ID."
@@ -5223,36 +4949,21 @@
 				{
 					"id": "128gb-configuration",
 					"displayName": "iPhone 12 Pro Max 128GB",
-					"colorIds": [
-						"pacific-blue",
-						"gold",
-						"graphite",
-						"silver"
-					],
+					"colorIds": ["pacific-blue", "gold", "graphite", "silver"],
 					"storageId": "128gb",
 					"priceAud": null
 				},
 				{
 					"id": "256gb-configuration",
 					"displayName": "iPhone 12 Pro Max 256GB",
-					"colorIds": [
-						"pacific-blue",
-						"gold",
-						"graphite",
-						"silver"
-					],
+					"colorIds": ["pacific-blue", "gold", "graphite", "silver"],
 					"storageId": "256gb",
 					"priceAud": null
 				},
 				{
 					"id": "512gb-configuration",
 					"displayName": "iPhone 12 Pro Max 512GB",
-					"colorIds": [
-						"pacific-blue",
-						"gold",
-						"graphite",
-						"silver"
-					],
+					"colorIds": ["pacific-blue", "gold", "graphite", "silver"],
 					"storageId": "512gb",
 					"priceAud": null
 				}
@@ -5387,10 +5098,7 @@
 					"portId": "Lightning",
 					"wiredFastCharge": true,
 					"wirelessCharging": true,
-					"wirelessStandards": [
-						"MagSafe",
-						"Qi2"
-					],
+					"wirelessStandards": ["MagSafe", "Qi2"],
 					"fastChargeMinutesToPercent": {
 						"percent": 50,
 						"minutes": 30
@@ -5427,10 +5135,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"Face ID",
-					"passcode"
-				],
+				"methods": ["Face ID", "passcode"],
 				"primaryMethod": "Face ID",
 				"placement": null,
 				"sourceNotes": "Exact authentication section establishes Face ID."
@@ -5581,28 +5286,14 @@
 				{
 					"id": "64gb-configuration",
 					"displayName": "iPhone 11 64GB",
-					"colorIds": [
-						"purple",
-						"yellow",
-						"green",
-						"black",
-						"white",
-						"red"
-					],
+					"colorIds": ["purple", "yellow", "green", "black", "white", "red"],
 					"storageId": "64gb",
 					"priceAud": null
 				},
 				{
 					"id": "128gb-configuration",
 					"displayName": "iPhone 11 128GB",
-					"colorIds": [
-						"purple",
-						"yellow",
-						"green",
-						"black",
-						"white",
-						"red"
-					],
+					"colorIds": ["purple", "yellow", "green", "black", "white", "red"],
 					"storageId": "128gb",
 					"priceAud": null
 				}
@@ -5695,9 +5386,7 @@
 					"portId": "Lightning",
 					"wiredFastCharge": true,
 					"wirelessCharging": true,
-					"wirelessStandards": [
-						"Qi"
-					],
+					"wirelessStandards": ["Qi"],
 					"fastChargeMinutesToPercent": {
 						"percent": 50,
 						"minutes": 30
@@ -5734,10 +5423,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"Face ID",
-					"passcode"
-				],
+				"methods": ["Face ID", "passcode"],
 				"primaryMethod": "Face ID",
 				"placement": null,
 				"sourceNotes": "Exact authentication section establishes Face ID."
@@ -5852,36 +5538,21 @@
 				{
 					"id": "64gb-configuration",
 					"displayName": "iPhone 11 Pro 64GB",
-					"colorIds": [
-						"midnight-green",
-						"silver",
-						"spacegray",
-						"gold"
-					],
+					"colorIds": ["midnight-green", "silver", "spacegray", "gold"],
 					"storageId": "64gb",
 					"priceAud": null
 				},
 				{
 					"id": "256gb-configuration",
 					"displayName": "iPhone 11 Pro 256GB",
-					"colorIds": [
-						"midnight-green",
-						"silver",
-						"spacegray",
-						"gold"
-					],
+					"colorIds": ["midnight-green", "silver", "spacegray", "gold"],
 					"storageId": "256gb",
 					"priceAud": null
 				},
 				{
 					"id": "512gb-configuration",
 					"displayName": "iPhone 11 Pro 512GB",
-					"colorIds": [
-						"midnight-green",
-						"silver",
-						"spacegray",
-						"gold"
-					],
+					"colorIds": ["midnight-green", "silver", "spacegray", "gold"],
 					"storageId": "512gb",
 					"priceAud": null
 				}
@@ -6016,9 +5687,7 @@
 					"portId": "Lightning",
 					"wiredFastCharge": true,
 					"wirelessCharging": true,
-					"wirelessStandards": [
-						"Qi"
-					],
+					"wirelessStandards": ["Qi"],
 					"fastChargeMinutesToPercent": {
 						"percent": 50,
 						"minutes": 30
@@ -6055,10 +5724,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"Face ID",
-					"passcode"
-				],
+				"methods": ["Face ID", "passcode"],
 				"primaryMethod": "Face ID",
 				"placement": null,
 				"sourceNotes": "Exact authentication section establishes Face ID."
@@ -6212,9 +5878,7 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 5"
-					]
+					"standards": ["Wi-Fi 5"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 4.2"
@@ -6231,16 +5895,11 @@
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": false,
-					"systems": [
-						"GPS"
-					]
+					"systems": ["GPS"]
 				}
 			},
 			"authentication": {
-				"methods": [
-					"Touch ID",
-					"passcode"
-				],
+				"methods": ["Touch ID", "passcode"],
 				"primaryMethod": "Touch ID"
 			},
 			"physical": {
@@ -6374,9 +6033,7 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 5"
-					]
+					"standards": ["Wi-Fi 5"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 4.2"
@@ -6393,16 +6050,11 @@
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": false,
-					"systems": [
-						"GPS"
-					]
+					"systems": ["GPS"]
 				}
 			},
 			"authentication": {
-				"methods": [
-					"Touch ID",
-					"passcode"
-				],
+				"methods": ["Touch ID", "passcode"],
 				"primaryMethod": "Touch ID"
 			},
 			"physical": {
@@ -6532,9 +6184,7 @@
 					"portId": "iphone-8-lightning-port",
 					"wiredFastCharge": null,
 					"wirelessCharging": true,
-					"wirelessStandards": [
-						"Qi"
-					],
+					"wirelessStandards": ["Qi"],
 					"fastChargeMinutesToPercent": null,
 					"adapterPowerW": null
 				},
@@ -6557,9 +6207,7 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 5"
-					]
+					"standards": ["Wi-Fi 5"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.0"
@@ -6576,16 +6224,11 @@
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": false,
-					"systems": [
-						"GPS"
-					]
+					"systems": ["GPS"]
 				}
 			},
 			"authentication": {
-				"methods": [
-					"Touch ID",
-					"passcode"
-				],
+				"methods": ["Touch ID", "passcode"],
 				"primaryMethod": "Touch ID"
 			},
 			"physical": {
@@ -6696,9 +6339,7 @@
 					"portId": "iphone-8-plus-lightning-port",
 					"wiredFastCharge": null,
 					"wirelessCharging": true,
-					"wirelessStandards": [
-						"Qi"
-					],
+					"wirelessStandards": ["Qi"],
 					"fastChargeMinutesToPercent": null,
 					"adapterPowerW": null
 				},
@@ -6721,9 +6362,7 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 5"
-					]
+					"standards": ["Wi-Fi 5"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.0"
@@ -6740,16 +6379,11 @@
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": false,
-					"systems": [
-						"GPS"
-					]
+					"systems": ["GPS"]
 				}
 			},
 			"authentication": {
-				"methods": [
-					"Touch ID",
-					"passcode"
-				],
+				"methods": ["Touch ID", "passcode"],
 				"primaryMethod": "Touch ID"
 			},
 			"physical": {
@@ -6879,9 +6513,7 @@
 					"portId": "iphone-se-2nd-generation-lightning-port",
 					"wiredFastCharge": null,
 					"wirelessCharging": true,
-					"wirelessStandards": [
-						"Qi"
-					],
+					"wirelessStandards": ["Qi"],
 					"fastChargeMinutesToPercent": null,
 					"adapterPowerW": null
 				},
@@ -6904,9 +6536,7 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 6"
-					]
+					"standards": ["Wi-Fi 6"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.0"
@@ -6923,16 +6553,11 @@
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": false,
-					"systems": [
-						"GPS"
-					]
+					"systems": ["GPS"]
 				}
 			},
 			"authentication": {
-				"methods": [
-					"Touch ID",
-					"passcode"
-				],
+				"methods": ["Touch ID", "passcode"],
 				"primaryMethod": "Touch ID"
 			},
 			"physical": {
@@ -7062,9 +6687,7 @@
 					"portId": "iphone-x-lightning-port",
 					"wiredFastCharge": null,
 					"wirelessCharging": true,
-					"wirelessStandards": [
-						"Qi"
-					],
+					"wirelessStandards": ["Qi"],
 					"fastChargeMinutesToPercent": null,
 					"adapterPowerW": null
 				},
@@ -7087,9 +6710,7 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 5"
-					]
+					"standards": ["Wi-Fi 5"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.0"
@@ -7106,16 +6727,11 @@
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": false,
-					"systems": [
-						"GPS"
-					]
+					"systems": ["GPS"]
 				}
 			},
 			"authentication": {
-				"methods": [
-					"Face ID",
-					"passcode"
-				],
+				"methods": ["Face ID", "passcode"],
 				"primaryMethod": "Face ID"
 			},
 			"physical": {
@@ -7226,9 +6842,7 @@
 					"portId": "iphone-xr-lightning-port",
 					"wiredFastCharge": null,
 					"wirelessCharging": true,
-					"wirelessStandards": [
-						"Qi"
-					],
+					"wirelessStandards": ["Qi"],
 					"fastChargeMinutesToPercent": null,
 					"adapterPowerW": null
 				},
@@ -7251,9 +6865,7 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 5"
-					]
+					"standards": ["Wi-Fi 5"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.0"
@@ -7270,16 +6882,11 @@
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": false,
-					"systems": [
-						"GPS"
-					]
+					"systems": ["GPS"]
 				}
 			},
 			"authentication": {
-				"methods": [
-					"Face ID",
-					"passcode"
-				],
+				"methods": ["Face ID", "passcode"],
 				"primaryMethod": "Face ID"
 			},
 			"physical": {
@@ -7390,9 +6997,7 @@
 					"portId": "iphone-xs-lightning-port",
 					"wiredFastCharge": null,
 					"wirelessCharging": true,
-					"wirelessStandards": [
-						"Qi"
-					],
+					"wirelessStandards": ["Qi"],
 					"fastChargeMinutesToPercent": null,
 					"adapterPowerW": null
 				},
@@ -7415,9 +7020,7 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 5"
-					]
+					"standards": ["Wi-Fi 5"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.0"
@@ -7434,16 +7037,11 @@
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": false,
-					"systems": [
-						"GPS"
-					]
+					"systems": ["GPS"]
 				}
 			},
 			"authentication": {
-				"methods": [
-					"Face ID",
-					"passcode"
-				],
+				"methods": ["Face ID", "passcode"],
 				"primaryMethod": "Face ID"
 			},
 			"physical": {
@@ -7573,9 +7171,7 @@
 					"portId": "iphone-xs-max-lightning-port",
 					"wiredFastCharge": null,
 					"wirelessCharging": true,
-					"wirelessStandards": [
-						"Qi"
-					],
+					"wirelessStandards": ["Qi"],
 					"fastChargeMinutesToPercent": null,
 					"adapterPowerW": null
 				},
@@ -7598,9 +7194,7 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 5"
-					]
+					"standards": ["Wi-Fi 5"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.0"
@@ -7617,16 +7211,11 @@
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": false,
-					"systems": [
-						"GPS"
-					]
+					"systems": ["GPS"]
 				}
 			},
 			"authentication": {
-				"methods": [
-					"Face ID",
-					"passcode"
-				],
+				"methods": ["Face ID", "passcode"],
 				"primaryMethod": "Face ID"
 			},
 			"physical": {
@@ -7756,9 +7345,7 @@
 					"portId": "iphone-11-pro-max-lightning-port",
 					"wiredFastCharge": null,
 					"wirelessCharging": true,
-					"wirelessStandards": [
-						"Qi"
-					],
+					"wirelessStandards": ["Qi"],
 					"fastChargeMinutesToPercent": null,
 					"adapterPowerW": null
 				},
@@ -7781,9 +7368,7 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 6"
-					]
+					"standards": ["Wi-Fi 6"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.0"
@@ -7803,16 +7388,11 @@
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": false,
-					"systems": [
-						"GPS"
-					]
+					"systems": ["GPS"]
 				}
 			},
 			"authentication": {
-				"methods": [
-					"Face ID",
-					"passcode"
-				],
+				"methods": ["Face ID", "passcode"],
 				"primaryMethod": "Face ID"
 			},
 			"physical": {
@@ -7930,10 +7510,7 @@
 					"portId": "iphone-12-mini-lightning-port",
 					"wiredFastCharge": null,
 					"wirelessCharging": true,
-					"wirelessStandards": [
-						"MagSafe",
-						"Qi"
-					],
+					"wirelessStandards": ["MagSafe", "Qi"],
 					"fastChargeMinutesToPercent": null,
 					"adapterPowerW": null
 				},
@@ -7956,9 +7533,7 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 6"
-					]
+					"standards": ["Wi-Fi 6"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.0"
@@ -7978,16 +7553,11 @@
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": false,
-					"systems": [
-						"GPS"
-					]
+					"systems": ["GPS"]
 				}
 			},
 			"authentication": {
-				"methods": [
-					"Face ID",
-					"passcode"
-				],
+				"methods": ["Face ID", "passcode"],
 				"primaryMethod": "Face ID"
 			},
 			"physical": {
@@ -8117,10 +7687,7 @@
 					"portId": "iphone-13-pro-lightning-port",
 					"wiredFastCharge": null,
 					"wirelessCharging": true,
-					"wirelessStandards": [
-						"MagSafe",
-						"Qi"
-					],
+					"wirelessStandards": ["MagSafe", "Qi"],
 					"fastChargeMinutesToPercent": null,
 					"adapterPowerW": null
 				},
@@ -8143,9 +7710,7 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 6"
-					]
+					"standards": ["Wi-Fi 6"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.0"
@@ -8165,16 +7730,11 @@
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": false,
-					"systems": [
-						"GPS"
-					]
+					"systems": ["GPS"]
 				}
 			},
 			"authentication": {
-				"methods": [
-					"Face ID",
-					"passcode"
-				],
+				"methods": ["Face ID", "passcode"],
 				"primaryMethod": "Face ID"
 			},
 			"physical": {
@@ -8310,10 +7870,7 @@
 					"portId": "iphone-15-usb-c-port",
 					"wiredFastCharge": null,
 					"wirelessCharging": true,
-					"wirelessStandards": [
-						"MagSafe",
-						"Qi"
-					],
+					"wirelessStandards": ["MagSafe", "Qi"],
 					"fastChargeMinutesToPercent": null,
 					"adapterPowerW": null
 				},
@@ -8336,9 +7893,7 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 6"
-					]
+					"standards": ["Wi-Fi 6"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.3"
@@ -8358,16 +7913,11 @@
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": false,
-					"systems": [
-						"GPS"
-					]
+					"systems": ["GPS"]
 				}
 			},
 			"authentication": {
-				"methods": [
-					"Face ID",
-					"passcode"
-				],
+				"methods": ["Face ID", "passcode"],
 				"primaryMethod": "Face ID"
 			},
 			"physical": {
@@ -8478,10 +8028,7 @@
 					"portId": "iphone-15-plus-usb-c-port",
 					"wiredFastCharge": null,
 					"wirelessCharging": true,
-					"wirelessStandards": [
-						"MagSafe",
-						"Qi"
-					],
+					"wirelessStandards": ["MagSafe", "Qi"],
 					"fastChargeMinutesToPercent": null,
 					"adapterPowerW": null
 				},
@@ -8504,9 +8051,7 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 6"
-					]
+					"standards": ["Wi-Fi 6"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.3"
@@ -8526,16 +8071,11 @@
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": false,
-					"systems": [
-						"GPS"
-					]
+					"systems": ["GPS"]
 				}
 			},
 			"authentication": {
-				"methods": [
-					"Face ID",
-					"passcode"
-				],
+				"methods": ["Face ID", "passcode"],
 				"primaryMethod": "Face ID"
 			},
 			"physical": {
@@ -8665,10 +8205,7 @@
 					"portId": "iphone-15-pro-usb-c-port",
 					"wiredFastCharge": null,
 					"wirelessCharging": true,
-					"wirelessStandards": [
-						"MagSafe",
-						"Qi"
-					],
+					"wirelessStandards": ["MagSafe", "Qi"],
 					"fastChargeMinutesToPercent": null,
 					"adapterPowerW": null
 				},
@@ -8691,9 +8228,7 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 6E"
-					]
+					"standards": ["Wi-Fi 6E"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.3"
@@ -8713,16 +8248,11 @@
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": true,
-					"systems": [
-						"GPS"
-					]
+					"systems": ["GPS"]
 				}
 			},
 			"authentication": {
-				"methods": [
-					"Face ID",
-					"passcode"
-				],
+				"methods": ["Face ID", "passcode"],
 				"primaryMethod": "Face ID"
 			},
 			"physical": {
@@ -8852,10 +8382,7 @@
 					"portId": "iphone-16-plus-usb-c-port",
 					"wiredFastCharge": null,
 					"wirelessCharging": true,
-					"wirelessStandards": [
-						"MagSafe",
-						"Qi"
-					],
+					"wirelessStandards": ["MagSafe", "Qi"],
 					"fastChargeMinutesToPercent": null,
 					"adapterPowerW": null
 				},
@@ -8878,9 +8405,7 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 7"
-					]
+					"standards": ["Wi-Fi 7"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.3"
@@ -8900,16 +8425,11 @@
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": false,
-					"systems": [
-						"GPS"
-					]
+					"systems": ["GPS"]
 				}
 			},
 			"authentication": {
-				"methods": [
-					"Face ID",
-					"passcode"
-				],
+				"methods": ["Face ID", "passcode"],
 				"primaryMethod": "Face ID"
 			},
 			"physical": {
@@ -9020,10 +8540,7 @@
 					"portId": "iphone-16-pro-usb-c-port",
 					"wiredFastCharge": null,
 					"wirelessCharging": true,
-					"wirelessStandards": [
-						"MagSafe",
-						"Qi"
-					],
+					"wirelessStandards": ["MagSafe", "Qi"],
 					"fastChargeMinutesToPercent": null,
 					"adapterPowerW": null
 				},
@@ -9046,9 +8563,7 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 7"
-					]
+					"standards": ["Wi-Fi 7"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.3"
@@ -9068,16 +8583,11 @@
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": true,
-					"systems": [
-						"GPS"
-					]
+					"systems": ["GPS"]
 				}
 			},
 			"authentication": {
-				"methods": [
-					"Face ID",
-					"passcode"
-				],
+				"methods": ["Face ID", "passcode"],
 				"primaryMethod": "Face ID"
 			},
 			"physical": {
@@ -9188,9 +8698,7 @@
 					"portId": "iphone-16e-usb-c-port",
 					"wiredFastCharge": null,
 					"wirelessCharging": true,
-					"wirelessStandards": [
-						"Qi"
-					],
+					"wirelessStandards": ["Qi"],
 					"fastChargeMinutesToPercent": null,
 					"adapterPowerW": null
 				},
@@ -9213,9 +8721,7 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 6"
-					]
+					"standards": ["Wi-Fi 6"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.3"
@@ -9232,16 +8738,11 @@
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": false,
-					"systems": [
-						"GPS"
-					]
+					"systems": ["GPS"]
 				}
 			},
 			"authentication": {
-				"methods": [
-					"Face ID",
-					"passcode"
-				],
+				"methods": ["Face ID", "passcode"],
 				"primaryMethod": "Face ID"
 			},
 			"physical": {
@@ -9371,10 +8872,7 @@
 					"portId": "iphone-17-pro-usb-c-port",
 					"wiredFastCharge": null,
 					"wirelessCharging": true,
-					"wirelessStandards": [
-						"MagSafe",
-						"Qi"
-					],
+					"wirelessStandards": ["MagSafe", "Qi"],
 					"fastChargeMinutesToPercent": null,
 					"adapterPowerW": null
 				},
@@ -9397,9 +8895,7 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 7"
-					]
+					"standards": ["Wi-Fi 7"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 6.0"
@@ -9419,16 +8915,11 @@
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": true,
-					"systems": [
-						"GPS"
-					]
+					"systems": ["GPS"]
 				}
 			},
 			"authentication": {
-				"methods": [
-					"Face ID",
-					"passcode"
-				],
+				"methods": ["Face ID", "passcode"],
 				"primaryMethod": "Face ID"
 			},
 			"physical": {

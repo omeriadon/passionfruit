@@ -2,14 +2,14 @@
 
 ## Inputs
 
-  Input                             State           | Evidence                                                                                                                                          |
+Input State Evidence
 | ------------------------------- | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `data/tmp/airpods/airpod.html`  | Present usable  | 659919 bytes                                                                                                                                      |
-| `data/tmp/airpods/airpod2.html` | Present usable  | 648954 bytes                                                                                                                                      |
-| `data/tmp/airpods/airpod3.html` | Unusable source | Zero bytes                                                                                                                                        |
-| `data/tmp/airpods/airpod4.html` | Present usable  | 601497 bytes                                                                                                                                      |
-| Candidate output                | CANDIDATE       | `.scratch/strict/airpods/strict-devices.json`, 9 devices                                                                                          |
-| Canonical output                | PRESENT         | `public/data/airpods/airpods.json`, 9 canonical devices; Ajv Draft 2020-12 shared contract passes with 0 errors; all 17 image references verified |
+| `data/tmp/airpods/airpod.html` | Present usable | 659919 bytes |
+| `data/tmp/airpods/airpod2.html` | Present usable | 648954 bytes |
+| `data/tmp/airpods/airpod3.html` | Unusable source | Zero bytes |
+| `data/tmp/airpods/airpod4.html` | Present usable | 601497 bytes |
+| Candidate output | CANDIDATE | `.scratch/strict/airpods/strict-devices.json`, 9 devices |
+| Canonical output | PRESENT | `public/data/airpods/airpods.json`, 9 canonical devices; Ajv Draft 2020-12 shared contract passes with 0 errors; all 17 image references verified |
 
 Additional HTML: none required. The three usable compare pages cover all nine mapped devices.
 
