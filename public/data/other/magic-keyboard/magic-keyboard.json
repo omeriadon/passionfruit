@@ -161,10 +161,7 @@
 					"heightPx": 628
 				}
 			],
-			"compatibleDeviceIds": [
-				"ipad-pro-13-m5",
-				"ipad-pro-13-m4"
-			],
+			"compatibleDeviceIds": ["ipad-pro-13-m5", "ipad-pro-13-m4"],
 			"capabilities": [
 				"Thin, light, portable floating cantilever design with multiple viewing angles.",
 				"Aluminium palm rest.",
@@ -331,10 +328,7 @@
 					"heightPx": 628
 				}
 			],
-			"compatibleDeviceIds": [
-				"ipad-pro-11-m5",
-				"ipad-pro-11-m4"
-			],
+			"compatibleDeviceIds": ["ipad-pro-11-m5", "ipad-pro-11-m4"],
 			"capabilities": [
 				"Thin, light, portable floating cantilever design with multiple viewing angles.",
 				"Aluminium palm rest.",
@@ -780,10 +774,7 @@
 					"heightPx": 1010
 				}
 			],
-			"compatibleDeviceIds": [
-				"ipad-a16",
-				"ipad-10th-generation"
-			],
+			"compatibleDeviceIds": ["ipad-a16", "ipad-10th-generation"],
 			"capabilities": [
 				"Amazing typing experience.",
 				"Built-in trackpad for precision tasks and the cursor in iPadOS.",

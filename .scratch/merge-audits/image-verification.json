@@ -1,0 +1,44 @@
+[
+	{
+		"section": "iphone",
+		"uniqueReferences": 69,
+		"verified": 69,
+		"missingOrUnresolved": 0,
+		"hashOrMimeMismatches": 0
+	},
+	{
+		"section": "airpods",
+		"uniqueReferences": 17,
+		"verified": 17,
+		"missingOrUnresolved": 0,
+		"hashOrMimeMismatches": 0
+	},
+	{
+		"section": "mac",
+		"uniqueReferences": 45,
+		"verified": 45,
+		"missingOrUnresolved": 0,
+		"hashOrMimeMismatches": 0
+	},
+	{
+		"section": "apple-tv",
+		"uniqueReferences": 39,
+		"verified": 39,
+		"missingOrUnresolved": 0,
+		"hashOrMimeMismatches": 0
+	},
+	{
+		"section": "homepod",
+		"uniqueReferences": 52,
+		"verified": 52,
+		"missingOrUnresolved": 0,
+		"hashOrMimeMismatches": 0
+	},
+	{
+		"section": "vision",
+		"uniqueReferences": 30,
+		"verified": 30,
+		"missingOrUnresolved": 0,
+		"hashOrMimeMismatches": 0
+	}
+]

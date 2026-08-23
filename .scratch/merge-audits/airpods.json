@@ -1,0 +1,23 @@
+{
+	"section": "airpods",
+	"canonicalFile": "public/data/airpods/airpods.json",
+	"canonicalSha256": "82832860580f8b3f6a60586486688953af22ef525cddbb1a418e941c61db87de",
+	"expectedDeviceCount": 9,
+	"actualDeviceCount": 9,
+	"validation": {
+		"draft": "Draft 2020-12",
+		"valid": true,
+		"errorCount": 0,
+		"boundary": "ajv-formats is unavailable; uri format declarations are ignored by Ajv and were not semantically validated"
+	},
+	"imageReferences": {
+		"total": 0,
+		"unique": 0,
+		"missing": 0
+	},
+	"preservedStructuredNulls": 11,
+	"preservedSourceNotes": 0,
+	"migrationNotes": [
+		"Normalized legacy AirPods colors to strict name/string swatch/url/file/width/height shape; preserved legacy chips as strings and legacy connectivity arrays."
+	]
+}

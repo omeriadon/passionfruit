@@ -1,0 +1,12 @@
+{
+	"section": "mac",
+	"canonicalFile": "public/data/mac/mac.json",
+	"schema": ".scratch/strict/data-model-contract.schema.json",
+	"draft": "Draft 2020-12",
+	"validator": "Ajv 2020 with allErrors enabled; strict mode disabled because ajv-formats is unavailable and format uri is therefore ignored",
+	"expectedDeviceCount": 15,
+	"actualDeviceCount": 15,
+	"valid": true,
+	"errorCount": 0,
+	"errors": []
+}

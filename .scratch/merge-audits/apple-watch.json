@@ -1,0 +1,23 @@
+{
+	"section": "apple-watch",
+	"canonicalFile": "public/data/apple-watch/apple-watch.json",
+	"canonicalSha256": "c8ba1f1f7e26e807fdc3456bd44567fe616970cb9db8a00a99f2eb9f251f2971",
+	"expectedDeviceCount": 12,
+	"actualDeviceCount": 12,
+	"validation": {
+		"draft": "Draft 2020-12",
+		"valid": true,
+		"errorCount": 0,
+		"boundary": "ajv-formats is unavailable; uri format declarations are ignored by Ajv and were not semantically validated"
+	},
+	"imageReferences": {
+		"total": 112,
+		"unique": 112,
+		"missing": 0
+	},
+	"preservedStructuredNulls": 458,
+	"preservedSourceNotes": 36,
+	"migrationNotes": [
+		"Copied 112 referenced and 24 unreferenced staged images into public/data/apple-watch/images; canonical JSON references all 112 required images."
+	]
+}

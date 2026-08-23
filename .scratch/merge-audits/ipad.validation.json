@@ -1,0 +1,12 @@
+{
+	"section": "ipad",
+	"canonicalFile": "public/data/ipad/ipad.json",
+	"schema": ".scratch/strict/data-model-contract.schema.json",
+	"draft": "Draft 2020-12",
+	"validator": "Ajv 2020 with allErrors enabled; strict mode disabled because ajv-formats is unavailable and format uri is therefore ignored",
+	"expectedDeviceCount": 39,
+	"actualDeviceCount": 39,
+	"valid": true,
+	"errorCount": 0,
+	"errors": []
+}

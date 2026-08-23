@@ -1,0 +1,268 @@
+{
+	"devices": [
+		{
+			"id": "apple-tv-4k",
+			"name": "Apple TV 4K",
+			"family": "tv",
+			"releaseYear": 2022,
+			"priceAud": null,
+			"colors": [],
+			"configurations": [
+				{
+					"id": "apple-tv-4k-wifi-64gb",
+					"displayName": "64GB (Wi-Fi model)",
+					"storageId": "64gb",
+					"connectivity": "Wi-Fi",
+					"chipId": "a15-bionic",
+					"priceAud": null,
+					"sourceNotes": "Exact capacity/configuration label from the Capacity section."
+				},
+				{
+					"id": "apple-tv-4k-wifi-ethernet-128gb",
+					"displayName": "128GB (Wi-Fi + Ethernet model)",
+					"storageId": "128gb",
+					"connectivity": "Wi-Fi + Ethernet",
+					"chipId": "a15-bionic",
+					"priceAud": null,
+					"sourceNotes": "Exact capacity/configuration label from the Capacity section."
+				}
+			],
+			"storageOptions": [
+				{
+					"id": "64gb",
+					"displayName": "64GB",
+					"capacityValue": 64,
+					"capacityUnit": "GB",
+					"availableColorIds": [],
+					"sourceNotes": "Rendered only as part of \"64GB (Wi-Fi model)\"."
+				},
+				{
+					"id": "128gb",
+					"displayName": "128GB",
+					"capacityValue": 128,
+					"capacityUnit": "GB",
+					"availableColorIds": [],
+					"sourceNotes": "Rendered only as part of \"128GB (Wi-Fi + Ethernet model)\"."
+				}
+			],
+			"chips": [
+				{
+					"id": "a15-bionic",
+					"displayName": "A15 Bionic chip",
+					"family": "A-series",
+					"cpuCores": {
+						"total": 1,
+						"performance": null,
+						"efficiency": null
+					},
+					"gpuCores": null,
+					"neuralEngineCores": null,
+					"memoryBandwidthGbps": null,
+					"sourceNotes": "Source renders only \"A15 Bionic chip\". CPU total is represented as the minimum schema integer and must not be interpreted as a source count; performance and efficiency counts are absent."
+				}
+			],
+			"displays": [],
+			"cameras": [],
+			"audio": {
+				"speaker": true,
+				"microphone": true,
+				"formats": [
+					"HE-AAC (V1)",
+					"AAC (up to 320 Kbps)",
+					"protected AAC (from iTunes Store)",
+					"MP3 (up to 320 Kbps)",
+					"MP3 VBR",
+					"Apple Lossless",
+					"FLAC",
+					"AIFF",
+					"WAV",
+					"AC-3 (Dolby Digital 5.1)",
+					"E-AC-3 (Dolby Digital Plus 7.1 surround sound)",
+					"Dolby Atmos"
+				],
+				"speakerConfiguration": "Speaker presence inferred from supported audio playback formats; hardware configuration not rendered.",
+				"microphoneConfiguration": "Siri Remote microphone",
+				"spatialAudio": null,
+				"adaptiveAudio": null,
+				"activeNoiseCancellation": null,
+				"transparency": null,
+				"siren": null,
+				"sourceNotes": "Speaker presence is established by the audio-format list and Apple TV product context; Siri microphone is explicitly listed on the remote diagram. The source does not render a dedicated speaker hardware configuration."
+			},
+			"batteryAndPower": {
+				"hasBattery": false,
+				"batteryCapacityMah": null,
+				"batteryCapacityWhr": null,
+				"runtimeHours": [],
+				"charging": {
+					"portId": null,
+					"wiredFastCharge": null,
+					"wirelessCharging": false,
+					"wirelessStandards": null,
+					"fastChargeMinutesToPercent": null,
+					"adapterPowerW": null
+				},
+				"powerSupply": {
+					"hasExternalPowerAdapter": false,
+					"outputVoltageV": null,
+					"outputCurrentA": null,
+					"outputPowerW": null,
+					"inputVoltageRangeV": {
+						"minimum": 100,
+						"maximum": 240
+					},
+					"frequencyHz": null,
+					"consumptionW": null
+				}
+			},
+			"connectivity": {
+				"ports": [
+					{
+						"id": "hdmi",
+						"kind": "HDMI",
+						"quantity": 1,
+						"supportsDisplayOut": null,
+						"maxPowerW": null,
+						"sourceNotes": "Source says HDMI 2.1; HDMI 2.1 cannot be represented in the shared port-standard enum."
+					},
+					{
+						"id": "ir-receiver",
+						"kind": "IR receiver",
+						"quantity": 1
+					},
+					{
+						"id": "built-in-power-supply",
+						"kind": "power connector",
+						"quantity": 1,
+						"sourceNotes": "Built-in power supply is rendered as a connectivity item rather than a separate physical port standard."
+					},
+					{
+						"id": "ethernet-rj45",
+						"kind": "Ethernet RJ45",
+						"quantity": 1,
+						"sourceNotes": "Present only on the Wi-Fi + Ethernet configuration; source says Gigabit Ethernet."
+					}
+				],
+				"wifi": {
+					"standards": ["Wi-Fi 6"],
+					"MIMO": "2x2 MIMO",
+					"simultaneousDualBand": null
+				},
+				"bluetooth": {
+					"version": "Bluetooth 5.0"
+				},
+				"cellular": null,
+				"uwb": null,
+				"thread": {
+					"supported": true,
+					"role": null
+				},
+				"infrared": {
+					"present": true,
+					"purpose": "IR receiver"
+				},
+				"nearFieldCommunication": null,
+				"gps": null
+			},
+			"authentication": {
+				"methods": ["none"],
+				"primaryMethod": "none"
+			},
+			"physical": {
+				"weights": [],
+				"dimensions": [],
+				"components": [
+					{
+						"id": "apple-tv-4k-body",
+						"displayName": "Apple TV 4K",
+						"dimensions": [
+							{
+								"value": 31,
+								"unit": "mm",
+								"qualifier": "height"
+							},
+							{
+								"value": 93,
+								"unit": "mm",
+								"qualifier": "width"
+							},
+							{
+								"value": 93,
+								"unit": "mm",
+								"qualifier": "depth"
+							}
+						],
+						"weight": null,
+						"weightUnit": "g",
+						"sourceNotes": "Weights by configuration are recorded in sourceNotes because weight is scalar: Wi-Fi model 208 g / 7.3 oz; Wi-Fi + Ethernet model 214 g / 7.5 oz."
+					},
+					{
+						"id": "siri-remote-body",
+						"displayName": "Siri Remote",
+						"dimensions": [
+							{
+								"value": 136,
+								"unit": "mm",
+								"qualifier": "height"
+							},
+							{
+								"value": 35,
+								"unit": "mm",
+								"qualifier": "width"
+							},
+							{
+								"value": 9.25,
+								"unit": "mm",
+								"qualifier": "depth"
+							}
+						],
+						"weight": 66,
+						"weightUnit": "g"
+					}
+				]
+			},
+			"resistance": {
+				"ipRating": null,
+				"waterDepthM": null,
+				"splashPressureAtm": null,
+				"dustProtected": null,
+				"sweatResistant": null
+			},
+			"software": {
+				"operatingSystem": "tvOS",
+				"operatingSystemVersionAtLaunch": null,
+				"builtInApps": [],
+				"compatibleOperatingSystems": [],
+				"sourceNotes": "The source does not render tvOS or an operating-system version; this family field is populated only to satisfy the shared contract and marked unresolved in sourceNotes."
+			},
+			"accessories": [
+				{
+					"id": "siri-remote",
+					"displayName": "Siri Remote",
+					"category": "remote",
+					"capabilities": [
+						"Bluetooth 5.0",
+						"IR transmitter",
+						"USB-C connector for charging",
+						"Rechargeable battery providing months of battery life on a single charge (with typical daily usage)",
+						"Charging via USB-C to a computer system or power adapter (sold separately)",
+						"Control your TV or receiver via IR or CEC",
+						"Microphone for Siri",
+						"Touch-enabled clickpad"
+					]
+				},
+				{
+					"id": "power-cord",
+					"displayName": "Power cord",
+					"category": "cable"
+				},
+				{
+					"id": "documentation",
+					"displayName": "Documentation",
+					"category": "other"
+				}
+			],
+			"sourceNotes": "Exact source: data/tmp/tv/tv2.html. Remote: Bluetooth® 5.0 wireless technology; IR transmitter; USB-C connector for charging; rechargeable battery with months of battery life on a single charge (with typical daily usage); charging via USB-C to a computer system or power adapter (sold separately); controls TV or receiver via IR or CEC. Remote buttons: Back; Play/Pause; Mute; Power; Siri; TV/Home; Volume; USB-C. Video formats exact entries: SDR video with AVC/HEVC (Main/Main 10 profile) up to 2160p, 60 fps; Dolby Vision (Profile 5) up to 2160p, 60 fps; HDR10+/HDR10/HLG with HEVC (Main 10 Profile) up to 2160p, 60 fps; H.264 Baseline Profile level 3.0 or lower with AAC-LC audio up to 160 Kbps per channel, 48kHz, stereo audio in .m4v, .mp4 and .mov file formats; MPEG-4 video up to 2.5 Mbps, 640 by 480 pixels, 30 fps, Simple profile with AAC-LC audio up to 160 Kbps, 48kHz, stereo audio in .m4v, .mp4 and .mov file formats. Photo formats: HEIF, JPEG, GIF, TIFF. Electrical and environmental requirements exact text: Line voltage 100V to 240V AC; Frequency 50Hz to 60Hz; Operating temperature 0° to 35° C (32° to 95° F); Storage temperature -20° to 45° C (-4° to 113° F); Relative humidity 5% to 95% noncondensing; Operating altitude tested up to 3,000 metres (10,000 feet). Compatibility: Compatible with HD and UHD TVs with HDMI; Compatible with Bluetooth keyboards. In the Box: Apple TV 4K; Siri Remote; Power cord; Documentation. 39 unique image URLs are staged byte-for-byte in special-strict/images/apple-tv; the Open Graph URL appears both without and with an unchanged cache query and is recorded once by decoded filename. Isolated image manifest: special-strict/apple-tv.images.json. Contract loss caveat: CPU total is represented as minimum integer 1 because the source does not state a count but the shared schema requires a positive total. HDMI 2.1 and exact electrical/environmental wording are preserved in sourceNotes because the shared port-standard enum cannot represent HDMI 2.1."
+		}
+	]
+}

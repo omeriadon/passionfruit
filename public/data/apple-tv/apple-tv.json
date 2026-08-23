@@ -415,9 +415,7 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 6"
-					],
+					"standards": ["Wi-Fi 6"],
 					"MIMO": "2x2 MIMO",
 					"simultaneousDualBand": null
 				},
@@ -438,9 +436,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"none"
-				],
+				"methods": ["none"],
 				"primaryMethod": "none"
 			},
 			"physical": {

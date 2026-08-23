@@ -4,11 +4,7 @@
 	"title": "Magic Keyboard accessory group",
 	"type": "object",
 	"additionalProperties": false,
-	"required": [
-		"group",
-		"source",
-		"accessories"
-	],
+	"required": ["group", "source", "accessories"],
 	"properties": {
 		"group": {
 			"const": "magic-keyboard"
@@ -16,11 +12,7 @@
 		"source": {
 			"type": "object",
 			"additionalProperties": false,
-			"required": [
-				"url",
-				"localHtmlPath",
-				"styleUrl"
-			],
+			"required": ["url", "localHtmlPath", "styleUrl"],
 			"properties": {
 				"url": {
 					"type": "string",
@@ -47,13 +39,7 @@
 		"image": {
 			"type": "object",
 			"additionalProperties": false,
-			"required": [
-				"label",
-				"appleUrl",
-				"localPath",
-				"widthPx",
-				"heightPx"
-			],
+			"required": ["label", "appleUrl", "localPath", "widthPx", "heightPx"],
 			"properties": {
 				"label": {
 					"type": "string"
@@ -78,12 +64,7 @@
 		"color": {
 			"type": "object",
 			"additionalProperties": false,
-			"required": [
-				"id",
-				"displayName",
-				"swatch",
-				"images"
-			],
+			"required": ["id", "displayName", "swatch", "images"],
 			"properties": {
 				"id": {
 					"type": "string",
@@ -95,10 +76,7 @@
 				"swatch": {
 					"type": "object",
 					"additionalProperties": false,
-					"required": [
-						"kind",
-						"value"
-					],
+					"required": ["kind", "value"],
 					"properties": {
 						"kind": {
 							"const": "css"
@@ -144,10 +122,7 @@
 					"const": "keyboard"
 				},
 				"priceAud": {
-					"type": [
-						"number",
-						"null"
-					],
+					"type": ["number", "null"],
 					"minimum": 0
 				},
 				"colors": {

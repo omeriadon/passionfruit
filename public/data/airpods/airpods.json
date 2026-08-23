@@ -92,9 +92,7 @@
 					"displayName": "Apple second-generation Ultra Wideband chip in MagSafe Charging Case"
 				}
 			],
-			"microphones": [
-				"Inward-facing microphone"
-			],
+			"microphones": ["Inward-facing microphone"],
 			"controls": [
 				"Press once to play or pause media",
 				"Press once to answer a call or mute or unmute",
@@ -127,12 +125,8 @@
 				"5 minutes in the case provides around 1 hour of listening time"
 			],
 			"ipRating": "Dust, sweat and water resistant (IP57)",
-			"connectivity": [
-				"Bluetooth® 5.3"
-			],
-			"inTheBox": [
-				"AirPods Pro 3"
-			]
+			"connectivity": ["Bluetooth® 5.3"],
+			"inTheBox": ["AirPods Pro 3"]
 		},
 		{
 			"id": "airpods-4-active-noise-cancellation",
@@ -225,9 +219,7 @@
 					"displayName": "U1 chip in MagSafe Charging Case (USB-C)"
 				}
 			],
-			"microphones": [
-				"Inward-facing microphone"
-			],
+			"microphones": ["Inward-facing microphone"],
 			"controls": [
 				"Press once to play or pause media",
 				"Press once to answer a call or mute or unmute",
@@ -239,9 +231,7 @@
 				"Say “Hey Siri” or just “Siri” to do things like play a song, make a call or get directions",
 				"Siri Interactions"
 			],
-			"hearingHealth": [
-				"Loud Sound Reduction"
-			],
+			"hearingHealth": ["Loud Sound Reduction"],
 			"liveTranslation": [
 				"Live Translation for communicating across languages"
 			],
@@ -254,12 +244,8 @@
 				"5 minutes in the case provides around 1 hour of listening time"
 			],
 			"ipRating": "Dust, sweat and water resistant (IP54)",
-			"connectivity": [
-				"Bluetooth® 5.3"
-			],
-			"inTheBox": [
-				"AirPods 4 with Active Noise Cancellation"
-			]
+			"connectivity": ["Bluetooth® 5.3"],
+			"inTheBox": ["AirPods 4 with Active Noise Cancellation"]
 		},
 		{
 			"id": "airpods-max-2",
@@ -435,12 +421,8 @@
 				"Charging via USB-C"
 			],
 			"ipRating": "Sweat and water resistant",
-			"connectivity": [
-				"Bluetooth® 5.3"
-			],
-			"inTheBox": [
-				"AirPods Max 2"
-			]
+			"connectivity": ["Bluetooth® 5.3"],
+			"inTheBox": ["AirPods Max 2"]
 		},
 		{
 			"id": "airpods-pro-2",
@@ -528,9 +510,7 @@
 					"displayName": "U1 chip in MagSafe Charging Case (USB-C)"
 				}
 			],
-			"microphones": [
-				"Inward-facing microphone"
-			],
+			"microphones": ["Inward-facing microphone"],
 			"controls": [
 				"Press once to play or pause media",
 				"Press once to answer a call or mute or unmute",
@@ -560,9 +540,7 @@
 				"5 minutes in the case provides around 1 hour of listening time"
 			],
 			"ipRating": "Dust, sweat and water resistant (IP54)",
-			"connectivity": [
-				"Bluetooth® 5.3"
-			],
+			"connectivity": ["Bluetooth® 5.3"],
 			"inTheBox": [
 				"AirPods Pro 2",
 				"MagSafe Charging Case (USB-C) with speaker and lanyard loop",
@@ -639,19 +617,14 @@
 				"Vent system for pressure equalisation",
 				"Lossless Audio and ultra-low-latency audio via USB-C"
 			],
-			"sensors": [
-				"Optical in-ear sensor",
-				"Force sensor"
-			],
+			"sensors": ["Optical in-ear sensor", "Force sensor"],
 			"chips": [
 				{
 					"id": "airpods-4-chip-1",
 					"displayName": "H2 headphone chip"
 				}
 			],
-			"microphones": [
-				"Inward-facing microphone"
-			],
+			"microphones": ["Inward-facing microphone"],
 			"controls": [
 				"Press once to play or pause media",
 				"Press once to answer a call or mute or unmute",
@@ -675,9 +648,7 @@
 				"5 minutes in the case provides around 1 hour of listening time"
 			],
 			"ipRating": "Dust, sweat and water resistant (IP54)",
-			"connectivity": [
-				"Bluetooth® 5.3"
-			],
+			"connectivity": ["Bluetooth® 5.3"],
 			"inTheBox": [
 				"AirPods 4",
 				"Charging Case (USB-C)",
@@ -843,9 +814,7 @@
 				"Charging via USB-C"
 			],
 			"ipRating": null,
-			"connectivity": [
-				"Bluetooth® 5.0"
-			],
+			"connectivity": ["Bluetooth® 5.0"],
 			"inTheBox": [
 				"AirPods Max",
 				"Smart Case",
@@ -907,9 +876,7 @@
 				}
 			],
 			"audioTechnologies": [],
-			"sensors": [
-				"Dual optical sensors"
-			],
+			"sensors": ["Dual optical sensors"],
 			"chips": [
 				{
 					"id": "airpods-2nd-generation-chip-1",
@@ -931,9 +898,7 @@
 				"15 minutes in the case provides up to 3 hours of listening time"
 			],
 			"ipRating": null,
-			"connectivity": [
-				"Bluetooth® 5.0"
-			],
+			"connectivity": ["Bluetooth® 5.0"],
 			"inTheBox": [
 				"AirPods (2nd generation)",
 				"Lightning Charging Case",
@@ -1002,19 +967,14 @@
 				"Custom-engineered high-dynamic-range amplifier",
 				"Personalised Spatial Audio with dynamic head tracking"
 			],
-			"sensors": [
-				"Skin-detect sensor",
-				"Force sensor"
-			],
+			"sensors": ["Skin-detect sensor", "Force sensor"],
 			"chips": [
 				{
 					"id": "airpods-3rd-generation-lightning-chip-1",
 					"displayName": "H1 headphone chip"
 				}
 			],
-			"microphones": [
-				"Inward-facing microphone"
-			],
+			"microphones": ["Inward-facing microphone"],
 			"controls": [
 				"Press once to play or pause media",
 				"Press once to answer a call or mute or unmute22",
@@ -1034,9 +994,7 @@
 				"5 minutes in the case provides around 1 hour of listening time"
 			],
 			"ipRating": "Sweat and water resistant (IPX4)",
-			"connectivity": [
-				"Bluetooth® 5.0"
-			],
+			"connectivity": ["Bluetooth® 5.0"],
 			"inTheBox": [
 				"AirPods (3rd generation)",
 				"Lightning Charging Case",
@@ -1105,19 +1063,14 @@
 				"Custom-engineered high-dynamic-range amplifier",
 				"Personalised Spatial Audio with dynamic head tracking"
 			],
-			"sensors": [
-				"Skin-detect sensor",
-				"Force sensor"
-			],
+			"sensors": ["Skin-detect sensor", "Force sensor"],
 			"chips": [
 				{
 					"id": "airpods-3rd-generation-magsafe-chip-1",
 					"displayName": "H1 headphone chip"
 				}
 			],
-			"microphones": [
-				"Inward-facing microphone"
-			],
+			"microphones": ["Inward-facing microphone"],
 			"controls": [
 				"Press once to play or pause media",
 				"Press once to answer a call or mute or unmute22",
@@ -1137,9 +1090,7 @@
 				"5 minutes in the case provides around 1 hour of listening time"
 			],
 			"ipRating": "Sweat and water resistant (IPX4)",
-			"connectivity": [
-				"Bluetooth® 5.0"
-			],
+			"connectivity": ["Bluetooth® 5.0"],
 			"inTheBox": [
 				"AirPods (3rd generation)",
 				"MagSafe Charging Case",

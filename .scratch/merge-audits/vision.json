@@ -1,0 +1,21 @@
+{
+	"section": "vision",
+	"canonicalFile": "public/data/vision/vision.json",
+	"canonicalSha256": "d9a5b765cd773d592239a2bac1ba35fb1c7ded51a09cf8651a8718a699e765d5",
+	"expectedDeviceCount": 1,
+	"actualDeviceCount": 1,
+	"validation": {
+		"draft": "Draft 2020-12",
+		"valid": true,
+		"errorCount": 0,
+		"boundary": "ajv-formats is unavailable; uri format declarations are ignored by Ajv and were not semantically validated"
+	},
+	"imageReferences": {
+		"total": 30,
+		"unique": 30,
+		"missing": 0
+	},
+	"preservedStructuredNulls": 32,
+	"preservedSourceNotes": 11,
+	"migrationNotes": []
+}

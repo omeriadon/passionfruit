@@ -1,0 +1,26 @@
+{
+	"generatedAt": "2026-08-23T06:02:53.362Z",
+	"section": "ipad",
+	"deviceCount": 39,
+	"schemaDraft202012": true,
+	"authoritativeSchemaSha256": "ac7c726982165354a7aa06e91b84ba998d0e11d38e21350585536e986ae7cef7",
+	"ajv": {
+		"validator": "Ajv Draft 2020-12",
+		"valid": true,
+		"errorCount": 0,
+		"errors": []
+	},
+	"integrity": {
+		"imageReferences": 6,
+		"validImageReferences": 6,
+		"invalidPaths": 0,
+		"dimensionMismatches": 0,
+		"byteComparedReferences": 6,
+		"byteMismatches": 0,
+		"strictSourceAvailable": true
+	},
+	"contentCounts": {
+		"structuredNullObjects": 0,
+		"sourceNotes": 0
+	}
+}

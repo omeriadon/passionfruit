@@ -10,17 +10,17 @@ Current canonical state is 157 unique devices across eight sections. The evidenc
 
 ## Canonical Counts
 
-| Section | File | Devices | Image References |
-| --- | --- | ---: | ---: |
-| AirPods | `public/data/airpods/airpods.json` | 9 | 17 |
-| Apple TV | `public/data/apple-tv/apple-tv.json` | 1 | 37 |
-| Apple Watch | `public/data/apple-watch/apple-watch.json` | 17 | 112 |
-| HomePod | `public/data/homepod/homepod.json` | 2 | 57 |
-| iPad | `public/data/ipad/ipad.json` | 40 | 6 |
-| iPhone | `public/data/iphone/iphone.json` | 38 | 88 |
-| Mac | `public/data/mac/mac.json` | 49 | 45 |
-| Vision | `public/data/vision/vision.json` | 1 | 30 |
-| Total | eight sections | 157 | 392 |
+| Section     | File                                       | Devices | Image References |
+| ----------- | ------------------------------------------ | ------: | ---------------: |
+| AirPods     | `public/data/airpods/airpods.json`         |       9 |               17 |
+| Apple TV    | `public/data/apple-tv/apple-tv.json`       |       1 |               37 |
+| Apple Watch | `public/data/apple-watch/apple-watch.json` |      17 |              112 |
+| HomePod     | `public/data/homepod/homepod.json`         |       2 |               57 |
+| iPad        | `public/data/ipad/ipad.json`               |      40 |                6 |
+| iPhone      | `public/data/iphone/iphone.json`           |      38 |               88 |
+| Mac         | `public/data/mac/mac.json`                 |      49 |               45 |
+| Vision      | `public/data/vision/vision.json`           |       1 |               30 |
+| Total       | eight sections                             |     157 |              392 |
 
 The source-map/status total is 158 mapped identities. The extra row is `Mac Studio (M1 Max or M1 Ultra, 2022)`, duplicated in status but represented once canonically.
 
@@ -97,16 +97,16 @@ The latest shared schema adds `accessoryReference` with an `accessoryId` slug re
 
 Templates are minimal schema-valid starting points, not fabricated examples.
 
-| Section | Template |
-| --- | --- |
-| AirPods | `public/data/templates/airpods.template.json` |
-| Apple TV | `public/data/templates/apple-tv.template.json` |
+| Section     | Template                                          |
+| ----------- | ------------------------------------------------- |
+| AirPods     | `public/data/templates/airpods.template.json`     |
+| Apple TV    | `public/data/templates/apple-tv.template.json`    |
 | Apple Watch | `public/data/templates/apple-watch.template.json` |
-| HomePod | `public/data/templates/homepod.template.json` |
-| iPad | `public/data/templates/ipad.template.json` |
-| iPhone | `public/data/templates/iphone.template.json` |
-| Mac | `public/data/templates/mac.template.json` |
-| Vision | `public/data/templates/vision.template.json` |
+| HomePod     | `public/data/templates/homepod.template.json`     |
+| iPad        | `public/data/templates/ipad.template.json`        |
+| iPhone      | `public/data/templates/iphone.template.json`      |
+| Mac         | `public/data/templates/mac.template.json`         |
+| Vision      | `public/data/templates/vision.template.json`      |
 
 AirPods uses its specialized field set. Standard devices use fields including identity, family, release year, price, colours, configurations, storage, memory, chips, displays, cameras, audio, battery/power, connectivity, authentication, physical data, resistance, software, watch details, overview images, optional Mac hardware booleans, accessories, and source notes. Exact types and enums are in `.scratch/human-device-contract.md`.
 
@@ -135,7 +135,7 @@ Major historical agents included:
 - **Boyle:** independent full-catalogue coverage audit; no confirmed completion artifact was present at handoff.
 - Other named agents processed section batches, hidden evidence, images, status tables, cleanup inventories, and merge audits.
 
-Heartbeat and checkpoint artifacts remain under `.scratch/heartbeats/` and `.scratch/checkpoints/`. Some are untracked working-history evidence rather than canonical runtime data.
+Historical heartbeat and checkpoint artifacts were removed during the conservative scratch cleanup. They were untracked working-history evidence rather than canonical runtime data.
 
 ## Known Issue: Legacy Watch Images
 

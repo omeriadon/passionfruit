@@ -1,0 +1,319 @@
+{
+	"sourceFile": "data/tmp/tv/tv2.html",
+	"uniqueUrlCount": 40,
+	"downloadedCount": 39,
+	"images": [
+		{
+			"label": "apple-tv-4k__efpszaiqoh2e_og.png",
+			"appleUrl": "https://www.apple.com/v/apple-tv-4k/ah/images/meta/apple-tv-4k__efpszaiqoh2e_og.png?202602031722",
+			"localPath": "/var/folders/s_/ms68q0zx137_d7r08rxtnp9w0000gq/T/opencode/special-strict/images/apple-tv/apple-tv-4k__efpszaiqoh2e_og.png",
+			"widthPx": 1200,
+			"heightPx": 630,
+			"sha256": "9dcdd11c6a16febcc5648b0aeeb02781edf737a0287d1d55849ddbb3cb394fed"
+		},
+		{
+			"label": "apple_tv__c58t6fz8g54y_small.jpg",
+			"appleUrl": "/v/apple-tv-4k/ah/images/specs/apple_tv__c58t6fz8g54y_small.jpg",
+			"localPath": "/var/folders/s_/ms68q0zx137_d7r08rxtnp9w0000gq/T/opencode/special-strict/images/apple-tv/apple_tv__c58t6fz8g54y_small.jpg",
+			"widthPx": 206,
+			"heightPx": 300,
+			"sha256": "22a50552ae8f244d9555f00cd87ebcc4979bc41dca47eabd84a2e524b1031d48"
+		},
+		{
+			"label": "apple_tv__c58t6fz8g54y_small_2x.jpg",
+			"appleUrl": "/v/apple-tv-4k/ah/images/specs/apple_tv__c58t6fz8g54y_small_2x.jpg",
+			"localPath": "/var/folders/s_/ms68q0zx137_d7r08rxtnp9w0000gq/T/opencode/special-strict/images/apple-tv/apple_tv__c58t6fz8g54y_small_2x.jpg",
+			"widthPx": 412,
+			"heightPx": 600,
+			"sha256": "ff5d0cf28639a2175414f318b1d038c9219c2597b751cd5dd91bd69c502f9c3a"
+		},
+		{
+			"label": "apple_tv__c58t6fz8g54y_medium.jpg",
+			"appleUrl": "/v/apple-tv-4k/ah/images/specs/apple_tv__c58t6fz8g54y_medium.jpg",
+			"localPath": "/var/folders/s_/ms68q0zx137_d7r08rxtnp9w0000gq/T/opencode/special-strict/images/apple-tv/apple_tv__c58t6fz8g54y_medium.jpg",
+			"widthPx": 1,
+			"heightPx": 1,
+			"sha256": "66e0c0c0be1c39acfff5f10def7cd96d0065cb3719e37f9ff4347a52bf95400c"
+		},
+		{
+			"label": "apple_tv__c58t6fz8g54y_medium_2x.jpg",
+			"appleUrl": "/v/apple-tv-4k/ah/images/specs/apple_tv__c58t6fz8g54y_medium_2x.jpg",
+			"localPath": "/var/folders/s_/ms68q0zx137_d7r08rxtnp9w0000gq/T/opencode/special-strict/images/apple-tv/apple_tv__c58t6fz8g54y_medium_2x.jpg",
+			"widthPx": 1,
+			"heightPx": 1,
+			"sha256": "be26afc765b7f68f213e6d0348d534fe0a1d5ebcf6903efca542ab8ee7b39222"
+		},
+		{
+			"label": "apple_tv__c58t6fz8g54y_large.jpg",
+			"appleUrl": "/v/apple-tv-4k/ah/images/specs/apple_tv__c58t6fz8g54y_large.jpg",
+			"localPath": "/var/folders/s_/ms68q0zx137_d7r08rxtnp9w0000gq/T/opencode/special-strict/images/apple-tv/apple_tv__c58t6fz8g54y_large.jpg",
+			"widthPx": 281,
+			"heightPx": 404,
+			"sha256": "6bfa5b35c0c6fe92dc6e1268b0629fbdf1e414260b2f6d3c3e7f2745651b8e78"
+		},
+		{
+			"label": "apple_tv__c58t6fz8g54y_large_2x.jpg",
+			"appleUrl": "/v/apple-tv-4k/ah/images/specs/apple_tv__c58t6fz8g54y_large_2x.jpg",
+			"localPath": "/var/folders/s_/ms68q0zx137_d7r08rxtnp9w0000gq/T/opencode/special-strict/images/apple-tv/apple_tv__c58t6fz8g54y_large_2x.jpg",
+			"widthPx": 562,
+			"heightPx": 808,
+			"sha256": "abf311a29ebc63aa1fdd8fad4f2fdd08deb7c67d7d58dd40303b645977f73ee9"
+		},
+		{
+			"label": "remote__firxnq7n11qy_small.jpg",
+			"appleUrl": "/v/apple-tv-4k/ah/images/specs/remote__firxnq7n11qy_small.jpg",
+			"localPath": "/var/folders/s_/ms68q0zx137_d7r08rxtnp9w0000gq/T/opencode/special-strict/images/apple-tv/remote__firxnq7n11qy_small.jpg",
+			"widthPx": 124,
+			"heightPx": 405,
+			"sha256": "8baa2f9ca8758807b95ee82440021cb433d6587c2db4b3ac74e69f809c58af3f"
+		},
+		{
+			"label": "remote__firxnq7n11qy_small_2x.jpg",
+			"appleUrl": "/v/apple-tv-4k/ah/images/specs/remote__firxnq7n11qy_small_2x.jpg",
+			"localPath": "/var/folders/s_/ms68q0zx137_d7r08rxtnp9w0000gq/T/opencode/special-strict/images/apple-tv/remote__firxnq7n11qy_small_2x.jpg",
+			"widthPx": 248,
+			"heightPx": 810,
+			"sha256": "e018861a595f7c00f5298fe0bd683b0018df5dc6b34aba71f6fbc2de862606b0"
+		},
+		{
+			"label": "remote__firxnq7n11qy_medium.jpg",
+			"appleUrl": "/v/apple-tv-4k/ah/images/specs/remote__firxnq7n11qy_medium.jpg",
+			"localPath": "/var/folders/s_/ms68q0zx137_d7r08rxtnp9w0000gq/T/opencode/special-strict/images/apple-tv/remote__firxnq7n11qy_medium.jpg",
+			"widthPx": 1,
+			"heightPx": 1,
+			"sha256": "702b48c388568a6bb126f4f89b5349d5ea3d1038d3b2ed1aea94abb4b8f7f935"
+		},
+		{
+			"label": "remote__firxnq7n11qy_medium_2x.jpg",
+			"appleUrl": "/v/apple-tv-4k/ah/images/specs/remote__firxnq7n11qy_medium_2x.jpg",
+			"localPath": "/var/folders/s_/ms68q0zx137_d7r08rxtnp9w0000gq/T/opencode/special-strict/images/apple-tv/remote__firxnq7n11qy_medium_2x.jpg",
+			"widthPx": 1,
+			"heightPx": 1,
+			"sha256": "5a84f5f8403b799e6243e6923efe2ae024668cf92f7ebc84dcb8f0d4f3a22c37"
+		},
+		{
+			"label": "remote__firxnq7n11qy_large.jpg",
+			"appleUrl": "/v/apple-tv-4k/ah/images/specs/remote__firxnq7n11qy_large.jpg",
+			"localPath": "/var/folders/s_/ms68q0zx137_d7r08rxtnp9w0000gq/T/opencode/special-strict/images/apple-tv/remote__firxnq7n11qy_large.jpg",
+			"widthPx": 120,
+			"heightPx": 403,
+			"sha256": "781c64e90f596520c6f8f0a359b9f118f20e6d77aacf482009785a76ba87e60b"
+		},
+		{
+			"label": "remote__firxnq7n11qy_large_2x.jpg",
+			"appleUrl": "/v/apple-tv-4k/ah/images/specs/remote__firxnq7n11qy_large_2x.jpg",
+			"localPath": "/var/folders/s_/ms68q0zx137_d7r08rxtnp9w0000gq/T/opencode/special-strict/images/apple-tv/remote__firxnq7n11qy_large_2x.jpg",
+			"widthPx": 240,
+			"heightPx": 806,
+			"sha256": "95809bbd009c1ad726dad3b69a8aa91d97a2093439b518174a362072b75465ee"
+		},
+		{
+			"label": "left__cz784kfzfd0m_small.jpg",
+			"appleUrl": "/v/apple-tv-4k/ah/images/specs/left__cz784kfzfd0m_small.jpg",
+			"localPath": "/var/folders/s_/ms68q0zx137_d7r08rxtnp9w0000gq/T/opencode/special-strict/images/apple-tv/left__cz784kfzfd0m_small.jpg",
+			"widthPx": 1,
+			"heightPx": 1,
+			"sha256": "a52214cd1edaa5211c64ec9c89d4cbf376f9590efcc6aaf0ebb215006b941290"
+		},
+		{
+			"label": "left__cz784kfzfd0m_small_2x.jpg",
+			"appleUrl": "/v/apple-tv-4k/ah/images/specs/left__cz784kfzfd0m_small_2x.jpg",
+			"localPath": "/var/folders/s_/ms68q0zx137_d7r08rxtnp9w0000gq/T/opencode/special-strict/images/apple-tv/left__cz784kfzfd0m_small_2x.jpg",
+			"widthPx": 1,
+			"heightPx": 1,
+			"sha256": "8073e3b79179a97739bb6ce574a6a17ada2ffd519a0de9da6b99b6ea1f274cf2"
+		},
+		{
+			"label": "left__cz784kfzfd0m_medium.jpg",
+			"appleUrl": "/v/apple-tv-4k/ah/images/specs/left__cz784kfzfd0m_medium.jpg",
+			"localPath": "/var/folders/s_/ms68q0zx137_d7r08rxtnp9w0000gq/T/opencode/special-strict/images/apple-tv/left__cz784kfzfd0m_medium.jpg",
+			"widthPx": 1,
+			"heightPx": 1,
+			"sha256": "b5ffa2cb961b93ee6472ebb3feacd37147b52a422783931ef207c9d31d094513"
+		},
+		{
+			"label": "left__cz784kfzfd0m_medium_2x.jpg",
+			"appleUrl": "/v/apple-tv-4k/ah/images/specs/left__cz784kfzfd0m_medium_2x.jpg",
+			"localPath": "/var/folders/s_/ms68q0zx137_d7r08rxtnp9w0000gq/T/opencode/special-strict/images/apple-tv/left__cz784kfzfd0m_medium_2x.jpg",
+			"widthPx": 1,
+			"heightPx": 1,
+			"sha256": "108e4deae3b80d8ffb2b659a81e53aa5ad588c2377e443daf321eb98ed103c63"
+		},
+		{
+			"label": "left__cz784kfzfd0m_large.jpg",
+			"appleUrl": "/v/apple-tv-4k/ah/images/specs/left__cz784kfzfd0m_large.jpg",
+			"localPath": "/var/folders/s_/ms68q0zx137_d7r08rxtnp9w0000gq/T/opencode/special-strict/images/apple-tv/left__cz784kfzfd0m_large.jpg",
+			"widthPx": 1,
+			"heightPx": 1,
+			"sha256": "849e12f6cac30d2a3815cf4c3598f335c7186b20c94a93ecec9f8d93d7a02098"
+		},
+		{
+			"label": "left__cz784kfzfd0m_large_2x.jpg",
+			"appleUrl": "/v/apple-tv-4k/ah/images/specs/left__cz784kfzfd0m_large_2x.jpg",
+			"localPath": "/var/folders/s_/ms68q0zx137_d7r08rxtnp9w0000gq/T/opencode/special-strict/images/apple-tv/left__cz784kfzfd0m_large_2x.jpg",
+			"widthPx": 1,
+			"heightPx": 1,
+			"sha256": "0e158292ad21fe6ff27cac0cbd349e79f05c5db9c5aa74fd478afc6571e36544"
+		},
+		{
+			"label": "right__giile6ftxcuy_small.jpg",
+			"appleUrl": "/v/apple-tv-4k/ah/images/specs/right__giile6ftxcuy_small.jpg",
+			"localPath": "/var/folders/s_/ms68q0zx137_d7r08rxtnp9w0000gq/T/opencode/special-strict/images/apple-tv/right__giile6ftxcuy_small.jpg",
+			"widthPx": 1,
+			"heightPx": 1,
+			"sha256": "737098c89c6016cbe29452b430df4467e8109511dc541f8925f3b3218f84490b"
+		},
+		{
+			"label": "right__giile6ftxcuy_small_2x.jpg",
+			"appleUrl": "/v/apple-tv-4k/ah/images/specs/right__giile6ftxcuy_small_2x.jpg",
+			"localPath": "/var/folders/s_/ms68q0zx137_d7r08rxtnp9w0000gq/T/opencode/special-strict/images/apple-tv/right__giile6ftxcuy_small_2x.jpg",
+			"widthPx": 1,
+			"heightPx": 1,
+			"sha256": "21dd3b5ce53581b66f08dcad84a9186c7b29b604297bf9dfa3eacc436b328c27"
+		},
+		{
+			"label": "right__giile6ftxcuy_medium.jpg",
+			"appleUrl": "/v/apple-tv-4k/ah/images/specs/right__giile6ftxcuy_medium.jpg",
+			"localPath": "/var/folders/s_/ms68q0zx137_d7r08rxtnp9w0000gq/T/opencode/special-strict/images/apple-tv/right__giile6ftxcuy_medium.jpg",
+			"widthPx": 1,
+			"heightPx": 1,
+			"sha256": "129cfbd8acdf0f74bdb10ae28e129a422be89f13cf1847a806682d86df4696a0"
+		},
+		{
+			"label": "right__giile6ftxcuy_medium_2x.jpg",
+			"appleUrl": "/v/apple-tv-4k/ah/images/specs/right__giile6ftxcuy_medium_2x.jpg",
+			"localPath": "/var/folders/s_/ms68q0zx137_d7r08rxtnp9w0000gq/T/opencode/special-strict/images/apple-tv/right__giile6ftxcuy_medium_2x.jpg",
+			"widthPx": 1,
+			"heightPx": 1,
+			"sha256": "d6171e78158f812743228278ba26c8cfcff325cab926659f845b9b2e55576dc3"
+		},
+		{
+			"label": "right__giile6ftxcuy_large.jpg",
+			"appleUrl": "/v/apple-tv-4k/ah/images/specs/right__giile6ftxcuy_large.jpg",
+			"localPath": "/var/folders/s_/ms68q0zx137_d7r08rxtnp9w0000gq/T/opencode/special-strict/images/apple-tv/right__giile6ftxcuy_large.jpg",
+			"widthPx": 1,
+			"heightPx": 1,
+			"sha256": "b967c8bd097e676d92f4309a3e8d8c5cadcc6df5a6bfd8f9416170ed7377da28"
+		},
+		{
+			"label": "right__giile6ftxcuy_large_2x.jpg",
+			"appleUrl": "/v/apple-tv-4k/ah/images/specs/right__giile6ftxcuy_large_2x.jpg",
+			"localPath": "/var/folders/s_/ms68q0zx137_d7r08rxtnp9w0000gq/T/opencode/special-strict/images/apple-tv/right__giile6ftxcuy_large_2x.jpg",
+			"widthPx": 1,
+			"heightPx": 1,
+			"sha256": "11b791cb5ac63d48032d8119d98080722990941a442409fb8f724bb841b490d1"
+		},
+		{
+			"label": "touch_remote__wx7emvnxnwye_small.jpg",
+			"appleUrl": "/v/apple-tv-4k/ah/images/specs/touch_remote__wx7emvnxnwye_small.jpg",
+			"localPath": "/var/folders/s_/ms68q0zx137_d7r08rxtnp9w0000gq/T/opencode/special-strict/images/apple-tv/touch_remote__wx7emvnxnwye_small.jpg",
+			"widthPx": 139,
+			"heightPx": 401,
+			"sha256": "5d1ac7895107285ecdb20b7d13f86df088b9bc06cafe07c33d3f2cd503f0abbd"
+		},
+		{
+			"label": "touch_remote__wx7emvnxnwye_small_2x.jpg",
+			"appleUrl": "/v/apple-tv-4k/ah/images/specs/touch_remote__wx7emvnxnwye_small_2x.jpg",
+			"localPath": "/var/folders/s_/ms68q0zx137_d7r08rxtnp9w0000gq/T/opencode/special-strict/images/apple-tv/touch_remote__wx7emvnxnwye_small_2x.jpg",
+			"widthPx": 278,
+			"heightPx": 802,
+			"sha256": "d31ed50d7e307f7546493b1c27f264b3b23deb9bc91848c85f97d1e86a76fd3a"
+		},
+		{
+			"label": "touch_remote__wx7emvnxnwye_medium.jpg",
+			"appleUrl": "/v/apple-tv-4k/ah/images/specs/touch_remote__wx7emvnxnwye_medium.jpg",
+			"localPath": "/var/folders/s_/ms68q0zx137_d7r08rxtnp9w0000gq/T/opencode/special-strict/images/apple-tv/touch_remote__wx7emvnxnwye_medium.jpg",
+			"widthPx": 113,
+			"heightPx": 416,
+			"sha256": "791a94e12a8873314b6a2a0979b709117e799afb62a93b3524ce204d4de46a5b"
+		},
+		{
+			"label": "touch_remote__wx7emvnxnwye_medium_2x.jpg",
+			"appleUrl": "/v/apple-tv-4k/ah/images/specs/touch_remote__wx7emvnxnwye_medium_2x.jpg",
+			"localPath": "/var/folders/s_/ms68q0zx137_d7r08rxtnp9w0000gq/T/opencode/special-strict/images/apple-tv/touch_remote__wx7emvnxnwye_medium_2x.jpg",
+			"widthPx": 226,
+			"heightPx": 832,
+			"sha256": "caed630f2fdbe26eb8ff55e72edce9d2d4b704258573ad0ef5f5bb6e451c3e16"
+		},
+		{
+			"label": "touch_remote__wx7emvnxnwye_large.jpg",
+			"appleUrl": "/v/apple-tv-4k/ah/images/specs/touch_remote__wx7emvnxnwye_large.jpg",
+			"localPath": "/var/folders/s_/ms68q0zx137_d7r08rxtnp9w0000gq/T/opencode/special-strict/images/apple-tv/touch_remote__wx7emvnxnwye_large.jpg",
+			"widthPx": 216,
+			"heightPx": 668,
+			"sha256": "79d54b416dc22b8f916811e5b336d553cebe8d2c88e653ab351daed017669f9a"
+		},
+		{
+			"label": "touch_remote__wx7emvnxnwye_large_2x.jpg",
+			"appleUrl": "/v/apple-tv-4k/ah/images/specs/touch_remote__wx7emvnxnwye_large_2x.jpg",
+			"localPath": "/var/folders/s_/ms68q0zx137_d7r08rxtnp9w0000gq/T/opencode/special-strict/images/apple-tv/touch_remote__wx7emvnxnwye_large_2x.jpg",
+			"widthPx": 432,
+			"heightPx": 1336,
+			"sha256": "65fa0085214f8bcc9f2b36071c55c6191040b000c2c3c6fe133dd0f8f1e269ad"
+		},
+		{
+			"label": "bionic_chip__diuiv3uk51m6_small.jpg",
+			"appleUrl": "/v/apple-tv-4k/ah/images/specs/bionic_chip__diuiv3uk51m6_small.jpg",
+			"localPath": "/var/folders/s_/ms68q0zx137_d7r08rxtnp9w0000gq/T/opencode/special-strict/images/apple-tv/bionic_chip__diuiv3uk51m6_small.jpg",
+			"widthPx": 165,
+			"heightPx": 165,
+			"sha256": "f417efc373f4e90505b3d248c0940d585a9134d419db8ca142bc3afc79e62152"
+		},
+		{
+			"label": "bionic_chip__diuiv3uk51m6_small_2x.jpg",
+			"appleUrl": "/v/apple-tv-4k/ah/images/specs/bionic_chip__diuiv3uk51m6_small_2x.jpg",
+			"localPath": "/var/folders/s_/ms68q0zx137_d7r08rxtnp9w0000gq/T/opencode/special-strict/images/apple-tv/bionic_chip__diuiv3uk51m6_small_2x.jpg",
+			"widthPx": 330,
+			"heightPx": 330,
+			"sha256": "2776aa711c0b5ea490c03e961509c63423aef3ebd35d4dd2b1067f916fca2733"
+		},
+		{
+			"label": "bionic_chip__diuiv3uk51m6_medium.jpg",
+			"appleUrl": "/v/apple-tv-4k/ah/images/specs/bionic_chip__diuiv3uk51m6_medium.jpg",
+			"localPath": "/var/folders/s_/ms68q0zx137_d7r08rxtnp9w0000gq/T/opencode/special-strict/images/apple-tv/bionic_chip__diuiv3uk51m6_medium.jpg",
+			"widthPx": 138,
+			"heightPx": 138,
+			"sha256": "ac5b0ea4df441cd68ee7cf687f578ac63ee4429a79b2b0baa10c8d1768d3b537"
+		},
+		{
+			"label": "bionic_chip__diuiv3uk51m6_medium_2x.jpg",
+			"appleUrl": "/v/apple-tv-4k/ah/images/specs/bionic_chip__diuiv3uk51m6_medium_2x.jpg",
+			"localPath": "/var/folders/s_/ms68q0zx137_d7r08rxtnp9w0000gq/T/opencode/special-strict/images/apple-tv/bionic_chip__diuiv3uk51m6_medium_2x.jpg",
+			"widthPx": 276,
+			"heightPx": 276,
+			"sha256": "a907a812e90b83c8850052c975633f5a7cb6a0081b83e0cad9bacacc9aaf2c67"
+		},
+		{
+			"label": "bionic_chip__diuiv3uk51m6_large.jpg",
+			"appleUrl": "/v/apple-tv-4k/ah/images/specs/bionic_chip__diuiv3uk51m6_large.jpg",
+			"localPath": "/var/folders/s_/ms68q0zx137_d7r08rxtnp9w0000gq/T/opencode/special-strict/images/apple-tv/bionic_chip__diuiv3uk51m6_large.jpg",
+			"widthPx": 165,
+			"heightPx": 165,
+			"sha256": "f417efc373f4e90505b3d248c0940d585a9134d419db8ca142bc3afc79e62152"
+		},
+		{
+			"label": "bionic_chip__diuiv3uk51m6_large_2x.jpg",
+			"appleUrl": "/v/apple-tv-4k/ah/images/specs/bionic_chip__diuiv3uk51m6_large_2x.jpg",
+			"localPath": "/var/folders/s_/ms68q0zx137_d7r08rxtnp9w0000gq/T/opencode/special-strict/images/apple-tv/bionic_chip__diuiv3uk51m6_large_2x.jpg",
+			"widthPx": 330,
+			"heightPx": 330,
+			"sha256": "2776aa711c0b5ea490c03e961509c63423aef3ebd35d4dd2b1067f916fca2733"
+		},
+		{
+			"label": "environment__evcr22ld8tm6_large.png",
+			"appleUrl": "/v/apple-tv-4k/ah/images/specs/environment__evcr22ld8tm6_large.png",
+			"localPath": "/var/folders/s_/ms68q0zx137_d7r08rxtnp9w0000gq/T/opencode/special-strict/images/apple-tv/environment__evcr22ld8tm6_large.png",
+			"widthPx": 26,
+			"heightPx": 30,
+			"sha256": "b10e14fdd09bb062f859414417ecb93c1fb928239db2b77a4fc977e588596a7d"
+		},
+		{
+			"label": "environment__evcr22ld8tm6_large_2x.png",
+			"appleUrl": "/v/apple-tv-4k/ah/images/specs/environment__evcr22ld8tm6_large_2x.png",
+			"localPath": "/var/folders/s_/ms68q0zx137_d7r08rxtnp9w0000gq/T/opencode/special-strict/images/apple-tv/environment__evcr22ld8tm6_large_2x.png",
+			"widthPx": 52,
+			"heightPx": 60,
+			"sha256": "ac92c0f1a874c748260195d1f937cfb5673cda17151d2dc9dc98f629eb70e7bf"
+		}
+	]
+}

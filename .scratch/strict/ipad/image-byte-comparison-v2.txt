@@ -1,0 +1,6 @@
+IDENTICAL images/ipad_air_11_m4_blue__exgp5c6s4zgy_large.jpg
+IDENTICAL images/ipad_air_11_m4_purple__dc5imizwemwm_large.jpg
+IDENTICAL images/ipad_air_11_m4_spacegray__foa0ijnqpi2y_large.jpg
+IDENTICAL images/ipad_air_11_m4_starlight__ckjmo75jgej6_large.jpg
+IDENTICAL images/ipad_pro_11_m4_silver__eowi3mx395qq_large.jpg
+IDENTICAL images/ipad_pro_11_m4_spaceblack__eoez1rzzqmye_large.jpg

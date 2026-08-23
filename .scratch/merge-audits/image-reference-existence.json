@@ -1,0 +1,58 @@
+[
+	{
+		"file": "public/data/iphone/iphone.json",
+		"totalRefs": 88,
+		"uniqueRefs": 69,
+		"missingCount": 0,
+		"missing": []
+	},
+	{
+		"file": "public/data/airpods/airpods.json",
+		"totalRefs": 0,
+		"uniqueRefs": 0,
+		"missingCount": 0,
+		"missing": []
+	},
+	{
+		"file": "public/data/mac/mac.json",
+		"totalRefs": 45,
+		"uniqueRefs": 45,
+		"missingCount": 0,
+		"missing": []
+	},
+	{
+		"file": "public/data/apple-tv/apple-tv.json",
+		"totalRefs": 37,
+		"uniqueRefs": 37,
+		"missingCount": 0,
+		"missing": []
+	},
+	{
+		"file": "public/data/homepod/homepod.json",
+		"totalRefs": 57,
+		"uniqueRefs": 52,
+		"missingCount": 0,
+		"missing": []
+	},
+	{
+		"file": "public/data/vision/vision.json",
+		"totalRefs": 30,
+		"uniqueRefs": 30,
+		"missingCount": 0,
+		"missing": []
+	},
+	{
+		"file": "public/data/apple-watch/apple-watch.json",
+		"totalRefs": 112,
+		"uniqueRefs": 112,
+		"missingCount": 0,
+		"missing": []
+	},
+	{
+		"file": "public/data/ipad/ipad.json",
+		"totalRefs": 6,
+		"uniqueRefs": 6,
+		"missingCount": 0,
+		"missing": []
+	}
+]

@@ -2,15 +2,15 @@
 
 ## Inputs
 
-| Input                    | State          | Evidence                                                                                                        |
-| ------------------------ | -------------- | --------------------------------------------------------------------------------------------------------------- |
-| `data/tmp/mac/mac.html`  | Present usable | 55 product cells; featured MacBook Neo A18 Pro, MacBook Air 13-in. M5, and MacBook Pro 14-in. M5                |
-| `data/tmp/mac/mac2.html` | Present usable | 55 product cells; featured iMac M4 two ports, MacBook Pro 14-in. M5 Pro, and MacBook Pro 16-in. M5 Max          |
-| `data/tmp/mac/mac3.html` | Present usable | 55 product cells; featured Mac mini M4, Mac mini M4 Pro, and Mac Studio M4 Max                                  |
-| `data/tmp/mac/mac4.html` | Present usable | 55 product cells; featured MacBook Air 13-in. M3, MacBook Air 13-in. M4, and Mac Studio M3 Ultra                |
-| `data/tmp/mac/mac5.html` | Present usable | 55 product cells; featured MacBook Air 13-in. M2, MacBook Air 13-in. M1 2020, and iMac 24-in. M1 two ports 2021 |
-| Tracked remaining candidate source | Present usable | `.scratch/strict/mac/remaining-devices.json`, 35 evidence-backed records                                      |
-| Canonical output                   | Present usable | `public/data/mac/mac.json`, 53 devices; Ajv Draft 2020-12 validation passes with zero errors                 |
+| Input                              | State          | Evidence                                                                                                        |
+| ---------------------------------- | -------------- | --------------------------------------------------------------------------------------------------------------- |
+| `data/tmp/mac/mac.html`            | Present usable | 55 product cells; featured MacBook Neo A18 Pro, MacBook Air 13-in. M5, and MacBook Pro 14-in. M5                |
+| `data/tmp/mac/mac2.html`           | Present usable | 55 product cells; featured iMac M4 two ports, MacBook Pro 14-in. M5 Pro, and MacBook Pro 16-in. M5 Max          |
+| `data/tmp/mac/mac3.html`           | Present usable | 55 product cells; featured Mac mini M4, Mac mini M4 Pro, and Mac Studio M4 Max                                  |
+| `data/tmp/mac/mac4.html`           | Present usable | 55 product cells; featured MacBook Air 13-in. M3, MacBook Air 13-in. M4, and Mac Studio M3 Ultra                |
+| `data/tmp/mac/mac5.html`           | Present usable | 55 product cells; featured MacBook Air 13-in. M2, MacBook Air 13-in. M1 2020, and iMac 24-in. M1 two ports 2021 |
+| Tracked remaining candidate source | Present usable | `.scratch/strict/mac/remaining-devices.json`, 35 evidence-backed records                                        |
+| Canonical output                   | Present usable | `public/data/mac/mac.json`, 53 devices; Ajv Draft 2020-12 validation passes with zero errors                    |
 
 Every usable page exposes the same 54-device catalogue selector. The canonical
 output contains 53 records. Intel Mac records already present in the historical

@@ -1,0 +1,23 @@
+{
+	"section": "mac",
+	"canonicalFile": "public/data/mac/mac.json",
+	"canonicalSha256": "f4f44a465ba43ada2c8423eeae591e2d57f38e23d2c17a1a28a6b33f471c8343",
+	"expectedDeviceCount": 15,
+	"actualDeviceCount": 15,
+	"validation": {
+		"draft": "Draft 2020-12",
+		"valid": true,
+		"errorCount": 0,
+		"boundary": "ajv-formats is unavailable; uri format declarations are ignored by Ajv and were not semantically validated"
+	},
+	"imageReferences": {
+		"total": 45,
+		"unique": 45,
+		"missing": 0
+	},
+	"preservedStructuredNulls": 839,
+	"preservedSourceNotes": 200,
+	"migrationNotes": [
+		"Restored four missing public/data/mac large_2x image files from durable strict staging."
+	]
+}

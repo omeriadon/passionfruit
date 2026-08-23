@@ -388,9 +388,7 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 4"
-					]
+					"standards": ["Wi-Fi 4"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.0"
@@ -415,9 +413,7 @@
 				}
 			},
 			"authentication": {
-				"methods": [
-					"none"
-				],
+				"methods": ["none"],
 				"primaryMethod": "none",
 				"placement": null
 			},
@@ -737,9 +733,7 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 4"
-					]
+					"standards": ["Wi-Fi 4"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.0"
@@ -764,9 +758,7 @@
 				}
 			},
 			"authentication": {
-				"methods": [
-					"none"
-				],
+				"methods": ["none"],
 				"primaryMethod": "none",
 				"placement": null
 			},

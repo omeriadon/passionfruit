@@ -1,0 +1,1054 @@
+{
+	"devices": [
+		{
+			"id": "airpods-pro-3",
+			"name": "AirPods Pro 3",
+			"priceAud": 429,
+			"colors": [
+				{
+					"name": "White",
+					"swatch": "#ffffff",
+					"images": [
+						{
+							"label": "front",
+							"url": "https://www.apple.com/v/airpods/compare/i/images/overview/airpods_pro_3_white__doiqzzyvwxyu_large_2x.png",
+							"file": "/var/folders/s_/ms68q0zx137_d7r08rxtnp9w0000gq/T/opencode/airpods-extract/airpods1-images/airpods-pro-3-white.png",
+							"width": 504,
+							"height": 438
+						}
+					]
+				}
+			],
+			"summary": [
+				"H2 chip",
+				"Active Noise Cancellation: Up to 4x more Active Noise Cancellation than original AirPods Pro1",
+				"Adaptive Audio4 and Transparency mode5",
+				"Conversation Awareness4",
+				"Personalised Spatial Audio with dynamic head tracking6",
+				"Lossless Audio and ultra-low-latency audio via USB-C7",
+				"Heart rate sensing during workouts8",
+				"Hearing Test9and Hearing Aid features9, and Loud Sound Reduction",
+				"Live Translation10",
+				"Touch control",
+				"Force sensor",
+				"Single charge: Up to 8 hours of listening time on one charge with Active Noise Cancellation11",
+				"Up to 6 hours of listening time on one charge11",
+				"20 hrs",
+				"Charging: Up to 30 hours of listening time with charging case11",
+				"Case: MagSafe Charging Case (USB-C) works with Apple Watch charger and Qi-certified chargers13; includes lanyard loop and speaker for Find My14",
+				"Sweat and Water resistance: Dust, sweat and water resistant (IP57)16"
+			],
+			"formFactors": [
+				{
+					"kind": "earpiece",
+					"formFactor": "In-ear",
+					"weights": [
+						{
+							"value": 5.55,
+							"unit": "g"
+						}
+					]
+				},
+				{
+					"kind": "case",
+					"cases": [
+						{
+							"formFactor": "MagSafe Charging Case (USB-C)",
+							"weight": {
+								"value": 43.99,
+								"unit": "g"
+							}
+						}
+					]
+				}
+			],
+			"audioTechnologies": [
+				"Active Noise Cancellation",
+				"Adaptive Audio",
+				"Transparency mode",
+				"Conversation Awareness",
+				"Voice Isolation",
+				"Personalised Volume",
+				"Adaptive EQ",
+				"Custom-built high-excursion Apple driver",
+				"Custom-engineered high-dynamic-range amplifier",
+				"Personalised Spatial Audio with dynamic head tracking",
+				"Lossless Audio and ultra-low-latency audio via USB-C"
+			],
+			"sensors": [
+				"Skin-detect sensor",
+				"Case-detect sensor",
+				"Heart rate sensor for workouts",
+				"Force sensor",
+				"Accelerometer"
+			],
+			"chips": [
+				"H2 headphone chip",
+				"Apple second-generation Ultra Wideband chip in MagSafe Charging Case"
+			],
+			"microphones": ["Inward-facing microphone"],
+			"controls": [
+				"Press once to play or pause media",
+				"Press once to answer a call or mute or unmute",
+				"Press once for camera remote",
+				"Press twice to end a call",
+				"Press twice to skip forward",
+				"Press three times to skip back",
+				"Press and hold to switch between listening modes",
+				"Swipe up or down to adjust volume",
+				"Say “Hey Siri” or just “Siri” to do things like play a song, make a call or get directions",
+				"Siri Interactions"
+			],
+			"hearingHealth": [
+				"Hearing Test",
+				"Hearing Aid",
+				"Automatic Conversation Boost when using Hearing Aid feature",
+				"Loud Sound Reduction"
+			],
+			"liveTranslation": [
+				"Live Translation for communicating across languages"
+			],
+			"port": "USB-C",
+			"batteryAndCharging": [
+				"Up to 8 hours of listening time on a single charge with Active Noise Cancellation enabled (up to 7.5 hours with Spatial Audio and Head Tracking enabled)",
+				"Up to 6 hours of listening time on a single charge (up to 5 hours with Spatial Audio enabled)",
+				"Up to 6.5 hours of listening time on a single charge with heart rate sensing during workouts",
+				"Up to 10 hours of listening time on a single charge in Transparency using the Hearing Aid feature",
+				"AirPods Pro 3 with MagSafe Charging Case (USB-C)",
+				"Up to 24 hours of listening time with Active Noise Cancellation enabled",
+				"5 minutes in the case provides around 1 hour of listening time"
+			],
+			"ipRating": "Dust, sweat and water resistant (IP57)",
+			"connectivity": ["Bluetooth® 5.3"],
+			"inTheBox": ["AirPods Pro 3"]
+		},
+		{
+			"id": "airpods-4-active-noise-cancellation",
+			"name": "AirPods 4 with Active Noise Cancellation",
+			"priceAud": 299,
+			"colors": [
+				{
+					"name": "White",
+					"swatch": "#ffffff",
+					"images": [
+						{
+							"label": "front",
+							"url": "https://www.apple.com/v/airpods/compare/i/images/overview/airpods_4gen_white__birryy2mcf6u_large_2x.png",
+							"file": "/var/folders/s_/ms68q0zx137_d7r08rxtnp9w0000gq/T/opencode/airpods-extract/airpods1-images/airpods-4-anc-white.png",
+							"width": 614,
+							"height": 680
+						}
+					]
+				}
+			],
+			"summary": [
+				"H2 chip",
+				"Pro-level Active Noise Cancellation2",
+				"Adaptive Audio4 and Transparency mode5",
+				"Conversation Awareness4",
+				"Personalised Spatial Audio with dynamic head tracking6",
+				"Lossless Audio and ultra-low-latency audio via USB-C7",
+				"Loud Sound Reduction",
+				"Live Translation10",
+				"Touch control",
+				"Force sensor",
+				"Single charge: Up to 5 hours of listening time on one charge with Active Noise Cancellation11",
+				"6 hrs",
+				"Up to 5 hours of listening time on one charge11",
+				"Charging: Up to 30 hours of listening time with charging case and Active Noise Cancellation11",
+				"Case: MagSafe Charging Case (USB-C) works with Apple Watch charger and Qi-certified chargers13; includes lanyard loop and speaker for Find My14",
+				"Sweat and Water resistance: Dust, sweat and water resistant (IP54)15"
+			],
+			"formFactors": [
+				{
+					"kind": "earpiece",
+					"formFactor": "In-ear",
+					"weights": [
+						{
+							"value": 4.3,
+							"unit": "g"
+						}
+					]
+				},
+				{
+					"kind": "case",
+					"cases": [
+						{
+							"formFactor": "MagSafe Charging Case (USB-C)",
+							"weight": {
+								"value": 34.7,
+								"unit": "g"
+							}
+						}
+					]
+				}
+			],
+			"audioTechnologies": [
+				"Active Noise Cancellation",
+				"Adaptive Audio",
+				"Transparency mode",
+				"Conversation Awareness",
+				"Voice Isolation",
+				"Personalised Volume",
+				"Adaptive EQ",
+				"Custom-built high-excursion Apple driver",
+				"Custom-engineered high-dynamic-range amplifier",
+				"Personalised Spatial Audio with dynamic head tracking",
+				"Vent system for pressure equalisation",
+				"Lossless Audio and ultra-low-latency audio via USB-C"
+			],
+			"sensors": [
+				"Skin-detect sensor",
+				"Case-detect sensor",
+				"Force sensor",
+				"Accelerometer"
+			],
+			"chips": [
+				"H2 headphone chip",
+				"U1 chip in MagSafe Charging Case (USB-C)"
+			],
+			"microphones": ["Inward-facing microphone"],
+			"controls": [
+				"Press once to play or pause media",
+				"Press once to answer a call or mute or unmute",
+				"Press once for camera remote",
+				"Press twice to end a call",
+				"Press twice to skip forward",
+				"Press three times to skip back",
+				"Press and hold for Siri",
+				"Say “Hey Siri” or just “Siri” to do things like play a song, make a call or get directions",
+				"Siri Interactions"
+			],
+			"hearingHealth": ["Loud Sound Reduction"],
+			"liveTranslation": [
+				"Live Translation for communicating across languages"
+			],
+			"port": "USB-C",
+			"batteryAndCharging": [
+				"Up to 5 hours of listening time on a single charge",
+				"Up to 5 hours of listening time on a single charge with noise control off",
+				"AirPods 4 with Active Noise Cancellation and Charging Case (USB-C)",
+				"Up to 30 hours of listening time with noise control off",
+				"5 minutes in the case provides around 1 hour of listening time"
+			],
+			"ipRating": "Dust, sweat and water resistant (IP54)",
+			"connectivity": ["Bluetooth® 5.3"],
+			"inTheBox": ["AirPods 4 with Active Noise Cancellation"]
+		},
+		{
+			"id": "airpods-max-2",
+			"name": "AirPods Max 2",
+			"priceAud": 999,
+			"colors": [
+				{
+					"name": "Midnight",
+					"swatch": "linear-gradient(to bottom, #22252a 50%, #2a3139 50%)",
+					"images": [
+						{
+							"label": "front",
+							"url": "https://www.apple.com/v/airpods/compare/i/images/overview/airpods_max_midnight__gbjhmammlc2m_large_2x.png",
+							"file": "/var/folders/s_/ms68q0zx137_d7r08rxtnp9w0000gq/T/opencode/airpods-extract/airpods1-images/airpods-max-2-midnight.png",
+							"width": 614,
+							"height": 680
+						}
+					]
+				},
+				{
+					"name": "Starlight",
+					"swatch": "linear-gradient(to bottom, #e9e1d4 50%, #ccbeb1 50%)",
+					"images": [
+						{
+							"label": "front",
+							"url": "https://www.apple.com/v/airpods/compare/i/images/overview/airpods_max_starlight__eic4xluae0ya_large_2x.png",
+							"file": "/var/folders/s_/ms68q0zx137_d7r08rxtnp9w0000gq/T/opencode/airpods-extract/airpods1-images/airpods-max-2-starlight.png",
+							"width": 614,
+							"height": 680
+						}
+					]
+				},
+				{
+					"name": "Blue",
+					"swatch": "linear-gradient(to bottom, #64727d 50%, #91a9b5 50%)",
+					"images": [
+						{
+							"label": "front",
+							"url": "https://www.apple.com/v/airpods/compare/i/images/overview/airpods_max_blue__eg7x2inqp44m_large_2x.png",
+							"file": "/var/folders/s_/ms68q0zx137_d7r08rxtnp9w0000gq/T/opencode/airpods-extract/airpods1-images/airpods-max-2-blue.png",
+							"width": 614,
+							"height": 680
+						}
+					]
+				},
+				{
+					"name": "Purple",
+					"swatch": "linear-gradient(to bottom, #dad7e0 50%, #afa6bb 50%)",
+					"images": [
+						{
+							"label": "front",
+							"url": "https://www.apple.com/v/airpods/compare/i/images/overview/airpods_max_purple__gl9ekwlgts66_large_2x.png",
+							"file": "/var/folders/s_/ms68q0zx137_d7r08rxtnp9w0000gq/T/opencode/airpods-extract/airpods1-images/airpods-max-2-purple.png",
+							"width": 614,
+							"height": 680
+						}
+					]
+				},
+				{
+					"name": "Orange",
+					"swatch": "linear-gradient(to bottom, #ffc09d 50%, #e2a48d 50%)",
+					"images": [
+						{
+							"label": "front",
+							"url": "https://www.apple.com/v/airpods/compare/i/images/overview/airpods_max_orange__zvc24kv2e2qe_large_2x.png",
+							"file": "/var/folders/s_/ms68q0zx137_d7r08rxtnp9w0000gq/T/opencode/airpods-extract/airpods1-images/airpods-max-2-orange.png",
+							"width": 614,
+							"height": 680
+						}
+					]
+				}
+			],
+			"summary": [
+				"H2 chip",
+				"Up to 1.5x more Active Noise Cancellation than original AirPods Max3",
+				"Adaptive Audio4 and Transparency mode5",
+				"Conversation Awareness4",
+				"Personalised Spatial Audio with dynamic head tracking6",
+				"Lossless Audio and ultra-low-latency audio via USB-C7",
+				"Hearing Test9and Hearing Aid features9, and Loud Sound Reduction",
+				"Live Translation10",
+				"Digital Crown",
+				"Force sensor",
+				"Single charge: Up to 20 hours of listening time on one charge with Active Noise Cancellation11",
+				"5 hrs",
+				"Charging: More than 24 hours of listening time with charging case11",
+				"Smart Case",
+				"Sweat and Water resistance: Sweat and water resistant17"
+			],
+			"formFactors": [
+				{
+					"kind": "earpiece",
+					"formFactor": "Over-ear",
+					"weights": [
+						{
+							"value": 386.2,
+							"unit": "g"
+						}
+					]
+				},
+				{
+					"kind": "case",
+					"cases": [
+						{
+							"formFactor": "Smart Case",
+							"weight": {
+								"value": 134.5,
+								"unit": "g"
+							}
+						}
+					]
+				}
+			],
+			"audioTechnologies": [
+				"Active Noise Cancellation",
+				"Adaptive Audio",
+				"Transparency mode",
+				"Conversation Awareness",
+				"Voice Isolation",
+				"Personalised Volume",
+				"Adaptive EQ",
+				"Apple-designed dynamic driver",
+				"Custom-engineered high-dynamic-range amplifier",
+				"Personalised Spatial Audio with dynamic head tracking",
+				"Lossless Audio and ultra-low-latency audio via USB-C"
+			],
+			"sensors": [
+				"Optical sensor (each ear cup)",
+				"Position sensor (each ear cup)",
+				"Case-detect sensor (each ear cup)",
+				"Accelerometer (each ear cup)"
+			],
+			"chips": ["H2 headphone chip (each ear cup)"],
+			"microphones": [
+				"Nine microphones total:",
+				"Eight microphones for Active Noise Cancellation",
+				"Three microphones for voice pick-up (two shared with Active Noise Cancellation and one additional microphone)"
+			],
+			"controls": [
+				"Digital Crown Turn for volume control",
+				"Press once to play or pause media",
+				"Press once to answer a call or mute or unmute",
+				"Press once for camera remote",
+				"Press twice to end a call",
+				"Press twice to skip forward",
+				"Press three times to skip back",
+				"Press and hold for Siri",
+				"Listening mode button Press to switch between listening modes",
+				"Say “Hey Siri” or just “Siri” to do things like play a song, make a call or get directions",
+				"Siri Interactions"
+			],
+			"hearingHealth": [
+				"Hearing Test",
+				"Hearing Aid",
+				"Automatic Conversation Boost when using Hearing Aid feature",
+				"Loud Sound Reduction"
+			],
+			"liveTranslation": [
+				"Live Translation for communicating across languages"
+			],
+			"port": "USB-C",
+			"batteryAndCharging": [
+				"Up to 20 hours of listening time on a single charge with Active Noise Cancellation enabled",
+				"Up to 20 hours of movie playback on a single charge with Active Noise Cancellation and Spatial Audio enabled",
+				"5 minutes of charging equals around 1.5 hours of listening time",
+				"AirPods Max 2 with Smart Case",
+				"Storage in the Smart Case preserves battery charge in ultra-low-power state",
+				"Charging via USB-C"
+			],
+			"ipRating": "Sweat and water resistant",
+			"connectivity": ["Bluetooth® 5.3"],
+			"inTheBox": ["AirPods Max 2"]
+		},
+		{
+			"id": "airpods-pro-2",
+			"name": "AirPods Pro 2",
+			"priceAud": 0,
+			"colors": [
+				{
+					"name": "White",
+					"swatch": "#ffffff",
+					"images": [
+						{
+							"label": "front",
+							"url": "https://www.apple.com/v/airpods/compare/i/images/overview/airpods_pro_white__cd2arklqu16q_large_2x.png",
+							"file": "/var/folders/s_/ms68q0zx137_d7r08rxtnp9w0000gq/T/opencode/airpods-extract/airpods2-images/airpods-pro-2-white.png",
+							"width": 614,
+							"height": 680
+						}
+					]
+				}
+			],
+			"summary": [
+				"H1 chip",
+				"Adaptive Audio4 and Transparency mode5",
+				"Conversation Awareness4",
+				"Personalised Spatial Audio with dynamic head tracking6",
+				"Hearing Test9and Hearing Aid features9, and Loud Sound Reduction",
+				"Live Translation10",
+				"Touch control",
+				"Force sensor",
+				"Single charge: 6 hrs Up to 6 hours of listening time on one charge with Active Noise Cancellation11",
+				"Up to 30 hours of listening time with charging case and Active Noise Cancellation11",
+				"Case: MagSafe Charging Case (USB-C) works with Apple Watch charger and Qi-certified chargers13; includes lanyard loop and speaker for Find My14",
+				"Sweat and Water resistance: Dust, sweat and water resistant (IP54)16"
+			],
+			"formFactors": [
+				{
+					"kind": "earpiece",
+					"formFactor": "In-ear",
+					"weights": [
+						{
+							"value": 5.3,
+							"unit": "g"
+						}
+					]
+				},
+				{
+					"kind": "case",
+					"cases": [
+						{
+							"formFactor": "MagSafe Charging Case (USB-C)",
+							"weight": {
+								"value": 50.8,
+								"unit": "g"
+							}
+						}
+					]
+				}
+			],
+			"audioTechnologies": [
+				"Active Noise Cancellation",
+				"Adaptive Audio",
+				"Transparency mode",
+				"Conversation Awareness",
+				"Voice Isolation",
+				"Personalised Volume",
+				"Adaptive EQ",
+				"Custom-built high-excursion Apple driver",
+				"Custom-engineered high-dynamic-range amplifier",
+				"Personalised Spatial Audio with dynamic head tracking",
+				"Vent system for pressure equalisation"
+			],
+			"sensors": [
+				"Skin-detect sensor",
+				"Case-detect sensor",
+				"Touch control",
+				"Force sensor"
+			],
+			"chips": [
+				"H2 headphone chip",
+				"U1 chip in MagSafe Charging Case (USB-C)"
+			],
+			"microphones": ["Inward-facing microphone"],
+			"controls": [
+				"Press once to play or pause media",
+				"Press once to answer a call or mute or unmute",
+				"Press once for camera remote",
+				"Press twice to end a call",
+				"Press twice to skip forward",
+				"Press three times to skip back",
+				"Press and hold to switch between listening modes",
+				"Swipe up or down to adjust volume",
+				"Say “Hey Siri” or just “Siri” to do things like play a song, make a call or get directions",
+				"Siri Interactions"
+			],
+			"hearingHealth": [
+				"Hearing Test",
+				"Hearing Aid",
+				"Automatic Conversation Boost when using Hearing Aid feature",
+				"Loud Sound Reduction"
+			],
+			"liveTranslation": [
+				"Live Translation for communicating across languages"
+			],
+			"port": "USB-C",
+			"batteryAndCharging": [
+				"Up to 6 hours of listening time on a single charge (up to 5.5 hours with Spatial Audio and Head Tracking enabled)",
+				"AirPods Pro 2 with MagSafe Charging Case (USB-C)",
+				"Up to 30 hours of listening time",
+				"5 minutes in the case provides around 1 hour of listening time"
+			],
+			"ipRating": "Dust, sweat and water resistant (IP54)",
+			"connectivity": ["Bluetooth® 5.3"],
+			"inTheBox": [
+				"AirPods Pro 2",
+				"MagSafe Charging Case (USB-C) with speaker and lanyard loop",
+				"USB-C Charge Cable",
+				"Documentation",
+				"Silicone ear tips (four sizes: XS, S, M, L)"
+			]
+		},
+		{
+			"id": "airpods-4",
+			"name": "AirPods 4",
+			"priceAud": 219,
+			"colors": [
+				{
+					"name": "White",
+					"swatch": "#ffffff",
+					"images": [
+						{
+							"label": "front",
+							"url": "https://www.apple.com/v/airpods/compare/i/images/overview/airpods_4gen_white__birryy2mcf6u_large_2x.png",
+							"file": "/var/folders/s_/ms68q0zx137_d7r08rxtnp9w0000gq/T/opencode/airpods-extract/airpods2-images/airpods-4-white.png",
+							"width": 614,
+							"height": 680
+						}
+					]
+				}
+			],
+			"summary": [
+				"H2 chip",
+				"Pro-level Active Noise Cancellation2",
+				"Transparency mode",
+				"Personalised Spatial Audio with dynamic head tracking6",
+				"Lossless Audio and ultra-low-latency audio via USB-C7",
+				"Live Translation10",
+				"Force sensor",
+				"Single charge: 5 hrs Up to 5 hours of listening time on one charge11",
+				"Charging: Up to 30 hours of listening time with charging case11",
+				"Case: Charging Case (USB-C)12",
+				"Sweat and Water resistance: Dust, sweat and water resistant (IP54)15"
+			],
+			"formFactors": [
+				{
+					"kind": "earpiece",
+					"formFactor": "In-ear",
+					"weights": [
+						{
+							"value": 4.3,
+							"unit": "g"
+						}
+					]
+				},
+				{
+					"kind": "case",
+					"cases": [
+						{
+							"formFactor": "Charging Case (USB-C)",
+							"weight": {
+								"value": 32.3,
+								"unit": "g"
+							}
+						}
+					]
+				}
+			],
+			"audioTechnologies": [
+				"Pro-level Active Noise Cancellation",
+				"Transparency mode",
+				"Voice Isolation",
+				"Personalised Volume",
+				"Adaptive EQ",
+				"Custom-built high-excursion Apple driver",
+				"Custom-engineered high-dynamic-range amplifier",
+				"Personalised Spatial Audio with dynamic head tracking",
+				"Vent system for pressure equalisation",
+				"Lossless Audio and ultra-low-latency audio via USB-C"
+			],
+			"sensors": ["Optical in-ear sensor", "Force sensor"],
+			"chips": ["H2 headphone chip"],
+			"microphones": ["Inward-facing microphone"],
+			"controls": [
+				"Press once to play or pause media",
+				"Press once to answer a call or mute or unmute",
+				"Press once for camera remote",
+				"Press twice to end a call",
+				"Press twice to skip forward",
+				"Press three times to skip back",
+				"Press and hold for Siri",
+				"Say “Hey Siri” or just “Siri” to do things like play a song, make a call or get directions",
+				"Siri Interactions"
+			],
+			"hearingHealth": null,
+			"liveTranslation": [
+				"Live Translation for communicating across languages"
+			],
+			"port": "USB-C",
+			"batteryAndCharging": [
+				"Up to 5 hours of listening time on a single charge",
+				"AirPods 4 with Charging Case (USB-C)",
+				"Up to 30 hours of listening time",
+				"5 minutes in the case provides around 1 hour of listening time"
+			],
+			"ipRating": "Dust, sweat and water resistant (IP54)",
+			"connectivity": ["Bluetooth® 5.3"],
+			"inTheBox": [
+				"AirPods 4",
+				"Charging Case (USB-C)",
+				"USB-C Charge Cable is sold separately",
+				"Documentation"
+			]
+		},
+		{
+			"id": "airpods-max",
+			"name": "AirPods Max",
+			"priceAud": 0,
+			"colors": [
+				{
+					"name": "Midnight",
+					"swatch": "linear-gradient(to bottom, #22252a 50%, #2a3139 50%)",
+					"images": [
+						{
+							"label": "front",
+							"url": "https://www.apple.com/v/airpods/compare/i/images/overview/airpods_max_midnight__gbjhmammlc2m_large_2x.png",
+							"file": "/var/folders/s_/ms68q0zx137_d7r08rxtnp9w0000gq/T/opencode/airpods-extract/airpods2-images/airpods-max-midnight.png",
+							"width": 614,
+							"height": 680
+						}
+					]
+				},
+				{
+					"name": "Starlight",
+					"swatch": "linear-gradient(to bottom, #e9e1d4 50%, #ccbeb1 50%)",
+					"images": [
+						{
+							"label": "front",
+							"url": "https://www.apple.com/v/airpods/compare/i/images/overview/airpods_max_starlight__eic4xluae0ya_large_2x.png",
+							"file": "/var/folders/s_/ms68q0zx137_d7r08rxtnp9w0000gq/T/opencode/airpods-extract/airpods2-images/airpods-max-starlight.png",
+							"width": 614,
+							"height": 680
+						}
+					]
+				},
+				{
+					"name": "Blue",
+					"swatch": "linear-gradient(to bottom, #64727d 50%, #91a9b5 50%)",
+					"images": [
+						{
+							"label": "front",
+							"url": "https://www.apple.com/v/airpods/compare/i/images/overview/airpods_max_blue__eg7x2inqp44m_large_2x.png",
+							"file": "/var/folders/s_/ms68q0zx137_d7r08rxtnp9w0000gq/T/opencode/airpods-extract/airpods2-images/airpods-max-blue.png",
+							"width": 614,
+							"height": 680
+						}
+					]
+				},
+				{
+					"name": "Purple",
+					"swatch": "linear-gradient(to bottom, #dad7e0 50%, #afa6bb 50%)",
+					"images": [
+						{
+							"label": "front",
+							"url": "https://www.apple.com/v/airpods/compare/i/images/overview/airpods_max_purple__gl9ekwlgts66_large_2x.png",
+							"file": "/var/folders/s_/ms68q0zx137_d7r08rxtnp9w0000gq/T/opencode/airpods-extract/airpods2-images/airpods-max-purple.png",
+							"width": 614,
+							"height": 680
+						}
+					]
+				},
+				{
+					"name": "Orange",
+					"swatch": "linear-gradient(to bottom, #ffc09d 50%, #e2a48d 50%)",
+					"images": [
+						{
+							"label": "front",
+							"url": "https://www.apple.com/v/airpods/compare/i/images/overview/airpods_max_orange__zvc24kv2e2qe_large_2x.png",
+							"file": "/var/folders/s_/ms68q0zx137_d7r08rxtnp9w0000gq/T/opencode/airpods-extract/airpods2-images/airpods-max-orange.png",
+							"width": 614,
+							"height": 680
+						}
+					]
+				}
+			],
+			"summary": [
+				"H1 chip",
+				"Adaptive Audio4 and Transparency mode5",
+				"Conversation Awareness4",
+				"Personalised Spatial Audio with dynamic head tracking6",
+				"Lossless Audio and ultra-low-latency audio via USB-C7",
+				"Live Translation10",
+				"Digital Crown",
+				"Single charge: 20 hrs Up to 20 hours of listening time on one charge with Active Noise Cancellation11",
+				"Smart Case",
+				"Sweat and Water resistance unavailable"
+			],
+			"formFactors": [
+				{
+					"kind": "earpiece",
+					"formFactor": "Over-ear",
+					"weights": [
+						{
+							"value": 386.2,
+							"unit": "g"
+						}
+					]
+				},
+				{
+					"kind": "case",
+					"cases": [
+						{
+							"formFactor": "Smart Case",
+							"weight": {
+								"value": 134.5,
+								"unit": "g"
+							}
+						}
+					]
+				}
+			],
+			"audioTechnologies": [
+				"Adaptive Audio",
+				"Transparency mode",
+				"Conversation Awareness",
+				"Voice Isolation",
+				"Personalised Volume",
+				"Adaptive EQ",
+				"Apple-designed dynamic driver",
+				"Personalised Spatial Audio with dynamic head tracking",
+				"Lossless Audio and ultra-low-latency audio via USB-C"
+			],
+			"sensors": [
+				"Optical sensor (each ear cup)",
+				"Position sensor (each ear cup)",
+				"Case-detect sensor (each ear cup)",
+				"Accelerometer (each ear cup)"
+			],
+			"chips": ["H1 headphone chip (each ear cup)"],
+			"microphones": [
+				"Nine microphones total:",
+				"Eight microphones for Active Noise Cancellation",
+				"Three microphones for voice pick-up (two shared with Active Noise Cancellation and one additional microphone)"
+			],
+			"controls": [
+				"Digital Crown Turn for volume control",
+				"Press once to play or pause media",
+				"Press once to answer a call or mute or unmute",
+				"Press twice to end a call",
+				"Press twice to skip forward",
+				"Press three times to skip back",
+				"Press and hold for Siri",
+				"Noise control button Press to switch between Active Noise Cancellation and Transparency mode",
+				"Say “Hey Siri” to do things like play a song, make a call or get directions"
+			],
+			"hearingHealth": null,
+			"liveTranslation": null,
+			"port": "USB-C",
+			"batteryAndCharging": [
+				"Up to 20 hours of listening time on a single charge with Active Noise Cancellation enabled",
+				"Up to 20 hours of movie playback on a single charge with Active Noise Cancellation and Spatial Audio enabled",
+				"5 minutes of charging equals around 1.5 hours of listening time",
+				"AirPods Max with Smart Case",
+				"Storage in the Smart Case preserves battery charge in ultra-low-power state",
+				"Charging via USB-C"
+			],
+			"ipRating": null,
+			"connectivity": ["Bluetooth® 5.0"],
+			"inTheBox": [
+				"AirPods Max",
+				"Smart Case",
+				"USB-C Charge Cable",
+				"Documentation"
+			]
+		},
+		{
+			"id": "airpods-2nd-generation",
+			"name": "AirPods (2nd generation)",
+			"priceAud": 0,
+			"colors": [
+				{
+					"name": "White",
+					"swatch": "#ffffff",
+					"images": [
+						{
+							"label": "front",
+							"url": "https://www.apple.com/v/airpods/compare/i/images/overview/airpods_2gen_white__benan2ckzxyq_large_2x.png",
+							"file": "/var/folders/s_/ms68q0zx137_d7r08rxtnp9w0000gq/T/opencode/airpods-strict/images/airpods-2nd-generation-white.png",
+							"width": 614,
+							"height": 680
+						}
+					]
+				}
+			],
+			"summary": [
+				"H1 chip",
+				"Double tap",
+				"Single charge: Up to 5 hours of listening time on one charge11",
+				"More than 24 hours of listening time with charging case11",
+				"Lightning Charging Case",
+				"“Hey Siri”",
+				"Automatic Switching19",
+				"Personalised engraving"
+			],
+			"formFactors": [
+				{
+					"kind": "earpiece",
+					"formFactor": "In-ear",
+					"weights": [
+						{
+							"value": 4,
+							"unit": "g"
+						}
+					]
+				},
+				{
+					"kind": "case",
+					"cases": [
+						{
+							"formFactor": "Lightning Charging Case",
+							"weight": {
+								"value": 38.2,
+								"unit": "g"
+							}
+						}
+					]
+				}
+			],
+			"audioTechnologies": [],
+			"sensors": ["Dual optical sensors"],
+			"chips": ["H1 headphone chip"],
+			"microphones": [],
+			"controls": [
+				"Double tap to play, skip forward or answer a phone call",
+				"Say “Hey Siri” to do things like play a song, make a call or get directions"
+			],
+			"hearingHealth": null,
+			"liveTranslation": null,
+			"port": "Lightning",
+			"batteryAndCharging": [
+				"Up to 5 hours of listening time on a single charge",
+				"AirPods (2nd generation) with Lightning Charging Case",
+				"More than 24 hours of listening time",
+				"15 minutes in the case provides up to 3 hours of listening time"
+			],
+			"ipRating": null,
+			"connectivity": ["Bluetooth® 5.0"],
+			"inTheBox": [
+				"AirPods (2nd generation)",
+				"Lightning Charging Case",
+				"Lightning to USB‑A Cable",
+				"Documentation"
+			]
+		},
+		{
+			"id": "airpods-3rd-generation-lightning",
+			"name": "AirPods (3rd generation) with Lightning Charging Case",
+			"priceAud": 0,
+			"colors": [
+				{
+					"name": "White",
+					"swatch": "#ffffff",
+					"images": [
+						{
+							"label": "front",
+							"url": "https://www.apple.com/v/airpods/compare/i/images/overview/airpods_3gen_white__car4z3m37ss2_large_2x.png",
+							"file": "/var/folders/s_/ms68q0zx137_d7r08rxtnp9w0000gq/T/opencode/airpods-strict/images/airpods-3rd-generation-lightning-white.png",
+							"width": 614,
+							"height": 680
+						}
+					]
+				}
+			],
+			"summary": [
+				"H1 chip",
+				"Personalised Spatial Audio with dynamic head tracking6",
+				"Force sensor",
+				"Single charge: Up to 6 hours of listening time on one charge11",
+				"Up to 30 hours of listening time with charging case11",
+				"Lightning Charging Case13",
+				"Sweat and water resistant17",
+				"“Hey Siri”",
+				"Automatic Switching19",
+				"Personalised engraving"
+			],
+			"formFactors": [
+				{
+					"kind": "earpiece",
+					"formFactor": "In-ear",
+					"weights": [
+						{
+							"value": 4.28,
+							"unit": "g"
+						}
+					]
+				},
+				{
+					"kind": "case",
+					"cases": [
+						{
+							"formFactor": "Lightning Charging Case",
+							"weight": {
+								"value": 37.91,
+								"unit": "g"
+							}
+						}
+					]
+				}
+			],
+			"audioTechnologies": [
+				"Adaptive EQ",
+				"Custom-built high-excursion Apple driver",
+				"Custom-engineered high-dynamic-range amplifier",
+				"Personalised Spatial Audio with dynamic head tracking"
+			],
+			"sensors": ["Skin-detect sensor", "Force sensor"],
+			"chips": ["H1 headphone chip"],
+			"microphones": ["Inward-facing microphone"],
+			"controls": [
+				"Press once to play or pause media",
+				"Press once to answer a call or mute or unmute22",
+				"Press twice to end a call",
+				"Press twice to skip forward",
+				"Press three times to skip back",
+				"Press and hold for Siri",
+				"Say “Hey Siri” to do things like play a song, make a call or get directions"
+			],
+			"hearingHealth": null,
+			"liveTranslation": null,
+			"port": "Lightning Charging Case",
+			"batteryAndCharging": [
+				"Up to 6 hours of listening time on a single charge (up to 5 hours with Spatial Audio enabled)",
+				"AirPods (3rd generation) with Lightning Charging Case",
+				"Up to 30 hours of listening time",
+				"5 minutes in the case provides around 1 hour of listening time"
+			],
+			"ipRating": "Sweat and water resistant (IPX4)",
+			"connectivity": ["Bluetooth® 5.0"],
+			"inTheBox": [
+				"AirPods (3rd generation)",
+				"Lightning Charging Case",
+				"Lightning to USB‑C Cable",
+				"Documentation"
+			]
+		},
+		{
+			"id": "airpods-3rd-generation-magsafe",
+			"name": "AirPods (3rd generation) with MagSafe Charging Case",
+			"priceAud": 0,
+			"colors": [
+				{
+					"name": "White",
+					"swatch": "#ffffff",
+					"images": [
+						{
+							"label": "front",
+							"url": "https://www.apple.com/v/airpods/compare/i/images/overview/airpods_3gen_white__car4z3m37ss2_large_2x.png",
+							"file": "/var/folders/s_/ms68q0zx137_d7r08rxtnp9w0000gq/T/opencode/airpods-strict/images/airpods-3rd-generation-magsafe-white.png",
+							"width": 614,
+							"height": 680
+						}
+					]
+				}
+			],
+			"summary": [
+				"H1 chip",
+				"Personalised Spatial Audio with dynamic head tracking6",
+				"Force sensor",
+				"Single charge: Up to 6 hours of listening time on one charge11",
+				"Up to 30 hours of listening time with charging case11",
+				"MagSafe Charging Case13",
+				"Sweat and water resistant17",
+				"“Hey Siri”",
+				"Automatic Switching19",
+				"Personalised engraving"
+			],
+			"formFactors": [
+				{
+					"kind": "earpiece",
+					"formFactor": "In-ear",
+					"weights": [
+						{
+							"value": 4.28,
+							"unit": "g"
+						}
+					]
+				},
+				{
+					"kind": "case",
+					"cases": [
+						{
+							"formFactor": "MagSafe Charging Case",
+							"weight": {
+								"value": 37.91,
+								"unit": "g"
+							}
+						}
+					]
+				}
+			],
+			"audioTechnologies": [
+				"Adaptive EQ",
+				"Custom-built high-excursion Apple driver",
+				"Custom-engineered high-dynamic-range amplifier",
+				"Personalised Spatial Audio with dynamic head tracking"
+			],
+			"sensors": ["Skin-detect sensor", "Force sensor"],
+			"chips": ["H1 headphone chip"],
+			"microphones": ["Inward-facing microphone"],
+			"controls": [
+				"Press once to play or pause media",
+				"Press once to answer a call or mute or unmute22",
+				"Press twice to end a call",
+				"Press twice to skip forward",
+				"Press three times to skip back",
+				"Press and hold for Siri",
+				"Say “Hey Siri” to do things like play a song, make a call or get directions"
+			],
+			"hearingHealth": null,
+			"liveTranslation": null,
+			"port": "MagSafe Charging Case",
+			"batteryAndCharging": [
+				"Up to 6 hours of listening time on a single charge (up to 5 hours with Spatial Audio enabled)",
+				"AirPods (3rd generation) with MagSafe Charging Case",
+				"Up to 30 hours of listening time",
+				"5 minutes in the case provides around 1 hour of listening time"
+			],
+			"ipRating": "Sweat and water resistant (IPX4)",
+			"connectivity": ["Bluetooth® 5.0"],
+			"inTheBox": [
+				"AirPods (3rd generation)",
+				"MagSafe Charging Case",
+				"Lightning to USB‑C Cable",
+				"Documentation"
+			]
+		}
+	]
+}

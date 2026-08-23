@@ -1,0 +1,23 @@
+{
+	"section": "homepod",
+	"canonicalFile": "public/data/homepod/homepod.json",
+	"canonicalSha256": "d18c99c20cd4d4b14b39f649ba54d0b2d2ec8b5af88999ff654287eec6be4b0a",
+	"expectedDeviceCount": 2,
+	"actualDeviceCount": 2,
+	"validation": {
+		"draft": "Draft 2020-12",
+		"valid": true,
+		"errorCount": 0,
+		"boundary": "ajv-formats is unavailable; uri format declarations are ignored by Ajv and were not semantically validated"
+	},
+	"imageReferences": {
+		"total": 57,
+		"unique": 52,
+		"missing": 0
+	},
+	"preservedStructuredNulls": 55,
+	"preservedSourceNotes": 8,
+	"migrationNotes": [
+		"Flattened staged source paths to public/data/homepod/images/<filename>."
+	]
+}

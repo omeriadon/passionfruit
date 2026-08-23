@@ -22,14 +22,14 @@ represented by the local catalogue.
 
 ## Results
 
-| Section | Canonical devices | OS 26 target coverage | OS 27 target coverage |
-| --- | ---: | --- | --- |
-| iPhone | 38 | Complete: all 31 supported identities present; 7 older extra identities | Complete: all 31 supported identities present; 7 older extra identities |
-| iPad | 40 | Complete: all supported generations present; older unsupported generations are extra | Complete: all supported identities present; older unsupported generations are extra |
-| Mac | 53 | Complete for the accepted non-Intel catalogue | Out of scope |
-| Apple Watch | 17 | Complete identity coverage: Series 6+, SE 2+, Ultra and later present | Complete identity coverage: SE 3, Series 9–11, Ultra 2–3 present |
-| Apple TV | 1 | Complete for the accepted catalogue: Apple TV 4K is present; Apple TV HD is intentionally excluded | Out of scope |
-| Vision | 1 | No separate Apple model list was found on Apple’s OS 26 pages; local current product exists | Same limitation; local current product exists |
+| Section     | Canonical devices | OS 26 target coverage                                                                              | OS 27 target coverage                                                               |
+| ----------- | ----------------: | -------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
+| iPhone      |                38 | Complete: all 31 supported identities present; 7 older extra identities                            | Complete: all 31 supported identities present; 7 older extra identities             |
+| iPad        |                40 | Complete: all supported generations present; older unsupported generations are extra               | Complete: all supported identities present; older unsupported generations are extra |
+| Mac         |                53 | Complete for the accepted non-Intel catalogue                                                      | Out of scope                                                                        |
+| Apple Watch |                17 | Complete identity coverage: Series 6+, SE 2+, Ultra and later present                              | Complete identity coverage: SE 3, Series 9–11, Ultra 2–3 present                    |
+| Apple TV    |                 1 | Complete for the accepted catalogue: Apple TV 4K is present; Apple TV HD is intentionally excluded | Out of scope                                                                        |
+| Vision      |                 1 | No separate Apple model list was found on Apple’s OS 26 pages; local current product exists        | Same limitation; local current product exists                                       |
 
 ### Missing Mac identities
 

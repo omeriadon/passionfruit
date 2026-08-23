@@ -149,3 +149,15 @@ retained. Raw HTML remains under `data/tmp/` and was not touched.
 - `.scratch/human-device-contract.md`, `.scratch/device-data-reference.md`, and `.scratch/device-templates.md` — current human-readable contract and review documentation.
 - `.scratch/final-validate.mjs`, `.scratch/strict/`, `.scratch/merge-audits/`, `.scratch/image-audit/`, `.scratch/template-validation/`, and `.scratch/merge-audits/quarantine/` — reproducibility, strict evidence, final validation, image auditing, and quarantine assets.
 - `.scratch/coverage-audit-os26-os27*.md`, `.scratch/data-presence-audit.md`, `.scratch/apple-watch-data-completeness-audit.md`, `.scratch/source-gap-report.md`, and `.scratch/merge-readiness.md` — current coverage, completeness, provenance, and readiness reports.
+
+## Fifth-pass cleanup
+
+The remaining scratch tree was re-audited after the schema redesign request. Current schema and contract documents, all strict evidence needed by the canonical data, final validation and provenance reports, image audits, templates, quarantine assets, and worker-produced files were preserved. No schema, canonical JSON, raw HTML, status file, or rules file was modified.
+
+### Deleted
+
+- `.scratch/maxwell-image-verification.json` — unreferenced Apple Watch image-check snapshot superseded by `.scratch/image-audit/images.json`, `.scratch/image-audit/report.md`, and the consolidated image-integrity audit.
+- `.scratch/maxwell-independent-validation.json` — unreferenced Apple Watch validation snapshot for an outdated 12-device candidate set; superseded by the current strict and consolidated validation artifacts.
+- `.scratch/strict/iphone/iphone14-pro-max.json` — one-off intermediate iPhone extraction output not referenced by status, canonical validation, image audits, or current provenance documents.
+- `.scratch/strict/iphone/iphone14-pro-max.validation.json` — validation result for the deleted one-off iPhone extraction output.
+- `.scratch/strict/iphone/validate-iphone14-pro-max.mjs` — validator dedicated to the deleted one-off iPhone extraction output.

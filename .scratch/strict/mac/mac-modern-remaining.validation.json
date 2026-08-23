@@ -1,0 +1,18 @@
+{
+	"schemaPath": ".scratch/strict/data-model-contract.schema.json",
+	"dataPath": ".scratch/strict/mac/mac-modern-remaining.json",
+	"draft": "Draft 2020-12",
+	"options": {
+		"allErrors": true,
+		"strictMode": true,
+		"allowUnionTypes": true,
+		"formatRegistration": "runtime regex for uri"
+	},
+	"valid": true,
+	"deviceCount": 3,
+	"errorCount": 0,
+	"errors": [],
+	"imageReferenceCount": 0,
+	"invalidImageReferences": [],
+	"candidateSha256": "f6e7aca6e1fa5b8a38f819f2665841d7961b15664ac31d0bb07e87d463d4e0c4"
+}

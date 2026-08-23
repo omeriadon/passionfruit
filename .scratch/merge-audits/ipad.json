@@ -1,0 +1,23 @@
+{
+	"section": "ipad",
+	"canonicalFile": "public/data/ipad/ipad.json",
+	"canonicalSha256": "69ac362d28191cf568ee5b5fd8f10977eddd25d566c9b5294dc1d4f08b3f8474",
+	"expectedDeviceCount": 39,
+	"actualDeviceCount": 39,
+	"validation": {
+		"draft": "Draft 2020-12",
+		"valid": true,
+		"errorCount": 0,
+		"boundary": "ajv-formats is unavailable; uri format declarations are ignored by Ajv and were not semantically validated"
+	},
+	"imageReferences": {
+		"total": 6,
+		"unique": 6,
+		"missing": 0
+	},
+	"preservedStructuredNulls": 1432,
+	"preservedSourceNotes": 382,
+	"migrationNotes": [
+		"Used merge-ready candidate with evidence-backed prices, CPU, display, Bluetooth, storage, memory, runtime, and USB protocol fields; retained structured null/sourceNotes for absent facts."
+	]
+}

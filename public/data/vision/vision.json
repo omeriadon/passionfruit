@@ -425,9 +425,7 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 6"
-					]
+					"standards": ["Wi-Fi 6"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.3"
@@ -440,9 +438,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"Optic ID"
-				],
+				"methods": ["Optic ID"],
 				"primaryMethod": "Optic ID",
 				"sourceNotes": "Iris‑based biometric authentication. Optic ID data is encrypted and accessible only to the Secure Enclave processor. Secures personal data within apps. Make purchases from the iTunes Store and App Store."
 			},
@@ -549,9 +545,7 @@
 				{
 					"displayName": "Trackpads and mouse devices",
 					"category": "input",
-					"capabilities": [
-						"Mouse support requires visionOS 2 or later."
-					],
+					"capabilities": ["Mouse support requires visionOS 2 or later."],
 					"accessoryId": "trackpads-and-mouse-devices"
 				},
 				{

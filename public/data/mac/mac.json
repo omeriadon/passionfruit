@@ -164,10 +164,7 @@
 						{
 							"id": "media-engine",
 							"displayName": "Media Engine",
-							"kinds": [
-								"video-decode",
-								"ProRes encode-decode"
-							]
+							"kinds": ["video-decode", "ProRes encode-decode"]
 						}
 					],
 					"sourceNotes": "System on Chip (SoC) Apple A18 Pro chip 6-core CPU with 2 performance cores and 4 efficiency cores 5-core GPU Hardware-accelerated ray tracing 16-core Neural Engine 60GB/s memory bandwidth Media Engine Hardware-accelerated H.264, HEVC, ProRes and ProRes RAW Video decode engine Video encode engine ProRes encode and decode engine AV1 decode"
@@ -258,10 +255,7 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 6E",
-						"Wi-Fi 6"
-					]
+					"standards": ["Wi-Fi 6E", "Wi-Fi 6"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 6.0"
@@ -274,9 +268,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"placement": null,
 				"sourceNotes": "Touch ID; passcode"
@@ -528,10 +520,7 @@
 						{
 							"id": "media-engine",
 							"displayName": "Media Engine",
-							"kinds": [
-								"video-decode",
-								"ProRes encode-decode"
-							]
+							"kinds": ["video-decode", "ProRes encode-decode"]
 						}
 					],
 					"sourceNotes": "System on Chip (SoC) M5 chip 10-core CPU with 4 super cores and 6 efficiency cores Up to 10-core GPU Neural Accelerators Hardware-accelerated ray tracing 16-core Neural Engine 153GB/s memory bandwidth Media Engine Hardware-accelerated H.264, HEVC, ProRes and ProRes RAW Video decode engine Video encode engine ProRes encode and decode engine AV1 decode"
@@ -622,9 +611,7 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 7"
-					]
+					"standards": ["Wi-Fi 7"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 6.0"
@@ -637,9 +624,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"placement": null,
 				"sourceNotes": "Touch ID; passcode"
@@ -813,10 +798,7 @@
 						{
 							"id": "media-engine",
 							"displayName": "Media Engine",
-							"kinds": [
-								"video-decode",
-								"ProRes encode-decode"
-							]
+							"kinds": ["video-decode", "ProRes encode-decode"]
 						}
 					],
 					"sourceNotes": "System on Chip (SoC) M5 chip 10-core CPU with 4 super cores and 6 efficiency cores 10-core GPU Neural Accelerators Hardware-accelerated ray tracing 16-core Neural Engine 153GB/s memory bandwidth Media Engine Hardware-accelerated H.264, HEVC, ProRes and ProRes RAW Video decode engine Video encode engine ProRes encode and decode engine AV1 decode"
@@ -923,10 +905,7 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 6E",
-						"Wi-Fi 6"
-					]
+					"standards": ["Wi-Fi 6E", "Wi-Fi 6"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.3"
@@ -939,9 +918,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"placement": null,
 				"sourceNotes": "Touch ID; passcode"
@@ -1143,10 +1120,7 @@
 						{
 							"id": "media-engine",
 							"displayName": "Media Engine",
-							"kinds": [
-								"video-decode",
-								"ProRes encode-decode"
-							]
+							"kinds": ["video-decode", "ProRes encode-decode"]
 						}
 					],
 					"sourceNotes": "System on Chip (SoC) M4 chip 8-core CPU with 4 performance cores and 4 efficiency cores 8-core GPU Hardware-accelerated ray tracing 16-core Neural Engine 120GB/s memory bandwidth Media Engine Hardware-accelerated H.264, HEVC, ProRes and ProRes RAW Video decode engine Video encode engine ProRes encode and decode engine AV1 decode"
@@ -1245,10 +1219,7 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 6E",
-						"Wi-Fi 6"
-					]
+					"standards": ["Wi-Fi 6E", "Wi-Fi 6"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.3"
@@ -1261,9 +1232,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"placement": null,
 				"sourceNotes": "Touch ID; passcode"
@@ -1422,10 +1391,7 @@
 						{
 							"id": "media-engine",
 							"displayName": "Media Engine",
-							"kinds": [
-								"video-decode",
-								"ProRes encode-decode"
-							]
+							"kinds": ["video-decode", "ProRes encode-decode"]
 						}
 					],
 					"sourceNotes": "System on Chip (SoC) M5 Pro chip Up to 18-core CPU with 6 super cores and 12 performance cores Up to 20-core GPU Neural Accelerators Hardware-accelerated ray tracing 16-core Neural Engine 307GB/s memory bandwidth Media Engine Hardware-accelerated H.264, HEVC, ProRes and ProRes RAW Video decode engine Video encode engine ProRes encode and decode engine AV1 decode"
@@ -1532,9 +1498,7 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 7"
-					]
+					"standards": ["Wi-Fi 7"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 6.0"
@@ -1547,9 +1511,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"placement": null,
 				"sourceNotes": "Touch ID; passcode"
@@ -1719,10 +1681,7 @@
 						{
 							"id": "media-engine",
 							"displayName": "Media Engine",
-							"kinds": [
-								"video-decode",
-								"ProRes encode-decode"
-							]
+							"kinds": ["video-decode", "ProRes encode-decode"]
 						}
 					],
 					"sourceNotes": "System on Chip (SoC) M5 Max chip 18-core CPU with 6 super cores and 12 performance cores Up to 40-core GPU Neural Accelerators Hardware-accelerated ray tracing 16-core Neural Engine 614GB/s memory bandwidth Media Engine Hardware-accelerated H.264, HEVC, ProRes and ProRes RAW Video decode engine Two video encode engines Two ProRes encode and decode engines AV1 decode"
@@ -1829,9 +1788,7 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 7"
-					]
+					"standards": ["Wi-Fi 7"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 6.0"
@@ -1844,9 +1801,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"placement": null,
 				"sourceNotes": "Touch ID; passcode"
@@ -2001,10 +1956,7 @@
 						{
 							"id": "media-engine",
 							"displayName": "Media Engine",
-							"kinds": [
-								"video-decode",
-								"ProRes encode-decode"
-							]
+							"kinds": ["video-decode", "ProRes encode-decode"]
 						}
 					],
 					"sourceNotes": "System on Chip (SoC) M4 chip 10-core CPU with 4 performance cores and 6 efficiency cores 10-core GPU Hardware-accelerated ray tracing 16-core Neural Engine 120GB/s memory bandwidth Media Engine Hardware-accelerated H.264, HEVC, ProRes and ProRes RAW Video decode engine Video encode engine ProRes encode and decode engine AV1 decode"
@@ -2118,10 +2070,7 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 6E",
-						"Wi-Fi 6"
-					]
+					"standards": ["Wi-Fi 6E", "Wi-Fi 6"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.3"
@@ -2134,9 +2083,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"placement": null,
 				"sourceNotes": "passcode"
@@ -2304,10 +2251,7 @@
 						{
 							"id": "media-engine",
 							"displayName": "Media Engine",
-							"kinds": [
-								"video-decode",
-								"ProRes encode-decode"
-							]
+							"kinds": ["video-decode", "ProRes encode-decode"]
 						}
 					],
 					"sourceNotes": "System on Chip (SoC) M4 Pro chip Up to 14-core CPU with 10 performance cores and 4 efficiency cores Up to 20-core GPU Hardware-accelerated ray tracing 16-core Neural Engine 273GB/s memory bandwidth Media Engine Hardware-accelerated H.264, HEVC, ProRes and ProRes RAW Video decode engine Video encode engine ProRes encode and decode engine AV1 decode"
@@ -2421,10 +2365,7 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 6E",
-						"Wi-Fi 6"
-					]
+					"standards": ["Wi-Fi 6E", "Wi-Fi 6"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.3"
@@ -2437,9 +2378,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"placement": null,
 				"sourceNotes": "passcode"
@@ -2609,11 +2548,7 @@
 						{
 							"id": "media-engine",
 							"displayName": "Media Engine",
-							"kinds": [
-								"video-decode",
-								"ProRes encode-decode",
-								"other"
-							]
+							"kinds": ["video-decode", "ProRes encode-decode", "other"]
 						}
 					],
 					"sourceNotes": "System on Chip (SoC) M4 Max chip Up to 16-core CPU with 12 performance cores and 4 efficiency cores Up to 40-core GPU Hardware-accelerated ray tracing 16-core Neural Engine Up to 546GB/s memory bandwidth Media Engine Hardware-accelerated H.264, HEVC, ProRes and ProRes RAW Video decode engine Two video encode engines Two ProRes encode and decode engines AV1 decode"
@@ -2735,10 +2670,7 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 6E",
-						"Wi-Fi 6"
-					]
+					"standards": ["Wi-Fi 6E", "Wi-Fi 6"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.3"
@@ -2751,9 +2683,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"placement": null,
 				"sourceNotes": "passcode"
@@ -2977,10 +2907,7 @@
 						{
 							"id": "media-engine",
 							"displayName": "Media Engine",
-							"kinds": [
-								"video-decode",
-								"ProRes encode-decode"
-							]
+							"kinds": ["video-decode", "ProRes encode-decode"]
 						}
 					],
 					"sourceNotes": "System on Chip (SoC) M3 chip 8-core CPU with 4 performance cores and 4 efficiency cores Up to 10-core GPU Hardware-accelerated ray tracing 16-core Neural Engine 100GB/s memory bandwidth Media Engine Hardware-accelerated H.264, HEVC, ProRes and ProRes RAW Video decode engine Video encode engine ProRes encode and decode engine AV1 decode"
@@ -3071,10 +2998,7 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 6E",
-						"Wi-Fi 6"
-					]
+					"standards": ["Wi-Fi 6E", "Wi-Fi 6"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.3"
@@ -3087,9 +3011,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"placement": null,
 				"sourceNotes": "Touch ID; passcode"
@@ -3289,10 +3211,7 @@
 						{
 							"id": "media-engine",
 							"displayName": "Media Engine",
-							"kinds": [
-								"video-decode",
-								"ProRes encode-decode"
-							]
+							"kinds": ["video-decode", "ProRes encode-decode"]
 						}
 					],
 					"sourceNotes": "System on Chip (SoC) M4 chip 10-core CPU with 4 performance cores and 6 efficiency cores Up to 10-core GPU Hardware-accelerated ray tracing 16-core Neural Engine 120GB/s memory bandwidth Media Engine Hardware-accelerated H.264, HEVC, ProRes and ProRes RAW Video decode engine Video encode engine ProRes encode and decode engine AV1 decode"
@@ -3383,10 +3302,7 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 6E",
-						"Wi-Fi 6"
-					]
+					"standards": ["Wi-Fi 6E", "Wi-Fi 6"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.3"
@@ -3399,9 +3315,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"placement": null,
 				"sourceNotes": "Touch ID; passcode"
@@ -3562,10 +3476,7 @@
 						{
 							"id": "media-engine",
 							"displayName": "Media Engine",
-							"kinds": [
-								"video-decode",
-								"other"
-							]
+							"kinds": ["video-decode", "other"]
 						}
 					],
 					"sourceNotes": "System on Chip (SoC) M3 Ultra chip Up to 32-core CPU with 24 performance cores and 8 efficiency cores Up to 80-core GPU Hardware-accelerated ray tracing 32-core Neural Engine 819GB/s memory bandwidth Media Engine Hardware-accelerated H.264, HEVC, ProRes and ProRes RAW Two video decode engines Four video encode engines Four ProRes encode and decode engines AV1 decode"
@@ -3688,10 +3599,7 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 6E",
-						"Wi-Fi 6"
-					]
+					"standards": ["Wi-Fi 6E", "Wi-Fi 6"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.3"
@@ -3704,9 +3612,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"placement": null,
 				"sourceNotes": "passcode"
@@ -3958,10 +3864,7 @@
 						{
 							"id": "media-engine",
 							"displayName": "Media Engine",
-							"kinds": [
-								"video-decode",
-								"ProRes encode-decode"
-							]
+							"kinds": ["video-decode", "ProRes encode-decode"]
 						}
 					],
 					"sourceNotes": "System on Chip (SoC) M2 chip 8-core CPU with 4 performance cores and 4 efficiency cores Up to 10-core GPU 16-core Neural Engine 100GB/s memory bandwidth Media Engine Hardware-accelerated H.264, HEVC, ProRes and ProRes RAW Video decode engine Video encode engine ProRes encode and decode engine"
@@ -4052,9 +3955,7 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 6"
-					]
+					"standards": ["Wi-Fi 6"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.3"
@@ -4067,9 +3968,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"placement": null,
 				"sourceNotes": "Touch ID; passcode"
@@ -4289,9 +4188,7 @@
 						{
 							"id": "media-engine",
 							"displayName": "Media Engine",
-							"kinds": [
-								"video-encode"
-							]
+							"kinds": ["video-encode"]
 						}
 					],
 					"sourceNotes": "System on Chip (SoC) M1 chip 8-core CPU with 4 performance cores and 4 efficiency cores 7-core GPU 16-core Neural Engine Media Engine Hardware-accelerated H.264 and HEVC Video decode engine Video encode engine"
@@ -4382,9 +4279,7 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 6"
-					]
+					"standards": ["Wi-Fi 6"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.0"
@@ -4397,9 +4292,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"placement": null,
 				"sourceNotes": "Touch ID; passcode"
@@ -4626,9 +4519,7 @@
 						{
 							"id": "media-engine",
 							"displayName": "Media Engine",
-							"kinds": [
-								"video-encode"
-							]
+							"kinds": ["video-encode"]
 						}
 					],
 					"sourceNotes": "System on Chip (SoC) M1 chip 8-core CPU with 4 performance cores and 4 efficiency cores 7-core GPU 16-core Neural Engine Media Engine Hardware-accelerated H.264 and HEVC Video decode engine Video encode engine"
@@ -4727,9 +4618,7 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 6"
-					]
+					"standards": ["Wi-Fi 6"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.0"
@@ -4742,9 +4631,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"placement": null,
 				"sourceNotes": "Touch ID; passcode"
@@ -4986,9 +4873,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"placement": null,
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
@@ -5230,9 +5115,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"placement": null,
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
@@ -5454,9 +5337,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"placement": null,
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
@@ -5678,9 +5559,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"placement": null,
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
@@ -5922,9 +5801,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"placement": null,
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
@@ -6146,9 +6023,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"placement": null,
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
@@ -6390,9 +6265,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"placement": null,
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
@@ -6614,9 +6487,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"placement": null,
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
@@ -6858,9 +6729,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"placement": null,
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
@@ -7082,9 +6951,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"placement": null,
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
@@ -7326,9 +7193,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"placement": null,
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
@@ -7550,9 +7415,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"placement": null,
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
@@ -7728,9 +7591,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"placement": null,
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
@@ -7972,9 +7833,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"placement": null,
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
@@ -8196,9 +8055,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"placement": null,
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
@@ -8374,9 +8231,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"placement": null,
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
@@ -8618,9 +8473,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"placement": null,
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
@@ -8842,9 +8695,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"placement": null,
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
@@ -9020,9 +8871,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"placement": null,
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
@@ -9279,9 +9128,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"placement": null,
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
@@ -9503,9 +9350,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"placement": null,
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
@@ -9738,9 +9583,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"placement": null,
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
@@ -9997,9 +9840,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"placement": null,
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
@@ -10221,9 +10062,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"placement": null,
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
@@ -10456,9 +10295,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"placement": null,
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
@@ -10603,9 +10440,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"placement": null,
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
@@ -10750,9 +10585,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"placement": null,
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
@@ -10897,9 +10730,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"placement": null,
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
@@ -11044,9 +10875,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"placement": null,
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
@@ -11191,9 +11020,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"placement": null,
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
@@ -11338,9 +11165,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"placement": null,
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
@@ -11572,9 +11397,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"placement": null,
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
@@ -11816,9 +11639,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"placement": null,
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
@@ -12035,9 +11856,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"placement": null,
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
@@ -12123,9 +11942,7 @@
 				}
 			],
 			"authentication": {
-				"methods": [
-					"Touch ID"
-				],
+				"methods": ["Touch ID"],
 				"primaryMethod": "Touch ID",
 				"placement": "keyboard",
 				"sourceNotes": "Rendered authentication row for the selected target column identifies Touch ID; placement is inferred from MacBook keyboard context and recorded explicitly."
@@ -12191,9 +12008,7 @@
 				}
 			],
 			"authentication": {
-				"methods": [
-					"Touch ID"
-				],
+				"methods": ["Touch ID"],
 				"primaryMethod": "Touch ID",
 				"placement": "keyboard",
 				"sourceNotes": "Rendered authentication row for the selected target column identifies Touch ID; placement is inferred from MacBook keyboard context and recorded explicitly."
@@ -12259,9 +12074,7 @@
 				}
 			],
 			"authentication": {
-				"methods": [
-					"Touch ID"
-				],
+				"methods": ["Touch ID"],
 				"primaryMethod": "Touch ID",
 				"placement": "keyboard",
 				"sourceNotes": "Rendered authentication row for the selected target column identifies Touch ID; placement is inferred from MacBook keyboard context and recorded explicitly."
@@ -12357,10 +12170,7 @@
 						{
 							"id": "m1-pro-media-engine",
 							"displayName": "Media Engine",
-							"kinds": [
-								"video-decode",
-								"video-encode"
-							]
+							"kinds": ["video-decode", "video-encode"]
 						}
 					],
 					"sourceNotes": "10-core CPU with 8 performance cores and 2 efficiency cores; 16-core GPU; 16-core Neural Engine; 200GB/s memory bandwidth."
@@ -12382,17 +12192,12 @@
 						{
 							"id": "m1-max-media-engine",
 							"displayName": "Media Engine",
-							"kinds": [
-								"video-decode",
-								"video-encode"
-							]
+							"kinds": ["video-decode", "video-encode"]
 						},
 						{
 							"id": "m1-max-prores-engine",
 							"displayName": "ProRes engine",
-							"kinds": [
-								"ProRes encode-decode"
-							]
+							"kinds": ["ProRes encode-decode"]
 						}
 					],
 					"sourceNotes": "Second listed processor row: up to 32-core GPU; 400GB/s memory bandwidth. Media engine supports H.264, HEVC, ProRes and ProRes RAW decode and encode."
@@ -12436,10 +12241,7 @@
 				"spatialAudio": true,
 				"speakerConfiguration": "High-fidelity six-speaker sound system with force-cancelling woofers and wide stereo sound",
 				"microphoneConfiguration": "Studio-quality three-mic array with high signal-to-noise ratio and directional beamforming",
-				"formats": [
-					"Dolby Atmos playback",
-					"Spatial Audio"
-				],
+				"formats": ["Dolby Atmos playback", "Spatial Audio"],
 				"sourceNotes": "Supports Dolby Atmos playback on built-in speakers; Spatial Audio with dynamic head tracking using supported AirPods models."
 			},
 			"batteryAndPower": {
@@ -12515,9 +12317,7 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 6"
-					]
+					"standards": ["Wi-Fi 6"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.0"
@@ -12530,10 +12330,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"Touch ID",
-					"passcode"
-				],
+				"methods": ["Touch ID", "passcode"],
 				"primaryMethod": "Touch ID",
 				"placement": "keyboard",
 				"sourceNotes": "Touch ID; authorise payments using Touch ID."
@@ -12575,10 +12372,7 @@
 			"software": {
 				"operatingSystem": "macOS",
 				"operatingSystemVersionAtLaunch": null,
-				"builtInApps": [
-					"FaceTime video",
-					"FaceTime audio"
-				]
+				"builtInApps": ["FaceTime video", "FaceTime audio"]
 			},
 			"forceTouchTrackpad": true,
 			"backlitKeyboard": true,
