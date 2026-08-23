@@ -1,78 +1,923 @@
 {
 	"$schema": "https://json-schema.org/draft/2020-12/schema",
-	"$id": "https://passionfruit.local/schemas/data-model-contract.schema.json",
-	"title": "Canonical Apple device data-model fragments and concrete examples",
+	"$id": "https://passionfruit.local/schemas/ipad.schema.json",
+	"title": "Canonical iPad data",
 	"type": "object",
 	"additionalProperties": false,
-	"required": [
-		"devices"
-	],
+	"required": ["devices"],
 	"properties": {
 		"devices": {
 			"type": "array",
 			"minItems": 1,
 			"items": {
-				"$ref": "#/$defs/productCollectionDiscriminator"
+				"$ref": "#/$defs/ipadDevice"
 			}
 		}
 	},
 	"$defs": {
-		"measurement": {
+		"ipadDevice": {
 			"type": "object",
 			"additionalProperties": false,
 			"required": [
-				"value",
-				"unit"
+				"id",
+				"name",
+				"releaseYear",
+				"priceAud",
+				"colors",
+				"configurations",
+				"storageOptions",
+				"chips",
+				"displays",
+				"cameras",
+				"audio",
+				"batteryAndPower",
+				"connectivity",
+				"authentication",
+				"physical",
+				"resistance",
+				"software",
+				"accessories",
+				"sourceNotes",
+				"memoryOptions"
 			],
 			"properties": {
-				"value": {
-					"type": [
-						"number",
-						"null"
-					]
-				},
-				"unit": {
+				"id": {
 					"type": "string",
-					"enum": [
-						"mm",
-						"cm",
-						"m",
-						"in",
-						"g",
-						"kg",
-						"oz",
-						"lb",
-						"nits",
-						"hz",
-						"w",
-						"v",
-						"a",
-						"mAh",
-						"Whr",
-						"hours",
-						"minutes",
-						"percent",
-						"GB",
-						"TB",
-						"Mbps",
-						"Gbps",
-						"dB SPL",
-						"atm"
-					]
+					"pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
 				},
-				"qualifier": {
+				"name": {
+					"type": "string"
+				},
+				"releaseYear": {
+					"type": "integer",
+					"minimum": 1976,
+					"maximum": 2100
+				},
+				"priceAud": {
+					"type": ["number", "null"],
+					"minimum": 0
+				},
+				"colors": {
+					"type": "array",
+					"items": {
+						"$ref": "#/$defs/ipadColor"
+					}
+				},
+				"configurations": {
+					"type": "array",
+					"items": {
+						"$ref": "#/$defs/ipadConfiguration"
+					}
+				},
+				"storageOptions": {
+					"type": "array",
+					"items": {
+						"$ref": "#/$defs/ipadStorageOption"
+					}
+				},
+				"chips": {
+					"type": "array",
+					"items": {
+						"$ref": "#/$defs/ipadChip"
+					}
+				},
+				"displays": {
+					"type": "array",
+					"items": {
+						"$ref": "#/$defs/ipadDisplay"
+					}
+				},
+				"cameras": {
+					"type": "array",
+					"items": {
+						"$ref": "#/$defs/ipadCamera"
+					}
+				},
+				"audio": {
+					"$ref": "#/$defs/ipadAudio"
+				},
+				"batteryAndPower": {
+					"$ref": "#/$defs/ipadBatteryAndPower"
+				},
+				"connectivity": {
+					"$ref": "#/$defs/ipadConnectivity"
+				},
+				"authentication": {
+					"$ref": "#/$defs/ipadAuthentication"
+				},
+				"physical": {
+					"$ref": "#/$defs/ipadPhysical"
+				},
+				"resistance": {
+					"$ref": "#/$defs/ipadResistance"
+				},
+				"software": {
+					"$ref": "#/$defs/ipadSoftware"
+				},
+				"accessories": {
+					"type": "array",
+					"items": {
+						"$ref": "#/$defs/ipadAccessoryReference"
+					}
+				},
+				"sourceNotes": {
+					"type": "string"
+				},
+				"memoryOptions": {
+					"type": "array",
+					"items": {
+						"$ref": "#/$defs/ipadMemoryOption"
+					}
+				},
+				"overviewImages": {
+					"type": "array",
+					"items": {
+						"$ref": "#/$defs/ipadOverviewImage"
+					}
+				}
+			}
+		},
+		"ipadColor": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["id", "displayName", "swatch", "images"],
+			"properties": {
+				"id": {
+					"type": "string",
+					"pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+				},
+				"displayName": {
+					"type": "string"
+				},
+				"swatch": {
+					"$ref": "#/$defs/ipadSwatch"
+				},
+				"images": {
+					"type": "array",
+					"items": {
+						"$ref": "#/$defs/ipadImage"
+					}
+				},
+				"colorPriceAud": {
+					"type": "number",
+					"exclusiveMinimum": 0
+				},
+				"sourceNotes": {
 					"type": "string"
 				}
 			}
 		},
-		"measurementRange": {
+		"ipadImage": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["label", "appleUrl", "localPath", "widthPx", "heightPx"],
+			"properties": {
+				"label": {
+					"type": "string"
+				},
+				"appleUrl": {
+					"type": "string",
+					"format": "uri"
+				},
+				"localPath": {
+					"type": "string"
+				},
+				"widthPx": {
+					"type": "integer",
+					"minimum": 1
+				},
+				"heightPx": {
+					"type": "integer",
+					"minimum": 1
+				}
+			}
+		},
+		"ipadSwatch": {
+			"oneOf": [
+				{
+					"type": "object",
+					"additionalProperties": false,
+					"required": ["kind", "value"],
+					"properties": {
+						"kind": {
+							"const": "css"
+						},
+						"value": {
+							"type": "string",
+							"pattern": "^#[0-9a-fA-F]{6}$|^#[0-9a-fA-F]{8}$|^rgba?\\("
+						}
+					}
+				},
+				{
+					"type": "object",
+					"additionalProperties": false,
+					"required": ["kind", "url"],
+					"properties": {
+						"kind": {
+							"const": "image"
+						},
+						"url": {
+							"type": "string",
+							"format": "uri"
+						}
+					}
+				}
+			]
+		},
+		"ipadStorageOption": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["id", "capacityValue", "capacityUnit"],
+			"properties": {
+				"id": {
+					"type": "string"
+				},
+				"displayName": {
+					"type": "string"
+				},
+				"capacityValue": {
+					"type": "integer",
+					"minimum": 1
+				},
+				"capacityUnit": {
+					"enum": ["GB", "TB"]
+				},
+				"priceDeltaAud": {
+					"type": "number"
+				},
+				"availableColorIds": {
+					"type": "array",
+					"items": {
+						"type": "string"
+					}
+				},
+				"sourceNotes": {
+					"type": "string"
+				}
+			}
+		},
+		"ipadMemoryOption": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["id", "capacityValue", "capacityUnit", "kind"],
+			"properties": {
+				"id": {
+					"type": "string"
+				},
+				"displayName": {
+					"type": "string"
+				},
+				"capacityValue": {
+					"type": "integer",
+					"minimum": 1
+				},
+				"capacityUnit": {
+					"enum": ["GB", "TB"]
+				},
+				"kind": {
+					"enum": ["unified", "DRAM", "NAND cache", "other"]
+				},
+				"speedMbps": {
+					"type": "integer"
+				},
+				"speedUnit": {
+					"const": "Mbps"
+				},
+				"configuration": {
+					"type": "string"
+				},
+				"sourceNotes": {
+					"type": "string"
+				}
+			}
+		},
+		"ipadChip": {
 			"type": "object",
 			"additionalProperties": false,
 			"required": [
-				"minimum",
-				"maximum",
-				"unit"
+				"id",
+				"displayName",
+				"family",
+				"cpuCores",
+				"gpuCores",
+				"neuralEngineCores",
+				"memoryBandwidthGbps"
 			],
+			"properties": {
+				"id": {
+					"type": "string"
+				},
+				"displayName": {
+					"type": "string"
+				},
+				"family": {
+					"type": "string"
+				},
+				"cpuCores": {
+					"$ref": "#/$defs/ipadCpuCores"
+				},
+				"gpuCores": {
+					"type": ["integer", "null"],
+					"minimum": 0
+				},
+				"neuralEngineCores": {
+					"type": ["integer", "null"],
+					"minimum": 0
+				},
+				"memoryBandwidthGbps": {
+					"type": ["number", "null"],
+					"minimum": 0,
+					"description": "Gigabits per second unless sourceNotes states bytes per second."
+				},
+				"cpuCoreConfiguration": {
+					"type": "string"
+				},
+				"neuralAccelerators": {
+					"type": "boolean"
+				},
+				"hardwareRayTracing": {
+					"type": "boolean"
+				},
+				"mediaEngines": {
+					"type": "array",
+					"items": {
+						"$ref": "#/$defs/ipadMediaEngine"
+					}
+				},
+				"processNode": {
+					"type": "string"
+				},
+				"transistorCountBillions": {
+					"type": ["number", "null"],
+					"minimum": 0
+				},
+				"sourceNotes": {
+					"type": "string"
+				}
+			}
+		},
+		"ipadDisplay": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": [
+				"id",
+				"technology",
+				"sizeIn",
+				"resolutionWidthPx",
+				"resolutionHeightPx",
+				"pixelsPerInch"
+			],
+			"properties": {
+				"id": {
+					"type": "string"
+				},
+				"technology": {
+					"type": "string"
+				},
+				"panelKind": {
+					"enum": [
+						"LCD",
+						"LED-backlit LCD",
+						"OLED",
+						"tandem OLED",
+						"micro-OLED",
+						"other",
+						null
+					]
+				},
+				"sizeIn": {
+					"type": ["number", "null"],
+					"minimum": 0,
+					"description": "Inches"
+				},
+				"resolutionWidthPx": {
+					"type": ["integer", "null"],
+					"minimum": 1
+				},
+				"resolutionHeightPx": {
+					"type": ["integer", "null"],
+					"minimum": 1
+				},
+				"pixelsPerInch": {
+					"type": ["number", "null"],
+					"minimum": 0
+				},
+				"refreshRateHz": {
+					"type": ["number", "null"],
+					"minimum": 0
+				},
+				"refreshRateRange": {
+					"$ref": "#/$defs/ipadMeasurementRange"
+				},
+				"sdrPeakBrightnessNits": {
+					"type": ["number", "null"],
+					"minimum": 0
+				},
+				"hdrPeakBrightnessNits": {
+					"type": ["number", "null"],
+					"minimum": 0
+				},
+				"fullScreenHdrBrightnessNits": {
+					"type": ["number", "null"],
+					"minimum": 0
+				},
+				"minimumBrightnessNits": {
+					"type": ["number", "null"],
+					"minimum": 0
+				},
+				"trueTone": {
+					"type": "boolean"
+				},
+				"promotion": {
+					"type": "boolean"
+				},
+				"alwaysOn": {
+					"type": "boolean"
+				},
+				"wideColorP3": {
+					"type": "boolean"
+				},
+				"laminated": {
+					"type": "boolean"
+				},
+				"antireflective": {
+					"type": "boolean"
+				},
+				"nanoTextureOption": {
+					"type": "boolean"
+				},
+				"fingerprintResistantCoating": {
+					"type": "boolean"
+				},
+				"hoverSupport": {
+					"type": "boolean"
+				},
+				"mirroring": {
+					"type": "boolean"
+				},
+				"sourceNotes": {
+					"type": "string"
+				}
+			}
+		},
+		"ipadCamera": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["id", "role", "displayName", "megapixels"],
+			"properties": {
+				"id": {
+					"type": "string"
+				},
+				"role": {
+					"enum": [
+						"rear-wide",
+						"rear-ultrawide",
+						"rear-telephoto",
+						"front",
+						"FaceTime",
+						"spatial",
+						"input-accessory",
+						"other"
+					]
+				},
+				"displayName": {
+					"type": "string"
+				},
+				"megapixels": {
+					"type": ["number", "null"],
+					"exclusiveMinimum": 0
+				},
+				"opticalZoomMultiplier": {
+					"type": ["number", "null"],
+					"exclusiveMinimum": 0
+				},
+				"apertureFNumber": {
+					"type": ["number", "null"],
+					"exclusiveMinimum": 0
+				},
+				"sensorShiftOis": {
+					"type": "boolean"
+				},
+				"proRAW": {
+					"type": "boolean"
+				},
+				"spatialCapture": {
+					"type": "boolean"
+				},
+				"macro": {
+					"type": "boolean"
+				},
+				"centerStage": {
+					"type": "boolean"
+				},
+				"trueDepthSystem": {
+					"type": "boolean"
+				},
+				"videoMaxResolutionWidthPx": {
+					"type": ["integer", "null"],
+					"minimum": 1
+				},
+				"videoMaxResolutionHeightPx": {
+					"type": ["integer", "null"],
+					"minimum": 1
+				},
+				"videoMaxFrameRateHz": {
+					"type": ["number", "null"],
+					"exclusiveMinimum": 0
+				},
+				"proRes": {
+					"type": "boolean"
+				},
+				"lidar": {
+					"type": "boolean"
+				},
+				"sourceNotes": {
+					"type": "string"
+				}
+			}
+		},
+		"ipadAudio": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["speaker", "microphone"],
+			"properties": {
+				"speaker": {
+					"type": "boolean"
+				},
+				"microphone": {
+					"type": "boolean"
+				},
+				"speakerConfiguration": {
+					"type": "string"
+				},
+				"microphoneConfiguration": {
+					"type": "string"
+				},
+				"siren": {
+					"type": "boolean"
+				},
+				"spatialAudio": {
+					"type": "boolean"
+				},
+				"adaptiveAudio": {
+					"type": "boolean"
+				},
+				"activeNoiseCancellation": {
+					"type": "boolean"
+				},
+				"transparency": {
+					"type": "boolean"
+				},
+				"formats": {
+					"type": "array",
+					"items": {
+						"type": "string"
+					}
+				},
+				"sourceNotes": {
+					"type": "string"
+				}
+			}
+		},
+		"ipadBatteryAndPower": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": [
+				"hasBattery",
+				"batteryCapacityMah",
+				"batteryCapacityWhr",
+				"runtimeHours",
+				"charging",
+				"powerSupply"
+			],
+			"properties": {
+				"hasBattery": {
+					"type": "boolean"
+				},
+				"batteryCapacityMah": {
+					"type": ["number", "null"],
+					"minimum": 0
+				},
+				"batteryCapacityWhr": {
+					"type": ["number", "null"],
+					"minimum": 0
+				},
+				"runtimeHours": {
+					"type": "array",
+					"items": {
+						"$ref": "#/$defs/ipadBatteryRuntime"
+					}
+				},
+				"charging": {
+					"$ref": "#/$defs/ipadCharging"
+				},
+				"powerSupply": {
+					"$ref": "#/$defs/ipadPowerSupply"
+				}
+			}
+		},
+		"ipadConnectivity": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": [
+				"ports",
+				"wifi",
+				"bluetooth",
+				"cellular",
+				"uwb",
+				"thread",
+				"infrared",
+				"nearFieldCommunication",
+				"gps"
+			],
+			"properties": {
+				"ports": {
+					"type": "array",
+					"items": {
+						"$ref": "#/$defs/ipadPort"
+					}
+				},
+				"wifi": {
+					"anyOf": [
+						{
+							"$ref": "#/$defs/ipadWifi"
+						},
+						{
+							"type": "null"
+						}
+					]
+				},
+				"bluetooth": {
+					"anyOf": [
+						{
+							"$ref": "#/$defs/ipadBluetooth"
+						},
+						{
+							"type": "null"
+						}
+					]
+				},
+				"cellular": {
+					"anyOf": [
+						{
+							"$ref": "#/$defs/ipadCellular"
+						},
+						{
+							"type": "null"
+						}
+					]
+				},
+				"uwb": {
+					"anyOf": [
+						{
+							"$ref": "#/$defs/ipadUwb"
+						},
+						{
+							"type": "null"
+						}
+					]
+				},
+				"thread": {
+					"anyOf": [
+						{
+							"$ref": "#/$defs/ipadThread"
+						},
+						{
+							"type": "null"
+						}
+					]
+				},
+				"infrared": {
+					"anyOf": [
+						{
+							"$ref": "#/$defs/ipadInfrared"
+						},
+						{
+							"type": "null"
+						}
+					]
+				},
+				"nearFieldCommunication": {
+					"anyOf": [
+						{
+							"$ref": "#/$defs/ipadNearFieldCommunication"
+						},
+						{
+							"type": "null"
+						}
+					]
+				},
+				"gps": {
+					"anyOf": [
+						{
+							"$ref": "#/$defs/ipadGps"
+						},
+						{
+							"type": "null"
+						}
+					]
+				}
+			}
+		},
+		"ipadAuthentication": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["methods", "primaryMethod"],
+			"properties": {
+				"methods": {
+					"type": "array",
+					"uniqueItems": true,
+					"items": {
+						"enum": [
+							"Face ID",
+							"Touch ID",
+							"Optic ID",
+							"passcode",
+							"password",
+							"none"
+						]
+					}
+				},
+				"primaryMethod": {
+					"enum": [
+						"Face ID",
+						"Touch ID",
+						"Optic ID",
+						"passcode",
+						"password",
+						"none"
+					]
+				},
+				"placement": {
+					"enum": ["top button", "keyboard", "side button", "other", null]
+				},
+				"sourceNotes": {
+					"type": "string"
+				}
+			}
+		},
+		"ipadPhysical": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["weights", "dimensions", "components"],
+			"properties": {
+				"weights": {
+					"type": "array",
+					"items": {
+						"$ref": "#/$defs/ipadMeasurement"
+					}
+				},
+				"dimensions": {
+					"type": "array",
+					"items": {
+						"$ref": "#/$defs/ipadMeasurement"
+					}
+				},
+				"components": {
+					"type": "array",
+					"items": {
+						"$ref": "#/$defs/ipadPhysicalComponent"
+					}
+				}
+			}
+		},
+		"ipadResistance": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": [
+				"ipRating",
+				"waterDepthM",
+				"splashPressureAtm",
+				"dustProtected",
+				"sweatResistant"
+			],
+			"properties": {
+				"ipRating": {
+					"type": ["string", "null"],
+					"pattern": "^(IP[0-9]X?|IP6X|IP68)$|^$|^null$"
+				},
+				"waterDepthM": {
+					"type": ["number", "null"],
+					"minimum": 0
+				},
+				"splashPressureAtm": {
+					"type": ["number", "null"],
+					"minimum": 0
+				},
+				"dustProtected": {
+					"type": "boolean"
+				},
+				"sweatResistant": {
+					"type": "boolean"
+				}
+			}
+		},
+		"ipadSoftware": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": [
+				"operatingSystem",
+				"operatingSystemVersionAtLaunch",
+				"builtInApps"
+			],
+			"properties": {
+				"operatingSystem": {
+					"type": "string"
+				},
+				"operatingSystemVersionAtLaunch": {
+					"type": ["string", "null"]
+				},
+				"compatibleOperatingSystems": {
+					"type": "array",
+					"items": {
+						"type": "string"
+					}
+				},
+				"builtInApps": {
+					"type": "array",
+					"items": {
+						"type": "string"
+					}
+				},
+				"sourceNotes": {
+					"type": "string"
+				}
+			}
+		},
+		"ipadOverviewImage": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["label", "appleUrl", "localPath", "widthPx", "heightPx"],
+			"properties": {
+				"label": {
+					"type": "string"
+				},
+				"appleUrl": {
+					"type": "string"
+				},
+				"localPath": {
+					"type": "string"
+				},
+				"widthPx": {
+					"type": "integer",
+					"minimum": 1
+				},
+				"heightPx": {
+					"type": "integer",
+					"minimum": 1
+				}
+			}
+		},
+		"ipadCpuCores": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["total", "performance", "efficiency"],
+			"properties": {
+				"total": {
+					"type": "integer",
+					"minimum": 1
+				},
+				"performance": {
+					"type": ["integer", "null"],
+					"minimum": 0
+				},
+				"efficiency": {
+					"type": ["integer", "null"],
+					"minimum": 0
+				}
+			}
+		},
+		"ipadMediaEngine": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["id", "displayName", "kinds"],
+			"properties": {
+				"id": {
+					"type": "string"
+				},
+				"displayName": {
+					"type": "string"
+				},
+				"kinds": {
+					"type": "array",
+					"uniqueItems": true,
+					"items": {
+						"enum": [
+							"video-decode",
+							"video-encode",
+							"ProRes encode-decode",
+							"image signal",
+							"AV1 decode",
+							"other"
+						]
+					}
+				}
+			}
+		},
+		"ipadMeasurementRange": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["minimum", "maximum", "unit"],
 			"properties": {
 				"minimum": {
 					"type": "number"
@@ -114,204 +959,150 @@
 				}
 			}
 		},
-		"swatch": {
-			"oneOf": [
-				{
-					"type": "object",
-					"additionalProperties": false,
-					"required": [
-						"kind",
-						"value"
-					],
-					"properties": {
-						"kind": {
-							"const": "css"
-						},
-						"value": {
-							"type": "string",
-							"pattern": "^#[0-9a-fA-F]{6}$|^#[0-9a-fA-F]{8}$|^rgba?\\("
-						}
-					}
-				},
-				{
-					"type": "object",
-					"additionalProperties": false,
-					"required": [
-						"kind",
-						"url"
-					],
-					"properties": {
-						"kind": {
-							"const": "image"
-						},
-						"url": {
-							"type": "string",
-							"format": "uri"
-						}
-					}
-				}
-			]
-		},
-		"image": {
+		"ipadBatteryRuntime": {
 			"type": "object",
 			"additionalProperties": false,
-			"required": [
-				"label",
-				"appleUrl",
-				"localPath",
-				"widthPx",
-				"heightPx"
-			],
+			"required": ["id", "activity", "hours"],
 			"properties": {
-				"label": {
+				"id": {
 					"type": "string"
 				},
-				"appleUrl": {
-					"type": "string",
-					"format": "uri"
-				},
-				"localPath": {
+				"activity": {
 					"type": "string"
 				},
-				"widthPx": {
-					"type": "integer",
-					"minimum": 1
+				"hours": {
+					"type": ["number", "null"],
+					"minimum": 0
 				},
-				"heightPx": {
-					"type": "integer",
-					"minimum": 1
+				"qualifier": {
+					"type": "string"
+				},
+				"network": {
+					"enum": ["Wi-Fi", "cellular", "offline", null]
 				}
 			}
 		},
-		"color": {
+		"ipadCharging": {
 			"type": "object",
 			"additionalProperties": false,
 			"required": [
-				"id",
-				"displayName",
-				"swatch",
-				"images"
+				"portId",
+				"wiredFastCharge",
+				"wirelessCharging",
+				"wirelessStandards",
+				"fastChargeMinutesToPercent",
+				"adapterPowerW"
 			],
 			"properties": {
-				"id": {
-					"type": "string",
-					"pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+				"portId": {
+					"type": ["string", "null"]
 				},
-				"displayName": {
-					"type": "string"
+				"wiredFastCharge": {
+					"type": "boolean"
 				},
-				"swatch": {
-					"$ref": "#/$defs/swatch"
+				"wirelessCharging": {
+					"type": "boolean"
 				},
-				"images": {
+				"wirelessStandards": {
 					"type": "array",
+					"uniqueItems": true,
 					"items": {
-						"$ref": "#/$defs/image"
+						"enum": ["MagSafe", "Qi", "Qi2", "inductive", "other"]
 					}
 				},
-				"colorPriceAud": {
-					"type": "number",
-					"exclusiveMinimum": 0
+				"fastChargeMinutesToPercent": {
+					"anyOf": [
+						{
+							"type": "null"
+						},
+						{
+							"type": "object",
+							"additionalProperties": false,
+							"required": ["minutes", "percent"],
+							"properties": {
+								"minutes": {
+									"type": "number",
+									"minimum": 0
+								},
+								"percent": {
+									"type": "number",
+									"minimum": 0,
+									"maximum": 100
+								}
+							}
+						}
+					]
 				},
-				"sourceNotes": {
-					"type": "string"
+				"adapterPowerW": {
+					"type": ["number", "null"],
+					"minimum": 0
 				}
 			}
 		},
-		"storageOption": {
+		"ipadPowerSupply": {
 			"type": "object",
 			"additionalProperties": false,
 			"required": [
-				"id",
-				"capacityValue",
-				"capacityUnit"
+				"hasExternalPowerAdapter",
+				"outputVoltageV",
+				"outputCurrentA",
+				"outputPowerW",
+				"inputVoltageRangeV",
+				"frequencyHz",
+				"consumptionW"
 			],
 			"properties": {
-				"id": {
-					"type": "string"
+				"hasExternalPowerAdapter": {
+					"type": "boolean"
 				},
-				"displayName": {
-					"type": "string"
+				"outputVoltageV": {
+					"type": ["number", "null"],
+					"minimum": 0
 				},
-				"capacityValue": {
-					"type": "integer",
-					"minimum": 1
+				"outputCurrentA": {
+					"type": ["number", "null"],
+					"minimum": 0
 				},
-				"capacityUnit": {
-					"enum": [
-						"GB",
-						"TB"
+				"outputPowerW": {
+					"type": ["number", "null"],
+					"minimum": 0
+				},
+				"inputVoltageRangeV": {
+					"anyOf": [
+						{
+							"type": "null"
+						},
+						{
+							"type": "object",
+							"additionalProperties": false,
+							"required": ["minimum", "maximum"],
+							"properties": {
+								"minimum": {
+									"type": "number",
+									"minimum": 0
+								},
+								"maximum": {
+									"type": "number",
+									"minimum": 0
+								}
+							}
+						}
 					]
 				},
-				"priceDeltaAud": {
-					"type": "number"
+				"frequencyHz": {
+					"type": ["number", "null"],
+					"minimum": 0
 				},
-				"availableColorIds": {
-					"type": "array",
-					"items": {
-						"type": "string"
-					}
-				},
-				"sourceNotes": {
-					"type": "string"
+				"consumptionW": {
+					"type": ["number", "null"],
+					"minimum": 0
 				}
 			}
 		},
-		"memoryOption": {
+		"ipadPort": {
 			"type": "object",
 			"additionalProperties": false,
-			"required": [
-				"id",
-				"capacityValue",
-				"capacityUnit",
-				"kind"
-			],
-			"properties": {
-				"id": {
-					"type": "string"
-				},
-				"displayName": {
-					"type": "string"
-				},
-				"capacityValue": {
-					"type": "integer",
-					"minimum": 1
-				},
-				"capacityUnit": {
-					"enum": [
-						"GB",
-						"TB"
-					]
-				},
-				"kind": {
-					"enum": [
-						"unified",
-						"DRAM",
-						"NAND cache",
-						"other"
-					]
-				},
-				"speedMbps": {
-					"type": "integer"
-				},
-				"speedUnit": {
-					"const": "Mbps"
-				},
-				"configuration": {
-					"type": "string"
-				},
-				"sourceNotes": {
-					"type": "string"
-				}
-			}
-		},
-		"port": {
-			"type": "object",
-			"additionalProperties": false,
-			"required": [
-				"id",
-				"kind"
-			],
+			"required": ["id", "kind"],
 			"properties": {
 				"id": {
 					"type": "string"
@@ -346,16 +1137,10 @@
 					"minimum": 1
 				},
 				"supportsDisplayOut": {
-					"type": [
-						"boolean",
-						"null"
-					]
+					"type": "boolean"
 				},
 				"maxPowerW": {
-					"type": [
-						"number",
-						"null"
-					],
+					"type": ["number", "null"],
 					"description": "Watts"
 				},
 				"sourceNotes": {
@@ -363,747 +1148,10 @@
 				}
 			}
 		},
-		"cpuCores": {
+		"ipadWifi": {
 			"type": "object",
 			"additionalProperties": false,
-			"required": [
-				"total",
-				"performance",
-				"efficiency"
-			],
-			"properties": {
-				"total": {
-					"type": "integer",
-					"minimum": 1
-				},
-				"performance": {
-					"type": [
-						"integer",
-						"null"
-					],
-					"minimum": 0
-				},
-				"efficiency": {
-					"type": [
-						"integer",
-						"null"
-					],
-					"minimum": 0
-				}
-			}
-		},
-		"mediaEngine": {
-			"type": "object",
-			"additionalProperties": false,
-			"required": [
-				"id",
-				"displayName",
-				"kinds"
-			],
-			"properties": {
-				"id": {
-					"type": "string"
-				},
-				"displayName": {
-					"type": "string"
-				},
-				"kinds": {
-					"type": "array",
-					"uniqueItems": true,
-					"items": {
-						"enum": [
-							"video-decode",
-							"video-encode",
-							"ProRes encode-decode",
-							"image signal",
-							"AV1 decode",
-							"other"
-						]
-					}
-				}
-			}
-		},
-		"chip": {
-			"type": "object",
-			"additionalProperties": false,
-			"required": [
-				"id",
-				"displayName",
-				"family",
-				"cpuCores",
-				"gpuCores",
-				"neuralEngineCores",
-				"memoryBandwidthGbps"
-			],
-			"properties": {
-				"id": {
-					"type": "string"
-				},
-				"displayName": {
-					"type": "string"
-				},
-				"family": {
-					"type": "string"
-				},
-				"cpuCores": {
-					"$ref": "#/$defs/cpuCores"
-				},
-				"gpuCores": {
-					"type": [
-						"integer",
-						"null"
-					],
-					"minimum": 0
-				},
-				"neuralEngineCores": {
-					"type": [
-						"integer",
-						"null"
-					],
-					"minimum": 0
-				},
-				"memoryBandwidthGbps": {
-					"type": [
-						"number",
-						"null"
-					],
-					"minimum": 0,
-					"description": "Gigabits per second unless sourceNotes states bytes per second."
-				},
-				"cpuCoreConfiguration": {
-					"type": "string"
-				},
-				"neuralAccelerators": {
-					"type": "boolean"
-				},
-				"hardwareRayTracing": {
-					"type": [
-						"boolean",
-						"null"
-					]
-				},
-				"mediaEngines": {
-					"type": "array",
-					"items": {
-						"$ref": "#/$defs/mediaEngine"
-					}
-				},
-				"processNode": {
-					"type": "string"
-				},
-				"transistorCountBillions": {
-					"type": [
-						"number",
-						"null"
-					],
-					"minimum": 0
-				},
-				"sourceNotes": {
-					"type": "string"
-				}
-			}
-		},
-		"display": {
-			"type": "object",
-			"additionalProperties": false,
-			"required": [
-				"id",
-				"technology",
-				"sizeIn",
-				"resolutionWidthPx",
-				"resolutionHeightPx",
-				"pixelsPerInch"
-			],
-			"properties": {
-				"id": {
-					"type": "string"
-				},
-				"technology": {
-					"type": "string"
-				},
-				"panelKind": {
-					"enum": [
-						"LCD",
-						"LED-backlit LCD",
-						"OLED",
-						"tandem OLED",
-						"micro-OLED",
-						"other",
-						null
-					]
-				},
-				"sizeIn": {
-					"type": [
-						"number",
-						"null"
-					],
-					"minimum": 0,
-					"description": "Inches"
-				},
-				"resolutionWidthPx": {
-					"type": [
-						"integer",
-						"null"
-					],
-					"minimum": 1
-				},
-				"resolutionHeightPx": {
-					"type": [
-						"integer",
-						"null"
-					],
-					"minimum": 1
-				},
-				"pixelsPerInch": {
-					"type": [
-						"number",
-						"null"
-					],
-					"minimum": 0
-				},
-				"refreshRateHz": {
-					"type": [
-						"number",
-						"null"
-					],
-					"minimum": 0
-				},
-				"refreshRateRange": {
-					"$ref": "#/$defs/measurementRange"
-				},
-				"sdrPeakBrightnessNits": {
-					"type": [
-						"number",
-						"null"
-					],
-					"minimum": 0
-				},
-				"hdrPeakBrightnessNits": {
-					"type": [
-						"number",
-						"null"
-					],
-					"minimum": 0
-				},
-				"fullScreenHdrBrightnessNits": {
-					"type": [
-						"number",
-						"null"
-					],
-					"minimum": 0
-				},
-				"minimumBrightnessNits": {
-					"type": [
-						"number",
-						"null"
-					],
-					"minimum": 0
-				},
-				"trueTone": {
-					"type": [
-						"boolean",
-						"null"
-					]
-				},
-				"promotion": {
-					"type": [
-						"boolean",
-						"null"
-					]
-				},
-				"alwaysOn": {
-					"type": [
-						"boolean",
-						"null"
-					]
-				},
-				"wideColorP3": {
-					"type": [
-						"boolean",
-						"null"
-					]
-				},
-				"laminated": {
-					"type": [
-						"boolean",
-						"null"
-					]
-				},
-				"antireflective": {
-					"type": [
-						"boolean",
-						"null"
-					]
-				},
-				"nanoTextureOption": {
-					"type": [
-						"boolean",
-						"null"
-					]
-				},
-				"fingerprintResistantCoating": {
-					"type": [
-						"boolean",
-						"null"
-					]
-				},
-				"hoverSupport": {
-					"type": [
-						"boolean",
-						"null"
-					]
-				},
-				"mirroring": {
-					"type": [
-						"boolean",
-						"null"
-					]
-				},
-				"sourceNotes": {
-					"type": "string"
-				}
-			}
-		},
-		"camera": {
-			"type": "object",
-			"additionalProperties": false,
-			"required": [
-				"id",
-				"role",
-				"displayName",
-				"megapixels"
-			],
-			"properties": {
-				"id": {
-					"type": "string"
-				},
-				"role": {
-					"enum": [
-						"rear-wide",
-						"rear-ultrawide",
-						"rear-telephoto",
-						"front",
-						"FaceTime",
-						"spatial",
-						"input-accessory",
-						"other"
-					]
-				},
-				"displayName": {
-					"type": "string"
-				},
-				"megapixels": {
-					"type": [
-						"number",
-						"null"
-					],
-					"exclusiveMinimum": 0
-				},
-				"opticalZoomMultiplier": {
-					"type": [
-						"number",
-						"null"
-					],
-					"exclusiveMinimum": 0
-				},
-				"apertureFNumber": {
-					"type": [
-						"number",
-						"null"
-					],
-					"exclusiveMinimum": 0
-				},
-				"sensorShiftOis": {
-					"type": [
-						"boolean",
-						"null"
-					]
-				},
-				"proRAW": {
-					"type": [
-						"boolean",
-						"null"
-					]
-				},
-				"spatialCapture": {
-					"type": [
-						"boolean",
-						"null"
-					]
-				},
-				"macro": {
-					"type": [
-						"boolean",
-						"null"
-					]
-				},
-				"centerStage": {
-					"type": [
-						"boolean",
-						"null"
-					]
-				},
-				"trueDepthSystem": {
-					"type": [
-						"boolean",
-						"null"
-					]
-				},
-				"videoMaxResolutionWidthPx": {
-					"type": [
-						"integer",
-						"null"
-					],
-					"minimum": 1
-				},
-				"videoMaxResolutionHeightPx": {
-					"type": [
-						"integer",
-						"null"
-					],
-					"minimum": 1
-				},
-				"videoMaxFrameRateHz": {
-					"type": [
-						"number",
-						"null"
-					],
-					"exclusiveMinimum": 0
-				},
-				"proRes": {
-					"type": [
-						"boolean",
-						"null"
-					]
-				},
-				"lidar": {
-					"type": [
-						"boolean",
-						"null"
-					]
-				},
-				"sourceNotes": {
-					"type": "string"
-				}
-			}
-		},
-		"audio": {
-			"type": "object",
-			"additionalProperties": false,
-			"required": [
-				"speaker",
-				"microphone"
-			],
-			"properties": {
-				"speaker": {
-					"type": [
-						"boolean",
-						"null"
-					]
-				},
-				"microphone": {
-					"type": [
-						"boolean",
-						"null"
-					]
-				},
-				"speakerConfiguration": {
-					"type": "string"
-				},
-				"microphoneConfiguration": {
-					"type": "string"
-				},
-				"siren": {
-					"type": [
-						"boolean",
-						"null"
-					]
-				},
-				"spatialAudio": {
-					"type": [
-						"boolean",
-						"null"
-					]
-				},
-				"adaptiveAudio": {
-					"type": [
-						"boolean",
-						"null"
-					]
-				},
-				"activeNoiseCancellation": {
-					"type": [
-						"boolean",
-						"null"
-					]
-				},
-				"transparency": {
-					"type": [
-						"boolean",
-						"null"
-					]
-				},
-				"formats": {
-					"type": "array",
-					"items": {
-						"type": "string"
-					}
-				},
-				"sourceNotes": {
-					"type": "string"
-				}
-			}
-		},
-		"batteryRuntime": {
-			"type": "object",
-			"additionalProperties": false,
-			"required": [
-				"id",
-				"activity",
-				"hours"
-			],
-			"properties": {
-				"id": {
-					"type": "string"
-				},
-				"activity": {
-					"type": "string"
-				},
-				"hours": {
-					"type": [
-						"number",
-						"null"
-					],
-					"minimum": 0
-				},
-				"qualifier": {
-					"type": "string"
-				},
-				"network": {
-					"enum": [
-						"Wi-Fi",
-						"cellular",
-						"offline",
-						null
-					]
-				}
-			}
-		},
-		"charging": {
-			"type": "object",
-			"additionalProperties": false,
-			"required": [
-				"portId",
-				"wiredFastCharge",
-				"wirelessCharging",
-				"wirelessStandards",
-				"fastChargeMinutesToPercent",
-				"adapterPowerW"
-			],
-			"properties": {
-				"portId": {
-					"type": [
-						"string",
-						"null"
-					]
-				},
-				"wiredFastCharge": {
-					"type": [
-						"boolean",
-						"null"
-					]
-				},
-				"wirelessCharging": {
-					"type": [
-						"boolean",
-						"null"
-					]
-				},
-				"wirelessStandards": {
-					"anyOf": [
-						{
-							"type": "null"
-						},
-						{
-							"type": "array",
-							"uniqueItems": true,
-							"items": {
-								"enum": [
-									"MagSafe",
-									"Qi",
-									"Qi2",
-									"inductive",
-									"other"
-								]
-							}
-						}
-					]
-				},
-				"fastChargeMinutesToPercent": {
-					"anyOf": [
-						{
-							"type": "null"
-						},
-						{
-							"type": "object",
-							"additionalProperties": false,
-							"required": [
-								"minutes",
-								"percent"
-							],
-							"properties": {
-								"minutes": {
-									"type": "number",
-									"minimum": 0
-								},
-								"percent": {
-									"type": "number",
-									"minimum": 0,
-									"maximum": 100
-								}
-							}
-						}
-					]
-				},
-				"adapterPowerW": {
-					"type": [
-						"number",
-						"null"
-					],
-					"minimum": 0
-				}
-			}
-		},
-		"powerSupply": {
-			"type": "object",
-			"additionalProperties": false,
-			"required": [
-				"hasExternalPowerAdapter",
-				"outputVoltageV",
-				"outputCurrentA",
-				"outputPowerW",
-				"inputVoltageRangeV",
-				"frequencyHz",
-				"consumptionW"
-			],
-			"properties": {
-				"hasExternalPowerAdapter": {
-					"type": [
-						"boolean",
-						"null"
-					]
-				},
-				"outputVoltageV": {
-					"type": [
-						"number",
-						"null"
-					],
-					"minimum": 0
-				},
-				"outputCurrentA": {
-					"type": [
-						"number",
-						"null"
-					],
-					"minimum": 0
-				},
-				"outputPowerW": {
-					"type": [
-						"number",
-						"null"
-					],
-					"minimum": 0
-				},
-				"inputVoltageRangeV": {
-					"anyOf": [
-						{
-							"type": "null"
-						},
-						{
-							"type": "object",
-							"additionalProperties": false,
-							"required": [
-								"minimum",
-								"maximum"
-							],
-							"properties": {
-								"minimum": {
-									"type": "number",
-									"minimum": 0
-								},
-								"maximum": {
-									"type": "number",
-									"minimum": 0
-								}
-							}
-						}
-					]
-				},
-				"frequencyHz": {
-					"type": [
-						"number",
-						"null"
-					],
-					"minimum": 0
-				},
-				"consumptionW": {
-					"type": [
-						"number",
-						"null"
-					],
-					"minimum": 0
-				}
-			}
-		},
-		"batteryAndPower": {
-			"type": "object",
-			"additionalProperties": false,
-			"required": [
-				"hasBattery",
-				"batteryCapacityMah",
-				"batteryCapacityWhr",
-				"runtimeHours",
-				"charging",
-				"powerSupply"
-			],
-			"properties": {
-				"hasBattery": {
-					"type": "boolean"
-				},
-				"batteryCapacityMah": {
-					"type": [
-						"number",
-						"null"
-					],
-					"minimum": 0
-				},
-				"batteryCapacityWhr": {
-					"type": [
-						"number",
-						"null"
-					],
-					"minimum": 0
-				},
-				"runtimeHours": {
-					"type": "array",
-					"items": {
-						"$ref": "#/$defs/batteryRuntime"
-					}
-				},
-				"charging": {
-					"$ref": "#/$defs/charging"
-				},
-				"powerSupply": {
-					"$ref": "#/$defs/powerSupply"
-				}
-			}
-		},
-		"wifi": {
-			"type": "object",
-			"additionalProperties": false,
-			"required": [
-				"standards"
-			],
+			"required": ["standards"],
 			"properties": {
 				"standards": {
 					"type": "array",
@@ -1126,19 +1174,14 @@
 					"type": "string"
 				},
 				"simultaneousDualBand": {
-					"type": [
-						"boolean",
-						"null"
-					]
+					"type": "boolean"
 				}
 			}
 		},
-		"bluetooth": {
+		"ipadBluetooth": {
 			"type": "object",
 			"additionalProperties": false,
-			"required": [
-				"version"
-			],
+			"required": ["version"],
 			"properties": {
 				"version": {
 					"enum": [
@@ -1152,22 +1195,16 @@
 				}
 			}
 		},
-		"cellular": {
+		"ipadCellular": {
 			"type": "object",
 			"additionalProperties": false,
-			"required": [
-				"technologies"
-			],
+			"required": ["technologies"],
 			"properties": {
 				"technologies": {
 					"type": "array",
 					"uniqueItems": true,
 					"items": {
-						"enum": [
-							"LTE",
-							"5G sub-6",
-							"5G mmWave"
-						]
+						"enum": ["LTE", "5G sub-6", "5G mmWave"]
 					}
 				},
 				"bands": {
@@ -1177,526 +1214,163 @@
 					}
 				},
 				"eSIMOnly": {
-					"type": [
-						"boolean",
-						"null"
-					]
+					"type": "boolean"
 				}
 			}
 		},
-		"uwb": {
+		"ipadUwb": {
 			"type": "object",
 			"additionalProperties": false,
-			"required": [
-				"chip"
-			],
+			"required": ["chip"],
 			"properties": {
 				"chip": {
 					"type": "string"
 				},
 				"secondGeneration": {
-					"type": [
-						"boolean",
-						"null"
-					]
+					"type": "boolean"
 				}
 			}
 		},
-		"thread": {
+		"ipadThread": {
 			"type": "object",
 			"additionalProperties": false,
-			"required": [
-				"supported"
-			],
+			"required": ["supported"],
 			"properties": {
 				"supported": {
 					"type": "boolean"
 				},
 				"role": {
-					"enum": [
-						"endpoint",
-						"border-router",
-						"both",
-						null
-					]
+					"enum": ["endpoint", "border-router", "both", null]
 				}
 			}
 		},
-		"infrared": {
+		"ipadInfrared": {
 			"type": "object",
 			"additionalProperties": false,
-			"required": [
-				"present",
-				"purpose"
-			],
+			"required": ["present", "purpose"],
 			"properties": {
 				"present": {
 					"type": "boolean"
 				},
 				"purpose": {
-					"type": [
-						"string",
-						"null"
-					]
+					"type": ["string", "null"]
 				}
 			}
 		},
-		"nearFieldCommunication": {
+		"ipadNearFieldCommunication": {
 			"type": "object",
 			"additionalProperties": false,
-			"required": [
-				"present"
-			],
+			"required": ["present"],
 			"properties": {
 				"present": {
 					"type": "boolean"
 				},
 				"readWriteMode": {
-					"type": [
-						"boolean",
-						"null"
-					]
+					"type": "boolean"
 				},
 				"backgroundTagReading": {
-					"type": [
-						"boolean",
-						"null"
-					]
+					"type": "boolean"
 				}
 			}
 		},
-		"gps": {
+		"ipadGps": {
 			"type": "object",
 			"additionalProperties": false,
-			"required": [
-				"present"
-			],
+			"required": ["present"],
 			"properties": {
 				"present": {
 					"type": "boolean"
 				},
 				"precisionDualFrequency": {
-					"type": [
-						"boolean",
-						"null"
-					]
+					"type": "boolean"
 				},
 				"systems": {
 					"type": "array",
 					"items": {
-						"enum": [
-							"GPS",
-							"GLONASS",
-							"Galileo",
-							"QZSS",
-							"BeiDou",
-							"NavIC"
-						]
+						"enum": ["GPS", "GLONASS", "Galileo", "QZSS", "BeiDou", "NavIC"]
 					}
 				}
 			}
 		},
-		"connectivity": {
+		"ipadMeasurement": {
 			"type": "object",
 			"additionalProperties": false,
-			"required": [
-				"ports",
-				"wifi",
-				"bluetooth",
-				"cellular",
-				"uwb",
-				"thread",
-				"infrared",
-				"nearFieldCommunication",
-				"gps"
-			],
+			"required": ["value", "unit"],
 			"properties": {
-				"ports": {
-					"type": "array",
-					"items": {
-						"$ref": "#/$defs/port"
-					}
+				"value": {
+					"type": ["number", "null"]
 				},
-				"wifi": {
-					"anyOf": [
-						{
-							"$ref": "#/$defs/wifi"
-						},
-						{
-							"type": "null"
-						}
-					]
-				},
-				"bluetooth": {
-					"anyOf": [
-						{
-							"$ref": "#/$defs/bluetooth"
-						},
-						{
-							"type": "null"
-						}
-					]
-				},
-				"cellular": {
-					"anyOf": [
-						{
-							"$ref": "#/$defs/cellular"
-						},
-						{
-							"type": "null"
-						}
-					]
-				},
-				"uwb": {
-					"anyOf": [
-						{
-							"$ref": "#/$defs/uwb"
-						},
-						{
-							"type": "null"
-						}
-					]
-				},
-				"thread": {
-					"anyOf": [
-						{
-							"$ref": "#/$defs/thread"
-						},
-						{
-							"type": "null"
-						}
-					]
-				},
-				"infrared": {
-					"anyOf": [
-						{
-							"$ref": "#/$defs/infrared"
-						},
-						{
-							"type": "null"
-						}
-					]
-				},
-				"nearFieldCommunication": {
-					"anyOf": [
-						{
-							"$ref": "#/$defs/nearFieldCommunication"
-						},
-						{
-							"type": "null"
-						}
-					]
-				},
-				"gps": {
-					"anyOf": [
-						{
-							"$ref": "#/$defs/gps"
-						},
-						{
-							"type": "null"
-						}
-					]
-				}
-			}
-		},
-		"authentication": {
-			"type": "object",
-			"additionalProperties": false,
-			"required": [
-				"methods",
-				"primaryMethod"
-			],
-			"properties": {
-				"methods": {
-					"type": "array",
-					"uniqueItems": true,
-					"items": {
-						"enum": [
-							"Face ID",
-							"Touch ID",
-							"Optic ID",
-							"passcode",
-							"password",
-							"none"
-						]
-					}
-				},
-				"primaryMethod": {
+				"unit": {
+					"type": "string",
 					"enum": [
-						"Face ID",
-						"Touch ID",
-						"Optic ID",
-						"passcode",
-						"password",
-						"none"
-					]
-				},
-				"placement": {
-					"enum": [
-						"top button",
-						"keyboard",
-						"side button",
-						"other",
-						null
-					]
-				},
-				"sourceNotes": {
-					"type": "string"
-				}
-			}
-		},
-		"physicalComponent": {
-			"type": "object",
-			"additionalProperties": false,
-			"required": [
-				"id",
-				"displayName",
-				"dimensions",
-				"weight"
-			],
-			"properties": {
-				"id": {
-					"type": "string"
-				},
-				"displayName": {
-					"type": "string"
-				},
-				"dimensions": {
-					"type": "array",
-					"items": {
-						"$ref": "#/$defs/measurement"
-					}
-				},
-				"weight": {
-					"type": [
-						"number",
-						"null"
-					],
-					"minimum": 0
-				},
-				"weightUnit": {
-					"enum": [
+						"mm",
+						"cm",
+						"m",
+						"in",
 						"g",
 						"kg",
 						"oz",
 						"lb",
-						null
+						"nits",
+						"hz",
+						"w",
+						"v",
+						"a",
+						"mAh",
+						"Whr",
+						"hours",
+						"minutes",
+						"percent",
+						"GB",
+						"TB",
+						"Mbps",
+						"Gbps",
+						"dB SPL",
+						"atm"
 					]
 				},
-				"sourceNotes": {
+				"qualifier": {
 					"type": "string"
 				}
 			}
 		},
-		"physical": {
+		"ipadPhysicalComponent": {
 			"type": "object",
 			"additionalProperties": false,
-			"required": [
-				"weights",
-				"dimensions",
-				"components"
-			],
+			"required": ["id", "displayName", "dimensions", "weight"],
 			"properties": {
-				"weights": {
-					"type": "array",
-					"items": {
-						"$ref": "#/$defs/measurement"
-					}
+				"id": {
+					"type": "string"
+				},
+				"displayName": {
+					"type": "string"
 				},
 				"dimensions": {
 					"type": "array",
 					"items": {
-						"$ref": "#/$defs/measurement"
+						"$ref": "#/$defs/ipadMeasurement"
 					}
 				},
-				"components": {
-					"type": "array",
-					"items": {
-						"$ref": "#/$defs/physicalComponent"
-					}
-				}
-			}
-		},
-		"accessoryReference": {
-			"type": "object",
-			"additionalProperties": false,
-			"required": [
-				"accessoryId",
-				"displayName",
-				"category"
-			],
-			"properties": {
-				"accessoryId": {
-					"type": "string",
-					"pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
-				},
-				"displayName": {
-					"type": "string"
-				},
-				"category": {
-					"$ref": "#/$defs/accessoryCategory"
-				},
-				"capabilities": {
-					"type": "array",
-					"items": {
-						"type": "string"
-					}
-				}
-			}
-		},
-		"accessory": {
-			"type": "object",
-			"additionalProperties": false,
-			"required": [
-				"id",
-				"displayName",
-				"category"
-			],
-			"properties": {
-				"id": {
-					"type": "string",
-					"pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
-				},
-				"displayName": {
-					"type": "string"
-				},
-				"category": {
-					"$ref": "#/$defs/accessoryCategory"
-				},
-				"capabilities": {
-					"type": "array",
-					"items": {
-						"type": "string"
-					}
-				}
-			}
-		},
-		"accessoryCategory": {
-			"type": "string",
-			"enum": [
-				"Apple Pencil",
-				"keyboard",
-				"input",
-				"spatial",
-				"case",
-				"cable",
-				"adapter",
-				"remote",
-				"strap",
-				"seal",
-				"other"
-			]
-		},
-		"accessoryGroup": {
-			"type": "object",
-			"additionalProperties": false,
-			"required": [
-				"group",
-				"accessories"
-			],
-			"properties": {
-				"group": {
-					"type": "string",
-					"pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
-				},
-				"accessories": {
-					"type": "array",
-					"items": {
-						"$ref": "#/$defs/accessory"
-					}
-				}
-			}
-		},
-		"resistance": {
-			"type": "object",
-			"additionalProperties": false,
-			"required": [
-				"ipRating",
-				"waterDepthM",
-				"splashPressureAtm",
-				"dustProtected",
-				"sweatResistant"
-			],
-			"properties": {
-				"ipRating": {
-					"type": [
-						"string",
-						"null"
-					],
-					"pattern": "^(IP[0-9]X?|IP6X|IP68)$|^$|^null$"
-				},
-				"waterDepthM": {
-					"type": [
-						"number",
-						"null"
-					],
+				"weight": {
+					"type": ["number", "null"],
 					"minimum": 0
 				},
-				"splashPressureAtm": {
-					"type": [
-						"number",
-						"null"
-					],
-					"minimum": 0
-				},
-				"dustProtected": {
-					"type": [
-						"boolean",
-						"null"
-					]
-				},
-				"sweatResistant": {
-					"type": [
-						"boolean",
-						"null"
-					]
-				}
-			}
-		},
-		"software": {
-			"type": "object",
-			"additionalProperties": false,
-			"required": [
-				"operatingSystem",
-				"operatingSystemVersionAtLaunch",
-				"builtInApps"
-			],
-			"properties": {
-				"operatingSystem": {
-					"type": "string"
-				},
-				"operatingSystemVersionAtLaunch": {
-					"type": [
-						"string",
-						"null"
-					]
-				},
-				"compatibleOperatingSystems": {
-					"type": "array",
-					"items": {
-						"type": "string"
-					}
-				},
-				"builtInApps": {
-					"type": "array",
-					"items": {
-						"type": "string"
-					}
+				"weightUnit": {
+					"enum": ["g", "kg", "oz", "lb", null]
 				},
 				"sourceNotes": {
 					"type": "string"
 				}
 			}
 		},
-		"configurationVariant": {
+		"ipadConfiguration": {
 			"type": "object",
 			"additionalProperties": false,
-			"required": [
-				"id"
-			],
+			"required": ["id"],
 			"properties": {
 				"id": {
-					"type": "string"
+					"type": "string",
+					"pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
 				},
 				"displayName": {
 					"type": "string"
@@ -1717,29 +1391,19 @@
 					}
 				},
 				"connectivity": {
+					"type": "string",
 					"enum": [
 						"Wi-Fi",
 						"Wi-Fi + Cellular",
 						"Wi-Fi + Ethernet",
-						"wireless-only",
-						null
+						"wireless-only"
 					]
-				},
-				"caseSizeMm": {
-					"type": [
-						"number",
-						"null"
-					],
-					"minimum": 0
 				},
 				"chipId": {
 					"type": "string"
 				},
 				"priceAud": {
-					"type": [
-						"number",
-						"null"
-					],
+					"type": ["number", "null"],
 					"minimum": 0
 				},
 				"sourceNotes": {
@@ -1747,427 +1411,38 @@
 				}
 			}
 		},
-		"watchDetails": {
+		"ipadAccessoryReference": {
 			"type": "object",
 			"additionalProperties": false,
-			"required": [
-				"caseSizes",
-				"alwaysOn",
-				"wideAngleDisplay",
-				"u1UwbChip",
-				"otherWirelessChip",
-				"hasSpeaker",
-				"hasSiren",
-				"swimproofClassification",
-				"completeSummary"
-			],
+			"required": ["accessoryId", "displayName", "category"],
 			"properties": {
-				"caseSizes": {
-					"type": "array",
-					"items": {
-						"type": "string"
-					}
-				},
-				"alwaysOn": {
-					"type": "boolean"
-				},
-				"wideAngleDisplay": {
-					"type": "boolean"
-				},
-				"u1UwbChip": {
-					"type": [
-						"string",
-						"null"
-					]
-				},
-				"otherWirelessChip": {
-					"type": [
-						"string",
-						"null"
-					]
-				},
-				"hasSpeaker": {
-					"type": "boolean"
-				},
-				"hasSiren": {
-					"type": "boolean"
-				},
-				"swimproofClassification": {
-					"type": [
-						"string",
-						"null"
-					]
-				},
-				"completeSummary": {
-					"type": "array",
-					"items": {
-						"type": "string"
-					}
-				}
-			}
-		},
-		"overviewImage": {
-			"type": "object",
-			"additionalProperties": false,
-			"required": [
-				"label",
-				"appleUrl",
-				"localPath",
-				"widthPx",
-				"heightPx"
-			],
-			"properties": {
-				"label": {
-					"type": "string"
-				},
-				"appleUrl": {
-					"type": "string"
-				},
-				"localPath": {
-					"type": "string"
-				},
-				"widthPx": {
-					"type": "integer",
-					"minimum": 1
-				},
-				"heightPx": {
-					"type": "integer",
-					"minimum": 1
-				}
-			}
-		},
-		"airPodsImage": {
-			"type": "object",
-			"additionalProperties": false,
-			"required": [
-				"label",
-				"appleUrl",
-				"localPath",
-				"widthPx",
-				"heightPx"
-			],
-			"properties": {
-				"label": {
-					"type": "string"
-				},
-				"appleUrl": {
-					"type": "string",
-					"format": "uri"
-				},
-				"localPath": {
-					"type": "string"
-				},
-				"widthPx": {
-					"type": "integer",
-					"minimum": 1
-				},
-				"heightPx": {
-					"type": "integer",
-					"minimum": 1
-				}
-			}
-		},
-		"airPodsColor": {
-			"type": "object",
-			"additionalProperties": false,
-			"required": [
-				"name",
-				"swatch",
-				"images"
-			],
-			"properties": {
-				"name": {
-					"type": "string"
-				},
-				"swatch": {
-					"type": "string"
-				},
-				"images": {
-					"type": "array",
-					"items": {
-						"$ref": "#/$defs/airPodsImage"
-					}
-				}
-			}
-		},
-		"airPodsDevice": {
-			"type": "object",
-			"additionalProperties": false,
-			"required": [
-				"id",
-				"name",
-				"priceAud",
-				"colors",
-				"summary",
-				"formFactors",
-				"audioTechnologies",
-				"sensors",
-				"chips",
-				"microphones",
-				"controls",
-				"hearingHealth",
-				"liveTranslation",
-				"port",
-				"batteryAndCharging",
-				"ipRating",
-				"connectivity",
-				"inTheBox"
-			],
-			"properties": {
-				"id": {
+				"accessoryId": {
 					"type": "string",
 					"pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
 				},
-				"name": {
+				"displayName": {
 					"type": "string"
 				},
-				"priceAud": {
-					"type": [
-						"number",
-						"null"
-					],
-					"minimum": 0
-				},
-				"colors": {
-					"type": "array",
-					"items": {
-						"$ref": "#/$defs/airPodsColor"
-					}
-				},
-				"summary": {
-					"type": "array",
-					"items": {
-						"type": "string"
-					}
-				},
-				"formFactors": {
-					"type": "array",
-					"items": {
-						"type": "object"
-					}
-				},
-				"audioTechnologies": {
-					"type": "array",
-					"items": {
-						"type": "string"
-					}
-				},
-				"sensors": {
-					"type": "array",
-					"items": {
-						"type": "string"
-					}
-				},
-				"chips": {
-					"type": "array",
-					"items": {
-						"type": [
-							"string",
-							"object"
-						]
-					}
-				},
-				"microphones": {
-					"type": "array",
-					"items": {
-						"type": "string"
-					}
-				},
-				"controls": {
-					"type": "array",
-					"items": {
-						"type": "string"
-					}
-				},
-				"hearingHealth": {
-					"type": [
-						"array",
-						"null"
-					],
-					"items": {
-						"type": "string"
-					}
-				},
-				"liveTranslation": {
-					"type": [
-						"array",
-						"null"
-					],
-					"items": {
-						"type": "string"
-					}
-				},
-				"port": {
-					"type": "string"
-				},
-				"batteryAndCharging": {
-					"type": "array",
-					"items": {
-						"type": "string"
-					}
-				},
-				"ipRating": {
-					"type": [
-						"string",
-						"null"
-					]
-				},
-				"connectivity": {
-					"type": "array",
-					"items": {
-						"type": "string"
-					}
-				},
-				"inTheBox": {
-					"type": "array",
-					"items": {
-						"type": "string"
-					}
-				}
-			}
-		},
-		"device": {
-			"type": "object",
-			"additionalProperties": false,
-			"required": [
-				"id",
-				"name"
-			],
-			"properties": {
-				"id": {
+				"category": {
 					"type": "string",
-					"pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
-				},
-				"name": {
-					"type": "string"
-				},
-				"family": {
 					"enum": [
-						"ipad",
-						"iphone",
-						"watch",
-						"mac",
-						"vision",
-						"tv",
-						"homepod"
+						"Apple Pencil",
+						"Magic Keyboard",
+						"keyboard",
+						"input",
+						"case",
+						"cable",
+						"adapter",
+						"other"
 					]
 				},
-				"releaseYear": {
-					"type": "integer",
-					"minimum": 1976,
-					"maximum": 2100
-				},
-				"priceAud": {
-					"type": [
-						"number",
-						"null"
-					],
-					"minimum": 0
-				},
-				"colors": {
+				"capabilities": {
 					"type": "array",
 					"items": {
-						"$ref": "#/$defs/color"
+						"type": "string"
 					}
-				},
-				"configurations": {
-					"type": "array",
-					"items": {
-						"$ref": "#/$defs/configurationVariant"
-					}
-				},
-				"storageOptions": {
-					"type": "array",
-					"items": {
-						"$ref": "#/$defs/storageOption"
-					}
-				},
-				"memoryOptions": {
-					"type": "array",
-					"items": {
-						"$ref": "#/$defs/memoryOption"
-					}
-				},
-				"chips": {
-					"type": "array",
-					"items": {
-						"$ref": "#/$defs/chip"
-					}
-				},
-				"displays": {
-					"type": "array",
-					"items": {
-						"$ref": "#/$defs/display"
-					}
-				},
-				"cameras": {
-					"type": "array",
-					"items": {
-						"$ref": "#/$defs/camera"
-					}
-				},
-				"audio": {
-					"$ref": "#/$defs/audio"
-				},
-				"batteryAndPower": {
-					"$ref": "#/$defs/batteryAndPower"
-				},
-				"connectivity": {
-					"$ref": "#/$defs/connectivity"
-				},
-				"authentication": {
-					"$ref": "#/$defs/authentication"
-				},
-				"physical": {
-					"$ref": "#/$defs/physical"
-				},
-				"resistance": {
-					"$ref": "#/$defs/resistance"
-				},
-				"software": {
-					"$ref": "#/$defs/software"
-				},
-				"watchDetails": {
-					"$ref": "#/$defs/watchDetails"
-				},
-				"overviewImages": {
-					"type": "array",
-					"items": {
-						"$ref": "#/$defs/overviewImage"
-					}
-				},
-				"forceTouchTrackpad": {
-					"type": [
-						"boolean",
-						"null"
-					]
-				},
-				"backlitKeyboard": {
-					"type": [
-						"boolean",
-						"null"
-					]
-				},
-				"accessories": {
-					"type": "array",
-					"items": {
-						"$ref": "#/$defs/accessoryReference"
-					}
-				},
-				"sourceNotes": {
-					"type": "string"
 				}
 			}
-		},
-		"productCollectionDiscriminator": {
-			"oneOf": [
-				{
-					"$ref": "#/$defs/device"
-				},
-				{
-					"$ref": "#/$defs/airPodsDevice"
-				}
-			]
 		}
 	}
 }
