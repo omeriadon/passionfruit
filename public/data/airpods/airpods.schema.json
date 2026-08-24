@@ -1,0 +1,217 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"$id": "https://passionfruit.local/schemas/airpods.schema.json",
+	"title": "AirPods catalogue",
+	"type": "object",
+	"additionalProperties": false,
+	"required": ["devices"],
+	"properties": {
+		"devices": {
+			"type": "array",
+			"items": { "$ref": "#/$defs/airPodsDevice" },
+			"minItems": 1
+		}
+	},
+	"$defs": {
+		"measurement": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["value", "unit"],
+			"properties": {
+				"value": { "type": "number" },
+				"unit": {
+					"type": "string",
+					"enum": ["g", "hours", "minutes", "percent"]
+				},
+				"qualifier": { "type": "string" }
+			}
+		},
+		"image": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["label", "appleUrl", "localPath", "widthPx", "heightPx"],
+			"properties": {
+				"label": { "type": "string" },
+				"appleUrl": { "type": "string", "format": "uri" },
+				"localPath": { "type": "string", "minLength": 1 },
+				"widthPx": { "type": "integer", "minimum": 1 },
+				"heightPx": { "type": "integer", "minimum": 1 }
+			}
+		},
+		"chip": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["id", "displayName"],
+			"properties": {
+				"id": { "type": "string", "minLength": 1 },
+				"displayName": { "type": "string", "minLength": 1 },
+				"family": { "type": "string", "minLength": 1 },
+				"sourceNotes": { "type": "string", "minLength": 1 }
+			}
+		},
+		"audioTechnology": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["id", "name", "category"],
+			"properties": {
+				"id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+				"name": { "type": "string", "minLength": 1 },
+				"category": {
+					"type": "string",
+					"enum": [
+						"noise-control",
+						"audio-processing",
+						"spatial-audio",
+						"driver",
+						"amplifier",
+						"connectivity",
+						"other"
+					]
+				},
+				"details": { "type": "string", "minLength": 1 },
+				"sourceNotes": { "type": "string", "minLength": 1 }
+			}
+		},
+		"namedFeature": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["id", "name"],
+			"properties": {
+				"id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+				"name": { "type": "string", "minLength": 1 },
+				"location": { "type": "string", "minLength": 1 },
+				"quantity": { "type": "integer", "minimum": 1 },
+				"details": { "type": "string", "minLength": 1 },
+				"sourceNotes": { "type": "string", "minLength": 1 }
+			}
+		},
+		"batteryClaim": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["id", "kind"],
+			"properties": {
+				"id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+				"kind": {
+					"type": "string",
+					"enum": [
+						"listening-time",
+						"case-listening-time",
+						"fast-charge",
+						"charging-case",
+						"other"
+					]
+				},
+				"hours": { "type": "number", "exclusiveMinimum": 0 },
+				"minutes": { "type": "number", "exclusiveMinimum": 0 },
+				"condition": { "type": "string", "minLength": 1 },
+				"caseName": { "type": "string", "minLength": 1 },
+				"connector": { "type": "string", "enum": ["USB-C", "Lightning"] },
+				"details": { "type": "string", "minLength": 1 },
+				"sourceNotes": { "type": "string", "minLength": 1 }
+			}
+		},
+		"connectivityFeature": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["id", "technology"],
+			"properties": {
+				"id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+				"technology": { "type": "string", "minLength": 1 },
+				"version": { "type": "string", "minLength": 1 },
+				"sourceNotes": { "type": "string", "minLength": 1 }
+			}
+		},
+		"caseWeight": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["name", "weight"],
+			"properties": {
+				"name": { "type": "string", "minLength": 1 },
+				"weight": { "$ref": "#/$defs/measurement" }
+			}
+		},
+		"physical": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["earpieceWeight", "caseWeights"],
+			"properties": {
+				"earpieceWeight": { "$ref": "#/$defs/measurement" },
+				"caseWeights": {
+					"type": "array",
+					"items": { "$ref": "#/$defs/caseWeight" }
+				}
+			}
+		},
+		"airPodsDevice": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": [
+				"id",
+				"name",
+				"formFactor",
+				"cases",
+				"physical",
+				"images",
+				"audioTechnologies",
+				"sensors",
+				"chips",
+				"microphoneCount",
+				"controls",
+				"hearingHealth",
+				"liveTranslation",
+				"batteryAndCharging",
+				"connectivity",
+				"inTheBox"
+			],
+			"properties": {
+				"id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+				"name": { "type": "string", "minLength": 1 },
+				"priceAud": { "type": "number", "minimum": 0 },
+				"formFactor": { "type": "string", "enum": ["in-ear", "over-ear"] },
+				"cases": {
+					"type": "array",
+					"items": { "type": "string", "minLength": 1 }
+				},
+				"physical": { "$ref": "#/$defs/physical" },
+				"images": { "type": "array", "items": { "$ref": "#/$defs/image" } },
+				"audioTechnologies": {
+					"type": "array",
+					"items": { "$ref": "#/$defs/audioTechnology" }
+				},
+				"sensors": {
+					"type": "array",
+					"items": { "$ref": "#/$defs/namedFeature" }
+				},
+				"chips": { "type": "array", "items": { "$ref": "#/$defs/chip" } },
+				"microphoneCount": { "type": "integer", "minimum": 0 },
+				"controls": {
+					"type": "array",
+					"items": { "$ref": "#/$defs/namedFeature" }
+				},
+				"hearingHealth": {
+					"type": "array",
+					"items": { "$ref": "#/$defs/namedFeature" }
+				},
+				"liveTranslation": {
+					"type": "array",
+					"items": { "$ref": "#/$defs/namedFeature" }
+				},
+				"port": { "type": "string", "enum": ["USB-C", "Lightning"] },
+				"batteryAndCharging": {
+					"type": "array",
+					"items": { "$ref": "#/$defs/batteryClaim" }
+				},
+				"ipRating": { "type": "string", "minLength": 1 },
+				"connectivity": {
+					"type": "array",
+					"items": { "$ref": "#/$defs/connectivityFeature" }
+				},
+				"inTheBox": {
+					"type": "array",
+					"items": { "type": "string", "minLength": 1 }
+				},
+				"sourceNotes": { "type": "string", "minLength": 1 }
+			}
+		}
+	}
+}

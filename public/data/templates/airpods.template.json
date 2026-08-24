@@ -1,0 +1,28 @@
+{
+	"devices": [
+		{
+			"id": "airpods-pro-3",
+			"name": "AirPods Pro 3",
+			"formFactor": "in-ear",
+			"cases": [],
+			"physical": {
+				"earpieceWeight": {
+					"value": 5.55,
+					"unit": "g"
+				},
+				"caseWeights": []
+			},
+			"images": [],
+			"audioTechnologies": [],
+			"sensors": [],
+			"chips": [],
+			"microphoneCount": 2,
+			"controls": [],
+			"hearingHealth": [],
+			"liveTranslation": [],
+			"batteryAndCharging": [],
+			"connectivity": [],
+			"inTheBox": []
+		}
+	]
+}

@@ -1,0 +1,57 @@
+{
+	"devices": [
+		{
+			"id": "homepod-mini",
+			"name": "HomePod mini",
+			"releaseYear": 2020,
+			"priceAud": null,
+			"colors": [],
+			"chips": [],
+			"audio": {
+				"speaker": true,
+				"microphone": true,
+				"spatialAudio": false,
+				"formats": []
+			},
+			"power": {
+				"hasExternalPowerAdapter": true
+			},
+			"connectivity": {
+				"ports": [],
+				"wifi": {
+					"standards": []
+				},
+				"bluetooth": {
+					"version": "Bluetooth 5.0"
+				},
+				"uwb": {
+					"chip": "Ultra Wideband chip",
+					"secondGeneration": false
+				},
+				"thread": {
+					"supported": true
+				},
+				"infrared": {
+					"present": false
+				},
+				"nearFieldCommunication": {
+					"present": false
+				},
+				"gps": {
+					"present": false
+				}
+			},
+			"physical": {
+				"weights": [],
+				"dimensions": [],
+				"components": []
+			},
+			"software": {
+				"operatingSystem": "HomePod Software",
+				"compatibleOperatingSystems": [],
+				"builtInApps": []
+			},
+			"accessories": []
+		}
+	]
+}

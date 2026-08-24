@@ -1,0 +1,431 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"$id": "https://passionfruit.local/schemas/apple-watch.schema.json",
+	"title": "Apple Watch catalogue",
+	"type": "object",
+	"additionalProperties": false,
+	"required": ["devices"],
+	"properties": {
+		"devices": {
+			"type": "array",
+			"items": { "$ref": "#/$defs/appleWatchDevice" },
+			"minItems": 1
+		}
+	},
+	"$defs": {
+		"measurement": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["value", "unit"],
+			"properties": {
+				"value": { "type": "number" },
+				"unit": {
+					"type": "string",
+					"enum": ["mm", "g", "hours", "minutes", "nits", "hz"]
+				},
+				"qualifier": { "type": "string", "minLength": 1 }
+			}
+		},
+		"measurementRange": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["minimum", "maximum", "unit"],
+			"properties": {
+				"minimum": { "type": "number" },
+				"maximum": { "type": "number" },
+				"unit": { "type": "string", "const": "hz" }
+			}
+		},
+		"image": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["label", "appleUrl", "localPath", "widthPx", "heightPx"],
+			"properties": {
+				"label": { "type": "string" },
+				"appleUrl": { "type": "string", "format": "uri" },
+				"localPath": { "type": "string", "minLength": 1 },
+				"widthPx": { "type": "integer", "minimum": 1 },
+				"heightPx": { "type": "integer", "minimum": 1 }
+			}
+		},
+		"color": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["id", "displayName", "swatch", "images"],
+			"properties": {
+				"id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+				"displayName": { "type": "string", "minLength": 1 },
+				"swatch": { "type": "string", "minLength": 1 },
+				"images": { "type": "array", "items": { "$ref": "#/$defs/image" } }
+			}
+		},
+		"chip": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["id", "displayName"],
+			"properties": {
+				"id": { "type": "string", "minLength": 1 },
+				"displayName": { "type": "string", "minLength": 1 },
+				"family": { "type": "string", "minLength": 1 },
+				"cpuCores": { "type": "integer", "minimum": 1 },
+				"gpuCores": { "type": "integer", "minimum": 1 },
+				"neuralEngineCores": { "type": "integer", "minimum": 1 },
+				"memoryBandwidthGbps": { "type": "number", "exclusiveMinimum": 0 },
+				"sourceNotes": { "type": "string", "minLength": 1 }
+			}
+		},
+		"configuration": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["id", "displayName"],
+			"properties": {
+				"id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+				"displayName": { "type": "string", "minLength": 1 },
+				"caseSize": { "type": "string", "minLength": 1 },
+				"cellular": { "type": "boolean" },
+				"gps": { "type": "boolean" },
+				"priceAud": { "type": "number", "minimum": 0 },
+				"sourceNotes": { "type": "string", "minLength": 1 }
+			}
+		},
+		"display": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["id", "technology"],
+			"properties": {
+				"id": { "type": "string", "minLength": 1 },
+				"technology": { "type": "string", "minLength": 1 },
+				"panelKind": { "type": "string", "minLength": 1 },
+				"sizeIn": { "type": "number", "exclusiveMinimum": 0 },
+				"resolutionWidthPx": { "type": "integer", "minimum": 1 },
+				"resolutionHeightPx": { "type": "integer", "minimum": 1 },
+				"pixelsPerInch": { "type": "number", "exclusiveMinimum": 0 },
+				"refreshRateHz": { "type": "number", "exclusiveMinimum": 0 },
+				"refreshRateRange": { "$ref": "#/$defs/measurementRange" },
+				"sdrPeakBrightnessNits": { "type": "number", "exclusiveMinimum": 0 },
+				"hdrPeakBrightnessNits": { "type": "number", "exclusiveMinimum": 0 },
+				"fullScreenHdrBrightnessNits": {
+					"type": "number",
+					"exclusiveMinimum": 0
+				},
+				"minimumBrightnessNits": { "type": "number", "minimum": 0 },
+				"trueTone": { "type": "boolean" },
+				"promotion": { "type": "boolean" },
+				"alwaysOn": { "type": "boolean" },
+				"wideColorP3": { "type": "boolean" },
+				"laminated": { "type": "boolean" },
+				"antireflective": { "type": "boolean" },
+				"nanoTextureOption": { "type": "boolean" },
+				"fingerprintResistantCoating": { "type": "boolean" },
+				"hoverSupport": { "type": "boolean" },
+				"mirroring": { "type": "boolean" },
+				"sourceNotes": { "type": "string", "minLength": 1 }
+			}
+		},
+		"runtime": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["id", "activity", "hours"],
+			"properties": {
+				"id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+				"activity": { "type": "string", "minLength": 1 },
+				"hours": { "type": "number", "exclusiveMinimum": 0 },
+				"sourceNotes": { "type": "string", "minLength": 1 }
+			}
+		},
+		"fastCharge": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["minutes", "percent"],
+			"properties": {
+				"minutes": { "type": "number", "exclusiveMinimum": 0 },
+				"percent": { "type": "number", "exclusiveMinimum": 0, "maximum": 100 }
+			}
+		},
+		"charging": {
+			"type": "object",
+			"additionalProperties": false,
+			"properties": {
+				"portId": { "type": "string", "minLength": 1 },
+				"wiredFastCharge": { "type": "boolean" },
+				"wirelessCharging": { "type": "boolean" },
+				"wirelessStandards": {
+					"type": "array",
+					"items": { "type": "string", "minLength": 1 }
+				},
+				"fastCharge": { "$ref": "#/$defs/fastCharge" }
+			}
+		},
+		"powerSupply": {
+			"type": "object",
+			"additionalProperties": false,
+			"properties": {
+				"hasExternalPowerAdapter": { "type": "boolean" },
+				"outputVoltageV": { "type": "number", "exclusiveMinimum": 0 },
+				"outputCurrentA": { "type": "number", "exclusiveMinimum": 0 },
+				"outputPowerW": { "type": "number", "exclusiveMinimum": 0 },
+				"inputVoltageRangeV": { "$ref": "#/$defs/voltageRange" },
+				"frequencyHz": { "type": "number", "exclusiveMinimum": 0 },
+				"consumptionW": { "type": "number", "exclusiveMinimum": 0 }
+			}
+		},
+		"voltageRange": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["minimum", "maximum"],
+			"properties": {
+				"minimum": { "type": "number", "exclusiveMinimum": 0 },
+				"maximum": { "type": "number", "exclusiveMinimum": 0 }
+			}
+		},
+		"batteryAndPower": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["hasBattery", "runtimeHours", "charging", "powerSupply"],
+			"properties": {
+				"hasBattery": { "type": "boolean" },
+				"batteryCapacityMah": { "type": "number", "exclusiveMinimum": 0 },
+				"batteryCapacityWhr": { "type": "number", "exclusiveMinimum": 0 },
+				"runtimeHours": {
+					"type": "array",
+					"items": { "$ref": "#/$defs/runtime" }
+				},
+				"charging": { "$ref": "#/$defs/charging" },
+				"powerSupply": { "$ref": "#/$defs/powerSupply" }
+			}
+		},
+		"port": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["id", "kind", "quantity"],
+			"properties": {
+				"id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+				"kind": { "type": "string", "minLength": 1 },
+				"quantity": { "type": "integer", "minimum": 1 },
+				"sourceNotes": { "type": "string", "minLength": 1 }
+			}
+		},
+		"wireless": {
+			"type": "object",
+			"additionalProperties": false,
+			"properties": {
+				"standards": {
+					"type": "array",
+					"items": { "type": "string", "minLength": 1 }
+				},
+				"mimo": { "type": "string", "minLength": 1 }
+			}
+		},
+		"bluetooth": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["version"],
+			"properties": { "version": { "type": "string", "minLength": 1 } }
+		},
+		"cellular": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["technologies"],
+			"properties": {
+				"technologies": {
+					"type": "array",
+					"items": { "type": "string", "minLength": 1 }
+				}
+			}
+		},
+		"uwb": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["chip"],
+			"properties": { "chip": { "type": "string", "minLength": 1 } }
+		},
+		"gps": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["present", "precisionDualFrequency", "systems"],
+			"properties": {
+				"present": { "type": "boolean" },
+				"precisionDualFrequency": { "type": "boolean" },
+				"systems": {
+					"type": "array",
+					"items": { "type": "string", "minLength": 1 }
+				}
+			}
+		},
+		"connectivity": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["ports"],
+			"properties": {
+				"ports": { "type": "array", "items": { "$ref": "#/$defs/port" } },
+				"wifi": { "$ref": "#/$defs/wireless" },
+				"bluetooth": { "$ref": "#/$defs/bluetooth" },
+				"cellular": { "$ref": "#/$defs/cellular" },
+				"uwb": { "$ref": "#/$defs/uwb" },
+				"gps": { "$ref": "#/$defs/gps" }
+			}
+		},
+		"authentication": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["methods", "primaryMethod"],
+			"properties": {
+				"methods": {
+					"type": "array",
+					"items": { "type": "string", "minLength": 1 }
+				},
+				"primaryMethod": { "type": "string", "minLength": 1 }
+			}
+		},
+		"physicalComponent": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["id", "displayName", "dimensions"],
+			"properties": {
+				"id": { "type": "string", "minLength": 1 },
+				"displayName": { "type": "string", "minLength": 1 },
+				"dimensions": {
+					"type": "array",
+					"items": { "$ref": "#/$defs/measurement" }
+				},
+				"weight": { "$ref": "#/$defs/measurement" },
+				"sourceNotes": { "type": "string", "minLength": 1 }
+			}
+		},
+		"physical": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["weights", "dimensions", "components"],
+			"properties": {
+				"weights": {
+					"type": "array",
+					"items": { "$ref": "#/$defs/measurement" }
+				},
+				"dimensions": {
+					"type": "array",
+					"items": { "$ref": "#/$defs/measurement" }
+				},
+				"components": {
+					"type": "array",
+					"items": { "$ref": "#/$defs/physicalComponent" }
+				}
+			}
+		},
+		"resistance": {
+			"type": "object",
+			"additionalProperties": false,
+			"properties": {
+				"ipRating": { "type": "string", "minLength": 1 },
+				"waterDepthM": { "type": "number", "minimum": 0 },
+				"dustProtected": { "type": "boolean" },
+				"sweatResistant": { "type": "boolean" }
+			}
+		},
+		"software": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": [
+				"operatingSystem",
+				"compatibleOperatingSystems",
+				"builtInApps"
+			],
+			"properties": {
+				"operatingSystem": { "type": "string", "const": "watchOS" },
+				"operatingSystemVersionAtLaunch": { "type": "string", "minLength": 1 },
+				"compatibleOperatingSystems": {
+					"type": "array",
+					"items": { "type": "string", "minLength": 1 }
+				},
+				"builtInApps": {
+					"type": "array",
+					"items": { "type": "string", "minLength": 1 }
+				},
+				"sourceNotes": { "type": "string", "minLength": 1 }
+			}
+		},
+		"watchDetails": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": [
+				"caseSizes",
+				"alwaysOn",
+				"wideAngleDisplay",
+				"hasSpeaker",
+				"hasSiren",
+				"swimproofClassification"
+			],
+			"properties": {
+				"caseSizes": {
+					"type": "array",
+					"items": { "type": "string", "minLength": 1 }
+				},
+				"alwaysOn": { "type": "boolean" },
+				"wideAngleDisplay": { "type": "boolean" },
+				"u1UwbChip": { "type": "string", "minLength": 1 },
+				"otherWirelessChip": { "type": "string", "minLength": 1 },
+				"hasSpeaker": { "type": "boolean" },
+				"hasSiren": { "type": "boolean" },
+				"swimproofClassification": { "type": "string", "minLength": 1 }
+			}
+		},
+		"audio": {
+			"type": "object",
+			"additionalProperties": false,
+			"properties": {
+				"speaker": { "type": "boolean" },
+				"microphone": { "type": "boolean" },
+				"speakerConfiguration": { "type": "string", "minLength": 1 },
+				"microphoneConfiguration": { "type": "string", "minLength": 1 },
+				"siren": { "type": "boolean" }
+			}
+		},
+		"appleWatchDevice": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": [
+				"id",
+				"name",
+				"releaseYear",
+				"colors",
+				"configurations",
+				"chips",
+				"displays",
+				"audio",
+				"batteryAndPower",
+				"connectivity",
+				"authentication",
+				"physical",
+				"resistance",
+				"software",
+				"watchDetails",
+				"overviewImages"
+			],
+			"properties": {
+				"id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+				"name": { "type": "string", "minLength": 1 },
+				"releaseYear": { "type": "integer", "minimum": 1976, "maximum": 2100 },
+				"priceAud": { "type": "number", "minimum": 0 },
+				"colors": { "type": "array", "items": { "$ref": "#/$defs/color" } },
+				"configurations": {
+					"type": "array",
+					"items": { "$ref": "#/$defs/configuration" }
+				},
+				"chips": { "type": "array", "items": { "$ref": "#/$defs/chip" } },
+				"displays": { "type": "array", "items": { "$ref": "#/$defs/display" } },
+				"audio": { "$ref": "#/$defs/audio" },
+				"batteryAndPower": { "$ref": "#/$defs/batteryAndPower" },
+				"connectivity": { "$ref": "#/$defs/connectivity" },
+				"authentication": { "$ref": "#/$defs/authentication" },
+				"physical": { "$ref": "#/$defs/physical" },
+				"resistance": { "$ref": "#/$defs/resistance" },
+				"software": { "$ref": "#/$defs/software" },
+				"watchDetails": { "$ref": "#/$defs/watchDetails" },
+				"overviewImages": {
+					"type": "array",
+					"items": { "$ref": "#/$defs/image" }
+				},
+				"sourceNotes": { "type": "string", "minLength": 1 }
+			}
+		}
+	}
+}

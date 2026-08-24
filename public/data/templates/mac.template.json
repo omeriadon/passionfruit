@@ -1,0 +1,46 @@
+{
+	"devices": [
+		{
+			"id": "macbook-neo-a18-pro",
+			"name": "MacBook Neo (A18 Pro)",
+			"releaseYear": 2026,
+			"priceAud": 1049,
+			"colors": [],
+			"configurations": [],
+			"storageOptions": [],
+			"memoryOptions": [],
+			"chips": [],
+			"displays": [],
+			"cameras": [],
+			"audio": {},
+			"batteryAndPower": {
+				"battery": {
+					"runtimeHours": [],
+					"charging": {
+						"wirelessCharging": false
+					}
+				},
+				"power": {
+					"hasExternalPowerAdapter": false
+				}
+			},
+			"connectivity": {
+				"ports": []
+			},
+			"authentication": {
+				"methods": [],
+				"primaryMethod": "passcode"
+			},
+			"physical": {
+				"weights": [],
+				"dimensions": [],
+				"components": []
+			},
+			"software": {
+				"operatingSystem": "macOS",
+				"builtInApps": []
+			},
+			"accessories": []
+		}
+	]
+}

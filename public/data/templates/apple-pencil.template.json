@@ -1,0 +1,22 @@
+{
+	"group": "apple-pencil",
+	"source": {
+		"url": "https://www.apple.com/au-edu/shop/select-apple-pencil",
+		"localHtmlPath": "data/tmp/other/pencil.html",
+		"styleUrl": "https://store.storeimages.cdn-apple.com/8756/store.apple.com/shop/Catalog/global/css/dd/buy-flow/splitter.css"
+	},
+	"accessories": [
+		{
+			"id": "apple-pencil-pro",
+			"displayName": "Apple Pencil Pro",
+			"category": "pencil",
+			"priceAud": 199,
+			"colors": [],
+			"images": [],
+			"compatibleDeviceIds": [],
+			"capabilities": [],
+			"sourceUrl": "https://www.apple.com/au-edu/shop/product/mx2d3za/a/apple-pencil-pro",
+			"sourceNotes": "The supplied Apple Pencil comparison page lists Apple Pencil Pro at A$199.00, links product code MX2D3, identifies compatibility with iPad Pro 13-inch and 11-inch (M4 and M5), iPad Air 13-inch and 11-inch (M2, M3 and M4), and iPad mini (A17 Pro), and documents the listed capabilities. The product image URL and dimensions are from the supplied page. No colour selector is present, so colors is empty."
+		}
+	]
+}

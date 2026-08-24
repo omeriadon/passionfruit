@@ -1,0 +1,80 @@
+{
+	"devices": [
+		{
+			"id": "iphone-17",
+			"name": "iPhone 17",
+			"releaseYear": 2025,
+			"priceAud": 1399,
+			"colors": [],
+			"configurations": [],
+			"storageOptions": [],
+			"chips": [],
+			"displays": [],
+			"cameras": [],
+			"audio": {
+				"speaker": true,
+				"microphone": true
+			},
+			"batteryAndPower": {
+				"hasBattery": true,
+				"batteryCapacityMah": null,
+				"batteryCapacityWhr": null,
+				"runtimeHours": [],
+				"charging": {
+					"portId": "USB-C",
+					"wiredFastCharge": true,
+					"wirelessCharging": true,
+					"wirelessStandards": [],
+					"fastChargeMinutesToPercent": {
+						"percent": 50,
+						"minutes": 20
+					},
+					"adapterPowerW": 40
+				},
+				"powerSupply": {
+					"hasExternalPowerAdapter": false,
+					"outputVoltageV": null,
+					"outputCurrentA": null,
+					"outputPowerW": null,
+					"inputVoltageRangeV": null,
+					"frequencyHz": null,
+					"consumptionW": null
+				}
+			},
+			"connectivity": {
+				"ports": [],
+				"wifi": null,
+				"bluetooth": null,
+				"cellular": null,
+				"uwb": null,
+				"thread": null,
+				"infrared": null,
+				"nearFieldCommunication": null,
+				"gps": null
+			},
+			"authentication": {
+				"methods": [],
+				"primaryMethod": "Face ID"
+			},
+			"physical": {
+				"weights": [],
+				"dimensions": [],
+				"components": []
+			},
+			"resistance": {
+				"ipRating": "IP68",
+				"waterDepthM": 6,
+				"splashPressureAtm": null,
+				"dustProtected": true,
+				"sweatResistant": false
+			},
+			"software": {
+				"operatingSystem": "iOS",
+				"operatingSystemVersionAtLaunch": null,
+				"builtInApps": []
+			},
+			"accessories": [],
+			"sourceNotes": "Merged from usable source 1. Exact Summary, Display, Chip, Power and Battery, Connector, and capability text is preserved in extraction checkpoint evidence."
+		}
+	]
+}

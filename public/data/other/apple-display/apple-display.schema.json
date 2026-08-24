@@ -1,0 +1,258 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"$id": "https://passionfruit.local/schemas/apple-display.schema.json",
+	"title": "Apple display product group",
+	"type": "object",
+	"additionalProperties": false,
+	"required": ["group", "sources", "products"],
+	"properties": {
+		"group": { "const": "apple-display" },
+		"sources": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/source" } },
+		"products": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/product" } }
+	},
+	"$defs": {
+		"identifier": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+		"source": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["kind", "url"],
+			"properties": {
+				"kind": { "enum": ["announcement", "technical-specifications", "store"] },
+				"url": { "type": "string", "format": "uri" }
+			}
+		},
+		"image": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["id", "label", "appleUrl", "localPath", "widthPx", "heightPx", "format", "hasAlpha"],
+			"properties": {
+				"id": { "$ref": "#/$defs/identifier" },
+				"label": { "type": "string", "minLength": 1 },
+				"appleUrl": { "type": "string", "format": "uri" },
+				"localPath": { "type": "string", "pattern": "^/data/other/apple-display/images/" },
+				"widthPx": { "type": "integer", "minimum": 1 },
+				"heightPx": { "type": "integer", "minimum": 1 },
+				"format": { "const": "jpeg" },
+				"hasAlpha": { "const": false }
+			}
+		},
+		"resolution": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["widthPx", "heightPx", "pixelsPerInch"],
+			"properties": {
+				"widthPx": { "type": "integer", "minimum": 1 },
+				"heightPx": { "type": "integer", "minimum": 1 },
+				"pixelsPerInch": { "type": "integer", "minimum": 1 }
+			}
+		},
+		"backlight": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["technology", "localDimmingZones"],
+			"properties": {
+				"technology": { "const": "mini-LED" },
+				"localDimmingZones": { "type": "integer", "minimum": 1 }
+			}
+		},
+		"brightness": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["sdrNits"],
+			"properties": {
+				"sdrNits": { "type": "integer", "minimum": 1 },
+				"hdrPeakNits": { "type": "integer", "minimum": 1 }
+			}
+		},
+		"colour": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["billionColours", "p3", "adobeRgb", "trueTone"],
+			"properties": {
+				"billionColours": { "type": "number", "exclusiveMinimum": 0 },
+				"p3": { "type": "boolean" },
+				"adobeRgb": { "type": "boolean" },
+				"trueTone": { "type": "boolean" }
+			}
+		},
+		"panel": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["name", "diagonalInches", "resolution", "brightness", "maximumRefreshRateHz", "adaptiveSync", "colour", "glassOptions"],
+			"properties": {
+				"name": { "type": "string", "minLength": 1 },
+				"diagonalInches": { "type": "number", "exclusiveMinimum": 0 },
+				"resolution": { "$ref": "#/$defs/resolution" },
+				"backlight": { "$ref": "#/$defs/backlight" },
+				"brightness": { "$ref": "#/$defs/brightness" },
+				"maximumRefreshRateHz": { "type": "integer", "minimum": 1 },
+				"adaptiveSync": { "type": "boolean" },
+				"colour": { "$ref": "#/$defs/colour" },
+				"glassOptions": {
+					"type": "array",
+					"minItems": 1,
+					"uniqueItems": true,
+					"items": { "enum": ["standard", "nano-texture"] }
+				}
+			}
+		},
+		"referenceMode": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["name", "colourSpace"],
+			"properties": {
+				"name": { "type": "string", "minLength": 1 },
+				"colourSpace": { "type": "string", "minLength": 1 },
+				"transferFunction": { "type": "string", "minLength": 1 },
+				"peakBrightnessNits": { "type": "integer", "minimum": 1 }
+			}
+		},
+		"camera": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["megapixels", "centerStage", "deskView"],
+			"properties": {
+				"megapixels": { "type": "integer", "minimum": 1 },
+				"centerStage": { "type": "boolean" },
+				"deskView": { "type": "boolean" }
+			}
+		},
+		"audio": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["speakerCount", "highFidelity", "forceCancellingWoofers", "wideStereo", "spatialAudioWithDolbyAtmos", "microphoneCount", "studioQualityMicrophones", "highSignalToNoiseRatio", "directionalBeamforming", "heySiri"],
+			"properties": {
+				"speakerCount": { "type": "integer", "minimum": 0 },
+				"highFidelity": { "type": "boolean" },
+				"forceCancellingWoofers": { "type": "boolean" },
+				"wideStereo": { "type": "boolean" },
+				"spatialAudioWithDolbyAtmos": { "type": "boolean" },
+				"microphoneCount": { "type": "integer", "minimum": 0 },
+				"studioQualityMicrophones": { "type": "boolean" },
+				"highSignalToNoiseRatio": { "type": "boolean" },
+				"directionalBeamforming": { "type": "boolean" },
+				"heySiri": { "type": "boolean" }
+			}
+		},
+		"connection": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["type", "direction", "count", "maximumGbps", "hostChargingWatts"],
+			"properties": {
+				"type": { "enum": ["Thunderbolt 5", "USB-C"] },
+				"direction": { "enum": ["upstream", "downstream"] },
+				"count": { "type": "integer", "minimum": 1 },
+				"maximumGbps": { "type": "number", "minimum": 0 },
+				"hostChargingWatts": { "type": "number", "minimum": 0 }
+			}
+		},
+		"configuration": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["id", "glass", "mount", "partNumber", "priceAud", "purchaseUrl"],
+			"properties": {
+				"id": { "$ref": "#/$defs/identifier" },
+				"glass": { "enum": ["standard", "nano-texture"] },
+				"mount": { "enum": ["tilt-adjustable-stand", "tilt-and-height-adjustable-stand", "vesa-mount-adapter"] },
+				"partNumber": { "type": "string", "pattern": "^[A-Z0-9]+X/A$" },
+				"priceAud": { "type": "number", "minimum": 0 },
+				"purchaseUrl": { "type": "string", "format": "uri" }
+			}
+		},
+		"physicalConfiguration": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["mount", "heightMinimumCm", "heightMaximumCm", "widthCm", "depthCm", "weightKg", "tiltMinimumDegrees", "tiltMaximumDegrees", "heightAdjustmentMm", "portraitOrientation"],
+			"properties": {
+				"mount": { "enum": ["tilt-adjustable-stand", "tilt-and-height-adjustable-stand", "vesa-mount-adapter"] },
+				"heightMinimumCm": { "type": "number", "exclusiveMinimum": 0 },
+				"heightMaximumCm": { "type": "number", "exclusiveMinimum": 0 },
+				"widthCm": { "type": "number", "exclusiveMinimum": 0 },
+				"depthCm": { "type": "number", "exclusiveMinimum": 0 },
+				"weightKg": { "type": "number", "exclusiveMinimum": 0 },
+				"tiltMinimumDegrees": { "type": "number" },
+				"tiltMaximumDegrees": { "type": "number" },
+				"heightAdjustmentMm": { "type": "number", "minimum": 0 },
+				"portraitOrientation": { "type": "boolean" }
+			}
+		},
+		"refreshRateLimitation": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["deviceChip", "maximumRefreshRateHz"],
+			"properties": {
+				"deviceChip": { "type": "string", "minLength": 1 },
+				"maximumRefreshRateHz": { "type": "integer", "minimum": 1 }
+			}
+		},
+		"compatibility": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["minimumMacOperatingSystem", "minimumIPadOperatingSystem", "compatibleDeviceIds"],
+			"properties": {
+				"minimumMacOperatingSystem": { "type": "string", "minLength": 1 },
+				"minimumIPadOperatingSystem": { "type": "string", "minLength": 1 },
+				"compatibleDeviceIds": {
+					"type": "array",
+					"minItems": 1,
+					"uniqueItems": true,
+					"items": { "$ref": "#/$defs/identifier" }
+				},
+				"refreshRateLimitations": {
+					"type": "array",
+					"minItems": 1,
+					"items": { "$ref": "#/$defs/refreshRateLimitation" }
+				}
+			}
+		},
+		"electrical": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["minimumLineVoltage", "maximumLineVoltage", "frequencyMinimumHz", "frequencyMaximumHz", "minimumOperatingTemperatureCelsius", "maximumOperatingTemperatureCelsius", "minimumRelativeHumidityPercent", "maximumRelativeHumidityPercent", "maximumAltitudeMetres"],
+			"properties": {
+				"minimumLineVoltage": { "type": "number", "minimum": 0 },
+				"maximumLineVoltage": { "type": "number", "minimum": 0 },
+				"frequencyMinimumHz": { "type": "number", "minimum": 0 },
+				"frequencyMaximumHz": { "type": "number", "minimum": 0 },
+				"minimumOperatingTemperatureCelsius": { "type": "number" },
+				"maximumOperatingTemperatureCelsius": { "type": "number" },
+				"minimumRelativeHumidityPercent": { "type": "number", "minimum": 0, "maximum": 100 },
+				"maximumRelativeHumidityPercent": { "type": "number", "minimum": 0, "maximum": 100 },
+				"maximumAltitudeMetres": { "type": "number", "minimum": 0 }
+			}
+		},
+		"boxItem": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["item", "quantity"],
+			"properties": {
+				"item": { "type": "string", "minLength": 1 },
+				"quantity": { "type": "integer", "minimum": 1 }
+			}
+		},
+		"product": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["id", "displayName", "introducedYear", "current", "startingPriceAud", "technicalSpecificationsUrl", "images", "panel", "referenceModes", "camera", "audio", "connections", "configurations", "physicalConfigurations", "compatibility", "electrical", "inTheBox"],
+			"properties": {
+				"id": { "$ref": "#/$defs/identifier" },
+				"displayName": { "type": "string", "minLength": 1 },
+				"introducedYear": { "type": "integer", "minimum": 2000 },
+				"current": { "type": "boolean" },
+				"startingPriceAud": { "type": "number", "minimum": 0 },
+				"technicalSpecificationsUrl": { "type": "string", "format": "uri" },
+				"images": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/image" } },
+				"panel": { "$ref": "#/$defs/panel" },
+				"referenceModes": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/referenceMode" } },
+				"camera": { "$ref": "#/$defs/camera" },
+				"audio": { "$ref": "#/$defs/audio" },
+				"connections": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/connection" } },
+				"configurations": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/configuration" } },
+				"physicalConfigurations": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/physicalConfiguration" } },
+				"compatibility": { "$ref": "#/$defs/compatibility" },
+				"electrical": { "$ref": "#/$defs/electrical" },
+				"inTheBox": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/boxItem" } }
+			}
+		}
+	}
+}

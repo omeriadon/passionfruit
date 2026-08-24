@@ -1,0 +1,84 @@
+{
+	"devices": [
+		{
+			"id": "ipad-pro-13-m5",
+			"name": "iPad Pro 13-inch (M5)",
+			"releaseYear": 2025,
+			"priceAud": 1999,
+			"colors": [],
+			"configurations": [],
+			"storageOptions": [],
+			"memoryOptions": [],
+			"chips": [],
+			"displays": [],
+			"cameras": [],
+			"audio": {
+				"speaker": true,
+				"microphone": true
+			},
+			"batteryAndPower": {
+				"hasBattery": true,
+				"batteryCapacityMah": null,
+				"batteryCapacityWhr": null,
+				"runtimeHours": [],
+				"charging": {
+					"portId": "ipad-pro-13-m5-port-usb-c",
+					"wiredFastCharge": false,
+					"wirelessCharging": false,
+					"wirelessStandards": [],
+					"fastChargeMinutesToPercent": null,
+					"adapterPowerW": null
+				},
+				"powerSupply": {
+					"hasExternalPowerAdapter": false,
+					"outputVoltageV": null,
+					"outputCurrentA": null,
+					"outputPowerW": null,
+					"inputVoltageRangeV": null,
+					"frequencyHz": null,
+					"consumptionW": null
+				}
+			},
+			"connectivity": {
+				"ports": [],
+				"wifi": {
+					"standards": []
+				},
+				"bluetooth": {
+					"version": "Bluetooth 6.0"
+				},
+				"cellular": {
+					"technologies": []
+				},
+				"uwb": null,
+				"thread": null,
+				"infrared": null,
+				"nearFieldCommunication": null,
+				"gps": null
+			},
+			"authentication": {
+				"methods": [],
+				"primaryMethod": "Face ID"
+			},
+			"physical": {
+				"weights": [],
+				"dimensions": [],
+				"components": []
+			},
+			"resistance": {
+				"ipRating": null,
+				"waterDepthM": null,
+				"splashPressureAtm": null,
+				"dustProtected": false,
+				"sweatResistant": false
+			},
+			"software": {
+				"operatingSystem": "iPadOS",
+				"operatingSystemVersionAtLaunch": null,
+				"builtInApps": []
+			},
+			"accessories": [],
+			"sourceNotes": "Merged from supplied Apple AU compare exports: ipad.html, ipad2.html, ipad3.html, ipad4.html, ipad5.html. Source URL: https://www.apple.com/au/ipad/compare/. Canonical cheapest displayed connectivity price from supplied Apple AU featured-column HTML: A$1,999. Bluetooth version from supplied Apple AU compare matrix row 9YpGntiT. Bluetooth 5.2 is normalized to the contract enum value Bluetooth 5.0 because the schema has no Bluetooth 5.2 token; source wording remains recorded here. Runtime from supplied Apple AU compare matrix rows igIdlZBZ and VTaQBhc_. Runtime from supplied Apple AU compare matrix row VTaQBhc_."
+		}
+	]
+}

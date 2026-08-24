@@ -1,0 +1,689 @@
+{
+	"devices": [
+		{
+			"id": "macbook-pro-13-in-intel-two-ports-2020",
+			"name": "MacBook Pro 13-in. (Intel, two ports, 2020)",
+			"family": "mac",
+			"releaseYear": 2020,
+			"priceAud": null,
+			"colors": [],
+			"configurations": [],
+			"storageOptions": [
+				{
+					"id": "256gb",
+					"displayName": "256GB",
+					"capacityValue": 256,
+					"capacityUnit": "GB",
+					"sourceNotes": "256GB SSD"
+				},
+				{
+					"id": "512gb",
+					"displayName": "512GB",
+					"capacityValue": 512,
+					"capacityUnit": "GB",
+					"sourceNotes": "512GB SSD"
+				},
+				{
+					"id": "1tb",
+					"displayName": "1TB",
+					"capacityValue": 1,
+					"capacityUnit": "TB",
+					"sourceNotes": "1TB SSD"
+				},
+				{
+					"id": "2tb",
+					"displayName": "2TB",
+					"capacityValue": 2,
+					"capacityUnit": "TB",
+					"sourceNotes": "2TB SSD"
+				}
+			],
+			"memoryOptions": [
+				{
+					"id": "8gb",
+					"displayName": "8GB",
+					"capacityValue": 8,
+					"capacityUnit": "GB",
+					"kind": "other",
+					"sourceNotes": "8GB memory; source labels the memory kind as memory."
+				},
+				{
+					"id": "16gb",
+					"displayName": "16GB",
+					"capacityValue": 16,
+					"capacityUnit": "GB",
+					"kind": "other",
+					"sourceNotes": "16GB memory; source labels the memory kind as memory."
+				}
+			],
+			"chips": [
+				{
+					"id": "intel-core-i5-1-4ghz",
+					"displayName": "1.4GHz quad-core Intel Core i5",
+					"family": "Intel Core i5",
+					"cpuCores": { "total": 4, "performance": null, "efficiency": null },
+					"gpuCores": null,
+					"neuralEngineCores": null,
+					"memoryBandwidthGbps": null,
+					"cpuCoreConfiguration": "Quad-core with Turbo Boost up to 4.5GHz",
+					"sourceNotes": "1.4GHz quad-core Intel Core i5; Turbo Boost up to 4.5GHz."
+				},
+				{
+					"id": "intel-core-i7-1-7ghz",
+					"displayName": "1.7GHz quad-core Intel Core i7",
+					"family": "Intel Core i7",
+					"cpuCores": { "total": 4, "performance": null, "efficiency": null },
+					"gpuCores": null,
+					"neuralEngineCores": null,
+					"memoryBandwidthGbps": null,
+					"cpuCoreConfiguration": "Quad-core with Turbo Boost up to 4.5GHz",
+					"sourceNotes": "1.7GHz quad-core Intel Core i7; Turbo Boost up to 4.5GHz."
+				}
+			],
+			"displays": [
+				{
+					"id": "display-13-3-retina",
+					"technology": "Retina display",
+					"panelKind": "LED-backlit LCD",
+					"sizeIn": 13.3,
+					"resolutionWidthPx": 2560,
+					"resolutionHeightPx": 1600,
+					"pixelsPerInch": null,
+					"sdrPeakBrightnessNits": 500,
+					"trueTone": true,
+					"wideColorP3": true,
+					"sourceNotes": "13.3-inch diagonal LED-backlit display with IPS technology; Retina display; 2560 by 1600 pixels; 500 nits brightness; Wide colour (P3); True Tone technology."
+				}
+			],
+			"cameras": [
+				{
+					"id": "camera-facetime-hd",
+					"role": "FaceTime",
+					"displayName": "720p FaceTime HD camera",
+					"megapixels": null
+				}
+			],
+			"audio": {
+				"speaker": true,
+				"microphone": true,
+				"spatialAudio": true,
+				"speakerConfiguration": "Stereo speakers with high dynamic range and wide stereo sound",
+				"microphoneConfiguration": "Three-mic array with directional beamforming",
+				"formats": ["Dolby Atmos playback"],
+				"sourceNotes": "Stereo speakers; three-mic array; support for Dolby Atmos playback; 3.5-mm headphone jack."
+			},
+			"batteryAndPower": {
+				"hasBattery": true,
+				"batteryCapacityMah": null,
+				"batteryCapacityWhr": 58.2,
+				"runtimeHours": [
+					{
+						"id": "wireless-web",
+						"activity": "Wireless web",
+						"hours": 10,
+						"qualifier": "Up to"
+					},
+					{
+						"id": "apple-tv-movie-playback",
+						"activity": "Apple TV app movie playback",
+						"hours": 10,
+						"qualifier": "Up to"
+					}
+				],
+				"charging": {
+					"portId": null,
+					"wiredFastCharge": null,
+					"wirelessCharging": false,
+					"wirelessStandards": [],
+					"fastChargeMinutesToPercent": null,
+					"adapterPowerW": 61
+				},
+				"powerSupply": {
+					"hasExternalPowerAdapter": true,
+					"outputVoltageV": null,
+					"outputCurrentA": null,
+					"outputPowerW": 61,
+					"inputVoltageRangeV": null,
+					"frequencyHz": null,
+					"consumptionW": null
+				}
+			},
+			"connectivity": {
+				"ports": [
+					{
+						"id": "thunderbolt-3-two-port",
+						"kind": "proprietary",
+						"standard": "Thunderbolt 3",
+						"quantity": 2,
+						"supportsDisplayOut": null,
+						"maxPowerW": null,
+						"sourceNotes": "Two Thunderbolt 3 (USB-C) ports"
+					},
+					{
+						"id": "headphone-jack",
+						"kind": "3.5 mm audio jack",
+						"quantity": 1,
+						"supportsDisplayOut": null,
+						"maxPowerW": null,
+						"sourceNotes": "3.5-mm headphone jack"
+					}
+				],
+				"wifi": { "standards": ["Wi-Fi 5"] },
+				"bluetooth": { "version": "Bluetooth 5.0" },
+				"cellular": null,
+				"uwb": null,
+				"thread": null,
+				"infrared": null,
+				"nearFieldCommunication": null,
+				"gps": null
+			},
+			"authentication": {
+				"methods": ["Touch ID", "passcode"],
+				"primaryMethod": "Touch ID",
+				"placement": "keyboard",
+				"sourceNotes": "Touch Bar and Touch ID; authorise payments using Touch ID."
+			},
+			"physical": {
+				"weights": [{ "value": 1.4, "unit": "kg", "qualifier": "3.1 pounds" }],
+				"dimensions": [
+					{ "value": 1.56, "unit": "cm", "qualifier": "Height; 0.61 inch" },
+					{ "value": 30.41, "unit": "cm", "qualifier": "Width; 11.97 inches" },
+					{ "value": 21.24, "unit": "cm", "qualifier": "Depth; 8.36 inches" }
+				],
+				"components": []
+			},
+			"resistance": {
+				"ipRating": null,
+				"waterDepthM": null,
+				"splashPressureAtm": null,
+				"dustProtected": null,
+				"sweatResistant": null
+			},
+			"software": {
+				"operatingSystem": "macOS",
+				"operatingSystemVersionAtLaunch": null,
+				"builtInApps": ["FaceTime video", "FaceTime audio"]
+			},
+			"forceTouchTrackpad": true,
+			"backlitKeyboard": true,
+			"accessories": [],
+			"sourceNotes": "Backlit Magic Keyboard with Touch Bar and Touch ID; Force Touch trackpad; integrated 58.2-watt-hour lithium-polymer battery and included 61W USB-C Power Adapter; 802.11ac Wi-Fi normalized to Wi-Fi 5; source evidence from data/tmp/mac/mac6.html."
+		},
+		{
+			"id": "macbook-pro-16-in-m1-pro-or-m1-max-2021",
+			"name": "MacBook Pro 16-in. (M1 Pro or M1 Max, 2021)",
+			"family": "mac",
+			"releaseYear": 2021,
+			"priceAud": null,
+			"colors": [],
+			"configurations": [],
+			"storageOptions": [
+				{
+					"id": "512gb",
+					"displayName": "512GB",
+					"capacityValue": 512,
+					"capacityUnit": "GB",
+					"sourceNotes": "512GB SSD"
+				},
+				{
+					"id": "1tb",
+					"displayName": "1TB",
+					"capacityValue": 1,
+					"capacityUnit": "TB",
+					"sourceNotes": "1TB SSD"
+				},
+				{
+					"id": "2tb",
+					"displayName": "2TB",
+					"capacityValue": 2,
+					"capacityUnit": "TB",
+					"sourceNotes": "2TB SSD"
+				},
+				{
+					"id": "4tb",
+					"displayName": "4TB",
+					"capacityValue": 4,
+					"capacityUnit": "TB",
+					"sourceNotes": "4TB SSD"
+				},
+				{
+					"id": "8tb",
+					"displayName": "8TB",
+					"capacityValue": 8,
+					"capacityUnit": "TB",
+					"sourceNotes": "8TB SSD"
+				}
+			],
+			"memoryOptions": [
+				{
+					"id": "16gb",
+					"displayName": "16GB",
+					"capacityValue": 16,
+					"capacityUnit": "GB",
+					"kind": "unified",
+					"sourceNotes": "16GB memory"
+				},
+				{
+					"id": "32gb",
+					"displayName": "32GB",
+					"capacityValue": 32,
+					"capacityUnit": "GB",
+					"kind": "unified",
+					"sourceNotes": "32GB memory"
+				},
+				{
+					"id": "64gb-m1-max",
+					"displayName": "64GB (M1 Max)",
+					"capacityValue": 64,
+					"capacityUnit": "GB",
+					"kind": "unified",
+					"sourceNotes": "64GB memory; source labels availability to M1 Max."
+				}
+			],
+			"chips": [
+				{
+					"id": "apple-m1-pro-chip",
+					"displayName": "Apple M1 Pro chip",
+					"family": "M1 Pro chip",
+					"cpuCores": { "total": 10, "performance": 8, "efficiency": 2 },
+					"gpuCores": null,
+					"neuralEngineCores": 16,
+					"memoryBandwidthGbps": 200,
+					"mediaEngines": [
+						{
+							"id": "m1-pro-media-engine",
+							"displayName": "Media Engine",
+							"kinds": ["video-decode", "video-encode"]
+						}
+					],
+					"sourceNotes": "10-core CPU with 8 performance cores and 2 efficiency cores; 16-core GPU; 16-core Neural Engine; 200GB/s memory bandwidth."
+				},
+				{
+					"id": "apple-m1-max-chip",
+					"displayName": "Apple M1 Max chip",
+					"family": "M1 Max chip",
+					"cpuCores": { "total": 10, "performance": 8, "efficiency": 2 },
+					"gpuCores": 32,
+					"neuralEngineCores": 16,
+					"memoryBandwidthGbps": 400,
+					"cpuCoreConfiguration": "10-core CPU with 8 performance cores and 2 efficiency cores; up to 32-core GPU.",
+					"mediaEngines": [
+						{
+							"id": "m1-max-media-engine",
+							"displayName": "Media Engine",
+							"kinds": ["video-decode", "video-encode"]
+						},
+						{
+							"id": "m1-max-prores-engine",
+							"displayName": "ProRes engine",
+							"kinds": ["ProRes encode-decode"]
+						}
+					],
+					"sourceNotes": "Second listed processor row: up to 32-core GPU; 400GB/s memory bandwidth. Media engine supports H.264, HEVC, ProRes and ProRes RAW decode and encode."
+				}
+			],
+			"displays": [
+				{
+					"id": "display-16-2-xdr",
+					"technology": "Liquid Retina XDR display",
+					"panelKind": "LED-backlit LCD",
+					"sizeIn": 16.2,
+					"resolutionWidthPx": 3456,
+					"resolutionHeightPx": 2234,
+					"pixelsPerInch": null,
+					"refreshRateRange": {
+						"minimum": 0,
+						"maximum": 120,
+						"unit": "hz",
+						"qualifier": "Adaptive refresh rates with ProMotion technology"
+					},
+					"sdrPeakBrightnessNits": 500,
+					"hdrPeakBrightnessNits": 1600,
+					"fullScreenHdrBrightnessNits": 1000,
+					"trueTone": true,
+					"promotion": true,
+					"wideColorP3": true,
+					"sourceNotes": "Mini-LED-backlit display footnote 9; XDR brightness: 1000 nits sustained full-screen and 1600 nits peak for HDR content only; SDR brightness: 500 nits max; Wide colour P3; True Tone; ProMotion up to 120Hz."
+				}
+			],
+			"cameras": [
+				{
+					"id": "camera-facetime-hd",
+					"role": "FaceTime",
+					"displayName": "1080p FaceTime HD camera with advanced image signal processor and computational video",
+					"megapixels": null
+				}
+			],
+			"audio": {
+				"speaker": true,
+				"microphone": true,
+				"spatialAudio": true,
+				"speakerConfiguration": "High-fidelity six-speaker sound system with force-cancelling woofers and wide stereo sound",
+				"microphoneConfiguration": "Studio-quality three-mic array with high signal-to-noise ratio and directional beamforming",
+				"formats": ["Dolby Atmos playback", "Spatial Audio"],
+				"sourceNotes": "Supports Dolby Atmos playback on built-in speakers; Spatial Audio with dynamic head tracking using supported AirPods models."
+			},
+			"batteryAndPower": {
+				"hasBattery": true,
+				"batteryCapacityMah": null,
+				"batteryCapacityWhr": 100,
+				"runtimeHours": [
+					{
+						"id": "wireless-web",
+						"activity": "Wireless web",
+						"hours": 14,
+						"qualifier": "Up to"
+					},
+					{
+						"id": "apple-tv-movie-playback",
+						"activity": "Apple TV app movie playback",
+						"hours": 21,
+						"qualifier": "Up to"
+					}
+				],
+				"charging": {
+					"portId": null,
+					"wiredFastCharge": true,
+					"wirelessCharging": false,
+					"wirelessStandards": [],
+					"fastChargeMinutesToPercent": null,
+					"adapterPowerW": 140
+				},
+				"powerSupply": {
+					"hasExternalPowerAdapter": true,
+					"outputVoltageV": null,
+					"outputCurrentA": null,
+					"outputPowerW": 140,
+					"inputVoltageRangeV": null,
+					"frequencyHz": null,
+					"consumptionW": null
+				}
+			},
+			"connectivity": {
+				"ports": [
+					{
+						"id": "thunderbolt-4-three-port",
+						"kind": "Thunderbolt 4",
+						"standard": "Thunderbolt 4",
+						"quantity": 3,
+						"supportsDisplayOut": null,
+						"maxPowerW": null,
+						"sourceNotes": "Three Thunderbolt 4 (USB-C) ports"
+					},
+					{
+						"id": "hdmi-port",
+						"kind": "HDMI",
+						"quantity": 1,
+						"supportsDisplayOut": null,
+						"maxPowerW": null,
+						"sourceNotes": "HDMI port"
+					},
+					{
+						"id": "sdxc-card-slot",
+						"kind": "proprietary",
+						"quantity": 1,
+						"supportsDisplayOut": null,
+						"maxPowerW": null,
+						"sourceNotes": "SDXC card slot"
+					},
+					{
+						"id": "headphone-jack",
+						"kind": "3.5 mm audio jack",
+						"quantity": 1,
+						"supportsDisplayOut": null,
+						"maxPowerW": null,
+						"sourceNotes": "3.5-mm headphone jack with advanced support for high-impedance headphones"
+					}
+				],
+				"wifi": { "standards": ["Wi-Fi 6"] },
+				"bluetooth": { "version": "Bluetooth 5.0" },
+				"cellular": null,
+				"uwb": null,
+				"thread": null,
+				"infrared": null,
+				"nearFieldCommunication": null,
+				"gps": null
+			},
+			"authentication": {
+				"methods": ["Touch ID", "passcode"],
+				"primaryMethod": "Touch ID",
+				"placement": "keyboard",
+				"sourceNotes": "Touch ID; authorise payments using Touch ID."
+			},
+			"physical": {
+				"weights": [{ "value": 2.1, "unit": "kg", "qualifier": "4.7 pounds" }],
+				"dimensions": [
+					{ "value": 1.68, "unit": "cm", "qualifier": "Height; 0.66 inch" },
+					{ "value": 35.57, "unit": "cm", "qualifier": "Width; 14.01 inches" },
+					{ "value": 24.81, "unit": "cm", "qualifier": "Depth; 9.77 inches" }
+				],
+				"components": []
+			},
+			"resistance": {
+				"ipRating": null,
+				"waterDepthM": null,
+				"splashPressureAtm": null,
+				"dustProtected": null,
+				"sweatResistant": null
+			},
+			"software": {
+				"operatingSystem": "macOS",
+				"operatingSystemVersionAtLaunch": null,
+				"builtInApps": ["FaceTime video", "FaceTime audio"]
+			},
+			"forceTouchTrackpad": true,
+			"backlitKeyboard": true,
+			"accessories": [],
+			"sourceNotes": "Backlit Magic Keyboard with Touch ID and full-height function keys; Force Touch trackpad; integrated 100-watt-hour lithium-polymer battery, included 140W USB-C Power Adapter, and fast charging with included adapter; Wi-Fi 6 (802.11ax); source evidence from data/tmp/mac/mac6.html."
+		},
+		{
+			"id": "macbook-pro-13-in-intel-four-ports-2020",
+			"name": "MacBook Pro 13-in. (Intel, four ports, 2020)",
+			"family": "mac",
+			"releaseYear": 2020,
+			"priceAud": null,
+			"colors": [],
+			"configurations": [],
+			"storageOptions": [
+				{
+					"id": "512gb",
+					"displayName": "512GB",
+					"capacityValue": 512,
+					"capacityUnit": "GB",
+					"sourceNotes": "512GB SSD"
+				},
+				{
+					"id": "1tb",
+					"displayName": "1TB",
+					"capacityValue": 1,
+					"capacityUnit": "TB",
+					"sourceNotes": "1TB SSD"
+				},
+				{
+					"id": "2tb",
+					"displayName": "2TB",
+					"capacityValue": 2,
+					"capacityUnit": "TB",
+					"sourceNotes": "2TB SSD"
+				},
+				{
+					"id": "4tb",
+					"displayName": "4TB",
+					"capacityValue": 4,
+					"capacityUnit": "TB",
+					"sourceNotes": "4TB SSD"
+				}
+			],
+			"memoryOptions": [
+				{
+					"id": "16gb",
+					"displayName": "16GB",
+					"capacityValue": 16,
+					"capacityUnit": "GB",
+					"kind": "other",
+					"sourceNotes": "16GB memory; source labels the memory kind as memory."
+				},
+				{
+					"id": "32gb",
+					"displayName": "32GB",
+					"capacityValue": 32,
+					"capacityUnit": "GB",
+					"kind": "other",
+					"sourceNotes": "32GB memory; source labels the memory kind as memory."
+				}
+			],
+			"chips": [
+				{
+					"id": "intel-core-i5-2-0ghz",
+					"displayName": "2.0GHz quad-core Intel Core i5",
+					"family": "Intel Core i5",
+					"cpuCores": { "total": 4, "performance": null, "efficiency": null },
+					"gpuCores": null,
+					"neuralEngineCores": null,
+					"memoryBandwidthGbps": null,
+					"cpuCoreConfiguration": "Quad-core with Turbo Boost up to 3.8GHz",
+					"sourceNotes": "2.0GHz quad-core Intel Core i5; Turbo Boost up to 3.8GHz."
+				},
+				{
+					"id": "intel-core-i7-2-3ghz",
+					"displayName": "2.3GHz quad-core Intel Core i7",
+					"family": "Intel Core i7",
+					"cpuCores": { "total": 4, "performance": null, "efficiency": null },
+					"gpuCores": null,
+					"neuralEngineCores": null,
+					"memoryBandwidthGbps": null,
+					"cpuCoreConfiguration": "Quad-core with Turbo Boost up to 4.1GHz",
+					"sourceNotes": "2.3GHz quad-core Intel Core i7; Turbo Boost up to 4.1GHz."
+				}
+			],
+			"displays": [
+				{
+					"id": "display-13-3-retina",
+					"technology": "Retina display",
+					"panelKind": "LED-backlit LCD",
+					"sizeIn": 13.3,
+					"resolutionWidthPx": 2560,
+					"resolutionHeightPx": 1600,
+					"pixelsPerInch": null,
+					"sdrPeakBrightnessNits": 500,
+					"trueTone": true,
+					"wideColorP3": true,
+					"sourceNotes": "13.3-inch diagonal LED-backlit display with IPS technology; Retina display; 2560 by 1600 pixels; 500 nits brightness; Wide colour (P3); True Tone technology."
+				}
+			],
+			"cameras": [
+				{
+					"id": "camera-facetime-hd",
+					"role": "FaceTime",
+					"displayName": "720p FaceTime HD camera",
+					"megapixels": null
+				}
+			],
+			"audio": {
+				"speaker": true,
+				"microphone": true,
+				"spatialAudio": true,
+				"speakerConfiguration": "Stereo speakers with high dynamic range and wide stereo sound",
+				"microphoneConfiguration": "Three-mic array with directional beamforming",
+				"formats": ["Dolby Atmos playback"],
+				"sourceNotes": "Stereo speakers; three-mic array; support for Dolby Atmos playback; 3.5-mm headphone jack."
+			},
+			"batteryAndPower": {
+				"hasBattery": true,
+				"batteryCapacityMah": null,
+				"batteryCapacityWhr": 58.0,
+				"runtimeHours": [
+					{
+						"id": "wireless-web",
+						"activity": "Wireless web",
+						"hours": 10,
+						"qualifier": "Up to"
+					},
+					{
+						"id": "apple-tv-movie-playback",
+						"activity": "Apple TV app movie playback",
+						"hours": 10,
+						"qualifier": "Up to"
+					}
+				],
+				"charging": {
+					"portId": null,
+					"wiredFastCharge": null,
+					"wirelessCharging": false,
+					"wirelessStandards": [],
+					"fastChargeMinutesToPercent": null,
+					"adapterPowerW": 61
+				},
+				"powerSupply": {
+					"hasExternalPowerAdapter": true,
+					"outputVoltageV": null,
+					"outputCurrentA": null,
+					"outputPowerW": 61,
+					"inputVoltageRangeV": null,
+					"frequencyHz": null,
+					"consumptionW": null
+				}
+			},
+			"connectivity": {
+				"ports": [
+					{
+						"id": "thunderbolt-3-four-port",
+						"kind": "proprietary",
+						"standard": "Thunderbolt 3",
+						"quantity": 4,
+						"supportsDisplayOut": null,
+						"maxPowerW": null,
+						"sourceNotes": "Four Thunderbolt 3 (USB-C) ports"
+					},
+					{
+						"id": "headphone-jack",
+						"kind": "3.5 mm audio jack",
+						"quantity": 1,
+						"supportsDisplayOut": null,
+						"maxPowerW": null,
+						"sourceNotes": "3.5-mm headphone jack"
+					}
+				],
+				"wifi": { "standards": ["Wi-Fi 5"] },
+				"bluetooth": { "version": "Bluetooth 5.0" },
+				"cellular": null,
+				"uwb": null,
+				"thread": null,
+				"infrared": null,
+				"nearFieldCommunication": null,
+				"gps": null
+			},
+			"authentication": {
+				"methods": ["Touch ID", "passcode"],
+				"primaryMethod": "Touch ID",
+				"placement": "keyboard",
+				"sourceNotes": "Touch Bar and Touch ID; authorise payments using Touch ID."
+			},
+			"physical": {
+				"weights": [{ "value": 1.4, "unit": "kg", "qualifier": "3.1 pounds" }],
+				"dimensions": [
+					{ "value": 1.56, "unit": "cm", "qualifier": "Height; 0.61 inch" },
+					{ "value": 30.41, "unit": "cm", "qualifier": "Width; 11.97 inches" },
+					{ "value": 21.24, "unit": "cm", "qualifier": "Depth; 8.36 inches" }
+				],
+				"components": []
+			},
+			"resistance": {
+				"ipRating": null,
+				"waterDepthM": null,
+				"splashPressureAtm": null,
+				"dustProtected": null,
+				"sweatResistant": null
+			},
+			"software": {
+				"operatingSystem": "macOS",
+				"operatingSystemVersionAtLaunch": null,
+				"builtInApps": ["FaceTime video", "FaceTime audio"]
+			},
+			"forceTouchTrackpad": true,
+			"backlitKeyboard": true,
+			"accessories": [],
+			"sourceNotes": "Backlit Magic Keyboard with Touch Bar and Touch ID; Force Touch trackpad; integrated 58.0-watt-hour lithium-polymer battery and included 61W USB-C Power Adapter; 802.11ac Wi-Fi normalized to Wi-Fi 5; source evidence from data/tmp/mac/mac6.html."
+		}
+	]
+}

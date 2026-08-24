@@ -1,0 +1,208 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"$id": "https://passionfruit.local/schemas/apple-tv.schema.json",
+	"title": "Apple TV catalogue",
+	"type": "object",
+	"additionalProperties": false,
+	"required": ["devices"],
+	"properties": {
+		"devices": {
+			"type": "array",
+			"items": { "$ref": "#/$defs/appleTVDevice" },
+			"minItems": 1
+		}
+	},
+	"$defs": {
+		"measurement": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["value", "unit"],
+			"properties": {
+				"value": { "type": "number" },
+				"unit": { "type": "string", "enum": ["mm", "g"] },
+				"qualifier": { "type": "string", "minLength": 1 }
+			}
+		},
+		"image": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["label", "appleUrl", "localPath", "widthPx", "heightPx"],
+			"properties": {
+				"label": { "type": "string" },
+				"appleUrl": { "type": "string", "format": "uri" },
+				"localPath": { "type": "string", "minLength": 1 },
+				"widthPx": { "type": "integer", "minimum": 1 },
+				"heightPx": { "type": "integer", "minimum": 1 }
+			}
+		},
+		"chip": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["id", "displayName"],
+			"properties": {
+				"id": { "type": "string", "minLength": 1 },
+				"displayName": { "type": "string", "minLength": 1 },
+				"family": { "type": "string", "minLength": 1 },
+				"sourceNotes": { "type": "string", "minLength": 1 }
+			}
+		},
+		"storage": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["capacityGb"],
+			"properties": {
+				"capacityGb": { "type": "integer", "minimum": 1 },
+				"sourceNotes": { "type": "string", "minLength": 1 }
+			}
+		},
+		"configurationConnectivity": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["wifi", "ethernet"],
+			"properties": {
+				"wifi": { "type": "boolean" },
+				"ethernet": { "type": "boolean" },
+				"ethernetStandard": { "type": "string", "minLength": 1 },
+				"sourceNotes": { "type": "string", "minLength": 1 }
+			}
+		},
+		"configuration": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["id", "displayName", "storage", "connectivity"],
+			"properties": {
+				"id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+				"displayName": { "type": "string", "minLength": 1 },
+				"storage": { "$ref": "#/$defs/storage" },
+				"connectivity": { "$ref": "#/$defs/configurationConnectivity" },
+				"priceAud": { "type": "number", "minimum": 0 },
+				"sourceNotes": { "type": "string", "minLength": 1 }
+			}
+		},
+		"port": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["id", "kind", "quantity"],
+			"properties": {
+				"id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+				"kind": { "type": "string", "minLength": 1 },
+				"quantity": { "type": "integer", "minimum": 1 },
+				"standard": { "type": "string", "minLength": 1 },
+				"sourceNotes": { "type": "string", "minLength": 1 }
+			}
+		},
+		"wireless": {
+			"type": "object",
+			"additionalProperties": false,
+			"properties": {
+				"standards": {
+					"type": "array",
+					"items": { "type": "string", "minLength": 1 }
+				},
+				"version": { "type": "string", "minLength": 1 },
+				"mimo": { "type": "string", "minLength": 1 },
+				"supported": { "type": "boolean" },
+				"purpose": { "type": "string", "minLength": 1 }
+			}
+		},
+		"connectivity": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["ports"],
+			"properties": {
+				"ports": { "type": "array", "items": { "$ref": "#/$defs/port" } },
+				"wifi": { "$ref": "#/$defs/wireless" },
+				"bluetooth": { "$ref": "#/$defs/wireless" },
+				"thread": { "$ref": "#/$defs/wireless" },
+				"infrared": { "$ref": "#/$defs/wireless" }
+			}
+		},
+		"physicalComponent": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["id", "displayName", "dimensions"],
+			"properties": {
+				"id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+				"displayName": { "type": "string", "minLength": 1 },
+				"dimensions": {
+					"type": "array",
+					"items": { "$ref": "#/$defs/measurement" }
+				},
+				"weight": { "$ref": "#/$defs/measurement" },
+				"sourceNotes": { "type": "string", "minLength": 1 }
+			}
+		},
+		"physical": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["weights", "dimensions", "components"],
+			"properties": {
+				"weights": {
+					"type": "array",
+					"items": { "$ref": "#/$defs/measurement" }
+				},
+				"dimensions": {
+					"type": "array",
+					"items": { "$ref": "#/$defs/measurement" }
+				},
+				"components": {
+					"type": "array",
+					"items": { "$ref": "#/$defs/physicalComponent" }
+				}
+			}
+		},
+		"accessory": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["accessoryId", "displayName", "category"],
+			"properties": {
+				"accessoryId": {
+					"type": "string",
+					"pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+				},
+				"displayName": { "type": "string", "minLength": 1 },
+				"category": { "type": "string", "minLength": 1 },
+				"capabilities": {
+					"type": "array",
+					"items": { "type": "string", "minLength": 1 }
+				},
+				"sourceNotes": { "type": "string", "minLength": 1 }
+			}
+		},
+		"appleTVDevice": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": [
+				"id",
+				"name",
+				"releaseYear",
+				"configurations",
+				"chip",
+				"connectivity",
+				"physical",
+				"images",
+				"accessories"
+			],
+			"properties": {
+				"id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+				"name": { "type": "string", "minLength": 1 },
+				"releaseYear": { "type": "integer", "minimum": 1976, "maximum": 2100 },
+				"priceAud": { "type": "number", "minimum": 0 },
+				"configurations": {
+					"type": "array",
+					"items": { "$ref": "#/$defs/configuration" },
+					"minItems": 1
+				},
+				"chip": { "$ref": "#/$defs/chip" },
+				"connectivity": { "$ref": "#/$defs/connectivity" },
+				"physical": { "$ref": "#/$defs/physical" },
+				"images": { "type": "array", "items": { "$ref": "#/$defs/image" } },
+				"accessories": {
+					"type": "array",
+					"items": { "$ref": "#/$defs/accessory" }
+				},
+				"sourceNotes": { "type": "string", "minLength": 1 }
+			}
+		}
+	}
+}

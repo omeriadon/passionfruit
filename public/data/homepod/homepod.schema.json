@@ -1,0 +1,324 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"$id": "https://passionfruit.local/schemas/homepod.schema.json",
+	"title": "Apple HomePod data",
+	"type": "object",
+	"additionalProperties": false,
+	"required": ["devices"],
+	"properties": {
+		"devices": {
+			"type": "array",
+			"items": { "$ref": "#/$defs/homePod" }
+		}
+	},
+	"$defs": {
+		"image": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["label", "appleUrl", "localPath", "widthPx", "heightPx"],
+			"properties": {
+				"label": { "type": "string", "minLength": 1 },
+				"appleUrl": { "type": "string", "format": "uri" },
+				"localPath": { "type": "string", "minLength": 1 },
+				"widthPx": { "type": "integer", "minimum": 1 },
+				"heightPx": { "type": "integer", "minimum": 1 }
+			}
+		},
+		"swatch": {
+			"oneOf": [
+				{
+					"type": "object",
+					"additionalProperties": false,
+					"required": ["kind", "value"],
+					"properties": {
+						"kind": { "const": "css" },
+						"value": { "type": "string", "minLength": 1 }
+					}
+				},
+				{
+					"type": "object",
+					"additionalProperties": false,
+					"required": ["kind", "url"],
+					"properties": {
+						"kind": { "const": "image" },
+						"url": { "type": "string", "format": "uri" }
+					}
+				}
+			]
+		},
+		"color": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["id", "displayName", "swatch", "images"],
+			"properties": {
+				"id": { "type": "string", "minLength": 1 },
+				"displayName": { "type": "string", "minLength": 1 },
+				"swatch": { "$ref": "#/$defs/swatch" },
+				"images": { "type": "array", "items": { "$ref": "#/$defs/image" } },
+				"colorPriceAud": { "type": "number", "exclusiveMinimum": 0 },
+				"sourceNotes": { "type": "string", "minLength": 1 }
+			}
+		},
+		"cpuCores": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["total"],
+			"properties": {
+				"total": { "type": "integer", "minimum": 1 },
+				"performance": { "type": "integer", "minimum": 0 },
+				"efficiency": { "type": "integer", "minimum": 0 }
+			}
+		},
+		"chip": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["id", "displayName"],
+			"properties": {
+				"id": { "type": "string", "minLength": 1 },
+				"displayName": { "type": "string", "minLength": 1 },
+				"family": { "type": "string", "minLength": 1 },
+				"cpuCores": { "$ref": "#/$defs/cpuCores" },
+				"neuralAccelerators": { "type": "boolean" },
+				"processNode": { "type": "string" },
+				"sourceNotes": { "type": "string", "minLength": 1 }
+			}
+		},
+		"audio": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["speaker", "microphone", "spatialAudio", "formats"],
+			"properties": {
+				"speaker": { "type": "boolean" },
+				"microphone": { "type": "boolean" },
+				"speakerConfiguration": { "type": "string", "minLength": 1 },
+				"microphoneConfiguration": { "type": "string", "minLength": 1 },
+				"spatialAudio": { "type": "boolean" },
+				"formats": {
+					"type": "array",
+					"items": { "type": "string", "minLength": 1 }
+				},
+				"sourceNotes": { "type": "string" }
+			}
+		},
+		"powerSupply": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["hasExternalPowerAdapter"],
+			"properties": {
+				"hasExternalPowerAdapter": { "type": "boolean" },
+				"outputVoltageV": { "type": "number" },
+				"outputCurrentA": { "type": "number" },
+				"outputPowerW": { "type": "number" },
+				"inputVoltageRangeV": {
+					"type": "object",
+					"additionalProperties": false,
+					"required": ["minimum", "maximum"],
+					"properties": {
+						"minimum": { "type": "number" },
+						"maximum": { "type": "number" }
+					}
+				},
+				"frequencyHz": { "type": "number" },
+				"consumptionW": { "type": "number" },
+				"sourceNotes": { "type": "string" }
+			}
+		},
+		"port": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["id", "kind"],
+			"properties": {
+				"id": { "type": "string", "minLength": 1 },
+				"kind": { "type": "string", "minLength": 1 },
+				"quantity": { "type": "integer", "minimum": 1 },
+				"sourceNotes": { "type": "string", "minLength": 1 }
+			}
+		},
+		"connectivity": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": [
+				"ports",
+				"wifi",
+				"bluetooth",
+				"uwb",
+				"thread",
+				"infrared",
+				"nearFieldCommunication",
+				"gps"
+			],
+			"properties": {
+				"ports": { "type": "array", "items": { "$ref": "#/$defs/port" } },
+				"wifi": {
+					"type": "object",
+					"additionalProperties": false,
+					"required": ["standards"],
+					"properties": {
+						"standards": {
+							"type": "array",
+							"items": { "type": "string", "minLength": 1 }
+						}
+					}
+				},
+				"bluetooth": {
+					"type": "object",
+					"additionalProperties": false,
+					"required": ["version"],
+					"properties": { "version": { "type": "string", "minLength": 1 } }
+				},
+				"uwb": {
+					"type": "object",
+					"additionalProperties": false,
+					"required": ["chip", "secondGeneration"],
+					"properties": {
+						"chip": { "type": "string", "minLength": 1 },
+						"secondGeneration": { "type": "boolean" }
+					}
+				},
+				"thread": {
+					"type": "object",
+					"additionalProperties": false,
+					"required": ["supported"],
+					"properties": { "supported": { "type": "boolean" } }
+				},
+				"infrared": {
+					"type": "object",
+					"additionalProperties": false,
+					"required": ["present"],
+					"properties": {
+						"present": { "type": "boolean" },
+						"purpose": { "type": "string" }
+					}
+				},
+				"nearFieldCommunication": {
+					"type": "object",
+					"additionalProperties": false,
+					"required": ["present"],
+					"properties": { "present": { "type": "boolean" } }
+				},
+				"gps": {
+					"type": "object",
+					"additionalProperties": false,
+					"required": ["present"],
+					"properties": { "present": { "type": "boolean" } }
+				}
+			}
+		},
+		"measurement": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["value", "unit"],
+			"properties": {
+				"value": { "type": "number" },
+				"unit": { "type": "string", "minLength": 1 },
+				"qualifier": { "type": "string", "minLength": 1 }
+			}
+		},
+		"physicalComponent": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["id", "displayName", "dimensions", "weight", "weightUnit"],
+			"properties": {
+				"id": { "type": "string", "minLength": 1 },
+				"displayName": { "type": "string", "minLength": 1 },
+				"dimensions": {
+					"type": "array",
+					"items": { "$ref": "#/$defs/measurement" }
+				},
+				"weight": { "type": "number" },
+				"weightUnit": { "type": "string", "minLength": 1 },
+				"sourceNotes": { "type": "string", "minLength": 1 }
+			}
+		},
+		"physical": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["weights", "dimensions", "components"],
+			"properties": {
+				"weights": {
+					"type": "array",
+					"items": { "$ref": "#/$defs/measurement" }
+				},
+				"dimensions": {
+					"type": "array",
+					"items": { "$ref": "#/$defs/measurement" }
+				},
+				"components": {
+					"type": "array",
+					"items": { "$ref": "#/$defs/physicalComponent" }
+				}
+			}
+		},
+		"software": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": [
+				"operatingSystem",
+				"compatibleOperatingSystems",
+				"builtInApps"
+			],
+			"properties": {
+				"operatingSystem": { "type": "string", "minLength": 1 },
+				"compatibleOperatingSystems": {
+					"type": "array",
+					"items": { "type": "string", "minLength": 1 }
+				},
+				"builtInApps": {
+					"type": "array",
+					"items": { "type": "string", "minLength": 1 }
+				},
+				"sourceNotes": { "type": "string", "minLength": 1 }
+			}
+		},
+		"accessory": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["displayName", "category"],
+			"properties": {
+				"accessoryId": { "type": "string", "minLength": 1 },
+				"displayName": { "type": "string", "minLength": 1 },
+				"category": { "type": "string", "minLength": 1 },
+				"capabilities": {
+					"type": "array",
+					"items": { "type": "string", "minLength": 1 }
+				}
+			}
+		},
+		"homePod": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": [
+				"id",
+				"name",
+				"releaseYear",
+				"priceAud",
+				"colors",
+				"chips",
+				"audio",
+				"power",
+				"connectivity",
+				"physical",
+				"software",
+				"accessories"
+			],
+			"properties": {
+				"id": { "type": "string", "minLength": 1 },
+				"name": { "type": "string", "minLength": 1 },
+				"releaseYear": { "type": "integer", "minimum": 1976 },
+				"priceAud": { "type": ["number", "null"], "minimum": 0 },
+				"colors": { "type": "array", "items": { "$ref": "#/$defs/color" } },
+				"chips": { "type": "array", "items": { "$ref": "#/$defs/chip" } },
+				"audio": { "$ref": "#/$defs/audio" },
+				"power": { "$ref": "#/$defs/powerSupply" },
+				"connectivity": { "$ref": "#/$defs/connectivity" },
+				"physical": { "$ref": "#/$defs/physical" },
+				"software": { "$ref": "#/$defs/software" },
+				"accessories": {
+					"type": "array",
+					"items": { "$ref": "#/$defs/accessory" }
+				},
+				"sourceNotes": { "type": "string", "minLength": 1 }
+			}
+		}
+	}
+}

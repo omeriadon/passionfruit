@@ -1,0 +1,212 @@
+{
+	"group": "apple-display",
+	"sources": [
+		{
+			"kind": "announcement",
+			"url": "https://www.apple.com/au/newsroom/2026/03/apple-introduces-stunning-studio-display-xdr/"
+		},
+		{
+			"kind": "technical-specifications",
+			"url": "https://www.apple.com/au/studio-display/specs/"
+		},
+		{
+			"kind": "technical-specifications",
+			"url": "https://www.apple.com/au/studio-display-xdr/specs/"
+		},
+		{
+			"kind": "store",
+			"url": "https://www.apple.com/au/shop/buy-mac/studio-display/standard-glass-tilt-adjustable-stand"
+		},
+		{
+			"kind": "store",
+			"url": "https://www.apple.com/au/shop/buy-mac/studio-display-xdr/studio-display-xdr"
+		}
+	],
+	"products": [
+		{
+			"id": "studio-display-2026",
+			"displayName": "Studio Display",
+			"introducedYear": 2026,
+			"current": true,
+			"startingPriceAud": 2599,
+			"technicalSpecificationsUrl": "https://www.apple.com/au/studio-display/specs/",
+			"images": [
+				{
+					"id": "hero",
+					"label": "Studio Display product image",
+					"appleUrl": "https://www.apple.com/v/studio-display/specs/b/images/specs/hero__b0br0lcpzbci_large_2x.jpg",
+					"localPath": "/data/other/apple-display/images/studio-display-2026-hero-large-2x.jpg",
+					"widthPx": 1328,
+					"heightPx": 772,
+					"format": "jpeg",
+					"hasAlpha": false
+				}
+			],
+			"panel": {
+				"name": "5K Retina display",
+				"diagonalInches": 27,
+				"resolution": {
+					"widthPx": 5120,
+					"heightPx": 2880,
+					"pixelsPerInch": 218
+				},
+				"brightness": {
+					"sdrNits": 600
+				},
+				"maximumRefreshRateHz": 60,
+				"adaptiveSync": false,
+				"colour": {
+					"billionColours": 1,
+					"p3": true,
+					"adobeRgb": false,
+					"trueTone": true
+				},
+				"glassOptions": ["standard", "nano-texture"]
+			},
+			"referenceModes": [
+				{ "name": "Apple Display", "colourSpace": "P3", "peakBrightnessNits": 600 },
+				{ "name": "HDTV Video", "colourSpace": "BT.709", "transferFunction": "BT.1886" },
+				{ "name": "NTSC Video", "colourSpace": "BT.601", "transferFunction": "SMPTE-C" },
+				{ "name": "PAL and SECAM Video", "colourSpace": "BT.601", "transferFunction": "EBU" },
+				{ "name": "Digital Cinema", "colourSpace": "P3-DCI" },
+				{ "name": "Digital Cinema", "colourSpace": "P3-D65" },
+				{ "name": "Design and Print", "colourSpace": "P3-D50" },
+				{ "name": "Photography", "colourSpace": "P3-D65" },
+				{ "name": "Internet and Web", "colourSpace": "sRGB" }
+			],
+			"camera": {
+				"megapixels": 12,
+				"centerStage": true,
+				"deskView": true
+			},
+			"audio": {
+				"speakerCount": 6,
+				"highFidelity": true,
+				"forceCancellingWoofers": true,
+				"wideStereo": true,
+				"spatialAudioWithDolbyAtmos": true,
+				"microphoneCount": 3,
+				"studioQualityMicrophones": true,
+				"highSignalToNoiseRatio": true,
+				"directionalBeamforming": true,
+				"heySiri": true
+			},
+			"connections": [
+				{ "type": "Thunderbolt 5", "direction": "upstream", "count": 1, "maximumGbps": 120, "hostChargingWatts": 96 },
+				{ "type": "Thunderbolt 5", "direction": "downstream", "count": 1, "maximumGbps": 120, "hostChargingWatts": 0 },
+				{ "type": "USB-C", "direction": "downstream", "count": 2, "maximumGbps": 10, "hostChargingWatts": 0 }
+			],
+			"configurations": [
+				{ "id": "standard-glass-tilt-adjustable-stand", "glass": "standard", "mount": "tilt-adjustable-stand", "partNumber": "MFEX4X/A", "priceAud": 2599, "purchaseUrl": "https://www.apple.com/au/shop/buy-mac/studio-display/standard-glass-tilt-adjustable-stand" },
+				{ "id": "standard-glass-tilt-and-height-adjustable-stand", "glass": "standard", "mount": "tilt-and-height-adjustable-stand", "partNumber": "MFEW4X/A", "priceAud": 3299, "purchaseUrl": "https://www.apple.com/au/shop/buy-mac/studio-display/standard-glass-tilt-and-height-adjustable-stand" },
+				{ "id": "standard-glass-vesa-mount-adapter", "glass": "standard", "mount": "vesa-mount-adapter", "partNumber": "MFEY4X/A", "priceAud": 2599, "purchaseUrl": "https://www.apple.com/au/shop/buy-mac/studio-display/standard-glass-vesa-mount-adapter" },
+				{ "id": "nano-texture-glass-tilt-adjustable-stand", "glass": "nano-texture", "mount": "tilt-adjustable-stand", "partNumber": "MFF14X/A", "priceAud": 3099, "purchaseUrl": "https://www.apple.com/au/shop/buy-mac/studio-display/nano-texture-glass-tilt-adjustable-stand" },
+				{ "id": "nano-texture-glass-tilt-and-height-adjustable-stand", "glass": "nano-texture", "mount": "tilt-and-height-adjustable-stand", "partNumber": "MFF04X/A", "priceAud": 3799, "purchaseUrl": "https://www.apple.com/au/shop/buy-mac/studio-display/nano-texture-glass-tilt-and-height-adjustable-stand" },
+				{ "id": "nano-texture-glass-vesa-mount-adapter", "glass": "nano-texture", "mount": "vesa-mount-adapter", "partNumber": "MFF24X/A", "priceAud": 3099, "purchaseUrl": "https://www.apple.com/au/shop/buy-mac/studio-display/nano-texture-glass-vesa-mount-adapter" }
+			],
+			"physicalConfigurations": [
+				{ "mount": "tilt-adjustable-stand", "heightMinimumCm": 47.8, "heightMaximumCm": 47.8, "widthCm": 62.3, "depthCm": 16.8, "weightKg": 6.3, "tiltMinimumDegrees": -5, "tiltMaximumDegrees": 25, "heightAdjustmentMm": 0, "portraitOrientation": false },
+				{ "mount": "tilt-and-height-adjustable-stand", "heightMinimumCm": 47.9, "heightMaximumCm": 58.3, "widthCm": 62.3, "depthCm": 20.7, "weightKg": 7.6, "tiltMinimumDegrees": -5, "tiltMaximumDegrees": 25, "heightAdjustmentMm": 105, "portraitOrientation": false },
+				{ "mount": "vesa-mount-adapter", "heightMinimumCm": 36.2, "heightMaximumCm": 36.2, "widthCm": 62.3, "depthCm": 3.1, "weightKg": 5.4, "tiltMinimumDegrees": 0, "tiltMaximumDegrees": 0, "heightAdjustmentMm": 0, "portraitOrientation": true }
+			],
+			"compatibility": {
+				"minimumMacOperatingSystem": "macOS Tahoe 26.3.1",
+				"minimumIPadOperatingSystem": "iPadOS 26.3.1",
+				"compatibleDeviceIds": [
+					"macbook-pro-13-in-m1-2020", "macbook-pro-13-in-m2-2022", "macbook-pro-14-in-m1-pro-or-m1-max-2021", "macbook-pro-14-in-m2-pro-or-m2-max-2023", "macbook-pro-14-in-m3", "macbook-pro-14-in-m3-pro-or-m3-max", "macbook-pro-14-in-m4", "macbook-pro-14-in-m4-pro", "macbook-pro-14-in-m4-max", "macbook-pro-14-in-m5", "macbook-pro-14-in-m5-pro", "macbook-pro-14-in-m5-max", "macbook-pro-16-in-m1-pro-or-m1-max-2021", "macbook-pro-16-in-m2-pro-or-m2-max-2023", "macbook-pro-16-in-m3-pro-or-m3-max", "macbook-pro-16-in-m4-pro", "macbook-pro-16-in-m4-max", "macbook-pro-16-in-m5-pro", "macbook-pro-16-in-m5-max", "macbook-air-13-in-m1-2020", "macbook-air-13-in-m2", "macbook-air-13-in-m3", "macbook-air-13-in-m4", "macbook-air-13-in-m5", "macbook-air-15-in-m2-2023", "macbook-air-15-in-m3", "macbook-air-15-in-m4", "macbook-air-15-in-m5", "mac-studio-m1-max-or-m1-ultra-2022", "mac-studio-m2-max-or-m2-ultra", "mac-studio-m3-ultra", "mac-studio-m4-max", "mac-mini-m1-2020", "mac-mini-m2-or-m2-pro", "mac-mini-m4", "mac-mini-m4-pro", "mac-pro-m2-ultra", "imac-24-in-m1-two-ports-2021", "imac-24-in-m1-four-ports-2021", "imac-m3-two-ports", "imac-m3-four-ports", "imac-m4-two-ports", "imac-m4-four-ports", "ipad-pro-13-m4", "ipad-pro-13-m5", "ipad-pro-12-9-3rd-gen", "ipad-pro-12-9-4th-gen", "ipad-pro-12-9-5th-gen", "ipad-pro-12-9-6th-gen", "ipad-pro-11-1st-gen", "ipad-pro-11-2nd-gen", "ipad-pro-11-3rd-gen", "ipad-pro-11-4th-gen", "ipad-pro-11-m4", "ipad-pro-11-m5", "ipad-air-13-m2", "ipad-air-11-m2", "ipad-air-13-m3", "ipad-air-11-m3", "ipad-air-13-m4", "ipad-air-11-m4", "ipad-air-5th-generation"
+				]
+			},
+			"electrical": { "minimumLineVoltage": 100, "maximumLineVoltage": 240, "frequencyMinimumHz": 50, "frequencyMaximumHz": 60, "minimumOperatingTemperatureCelsius": 10, "maximumOperatingTemperatureCelsius": 35, "minimumRelativeHumidityPercent": 5, "maximumRelativeHumidityPercent": 90, "maximumAltitudeMetres": 5000 },
+			"inTheBox": [
+				{ "item": "Studio Display", "quantity": 1 },
+				{ "item": "Thunderbolt 5 Pro cable (1 m)", "quantity": 1 }
+			]
+		},
+		{
+			"id": "studio-display-xdr-2026",
+			"displayName": "Studio Display XDR",
+			"introducedYear": 2026,
+			"current": true,
+			"startingPriceAud": 4799,
+			"technicalSpecificationsUrl": "https://www.apple.com/au/studio-display-xdr/specs/",
+			"images": [
+				{
+					"id": "hero",
+					"label": "Studio Display XDR product image",
+					"appleUrl": "https://www.apple.com/v/studio-display-xdr/b/images/specs/hero__gjerz4ay7ya2_large_2x.jpg",
+					"localPath": "/data/other/apple-display/images/studio-display-xdr-2026-hero-large-2x.jpg",
+					"widthPx": 1316,
+					"heightPx": 780,
+					"format": "jpeg",
+					"hasAlpha": false
+				}
+			],
+			"panel": {
+				"name": "5K Retina XDR display",
+				"diagonalInches": 27,
+				"resolution": { "widthPx": 5120, "heightPx": 2880, "pixelsPerInch": 218 },
+				"backlight": { "technology": "mini-LED", "localDimmingZones": 2304 },
+				"brightness": { "sdrNits": 1000, "hdrPeakNits": 2000 },
+				"maximumRefreshRateHz": 120,
+				"adaptiveSync": true,
+				"colour": { "billionColours": 1, "p3": true, "adobeRgb": true, "trueTone": true },
+				"glassOptions": ["standard", "nano-texture"]
+			},
+			"referenceModes": [
+				{ "name": "Apple XDR Display", "colourSpace": "P3", "peakBrightnessNits": 2000 },
+				{ "name": "Apple XDR Display", "colourSpace": "P3 + Adobe RGB", "peakBrightnessNits": 2000 },
+				{ "name": "HDR Video", "colourSpace": "P3", "transferFunction": "ST 2084" },
+				{ "name": "HDTV Video", "colourSpace": "BT.709", "transferFunction": "BT.1886" },
+				{ "name": "NTSC Video", "colourSpace": "BT.601", "transferFunction": "SMPTE-C" },
+				{ "name": "PAL and SECAM Video", "colourSpace": "BT.601", "transferFunction": "EBU" },
+				{ "name": "Digital Cinema", "colourSpace": "P3-DCI" },
+				{ "name": "Digital Cinema", "colourSpace": "P3-D65" },
+				{ "name": "Design and Print", "colourSpace": "P3-D50" },
+				{ "name": "Design and Print", "colourSpace": "Adobe RGB-D50" },
+				{ "name": "Photography", "colourSpace": "P3-D65" },
+				{ "name": "Photography", "colourSpace": "Adobe RGB-D65" },
+				{ "name": "HDR Photography", "colourSpace": "P3-D65" },
+				{ "name": "Internet and Web", "colourSpace": "sRGB" }
+			],
+			"camera": { "megapixels": 12, "centerStage": true, "deskView": true },
+			"audio": { "speakerCount": 6, "highFidelity": true, "forceCancellingWoofers": true, "wideStereo": true, "spatialAudioWithDolbyAtmos": true, "microphoneCount": 3, "studioQualityMicrophones": true, "highSignalToNoiseRatio": true, "directionalBeamforming": true, "heySiri": true },
+			"connections": [
+				{ "type": "Thunderbolt 5", "direction": "upstream", "count": 1, "maximumGbps": 120, "hostChargingWatts": 140 },
+				{ "type": "Thunderbolt 5", "direction": "downstream", "count": 1, "maximumGbps": 120, "hostChargingWatts": 0 },
+				{ "type": "USB-C", "direction": "downstream", "count": 2, "maximumGbps": 10, "hostChargingWatts": 0 }
+			],
+			"configurations": [
+				{ "id": "standard-glass-tilt-and-height-adjustable-stand", "glass": "standard", "mount": "tilt-and-height-adjustable-stand", "partNumber": "MFEL4X/A", "priceAud": 5499, "purchaseUrl": "https://www.apple.com/au/shop/buy-mac/studio-display-xdr/standard-glass-tilt-and-height-adjustable-stand" },
+				{ "id": "standard-glass-vesa-mount-adapter", "glass": "standard", "mount": "vesa-mount-adapter", "partNumber": "MFEN4X/A", "priceAud": 4799, "purchaseUrl": "https://www.apple.com/au/shop/buy-mac/studio-display-xdr/standard-glass-vesa-mount-adapter" },
+				{ "id": "nano-texture-glass-tilt-and-height-adjustable-stand", "glass": "nano-texture", "mount": "tilt-and-height-adjustable-stand", "partNumber": "MFEP4X/A", "priceAud": 5999, "purchaseUrl": "https://www.apple.com/au/shop/buy-mac/studio-display-xdr/nano-texture-glass-tilt-and-height-adjustable-stand" },
+				{ "id": "nano-texture-glass-vesa-mount-adapter", "glass": "nano-texture", "mount": "vesa-mount-adapter", "partNumber": "MFEQ4X/A", "priceAud": 5299, "purchaseUrl": "https://www.apple.com/au/shop/buy-mac/studio-display-xdr/nano-texture-glass-vesa-mount-adapter" }
+			],
+			"physicalConfigurations": [
+				{ "mount": "tilt-and-height-adjustable-stand", "heightMinimumCm": 47.8, "heightMaximumCm": 58.3, "widthCm": 62.3, "depthCm": 21.4, "weightKg": 8.5, "tiltMinimumDegrees": -5, "tiltMaximumDegrees": 25, "heightAdjustmentMm": 105, "portraitOrientation": false },
+				{ "mount": "vesa-mount-adapter", "heightMinimumCm": 36.2, "heightMaximumCm": 36.2, "widthCm": 62.3, "depthCm": 3.3, "weightKg": 6.3, "tiltMinimumDegrees": 0, "tiltMaximumDegrees": 0, "heightAdjustmentMm": 0, "portraitOrientation": true }
+			],
+			"compatibility": {
+				"minimumMacOperatingSystem": "macOS Tahoe 26.3.1",
+				"minimumIPadOperatingSystem": "iPadOS 26.3.1",
+				"compatibleDeviceIds": [
+					"macbook-pro-13-in-m1-2020", "macbook-pro-13-in-m2-2022", "macbook-pro-14-in-m1-pro-or-m1-max-2021", "macbook-pro-14-in-m2-pro-or-m2-max-2023", "macbook-pro-14-in-m3", "macbook-pro-14-in-m3-pro-or-m3-max", "macbook-pro-14-in-m4", "macbook-pro-14-in-m4-pro", "macbook-pro-14-in-m4-max", "macbook-pro-14-in-m5", "macbook-pro-14-in-m5-pro", "macbook-pro-14-in-m5-max", "macbook-pro-16-in-m1-pro-or-m1-max-2021", "macbook-pro-16-in-m2-pro-or-m2-max-2023", "macbook-pro-16-in-m3-pro-or-m3-max", "macbook-pro-16-in-m4-pro", "macbook-pro-16-in-m4-max", "macbook-pro-16-in-m5-pro", "macbook-pro-16-in-m5-max", "macbook-air-13-in-m1-2020", "macbook-air-13-in-m2", "macbook-air-13-in-m3", "macbook-air-13-in-m4", "macbook-air-13-in-m5", "macbook-air-15-in-m2-2023", "macbook-air-15-in-m3", "macbook-air-15-in-m4", "macbook-air-15-in-m5", "mac-studio-m1-max-or-m1-ultra-2022", "mac-studio-m2-max-or-m2-ultra", "mac-studio-m3-ultra", "mac-studio-m4-max", "mac-mini-m1-2020", "mac-mini-m2-or-m2-pro", "mac-mini-m4", "mac-mini-m4-pro", "mac-pro-m2-ultra", "imac-24-in-m1-two-ports-2021", "imac-24-in-m1-four-ports-2021", "imac-m3-two-ports", "imac-m3-four-ports", "imac-m4-two-ports", "imac-m4-four-ports", "ipad-pro-13-m4", "ipad-pro-13-m5", "ipad-pro-12-9-3rd-gen", "ipad-pro-12-9-4th-gen", "ipad-pro-12-9-5th-gen", "ipad-pro-12-9-6th-gen", "ipad-pro-11-1st-gen", "ipad-pro-11-2nd-gen", "ipad-pro-11-3rd-gen", "ipad-pro-11-4th-gen", "ipad-pro-11-m4", "ipad-pro-11-m5", "ipad-air-13-m2", "ipad-air-11-m2", "ipad-air-13-m3", "ipad-air-11-m3", "ipad-air-13-m4", "ipad-air-11-m4", "ipad-air-5th-generation"
+				],
+				"refreshRateLimitations": [
+					{ "deviceChip": "M1", "maximumRefreshRateHz": 60 },
+					{ "deviceChip": "M1 Pro", "maximumRefreshRateHz": 60 },
+					{ "deviceChip": "M1 Max", "maximumRefreshRateHz": 60 },
+					{ "deviceChip": "M1 Ultra", "maximumRefreshRateHz": 60 },
+					{ "deviceChip": "M2", "maximumRefreshRateHz": 60 },
+					{ "deviceChip": "M3", "maximumRefreshRateHz": 60 },
+					{ "deviceChip": "iPad Pro M5", "maximumRefreshRateHz": 120 },
+					{ "deviceChip": "Other compatible iPad", "maximumRefreshRateHz": 60 }
+				]
+			},
+			"electrical": { "minimumLineVoltage": 100, "maximumLineVoltage": 240, "frequencyMinimumHz": 50, "frequencyMaximumHz": 60, "minimumOperatingTemperatureCelsius": 10, "maximumOperatingTemperatureCelsius": 35, "minimumRelativeHumidityPercent": 5, "maximumRelativeHumidityPercent": 90, "maximumAltitudeMetres": 5000 },
+			"inTheBox": [
+				{ "item": "Studio Display XDR", "quantity": 1 },
+				{ "item": "Thunderbolt 5 Pro cable (1 m)", "quantity": 1 }
+			]
+		}
+	]
+}

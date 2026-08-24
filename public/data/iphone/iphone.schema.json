@@ -1,0 +1,1438 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"$id": "https://passionfruit.local/schemas/iphone.schema.json",
+	"title": "Canonical iPhone data",
+	"type": "object",
+	"additionalProperties": false,
+	"required": ["devices"],
+	"properties": {
+		"devices": {
+			"type": "array",
+			"minItems": 1,
+			"items": {
+				"$ref": "#/$defs/iphoneDevice"
+			}
+		}
+	},
+	"$defs": {
+		"iphoneDevice": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": [
+				"id",
+				"name",
+				"releaseYear",
+				"priceAud",
+				"colors",
+				"configurations",
+				"storageOptions",
+				"chips",
+				"displays",
+				"cameras",
+				"audio",
+				"batteryAndPower",
+				"connectivity",
+				"authentication",
+				"physical",
+				"resistance",
+				"software",
+				"accessories",
+				"sourceNotes"
+			],
+			"properties": {
+				"id": {
+					"type": "string",
+					"pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+				},
+				"name": {
+					"type": "string"
+				},
+				"releaseYear": {
+					"type": "integer",
+					"minimum": 1976,
+					"maximum": 2100
+				},
+				"priceAud": {
+					"type": ["number", "null"],
+					"minimum": 0
+				},
+				"colors": {
+					"type": "array",
+					"items": {
+						"$ref": "#/$defs/iphoneColor"
+					}
+				},
+				"configurations": {
+					"type": "array",
+					"items": {
+						"$ref": "#/$defs/iphoneConfiguration"
+					}
+				},
+				"storageOptions": {
+					"type": "array",
+					"items": {
+						"$ref": "#/$defs/iphoneStorageOption"
+					}
+				},
+				"chips": {
+					"type": "array",
+					"items": {
+						"$ref": "#/$defs/iphoneChip"
+					}
+				},
+				"displays": {
+					"type": "array",
+					"items": {
+						"$ref": "#/$defs/iphoneDisplay"
+					}
+				},
+				"cameras": {
+					"type": "array",
+					"items": {
+						"$ref": "#/$defs/iphoneCamera"
+					}
+				},
+				"audio": {
+					"$ref": "#/$defs/iphoneAudio"
+				},
+				"batteryAndPower": {
+					"$ref": "#/$defs/iphoneBatteryAndPower"
+				},
+				"connectivity": {
+					"$ref": "#/$defs/iphoneConnectivity"
+				},
+				"authentication": {
+					"$ref": "#/$defs/iphoneAuthentication"
+				},
+				"physical": {
+					"$ref": "#/$defs/iphonePhysical"
+				},
+				"resistance": {
+					"$ref": "#/$defs/iphoneResistance"
+				},
+				"software": {
+					"$ref": "#/$defs/iphoneSoftware"
+				},
+				"accessories": {
+					"type": "array",
+					"items": {
+						"$ref": "#/$defs/iphoneAccessoryReference"
+					}
+				},
+				"sourceNotes": {
+					"type": "string"
+				},
+				"memoryOptions": {
+					"type": "array",
+					"items": {
+						"$ref": "#/$defs/iphoneMemoryOption"
+					}
+				},
+				"overviewImages": {
+					"type": "array",
+					"items": {
+						"$ref": "#/$defs/iphoneOverviewImage"
+					}
+				}
+			}
+		},
+		"iphoneColor": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["id", "displayName", "swatch", "images"],
+			"properties": {
+				"id": {
+					"type": "string",
+					"pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+				},
+				"displayName": {
+					"type": "string"
+				},
+				"swatch": {
+					"$ref": "#/$defs/iphoneSwatch"
+				},
+				"images": {
+					"type": "array",
+					"items": {
+						"$ref": "#/$defs/iphoneImage"
+					}
+				},
+				"colorPriceAud": {
+					"type": "number",
+					"exclusiveMinimum": 0
+				},
+				"sourceNotes": {
+					"type": "string"
+				}
+			}
+		},
+		"iphoneImage": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["label", "appleUrl", "localPath", "widthPx", "heightPx"],
+			"properties": {
+				"label": {
+					"type": "string"
+				},
+				"appleUrl": {
+					"type": "string",
+					"format": "uri"
+				},
+				"localPath": {
+					"type": "string"
+				},
+				"widthPx": {
+					"type": "integer",
+					"minimum": 1
+				},
+				"heightPx": {
+					"type": "integer",
+					"minimum": 1
+				}
+			}
+		},
+		"iphoneSwatch": {
+			"oneOf": [
+				{
+					"type": "object",
+					"additionalProperties": false,
+					"required": ["kind", "value"],
+					"properties": {
+						"kind": {
+							"const": "css"
+						},
+						"value": {
+							"type": "string",
+							"pattern": "^#[0-9a-fA-F]{6}$|^#[0-9a-fA-F]{8}$|^rgba?\\("
+						}
+					}
+				},
+				{
+					"type": "object",
+					"additionalProperties": false,
+					"required": ["kind", "url"],
+					"properties": {
+						"kind": {
+							"const": "image"
+						},
+						"url": {
+							"type": "string",
+							"format": "uri"
+						}
+					}
+				}
+			]
+		},
+		"iphoneStorageOption": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["id", "capacityValue", "capacityUnit"],
+			"properties": {
+				"id": {
+					"type": "string"
+				},
+				"displayName": {
+					"type": "string"
+				},
+				"capacityValue": {
+					"type": "integer",
+					"minimum": 1
+				},
+				"capacityUnit": {
+					"enum": ["GB", "TB"]
+				},
+				"priceDeltaAud": {
+					"type": "number"
+				},
+				"availableColorIds": {
+					"type": "array",
+					"items": {
+						"type": "string"
+					}
+				},
+				"sourceNotes": {
+					"type": "string"
+				}
+			}
+		},
+		"iphoneMemoryOption": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["id", "capacityValue", "capacityUnit", "kind"],
+			"properties": {
+				"id": {
+					"type": "string"
+				},
+				"displayName": {
+					"type": "string"
+				},
+				"capacityValue": {
+					"type": "integer",
+					"minimum": 1
+				},
+				"capacityUnit": {
+					"enum": ["GB", "TB"]
+				},
+				"kind": {
+					"enum": ["unified", "DRAM", "NAND cache", "other"]
+				},
+				"speedMbps": {
+					"type": "integer"
+				},
+				"speedUnit": {
+					"const": "Mbps"
+				},
+				"configuration": {
+					"type": "string"
+				},
+				"sourceNotes": {
+					"type": "string"
+				}
+			}
+		},
+		"iphoneChip": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": [
+				"id",
+				"displayName",
+				"family",
+				"cpuCores",
+				"gpuCores",
+				"neuralEngineCores",
+				"memoryBandwidthGbps"
+			],
+			"properties": {
+				"id": {
+					"type": "string"
+				},
+				"displayName": {
+					"type": "string"
+				},
+				"family": {
+					"type": "string"
+				},
+				"cpuCores": {
+					"$ref": "#/$defs/iphoneCpuCores"
+				},
+				"gpuCores": {
+					"type": ["integer", "null"],
+					"minimum": 0
+				},
+				"neuralEngineCores": {
+					"type": ["integer", "null"],
+					"minimum": 0
+				},
+				"memoryBandwidthGbps": {
+					"type": ["number", "null"],
+					"minimum": 0,
+					"description": "Gigabits per second unless sourceNotes states bytes per second."
+				},
+				"cpuCoreConfiguration": {
+					"type": "string"
+				},
+				"neuralAccelerators": {
+					"type": "boolean"
+				},
+				"hardwareRayTracing": {
+					"type": "boolean"
+				},
+				"mediaEngines": {
+					"type": "array",
+					"items": {
+						"$ref": "#/$defs/iphoneMediaEngine"
+					}
+				},
+				"processNode": {
+					"type": "string"
+				},
+				"transistorCountBillions": {
+					"type": ["number", "null"],
+					"minimum": 0
+				},
+				"sourceNotes": {
+					"type": "string"
+				}
+			}
+		},
+		"iphoneDisplay": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": [
+				"id",
+				"technology",
+				"sizeIn",
+				"resolutionWidthPx",
+				"resolutionHeightPx",
+				"pixelsPerInch"
+			],
+			"properties": {
+				"id": {
+					"type": "string"
+				},
+				"technology": {
+					"type": "string"
+				},
+				"panelKind": {
+					"enum": [
+						"LCD",
+						"LED-backlit LCD",
+						"OLED",
+						"tandem OLED",
+						"micro-OLED",
+						"other",
+						null
+					]
+				},
+				"sizeIn": {
+					"type": ["number", "null"],
+					"minimum": 0,
+					"description": "Inches"
+				},
+				"resolutionWidthPx": {
+					"type": ["integer", "null"],
+					"minimum": 1
+				},
+				"resolutionHeightPx": {
+					"type": ["integer", "null"],
+					"minimum": 1
+				},
+				"pixelsPerInch": {
+					"type": ["number", "null"],
+					"minimum": 0
+				},
+				"refreshRateHz": {
+					"type": ["number", "null"],
+					"minimum": 0
+				},
+				"refreshRateRange": {
+					"$ref": "#/$defs/iphoneMeasurementRange"
+				},
+				"sdrPeakBrightnessNits": {
+					"type": ["number", "null"],
+					"minimum": 0
+				},
+				"hdrPeakBrightnessNits": {
+					"type": ["number", "null"],
+					"minimum": 0
+				},
+				"fullScreenHdrBrightnessNits": {
+					"type": ["number", "null"],
+					"minimum": 0
+				},
+				"minimumBrightnessNits": {
+					"type": ["number", "null"],
+					"minimum": 0
+				},
+				"trueTone": {
+					"type": "boolean"
+				},
+				"promotion": {
+					"type": "boolean"
+				},
+				"alwaysOn": {
+					"type": "boolean"
+				},
+				"wideColorP3": {
+					"type": "boolean"
+				},
+				"laminated": {
+					"type": "boolean"
+				},
+				"antireflective": {
+					"type": "boolean"
+				},
+				"nanoTextureOption": {
+					"type": "boolean"
+				},
+				"fingerprintResistantCoating": {
+					"type": "boolean"
+				},
+				"hoverSupport": {
+					"type": "boolean"
+				},
+				"mirroring": {
+					"type": "boolean"
+				},
+				"sourceNotes": {
+					"type": "string"
+				}
+			}
+		},
+		"iphoneCamera": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["id", "role", "displayName", "megapixels"],
+			"properties": {
+				"id": {
+					"type": "string"
+				},
+				"role": {
+					"enum": [
+						"rear-wide",
+						"rear-ultrawide",
+						"rear-telephoto",
+						"front",
+						"FaceTime",
+						"spatial",
+						"input-accessory",
+						"other"
+					]
+				},
+				"displayName": {
+					"type": "string"
+				},
+				"megapixels": {
+					"type": ["number", "null"],
+					"exclusiveMinimum": 0
+				},
+				"opticalZoomMultiplier": {
+					"type": ["number", "null"],
+					"exclusiveMinimum": 0
+				},
+				"apertureFNumber": {
+					"type": ["number", "null"],
+					"exclusiveMinimum": 0
+				},
+				"sensorShiftOis": {
+					"type": "boolean"
+				},
+				"proRAW": {
+					"type": "boolean"
+				},
+				"spatialCapture": {
+					"type": "boolean"
+				},
+				"macro": {
+					"type": "boolean"
+				},
+				"centerStage": {
+					"type": "boolean"
+				},
+				"trueDepthSystem": {
+					"type": "boolean"
+				},
+				"videoMaxResolutionWidthPx": {
+					"type": ["integer", "null"],
+					"minimum": 1
+				},
+				"videoMaxResolutionHeightPx": {
+					"type": ["integer", "null"],
+					"minimum": 1
+				},
+				"videoMaxFrameRateHz": {
+					"type": ["number", "null"],
+					"exclusiveMinimum": 0
+				},
+				"proRes": {
+					"type": "boolean"
+				},
+				"lidar": {
+					"type": "boolean"
+				},
+				"sourceNotes": {
+					"type": "string"
+				}
+			}
+		},
+		"iphoneAudio": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["speaker", "microphone"],
+			"properties": {
+				"speaker": {
+					"type": "boolean"
+				},
+				"microphone": {
+					"type": "boolean"
+				},
+				"speakerConfiguration": {
+					"type": "string"
+				},
+				"microphoneConfiguration": {
+					"type": "string"
+				},
+				"siren": {
+					"type": "boolean"
+				},
+				"spatialAudio": {
+					"type": "boolean"
+				},
+				"adaptiveAudio": {
+					"type": "boolean"
+				},
+				"activeNoiseCancellation": {
+					"type": "boolean"
+				},
+				"transparency": {
+					"type": "boolean"
+				},
+				"formats": {
+					"type": "array",
+					"items": {
+						"type": "string"
+					}
+				},
+				"sourceNotes": {
+					"type": "string"
+				}
+			}
+		},
+		"iphoneBatteryAndPower": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": [
+				"hasBattery",
+				"batteryCapacityMah",
+				"batteryCapacityWhr",
+				"runtimeHours",
+				"charging",
+				"powerSupply"
+			],
+			"properties": {
+				"hasBattery": {
+					"type": "boolean"
+				},
+				"batteryCapacityMah": {
+					"type": ["number", "null"],
+					"minimum": 0
+				},
+				"batteryCapacityWhr": {
+					"type": ["number", "null"],
+					"minimum": 0
+				},
+				"runtimeHours": {
+					"type": "array",
+					"items": {
+						"$ref": "#/$defs/iphoneBatteryRuntime"
+					}
+				},
+				"charging": {
+					"$ref": "#/$defs/iphoneCharging"
+				},
+				"powerSupply": {
+					"$ref": "#/$defs/iphonePowerSupply"
+				}
+			}
+		},
+		"iphoneConnectivity": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": [
+				"ports",
+				"wifi",
+				"bluetooth",
+				"cellular",
+				"uwb",
+				"thread",
+				"infrared",
+				"nearFieldCommunication",
+				"gps"
+			],
+			"properties": {
+				"ports": {
+					"type": "array",
+					"items": {
+						"$ref": "#/$defs/iphonePort"
+					}
+				},
+				"wifi": {
+					"anyOf": [
+						{
+							"$ref": "#/$defs/iphoneWifi"
+						},
+						{
+							"type": "null"
+						}
+					]
+				},
+				"bluetooth": {
+					"anyOf": [
+						{
+							"$ref": "#/$defs/iphoneBluetooth"
+						},
+						{
+							"type": "null"
+						}
+					]
+				},
+				"cellular": {
+					"anyOf": [
+						{
+							"$ref": "#/$defs/iphoneCellular"
+						},
+						{
+							"type": "null"
+						}
+					]
+				},
+				"uwb": {
+					"anyOf": [
+						{
+							"$ref": "#/$defs/iphoneUwb"
+						},
+						{
+							"type": "null"
+						}
+					]
+				},
+				"thread": {
+					"anyOf": [
+						{
+							"$ref": "#/$defs/iphoneThread"
+						},
+						{
+							"type": "null"
+						}
+					]
+				},
+				"infrared": {
+					"anyOf": [
+						{
+							"$ref": "#/$defs/iphoneInfrared"
+						},
+						{
+							"type": "null"
+						}
+					]
+				},
+				"nearFieldCommunication": {
+					"anyOf": [
+						{
+							"$ref": "#/$defs/iphoneNearFieldCommunication"
+						},
+						{
+							"type": "null"
+						}
+					]
+				},
+				"gps": {
+					"anyOf": [
+						{
+							"$ref": "#/$defs/iphoneGps"
+						},
+						{
+							"type": "null"
+						}
+					]
+				}
+			}
+		},
+		"iphoneAuthentication": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["methods", "primaryMethod"],
+			"properties": {
+				"methods": {
+					"type": "array",
+					"uniqueItems": true,
+					"items": {
+						"enum": [
+							"Face ID",
+							"Touch ID",
+							"Optic ID",
+							"passcode",
+							"password",
+							"none"
+						]
+					}
+				},
+				"primaryMethod": {
+					"enum": [
+						"Face ID",
+						"Touch ID",
+						"Optic ID",
+						"passcode",
+						"password",
+						"none"
+					]
+				},
+				"placement": {
+					"enum": ["top button", "keyboard", "side button", "other", null]
+				},
+				"sourceNotes": {
+					"type": "string"
+				}
+			}
+		},
+		"iphonePhysical": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["weights", "dimensions", "components"],
+			"properties": {
+				"weights": {
+					"type": "array",
+					"items": {
+						"$ref": "#/$defs/iphoneMeasurement"
+					}
+				},
+				"dimensions": {
+					"type": "array",
+					"items": {
+						"$ref": "#/$defs/iphoneMeasurement"
+					}
+				},
+				"components": {
+					"type": "array",
+					"items": {
+						"$ref": "#/$defs/iphonePhysicalComponent"
+					}
+				}
+			}
+		},
+		"iphoneResistance": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": [
+				"ipRating",
+				"waterDepthM",
+				"splashPressureAtm",
+				"dustProtected",
+				"sweatResistant"
+			],
+			"properties": {
+				"ipRating": {
+					"type": ["string", "null"],
+					"pattern": "^(IP[0-9]X?|IP6X|IP68)$|^$|^null$"
+				},
+				"waterDepthM": {
+					"type": ["number", "null"],
+					"minimum": 0
+				},
+				"splashPressureAtm": {
+					"type": ["number", "null"],
+					"minimum": 0
+				},
+				"dustProtected": {
+					"type": "boolean"
+				},
+				"sweatResistant": {
+					"type": "boolean"
+				}
+			}
+		},
+		"iphoneSoftware": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": [
+				"operatingSystem",
+				"operatingSystemVersionAtLaunch",
+				"builtInApps"
+			],
+			"properties": {
+				"operatingSystem": {
+					"type": "string"
+				},
+				"operatingSystemVersionAtLaunch": {
+					"type": ["string", "null"]
+				},
+				"compatibleOperatingSystems": {
+					"type": "array",
+					"items": {
+						"type": "string"
+					}
+				},
+				"builtInApps": {
+					"type": "array",
+					"items": {
+						"type": "string"
+					}
+				},
+				"sourceNotes": {
+					"type": "string"
+				}
+			}
+		},
+		"iphoneOverviewImage": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["label", "appleUrl", "localPath", "widthPx", "heightPx"],
+			"properties": {
+				"label": {
+					"type": "string"
+				},
+				"appleUrl": {
+					"type": "string"
+				},
+				"localPath": {
+					"type": "string"
+				},
+				"widthPx": {
+					"type": "integer",
+					"minimum": 1
+				},
+				"heightPx": {
+					"type": "integer",
+					"minimum": 1
+				}
+			}
+		},
+		"iphoneCpuCores": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["total", "performance", "efficiency"],
+			"properties": {
+				"total": {
+					"type": "integer",
+					"minimum": 1
+				},
+				"performance": {
+					"type": ["integer", "null"],
+					"minimum": 0
+				},
+				"efficiency": {
+					"type": ["integer", "null"],
+					"minimum": 0
+				}
+			}
+		},
+		"iphoneMediaEngine": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["id", "displayName", "kinds"],
+			"properties": {
+				"id": {
+					"type": "string"
+				},
+				"displayName": {
+					"type": "string"
+				},
+				"kinds": {
+					"type": "array",
+					"uniqueItems": true,
+					"items": {
+						"enum": [
+							"video-decode",
+							"video-encode",
+							"ProRes encode-decode",
+							"image signal",
+							"AV1 decode",
+							"other"
+						]
+					}
+				}
+			}
+		},
+		"iphoneMeasurementRange": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["minimum", "maximum", "unit"],
+			"properties": {
+				"minimum": {
+					"type": "number"
+				},
+				"maximum": {
+					"type": "number"
+				},
+				"unit": {
+					"type": "string",
+					"enum": [
+						"mm",
+						"cm",
+						"m",
+						"in",
+						"g",
+						"kg",
+						"oz",
+						"lb",
+						"nits",
+						"hz",
+						"w",
+						"v",
+						"a",
+						"mAh",
+						"Whr",
+						"hours",
+						"minutes",
+						"percent",
+						"GB",
+						"TB",
+						"Mbps",
+						"Gbps",
+						"dB SPL",
+						"atm"
+					]
+				},
+				"qualifier": {
+					"type": "string"
+				}
+			}
+		},
+		"iphoneBatteryRuntime": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["id", "activity", "hours"],
+			"properties": {
+				"id": {
+					"type": "string"
+				},
+				"activity": {
+					"type": "string"
+				},
+				"hours": {
+					"type": ["number", "null"],
+					"minimum": 0
+				},
+				"qualifier": {
+					"type": "string"
+				},
+				"network": {
+					"enum": ["Wi-Fi", "cellular", "offline", null]
+				}
+			}
+		},
+		"iphoneCharging": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": [
+				"portId",
+				"wiredFastCharge",
+				"wirelessCharging",
+				"wirelessStandards",
+				"fastChargeMinutesToPercent",
+				"adapterPowerW"
+			],
+			"properties": {
+				"portId": {
+					"type": ["string", "null"]
+				},
+				"wiredFastCharge": {
+					"type": "boolean"
+				},
+				"wirelessCharging": {
+					"type": "boolean"
+				},
+				"wirelessStandards": {
+					"type": "array",
+					"uniqueItems": true,
+					"items": {
+						"enum": ["MagSafe", "Qi", "Qi2", "inductive", "other"]
+					}
+				},
+				"fastChargeMinutesToPercent": {
+					"anyOf": [
+						{
+							"type": "null"
+						},
+						{
+							"type": "object",
+							"additionalProperties": false,
+							"required": ["minutes", "percent"],
+							"properties": {
+								"minutes": {
+									"type": "number",
+									"minimum": 0
+								},
+								"percent": {
+									"type": "number",
+									"minimum": 0,
+									"maximum": 100
+								}
+							}
+						}
+					]
+				},
+				"adapterPowerW": {
+					"type": ["number", "null"],
+					"minimum": 0
+				}
+			}
+		},
+		"iphonePowerSupply": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": [
+				"hasExternalPowerAdapter",
+				"outputVoltageV",
+				"outputCurrentA",
+				"outputPowerW",
+				"inputVoltageRangeV",
+				"frequencyHz",
+				"consumptionW"
+			],
+			"properties": {
+				"hasExternalPowerAdapter": {
+					"type": "boolean"
+				},
+				"outputVoltageV": {
+					"type": ["number", "null"],
+					"minimum": 0
+				},
+				"outputCurrentA": {
+					"type": ["number", "null"],
+					"minimum": 0
+				},
+				"outputPowerW": {
+					"type": ["number", "null"],
+					"minimum": 0
+				},
+				"inputVoltageRangeV": {
+					"anyOf": [
+						{
+							"type": "null"
+						},
+						{
+							"type": "object",
+							"additionalProperties": false,
+							"required": ["minimum", "maximum"],
+							"properties": {
+								"minimum": {
+									"type": "number",
+									"minimum": 0
+								},
+								"maximum": {
+									"type": "number",
+									"minimum": 0
+								}
+							}
+						}
+					]
+				},
+				"frequencyHz": {
+					"type": ["number", "null"],
+					"minimum": 0
+				},
+				"consumptionW": {
+					"type": ["number", "null"],
+					"minimum": 0
+				}
+			}
+		},
+		"iphonePort": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["id", "kind"],
+			"properties": {
+				"id": {
+					"type": "string"
+				},
+				"kind": {
+					"enum": [
+						"USB-C",
+						"Thunderbolt 4",
+						"Thunderbolt 5",
+						"Lightning",
+						"HDMI",
+						"Ethernet RJ45",
+						"IR receiver",
+						"power connector",
+						"3.5 mm audio jack",
+						"Smart Connector",
+						"proprietary"
+					]
+				},
+				"standard": {
+					"enum": [
+						"USB 2",
+						"USB 3.2 Gen 1",
+						"USB 4",
+						"Thunderbolt 3",
+						"Thunderbolt 4",
+						"Thunderbolt 5"
+					]
+				},
+				"quantity": {
+					"type": "integer",
+					"minimum": 1
+				},
+				"supportsDisplayOut": {
+					"type": "boolean"
+				},
+				"maxPowerW": {
+					"type": ["number", "null"],
+					"description": "Watts"
+				},
+				"sourceNotes": {
+					"type": "string"
+				}
+			}
+		},
+		"iphoneWifi": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["standards"],
+			"properties": {
+				"standards": {
+					"type": "array",
+					"uniqueItems": true,
+					"items": {
+						"enum": [
+							"Wi-Fi 4",
+							"Wi-Fi 5",
+							"Wi-Fi 6",
+							"Wi-Fi 6E",
+							"Wi-Fi 7",
+							"Wi-Fi 8"
+						]
+					}
+				},
+				"chip": {
+					"type": "string"
+				},
+				"MIMO": {
+					"type": "string"
+				},
+				"simultaneousDualBand": {
+					"type": "boolean"
+				}
+			}
+		},
+		"iphoneBluetooth": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["version"],
+			"properties": {
+				"version": {
+					"enum": [
+						"Bluetooth 4.0",
+						"Bluetooth 4.2",
+						"Bluetooth 5.0",
+						"Bluetooth 5.3",
+						"Bluetooth 5.4",
+						"Bluetooth 6.0"
+					]
+				}
+			}
+		},
+		"iphoneCellular": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["technologies"],
+			"properties": {
+				"technologies": {
+					"type": "array",
+					"uniqueItems": true,
+					"items": {
+						"enum": ["LTE", "5G sub-6", "5G mmWave"]
+					}
+				},
+				"bands": {
+					"type": "array",
+					"items": {
+						"type": "string"
+					}
+				},
+				"eSIMOnly": {
+					"type": "boolean"
+				}
+			}
+		},
+		"iphoneUwb": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["chip"],
+			"properties": {
+				"chip": {
+					"type": "string"
+				},
+				"secondGeneration": {
+					"type": "boolean"
+				}
+			}
+		},
+		"iphoneThread": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["supported"],
+			"properties": {
+				"supported": {
+					"type": "boolean"
+				},
+				"role": {
+					"enum": ["endpoint", "border-router", "both", null]
+				}
+			}
+		},
+		"iphoneInfrared": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["present", "purpose"],
+			"properties": {
+				"present": {
+					"type": "boolean"
+				},
+				"purpose": {
+					"type": ["string", "null"]
+				}
+			}
+		},
+		"iphoneNearFieldCommunication": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["present"],
+			"properties": {
+				"present": {
+					"type": "boolean"
+				},
+				"readWriteMode": {
+					"type": "boolean"
+				},
+				"backgroundTagReading": {
+					"type": "boolean"
+				}
+			}
+		},
+		"iphoneGps": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["present"],
+			"properties": {
+				"present": {
+					"type": "boolean"
+				},
+				"precisionDualFrequency": {
+					"type": "boolean"
+				},
+				"systems": {
+					"type": "array",
+					"items": {
+						"enum": ["GPS", "GLONASS", "Galileo", "QZSS", "BeiDou", "NavIC"]
+					}
+				}
+			}
+		},
+		"iphoneMeasurement": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["value", "unit"],
+			"properties": {
+				"value": {
+					"type": ["number", "null"]
+				},
+				"unit": {
+					"type": "string",
+					"enum": [
+						"mm",
+						"cm",
+						"m",
+						"in",
+						"g",
+						"kg",
+						"oz",
+						"lb",
+						"nits",
+						"hz",
+						"w",
+						"v",
+						"a",
+						"mAh",
+						"Whr",
+						"hours",
+						"minutes",
+						"percent",
+						"GB",
+						"TB",
+						"Mbps",
+						"Gbps",
+						"dB SPL",
+						"atm"
+					]
+				},
+				"qualifier": {
+					"type": "string"
+				}
+			}
+		},
+		"iphonePhysicalComponent": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["id", "displayName", "dimensions", "weight"],
+			"properties": {
+				"id": {
+					"type": "string"
+				},
+				"displayName": {
+					"type": "string"
+				},
+				"dimensions": {
+					"type": "array",
+					"items": {
+						"$ref": "#/$defs/iphoneMeasurement"
+					}
+				},
+				"weight": {
+					"type": ["number", "null"],
+					"minimum": 0
+				},
+				"weightUnit": {
+					"enum": ["g", "kg", "oz", "lb", null]
+				},
+				"sourceNotes": {
+					"type": "string"
+				}
+			}
+		},
+		"iphoneConfiguration": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["id"],
+			"properties": {
+				"id": {
+					"type": "string",
+					"pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+				},
+				"displayName": {
+					"type": "string"
+				},
+				"colorIds": {
+					"type": "array",
+					"items": {
+						"type": "string"
+					}
+				},
+				"storageId": {
+					"type": "string"
+				},
+				"memoryIds": {
+					"type": "array",
+					"items": {
+						"type": "string"
+					}
+				},
+				"connectivity": {
+					"type": "string",
+					"enum": [
+						"Wi-Fi",
+						"Wi-Fi + Cellular",
+						"Wi-Fi + Ethernet",
+						"wireless-only"
+					]
+				},
+				"chipId": {
+					"type": "string"
+				},
+				"priceAud": {
+					"type": ["number", "null"],
+					"minimum": 0
+				},
+				"sourceNotes": {
+					"type": "string"
+				}
+			}
+		},
+		"iphoneAccessoryReference": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["accessoryId", "displayName", "category"],
+			"properties": {
+				"accessoryId": {
+					"type": "string",
+					"pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+				},
+				"displayName": {
+					"type": "string"
+				},
+				"category": {
+					"type": "string",
+					"enum": ["MagSafe", "case", "cable", "adapter", "other"]
+				},
+				"capabilities": {
+					"type": "array",
+					"items": {
+						"type": "string"
+					}
+				}
+			}
+		}
+	}
+}

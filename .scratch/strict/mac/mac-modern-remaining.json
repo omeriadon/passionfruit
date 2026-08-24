@@ -1,0 +1,202 @@
+{
+	"devices": [
+		{
+			"id": "macbook-pro-16-in-m3-pro-or-m3-max",
+			"name": "MacBook Pro 16-in. (M3 Pro or M3 Max)",
+			"family": "mac",
+			"releaseYear": 2023,
+			"priceAud": null,
+			"colors": [
+				{
+					"id": "space-black",
+					"displayName": "Space Black",
+					"swatch": {
+						"kind": "css",
+						"value": "#ffffff"
+					},
+					"images": [],
+					"sourceNotes": "Rendered finish label and gallery image class image-compare-macbook-pro-16-m3-spaceblack; exact swatch value, target image bytes, Apple-hosted URL, and dimensions unavailable in supplied HTML."
+				},
+				{
+					"id": "silver",
+					"displayName": "Silver",
+					"swatch": {
+						"kind": "css",
+						"value": "#ffffff"
+					},
+					"images": [],
+					"sourceNotes": "Rendered finish label and gallery image class image-compare-macbook-pro-16-m3-silver; exact swatch value, target image bytes, Apple-hosted URL, and dimensions unavailable in supplied HTML."
+				}
+			],
+			"chips": [
+				{
+					"id": "macbook-pro-16-in-m3-pro-or-m3-max-chip",
+					"displayName": "Apple M3 Pro chip or Apple M3 Max chip",
+					"family": "M3 Pro or M3 Max",
+					"cpuCores": {
+						"total": 12,
+						"performance": 6,
+						"efficiency": 6
+					},
+					"gpuCores": 18,
+					"neuralEngineCores": 16,
+					"memoryBandwidthGbps": 150,
+					"hardwareRayTracing": true,
+					"sourceNotes": "Quick Look names both chips; System on Chip row states up to 12-core CPU with 6 performance and 6 efficiency cores, up to 18-core GPU, hardware-accelerated ray tracing, 16-core Neural Engine, and 150GB/s memory bandwidth."
+				}
+			],
+			"displays": [
+				{
+					"id": "macbook-pro-16-in-m3-pro-or-m3-max-display",
+					"technology": "Liquid Retina XDR display",
+					"panelKind": null,
+					"sizeIn": 16.2,
+					"resolutionWidthPx": null,
+					"resolutionHeightPx": null,
+					"pixelsPerInch": null,
+					"sourceNotes": "Rendered Quick Look badge only; detailed display facts absent from the target columns of supplied HTML."
+				}
+			],
+			"authentication": {
+				"methods": ["Touch ID"],
+				"primaryMethod": "Touch ID",
+				"placement": "keyboard",
+				"sourceNotes": "Rendered authentication row for the selected target column identifies Touch ID; placement is inferred from MacBook keyboard context and recorded explicitly."
+			},
+			"overviewImages": [],
+			"sourceNotes": "Source: data/tmp/mac/mac7.html. Canonical source: https://www.apple.com/au/mac/compare/?modelList=MacBook-Pro-16-M3,MacBook-Pro-16-M2,MacBook-Pro-14. Price row contains an unrendered price proxy, so AUD price remains explicitly null."
+		},
+		{
+			"id": "macbook-pro-16-in-m2-pro-or-m2-max-2023",
+			"name": "MacBook Pro 16-in. (M2 Pro or M2 Max, 2023)",
+			"family": "mac",
+			"releaseYear": 2023,
+			"priceAud": null,
+			"colors": [
+				{
+					"id": "space-gray",
+					"displayName": "Space Grey",
+					"swatch": {
+						"kind": "css",
+						"value": "#ffffff"
+					},
+					"images": [],
+					"sourceNotes": "Rendered finish label and gallery image class image-compare-macbook-pro-16-m2-spacegray; exact swatch value, target image bytes, Apple-hosted URL, and dimensions unavailable in supplied HTML."
+				},
+				{
+					"id": "silver",
+					"displayName": "Silver",
+					"swatch": {
+						"kind": "css",
+						"value": "#ffffff"
+					},
+					"images": [],
+					"sourceNotes": "Rendered finish label and gallery image class image-compare-macbook-pro-16-m2-silver; exact swatch value, target image bytes, Apple-hosted URL, and dimensions unavailable in supplied HTML."
+				}
+			],
+			"chips": [
+				{
+					"id": "macbook-pro-16-in-m2-pro-or-m2-max-2023-chip",
+					"displayName": "Apple M2 Pro chip or Apple M2 Max chip",
+					"family": "M2 Pro or M2 Max",
+					"cpuCores": {
+						"total": 12,
+						"performance": 8,
+						"efficiency": 4
+					},
+					"gpuCores": 38,
+					"neuralEngineCores": 16,
+					"memoryBandwidthGbps": 400,
+					"hardwareRayTracing": true,
+					"sourceNotes": "Quick Look names both chips; System on Chip rows state 12-core CPU with 8 performance and 4 efficiency cores, up to 38-core GPU, hardware-accelerated ray tracing, 16-core Neural Engine, and 400GB/s memory bandwidth."
+				}
+			],
+			"displays": [
+				{
+					"id": "macbook-pro-16-in-m2-pro-or-m2-max-2023-display",
+					"technology": "Liquid Retina XDR display",
+					"panelKind": null,
+					"sizeIn": 16.2,
+					"resolutionWidthPx": null,
+					"resolutionHeightPx": null,
+					"pixelsPerInch": null,
+					"sourceNotes": "Rendered Quick Look badge only; detailed display facts absent from the target columns of supplied HTML."
+				}
+			],
+			"authentication": {
+				"methods": ["Touch ID"],
+				"primaryMethod": "Touch ID",
+				"placement": "keyboard",
+				"sourceNotes": "Rendered authentication row for the selected target column identifies Touch ID; placement is inferred from MacBook keyboard context and recorded explicitly."
+			},
+			"overviewImages": [],
+			"sourceNotes": "Source: data/tmp/mac/mac7.html. Canonical source: https://www.apple.com/au/mac/compare/?modelList=MacBook-Pro-16-M3,MacBook-Pro-16-M2,MacBook-Pro-14. Price row contains an unrendered price proxy, so AUD price remains explicitly null."
+		},
+		{
+			"id": "macbook-pro-14-in-m1-pro-or-m1-max-2021",
+			"name": "MacBook Pro 14-in. (M1 Pro or M1 Max, 2021)",
+			"family": "mac",
+			"releaseYear": 2021,
+			"priceAud": null,
+			"colors": [
+				{
+					"id": "space-gray",
+					"displayName": "Space Grey",
+					"swatch": {
+						"kind": "css",
+						"value": "#ffffff"
+					},
+					"images": [],
+					"sourceNotes": "Rendered finish label and gallery image class image-compare-macbook-pro-14-spacegray; exact swatch value, target image bytes, Apple-hosted URL, and dimensions unavailable in supplied HTML."
+				},
+				{
+					"id": "silver",
+					"displayName": "Silver",
+					"swatch": {
+						"kind": "css",
+						"value": "#ffffff"
+					},
+					"images": [],
+					"sourceNotes": "Rendered finish label and gallery image class image-compare-macbook-pro-14-silver; exact swatch value, target image bytes, Apple-hosted URL, and dimensions unavailable in supplied HTML."
+				}
+			],
+			"chips": [
+				{
+					"id": "macbook-pro-14-in-m1-pro-or-m1-max-2021-chip",
+					"displayName": "Apple M1 Pro chip or Apple M1 Max chip",
+					"family": "M1 Pro or M1 Max",
+					"cpuCores": {
+						"total": 10,
+						"performance": 8,
+						"efficiency": 2
+					},
+					"gpuCores": 32,
+					"neuralEngineCores": 16,
+					"memoryBandwidthGbps": 400,
+					"hardwareRayTracing": true,
+					"sourceNotes": "Quick Look names both chips; System on Chip rows state up to 10-core CPU with 8 performance and 2 efficiency cores, up to 32-core GPU, hardware-accelerated ray tracing, 16-core Neural Engine, and 400GB/s memory bandwidth."
+				}
+			],
+			"displays": [
+				{
+					"id": "macbook-pro-14-in-m1-pro-or-m1-max-2021-display",
+					"technology": "Liquid Retina XDR display",
+					"panelKind": null,
+					"sizeIn": 14.2,
+					"resolutionWidthPx": null,
+					"resolutionHeightPx": null,
+					"pixelsPerInch": null,
+					"sourceNotes": "Rendered Quick Look badge only; detailed display facts absent from the target columns of supplied HTML."
+				}
+			],
+			"authentication": {
+				"methods": ["Touch ID"],
+				"primaryMethod": "Touch ID",
+				"placement": "keyboard",
+				"sourceNotes": "Rendered authentication row for the selected target column identifies Touch ID; placement is inferred from MacBook keyboard context and recorded explicitly."
+			},
+			"overviewImages": [],
+			"sourceNotes": "Source: data/tmp/mac/mac7.html. Canonical source: https://www.apple.com/au/mac/compare/?modelList=MacBook-Pro-16-M3,MacBook-Pro-16-M2,MacBook-Pro-14. Price row contains an unrendered price proxy, so AUD price remains explicitly null."
+		}
+	]
+}

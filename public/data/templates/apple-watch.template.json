@@ -1,0 +1,47 @@
+{
+	"devices": [
+		{
+			"id": "apple-watch-series-11",
+			"name": "Apple Watch Series 11",
+			"releaseYear": 2025,
+			"colors": [],
+			"configurations": [],
+			"chips": [],
+			"displays": [],
+			"audio": {},
+			"batteryAndPower": {
+				"hasBattery": true,
+				"runtimeHours": [],
+				"charging": {},
+				"powerSupply": {}
+			},
+			"connectivity": {
+				"ports": []
+			},
+			"authentication": {
+				"methods": [],
+				"primaryMethod": "passcode"
+			},
+			"physical": {
+				"weights": [],
+				"dimensions": [],
+				"components": []
+			},
+			"resistance": {},
+			"software": {
+				"operatingSystem": "watchOS",
+				"compatibleOperatingSystems": [],
+				"builtInApps": []
+			},
+			"watchDetails": {
+				"caseSizes": [],
+				"alwaysOn": true,
+				"wideAngleDisplay": true,
+				"hasSpeaker": true,
+				"hasSiren": false,
+				"swimproofClassification": "Swim, snorkel"
+			},
+			"overviewImages": []
+		}
+	]
+}

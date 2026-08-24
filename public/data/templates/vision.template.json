@@ -1,0 +1,57 @@
+{
+	"devices": [
+		{
+			"id": "apple-vision-pro-m5",
+			"name": "Apple Vision Pro",
+			"releaseYear": 2025,
+			"priceAud": null,
+			"colors": [],
+			"configurations": [],
+			"storageOptions": [],
+			"memoryOptions": [],
+			"chips": [],
+			"displays": [],
+			"cameras": [],
+			"audio": {
+				"speaker": true,
+				"microphone": true,
+				"spatialAudio": true,
+				"formats": []
+			},
+			"batteryAndPower": {
+				"battery": {
+					"runtimeHours": [],
+					"charging": {
+						"wirelessCharging": false
+					}
+				},
+				"power": {
+					"hasExternalPowerAdapter": true
+				}
+			},
+			"connectivity": {
+				"ports": [],
+				"wifi": {
+					"standards": []
+				},
+				"bluetooth": {
+					"version": "Bluetooth 5.3"
+				}
+			},
+			"authentication": {
+				"methods": [],
+				"primaryMethod": "Optic ID"
+			},
+			"physical": {
+				"weights": [],
+				"dimensions": [],
+				"components": []
+			},
+			"software": {
+				"operatingSystem": "visionOS 26",
+				"builtInApps": []
+			},
+			"accessories": []
+		}
+	]
+}

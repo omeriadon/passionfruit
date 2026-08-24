@@ -1,0 +1,498 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"$id": "https://passionfruit.local/schemas/mac.schema.json",
+	"title": "Apple Mac data",
+	"type": "object",
+	"additionalProperties": false,
+	"required": ["devices"],
+	"properties": {
+		"devices": {
+			"type": "array",
+			"items": { "$ref": "#/$defs/mac" }
+		}
+	},
+	"$defs": {
+		"image": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["label", "appleUrl", "localPath", "widthPx", "heightPx"],
+			"properties": {
+				"label": { "type": "string", "minLength": 1 },
+				"appleUrl": { "type": "string", "format": "uri" },
+				"localPath": { "type": "string", "minLength": 1 },
+				"widthPx": { "type": "integer", "minimum": 1 },
+				"heightPx": { "type": "integer", "minimum": 1 }
+			}
+		},
+		"swatch": {
+			"oneOf": [
+				{
+					"type": "object",
+					"additionalProperties": false,
+					"required": ["kind", "value"],
+					"properties": {
+						"kind": { "const": "css" },
+						"value": { "type": "string", "minLength": 1 }
+					}
+				},
+				{
+					"type": "object",
+					"additionalProperties": false,
+					"required": ["kind", "url"],
+					"properties": {
+						"kind": { "const": "image" },
+						"url": { "type": "string", "format": "uri" }
+					}
+				}
+			]
+		},
+		"color": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["id", "displayName", "swatch", "images"],
+			"properties": {
+				"id": { "type": "string", "minLength": 1 },
+				"displayName": { "type": "string", "minLength": 1 },
+				"swatch": { "$ref": "#/$defs/swatch" },
+				"images": { "type": "array", "items": { "$ref": "#/$defs/image" } },
+				"colorPriceAud": { "type": "number", "exclusiveMinimum": 0 },
+				"sourceNotes": { "type": "string", "minLength": 1 }
+			}
+		},
+		"measurement": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["value", "unit"],
+			"properties": {
+				"value": { "type": "number" },
+				"unit": { "type": "string", "minLength": 1 },
+				"qualifier": { "type": "string", "minLength": 1 }
+			}
+		},
+		"measurementRange": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["minimum", "maximum", "unit"],
+			"properties": {
+				"minimum": { "type": "number" },
+				"maximum": { "type": "number" },
+				"unit": { "type": "string", "minLength": 1 },
+				"qualifier": { "type": "string", "minLength": 1 }
+			}
+		},
+		"cpuCores": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["total"],
+			"properties": {
+				"total": { "type": "integer", "minimum": 1 },
+				"performance": { "type": "integer", "minimum": 0 },
+				"efficiency": { "type": "integer", "minimum": 0 }
+			}
+		},
+		"mediaEngine": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["id", "displayName", "kinds"],
+			"properties": {
+				"id": { "type": "string", "minLength": 1 },
+				"displayName": { "type": "string", "minLength": 1 },
+				"kinds": {
+					"type": "array",
+					"items": { "type": "string", "minLength": 1 }
+				}
+			}
+		},
+		"chip": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["id", "displayName"],
+			"properties": {
+				"id": { "type": "string", "minLength": 1 },
+				"displayName": { "type": "string", "minLength": 1 },
+				"family": { "type": "string", "minLength": 1 },
+				"cpuCores": { "$ref": "#/$defs/cpuCores" },
+				"gpuCores": { "type": "integer", "minimum": 1 },
+				"neuralEngineCores": { "type": "integer", "minimum": 1 },
+				"memoryBandwidthGbps": { "type": "number", "minimum": 0 },
+				"cpuCoreConfiguration": { "type": "string", "minLength": 1 },
+				"mediaEngines": {
+					"type": "array",
+					"items": { "$ref": "#/$defs/mediaEngine" }
+				},
+				"neuralAccelerators": { "type": "boolean" },
+				"hardwareRayTracing": { "type": "boolean" },
+				"processNode": { "type": "string", "minLength": 1 },
+				"sourceNotes": { "type": "string", "minLength": 1 }
+			}
+		},
+		"storage": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["id", "capacityValue", "capacityUnit"],
+			"properties": {
+				"id": { "type": "string", "minLength": 1 },
+				"displayName": { "type": "string", "minLength": 1 },
+				"capacityValue": { "type": "integer", "minimum": 1 },
+				"capacityUnit": { "type": "string", "enum": ["GB", "TB"] },
+				"priceDeltaAud": { "type": "number" },
+				"availableColorIds": {
+					"type": "array",
+					"items": { "type": "string", "minLength": 1 }
+				},
+				"sourceNotes": { "type": "string", "minLength": 1 }
+			}
+		},
+		"memory": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["id", "capacityValue", "capacityUnit", "kind"],
+			"properties": {
+				"id": { "type": "string", "minLength": 1 },
+				"displayName": { "type": "string", "minLength": 1 },
+				"capacityValue": { "type": "integer", "minimum": 1 },
+				"capacityUnit": { "type": "string", "enum": ["GB", "TB"] },
+				"kind": { "type": "string", "minLength": 1 },
+				"speedMbps": { "type": "number", "minimum": 0 },
+				"speedUnit": { "type": "string", "minLength": 1 },
+				"sourceNotes": { "type": "string", "minLength": 1 }
+			}
+		},
+		"configuration": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["id"],
+			"properties": {
+				"id": { "type": "string", "minLength": 1 },
+				"displayName": { "type": "string", "minLength": 1 },
+				"storageId": { "type": "string", "minLength": 1 },
+				"memoryIds": {
+					"type": "array",
+					"items": { "type": "string", "minLength": 1 }
+				},
+				"chipId": { "type": "string", "minLength": 1 },
+				"priceAud": { "type": "number", "minimum": 0 },
+				"sourceNotes": { "type": "string", "minLength": 1 }
+			}
+		},
+		"display": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["id", "technology"],
+			"properties": {
+				"id": { "type": "string", "minLength": 1 },
+				"technology": { "type": "string", "minLength": 1 },
+				"panelKind": { "type": "string", "minLength": 1 },
+				"sizeIn": { "type": "number", "minimum": 0 },
+				"resolutionWidthPx": { "type": "integer", "minimum": 1 },
+				"resolutionHeightPx": { "type": "integer", "minimum": 1 },
+				"pixelsPerInch": { "type": "number", "minimum": 1 },
+				"refreshRateHz": { "type": "number", "minimum": 1 },
+				"refreshRateRange": { "$ref": "#/$defs/measurementRange" },
+				"sdrPeakBrightnessNits": { "type": "number", "minimum": 0 },
+				"hdrPeakBrightnessNits": { "type": "number", "minimum": 0 },
+				"fullScreenHdrBrightnessNits": { "type": "number", "minimum": 0 },
+				"trueTone": { "type": "boolean" },
+				"promotion": { "type": "boolean" },
+				"alwaysOn": { "type": "boolean" },
+				"wideColorP3": { "type": "boolean" },
+				"laminated": { "type": "boolean" },
+				"antireflective": { "type": "boolean" },
+				"nanoTextureOption": { "type": "boolean" },
+				"fingerprintResistantCoating": { "type": "boolean" },
+				"hoverSupport": { "type": "boolean" },
+				"mirroring": { "type": "boolean" },
+				"sourceNotes": { "type": "string", "minLength": 1 }
+			}
+		},
+		"camera": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["id", "role", "displayName"],
+			"properties": {
+				"id": { "type": "string", "minLength": 1 },
+				"role": { "type": "string", "minLength": 1 },
+				"displayName": { "type": "string", "minLength": 1 },
+				"megapixels": { "type": "number", "minimum": 0 },
+				"centerStage": { "type": "boolean" },
+				"sensorShiftOis": { "type": "boolean" },
+				"proRAW": { "type": "boolean" },
+				"spatialCapture": { "type": "boolean" },
+				"macro": { "type": "boolean" },
+				"trueDepthSystem": { "type": "boolean" },
+				"proRes": { "type": "boolean" },
+				"lidar": { "type": "boolean" },
+				"sourceNotes": { "type": "string", "minLength": 1 }
+			}
+		},
+		"audio": {
+			"type": "object",
+			"additionalProperties": false,
+			"properties": {
+				"speaker": { "type": "boolean" },
+				"microphone": { "type": "boolean" },
+				"speakerConfiguration": { "type": "string", "minLength": 1 },
+				"microphoneConfiguration": { "type": "string", "minLength": 1 },
+				"spatialAudio": { "type": "boolean" },
+				"formats": {
+					"type": "array",
+					"items": { "type": "string", "minLength": 1 }
+				},
+				"sourceNotes": { "type": "string" }
+			}
+		},
+		"runtime": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["id", "activity", "hours"],
+			"properties": {
+				"id": { "type": "string", "minLength": 1 },
+				"activity": { "type": "string", "minLength": 1 },
+				"hours": { "type": "number", "minimum": 0 },
+				"network": { "type": "string", "minLength": 1 },
+				"qualifier": { "type": "string", "minLength": 1 }
+			}
+		},
+		"charging": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["wirelessCharging"],
+			"properties": {
+				"portId": { "type": "string", "minLength": 1 },
+				"wiredFastCharge": { "type": "boolean" },
+				"wirelessCharging": { "type": "boolean" },
+				"wirelessStandards": {
+					"type": "array",
+					"items": { "type": "string", "minLength": 1 }
+				},
+				"fastChargeMinutesToPercent": { "type": "number", "minimum": 0 },
+				"adapterPowerW": { "type": "number", "minimum": 0 }
+			}
+		},
+		"battery": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["runtimeHours", "charging"],
+			"properties": {
+				"capacityMah": { "type": "number", "minimum": 0 },
+				"capacityWhr": { "type": "number", "minimum": 0 },
+				"runtimeHours": {
+					"type": "array",
+					"items": { "$ref": "#/$defs/runtime" }
+				},
+				"charging": { "$ref": "#/$defs/charging" }
+			}
+		},
+		"power": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["hasExternalPowerAdapter"],
+			"properties": {
+				"hasExternalPowerAdapter": { "type": "boolean" },
+				"outputVoltageV": { "type": "number", "minimum": 0 },
+				"outputCurrentA": { "type": "number", "minimum": 0 },
+				"outputPowerW": { "type": "number", "minimum": 0 },
+				"inputVoltageRangeV": {
+					"type": "object",
+					"additionalProperties": false,
+					"required": ["minimum", "maximum"],
+					"properties": {
+						"minimum": { "type": "number" },
+						"maximum": { "type": "number" }
+					}
+				},
+				"frequencyHz": { "type": "number", "minimum": 0 },
+				"consumptionW": { "type": "number", "minimum": 0 }
+			}
+		},
+		"batteryAndPower": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["battery", "power"],
+			"properties": {
+				"battery": {
+					"oneOf": [{ "$ref": "#/$defs/battery" }, { "type": "null" }]
+				},
+				"power": { "$ref": "#/$defs/power" }
+			}
+		},
+		"port": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["id", "kind"],
+			"properties": {
+				"id": { "type": "string", "minLength": 1 },
+				"kind": { "type": "string", "minLength": 1 },
+				"standard": { "type": "string", "minLength": 1 },
+				"quantity": { "type": "integer", "minimum": 1 },
+				"supportsDisplayOut": { "type": "boolean" },
+				"maxPowerW": { "type": "number", "minimum": 0 },
+				"sourceNotes": { "type": "string", "minLength": 1 }
+			}
+		},
+		"connectivity": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["ports"],
+			"properties": {
+				"ports": { "type": "array", "items": { "$ref": "#/$defs/port" } },
+				"wifi": {
+					"type": "object",
+					"additionalProperties": false,
+					"required": ["standards"],
+					"properties": {
+						"standards": {
+							"type": "array",
+							"items": { "type": "string", "minLength": 1 }
+						}
+					}
+				},
+				"bluetooth": {
+					"type": "object",
+					"additionalProperties": false,
+					"required": ["version"],
+					"properties": { "version": { "type": "string", "minLength": 1 } }
+				}
+			}
+		},
+		"authentication": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["methods", "primaryMethod"],
+			"properties": {
+				"methods": {
+					"type": "array",
+					"items": { "type": "string", "minLength": 1 }
+				},
+				"primaryMethod": { "type": "string", "minLength": 1 },
+				"placement": { "type": "string", "minLength": 1 },
+				"sourceNotes": { "type": "string", "minLength": 1 }
+			}
+		},
+		"physicalComponent": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["id", "displayName", "dimensions"],
+			"properties": {
+				"id": { "type": "string", "minLength": 1 },
+				"displayName": { "type": "string", "minLength": 1 },
+				"dimensions": {
+					"type": "array",
+					"items": { "$ref": "#/$defs/measurement" }
+				},
+				"weight": { "type": "number" },
+				"weightUnit": { "type": "string", "minLength": 1 },
+				"sourceNotes": { "type": "string", "minLength": 1 }
+			}
+		},
+		"physical": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["weights", "dimensions", "components"],
+			"properties": {
+				"weights": {
+					"type": "array",
+					"items": { "$ref": "#/$defs/measurement" }
+				},
+				"dimensions": {
+					"type": "array",
+					"items": { "$ref": "#/$defs/measurement" }
+				},
+				"components": {
+					"type": "array",
+					"items": { "$ref": "#/$defs/physicalComponent" }
+				}
+			}
+		},
+		"software": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["operatingSystem", "builtInApps"],
+			"properties": {
+				"operatingSystem": { "type": "string", "minLength": 1 },
+				"operatingSystemVersionAtLaunch": {
+					"type": "string",
+					"minLength": 1
+				},
+				"builtInApps": {
+					"type": "array",
+					"items": { "type": "string", "minLength": 1 }
+				},
+				"sourceNotes": { "type": "string", "minLength": 1 }
+			}
+		},
+		"accessory": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["displayName", "category"],
+			"properties": {
+				"accessoryId": { "type": "string", "minLength": 1 },
+				"displayName": { "type": "string", "minLength": 1 },
+				"category": { "type": "string", "minLength": 1 },
+				"capabilities": {
+					"type": "array",
+					"items": { "type": "string", "minLength": 1 }
+				}
+			}
+		},
+		"mac": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": [
+				"id",
+				"name",
+				"releaseYear",
+				"priceAud",
+				"colors",
+				"configurations",
+				"storageOptions",
+				"memoryOptions",
+				"chips",
+				"displays",
+				"cameras",
+				"audio",
+				"batteryAndPower",
+				"connectivity",
+				"authentication",
+				"physical",
+				"software",
+				"accessories"
+			],
+			"properties": {
+				"id": { "type": "string", "minLength": 1 },
+				"name": { "type": "string", "minLength": 1 },
+				"releaseYear": { "type": "integer", "minimum": 1976 },
+				"priceAud": { "type": ["number", "null"], "minimum": 0 },
+				"colors": { "type": "array", "items": { "$ref": "#/$defs/color" } },
+				"configurations": {
+					"type": "array",
+					"items": { "$ref": "#/$defs/configuration" }
+				},
+				"storageOptions": {
+					"type": "array",
+					"items": { "$ref": "#/$defs/storage" }
+				},
+				"memoryOptions": {
+					"type": "array",
+					"items": { "$ref": "#/$defs/memory" }
+				},
+				"chips": { "type": "array", "items": { "$ref": "#/$defs/chip" } },
+				"displays": { "type": "array", "items": { "$ref": "#/$defs/display" } },
+				"cameras": { "type": "array", "items": { "$ref": "#/$defs/camera" } },
+				"audio": { "$ref": "#/$defs/audio" },
+				"batteryAndPower": { "$ref": "#/$defs/batteryAndPower" },
+				"connectivity": { "$ref": "#/$defs/connectivity" },
+				"authentication": { "$ref": "#/$defs/authentication" },
+				"physical": { "$ref": "#/$defs/physical" },
+				"software": { "$ref": "#/$defs/software" },
+				"backlitKeyboard": { "type": "boolean" },
+				"forceTouchTrackpad": { "type": "boolean" },
+				"accessories": {
+					"type": "array",
+					"items": { "$ref": "#/$defs/accessory" }
+				},
+				"sourceNotes": { "type": "string", "minLength": 1 }
+			}
+		}
+	}
+}
