@@ -6,7 +6,7 @@ PostgreSQL. The UI must not read or write PostgreSQL directly.
 
 ## Conventions
 
-- Base URL: configured by the UI as `BOOKMARKS_API_URL`.
+- Base URL: configured by the UI as `NEXT_PUBLIC_BOOKMARKS_API_URL`.
 - JSON requests use `Content-Type: application/json`.
 - JSON responses use `Content-Type: application/json`.
 - IDs are opaque strings. The service must not require the UI to understand
@@ -30,8 +30,8 @@ Request:
 
 ```json
 {
-  "username": "example-user",
-  "password": "correct horse battery staple"
+	"username": "example-user",
+	"password": "correct horse battery staple"
 }
 ```
 
@@ -39,14 +39,14 @@ Response `201 Created`:
 
 ```json
 {
-  "user": {
-    "id": "user_01H...",
-    "username": "example-user"
-  },
-  "session": {
-    "token": "opaque-bearer-token",
-    "expiresAt": "2026-09-23T00:00:00Z"
-  }
+	"user": {
+		"id": "user_01H...",
+		"username": "example-user"
+	},
+	"session": {
+		"token": "opaque-bearer-token",
+		"expiresAt": "2026-09-23T00:00:00Z"
+	}
 }
 ```
 
@@ -61,8 +61,8 @@ Request:
 
 ```json
 {
-  "username": "example-user",
-  "password": "correct horse battery staple"
+	"username": "example-user",
+	"password": "correct horse battery staple"
 }
 ```
 
@@ -78,10 +78,10 @@ Requires a bearer token. Response `200 OK`:
 
 ```json
 {
-  "user": {
-    "id": "user_01H...",
-    "username": "example-user"
-  }
+	"user": {
+		"id": "user_01H...",
+		"username": "example-user"
+	}
 }
 ```
 
@@ -116,13 +116,13 @@ Response `200 OK`:
 
 ```json
 {
-  "bookmarks": [
-    {
-      "category": "iphone",
-      "deviceId": "iphone-17-pro-max",
-      "createdAt": "2026-08-24T08:00:00Z"
-    }
-  ]
+	"bookmarks": [
+		{
+			"category": "iphone",
+			"deviceId": "iphone-17-pro-max",
+			"createdAt": "2026-08-24T08:00:00Z"
+		}
+	]
 }
 ```
 
@@ -139,11 +139,11 @@ created:
 
 ```json
 {
-  "bookmark": {
-    "category": "iphone",
-    "deviceId": "iphone-17-pro-max",
-    "createdAt": "2026-08-24T08:00:00Z"
-  }
+	"bookmark": {
+		"category": "iphone",
+		"deviceId": "iphone-17-pro-max",
+		"createdAt": "2026-08-24T08:00:00Z"
+	}
 }
 ```
 
@@ -167,14 +167,14 @@ All non-2xx JSON responses use this shape:
 
 ```json
 {
-  "error": {
-    "code": "validation_failed",
-    "message": "The request could not be accepted.",
-    "fields": {
-      "username": "Username is required."
-    },
-    "requestId": "req_01H..."
-  }
+	"error": {
+		"code": "validation_failed",
+		"message": "The request could not be accepted.",
+		"fields": {
+			"username": "Username is required."
+		},
+		"requestId": "req_01H..."
+	}
 }
 ```
 
@@ -185,17 +185,17 @@ hashes, SQL errors, or other sensitive implementation details.
 
 Required status/code mappings:
 
-| Status | Code | Meaning |
-| --- | --- | --- |
-| `400` | `invalid_json` | Malformed JSON or an invalid request body. |
-| `401` | `unauthorized` | Missing, expired, revoked, or invalid bearer token; login failure uses the same code. |
-| `403` | `forbidden` | Authenticated user is not allowed to perform the operation. |
-| `404` | `not_found` | Requested route or resource does not exist. |
-| `409` | `username_taken` | Registration conflicts with an existing username. |
-| `422` | `validation_failed` | JSON is valid but fields fail validation. |
-| `429` | `rate_limited` | Authentication or another endpoint is rate limited. |
-| `500` | `internal_error` | Unexpected server failure. |
-| `503` | `service_unavailable` | The service or database is temporarily unavailable. |
+| Status | Code                  | Meaning                                                                               |
+| ------ | --------------------- | ------------------------------------------------------------------------------------- |
+| `400`  | `invalid_json`        | Malformed JSON or an invalid request body.                                            |
+| `401`  | `unauthorized`        | Missing, expired, revoked, or invalid bearer token; login failure uses the same code. |
+| `403`  | `forbidden`           | Authenticated user is not allowed to perform the operation.                           |
+| `404`  | `not_found`           | Requested route or resource does not exist.                                           |
+| `409`  | `username_taken`      | Registration conflicts with an existing username.                                     |
+| `422`  | `validation_failed`   | JSON is valid but fields fail validation.                                             |
+| `429`  | `rate_limited`        | Authentication or another endpoint is rate limited.                                   |
+| `500`  | `internal_error`      | Unexpected server failure.                                                            |
+| `503`  | `service_unavailable` | The service or database is temporarily unavailable.                                   |
 
 ## CORS
 
