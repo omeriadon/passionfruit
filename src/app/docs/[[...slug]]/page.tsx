@@ -13,10 +13,46 @@ import type { Metadata } from "next";
 import { createRelativeLink } from "fumadocs-ui/mdx";
 import { gitConfig, getCatalogRoute } from "@/lib/shared";
 import { getCatalogRecordCount, getCatalogStaticParams } from "@/lib/source";
+import { getCatalogData } from "@/lib/source";
+import { CatalogCategory } from "@/components/catalog/CatalogCategory";
+import { AccessoryCatalog } from "@/components/catalog/AccessoryCatalog";
+import type { CatalogDevice } from "@/lib/catalog/types";
 
 function CatalogRouteBoundary({ slugs }: { slugs: string[] }) {
 	const route = getCatalogRoute(slugs);
 	if (!route) return null;
+	const data = getCatalogData(route);
+
+	if (route.kind === "category" || route.kind === "device") {
+		if (!("devices" in data)) return null;
+		const detailDevice =
+			route.kind === "device"
+				? (data.devices.find(
+						(device) => device.id === route.deviceSlug,
+					) as CatalogDevice | undefined)
+				: undefined;
+
+		return (
+			<CatalogCategory
+				category={route.category}
+				devices={data.devices as CatalogDevice[]}
+				detailDevice={detailDevice}
+			/>
+		);
+	}
+
+	if (route.kind === "accessory" || route.kind === "accessory-device") {
+		if (!("accessories" in data)) return null;
+		const detailId =
+			route.kind === "accessory-device" ? route.deviceSlug : undefined;
+		return (
+			<AccessoryCatalog
+				accessory={route.accessory}
+				accessories={data.accessories}
+				detailId={detailId}
+			/>
+		);
+	}
 
 	return (
 		<section
@@ -26,14 +62,7 @@ function CatalogRouteBoundary({ slugs }: { slugs: string[] }) {
 			data-catalog-device={"deviceSlug" in route ? route.deviceSlug : undefined}
 			data-catalog-record-count={getCatalogRecordCount(route)}
 		>
-			<div className="catalog-route-boundary__content">
-				<p className="text-sm font-medium text-fd-muted-foreground">
-					Catalog data boundary
-				</p>
-				<p className="text-fd-muted-foreground">
-					The interactive catalog view is mounted here by the components layer.
-				</p>
-			</div>
+			<div className="catalog-route-boundary__content" />
 		</section>
 	);
 }

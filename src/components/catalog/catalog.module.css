@@ -434,12 +434,13 @@
 	grid-template-columns: minmax(7rem, 0.75fr) 1.25fr;
 }
 
-.dataRow dt {
+.dataTerm {
 	color: var(--catalog-muted);
 	font-size: 0.78rem;
 }
 
-.dataRow dd {
+.dataDefinition,
+.detailValue {
 	font-size: 0.84rem;
 	margin: 0;
 	min-width: 0;
