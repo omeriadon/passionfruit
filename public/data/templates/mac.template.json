@@ -1,11 +1,10 @@
 {
 	"devices": [
 		{
-			"id": "mac-device-template",
-			"name": "Device template",
-			"family": "ipad",
-			"releaseYear": 1976,
-			"priceAud": 0,
+			"id": "macbook-neo-a18-pro",
+			"name": "MacBook Neo (A18 Pro)",
+			"releaseYear": 2026,
+			"priceAud": 1049,
 			"colors": [],
 			"configurations": [],
 			"storageOptions": [],
@@ -13,122 +12,35 @@
 			"chips": [],
 			"displays": [],
 			"cameras": [],
-			"audio": {
-				"speaker": false,
-				"microphone": false,
-				"speakerConfiguration": "",
-				"microphoneConfiguration": "",
-				"siren": false,
-				"spatialAudio": false,
-				"adaptiveAudio": false,
-				"activeNoiseCancellation": false,
-				"transparency": false,
-				"formats": [],
-				"sourceNotes": ""
-			},
+			"audio": {},
 			"batteryAndPower": {
-				"hasBattery": false,
-				"batteryCapacityMah": 0,
-				"batteryCapacityWhr": 0,
-				"runtimeHours": [],
-				"charging": {
-					"portId": "",
-					"wiredFastCharge": false,
-					"wirelessCharging": false,
-					"wirelessStandards": null,
-					"fastChargeMinutesToPercent": null,
-					"adapterPowerW": 0
+				"battery": {
+					"runtimeHours": [],
+					"charging": {
+						"wirelessCharging": false
+					}
 				},
-				"powerSupply": {
-					"hasExternalPowerAdapter": false,
-					"outputVoltageV": 0,
-					"outputCurrentA": 0,
-					"outputPowerW": 0,
-					"inputVoltageRangeV": null,
-					"frequencyHz": 0,
-					"consumptionW": 0
+				"power": {
+					"hasExternalPowerAdapter": false
 				}
 			},
 			"connectivity": {
-				"ports": [],
-				"wifi": {
-					"standards": [],
-					"chip": "",
-					"MIMO": "",
-					"simultaneousDualBand": false
-				},
-				"bluetooth": {
-					"version": "Bluetooth 4.0"
-				},
-				"cellular": {
-					"technologies": [],
-					"bands": [],
-					"eSIMOnly": false
-				},
-				"uwb": {
-					"chip": "",
-					"secondGeneration": false
-				},
-				"thread": {
-					"supported": false,
-					"role": "endpoint"
-				},
-				"infrared": {
-					"present": false,
-					"purpose": ""
-				},
-				"nearFieldCommunication": {
-					"present": false,
-					"readWriteMode": false,
-					"backgroundTagReading": false
-				},
-				"gps": {
-					"present": false,
-					"precisionDualFrequency": false,
-					"systems": []
-				}
+				"ports": []
 			},
 			"authentication": {
 				"methods": [],
-				"primaryMethod": "Face ID",
-				"placement": "top button",
-				"sourceNotes": ""
+				"primaryMethod": "passcode"
 			},
 			"physical": {
 				"weights": [],
 				"dimensions": [],
 				"components": []
 			},
-			"resistance": {
-				"ipRating": "",
-				"waterDepthM": 0,
-				"splashPressureAtm": 0,
-				"dustProtected": false,
-				"sweatResistant": false
-			},
 			"software": {
-				"operatingSystem": "",
-				"operatingSystemVersionAtLaunch": "",
-				"compatibleOperatingSystems": [],
-				"builtInApps": [],
-				"sourceNotes": ""
+				"operatingSystem": "macOS",
+				"builtInApps": []
 			},
-			"watchDetails": {
-				"caseSizes": [],
-				"alwaysOn": false,
-				"wideAngleDisplay": false,
-				"u1UwbChip": "",
-				"otherWirelessChip": "",
-				"hasSpeaker": false,
-				"hasSiren": false,
-				"swimproofClassification": "",
-				"completeSummary": []
-			},
-			"overviewImages": [],
-			"forceTouchTrackpad": false,
-			"backlitKeyboard": false,
-			"accessories": [],
-			"sourceNotes": ""
+			"accessories": []
 		}
 	]
 }

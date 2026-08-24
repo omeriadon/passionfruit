@@ -1,37 +1,27 @@
-# iPhone fields to extract
+# iPhone extraction rules
 
-For every iPhone model listed in the source HTML, extract:
+Extract every in-scope iPhone model from iPhone DevTools HTML under `data/tmp/` into the independent iPhone contract. Use the iPhone schema directly; do not borrow iPad field semantics.
 
-## Identity and pricing
+## Identity, variants, and images
 
-- Model name.
-- The cheapest starting price, in AUD.
+- Record `id`, exact `name`, `releaseYear`, and cheapest displayed `priceAud`.
+- Record every finish, swatch, finish-specific price, and image variant in `colors`.
+- Record sold hardware variants in `configurations`, capacities in `storageOptions`, and memory values in `memoryOptions` when evidenced.
+- Record additional source-backed imagery in `overviewImages`.
 
-## Colours
+## Hardware
 
-- Every available colour name.
-- The single-colour preview (the circle/swatch shown in the colour picker), linked to its colour name.
-- Product images for each colour (Apple-hosted URLs), including relevant variants per colour and configuration.
-- Where Apple shows a different price for a specific colour, record that colour's price in AUD. Omit `colorPriceAud` from colours that use the model-level starting price.
+- Record each chip and its supported typed details in `chips`.
+- Record every display fact, including size, resolution, brightness, refresh behavior, and always-on support, in `displays`.
+- Record every rear and front camera in `cameras`, including role, megapixels, zoom, ProRAW, spatial capture, macro support, Camera Control, and LiDAR where the schema assigns those facts.
+- Record speaker and microphone facts in `audio`.
+- Record every battery runtime, capacity, charging, and power-supply fact in `batteryAndPower`.
+- Record ports, display output, Wi-Fi, Bluetooth, cellular, GPS, NFC, UWB, and other applicable networking capabilities in `connectivity`.
+- Record Face ID and passcode support in `authentication`.
+- Record dimensions, weights, components, resistance, Crash Detection, launch software, and compatible software in their typed schema fields.
 
-## Specifications
+## Contract limits
 
-- Display size.
-- Everything in the Summary section.
-- Capacity as an array.
-- Everything in the Display section.
-- Whether the display is always-on.
-- Weight.
-- Chip details.
-- Every rear camera, recording its name, megapixel count, optical zoom, whether ProRAW is supported, whether Spatial capture is supported, and whether Macro is supported.
-- Front-camera megapixel count.
-- All Power and Battery details.
-- Crash Detection capability.
-- Camera Control capability.
-- Whether the model uses Face ID.
-- Whether the model has LiDAR.
-- Which port it has.
-
-## Source requirement
-
-- Do not extract any data until an iPhone DevTools HTML export exists in `data/tmp/`.
+- Use `[]` for empty arrays and concrete values for booleans.
+- Preserve evidence qualifications in `sourceNotes`.
+- Do not add Apple Pencil or keyboard compatibility, device-level family, summaries, watch fields, or iPad-only interpretations.

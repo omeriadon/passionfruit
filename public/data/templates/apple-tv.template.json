@@ -1,134 +1,36 @@
 {
 	"devices": [
 		{
-			"id": "apple-tv-device-template",
-			"name": "Device template",
-			"family": "ipad",
-			"releaseYear": 1976,
-			"priceAud": 0,
-			"colors": [],
-			"configurations": [],
-			"storageOptions": [],
-			"memoryOptions": [],
-			"chips": [],
-			"displays": [],
-			"cameras": [],
-			"audio": {
-				"speaker": false,
-				"microphone": false,
-				"speakerConfiguration": "",
-				"microphoneConfiguration": "",
-				"siren": false,
-				"spatialAudio": false,
-				"adaptiveAudio": false,
-				"activeNoiseCancellation": false,
-				"transparency": false,
-				"formats": [],
-				"sourceNotes": ""
-			},
-			"batteryAndPower": {
-				"hasBattery": false,
-				"batteryCapacityMah": 0,
-				"batteryCapacityWhr": 0,
-				"runtimeHours": [],
-				"charging": {
-					"portId": "",
-					"wiredFastCharge": false,
-					"wirelessCharging": false,
-					"wirelessStandards": null,
-					"fastChargeMinutesToPercent": null,
-					"adapterPowerW": 0
-				},
-				"powerSupply": {
-					"hasExternalPowerAdapter": false,
-					"outputVoltageV": 0,
-					"outputCurrentA": 0,
-					"outputPowerW": 0,
-					"inputVoltageRangeV": null,
-					"frequencyHz": 0,
-					"consumptionW": 0
+			"id": "apple-tv-4k",
+			"name": "Apple TV 4K",
+			"releaseYear": 2022,
+			"configurations": [
+				{
+					"id": "apple-tv-4k-wifi-64gb",
+					"displayName": "64GB (Wi-Fi model)",
+					"storage": {
+						"capacityGb": 64
+					},
+					"connectivity": {
+						"wifi": true,
+						"ethernet": false
+					}
 				}
+			],
+			"chip": {
+				"id": "a15-bionic",
+				"displayName": "A15 Bionic chip"
 			},
 			"connectivity": {
-				"ports": [],
-				"wifi": {
-					"standards": [],
-					"chip": "",
-					"MIMO": "",
-					"simultaneousDualBand": false
-				},
-				"bluetooth": {
-					"version": "Bluetooth 4.0"
-				},
-				"cellular": {
-					"technologies": [],
-					"bands": [],
-					"eSIMOnly": false
-				},
-				"uwb": {
-					"chip": "",
-					"secondGeneration": false
-				},
-				"thread": {
-					"supported": false,
-					"role": "endpoint"
-				},
-				"infrared": {
-					"present": false,
-					"purpose": ""
-				},
-				"nearFieldCommunication": {
-					"present": false,
-					"readWriteMode": false,
-					"backgroundTagReading": false
-				},
-				"gps": {
-					"present": false,
-					"precisionDualFrequency": false,
-					"systems": []
-				}
-			},
-			"authentication": {
-				"methods": [],
-				"primaryMethod": "Face ID",
-				"placement": "top button",
-				"sourceNotes": ""
+				"ports": []
 			},
 			"physical": {
 				"weights": [],
 				"dimensions": [],
 				"components": []
 			},
-			"resistance": {
-				"ipRating": "",
-				"waterDepthM": 0,
-				"splashPressureAtm": 0,
-				"dustProtected": false,
-				"sweatResistant": false
-			},
-			"software": {
-				"operatingSystem": "",
-				"operatingSystemVersionAtLaunch": "",
-				"compatibleOperatingSystems": [],
-				"builtInApps": [],
-				"sourceNotes": ""
-			},
-			"watchDetails": {
-				"caseSizes": [],
-				"alwaysOn": false,
-				"wideAngleDisplay": false,
-				"u1UwbChip": "",
-				"otherWirelessChip": "",
-				"hasSpeaker": false,
-				"hasSiren": false,
-				"swimproofClassification": "",
-				"completeSummary": []
-			},
-			"overviewImages": [],
-			"forceTouchTrackpad": false,
-			"backlitKeyboard": false,
-			"accessories": [],
-			"sourceNotes": ""
+			"images": [],
+			"accessories": []
 		}
 	]
 }

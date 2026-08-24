@@ -1,11 +1,10 @@
 {
 	"devices": [
 		{
-			"id": "vision-device-template",
-			"name": "Device template",
-			"family": "ipad",
-			"releaseYear": 1976,
-			"priceAud": 0,
+			"id": "apple-vision-pro-m5",
+			"name": "Apple Vision Pro",
+			"releaseYear": 2025,
+			"priceAud": null,
 			"colors": [],
 			"configurations": [],
 			"storageOptions": [],
@@ -14,121 +13,45 @@
 			"displays": [],
 			"cameras": [],
 			"audio": {
-				"speaker": false,
-				"microphone": false,
-				"speakerConfiguration": "",
-				"microphoneConfiguration": "",
-				"siren": false,
-				"spatialAudio": false,
-				"adaptiveAudio": false,
-				"activeNoiseCancellation": false,
-				"transparency": false,
-				"formats": [],
-				"sourceNotes": ""
+				"speaker": true,
+				"microphone": true,
+				"spatialAudio": true,
+				"formats": []
 			},
 			"batteryAndPower": {
-				"hasBattery": false,
-				"batteryCapacityMah": 0,
-				"batteryCapacityWhr": 0,
-				"runtimeHours": [],
-				"charging": {
-					"portId": "",
-					"wiredFastCharge": false,
-					"wirelessCharging": false,
-					"wirelessStandards": null,
-					"fastChargeMinutesToPercent": null,
-					"adapterPowerW": 0
+				"battery": {
+					"runtimeHours": [],
+					"charging": {
+						"wirelessCharging": false
+					}
 				},
-				"powerSupply": {
-					"hasExternalPowerAdapter": false,
-					"outputVoltageV": 0,
-					"outputCurrentA": 0,
-					"outputPowerW": 0,
-					"inputVoltageRangeV": null,
-					"frequencyHz": 0,
-					"consumptionW": 0
+				"power": {
+					"hasExternalPowerAdapter": true
 				}
 			},
 			"connectivity": {
 				"ports": [],
 				"wifi": {
-					"standards": [],
-					"chip": "",
-					"MIMO": "",
-					"simultaneousDualBand": false
+					"standards": []
 				},
 				"bluetooth": {
-					"version": "Bluetooth 4.0"
-				},
-				"cellular": {
-					"technologies": [],
-					"bands": [],
-					"eSIMOnly": false
-				},
-				"uwb": {
-					"chip": "",
-					"secondGeneration": false
-				},
-				"thread": {
-					"supported": false,
-					"role": "endpoint"
-				},
-				"infrared": {
-					"present": false,
-					"purpose": ""
-				},
-				"nearFieldCommunication": {
-					"present": false,
-					"readWriteMode": false,
-					"backgroundTagReading": false
-				},
-				"gps": {
-					"present": false,
-					"precisionDualFrequency": false,
-					"systems": []
+					"version": "Bluetooth 5.3"
 				}
 			},
 			"authentication": {
 				"methods": [],
-				"primaryMethod": "Face ID",
-				"placement": "top button",
-				"sourceNotes": ""
+				"primaryMethod": "Optic ID"
 			},
 			"physical": {
 				"weights": [],
 				"dimensions": [],
 				"components": []
 			},
-			"resistance": {
-				"ipRating": "",
-				"waterDepthM": 0,
-				"splashPressureAtm": 0,
-				"dustProtected": false,
-				"sweatResistant": false
-			},
 			"software": {
-				"operatingSystem": "",
-				"operatingSystemVersionAtLaunch": "",
-				"compatibleOperatingSystems": [],
-				"builtInApps": [],
-				"sourceNotes": ""
+				"operatingSystem": "visionOS 26",
+				"builtInApps": []
 			},
-			"watchDetails": {
-				"caseSizes": [],
-				"alwaysOn": false,
-				"wideAngleDisplay": false,
-				"u1UwbChip": "",
-				"otherWirelessChip": "",
-				"hasSpeaker": false,
-				"hasSiren": false,
-				"swimproofClassification": "",
-				"completeSummary": []
-			},
-			"overviewImages": [],
-			"forceTouchTrackpad": false,
-			"backlitKeyboard": false,
-			"accessories": [],
-			"sourceNotes": ""
+			"accessories": []
 		}
 	]
 }

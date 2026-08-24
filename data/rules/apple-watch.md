@@ -1,37 +1,26 @@
-# Apple Watch fields to extract
+# Apple Watch extraction rules
 
-For every Apple Watch model listed in the source HTML, extract:
+Extract every in-scope Apple Watch model from Apple Watch DevTools HTML under `data/tmp/` into the independent Apple Watch contract.
 
-## Identity and pricing
+## Identity and variants
 
-- Model name.
-- The cheapest price, in AUD.
+- Record `id`, exact `name`, `releaseYear`, and the cheapest displayed `priceAud` when present.
+- Record every finish in `colors`, linking its swatch and all size, finish, and connectivity image variants.
+- Record every sold case-size, material, and connectivity combination in `configurations`.
 
-## Colours
+## Hardware
 
-- Every available colour name.
-- The single-colour preview (the circle/swatch shown in the colour picker), linked to its colour name.
-- Product images for each colour (Apple-hosted URLs), including relevant variants per size, colour, and configuration.
-- Where Apple shows a different price for a specific colour, record that colour's price in AUD. Omit `priceAud` from colours that use the model-level starting price.
+- Record application and wireless chips as typed `chips` entries.
+- Record displays as typed entries, including size, resolution, always-on state, brightness range, and wide-angle capability when present.
+- Emit display booleans as `true` or `false`.
+- Record speaker, microphone, and siren capabilities in `audio`.
+- Record battery runtimes, charging, fast charge, and power-supply facts in `batteryAndPower`.
+- Record Wi-Fi, Bluetooth, cellular, GPS, UWB, and ports in `connectivity`.
+- Record authentication methods, dimensions, weights, case components, water resistance, IP rating, launch software, watch sizes, case materials, and cellular availability in their typed bundles.
+- Record overview imagery in `overviewImages`.
 
-## Specifications
+## Contract limits
 
-- Everything in the Summary section.
-- Available case sizes as an array.
-- Whether the display is always-on.
-- Every display brightness item, bundled together as one entry; include minimum brightness where present.
-- Wide-angle display capability when applicable.
-- Weight.
-- Thickness.
-- Chip details.
-- U1/UWB wireless chip details.
-- Other wireless chip details.
-- Whether it has a speaker.
-- Whether it has a siren.
-- All battery information.
-- Water resistance depth.
-- IP rating.
-
-## Source requirement
-
-- Do not extract any data until an Apple Watch DevTools HTML export exists in `data/tmp/`.
+- Use `[]` for empty arrays and concrete values for booleans.
+- Preserve source qualifications in `sourceNotes`.
+- Do not create storage, cameras, accessories, family, summary arrays, or other category-inapplicable fields.

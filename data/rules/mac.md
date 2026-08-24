@@ -1,42 +1,36 @@
-# Mac fields to extract
+# Mac extraction rules
 
-For every Mac model listed in the source HTML, extract:
+Extract every in-scope Apple-silicon Mac model from Mac DevTools HTML under `data/tmp/` into the independent Mac contract. Intel Macs are outside scope.
 
-## Identity and pricing
+## Identity, variants, and images
 
-- Model name.
-- The cheapest starting price, in AUD.
+- Record `id`, exact `name`, `releaseYear`, and cheapest displayed `priceAud`.
+- Record every finish, swatch, finish-specific price, and product image in `colors`.
+- Record sold variants in `configurations`, capacities in `storageOptions`, and unified-memory values in `memoryOptions`.
 
-## Colours
+## Hardware
 
-- Every available colour name.
-- The single-colour preview (the circle/swatch shown in the colour picker), linked to its colour name.
-- Product images for each colour (Apple-hosted URLs), including relevant variants per colour and configuration.
-- Where Apple shows a different price for a specific colour, record that colour's price in AUD. Omit `colorPriceAud` from colours that use the model-level starting price.
+- Record every Apple-silicon chip option and its typed CPU, GPU, Neural Engine, media-engine, bandwidth, and process details in `chips`.
+- Record built-in and bundled displays in `displays`. A headless desktop uses `[]`; do not fabricate a display.
+- Record built-in cameras in `cameras`. A headless desktop uses `[]`.
+- Record distinct speaker, microphone, and supported audio capabilities in `audio`.
+- Record every supported wireless protocol and physical port in `connectivity`.
+- Record Touch ID availability in `authentication`.
+- Record dimensions, weights, and components in `physical`.
+- Record launch and compatible macOS facts in `software`.
+- Record `backlitKeyboard` and `forceTouchTrackpad` as concrete booleans when those fields apply; omit optional fields where the product has no integrated keyboard or trackpad and the schema permits omission.
+- Record included and supported accessory names in `accessories`.
 
-## Specifications
+## Laptop and desktop power/display handling
 
-- Everything in the Quick Look section.
-- Chip details, including every chip detail Apple provides.
-- Memory details.
-- Storage details.
-- Everything in the Display section.
-- Weight.
-- Camera megapixel count and whether Centre Stage is supported.
-- Sensible audio specifications, grouped so individual specifications remain distinguishable.
-- Whether Touch ID is available.
-- Whether the keyboard is backlit.
-- Whether the trackpad supports Force Touch.
-- Every supported wireless protocol.
-- Every port, standardized to the shared port vocabulary.
-- All Power and Battery details.
+- Treat display applicability and battery applicability independently.
+- For a Mac laptop, populate `batteryAndPower.battery` with capacity, runtime, and charging evidence, and populate `batteryAndPower.power` when power-adapter evidence exists.
+- For a desktop Mac, omit the optional `battery` object and populate `power` with power-supply, input, or consumption evidence.
+- For an all-in-one desktop, populate `displays` and desktop `power`; omit battery.
+- For a headless desktop, use `displays: []`, populate desktop `power`, and omit battery.
+- Preserve Apple's wording and units in typed entries and `sourceNotes`; never infer a laptop battery for a desktop.
 
-## Desktop power handling
+## Contract limits
 
-- Do not infer laptop battery fields for desktop Macs.
-- Record desktop power details using the same `power` array; omit `battery` when no battery applies.
-- Record desktop power-supply or power-consumption details as entries in `power`, preserving Apple's wording and units.
-
-## Source requirement
-
-- Do not extract any data until a Mac DevTools HTML export exists in `data/tmp/`.
+- Use `[]` for empty arrays and concrete values for booleans.
+- Do not add device-level family, summaries, resistance, watch details, or fields owned by another category.

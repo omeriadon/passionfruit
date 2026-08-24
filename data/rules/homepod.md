@@ -1,18 +1,26 @@
 # HomePod extraction rules
 
-HomePod is one combined section. There is no compare-page export: extract `data/tmp/homepod/homepod.html` (HomePod mini technical specifications) and `data/tmp/homepod/homepod2.html` (HomePod 2nd generation technical specifications) together.
+Extract `data/tmp/homepod/homepod.html` and `data/tmp/homepod/homepod2.html` together into the independent HomePod contract.
 
-## Scope
+## Fields
 
-- Extract exact model names, starting AUD prices where present, every colour name, every colour image URL, swatches where present, colour-specific AUD prices where shown, dimensions, weights, audio technology and drivers, microphones, sensors, chips and silicon capabilities, wireless/connectivity/Bluetooth/UWB details, controls/touch surfaces, electrical/power details, ports/cables/adapters, IP ratings where shown, compatibility/accessory names, and full battery details only where applicable.
-- Preserve exact text and units, including alternate imperial measurements.
-- Include both responsive product-image variants and metadata images found in the supplied HTML. Download every unique URL byte-for-byte and record original and local paths plus exact pixel dimensions.
-- Record a null starting price or swatch when the supplied export does not expose that value; do not infer it from another page.
-- Exclude accessibility features, system/setup requirements, environmental claims, footnotes, legal/regulatory text, subscription conditions, availability promises, navigation, structured-data metadata other than actual image URLs, and obvious marketing boilerplate.
-- Audio sources are retained only as functional playback/sharing inputs. Compatibility records accessory/device names without dependency explanations.
+- Record `id`, exact `name`, `releaseYear`, and `priceAud`; use `null` only when the schema requires the key and the supplied evidence has no price.
+- Record every finish in `colors`, with swatches when present and every responsive image variant.
+- Record application and wireless silicon in `chips`.
+- Record speaker architecture, microphones, audio capabilities, sensors, room sensing, and sound recognition in the typed `audio` fields.
+- Record mains input, adapter, cable, and electrical details in `power`.
+- Record ports, Wi-Fi, Bluetooth, UWB, Thread, AirPlay, and other applicable networking facts in `connectivity`.
+- Record dimensions, weights, and distinguishable physical components in `physical`.
+- Record launch and compatibility software facts in `software`.
+- Record included and compatible item names in `accessories`.
+- Preserve exact units and source qualifications in `sourceNotes`.
 
-## Output
+## Images
 
-- The canonical candidate is an isolated file at `/var/folders/s_/ms68q0zx137_d7r08rxtnp9w0000gq/T/opencode/homepod-extract/homepod.devices.json`.
-- Staged images live under `/var/folders/s_/ms68q0zx137_d7r08rxtnp9w0000gq/T/opencode/homepod-extract/images/`, retaining source-relative directories.
-- Do not modify unrelated sections, canonical datasets, or temporary input files while extracting HomePod.
+- Download every unique source-backed product and metadata image byte-for-byte.
+- Preserve responsive variants, source-relative identity, exact dimensions, original URL, and local path.
+
+## Exclusions
+
+- Exclude accessibility, setup/system requirements, environmental marketing narrative, footnotes, legal text, subscription conditions, navigation, and unrelated structured metadata.
+- Do not add configurations, storage, displays, cameras, batteries, authentication, resistance, family, summaries, or other category-inapplicable fields.

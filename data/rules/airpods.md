@@ -1,43 +1,40 @@
-# AirPods fields to extract
+# AirPods extraction rules
 
-For every AirPods model listed in the source HTML, extract:
+Extract every AirPods model in the supplied evidence into the independent AirPods contract.
 
 ## Identity and pricing
 
-- Model name.
-- The cheapest price, in AUD.
+- Record `id`, exact `name`, and the cheapest displayed `priceAud` when present.
+- Do not record colours or colour variants. AirPods colour is outside this contract.
 
-## Colours
+## Form and physical data
 
-- Every available colour name.
-- The single-colour preview (the circle/swatch shown in the colour picker), linked to its colour name.
-- Product images for each colour, using the largest fixed-canvas image shown by the source HTML.
-- Where Apple shows a different price for a specific colour, record that colour's price in AUD as `colorPriceAud`. Omit `colorPriceAud` from colours that use the model-level starting price.
+- Set `formFactor` to exactly `in-ear` or `over-ear`.
+- Record charging-case or carrying-case names in the `cases` string array.
+- Record earpiece or ear-cup weight in `physical.earpieceWeight`.
+- Record each case weight as a typed `physical.caseWeights` entry.
+- Do not extract dimensions.
 
-## Form factor and weight
+## Audio and hardware
 
-- Earbud or over-ear form factor.
-- Every earbud or ear-cup weight entry.
-- Every charging-case or carrying-case form-factor entry.
-- Every charging-case or carrying-case weight entry.
+- Convert every audio capability into an `audioTechnologies` object with a stable ID, name, category, and available details.
+- Use the typed audio categories from the schema. Do not store raw audio strings or a summary list.
+- Record sensors and controls as named feature objects.
+- Record H1, H2, and other processor details as chip objects.
+- Record microphone hardware as `microphoneCount`: use the supported count from evidence, including 6 for AirPods Max and 2 for other AirPods when verified. Do not store microphone description strings.
+- Exclude speech-detecting and motion-detecting accelerometers from sensor extraction.
+- Exclude dual beamforming microphone wording after it has been represented by `microphoneCount`.
 
-## Specifications
+## Features, power, and connectivity
 
-- Everything in the Quick Look section, verbatim.
-- All audio technology entries except dual beamforming microphones.
-- Sensor details, including H2, H1, or other chip details; exclude speech-detecting accelerometers and motion-detecting accelerometers.
-- Microphone details other than dual beamforming microphones.
-- All controls.
-- Hearing health details where present.
-- Live Translation details where present.
-- Port and charging details.
-- IP rating.
-- Bluetooth version and any additional wireless connectivity details.
-- All battery life, case battery, fast charge, and charging compatibility information.
-- In-the-box accessory names.
+- Record hearing-health and Live Translation capabilities as named feature objects.
+- Record the physical charging port in `port` when present.
+- Convert each battery-life, case-battery, fast-charge, and charging-compatibility fact into a typed `batteryAndCharging` claim.
+- Record `ipRating` when stated.
+- Convert Bluetooth and other wireless facts into typed `connectivity` entries.
+- Record in-box item names in `inTheBox`.
 
 ## Exclusions
 
-- Do not extract dimensions.
-- Do not extract accessibility sections or features.
-- Do not extract system requirements.
+- Exclude accessibility sections and system requirements.
+- Do not create `colors`, `family`, `summary`, cameras, displays, authentication, software, or other category-inapplicable fields.

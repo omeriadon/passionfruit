@@ -1,22 +1,26 @@
 {
 	"devices": [
 		{
-			"id": "airpods-device-template",
-			"name": "Device template",
-			"priceAud": 0,
-			"colors": [],
-			"summary": [],
-			"formFactors": [],
+			"id": "airpods-pro-3",
+			"name": "AirPods Pro 3",
+			"formFactor": "in-ear",
+			"cases": [],
+			"physical": {
+				"earpieceWeight": {
+					"value": 5.55,
+					"unit": "g"
+				},
+				"caseWeights": []
+			},
+			"images": [],
 			"audioTechnologies": [],
 			"sensors": [],
 			"chips": [],
-			"microphones": [],
+			"microphoneCount": 2,
 			"controls": [],
 			"hearingHealth": [],
 			"liveTranslation": [],
-			"port": "",
 			"batteryAndCharging": [],
-			"ipRating": "",
 			"connectivity": [],
 			"inTheBox": []
 		}

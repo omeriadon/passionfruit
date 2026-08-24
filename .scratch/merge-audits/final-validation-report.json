@@ -1,65 +1,130 @@
 {
-	"schemaSha256": "3c5a0489409517496ea081852246a5f63b44b30b8bc1772cd75de03d8905cfa4",
 	"draft": "Draft 2020-12",
-	"sections": [
+	"datasets": [
 		{
 			"section": "airpods",
-			"devices": 9,
+			"collectionKey": "devices",
+			"records": 9,
+			"schemaSha256": "16f26c8ff5046bf2539e727c8dbb7e42de80c7615b6748c5ad0ac91273eea26b",
 			"imageReferences": 17,
 			"valid": true,
-			"errorCount": 0
+			"errorCount": 0,
+			"errors": []
 		},
 		{
 			"section": "apple-tv",
-			"devices": 1,
+			"collectionKey": "devices",
+			"records": 1,
+			"schemaSha256": "90064e52d8e1d53cc4dd4b970aeccdb638d88bd2aa91efed50d2c68983f29049",
 			"imageReferences": 37,
 			"valid": true,
-			"errorCount": 0
+			"errorCount": 0,
+			"errors": []
 		},
 		{
 			"section": "apple-watch",
-			"devices": 17,
+			"collectionKey": "devices",
+			"records": 17,
+			"schemaSha256": "a1bc6ae85cdf3fd9837f5b54c68e2bc8cbb806fe9c9b6faf81fa365582401acf",
 			"imageReferences": 112,
 			"valid": true,
-			"errorCount": 0
+			"errorCount": 0,
+			"errors": []
 		},
 		{
 			"section": "homepod",
-			"devices": 2,
+			"collectionKey": "devices",
+			"records": 2,
+			"schemaSha256": "cf932475b71aa1ec2b54e5016cc5dee0fbad7827894b92f7141413ff3482891d",
 			"imageReferences": 57,
 			"valid": true,
-			"errorCount": 0
+			"errorCount": 0,
+			"errors": []
 		},
 		{
 			"section": "ipad",
-			"devices": 40,
+			"collectionKey": "devices",
+			"records": 40,
+			"schemaSha256": "02b7373fedc294d04679de680231c018d81957b41967fb9960c973689a812ad4",
 			"imageReferences": 6,
 			"valid": true,
-			"errorCount": 0
+			"errorCount": 0,
+			"errors": []
 		},
 		{
 			"section": "iphone",
-			"devices": 38,
+			"collectionKey": "devices",
+			"records": 38,
+			"schemaSha256": "247b718322d44f5a4895ad4b58cf3879a304dc2d2f7841b43e0d796dee55082d",
 			"imageReferences": 88,
 			"valid": true,
-			"errorCount": 0
+			"errorCount": 0,
+			"errors": []
 		},
 		{
 			"section": "mac",
-			"devices": 53,
+			"collectionKey": "devices",
+			"records": 53,
+			"schemaSha256": "9358fa245e31e9d696754891845bba32ca875b89ec17356cb4e26e0766f5d6c3",
 			"imageReferences": 45,
 			"valid": true,
-			"errorCount": 0
+			"errorCount": 0,
+			"errors": []
 		},
 		{
 			"section": "vision",
-			"devices": 1,
+			"collectionKey": "devices",
+			"records": 1,
+			"schemaSha256": "b07a1b31f9a0556cb9fb6836c87383fac684bc0caa54cbce50d630e9575be653",
 			"imageReferences": 30,
 			"valid": true,
-			"errorCount": 0
+			"errorCount": 0,
+			"errors": []
+		},
+		{
+			"section": "apple-pencil",
+			"collectionKey": "accessories",
+			"records": 4,
+			"schemaSha256": "4c7280195f2d0f6f1efd1688dd7bdc3503f1b1cf1e3d5c84631d9f40a59f2987",
+			"imageReferences": 5,
+			"valid": true,
+			"errorCount": 0,
+			"errors": []
+		},
+		{
+			"section": "magic-keyboard",
+			"collectionKey": "accessories",
+			"records": 5,
+			"schemaSha256": "5d6e59cdf9636fb59fd60a84edb1b6033f7a5d97bb2b415b69713f8bdca0fdd5",
+			"imageReferences": 84,
+			"valid": true,
+			"errorCount": 0,
+			"errors": []
+		},
+		{
+			"section": "airtag",
+			"collectionKey": "products",
+			"records": 1,
+			"schemaSha256": "694b9cf07628f2f25ee2c92c256898bd3020c9d1fc47a14b79657db272e0b39f",
+			"imageReferences": 2,
+			"valid": true,
+			"errorCount": 0,
+			"errors": []
+		},
+		{
+			"section": "apple-display",
+			"collectionKey": "products",
+			"records": 2,
+			"schemaSha256": "146ede4836e65c2a8337622375adc137d8a74a29b131cf66234e8f30efe1e449",
+			"imageReferences": 2,
+			"valid": true,
+			"errorCount": 0,
+			"errors": []
 		}
 	],
 	"totalDevices": 161,
-	"imageReferences": 392,
+	"totalAccessories": 9,
+	"totalProducts": 3,
+	"imageReferences": 485,
 	"invalidImageReferences": []
 }

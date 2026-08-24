@@ -1,35 +1,35 @@
-# Apple TV fields to extract
+# Apple TV extraction rules
 
-For every Apple TV model listed in the source HTML, extract:
+Extract every in-scope Apple TV model into the independent Apple TV contract. Apple TV HD is outside the agreed dataset scope.
 
 ## Identity and pricing
 
-- Model name exactly as displayed.
-- The starting price, in AUD, when present. Use `null` when the source omits it.
+- Record `id`, exact `name`, `releaseYear`, and the model-level `priceAud` when present.
+- Do not record colours. Apple TV colour is outside this contract.
 
-## Colours and images
+## Configurations
 
-- Every available colour name.
-- Every colour swatch shown in the picker.
-- Product images for each colour and configuration variant.
-- Colour-specific prices when shown.
-- Every image URL present in the supplied HTML, downloaded byte-for-byte and recorded with its dimensions plus original and local paths.
+- Represent every sold hardware variant in `configurations`.
+- Put capacity in each configuration's `storage` object. Do not create a model-level storage-options array.
+- Distinguish Wi-Fi and Wi-Fi + Ethernet variants through typed configuration connectivity.
+- Record a configuration-specific `priceAud` when Apple shows one.
 
-## Specifications
+## Hardware and connectivity
 
-- Capacity and hardware configuration, distinguishing Wi-Fi and Wi-Fi + Ethernet variants.
-- Size and weight per component or box where useful.
-- Processor details.
-- Connectivity, including HDMI, Wi-Fi, Bluetooth, Ethernet, Thread, infrared, power supply, and applicable footnoted capabilities.
-- Siri Remote connectivity, charging port, battery behaviour, control methods, and physical controls.
-- Complete audio-format support.
-- Complete video-format support.
-- Power and electrical requirements.
-- In-the-box contents.
-- Environmentally relevant specifications and materials.
-- Accessibility features that are part of the product specification.
+- Record the Apple TV processor as the single `chip` object. Do not use a chip array.
+- Record HDMI, Wi-Fi, Bluetooth, Ethernet, Thread, infrared, and other applicable hardware connectivity in `connectivity`.
+- Record ports and wireless capabilities in their typed nested fields.
+- Record device and remote dimensions and weights in `physical` components.
+- Record Apple TV and Siri Remote images in `images`, preserving every source-backed responsive variant and exact canvas.
+- Record the Siri Remote and other included or compatible hardware in `accessories`, including its controls, charging, and connectivity details in the schema-supported fields and `sourceNotes`.
+
+## Evidence preservation
+
+- Preserve complete audio-format, video-format, electrical, in-box, environmental-material, and accessibility evidence in the closest schema-supported structured field or `sourceNotes` when no dedicated field exists.
+- Keep facts distinct and source-qualified. Do not create a summary array.
 
 ## Exclusions
 
-- Do not extract System Requirements.
-- Do not infer prices, colours, images, generations, or model numbers absent from the source.
+- Exclude system requirements.
+- Do not add `colors`, model-level storage options, displays, cameras, audio-device bundles, battery, authentication, resistance, software, watch details, keyboard fields, or other category-inapplicable fields.
+- Do not infer prices, generations, model numbers, or capabilities absent from evidence.

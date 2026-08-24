@@ -1,54 +1,30 @@
-# Vision fields to extract
+# Vision extraction rules
 
-For every Apple Vision Pro model listed in the source HTML, extract:
+Extract every in-scope Apple Vision Pro model into the independent Vision contract.
 
-## Identity and pricing
+## Identity, variants, and images
 
-- Model name.
-- The starting price, in AUD, when Apple shows one; otherwise omit `priceAud`.
+- Record `id`, exact `name`, `releaseYear`, and `priceAud`; use `null` only when required by the schema and absent from evidence.
+- Record product or included-component colour names in `colors`, using exact image-description names when that is the only colour evidence.
+- Record swatches when present and all responsive product, component, and configuration images.
+- Record sold variants in `configurations`, capacities in `storageOptions`, and memory in `memoryOptions` when evidenced.
 
-## Colours and images
+## Hardware and fit
 
-- Every colour name shown for the product or included accessories; when Apple names colours only in image descriptions, record those exact names with null swatches.
-- Every swatch shown in the colour picker, linked to its colour name.
-- Product images for each colour (Apple-hosted URLs), including relevant responsive variants per colour, accessory, and configuration.
-- Where Apple shows a different price for a specific colour, record that colour's price in AUD. Omit `colorPriceAud` from colours that use the model-level starting price.
-
-## Fit and sizing
-
-- Interpupillary distance range as a functional sizing specification.
-- Device weight range in grams and ounces.
-- Weight qualifiers, including the separate battery weight when present.
-- Included fit-related components: Light Seal, Light Seal Cushion, Audio Straps, and Dual Knit Band.
-
-## Specifications
-
-- Everything in the Summary section.
-- Capacity as an array.
-- Every display line, with video mirroring retained as a display capability.
-- Both chips and all of their details.
-- The complete camera section.
-- The complete sensor list.
-- Optic ID and all of its details.
-- All audio technology lines.
-- Supported audio playback formats.
-- Supported video playback formats.
-- All battery information.
-- Wi-Fi standard.
-- Bluetooth version.
-- Operating system.
-- Input methods.
-- Supported input accessories.
-- Supported spatial accessories.
-- Interpupillary distance.
-- Device weight and its configuration qualifier.
-- Built-in app names only.
-- Everything in the In the Box section, including duplicate adapter/cable groupings where Apple presents them separately.
-- Electrical and environmental requirements.
+- Record every chip and its typed details in `chips`.
+- Record every display fact and video-mirroring capability in `displays`.
+- Record the complete camera system in `cameras` and every sensor in `sensors`.
+- Record spatial audio, speakers, microphones, and playback formats in `audio`.
+- Record battery runtimes, capacity, charging, cable, and adapter details in `batteryAndPower`.
+- Record Wi-Fi, Bluetooth, and other evidenced connectivity in `connectivity`.
+- Record Optic ID and its details in `authentication`.
+- Record device and battery weights, dimensions, interpupillary-distance range, fit components, and qualifiers in `physical`.
+- Record visionOS, built-in apps, and compatible software in `software`.
+- Record eye, hand, voice, and supported-controller inputs in `inputMethods` and `accessories` as assigned by the schema.
+- Record every in-box component as a distinguishable accessory or physical component, preserving duplicate groupings Apple presents separately.
 
 ## Exclusions
 
-- Do not extract Accessibility.
-- Do not extract system requirements.
-- Do not extract Apple's environmental marketing narrative, materials, energy, packaging, waste, or smarter-chemistry content.
-- Do not infer ports, connectors, U1/UWB chips, water resistance, or an IP rating when the supplied HTML does not state them.
+- Exclude accessibility, system requirements, and environmental marketing narrative.
+- Do not infer ports, UWB, water resistance, or IP ratings absent from evidence.
+- Do not add device-level family, summaries, watch details, keyboard flags, or fields owned by another category.

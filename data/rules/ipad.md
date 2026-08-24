@@ -1,31 +1,32 @@
-# iPad fields to extract
+# iPad extraction rules
 
-For every iPad model listed in the source HTML, extract:
+Extract every in-scope iPad model into the independent iPad contract. Use the iPad schema directly; do not borrow iPhone field semantics.
 
-## Identity and pricing
+## Identity, variants, and images
 
-- Model name.
-- The cheapest price, in AUD.
+- Record `id`, exact `name`, `releaseYear`, and cheapest displayed `priceAud`.
+- Record every finish, swatch, finish-specific price, and image variant in `colors`.
+- Record sold hardware variants in `configurations`, capacities in `storageOptions`, and memory values in `memoryOptions`.
+- Record additional source-backed imagery in `overviewImages`.
 
-## Colours
+## Hardware
 
-- Every available colour name.
-- The single-colour preview (the circle/swatch shown in the colour picker), linked to its colour name.
-- Product images for each colour (Apple-hosted URLs), including relevant variants per size, colour, and configuration.
+- Record each chip and its supported typed details in `chips`.
+- Record each display and every applicable factual property except fingerprint-resistant oleophobic coating. Combine minimum and maximum brightness in the typed brightness fields of one display entry.
+- Record rear, front, and LiDAR camera hardware in `cameras`.
+- Record speaker and microphone facts in `audio`.
+- Record battery runtimes, capacities, charging, and power supply facts in `batteryAndPower`.
+- Record ports, display output, Wi-Fi, Bluetooth, cellular, GPS, UWB, and other applicable networking capabilities in `connectivity`.
+- Record Face ID, Touch ID, and passcode support in `authentication`.
+- Record dimensions, weights, components, resistance, launch software, and compatible software in their typed bundles.
 
-## Specifications
+## iPad accessories
 
-- Everything in the Summary section.
-- Capacity as an array.
-- Weight.
-- Display: everything except "Fingerprint-resistant oleophobic coating". Bundle brightness items together as one entry.
-- The chip.
-- All the battery information.
-- Authentication: Face ID, Touch ID, or Passcode.
-- Which port it has.
-- LiDAR scanner.
+- Record supported Apple Pencil and keyboard model IDs in `accessories`.
+- Keep Apple Pencil and keyboard product details in their independent datasets. The iPad record contains compatibility references only.
 
-## Accessories (names only)
+## Contract limits
 
-- Which Apple Pencil models it supports — not the sub-functions of each pencil.
-- Which keyboards it supports — not their sub-functions.
+- Use `[]` for empty arrays and concrete values for booleans.
+- Preserve evidence qualifications in `sourceNotes`.
+- Do not add device-level family, summaries, watch fields, Mac keyboard/trackpad flags, or iPhone-only interpretations.

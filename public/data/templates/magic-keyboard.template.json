@@ -1,0 +1,22 @@
+{
+	"group": "magic-keyboard",
+	"source": {
+		"url": "https://www.apple.com/au/ipad-keyboards/",
+		"localHtmlPath": "data/tmp/other/magic-keyboard.html",
+		"styleUrl": "https://www.apple.com/au/ipad-keyboards/styles/overview.css"
+	},
+	"accessories": [
+		{
+			"id": "magic-keyboard-for-ipad-pro-13",
+			"displayName": "Magic Keyboard for iPad Pro",
+			"category": "keyboard",
+			"priceAud": 579,
+			"colors": [],
+			"images": [],
+			"compatibleDeviceIds": [],
+			"capabilities": [],
+			"sourceUrl": "https://www.apple.com/au/ipad-keyboards/",
+			"sourceNotes": "The compatibility selector maps this accessory to iPad Pro 13-inch (M5 and M4). The overview selector displays A$579. Colour names, feature copy, and gallery image URLs are evidence-backed by the supplied HTML and its linked Apple stylesheet. Apple product code: MWR43."
+		}
+	]
+}
