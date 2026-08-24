@@ -1,9 +1,0 @@
-{
-	"schema": ".scratch/strict/data-model-contract.schema.json",
-	"candidate": ".scratch/strict/apple-tv/apple-tv.devices.json",
-	"draft": "Draft 2020-12",
-	"deviceCount": 1,
-	"valid": true,
-	"errorCount": 0,
-	"errors": []
-}

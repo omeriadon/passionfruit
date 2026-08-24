@@ -1,9 +1,0 @@
-{
-	"schema": ".scratch/strict/data-model-contract.schema.json",
-	"candidate": ".scratch/strict/mac/strict-devices.json",
-	"draft": "Draft 2020-12",
-	"deviceCount": 15,
-	"valid": true,
-	"errorCount": 0,
-	"errors": []
-}

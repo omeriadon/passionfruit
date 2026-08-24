@@ -1,8 +1,0 @@
-{
-	"schemaPath": ".scratch/strict/data-model-contract.schema.json",
-	"dataPath": ".scratch/strict/apple-watch/remaining-devices.json",
-	"draft": "Draft 2020-12",
-	"valid": true,
-	"errorCount": 0,
-	"errors": []
-}

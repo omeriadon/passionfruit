@@ -1,9 +1,0 @@
-{
-	"schema": ".scratch/strict/data-model-contract.schema.json",
-	"candidate": ".scratch/strict/mac/mac-legacy-2020-2021.json",
-	"draft": "Draft 2020-12",
-	"deviceCount": 3,
-	"valid": true,
-	"errorCount": 0,
-	"errors": []
-}
