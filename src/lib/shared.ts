@@ -119,3 +119,16 @@ export function getCatalogRoute(
 		deviceSlug: second,
 	};
 }
+
+export function getCatalogTabUrls(category: CatalogCategory): Set<string> {
+	const urls = new Set([`${docsRoute}/${category}`]);
+
+	if (category === "ipad") {
+		for (const accessory of ipadAccessorySections) {
+			urls.add(`${docsRoute}/${category}/accessories/${accessory.slug}`);
+		}
+		urls.add(`${docsRoute}/${category}/accessories`);
+	}
+
+	return urls;
+}
