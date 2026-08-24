@@ -36,30 +36,30 @@ export function AccessoryCatalog({
 			className={styles.catalogCategory}
 			aria-labelledby={`${accessory}-title`}
 		>
-			<div className={styles.sectionIntro}>
-				<p className={styles.eyebrow}>iPad accessories</p>
-				<h2 id={`${accessory}-title`} className={styles.sectionTitle}>
-					{accessory.replaceAll("-", " ")}
-				</h2>
-			</div>
-			<div className={styles.deviceCards}>
-				{devices.map((device) => (
-					<Link
-						className={styles.deviceCard}
-						href={`/docs/ipad/accessories/${accessory}/${device.id}`}
-						key={device.id}
-					>
-						<strong>{device.name}</strong>
-						<span>Open details</span>
-					</Link>
-				))}
-			</div>
 			{detail ? (
+				<DeviceDetail category="ipad" device={detail} />
+			) : (
 				<>
-					<div className={styles.divider} aria-hidden="true" />
-					<DeviceDetail category="ipad" device={detail} />
+					<div className={styles.sectionIntro}>
+						<p className={styles.eyebrow}>iPad accessories</p>
+						<h2 id={`${accessory}-title`} className={styles.sectionTitle}>
+							{accessory.replaceAll("-", " ")}
+						</h2>
+					</div>
+					<div className={styles.deviceCards}>
+						{devices.map((device) => (
+							<Link
+								className={styles.deviceCard}
+								href={`/docs/ipad/accessories/${accessory}/${device.id}`}
+								key={device.id}
+							>
+								<strong>{device.name}</strong>
+								<span>Open details</span>
+							</Link>
+						))}
+					</div>
 				</>
-			) : null}
+			)}
 		</section>
 	);
 }
