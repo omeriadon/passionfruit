@@ -3,6 +3,7 @@
 import { Bookmark, Check, ChevronDown, ExternalLink } from "lucide-react";
 import type { CSSProperties } from "react";
 import { useMemo, useState } from "react";
+import { useAuth } from "@/lib/auth/AuthProvider";
 import {
 	formatCatalogValue,
 	getColors,
@@ -21,7 +22,6 @@ import styles from "./catalog.module.css";
 type DeviceDetailProps = {
 	category: CatalogCategory;
 	device: CatalogDevice;
-	onBookmarkChange?: (device: CatalogDevice, bookmarked: boolean) => void;
 };
 
 function isRecord(
@@ -117,12 +117,13 @@ function detailSections(device: CatalogDevice) {
 export function DeviceDetail({
 	category,
 	device,
-	onBookmarkChange,
 }: DeviceDetailProps) {
+	const { actionError, isBookmarked, isLoading, toggleBookmark, user } = useAuth();
 	const [selectedColorId, setSelectedColorId] = useState<string | undefined>(
 		() => getColors(device)[0]?.id,
 	);
-	const [bookmarked, setBookmarked] = useState(false);
+	const bookmarked = isBookmarked(category, device.id);
+	const [bookmarkPending, setBookmarkPending] = useState(false);
 	const [showSources, setShowSources] = useState(false);
 	const config = catalogConfigs[category];
 	const colors = getColors(device);
@@ -133,10 +134,10 @@ export function DeviceDetail({
 	const image = displayImage(device, selectedColor);
 	const imageSource = getImageSource(image);
 
-	function toggleBookmark() {
-		const next = !bookmarked;
-		setBookmarked(next);
-		onBookmarkChange?.(device, next);
+	async function handleBookmark() {
+		setBookmarkPending(true);
+		await toggleBookmark(category, device.id);
+		setBookmarkPending(false);
 	}
 
 	return (
@@ -164,15 +165,17 @@ export function DeviceDetail({
 								? `Remove ${device.name} bookmark`
 								: `Bookmark ${device.name}`
 						}
-						onClick={toggleBookmark}
+						onClick={handleBookmark}
+						disabled={bookmarkPending || isLoading}
 					>
 						{bookmarked ? (
 							<Check aria-hidden="true" size={16} />
 						) : (
 							<Bookmark aria-hidden="true" size={16} />
 						)}
-						{bookmarked ? "Bookmarked" : "Bookmark"}
+						{bookmarkPending ? "Saving…" : bookmarked ? "Bookmarked" : user ? "Bookmark" : "Sign in to bookmark"}
 					</button>
+					{actionError ? <p role="alert" className={styles.bookmarkError}>{actionError}</p> : null}
 				</div>
 				<div className={styles.productVisual}>
 					{imageSource ? (

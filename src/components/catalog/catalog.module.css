@@ -323,6 +323,17 @@
 	color: white;
 }
 
+.bookmarkButton:disabled {
+	cursor: wait;
+	opacity: 0.65;
+}
+
+.bookmarkError {
+	color: #a22;
+	font-size: 0.78rem;
+	margin: 0.65rem 0 0;
+}
+
 .productVisual {
 	align-items: center;
 	display: flex;
