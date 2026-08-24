@@ -30,52 +30,55 @@ export function CatalogCategory({
 
 	return (
 		<div className={styles.catalogCategory}>
-			<CatalogTable
-				category={category}
-				devices={orderedDevices}
-				detailBasePath={detailBasePath}
-			/>
-			<div className={styles.divider} aria-hidden="true" />
-			<section
-				className={styles.deviceSection}
-				aria-labelledby={`${category}-models-title`}
-			>
-				<div className={styles.sectionIntro}>
-					<p className={styles.eyebrow}>Explore the range</p>
-					<h2 id={`${category}-models-title`} className={styles.sectionTitle}>
-						Models, from newest to smallest
-					</h2>
-				</div>
-				<div className={styles.deviceCards}>
-					{orderedDevices.map((device) => (
-						<a
-							className={styles.deviceCard}
-							href={`${detailBasePath}/${category}/${device.id}`}
-							key={device.id}
-						>
-							<span className={styles.cardYear}>
-								{formatCatalogValue(device.releaseYear ?? null)}
-							</span>
-							<strong>{device.name}</strong>
-							<span>
-								{typeof device.priceAud === "number"
-									? `$${device.priceAud.toLocaleString("en-AU")}`
-									: formatCatalogValue(device.priceAud ?? null)}
-							</span>
-						</a>
-					))}
-				</div>
-			</section>
 			{detailDevice ? (
-				<>
-					<div className={styles.divider} aria-hidden="true" />
 				<DeviceDetail
 					category={category}
 					device={detailDevice}
 					note={detailNote}
 				/>
+			) : (
+				<>
+					<CatalogTable
+						category={category}
+						devices={orderedDevices}
+						detailBasePath={detailBasePath}
+					/>
+					<div className={styles.divider} aria-hidden="true" />
+					<section
+						className={styles.deviceSection}
+						aria-labelledby={`${category}-models-title`}
+					>
+						<div className={styles.sectionIntro}>
+							<p className={styles.eyebrow}>Explore the range</p>
+							<h2
+								id={`${category}-models-title`}
+								className={styles.sectionTitle}
+							>
+								Models, from newest to smallest
+							</h2>
+						</div>
+						<div className={styles.deviceCards}>
+							{orderedDevices.map((device) => (
+								<a
+									className={styles.deviceCard}
+									href={`${detailBasePath}/${category}/${device.id}`}
+									key={device.id}
+								>
+									<span className={styles.cardYear}>
+										{formatCatalogValue(device.releaseYear ?? null)}
+									</span>
+									<strong>{device.name}</strong>
+									<span>
+										{typeof device.priceAud === "number"
+											? `$${device.priceAud.toLocaleString("en-AU")}`
+											: formatCatalogValue(device.priceAud ?? null)}
+									</span>
+								</a>
+							))}
+						</div>
+					</section>
 				</>
-			) : null}
+			)}
 		</div>
 	);
 }
