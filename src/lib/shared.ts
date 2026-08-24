@@ -42,10 +42,23 @@ export const ipadAccessorySections = [
 export type IpadAccessorySection =
 	(typeof ipadAccessorySections)[number]["slug"];
 
+export const otherCatalogSections = [
+	{ slug: "airtag", title: "AirTag", description: "Find My trackers" },
+	{
+		slug: "apple-display",
+		title: "Apple displays",
+		description: "Studio Display and XDR",
+	},
+] as const;
+
+export type OtherCatalogSection = (typeof otherCatalogSections)[number]["slug"];
+
 export type CatalogRoute =
 	| { kind: "category"; category: CatalogCategory }
 	| { kind: "accessories"; category: "ipad" }
 	| { kind: "accessory"; category: "ipad"; accessory: IpadAccessorySection }
+	| { kind: "other"; section: OtherCatalogSection }
+	| { kind: "other-device"; section: OtherCatalogSection; deviceSlug: string }
 	| { kind: "device"; category: CatalogCategory; deviceSlug: string }
 	| {
 			kind: "accessory-device";
@@ -60,6 +73,13 @@ export function getCatalogRoute(
 	if (!slugs || slugs.length === 0) return undefined;
 
 	const [category, second, third, fourth] = slugs;
+	if (category === "other") {
+		const section = otherCatalogSections.find((item) => item.slug === second);
+		if (!section) return undefined;
+		if (third)
+			return { kind: "other-device", section: section.slug, deviceSlug: third };
+		return { kind: "other", section: section.slug };
+	}
 	const categoryInfo = catalogCategories.find((item) => item.slug === category);
 	if (!categoryInfo) return undefined;
 	if (!second) return { kind: "category", category: categoryInfo.slug };
@@ -73,6 +93,8 @@ export function getCatalogRoute(
 		const accessory = ipadAccessorySections.find(
 			(item) => item.slug === accessorySlug,
 		);
+		if (second === "accessories" && !accessorySlug) return undefined;
+		if (second === "accessories" && !accessory) return undefined;
 		if (accessory) {
 			if (!fourth) {
 				return {

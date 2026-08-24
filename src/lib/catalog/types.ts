@@ -9,15 +9,8 @@ export type CatalogDevice = {
 	[key: string]: CatalogValue;
 };
 
-export type CatalogCategory =
-	| "airpods"
-	| "apple-tv"
-	| "apple-watch"
-	| "homepod"
-	| "ipad"
-	| "iphone"
-	| "mac"
-	| "vision";
+export type { CatalogCategory } from "@/lib/shared";
+import type { CatalogCategory } from "@/lib/shared";
 
 export type CatalogImage = {
 	label?: string;

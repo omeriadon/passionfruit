@@ -337,10 +337,18 @@
 	text-transform: uppercase;
 }
 
-.noteBadge_yes { color: #18794e; }
-.noteBadge_no { color: #a33a3a; }
-.noteBadge_caution { color: #996b00; }
-.noteBadge_unknown { color: var(--catalog-muted); }
+.noteBadge_yes {
+	color: #18794e;
+}
+.noteBadge_no {
+	color: #a33a3a;
+}
+.noteBadge_caution {
+	color: #996b00;
+}
+.noteBadge_unknown {
+	color: var(--catalog-muted);
+}
 
 .bookmarkButton {
 	align-self: flex-start;
@@ -483,6 +491,28 @@
 	list-style: none;
 	margin: 0;
 	padding: 0;
+}
+
+.specList {
+	display: grid;
+	gap: 0.75rem;
+	margin: 0;
+}
+
+.specRow {
+	border-bottom: 1px solid var(--catalog-border);
+	display: grid;
+	gap: 1rem;
+	grid-template-columns: minmax(10rem, 0.4fr) 1fr;
+	padding-block: 0.75rem;
+}
+
+.specRow dt {
+	font-weight: 600;
+}
+
+.specRow dd {
+	margin: 0;
 }
 
 .mutedValue {

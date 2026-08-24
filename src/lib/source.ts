@@ -7,8 +7,13 @@ import type {
 	CatalogCategory,
 	CatalogRoute,
 	IpadAccessorySection,
+	OtherCatalogSection,
 } from "./shared";
-import { getCatalogRoute, ipadAccessorySections } from "./shared";
+import {
+	getCatalogRoute,
+	ipadAccessorySections,
+	otherCatalogSections,
+} from "./shared";
 
 import airpodsData from "../../public/data/airpods/airpods.json";
 import appleTVData from "../../public/data/apple-tv/apple-tv.json";
@@ -20,6 +25,8 @@ import macData from "../../public/data/mac/mac.json";
 import visionData from "../../public/data/vision/vision.json";
 import applePencilData from "../../public/data/other/apple-pencil/apple-pencil.json";
 import magicKeyboardData from "../../public/data/other/magic-keyboard/magic-keyboard.json";
+import airtagData from "../../public/data/other/airtag/airtag.json";
+import appleDisplayData from "../../public/data/other/apple-display/apple-display.json";
 
 export type CatalogDataset =
 	| typeof airpodsData
@@ -32,6 +39,8 @@ export type CatalogDataset =
 	| typeof visionData
 	| typeof applePencilData
 	| typeof magicKeyboardData;
+
+type OtherCatalogDataset = typeof airtagData | typeof appleDisplayData;
 
 const catalogDatasets: Record<CatalogCategory, CatalogDataset> = {
 	airpods: airpodsData,
@@ -49,7 +58,15 @@ const accessoryDatasets: Record<IpadAccessorySection, CatalogDataset> = {
 	"magic-keyboard": magicKeyboardData,
 };
 
+const otherDatasets: Record<OtherCatalogSection, OtherCatalogDataset> = {
+	airtag: airtagData,
+	"apple-display": appleDisplayData,
+};
+
 export function getCatalogData(route: CatalogRoute): CatalogDataset {
+	if (route.kind === "other" || route.kind === "other-device") {
+		throw new Error("Other catalog routes use getOtherCatalogData.");
+	}
 	if (route.kind === "accessory" || route.kind === "accessory-device") {
 		return accessoryDatasets[route.accessory];
 	}
@@ -57,7 +74,14 @@ export function getCatalogData(route: CatalogRoute): CatalogDataset {
 	return catalogDatasets[route.category];
 }
 
+export function getOtherCatalogData(section: OtherCatalogSection) {
+	return otherDatasets[section];
+}
+
 export function getCatalogRecordCount(route: CatalogRoute): number {
+	if (route.kind === "other" || route.kind === "other-device") {
+		return getOtherCatalogData(route.section).products.length;
+	}
 	const data = getCatalogData(route);
 	if ("devices" in data) return data.devices.length;
 	if ("accessories" in data) return data.accessories.length;
@@ -66,6 +90,11 @@ export function getCatalogRecordCount(route: CatalogRoute): number {
 
 export function getCatalogRouteData(slugs: string[] | undefined) {
 	const route = getCatalogRoute(slugs);
+	if (route?.kind === "other" || route?.kind === "other-device") {
+		return route
+			? { route, data: getOtherCatalogData(route.section) }
+			: undefined;
+	}
 	return route ? { route, data: getCatalogData(route) } : undefined;
 }
 
@@ -89,6 +118,13 @@ export function getCatalogStaticParams(): { slug: string[] }[] {
 					slug: ["ipad", "accessories", accessory.slug, device.id],
 				});
 			}
+		}
+	}
+
+	for (const section of otherCatalogSections) {
+		params.push({ slug: ["other", section.slug] });
+		for (const product of otherDatasets[section.slug].products) {
+			params.push({ slug: ["other", section.slug, product.id] });
 		}
 	}
 
