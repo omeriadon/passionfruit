@@ -9,11 +9,13 @@ import {
 	type CatalogDevice,
 } from "@/lib/catalog/types";
 import styles from "./catalog.module.css";
+import type { DeviceNote } from "@/lib/device-notes";
 
 type CatalogCategoryProps = {
 	category: CatalogCategory;
 	devices: CatalogDevice[];
 	detailDevice?: CatalogDevice;
+	detailNote?: DeviceNote;
 	detailBasePath?: string;
 };
 
@@ -21,6 +23,7 @@ export function CatalogCategory({
 	category,
 	devices,
 	detailDevice,
+	detailNote,
 	detailBasePath = "/docs",
 }: CatalogCategoryProps) {
 	const orderedDevices = sortDevices(devices);
@@ -66,7 +69,11 @@ export function CatalogCategory({
 			{detailDevice ? (
 				<>
 					<div className={styles.divider} aria-hidden="true" />
-					<DeviceDetail category={category} device={detailDevice} />
+				<DeviceDetail
+					category={category}
+					device={detailDevice}
+					note={detailNote}
+				/>
 				</>
 			) : null}
 		</div>

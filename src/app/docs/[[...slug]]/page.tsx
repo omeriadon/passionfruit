@@ -14,6 +14,7 @@ import { createRelativeLink } from "fumadocs-ui/mdx";
 import { gitConfig, getCatalogRoute } from "@/lib/shared";
 import { getCatalogRecordCount, getCatalogStaticParams } from "@/lib/source";
 import { getCatalogData } from "@/lib/source";
+import { getDeviceNote } from "@/lib/device-notes";
 import { CatalogCategory } from "@/components/catalog/CatalogCategory";
 import { AccessoryCatalog } from "@/components/catalog/AccessoryCatalog";
 import type { CatalogDevice } from "@/lib/catalog/types";
@@ -37,6 +38,7 @@ function CatalogRouteBoundary({ slugs }: { slugs: string[] }) {
 				category={route.category}
 				devices={data.devices as CatalogDevice[]}
 				detailDevice={detailDevice}
+				detailNote={detailDevice ? getDeviceNote(route.category, detailDevice.id) : undefined}
 			/>
 		);
 	}

@@ -18,10 +18,12 @@ import {
 } from "@/lib/catalog/types";
 import { catalogConfigs } from "@/lib/catalog/config";
 import styles from "./catalog.module.css";
+import type { DeviceNote } from "@/lib/device-notes";
 
 type DeviceDetailProps = {
 	category: CatalogCategory;
 	device: CatalogDevice;
+	note?: DeviceNote;
 };
 
 function isRecord(
@@ -117,6 +119,7 @@ function detailSections(device: CatalogDevice) {
 export function DeviceDetail({
 	category,
 	device,
+	note,
 }: DeviceDetailProps) {
 	const { actionError, isBookmarked, isLoading, toggleBookmark, user } = useAuth();
 	const [selectedColorId, setSelectedColorId] = useState<string | undefined>(
@@ -156,6 +159,14 @@ export function DeviceDetail({
 							? ` · From $${device.priceAud.toLocaleString("en-AU")}`
 							: ""}
 					</p>
+					{note ? (
+						<div className={styles.editorialNote}>
+							<span className={`${styles.noteBadge} ${styles[`noteBadge_${note.goodToBuy}`]}`}>
+								{note.goodToBuy === "unknown" ? "Buy status not set" : `Good to buy: ${note.goodToBuy}`}
+							</span>
+							<p>{note.editorial}</p>
+						</div>
+					) : null}
 					<button
 						type="button"
 						className={`${styles.bookmarkButton} ${bookmarked ? styles.bookmarked : ""}`}

@@ -312,6 +312,36 @@
 	margin: 1rem 0 1.5rem;
 }
 
+.editorialNote {
+	border-left: 3px solid var(--catalog-accent, #b46a46);
+	color: var(--catalog-muted);
+	margin: 0 0 1.5rem;
+	max-width: 34rem;
+	padding-left: 0.85rem;
+}
+
+.editorialNote p {
+	font-size: 0.9rem;
+	line-height: 1.55;
+	margin: 0.55rem 0 0;
+}
+
+.noteBadge {
+	border: 1px solid currentColor;
+	border-radius: 999px;
+	display: inline-flex;
+	font-size: 0.7rem;
+	font-weight: 600;
+	letter-spacing: 0.02em;
+	padding: 0.25rem 0.55rem;
+	text-transform: uppercase;
+}
+
+.noteBadge_yes { color: #18794e; }
+.noteBadge_no { color: #a33a3a; }
+.noteBadge_caution { color: #996b00; }
+.noteBadge_unknown { color: var(--catalog-muted); }
+
 .bookmarkButton {
 	align-self: flex-start;
 	background: transparent;
