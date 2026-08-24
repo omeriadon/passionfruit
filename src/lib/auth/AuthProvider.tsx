@@ -19,6 +19,7 @@ import {
 	register,
 	type AuthUser,
 	type Bookmark,
+	type AuthResponse,
 } from "./api";
 import { AuthDialog } from "@/components/auth/AuthDialog";
 
@@ -61,7 +62,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
 	}, []);
 
 	const loadSession = useCallback(async (sessionToken: string) => {
-		const [{ user: currentUser }, { bookmarks }] = await Promise.all([
+		const [currentUser, bookmarks] = await Promise.all([
 			getCurrentUser(sessionToken),
 			listBookmarks(sessionToken),
 		]);
@@ -83,10 +84,10 @@ export function AuthProvider({ children }: { children: ReactNode }) {
 	}, [clearSession, loadSession]);
 
 	const finishAuthentication = useCallback(
-		async (authenticate: () => Promise<{ user: AuthUser; session: { token: string } }>) => {
+		async (authenticate: () => Promise<AuthResponse>) => {
 			const response = await authenticate();
-			localStorage.setItem(tokenStorageKey, response.session.token);
-			await loadSession(response.session.token);
+			localStorage.setItem(tokenStorageKey, response.token);
+			await loadSession(response.token);
 			setAuthDialogOpen(false);
 			setActionError(null);
 		},
@@ -113,15 +114,18 @@ export function AuthProvider({ children }: { children: ReactNode }) {
 			const key = bookmarkKey(category, deviceId);
 			setActionError(null);
 			try {
-				if (bookmarkItems.some((item) => bookmarkKey(item.category, item.deviceId) === key)) {
-					await removeBookmark(token, category, deviceId);
+				const existing = bookmarkItems.find(
+					(item) => bookmarkKey(item.category, item.deviceId) === key,
+				);
+				if (existing) {
+					await removeBookmark(token, existing.id);
 					setBookmarkItems((current) =>
 						current.filter((item) => bookmarkKey(item.category, item.deviceId) !== key),
 					);
 					return false;
 				}
 
-				const { bookmark } = await addBookmark(token, category, deviceId);
+				const bookmark = await addBookmark(token, category, deviceId);
 				setBookmarkItems((current) => [...current, bookmark]);
 				return true;
 			} catch (error) {

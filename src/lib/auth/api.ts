@@ -5,18 +5,18 @@ export type AuthUser = {
 
 export type AuthSession = {
 	token: string;
-	expiresAt: string;
 };
 
 export type Bookmark = {
+	id: string;
 	category: string;
 	deviceId: string;
-	createdAt: string;
+	createdAt: string | null;
 };
 
 export type AuthResponse = {
+	token: string;
 	user: AuthUser;
-	session: AuthSession;
 };
 
 type ErrorPayload = {
@@ -63,7 +63,7 @@ async function request<T>(
 		throw new ApiError(
 			response.status,
 			payload.error?.message ?? "The request could not be completed.",
-			payload.error?.fields,
+			{},
 		);
 	}
 
@@ -85,24 +85,27 @@ export function login(username: string, password: string) {
 }
 
 export function getCurrentUser(token: string) {
-	return request<{ user: AuthUser }>("/auth/me", {}, token);
+	return request<AuthUser>("/me", {}, token);
 }
 
 export function listBookmarks(token: string) {
-	return request<{ bookmarks: Bookmark[] }>("/bookmarks", {}, token);
+	return request<Bookmark[]>("/bookmarks", {}, token);
 }
 
 export function addBookmark(token: string, category: string, deviceId: string) {
-	return request<{ bookmark: Bookmark }>(
-		`/bookmarks/${encodeURIComponent(category)}/${encodeURIComponent(deviceId)}`,
-		{ method: "PUT" },
+	return request<Bookmark>(
+		"/bookmarks",
+		{
+			method: "POST",
+			body: JSON.stringify({ category, deviceID: deviceId }),
+		},
 		token,
 	);
 }
 
-export function removeBookmark(token: string, category: string, deviceId: string) {
+export function removeBookmark(token: string, bookmarkId: string) {
 	return request<void>(
-		`/bookmarks/${encodeURIComponent(category)}/${encodeURIComponent(deviceId)}`,
+		`/bookmarks/${encodeURIComponent(bookmarkId)}`,
 		{ method: "DELETE" },
 		token,
 	);
