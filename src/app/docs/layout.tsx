@@ -1,22 +1,26 @@
 import { source } from "@/lib/source";
-import { DocsLayout } from "fumadocs-ui/layouts/docs";
+import { GlassLayout } from "fumadocs-ui/layouts/glass";
 import { baseOptions } from "@/lib/layout.shared";
-import { catalogCategories, getCatalogTabUrls } from "@/lib/shared";
+import { catalogCategories } from "@/lib/shared";
 
 export default function Layout({ children }: LayoutProps<"/docs">) {
 	return (
-		<DocsLayout
+		<GlassLayout
 			tree={source.getPageTree()}
 			tabs={catalogCategories.map((category) => ({
 				title: category.title,
 				description: category.description,
 				url: `/docs/${category.slug}`,
-				urls: getCatalogTabUrls(category.slug),
 			}))}
-			tabMode="top"
+			links={catalogCategories.map((category) => ({
+				type: "main" as const,
+				text: category.title,
+				url: `/docs/${category.slug}`,
+				active: "nested-url" as const,
+			}))}
 			{...baseOptions()}
 		>
 			{children}
-		</DocsLayout>
+		</GlassLayout>
 	);
 }
