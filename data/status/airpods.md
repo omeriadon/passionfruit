@@ -2,7 +2,7 @@
 
 ## Inputs
 
-Input State Evidence
+| Input | State | Evidence |
 | ------------------------------- | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `data/tmp/airpods/airpod.html` | Present usable | 659919 bytes |
 | `data/tmp/airpods/airpod2.html` | Present usable | 648954 bytes |

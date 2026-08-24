@@ -2,15 +2,15 @@
 
 ## Inputs
 
-Input State Evidence
+| Input | State | Evidence |
 | -------------------------- | -------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
 | `data/tmp/ipad/ipad.html` | Present usable | Featured iPad Pro 11-in. M5 and iPad Air 11-in. M4 |
 | `data/tmp/ipad/ipad2.html` | Present usable | Featured iPad Air 13-in. M4 and iPad mini A17 Pro |
 | `data/tmp/ipad/ipad3.html` | Present usable | Featured iPad Pro 12.9-in. generations 6, 5, and 4; full catalogue selector |
 | `data/tmp/ipad/ipad4.html` | Present usable | Featured iPad Pro 11-in. M4 and generations 4 and 3 |
 | `data/tmp/ipad/ipad5.html` | Present usable | Featured iPad 10th generation, iPad Air 11-in. M2, and iPad Air 5th generation |
-| Canonical candidate source | CANDIDATE | `.scratch/strict/ipad/strict-devices.merge-ready.json`, 39 devices |
-| Canonical output | PRESENT | `public/data/ipad/ipad.json`, 39 canonical devices; Ajv Draft 2020-12 shared contract passes with 0 errors; all 6 image references verified |
+| Canonical candidate source | CANDIDATE | `.scratch/strict/ipad/strict-devices.merge-ready.json`, 39 devices; this preserved strict artifact is a candidate subset |
+| Canonical output | PRESENT | `public/data/ipad/ipad.json`, 40 canonical devices; Ajv Draft 2020-12 shared contract passes with 0 errors; all 6 image references verified |
 
 Additional HTML: none required.
 
