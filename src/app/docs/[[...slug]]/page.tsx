@@ -12,33 +12,57 @@ import { getMDXComponents } from "@/components/mdx";
 import type { Metadata } from "next";
 import { createRelativeLink } from "fumadocs-ui/mdx";
 import { gitConfig, getCatalogRoute } from "@/lib/shared";
-import { getCatalogRecordCount, getCatalogStaticParams } from "@/lib/source";
-import { getCatalogData } from "@/lib/source";
+import {
+	getCatalogRecordCount,
+	getCatalogStaticParams,
+	getCatalogData,
+	getOtherCatalogData,
+} from "@/lib/source";
 import { getDeviceNote } from "@/lib/device-notes";
 import { CatalogCategory } from "@/components/catalog/CatalogCategory";
 import { AccessoryCatalog } from "@/components/catalog/AccessoryCatalog";
 import type { CatalogDevice } from "@/lib/catalog/types";
+import { OtherCatalog } from "@/components/catalog/OtherCatalog";
 
 function CatalogRouteBoundary({ slugs }: { slugs: string[] }) {
 	const route = getCatalogRoute(slugs);
 	if (!route) return null;
+	if (route.kind === "other" || route.kind === "other-device") {
+		const otherData = getOtherCatalogData(route.section);
+		const detail =
+			route.kind === "other-device"
+				? otherData.products.find((product) => product.id === route.deviceSlug)
+				: undefined;
+		if (route.kind === "other-device" && !detail) notFound();
+		return (
+			<OtherCatalog
+				section={route.section}
+				products={otherData.products}
+				detailId={detail?.id}
+			/>
+		);
+	}
 	const data = getCatalogData(route);
 
 	if (route.kind === "category" || route.kind === "device") {
 		if (!("devices" in data)) return null;
 		const detailDevice =
 			route.kind === "device"
-				? (data.devices.find(
-						(device) => device.id === route.deviceSlug,
-					) as CatalogDevice | undefined)
+				? (data.devices.find((device) => device.id === route.deviceSlug) as
+						CatalogDevice | undefined)
 				: undefined;
+		if (route.kind === "device" && !detailDevice) notFound();
 
 		return (
 			<CatalogCategory
 				category={route.category}
 				devices={data.devices as CatalogDevice[]}
 				detailDevice={detailDevice}
-				detailNote={detailDevice ? getDeviceNote(route.category, detailDevice.id) : undefined}
+				detailNote={
+					detailDevice
+						? getDeviceNote(route.category, detailDevice.id)
+						: undefined
+				}
 			/>
 		);
 	}
@@ -47,6 +71,12 @@ function CatalogRouteBoundary({ slugs }: { slugs: string[] }) {
 		if (!("accessories" in data)) return null;
 		const detailId =
 			route.kind === "accessory-device" ? route.deviceSlug : undefined;
+		if (
+			route.kind === "accessory-device" &&
+			!data.accessories.some((item) => item.id === detailId)
+		) {
+			notFound();
+		}
 		return (
 			<AccessoryCatalog
 				accessory={route.accessory}
@@ -56,17 +86,7 @@ function CatalogRouteBoundary({ slugs }: { slugs: string[] }) {
 		);
 	}
 
-	return (
-		<section
-			className="catalog-route-boundary"
-			data-catalog-kind={route.kind}
-			data-catalog-category={route.category}
-			data-catalog-device={"deviceSlug" in route ? route.deviceSlug : undefined}
-			data-catalog-record-count={getCatalogRecordCount(route)}
-		>
-			<div className="catalog-route-boundary__content" />
-		</section>
-	);
+	return null;
 }
 
 export default async function Page(props: PageProps<"/docs/[[...slug]]">) {
