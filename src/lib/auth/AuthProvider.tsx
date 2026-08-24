@@ -86,8 +86,8 @@ export function AuthProvider({ children }: { children: ReactNode }) {
 	const finishAuthentication = useCallback(
 		async (authenticate: () => Promise<AuthResponse>) => {
 			const response = await authenticate();
-			localStorage.setItem(tokenStorageKey, response.token);
-			await loadSession(response.token);
+			localStorage.setItem(tokenStorageKey, response.session.token);
+			await loadSession(response.session.token);
 			setAuthDialogOpen(false);
 			setActionError(null);
 		},
@@ -118,9 +118,11 @@ export function AuthProvider({ children }: { children: ReactNode }) {
 					(item) => bookmarkKey(item.category, item.deviceId) === key,
 				);
 				if (existing) {
-					await removeBookmark(token, existing.id);
+					await removeBookmark(token, existing.category, existing.deviceId);
 					setBookmarkItems((current) =>
-						current.filter((item) => bookmarkKey(item.category, item.deviceId) !== key),
+						current.filter(
+							(item) => bookmarkKey(item.category, item.deviceId) !== key,
+						),
 					);
 					return false;
 				}
@@ -130,8 +132,12 @@ export function AuthProvider({ children }: { children: ReactNode }) {
 				return true;
 			} catch (error) {
 				if (error instanceof ApiError && error.status === 401) clearSession();
-				setActionError(error instanceof Error ? error.message : "Bookmark update failed.");
-				return bookmarkItems.some((item) => bookmarkKey(item.category, item.deviceId) === key);
+				setActionError(
+					error instanceof Error ? error.message : "Bookmark update failed.",
+				);
+				return bookmarkItems.some(
+					(item) => bookmarkKey(item.category, item.deviceId) === key,
+				);
 			}
 		},
 		[bookmarkItems, clearSession, token],
@@ -140,20 +146,36 @@ export function AuthProvider({ children }: { children: ReactNode }) {
 	const value = useMemo<AuthContextValue>(
 		() => ({
 			user,
-			bookmarks: new Set(bookmarkItems.map((item) => bookmarkKey(item.category, item.deviceId))),
+			bookmarks: new Set(
+				bookmarkItems.map((item) => bookmarkKey(item.category, item.deviceId)),
+			),
 			isLoading,
 			actionError,
 			authDialogOpen,
 			openAuthDialog: () => setAuthDialogOpen(true),
 			closeAuthDialog: () => setAuthDialogOpen(false),
 			login: (username, password) => authenticate("login", username, password),
-			register: (username, password) => authenticate("register", username, password),
+			register: (username, password) =>
+				authenticate("register", username, password),
 			logout: clearSession,
 			toggleBookmark,
 			isBookmarked: (category, deviceId) =>
-				bookmarkItems.some((item) => bookmarkKey(item.category, item.deviceId) === bookmarkKey(category, deviceId)),
+				bookmarkItems.some(
+					(item) =>
+						bookmarkKey(item.category, item.deviceId) ===
+						bookmarkKey(category, deviceId),
+				),
 		}),
-		[actionError, authDialogOpen, authenticate, bookmarkItems, clearSession, isLoading, toggleBookmark, user],
+		[
+			actionError,
+			authDialogOpen,
+			authenticate,
+			bookmarkItems,
+			clearSession,
+			isLoading,
+			toggleBookmark,
+			user,
+		],
 	);
 
 	return (

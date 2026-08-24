@@ -5,19 +5,23 @@ export type AuthUser = {
 
 export type AuthSession = {
 	token: string;
+	expiresAt: string;
 };
 
 export type Bookmark = {
-	id: string;
 	category: string;
 	deviceId: string;
 	createdAt: string | null;
 };
 
 export type AuthResponse = {
-	token: string;
 	user: AuthUser;
+	session: AuthSession;
 };
+
+type AuthUserResponse = { user: AuthUser };
+type BookmarksResponse = { bookmarks: Bookmark[] };
+type BookmarkResponse = { bookmark: Bookmark };
 
 type ErrorPayload = {
 	error?: {
@@ -33,7 +37,11 @@ export class ApiError extends Error {
 	readonly status: number;
 	readonly fields: Record<string, string>;
 
-	constructor(status: number, message: string, fields: Record<string, string> = {}) {
+	constructor(
+		status: number,
+		message: string,
+		fields: Record<string, string> = {},
+	) {
 		super(message);
 		this.name = "ApiError";
 		this.status = status;
@@ -63,7 +71,7 @@ async function request<T>(
 		throw new ApiError(
 			response.status,
 			payload.error?.message ?? "The request could not be completed.",
-			{},
+			payload.error?.fields ?? {},
 		);
 	}
 
@@ -85,27 +93,34 @@ export function login(username: string, password: string) {
 }
 
 export function getCurrentUser(token: string) {
-	return request<AuthUser>("/me", {}, token);
-}
-
-export function listBookmarks(token: string) {
-	return request<Bookmark[]>("/bookmarks", {}, token);
-}
-
-export function addBookmark(token: string, category: string, deviceId: string) {
-	return request<Bookmark>(
-		"/bookmarks",
-		{
-			method: "POST",
-			body: JSON.stringify({ category, deviceID: deviceId }),
-		},
-		token,
+	return request<AuthUserResponse>("/auth/me", {}, token).then(
+		(response) => response.user,
 	);
 }
 
-export function removeBookmark(token: string, bookmarkId: string) {
+export function listBookmarks(token: string) {
+	return request<BookmarksResponse>("/bookmarks", {}, token).then(
+		(response) => response.bookmarks,
+	);
+}
+
+export function addBookmark(token: string, category: string, deviceId: string) {
+	return request<BookmarkResponse>(
+		`/bookmarks/${encodeURIComponent(category)}/${encodeURIComponent(deviceId)}`,
+		{
+			method: "PUT",
+		},
+		token,
+	).then((response) => response.bookmark);
+}
+
+export function removeBookmark(
+	token: string,
+	category: string,
+	deviceId: string,
+) {
 	return request<void>(
-		`/bookmarks/${encodeURIComponent(bookmarkId)}`,
+		`/bookmarks/${encodeURIComponent(category)}/${encodeURIComponent(deviceId)}`,
 		{ method: "DELETE" },
 		token,
 	);
