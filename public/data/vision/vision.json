@@ -291,8 +291,6 @@
 					"capacityValue": 16,
 					"capacityUnit": "GB",
 					"kind": "unified",
-					"speedMbps": 153000,
-					"speedUnit": "Mbps",
 					"sourceNotes": "Source states 153GB/s of memory bandwidth."
 				}
 			],
@@ -326,7 +324,7 @@
 					"id": "micro-oled-3d-display-system",
 					"technology": "3D display system",
 					"panelKind": "micro-OLED",
-					"resolutionWidthPx": 23000000,
+					"resolutionWidthPx": null,
 					"refreshRateRange": {
 						"minimum": 90,
 						"maximum": 120,

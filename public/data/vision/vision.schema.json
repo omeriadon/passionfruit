@@ -96,8 +96,6 @@
 				"capacityValue": { "type": "integer", "minimum": 1 },
 				"capacityUnit": { "type": "string", "enum": ["GB", "TB"] },
 				"kind": { "type": "string", "minLength": 1 },
-				"speedMbps": { "type": "number", "minimum": 0 },
-				"speedUnit": { "type": "string", "minLength": 1 },
 				"sourceNotes": { "type": "string", "minLength": 1 }
 			}
 		},
@@ -155,7 +153,10 @@
 				"technology": { "type": "string", "minLength": 1 },
 				"panelKind": { "type": "string", "minLength": 1 },
 				"sizeIn": { "type": "number", "minimum": 0 },
-				"resolutionWidthPx": { "type": "integer", "minimum": 1 },
+				"resolutionWidthPx": {
+					"type": ["integer", "null"],
+					"minimum": 1
+				},
 				"resolutionHeightPx": { "type": "integer", "minimum": 1 },
 				"pixelsPerInch": { "type": "number", "minimum": 1 },
 				"refreshRateRange": {
