@@ -22,17 +22,20 @@ export function AccessoryCatalog({
 	accessories,
 	detailId,
 }: AccessoryCatalogProps) {
-	const detail = accessories.find((item) => item.id === detailId);
 	const devices = accessories.map(
 		(item) =>
 			({
 				...item,
 				name: item.displayName,
-			} as CatalogDevice),
+			}) as CatalogDevice,
 	);
+	const detail = devices.find((item) => item.id === detailId);
 
 	return (
-		<section className={styles.catalogCategory} aria-labelledby={`${accessory}-title`}>
+		<section
+			className={styles.catalogCategory}
+			aria-labelledby={`${accessory}-title`}
+		>
 			<div className={styles.sectionIntro}>
 				<p className={styles.eyebrow}>iPad accessories</p>
 				<h2 id={`${accessory}-title`} className={styles.sectionTitle}>
@@ -54,10 +57,7 @@ export function AccessoryCatalog({
 			{detail ? (
 				<>
 					<div className={styles.divider} aria-hidden="true" />
-						<DeviceDetail
-							category="ipad"
-							device={detail as unknown as CatalogDevice}
-						/>
+					<DeviceDetail category="ipad" device={detail} />
 				</>
 			) : null}
 		</section>
