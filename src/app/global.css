@@ -2,6 +2,27 @@
 @import "fumadocs-ui/css/neutral.css";
 @import "fumadocs-ui/css/preset.css";
 
+:root {
+	--fd-primary: oklch(0.57 0.16 255);
+	--fd-primary-foreground: oklch(0.98 0.01 255);
+}
+
+.dark {
+	--fd-primary: oklch(0.72 0.14 255);
+	--fd-primary-foreground: oklch(0.2 0.03 255);
+}
+
+.catalog-route-boundary {
+	border: 1px dashed var(--fd-border);
+	border-radius: 1rem;
+	padding: 1.5rem;
+}
+
+.catalog-route-boundary__content {
+	border-left: 2px solid var(--fd-primary);
+	padding-left: 1rem;
+}
+
 html {
 	scrollbar-gutter: stable;
 }
