@@ -12,12 +12,6 @@ export default function Layout({ children }: LayoutProps<"/docs">) {
 				description: category.description,
 				url: `/docs/${category.slug}`,
 			}))}
-			links={catalogCategories.map((category) => ({
-				type: "main" as const,
-				text: category.title,
-				url: `/docs/${category.slug}`,
-				active: "nested-url" as const,
-			}))}
 			{...baseOptions()}
 		>
 			{children}
