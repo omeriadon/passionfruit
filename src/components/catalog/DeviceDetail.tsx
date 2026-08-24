@@ -97,10 +97,10 @@ function DataObject({
 		<div className={depth > 0 ? styles.nestedObject : styles.dataObject}>
 			{Object.entries(value).map(([key, item]) => (
 				<div className={styles.dataRow} key={key}>
-					<dt>{humanizeKey(key)}</dt>
-					<dd>
+					<span className={styles.dataTerm}>{humanizeKey(key)}</span>
+					<div className={styles.dataDefinition}>
 						<DataValue value={item} depth={depth} />
-					</dd>
+					</div>
 				</div>
 			))}
 		</div>
@@ -244,9 +244,9 @@ export function DeviceDetail({
 					return (
 						<section className={styles.detailSection} key={key}>
 							<h3>{humanizeKey(key)}</h3>
-							<dl>
+							<div className={styles.detailValue}>
 								<DataValue value={value} />
-							</dl>
+							</div>
 						</section>
 					);
 				})}
