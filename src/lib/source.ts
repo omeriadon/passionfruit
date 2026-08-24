@@ -1,4 +1,5 @@
 import { loader } from "fumadocs-core/source";
+import type * as PageTree from "fumadocs-core/page-tree";
 import { lucideIconsPlugin } from "fumadocs-core/source/lucide-icons";
 import { docsContentRoute, docsImageRoute, docsRoute } from "./shared";
 import { defineDocs } from "fumadocs-mdx/macro";
@@ -10,10 +11,13 @@ import type {
 	OtherCatalogSection,
 } from "./shared";
 import {
+	catalogCategories,
 	getCatalogRoute,
 	ipadAccessorySections,
 	otherCatalogSections,
 } from "./shared";
+import { sortDevices } from "./catalog/config";
+import type { CatalogDevice } from "./catalog/types";
 
 import airpodsData from "../../public/data/airpods/airpods.json";
 import appleTVData from "../../public/data/apple-tv/apple-tv.json";
@@ -150,6 +154,103 @@ export const source = loader({
 	source: docs.toFumadocsSource(),
 	plugins: [lucideIconsPlugin()],
 });
+
+function findFolderByRoute(
+	node: PageTree.Root | PageTree.Folder,
+	url: string,
+): PageTree.Folder | undefined {
+	for (const child of node.children) {
+		if (child.type !== "folder") continue;
+		if (
+			child.index?.url === url ||
+			(child.$ref?.folder && `${docsRoute}/${child.$ref.folder}` === url)
+		) {
+			return child;
+		}
+		const match = findFolderByRoute(child, url);
+		if (match) return match;
+	}
+	return undefined;
+}
+
+function catalogPageItem(id: string, name: string, url: string): PageTree.Item {
+	return {
+		$id: `catalog:${url}`,
+		type: "page",
+		name,
+		url,
+	};
+}
+
+function withChildren(
+	node: PageTree.Root | PageTree.Folder,
+	childrenByUrl: ReadonlyMap<string, PageTree.Item[]>,
+): PageTree.Root | PageTree.Folder {
+	return {
+		...node,
+		children: node.children.map((child) => {
+			if (child.type !== "folder") return child;
+			const transformed = withChildren(child, childrenByUrl) as PageTree.Folder;
+			const folderUrl =
+				child.index?.url ??
+				(child.$ref?.folder ? `${docsRoute}/${child.$ref.folder}` : "");
+			const additions = childrenByUrl.get(folderUrl);
+			return additions
+				? { ...transformed, children: [...transformed.children, ...additions] }
+				: transformed;
+		}),
+	};
+}
+
+/**
+ * Add data-backed detail routes to the official Fumadocs page tree. These
+ * routes do not have MDX files, but are still rendered by the catalog route
+ * boundary and therefore belong in the same sidebar tree as the MDX pages.
+ */
+export function getCatalogPageTree(): PageTree.Root {
+	const childrenByUrl = new Map<string, PageTree.Item[]>();
+
+	for (const category of catalogCategories) {
+		const data = catalogDatasets[category.slug];
+		if (!("devices" in data)) continue;
+		childrenByUrl.set(
+			`${docsRoute}/${category.slug}`,
+			sortDevices(data.devices as CatalogDevice[]).map((device) =>
+				catalogPageItem(
+					device.id,
+					device.name,
+					`${docsRoute}/${category.slug}/${device.id}`,
+				),
+			),
+		);
+	}
+
+	for (const accessory of ipadAccessorySections) {
+		const data = accessoryDatasets[accessory.slug];
+		if (!("accessories" in data)) continue;
+		childrenByUrl.set(
+			`${docsRoute}/ipad/accessories/${accessory.slug}`,
+			data.accessories.map((item) =>
+				catalogPageItem(
+					item.id,
+					item.displayName,
+					`${docsRoute}/ipad/accessories/${accessory.slug}/${item.id}`,
+				),
+			),
+		);
+	}
+
+	const tree = source.getPageTree();
+	const transformed = withChildren(tree, childrenByUrl);
+
+	for (const category of catalogCategories) {
+		if (!findFolderByRoute(transformed, `${docsRoute}/${category.slug}`)) {
+			throw new Error(`Missing page-tree folder for ${category.slug}`);
+		}
+	}
+
+	return transformed as PageTree.Root;
+}
 
 export function getPageImageUrl(page: (typeof source)["$inferPage"]) {
 	const segments = [...page.slugs, "image.png"];
