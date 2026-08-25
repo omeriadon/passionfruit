@@ -47,17 +47,54 @@
 	height: 9rem;
 	z-index: 2;
 	pointer-events: none;
+	isolation: isolate;
 	background-color: color-mix(
 		in srgb,
-		var(--color-fd-popover) 72%,
+		var(--color-fd-popover) 24%,
 		transparent
 	);
-	backdrop-filter: blur(4px) saturate(125%);
-	-webkit-backdrop-filter: blur(4px) saturate(125%);
 }
 
 #nd-sidebar > div:first-of-type > * {
+	position: relative;
+	z-index: 1;
 	pointer-events: auto;
+}
+
+#nd-sidebar > div:first-of-type::before,
+#nd-sidebar > div:first-of-type::after {
+	content: "";
+	position: absolute;
+	inset: 0;
+	pointer-events: none;
+}
+
+#nd-sidebar > div:first-of-type::before {
+	z-index: 0;
+	background: color-mix(in srgb, var(--color-fd-popover) 30%, transparent);
+	backdrop-filter: blur(16px) saturate(135%);
+	-webkit-backdrop-filter: blur(16px) saturate(135%);
+	mask-image: linear-gradient(to bottom, #000 0, #000 42%, transparent 78%);
+	-webkit-mask-image: linear-gradient(
+		to bottom,
+		#000 0,
+		#000 42%,
+		transparent 78%
+	);
+}
+
+#nd-sidebar > div:first-of-type::after {
+	z-index: 1;
+	background: color-mix(in srgb, var(--color-fd-popover) 18%, transparent);
+	backdrop-filter: blur(7px) saturate(125%);
+	-webkit-backdrop-filter: blur(7px) saturate(125%);
+	mask-image: linear-gradient(to bottom, #000 22%, #000 64%, transparent 100%);
+	-webkit-mask-image: linear-gradient(
+		to bottom,
+		#000 22%,
+		#000 64%,
+		transparent 100%
+	);
 }
 
 #nd-sidebar > button {
