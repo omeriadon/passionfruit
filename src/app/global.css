@@ -13,6 +13,28 @@
 	--fd-primary-foreground: oklch(0.2 0.03 255);
 }
 
+.glass-header-surface {
+	background-color: color-mix(
+		in srgb,
+		var(--color-fd-popover) 32%,
+		transparent
+	) !important;
+	backdrop-filter: blur(4px) saturate(125%);
+	-webkit-backdrop-filter: blur(4px) saturate(125%);
+	border: 1px solid color-mix(in srgb, currentColor 16%, transparent);
+	box-shadow: 0 1px 2px color-mix(in srgb, #000 12%, transparent);
+}
+
+.glass-header-surface:hover,
+.glass-header-surface[data-popup-open="true"],
+.glass-header-surface[data-open="true"] {
+	background-color: color-mix(
+		in srgb,
+		var(--color-fd-popover) 44%,
+		transparent
+	) !important;
+}
+
 .catalog-route-boundary {
 	border: 1px dashed var(--fd-border);
 	border-radius: 1rem;

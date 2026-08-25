@@ -8,9 +8,6 @@ import type { ComponentProps } from "react";
 import { AccountButton } from "./AccountButton";
 import { cn } from "@/lib/cn";
 
-const baseVariants =
-	"rounded-full bg-fd-popover/80 text-fd-popover-foreground border backdrop-blur-sm shadow-sm";
-
 export function GlassAccountHeader({
 	className,
 	...props
@@ -31,7 +28,7 @@ export function GlassAccountHeader({
 					aria-label="Show Sidebar"
 					className={cn(
 						buttonVariants({ size: "icon-sm", variant: "secondary" }),
-						baseVariants,
+						"glass-header-surface rounded-full",
 						"size-10 me-auto shrink-0 max-md:hidden",
 					)}
 					onClick={() => sidebar.setCollapsed(false)}
@@ -45,7 +42,10 @@ export function GlassAccountHeader({
 				<slots.searchTrigger.sm
 					color="secondary"
 					size="icon"
-					className={cn(baseVariants, "size-12 shrink-0 md:hidden")}
+					className={cn(
+						"glass-header-surface rounded-full",
+						"size-12 shrink-0 md:hidden",
+					)}
 				/>
 			) : null}
 
@@ -53,7 +53,7 @@ export function GlassAccountHeader({
 				<div className="@container flex justify-end flex-1 max-md:hidden">
 					<slots.searchTrigger.full
 						className={cn(
-							baseVariants,
+							"glass-header-surface rounded-full",
 							"text-fd-muted-foreground ps-3 w-full @sm:max-w-50",
 						)}
 					/>
@@ -62,12 +62,18 @@ export function GlassAccountHeader({
 
 			<AccountButton
 				glass
-				className={cn(baseVariants, "shrink-0 px-3 max-md:hidden")}
+				className={cn(
+					"glass-header-surface rounded-full",
+					"shrink-0 px-3 max-md:hidden",
+				)}
 			/>
 
 			{slots.languageSelect ? (
 				<slots.languageSelect.root
-					className={cn(baseVariants, "px-3 rounded-full max-md:hidden")}
+					className={cn(
+						"glass-header-surface rounded-full",
+						"px-3 max-md:hidden",
+					)}
 				>
 					<LanguagesIcon
 						aria-hidden="true"
@@ -83,7 +89,10 @@ export function GlassAccountHeader({
 
 			{slots.themeSwitch ? (
 				<slots.themeSwitch
-					className={cn(baseVariants, "shrink-0 px-1.5 max-md:hidden")}
+					className={cn(
+						"glass-header-surface",
+						"shrink-0 px-1.5 max-md:hidden",
+					)}
 				/>
 			) : null}
 
@@ -95,7 +104,7 @@ export function GlassAccountHeader({
 						aria-label={open ? "Close Sidebar" : "Open Sidebar"}
 						className={cn(
 							buttonVariants({ variant: "secondary", size: "icon" }),
-							baseVariants,
+							"glass-header-surface rounded-full",
 							"shrink-0 size-12 md:hidden",
 						)}
 						type="button"
