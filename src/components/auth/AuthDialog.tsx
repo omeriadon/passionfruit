@@ -46,7 +46,11 @@ export function AuthDialog() {
 	}
 
 	return (
-		<div className={styles.backdrop} role="presentation" onMouseDown={closeAuthDialog}>
+		<div
+			className={styles.backdrop}
+			role="presentation"
+			onMouseDown={closeAuthDialog}
+		>
 			<section
 				className={styles.dialog}
 				role="dialog"
@@ -63,7 +67,9 @@ export function AuthDialog() {
 					<X aria-hidden="true" size={18} />
 				</button>
 				<p className={styles.eyebrow}>Apple Catalog</p>
-				<h2 id="auth-dialog-title">{mode === "login" ? "Sign in" : "Create account"}</h2>
+				<h2 id="auth-dialog-title">
+					{mode === "login" ? "Sign in" : "Create account"}
+				</h2>
 				<p className={styles.description}>
 					{mode === "login"
 						? "Sign in to keep your bookmarked devices across sessions."
@@ -76,7 +82,9 @@ export function AuthDialog() {
 							ref={usernameRef}
 							value={username}
 							onChange={(event) => setUsername(event.target.value)}
-							autoComplete={mode === "login" ? "username" : "username new-password"}
+							autoComplete={
+								mode === "login" ? "username" : "username new-password"
+							}
 							required
 						/>
 					</label>
@@ -86,14 +94,32 @@ export function AuthDialog() {
 							type="password"
 							value={password}
 							onChange={(event) => setPassword(event.target.value)}
-							autoComplete={mode === "login" ? "current-password" : "new-password"}
+							autoComplete={
+								mode === "login" ? "current-password" : "new-password"
+							}
 							required
 						/>
 					</label>
-					{error ? <p className={styles.error} role="alert">{error}</p> : null}
-					<button type="submit" className={styles.submitButton} disabled={isSubmitting}>
-						{mode === "login" ? <LogIn aria-hidden="true" size={16} /> : <UserPlus aria-hidden="true" size={16} />}
-						{isSubmitting ? "Working…" : mode === "login" ? "Sign in" : "Create account"}
+					{error ? (
+						<p className={styles.error} role="alert">
+							{error}
+						</p>
+					) : null}
+					<button
+						type="submit"
+						className={styles.submitButton}
+						disabled={isSubmitting}
+					>
+						{mode === "login" ? (
+							<LogIn aria-hidden="true" size={16} />
+						) : (
+							<UserPlus aria-hidden="true" size={16} />
+						)}
+						{isSubmitting
+							? "Working…"
+							: mode === "login"
+								? "Sign in"
+								: "Create account"}
 					</button>
 				</form>
 				<button
@@ -104,7 +130,9 @@ export function AuthDialog() {
 						setError(null);
 					}}
 				>
-					{mode === "login" ? "Need an account? Create one" : "Already have an account? Sign in"}
+					{mode === "login"
+						? "Need an account? Create one"
+						: "Already have an account? Sign in"}
 				</button>
 			</section>
 		</div>
