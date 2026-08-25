@@ -54,7 +54,7 @@ export function GlassAccountHeader({
 					<slots.searchTrigger.full
 						className={cn(
 							baseVariants,
-							"text-fd-muted-foreground ps-3 w-full @sm:max-w-[200px]",
+							"text-fd-muted-foreground ps-3 w-full @sm:max-w-50",
 						)}
 					/>
 				</div>

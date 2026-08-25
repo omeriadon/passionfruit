@@ -34,7 +34,7 @@ const docsPageOptions: Omit<DocsPageProps, "children" | "toc"> = {
 	tableOfContent: {
 		container: {},
 		header: null,
-		footer: null,
+		footer: <div>test</div>,
 	},
 };
 
