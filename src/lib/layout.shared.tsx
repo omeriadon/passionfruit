@@ -4,14 +4,6 @@ import { appName, gitConfig } from "./shared";
 
 export function baseOptions(): BaseLayoutProps {
 	return {
-<<<<<<< HEAD
-		// Shared repository shortcut. It becomes a generated navigation item.
-=======
-		nav: {
-			title: appName,
-			url: "/",
-		},
->>>>>>> refs/remotes/origin/data/first-ui
 		githubUrl: `https://github.com/${gitConfig.user}/${gitConfig.repo}`,
 
 		// Add main, icon, button, menu, or custom items here. Set `secondary`
