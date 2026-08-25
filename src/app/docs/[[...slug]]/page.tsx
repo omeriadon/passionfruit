@@ -3,6 +3,7 @@ import {
 	DocsBody,
 	DocsDescription,
 	DocsPage,
+	type DocsPageProps,
 	DocsTitle,
 	MarkdownCopyButton,
 	ViewOptionsPopover,
@@ -23,6 +24,19 @@ import { CatalogCategory } from "@/components/catalog/CatalogCategory";
 import { AccessoryCatalog } from "@/components/catalog/AccessoryCatalog";
 import type { CatalogDevice } from "@/lib/catalog/types";
 import { OtherCatalog } from "@/components/catalog/OtherCatalog";
+
+const docsPageOptions: Omit<DocsPageProps, "children" | "toc"> = {
+	// Set true to make the article fill all available page space.
+	full: false,
+
+	// Glass DocsPage TOC configuration. Use `header` and `footer` for custom
+	// content, or `container` to style the TOC wrapper.
+	tableOfContent: {
+		container: {},
+		header: null,
+		footer: null,
+	},
+};
 
 function CatalogRouteBoundary({ slugs }: { slugs: string[] }) {
 	const route = getCatalogRoute(slugs);
@@ -97,7 +111,7 @@ export default async function Page(props: PageProps<"/docs/[[...slug]]">) {
 
 	if (!page) {
 		return (
-			<DocsPage>
+			<DocsPage {...docsPageOptions}>
 				<DocsTitle>Apple Catalog</DocsTitle>
 				<DocsDescription>
 					Explore the structured data for this Apple device category.
@@ -113,7 +127,7 @@ export default async function Page(props: PageProps<"/docs/[[...slug]]">) {
 	const markdownUrl = getPageMarkdownUrl(page).url;
 
 	return (
-		<DocsPage toc={page.data.toc} full={page.data.full}>
+		<DocsPage {...docsPageOptions} toc={page.data.toc} full={page.data.full}>
 			<DocsTitle>{page.data.title}</DocsTitle>
 			<DocsDescription className="mb-0">
 				{page.data.description}
