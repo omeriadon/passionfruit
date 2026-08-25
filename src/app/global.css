@@ -35,6 +35,42 @@
 	) !important;
 }
 
+/* Let the default Glass sidebar list continue beneath its title and tabs. */
+#nd-sidebar {
+	position: relative;
+}
+
+#nd-sidebar > div:first-of-type {
+	position: absolute;
+	inset: 0 0 auto;
+	z-index: 2;
+	pointer-events: none;
+	background: linear-gradient(
+		to bottom,
+		color-mix(in srgb, var(--color-fd-popover) 86%, transparent) 0,
+		color-mix(in srgb, var(--color-fd-popover) 60%, transparent) 4.5rem,
+		transparent 8rem
+	);
+}
+
+#nd-sidebar > div:first-of-type > * {
+	pointer-events: auto;
+}
+
+#nd-sidebar > button {
+	position: absolute;
+	inset: 4.75rem 0.5rem auto;
+	z-index: 2;
+}
+
+#nd-sidebar > div:last-of-type {
+	position: absolute;
+	inset: 0;
+	display: flex;
+	min-height: 0;
+	width: 100%;
+}
+
 .catalog-route-boundary {
 	border: 1px dashed var(--fd-border);
 	border-radius: 1rem;
