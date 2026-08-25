@@ -31,7 +31,10 @@ type ErrorPayload = {
 };
 
 export const bookmarksApiUrl =
-	process.env.NEXT_PUBLIC_BOOKMARKS_API_URL ?? "http://localhost:8080";
+	typeof window === "undefined"
+		? (process.env.NEXT_PUBLIC_BOOKMARKS_API_URL ??
+			"https://passionfruit-api.adonis.pt")
+		: "";
 
 export class ApiError extends Error {
 	readonly status: number;
