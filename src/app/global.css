@@ -44,7 +44,7 @@
 #nd-sidebar > div:first-of-type {
 	position: absolute;
 	inset: 0 0 auto;
-	height: 7.25rem;
+	height: 6.5rem;
 	z-index: 2;
 	pointer-events: none;
 	isolation: isolate;
@@ -94,7 +94,7 @@
 
 #nd-sidebar > button {
 	position: absolute;
-	inset: 3.75rem 0.5rem auto;
+	inset: 2.5rem 0.5rem auto;
 	z-index: 2;
 }
 
