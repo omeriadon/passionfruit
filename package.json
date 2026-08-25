@@ -7,6 +7,7 @@
 		"check:catalog-routes": "node scripts/check-catalog-routes.mjs",
 		"dev": "next dev",
 		"format": "prettier --ignore-unknown --write .",
+		"prepare": "git config core.hooksPath .githooks",
 		"start": "next start",
 		"types:check": "next typegen && tsc --noEmit"
 	},

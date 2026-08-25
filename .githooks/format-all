@@ -1,0 +1,4 @@
+#!/bin/sh
+
+bun run format || printf '%s\n' "Prettier could not format every file; continuing with the commit or push." >&2
+git add -A
