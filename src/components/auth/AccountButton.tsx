@@ -26,8 +26,6 @@ export function AccountButton({
 			size: "sm",
 			className: "gap-1.5",
 		}),
-		glass &&
-			"rounded-full bg-fd-popover/80 text-fd-popover-foreground backdrop-blur-sm",
 		className,
 	);
 
