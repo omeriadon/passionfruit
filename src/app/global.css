@@ -37,7 +37,6 @@
 
 /* Let the default Glass sidebar list continue beneath its title and tabs. */
 #nd-sidebar {
-	position: relative;
 	overflow: hidden;
 	overscroll-behavior: contain;
 }
