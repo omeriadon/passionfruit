@@ -58,7 +58,10 @@ export function AccountButton({
 			>
 				{buttonContent}
 			</PopoverTrigger>
-			<PopoverContent align="end" className="flex w-64 flex-col gap-1 p-1">
+			<PopoverContent
+				align="end"
+				className="glass-header-surface flex w-64 flex-col gap-1 rounded-xl p-1"
+			>
 				<div className="px-2 py-1.5">
 					<p className="text-xs font-medium text-fd-muted-foreground">
 						Signed in as
