@@ -44,14 +44,16 @@
 #nd-sidebar > div:first-of-type {
 	position: absolute;
 	inset: 0 0 auto;
+	height: 9rem;
 	z-index: 2;
 	pointer-events: none;
-	background: linear-gradient(
-		to bottom,
-		color-mix(in srgb, var(--color-fd-popover) 86%, transparent) 0,
-		color-mix(in srgb, var(--color-fd-popover) 60%, transparent) 4.5rem,
-		transparent 8rem
+	background-color: color-mix(
+		in srgb,
+		var(--color-fd-popover) 72%,
+		transparent
 	);
+	backdrop-filter: blur(4px) saturate(125%);
+	-webkit-backdrop-filter: blur(4px) saturate(125%);
 }
 
 #nd-sidebar > div:first-of-type > * {
