@@ -135,6 +135,9 @@ export function getCatalogStaticParams(): { slug: string[] }[] {
 	return params;
 }
 
+// Content source configuration. Change `dir` to move the MDX source, adjust
+// either schema to change frontmatter validation, or disable processed
+// markdown when raw page content is not needed by a route.
 const docs = defineDocs({
 	dir: "content/docs",
 	docs: {
@@ -148,12 +151,16 @@ const docs = defineDocs({
 	},
 });
 
-// See https://fumadocs.dev/docs/headless/source-api for more info
-export const source = loader({
+// Loader configuration. `baseUrl` controls generated links, `source` is the
+// normalized Fumadocs source, and `plugins` extends page-tree generation.
+const sourceOptions = {
 	baseUrl: docsRoute,
 	source: docs.toFumadocsSource(),
 	plugins: [lucideIconsPlugin()],
-});
+};
+
+// See https://fumadocs.dev/docs/headless/source-api for more info
+export const source = loader(sourceOptions);
 
 function findFolderByRoute(
 	node: PageTree.Root | PageTree.Folder,
