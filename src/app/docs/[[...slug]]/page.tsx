@@ -137,6 +137,7 @@ export default async function Page(props: PageProps<"/docs/[[...slug]]">) {
 				<ViewOptionsPopover
 					markdownUrl={markdownUrl}
 					githubUrl={`https://github.com/${gitConfig.user}/${gitConfig.repo}/blob/${gitConfig.branch}/content/docs/${page.path}`}
+					className="glass-header-surface"
 				/>
 			</div>
 			<DocsBody>
