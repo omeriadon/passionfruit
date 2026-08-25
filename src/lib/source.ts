@@ -19,6 +19,7 @@ import {
 import { sortDevices } from "./catalog/config";
 import type { CatalogDevice } from "./catalog/types";
 
+// Catalog data imports are intentionally kept in this server-side source module.
 import airpodsData from "../../public/data/airpods/airpods.json";
 import appleTVData from "../../public/data/apple-tv/apple-tv.json";
 import appleWatchData from "../../public/data/apple-watch/apple-watch.json";
