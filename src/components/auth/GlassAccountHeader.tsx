@@ -2,7 +2,11 @@
 
 import { Drawer } from "@base-ui/react/drawer";
 import { buttonVariants } from "fumadocs-ui/components/ui/button";
+import { useTreePath } from "fumadocs-ui/contexts/tree";
 import { useGlassLayout } from "fumadocs-ui/layouts/glass";
+import { isLayoutTabActive } from "fumadocs-ui/layouts/shared";
+import Link from "fumadocs-core/link";
+import { usePathname } from "fumadocs-core/framework";
 import { ChevronsUpDown, LanguagesIcon, SidebarIcon } from "lucide-react";
 import type { ComponentProps } from "react";
 import { AccountButton } from "./AccountButton";
@@ -12,8 +16,10 @@ export function GlassAccountHeader({
 	className,
 	...props
 }: ComponentProps<"div">) {
-	const { slots } = useGlassLayout();
+	const { props: layoutProps, slots } = useGlassLayout();
 	const sidebar = slots.sidebar.use();
+	const treePath = useTreePath();
+	const pathname = usePathname();
 
 	return (
 		<div
@@ -38,6 +44,37 @@ export function GlassAccountHeader({
 				</button>
 			) : null}
 
+			<nav
+				aria-label="Catalog categories"
+				className="glass-header-surface hidden min-w-0 flex-1 items-center gap-1 overflow-x-auto rounded-full p-1 md:flex"
+			>
+				{layoutProps.tabs.map((tab) => {
+					const isActive = isLayoutTabActive(tab, treePath, pathname);
+
+					return (
+						<Link
+							key={tab.url}
+							{...tab.props}
+							href={tab.url}
+							aria-current={isActive ? "page" : undefined}
+							className={cn(
+								"inline-flex shrink-0 items-center gap-1.5 rounded-full px-3 py-1.5 text-sm font-medium transition-colors",
+								isActive
+									? "bg-fd-primary text-fd-primary-foreground shadow-sm"
+									: "text-fd-muted-foreground hover:bg-fd-accent hover:text-fd-accent-foreground",
+							)}
+						>
+							{tab.icon ? (
+								<span aria-hidden="true" className="size-4 [&_svg]:size-4">
+									{tab.icon}
+								</span>
+							) : null}
+							<span>{tab.title}</span>
+						</Link>
+					);
+				})}
+			</nav>
+
 			{slots.searchTrigger ? (
 				<slots.searchTrigger.sm
 					color="secondary"
@@ -50,7 +87,7 @@ export function GlassAccountHeader({
 			) : null}
 
 			{slots.searchTrigger ? (
-				<div className="@container flex justify-end flex-1 max-md:hidden">
+				<div className="@container hidden justify-end md:flex md:w-52 xl:w-64">
 					<slots.searchTrigger.full
 						className={cn(
 							"glass-header-surface rounded-full",
