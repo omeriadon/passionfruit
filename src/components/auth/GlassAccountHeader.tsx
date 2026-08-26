@@ -2,24 +2,33 @@
 
 import { Drawer } from "@base-ui/react/drawer";
 import { buttonVariants } from "fumadocs-ui/components/ui/button";
-import { useTreePath } from "fumadocs-ui/contexts/tree";
+import {
+	ScrollArea,
+	ScrollBar,
+	ScrollViewport,
+} from "fumadocs-ui/components/ui/scroll-area";
 import { useGlassLayout } from "fumadocs-ui/layouts/glass";
-import { isLayoutTabActive } from "fumadocs-ui/layouts/shared";
 import Link from "fumadocs-core/link";
 import { usePathname } from "fumadocs-core/framework";
-import { ChevronsUpDown, LanguagesIcon, SidebarIcon } from "lucide-react";
+import {
+	ChevronsUpDown,
+	LanguagesIcon,
+	LibraryBig,
+	SidebarIcon,
+	UserRound,
+} from "lucide-react";
 import type { ComponentProps } from "react";
-import { AccountButton } from "./AccountButton";
 import { cn } from "@/lib/cn";
 
 export function GlassAccountHeader({
 	className,
 	...props
 }: ComponentProps<"div">) {
-	const { props: layoutProps, slots } = useGlassLayout();
+	const { slots } = useGlassLayout();
 	const sidebar = slots.sidebar.use();
-	const treePath = useTreePath();
 	const pathname = usePathname();
+	const showingAccount = pathname.startsWith("/docs/account");
+	const devicesHref = showingAccount ? "/docs/ipad" : pathname;
 
 	return (
 		<div
@@ -44,36 +53,42 @@ export function GlassAccountHeader({
 				</button>
 			) : null}
 
-			<nav
-				aria-label="Catalog categories"
-				className="glass-header-surface hidden min-w-0 flex-1 items-center gap-1 overflow-x-auto rounded-full p-1 md:flex"
-			>
-				{layoutProps.tabs.map((tab) => {
-					const isActive = isLayoutTabActive(tab, treePath, pathname);
-
-					return (
+			<ScrollArea className="glass-header-surface relative hidden min-w-0 flex-1 rounded-full p-1 md:block">
+				<ScrollViewport className="fd-scroll-container overflow-x-auto">
+					<nav aria-label="Primary navigation" className="flex w-max gap-1">
 						<Link
-							key={tab.url}
-							{...tab.props}
-							href={tab.url}
-							aria-current={isActive ? "page" : undefined}
+							href={devicesHref}
+							aria-current={showingAccount ? undefined : "page"}
 							className={cn(
-								"inline-flex shrink-0 items-center gap-1.5 rounded-full px-3 py-1.5 text-sm font-medium transition-colors",
-								isActive
+								"inline-flex items-center gap-1.5 rounded-full px-3 py-1.5 text-sm font-medium transition-colors",
+								showingAccount
+									? "text-fd-muted-foreground hover:bg-fd-accent hover:text-fd-accent-foreground"
+									: "bg-fd-primary text-fd-primary-foreground shadow-sm",
+							)}
+						>
+							<LibraryBig aria-hidden="true" className="size-4" />
+							<span>Devices</span>
+						</Link>
+						<Link
+							href="/docs/account/bookmarks"
+							aria-current={showingAccount ? "page" : undefined}
+							className={cn(
+								"inline-flex items-center gap-1.5 rounded-full px-3 py-1.5 text-sm font-medium transition-colors",
+								showingAccount
 									? "bg-fd-primary text-fd-primary-foreground shadow-sm"
 									: "text-fd-muted-foreground hover:bg-fd-accent hover:text-fd-accent-foreground",
 							)}
 						>
-							{tab.icon ? (
-								<span aria-hidden="true" className="size-4 [&_svg]:size-4">
-									{tab.icon}
-								</span>
-							) : null}
-							<span>{tab.title}</span>
+							<UserRound aria-hidden="true" className="size-4" />
+							<span>Account</span>
 						</Link>
-					);
-				})}
-			</nav>
+					</nav>
+				</ScrollViewport>
+				<ScrollBar
+					orientation="horizontal"
+					className="absolute inset-x-3 bottom-0 h-1 flex-col"
+				/>
+			</ScrollArea>
 
 			{slots.searchTrigger ? (
 				<slots.searchTrigger.sm
@@ -96,14 +111,6 @@ export function GlassAccountHeader({
 					/>
 				</div>
 			) : null}
-
-			<AccountButton
-				glass
-				className={cn(
-					"glass-header-surface rounded-full",
-					"shrink-0 px-3 max-md:hidden",
-				)}
-			/>
 
 			{slots.languageSelect ? (
 				<slots.languageSelect.root
