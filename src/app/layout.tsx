@@ -3,12 +3,7 @@ import {
 	type RootProviderProps,
 } from "fumadocs-ui/provider/next";
 import "./global.css";
-import { Inter } from "next/font/google";
 import { AuthProvider } from "@/lib/auth/AuthProvider";
-
-const inter = Inter({
-	subsets: ["latin"],
-});
 
 const rootProviderOptions: Omit<RootProviderProps, "children"> = {
 	// Base UI direction for menus, dialogs, popovers, and other primitives.
@@ -37,7 +32,7 @@ const rootProviderOptions: Omit<RootProviderProps, "children"> = {
 
 export default function Layout({ children }: LayoutProps<"/">) {
 	return (
-		<html lang="en" className={inter.className} suppressHydrationWarning>
+		<html lang="en" suppressHydrationWarning>
 			<body className="flex flex-col min-h-screen">
 				<AuthProvider>
 					<RootProvider {...rootProviderOptions}>{children}</RootProvider>

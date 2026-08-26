@@ -284,27 +284,21 @@
 }
 
 .detail {
-	border: 1px solid var(--catalog-border);
-	border-radius: 1.4rem;
-	overflow: hidden;
+	margin-block: 2.5rem;
 }
 
 .detailHero {
 	align-items: stretch;
-	background: color-mix(
-		in srgb,
-		var(--catalog-accent, #b46a46) 8%,
-		transparent
-	);
-	min-height: 25rem;
+	background: transparent;
+	gap: 3rem;
 }
 
 .detailCopy {
 	display: flex;
 	flex: 1;
 	flex-direction: column;
-	justify-content: center;
-	padding: clamp(1.5rem, 6vw, 4rem);
+	justify-content: flex-start;
+	padding: 0;
 }
 
 .detailMeta {
@@ -377,36 +371,33 @@
 	display: flex;
 	flex: 1;
 	justify-content: center;
-	min-width: 40%;
-	padding: 2rem;
+	min-width: 0;
+	padding: 0;
 }
 
 .productVisual img {
 	height: auto;
 	max-height: 24rem;
 	max-width: 100%;
-	mix-blend-mode: multiply;
 	object-fit: contain;
 	width: auto;
 }
 
 .imagePlaceholder {
 	align-items: center;
-	border: 1px dashed var(--catalog-border);
 	color: var(--catalog-muted);
 	display: flex;
 	font-size: 0.8rem;
 	justify-content: center;
-	min-height: 13rem;
-	padding: 1rem;
+	min-height: 8rem;
+	padding: 0;
 	text-align: center;
-	width: 80%;
+	width: 100%;
 }
 
 .colorPicker {
 	align-items: center;
-	border-top: 1px solid var(--catalog-border);
-	padding: 1rem clamp(1.5rem, 6vw, 4rem);
+	padding: 2rem 0;
 }
 
 .selectedColor {
@@ -439,13 +430,12 @@
 
 .detailSections {
 	display: grid;
-	gap: 1px;
+	gap: 2rem;
 	grid-template-columns: repeat(auto-fit, minmax(min(100%, 20rem), 1fr));
 }
 
 .detailSection {
-	border-top: 1px solid var(--catalog-border);
-	padding: 1.5rem clamp(1.25rem, 4vw, 2.5rem);
+	padding: 0 0 2rem;
 }
 
 .detailSection h3 {

@@ -3,9 +3,24 @@
 @import "fumadocs-ui/css/preset.css";
 @import "fumadocs-ui/css/generated/glass.css";
 
+@font-face {
+	font-family: "SF Pro";
+	src: url("/fonts/SF-Pro.ttf") format("truetype");
+	font-display: swap;
+}
+
 :root {
 	--fd-primary: oklch(0.57 0.16 255);
 	--fd-primary-foreground: oklch(0.98 0.01 255);
+}
+
+html,
+body,
+button,
+input,
+textarea,
+select {
+	font-family: "SF Pro", system-ui, sans-serif;
 }
 
 .dark {
