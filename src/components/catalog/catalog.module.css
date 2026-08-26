@@ -414,6 +414,9 @@
 
 .swatchButton {
 	background: var(--swatch, #d3d3d3);
+	background-image: var(--swatch-image, none);
+	background-position: center;
+	background-size: cover;
 	border: 2px solid color-mix(in srgb, currentColor 22%, transparent);
 	border-radius: 999px;
 	cursor: pointer;
