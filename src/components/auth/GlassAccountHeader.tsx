@@ -2,11 +2,6 @@
 
 import { Drawer } from "@base-ui/react/drawer";
 import { buttonVariants } from "fumadocs-ui/components/ui/button";
-import {
-	ScrollArea,
-	ScrollBar,
-	ScrollViewport,
-} from "fumadocs-ui/components/ui/scroll-area";
 import { useGlassLayout } from "fumadocs-ui/layouts/glass";
 import Link from "fumadocs-core/link";
 import { usePathname } from "fumadocs-core/framework";
@@ -53,42 +48,37 @@ export function GlassAccountHeader({
 				</button>
 			) : null}
 
-			<ScrollArea className="glass-header-surface relative hidden min-w-0 flex-1 rounded-full p-1 md:block">
-				<ScrollViewport className="fd-scroll-container overflow-x-auto">
-					<nav aria-label="Primary navigation" className="flex w-max gap-1">
-						<Link
-							href={devicesHref}
-							aria-current={showingAccount ? undefined : "page"}
-							className={cn(
-								"inline-flex items-center gap-1.5 rounded-full px-3 py-1.5 text-sm font-medium transition-colors",
-								showingAccount
-									? "text-fd-muted-foreground hover:bg-fd-accent hover:text-fd-accent-foreground"
-									: "bg-fd-primary text-fd-primary-foreground shadow-sm",
-							)}
-						>
-							<LibraryBig aria-hidden="true" className="size-4" />
-							<span>Devices</span>
-						</Link>
-						<Link
-							href="/docs/account/bookmarks"
-							aria-current={showingAccount ? "page" : undefined}
-							className={cn(
-								"inline-flex items-center gap-1.5 rounded-full px-3 py-1.5 text-sm font-medium transition-colors",
-								showingAccount
-									? "bg-fd-primary text-fd-primary-foreground shadow-sm"
-									: "text-fd-muted-foreground hover:bg-fd-accent hover:text-fd-accent-foreground",
-							)}
-						>
-							<UserRound aria-hidden="true" className="size-4" />
-							<span>Account</span>
-						</Link>
-					</nav>
-				</ScrollViewport>
-				<ScrollBar
-					orientation="horizontal"
-					className="absolute inset-x-3 bottom-0 h-1 flex-col"
-				/>
-			</ScrollArea>
+			<nav
+				aria-label="Primary navigation"
+				className="glass-header-surface hidden shrink-0 items-center gap-1 rounded-full p-1 md:flex"
+			>
+				<Link
+					href={devicesHref}
+					aria-current={showingAccount ? undefined : "page"}
+					className={cn(
+						"inline-flex items-center gap-1.5 rounded-full px-3 py-1.5 text-sm font-medium transition-colors",
+						showingAccount
+							? "text-fd-muted-foreground hover:bg-fd-accent hover:text-fd-accent-foreground"
+							: "bg-fd-primary text-fd-primary-foreground shadow-sm",
+					)}
+				>
+					<LibraryBig aria-hidden="true" className="size-4" />
+					<span>Devices</span>
+				</Link>
+				<Link
+					href="/docs/account/bookmarks"
+					aria-current={showingAccount ? "page" : undefined}
+					className={cn(
+						"inline-flex items-center gap-1.5 rounded-full px-3 py-1.5 text-sm font-medium transition-colors",
+						showingAccount
+							? "bg-fd-primary text-fd-primary-foreground shadow-sm"
+							: "text-fd-muted-foreground hover:bg-fd-accent hover:text-fd-accent-foreground",
+					)}
+				>
+					<UserRound aria-hidden="true" className="size-4" />
+					<span>Account</span>
+				</Link>
+			</nav>
 
 			{slots.searchTrigger ? (
 				<slots.searchTrigger.sm
