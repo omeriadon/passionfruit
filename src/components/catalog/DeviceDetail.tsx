@@ -8,6 +8,7 @@ import {
 	formatCatalogValue,
 	getColors,
 	getImageSource,
+	getSwatchHex,
 	humanizeKey,
 	imageForColor,
 	type CatalogCategory,
@@ -223,10 +224,7 @@ export function DeviceDetail({
 						aria-label="Choose a finish"
 					>
 						{colors.map((color) => {
-							const swatch =
-								typeof color.swatch === "string"
-									? color.swatch
-									: color.swatch?.value;
+							const swatch = getSwatchHex(color);
 							const swatchImage = getImageSource(imageForColor(color));
 							return (
 								<button
