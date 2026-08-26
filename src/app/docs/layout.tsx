@@ -31,6 +31,14 @@ const catalogTabs = getLayoutTabs(catalogTree)
 			};
 		}
 
+		if (option.url.startsWith("/docs/account")) {
+			return {
+				...option,
+				title: "Account",
+				description: "Bookmarks and settings",
+			};
+		}
+
 		return null;
 	})
 	.filter((option): option is LayoutTab => option !== null);
