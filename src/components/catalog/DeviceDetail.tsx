@@ -117,12 +117,9 @@ function detailSections(device: CatalogDevice) {
 	);
 }
 
-export function DeviceDetail({
-	category,
-	device,
-	note,
-}: DeviceDetailProps) {
-	const { actionError, isBookmarked, isLoading, toggleBookmark, user } = useAuth();
+export function DeviceDetail({ category, device, note }: DeviceDetailProps) {
+	const { actionError, isBookmarked, isLoading, toggleBookmark, user } =
+		useAuth();
 	const [selectedColorId, setSelectedColorId] = useState<string | undefined>(
 		() => getColors(device)[0]?.id,
 	);
@@ -162,8 +159,12 @@ export function DeviceDetail({
 					</p>
 					{note ? (
 						<div className={styles.editorialNote}>
-							<span className={`${styles.noteBadge} ${styles[`noteBadge_${note.goodToBuy}`]}`}>
-								{note.goodToBuy === "unknown" ? "Buy status not set" : `Good to buy: ${note.goodToBuy}`}
+							<span
+								className={`${styles.noteBadge} ${styles[`noteBadge_${note.goodToBuy}`]}`}
+							>
+								{note.goodToBuy === "unknown"
+									? "Buy status not set"
+									: `Good to buy: ${note.goodToBuy}`}
 							</span>
 							<p>{note.editorial}</p>
 						</div>
@@ -185,9 +186,19 @@ export function DeviceDetail({
 						) : (
 							<Bookmark aria-hidden="true" size={16} />
 						)}
-						{bookmarkPending ? "Saving…" : bookmarked ? "Bookmarked" : user ? "Bookmark" : "Sign in to bookmark"}
+						{bookmarkPending
+							? "Saving…"
+							: bookmarked
+								? "Bookmarked"
+								: user
+									? "Bookmark"
+									: "Sign in to bookmark"}
 					</button>
-					{actionError ? <p role="alert" className={styles.bookmarkError}>{actionError}</p> : null}
+					{actionError ? (
+						<p role="alert" className={styles.bookmarkError}>
+							{actionError}
+						</p>
+					) : null}
 				</div>
 				<div className={styles.productVisual}>
 					{imageSource ? (

@@ -34,7 +34,7 @@ const docsPageOptions: Omit<DocsPageProps, "children" | "toc"> = {
 	tableOfContent: {
 		container: {},
 		header: null,
-		footer: <div>test</div>,
+		footer: null,
 	},
 };
 
@@ -112,10 +112,6 @@ export default async function Page(props: PageProps<"/docs/[[...slug]]">) {
 	if (!page) {
 		return (
 			<DocsPage {...docsPageOptions}>
-				<DocsTitle>Apple Catalog</DocsTitle>
-				<DocsDescription>
-					Explore the structured data for this Apple device category.
-				</DocsDescription>
 				<DocsBody>
 					<CatalogRouteBoundary slugs={params.slug ?? []} />
 				</DocsBody>
