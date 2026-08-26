@@ -93,6 +93,10 @@ select {
 	);
 }
 
+#nd-sidebar > div:last-of-type > div:first-of-type {
+	padding-top: 6.5rem;
+}
+
 #nd-sidebar > div:first-of-type::after {
 	z-index: 1;
 	background: color-mix(in srgb, var(--color-fd-popover) 12%, transparent);
@@ -111,6 +115,22 @@ select {
 	position: absolute;
 	inset: 2.5rem 0.5rem auto;
 	z-index: 2;
+	background-color: color-mix(
+		in srgb,
+		var(--color-fd-popover) 32%,
+		transparent
+	) !important;
+	-webkit-backdrop-filter: blur(4px);
+	backdrop-filter: blur(4px);
+	border-color: color-mix(in srgb, currentColor 16%, transparent) !important;
+}
+
+#nd-sidebar > button[data-popup-open="true"] {
+	background-color: color-mix(
+		in srgb,
+		var(--color-fd-popover) 44%,
+		transparent
+	) !important;
 }
 
 #nd-sidebar > div:last-of-type {

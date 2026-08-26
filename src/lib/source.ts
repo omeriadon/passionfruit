@@ -30,7 +30,6 @@ import macData from "../../public/data/mac/mac.json";
 import visionData from "../../public/data/vision/vision.json";
 import applePencilData from "../../public/data/other/apple-pencil/apple-pencil.json";
 import magicKeyboardData from "../../public/data/other/magic-keyboard/magic-keyboard.json";
-import airtagData from "../../public/data/other/airtag/airtag.json";
 import appleDisplayData from "../../public/data/other/apple-display/apple-display.json";
 
 export type CatalogDataset =
@@ -45,7 +44,7 @@ export type CatalogDataset =
 	| typeof applePencilData
 	| typeof magicKeyboardData;
 
-type OtherCatalogDataset = typeof airtagData | typeof appleDisplayData;
+type OtherCatalogDataset = typeof appleDisplayData;
 
 const catalogDatasets: Record<CatalogCategory, CatalogDataset> = {
 	airpods: airpodsData,
@@ -64,7 +63,6 @@ const accessoryDatasets: Record<IpadAccessorySection, CatalogDataset> = {
 };
 
 const otherDatasets: Record<OtherCatalogSection, OtherCatalogDataset> = {
-	airtag: airtagData,
 	"apple-display": appleDisplayData,
 };
 

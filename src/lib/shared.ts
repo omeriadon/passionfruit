@@ -43,7 +43,6 @@ export type IpadAccessorySection =
 	(typeof ipadAccessorySections)[number]["slug"];
 
 export const otherCatalogSections = [
-	{ slug: "airtag", title: "AirTag", description: "Find My trackers" },
 	{
 		slug: "apple-display",
 		title: "Apple displays",
