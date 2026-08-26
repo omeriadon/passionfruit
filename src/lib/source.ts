@@ -248,6 +248,15 @@ export function getCatalogPageTree(): PageTree.Root {
 
 	const tree = source.getPageTree();
 	const transformed = withChildren(tree, childrenByUrl);
+
+	for (const category of catalogCategories) {
+		const url = `${docsRoute}/${category.slug}`;
+		const folder = findFolderByRoute(transformed, url);
+		if (folder && !folder.index) {
+			folder.index = catalogPageItem(category.slug, category.title, url);
+		}
+	}
+
 	transformed.children = [
 		...transformed.children,
 		...otherCatalogSections.map((section) => ({
