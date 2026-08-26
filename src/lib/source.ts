@@ -248,10 +248,37 @@ export function getCatalogPageTree(): PageTree.Root {
 
 	const tree = source.getPageTree();
 	const transformed = withChildren(tree, childrenByUrl);
+	transformed.children = [
+		...transformed.children,
+		...otherCatalogSections.map((section) => ({
+			$id: `catalog:other:${section.slug}`,
+			type: "folder" as const,
+			name: section.title,
+			root: true,
+			defaultOpen: true,
+			index: catalogPageItem(
+				section.slug,
+				section.title,
+				`${docsRoute}/other/${section.slug}`,
+			),
+			children: otherDatasets[section.slug].products.map((product) =>
+				catalogPageItem(
+					product.id,
+					product.displayName,
+					`${docsRoute}/other/${section.slug}/${product.id}`,
+				),
+			),
+		})),
+	];
 
 	for (const category of catalogCategories) {
 		if (!findFolderByRoute(transformed, `${docsRoute}/${category.slug}`)) {
 			throw new Error(`Missing page-tree folder for ${category.slug}`);
+		}
+	}
+	for (const section of otherCatalogSections) {
+		if (!findFolderByRoute(transformed, `${docsRoute}/other/${section.slug}`)) {
+			throw new Error(`Missing page-tree folder for ${section.slug}`);
 		}
 	}
 

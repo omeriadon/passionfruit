@@ -227,14 +227,22 @@ export function DeviceDetail({
 								typeof color.swatch === "string"
 									? color.swatch
 									: color.swatch?.value;
+							const swatchImage = getImageSource(imageForColor(color));
 							return (
 								<button
 									key={color.id ?? color.displayName}
 									type="button"
 									className={`${styles.swatchButton} ${selectedColor?.id === color.id ? styles.selectedSwatch : ""}`}
 									style={
-										swatch
-											? ({ "--swatch": swatch } as CSSProperties)
+										swatch || swatchImage
+											? ({
+													...(swatch ? { "--swatch": swatch } : {}),
+													...(swatchImage
+														? {
+																"--swatch-image": `url("${swatchImage}")`,
+															}
+														: {}),
+												} as CSSProperties)
 											: undefined
 									}
 									role="radio"
