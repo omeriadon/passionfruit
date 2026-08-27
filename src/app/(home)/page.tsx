@@ -325,7 +325,7 @@ export default function HomePage() {
           <div className="flex flex-col justify-center px-8 py-10 md:w-1/2 md:px-14">
             <h2 className="font-panchang text-3xl font-bold leading-tight text-white">Just tell me<br />which one</h2>
             <p className="mt-4 max-w-sm font-general-sans text-sm leading-relaxed text-zinc-400">Tell us what you need it for, your budget, and any other deal breakers. We'll point you in the right direction.</p>
-            <Link href="/docs/guide" className="mt-4 inline-flex w-fit items-center gap-1 font-general-sans text-sm font-medium text-blue-400 hover:text-blue-300">Have a chat with our model <span aria-hidden>→</span></Link>
+            <Link href="/clarus" className="mt-4 inline-flex w-fit items-center gap-1 font-general-sans text-sm font-medium text-blue-400 hover:text-blue-300">Have a chat with our model <span aria-hidden>→</span></Link>
           </div>
 
           <div className="relative hidden items-center justify-center p-6 md:flex md:w-1/2" style={{ background: "linear-gradient(135deg, #E8E1FF 0%, #C9B8FF 100%)" }}>
