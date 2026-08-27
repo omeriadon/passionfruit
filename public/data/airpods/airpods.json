@@ -4,9 +4,7 @@
 			"id": "airpods-pro-3",
 			"name": "AirPods Pro 3",
 			"formFactor": "in-ear",
-			"cases": [
-				"MagSafe Charging Case (USB-C)"
-			],
+			"cases": ["MagSafe Charging Case (USB-C)"],
 			"physical": {
 				"earpieceWeight": {
 					"value": 5.55,
@@ -239,9 +237,7 @@
 					"sourceNotes": "Bluetooth® 5.3"
 				}
 			],
-			"inTheBox": [
-				"AirPods Pro 3"
-			],
+			"inTheBox": ["AirPods Pro 3"],
 			"priceAud": 429,
 			"port": "USB-C",
 			"ipRating": "Dust, sweat and water resistant (IP57)",
@@ -251,9 +247,7 @@
 			"id": "airpods-4-active-noise-cancellation",
 			"name": "AirPods 4 with Active Noise Cancellation",
 			"formFactor": "in-ear",
-			"cases": [
-				"MagSafe Charging Case (USB-C)"
-			],
+			"cases": ["MagSafe Charging Case (USB-C)"],
 			"physical": {
 				"earpieceWeight": {
 					"value": 4.3,
@@ -459,9 +453,7 @@
 					"sourceNotes": "Bluetooth® 5.3"
 				}
 			],
-			"inTheBox": [
-				"AirPods 4 with Active Noise Cancellation"
-			],
+			"inTheBox": ["AirPods 4 with Active Noise Cancellation"],
 			"priceAud": 299,
 			"port": "USB-C",
 			"ipRating": "Dust, sweat and water resistant (IP54)",
@@ -471,9 +463,7 @@
 			"id": "airpods-max-2",
 			"name": "AirPods Max 2",
 			"formFactor": "over-ear",
-			"cases": [
-				"Smart Case"
-			],
+			"cases": ["Smart Case"],
 			"physical": {
 				"earpieceWeight": {
 					"value": 386.2,
@@ -722,9 +712,7 @@
 					"sourceNotes": "Bluetooth® 5.3"
 				}
 			],
-			"inTheBox": [
-				"AirPods Max 2"
-			],
+			"inTheBox": ["AirPods Max 2"],
 			"priceAud": 999,
 			"port": "USB-C",
 			"ipRating": "Sweat and water resistant",
@@ -734,9 +722,7 @@
 			"id": "airpods-pro-2",
 			"name": "AirPods Pro 2",
 			"formFactor": "in-ear",
-			"cases": [
-				"MagSafe Charging Case (USB-C)"
-			],
+			"cases": ["MagSafe Charging Case (USB-C)"],
 			"physical": {
 				"earpieceWeight": {
 					"value": 5.3,
@@ -963,9 +949,7 @@
 			"id": "airpods-4",
 			"name": "AirPods 4",
 			"formFactor": "in-ear",
-			"cases": [
-				"Charging Case (USB-C)"
-			],
+			"cases": ["Charging Case (USB-C)"],
 			"physical": {
 				"earpieceWeight": {
 					"value": 4.3,
@@ -1153,9 +1137,7 @@
 			"id": "airpods-max",
 			"name": "AirPods Max",
 			"formFactor": "over-ear",
-			"cases": [
-				"Smart Case"
-			],
+			"cases": ["Smart Case"],
 			"physical": {
 				"earpieceWeight": {
 					"value": 386.2,
@@ -1378,9 +1360,7 @@
 			"id": "airpods-2nd-generation",
 			"name": "AirPods (2nd generation)",
 			"formFactor": "in-ear",
-			"cases": [
-				"Lightning Charging Case"
-			],
+			"cases": ["Lightning Charging Case"],
 			"physical": {
 				"earpieceWeight": {
 					"value": 4,
@@ -1479,9 +1459,7 @@
 			"id": "airpods-3rd-generation-lightning",
 			"name": "AirPods (3rd generation) with Lightning Charging Case",
 			"formFactor": "in-ear",
-			"cases": [
-				"Lightning Charging Case"
-			],
+			"cases": ["Lightning Charging Case"],
 			"physical": {
 				"earpieceWeight": {
 					"value": 4.28,
@@ -1625,9 +1603,7 @@
 			"id": "airpods-3rd-generation-magsafe",
 			"name": "AirPods (3rd generation) with MagSafe Charging Case",
 			"formFactor": "in-ear",
-			"cases": [
-				"MagSafe Charging Case"
-			],
+			"cases": ["MagSafe Charging Case"],
 			"physical": {
 				"earpieceWeight": {
 					"value": 4.28,
