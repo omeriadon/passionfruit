@@ -3,26 +3,127 @@ import {
 	DocsBody,
 	DocsDescription,
 	DocsPage,
+	type DocsPageProps,
 	DocsTitle,
 	MarkdownCopyButton,
 	ViewOptionsPopover,
-} from "fumadocs-ui/layouts/docs/page";
+} from "fumadocs-ui/layouts/glass/page";
 import { notFound } from "next/navigation";
 import { getMDXComponents } from "@/components/mdx";
 import type { Metadata } from "next";
 import { createRelativeLink } from "fumadocs-ui/mdx";
-import { gitConfig } from "@/lib/shared";
+import { gitConfig, getCatalogRoute } from "@/lib/shared";
+import {
+	getCatalogRecordCount,
+	getCatalogStaticParams,
+	getCatalogData,
+	getOtherCatalogData,
+} from "@/lib/source";
+import { getDeviceNote } from "@/lib/device-notes";
+import { CatalogCategory } from "@/components/catalog/CatalogCategory";
+import { AccessoryCatalog } from "@/components/catalog/AccessoryCatalog";
+import type { CatalogDevice } from "@/lib/catalog/types";
+import { OtherCatalog } from "@/components/catalog/OtherCatalog";
+
+const docsPageOptions: Omit<DocsPageProps, "children" | "toc"> = {
+	// Set true to make the article fill all available page space.
+	full: false,
+
+	// Glass DocsPage TOC configuration. Use `header` and `footer` for custom
+	// content, or `container` to style the TOC wrapper.
+	tableOfContent: {
+		container: {},
+		header: null,
+		footer: null,
+	},
+};
+
+function CatalogRouteBoundary({ slugs }: { slugs: string[] }) {
+	const route = getCatalogRoute(slugs);
+	if (!route) return null;
+	if (route.kind === "other" || route.kind === "other-device") {
+		const otherData = getOtherCatalogData(route.section);
+		const detail =
+			route.kind === "other-device"
+				? otherData.products.find((product) => product.id === route.deviceSlug)
+				: undefined;
+		if (route.kind === "other-device" && !detail) notFound();
+		return (
+			<OtherCatalog
+				section={route.section}
+				products={otherData.products}
+				detailId={detail?.id}
+			/>
+		);
+	}
+	const data = getCatalogData(route);
+
+	if (route.kind === "category" || route.kind === "device") {
+		if (!("devices" in data)) return null;
+		const detailDevice =
+			route.kind === "device"
+				? (data.devices.find((device) => device.id === route.deviceSlug) as
+						CatalogDevice | undefined)
+				: undefined;
+		if (route.kind === "device" && !detailDevice) notFound();
+
+		return (
+			<CatalogCategory
+				category={route.category}
+				devices={data.devices as CatalogDevice[]}
+				detailDevice={detailDevice}
+				detailNote={
+					detailDevice
+						? getDeviceNote(route.category, detailDevice.id)
+						: undefined
+				}
+			/>
+		);
+	}
+
+	if (route.kind === "accessory" || route.kind === "accessory-device") {
+		if (!("accessories" in data)) return null;
+		const detailId =
+			route.kind === "accessory-device" ? route.deviceSlug : undefined;
+		if (
+			route.kind === "accessory-device" &&
+			!data.accessories.some((item) => item.id === detailId)
+		) {
+			notFound();
+		}
+		return (
+			<AccessoryCatalog
+				accessory={route.accessory}
+				accessories={data.accessories}
+				detailId={detailId}
+			/>
+		);
+	}
+
+	return null;
+}
 
 export default async function Page(props: PageProps<"/docs/[[...slug]]">) {
 	const params = await props.params;
 	const page = source.getPage(params.slug);
-	if (!page) notFound();
+	const catalogRoute = getCatalogRoute(params.slug);
+	if (!page && !catalogRoute) notFound();
+
+	if (!page) {
+		return (
+			<DocsPage {...docsPageOptions}>
+				<DocsBody>
+					<CatalogRouteBoundary slugs={params.slug ?? []} />
+				</DocsBody>
+			</DocsPage>
+		);
+	}
 
 	const MDX = page.data.body;
 	const markdownUrl = getPageMarkdownUrl(page).url;
 
 	return (
-		<DocsPage toc={page.data.toc} full={page.data.full}>
+		<DocsPage {...docsPageOptions} toc={page.data.toc} full={page.data.full}>
 			<DocsTitle>{page.data.title}</DocsTitle>
 			<DocsDescription className="mb-0">
 				{page.data.description}
@@ -32,9 +133,11 @@ export default async function Page(props: PageProps<"/docs/[[...slug]]">) {
 				<ViewOptionsPopover
 					markdownUrl={markdownUrl}
 					githubUrl={`https://github.com/${gitConfig.user}/${gitConfig.repo}/blob/${gitConfig.branch}/content/docs/${page.path}`}
+					className="glass-header-surface"
 				/>
 			</div>
 			<DocsBody>
+				<CatalogRouteBoundary slugs={params.slug ?? []} />
 				<MDX
 					components={getMDXComponents({
 						// this allows you to link to other pages with relative file paths
@@ -47,7 +150,7 @@ export default async function Page(props: PageProps<"/docs/[[...slug]]">) {
 }
 
 export async function generateStaticParams() {
-	return source.generateParams();
+	return [...source.generateParams(), ...getCatalogStaticParams()];
 }
 
 export async function generateMetadata(
@@ -55,7 +158,15 @@ export async function generateMetadata(
 ): Promise<Metadata> {
 	const params = await props.params;
 	const page = source.getPage(params.slug);
-	if (!page) notFound();
+	if (!page) {
+		const route = getCatalogRoute(params.slug);
+		if (!route) notFound();
+
+		return {
+			title: "Apple Catalog",
+			description: "Structured Apple device data.",
+		};
+	}
 
 	return {
 		title: page.data.title,
