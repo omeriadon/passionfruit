@@ -4,8 +4,7 @@ import { appName, gitConfig } from "./shared";
 export function baseOptions(): BaseLayoutProps {
 	return {
 		nav: {
-			// JSX supported
-			title: appName,
+			title: <span className="font-panchang font-bold">{appName}</span>,
 		},
 		githubUrl: `https://github.com/${gitConfig.user}/${gitConfig.repo}`,
 	};
