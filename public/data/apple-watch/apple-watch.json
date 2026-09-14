@@ -1,6 +1,230 @@
 {
 	"devices": [
 		{
+			"id": "apple-watch-ultra-4",
+			"name": "Apple Watch Ultra 4",
+			"releaseYear": 2026,
+			"colors": [],
+			"configurations": [],
+			"chips": [
+				{
+					"id": "s11",
+					"displayName": "S11 chip",
+					"family": "Apple S-series",
+					"cpuCores": 2
+				}
+			],
+			"displays": [
+				{
+					"id": "ultra-4-49mm",
+					"technology": "Always-On Retina display with wide-angle OLEDs and LTPO3, sapphire crystal",
+					"panelKind": "OLED",
+					"resolutionWidthPx": 422,
+					"resolutionHeightPx": 514,
+					"sdrPeakBrightnessNits": 3000,
+					"alwaysOn": true
+				}
+			],
+			"audio": {
+				"speaker": true,
+				"microphone": true,
+				"siren": true
+			},
+			"batteryAndPower": {
+				"hasBattery": true,
+				"runtimeHours": [
+					{
+						"id": "normal-use",
+						"activity": "normal use",
+						"hours": 50
+					},
+					{
+						"id": "low-power-mode",
+						"activity": "Low Power Mode",
+						"hours": 84
+					},
+					{
+						"id": "max-extended-workout",
+						"activity": "Max Extended Workout tracking",
+						"hours": 45
+					}
+				],
+				"charging": {
+					"wirelessCharging": true,
+					"wiredFastCharge": true
+				},
+				"powerSupply": {}
+			},
+			"connectivity": {
+				"ports": [],
+				"bluetooth": {
+					"version": "Bluetooth 5.3"
+				},
+				"gps": {
+					"present": true,
+					"precisionDualFrequency": true,
+					"systems": [
+						"GPS",
+						"Galileo",
+						"QZSS",
+						"BeiDou"
+					]
+				}
+			},
+			"authentication": {
+				"methods": [
+					"passcode"
+				],
+				"primaryMethod": "passcode"
+			},
+			"physical": {
+				"weights": [],
+				"dimensions": [],
+				"components": []
+			},
+			"resistance": {
+				"ipRating": "IP6X",
+				"waterDepthM": 100,
+				"dustProtected": true
+			},
+			"software": {
+				"operatingSystem": "watchOS",
+				"operatingSystemVersionAtLaunch": "27",
+				"compatibleOperatingSystems": [
+					"iOS 27"
+				],
+				"builtInApps": [
+					"Readiness",
+					"Vitals",
+					"Heart Rate",
+					"ECG"
+				]
+			},
+			"watchDetails": {
+				"caseSizes": [
+					"49mm"
+				],
+				"alwaysOn": true,
+				"wideAngleDisplay": true,
+				"hasSpeaker": true,
+				"hasSiren": true,
+				"swimproofClassification": "WR100",
+				"gestures": true,
+				"healthSensingSystem": true
+			},
+			"overviewImages": [],
+			"sourceNotes": "Evidence: data/tmp/watch/watch-ultra-4.html, watch-compare-2026.html, newsroom. $799 US; priceAud omitted."
+		},
+		{
+			"id": "apple-watch-series-12",
+			"name": "Apple Watch Series 12",
+			"releaseYear": 2026,
+			"colors": [],
+			"configurations": [],
+			"chips": [
+				{
+					"id": "s11",
+					"displayName": "S11 chip",
+					"family": "Apple S-series",
+					"cpuCores": 2,
+					"sourceNotes": "S11 chip with 64-bit dual-core processor; powers Health Sensing System."
+				}
+			],
+			"displays": [
+				{
+					"id": "series-12-46mm",
+					"technology": "Wide-angle Always-On Retina display",
+					"panelKind": "OLED",
+					"resolutionWidthPx": 416,
+					"resolutionHeightPx": 496,
+					"sdrPeakBrightnessNits": 2000,
+					"alwaysOn": true,
+					"sourceNotes": "46mm 416x496 per compare; 2000 nits peak per overview."
+				},
+				{
+					"id": "series-12-42mm",
+					"technology": "Wide-angle Always-On Retina display",
+					"panelKind": "OLED",
+					"resolutionWidthPx": 374,
+					"resolutionHeightPx": 446,
+					"sdrPeakBrightnessNits": 2000,
+					"alwaysOn": true
+				}
+			],
+			"audio": {
+				"speaker": true,
+				"microphone": true,
+				"siren": false
+			},
+			"batteryAndPower": {
+				"hasBattery": true,
+				"runtimeHours": [
+					{
+						"id": "normal-use",
+						"activity": "normal use",
+						"hours": 24
+					},
+					{
+						"id": "low-power-mode",
+						"activity": "Low Power Mode",
+						"hours": 38
+					}
+				],
+				"charging": {
+					"wirelessCharging": true,
+					"wiredFastCharge": true
+				},
+				"powerSupply": {}
+			},
+			"connectivity": {
+				"ports": [],
+				"bluetooth": {
+					"version": "Bluetooth 5.3"
+				}
+			},
+			"authentication": {
+				"methods": [
+					"passcode"
+				],
+				"primaryMethod": "passcode"
+			},
+			"physical": {
+				"weights": [],
+				"dimensions": [],
+				"components": []
+			},
+			"resistance": {
+				"ipRating": "IP6X",
+				"waterDepthM": 50,
+				"dustProtected": true
+			},
+			"software": {
+				"operatingSystem": "watchOS",
+				"operatingSystemVersionAtLaunch": "27",
+				"compatibleOperatingSystems": [],
+				"builtInApps": [
+					"Readiness",
+					"Vitals",
+					"Heart Rate"
+				]
+			},
+			"watchDetails": {
+				"caseSizes": [
+					"42mm",
+					"46mm"
+				],
+				"alwaysOn": true,
+				"wideAngleDisplay": true,
+				"hasSpeaker": true,
+				"hasSiren": false,
+				"swimproofClassification": "WR 50M",
+				"gestures": true,
+				"healthSensingSystem": true
+			},
+			"overviewImages": [],
+			"sourceNotes": "Evidence: data/tmp/watch/watch-series-12.html, watch-compare-2026.html, newsroom. gestures=true (single+double tap); healthSensingSystem=true. $399 US; priceAud omitted."
+		},
+		{
 			"id": "apple-watch-series-11",
 			"name": "Apple Watch Series 11",
 			"releaseYear": 2025,
