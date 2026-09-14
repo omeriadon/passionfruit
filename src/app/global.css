@@ -2,6 +2,11 @@
 @import "fumadocs-ui/css/neutral.css";
 @import "fumadocs-ui/css/preset.css";
 
+@theme {
+	--font-panchang: var(--font-panchang);
+	--font-general-sans: var(--font-general-sans);
+}
+
 html {
 	scrollbar-gutter: stable;
 }
