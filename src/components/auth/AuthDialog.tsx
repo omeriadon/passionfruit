@@ -66,7 +66,6 @@ export function AuthDialog() {
 				>
 					<X aria-hidden="true" size={18} />
 				</button>
-				<p className={styles.eyebrow}>Apple Catalog</p>
 				<h2 id="auth-dialog-title">
 					{mode === "login" ? "Sign in" : "Create account"}
 				</h2>
@@ -77,7 +76,7 @@ export function AuthDialog() {
 				</p>
 				<form onSubmit={submit}>
 					<label>
-						Username
+						<p>Username</p>
 						<input
 							ref={usernameRef}
 							value={username}
@@ -89,7 +88,7 @@ export function AuthDialog() {
 						/>
 					</label>
 					<label>
-						Password
+						<p>Password</p>
 						<input
 							type="password"
 							value={password}
