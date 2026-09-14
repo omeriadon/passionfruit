@@ -31,7 +31,15 @@
 					}
 				]
 			},
-			"images": [],
+			"images": [
+				{
+					"label": "front",
+					"appleUrl": "https://www.apple.com/v/airpods-5/a/images/overview/bento-gallery/bento_pair__c7i9mu5k2zee_large_2x.jpg",
+					"localPath": "public/data/airpods/images/airpods-5-white.jpg",
+					"widthPx": 2520,
+					"heightPx": 1360
+				}
+			],
 			"audioTechnologies": [
 				{
 					"id": "active-noise-cancellation",
@@ -159,7 +167,8 @@
 				"Charging Case (USB-C) / Wireless Charging Case (USB-C) by SKU",
 				"Documentation"
 			],
-			"sourceNotes": "Evidence: data/tmp/airpods/airpods-5.html, airpods-compare-2026.html, newsroom. $129/$149 US; priceAud omitted. Weights 4.3g bud, 32.3/34.7g cases per compare."
+			"sourceNotes": "Evidence: data/tmp/airpods/airpods-5.html, airpods-compare-2026.html, newsroom. $129/$149 US; priceAud omitted. Weights 4.3g bud, 32.3/34.7g cases per compare.",
+			"priceAud": 219
 		},
 		{
 			"id": "airpods-pro-3",
@@ -888,8 +897,7 @@
 			],
 			"priceAud": 999,
 			"port": "USB-C",
-			"ipRating": "Sweat and water resistant",
-			"sourceNotes": "Original colour entries were removed from the AirPods shape; source colours: Midnight, Starlight, Blue, Purple, Orange.\n\nOriginal microphone descriptions, retained because the independent schema stores the count only: Nine microphones total:; Eight microphones for Active Noise Cancellation; Three microphones for voice pick-up (two shared with Active Noise Cancellation and one additional microphone)\n\nOriginal summary facts without a dedicated field, retained verbatim: - H2 chip\n- Up to 1.5x more Active Noise Cancellation than original AirPods Max3\n- Adaptive Audio4 and Transparency mode5\n- Conversation Awareness4\n- Personalised Spatial Audio with dynamic head tracking6\n- Lossless Audio and ultra-low-latency audio via USB-C7\n- Hearing Test9and Hearing Aid features9, and Loud Sound Reduction\n- Live Translation10\n- Digital Crown\n- Force sensor\n- Single charge: Up to 20 hours of listening time on one charge with Active Noise Cancellation11\n- 5 hrs\n- Charging: More than 24 hours of listening time with charging case11\n- Smart Case\n- Sweat and Water resistance: Sweat and water resistant17"
+			"sourceNotes": "Original colour entries were removed from the AirPods shape; source colours: Midnight, Starlight, Blue, Purple, Orange.\n\nOriginal microphone descriptions, retained because the independent schema stores the count only: Nine microphones total:; Eight microphones for Active Noise Cancellation; Three microphones for voice pick-up (two shared with Active Noise Cancellation and one additional microphone)\n\nOriginal summary facts without a dedicated field, retained verbatim: - H2 chip\n- Up to 1.5x more Active Noise Cancellation than original AirPods Max3\n- Adaptive Audio4 and Transparency mode5\n- Conversation Awareness4\n- Personalised Spatial Audio with dynamic head tracking6\n- Lossless Audio and ultra-low-latency audio via USB-C7\n- Hearing Test9and Hearing Aid features9, and Loud Sound Reduction\n- Live Translation10\n- Digital Crown\n- Force sensor\n- Single charge: Up to 20 hours of listening time on one charge with Active Noise Cancellation11\n- 5 hrs\n- Charging: More than 24 hours of listening time with charging case11\n- Smart Case\n- Sweat and Water resistance: Sweat and water resistant17 ipRating omitted: Apple states only \u201cSweat and water resistant\u201d with no IP/WR code for AirPods Max, and the schema requires an embedded IP/WR code; same treatment as AirPods Max (gen 1), which carries no ipRating key."
 		},
 		{
 			"id": "airpods-pro-2",
@@ -1566,7 +1574,15 @@
 					"heightPx": 680
 				}
 			],
-			"audioTechnologies": [],
+			"audioTechnologies": [
+				{
+					"id": "aac-audio",
+					"name": "AAC audio",
+					"category": "other",
+					"details": "Plays AAC-encoded audio over Bluetooth (Apple rates battery life using 256-Kbps AAC tracks).",
+					"sourceNotes": "Minimal truthful entry: Apple compare evidence (data/tmp/airpods/airpod4.html, airpods-compare-2026.html) lists Adaptive EQ, Driver and Amplifier information as unavailable for this generation, and Apple publishes no dedicated Audio Technology section for it; AAC playback evidenced by Apple support tech specs 111856 battery-test footnotes (256-Kbps AAC tracks)."
+				}
+			],
 			"sensors": [
 				{
 					"id": "dual-optical-sensors",
