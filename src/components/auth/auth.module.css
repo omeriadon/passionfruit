@@ -1,6 +1,7 @@
 .backdrop {
 	align-items: center;
-	backdrop-filter: blur(14px);
+	-webkit-backdrop-filter: blur(2px);
+	backdrop-filter: blur(2px);
 	background: color-mix(in srgb, #101010 42%, transparent);
 	display: flex;
 	inset: 0;
