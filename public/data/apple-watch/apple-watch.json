@@ -4,8 +4,31 @@
 			"id": "apple-watch-ultra-4",
 			"name": "Apple Watch Ultra 4",
 			"releaseYear": 2026,
-			"colors": [],
-			"configurations": [],
+			"colors": [
+				{
+					"id": "natural-titanium",
+					"displayName": "Natural Titanium",
+					"swatch": "#e3ddd7",
+					"images": []
+				},
+				{
+					"id": "black-titanium",
+					"displayName": "Black Titanium",
+					"swatch": "#0f0e0e",
+					"images": []
+				}
+			],
+			"configurations": [
+				{
+					"id": "49mm-gps-cellular",
+					"displayName": "49mm GPS + Cellular",
+					"caseSize": "49mm",
+					"cellular": true,
+					"gps": true,
+					"priceAud": 1349,
+					"sourceNotes": "49mm titanium, GPS + Cellular only (no GPS-only variant) per data/tmp/watch/watch-compare-2026.html and model overview evidence."
+				}
+			],
 			"chips": [
 				{
 					"id": "s11",
@@ -113,14 +136,82 @@
 				"healthSensingSystem": true
 			},
 			"overviewImages": [],
-			"sourceNotes": "Evidence: data/tmp/watch/watch-ultra-4.html, watch-compare-2026.html, newsroom. $799 US; priceAud omitted."
+			"sourceNotes": "Evidence: data/tmp/watch/watch-ultra-4.html, watch-compare-2026.html, newsroom. $799 US; priceAud omitted. Finishes per data/tmp/watch/watch-ultra-4.html (aerospace-grade titanium, natural and black) and watch-compare-2026.html. Swatches reuse the identical continuing Ultra 3 finish swatches.",
+			"priceAud": 1349
 		},
 		{
 			"id": "apple-watch-series-12",
 			"name": "Apple Watch Series 12",
 			"releaseYear": 2026,
-			"colors": [],
-			"configurations": [],
+			"colors": [
+				{
+					"id": "dark-bronze-aluminium",
+					"displayName": "Dark Bronze Aluminium",
+					"swatch": "#523f30",
+					"images": []
+				},
+				{
+					"id": "light-gold-aluminium",
+					"displayName": "Light Gold Aluminium",
+					"swatch": "#877664",
+					"images": []
+				},
+				{
+					"id": "black-aluminium",
+					"displayName": "Black Aluminium",
+					"swatch": "#3c3835",
+					"images": []
+				},
+				{
+					"id": "space-gray-aluminium",
+					"displayName": "Space Gray Aluminium",
+					"swatch": "#565254",
+					"images": []
+				},
+				{
+					"id": "radiant-gold-titanium",
+					"displayName": "Radiant Gold Titanium",
+					"swatch": "#837558",
+					"images": []
+				},
+				{
+					"id": "natural-titanium",
+					"displayName": "Natural Titanium",
+					"swatch": "#86807a",
+					"images": []
+				},
+				{
+					"id": "pearl-white-ceramic",
+					"displayName": "Pearl White Ceramic",
+					"swatch": "#bab3ab",
+					"images": []
+				},
+				{
+					"id": "night-blue-ceramic",
+					"displayName": "Night Blue Ceramic",
+					"swatch": "#232a35",
+					"images": []
+				}
+			],
+			"configurations": [
+				{
+					"id": "42mm-gps",
+					"displayName": "42mm GPS",
+					"caseSize": "42mm",
+					"cellular": false,
+					"gps": true,
+					"priceAud": 649,
+					"sourceNotes": "GPS variant per data/tmp/watch/watch-compare-2026.html (GPS and GPS + Cellular buy options listed). priceAud is the cheapest displayed device price."
+				},
+				{
+					"id": "46mm-gps-cellular",
+					"displayName": "46mm GPS + Cellular",
+					"caseSize": "46mm",
+					"cellular": true,
+					"gps": true,
+					"sourceNotes": "GPS + Cellular variant per data/tmp/watch/watch-compare-2026.html (Cellular options listed)."
+				}
+			],
 			"chips": [
 				{
 					"id": "s11",
@@ -222,7 +313,8 @@
 				"healthSensingSystem": true
 			},
 			"overviewImages": [],
-			"sourceNotes": "Evidence: data/tmp/watch/watch-series-12.html, watch-compare-2026.html, newsroom. gestures=true (single+double tap); healthSensingSystem=true. $399 US; priceAud omitted."
+			"sourceNotes": "Evidence: data/tmp/watch/watch-series-12.html, watch-compare-2026.html, newsroom. gestures=true (single+double tap); healthSensingSystem=true. $399 US; priceAud omitted. Finish names per data/tmp/watch/watch-series-12.html and watch-compare-2026.html (aluminium: dark bronze, light gold, black, space gray; titanium: radiant gold, natural; ceramic: pearl white, night blue). Swatch hexes sampled from Apple finish imagery (product_finishes_*_large.jpg); approximate midtones under studio lighting, not Apple-published values.",
+			"priceAud": 649
 		},
 		{
 			"id": "apple-watch-series-11",
@@ -475,7 +567,25 @@
 					]
 				}
 			],
-			"configurations": [],
+			"configurations": [
+				{
+					"id": "42mm-gps",
+					"displayName": "42mm GPS",
+					"caseSize": "42mm",
+					"cellular": false,
+					"gps": true,
+					"priceAud": 679,
+					"sourceNotes": "GPS variant per data/tmp/watch/watch-compare-2026.html (GPS and GPS + Cellular buy options listed). priceAud is the cheapest displayed device price."
+				},
+				{
+					"id": "46mm-gps-cellular",
+					"displayName": "46mm GPS + Cellular",
+					"caseSize": "46mm",
+					"cellular": true,
+					"gps": true,
+					"sourceNotes": "GPS + Cellular variant per data/tmp/watch/watch-compare-2026.html (Cellular options listed)."
+				}
+			],
 			"chips": [
 				{
 					"id": "s10-chip",
@@ -744,7 +854,25 @@
 					]
 				}
 			],
-			"configurations": [],
+			"configurations": [
+				{
+					"id": "40mm-gps",
+					"displayName": "40mm GPS",
+					"caseSize": "40mm",
+					"cellular": false,
+					"gps": true,
+					"priceAud": 399,
+					"sourceNotes": "GPS variant per data/tmp/watch/watch-compare-2026.html (GPS and GPS + Cellular buy options listed). priceAud is the cheapest displayed device price."
+				},
+				{
+					"id": "44mm-gps-cellular",
+					"displayName": "44mm GPS + Cellular",
+					"caseSize": "44mm",
+					"cellular": true,
+					"gps": true,
+					"sourceNotes": "GPS + Cellular variant per data/tmp/watch/watch-compare-2026.html (Cellular options listed)."
+				}
+			],
 			"chips": [
 				{
 					"id": "s10-chip",
@@ -1004,7 +1132,17 @@
 					]
 				}
 			],
-			"configurations": [],
+			"configurations": [
+				{
+					"id": "49mm-gps-cellular",
+					"displayName": "49mm GPS + Cellular",
+					"caseSize": "49mm",
+					"cellular": true,
+					"gps": true,
+					"priceAud": 1399,
+					"sourceNotes": "49mm titanium, GPS + Cellular only (no GPS-only variant) per data/tmp/watch/watch-compare-2026.html and model overview evidence."
+				}
+			],
 			"chips": [
 				{
 					"id": "s10-chip",
@@ -1407,7 +1545,25 @@
 					]
 				}
 			],
-			"configurations": [],
+			"configurations": [
+				{
+					"id": "42mm-gps",
+					"displayName": "42mm GPS",
+					"caseSize": "42mm",
+					"cellular": false,
+					"gps": true,
+					"priceAud": 679,
+					"sourceNotes": "GPS variant per data/tmp/watch/watch-compare-2026.html (GPS and GPS + Cellular buy options listed). priceAud is the cheapest displayed device price."
+				},
+				{
+					"id": "46mm-gps-cellular",
+					"displayName": "46mm GPS + Cellular",
+					"caseSize": "46mm",
+					"cellular": true,
+					"gps": true,
+					"sourceNotes": "GPS + Cellular variant per data/tmp/watch/watch-compare-2026.html (Cellular options listed)."
+				}
+			],
 			"chips": [
 				{
 					"id": "s10-chip",
@@ -1623,7 +1779,25 @@
 					"images": []
 				}
 			],
-			"configurations": [],
+			"configurations": [
+				{
+					"id": "40mm-gps",
+					"displayName": "40mm GPS",
+					"caseSize": "40mm",
+					"cellular": false,
+					"gps": true,
+					"priceAud": 399,
+					"sourceNotes": "GPS variant per data/tmp/watch/watch-compare-2026.html (GPS and GPS + Cellular buy options listed). priceAud is the cheapest displayed device price."
+				},
+				{
+					"id": "44mm-gps-cellular",
+					"displayName": "44mm GPS + Cellular",
+					"caseSize": "44mm",
+					"cellular": true,
+					"gps": true,
+					"sourceNotes": "GPS + Cellular variant per data/tmp/watch/watch-compare-2026.html (Cellular options listed)."
+				}
+			],
 			"chips": [
 				{
 					"id": "s8-chip",
@@ -1841,7 +2015,17 @@
 					]
 				}
 			],
-			"configurations": [],
+			"configurations": [
+				{
+					"id": "49mm-gps-cellular",
+					"displayName": "49mm GPS + Cellular",
+					"caseSize": "49mm",
+					"cellular": true,
+					"gps": true,
+					"priceAud": 1399,
+					"sourceNotes": "49mm titanium, GPS + Cellular only (no GPS-only variant) per data/tmp/watch/watch-compare-2026.html and model overview evidence."
+				}
+			],
 			"chips": [
 				{
 					"id": "s9-chip",
@@ -2106,7 +2290,25 @@
 					"images": []
 				}
 			],
-			"configurations": [],
+			"configurations": [
+				{
+					"id": "41mm-gps",
+					"displayName": "41mm GPS",
+					"caseSize": "41mm",
+					"cellular": false,
+					"gps": true,
+					"priceAud": 599,
+					"sourceNotes": "GPS variant per data/tmp/watch/watch-compare-2026.html (GPS and GPS + Cellular buy options listed). priceAud is the cheapest displayed device price."
+				},
+				{
+					"id": "45mm-gps-cellular",
+					"displayName": "45mm GPS + Cellular",
+					"caseSize": "45mm",
+					"cellular": true,
+					"gps": true,
+					"sourceNotes": "GPS + Cellular variant per data/tmp/watch/watch-compare-2026.html (Cellular options listed)."
+				}
+			],
 			"chips": [
 				{
 					"id": "s9-chip",
@@ -2322,7 +2524,25 @@
 					"images": []
 				}
 			],
-			"configurations": [],
+			"configurations": [
+				{
+					"id": "40mm-gps",
+					"displayName": "40mm GPS",
+					"caseSize": "40mm",
+					"cellular": false,
+					"gps": true,
+					"priceAud": 399,
+					"sourceNotes": "GPS variant per data/tmp/watch/watch-compare-2026.html (GPS and GPS + Cellular buy options listed). priceAud is the cheapest displayed device price."
+				},
+				{
+					"id": "44mm-gps-cellular",
+					"displayName": "44mm GPS + Cellular",
+					"caseSize": "44mm",
+					"cellular": true,
+					"gps": true,
+					"sourceNotes": "GPS + Cellular variant per data/tmp/watch/watch-compare-2026.html (Cellular options listed)."
+				}
+			],
 			"chips": [
 				{
 					"id": "s5-chip",
@@ -2506,7 +2726,17 @@
 					]
 				}
 			],
-			"configurations": [],
+			"configurations": [
+				{
+					"id": "49mm-gps-cellular",
+					"displayName": "49mm GPS + Cellular",
+					"caseSize": "49mm",
+					"cellular": true,
+					"gps": true,
+					"priceAud": 1229,
+					"sourceNotes": "49mm titanium, GPS + Cellular only (no GPS-only variant) per data/tmp/watch/watch-compare-2026.html and model overview evidence."
+				}
+			],
 			"chips": [
 				{
 					"id": "s8-chip",
@@ -2730,7 +2960,25 @@
 					"images": []
 				}
 			],
-			"configurations": [],
+			"configurations": [
+				{
+					"id": "41mm-gps",
+					"displayName": "41mm GPS",
+					"caseSize": "41mm",
+					"cellular": false,
+					"gps": true,
+					"priceAud": 599,
+					"sourceNotes": "GPS variant per data/tmp/watch/watch-compare-2026.html (GPS and GPS + Cellular buy options listed). priceAud is the cheapest displayed device price."
+				},
+				{
+					"id": "45mm-gps-cellular",
+					"displayName": "45mm GPS + Cellular",
+					"caseSize": "45mm",
+					"cellular": true,
+					"gps": true,
+					"sourceNotes": "GPS + Cellular variant per data/tmp/watch/watch-compare-2026.html (Cellular options listed)."
+				}
+			],
 			"chips": [
 				{
 					"id": "s8-chip",
@@ -2940,7 +3188,25 @@
 					"images": []
 				}
 			],
-			"configurations": [],
+			"configurations": [
+				{
+					"id": "41mm-gps",
+					"displayName": "41mm GPS",
+					"caseSize": "41mm",
+					"cellular": false,
+					"gps": true,
+					"priceAud": 599,
+					"sourceNotes": "GPS variant per data/tmp/watch/watch-compare-2026.html (GPS and GPS + Cellular buy options listed). priceAud is the cheapest displayed device price."
+				},
+				{
+					"id": "45mm-gps-cellular",
+					"displayName": "45mm GPS + Cellular",
+					"caseSize": "45mm",
+					"cellular": true,
+					"gps": true,
+					"sourceNotes": "GPS + Cellular variant per data/tmp/watch/watch-compare-2026.html (Cellular options listed)."
+				}
+			],
 			"chips": [
 				{
 					"id": "s7-chip",
@@ -3155,7 +3421,25 @@
 					"images": []
 				}
 			],
-			"configurations": [],
+			"configurations": [
+				{
+					"id": "40mm-gps",
+					"displayName": "40mm GPS",
+					"caseSize": "40mm",
+					"cellular": false,
+					"gps": true,
+					"priceAud": 599,
+					"sourceNotes": "GPS variant per data/tmp/watch/watch-compare-2026.html (GPS and GPS + Cellular buy options listed). priceAud is the cheapest displayed device price."
+				},
+				{
+					"id": "44mm-gps-cellular",
+					"displayName": "44mm GPS + Cellular",
+					"caseSize": "44mm",
+					"cellular": true,
+					"gps": true,
+					"sourceNotes": "GPS + Cellular variant per data/tmp/watch/watch-compare-2026.html (Cellular options listed)."
+				}
+			],
 			"chips": [
 				{
 					"id": "s6-chip",
@@ -3337,7 +3621,25 @@
 					"images": []
 				}
 			],
-			"configurations": [],
+			"configurations": [
+				{
+					"id": "38mm-gps",
+					"displayName": "38mm GPS",
+					"caseSize": "38mm",
+					"cellular": false,
+					"gps": true,
+					"priceAud": 399,
+					"sourceNotes": "GPS-only generation; compare lists no cellular option for this column (cellular introduced with Series 3). Sizes per watchDetails. priceAud is the cheapest displayed device price."
+				},
+				{
+					"id": "42mm-gps",
+					"displayName": "42mm GPS",
+					"caseSize": "42mm",
+					"cellular": false,
+					"gps": true,
+					"sourceNotes": "GPS-only generation; compare lists no cellular option for this column (cellular introduced with Series 3). Sizes per watchDetails."
+				}
+			],
 			"chips": [
 				{
 					"id": "apple-watch-series-1-chip",
@@ -3446,7 +3748,8 @@
 				"swimproofClassification": "Not stated in supplied source"
 			},
 			"overviewImages": [],
-			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, swatches, product image bytes and Apple-hosted URLs are absent from supplied evidence and remain null/empty rather than inferred.\n\nLegacy Watch fields removed from the independent shape and preserved verbatim where no typed field exists: {\"family\":\"watch\",\"memoryOptions\":[],\"cameras\":[],\"storageOptions\":[],\"accessories\":[],\"watchDetails\":{\"caseSizes\":[\"42-mm\",\"38-mm\"],\"alwaysOn\":false,\"wideAngleDisplay\":false,\"hasSpeaker\":false,\"hasSiren\":false,\"completeSummary\":[\"Retina display\",\"S1 chip with dual-core processor\",\"Up to 18 hours33\",\"Splash-resistant13\",\"42 mm by 36.4 mm by 10.5 mm (42-mm) 30 grams\"]}}\n\nLegacy audio facts without dedicated fields: {\"formats\":[]}\n\nLegacy colour notes retained verbatim: [\"Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value.\",\"Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value.\",\"Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value.\",\"Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value.\"]\n\nThe independent Watch schema requires configurations; the source supplied no configuration records, so this field is retained as an empty array without inventing data.\n\nApple Watch Series 1 has no swimproof classification in the supplied source; the schema-required field is marked accordingly without asserting a device capability."
+			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, swatches, product image bytes and Apple-hosted URLs are absent from supplied evidence and remain null/empty rather than inferred.\n\nLegacy Watch fields removed from the independent shape and preserved verbatim where no typed field exists: {\"family\":\"watch\",\"memoryOptions\":[],\"cameras\":[],\"storageOptions\":[],\"accessories\":[],\"watchDetails\":{\"caseSizes\":[\"42-mm\",\"38-mm\"],\"alwaysOn\":false,\"wideAngleDisplay\":false,\"hasSpeaker\":false,\"hasSiren\":false,\"completeSummary\":[\"Retina display\",\"S1 chip with dual-core processor\",\"Up to 18 hours33\",\"Splash-resistant13\",\"42 mm by 36.4 mm by 10.5 mm (42-mm) 30 grams\"]}}\n\nLegacy audio facts without dedicated fields: {\"formats\":[]}\n\nLegacy colour notes retained verbatim: [\"Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value.\",\"Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value.\",\"Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value.\",\"Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value.\"]\n\nThe independent Watch schema requires configurations; the source supplied no configuration records, so this field is retained as an empty array without inventing data.\n\nApple Watch Series 1 has no swimproof classification in the supplied source; the schema-required field is marked accordingly without asserting a device capability.",
+			"priceAud": 399
 		},
 		{
 			"id": "apple-watch-series-2",
@@ -3478,7 +3781,25 @@
 					"images": []
 				}
 			],
-			"configurations": [],
+			"configurations": [
+				{
+					"id": "38mm-gps",
+					"displayName": "38mm GPS",
+					"caseSize": "38mm",
+					"cellular": false,
+					"gps": true,
+					"priceAud": 529,
+					"sourceNotes": "GPS-only generation; compare lists no cellular option for this column (cellular introduced with Series 3). Sizes per watchDetails. priceAud is the cheapest displayed device price."
+				},
+				{
+					"id": "42mm-gps",
+					"displayName": "42mm GPS",
+					"caseSize": "42mm",
+					"cellular": false,
+					"gps": true,
+					"sourceNotes": "GPS-only generation; compare lists no cellular option for this column (cellular introduced with Series 3). Sizes per watchDetails."
+				}
+			],
 			"chips": [
 				{
 					"id": "apple-watch-series-2-chip",
@@ -3599,7 +3920,8 @@
 				"swimproofClassification": "Swim"
 			},
 			"overviewImages": [],
-			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, swatches, product image bytes and Apple-hosted URLs are absent from supplied evidence and remain null/empty rather than inferred.\n\nLegacy Watch fields removed from the independent shape and preserved verbatim where no typed field exists: {\"family\":\"watch\",\"memoryOptions\":[],\"cameras\":[],\"storageOptions\":[],\"accessories\":[],\"watchDetails\":{\"caseSizes\":[\"42-mm\",\"38-mm\"],\"alwaysOn\":false,\"wideAngleDisplay\":false,\"hasSpeaker\":false,\"hasSiren\":false,\"swimproofClassification\":\"Swim\",\"completeSummary\":[\"Retina display\",\"S2 chip with dual-core processor\",\"Up to 18 hours33\",\"Water-resistant to 50 m12\",\"Swim\",\"42 mm by 36.4 mm by 11.4 mm (42-mm) 34.2 grams (aluminium) 52.4 grams (stainless steel) 45.6 grams (ceramic)\"]}}\n\nLegacy audio facts without dedicated fields: {\"formats\":[]}\n\nLegacy colour notes retained verbatim: [\"Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value.\",\"Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value.\",\"Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value.\",\"Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value.\"]\n\nThe independent Watch schema requires configurations; the source supplied no configuration records, so this field is retained as an empty array without inventing data."
+			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, swatches, product image bytes and Apple-hosted URLs are absent from supplied evidence and remain null/empty rather than inferred.\n\nLegacy Watch fields removed from the independent shape and preserved verbatim where no typed field exists: {\"family\":\"watch\",\"memoryOptions\":[],\"cameras\":[],\"storageOptions\":[],\"accessories\":[],\"watchDetails\":{\"caseSizes\":[\"42-mm\",\"38-mm\"],\"alwaysOn\":false,\"wideAngleDisplay\":false,\"hasSpeaker\":false,\"hasSiren\":false,\"swimproofClassification\":\"Swim\",\"completeSummary\":[\"Retina display\",\"S2 chip with dual-core processor\",\"Up to 18 hours33\",\"Water-resistant to 50 m12\",\"Swim\",\"42 mm by 36.4 mm by 11.4 mm (42-mm) 34.2 grams (aluminium) 52.4 grams (stainless steel) 45.6 grams (ceramic)\"]}}\n\nLegacy audio facts without dedicated fields: {\"formats\":[]}\n\nLegacy colour notes retained verbatim: [\"Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value.\",\"Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value.\",\"Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value.\",\"Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value.\"]\n\nThe independent Watch schema requires configurations; the source supplied no configuration records, so this field is retained as an empty array without inventing data.",
+			"priceAud": 529
 		},
 		{
 			"id": "apple-watch-series-3",
@@ -3625,7 +3947,25 @@
 					"images": []
 				}
 			],
-			"configurations": [],
+			"configurations": [
+				{
+					"id": "38mm-gps",
+					"displayName": "38mm GPS",
+					"caseSize": "38mm",
+					"cellular": false,
+					"gps": true,
+					"priceAud": 459,
+					"sourceNotes": "GPS variant per data/tmp/watch/watch-compare-2026.html (GPS and GPS + Cellular buy options listed). priceAud is the cheapest displayed device price."
+				},
+				{
+					"id": "42mm-gps-cellular",
+					"displayName": "42mm GPS + Cellular",
+					"caseSize": "42mm",
+					"cellular": true,
+					"gps": true,
+					"sourceNotes": "GPS + Cellular variant per data/tmp/watch/watch-compare-2026.html (Cellular options listed)."
+				}
+			],
 			"chips": [
 				{
 					"id": "apple-watch-series-3-chip",
@@ -3751,7 +4091,8 @@
 				"swimproofClassification": "Swim"
 			},
 			"overviewImages": [],
-			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, swatches, product image bytes and Apple-hosted URLs are absent from supplied evidence and remain null/empty rather than inferred.\n\nLegacy Watch fields removed from the independent shape and preserved verbatim where no typed field exists: {\"family\":\"watch\",\"memoryOptions\":[],\"cameras\":[],\"storageOptions\":[],\"accessories\":[],\"watchDetails\":{\"caseSizes\":[\"42-mm\",\"38-mm\"],\"alwaysOn\":false,\"wideAngleDisplay\":false,\"hasSpeaker\":false,\"hasSiren\":false,\"swimproofClassification\":\"Swim\",\"completeSummary\":[\"Retina display\",\"S3 chip with dual-core processor\",\"Up to 18 hours32\",\"Water-resistant to 50 m12\",\"Swim\",\"42 mm by 36.4 mm by 11.4 mm (42-mm) 32.3 grams (aluminium, GPS) 34.9 grams (aluminium, GPS + Cellular) 52.8 grams (stainless steel)46.4 grams (ceramic)\"]}}\n\nLegacy audio facts without dedicated fields: {\"formats\":[]}\n\nLegacy colour notes retained verbatim: [\"Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value.\",\"Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value.\",\"Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value.\"]\n\nThe independent Watch schema requires configurations; the source supplied no configuration records, so this field is retained as an empty array without inventing data."
+			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, swatches, product image bytes and Apple-hosted URLs are absent from supplied evidence and remain null/empty rather than inferred.\n\nLegacy Watch fields removed from the independent shape and preserved verbatim where no typed field exists: {\"family\":\"watch\",\"memoryOptions\":[],\"cameras\":[],\"storageOptions\":[],\"accessories\":[],\"watchDetails\":{\"caseSizes\":[\"42-mm\",\"38-mm\"],\"alwaysOn\":false,\"wideAngleDisplay\":false,\"hasSpeaker\":false,\"hasSiren\":false,\"swimproofClassification\":\"Swim\",\"completeSummary\":[\"Retina display\",\"S3 chip with dual-core processor\",\"Up to 18 hours32\",\"Water-resistant to 50 m12\",\"Swim\",\"42 mm by 36.4 mm by 11.4 mm (42-mm) 32.3 grams (aluminium, GPS) 34.9 grams (aluminium, GPS + Cellular) 52.8 grams (stainless steel)46.4 grams (ceramic)\"]}}\n\nLegacy audio facts without dedicated fields: {\"formats\":[]}\n\nLegacy colour notes retained verbatim: [\"Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value.\",\"Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value.\",\"Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value.\"]\n\nThe independent Watch schema requires configurations; the source supplied no configuration records, so this field is retained as an empty array without inventing data.",
+			"priceAud": 459
 		},
 		{
 			"id": "apple-watch-series-4",
@@ -3777,7 +4118,25 @@
 					"images": []
 				}
 			],
-			"configurations": [],
+			"configurations": [
+				{
+					"id": "40mm-gps",
+					"displayName": "40mm GPS",
+					"caseSize": "40mm",
+					"cellular": false,
+					"gps": true,
+					"priceAud": 599,
+					"sourceNotes": "GPS variant per data/tmp/watch/watch-compare-2026.html (GPS and GPS + Cellular buy options listed). priceAud is the cheapest displayed device price."
+				},
+				{
+					"id": "44mm-gps-cellular",
+					"displayName": "44mm GPS + Cellular",
+					"caseSize": "44mm",
+					"cellular": true,
+					"gps": true,
+					"sourceNotes": "GPS + Cellular variant per data/tmp/watch/watch-compare-2026.html (Cellular options listed)."
+				}
+			],
 			"chips": [
 				{
 					"id": "apple-watch-series-4-chip",
@@ -3893,7 +4252,8 @@
 				"swimproofClassification": "Swim"
 			},
 			"overviewImages": [],
-			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, swatches, product image bytes and Apple-hosted URLs are absent from supplied evidence and remain null/empty rather than inferred.\n\nLegacy Watch fields removed from the independent shape and preserved verbatim where no typed field exists: {\"family\":\"watch\",\"memoryOptions\":[],\"cameras\":[],\"storageOptions\":[],\"accessories\":[],\"watchDetails\":{\"caseSizes\":[\"44-mm\",\"40-mm\"],\"alwaysOn\":false,\"wideAngleDisplay\":false,\"hasSpeaker\":false,\"hasSiren\":false,\"swimproofClassification\":\"Swim\",\"completeSummary\":[\"Retina display\",\"S4 chip with 64-bit dual-core processor\",\"Up to 18 hours31\",\"Low Power Mode\",\"Water-resistant to 50 m12\",\"Swim\",\"44 mm by 38 mm by 10.7 mm (44-mm) 36.7 grams (aluminium) 47.9 grams (stainless steel)\"]}}\n\nLegacy audio facts without dedicated fields: {\"formats\":[]}\n\nLegacy colour notes retained verbatim: [\"Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value.\",\"Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value.\",\"Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value.\"]\n\nThe independent Watch schema requires configurations; the source supplied no configuration records, so this field is retained as an empty array without inventing data."
+			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, swatches, product image bytes and Apple-hosted URLs are absent from supplied evidence and remain null/empty rather than inferred.\n\nLegacy Watch fields removed from the independent shape and preserved verbatim where no typed field exists: {\"family\":\"watch\",\"memoryOptions\":[],\"cameras\":[],\"storageOptions\":[],\"accessories\":[],\"watchDetails\":{\"caseSizes\":[\"44-mm\",\"40-mm\"],\"alwaysOn\":false,\"wideAngleDisplay\":false,\"hasSpeaker\":false,\"hasSiren\":false,\"swimproofClassification\":\"Swim\",\"completeSummary\":[\"Retina display\",\"S4 chip with 64-bit dual-core processor\",\"Up to 18 hours31\",\"Low Power Mode\",\"Water-resistant to 50 m12\",\"Swim\",\"44 mm by 38 mm by 10.7 mm (44-mm) 36.7 grams (aluminium) 47.9 grams (stainless steel)\"]}}\n\nLegacy audio facts without dedicated fields: {\"formats\":[]}\n\nLegacy colour notes retained verbatim: [\"Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value.\",\"Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value.\",\"Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value.\"]\n\nThe independent Watch schema requires configurations; the source supplied no configuration records, so this field is retained as an empty array without inventing data.",
+			"priceAud": 599
 		},
 		{
 			"id": "apple-watch-series-5",
@@ -3925,7 +4285,25 @@
 					"images": []
 				}
 			],
-			"configurations": [],
+			"configurations": [
+				{
+					"id": "40mm-gps",
+					"displayName": "40mm GPS",
+					"caseSize": "40mm",
+					"cellular": false,
+					"gps": true,
+					"priceAud": 649,
+					"sourceNotes": "GPS variant per data/tmp/watch/watch-compare-2026.html (GPS and GPS + Cellular buy options listed). priceAud is the cheapest displayed device price."
+				},
+				{
+					"id": "44mm-gps-cellular",
+					"displayName": "44mm GPS + Cellular",
+					"caseSize": "44mm",
+					"cellular": true,
+					"gps": true,
+					"sourceNotes": "GPS + Cellular variant per data/tmp/watch/watch-compare-2026.html (Cellular options listed)."
+				}
+			],
 			"chips": [
 				{
 					"id": "apple-watch-series-5-chip",
@@ -4051,7 +4429,8 @@
 				"swimproofClassification": "Swim"
 			},
 			"overviewImages": [],
-			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, swatches, product image bytes and Apple-hosted URLs are absent from supplied evidence and remain null/empty rather than inferred.\n\nLegacy Watch fields removed from the independent shape and preserved verbatim where no typed field exists: {\"family\":\"watch\",\"memoryOptions\":[],\"cameras\":[],\"storageOptions\":[],\"accessories\":[],\"watchDetails\":{\"caseSizes\":[\"44-mm\",\"40-mm\"],\"alwaysOn\":true,\"wideAngleDisplay\":false,\"hasSpeaker\":false,\"hasSiren\":false,\"swimproofClassification\":\"Swim\",\"completeSummary\":[\"Always-On Retina display\",\"S5 chip with 64-bit dual-core processor\",\"Up to 18 hours30\",\"Low Power Mode\",\"Water-resistant to 50 m12\",\"Swim\",\"44 mm by 38 mm by 10.74 mm (44-mm) 36.5 grams (aluminium) 47.8 grams (stainless steel) 41.7 grams (titanium) 46.7 grams (ceramic)\"]}}\n\nLegacy audio facts without dedicated fields: {\"formats\":[]}\n\nLegacy colour notes retained verbatim: [\"Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value.\",\"Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value.\",\"Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value.\",\"Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value.\"]\n\nThe independent Watch schema requires configurations; the source supplied no configuration records, so this field is retained as an empty array without inventing data."
+			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, swatches, product image bytes and Apple-hosted URLs are absent from supplied evidence and remain null/empty rather than inferred.\n\nLegacy Watch fields removed from the independent shape and preserved verbatim where no typed field exists: {\"family\":\"watch\",\"memoryOptions\":[],\"cameras\":[],\"storageOptions\":[],\"accessories\":[],\"watchDetails\":{\"caseSizes\":[\"44-mm\",\"40-mm\"],\"alwaysOn\":true,\"wideAngleDisplay\":false,\"hasSpeaker\":false,\"hasSiren\":false,\"swimproofClassification\":\"Swim\",\"completeSummary\":[\"Always-On Retina display\",\"S5 chip with 64-bit dual-core processor\",\"Up to 18 hours30\",\"Low Power Mode\",\"Water-resistant to 50 m12\",\"Swim\",\"44 mm by 38 mm by 10.74 mm (44-mm) 36.5 grams (aluminium) 47.8 grams (stainless steel) 41.7 grams (titanium) 46.7 grams (ceramic)\"]}}\n\nLegacy audio facts without dedicated fields: {\"formats\":[]}\n\nLegacy colour notes retained verbatim: [\"Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value.\",\"Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value.\",\"Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value.\",\"Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value.\"]\n\nThe independent Watch schema requires configurations; the source supplied no configuration records, so this field is retained as an empty array without inventing data.",
+			"priceAud": 649
 		}
 	]
 }
