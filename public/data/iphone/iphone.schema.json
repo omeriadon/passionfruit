@@ -4,7 +4,9 @@
 	"title": "Canonical iPhone data",
 	"type": "object",
 	"additionalProperties": false,
-	"required": ["devices"],
+	"required": [
+		"devices"
+	],
 	"properties": {
 		"devices": {
 			"type": "array",
@@ -42,10 +44,12 @@
 			"properties": {
 				"id": {
 					"type": "string",
-					"pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+					"pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+					"minLength": 1
 				},
 				"name": {
-					"type": "string"
+					"type": "string",
+					"minLength": 1
 				},
 				"releaseYear": {
 					"type": "integer",
@@ -53,41 +57,47 @@
 					"maximum": 2100
 				},
 				"priceAud": {
-					"type": ["number", "null"],
-					"minimum": 0
+					"type": "number",
+					"exclusiveMinimum": 0
 				},
 				"colors": {
 					"type": "array",
+					"minItems": 1,
 					"items": {
 						"$ref": "#/$defs/iphoneColor"
 					}
 				},
 				"configurations": {
 					"type": "array",
+					"minItems": 1,
 					"items": {
 						"$ref": "#/$defs/iphoneConfiguration"
 					}
 				},
 				"storageOptions": {
 					"type": "array",
+					"minItems": 1,
 					"items": {
 						"$ref": "#/$defs/iphoneStorageOption"
 					}
 				},
 				"chips": {
 					"type": "array",
+					"minItems": 1,
 					"items": {
 						"$ref": "#/$defs/iphoneChip"
 					}
 				},
 				"displays": {
 					"type": "array",
+					"minItems": 1,
 					"items": {
 						"$ref": "#/$defs/iphoneDisplay"
 					}
 				},
 				"cameras": {
 					"type": "array",
+					"minItems": 1,
 					"items": {
 						"$ref": "#/$defs/iphoneCamera"
 					}
@@ -120,7 +130,8 @@
 					}
 				},
 				"sourceNotes": {
-					"type": "string"
+					"type": "string",
+					"minLength": 1
 				},
 				"memoryOptions": {
 					"type": "array",
@@ -135,11 +146,19 @@
 					}
 				},
 				"ceramicShieldFront": {
-					"enum": ["none", "1", "2"],
+					"enum": [
+						"none",
+						"1",
+						"2"
+					],
 					"description": "Ceramic Shield generation protecting the front of the phone. Use \"none\" when no Ceramic Shield is present."
 				},
 				"ceramicShieldBack": {
-					"enum": ["none", "1", "2"],
+					"enum": [
+						"none",
+						"1",
+						"2"
+					],
 					"description": "Ceramic Shield generation protecting the back of the phone. Use \"none\" when no Ceramic Shield is present."
 				},
 				"isFolding": {
@@ -155,14 +174,20 @@
 		"iphoneColor": {
 			"type": "object",
 			"additionalProperties": false,
-			"required": ["id", "displayName", "swatch", "images"],
+			"required": [
+				"id",
+				"displayName",
+				"swatch",
+				"images"
+			],
 			"properties": {
 				"id": {
 					"type": "string",
 					"pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
 				},
 				"displayName": {
-					"type": "string"
+					"type": "string",
+					"minLength": 1
 				},
 				"swatch": {
 					"$ref": "#/$defs/iphoneSwatch"
@@ -178,24 +203,34 @@
 					"exclusiveMinimum": 0
 				},
 				"sourceNotes": {
-					"type": "string"
+					"type": "string",
+					"minLength": 1
 				}
 			}
 		},
 		"iphoneImage": {
 			"type": "object",
 			"additionalProperties": false,
-			"required": ["label", "appleUrl", "localPath", "widthPx", "heightPx"],
+			"required": [
+				"label",
+				"appleUrl",
+				"localPath",
+				"widthPx",
+				"heightPx"
+			],
 			"properties": {
 				"label": {
-					"type": "string"
+					"type": "string",
+					"minLength": 1
 				},
 				"appleUrl": {
 					"type": "string",
-					"format": "uri"
+					"format": "uri",
+					"minLength": 1
 				},
 				"localPath": {
-					"type": "string"
+					"type": "string",
+					"minLength": 1
 				},
 				"widthPx": {
 					"type": "integer",
@@ -212,7 +247,10 @@
 				{
 					"type": "object",
 					"additionalProperties": false,
-					"required": ["kind", "value"],
+					"required": [
+						"kind",
+						"value"
+					],
 					"properties": {
 						"kind": {
 							"const": "css"
@@ -226,7 +264,10 @@
 				{
 					"type": "object",
 					"additionalProperties": false,
-					"required": ["kind", "url"],
+					"required": [
+						"kind",
+						"url"
+					],
 					"properties": {
 						"kind": {
 							"const": "image"
@@ -242,67 +283,100 @@
 		"iphoneStorageOption": {
 			"type": "object",
 			"additionalProperties": false,
-			"required": ["id", "capacityValue", "capacityUnit"],
+			"required": [
+				"id",
+				"capacityValue",
+				"capacityUnit"
+			],
 			"properties": {
 				"id": {
-					"type": "string"
+					"type": "string",
+					"pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+					"minLength": 1
 				},
 				"displayName": {
-					"type": "string"
+					"type": "string",
+					"minLength": 1
 				},
 				"capacityValue": {
 					"type": "integer",
 					"minimum": 1
 				},
 				"capacityUnit": {
-					"enum": ["GB", "TB"]
+					"enum": [
+						"GB",
+						"TB"
+					]
 				},
 				"priceDeltaAud": {
-					"type": "number"
+					"type": "number",
+					"minimum": 0
 				},
 				"availableColorIds": {
 					"type": "array",
 					"items": {
-						"type": "string"
+						"type": "string",
+						"pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+						"minLength": 1
 					}
 				},
 				"sourceNotes": {
-					"type": "string"
+					"type": "string",
+					"minLength": 1
 				}
 			}
 		},
 		"iphoneMemoryOption": {
 			"type": "object",
 			"additionalProperties": false,
-			"required": ["id", "capacityValue", "capacityUnit", "kind"],
+			"required": [
+				"id",
+				"capacityValue",
+				"capacityUnit",
+				"kind"
+			],
 			"properties": {
 				"id": {
-					"type": "string"
+					"type": "string",
+					"pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+					"minLength": 1
 				},
 				"displayName": {
-					"type": "string"
+					"type": "string",
+					"minLength": 1
 				},
 				"capacityValue": {
 					"type": "integer",
 					"minimum": 1
 				},
 				"capacityUnit": {
-					"enum": ["GB", "TB"]
+					"enum": [
+						"GB",
+						"TB"
+					]
 				},
 				"kind": {
-					"enum": ["unified", "DRAM", "NAND cache", "other"]
+					"enum": [
+						"unified",
+						"DRAM",
+						"NAND cache",
+						"other"
+					]
 				},
 				"speedMbps": {
-					"type": "integer"
+					"type": "integer",
+					"exclusiveMinimum": 0
 				},
 				"speedUnit": {
 					"const": "Mbps"
 				},
 				"configuration": {
-					"type": "string"
+					"type": "string",
+					"minLength": 1
 				},
 				"sourceNotes": {
-					"type": "string"
+					"type": "string",
+					"minLength": 1
 				}
 			}
 		},
@@ -320,32 +394,40 @@
 			],
 			"properties": {
 				"id": {
-					"type": "string"
+					"type": "string",
+					"pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+					"minLength": 1
 				},
 				"displayName": {
-					"type": "string"
+					"type": "string",
+					"minLength": 1
 				},
 				"family": {
-					"type": "string"
+					"type": "string",
+					"minLength": 1
 				},
 				"cpuCores": {
 					"$ref": "#/$defs/iphoneCpuCores"
 				},
 				"gpuCores": {
-					"type": ["integer", "null"],
+					"type": "integer",
 					"minimum": 0
 				},
 				"neuralEngineCores": {
-					"type": ["integer", "null"],
+					"type": "integer",
 					"minimum": 0
 				},
 				"memoryBandwidthGbps": {
-					"type": ["number", "null"],
+					"type": [
+						"number",
+						"null"
+					],
 					"minimum": 0,
-					"description": "Gigabits per second unless sourceNotes states bytes per second."
+					"description": "Gigabits per second unless sourceNotes states bytes per second. Apple does not publish iPhone SoC memory bandwidth; use null when unpublished."
 				},
 				"cpuCoreConfiguration": {
-					"type": "string"
+					"type": "string",
+					"minLength": 1
 				},
 				"neuralAccelerators": {
 					"type": "boolean"
@@ -360,14 +442,16 @@
 					}
 				},
 				"processNode": {
-					"type": "string"
+					"type": "string",
+					"minLength": 1
 				},
 				"transistorCountBillions": {
-					"type": ["number", "null"],
+					"type": "number",
 					"minimum": 0
 				},
 				"sourceNotes": {
-					"type": "string"
+					"type": "string",
+					"minLength": 1
 				}
 			}
 		},
@@ -384,10 +468,13 @@
 			],
 			"properties": {
 				"id": {
-					"type": "string"
+					"type": "string",
+					"pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+					"minLength": 1
 				},
 				"technology": {
-					"type": "string"
+					"type": "string",
+					"minLength": 1
 				},
 				"panelKind": {
 					"enum": [
@@ -396,48 +483,47 @@
 						"OLED",
 						"tandem OLED",
 						"micro-OLED",
-						"other",
-						null
+						"other"
 					]
 				},
 				"sizeIn": {
-					"type": ["number", "null"],
+					"type": "number",
 					"minimum": 0,
 					"description": "Inches"
 				},
 				"resolutionWidthPx": {
-					"type": ["integer", "null"],
+					"type": "integer",
 					"minimum": 1
 				},
 				"resolutionHeightPx": {
-					"type": ["integer", "null"],
+					"type": "integer",
 					"minimum": 1
 				},
 				"pixelsPerInch": {
-					"type": ["number", "null"],
+					"type": "number",
 					"minimum": 0
 				},
 				"refreshRateHz": {
-					"type": ["number", "null"],
+					"type": "number",
 					"minimum": 0
 				},
 				"refreshRateRange": {
 					"$ref": "#/$defs/iphoneMeasurementRange"
 				},
 				"sdrPeakBrightnessNits": {
-					"type": ["number", "null"],
+					"type": "number",
 					"minimum": 0
 				},
 				"hdrPeakBrightnessNits": {
-					"type": ["number", "null"],
+					"type": "number",
 					"minimum": 0
 				},
 				"fullScreenHdrBrightnessNits": {
-					"type": ["number", "null"],
+					"type": "number",
 					"minimum": 0
 				},
 				"minimumBrightnessNits": {
-					"type": ["number", "null"],
+					"type": "number",
 					"minimum": 0
 				},
 				"trueTone": {
@@ -471,17 +557,25 @@
 					"type": "boolean"
 				},
 				"sourceNotes": {
-					"type": "string"
+					"type": "string",
+					"minLength": 1
 				}
 			}
 		},
 		"iphoneCamera": {
 			"type": "object",
 			"additionalProperties": false,
-			"required": ["id", "role", "displayName", "megapixels"],
+			"required": [
+				"id",
+				"role",
+				"displayName",
+				"megapixels"
+			],
 			"properties": {
 				"id": {
-					"type": "string"
+					"type": "string",
+					"pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+					"minLength": 1
 				},
 				"role": {
 					"enum": [
@@ -496,18 +590,23 @@
 					]
 				},
 				"displayName": {
-					"type": "string"
+					"type": "string",
+					"minLength": 1
 				},
 				"megapixels": {
-					"type": ["number", "null"],
-					"exclusiveMinimum": 0
+					"type": [
+						"number",
+						"null"
+					],
+					"exclusiveMinimum": 0,
+					"description": "Megapixels. Null only when the manufacturer publishes no still-photo resolution (documented case: under-display FaceTime cameras with video-only specs)."
 				},
 				"opticalZoomMultiplier": {
-					"type": ["number", "null"],
+					"type": "number",
 					"exclusiveMinimum": 0
 				},
 				"apertureFNumber": {
-					"type": ["number", "null"],
+					"type": "number",
 					"exclusiveMinimum": 0
 				},
 				"sensorShiftOis": {
@@ -529,15 +628,15 @@
 					"type": "boolean"
 				},
 				"videoMaxResolutionWidthPx": {
-					"type": ["integer", "null"],
+					"type": "integer",
 					"minimum": 1
 				},
 				"videoMaxResolutionHeightPx": {
-					"type": ["integer", "null"],
+					"type": "integer",
 					"minimum": 1
 				},
 				"videoMaxFrameRateHz": {
-					"type": ["number", "null"],
+					"type": "number",
 					"exclusiveMinimum": 0
 				},
 				"proRes": {
@@ -555,14 +654,18 @@
 					"description": "True when the main camera supports Apple Reference Image output."
 				},
 				"sourceNotes": {
-					"type": "string"
+					"type": "string",
+					"minLength": 1
 				}
 			}
 		},
 		"iphoneAudio": {
 			"type": "object",
 			"additionalProperties": false,
-			"required": ["speaker", "microphone"],
+			"required": [
+				"speaker",
+				"microphone"
+			],
 			"properties": {
 				"speaker": {
 					"type": "boolean"
@@ -571,10 +674,12 @@
 					"type": "boolean"
 				},
 				"speakerConfiguration": {
-					"type": "string"
+					"type": "string",
+					"minLength": 1
 				},
 				"microphoneConfiguration": {
-					"type": "string"
+					"type": "string",
+					"minLength": 1
 				},
 				"siren": {
 					"type": "boolean"
@@ -593,12 +698,15 @@
 				},
 				"formats": {
 					"type": "array",
+					"minItems": 1,
 					"items": {
-						"type": "string"
+						"type": "string",
+						"minLength": 1
 					}
 				},
 				"sourceNotes": {
-					"type": "string"
+					"type": "string",
+					"minLength": 1
 				}
 			}
 		},
@@ -618,15 +726,24 @@
 					"type": "boolean"
 				},
 				"batteryCapacityMah": {
-					"type": ["number", "null"],
-					"minimum": 0
+					"type": [
+						"number",
+						"null"
+					],
+					"minimum": 0,
+					"description": "Milliampere-hours. Apple does not publish iPhone battery capacities; use null when unpublished."
 				},
 				"batteryCapacityWhr": {
-					"type": ["number", "null"],
-					"minimum": 0
+					"type": [
+						"number",
+						"null"
+					],
+					"minimum": 0,
+					"description": "Watt-hours. Apple does not publish iPhone battery energy capacity; use null when unpublished."
 				},
 				"runtimeHours": {
 					"type": "array",
+					"minItems": 1,
 					"items": {
 						"$ref": "#/$defs/iphoneBatteryRuntime"
 					}
@@ -656,99 +773,48 @@
 			"properties": {
 				"ports": {
 					"type": "array",
+					"minItems": 1,
 					"items": {
 						"$ref": "#/$defs/iphonePort"
 					}
 				},
 				"wifi": {
-					"anyOf": [
-						{
-							"$ref": "#/$defs/iphoneWifi"
-						},
-						{
-							"type": "null"
-						}
-					]
+					"$ref": "#/$defs/iphoneWifi"
 				},
 				"bluetooth": {
-					"anyOf": [
-						{
-							"$ref": "#/$defs/iphoneBluetooth"
-						},
-						{
-							"type": "null"
-						}
-					]
+					"$ref": "#/$defs/iphoneBluetooth"
 				},
 				"cellular": {
-					"anyOf": [
-						{
-							"$ref": "#/$defs/iphoneCellular"
-						},
-						{
-							"type": "null"
-						}
-					]
+					"$ref": "#/$defs/iphoneCellular"
 				},
 				"uwb": {
-					"anyOf": [
-						{
-							"$ref": "#/$defs/iphoneUwb"
-						},
-						{
-							"type": "null"
-						}
-					]
+					"$ref": "#/$defs/iphoneUwb"
 				},
 				"thread": {
-					"anyOf": [
-						{
-							"$ref": "#/$defs/iphoneThread"
-						},
-						{
-							"type": "null"
-						}
-					]
+					"$ref": "#/$defs/iphoneThread"
 				},
 				"infrared": {
-					"anyOf": [
-						{
-							"$ref": "#/$defs/iphoneInfrared"
-						},
-						{
-							"type": "null"
-						}
-					]
+					"$ref": "#/$defs/iphoneInfrared"
 				},
 				"nearFieldCommunication": {
-					"anyOf": [
-						{
-							"$ref": "#/$defs/iphoneNearFieldCommunication"
-						},
-						{
-							"type": "null"
-						}
-					]
+					"$ref": "#/$defs/iphoneNearFieldCommunication"
 				},
 				"gps": {
-					"anyOf": [
-						{
-							"$ref": "#/$defs/iphoneGps"
-						},
-						{
-							"type": "null"
-						}
-					]
+					"$ref": "#/$defs/iphoneGps"
 				}
 			}
 		},
 		"iphoneAuthentication": {
 			"type": "object",
 			"additionalProperties": false,
-			"required": ["methods", "primaryMethod"],
+			"required": [
+				"methods",
+				"primaryMethod"
+			],
 			"properties": {
 				"methods": {
 					"type": "array",
+					"minItems": 1,
 					"uniqueItems": true,
 					"items": {
 						"enum": [
@@ -772,17 +838,27 @@
 					]
 				},
 				"placement": {
-					"enum": ["top button", "keyboard", "side button", "other", null]
+					"enum": [
+						"top button",
+						"keyboard",
+						"side button",
+						"other"
+					]
 				},
 				"sourceNotes": {
-					"type": "string"
+					"type": "string",
+					"minLength": 1
 				}
 			}
 		},
 		"iphonePhysical": {
 			"type": "object",
 			"additionalProperties": false,
-			"required": ["weights", "dimensions", "components"],
+			"required": [
+				"weights",
+				"dimensions",
+				"components"
+			],
 			"properties": {
 				"weights": {
 					"type": "array",
@@ -816,16 +892,20 @@
 			],
 			"properties": {
 				"ipRating": {
-					"type": ["string", "null"],
-					"pattern": "^(IP[0-9]X?|IP6X|IP68)$|^$|^null$"
+					"type": "string",
+					"pattern": "^(IP[0-9A-Z]+|WR[0-9]+.*)$"
 				},
 				"waterDepthM": {
-					"type": ["number", "null"],
+					"type": "number",
 					"minimum": 0
 				},
 				"splashPressureAtm": {
-					"type": ["number", "null"],
-					"minimum": 0
+					"type": [
+						"number",
+						"null"
+					],
+					"minimum": 0,
+					"description": "Atmospheres. Apple publishes no splash-pressure figures for iPhones; use null when unpublished."
 				},
 				"dustProtected": {
 					"type": "boolean"
@@ -845,41 +925,56 @@
 			],
 			"properties": {
 				"operatingSystem": {
-					"type": "string"
+					"type": "string",
+					"minLength": 1
 				},
 				"operatingSystemVersionAtLaunch": {
-					"type": ["string", "null"]
+					"type": "string",
+					"minLength": 1
 				},
 				"compatibleOperatingSystems": {
 					"type": "array",
 					"items": {
-						"type": "string"
+						"type": "string",
+						"minLength": 1
 					}
 				},
 				"builtInApps": {
 					"type": "array",
 					"items": {
-						"type": "string"
+						"type": "string",
+						"minLength": 1
 					}
 				},
 				"sourceNotes": {
-					"type": "string"
+					"type": "string",
+					"minLength": 1
 				}
 			}
 		},
 		"iphoneOverviewImage": {
 			"type": "object",
 			"additionalProperties": false,
-			"required": ["label", "appleUrl", "localPath", "widthPx", "heightPx"],
+			"required": [
+				"label",
+				"appleUrl",
+				"localPath",
+				"widthPx",
+				"heightPx"
+			],
 			"properties": {
 				"label": {
-					"type": "string"
+					"type": "string",
+					"minLength": 1
 				},
 				"appleUrl": {
-					"type": "string"
+					"type": "string",
+					"format": "uri",
+					"minLength": 1
 				},
 				"localPath": {
-					"type": "string"
+					"type": "string",
+					"minLength": 1
 				},
 				"widthPx": {
 					"type": "integer",
@@ -894,18 +989,22 @@
 		"iphoneCpuCores": {
 			"type": "object",
 			"additionalProperties": false,
-			"required": ["total", "performance", "efficiency"],
+			"required": [
+				"total",
+				"performance",
+				"efficiency"
+			],
 			"properties": {
 				"total": {
 					"type": "integer",
 					"minimum": 1
 				},
 				"performance": {
-					"type": ["integer", "null"],
+					"type": "integer",
 					"minimum": 0
 				},
 				"efficiency": {
-					"type": ["integer", "null"],
+					"type": "integer",
 					"minimum": 0
 				}
 			}
@@ -913,16 +1012,24 @@
 		"iphoneMediaEngine": {
 			"type": "object",
 			"additionalProperties": false,
-			"required": ["id", "displayName", "kinds"],
+			"required": [
+				"id",
+				"displayName",
+				"kinds"
+			],
 			"properties": {
 				"id": {
-					"type": "string"
+					"type": "string",
+					"pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+					"minLength": 1
 				},
 				"displayName": {
-					"type": "string"
+					"type": "string",
+					"minLength": 1
 				},
 				"kinds": {
 					"type": "array",
+					"minItems": 1,
 					"uniqueItems": true,
 					"items": {
 						"enum": [
@@ -940,13 +1047,19 @@
 		"iphoneMeasurementRange": {
 			"type": "object",
 			"additionalProperties": false,
-			"required": ["minimum", "maximum", "unit"],
+			"required": [
+				"minimum",
+				"maximum",
+				"unit"
+			],
 			"properties": {
 				"minimum": {
-					"type": "number"
+					"type": "number",
+					"minimum": 0
 				},
 				"maximum": {
-					"type": "number"
+					"type": "number",
+					"minimum": 0
 				},
 				"unit": {
 					"type": "string",
@@ -978,30 +1091,43 @@
 					]
 				},
 				"qualifier": {
-					"type": "string"
+					"type": "string",
+					"minLength": 1
 				}
 			}
 		},
 		"iphoneBatteryRuntime": {
 			"type": "object",
 			"additionalProperties": false,
-			"required": ["id", "activity", "hours"],
+			"required": [
+				"id",
+				"activity",
+				"hours"
+			],
 			"properties": {
 				"id": {
-					"type": "string"
+					"type": "string",
+					"pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+					"minLength": 1
 				},
 				"activity": {
-					"type": "string"
+					"type": "string",
+					"minLength": 1
 				},
 				"hours": {
-					"type": ["number", "null"],
+					"type": "number",
 					"minimum": 0
 				},
 				"qualifier": {
-					"type": "string"
+					"type": "string",
+					"minLength": 1
 				},
 				"network": {
-					"enum": ["Wi-Fi", "cellular", "offline", null]
+					"enum": [
+						"Wi-Fi",
+						"cellular",
+						"offline"
+					]
 				}
 			}
 		},
@@ -1012,13 +1138,12 @@
 				"portId",
 				"wiredFastCharge",
 				"wirelessCharging",
-				"wirelessStandards",
-				"fastChargeMinutesToPercent",
-				"adapterPowerW"
+				"wirelessStandards"
 			],
 			"properties": {
 				"portId": {
-					"type": ["string", "null"]
+					"type": "string",
+					"minLength": 1
 				},
 				"wiredFastCharge": {
 					"type": "boolean"
@@ -1030,35 +1155,38 @@
 					"type": "array",
 					"uniqueItems": true,
 					"items": {
-						"enum": ["MagSafe", "Qi", "Qi2", "inductive", "other"]
+						"enum": [
+							"MagSafe",
+							"Qi",
+							"Qi2",
+							"inductive",
+							"other"
+						]
 					}
 				},
 				"fastChargeMinutesToPercent": {
-					"anyOf": [
-						{
-							"type": "null"
+					"type": "object",
+					"additionalProperties": false,
+					"required": [
+						"minutes",
+						"percent"
+					],
+					"properties": {
+						"minutes": {
+							"type": "number",
+							"minimum": 0
 						},
-						{
-							"type": "object",
-							"additionalProperties": false,
-							"required": ["minutes", "percent"],
-							"properties": {
-								"minutes": {
-									"type": "number",
-									"minimum": 0
-								},
-								"percent": {
-									"type": "number",
-									"minimum": 0,
-									"maximum": 100
-								}
-							}
+						"percent": {
+							"type": "number",
+							"minimum": 0,
+							"maximum": 100
 						}
-					]
+					}
 				},
 				"adapterPowerW": {
-					"type": ["number", "null"],
-					"minimum": 0
+					"type": "number",
+					"minimum": 0,
+					"description": "Watts for the recommended fast-charge adapter. Omit when Apple states no adapter recommendation."
 				}
 			}
 		},
@@ -1079,18 +1207,31 @@
 					"type": "boolean"
 				},
 				"outputVoltageV": {
-					"type": ["number", "null"],
-					"minimum": 0
+					"type": [
+						"number",
+						"null"
+					],
+					"minimum": 0,
+					"description": "Volts. Apple ships no power adapter with iPhones and publishes no output specs; use null when not applicable."
 				},
 				"outputCurrentA": {
-					"type": ["number", "null"],
-					"minimum": 0
+					"type": [
+						"number",
+						"null"
+					],
+					"minimum": 0,
+					"description": "Amperes. Apple ships no power adapter with iPhones and publishes no output specs; use null when not applicable."
 				},
 				"outputPowerW": {
-					"type": ["number", "null"],
-					"minimum": 0
+					"type": [
+						"number",
+						"null"
+					],
+					"minimum": 0,
+					"description": "Watts. Apple ships no power adapter with iPhones and publishes no output specs; use null when not applicable."
 				},
 				"inputVoltageRangeV": {
+					"description": "Volts. Apple ships no power adapter with iPhones; use null when not applicable.",
 					"anyOf": [
 						{
 							"type": "null"
@@ -1098,7 +1239,10 @@
 						{
 							"type": "object",
 							"additionalProperties": false,
-							"required": ["minimum", "maximum"],
+							"required": [
+								"minimum",
+								"maximum"
+							],
 							"properties": {
 								"minimum": {
 									"type": "number",
@@ -1113,22 +1257,35 @@
 					]
 				},
 				"frequencyHz": {
-					"type": ["number", "null"],
-					"minimum": 0
+					"type": [
+						"number",
+						"null"
+					],
+					"minimum": 0,
+					"description": "Hertz. Apple ships no power adapter with iPhones and publishes no input specs; use null when not applicable."
 				},
 				"consumptionW": {
-					"type": ["number", "null"],
-					"minimum": 0
+					"type": [
+						"number",
+						"null"
+					],
+					"minimum": 0,
+					"description": "Watts. Apple publishes no power-consumption figures for iPhones; use null when unpublished."
 				}
 			}
 		},
 		"iphonePort": {
 			"type": "object",
 			"additionalProperties": false,
-			"required": ["id", "kind"],
+			"required": [
+				"id",
+				"kind"
+			],
 			"properties": {
 				"id": {
-					"type": "string"
+					"type": "string",
+					"pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+					"minLength": 1
 				},
 				"kind": {
 					"enum": [
@@ -1163,21 +1320,26 @@
 					"type": "boolean"
 				},
 				"maxPowerW": {
-					"type": ["number", "null"],
+					"type": "number",
+					"minimum": 0,
 					"description": "Watts"
 				},
 				"sourceNotes": {
-					"type": "string"
+					"type": "string",
+					"minLength": 1
 				}
 			}
 		},
 		"iphoneWifi": {
 			"type": "object",
 			"additionalProperties": false,
-			"required": ["standards"],
+			"required": [
+				"standards"
+			],
 			"properties": {
 				"standards": {
 					"type": "array",
+					"minItems": 1,
 					"uniqueItems": true,
 					"items": {
 						"enum": [
@@ -1191,10 +1353,12 @@
 					}
 				},
 				"chip": {
-					"type": "string"
+					"type": "string",
+					"minLength": 1
 				},
 				"MIMO": {
-					"type": "string"
+					"type": "string",
+					"minLength": 1
 				},
 				"simultaneousDualBand": {
 					"type": "boolean"
@@ -1204,7 +1368,9 @@
 		"iphoneBluetooth": {
 			"type": "object",
 			"additionalProperties": false,
-			"required": ["version"],
+			"required": [
+				"version"
+			],
 			"properties": {
 				"version": {
 					"enum": [
@@ -1221,19 +1387,27 @@
 		"iphoneCellular": {
 			"type": "object",
 			"additionalProperties": false,
-			"required": ["technologies"],
+			"required": [
+				"technologies"
+			],
 			"properties": {
 				"technologies": {
 					"type": "array",
+					"minItems": 1,
 					"uniqueItems": true,
 					"items": {
-						"enum": ["LTE", "5G sub-6", "5G mmWave"]
+						"enum": [
+							"LTE",
+							"5G sub-6",
+							"5G mmWave"
+						]
 					}
 				},
 				"bands": {
 					"type": "array",
 					"items": {
-						"type": "string"
+						"type": "string",
+						"minLength": 1
 					}
 				},
 				"eSIMOnly": {
@@ -1244,10 +1418,13 @@
 		"iphoneUwb": {
 			"type": "object",
 			"additionalProperties": false,
-			"required": ["chip"],
+			"required": [
+				"chip"
+			],
 			"properties": {
 				"chip": {
-					"type": "string"
+					"type": "string",
+					"minLength": 1
 				},
 				"secondGeneration": {
 					"type": "boolean"
@@ -1257,33 +1434,44 @@
 		"iphoneThread": {
 			"type": "object",
 			"additionalProperties": false,
-			"required": ["supported"],
+			"required": [
+				"supported"
+			],
 			"properties": {
 				"supported": {
 					"type": "boolean"
 				},
 				"role": {
-					"enum": ["endpoint", "border-router", "both", null]
+					"enum": [
+						"endpoint",
+						"border-router",
+						"both"
+					]
 				}
 			}
 		},
 		"iphoneInfrared": {
 			"type": "object",
 			"additionalProperties": false,
-			"required": ["present", "purpose"],
+			"required": [
+				"present"
+			],
 			"properties": {
 				"present": {
 					"type": "boolean"
 				},
 				"purpose": {
-					"type": ["string", "null"]
+					"type": "string",
+					"minLength": 1
 				}
 			}
 		},
 		"iphoneNearFieldCommunication": {
 			"type": "object",
 			"additionalProperties": false,
-			"required": ["present"],
+			"required": [
+				"present"
+			],
 			"properties": {
 				"present": {
 					"type": "boolean"
@@ -1299,7 +1487,9 @@
 		"iphoneGps": {
 			"type": "object",
 			"additionalProperties": false,
-			"required": ["present"],
+			"required": [
+				"present"
+			],
 			"properties": {
 				"present": {
 					"type": "boolean"
@@ -1309,8 +1499,16 @@
 				},
 				"systems": {
 					"type": "array",
+					"minItems": 1,
 					"items": {
-						"enum": ["GPS", "GLONASS", "Galileo", "QZSS", "BeiDou", "NavIC"]
+						"enum": [
+							"GPS",
+							"GLONASS",
+							"Galileo",
+							"QZSS",
+							"BeiDou",
+							"NavIC"
+						]
 					}
 				}
 			}
@@ -1318,10 +1516,14 @@
 		"iphoneMeasurement": {
 			"type": "object",
 			"additionalProperties": false,
-			"required": ["value", "unit"],
+			"required": [
+				"value",
+				"unit"
+			],
 			"properties": {
 				"value": {
-					"type": ["number", "null"]
+					"type": "number",
+					"exclusiveMinimum": 0
 				},
 				"unit": {
 					"type": "string",
@@ -1353,20 +1555,29 @@
 					]
 				},
 				"qualifier": {
-					"type": "string"
+					"type": "string",
+					"minLength": 1
 				}
 			}
 		},
 		"iphonePhysicalComponent": {
 			"type": "object",
 			"additionalProperties": false,
-			"required": ["id", "displayName", "dimensions", "weight"],
+			"required": [
+				"id",
+				"displayName",
+				"dimensions",
+				"weight"
+			],
 			"properties": {
 				"id": {
-					"type": "string"
+					"type": "string",
+					"pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+					"minLength": 1
 				},
 				"displayName": {
-					"type": "string"
+					"type": "string",
+					"minLength": 1
 				},
 				"dimensions": {
 					"type": "array",
@@ -1375,42 +1586,63 @@
 					}
 				},
 				"weight": {
-					"type": ["number", "null"],
-					"minimum": 0
+					"type": [
+						"number",
+						"null"
+					],
+					"minimum": 0,
+					"description": "Component mass in weightUnit. Apple publishes no per-component weights; use null when unpublished."
 				},
 				"weightUnit": {
-					"enum": ["g", "kg", "oz", "lb", null]
+					"enum": [
+						"g",
+						"kg",
+						"oz",
+						"lb",
+						null
+					],
+					"description": "Unit for weight. Null only when weight is null (Apple publishes no per-component weights)."
 				},
 				"sourceNotes": {
-					"type": "string"
+					"type": "string",
+					"minLength": 1
 				}
 			}
 		},
 		"iphoneConfiguration": {
 			"type": "object",
 			"additionalProperties": false,
-			"required": ["id"],
+			"required": [
+				"id"
+			],
 			"properties": {
 				"id": {
 					"type": "string",
 					"pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
 				},
 				"displayName": {
-					"type": "string"
+					"type": "string",
+					"minLength": 1
 				},
 				"colorIds": {
 					"type": "array",
 					"items": {
-						"type": "string"
+						"type": "string",
+						"pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+						"minLength": 1
 					}
 				},
 				"storageId": {
-					"type": "string"
+					"type": "string",
+					"pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+					"minLength": 1
 				},
 				"memoryIds": {
 					"type": "array",
 					"items": {
-						"type": "string"
+						"type": "string",
+						"pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+						"minLength": 1
 					}
 				},
 				"connectivity": {
@@ -1423,37 +1655,54 @@
 					]
 				},
 				"chipId": {
-					"type": "string"
+					"type": "string",
+					"pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+					"minLength": 1
 				},
 				"priceAud": {
-					"type": ["number", "null"],
-					"minimum": 0
+					"type": "number",
+					"exclusiveMinimum": 0
 				},
 				"sourceNotes": {
-					"type": "string"
+					"type": "string",
+					"minLength": 1
 				}
 			}
 		},
 		"iphoneAccessoryReference": {
 			"type": "object",
 			"additionalProperties": false,
-			"required": ["accessoryId", "displayName", "category"],
+			"required": [
+				"accessoryId",
+				"displayName",
+				"category"
+			],
 			"properties": {
 				"accessoryId": {
 					"type": "string",
 					"pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
 				},
 				"displayName": {
-					"type": "string"
+					"type": "string",
+					"minLength": 1
 				},
 				"category": {
 					"type": "string",
-					"enum": ["MagSafe", "case", "cable", "adapter", "Apple Pencil", "other"]
+					"enum": [
+						"MagSafe",
+						"case",
+						"cable",
+						"adapter",
+						"Apple Pencil",
+						"other"
+					]
 				},
 				"capabilities": {
 					"type": "array",
+					"minItems": 1,
 					"items": {
-						"type": "string"
+						"type": "string",
+						"minLength": 1
 					}
 				}
 			}

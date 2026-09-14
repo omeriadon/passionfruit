@@ -237,7 +237,7 @@
 			"properties": {
 				"id": { "$ref": "#/$defs/identifier" },
 				"displayName": { "type": "string", "minLength": 1 },
-				"introducedYear": { "type": "integer", "minimum": 2000 },
+				"introducedYear": { "type": "integer", "minimum": 2000, "maximum": 2100 },
 				"current": { "type": "boolean" },
 				"startingPriceAud": { "type": "number", "minimum": 0 },
 				"technicalSpecificationsUrl": { "type": "string", "format": "uri" },
