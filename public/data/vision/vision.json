@@ -4,7 +4,7 @@
 			"id": "apple-vision-pro-m5",
 			"name": "Apple Vision Pro",
 			"releaseYear": 2025,
-			"priceAud": null,
+			"priceAud": 6299,
 			"colors": [
 				{
 					"id": "light-grey-accessory",
@@ -163,84 +163,84 @@
 					},
 					"images": [
 						{
-							"label": "white 30W USB‑C Power Adapter large 1x",
+							"label": "white 30W USB\u2011C Power Adapter large 1x",
 							"appleUrl": "https://www.apple.com/au/apple-vision-pro/images/specs/itb_power_adapter__f5hdx5rxxnqm_large.jpg",
 							"localPath": "public/data/vision/images/itb_power_adapter__f5hdx5rxxnqm_large.jpg",
 							"widthPx": 137,
 							"heightPx": 100
 						},
 						{
-							"label": "white 30W USB‑C Power Adapter large 2x",
+							"label": "white 30W USB\u2011C Power Adapter large 2x",
 							"appleUrl": "https://www.apple.com/au/apple-vision-pro/images/specs/itb_power_adapter__f5hdx5rxxnqm_large_2x.jpg",
 							"localPath": "public/data/vision/images/itb_power_adapter__f5hdx5rxxnqm_large_2x.jpg",
 							"widthPx": 274,
 							"heightPx": 200
 						},
 						{
-							"label": "white 30W USB‑C Power Adapter medium 1x",
+							"label": "white 30W USB\u2011C Power Adapter medium 1x",
 							"appleUrl": "https://www.apple.com/au/apple-vision-pro/images/specs/itb_power_adapter__f5hdx5rxxnqm_medium.jpg",
 							"localPath": "public/data/vision/images/itb_power_adapter__f5hdx5rxxnqm_medium.jpg",
 							"widthPx": 137,
 							"heightPx": 100
 						},
 						{
-							"label": "white 30W USB‑C Power Adapter medium 2x",
+							"label": "white 30W USB\u2011C Power Adapter medium 2x",
 							"appleUrl": "https://www.apple.com/au/apple-vision-pro/images/specs/itb_power_adapter__f5hdx5rxxnqm_medium_2x.jpg",
 							"localPath": "public/data/vision/images/itb_power_adapter__f5hdx5rxxnqm_medium_2x.jpg",
 							"widthPx": 274,
 							"heightPx": 200
 						},
 						{
-							"label": "white 30W USB‑C Power Adapter small 1x",
+							"label": "white 30W USB\u2011C Power Adapter small 1x",
 							"appleUrl": "https://www.apple.com/au/apple-vision-pro/images/specs/itb_power_adapter__f5hdx5rxxnqm_small.jpg",
 							"localPath": "public/data/vision/images/itb_power_adapter__f5hdx5rxxnqm_small.jpg",
 							"widthPx": 124,
 							"heightPx": 92
 						},
 						{
-							"label": "white 30W USB‑C Power Adapter small 2x",
+							"label": "white 30W USB\u2011C Power Adapter small 2x",
 							"appleUrl": "https://www.apple.com/au/apple-vision-pro/images/specs/itb_power_adapter__f5hdx5rxxnqm_small_2x.jpg",
 							"localPath": "public/data/vision/images/itb_power_adapter__f5hdx5rxxnqm_small_2x.jpg",
 							"widthPx": 248,
 							"heightPx": 184
 						},
 						{
-							"label": "white USB‑C Charge Cable (1.5 m) large 1x",
+							"label": "white USB\u2011C Charge Cable (1.5 m) large 1x",
 							"appleUrl": "https://www.apple.com/v/apple-vision-pro/j/images/specs/itb_charge_cable__fwq1ox0tq0ii_large.jpg",
 							"localPath": "public/data/vision/images/itb_charge_cable__fwq1ox0tq0ii_large.jpg",
 							"widthPx": 69,
 							"heightPx": 114
 						},
 						{
-							"label": "white USB‑C Charge Cable (1.5 m) large 2x",
+							"label": "white USB\u2011C Charge Cable (1.5 m) large 2x",
 							"appleUrl": "https://www.apple.com/v/apple-vision-pro/j/images/specs/itb_charge_cable__fwq1ox0tq0ii_large_2x.jpg",
 							"localPath": "public/data/vision/images/itb_charge_cable__fwq1ox0tq0ii_large_2x.jpg",
 							"widthPx": 138,
 							"heightPx": 228
 						},
 						{
-							"label": "white USB‑C Charge Cable (1.5 m) medium 1x",
+							"label": "white USB\u2011C Charge Cable (1.5 m) medium 1x",
 							"appleUrl": "https://www.apple.com/v/apple-vision-pro/j/images/specs/itb_charge_cable__fwq1ox0tq0ii_medium.jpg",
 							"localPath": "public/data/vision/images/itb_charge_cable__fwq1ox0tq0ii_medium.jpg",
 							"widthPx": 68,
 							"heightPx": 112
 						},
 						{
-							"label": "white USB‑C Charge Cable (1.5 m) medium 2x",
+							"label": "white USB\u2011C Charge Cable (1.5 m) medium 2x",
 							"appleUrl": "https://www.apple.com/v/apple-vision-pro/j/images/specs/itb_charge_cable__fwq1ox0tq0ii_medium_2x.jpg",
 							"localPath": "public/data/vision/images/itb_charge_cable__fwq1ox0tq0ii_medium_2x.jpg",
 							"widthPx": 136,
 							"heightPx": 224
 						},
 						{
-							"label": "white USB‑C Charge Cable (1.5 m) small 1x",
+							"label": "white USB\u2011C Charge Cable (1.5 m) small 1x",
 							"appleUrl": "https://www.apple.com/v/apple-vision-pro/j/images/specs/itb_charge_cable__fwq1ox0tq0ii_small.jpg",
 							"localPath": "public/data/vision/images/itb_charge_cable__fwq1ox0tq0ii_small.jpg",
 							"widthPx": 62,
 							"heightPx": 100
 						},
 						{
-							"label": "white USB‑C Charge Cable (1.5 m) small 2x",
+							"label": "white USB\u2011C Charge Cable (1.5 m) small 2x",
 							"appleUrl": "https://www.apple.com/v/apple-vision-pro/j/images/specs/itb_charge_cable__fwq1ox0tq0ii_small_2x.jpg",
 							"localPath": "public/data/vision/images/itb_charge_cable__fwq1ox0tq0ii_small_2x.jpg",
 							"widthPx": 124,
@@ -307,7 +307,7 @@
 					"gpuCores": 10,
 					"neuralEngineCores": 16,
 					"memoryBandwidthGbps": 153,
-					"cpuCoreConfiguration": "10‑core CPU with 4 super cores and 6 efficiency cores",
+					"cpuCoreConfiguration": "10\u2011core CPU with 4 super cores and 6 efficiency cores",
 					"neuralAccelerators": true,
 					"hardwareRayTracing": true
 				},
@@ -332,7 +332,7 @@
 					},
 					"wideColorP3": true,
 					"mirroring": true,
-					"sourceNotes": "23 million pixels; 7.5‑micron pixel pitch; supported refresh rates also include 96Hz and 100Hz; supports playback multiples of 24 fps and 30 fps for judder‑free video. Video mirroring: Up to 720p AirPlay for mirroring your view in Apple Vision Pro to any AirPlay‑enabled device, including iPhone, iPad, Mac, Apple TV (2nd generation or later) or AirPlay‑enabled smart TV."
+					"sourceNotes": "23 million pixels; 7.5\u2011micron pixel pitch; supported refresh rates also include 96Hz and 100Hz; supports playback multiples of 24 fps and 30 fps for judder\u2011free video. Video mirroring: Up to 720p AirPlay for mirroring your view in Apple Vision Pro to any AirPlay\u2011enabled device, including iPhone, iPad, Mac, Apple TV (2nd generation or later) or AirPlay\u2011enabled smart TV."
 				}
 			],
 			"cameras": [
@@ -376,7 +376,7 @@
 			"audio": {
 				"speaker": true,
 				"microphone": true,
-				"microphoneConfiguration": "Six‑mic array with directional beamforming",
+				"microphoneConfiguration": "Six\u2011mic array with directional beamforming",
 				"spatialAudio": true,
 				"formats": [
 					"AAC",
@@ -387,14 +387,14 @@
 					"Dolby Digital Plus",
 					"Dolby Atmos",
 					"HEVC",
-					"MV‑HEVC",
+					"MV\u2011HEVC",
 					"H.264",
 					"AV1",
 					"HDR with Dolby Vision",
 					"HDR10",
 					"HLG"
 				],
-				"sourceNotes": "Personalised Spatial Audio and audio ray tracing. Supports H2‑to‑H2 ultra‑low‑latency connection to AirPods Pro 2 with USB‑C, AirPods Pro 3 and AirPods 4. Audio playback formats are AAC through Dolby Atmos; video playback formats are HEVC through HLG."
+				"sourceNotes": "Personalised Spatial Audio and audio ray tracing. Supports H2\u2011to\u2011H2 ultra\u2011low\u2011latency connection to AirPods Pro 2 with USB\u2011C, AirPods Pro 3 and AirPods 4. Audio playback formats are AAC through Dolby Atmos; video playback formats are HEVC through HLG."
 			},
 			"batteryAndPower": {
 				"battery": {
@@ -447,14 +447,14 @@
 					"available": true,
 					"description": "Iris-based biometric authentication secured by the Secure Enclave."
 				},
-				"sourceNotes": "Iris‑based biometric authentication. Optic ID data is encrypted and accessible only to the Secure Enclave processor. Secures personal data within apps. Make purchases from the iTunes Store and App Store."
+				"sourceNotes": "Iris\u2011based biometric authentication. Optic ID data is encrypted and accessible only to the Secure Enclave processor. Secures personal data within apps. Make purchases from the iTunes Store and App Store."
 			},
 			"physical": {
 				"weights": [
 					{
 						"value": 750,
 						"unit": "g",
-						"qualifier": "minimum device weight; range 750–800 grams (26.4–28.2 ounces); weight includes Light Seal and counterbalanced Dual Knit Band and can vary depending on configuration"
+						"qualifier": "minimum device weight; range 750\u2013800 grams (26.4\u201328.2 ounces); weight includes Light Seal and counterbalanced Dual Knit Band and can vary depending on configuration"
 					},
 					{
 						"value": 353,
@@ -466,7 +466,7 @@
 					{
 						"value": 51,
 						"unit": "mm",
-						"qualifier": "minimum interpupillary distance; supported range is 51–75 mm"
+						"qualifier": "minimum interpupillary distance; supported range is 51\u201375 mm"
 					}
 				],
 				"components": [
@@ -583,12 +583,12 @@
 					"accessoryId": "polishing-cloth"
 				},
 				{
-					"displayName": "30W USB‑C Power Adapter",
+					"displayName": "30W USB\u2011C Power Adapter",
 					"category": "adapter",
 					"accessoryId": "30w-usb-c-power-adapter"
 				},
 				{
-					"displayName": "USB‑C Charge Cable (1.5 m)",
+					"displayName": "USB\u2011C Charge Cable (1.5 m)",
 					"category": "cable",
 					"accessoryId": "usb-c-charge-cable-1-5-m"
 				}

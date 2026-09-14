@@ -2253,7 +2253,7 @@
 			"id": "macbook-air-13-in-m3",
 			"name": "MacBook Air 13-in. (M3)",
 			"releaseYear": 2023,
-			"priceAud": null,
+			"priceAud": 1799,
 			"colors": [
 				{
 					"id": "midnight",
@@ -2533,7 +2533,7 @@
 			"id": "macbook-air-13-in-m4",
 			"name": "MacBook Air 13-in. (M4)",
 			"releaseYear": 2024,
-			"priceAud": null,
+			"priceAud": 1699,
 			"colors": [
 				{
 					"id": "sky-blue",
@@ -2791,7 +2791,7 @@
 			"id": "mac-studio-m3-ultra",
 			"name": "Mac Studio (M3 Ultra)",
 			"releaseYear": 2025,
-			"priceAud": null,
+			"priceAud": 6999,
 			"colors": [
 				{
 					"id": "silver",
@@ -2906,7 +2906,7 @@
 			"displays": [
 				{
 					"id": "display-not-available",
-					"technology": "— Not available",
+					"technology": "\u2014 Not available",
 					"sizeIn": 0,
 					"trueTone": false,
 					"wideColorP3": false
@@ -2916,9 +2916,9 @@
 				{
 					"id": "camera-0",
 					"role": "other",
-					"displayName": "— Not available",
+					"displayName": "\u2014 Not available",
 					"centerStage": false,
-					"sourceNotes": "— Not available"
+					"sourceNotes": "\u2014 Not available"
 				}
 			],
 			"audio": {
@@ -3022,7 +3022,7 @@
 			"id": "macbook-air-13-in-m2",
 			"name": "MacBook Air 13-in. (M2)",
 			"releaseYear": 2022,
-			"priceAud": null,
+			"priceAud": 1899,
 			"colors": [
 				{
 					"id": "midnight",
@@ -3329,7 +3329,7 @@
 			"id": "macbook-air-13-in-m1-2020",
 			"name": "MacBook Air 13-in. (M1, 2020)",
 			"releaseYear": 2020,
-			"priceAud": null,
+			"priceAud": 1599,
 			"colors": [
 				{
 					"id": "space-grey",
@@ -3597,7 +3597,7 @@
 			"id": "imac-24-in-m1-two-ports-2021",
 			"name": "iMac 24-in. (M1, two ports, 2021)",
 			"releaseYear": 2021,
-			"priceAud": null,
+			"priceAud": 1899,
 			"colors": [
 				{
 					"id": "blue",
@@ -7503,8 +7503,8 @@
 				"speaker": true,
 				"microphone": true,
 				"spatialAudio": true,
-				"speakerConfiguration": "gridcell\" class=\"first-child compare-column template-item-default\" > High‑fidelity six‑speaker system with force‑cancelling woofers Wide stereo sound <div",
-				"sourceNotes": "gridcell\" class=\"first-child compare-column template-item-default\" > High‑fidelity six‑speaker system with force‑cancelling woofers Wide stereo sound <div; gridcell\" class=\"first-child compare-column template-item-default\" > Support for Spatial Audio when playing music or video with Dolby Atmos <div; gridcell\" class=\"first-child compare-column template-item-default\" > Studio-quality three-mic array with high signal-to-noise ratio and directional beamforming <div"
+				"speakerConfiguration": "gridcell\" class=\"first-child compare-column template-item-default\" > High\u2011fidelity six\u2011speaker system with force\u2011cancelling woofers Wide stereo sound <div",
+				"sourceNotes": "gridcell\" class=\"first-child compare-column template-item-default\" > High\u2011fidelity six\u2011speaker system with force\u2011cancelling woofers Wide stereo sound <div; gridcell\" class=\"first-child compare-column template-item-default\" > Support for Spatial Audio when playing music or video with Dolby Atmos <div; gridcell\" class=\"first-child compare-column template-item-default\" > Studio-quality three-mic array with high signal-to-noise ratio and directional beamforming <div"
 			},
 			"batteryAndPower": {
 				"battery": {
@@ -8089,8 +8089,8 @@
 				"speaker": true,
 				"microphone": true,
 				"spatialAudio": true,
-				"speakerConfiguration": "gridcell\" class=\"first-child compare-column template-item-default\" > High‑fidelity six‑speaker system with force‑cancelling woofers Wide stereo sound <div",
-				"sourceNotes": "gridcell\" class=\"first-child compare-column template-item-default\" > High‑fidelity six‑speaker system with force‑cancelling woofers Wide stereo sound <div; gridcell\" class=\"first-child compare-column template-item-default\" > Support for Spatial Audio when playing music or video with Dolby Atmos <div; gridcell\" class=\"first-child compare-column template-item-default\" > Studio-quality three-mic array with high signal-to-noise ratio and directional beamforming <div"
+				"speakerConfiguration": "gridcell\" class=\"first-child compare-column template-item-default\" > High\u2011fidelity six\u2011speaker system with force\u2011cancelling woofers Wide stereo sound <div",
+				"sourceNotes": "gridcell\" class=\"first-child compare-column template-item-default\" > High\u2011fidelity six\u2011speaker system with force\u2011cancelling woofers Wide stereo sound <div; gridcell\" class=\"first-child compare-column template-item-default\" > Support for Spatial Audio when playing music or video with Dolby Atmos <div; gridcell\" class=\"first-child compare-column template-item-default\" > Studio-quality three-mic array with high signal-to-noise ratio and directional beamforming <div"
 			},
 			"batteryAndPower": {
 				"battery": {
@@ -8573,8 +8573,8 @@
 				"speaker": true,
 				"microphone": true,
 				"spatialAudio": true,
-				"speakerConfiguration": "gridcell\" class=\"first-child compare-column template-item-default\" > — Not available <div",
-				"sourceNotes": "gridcell\" class=\"first-child compare-column template-item-default\" > — Not available <div; gridcell\" class=\"first-child compare-column template-item-default\" > Authorise payments on the web <div; gridcell\" class=\"first-child compare-column template-item-default\" > FaceTime video <div"
+				"speakerConfiguration": "gridcell\" class=\"first-child compare-column template-item-default\" > \u2014 Not available <div",
+				"sourceNotes": "gridcell\" class=\"first-child compare-column template-item-default\" > \u2014 Not available <div; gridcell\" class=\"first-child compare-column template-item-default\" > Authorise payments on the web <div; gridcell\" class=\"first-child compare-column template-item-default\" > FaceTime video <div"
 			},
 			"batteryAndPower": {
 				"battery": null,
@@ -8668,8 +8668,8 @@
 				"speaker": true,
 				"microphone": true,
 				"spatialAudio": true,
-				"speakerConfiguration": "gridcell\" class=\"compare-column template-item-default\" > — Not available <div",
-				"sourceNotes": "gridcell\" class=\"compare-column template-item-default\" > — Not available <div; gridcell\" class=\"compare-column template-item-default\" > Authorise payments on the web <div; gridcell\" class=\"compare-column template-item-default\" > FaceTime video <div"
+				"speakerConfiguration": "gridcell\" class=\"compare-column template-item-default\" > \u2014 Not available <div",
+				"sourceNotes": "gridcell\" class=\"compare-column template-item-default\" > \u2014 Not available <div; gridcell\" class=\"compare-column template-item-default\" > Authorise payments on the web <div; gridcell\" class=\"compare-column template-item-default\" > FaceTime video <div"
 			},
 			"batteryAndPower": {
 				"battery": null,
@@ -8858,8 +8858,8 @@
 				"speaker": true,
 				"microphone": true,
 				"spatialAudio": true,
-				"speakerConfiguration": "gridcell\" class=\"first-child compare-column template-item-default\" > — Not available <div",
-				"sourceNotes": "gridcell\" class=\"first-child compare-column template-item-default\" > — Not available <div; gridcell\" class=\"first-child compare-column template-item-default\" > Authorise payments on the web <div; gridcell\" class=\"first-child compare-column template-item-default\" > FaceTime video <div"
+				"speakerConfiguration": "gridcell\" class=\"first-child compare-column template-item-default\" > \u2014 Not available <div",
+				"sourceNotes": "gridcell\" class=\"first-child compare-column template-item-default\" > \u2014 Not available <div; gridcell\" class=\"first-child compare-column template-item-default\" > Authorise payments on the web <div; gridcell\" class=\"first-child compare-column template-item-default\" > FaceTime video <div"
 			},
 			"batteryAndPower": {
 				"battery": null,
@@ -8953,8 +8953,8 @@
 				"speaker": true,
 				"microphone": true,
 				"spatialAudio": true,
-				"speakerConfiguration": "gridcell\" class=\"compare-column template-item-default\" > — Not available <div",
-				"sourceNotes": "gridcell\" class=\"compare-column template-item-default\" > — Not available <div; gridcell\" class=\"compare-column template-item-default\" > Authorise payments on the web <div; gridcell\" class=\"compare-column template-item-default\" > FaceTime video <div"
+				"speakerConfiguration": "gridcell\" class=\"compare-column template-item-default\" > \u2014 Not available <div",
+				"sourceNotes": "gridcell\" class=\"compare-column template-item-default\" > \u2014 Not available <div; gridcell\" class=\"compare-column template-item-default\" > Authorise payments on the web <div; gridcell\" class=\"compare-column template-item-default\" > FaceTime video <div"
 			},
 			"batteryAndPower": {
 				"battery": null,
@@ -9083,7 +9083,7 @@
 			"id": "mac-mini-m1-2020",
 			"name": "Mac mini (M1, 2020)",
 			"releaseYear": 2020,
-			"priceAud": null,
+			"priceAud": 1099,
 			"colors": [
 				{
 					"id": "gridcell-class-compare-column-first-child",
@@ -9229,7 +9229,7 @@
 				"microphone": true,
 				"spatialAudio": true,
 				"speakerConfiguration": "gridcell\" class=\"first-child compare-column template-item-default\" > Three-mic array with directional beamforming Voice Isolation and Wide Spectrum microphone modes Enhanced voice clarity in audio and video calls <div",
-				"sourceNotes": "gridcell\" class=\"first-child compare-column template-item-default\" > Three-mic array with directional beamforming Voice Isolation and Wide Spectrum microphone modes Enhanced voice clarity in audio and video calls <div; gridcell\" class=\"first-child compare-column template-item-default\" > 3.5-mm headphone jack with advanced support for high-impedance headphones <div; gridcell\" class=\"first-child compare-column template-item-default\" > — Not available <div"
+				"sourceNotes": "gridcell\" class=\"first-child compare-column template-item-default\" > Three-mic array with directional beamforming Voice Isolation and Wide Spectrum microphone modes Enhanced voice clarity in audio and video calls <div; gridcell\" class=\"first-child compare-column template-item-default\" > 3.5-mm headphone jack with advanced support for high-impedance headphones <div; gridcell\" class=\"first-child compare-column template-item-default\" > \u2014 Not available <div"
 			},
 			"batteryAndPower": {
 				"battery": {
@@ -9277,7 +9277,7 @@
 			"id": "mac-mini-intel-2018",
 			"name": "Mac mini (Intel, 2018)",
 			"releaseYear": 2018,
-			"priceAud": null,
+			"priceAud": 1249,
 			"colors": [
 				{
 					"id": "gridcell-class-compare-column",
@@ -9433,7 +9433,7 @@
 				"microphone": true,
 				"spatialAudio": true,
 				"speakerConfiguration": "gridcell\" class=\"compare-column template-item-default\" > Three-mic array with directional beamforming Voice Isolation and Wide Spectrum microphone modes Enhanced voice clarity in audio and video calls <div",
-				"sourceNotes": "gridcell\" class=\"compare-column template-item-default\" > Three-mic array with directional beamforming Voice Isolation and Wide Spectrum microphone modes Enhanced voice clarity in audio and video calls <div; gridcell\" class=\"compare-column template-item-default\" > 3.5-mm headphone jack with advanced support for high-impedance headphones <div; gridcell\" class=\"compare-column template-item-default\" > — Not available <div"
+				"sourceNotes": "gridcell\" class=\"compare-column template-item-default\" > Three-mic array with directional beamforming Voice Isolation and Wide Spectrum microphone modes Enhanced voice clarity in audio and video calls <div; gridcell\" class=\"compare-column template-item-default\" > 3.5-mm headphone jack with advanced support for high-impedance headphones <div; gridcell\" class=\"compare-column template-item-default\" > \u2014 Not available <div"
 			},
 			"batteryAndPower": {
 				"battery": {
@@ -9566,7 +9566,7 @@
 			"displays": [
 				{
 					"id": "display-unknown-gridcell-class-compare-column-template-item-default-not-available",
-					"technology": "gridcell\" class=\"compare-column template-item-default\" > — Not available",
+					"technology": "gridcell\" class=\"compare-column template-item-default\" > \u2014 Not available",
 					"trueTone": true,
 					"promotion": false,
 					"wideColorP3": false
@@ -9576,16 +9576,16 @@
 				{
 					"id": "camera-facetime-hd",
 					"role": "FaceTime",
-					"displayName": "gridcell\" class=\"compare-column template-item-default\" > — Not available",
-					"sourceNotes": "gridcell\" class=\"compare-column template-item-default\" > — Not available"
+					"displayName": "gridcell\" class=\"compare-column template-item-default\" > \u2014 Not available",
+					"sourceNotes": "gridcell\" class=\"compare-column template-item-default\" > \u2014 Not available"
 				}
 			],
 			"audio": {
 				"speaker": true,
 				"microphone": true,
 				"spatialAudio": true,
-				"speakerConfiguration": "gridcell\" class=\"compare-column template-item-default\" > — Not available",
-				"sourceNotes": "gridcell\" class=\"compare-column template-item-default\" > — Not available; gridcell\" class=\"compare-column template-item-default\" > 3.5-mm headphone jack with advanced support for high-impedance headphones; gridcell\" class=\"compare-column template-item-default\" > HDMI port supports multichannel audio output"
+				"speakerConfiguration": "gridcell\" class=\"compare-column template-item-default\" > \u2014 Not available",
+				"sourceNotes": "gridcell\" class=\"compare-column template-item-default\" > \u2014 Not available; gridcell\" class=\"compare-column template-item-default\" > 3.5-mm headphone jack with advanced support for high-impedance headphones; gridcell\" class=\"compare-column template-item-default\" > HDMI port supports multichannel audio output"
 			},
 			"batteryAndPower": {
 				"battery": {
@@ -9650,7 +9650,7 @@
 			"id": "macbook-pro-16-in-m3-pro-or-m3-max",
 			"name": "MacBook Pro 16-in. (M3 Pro or M3 Max)",
 			"releaseYear": 2023,
-			"priceAud": null,
+			"priceAud": 4299,
 			"colors": [
 				{
 					"id": "space-black",
@@ -9736,7 +9736,7 @@
 			"id": "macbook-pro-16-in-m2-pro-or-m2-max-2023",
 			"name": "MacBook Pro 16-in. (M2 Pro or M2 Max, 2023)",
 			"releaseYear": 2023,
-			"priceAud": null,
+			"priceAud": 3999,
 			"colors": [
 				{
 					"id": "space-gray",
@@ -9822,7 +9822,7 @@
 			"id": "macbook-pro-14-in-m1-pro-or-m1-max-2021",
 			"name": "MacBook Pro 14-in. (M1 Pro or M1 Max, 2021)",
 			"releaseYear": 2021,
-			"priceAud": null,
+			"priceAud": 2999,
 			"colors": [
 				{
 					"id": "space-gray",
@@ -9908,7 +9908,7 @@
 			"id": "macbook-pro-16-in-m1-pro-or-m1-max-2021",
 			"name": "MacBook Pro 16-in. (M1 Pro or M1 Max, 2021)",
 			"releaseYear": 2021,
-			"priceAud": null,
+			"priceAud": 3749,
 			"colors": [],
 			"configurations": [],
 			"storageOptions": [
