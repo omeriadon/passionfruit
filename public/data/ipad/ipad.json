@@ -69,7 +69,6 @@
 				{
 					"id": "ipad-pro-13-m5-display",
 					"technology": "Ultra Retina XDR display",
-					"panelKind": null,
 					"sizeIn": 13,
 					"resolutionWidthPx": 2752,
 					"resolutionHeightPx": 2064,
@@ -144,7 +143,6 @@
 						"id": "ipad-pro-13-m5-port-usb-c",
 						"kind": "USB-C",
 						"supportsDisplayOut": true,
-						"maxPowerW": null,
 						"sourceNotes": "Source wording is Thunderbolt/USB 4. USB 4 is retained as the explicit non-exclusive protocol standard; Thunderbolt capability remains described in this note.",
 						"standard": "USB 4"
 					},
@@ -152,7 +150,6 @@
 						"id": "ipad-pro-13-m5-port-smart",
 						"kind": "Smart Connector",
 						"supportsDisplayOut": false,
-						"maxPowerW": null,
 						"sourceNotes": "Standard set to proprietary because Smart Connector has no USB protocol standard. Standard omitted because Smart Connector has no USB protocol standard."
 					}
 				],
@@ -306,7 +303,6 @@
 				{
 					"id": "ipad-pro-11-m5-display",
 					"technology": "Ultra Retina XDR display",
-					"panelKind": null,
 					"sizeIn": 11,
 					"resolutionWidthPx": 2420,
 					"resolutionHeightPx": 1668,
@@ -381,7 +377,6 @@
 						"id": "ipad-pro-11-m5-port-usb-c",
 						"kind": "USB-C",
 						"supportsDisplayOut": true,
-						"maxPowerW": null,
 						"sourceNotes": "Source wording is Thunderbolt/USB 4. USB 4 is retained as the explicit non-exclusive protocol standard; Thunderbolt capability remains described in this note.",
 						"standard": "USB 4"
 					},
@@ -389,7 +384,6 @@
 						"id": "ipad-pro-11-m5-port-smart",
 						"kind": "Smart Connector",
 						"supportsDisplayOut": false,
-						"maxPowerW": null,
 						"sourceNotes": "Standard set to proprietary because Smart Connector has no USB protocol standard. Standard omitted because Smart Connector has no USB protocol standard."
 					}
 				],
@@ -508,7 +502,6 @@
 				{
 					"id": "ipad-air-13-m4-display",
 					"technology": "Liquid Retina display",
-					"panelKind": null,
 					"sizeIn": 13,
 					"resolutionWidthPx": 2732,
 					"resolutionHeightPx": 2048,
@@ -583,7 +576,6 @@
 						"id": "ipad-air-13-m4-port-usb-c",
 						"kind": "USB-C",
 						"supportsDisplayOut": true,
-						"maxPowerW": null,
 						"sourceNotes": "Source wording is Thunderbolt/USB 4. USB 4 is retained as the explicit non-exclusive protocol standard; Thunderbolt capability remains described in this note.",
 						"standard": "USB 4"
 					},
@@ -591,7 +583,6 @@
 						"id": "ipad-air-13-m4-port-smart",
 						"kind": "Smart Connector",
 						"supportsDisplayOut": false,
-						"maxPowerW": null,
 						"sourceNotes": "Standard set to proprietary because Smart Connector has no USB protocol standard. Standard omitted because Smart Connector has no USB protocol standard."
 					}
 				],
@@ -779,7 +770,6 @@
 				{
 					"id": "ipad-air-11-m4-display",
 					"technology": "Liquid Retina display",
-					"panelKind": null,
 					"sizeIn": 11,
 					"resolutionWidthPx": 2360,
 					"resolutionHeightPx": 1640,
@@ -854,7 +844,6 @@
 						"id": "ipad-air-11-m4-port-usb-c",
 						"kind": "USB-C",
 						"supportsDisplayOut": true,
-						"maxPowerW": null,
 						"sourceNotes": "Source wording is Thunderbolt/USB 4. USB 4 is retained as the explicit non-exclusive protocol standard; Thunderbolt capability remains described in this note.",
 						"standard": "USB 4"
 					},
@@ -862,7 +851,6 @@
 						"id": "ipad-air-11-m4-port-smart",
 						"kind": "Smart Connector",
 						"supportsDisplayOut": false,
-						"maxPowerW": null,
 						"sourceNotes": "Standard set to proprietary because Smart Connector has no USB protocol standard. Standard omitted because Smart Connector has no USB protocol standard."
 					}
 				],
@@ -916,7 +904,7 @@
 			"id": "ipad-a16",
 			"name": "iPad (A16)",
 			"releaseYear": 2025,
-			"priceAud": null,
+			"priceAud": 749,
 			"colors": [],
 			"configurations": [],
 			"storageOptions": [
@@ -968,7 +956,6 @@
 				{
 					"id": "ipad-a16-display",
 					"technology": "Liquid Retina display",
-					"panelKind": null,
 					"sizeIn": 11,
 					"resolutionWidthPx": 2360,
 					"resolutionHeightPx": 1640,
@@ -1043,7 +1030,6 @@
 						"id": "ipad-a16-port-usb-c",
 						"kind": "USB-C",
 						"supportsDisplayOut": true,
-						"maxPowerW": null,
 						"sourceNotes": "Source wording only says USB-C. The supplied exports do not state a protocol generation; USB 2 is an explicit unresolved placeholder and is not authoritative.",
 						"standard": "USB 2"
 					},
@@ -1051,7 +1037,6 @@
 						"id": "ipad-a16-port-smart",
 						"kind": "Smart Connector",
 						"supportsDisplayOut": false,
-						"maxPowerW": null,
 						"sourceNotes": "Standard set to proprietary because Smart Connector has no USB protocol standard. Standard omitted because Smart Connector has no USB protocol standard."
 					}
 				],
@@ -1105,7 +1090,7 @@
 			"id": "ipad-mini-a17-pro",
 			"name": "iPad mini (A17 Pro)",
 			"releaseYear": 2024,
-			"priceAud": null,
+			"priceAud": 949,
 			"colors": [],
 			"configurations": [],
 			"storageOptions": [
@@ -1157,7 +1142,6 @@
 				{
 					"id": "ipad-mini-a17-pro-display",
 					"technology": "Liquid Retina display",
-					"panelKind": null,
 					"sizeIn": 8.3,
 					"resolutionWidthPx": 2360,
 					"resolutionHeightPx": 1640,
@@ -1232,7 +1216,6 @@
 						"id": "ipad-mini-a17-pro-port-usb-c",
 						"kind": "USB-C",
 						"supportsDisplayOut": true,
-						"maxPowerW": null,
 						"sourceNotes": "Source wording only says USB-C. The supplied exports do not state a protocol generation; USB 2 is an explicit unresolved placeholder and is not authoritative.",
 						"standard": "USB 2"
 					}
@@ -1287,7 +1270,7 @@
 			"id": "ipad-pro-13-m4",
 			"name": "iPad Pro 13-inch (M4)",
 			"releaseYear": 2024,
-			"priceAud": null,
+			"priceAud": 2199,
 			"colors": [],
 			"configurations": [],
 			"storageOptions": [
@@ -1352,7 +1335,6 @@
 				{
 					"id": "ipad-pro-13-m4-display",
 					"technology": "Ultra Retina XDR display",
-					"panelKind": null,
 					"sizeIn": 13,
 					"resolutionWidthPx": 2266,
 					"resolutionHeightPx": 1488,
@@ -1421,7 +1403,6 @@
 						"id": "ipad-pro-13-m4-port-usb-c",
 						"kind": "USB-C",
 						"supportsDisplayOut": true,
-						"maxPowerW": null,
 						"sourceNotes": "Source wording is Thunderbolt/USB 4. USB 4 is retained as the explicit non-exclusive protocol standard; Thunderbolt capability remains described in this note.",
 						"standard": "USB 4"
 					},
@@ -1429,7 +1410,6 @@
 						"id": "ipad-pro-13-m4-port-smart",
 						"kind": "Smart Connector",
 						"supportsDisplayOut": false,
-						"maxPowerW": null,
 						"sourceNotes": "Standard set to proprietary because Smart Connector has no USB protocol standard. Standard omitted because Smart Connector has no USB protocol standard."
 					}
 				],
@@ -1477,7 +1457,7 @@
 			"id": "ipad-pro-12-9-6th-gen",
 			"name": "iPad Pro 12.9-inch (6th generation)",
 			"releaseYear": 2022,
-			"priceAud": null,
+			"priceAud": 1899,
 			"colors": [],
 			"configurations": [],
 			"storageOptions": [
@@ -1541,7 +1521,6 @@
 				{
 					"id": "ipad-pro-12-9-6th-gen-display",
 					"technology": "Liquid Retina XDR display",
-					"panelKind": null,
 					"sizeIn": 12.9,
 					"resolutionWidthPx": 2752,
 					"resolutionHeightPx": 2064,
@@ -1565,8 +1544,8 @@
 					"id": "ipad-pro-12-9-6th-gen-front-camera",
 					"role": "front",
 					"displayName": "TrueDepth camera with Ultra Wide camera",
-					"megapixels": null,
-					"sourceNotes": "Source display text does not state megapixels; camera presence and Apple display name retained."
+					"megapixels": 12,
+					"sourceNotes": "Front-camera megapixels from supplied Apple AU compare matrix row WwutNEDq (Front Camera: Ultra Wide): '12MP Ultra Wide front camera' in data/tmp/ipad/ipad-compare-au-2026.html (also present in data/tmp/ipad/ipad.html)."
 				}
 			],
 			"audio": {
@@ -1611,7 +1590,6 @@
 						"id": "ipad-pro-12-9-6th-gen-port-usb-c",
 						"kind": "USB-C",
 						"supportsDisplayOut": true,
-						"maxPowerW": null,
 						"sourceNotes": "Source wording is Thunderbolt/USB 4. USB 4 is retained as the explicit non-exclusive protocol standard; Thunderbolt capability remains described in this note.",
 						"standard": "USB 4"
 					},
@@ -1619,7 +1597,6 @@
 						"id": "ipad-pro-12-9-6th-gen-port-smart",
 						"kind": "Smart Connector",
 						"supportsDisplayOut": false,
-						"maxPowerW": null,
 						"sourceNotes": "Standard set to proprietary because Smart Connector has no USB protocol standard. Standard omitted because Smart Connector has no USB protocol standard."
 					}
 				],
@@ -1665,9 +1642,9 @@
 		},
 		{
 			"id": "ipad-pro-12-9-5th-gen",
-			"name": "iPad Pro 12.9‑inch (5th generation)",
+			"name": "iPad Pro 12.9\u2011inch (5th generation)",
 			"releaseYear": 2021,
-			"priceAud": null,
+			"priceAud": 1649,
 			"colors": [],
 			"configurations": [],
 			"storageOptions": [
@@ -1731,7 +1708,6 @@
 				{
 					"id": "ipad-pro-12-9-5th-gen-display",
 					"technology": "Liquid Retina XDR display",
-					"panelKind": null,
 					"sizeIn": 12.9,
 					"resolutionWidthPx": 2732,
 					"resolutionHeightPx": 2048,
@@ -1755,8 +1731,8 @@
 					"id": "ipad-pro-12-9-5th-gen-front-camera",
 					"role": "front",
 					"displayName": "TrueDepth camera with Ultra Wide camera",
-					"megapixels": null,
-					"sourceNotes": "Source display text does not state megapixels; camera presence and Apple display name retained."
+					"megapixels": 12,
+					"sourceNotes": "Front-camera megapixels from supplied Apple AU compare matrix row WwutNEDq (Front Camera: Ultra Wide): '12MP Ultra Wide front camera' in data/tmp/ipad/ipad-compare-au-2026.html (also present in data/tmp/ipad/ipad.html)."
 				}
 			],
 			"audio": {
@@ -1801,7 +1777,6 @@
 						"id": "ipad-pro-12-9-5th-gen-port-usb-c",
 						"kind": "USB-C",
 						"supportsDisplayOut": true,
-						"maxPowerW": null,
 						"sourceNotes": "Source wording is Thunderbolt/USB 4. USB 4 is retained as the explicit non-exclusive protocol standard; Thunderbolt capability remains described in this note.",
 						"standard": "USB 4"
 					},
@@ -1809,7 +1784,6 @@
 						"id": "ipad-pro-12-9-5th-gen-port-smart",
 						"kind": "Smart Connector",
 						"supportsDisplayOut": false,
-						"maxPowerW": null,
 						"sourceNotes": "Standard set to proprietary because Smart Connector has no USB protocol standard. Standard omitted because Smart Connector has no USB protocol standard."
 					}
 				],
@@ -1855,9 +1829,9 @@
 		},
 		{
 			"id": "ipad-pro-12-9-4th-gen",
-			"name": "iPad Pro 12.9‑inch (4th generation)",
+			"name": "iPad Pro 12.9\u2011inch (4th generation)",
 			"releaseYear": 2020,
-			"priceAud": null,
+			"priceAud": 1649,
 			"colors": [],
 			"configurations": [],
 			"storageOptions": [
@@ -1915,7 +1889,6 @@
 				{
 					"id": "ipad-pro-12-9-4th-gen-display",
 					"technology": "Liquid Retina display",
-					"panelKind": null,
 					"sizeIn": 12.9,
 					"resolutionWidthPx": 2732,
 					"resolutionHeightPx": 2048,
@@ -1939,8 +1912,8 @@
 					"id": "ipad-pro-12-9-4th-gen-front-camera",
 					"role": "front",
 					"displayName": "TrueDepth camera",
-					"megapixels": null,
-					"sourceNotes": "Source display text does not state megapixels; camera presence and Apple display name retained."
+					"megapixels": 7,
+					"sourceNotes": "Front-camera megapixels from supplied Apple AU compare matrix row WwutNEDq (Front Camera: Ultra Wide): '7MP front camera' in data/tmp/ipad/ipad-compare-au-2026.html (also present in data/tmp/ipad/ipad.html)."
 				}
 			],
 			"audio": {
@@ -1985,7 +1958,6 @@
 						"id": "ipad-pro-12-9-4th-gen-port-usb-c",
 						"kind": "USB-C",
 						"supportsDisplayOut": true,
-						"maxPowerW": null,
 						"sourceNotes": "Source wording is Thunderbolt/USB 4. USB 4 is retained as the explicit non-exclusive protocol standard; Thunderbolt capability remains described in this note.",
 						"standard": "USB 4"
 					},
@@ -1993,7 +1965,6 @@
 						"id": "ipad-pro-12-9-4th-gen-port-smart",
 						"kind": "Smart Connector",
 						"supportsDisplayOut": false,
-						"maxPowerW": null,
 						"sourceNotes": "Standard set to proprietary because Smart Connector has no USB protocol standard. Standard omitted because Smart Connector has no USB protocol standard."
 					}
 				],
@@ -2039,9 +2010,9 @@
 		},
 		{
 			"id": "ipad-pro-12-9-3rd-gen",
-			"name": "iPad Pro 12.9‑inch (3rd generation)",
+			"name": "iPad Pro 12.9\u2011inch (3rd generation)",
 			"releaseYear": 2018,
-			"priceAud": null,
+			"priceAud": 1529,
 			"colors": [],
 			"configurations": [],
 			"storageOptions": [
@@ -2099,7 +2070,6 @@
 				{
 					"id": "ipad-pro-12-9-3rd-gen-display",
 					"technology": "Liquid Retina display",
-					"panelKind": null,
 					"sizeIn": 12.9,
 					"resolutionWidthPx": 2732,
 					"resolutionHeightPx": 2048,
@@ -2123,8 +2093,8 @@
 					"id": "ipad-pro-12-9-3rd-gen-front-camera",
 					"role": "front",
 					"displayName": "TrueDepth camera",
-					"megapixels": null,
-					"sourceNotes": "Source display text does not state megapixels; camera presence and Apple display name retained."
+					"megapixels": 7,
+					"sourceNotes": "Front-camera megapixels from supplied Apple AU compare matrix row WwutNEDq (Front Camera: Ultra Wide): '7MP front camera' in data/tmp/ipad/ipad-compare-au-2026.html (also present in data/tmp/ipad/ipad.html)."
 				}
 			],
 			"audio": {
@@ -2169,7 +2139,6 @@
 						"id": "ipad-pro-12-9-3rd-gen-port-usb-c",
 						"kind": "USB-C",
 						"supportsDisplayOut": true,
-						"maxPowerW": null,
 						"sourceNotes": "Source wording is Thunderbolt/USB 4. USB 4 is retained as the explicit non-exclusive protocol standard; Thunderbolt capability remains described in this note.",
 						"standard": "USB 4"
 					},
@@ -2177,7 +2146,6 @@
 						"id": "ipad-pro-12-9-3rd-gen-port-smart",
 						"kind": "Smart Connector",
 						"supportsDisplayOut": false,
-						"maxPowerW": null,
 						"sourceNotes": "Standard set to proprietary because Smart Connector has no USB protocol standard. Standard omitted because Smart Connector has no USB protocol standard."
 					}
 				],
@@ -2223,9 +2191,9 @@
 		},
 		{
 			"id": "ipad-pro-12-9-2nd-gen",
-			"name": "iPad Pro 12.9‑inch (2nd generation)",
+			"name": "iPad Pro 12.9\u2011inch (2nd generation)",
 			"releaseYear": 2017,
-			"priceAud": null,
+			"priceAud": 1199,
 			"colors": [],
 			"configurations": [],
 			"storageOptions": [
@@ -2277,7 +2245,6 @@
 				{
 					"id": "ipad-pro-12-9-2nd-gen-display",
 					"technology": "Retina display",
-					"panelKind": null,
 					"sizeIn": 12.9,
 					"resolutionWidthPx": 2732,
 					"resolutionHeightPx": 2048,
@@ -2301,8 +2268,8 @@
 					"id": "ipad-pro-12-9-2nd-gen-front-camera",
 					"role": "front",
 					"displayName": "FaceTime HD camera",
-					"megapixels": null,
-					"sourceNotes": "Source display text does not state megapixels; camera presence and Apple display name retained."
+					"megapixels": 7,
+					"sourceNotes": "Front-camera megapixels from supplied Apple AU compare matrix row WwutNEDq (Front Camera: Ultra Wide): '7MP FaceTime HD camera' in data/tmp/ipad/ipad-compare-au-2026.html (also present in data/tmp/ipad/ipad.html)."
 				}
 			],
 			"audio": {
@@ -2353,7 +2320,6 @@
 						"id": "ipad-pro-12-9-2nd-gen-port-smart",
 						"kind": "Smart Connector",
 						"supportsDisplayOut": false,
-						"maxPowerW": null,
 						"sourceNotes": "Standard set to proprietary because Smart Connector has no USB protocol standard. Standard omitted because Smart Connector has no USB protocol standard."
 					}
 				],
@@ -2399,9 +2365,9 @@
 		},
 		{
 			"id": "ipad-pro-12-9-1st-gen",
-			"name": "iPad Pro 12.9‑inch (1st generation)",
+			"name": "iPad Pro 12.9\u2011inch (1st generation)",
 			"releaseYear": 2015,
-			"priceAud": null,
+			"priceAud": 1249,
 			"colors": [],
 			"configurations": [],
 			"storageOptions": [
@@ -2453,7 +2419,6 @@
 				{
 					"id": "ipad-pro-12-9-1st-gen-display",
 					"technology": "Retina display",
-					"panelKind": null,
 					"sizeIn": 12.9,
 					"resolutionWidthPx": 2732,
 					"resolutionHeightPx": 2048,
@@ -2477,8 +2442,8 @@
 					"id": "ipad-pro-12-9-1st-gen-front-camera",
 					"role": "front",
 					"displayName": "FaceTime HD camera",
-					"megapixels": null,
-					"sourceNotes": "Source display text does not state megapixels; camera presence and Apple display name retained."
+					"megapixels": 1.2,
+					"sourceNotes": "Front-camera megapixels from supplied Apple AU compare matrix row WwutNEDq (Front Camera: Ultra Wide): '1.2MP FaceTime HD camera' in data/tmp/ipad/ipad-compare-au-2026.html (also present in data/tmp/ipad/ipad.html)."
 				}
 			],
 			"audio": {
@@ -2529,7 +2494,6 @@
 						"id": "ipad-pro-12-9-1st-gen-port-smart",
 						"kind": "Smart Connector",
 						"supportsDisplayOut": false,
-						"maxPowerW": null,
 						"sourceNotes": "Standard set to proprietary because Smart Connector has no USB protocol standard. Standard omitted because Smart Connector has no USB protocol standard."
 					}
 				],
@@ -2577,7 +2541,7 @@
 			"id": "ipad-pro-11-m4",
 			"name": "iPad Pro 11-inch (M4)",
 			"releaseYear": 2024,
-			"priceAud": null,
+			"priceAud": 1699,
 			"colors": [],
 			"configurations": [],
 			"storageOptions": [
@@ -2642,7 +2606,6 @@
 				{
 					"id": "ipad-pro-11-m4-display",
 					"technology": "Ultra Retina XDR display",
-					"panelKind": null,
 					"sizeIn": 11,
 					"resolutionWidthPx": 2732,
 					"resolutionHeightPx": 2048,
@@ -2711,7 +2674,6 @@
 						"id": "ipad-pro-11-m4-port-usb-c",
 						"kind": "USB-C",
 						"supportsDisplayOut": true,
-						"maxPowerW": null,
 						"sourceNotes": "Source wording is Thunderbolt/USB 4. USB 4 is retained as the explicit non-exclusive protocol standard; Thunderbolt capability remains described in this note.",
 						"standard": "USB 4"
 					},
@@ -2719,7 +2681,6 @@
 						"id": "ipad-pro-11-m4-port-smart",
 						"kind": "Smart Connector",
 						"supportsDisplayOut": false,
-						"maxPowerW": null,
 						"sourceNotes": "Standard set to proprietary because Smart Connector has no USB protocol standard. Standard omitted because Smart Connector has no USB protocol standard."
 					}
 				],
@@ -2767,7 +2728,7 @@
 			"id": "ipad-pro-11-4th-gen",
 			"name": "iPad Pro 11-inch (4th generation)",
 			"releaseYear": 2022,
-			"priceAud": null,
+			"priceAud": 1399,
 			"colors": [],
 			"configurations": [],
 			"storageOptions": [
@@ -2831,7 +2792,6 @@
 				{
 					"id": "ipad-pro-11-4th-gen-display",
 					"technology": "Liquid Retina display",
-					"panelKind": null,
 					"sizeIn": 11,
 					"resolutionWidthPx": 2420,
 					"resolutionHeightPx": 1668,
@@ -2855,8 +2815,8 @@
 					"id": "ipad-pro-11-4th-gen-front-camera",
 					"role": "front",
 					"displayName": "TrueDepth camera with Ultra Wide camera",
-					"megapixels": null,
-					"sourceNotes": "Source display text does not state megapixels; camera presence and Apple display name retained."
+					"megapixels": 12,
+					"sourceNotes": "Front-camera megapixels from supplied Apple AU compare matrix row WwutNEDq (Front Camera: Ultra Wide): '12MP Ultra Wide front camera' in data/tmp/ipad/ipad-compare-au-2026.html (also present in data/tmp/ipad/ipad.html)."
 				}
 			],
 			"audio": {
@@ -2901,7 +2861,6 @@
 						"id": "ipad-pro-11-4th-gen-port-usb-c",
 						"kind": "USB-C",
 						"supportsDisplayOut": true,
-						"maxPowerW": null,
 						"sourceNotes": "Source wording only says USB-C. The supplied exports do not state a protocol generation; USB 2 is an explicit unresolved placeholder and is not authoritative.",
 						"standard": "USB 2"
 					},
@@ -2909,7 +2868,6 @@
 						"id": "ipad-pro-11-4th-gen-port-smart",
 						"kind": "Smart Connector",
 						"supportsDisplayOut": false,
-						"maxPowerW": null,
 						"sourceNotes": "Standard set to proprietary because Smart Connector has no USB protocol standard. Standard omitted because Smart Connector has no USB protocol standard."
 					}
 				],
@@ -2955,9 +2913,9 @@
 		},
 		{
 			"id": "ipad-pro-11-3rd-gen",
-			"name": "iPad Pro 11‑inch (3rd generation)",
+			"name": "iPad Pro 11\u2011inch (3rd generation)",
 			"releaseYear": 2021,
-			"priceAud": null,
+			"priceAud": 1199,
 			"colors": [],
 			"configurations": [],
 			"storageOptions": [
@@ -3021,7 +2979,6 @@
 				{
 					"id": "ipad-pro-11-3rd-gen-display",
 					"technology": "Liquid Retina display",
-					"panelKind": null,
 					"sizeIn": 11,
 					"resolutionWidthPx": 2388,
 					"resolutionHeightPx": 1668,
@@ -3045,8 +3002,8 @@
 					"id": "ipad-pro-11-3rd-gen-front-camera",
 					"role": "front",
 					"displayName": "TrueDepth camera with Ultra Wide camera",
-					"megapixels": null,
-					"sourceNotes": "Source display text does not state megapixels; camera presence and Apple display name retained."
+					"megapixels": 12,
+					"sourceNotes": "Front-camera megapixels from supplied Apple AU compare matrix row WwutNEDq (Front Camera: Ultra Wide): '12MP Ultra Wide front camera' in data/tmp/ipad/ipad-compare-au-2026.html (also present in data/tmp/ipad/ipad.html)."
 				}
 			],
 			"audio": {
@@ -3091,7 +3048,6 @@
 						"id": "ipad-pro-11-3rd-gen-port-usb-c",
 						"kind": "USB-C",
 						"supportsDisplayOut": true,
-						"maxPowerW": null,
 						"sourceNotes": "Source wording only says USB-C. The supplied exports do not state a protocol generation; USB 2 is an explicit unresolved placeholder and is not authoritative.",
 						"standard": "USB 2"
 					},
@@ -3099,7 +3055,6 @@
 						"id": "ipad-pro-11-3rd-gen-port-smart",
 						"kind": "Smart Connector",
 						"supportsDisplayOut": false,
-						"maxPowerW": null,
 						"sourceNotes": "Standard set to proprietary because Smart Connector has no USB protocol standard. Standard omitted because Smart Connector has no USB protocol standard."
 					}
 				],
@@ -3145,9 +3100,9 @@
 		},
 		{
 			"id": "ipad-pro-11-2nd-gen",
-			"name": "iPad Pro 11‑inch (2nd generation)",
+			"name": "iPad Pro 11\u2011inch (2nd generation)",
 			"releaseYear": 2020,
-			"priceAud": null,
+			"priceAud": 1329,
 			"colors": [],
 			"configurations": [],
 			"storageOptions": [
@@ -3205,7 +3160,6 @@
 				{
 					"id": "ipad-pro-11-2nd-gen-display",
 					"technology": "Liquid Retina display",
-					"panelKind": null,
 					"sizeIn": 11,
 					"resolutionWidthPx": 2388,
 					"resolutionHeightPx": 1668,
@@ -3229,8 +3183,8 @@
 					"id": "ipad-pro-11-2nd-gen-front-camera",
 					"role": "front",
 					"displayName": "TrueDepth camera",
-					"megapixels": null,
-					"sourceNotes": "Source display text does not state megapixels; camera presence and Apple display name retained."
+					"megapixels": 7,
+					"sourceNotes": "Front-camera megapixels from supplied Apple AU compare matrix row WwutNEDq (Front Camera: Ultra Wide): '7MP front camera' in data/tmp/ipad/ipad-compare-au-2026.html (also present in data/tmp/ipad/ipad.html)."
 				}
 			],
 			"audio": {
@@ -3275,7 +3229,6 @@
 						"id": "ipad-pro-11-2nd-gen-port-usb-c",
 						"kind": "USB-C",
 						"supportsDisplayOut": true,
-						"maxPowerW": null,
 						"sourceNotes": "Source wording only says USB-C. The supplied exports do not state a protocol generation; USB 2 is an explicit unresolved placeholder and is not authoritative.",
 						"standard": "USB 2"
 					},
@@ -3283,7 +3236,6 @@
 						"id": "ipad-pro-11-2nd-gen-port-smart",
 						"kind": "Smart Connector",
 						"supportsDisplayOut": false,
-						"maxPowerW": null,
 						"sourceNotes": "Standard set to proprietary because Smart Connector has no USB protocol standard. Standard omitted because Smart Connector has no USB protocol standard."
 					}
 				],
@@ -3329,9 +3281,9 @@
 		},
 		{
 			"id": "ipad-pro-11-1st-gen",
-			"name": "iPad Pro 11‑inch (1st generation)",
+			"name": "iPad Pro 11\u2011inch (1st generation)",
 			"releaseYear": 2018,
-			"priceAud": null,
+			"priceAud": 1229,
 			"colors": [],
 			"configurations": [],
 			"storageOptions": [
@@ -3381,7 +3333,6 @@
 				{
 					"id": "ipad-pro-11-1st-gen-display",
 					"technology": "Liquid Retina display",
-					"panelKind": null,
 					"sizeIn": 11,
 					"resolutionWidthPx": 2388,
 					"resolutionHeightPx": 1668,
@@ -3405,8 +3356,8 @@
 					"id": "ipad-pro-11-1st-gen-front-camera",
 					"role": "front",
 					"displayName": "TrueDepth camera",
-					"megapixels": null,
-					"sourceNotes": "Source display text does not state megapixels; camera presence and Apple display name retained."
+					"megapixels": 7,
+					"sourceNotes": "Front-camera megapixels from supplied Apple AU compare matrix row WwutNEDq (Front Camera: Ultra Wide): '7MP front camera' in data/tmp/ipad/ipad-compare-au-2026.html (also present in data/tmp/ipad/ipad.html)."
 				}
 			],
 			"audio": {
@@ -3451,7 +3402,6 @@
 						"id": "ipad-pro-11-1st-gen-port-usb-c",
 						"kind": "USB-C",
 						"supportsDisplayOut": true,
-						"maxPowerW": null,
 						"sourceNotes": "Source wording only says USB-C. The supplied exports do not state a protocol generation; USB 2 is an explicit unresolved placeholder and is not authoritative.",
 						"standard": "USB 2"
 					},
@@ -3459,7 +3409,6 @@
 						"id": "ipad-pro-11-1st-gen-port-smart",
 						"kind": "Smart Connector",
 						"supportsDisplayOut": false,
-						"maxPowerW": null,
 						"sourceNotes": "Standard set to proprietary because Smart Connector has no USB protocol standard. Standard omitted because Smart Connector has no USB protocol standard."
 					}
 				],
@@ -3505,9 +3454,9 @@
 		},
 		{
 			"id": "ipad-pro-10-5-in",
-			"name": "iPad Pro 10.5‑inch",
+			"name": "iPad Pro 10.5\u2011inch",
 			"releaseYear": 2017,
-			"priceAud": null,
+			"priceAud": 979,
 			"colors": [],
 			"configurations": [],
 			"storageOptions": [
@@ -3559,7 +3508,6 @@
 				{
 					"id": "ipad-pro-10-5-in-display",
 					"technology": "Retina display",
-					"panelKind": null,
 					"sizeIn": 10.5,
 					"resolutionWidthPx": 2224,
 					"resolutionHeightPx": 1668,
@@ -3583,8 +3531,8 @@
 					"id": "ipad-pro-10-5-in-front-camera",
 					"role": "front",
 					"displayName": "FaceTime HD camera",
-					"megapixels": null,
-					"sourceNotes": "Source display text does not state megapixels; camera presence and Apple display name retained."
+					"megapixels": 7,
+					"sourceNotes": "Front-camera megapixels from supplied Apple AU compare matrix row WwutNEDq (Front Camera: Ultra Wide): '7MP FaceTime HD camera' in data/tmp/ipad/ipad-compare-au-2026.html (also present in data/tmp/ipad/ipad.html)."
 				}
 			],
 			"audio": {
@@ -3635,7 +3583,6 @@
 						"id": "ipad-pro-10-5-in-port-smart",
 						"kind": "Smart Connector",
 						"supportsDisplayOut": false,
-						"maxPowerW": null,
 						"sourceNotes": "Standard set to proprietary because Smart Connector has no USB protocol standard. Standard omitted because Smart Connector has no USB protocol standard."
 					}
 				],
@@ -3681,9 +3628,9 @@
 		},
 		{
 			"id": "ipad-pro-9-7-in",
-			"name": "iPad Pro 9.7‑inch",
+			"name": "iPad Pro 9.7\u2011inch",
 			"releaseYear": 2016,
-			"priceAud": null,
+			"priceAud": 899,
 			"colors": [],
 			"configurations": [],
 			"storageOptions": [
@@ -3727,7 +3674,6 @@
 				{
 					"id": "ipad-pro-9-7-in-display",
 					"technology": "Retina display",
-					"panelKind": null,
 					"sizeIn": 9.7,
 					"resolutionWidthPx": 2048,
 					"resolutionHeightPx": 1536,
@@ -3751,8 +3697,8 @@
 					"id": "ipad-pro-9-7-in-front-camera",
 					"role": "front",
 					"displayName": "FaceTime HD camera",
-					"megapixels": null,
-					"sourceNotes": "Source display text does not state megapixels; camera presence and Apple display name retained."
+					"megapixels": 5,
+					"sourceNotes": "Front-camera megapixels from supplied Apple AU compare matrix row WwutNEDq (Front Camera: Ultra Wide): '5MP FaceTime HD camera' in data/tmp/ipad/ipad-compare-au-2026.html (also present in data/tmp/ipad/ipad.html)."
 				}
 			],
 			"audio": {
@@ -3803,7 +3749,6 @@
 						"id": "ipad-pro-9-7-in-port-smart",
 						"kind": "Smart Connector",
 						"supportsDisplayOut": false,
-						"maxPowerW": null,
 						"sourceNotes": "Standard set to proprietary because Smart Connector has no USB protocol standard. Standard omitted because Smart Connector has no USB protocol standard."
 					}
 				],
@@ -3851,7 +3796,7 @@
 			"id": "ipad-air-13-m3",
 			"name": "iPad Air 13-inch (M3)",
 			"releaseYear": 2025,
-			"priceAud": null,
+			"priceAud": 1349,
 			"colors": [],
 			"configurations": [],
 			"storageOptions": [
@@ -3909,7 +3854,6 @@
 				{
 					"id": "ipad-air-13-m3-display",
 					"technology": "Liquid Retina display",
-					"panelKind": null,
 					"sizeIn": 13,
 					"resolutionWidthPx": 2732,
 					"resolutionHeightPx": 2048,
@@ -3978,7 +3922,6 @@
 						"id": "ipad-air-13-m3-port-usb-c",
 						"kind": "USB-C",
 						"supportsDisplayOut": true,
-						"maxPowerW": null,
 						"sourceNotes": "Source wording only says USB-C. The supplied exports do not state a protocol generation; USB 2 is an explicit unresolved placeholder and is not authoritative.",
 						"standard": "USB 2"
 					},
@@ -3986,7 +3929,6 @@
 						"id": "ipad-air-13-m3-port-smart",
 						"kind": "Smart Connector",
 						"supportsDisplayOut": false,
-						"maxPowerW": null,
 						"sourceNotes": "Standard set to proprietary because Smart Connector has no USB protocol standard. Standard omitted because Smart Connector has no USB protocol standard."
 					}
 				],
@@ -4034,7 +3976,7 @@
 			"id": "ipad-air-11-m3",
 			"name": "iPad Air 11-inch (M3)",
 			"releaseYear": 2025,
-			"priceAud": null,
+			"priceAud": 999,
 			"colors": [],
 			"configurations": [],
 			"storageOptions": [
@@ -4092,7 +4034,6 @@
 				{
 					"id": "ipad-air-11-m3-display",
 					"technology": "Liquid Retina display",
-					"panelKind": null,
 					"sizeIn": 11,
 					"resolutionWidthPx": 2360,
 					"resolutionHeightPx": 1640,
@@ -4161,7 +4102,6 @@
 						"id": "ipad-air-11-m3-port-usb-c",
 						"kind": "USB-C",
 						"supportsDisplayOut": true,
-						"maxPowerW": null,
 						"sourceNotes": "Source wording only says USB-C. The supplied exports do not state a protocol generation; USB 2 is an explicit unresolved placeholder and is not authoritative.",
 						"standard": "USB 2"
 					},
@@ -4169,7 +4109,6 @@
 						"id": "ipad-air-11-m3-port-smart",
 						"kind": "Smart Connector",
 						"supportsDisplayOut": false,
-						"maxPowerW": null,
 						"sourceNotes": "Standard set to proprietary because Smart Connector has no USB protocol standard. Standard omitted because Smart Connector has no USB protocol standard."
 					}
 				],
@@ -4217,7 +4156,7 @@
 			"id": "ipad-air-13-m2",
 			"name": "iPad Air 13-inch (M2)",
 			"releaseYear": 2024,
-			"priceAud": null,
+			"priceAud": 1299,
 			"colors": [],
 			"configurations": [],
 			"storageOptions": [
@@ -4275,7 +4214,6 @@
 				{
 					"id": "ipad-air-13-m2-display",
 					"technology": "Liquid Retina display",
-					"panelKind": null,
 					"sizeIn": 13,
 					"resolutionWidthPx": 2732,
 					"resolutionHeightPx": 2048,
@@ -4344,7 +4282,6 @@
 						"id": "ipad-air-13-m2-port-usb-c",
 						"kind": "USB-C",
 						"supportsDisplayOut": true,
-						"maxPowerW": null,
 						"sourceNotes": "Source wording only says USB-C. The supplied exports do not state a protocol generation; USB 2 is an explicit unresolved placeholder and is not authoritative.",
 						"standard": "USB 2"
 					},
@@ -4352,7 +4289,6 @@
 						"id": "ipad-air-13-m2-port-smart",
 						"kind": "Smart Connector",
 						"supportsDisplayOut": false,
-						"maxPowerW": null,
 						"sourceNotes": "Standard set to proprietary because Smart Connector has no USB protocol standard. Standard omitted because Smart Connector has no USB protocol standard."
 					}
 				],
@@ -4400,7 +4336,7 @@
 			"id": "ipad-air-11-m2",
 			"name": "iPad Air 11-inch (M2)",
 			"releaseYear": 2024,
-			"priceAud": null,
+			"priceAud": 999,
 			"colors": [],
 			"configurations": [],
 			"storageOptions": [
@@ -4458,7 +4394,6 @@
 				{
 					"id": "ipad-air-11-m2-display",
 					"technology": "Liquid Retina display",
-					"panelKind": null,
 					"sizeIn": 11,
 					"resolutionWidthPx": 2360,
 					"resolutionHeightPx": 1640,
@@ -4527,7 +4462,6 @@
 						"id": "ipad-air-11-m2-port-usb-c",
 						"kind": "USB-C",
 						"supportsDisplayOut": true,
-						"maxPowerW": null,
 						"sourceNotes": "Source wording only says USB-C. The supplied exports do not state a protocol generation; USB 2 is an explicit unresolved placeholder and is not authoritative.",
 						"standard": "USB 2"
 					},
@@ -4535,7 +4469,6 @@
 						"id": "ipad-air-11-m2-port-smart",
 						"kind": "Smart Connector",
 						"supportsDisplayOut": false,
-						"maxPowerW": null,
 						"sourceNotes": "Standard set to proprietary because Smart Connector has no USB protocol standard. Standard omitted because Smart Connector has no USB protocol standard."
 					}
 				],
@@ -4583,7 +4516,7 @@
 			"id": "ipad-air-5th-generation",
 			"name": "iPad Air (5th generation)",
 			"releaseYear": 2022,
-			"priceAud": null,
+			"priceAud": 929,
 			"colors": [],
 			"configurations": [],
 			"storageOptions": [
@@ -4629,7 +4562,6 @@
 				{
 					"id": "ipad-air-5th-generation-display",
 					"technology": "Liquid Retina display",
-					"panelKind": null,
 					"sizeIn": 10.9,
 					"resolutionWidthPx": 2360,
 					"resolutionHeightPx": 1640,
@@ -4698,7 +4630,6 @@
 						"id": "ipad-air-5th-generation-port-usb-c",
 						"kind": "USB-C",
 						"supportsDisplayOut": true,
-						"maxPowerW": null,
 						"sourceNotes": "Source wording only says USB-C. The supplied exports do not state a protocol generation; USB 2 is an explicit unresolved placeholder and is not authoritative.",
 						"standard": "USB 2"
 					},
@@ -4706,7 +4637,6 @@
 						"id": "ipad-air-5th-generation-port-smart",
 						"kind": "Smart Connector",
 						"supportsDisplayOut": false,
-						"maxPowerW": null,
 						"sourceNotes": "Standard set to proprietary because Smart Connector has no USB protocol standard. Standard omitted because Smart Connector has no USB protocol standard."
 					}
 				],
@@ -4754,7 +4684,7 @@
 			"id": "ipad-air-4th-generation",
 			"name": "iPad Air (4th generation)",
 			"releaseYear": 2020,
-			"priceAud": null,
+			"priceAud": 899,
 			"colors": [],
 			"configurations": [],
 			"storageOptions": [
@@ -4800,7 +4730,6 @@
 				{
 					"id": "ipad-air-4th-generation-display",
 					"technology": "Liquid Retina display",
-					"panelKind": null,
 					"sizeIn": 10.9,
 					"resolutionWidthPx": 2360,
 					"resolutionHeightPx": 1640,
@@ -4824,8 +4753,8 @@
 					"id": "ipad-air-4th-generation-front-camera",
 					"role": "front",
 					"displayName": "FaceTime HD camera",
-					"megapixels": null,
-					"sourceNotes": "Source display text does not state megapixels; camera presence and Apple display name retained."
+					"megapixels": 7,
+					"sourceNotes": "Front-camera megapixels from supplied Apple AU compare matrix row WwutNEDq (Front Camera: Ultra Wide): '7MP FaceTime HD camera' in data/tmp/ipad/ipad-compare-au-2026.html (also present in data/tmp/ipad/ipad.html)."
 				}
 			],
 			"audio": {
@@ -4870,7 +4799,6 @@
 						"id": "ipad-air-4th-generation-port-usb-c",
 						"kind": "USB-C",
 						"supportsDisplayOut": true,
-						"maxPowerW": null,
 						"sourceNotes": "Source wording only says USB-C. The supplied exports do not state a protocol generation; USB 2 is an explicit unresolved placeholder and is not authoritative.",
 						"standard": "USB 2"
 					},
@@ -4878,7 +4806,6 @@
 						"id": "ipad-air-4th-generation-port-smart",
 						"kind": "Smart Connector",
 						"supportsDisplayOut": false,
-						"maxPowerW": null,
 						"sourceNotes": "Standard set to proprietary because Smart Connector has no USB protocol standard. Standard omitted because Smart Connector has no USB protocol standard."
 					}
 				],
@@ -4926,7 +4853,7 @@
 			"id": "ipad-air-3rd-generation",
 			"name": "iPad Air (3rd generation)",
 			"releaseYear": 2019,
-			"priceAud": null,
+			"priceAud": 779,
 			"colors": [],
 			"configurations": [],
 			"storageOptions": [
@@ -4972,7 +4899,6 @@
 				{
 					"id": "ipad-air-3rd-generation-display",
 					"technology": "Retina display",
-					"panelKind": null,
 					"sizeIn": 10.5,
 					"resolutionWidthPx": 2360,
 					"resolutionHeightPx": 1640,
@@ -4996,8 +4922,8 @@
 					"id": "ipad-air-3rd-generation-front-camera",
 					"role": "front",
 					"displayName": "FaceTime HD camera",
-					"megapixels": null,
-					"sourceNotes": "Source display text does not state megapixels; camera presence and Apple display name retained."
+					"megapixels": 7,
+					"sourceNotes": "Front-camera megapixels from supplied Apple AU compare matrix row WwutNEDq (Front Camera: Ultra Wide): '7MP FaceTime HD camera' in data/tmp/ipad/ipad-compare-au-2026.html (also present in data/tmp/ipad/ipad.html)."
 				}
 			],
 			"audio": {
@@ -5048,7 +4974,6 @@
 						"id": "ipad-air-3rd-generation-port-smart",
 						"kind": "Smart Connector",
 						"supportsDisplayOut": false,
-						"maxPowerW": null,
 						"sourceNotes": "Standard set to proprietary because Smart Connector has no USB protocol standard. Standard omitted because Smart Connector has no USB protocol standard."
 					}
 				],
@@ -5096,7 +5021,7 @@
 			"id": "ipad-air-2",
 			"name": "iPad Air 2",
 			"releaseYear": 2014,
-			"priceAud": null,
+			"priceAud": 619,
 			"colors": [],
 			"configurations": [],
 			"storageOptions": [
@@ -5148,7 +5073,6 @@
 				{
 					"id": "ipad-air-2-display",
 					"technology": "Retina display",
-					"panelKind": null,
 					"sizeIn": 9.7,
 					"resolutionWidthPx": 2224,
 					"resolutionHeightPx": 1668,
@@ -5172,8 +5096,8 @@
 					"id": "ipad-air-2-front-camera",
 					"role": "front",
 					"displayName": "FaceTime HD camera",
-					"megapixels": null,
-					"sourceNotes": "Source display text does not state megapixels; camera presence and Apple display name retained."
+					"megapixels": 1.2,
+					"sourceNotes": "Front-camera megapixels from supplied Apple AU compare matrix row WwutNEDq (Front Camera: Ultra Wide): '1.2MP FaceTime HD camera' in data/tmp/ipad/ipad-compare-au-2026.html (also present in data/tmp/ipad/ipad.html)."
 				}
 			],
 			"audio": {
@@ -5265,7 +5189,7 @@
 			"id": "ipad-air-1st-generation",
 			"name": "iPad Air (1st generation)",
 			"releaseYear": 2013,
-			"priceAud": null,
+			"priceAud": 598,
 			"colors": [],
 			"configurations": [],
 			"storageOptions": [
@@ -5317,7 +5241,6 @@
 				{
 					"id": "ipad-air-1st-generation-display",
 					"technology": "Retina display",
-					"panelKind": null,
 					"sizeIn": 9.7,
 					"resolutionWidthPx": 2048,
 					"resolutionHeightPx": 1536,
@@ -5341,8 +5264,8 @@
 					"id": "ipad-air-1st-generation-front-camera",
 					"role": "front",
 					"displayName": "FaceTime HD camera",
-					"megapixels": null,
-					"sourceNotes": "Source display text does not state megapixels; camera presence and Apple display name retained."
+					"megapixels": 1.2,
+					"sourceNotes": "Front-camera megapixels from supplied Apple AU compare matrix row WwutNEDq (Front Camera: Ultra Wide): '1.2MP FaceTime HD camera' in data/tmp/ipad/ipad-compare-au-2026.html (also present in data/tmp/ipad/ipad.html)."
 				}
 			],
 			"audio": {
@@ -5434,7 +5357,7 @@
 			"id": "ipad-10th-generation",
 			"name": "iPad (10th generation)",
 			"releaseYear": 2022,
-			"priceAud": null,
+			"priceAud": 749,
 			"colors": [],
 			"configurations": [],
 			"storageOptions": [
@@ -5480,7 +5403,6 @@
 				{
 					"id": "ipad-10th-generation-display",
 					"technology": "Liquid Retina display",
-					"panelKind": null,
 					"sizeIn": 10.9,
 					"resolutionWidthPx": 2048,
 					"resolutionHeightPx": 1536,
@@ -5549,7 +5471,6 @@
 						"id": "ipad-10th-generation-port-usb-c",
 						"kind": "USB-C",
 						"supportsDisplayOut": true,
-						"maxPowerW": null,
 						"sourceNotes": "Source wording only says USB-C. The supplied exports do not state a protocol generation; USB 2 is an explicit unresolved placeholder and is not authoritative.",
 						"standard": "USB 2"
 					},
@@ -5557,7 +5478,6 @@
 						"id": "ipad-10th-generation-port-smart",
 						"kind": "Smart Connector",
 						"supportsDisplayOut": false,
-						"maxPowerW": null,
 						"sourceNotes": "Standard set to proprietary because Smart Connector has no USB protocol standard. Standard omitted because Smart Connector has no USB protocol standard."
 					}
 				],
@@ -5605,7 +5525,7 @@
 			"id": "ipad-9th-generation",
 			"name": "iPad (9th generation)",
 			"releaseYear": 2021,
-			"priceAud": null,
+			"priceAud": 499,
 			"colors": [],
 			"configurations": [],
 			"storageOptions": [
@@ -5651,7 +5571,6 @@
 				{
 					"id": "ipad-9th-generation-display",
 					"technology": "Retina display",
-					"panelKind": null,
 					"sizeIn": 10.2,
 					"resolutionWidthPx": 2360,
 					"resolutionHeightPx": 1640,
@@ -5675,8 +5594,8 @@
 					"id": "ipad-9th-generation-front-camera",
 					"role": "front",
 					"displayName": "Ultra Wide camera",
-					"megapixels": null,
-					"sourceNotes": "Source display text does not state megapixels; camera presence and Apple display name retained."
+					"megapixels": 12,
+					"sourceNotes": "Front-camera megapixels from supplied Apple AU compare matrix row WwutNEDq (Front Camera: Ultra Wide): '12MP Ultra Wide front camera' in data/tmp/ipad/ipad-compare-au-2026.html (also present in data/tmp/ipad/ipad.html)."
 				}
 			],
 			"audio": {
@@ -5727,7 +5646,6 @@
 						"id": "ipad-9th-generation-port-smart",
 						"kind": "Smart Connector",
 						"supportsDisplayOut": false,
-						"maxPowerW": null,
 						"sourceNotes": "Standard set to proprietary because Smart Connector has no USB protocol standard. Standard omitted because Smart Connector has no USB protocol standard."
 					}
 				],
@@ -5775,7 +5693,7 @@
 			"id": "ipad-8th-generation",
 			"name": "iPad (8th generation)",
 			"releaseYear": 2020,
-			"priceAud": null,
+			"priceAud": 499,
 			"colors": [],
 			"configurations": [],
 			"storageOptions": [
@@ -5821,7 +5739,6 @@
 				{
 					"id": "ipad-8th-generation-display",
 					"technology": "Retina display",
-					"panelKind": null,
 					"sizeIn": 10.2,
 					"resolutionWidthPx": 2160,
 					"resolutionHeightPx": 1620,
@@ -5845,8 +5762,8 @@
 					"id": "ipad-8th-generation-front-camera",
 					"role": "front",
 					"displayName": "FaceTime HD camera",
-					"megapixels": null,
-					"sourceNotes": "Source display text does not state megapixels; camera presence and Apple display name retained."
+					"megapixels": 1.2,
+					"sourceNotes": "Front-camera megapixels from supplied Apple AU compare matrix row WwutNEDq (Front Camera: Ultra Wide): '1.2MP FaceTime HD camera' in data/tmp/ipad/ipad-compare-au-2026.html (also present in data/tmp/ipad/ipad.html)."
 				}
 			],
 			"audio": {
@@ -5897,7 +5814,6 @@
 						"id": "ipad-8th-generation-port-smart",
 						"kind": "Smart Connector",
 						"supportsDisplayOut": false,
-						"maxPowerW": null,
 						"sourceNotes": "Standard set to proprietary because Smart Connector has no USB protocol standard. Standard omitted because Smart Connector has no USB protocol standard."
 					}
 				],
@@ -5945,7 +5861,7 @@
 			"id": "ipad-7th-generation",
 			"name": "iPad (7th generation)",
 			"releaseYear": 2019,
-			"priceAud": null,
+			"priceAud": 529,
 			"colors": [],
 			"configurations": [],
 			"storageOptions": [
@@ -5991,7 +5907,6 @@
 				{
 					"id": "ipad-7th-generation-display",
 					"technology": "Retina display",
-					"panelKind": null,
 					"sizeIn": 10.2,
 					"resolutionWidthPx": 2160,
 					"resolutionHeightPx": 1620,
@@ -6015,8 +5930,8 @@
 					"id": "ipad-7th-generation-front-camera",
 					"role": "front",
 					"displayName": "FaceTime HD camera",
-					"megapixels": null,
-					"sourceNotes": "Source display text does not state megapixels; camera presence and Apple display name retained."
+					"megapixels": 1.2,
+					"sourceNotes": "Front-camera megapixels from supplied Apple AU compare matrix row WwutNEDq (Front Camera: Ultra Wide): '1.2MP FaceTime HD camera' in data/tmp/ipad/ipad-compare-au-2026.html (also present in data/tmp/ipad/ipad.html)."
 				}
 			],
 			"audio": {
@@ -6067,7 +5982,6 @@
 						"id": "ipad-7th-generation-port-smart",
 						"kind": "Smart Connector",
 						"supportsDisplayOut": false,
-						"maxPowerW": null,
 						"sourceNotes": "Standard set to proprietary because Smart Connector has no USB protocol standard. Standard omitted because Smart Connector has no USB protocol standard."
 					}
 				],
@@ -6115,7 +6029,7 @@
 			"id": "ipad-6th-generation",
 			"name": "iPad (6th generation)",
 			"releaseYear": 2018,
-			"priceAud": null,
+			"priceAud": 469,
 			"colors": [],
 			"configurations": [],
 			"storageOptions": [
@@ -6161,7 +6075,6 @@
 				{
 					"id": "ipad-6th-generation-display",
 					"technology": "Retina display",
-					"panelKind": null,
 					"sizeIn": 9.7,
 					"resolutionWidthPx": 2160,
 					"resolutionHeightPx": 1620,
@@ -6185,8 +6098,8 @@
 					"id": "ipad-6th-generation-front-camera",
 					"role": "front",
 					"displayName": "FaceTime HD camera",
-					"megapixels": null,
-					"sourceNotes": "Source display text does not state megapixels; camera presence and Apple display name retained."
+					"megapixels": 1.2,
+					"sourceNotes": "Front-camera megapixels from supplied Apple AU compare matrix row WwutNEDq (Front Camera: Ultra Wide): '1.2MP FaceTime HD camera' in data/tmp/ipad/ipad-compare-au-2026.html (also present in data/tmp/ipad/ipad.html)."
 				}
 			],
 			"audio": {
@@ -6278,7 +6191,7 @@
 			"id": "ipad-5th-generation",
 			"name": "iPad (5th generation)",
 			"releaseYear": 2017,
-			"priceAud": null,
+			"priceAud": 469,
 			"colors": [],
 			"configurations": [],
 			"storageOptions": [
@@ -6324,7 +6237,6 @@
 				{
 					"id": "ipad-5th-generation-display",
 					"technology": "Retina display",
-					"panelKind": null,
 					"sizeIn": 9.7,
 					"resolutionWidthPx": 2160,
 					"resolutionHeightPx": 1620,
@@ -6348,8 +6260,8 @@
 					"id": "ipad-5th-generation-front-camera",
 					"role": "front",
 					"displayName": "FaceTime HD camera",
-					"megapixels": null,
-					"sourceNotes": "Source display text does not state megapixels; camera presence and Apple display name retained."
+					"megapixels": 1.2,
+					"sourceNotes": "Front-camera megapixels from supplied Apple AU compare matrix row WwutNEDq (Front Camera: Ultra Wide): '1.2MP FaceTime HD camera' in data/tmp/ipad/ipad-compare-au-2026.html (also present in data/tmp/ipad/ipad.html)."
 				}
 			],
 			"audio": {
@@ -6441,7 +6353,7 @@
 			"id": "ipad-mini-6th-generation",
 			"name": "iPad mini (6th generation)",
 			"releaseYear": 2021,
-			"priceAud": null,
+			"priceAud": 749,
 			"colors": [],
 			"configurations": [],
 			"storageOptions": [
@@ -6487,7 +6399,6 @@
 				{
 					"id": "ipad-mini-6th-generation-display",
 					"technology": "Liquid Retina display",
-					"panelKind": null,
 					"sizeIn": 8.3,
 					"resolutionWidthPx": 2048,
 					"resolutionHeightPx": 1536,
@@ -6511,8 +6422,8 @@
 					"id": "ipad-mini-6th-generation-front-camera",
 					"role": "front",
 					"displayName": "Ultra Wide camera",
-					"megapixels": null,
-					"sourceNotes": "Source display text does not state megapixels; camera presence and Apple display name retained."
+					"megapixels": 12,
+					"sourceNotes": "Front-camera megapixels from supplied Apple AU compare matrix row WwutNEDq (Front Camera: Ultra Wide): '12MP Ultra Wide front camera' in data/tmp/ipad/ipad-compare-au-2026.html (also present in data/tmp/ipad/ipad.html)."
 				}
 			],
 			"audio": {
@@ -6557,8 +6468,7 @@
 						"id": "ipad-mini-6th-generation-port-usb-c",
 						"kind": "USB-C",
 						"supportsDisplayOut": true,
-						"maxPowerW": null,
-						"sourceNotes": "Source wording: USB‑C Port standard placeholder set to USB 2 to satisfy the authoritative non-null enum; supplied compare evidence does not establish a protocol standard.",
+						"sourceNotes": "Source wording: USB\u2011C Port standard placeholder set to USB 2 to satisfy the authoritative non-null enum; supplied compare evidence does not establish a protocol standard.",
 						"standard": "USB 2"
 					}
 				],
@@ -6606,7 +6516,7 @@
 			"id": "ipad-mini-5th-generation",
 			"name": "iPad mini (5th generation)",
 			"releaseYear": 2019,
-			"priceAud": null,
+			"priceAud": 599,
 			"colors": [],
 			"configurations": [],
 			"storageOptions": [
@@ -6652,7 +6562,6 @@
 				{
 					"id": "ipad-mini-5th-generation-display",
 					"technology": "Retina display",
-					"panelKind": null,
 					"sizeIn": 7.9,
 					"resolutionWidthPx": 2048,
 					"resolutionHeightPx": 1536,
@@ -6676,8 +6585,8 @@
 					"id": "ipad-mini-5th-generation-front-camera",
 					"role": "front",
 					"displayName": "FaceTime HD camera",
-					"megapixels": null,
-					"sourceNotes": "Source display text does not state megapixels; camera presence and Apple display name retained."
+					"megapixels": 7,
+					"sourceNotes": "Front-camera megapixels from supplied Apple AU compare matrix row WwutNEDq (Front Camera: Ultra Wide): '7MP FaceTime HD camera' in data/tmp/ipad/ipad-compare-au-2026.html (also present in data/tmp/ipad/ipad.html)."
 				}
 			],
 			"audio": {
@@ -6769,7 +6678,7 @@
 			"id": "ipad-mini-4",
 			"name": "iPad mini 4",
 			"releaseYear": 2015,
-			"priceAud": null,
+			"priceAud": 569,
 			"colors": [],
 			"configurations": [],
 			"storageOptions": [
@@ -6821,7 +6730,6 @@
 				{
 					"id": "ipad-mini-4-display",
 					"technology": "Retina display",
-					"panelKind": null,
 					"sizeIn": 7.9,
 					"resolutionWidthPx": 2266,
 					"resolutionHeightPx": 1488,
@@ -6845,8 +6753,8 @@
 					"id": "ipad-mini-4-front-camera",
 					"role": "front",
 					"displayName": "FaceTime HD camera",
-					"megapixels": null,
-					"sourceNotes": "Source display text does not state megapixels; camera presence and Apple display name retained."
+					"megapixels": 1.2,
+					"sourceNotes": "Front-camera megapixels from supplied Apple AU compare matrix row WwutNEDq (Front Camera: Ultra Wide): '1.2MP FaceTime HD camera' in data/tmp/ipad/ipad-compare-au-2026.html (also present in data/tmp/ipad/ipad.html)."
 				}
 			],
 			"audio": {
@@ -6938,7 +6846,7 @@
 			"id": "ipad-mini-3",
 			"name": "iPad mini 3",
 			"releaseYear": 2014,
-			"priceAud": null,
+			"priceAud": 499,
 			"colors": [],
 			"configurations": [],
 			"storageOptions": [
@@ -6990,7 +6898,6 @@
 				{
 					"id": "ipad-mini-3-display",
 					"technology": "Retina display",
-					"panelKind": null,
 					"sizeIn": 7.9,
 					"resolutionWidthPx": 2048,
 					"resolutionHeightPx": 1536,
@@ -7014,8 +6921,8 @@
 					"id": "ipad-mini-3-front-camera",
 					"role": "front",
 					"displayName": "FaceTime HD camera",
-					"megapixels": null,
-					"sourceNotes": "Source display text does not state megapixels; camera presence and Apple display name retained."
+					"megapixels": 1.2,
+					"sourceNotes": "Front-camera megapixels from supplied Apple AU compare matrix row WwutNEDq (Front Camera: Ultra Wide): '1.2MP FaceTime HD camera' in data/tmp/ipad/ipad-compare-au-2026.html (also present in data/tmp/ipad/ipad.html)."
 				}
 			],
 			"audio": {
@@ -7107,7 +7014,7 @@
 			"id": "ipad-mini-2",
 			"name": "iPad mini 2",
 			"releaseYear": 2013,
-			"priceAud": null,
+			"priceAud": 479,
 			"colors": [],
 			"configurations": [],
 			"storageOptions": [
@@ -7163,8 +7070,6 @@
 					"resolutionHeightPx": 1536,
 					"pixelsPerInch": 326,
 					"sdrPeakBrightnessNits": 400,
-					"hdrPeakBrightnessNits": null,
-					"fullScreenHdrBrightnessNits": null,
 					"trueTone": false,
 					"promotion": false,
 					"alwaysOn": false,
@@ -7304,7 +7209,7 @@
 				]
 			},
 			"resistance": {
-				"ipRating": "",
+				"ipRating": null,
 				"waterDepthM": null,
 				"splashPressureAtm": null,
 				"dustProtected": false,
