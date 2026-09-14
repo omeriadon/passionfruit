@@ -24,4 +24,6 @@ Extract every in-scope iPhone model from iPhone DevTools HTML under `data/tmp/` 
 
 - Use `[]` for empty arrays and concrete values for booleans.
 - Preserve evidence qualifications in `sourceNotes`.
-- Do not add Apple Pencil or keyboard compatibility, device-level family, summaries, watch fields, or iPad-only interpretations.
+- Record `ceramicShieldFront` / `ceramicShieldBack` as "none", "1", or "2"; `isFolding` for folding phones; camera `variableAperture` and `appleReferenceImageSupport` where evidenced.
+- Apple Pencil is only valid for iPhone Duo: set `applePencilSupport: true` and optionally an `accessories` entry with category "Apple Pencil". All other iPhones use `applePencilSupport: false` (or omit) and no Pencil accessory.
+- Do not add keyboard compatibility, device-level family, summaries, watch fields, or iPad-only interpretations.

@@ -9,7 +9,7 @@
 | `data/tmp/airpods/airpod3.html` | Unusable source | Zero bytes |
 | `data/tmp/airpods/airpod4.html` | Present usable | 601497 bytes |
 | Candidate output | CANDIDATE | `.scratch/strict/airpods/strict-devices.json`, 9 devices |
-| Canonical output | PRESENT | `public/data/airpods/airpods.json`, 9 canonical devices; Ajv Draft 2020-12 shared contract passes with 0 errors; all 17 image references verified |
+| Canonical output | PRESENT | `public/data/airpods/airpods.json`, 10 canonical devices; Ajv Draft 2020-12 shared contract passes with 0 errors; all 17 image references verified |
 
 Additional HTML: none required. The three usable compare pages cover all nine mapped devices.
 
@@ -26,3 +26,4 @@ Additional HTML: none required. The three usable compare pages cover all nine ma
 | AirPods Max 2                                         | PRESENT | `airpod.html`, `airpod2.html`, `airpod4.html` |
 | AirPods Pro 2                                         | PRESENT | `airpod.html`, `airpod2.html`, `airpod4.html` |
 | AirPods Pro 3                                         | PRESENT | `airpod.html`, `airpod2.html`, `airpod4.html` |
+| AirPods 5                                             | PRESENT | `airpods-5.html`, `airpods-compare-2026.html`, `airpods-5-newsroom.html` |
