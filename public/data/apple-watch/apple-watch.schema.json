@@ -365,7 +365,15 @@
 				"otherWirelessChip": { "type": "string", "minLength": 1 },
 				"hasSpeaker": { "type": "boolean" },
 				"hasSiren": { "type": "boolean" },
-				"swimproofClassification": { "type": "string", "minLength": 1 }
+				"swimproofClassification": { "type": "string", "minLength": 1 },
+				"gestures": {
+					"type": "boolean",
+					"description": "True when the watch supports system gestures such as double-tap."
+				},
+				"healthSensingSystem": {
+					"type": "boolean",
+					"description": "True when the watch includes the health sensing system."
+				}
 			}
 		},
 		"audio": {

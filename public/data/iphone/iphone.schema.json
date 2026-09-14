@@ -133,6 +133,22 @@
 					"items": {
 						"$ref": "#/$defs/iphoneOverviewImage"
 					}
+				},
+				"ceramicShieldFront": {
+					"enum": ["none", "1", "2"],
+					"description": "Ceramic Shield generation protecting the front of the phone. Use \"none\" when no Ceramic Shield is present."
+				},
+				"ceramicShieldBack": {
+					"enum": ["none", "1", "2"],
+					"description": "Ceramic Shield generation protecting the back of the phone. Use \"none\" when no Ceramic Shield is present."
+				},
+				"isFolding": {
+					"type": "boolean",
+					"description": "True for folding phones such as iPhone Duo."
+				},
+				"applePencilSupport": {
+					"type": "boolean",
+					"description": "True when the iPhone supports Apple Pencil input. Only iPhone Duo supports this to date."
 				}
 			}
 		},
@@ -529,6 +545,14 @@
 				},
 				"lidar": {
 					"type": "boolean"
+				},
+				"variableAperture": {
+					"type": "boolean",
+					"description": "True when the main camera supports variable aperture."
+				},
+				"appleReferenceImageSupport": {
+					"type": "boolean",
+					"description": "True when the main camera supports Apple Reference Image output."
 				},
 				"sourceNotes": {
 					"type": "string"
@@ -1424,7 +1448,7 @@
 				},
 				"category": {
 					"type": "string",
-					"enum": ["MagSafe", "case", "cable", "adapter", "other"]
+					"enum": ["MagSafe", "case", "cable", "adapter", "Apple Pencil", "other"]
 				},
 				"capabilities": {
 					"type": "array",
