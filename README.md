@@ -1,45 +1,31 @@
 # passionfruit
 
-This is a Next.js application generated with
-[Create Fumadocs](https://github.com/fuma-nama/fumadocs).
+Passionfruit is a free-to-use Apple documentation service that allows you to make comparisons with different in-ecosystem devices, including but not limited to prices, store availability<sup>1</sup>, etc.
 
-Run development server:
+Passionfruit uses Fuma Nama's [Fumadocs](https://www.fumadocs.dev/docs) framework to organise all the data we collected into a clean, searchable database for you to make educated decisions and easily learn more about Apple hardware.
 
-```bash
-npm run dev
-# or
-pnpm dev
-# or
-yarn dev
-```
+[[ Start Comparing Devices  ]](https://passionfruitdocs.vercel.app/)
 
-Open http://localhost:3000 with your browser to see the result.
+## Meet Clarus
 
-## Explore
+Passionfruit also ~~has~~ plans to implement an AI powered chatbot named **Clarus** who can help you navigate the docs to better make purchasing decisions or understanding the specifications behind each and every Apple product.
 
-In the project, you can see:
+The model will *allegedly* be powered by GLM 5.2<sup>2</sup> and will have full RAG access to our documentation service, and *potentially* also internet access to make comparisons to Windows and Linux compatible hardware counterparts.
 
-- `lib/source.ts`: Code for content source adapter, [`loader()`](https://fumadocs.dev/docs/headless/source-api) provides the interface to access your content.
-- `lib/layout.shared.tsx`: Shared options for layouts, optional but preferred to keep.
+## Helping Us Out
 
-| Route                     | Description                                            |
-| ------------------------- | ------------------------------------------------------ |
-| `app/(home)`              | The route group for your landing page and other pages. |
-| `app/docs`                | The documentation layout and pages.                    |
-| `app/api/search/route.ts` | The Route Handler for search.                          |
+We aren't looking for donations of any sorts (at least I'm not, not sure about Adon though), but if you notice a **missing device** or an **incorrect specification**, we'd love for you to let us know. 
 
-### Fumadocs MDX
+Please check our ~~[Contributing Guidelines]()~~ (we don't have one yet, but will add one soon 😉) to help us keep Passionfruit accurate and up-to-date.
 
-Collections are defined with the [Macro API](https://fumadocs.dev/docs/mdx/macro) in `lib/source.ts`.
+### Built By
+Created with ❤️ by Adon and Dylan for [third.space](https://thirdspace.hackclub.com/) by Hack Club.
 
-Read the [Introduction](https://fumadocs.dev/docs/mdx) for further details.
+### Disclaimer/Asterisks
 
-## Learn More
+Passionfruit is a community-driven project and is **not at all** affiliated with, endorsed by, or sponsored by Apple Incorporated. All product names, logos, and brands are property of their respective owners.
 
-To learn more about Next.js and Fumadocs, take a look at the following
-resources:
+Also, some of the things I've said may need clarification to not be misleading, please check below:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js
-  features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-- [Fumadocs](https://fumadocs.dev) - learn about Fumadocs
+<small><sup>1</sup> This is not confirmed just yet, but if possible we plan to add :)</small>
+<small><sup>2</sup> We haven't finished (more accurately started) building, this is all hypothetical and an intention</small>
