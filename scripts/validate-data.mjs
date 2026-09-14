@@ -20,7 +20,6 @@ const datasets = [
 	})),
 	{ section: "apple-pencil", dataPath: "public/data/other/apple-pencil/apple-pencil.json", schemaPath: "public/data/other/apple-pencil/apple-pencil.schema.json", collectionKey: "accessories" },
 	{ section: "magic-keyboard", dataPath: "public/data/other/magic-keyboard/magic-keyboard.json", schemaPath: "public/data/other/magic-keyboard/magic-keyboard.schema.json", collectionKey: "accessories" },
-	{ section: "airtag", dataPath: "public/data/other/airtag/airtag.json", schemaPath: "public/data/other/airtag/airtag.schema.json", collectionKey: "products" },
 	{ section: "apple-display", dataPath: "public/data/other/apple-display/apple-display.json", schemaPath: "public/data/other/apple-display/apple-display.schema.json", collectionKey: "products" },
 ];
 
