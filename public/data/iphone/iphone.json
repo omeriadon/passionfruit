@@ -1,6 +1,1079 @@
 {
 	"devices": [
 		{
+			"id": "iphone-duo",
+			"name": "iPhone Duo",
+			"releaseYear": 2026,
+			"priceAud": null,
+			"colors": [
+				{
+					"id": "night-sky",
+					"displayName": "Night Sky",
+					"swatch": {
+						"kind": "css",
+						"value": "#808080"
+					},
+					"images": []
+				},
+				{
+					"id": "star-white",
+					"displayName": "Star White",
+					"swatch": {
+						"kind": "css",
+						"value": "#808080"
+					},
+					"images": []
+				}
+			],
+			"configurations": [
+				{
+					"id": "iphone-duo-256gb",
+					"displayName": "iPhone Duo 256GB",
+					"colorIds": [
+						"night-sky",
+						"star-white"
+					],
+					"storageId": "256gb",
+					"priceAud": null
+				},
+				{
+					"id": "iphone-duo-512gb",
+					"displayName": "iPhone Duo 512GB",
+					"colorIds": [
+						"night-sky",
+						"star-white"
+					],
+					"storageId": "512gb",
+					"priceAud": null
+				},
+				{
+					"id": "iphone-duo-1tb",
+					"displayName": "iPhone Duo 1TB",
+					"colorIds": [
+						"night-sky",
+						"star-white"
+					],
+					"storageId": "1tb",
+					"priceAud": null
+				},
+				{
+					"id": "iphone-duo-2tb",
+					"displayName": "iPhone Duo 2TB",
+					"colorIds": [
+						"night-sky",
+						"star-white"
+					],
+					"storageId": "2tb",
+					"priceAud": null
+				}
+			],
+			"storageOptions": [
+				{
+					"id": "256gb",
+					"displayName": "256GB",
+					"capacityValue": 256,
+					"capacityUnit": "GB"
+				},
+				{
+					"id": "512gb",
+					"displayName": "512GB",
+					"capacityValue": 512,
+					"capacityUnit": "GB"
+				},
+				{
+					"id": "1tb",
+					"displayName": "1TB",
+					"capacityValue": 1,
+					"capacityUnit": "TB"
+				},
+				{
+					"id": "2tb",
+					"displayName": "2TB",
+					"capacityValue": 2,
+					"capacityUnit": "TB"
+				}
+			],
+			"chips": [
+				{
+					"id": "a20-pro",
+					"displayName": "A20 Pro chip",
+					"family": "A20",
+					"cpuCores": {
+						"total": 6,
+						"performance": 2,
+						"efficiency": 4
+					},
+					"gpuCores": 7,
+					"neuralEngineCores": 32,
+					"memoryBandwidthGbps": null,
+					"neuralAccelerators": true
+				}
+			],
+			"displays": [
+				{
+					"id": "iphone-duo-inner",
+					"technology": "Super Retina XDR folding display",
+					"panelKind": "OLED",
+					"sizeIn": 7.6,
+					"resolutionWidthPx": null,
+					"resolutionHeightPx": null,
+					"pixelsPerInch": null,
+					"refreshRateHz": 120,
+					"hdrPeakBrightnessNits": 1600,
+					"fullScreenHdrBrightnessNits": 3000,
+					"minimumBrightnessNits": 1,
+					"promotion": true,
+					"alwaysOn": true,
+					"nanoTextureOption": true,
+					"sourceNotes": "7.6-inch inner; inner resolution unstated."
+				},
+				{
+					"id": "iphone-duo-outer",
+					"technology": "Super Retina XDR outer display",
+					"panelKind": "OLED",
+					"sizeIn": 5.4,
+					"resolutionWidthPx": 1398,
+					"resolutionHeightPx": 2034,
+					"pixelsPerInch": 460,
+					"refreshRateHz": 120,
+					"hdrPeakBrightnessNits": 1600,
+					"fullScreenHdrBrightnessNits": 3000,
+					"minimumBrightnessNits": 1,
+					"promotion": true,
+					"alwaysOn": true
+				}
+			],
+			"cameras": [
+				{
+					"id": "iphone-duo-rear-wide",
+					"role": "rear-wide",
+					"displayName": "48MP Fusion Main",
+					"megapixels": 48,
+					"opticalZoomMultiplier": 1,
+					"apertureFNumber": 1.6,
+					"sensorShiftOis": true,
+					"variableAperture": false,
+					"appleReferenceImageSupport": false,
+					"sourceNotes": "26mm f/1.6 fixed; compare shows aperture options N/A."
+				},
+				{
+					"id": "iphone-duo-rear-ultrawide",
+					"role": "rear-ultrawide",
+					"displayName": "48MP Fusion Ultra Wide",
+					"megapixels": 48,
+					"opticalZoomMultiplier": 0.5,
+					"apertureFNumber": 2.2,
+					"variableAperture": false,
+					"appleReferenceImageSupport": false
+				},
+				{
+					"id": "iphone-duo-front",
+					"role": "front",
+					"displayName": "12MP Center Stage front camera",
+					"megapixels": 12,
+					"apertureFNumber": 2.2,
+					"centerStage": true,
+					"variableAperture": false,
+					"appleReferenceImageSupport": false
+				},
+				{
+					"id": "iphone-duo-facetime",
+					"role": "FaceTime",
+					"displayName": "Under-display FaceTime camera",
+					"megapixels": null,
+					"variableAperture": false,
+					"appleReferenceImageSupport": false
+				}
+			],
+			"audio": {
+				"speaker": true,
+				"microphone": true
+			},
+			"batteryAndPower": {
+				"hasBattery": true,
+				"batteryCapacityMah": null,
+				"batteryCapacityWhr": null,
+				"runtimeHours": [
+					{
+						"id": "iphone-duo-video-inner",
+						"activity": "Video playback (inner display)",
+						"hours": 31
+					},
+					{
+						"id": "iphone-duo-video-inner-streamed",
+						"activity": "Video playback streamed (inner display)",
+						"hours": 26
+					},
+					{
+						"id": "iphone-duo-video-outer",
+						"activity": "Video playback (outer display)",
+						"hours": 44
+					},
+					{
+						"id": "iphone-duo-video-outer-streamed",
+						"activity": "Video playback streamed (outer display)",
+						"hours": 37
+					}
+				],
+				"charging": {
+					"portId": "iphone-duo-usb-c",
+					"wiredFastCharge": true,
+					"wirelessCharging": true,
+					"wirelessStandards": [
+						"MagSafe"
+					],
+					"fastChargeMinutesToPercent": {
+						"minutes": 20,
+						"percent": 50
+					},
+					"adapterPowerW": null
+				},
+				"powerSupply": {
+					"hasExternalPowerAdapter": false,
+					"outputVoltageV": null,
+					"outputCurrentA": null,
+					"outputPowerW": null,
+					"inputVoltageRangeV": null,
+					"frequencyHz": null,
+					"consumptionW": null
+				}
+			},
+			"connectivity": {
+				"ports": [
+					{
+						"id": "iphone-duo-usb-c",
+						"kind": "USB-C",
+						"supportsDisplayOut": true
+					}
+				],
+				"wifi": {
+					"standards": [
+						"Wi-Fi 7"
+					]
+				},
+				"bluetooth": {
+					"version": "Bluetooth 6.0"
+				},
+				"cellular": {
+					"technologies": [
+						"LTE",
+						"5G sub-6",
+						"5G mmWave"
+					],
+					"eSIMOnly": true
+				},
+				"uwb": {
+					"chip": "second-generation Ultra Wideband chip",
+					"secondGeneration": true
+				},
+				"thread": {
+					"supported": true
+				},
+				"infrared": {
+					"present": false,
+					"purpose": null
+				},
+				"nearFieldCommunication": {
+					"present": true,
+					"readWriteMode": true
+				},
+				"gps": {
+					"present": true,
+					"precisionDualFrequency": true,
+					"systems": [
+						"GPS"
+					]
+				}
+			},
+			"authentication": {
+				"methods": [
+					"Touch ID",
+					"passcode"
+				],
+				"primaryMethod": "Touch ID",
+				"placement": "side button",
+				"sourceNotes": "Touch ID side button; no Face ID."
+			},
+			"physical": {
+				"weights": [
+					{
+						"value": 254,
+						"unit": "g",
+						"qualifier": "open total"
+					}
+				],
+				"dimensions": [
+					{
+						"value": 164.6,
+						"unit": "mm",
+						"qualifier": "open width"
+					},
+					{
+						"value": 117.8,
+						"unit": "mm",
+						"qualifier": "open height"
+					},
+					{
+						"value": 5.2,
+						"unit": "mm",
+						"qualifier": "open depth"
+					},
+					{
+						"value": 84.1,
+						"unit": "mm",
+						"qualifier": "closed width"
+					},
+					{
+						"value": 117.8,
+						"unit": "mm",
+						"qualifier": "closed height"
+					},
+					{
+						"value": 11.3,
+						"unit": "mm",
+						"qualifier": "closed depth"
+					}
+				],
+				"components": [
+					{
+						"id": "iphone-duo-frame",
+						"displayName": "Grade 5 titanium frame",
+						"dimensions": [],
+						"weight": null
+					}
+				]
+			},
+			"resistance": {
+				"ipRating": "IP68",
+				"waterDepthM": 6,
+				"splashPressureAtm": null,
+				"dustProtected": true,
+				"sweatResistant": false
+			},
+			"software": {
+				"operatingSystem": "iOS",
+				"operatingSystemVersionAtLaunch": "27",
+				"builtInApps": []
+			},
+			"accessories": [
+				{
+					"accessoryId": "apple-pencil-usb-c",
+					"displayName": "Apple Pencil (USB-C)",
+					"category": "Apple Pencil",
+					"capabilities": [
+						"writing",
+						"drawing",
+						"document annotation"
+					]
+				}
+			],
+			"ceramicShieldFront": "2",
+			"ceramicShieldBack": "1",
+			"isFolding": true,
+			"applePencilSupport": true,
+			"sourceNotes": "Evidence: data/tmp/iphone/iphone-duo.html, iphone-duo-specs.html, iphone-compare-2026.html. First foldable iPhone; Pencil USB-C only via later 2026 update. USD $1,999 third-party; AUD unpublished."
+		},
+		{
+			"id": "iphone-18-pro-max",
+			"name": "iPhone 18 Pro Max",
+			"releaseYear": 2026,
+			"priceAud": null,
+			"colors": [
+				{
+					"id": "burgundy",
+					"displayName": "Burgundy",
+					"swatch": {
+						"kind": "css",
+						"value": "#808080"
+					},
+					"images": []
+				},
+				{
+					"id": "glacier",
+					"displayName": "Glacier",
+					"swatch": {
+						"kind": "css",
+						"value": "#808080"
+					},
+					"images": []
+				},
+				{
+					"id": "silver",
+					"displayName": "Silver",
+					"swatch": {
+						"kind": "css",
+						"value": "#808080"
+					},
+					"images": []
+				},
+				{
+					"id": "black",
+					"displayName": "Black",
+					"swatch": {
+						"kind": "css",
+						"value": "#808080"
+					},
+					"images": []
+				}
+			],
+			"configurations": [
+				{
+					"id": "iphone-18-pro-max-256gb",
+					"displayName": "iPhone 18 Pro Max 256GB",
+					"colorIds": [
+						"burgundy",
+						"glacier",
+						"silver",
+						"black"
+					],
+					"storageId": "256gb",
+					"priceAud": null
+				},
+				{
+					"id": "iphone-18-pro-max-512gb",
+					"displayName": "iPhone 18 Pro Max 512GB",
+					"colorIds": [
+						"burgundy",
+						"glacier",
+						"silver",
+						"black"
+					],
+					"storageId": "512gb",
+					"priceAud": null
+				},
+				{
+					"id": "iphone-18-pro-max-1tb",
+					"displayName": "iPhone 18 Pro Max 1TB",
+					"colorIds": [
+						"burgundy",
+						"glacier",
+						"silver",
+						"black"
+					],
+					"storageId": "1tb",
+					"priceAud": null
+				},
+				{
+					"id": "iphone-18-pro-max-2tb",
+					"displayName": "iPhone 18 Pro Max 2TB",
+					"colorIds": [
+						"burgundy",
+						"glacier",
+						"silver",
+						"black"
+					],
+					"storageId": "2tb",
+					"priceAud": null
+				}
+			],
+			"storageOptions": [
+				{
+					"id": "256gb",
+					"displayName": "256GB",
+					"capacityValue": 256,
+					"capacityUnit": "GB"
+				},
+				{
+					"id": "512gb",
+					"displayName": "512GB",
+					"capacityValue": 512,
+					"capacityUnit": "GB"
+				},
+				{
+					"id": "1tb",
+					"displayName": "1TB",
+					"capacityValue": 1,
+					"capacityUnit": "TB"
+				},
+				{
+					"id": "2tb",
+					"displayName": "2TB",
+					"capacityValue": 2,
+					"capacityUnit": "TB"
+				}
+			],
+			"chips": [
+				{
+					"id": "a20-pro",
+					"displayName": "A20 Pro chip",
+					"family": "A20",
+					"cpuCores": {
+						"total": 6,
+						"performance": 2,
+						"efficiency": 4
+					},
+					"gpuCores": 7,
+					"neuralEngineCores": 32,
+					"memoryBandwidthGbps": null,
+					"neuralAccelerators": true
+				}
+			],
+			"displays": [
+				{
+					"id": "iphone-18-pro-max-display",
+					"technology": "Super Retina XDR display",
+					"panelKind": "OLED",
+					"sizeIn": 6.9,
+					"resolutionWidthPx": 2868,
+					"resolutionHeightPx": 1320,
+					"pixelsPerInch": 460,
+					"refreshRateHz": 120,
+					"sdrPeakBrightnessNits": 1000,
+					"hdrPeakBrightnessNits": 1600,
+					"fullScreenHdrBrightnessNits": 3000,
+					"minimumBrightnessNits": 1,
+					"trueTone": true,
+					"promotion": true,
+					"alwaysOn": true,
+					"wideColorP3": true
+				}
+			],
+			"cameras": [
+				{
+					"id": "iphone-18-pro-max-rear-wide",
+					"role": "rear-wide",
+					"displayName": "48MP Fusion Main",
+					"megapixels": 48,
+					"opticalZoomMultiplier": 1,
+					"apertureFNumber": 1.48,
+					"sensorShiftOis": true,
+					"proRAW": true,
+					"proRes": true,
+					"variableAperture": true,
+					"appleReferenceImageSupport": true
+				},
+				{
+					"id": "iphone-18-pro-max-rear-ultrawide",
+					"role": "rear-ultrawide",
+					"displayName": "48MP Fusion Ultra Wide",
+					"megapixels": 48,
+					"opticalZoomMultiplier": 0.5,
+					"apertureFNumber": 2.2,
+					"proRAW": true,
+					"macro": true
+				},
+				{
+					"id": "iphone-18-pro-max-rear-telephoto",
+					"role": "rear-telephoto",
+					"displayName": "48MP Fusion Telephoto",
+					"megapixels": 48,
+					"opticalZoomMultiplier": 4,
+					"apertureFNumber": 2.8,
+					"proRAW": true
+				},
+				{
+					"id": "iphone-18-pro-max-front",
+					"role": "front",
+					"displayName": "18MP Center Stage front camera",
+					"megapixels": 18,
+					"centerStage": true
+				}
+			],
+			"audio": {
+				"speaker": true,
+				"microphone": true
+			},
+			"batteryAndPower": {
+				"hasBattery": true,
+				"batteryCapacityMah": null,
+				"batteryCapacityWhr": null,
+				"runtimeHours": [
+					{
+						"id": "iphone-18-pro-max-video",
+						"activity": "Video playback",
+						"hours": 45
+					},
+					{
+						"id": "iphone-18-pro-max-video-streamed",
+						"activity": "Video playback (streamed)",
+						"hours": 40
+					}
+				],
+				"charging": {
+					"portId": "iphone-18-pro-max-usb-c",
+					"wiredFastCharge": true,
+					"wirelessCharging": true,
+					"wirelessStandards": [
+						"MagSafe"
+					],
+					"fastChargeMinutesToPercent": {
+						"minutes": 15,
+						"percent": 50
+					},
+					"adapterPowerW": null
+				},
+				"powerSupply": {
+					"hasExternalPowerAdapter": false,
+					"outputVoltageV": null,
+					"outputCurrentA": null,
+					"outputPowerW": null,
+					"inputVoltageRangeV": null,
+					"frequencyHz": null,
+					"consumptionW": null
+				}
+			},
+			"connectivity": {
+				"ports": [
+					{
+						"id": "iphone-18-pro-max-usb-c",
+						"kind": "USB-C",
+						"supportsDisplayOut": true
+					}
+				],
+				"wifi": {
+					"standards": [
+						"Wi-Fi 7"
+					]
+				},
+				"bluetooth": {
+					"version": "Bluetooth 6.0"
+				},
+				"cellular": {
+					"technologies": [
+						"LTE",
+						"5G sub-6",
+						"5G mmWave"
+					]
+				},
+				"uwb": {
+					"chip": "second-generation Ultra Wideband chip",
+					"secondGeneration": true
+				},
+				"thread": {
+					"supported": true
+				},
+				"infrared": {
+					"present": false,
+					"purpose": null
+				},
+				"nearFieldCommunication": {
+					"present": true,
+					"readWriteMode": true
+				},
+				"gps": {
+					"present": true,
+					"precisionDualFrequency": true,
+					"systems": [
+						"GPS"
+					]
+				}
+			},
+			"authentication": {
+				"methods": [
+					"Face ID",
+					"passcode"
+				],
+				"primaryMethod": "Face ID"
+			},
+			"physical": {
+				"weights": [
+					{
+						"value": 249,
+						"unit": "g",
+						"qualifier": "total"
+					}
+				],
+				"dimensions": [
+					{
+						"value": 78.0,
+						"unit": "mm",
+						"qualifier": "width"
+					},
+					{
+						"value": 163.4,
+						"unit": "mm",
+						"qualifier": "height"
+					},
+					{
+						"value": 8.75,
+						"unit": "mm",
+						"qualifier": "depth"
+					}
+				],
+				"components": [
+					{
+						"id": "iphone-18-pro-max-frame",
+						"displayName": "Aluminium unibody",
+						"dimensions": [],
+						"weight": null
+					}
+				]
+			},
+			"resistance": {
+				"ipRating": "IP68",
+				"waterDepthM": 6,
+				"splashPressureAtm": null,
+				"dustProtected": true,
+				"sweatResistant": false
+			},
+			"software": {
+				"operatingSystem": "iOS",
+				"operatingSystemVersionAtLaunch": "27",
+				"builtInApps": []
+			},
+			"accessories": [],
+			"ceramicShieldFront": "2",
+			"ceramicShieldBack": "1",
+			"isFolding": false,
+			"applePencilSupport": false,
+			"sourceNotes": "Evidence: shared 18 Pro page/specs (no dedicated Pro Max URL; /iphone-18-pro-max/ 404s). 45h video / 40h streamed. USD $1,299 third-party; AUD unpublished."
+		},
+		{
+			"id": "iphone-18-pro",
+			"name": "iPhone 18 Pro",
+			"releaseYear": 2026,
+			"priceAud": null,
+			"colors": [
+				{
+					"id": "burgundy",
+					"displayName": "Burgundy",
+					"swatch": {
+						"kind": "css",
+						"value": "#808080"
+					},
+					"images": [],
+					"sourceNotes": "Finish evidenced on apple.com/iphone-18-pro; swatch placeholder."
+				},
+				{
+					"id": "glacier",
+					"displayName": "Glacier",
+					"swatch": {
+						"kind": "css",
+						"value": "#808080"
+					},
+					"images": []
+				},
+				{
+					"id": "silver",
+					"displayName": "Silver",
+					"swatch": {
+						"kind": "css",
+						"value": "#808080"
+					},
+					"images": []
+				},
+				{
+					"id": "black",
+					"displayName": "Black",
+					"swatch": {
+						"kind": "css",
+						"value": "#808080"
+					},
+					"images": []
+				}
+			],
+			"configurations": [
+				{
+					"id": "iphone-18-pro-256gb",
+					"displayName": "iPhone 18 Pro 256GB",
+					"colorIds": [
+						"burgundy",
+						"glacier",
+						"silver",
+						"black"
+					],
+					"storageId": "256gb",
+					"priceAud": null
+				},
+				{
+					"id": "iphone-18-pro-512gb",
+					"displayName": "iPhone 18 Pro 512GB",
+					"colorIds": [
+						"burgundy",
+						"glacier",
+						"silver",
+						"black"
+					],
+					"storageId": "512gb",
+					"priceAud": null
+				},
+				{
+					"id": "iphone-18-pro-1tb",
+					"displayName": "iPhone 18 Pro 1TB",
+					"colorIds": [
+						"burgundy",
+						"glacier",
+						"silver",
+						"black"
+					],
+					"storageId": "1tb",
+					"priceAud": null
+				},
+				{
+					"id": "iphone-18-pro-2tb",
+					"displayName": "iPhone 18 Pro 2TB",
+					"colorIds": [
+						"burgundy",
+						"glacier",
+						"silver",
+						"black"
+					],
+					"storageId": "2tb",
+					"priceAud": null
+				}
+			],
+			"storageOptions": [
+				{
+					"id": "256gb",
+					"displayName": "256GB",
+					"capacityValue": 256,
+					"capacityUnit": "GB"
+				},
+				{
+					"id": "512gb",
+					"displayName": "512GB",
+					"capacityValue": 512,
+					"capacityUnit": "GB"
+				},
+				{
+					"id": "1tb",
+					"displayName": "1TB",
+					"capacityValue": 1,
+					"capacityUnit": "TB"
+				},
+				{
+					"id": "2tb",
+					"displayName": "2TB",
+					"capacityValue": 2,
+					"capacityUnit": "TB"
+				}
+			],
+			"chips": [
+				{
+					"id": "a20-pro",
+					"displayName": "A20 Pro chip",
+					"family": "A20",
+					"cpuCores": {
+						"total": 6,
+						"performance": 2,
+						"efficiency": 4
+					},
+					"gpuCores": 7,
+					"neuralEngineCores": 32,
+					"memoryBandwidthGbps": null,
+					"cpuCoreConfiguration": "6-core CPU with 2 super cores and 4 efficiency cores",
+					"neuralAccelerators": true,
+					"sourceNotes": "Vapor-cooled; Dual 16-core Neural Engine recorded as 32 total."
+				}
+			],
+			"displays": [
+				{
+					"id": "iphone-18-pro-display",
+					"technology": "Super Retina XDR display",
+					"panelKind": "OLED",
+					"sizeIn": 6.3,
+					"resolutionWidthPx": 2622,
+					"resolutionHeightPx": 1206,
+					"pixelsPerInch": 460,
+					"refreshRateHz": 120,
+					"sdrPeakBrightnessNits": 1000,
+					"hdrPeakBrightnessNits": 1600,
+					"fullScreenHdrBrightnessNits": 3000,
+					"minimumBrightnessNits": 1,
+					"trueTone": true,
+					"promotion": true,
+					"alwaysOn": true,
+					"wideColorP3": true,
+					"sourceNotes": "ProMotion; redesigned Dynamic Island. Evidence: iphone-18-pro.html, iphone-18-pro-specs.html."
+				}
+			],
+			"cameras": [
+				{
+					"id": "iphone-18-pro-rear-wide",
+					"role": "rear-wide",
+					"displayName": "48MP Fusion Main",
+					"megapixels": 48,
+					"opticalZoomMultiplier": 1,
+					"apertureFNumber": 1.48,
+					"sensorShiftOis": true,
+					"proRAW": true,
+					"proRes": true,
+					"variableAperture": true,
+					"appleReferenceImageSupport": true,
+					"sourceNotes": "Variable aperture f/1.48, f/1.8, f/2.8, f/4.0; second-gen sensor-shift; Apple Reference Image."
+				},
+				{
+					"id": "iphone-18-pro-rear-ultrawide",
+					"role": "rear-ultrawide",
+					"displayName": "48MP Fusion Ultra Wide",
+					"megapixels": 48,
+					"opticalZoomMultiplier": 0.5,
+					"apertureFNumber": 2.2,
+					"proRAW": true,
+					"macro": true
+				},
+				{
+					"id": "iphone-18-pro-rear-telephoto",
+					"role": "rear-telephoto",
+					"displayName": "48MP Fusion Telephoto",
+					"megapixels": 48,
+					"opticalZoomMultiplier": 4,
+					"apertureFNumber": 2.8,
+					"proRAW": true
+				},
+				{
+					"id": "iphone-18-pro-front",
+					"role": "front",
+					"displayName": "18MP Center Stage front camera",
+					"megapixels": 18,
+					"centerStage": true
+				}
+			],
+			"audio": {
+				"speaker": true,
+				"microphone": true
+			},
+			"batteryAndPower": {
+				"hasBattery": true,
+				"batteryCapacityMah": null,
+				"batteryCapacityWhr": null,
+				"runtimeHours": [
+					{
+						"id": "iphone-18-pro-video",
+						"activity": "Video playback",
+						"hours": 36
+					},
+					{
+						"id": "iphone-18-pro-video-streamed",
+						"activity": "Video playback (streamed)",
+						"hours": 33
+					}
+				],
+				"charging": {
+					"portId": "iphone-18-pro-usb-c",
+					"wiredFastCharge": true,
+					"wirelessCharging": true,
+					"wirelessStandards": [
+						"MagSafe"
+					],
+					"fastChargeMinutesToPercent": {
+						"minutes": 15,
+						"percent": 50
+					},
+					"adapterPowerW": null
+				},
+				"powerSupply": {
+					"hasExternalPowerAdapter": false,
+					"outputVoltageV": null,
+					"outputCurrentA": null,
+					"outputPowerW": null,
+					"inputVoltageRangeV": null,
+					"frequencyHz": null,
+					"consumptionW": null
+				}
+			},
+			"connectivity": {
+				"ports": [
+					{
+						"id": "iphone-18-pro-usb-c",
+						"kind": "USB-C",
+						"supportsDisplayOut": true
+					}
+				],
+				"wifi": {
+					"standards": [
+						"Wi-Fi 7"
+					]
+				},
+				"bluetooth": {
+					"version": "Bluetooth 6.0"
+				},
+				"cellular": {
+					"technologies": [
+						"LTE",
+						"5G sub-6",
+						"5G mmWave"
+					]
+				},
+				"uwb": {
+					"chip": "second-generation Ultra Wideband chip",
+					"secondGeneration": true
+				},
+				"thread": {
+					"supported": true
+				},
+				"infrared": {
+					"present": false,
+					"purpose": null
+				},
+				"nearFieldCommunication": {
+					"present": true,
+					"readWriteMode": true
+				},
+				"gps": {
+					"present": true,
+					"precisionDualFrequency": true,
+					"systems": [
+						"GPS",
+						"GLONASS",
+						"Galileo",
+						"QZSS",
+						"BeiDou",
+						"NavIC"
+					]
+				}
+			},
+			"authentication": {
+				"methods": [
+					"Face ID",
+					"passcode"
+				],
+				"primaryMethod": "Face ID"
+			},
+			"physical": {
+				"weights": [
+					{
+						"value": 211,
+						"unit": "g",
+						"qualifier": "total"
+					}
+				],
+				"dimensions": [
+					{
+						"value": 71.9,
+						"unit": "mm",
+						"qualifier": "width"
+					},
+					{
+						"value": 150.0,
+						"unit": "mm",
+						"qualifier": "height"
+					},
+					{
+						"value": 8.75,
+						"unit": "mm",
+						"qualifier": "depth"
+					}
+				],
+				"components": [
+					{
+						"id": "iphone-18-pro-frame",
+						"displayName": "Aluminium unibody",
+						"dimensions": [],
+						"weight": null
+					}
+				]
+			},
+			"resistance": {
+				"ipRating": "IP68",
+				"waterDepthM": 6,
+				"splashPressureAtm": null,
+				"dustProtected": true,
+				"sweatResistant": false
+			},
+			"software": {
+				"operatingSystem": "iOS",
+				"operatingSystemVersionAtLaunch": "27",
+				"builtInApps": []
+			},
+			"accessories": [],
+			"ceramicShieldFront": "2",
+			"ceramicShieldBack": "1",
+			"isFolding": false,
+			"applePencilSupport": false,
+			"sourceNotes": "Evidence: data/tmp/iphone/iphone-18-pro.html, iphone-18-pro-specs.html, iphone-compare-2026.html. Ceramic Shield 2 front / Ceramic Shield back (gen unstated, mapped to 1). USD $1,199 third-party; AUD unpublished."
+		},
+		{
 			"id": "iphone-17",
 			"name": "iPhone 17",
 			"releaseYear": 2025,
