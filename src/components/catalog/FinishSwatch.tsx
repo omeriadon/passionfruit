@@ -158,9 +158,7 @@ const CENTER = SIZE / 2;
 const RADIUS = SIZE / 2;
 
 function clamp(value: number | undefined, fallback: number) {
-	return typeof value === "number" && Number.isFinite(value)
-		? value
-		: fallback;
+	return typeof value === "number" && Number.isFinite(value) ? value : fallback;
 }
 
 function parseHex(hex: string): [number, number, number] | undefined {
@@ -224,7 +222,10 @@ function splitPath(split: FinishSplit): string {
 	// Divider normal. B side is the half containing center + normal * radius.
 	const nx = -dy;
 	const ny = dx;
-	const mid = { x: CENTER + nx * offset * RADIUS, y: CENTER + ny * offset * RADIUS };
+	const mid = {
+		x: CENTER + nx * offset * RADIUS,
+		y: CENTER + ny * offset * RADIUS,
+	};
 	const p1 = { x: mid.x + dx * RADIUS, y: mid.y + dy * RADIUS };
 	const p2 = { x: mid.x - dx * RADIUS, y: mid.y - dy * RADIUS };
 	const control = {

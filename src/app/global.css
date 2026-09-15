@@ -50,6 +50,131 @@ select {
 	) !important;
 }
 
+.glass-account-switch-pill,
+.glass-theme-switch::before {
+	background: var(--color-fd-primary);
+	box-shadow: var(--shadow-sm);
+	transition: transform 250ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.glass-account-switch-pill {
+	position: absolute;
+	inset: 0.25rem 50% 0.25rem 0.25rem;
+	border-radius: 9999px;
+	pointer-events: none;
+}
+
+.glass-account-switch[data-active="you"] .glass-account-switch-pill,
+.glass-account-switch:has(> a:nth-of-type(2):is(:hover, :focus-visible))
+	.glass-account-switch-pill {
+	transform: translateX(100%);
+}
+
+.glass-account-switch:has(> a:first-of-type:is(:hover, :focus-visible))
+	.glass-account-switch-pill {
+	transform: translateX(0);
+}
+
+.glass-account-switch > a {
+	color: var(--color-fd-muted-foreground);
+	transition: color 250ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.glass-account-switch > a[aria-current="page"],
+.glass-account-switch:has(> a:is(:hover, :focus-visible))
+	> a:is(:hover, :focus-visible) {
+	color: var(--color-fd-primary-foreground);
+}
+
+.glass-account-switch:has(> a:is(:hover, :focus-visible))
+	> a[aria-current="page"]:not(:hover, :focus-visible) {
+	color: var(--color-fd-muted-foreground);
+}
+
+.glass-theme-switch {
+	position: relative;
+}
+
+.glass-theme-switch::before {
+	content: "";
+	position: absolute;
+	top: 0.25rem;
+	left: 0.375rem;
+	width: 1.625rem;
+	height: 1.625rem;
+	border-radius: 9999px;
+	pointer-events: none;
+}
+
+.glass-theme-switch:has(> button:nth-child(2).bg-fd-accent)::before {
+	transform: translateX(100%);
+}
+
+.glass-theme-switch:has(> button:nth-child(3).bg-fd-accent)::before {
+	transform: translateX(200%);
+}
+
+.glass-theme-switch:has(
+		> button:first-child:is(:hover, :focus-visible)
+	)::before {
+	transform: translateX(0);
+}
+
+.glass-theme-switch:has(
+		> button:nth-child(2):is(:hover, :focus-visible)
+	)::before {
+	transform: translateX(100%);
+}
+
+.glass-theme-switch:has(
+		> button:nth-child(3):is(:hover, :focus-visible)
+	)::before {
+	transform: translateX(200%);
+}
+
+.glass-theme-switch > button {
+	position: relative;
+	z-index: 1;
+	background: transparent !important;
+	transition: color 250ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.glass-theme-switch > button.bg-fd-accent,
+.glass-theme-switch:has(> button:is(:hover, :focus-visible))
+	> button:is(:hover, :focus-visible) {
+	color: var(--color-fd-primary-foreground);
+}
+
+.glass-theme-switch:has(> button:is(:hover, :focus-visible))
+	> button.bg-fd-accent:not(:hover, :focus-visible) {
+	color: var(--color-fd-muted-foreground);
+}
+
+[data-search-full] kbd {
+	transition:
+		background-color 250ms cubic-bezier(0.22, 1, 0.36, 1),
+		border-color 250ms cubic-bezier(0.22, 1, 0.36, 1),
+		box-shadow 250ms cubic-bezier(0.22, 1, 0.36, 1),
+		color 250ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+[data-search-full]:is(:hover, :focus-visible) kbd {
+	background: var(--color-fd-primary);
+	color: var(--color-fd-primary-foreground);
+	border-color: transparent;
+	box-shadow: var(--shadow-sm);
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.glass-account-switch-pill,
+	.glass-account-switch > a,
+	.glass-theme-switch::before,
+	.glass-theme-switch > button,
+	[data-search-full] kbd {
+		transition: none;
+	}
+}
+
 /* Let the default Glass sidebar list continue beneath its title and tabs. */
 #nd-sidebar {
 	overflow: hidden;
