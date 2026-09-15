@@ -123,6 +123,7 @@ select {
 
 #nd-sidebar > div:has(> [data-id$="-viewport"]) > [data-id$="-viewport"] {
 	padding-top: 6.5rem;
+	overflow-x: clip;
 }
 
 #nd-sidebar.nd-sidebar-with-device-search
@@ -160,6 +161,26 @@ select {
 	-webkit-backdrop-filter: blur(4px);
 	backdrop-filter: blur(4px);
 	border-color: color-mix(in srgb, currentColor 16%, transparent) !important;
+}
+
+#nd-sidebar.nd-sidebar-with-device-search > button {
+	margin-left: 3.5rem;
+	width: calc(100% - 4rem);
+}
+
+#nd-sidebar.nd-sidebar-with-device-search
+	> #nd-sidebar-device-search
+	[data-sidebar-device-type] {
+	background-color: color-mix(
+		in srgb,
+		var(--color-fd-popover) 48%,
+		transparent
+	) !important;
+	border: 1px solid color-mix(in srgb, currentColor 24%, transparent);
+}
+
+#nd-sidebar.nd-sidebar-with-device-search > button > svg:first-child {
+	display: none;
 }
 
 #nd-sidebar:not(.nd-sidebar-with-device-search) > button {

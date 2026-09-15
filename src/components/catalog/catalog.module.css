@@ -79,7 +79,7 @@
 
 .searchField:focus-within,
 .controlButton:hover,
-.bookmarkButton:hover,
+.bookmarkButton:not(.bookmarked):hover,
 .sourcesToggle:hover,
 .restoreButton:hover,
 .textButton:hover {
@@ -343,9 +343,9 @@
 
 .bookmarkButton {
 	background: transparent;
-	border-radius: 6px;
+	border-radius: 12px;
 	font-size: 0.85rem;
-	padding: 0.45rem 0.7rem;
+	padding: 0.25rem 0.7rem;
 }
 
 .detailActions {

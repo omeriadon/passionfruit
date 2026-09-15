@@ -7,6 +7,8 @@ import { createPortal } from "react-dom";
 import { useAuth } from "@/lib/auth/AuthProvider";
 import { DeviceSearch } from "@/components/catalog/DeviceSearch";
 import { DeviceSidebarLabel } from "@/components/catalog/DeviceSidebarLabel";
+import { DeviceTypeIcon } from "@/components/catalog/DeviceTypeIcon";
+import { catalogCategories, otherCatalogSections } from "@/lib/shared";
 import type { EnrichedDeviceEntry } from "@/app/api/you/devices/route";
 
 function useSidebarHost(id: string, active: boolean, prepend: boolean) {
@@ -74,10 +76,41 @@ export function SidebarDeviceSearch() {
 	);
 	if (!host) return null;
 	return createPortal(
-		<div className="px-2 pt-2">
+		<div className="relative px-2 pt-2">
 			<DeviceSearch />
+			<SidebarDeviceTypeButton pathname={pathname} />
 		</div>,
 		host,
+	);
+}
+
+function SidebarDeviceTypeButton({ pathname }: { pathname: string }) {
+	const otherSection = pathname.startsWith("/docs/other/")
+		? otherCatalogSections.find(
+				(section) => section.slug === pathname.split("/")[3],
+			)
+		: undefined;
+	const category = otherSection
+		? { slug: otherSection.slug, title: otherSection.title }
+		: catalogCategories.find(
+				(category) => category.slug === pathname.split("/")[2],
+			);
+
+	if (!category) return null;
+
+	const href = otherSection
+		? `/docs/other/${category.slug}`
+		: `/docs/${category.slug}`;
+
+	return (
+		<Link
+			href={href}
+			aria-label={`${category.title} device type`}
+			data-sidebar-device-type
+			className="glass-header-surface absolute left-2 top-12 inline-flex size-10 items-center justify-center rounded-xl text-fd-secondary-foreground transition-colors hover:bg-fd-accent hover:text-fd-accent-foreground"
+		>
+			<DeviceTypeIcon category={category.slug} className="size-4" />
+		</Link>
 	);
 }
 
