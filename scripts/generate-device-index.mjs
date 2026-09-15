@@ -1,5 +1,5 @@
 // Generates src/lib/device-index.ts — a compact client-safe index of every
-// device/accessory/product (id, name, category, link, price). The full
+// device/accessory/product (id, name, category, link, release year). The full
 // catalogue JSON (1.2MB) must never enter the client bundle; this index is
 // ~15KB. Regenerate after catalogue data changes:
 //   node scripts/generate-device-index.mjs
@@ -21,7 +21,8 @@ function pushDevices(file, category, href) {
 			name: device.name,
 			category,
 			href: href(device),
-			priceAud: typeof device.priceAud === "number" ? device.priceAud : null,
+			releaseYear:
+				typeof device.releaseYear === "number" ? device.releaseYear : null,
 		});
 	}
 }
@@ -70,7 +71,8 @@ for (const [file, section] of [
 			name: item.displayName,
 			category: section,
 			href: `/docs/ipad/accessories/${section}/${item.id}`,
-			priceAud: typeof item.priceAud === "number" ? item.priceAud : null,
+			releaseYear:
+				typeof item.releaseYear === "number" ? item.releaseYear : null,
 		});
 	}
 }
@@ -83,8 +85,8 @@ for (const [file, section] of [
 			name: product.displayName,
 			category: "apple-display",
 			href: `/docs/other/apple-display/${product.id}`,
-			priceAud:
-				typeof product.priceAud === "number" ? product.priceAud : null,
+			releaseYear:
+				typeof product.releaseYear === "number" ? product.releaseYear : null,
 		});
 	}
 }
@@ -98,7 +100,7 @@ export type DeviceIndexEntry = {
 	name: string;
 	category: string;
 	href: string;
-	priceAud: number | null;
+	releaseYear: number | null;
 };
 
 export const deviceIndex: DeviceIndexEntry[] = ${JSON.stringify(entries)};
