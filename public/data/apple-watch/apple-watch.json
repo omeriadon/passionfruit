@@ -14,7 +14,36 @@
 						"shine": 0.3,
 						"grain": 0.08
 					},
-					"images": []
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/v/apple-watch-ultra-4/a/images/overview/product-viewer/product_finishes_natural__fcf2wz3wghea_large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/product-finishes-natural--fcf2wz3wghea-large-2x.jpg",
+							"widthPx": 2880,
+							"heightPx": 1520
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/v/apple-watch-ultra-4/a/images/overview/product-viewer/product_finishes_natural__fcf2wz3wghea_large.jpg",
+							"localPath": "public/data/apple-watch/images/product-finishes-natural--fcf2wz3wghea-large.jpg",
+							"widthPx": 1440,
+							"heightPx": 760
+						},
+						{
+							"label": "small 2x",
+							"appleUrl": "https://www.apple.com/v/apple-watch-ultra-4/a/images/overview/product-viewer/product_finishes_natural__fcf2wz3wghea_small_2x.jpg",
+							"localPath": "public/data/apple-watch/images/product-finishes-natural--fcf2wz3wghea-small-2x.jpg",
+							"widthPx": 1468,
+							"heightPx": 1280
+						},
+						{
+							"label": "small",
+							"appleUrl": "https://www.apple.com/v/apple-watch-ultra-4/a/images/overview/product-viewer/product_finishes_natural__fcf2wz3wghea_small.jpg",
+							"localPath": "public/data/apple-watch/images/product-finishes-natural--fcf2wz3wghea-small.jpg",
+							"widthPx": 734,
+							"heightPx": 640
+						}
+					]
 				},
 				{
 					"id": "black-titanium",
@@ -25,7 +54,36 @@
 						"shine": 0.3,
 						"grain": 0.08
 					},
-					"images": []
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/v/apple-watch-ultra-4/a/images/overview/product-viewer/product_finishes_black__d8fehns3thg2_large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/product-finishes-black--d8fehns3thg2-large-2x.jpg",
+							"widthPx": 2880,
+							"heightPx": 1520
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/v/apple-watch-ultra-4/a/images/overview/product-viewer/product_finishes_black__d8fehns3thg2_large.jpg",
+							"localPath": "public/data/apple-watch/images/product-finishes-black--d8fehns3thg2-large.jpg",
+							"widthPx": 1440,
+							"heightPx": 760
+						},
+						{
+							"label": "small 2x",
+							"appleUrl": "https://www.apple.com/v/apple-watch-ultra-4/a/images/overview/product-viewer/product_finishes_black__d8fehns3thg2_small_2x.jpg",
+							"localPath": "public/data/apple-watch/images/product-finishes-black--d8fehns3thg2-small-2x.jpg",
+							"widthPx": 1468,
+							"heightPx": 1280
+						},
+						{
+							"label": "small",
+							"appleUrl": "https://www.apple.com/v/apple-watch-ultra-4/a/images/overview/product-viewer/product_finishes_black__d8fehns3thg2_small.jpg",
+							"localPath": "public/data/apple-watch/images/product-finishes-black--d8fehns3thg2-small.jpg",
+							"widthPx": 734,
+							"heightPx": 640
+						}
+					]
 				}
 			],
 			"configurations": [
@@ -163,7 +221,36 @@
 						"shine": 0.15,
 						"grain": 0.1
 					},
-					"images": []
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/v/apple-watch-series-12/a/images/overview/product-viewer/product_finishes_aluminum_dark_bronze__cn6ty9h5yliu_large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/product-finishes-aluminum-dark-bronze--cn6ty9h5yliu-large-2x.jpg",
+							"widthPx": 2880,
+							"heightPx": 1520
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/v/apple-watch-series-12/a/images/overview/product-viewer/product_finishes_aluminum_dark_bronze__cn6ty9h5yliu_large.jpg",
+							"localPath": "public/data/apple-watch/images/product-finishes-aluminum-dark-bronze--cn6ty9h5yliu-large.jpg",
+							"widthPx": 1440,
+							"heightPx": 760
+						},
+						{
+							"label": "small 2x",
+							"appleUrl": "https://www.apple.com/v/apple-watch-series-12/a/images/overview/product-viewer/product_finishes_aluminum_dark_bronze__cn6ty9h5yliu_small_2x.jpg",
+							"localPath": "public/data/apple-watch/images/product-finishes-aluminum-dark-bronze--cn6ty9h5yliu-small-2x.jpg",
+							"widthPx": 1468,
+							"heightPx": 1280
+						},
+						{
+							"label": "small",
+							"appleUrl": "https://www.apple.com/v/apple-watch-series-12/a/images/overview/product-viewer/product_finishes_aluminum_dark_bronze__cn6ty9h5yliu_small.jpg",
+							"localPath": "public/data/apple-watch/images/product-finishes-aluminum-dark-bronze--cn6ty9h5yliu-small.jpg",
+							"widthPx": 734,
+							"heightPx": 640
+						}
+					]
 				},
 				{
 					"id": "light-gold-aluminium",
@@ -174,7 +261,36 @@
 						"shine": 0.15,
 						"grain": 0.1
 					},
-					"images": []
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/v/apple-watch-series-12/a/images/overview/product-viewer/product_finishes_aluminum_light_gold__cr815xqxzoia_large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/product-finishes-aluminum-light-gold--cr815xqxzoia-large-2x.jpg",
+							"widthPx": 2880,
+							"heightPx": 1520
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/v/apple-watch-series-12/a/images/overview/product-viewer/product_finishes_aluminum_light_gold__cr815xqxzoia_large.jpg",
+							"localPath": "public/data/apple-watch/images/product-finishes-aluminum-light-gold--cr815xqxzoia-large.jpg",
+							"widthPx": 1440,
+							"heightPx": 760
+						},
+						{
+							"label": "small 2x",
+							"appleUrl": "https://www.apple.com/v/apple-watch-series-12/a/images/overview/product-viewer/product_finishes_aluminum_light_gold__cr815xqxzoia_small_2x.jpg",
+							"localPath": "public/data/apple-watch/images/product-finishes-aluminum-light-gold--cr815xqxzoia-small-2x.jpg",
+							"widthPx": 1468,
+							"heightPx": 1280
+						},
+						{
+							"label": "small",
+							"appleUrl": "https://www.apple.com/v/apple-watch-series-12/a/images/overview/product-viewer/product_finishes_aluminum_light_gold__cr815xqxzoia_small.jpg",
+							"localPath": "public/data/apple-watch/images/product-finishes-aluminum-light-gold--cr815xqxzoia-small.jpg",
+							"widthPx": 734,
+							"heightPx": 640
+						}
+					]
 				},
 				{
 					"id": "black-aluminium",
@@ -185,7 +301,36 @@
 						"shine": 0.15,
 						"grain": 0.1
 					},
-					"images": []
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/v/apple-watch-series-12/a/images/overview/product-viewer/product_finishes_aluminum_black__ebajxwacb88y_large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/product-finishes-aluminum-black--ebajxwacb88y-large-2x.jpg",
+							"widthPx": 2880,
+							"heightPx": 1520
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/v/apple-watch-series-12/a/images/overview/product-viewer/product_finishes_aluminum_black__ebajxwacb88y_large.jpg",
+							"localPath": "public/data/apple-watch/images/product-finishes-aluminum-black--ebajxwacb88y-large.jpg",
+							"widthPx": 1440,
+							"heightPx": 760
+						},
+						{
+							"label": "small 2x",
+							"appleUrl": "https://www.apple.com/v/apple-watch-series-12/a/images/overview/product-viewer/product_finishes_aluminum_black__ebajxwacb88y_small_2x.jpg",
+							"localPath": "public/data/apple-watch/images/product-finishes-aluminum-black--ebajxwacb88y-small-2x.jpg",
+							"widthPx": 1468,
+							"heightPx": 1280
+						},
+						{
+							"label": "small",
+							"appleUrl": "https://www.apple.com/v/apple-watch-series-12/a/images/overview/product-viewer/product_finishes_aluminum_black__ebajxwacb88y_small.jpg",
+							"localPath": "public/data/apple-watch/images/product-finishes-aluminum-black--ebajxwacb88y-small.jpg",
+							"widthPx": 734,
+							"heightPx": 640
+						}
+					]
 				},
 				{
 					"id": "space-gray-aluminium",
@@ -196,7 +341,36 @@
 						"shine": 0.15,
 						"grain": 0.1
 					},
-					"images": []
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/v/apple-watch-series-12/a/images/overview/product-viewer/product_finishes_aluminum_space_gray__d83ign704owi_large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/product-finishes-aluminum-space-gray--d83ign704owi-large-2x.jpg",
+							"widthPx": 2880,
+							"heightPx": 1520
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/v/apple-watch-series-12/a/images/overview/product-viewer/product_finishes_aluminum_space_gray__d83ign704owi_large.jpg",
+							"localPath": "public/data/apple-watch/images/product-finishes-aluminum-space-gray--d83ign704owi-large.jpg",
+							"widthPx": 1440,
+							"heightPx": 760
+						},
+						{
+							"label": "small 2x",
+							"appleUrl": "https://www.apple.com/v/apple-watch-series-12/a/images/overview/product-viewer/product_finishes_aluminum_space_gray__d83ign704owi_small_2x.jpg",
+							"localPath": "public/data/apple-watch/images/product-finishes-aluminum-space-gray--d83ign704owi-small-2x.jpg",
+							"widthPx": 1468,
+							"heightPx": 1280
+						},
+						{
+							"label": "small",
+							"appleUrl": "https://www.apple.com/v/apple-watch-series-12/a/images/overview/product-viewer/product_finishes_aluminum_space_gray__d83ign704owi_small.jpg",
+							"localPath": "public/data/apple-watch/images/product-finishes-aluminum-space-gray--d83ign704owi-small.jpg",
+							"widthPx": 734,
+							"heightPx": 640
+						}
+					]
 				},
 				{
 					"id": "radiant-gold-titanium",
@@ -207,7 +381,36 @@
 						"shine": 0.6,
 						"grain": 0
 					},
-					"images": []
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/v/apple-watch-series-12/a/images/overview/product-viewer/product_finishes_titanium_radiant_gold__dhabqmjal4wi_large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/product-finishes-titanium-radiant-gold--dhabqmjal4wi-large-2x.jpg",
+							"widthPx": 2880,
+							"heightPx": 1520
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/v/apple-watch-series-12/a/images/overview/product-viewer/product_finishes_titanium_radiant_gold__dhabqmjal4wi_large.jpg",
+							"localPath": "public/data/apple-watch/images/product-finishes-titanium-radiant-gold--dhabqmjal4wi-large.jpg",
+							"widthPx": 1440,
+							"heightPx": 760
+						},
+						{
+							"label": "small 2x",
+							"appleUrl": "https://www.apple.com/v/apple-watch-series-12/a/images/overview/product-viewer/product_finishes_titanium_radiant_gold__dhabqmjal4wi_small_2x.jpg",
+							"localPath": "public/data/apple-watch/images/product-finishes-titanium-radiant-gold--dhabqmjal4wi-small-2x.jpg",
+							"widthPx": 1468,
+							"heightPx": 1280
+						},
+						{
+							"label": "small",
+							"appleUrl": "https://www.apple.com/v/apple-watch-series-12/a/images/overview/product-viewer/product_finishes_titanium_radiant_gold__dhabqmjal4wi_small.jpg",
+							"localPath": "public/data/apple-watch/images/product-finishes-titanium-radiant-gold--dhabqmjal4wi-small.jpg",
+							"widthPx": 734,
+							"heightPx": 640
+						}
+					]
 				},
 				{
 					"id": "natural-titanium",
@@ -218,7 +421,36 @@
 						"shine": 0.6,
 						"grain": 0
 					},
-					"images": []
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/v/apple-watch-series-12/a/images/overview/product-viewer/product_finishes_titanium_natural__dcwev7ob2quu_large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/product-finishes-titanium-natural--dcwev7ob2quu-large-2x.jpg",
+							"widthPx": 2880,
+							"heightPx": 1520
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/v/apple-watch-series-12/a/images/overview/product-viewer/product_finishes_titanium_natural__dcwev7ob2quu_large.jpg",
+							"localPath": "public/data/apple-watch/images/product-finishes-titanium-natural--dcwev7ob2quu-large.jpg",
+							"widthPx": 1440,
+							"heightPx": 760
+						},
+						{
+							"label": "small 2x",
+							"appleUrl": "https://www.apple.com/v/apple-watch-series-12/a/images/overview/product-viewer/product_finishes_titanium_natural__dcwev7ob2quu_small_2x.jpg",
+							"localPath": "public/data/apple-watch/images/product-finishes-titanium-natural--dcwev7ob2quu-small-2x.jpg",
+							"widthPx": 1468,
+							"heightPx": 1280
+						},
+						{
+							"label": "small",
+							"appleUrl": "https://www.apple.com/v/apple-watch-series-12/a/images/overview/product-viewer/product_finishes_titanium_natural__dcwev7ob2quu_small.jpg",
+							"localPath": "public/data/apple-watch/images/product-finishes-titanium-natural--dcwev7ob2quu-small.jpg",
+							"widthPx": 734,
+							"heightPx": 640
+						}
+					]
 				},
 				{
 					"id": "pearl-white-ceramic",
@@ -229,7 +461,36 @@
 						"shine": 0.7,
 						"grain": 0.05
 					},
-					"images": []
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/v/apple-watch-series-12/a/images/overview/product-viewer/product_finishes_ceramic_pearl_white__m797y0r8nsqy_large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/product-finishes-ceramic-pearl-white--m797y0r8nsqy-large-2x.jpg",
+							"widthPx": 2880,
+							"heightPx": 1520
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/v/apple-watch-series-12/a/images/overview/product-viewer/product_finishes_ceramic_pearl_white__m797y0r8nsqy_large.jpg",
+							"localPath": "public/data/apple-watch/images/product-finishes-ceramic-pearl-white--m797y0r8nsqy-large.jpg",
+							"widthPx": 1440,
+							"heightPx": 760
+						},
+						{
+							"label": "small 2x",
+							"appleUrl": "https://www.apple.com/v/apple-watch-series-12/a/images/overview/product-viewer/product_finishes_ceramic_pearl_white__m797y0r8nsqy_small_2x.jpg",
+							"localPath": "public/data/apple-watch/images/product-finishes-ceramic-pearl-white--m797y0r8nsqy-small-2x.jpg",
+							"widthPx": 1468,
+							"heightPx": 1280
+						},
+						{
+							"label": "small",
+							"appleUrl": "https://www.apple.com/v/apple-watch-series-12/a/images/overview/product-viewer/product_finishes_ceramic_pearl_white__m797y0r8nsqy_small.jpg",
+							"localPath": "public/data/apple-watch/images/product-finishes-ceramic-pearl-white--m797y0r8nsqy-small.jpg",
+							"widthPx": 734,
+							"heightPx": 640
+						}
+					]
 				},
 				{
 					"id": "night-blue-ceramic",
@@ -240,7 +501,36 @@
 						"shine": 0.7,
 						"grain": 0.05
 					},
-					"images": []
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/v/apple-watch-series-12/a/images/overview/product-viewer/product_finishes_ceramic_night_blue__c86m67tq2c8y_large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/product-finishes-ceramic-night-blue--c86m67tq2c8y-large-2x.jpg",
+							"widthPx": 2880,
+							"heightPx": 1520
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/v/apple-watch-series-12/a/images/overview/product-viewer/product_finishes_ceramic_night_blue__c86m67tq2c8y_large.jpg",
+							"localPath": "public/data/apple-watch/images/product-finishes-ceramic-night-blue--c86m67tq2c8y-large.jpg",
+							"widthPx": 1440,
+							"heightPx": 760
+						},
+						{
+							"label": "small 2x",
+							"appleUrl": "https://www.apple.com/v/apple-watch-series-12/a/images/overview/product-viewer/product_finishes_ceramic_night_blue__c86m67tq2c8y_small_2x.jpg",
+							"localPath": "public/data/apple-watch/images/product-finishes-ceramic-night-blue--c86m67tq2c8y-small-2x.jpg",
+							"widthPx": 1468,
+							"heightPx": 1280
+						},
+						{
+							"label": "small",
+							"appleUrl": "https://www.apple.com/v/apple-watch-series-12/a/images/overview/product-viewer/product_finishes_ceramic_night_blue__c86m67tq2c8y_small.jpg",
+							"localPath": "public/data/apple-watch/images/product-finishes-ceramic-night-blue--c86m67tq2c8y-small.jpg",
+							"widthPx": 734,
+							"heightPx": 640
+						}
+					]
 				}
 			],
 			"configurations": [
@@ -1904,7 +2194,36 @@
 						"shine": 0.15,
 						"grain": 0.1
 					},
-					"images": []
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/v/watch/compare/ah/images/overview/compare_watch_se_gen2_aluminum_midnight__bl3wyc9yo17m_large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/compare-watch-se-gen2-aluminum-midnight--bl3wyc9yo17m-large-2x.jpg",
+							"widthPx": 500,
+							"heightPx": 570
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/v/watch/compare/ah/images/overview/compare_watch_se_gen2_aluminum_midnight__bl3wyc9yo17m_large.jpg",
+							"localPath": "public/data/apple-watch/images/compare-watch-se-gen2-aluminum-midnight--bl3wyc9yo17m-large.jpg",
+							"widthPx": 250,
+							"heightPx": 285
+						},
+						{
+							"label": "small 2x",
+							"appleUrl": "https://www.apple.com/v/watch/compare/ah/images/overview/compare_watch_se_gen2_aluminum_midnight__bl3wyc9yo17m_small_2x.jpg",
+							"localPath": "public/data/apple-watch/images/compare-watch-se-gen2-aluminum-midnight--bl3wyc9yo17m-small-2x.jpg",
+							"widthPx": 294,
+							"heightPx": 336
+						},
+						{
+							"label": "small",
+							"appleUrl": "https://www.apple.com/v/watch/compare/ah/images/overview/compare_watch_se_gen2_aluminum_midnight__bl3wyc9yo17m_small.jpg",
+							"localPath": "public/data/apple-watch/images/compare-watch-se-gen2-aluminum-midnight--bl3wyc9yo17m-small.jpg",
+							"widthPx": 147,
+							"heightPx": 168
+						}
+					]
 				},
 				{
 					"id": "starlight-aluminium",
@@ -1915,7 +2234,36 @@
 						"shine": 0.15,
 						"grain": 0.1
 					},
-					"images": []
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/v/watch/compare/ah/images/overview/compare_watch_se_gen2_aluminum_starlight__mt6b6z7vuaie_large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/compare-watch-se-gen2-aluminum-starlight--mt6b6z7vuaie-large-2x.jpg",
+							"widthPx": 500,
+							"heightPx": 570
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/v/watch/compare/ah/images/overview/compare_watch_se_gen2_aluminum_starlight__mt6b6z7vuaie_large.jpg",
+							"localPath": "public/data/apple-watch/images/compare-watch-se-gen2-aluminum-starlight--mt6b6z7vuaie-large.jpg",
+							"widthPx": 250,
+							"heightPx": 285
+						},
+						{
+							"label": "small 2x",
+							"appleUrl": "https://www.apple.com/v/watch/compare/ah/images/overview/compare_watch_se_gen2_aluminum_starlight__mt6b6z7vuaie_small_2x.jpg",
+							"localPath": "public/data/apple-watch/images/compare-watch-se-gen2-aluminum-starlight--mt6b6z7vuaie-small-2x.jpg",
+							"widthPx": 294,
+							"heightPx": 336
+						},
+						{
+							"label": "small",
+							"appleUrl": "https://www.apple.com/v/watch/compare/ah/images/overview/compare_watch_se_gen2_aluminum_starlight__mt6b6z7vuaie_small.jpg",
+							"localPath": "public/data/apple-watch/images/compare-watch-se-gen2-aluminum-starlight--mt6b6z7vuaie-small.jpg",
+							"widthPx": 147,
+							"heightPx": 168
+						}
+					]
 				},
 				{
 					"id": "silver-aluminium",
@@ -1926,7 +2274,36 @@
 						"shine": 0.15,
 						"grain": 0.1
 					},
-					"images": []
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/v/watch/compare/ah/images/overview/compare_watch_se_gen2_aluminum_silver__cvybwwt1hr0i_large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/compare-watch-se-gen2-aluminum-silver--cvybwwt1hr0i-large-2x.jpg",
+							"widthPx": 500,
+							"heightPx": 570
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/v/watch/compare/ah/images/overview/compare_watch_se_gen2_aluminum_silver__cvybwwt1hr0i_large.jpg",
+							"localPath": "public/data/apple-watch/images/compare-watch-se-gen2-aluminum-silver--cvybwwt1hr0i-large.jpg",
+							"widthPx": 250,
+							"heightPx": 285
+						},
+						{
+							"label": "small 2x",
+							"appleUrl": "https://www.apple.com/v/watch/compare/ah/images/overview/compare_watch_se_gen2_aluminum_silver__cvybwwt1hr0i_small_2x.jpg",
+							"localPath": "public/data/apple-watch/images/compare-watch-se-gen2-aluminum-silver--cvybwwt1hr0i-small-2x.jpg",
+							"widthPx": 294,
+							"heightPx": 336
+						},
+						{
+							"label": "small",
+							"appleUrl": "https://www.apple.com/v/watch/compare/ah/images/overview/compare_watch_se_gen2_aluminum_silver__cvybwwt1hr0i_small.jpg",
+							"localPath": "public/data/apple-watch/images/compare-watch-se-gen2-aluminum-silver--cvybwwt1hr0i-small.jpg",
+							"widthPx": 147,
+							"heightPx": 168
+						}
+					]
 				}
 			],
 			"configurations": [
@@ -2714,7 +3091,36 @@
 						"shine": 0.15,
 						"grain": 0.1
 					},
-					"images": []
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/v/watch/compare/ah/images/overview/compare_watch_se_gen1_aluminum_brush_gold__efof1ek2u62q_large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/compare-watch-se-gen1-aluminum-brush-gold--efof1ek2u62q-large-2x.jpg",
+							"widthPx": 500,
+							"heightPx": 570
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/v/watch/compare/ah/images/overview/compare_watch_se_gen1_aluminum_brush_gold__efof1ek2u62q_large.jpg",
+							"localPath": "public/data/apple-watch/images/compare-watch-se-gen1-aluminum-brush-gold--efof1ek2u62q-large.jpg",
+							"widthPx": 250,
+							"heightPx": 285
+						},
+						{
+							"label": "small 2x",
+							"appleUrl": "https://www.apple.com/v/watch/compare/ah/images/overview/compare_watch_se_gen1_aluminum_brush_gold__efof1ek2u62q_small_2x.jpg",
+							"localPath": "public/data/apple-watch/images/compare-watch-se-gen1-aluminum-brush-gold--efof1ek2u62q-small-2x.jpg",
+							"widthPx": 294,
+							"heightPx": 336
+						},
+						{
+							"label": "small",
+							"appleUrl": "https://www.apple.com/v/watch/compare/ah/images/overview/compare_watch_se_gen1_aluminum_brush_gold__efof1ek2u62q_small.jpg",
+							"localPath": "public/data/apple-watch/images/compare-watch-se-gen1-aluminum-brush-gold--efof1ek2u62q-small.jpg",
+							"widthPx": 147,
+							"heightPx": 168
+						}
+					]
 				},
 				{
 					"id": "silver-aluminium",
@@ -2725,7 +3131,22 @@
 						"shine": 0.15,
 						"grain": 0.1
 					},
-					"images": []
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/lifestyle/Apple_watch-SE-Aluminum-silver-case-yellow-band_09152020_big.jpg.large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-se-aluminum-silver-case-yellow-band-09152020-large-2x.jpg",
+							"widthPx": 1960,
+							"heightPx": 1196
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/lifestyle/Apple_watch-SE-Aluminum-silver-case-yellow-band_09152020_big.jpg.large.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-se-aluminum-silver-case-yellow-band-09152020-large.jpg",
+							"widthPx": 980,
+							"heightPx": 598
+						}
+					]
 				},
 				{
 					"id": "space-grey-aluminium",
@@ -2736,7 +3157,22 @@
 						"shine": 0.15,
 						"grain": 0.1
 					},
-					"images": []
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/lifestyle/Apple_announces-watch-se_09152020_big.jpg.large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-se-announces-09152020-large-2x.jpg",
+							"widthPx": 1960,
+							"heightPx": 1686
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/lifestyle/Apple_announces-watch-se_09152020_big.jpg.large.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-se-announces-09152020-large.jpg",
+							"widthPx": 980,
+							"heightPx": 843
+						}
+					]
 				}
 			],
 			"configurations": [
@@ -3146,7 +3582,22 @@
 						"shine": 0.15,
 						"grain": 0.1
 					},
-					"images": []
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/lifestyle/Apple-Watch-S8-aluminum-midnight-220907_inline.jpg.large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-s8-aluminum-midnight-220907-inline-large-2x.jpg",
+							"widthPx": 1306,
+							"heightPx": 1306
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/lifestyle/Apple-Watch-S8-aluminum-midnight-220907_inline.jpg.large.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-s8-aluminum-midnight-220907-inline-large.jpg",
+							"widthPx": 653,
+							"heightPx": 653
+						}
+					]
 				},
 				{
 					"id": "starlight-aluminium",
@@ -3157,7 +3608,22 @@
 						"shine": 0.15,
 						"grain": 0.1
 					},
-					"images": []
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/lifestyle/Apple-Watch-S8-aluminum-starlight-220907_inline.jpg.large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-s8-aluminum-starlight-220907-inline-large-2x.jpg",
+							"widthPx": 1306,
+							"heightPx": 1306
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/lifestyle/Apple-Watch-S8-aluminum-starlight-220907_inline.jpg.large.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-s8-aluminum-starlight-220907-inline-large.jpg",
+							"widthPx": 653,
+							"heightPx": 653
+						}
+					]
 				},
 				{
 					"id": "silver-aluminium",
@@ -3168,7 +3634,22 @@
 						"shine": 0.15,
 						"grain": 0.1
 					},
-					"images": []
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/Apple-Watch-S8-aluminum-silver-220907_inline.jpg.large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-s8-aluminum-silver-220907-inline-large-2x.jpg",
+							"widthPx": 1306,
+							"heightPx": 1306
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/Apple-Watch-S8-aluminum-silver-220907_inline.jpg.large.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-s8-aluminum-silver-220907-inline-large.jpg",
+							"widthPx": 653,
+							"heightPx": 653
+						}
+					]
 				},
 				{
 					"id": "product-red-aluminium",
@@ -3179,7 +3660,22 @@
 						"shine": 0.15,
 						"grain": 0.1
 					},
-					"images": []
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/lifestyle/Apple-Watch-S8-aluminum-PRODUCT-RED-220907_inline.jpg.large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-s8-aluminum-product-red-220907-inline-large-2x.jpg",
+							"widthPx": 1306,
+							"heightPx": 1306
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/lifestyle/Apple-Watch-S8-aluminum-PRODUCT-RED-220907_inline.jpg.large.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-s8-aluminum-product-red-220907-inline-large.jpg",
+							"widthPx": 653,
+							"heightPx": 653
+						}
+					]
 				},
 				{
 					"id": "silver-stainless",
@@ -3190,7 +3686,22 @@
 						"shine": 0.8,
 						"grain": 0
 					},
-					"images": []
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/Apple-Watch-S8-stainless-steel-silver-220907_inline.jpg.large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-s8-stainless-steel-silver-220907-inline-large-2x.jpg",
+							"widthPx": 1306,
+							"heightPx": 1306
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/Apple-Watch-S8-stainless-steel-silver-220907_inline.jpg.large.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-s8-stainless-steel-silver-220907-inline-large.jpg",
+							"widthPx": 653,
+							"heightPx": 653
+						}
+					]
 				},
 				{
 					"id": "graphite-stainless",
@@ -3201,7 +3712,22 @@
 						"shine": 0.8,
 						"grain": 0
 					},
-					"images": []
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/Apple-Watch-S8-stainless-steel-graphite-220907_inline.jpg.large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-s8-stainless-steel-graphite-220907-inline-large-2x.jpg",
+							"widthPx": 1306,
+							"heightPx": 1306
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/Apple-Watch-S8-stainless-steel-graphite-220907_inline.jpg.large.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-s8-stainless-steel-graphite-220907-inline-large.jpg",
+							"widthPx": 653,
+							"heightPx": 653
+						}
+					]
 				},
 				{
 					"id": "gold-stainless",
@@ -3212,7 +3738,22 @@
 						"shine": 0.8,
 						"grain": 0
 					},
-					"images": []
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/Apple-Watch-S8-stainless-steel-gold-220907_inline.jpg.large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-s8-stainless-steel-gold-220907-inline-large-2x.jpg",
+							"widthPx": 1306,
+							"heightPx": 1306
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/Apple-Watch-S8-stainless-steel-gold-220907_inline.jpg.large.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-s8-stainless-steel-gold-220907-inline-large.jpg",
+							"widthPx": 653,
+							"heightPx": 653
+						}
+					]
 				}
 			],
 			"configurations": [
@@ -3403,7 +3944,22 @@
 						"shine": 0.15,
 						"grain": 0.1
 					},
-					"images": []
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/Apple_watch-series7_hero_09142021_big.jpg.large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-series7-hero-09142021-large-2x.jpg",
+							"widthPx": 1960,
+							"heightPx": 1400
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/Apple_watch-series7_hero_09142021_big.jpg.large.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-series7-hero-09142021-large.jpg",
+							"widthPx": 980,
+							"heightPx": 700
+						}
+					]
 				},
 				{
 					"id": "starlight-aluminium",
@@ -3414,7 +3970,22 @@
 						"shine": 0.15,
 						"grain": 0.1
 					},
-					"images": []
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/Apple_watch-series7_design_09142021_big.jpg.large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-series7-design-09142021-large-2x.jpg",
+							"widthPx": 1960,
+							"heightPx": 1102
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/Apple_watch-series7_design_09142021_big.jpg.large.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-series7-design-09142021-large.jpg",
+							"widthPx": 980,
+							"heightPx": 551
+						}
+					]
 				},
 				{
 					"id": "green-aluminium",
@@ -3425,7 +3996,22 @@
 						"shine": 0.15,
 						"grain": 0.1
 					},
-					"images": []
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/Apple_watch-series7_lineup-01_09142021_big_carousel.jpg.large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-series7-lineup-01-09142021-large-2x.jpg",
+							"widthPx": 1960,
+							"heightPx": 1102
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/Apple_watch-series7_lineup-01_09142021_big_carousel.jpg.large.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-series7-lineup-01-09142021-large.jpg",
+							"widthPx": 980,
+							"heightPx": 551
+						}
+					]
 				},
 				{
 					"id": "blue-aluminium",
@@ -3436,7 +4022,22 @@
 						"shine": 0.15,
 						"grain": 0.1
 					},
-					"images": []
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/Apple_watch-series7_lineup-02_09142021_big_carousel.jpg.large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-series7-lineup-02-09142021-large-2x.jpg",
+							"widthPx": 1960,
+							"heightPx": 1102
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/Apple_watch-series7_lineup-02_09142021_big_carousel.jpg.large.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-series7-lineup-02-09142021-large.jpg",
+							"widthPx": 980,
+							"heightPx": 551
+						}
+					]
 				},
 				{
 					"id": "product-red-aluminium",
@@ -3447,7 +4048,22 @@
 						"shine": 0.15,
 						"grain": 0.1
 					},
-					"images": []
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/Apple_watch-series7_lifestyle-01_09142021_big_carousel.jpg.large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-series7-lifestyle-01-09142021-large-2x.jpg",
+							"widthPx": 1960,
+							"heightPx": 1102
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/Apple_watch-series7_lifestyle-01_09142021_big_carousel.jpg.large.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-series7-lifestyle-01-09142021-large.jpg",
+							"widthPx": 980,
+							"heightPx": 551
+						}
+					]
 				},
 				{
 					"id": "silver-stainless",
@@ -3458,7 +4074,22 @@
 						"shine": 0.8,
 						"grain": 0
 					},
-					"images": []
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/Apple_watch-series7_lifestyle-02_09142021_big_carousel.jpg.large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-series7-lifestyle-02-09142021-large-2x.jpg",
+							"widthPx": 1960,
+							"heightPx": 1102
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/Apple_watch-series7_lifestyle-02_09142021_big_carousel.jpg.large.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-series7-lifestyle-02-09142021-large.jpg",
+							"widthPx": 980,
+							"heightPx": 551
+						}
+					]
 				},
 				{
 					"id": "graphite-stainless",
@@ -3469,7 +4100,22 @@
 						"shine": 0.8,
 						"grain": 0
 					},
-					"images": []
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/Apple_watch-series7_lifestyle-03_09142021_big_carousel.jpg.large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-series7-lifestyle-03-09142021-large-2x.jpg",
+							"widthPx": 1960,
+							"heightPx": 1102
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/Apple_watch-series7_lifestyle-03_09142021_big_carousel.jpg.large.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-series7-lifestyle-03-09142021-large.jpg",
+							"widthPx": 980,
+							"heightPx": 551
+						}
+					]
 				},
 				{
 					"id": "gold-stainless",
@@ -3480,7 +4126,22 @@
 						"shine": 0.8,
 						"grain": 0
 					},
-					"images": []
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/Apple_watch-series7_durability_09142021_big.jpg.large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-series7-durability-09142021-large-2x.jpg",
+							"widthPx": 1960,
+							"heightPx": 1102
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/Apple_watch-series7_durability_09142021_big.jpg.large.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-series7-durability-09142021-large.jpg",
+							"widthPx": 980,
+							"heightPx": 551
+						}
+					]
 				}
 			],
 			"configurations": [
@@ -3676,7 +4337,22 @@
 						"shine": 0.15,
 						"grain": 0.1
 					},
-					"images": []
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/Apple_watch-series-6-Aluminum-blue-case-close-up_09152020_big.jpg.large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-series6-Aluminum-blue-case-close-up-09152020-large-2x.jpg",
+							"widthPx": 1960,
+							"heightPx": 1102
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/Apple_watch-series-6-Aluminum-blue-case-close-up_09152020_big.jpg.large.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-series6-Aluminum-blue-case-close-up-09152020-large.jpg",
+							"widthPx": 980,
+							"heightPx": 551
+						}
+					]
 				},
 				{
 					"id": "product-red-aluminium",
@@ -3687,7 +4363,22 @@
 						"shine": 0.15,
 						"grain": 0.1
 					},
-					"images": []
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/Apple_watch-series-6-aluminum-red-case_09152020_carousel.jpg.large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-series6-aluminum-red-case-09152020-large-2x.jpg",
+							"widthPx": 1306,
+							"heightPx": 1306
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/Apple_watch-series-6-aluminum-red-case_09152020_carousel.jpg.large.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-series6-aluminum-red-case-09152020-large.jpg",
+							"widthPx": 653,
+							"heightPx": 653
+						}
+					]
 				},
 				{
 					"id": "silver-aluminium",
@@ -3698,7 +4389,22 @@
 						"shine": 0.15,
 						"grain": 0.1
 					},
-					"images": []
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/Apple_watch-series-6-aluminum-silver-case-tachymeter-watchface_09152020_inline.jpg.large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-series6-aluminum-silver-case-tachymeter-watchface-09152020-large-2x.jpg",
+							"widthPx": 1306,
+							"heightPx": 1306
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/Apple_watch-series-6-aluminum-silver-case-tachymeter-watchface_09152020_inline.jpg.large.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-series6-aluminum-silver-case-tachymeter-watchface-09152020-large.jpg",
+							"widthPx": 653,
+							"heightPx": 653
+						}
+					]
 				},
 				{
 					"id": "space-grey-aluminium",
@@ -3709,7 +4415,22 @@
 						"shine": 0.15,
 						"grain": 0.1
 					},
-					"images": []
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/Apple_watch-series-6-aluminum-space-gray-case-nike-watch-mist-green-band_09152020_carousel.jpg.large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-series6-aluminum-space-gray-case-nike-watch-mist-green-band-09152020-large-2x.jpg",
+							"widthPx": 1306,
+							"heightPx": 1306
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/Apple_watch-series-6-aluminum-space-gray-case-nike-watch-mist-green-band_09152020_carousel.jpg.large.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-series6-aluminum-space-gray-case-nike-watch-mist-green-band-09152020-large.jpg",
+							"widthPx": 653,
+							"heightPx": 653
+						}
+					]
 				},
 				{
 					"id": "gold-stainless",
@@ -3720,7 +4441,22 @@
 						"shine": 0.8,
 						"grain": 0
 					},
-					"images": []
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/Apple_watch-series-6-stainless-steel-gold-case_09152020_inline.jpg.large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-series6-stainless-steel-gold-case-09152020-large-2x.jpg",
+							"widthPx": 1306,
+							"heightPx": 1306
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/Apple_watch-series-6-stainless-steel-gold-case_09152020_inline.jpg.large.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-series6-stainless-steel-gold-case-09152020-large.jpg",
+							"widthPx": 653,
+							"heightPx": 653
+						}
+					]
 				},
 				{
 					"id": "silver-stainless",
@@ -3731,7 +4467,22 @@
 						"shine": 0.8,
 						"grain": 0
 					},
-					"images": []
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/Apple_watch-series-6-hermes-stainless-steel-silver-double-tour_09152020_carousel.jpg.large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-series6-hermes-stainless-steel-silver-double-tour-09152020-large-2x.jpg",
+							"widthPx": 1306,
+							"heightPx": 1898
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/Apple_watch-series-6-hermes-stainless-steel-silver-double-tour_09152020_carousel.jpg.large.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-series6-hermes-stainless-steel-silver-double-tour-09152020-large.jpg",
+							"widthPx": 653,
+							"heightPx": 949
+						}
+					]
 				},
 				{
 					"id": "graphite-stainless",
@@ -3742,7 +4493,22 @@
 						"shine": 0.8,
 						"grain": 0
 					},
-					"images": []
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/Apple_watch-series-6-stainless-steel-gray-case-orange-band_09152020_inline.jpg.large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-series6-stainless-steel-gray-case-orange-band-09152020-large-2x.jpg",
+							"widthPx": 1306,
+							"heightPx": 1306
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/Apple_watch-series-6-stainless-steel-gray-case-orange-band_09152020_inline.jpg.large.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-series6-stainless-steel-gray-case-orange-band-09152020-large.jpg",
+							"widthPx": 653,
+							"heightPx": 653
+						}
+					]
 				},
 				{
 					"id": "space-black-titanium",
@@ -3753,7 +4519,22 @@
 						"shine": 0.6,
 						"grain": 0
 					},
-					"images": []
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/Apple_delivers-apple-watch-series-6_09152020_big.jpg.large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-series6-hero-09152020-large-2x.jpg",
+							"widthPx": 1960,
+							"heightPx": 1690
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/Apple_delivers-apple-watch-series-6_09152020_big.jpg.large.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-series6-hero-09152020-large.jpg",
+							"widthPx": 980,
+							"heightPx": 845
+						}
+					]
 				}
 			],
 			"configurations": [
@@ -3940,7 +4721,22 @@
 						"shine": 0.15,
 						"grain": 0.1
 					},
-					"images": []
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/apple-watch2-3up_inline.jpg.large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch2-3up_inline-large-2x.jpg",
+							"widthPx": 1142,
+							"heightPx": 714
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/apple-watch2-3up_inline.jpg.large.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch2-3up_inline-large.jpg",
+							"widthPx": 571,
+							"heightPx": 357
+						}
+					]
 				},
 				{
 					"id": "silver-aluminium",
@@ -3951,7 +4747,22 @@
 						"shine": 0.15,
 						"grain": 0.1
 					},
-					"images": []
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/lifestyle/apple-watch2-swimming_big.jpg.large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch2-swimming_big-large-2x.jpg",
+							"widthPx": 1632,
+							"heightPx": 1440
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/lifestyle/apple-watch2-swimming_big.jpg.large.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch2-swimming_big-large.jpg",
+							"widthPx": 816,
+							"heightPx": 720
+						}
+					]
 				},
 				{
 					"id": "rose-gold-aluminium",
@@ -3962,7 +4773,22 @@
 						"shine": 0.15,
 						"grain": 0.1
 					},
-					"images": []
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/apple-watch2-rosegold_inline.jpg.large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch2-rosegold_inline-large-2x.jpg",
+							"widthPx": 1142,
+							"heightPx": 1428
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/apple-watch2-rosegold_inline.jpg.large.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch2-rosegold_inline-large.jpg",
+							"widthPx": 571,
+							"heightPx": 714
+						}
+					]
 				},
 				{
 					"id": "gold-aluminium",
@@ -3973,7 +4799,22 @@
 						"shine": 0.15,
 						"grain": 0.1
 					},
-					"images": []
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/apple-watch2-3up-water_inline.jpg.large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch2-3up-water_inline-large-2x.jpg",
+							"widthPx": 1142,
+							"heightPx": 1428
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/apple-watch2-3up-water_inline.jpg.large.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch2-3up-water_inline-large.jpg",
+							"widthPx": 571,
+							"heightPx": 714
+						}
+					]
 				}
 			],
 			"configurations": [
@@ -4120,7 +4961,22 @@
 						"shine": 0.15,
 						"grain": 0.1
 					},
-					"images": []
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/apple-watch2-3up_inline.jpg.large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch2-3up_inline-large-2x.jpg",
+							"widthPx": 1142,
+							"heightPx": 714
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/apple-watch2-3up_inline.jpg.large.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch2-3up_inline-large.jpg",
+							"widthPx": 571,
+							"heightPx": 357
+						}
+					]
 				},
 				{
 					"id": "silver-aluminium",
@@ -4131,7 +4987,22 @@
 						"shine": 0.15,
 						"grain": 0.1
 					},
-					"images": []
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/apple-watch2-3up-water_inline.jpg.large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch2-3up-water_inline-large-2x.jpg",
+							"widthPx": 1142,
+							"heightPx": 1428
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/apple-watch2-3up-water_inline.jpg.large.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch2-3up-water_inline-large.jpg",
+							"widthPx": 571,
+							"heightPx": 714
+						}
+					]
 				},
 				{
 					"id": "rose-gold-aluminium",
@@ -4142,7 +5013,22 @@
 						"shine": 0.15,
 						"grain": 0.1
 					},
-					"images": []
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/apple-watch2-rosegold_inline.jpg.large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch2-rosegold_inline-large-2x.jpg",
+							"widthPx": 1142,
+							"heightPx": 1428
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/apple-watch2-rosegold_inline.jpg.large.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch2-rosegold_inline-large.jpg",
+							"widthPx": 571,
+							"heightPx": 714
+						}
+					]
 				},
 				{
 					"id": "gold-aluminium",
@@ -4153,7 +5039,22 @@
 						"shine": 0.15,
 						"grain": 0.1
 					},
-					"images": []
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/lifestyle/apple-watch2-cycling_inline.jpg.large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch2-cycling_inline-large-2x.jpg",
+							"widthPx": 1142,
+							"heightPx": 1464
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/lifestyle/apple-watch2-cycling_inline.jpg.large.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch2-cycling_inline-large.jpg",
+							"widthPx": 571,
+							"heightPx": 732
+						}
+					]
 				}
 			],
 			"configurations": [
@@ -4312,7 +5213,22 @@
 						"shine": 0.15,
 						"grain": 0.1
 					},
-					"images": []
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/watch_series_3_dualcore_newband_inline.jpg.large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/watch_series_3_dualcore_newband_inline-large-2x.jpg",
+							"widthPx": 1142,
+							"heightPx": 1280
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/watch_series_3_dualcore_newband_inline.jpg.large.jpg",
+							"localPath": "public/data/apple-watch/images/watch_series_3_dualcore_newband_inline-large.jpg",
+							"widthPx": 571,
+							"heightPx": 640
+						}
+					]
 				},
 				{
 					"id": "silver-aluminium",
@@ -4323,7 +5239,22 @@
 						"shine": 0.15,
 						"grain": 0.1
 					},
-					"images": []
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/watch_series_3_sportloop_one_newband_inline.jpg.large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/watch_series_3_sportloop_one_newband_inline-large-2x.jpg",
+							"widthPx": 1142,
+							"heightPx": 1240
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/watch_series_3_sportloop_one_newband_inline.jpg.large.jpg",
+							"localPath": "public/data/apple-watch/images/watch_series_3_sportloop_one_newband_inline-large.jpg",
+							"widthPx": 571,
+							"heightPx": 620
+						}
+					]
 				},
 				{
 					"id": "gold-aluminium",
@@ -4334,7 +5265,22 @@
 						"shine": 0.15,
 						"grain": 0.1
 					},
-					"images": []
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/lifestyle/watch_series_3_walking_wristshot_inline.jpg.large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/watch_series_3_walking_wristshot_inline-large-2x.jpg",
+							"widthPx": 1142,
+							"heightPx": 1424
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/lifestyle/watch_series_3_walking_wristshot_inline.jpg.large.jpg",
+							"localPath": "public/data/apple-watch/images/watch_series_3_walking_wristshot_inline-large.jpg",
+							"widthPx": 571,
+							"heightPx": 712
+						}
+					]
 				}
 			],
 			"configurations": [
@@ -4498,7 +5444,22 @@
 						"shine": 0.15,
 						"grain": 0.1
 					},
-					"images": []
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/apple-watch-series4_watch-front-training_09122018_big.jpg.large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-series4-watch-front-training-09122018-large-2x.jpg",
+							"widthPx": 1632,
+							"heightPx": 2040
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/apple-watch-series4_watch-front-training_09122018_big.jpg.large.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-series4-watch-front-training-09122018-large.jpg",
+							"widthPx": 816,
+							"heightPx": 1020
+						}
+					]
 				},
 				{
 					"id": "silver-aluminium",
@@ -4509,7 +5470,22 @@
 						"shine": 0.15,
 						"grain": 0.1
 					},
-					"images": []
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/lifestyle/apple-watch-series4_yoga_09122018_inline.jpg.large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-series4-yoga-09122018-large-2x.jpg",
+							"widthPx": 1142,
+							"heightPx": 770
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/lifestyle/apple-watch-series4_yoga_09122018_inline.jpg.large.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-series4-yoga-09122018-large.jpg",
+							"widthPx": 571,
+							"heightPx": 385
+						}
+					]
 				},
 				{
 					"id": "gold-aluminium",
@@ -4520,7 +5496,22 @@
 						"shine": 0.15,
 						"grain": 0.1
 					},
-					"images": []
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/apple-watch-series4_gold-milanese_09122018_carousel.jpg.large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-series4-gold-milanese-09122018-large-2x.jpg",
+							"widthPx": 1142,
+							"heightPx": 1308
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/apple-watch-series4_gold-milanese_09122018_carousel.jpg.large.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-series4-gold-milanese-09122018-large.jpg",
+							"widthPx": 571,
+							"heightPx": 654
+						}
+					]
 				}
 			],
 			"configurations": [
@@ -4674,7 +5665,22 @@
 						"shine": 0.15,
 						"grain": 0.1
 					},
-					"images": []
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/Apple_watch_series_5-gold-aluminum-case-pomegranate-band-and-space-gray-aluminum-case-pine-green-band-091019_big.jpg.large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-series5-gold-aluminum-case-pomegranate-band-and-space-gray-aluminum-case-pine-green-band-091019-large-2x.jpg",
+							"widthPx": 1632,
+							"heightPx": 1696
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/Apple_watch_series_5-gold-aluminum-case-pomegranate-band-and-space-gray-aluminum-case-pine-green-band-091019_big.jpg.large.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-series5-gold-aluminum-case-pomegranate-band-and-space-gray-aluminum-case-pine-green-band-091019-large.jpg",
+							"widthPx": 816,
+							"heightPx": 848
+						}
+					]
 				},
 				{
 					"id": "silver-aluminium",
@@ -4685,7 +5691,22 @@
 						"shine": 0.15,
 						"grain": 0.1
 					},
-					"images": []
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/Apple_watch_series_5-silver-aluminum-case-camel-band-091019_carousel.jpg.large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-series5-silver-aluminum-case-camel-band-091019-large-2x.jpg",
+							"widthPx": 1142,
+							"heightPx": 1142
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/Apple_watch_series_5-silver-aluminum-case-camel-band-091019_carousel.jpg.large.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-series5-silver-aluminum-case-camel-band-091019-large.jpg",
+							"widthPx": 571,
+							"heightPx": 571
+						}
+					]
 				},
 				{
 					"id": "gold-aluminium",
@@ -4696,7 +5717,22 @@
 						"shine": 0.15,
 						"grain": 0.1
 					},
-					"images": []
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/Apple_watch_series_5-pomegranate-band-gold-aluminum-case-091019_carousel.jpg.large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-series5-pomegranate-band-gold-aluminum-case-091019-large-2x.jpg",
+							"widthPx": 1142,
+							"heightPx": 1142
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/Apple_watch_series_5-pomegranate-band-gold-aluminum-case-091019_carousel.jpg.large.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-series5-pomegranate-band-gold-aluminum-case-091019-large.jpg",
+							"widthPx": 571,
+							"heightPx": 571
+						}
+					]
 				},
 				{
 					"id": "titanium",
@@ -4707,7 +5743,22 @@
 						"shine": 0.3,
 						"grain": 0.08
 					},
-					"images": []
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/Apple_watch_series_5-natural-brushed-titanium-case-viper-natural-band-091019_carousel.jpg.large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-series5-natural-brushed-titanium-case-viper-natural-band-091019-large-2x.jpg",
+							"widthPx": 1142,
+							"heightPx": 1142
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/Apple_watch_series_5-natural-brushed-titanium-case-viper-natural-band-091019_carousel.jpg.large.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-series5-natural-brushed-titanium-case-viper-natural-band-091019-large.jpg",
+							"widthPx": 571,
+							"heightPx": 571
+						}
+					]
 				}
 			],
 			"configurations": [
