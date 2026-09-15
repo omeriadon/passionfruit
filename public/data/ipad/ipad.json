@@ -1513,7 +1513,42 @@
 			"name": "iPad Pro 13-inch (M4)",
 			"releaseYear": 2024,
 			"priceAud": 2199,
-			"colors": [],
+			"colors": [
+				{
+					"id": "ipad-pro-13-m4-space-black",
+					"displayName": "Space Black",
+					"finish": {
+						"base": "#2e2c2e",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/spring-2024-1.png",
+							"localPath": "public/data/ipad/images/ipad-pro-13-m4-spring-2024-1.png",
+							"widthPx": 960,
+							"heightPx": 912
+						}
+					]
+				},
+				{
+					"id": "ipad-pro-13-m4-silver",
+					"displayName": "Silver",
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/spring-2024-1.png",
+							"localPath": "public/data/ipad/images/ipad-pro-13-m4-spring-2024-1.png",
+							"widthPx": 960,
+							"heightPx": 912
+						}
+					]
+				}
+			],
 			"overviewImages": [
 				{
 					"label": "back",
@@ -1709,7 +1744,42 @@
 			"name": "iPad Pro 12.9-inch (6th generation)",
 			"releaseYear": 2022,
 			"priceAud": 1899,
-			"colors": [],
+			"colors": [
+				{
+					"id": "ipad-pro-12-9-6th-gen-silver",
+					"displayName": "Silver",
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/fall-2022-12-9-inch-6gen-ipad-pro.png",
+							"localPath": "public/data/ipad/images/ipad-pro-12-9-6th-gen-fall-2022-12-9-inch-6gen-ipad-pro.png",
+							"widthPx": 960,
+							"heightPx": 912
+						}
+					]
+				},
+				{
+					"id": "ipad-pro-12-9-6th-gen-space-gray",
+					"displayName": "Space Gray",
+					"finish": {
+						"base": "#68696d",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/fall-2022-12-9-inch-6gen-ipad-pro.png",
+							"localPath": "public/data/ipad/images/ipad-pro-12-9-6th-gen-fall-2022-12-9-inch-6gen-ipad-pro.png",
+							"widthPx": 960,
+							"heightPx": 912
+						}
+					]
+				}
+			],
 			"overviewImages": [
 				{
 					"label": "back",
@@ -1905,7 +1975,42 @@
 			"name": "iPad Pro 12.9\u2011inch (5th generation)",
 			"releaseYear": 2021,
 			"priceAud": 1649,
-			"colors": [],
+			"colors": [
+				{
+					"id": "ipad-pro-12-9-5th-gen-silver",
+					"displayName": "Silver",
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/2021-ipad-pro-12-9-colors.png",
+							"localPath": "public/data/ipad/images/ipad-pro-12-9-5th-gen-2021-ipad-pro-12-9-colors.png",
+							"widthPx": 1000,
+							"heightPx": 946
+						}
+					]
+				},
+				{
+					"id": "ipad-pro-12-9-5th-gen-space-gray",
+					"displayName": "Space Gray",
+					"finish": {
+						"base": "#68696d",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/2021-ipad-pro-12-9-colors.png",
+							"localPath": "public/data/ipad/images/ipad-pro-12-9-5th-gen-2021-ipad-pro-12-9-colors.png",
+							"widthPx": 1000,
+							"heightPx": 946
+						}
+					]
+				}
+			],
 			"overviewImages": [
 				{
 					"label": "back",
@@ -2101,7 +2206,42 @@
 			"name": "iPad Pro 12.9\u2011inch (4th generation)",
 			"releaseYear": 2020,
 			"priceAud": 1649,
-			"colors": [],
+			"colors": [
+				{
+					"id": "ipad-pro-12-9-4th-gen-silver",
+					"displayName": "Silver",
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ios13-4-ipad-pro-4gen-12-9-in.png",
+							"localPath": "public/data/ipad/images/ipad-pro-12-9-4th-gen-ios13-4-ipad-pro-4gen-12-9-in.png",
+							"widthPx": 998,
+							"heightPx": 948
+						}
+					]
+				},
+				{
+					"id": "ipad-pro-12-9-4th-gen-space-gray",
+					"displayName": "Space Gray",
+					"finish": {
+						"base": "#68696d",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ios13-4-ipad-pro-4gen-12-9-in.png",
+							"localPath": "public/data/ipad/images/ipad-pro-12-9-4th-gen-ios13-4-ipad-pro-4gen-12-9-in.png",
+							"widthPx": 998,
+							"heightPx": 948
+						}
+					]
+				}
+			],
 			"overviewImages": [
 				{
 					"label": "back",
@@ -2291,7 +2431,42 @@
 			"name": "iPad Pro 12.9\u2011inch (3rd generation)",
 			"releaseYear": 2018,
 			"priceAud": 1529,
-			"colors": [],
+			"colors": [
+				{
+					"id": "ipad-pro-12-9-3rd-gen-silver",
+					"displayName": "Silver",
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ios12-ipad-pro-12-9-in.png",
+							"localPath": "public/data/ipad/images/ipad-pro-12-9-3rd-gen-ios12-ipad-pro-12-9-in.png",
+							"widthPx": 992,
+							"heightPx": 990
+						}
+					]
+				},
+				{
+					"id": "ipad-pro-12-9-3rd-gen-space-gray",
+					"displayName": "Space Gray",
+					"finish": {
+						"base": "#68696d",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ios12-ipad-pro-12-9-in.png",
+							"localPath": "public/data/ipad/images/ipad-pro-12-9-3rd-gen-ios12-ipad-pro-12-9-in.png",
+							"widthPx": 992,
+							"heightPx": 990
+						}
+					]
+				}
+			],
 			"overviewImages": [
 				{
 					"label": "back",
@@ -2481,7 +2656,42 @@
 			"name": "iPad Pro 12.9\u2011inch (2nd generation)",
 			"releaseYear": 2017,
 			"priceAud": 1199,
-			"colors": [],
+			"colors": [
+				{
+					"id": "ipad-pro-12-9-2nd-gen-silver",
+					"displayName": "Silver",
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ios11-ipad-pro-12-in.png",
+							"localPath": "public/data/ipad/images/ipad-pro-12-9-2nd-gen-ios11-ipad-pro-12-in.png",
+							"widthPx": 872,
+							"heightPx": 990
+						}
+					]
+				},
+				{
+					"id": "ipad-pro-12-9-2nd-gen-space-gray",
+					"displayName": "Space Gray",
+					"finish": {
+						"base": "#68696d",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ios11-ipad-pro-12-in.png",
+							"localPath": "public/data/ipad/images/ipad-pro-12-9-2nd-gen-ios11-ipad-pro-12-in.png",
+							"widthPx": 872,
+							"heightPx": 990
+						}
+					]
+				}
+			],
 			"overviewImages": [
 				{
 					"label": "back",
@@ -2664,7 +2874,42 @@
 			"name": "iPad Pro 12.9\u2011inch (1st generation)",
 			"releaseYear": 2015,
 			"priceAud": 1249,
-			"colors": [],
+			"colors": [
+				{
+					"id": "ipad-pro-12-9-1st-gen-silver",
+					"displayName": "Silver",
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/identify-ipad-pro.png",
+							"localPath": "public/data/ipad/images/ipad-pro-12-9-1st-gen-identify-ipad-pro.png",
+							"widthPx": 1002,
+							"heightPx": 988
+						}
+					]
+				},
+				{
+					"id": "ipad-pro-12-9-1st-gen-space-gray",
+					"displayName": "Space Gray",
+					"finish": {
+						"base": "#68696d",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/identify-ipad-pro.png",
+							"localPath": "public/data/ipad/images/ipad-pro-12-9-1st-gen-identify-ipad-pro.png",
+							"widthPx": 1002,
+							"heightPx": 988
+						}
+					]
+				}
+			],
 			"overviewImages": [
 				{
 					"label": "back",
@@ -2847,7 +3092,42 @@
 			"name": "iPad Pro 11-inch (M4)",
 			"releaseYear": 2024,
 			"priceAud": 1699,
-			"colors": [],
+			"colors": [
+				{
+					"id": "ipad-pro-11-m4-space-black",
+					"displayName": "Space Black",
+					"finish": {
+						"base": "#2e2c2e",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/spring-2024-2.png",
+							"localPath": "public/data/ipad/images/ipad-pro-11-m4-spring-2024-2.png",
+							"widthPx": 856,
+							"heightPx": 824
+						}
+					]
+				},
+				{
+					"id": "ipad-pro-11-m4-silver",
+					"displayName": "Silver",
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/spring-2024-2.png",
+							"localPath": "public/data/ipad/images/ipad-pro-11-m4-spring-2024-2.png",
+							"widthPx": 856,
+							"heightPx": 824
+						}
+					]
+				}
+			],
 			"overviewImages": [
 				{
 					"label": "back",
@@ -3043,7 +3323,42 @@
 			"name": "iPad Pro 11-inch (4th generation)",
 			"releaseYear": 2022,
 			"priceAud": 1399,
-			"colors": [],
+			"colors": [
+				{
+					"id": "ipad-pro-11-4th-gen-silver",
+					"displayName": "Silver",
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/fall-2022-11-inch-4gen-ipad-pro.png",
+							"localPath": "public/data/ipad/images/ipad-pro-11-4th-gen-fall-2022-11-inch-4gen-ipad-pro.png",
+							"widthPx": 856,
+							"heightPx": 824
+						}
+					]
+				},
+				{
+					"id": "ipad-pro-11-4th-gen-space-gray",
+					"displayName": "Space Gray",
+					"finish": {
+						"base": "#68696d",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/fall-2022-11-inch-4gen-ipad-pro.png",
+							"localPath": "public/data/ipad/images/ipad-pro-11-4th-gen-fall-2022-11-inch-4gen-ipad-pro.png",
+							"widthPx": 856,
+							"heightPx": 824
+						}
+					]
+				}
+			],
 			"overviewImages": [
 				{
 					"label": "back",
@@ -3239,7 +3554,42 @@
 			"name": "iPad Pro 11\u2011inch (3rd generation)",
 			"releaseYear": 2021,
 			"priceAud": 1199,
-			"colors": [],
+			"colors": [
+				{
+					"id": "ipad-pro-11-3rd-gen-silver",
+					"displayName": "Silver",
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/2021-ipad-pro-11-colors.png",
+							"localPath": "public/data/ipad/images/ipad-pro-11-3rd-gen-2021-ipad-pro-11-colors.png",
+							"widthPx": 929,
+							"heightPx": 891
+						}
+					]
+				},
+				{
+					"id": "ipad-pro-11-3rd-gen-space-gray",
+					"displayName": "Space Gray",
+					"finish": {
+						"base": "#68696d",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/2021-ipad-pro-11-colors.png",
+							"localPath": "public/data/ipad/images/ipad-pro-11-3rd-gen-2021-ipad-pro-11-colors.png",
+							"widthPx": 929,
+							"heightPx": 891
+						}
+					]
+				}
+			],
 			"overviewImages": [
 				{
 					"label": "back",
@@ -3435,7 +3785,42 @@
 			"name": "iPad Pro 11\u2011inch (2nd generation)",
 			"releaseYear": 2020,
 			"priceAud": 1329,
-			"colors": [],
+			"colors": [
+				{
+					"id": "ipad-pro-11-2nd-gen-silver",
+					"displayName": "Silver",
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ios13-4-ipad-pro-4gen-11-in.png",
+							"localPath": "public/data/ipad/images/ipad-pro-11-2nd-gen-ios13-4-ipad-pro-4gen-11-in.png",
+							"widthPx": 938,
+							"heightPx": 892
+						}
+					]
+				},
+				{
+					"id": "ipad-pro-11-2nd-gen-space-gray",
+					"displayName": "Space Gray",
+					"finish": {
+						"base": "#68696d",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ios13-4-ipad-pro-4gen-11-in.png",
+							"localPath": "public/data/ipad/images/ipad-pro-11-2nd-gen-ios13-4-ipad-pro-4gen-11-in.png",
+							"widthPx": 938,
+							"heightPx": 892
+						}
+					]
+				}
+			],
 			"overviewImages": [
 				{
 					"label": "back",
@@ -3625,7 +4010,42 @@
 			"name": "iPad Pro 11\u2011inch (1st generation)",
 			"releaseYear": 2018,
 			"priceAud": 1229,
-			"colors": [],
+			"colors": [
+				{
+					"id": "ipad-pro-11-1st-gen-silver",
+					"displayName": "Silver",
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ios12-ipad-pro-11-in.png",
+							"localPath": "public/data/ipad/images/ipad-pro-11-1st-gen-ios12-ipad-pro-11-in.png",
+							"widthPx": 888,
+							"heightPx": 896
+						}
+					]
+				},
+				{
+					"id": "ipad-pro-11-1st-gen-space-gray",
+					"displayName": "Space Gray",
+					"finish": {
+						"base": "#68696d",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ios12-ipad-pro-11-in.png",
+							"localPath": "public/data/ipad/images/ipad-pro-11-1st-gen-ios12-ipad-pro-11-in.png",
+							"widthPx": 888,
+							"heightPx": 896
+						}
+					]
+				}
+			],
 			"overviewImages": [
 				{
 					"label": "back",
@@ -3807,7 +4227,42 @@
 			"name": "iPad Pro 10.5\u2011inch",
 			"releaseYear": 2017,
 			"priceAud": 979,
-			"colors": [],
+			"colors": [
+				{
+					"id": "ipad-pro-10-5-in-silver",
+					"displayName": "Silver",
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ios11-ipad-pro-10-in.png",
+							"localPath": "public/data/ipad/images/ipad-pro-10-5-in-ios11-ipad-pro-10-in.png",
+							"widthPx": 778,
+							"heightPx": 878
+						}
+					]
+				},
+				{
+					"id": "ipad-pro-10-5-in-space-gray",
+					"displayName": "Space Gray",
+					"finish": {
+						"base": "#68696d",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ios11-ipad-pro-10-in.png",
+							"localPath": "public/data/ipad/images/ipad-pro-10-5-in-ios11-ipad-pro-10-in.png",
+							"widthPx": 778,
+							"heightPx": 878
+						}
+					]
+				}
+			],
 			"overviewImages": [
 				{
 					"label": "back",
@@ -3990,7 +4445,42 @@
 			"name": "iPad Pro 9.7\u2011inch",
 			"releaseYear": 2016,
 			"priceAud": 899,
-			"colors": [],
+			"colors": [
+				{
+					"id": "ipad-pro-9-7-in-silver",
+					"displayName": "Silver",
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/identify-ipad-pro-9-7.png",
+							"localPath": "public/data/ipad/images/ipad-pro-9-7-in-identify-ipad-pro-9-7.png",
+							"widthPx": 816,
+							"heightPx": 776
+						}
+					]
+				},
+				{
+					"id": "ipad-pro-9-7-in-space-gray",
+					"displayName": "Space Gray",
+					"finish": {
+						"base": "#68696d",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/identify-ipad-pro-9-7.png",
+							"localPath": "public/data/ipad/images/ipad-pro-9-7-in-identify-ipad-pro-9-7.png",
+							"widthPx": 816,
+							"heightPx": 776
+						}
+					]
+				}
+			],
 			"overviewImages": [
 				{
 					"label": "back",
@@ -4165,7 +4655,76 @@
 			"name": "iPad Air 13-inch (M3)",
 			"releaseYear": 2025,
 			"priceAud": 1349,
-			"colors": [],
+			"colors": [
+				{
+					"id": "ipad-air-13-m3-space-gray",
+					"displayName": "Space Gray",
+					"finish": {
+						"base": "#68696d",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/spring-2025-ipad-air-13.png",
+							"localPath": "public/data/ipad/images/ipad-air-13-m3-spring-2025-ipad-air-13.png",
+							"widthPx": 1070,
+							"heightPx": 990
+						}
+					]
+				},
+				{
+					"id": "ipad-air-13-m3-blue",
+					"displayName": "Blue",
+					"finish": {
+						"base": "#d7e5e6",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/spring-2025-ipad-air-13.png",
+							"localPath": "public/data/ipad/images/ipad-air-13-m3-spring-2025-ipad-air-13.png",
+							"widthPx": 1070,
+							"heightPx": 990
+						}
+					]
+				},
+				{
+					"id": "ipad-air-13-m3-purple",
+					"displayName": "Purple",
+					"finish": {
+						"base": "#e3dee9",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/spring-2025-ipad-air-13.png",
+							"localPath": "public/data/ipad/images/ipad-air-13-m3-spring-2025-ipad-air-13.png",
+							"widthPx": 1070,
+							"heightPx": 990
+						}
+					]
+				},
+				{
+					"id": "ipad-air-13-m3-starlight",
+					"displayName": "Starlight",
+					"finish": {
+						"base": "#e3dcd1",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/spring-2025-ipad-air-13.png",
+							"localPath": "public/data/ipad/images/ipad-air-13-m3-spring-2025-ipad-air-13.png",
+							"widthPx": 1070,
+							"heightPx": 990
+						}
+					]
+				}
+			],
 			"overviewImages": [
 				{
 					"label": "back",
@@ -4354,7 +4913,76 @@
 			"name": "iPad Air 11-inch (M3)",
 			"releaseYear": 2025,
 			"priceAud": 999,
-			"colors": [],
+			"colors": [
+				{
+					"id": "ipad-air-11-m3-space-gray",
+					"displayName": "Space Gray",
+					"finish": {
+						"base": "#68696d",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/spring-2025-ipad-air-11.png",
+							"localPath": "public/data/ipad/images/ipad-air-11-m3-spring-2025-ipad-air-11.png",
+							"widthPx": 912,
+							"heightPx": 782
+						}
+					]
+				},
+				{
+					"id": "ipad-air-11-m3-blue",
+					"displayName": "Blue",
+					"finish": {
+						"base": "#d7e5e6",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/spring-2025-ipad-air-11.png",
+							"localPath": "public/data/ipad/images/ipad-air-11-m3-spring-2025-ipad-air-11.png",
+							"widthPx": 912,
+							"heightPx": 782
+						}
+					]
+				},
+				{
+					"id": "ipad-air-11-m3-purple",
+					"displayName": "Purple",
+					"finish": {
+						"base": "#e3dee9",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/spring-2025-ipad-air-11.png",
+							"localPath": "public/data/ipad/images/ipad-air-11-m3-spring-2025-ipad-air-11.png",
+							"widthPx": 912,
+							"heightPx": 782
+						}
+					]
+				},
+				{
+					"id": "ipad-air-11-m3-starlight",
+					"displayName": "Starlight",
+					"finish": {
+						"base": "#e3dcd1",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/spring-2025-ipad-air-11.png",
+							"localPath": "public/data/ipad/images/ipad-air-11-m3-spring-2025-ipad-air-11.png",
+							"widthPx": 912,
+							"heightPx": 782
+						}
+					]
+				}
+			],
 			"overviewImages": [
 				{
 					"label": "back",
@@ -4543,7 +5171,76 @@
 			"name": "iPad Air 13-inch (M2)",
 			"releaseYear": 2024,
 			"priceAud": 1299,
-			"colors": [],
+			"colors": [
+				{
+					"id": "ipad-air-13-m2-space-gray",
+					"displayName": "Space Gray",
+					"finish": {
+						"base": "#68696d",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/spring-2024-3.png",
+							"localPath": "public/data/ipad/images/ipad-air-13-m2-spring-2024-3.png",
+							"widthPx": 1070,
+							"heightPx": 990
+						}
+					]
+				},
+				{
+					"id": "ipad-air-13-m2-blue",
+					"displayName": "Blue",
+					"finish": {
+						"base": "#d7e5e6",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/spring-2024-3.png",
+							"localPath": "public/data/ipad/images/ipad-air-13-m2-spring-2024-3.png",
+							"widthPx": 1070,
+							"heightPx": 990
+						}
+					]
+				},
+				{
+					"id": "ipad-air-13-m2-purple",
+					"displayName": "Purple",
+					"finish": {
+						"base": "#e3dee9",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/spring-2024-3.png",
+							"localPath": "public/data/ipad/images/ipad-air-13-m2-spring-2024-3.png",
+							"widthPx": 1070,
+							"heightPx": 990
+						}
+					]
+				},
+				{
+					"id": "ipad-air-13-m2-starlight",
+					"displayName": "Starlight",
+					"finish": {
+						"base": "#e3dcd1",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/spring-2024-3.png",
+							"localPath": "public/data/ipad/images/ipad-air-13-m2-spring-2024-3.png",
+							"widthPx": 1070,
+							"heightPx": 990
+						}
+					]
+				}
+			],
 			"overviewImages": [
 				{
 					"label": "back",
@@ -4732,7 +5429,76 @@
 			"name": "iPad Air 11-inch (M2)",
 			"releaseYear": 2024,
 			"priceAud": 999,
-			"colors": [],
+			"colors": [
+				{
+					"id": "ipad-air-11-m2-space-gray",
+					"displayName": "Space Gray",
+					"finish": {
+						"base": "#68696d",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/spring-2024-4.png",
+							"localPath": "public/data/ipad/images/ipad-air-11-m2-spring-2024-4.png",
+							"widthPx": 912,
+							"heightPx": 782
+						}
+					]
+				},
+				{
+					"id": "ipad-air-11-m2-blue",
+					"displayName": "Blue",
+					"finish": {
+						"base": "#d7e5e6",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/spring-2024-4.png",
+							"localPath": "public/data/ipad/images/ipad-air-11-m2-spring-2024-4.png",
+							"widthPx": 912,
+							"heightPx": 782
+						}
+					]
+				},
+				{
+					"id": "ipad-air-11-m2-purple",
+					"displayName": "Purple",
+					"finish": {
+						"base": "#e3dee9",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/spring-2024-4.png",
+							"localPath": "public/data/ipad/images/ipad-air-11-m2-spring-2024-4.png",
+							"widthPx": 912,
+							"heightPx": 782
+						}
+					]
+				},
+				{
+					"id": "ipad-air-11-m2-starlight",
+					"displayName": "Starlight",
+					"finish": {
+						"base": "#e3dcd1",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/spring-2024-4.png",
+							"localPath": "public/data/ipad/images/ipad-air-11-m2-spring-2024-4.png",
+							"widthPx": 912,
+							"heightPx": 782
+						}
+					]
+				}
+			],
 			"overviewImages": [
 				{
 					"label": "back",
@@ -4921,7 +5687,93 @@
 			"name": "iPad Air (5th generation)",
 			"releaseYear": 2022,
 			"priceAud": 929,
-			"colors": [],
+			"colors": [
+				{
+					"id": "ipad-air-5th-generation-space-gray",
+					"displayName": "Space Gray",
+					"finish": {
+						"base": "#68696d",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad-air-5th-gen-colors.png",
+							"localPath": "public/data/ipad/images/ipad-air-5th-generation-ipad-air-5th-gen-colors.png",
+							"widthPx": 912,
+							"heightPx": 782
+						}
+					]
+				},
+				{
+					"id": "ipad-air-5th-generation-starlight",
+					"displayName": "Starlight",
+					"finish": {
+						"base": "#e3dcd1",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad-air-5th-gen-colors.png",
+							"localPath": "public/data/ipad/images/ipad-air-5th-generation-ipad-air-5th-gen-colors.png",
+							"widthPx": 912,
+							"heightPx": 782
+						}
+					]
+				},
+				{
+					"id": "ipad-air-5th-generation-pink",
+					"displayName": "Pink",
+					"finish": {
+						"base": "#de6878",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad-air-5th-gen-colors.png",
+							"localPath": "public/data/ipad/images/ipad-air-5th-generation-ipad-air-5th-gen-colors.png",
+							"widthPx": 912,
+							"heightPx": 782
+						}
+					]
+				},
+				{
+					"id": "ipad-air-5th-generation-purple",
+					"displayName": "Purple",
+					"finish": {
+						"base": "#e3dee9",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad-air-5th-gen-colors.png",
+							"localPath": "public/data/ipad/images/ipad-air-5th-generation-ipad-air-5th-gen-colors.png",
+							"widthPx": 912,
+							"heightPx": 782
+						}
+					]
+				},
+				{
+					"id": "ipad-air-5th-generation-blue",
+					"displayName": "Blue",
+					"finish": {
+						"base": "#d7e5e6",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad-air-5th-gen-colors.png",
+							"localPath": "public/data/ipad/images/ipad-air-5th-generation-ipad-air-5th-gen-colors.png",
+							"widthPx": 912,
+							"heightPx": 782
+						}
+					]
+				}
+			],
 			"overviewImages": [
 				{
 					"label": "back",
@@ -5098,7 +5950,42 @@
 			"name": "iPad Air (4th generation)",
 			"releaseYear": 2020,
 			"priceAud": 899,
-			"colors": [],
+			"colors": [
+				{
+					"id": "ipad-air-4th-generation-silver",
+					"displayName": "Silver",
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ipad-air-4th-gen-colors.png",
+							"localPath": "public/data/ipad/images/ipad-air-4th-generation-ipad-air-4th-gen-colors.png",
+							"widthPx": 914,
+							"heightPx": 782
+						}
+					]
+				},
+				{
+					"id": "ipad-air-4th-generation-space-gray",
+					"displayName": "Space Gray",
+					"finish": {
+						"base": "#68696d",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ipad-air-4th-gen-colors.png",
+							"localPath": "public/data/ipad/images/ipad-air-4th-generation-ipad-air-4th-gen-colors.png",
+							"widthPx": 914,
+							"heightPx": 782
+						}
+					]
+				}
+			],
 			"overviewImages": [
 				{
 					"label": "back",
@@ -5276,7 +6163,42 @@
 			"name": "iPad Air (3rd generation)",
 			"releaseYear": 2019,
 			"priceAud": 779,
-			"colors": [],
+			"colors": [
+				{
+					"id": "ipad-air-3rd-generation-silver",
+					"displayName": "Silver",
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ipad-air-3gen.png",
+							"localPath": "public/data/ipad/images/ipad-air-3rd-generation-ipad-air-3gen.png",
+							"widthPx": 806,
+							"heightPx": 780
+						}
+					]
+				},
+				{
+					"id": "ipad-air-3rd-generation-space-gray",
+					"displayName": "Space Gray",
+					"finish": {
+						"base": "#68696d",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ipad-air-3gen.png",
+							"localPath": "public/data/ipad/images/ipad-air-3rd-generation-ipad-air-3gen.png",
+							"widthPx": 806,
+							"heightPx": 780
+						}
+					]
+				}
+			],
 			"overviewImages": [
 				{
 					"label": "back",
@@ -5453,7 +6375,42 @@
 			"name": "iPad Air 2",
 			"releaseYear": 2014,
 			"priceAud": 619,
-			"colors": [],
+			"colors": [
+				{
+					"id": "ipad-air-2-silver",
+					"displayName": "Silver",
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/identify-ipad-air2.png",
+							"localPath": "public/data/ipad/images/ipad-air-2-identify-ipad-air2.png",
+							"widthPx": 790,
+							"heightPx": 772
+						}
+					]
+				},
+				{
+					"id": "ipad-air-2-space-gray",
+					"displayName": "Space Gray",
+					"finish": {
+						"base": "#68696d",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/identify-ipad-air2.png",
+							"localPath": "public/data/ipad/images/ipad-air-2-identify-ipad-air2.png",
+							"widthPx": 790,
+							"heightPx": 772
+						}
+					]
+				}
+			],
 			"overviewImages": [
 				{
 					"label": "back",
@@ -5630,7 +6587,42 @@
 			"name": "iPad Air (1st generation)",
 			"releaseYear": 2013,
 			"priceAud": 598,
-			"colors": [],
+			"colors": [
+				{
+					"id": "ipad-air-1st-generation-silver",
+					"displayName": "Silver",
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/identify-ipad-air.png",
+							"localPath": "public/data/ipad/images/ipad-air-1st-generation-identify-ipad-air.png",
+							"widthPx": 790,
+							"heightPx": 772
+						}
+					]
+				},
+				{
+					"id": "ipad-air-1st-generation-space-gray",
+					"displayName": "Space Gray",
+					"finish": {
+						"base": "#68696d",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/identify-ipad-air.png",
+							"localPath": "public/data/ipad/images/ipad-air-1st-generation-identify-ipad-air.png",
+							"widthPx": 790,
+							"heightPx": 772
+						}
+					]
+				}
+			],
 			"overviewImages": [
 				{
 					"label": "back",
@@ -5807,7 +6799,76 @@
 			"name": "iPad (10th generation)",
 			"releaseYear": 2022,
 			"priceAud": 749,
-			"colors": [],
+			"colors": [
+				{
+					"id": "ipad-10th-generation-silver",
+					"displayName": "Silver",
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/fall-2022-10-gen-ipad.png",
+							"localPath": "public/data/ipad/images/ipad-10th-generation-fall-2022-10-gen-ipad.png",
+							"widthPx": 998,
+							"heightPx": 822
+						}
+					]
+				},
+				{
+					"id": "ipad-10th-generation-blue",
+					"displayName": "Blue",
+					"finish": {
+						"base": "#6983a4",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/fall-2022-10-gen-ipad.png",
+							"localPath": "public/data/ipad/images/ipad-10th-generation-fall-2022-10-gen-ipad.png",
+							"widthPx": 998,
+							"heightPx": 822
+						}
+					]
+				},
+				{
+					"id": "ipad-10th-generation-pink",
+					"displayName": "Pink",
+					"finish": {
+						"base": "#de6878",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/fall-2022-10-gen-ipad.png",
+							"localPath": "public/data/ipad/images/ipad-10th-generation-fall-2022-10-gen-ipad.png",
+							"widthPx": 998,
+							"heightPx": 822
+						}
+					]
+				},
+				{
+					"id": "ipad-10th-generation-yellow",
+					"displayName": "Yellow",
+					"finish": {
+						"base": "#f0d961",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/fall-2022-10-gen-ipad.png",
+							"localPath": "public/data/ipad/images/ipad-10th-generation-fall-2022-10-gen-ipad.png",
+							"widthPx": 998,
+							"heightPx": 822
+						}
+					]
+				}
+			],
 			"overviewImages": [
 				{
 					"label": "back",
@@ -5984,7 +7045,42 @@
 			"name": "iPad (9th generation)",
 			"releaseYear": 2021,
 			"priceAud": 499,
-			"colors": [],
+			"colors": [
+				{
+					"id": "ipad-9th-generation-silver",
+					"displayName": "Silver",
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ipad-2021-colors.png",
+							"localPath": "public/data/ipad/images/ipad-9th-generation-ipad-2021-colors.png",
+							"widthPx": 718,
+							"heightPx": 778
+						}
+					]
+				},
+				{
+					"id": "ipad-9th-generation-space-gray",
+					"displayName": "Space Gray",
+					"finish": {
+						"base": "#68696d",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ipad-2021-colors.png",
+							"localPath": "public/data/ipad/images/ipad-9th-generation-ipad-2021-colors.png",
+							"widthPx": 718,
+							"heightPx": 778
+						}
+					]
+				}
+			],
 			"overviewImages": [
 				{
 					"label": "back",
@@ -6161,7 +7257,42 @@
 			"name": "iPad (8th generation)",
 			"releaseYear": 2020,
 			"priceAud": 499,
-			"colors": [],
+			"colors": [
+				{
+					"id": "ipad-8th-generation-silver",
+					"displayName": "Silver",
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ipad-8th-gen-colors.png",
+							"localPath": "public/data/ipad/images/ipad-8th-generation-ipad-8th-gen-colors.png",
+							"widthPx": 820,
+							"heightPx": 776
+						}
+					]
+				},
+				{
+					"id": "ipad-8th-generation-space-gray",
+					"displayName": "Space Gray",
+					"finish": {
+						"base": "#68696d",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ipad-8th-gen-colors.png",
+							"localPath": "public/data/ipad/images/ipad-8th-generation-ipad-8th-gen-colors.png",
+							"widthPx": 820,
+							"heightPx": 776
+						}
+					]
+				}
+			],
 			"overviewImages": [
 				{
 					"label": "back",
@@ -6338,7 +7469,42 @@
 			"name": "iPad (7th generation)",
 			"releaseYear": 2019,
 			"priceAud": 529,
-			"colors": [],
+			"colors": [
+				{
+					"id": "ipad-7th-generation-silver",
+					"displayName": "Silver",
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ipad-7th-gen.png",
+							"localPath": "public/data/ipad/images/ipad-7th-generation-ipad-7th-gen.png",
+							"widthPx": 820,
+							"heightPx": 778
+						}
+					]
+				},
+				{
+					"id": "ipad-7th-generation-space-gray",
+					"displayName": "Space Gray",
+					"finish": {
+						"base": "#68696d",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ipad-7th-gen.png",
+							"localPath": "public/data/ipad/images/ipad-7th-generation-ipad-7th-gen.png",
+							"widthPx": 820,
+							"heightPx": 778
+						}
+					]
+				}
+			],
 			"overviewImages": [
 				{
 					"label": "back",
@@ -6515,7 +7681,42 @@
 			"name": "iPad (6th generation)",
 			"releaseYear": 2018,
 			"priceAud": 469,
-			"colors": [],
+			"colors": [
+				{
+					"id": "ipad-6th-generation-silver",
+					"displayName": "Silver",
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ios11-3-ipad-9-7-in-2018.png",
+							"localPath": "public/data/ipad/images/ipad-6th-generation-ios11-3-ipad-9-7-in-2018.png",
+							"widthPx": 818,
+							"heightPx": 776
+						}
+					]
+				},
+				{
+					"id": "ipad-6th-generation-space-gray",
+					"displayName": "Space Gray",
+					"finish": {
+						"base": "#68696d",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ios11-3-ipad-9-7-in-2018.png",
+							"localPath": "public/data/ipad/images/ipad-6th-generation-ios11-3-ipad-9-7-in-2018.png",
+							"widthPx": 818,
+							"heightPx": 776
+						}
+					]
+				}
+			],
 			"overviewImages": [
 				{
 					"label": "back",
@@ -6686,7 +7887,42 @@
 			"name": "iPad (5th generation)",
 			"releaseYear": 2017,
 			"priceAud": 469,
-			"colors": [],
+			"colors": [
+				{
+					"id": "ipad-5th-generation-silver",
+					"displayName": "Silver",
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ios11-ipad-5gen.png",
+							"localPath": "public/data/ipad/images/ipad-5th-generation-ios11-ipad-5gen.png",
+							"widthPx": 914,
+							"heightPx": 780
+						}
+					]
+				},
+				{
+					"id": "ipad-5th-generation-space-gray",
+					"displayName": "Space Gray",
+					"finish": {
+						"base": "#68696d",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ios11-ipad-5gen.png",
+							"localPath": "public/data/ipad/images/ipad-5th-generation-ios11-ipad-5gen.png",
+							"widthPx": 914,
+							"heightPx": 780
+						}
+					]
+				}
+			],
 			"overviewImages": [
 				{
 					"label": "back",
@@ -6857,7 +8093,76 @@
 			"name": "iPad mini (6th generation)",
 			"releaseYear": 2021,
 			"priceAud": 749,
-			"colors": [],
+			"colors": [
+				{
+					"id": "ipad-mini-6th-generation-space-gray",
+					"displayName": "Space Gray",
+					"finish": {
+						"base": "#68696d",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ipad-mini-2021-colors.png",
+							"localPath": "public/data/ipad/images/ipad-mini-6th-generation-ipad-mini-2021-colors.png",
+							"widthPx": 762,
+							"heightPx": 678
+						}
+					]
+				},
+				{
+					"id": "ipad-mini-6th-generation-pink",
+					"displayName": "Pink",
+					"finish": {
+						"base": "#de6878",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ipad-mini-2021-colors.png",
+							"localPath": "public/data/ipad/images/ipad-mini-6th-generation-ipad-mini-2021-colors.png",
+							"widthPx": 762,
+							"heightPx": 678
+						}
+					]
+				},
+				{
+					"id": "ipad-mini-6th-generation-purple",
+					"displayName": "Purple",
+					"finish": {
+						"base": "#e3dee9",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ipad-mini-2021-colors.png",
+							"localPath": "public/data/ipad/images/ipad-mini-6th-generation-ipad-mini-2021-colors.png",
+							"widthPx": 762,
+							"heightPx": 678
+						}
+					]
+				},
+				{
+					"id": "ipad-mini-6th-generation-starlight",
+					"displayName": "Starlight",
+					"finish": {
+						"base": "#e3dcd1",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ipad-mini-2021-colors.png",
+							"localPath": "public/data/ipad/images/ipad-mini-6th-generation-ipad-mini-2021-colors.png",
+							"widthPx": 762,
+							"heightPx": 678
+						}
+					]
+				}
+			],
 			"overviewImages": [
 				{
 					"label": "back",
@@ -7029,7 +8334,42 @@
 			"name": "iPad mini (5th generation)",
 			"releaseYear": 2019,
 			"priceAud": 599,
-			"colors": [],
+			"colors": [
+				{
+					"id": "ipad-mini-5th-generation-space-gray",
+					"displayName": "Space Gray",
+					"finish": {
+						"base": "#68696d",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ipad-mini-5gen.png",
+							"localPath": "public/data/ipad/images/ipad-mini-5th-generation-ipad-mini-5gen.png",
+							"widthPx": 660,
+							"heightPx": 678
+						}
+					]
+				},
+				{
+					"id": "ipad-mini-5th-generation-silver",
+					"displayName": "Silver",
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ipad-mini-5gen.png",
+							"localPath": "public/data/ipad/images/ipad-mini-5th-generation-ipad-mini-5gen.png",
+							"widthPx": 660,
+							"heightPx": 678
+						}
+					]
+				}
+			],
 			"overviewImages": [
 				{
 					"label": "back",
@@ -7200,7 +8540,42 @@
 			"name": "iPad mini 4",
 			"releaseYear": 2015,
 			"priceAud": 569,
-			"colors": [],
+			"colors": [
+				{
+					"id": "ipad-mini-4-space-gray",
+					"displayName": "Space Gray",
+					"finish": {
+						"base": "#68696d",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/identify-ipad-mini4.png",
+							"localPath": "public/data/ipad/images/ipad-mini-4-identify-ipad-mini4.png",
+							"widthPx": 658,
+							"heightPx": 664
+						}
+					]
+				},
+				{
+					"id": "ipad-mini-4-silver",
+					"displayName": "Silver",
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/identify-ipad-mini4.png",
+							"localPath": "public/data/ipad/images/ipad-mini-4-identify-ipad-mini4.png",
+							"widthPx": 658,
+							"heightPx": 664
+						}
+					]
+				}
+			],
 			"overviewImages": [
 				{
 					"label": "back",
@@ -7377,7 +8752,42 @@
 			"name": "iPad mini 3",
 			"releaseYear": 2014,
 			"priceAud": 499,
-			"colors": [],
+			"colors": [
+				{
+					"id": "ipad-mini-3-space-gray",
+					"displayName": "Space Gray",
+					"finish": {
+						"base": "#68696d",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/identify-ipad-mini3.png",
+							"localPath": "public/data/ipad/images/ipad-mini-3-identify-ipad-mini3.png",
+							"widthPx": 664,
+							"heightPx": 666
+						}
+					]
+				},
+				{
+					"id": "ipad-mini-3-silver",
+					"displayName": "Silver",
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/identify-ipad-mini3.png",
+							"localPath": "public/data/ipad/images/ipad-mini-3-identify-ipad-mini3.png",
+							"widthPx": 664,
+							"heightPx": 666
+						}
+					]
+				}
+			],
 			"overviewImages": [
 				{
 					"label": "back",
@@ -7554,7 +8964,42 @@
 			"name": "iPad mini 2",
 			"releaseYear": 2013,
 			"priceAud": 479,
-			"colors": [],
+			"colors": [
+				{
+					"id": "ipad-mini-2-space-gray",
+					"displayName": "Space Gray",
+					"finish": {
+						"base": "#68696d",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/identify-ipad-mini2.png",
+							"localPath": "public/data/ipad/images/ipad-mini-2-identify-ipad-mini2.png",
+							"widthPx": 756,
+							"heightPx": 666
+						}
+					]
+				},
+				{
+					"id": "ipad-mini-2-silver",
+					"displayName": "Silver",
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/identify-ipad-mini2.png",
+							"localPath": "public/data/ipad/images/ipad-mini-2-identify-ipad-mini2.png",
+							"widthPx": 756,
+							"heightPx": 666
+						}
+					]
+				}
+			],
 			"configurations": [],
 			"storageOptions": [
 				{
