@@ -128,3 +128,85 @@ export function removeBookmark(
 		token,
 	);
 }
+
+export type OwnedDevice = {
+	category: string;
+	deviceId: string;
+	createdAt: string | null;
+};
+
+type OwnedResponse = { owned: OwnedDevice };
+type OwnedListResponse = { owned: OwnedDevice[] };
+
+export function listOwned(token: string) {
+	return request<OwnedListResponse>("/owned", {}, token).then(
+		(response) => response.owned,
+	);
+}
+
+export function addOwned(token: string, category: string, deviceId: string) {
+	return request<OwnedResponse>(
+		`/owned/${encodeURIComponent(category)}/${encodeURIComponent(deviceId)}`,
+		{
+			method: "PUT",
+		},
+		token,
+	).then((response) => response.owned);
+}
+
+export function removeOwned(token: string, category: string, deviceId: string) {
+	return request<void>(
+		`/owned/${encodeURIComponent(category)}/${encodeURIComponent(deviceId)}`,
+		{ method: "DELETE" },
+		token,
+	);
+}
+
+type CategoryOrderResponse = { order: string[] };
+
+export function getCategoryOrder(token: string) {
+	return request<CategoryOrderResponse>("/preferences/order", {}, token).then(
+		(response) => response.order,
+	);
+}
+
+export function setCategoryOrder(token: string, order: string[]) {
+	return request<CategoryOrderResponse>(
+		"/preferences/order",
+		{
+			method: "PUT",
+			body: JSON.stringify({ order }),
+		},
+		token,
+	).then((response) => response.order);
+}
+
+export function updateUsername(token: string, username: string) {
+	return request<AuthUserResponse>(
+		"/auth/username",
+		{
+			method: "PATCH",
+			body: JSON.stringify({ username }),
+		},
+		token,
+	).then((response) => response.user);
+}
+
+export function changePassword(
+	token: string,
+	currentPassword: string,
+	newPassword: string,
+) {
+	return request<AuthUserResponse>(
+		"/auth/password",
+		{
+			method: "PATCH",
+			body: JSON.stringify({ currentPassword, newPassword }),
+		},
+		token,
+	).then((response) => response.user);
+}
+
+export function deleteAccount(token: string) {
+	return request<void>("/auth/account", { method: "DELETE" }, token);
+}

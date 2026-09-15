@@ -11,15 +11,24 @@ import {
 } from "react";
 import {
 	addBookmark,
+	addOwned,
 	ApiError,
+	changePassword as changePasswordRequest,
+	deleteAccount as deleteAccountRequest,
+	getCategoryOrder,
 	getCurrentUser,
 	listBookmarks,
+	listOwned,
 	login,
 	removeBookmark,
+	removeOwned,
 	register,
+	setCategoryOrder as setCategoryOrderRequest,
+	updateUsername as updateUsernameRequest,
 	type AuthUser,
 	type Bookmark,
 	type AuthResponse,
+	type OwnedDevice,
 } from "./api";
 import { AuthDialog } from "@/components/auth/AuthDialog";
 
@@ -27,7 +36,12 @@ const tokenStorageKey = "apple-catalog.bookmarks-token";
 
 type AuthContextValue = {
 	user: AuthUser | null;
+	sessionToken: string | null;
 	bookmarks: ReadonlySet<string>;
+	bookmarkItems: Bookmark[];
+	owned: ReadonlySet<string>;
+	ownedItems: OwnedDevice[];
+	categoryOrder: string[] | null;
 	isLoading: boolean;
 	actionError: string | null;
 	authDialogOpen: boolean;
@@ -36,13 +50,19 @@ type AuthContextValue = {
 	login: (username: string, password: string) => Promise<void>;
 	register: (username: string, password: string) => Promise<void>;
 	logout: () => void;
+	updateUsername: (username: string) => Promise<void>;
+	changePassword: (currentPassword: string, newPassword: string) => Promise<void>;
+	deleteAccount: () => Promise<void>;
 	toggleBookmark: (category: string, deviceId: string) => Promise<boolean>;
 	isBookmarked: (category: string, deviceId: string) => boolean;
+	toggleOwned: (category: string, deviceId: string) => Promise<boolean>;
+	isOwned: (category: string, deviceId: string) => boolean;
+	setCategoryOrder: (order: string[]) => Promise<void>;
 };
 
 const AuthContext = createContext<AuthContextValue | null>(null);
 
-function bookmarkKey(category: string, deviceId: string) {
+function itemKey(category: string, deviceId: string) {
 	return `${category}:${deviceId}`;
 }
 
@@ -50,6 +70,10 @@ export function AuthProvider({ children }: { children: ReactNode }) {
 	const [token, setToken] = useState<string | null>(null);
 	const [user, setUser] = useState<AuthUser | null>(null);
 	const [bookmarkItems, setBookmarkItems] = useState<Bookmark[]>([]);
+	const [ownedItems, setOwnedItems] = useState<OwnedDevice[]>([]);
+	const [categoryOrder, setCategoryOrderState] = useState<string[] | null>(
+		null,
+	);
 	const [isLoading, setIsLoading] = useState(true);
 	const [actionError, setActionError] = useState<string | null>(null);
 	const [authDialogOpen, setAuthDialogOpen] = useState(false);
@@ -59,16 +83,22 @@ export function AuthProvider({ children }: { children: ReactNode }) {
 		setToken(null);
 		setUser(null);
 		setBookmarkItems([]);
+		setOwnedItems([]);
+		setCategoryOrderState(null);
 	}, []);
 
 	const loadSession = useCallback(async (sessionToken: string) => {
-		const [currentUser, bookmarks] = await Promise.all([
+		const [currentUser, bookmarks, owned, order] = await Promise.all([
 			getCurrentUser(sessionToken),
 			listBookmarks(sessionToken),
+			listOwned(sessionToken),
+			getCategoryOrder(sessionToken),
 		]);
 		setToken(sessionToken);
 		setUser(currentUser);
 		setBookmarkItems(bookmarks);
+		setOwnedItems(owned);
+		setCategoryOrderState(order);
 	}, []);
 
 	useEffect(() => {
@@ -111,17 +141,17 @@ export function AuthProvider({ children }: { children: ReactNode }) {
 				return false;
 			}
 
-			const key = bookmarkKey(category, deviceId);
+			const key = itemKey(category, deviceId);
 			setActionError(null);
 			try {
 				const existing = bookmarkItems.find(
-					(item) => bookmarkKey(item.category, item.deviceId) === key,
+					(item) => itemKey(item.category, item.deviceId) === key,
 				);
 				if (existing) {
 					await removeBookmark(token, existing.category, existing.deviceId);
 					setBookmarkItems((current) =>
 						current.filter(
-							(item) => bookmarkKey(item.category, item.deviceId) !== key,
+							(item) => itemKey(item.category, item.deviceId) !== key,
 						),
 					);
 					return false;
@@ -136,19 +166,136 @@ export function AuthProvider({ children }: { children: ReactNode }) {
 					error instanceof Error ? error.message : "Bookmark update failed.",
 				);
 				return bookmarkItems.some(
-					(item) => bookmarkKey(item.category, item.deviceId) === key,
+					(item) => itemKey(item.category, item.deviceId) === key,
 				);
 			}
 		},
 		[bookmarkItems, clearSession, token],
 	);
 
+	const toggleOwned = useCallback(
+		async (category: string, deviceId: string) => {
+			if (!token) {
+				setAuthDialogOpen(true);
+				return false;
+			}
+
+			const key = itemKey(category, deviceId);
+			setActionError(null);
+			try {
+				const existing = ownedItems.find(
+					(item) => itemKey(item.category, item.deviceId) === key,
+				);
+				if (existing) {
+					await removeOwned(token, existing.category, existing.deviceId);
+					setOwnedItems((current) =>
+						current.filter(
+							(item) => itemKey(item.category, item.deviceId) !== key,
+						),
+					);
+					return false;
+				}
+
+				const owned = await addOwned(token, category, deviceId);
+				setOwnedItems((current) => [...current, owned]);
+				return true;
+			} catch (error) {
+				if (error instanceof ApiError && error.status === 401) clearSession();
+				setActionError(
+					error instanceof Error ? error.message : "Update failed.",
+				);
+				return ownedItems.some(
+					(item) => itemKey(item.category, item.deviceId) === key,
+				);
+			}
+		},
+		[ownedItems, clearSession, token],
+	);
+
+	const persistCategoryOrder = useCallback(
+		async (order: string[]) => {
+			if (!token) return;
+			setActionError(null);
+			try {
+				const saved = await setCategoryOrderRequest(token, order);
+				setCategoryOrderState(saved);
+			} catch (error) {
+				if (error instanceof ApiError && error.status === 401) clearSession();
+				setActionError(
+					error instanceof Error ? error.message : "Could not save order.",
+				);
+			}
+		},
+		[clearSession, token],
+	);
+
+	const renameUser = useCallback(
+		async (username: string) => {
+			if (!token) return;
+			setActionError(null);
+			try {
+				const updated = await updateUsernameRequest(token, username);
+				setUser(updated);
+			} catch (error) {
+				if (error instanceof ApiError && error.status === 401) clearSession();
+				setActionError(
+					error instanceof Error ? error.message : "Could not update username.",
+				);
+				throw error;
+			}
+		},
+		[clearSession, token],
+	);
+
+	const changeUserPassword = useCallback(
+		async (currentPassword: string, newPassword: string) => {
+			if (!token) return;
+			setActionError(null);
+			try {
+				const updated = await changePasswordRequest(
+					token,
+					currentPassword,
+					newPassword,
+				);
+				setUser(updated);
+			} catch (error) {
+				if (error instanceof ApiError && error.status === 401) clearSession();
+				setActionError(
+					error instanceof Error ? error.message : "Could not update password.",
+				);
+				throw error;
+			}
+		},
+		[clearSession, token],
+	);
+
+	const removeAccount = useCallback(async () => {
+		if (!token) return;
+		setActionError(null);
+		try {
+			await deleteAccountRequest(token);
+		} catch (error) {
+			setActionError(
+				error instanceof Error ? error.message : "Could not delete account.",
+			);
+			throw error;
+		}
+		clearSession();
+	}, [clearSession, token]);
+
 	const value = useMemo<AuthContextValue>(
 		() => ({
 			user,
+			sessionToken: token,
 			bookmarks: new Set(
-				bookmarkItems.map((item) => bookmarkKey(item.category, item.deviceId)),
+				bookmarkItems.map((item) => itemKey(item.category, item.deviceId)),
 			),
+			bookmarkItems,
+			owned: new Set(
+				ownedItems.map((item) => itemKey(item.category, item.deviceId)),
+			),
+			ownedItems,
+			categoryOrder,
 			isLoading,
 			actionError,
 			authDialogOpen,
@@ -158,22 +305,41 @@ export function AuthProvider({ children }: { children: ReactNode }) {
 			register: (username, password) =>
 				authenticate("register", username, password),
 			logout: clearSession,
+			updateUsername: renameUser,
+			changePassword: changeUserPassword,
+			deleteAccount: removeAccount,
 			toggleBookmark,
 			isBookmarked: (category, deviceId) =>
 				bookmarkItems.some(
 					(item) =>
-						bookmarkKey(item.category, item.deviceId) ===
-						bookmarkKey(category, deviceId),
+						itemKey(item.category, item.deviceId) ===
+						itemKey(category, deviceId),
 				),
+			toggleOwned,
+			isOwned: (category, deviceId) =>
+				ownedItems.some(
+					(item) =>
+						itemKey(item.category, item.deviceId) ===
+						itemKey(category, deviceId),
+				),
+			setCategoryOrder: persistCategoryOrder,
 		}),
 		[
 			actionError,
 			authDialogOpen,
 			authenticate,
 			bookmarkItems,
+			categoryOrder,
+			changeUserPassword,
 			clearSession,
 			isLoading,
+			ownedItems,
+			persistCategoryOrder,
+			removeAccount,
+			renameUser,
+			token,
 			toggleBookmark,
+			toggleOwned,
 			user,
 		],
 	);
