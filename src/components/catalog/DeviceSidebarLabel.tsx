@@ -1,7 +1,8 @@
 "use client";
 
 import { BadgeCheck, Bookmark } from "lucide-react";
-import { Tooltip } from "@base-ui/react/tooltip";
+import { createPortal } from "react-dom";
+import { useState } from "react";
 import { useAuth } from "@/lib/auth/AuthProvider";
 import { DeviceTypeIcon } from "@/components/catalog/DeviceTypeIcon";
 
@@ -32,71 +33,84 @@ export function DeviceSidebarLabel({
 	]
 		.filter(Boolean)
 		.join(", ");
+	const [tooltipPosition, setTooltipPosition] = useState<{
+		left: number;
+		top: number;
+		above: boolean;
+	} | null>(null);
+
+	function showTooltip(event: React.MouseEvent<HTMLSpanElement>) {
+		const row = event.currentTarget.closest("a") ?? event.currentTarget;
+		const bounds = row.getBoundingClientRect();
+		const above = bounds.bottom + 120 > window.innerHeight;
+		setTooltipPosition({
+			left: bounds.left + bounds.width / 2,
+			top: above ? bounds.top - 8 : bounds.bottom + 8,
+			above,
+		});
+	}
 
 	return (
-		<Tooltip.Root>
-			<Tooltip.Trigger
-				delay={0}
-				render={
-					<span
-						aria-hidden="true"
-						className="absolute inset-0 z-10"
-						data-year-start={yearStart || undefined}
-					/>
-				}
-			/>
-			<span className="relative flex min-w-0 w-full items-center gap-2">
+		<span className="relative block w-full">
+			<span
+				key="row"
+				onMouseEnter={showTooltip}
+				onMouseLeave={() => setTooltipPosition(null)}
+				className="relative flex min-w-0 w-full items-center gap-2"
+				data-year-start={yearStart || undefined}
+			>
 				<DeviceTypeIcon category={category} className="size-4 shrink-0" />
 				<span className="min-w-0 flex-1 truncate">{name}</span>
 				{bookmarked || owned ? (
 					<span className="flex shrink-0 items-center gap-1">
 						{bookmarked ? (
-							<span>
-								<Bookmark aria-hidden="true" className="size-3.5" />
-							</span>
+							<Bookmark aria-hidden="true" className="size-3.5" />
 						) : null}
 						{owned ? (
-							<span>
-								<BadgeCheck aria-hidden="true" className="size-3.5" />
-							</span>
+							<BadgeCheck aria-hidden="true" className="size-3.5" />
 						) : null}
 					</span>
 				) : null}
 				<span className="sr-only">{metadata}</span>
 			</span>
-			<Tooltip.Portal>
-				<Tooltip.Positioner
-					className="pointer-events-none z-50"
-					side="bottom"
-					align="center"
-					sideOffset={8}
-				>
-					<Tooltip.Popup className="glass-header-surface pointer-events-none w-64 rounded-xl p-3 text-xs text-fd-popover-foreground shadow-lg">
-						<div className="flex items-center justify-between gap-4">
-							<span className="min-w-0 truncate font-medium">{name}</span>
-							<span className="shrink-0 text-fd-muted-foreground">
-								{releaseYear ?? "Year unknown"}
-							</span>
-						</div>
-						{owned || bookmarked ? (
-							<div className="mt-3 flex flex-wrap gap-1.5">
-								{owned ? (
-									<span className="inline-flex items-center gap-1 rounded-full bg-fd-accent px-2 py-1 font-medium text-fd-accent-foreground">
-										<BadgeCheck aria-hidden="true" className="size-3.5" />
-										Owned
-									</span>
-								) : null}
-								{bookmarked ? (
-									<span className="inline-flex items-center gap-1 rounded-full bg-fd-accent px-2 py-1 font-medium text-fd-accent-foreground">
-										<Bookmark aria-hidden="true" className="size-3.5" />
-										Bookmarked
-									</span>
-								) : null}
+			{tooltipPosition && typeof document !== "undefined"
+				? createPortal(
+						<div
+							role="tooltip"
+							className="glass-header-surface pointer-events-none fixed z-50 w-64 rounded-xl p-3 text-xs text-fd-popover-foreground shadow-lg"
+							style={{
+								left: tooltipPosition.left,
+								top: tooltipPosition.top,
+								transform: `translate(-50%, ${tooltipPosition.above ? "-100%" : "0"})`,
+							}}
+						>
+							<div className="flex items-center justify-between gap-4">
+								<span className="min-w-0 truncate font-medium">{name}</span>
+								<span className="shrink-0 text-fd-muted-foreground">
+									{releaseYear ?? "Year unknown"}
+								</span>
 							</div>
-						) : null}
-					</Tooltip.Popup>
-				</Tooltip.Positioner>
-			</Tooltip.Portal>
-		</Tooltip.Root>
+							{owned || bookmarked ? (
+								<div className="mt-3 flex flex-wrap gap-1.5">
+									{owned ? (
+										<span className="inline-flex items-center gap-1 rounded-full bg-fd-accent px-2 py-1 font-medium text-fd-accent-foreground">
+											<BadgeCheck aria-hidden="true" className="size-3.5" />
+											Owned
+										</span>
+									) : null}
+									{bookmarked ? (
+										<span className="inline-flex items-center gap-1 rounded-full bg-fd-accent px-2 py-1 font-medium text-fd-accent-foreground">
+											<Bookmark aria-hidden="true" className="size-3.5" />
+											Bookmarked
+										</span>
+									) : null}
+								</div>
+							) : null}
+						</div>,
+						document.body,
+						`${category}:${deviceId}`,
+					)
+				: null}
+		</span>
 	);
 }

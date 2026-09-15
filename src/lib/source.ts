@@ -236,6 +236,7 @@ export function getCatalogPageTree(): PageTree.Root {
 							deviceId: device.id,
 							name: device.name,
 							releaseYear: releaseYearOf(device),
+							key: device.id,
 							yearStart:
 								index > 0 &&
 								releaseYearOf(devices[index - 1]) !== releaseYearOf(device),
@@ -259,6 +260,7 @@ export function getCatalogPageTree(): PageTree.Root {
 						deviceId: item.id,
 						name: item.displayName,
 						releaseYear: releaseYearOf(item),
+						key: item.id,
 						yearStart:
 							index > 0 &&
 							releaseYearOf(items[index - 1]) !== releaseYearOf(item),
@@ -301,6 +303,7 @@ export function getCatalogPageTree(): PageTree.Root {
 						deviceId: product.id,
 						name: product.displayName,
 						releaseYear: releaseYearOf(product),
+						key: product.id,
 					}),
 					`${docsRoute}/other/${section.slug}/${product.id}`,
 				),

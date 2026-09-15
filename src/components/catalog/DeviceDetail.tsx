@@ -236,11 +236,8 @@ export function DeviceDetail({ category, device, note }: DeviceDetailProps) {
 							onClick={handleBookmark}
 							disabled={bookmarkPending || isLoading}
 						>
-							{displayedBookmarked ? (
-								<Check aria-hidden="true" size={15} />
-							) : (
-								<Bookmark aria-hidden="true" size={15} />
-							)}
+							<Bookmark aria-hidden="true" size={15} />
+
 							{displayedBookmarked
 								? "Bookmarked"
 								: user
@@ -261,11 +258,7 @@ export function DeviceDetail({ category, device, note }: DeviceDetailProps) {
 							onClick={handleOwned}
 							disabled={ownedPending || isLoading}
 						>
-							{displayedOwned ? (
-								<Check aria-hidden="true" size={15} />
-							) : (
-								<BadgeCheck aria-hidden="true" size={15} />
-							)}
+							<BadgeCheck aria-hidden="true" size={15} />
 							{displayedOwned ? "Mine" : user ? "Mine" : "Sign in"}
 						</button>
 					</div>
