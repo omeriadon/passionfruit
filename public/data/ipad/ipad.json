@@ -1514,6 +1514,15 @@
 			"releaseYear": 2024,
 			"priceAud": 2199,
 			"colors": [],
+			"overviewImages": [
+				{
+					"label": "back",
+					"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/spring-2024-1.png",
+					"localPath": "public/data/ipad/images/ipad-pro-13-m4-spring-2024-1.png",
+					"widthPx": 960,
+					"heightPx": 912
+				}
+			],
 			"configurations": [],
 			"storageOptions": [
 				{
@@ -1701,6 +1710,15 @@
 			"releaseYear": 2022,
 			"priceAud": 1899,
 			"colors": [],
+			"overviewImages": [
+				{
+					"label": "back",
+					"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/fall-2022-12-9-inch-6gen-ipad-pro.png",
+					"localPath": "public/data/ipad/images/ipad-pro-12-9-6th-gen-fall-2022-12-9-inch-6gen-ipad-pro.png",
+					"widthPx": 960,
+					"heightPx": 912
+				}
+			],
 			"configurations": [],
 			"storageOptions": [
 				{
@@ -1888,6 +1906,15 @@
 			"releaseYear": 2021,
 			"priceAud": 1649,
 			"colors": [],
+			"overviewImages": [
+				{
+					"label": "back",
+					"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/2021-ipad-pro-12-9-colors.png",
+					"localPath": "public/data/ipad/images/ipad-pro-12-9-5th-gen-2021-ipad-pro-12-9-colors.png",
+					"widthPx": 1000,
+					"heightPx": 946
+				}
+			],
 			"configurations": [],
 			"storageOptions": [
 				{
@@ -2075,6 +2102,15 @@
 			"releaseYear": 2020,
 			"priceAud": 1649,
 			"colors": [],
+			"overviewImages": [
+				{
+					"label": "back",
+					"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ios13-4-ipad-pro-4gen-12-9-in.png",
+					"localPath": "public/data/ipad/images/ipad-pro-12-9-4th-gen-ios13-4-ipad-pro-4gen-12-9-in.png",
+					"widthPx": 998,
+					"heightPx": 948
+				}
+			],
 			"configurations": [],
 			"storageOptions": [
 				{
@@ -2256,6 +2292,15 @@
 			"releaseYear": 2018,
 			"priceAud": 1529,
 			"colors": [],
+			"overviewImages": [
+				{
+					"label": "back",
+					"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ios12-ipad-pro-12-9-in.png",
+					"localPath": "public/data/ipad/images/ipad-pro-12-9-3rd-gen-ios12-ipad-pro-12-9-in.png",
+					"widthPx": 992,
+					"heightPx": 990
+				}
+			],
 			"configurations": [],
 			"storageOptions": [
 				{
@@ -2437,6 +2482,15 @@
 			"releaseYear": 2017,
 			"priceAud": 1199,
 			"colors": [],
+			"overviewImages": [
+				{
+					"label": "back",
+					"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ios11-ipad-pro-12-in.png",
+					"localPath": "public/data/ipad/images/ipad-pro-12-9-2nd-gen-ios11-ipad-pro-12-in.png",
+					"widthPx": 872,
+					"heightPx": 990
+				}
+			],
 			"configurations": [],
 			"storageOptions": [
 				{
@@ -2611,6 +2665,15 @@
 			"releaseYear": 2015,
 			"priceAud": 1249,
 			"colors": [],
+			"overviewImages": [
+				{
+					"label": "back",
+					"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/identify-ipad-pro.png",
+					"localPath": "public/data/ipad/images/ipad-pro-12-9-1st-gen-identify-ipad-pro.png",
+					"widthPx": 1002,
+					"heightPx": 988
+				}
+			],
 			"configurations": [],
 			"storageOptions": [
 				{
@@ -2785,6 +2848,15 @@
 			"releaseYear": 2024,
 			"priceAud": 1699,
 			"colors": [],
+			"overviewImages": [
+				{
+					"label": "back",
+					"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/spring-2024-2.png",
+					"localPath": "public/data/ipad/images/ipad-pro-11-m4-spring-2024-2.png",
+					"widthPx": 856,
+					"heightPx": 824
+				}
+			],
 			"configurations": [],
 			"storageOptions": [
 				{
@@ -2972,6 +3044,15 @@
 			"releaseYear": 2022,
 			"priceAud": 1399,
 			"colors": [],
+			"overviewImages": [
+				{
+					"label": "back",
+					"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/fall-2022-11-inch-4gen-ipad-pro.png",
+					"localPath": "public/data/ipad/images/ipad-pro-11-4th-gen-fall-2022-11-inch-4gen-ipad-pro.png",
+					"widthPx": 856,
+					"heightPx": 824
+				}
+			],
 			"configurations": [],
 			"storageOptions": [
 				{
@@ -3159,6 +3240,15 @@
 			"releaseYear": 2021,
 			"priceAud": 1199,
 			"colors": [],
+			"overviewImages": [
+				{
+					"label": "back",
+					"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/2021-ipad-pro-11-colors.png",
+					"localPath": "public/data/ipad/images/ipad-pro-11-3rd-gen-2021-ipad-pro-11-colors.png",
+					"widthPx": 929,
+					"heightPx": 891
+				}
+			],
 			"configurations": [],
 			"storageOptions": [
 				{
@@ -3346,6 +3436,15 @@
 			"releaseYear": 2020,
 			"priceAud": 1329,
 			"colors": [],
+			"overviewImages": [
+				{
+					"label": "back",
+					"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ios13-4-ipad-pro-4gen-11-in.png",
+					"localPath": "public/data/ipad/images/ipad-pro-11-2nd-gen-ios13-4-ipad-pro-4gen-11-in.png",
+					"widthPx": 938,
+					"heightPx": 892
+				}
+			],
 			"configurations": [],
 			"storageOptions": [
 				{
@@ -3527,6 +3626,15 @@
 			"releaseYear": 2018,
 			"priceAud": 1229,
 			"colors": [],
+			"overviewImages": [
+				{
+					"label": "back",
+					"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ios12-ipad-pro-11-in.png",
+					"localPath": "public/data/ipad/images/ipad-pro-11-1st-gen-ios12-ipad-pro-11-in.png",
+					"widthPx": 888,
+					"heightPx": 896
+				}
+			],
 			"configurations": [],
 			"storageOptions": [
 				{
@@ -3700,6 +3808,15 @@
 			"releaseYear": 2017,
 			"priceAud": 979,
 			"colors": [],
+			"overviewImages": [
+				{
+					"label": "back",
+					"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ios11-ipad-pro-10-in.png",
+					"localPath": "public/data/ipad/images/ipad-pro-10-5-in-ios11-ipad-pro-10-in.png",
+					"widthPx": 778,
+					"heightPx": 878
+				}
+			],
 			"configurations": [],
 			"storageOptions": [
 				{
@@ -3874,6 +3991,15 @@
 			"releaseYear": 2016,
 			"priceAud": 899,
 			"colors": [],
+			"overviewImages": [
+				{
+					"label": "back",
+					"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/identify-ipad-pro-9-7.png",
+					"localPath": "public/data/ipad/images/ipad-pro-9-7-in-identify-ipad-pro-9-7.png",
+					"widthPx": 816,
+					"heightPx": 776
+				}
+			],
 			"configurations": [],
 			"storageOptions": [
 				{
@@ -4040,6 +4166,15 @@
 			"releaseYear": 2025,
 			"priceAud": 1349,
 			"colors": [],
+			"overviewImages": [
+				{
+					"label": "back",
+					"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/spring-2025-ipad-air-13.png",
+					"localPath": "public/data/ipad/images/ipad-air-13-m3-spring-2025-ipad-air-13.png",
+					"widthPx": 1070,
+					"heightPx": 990
+				}
+			],
 			"configurations": [],
 			"storageOptions": [
 				{
@@ -4220,6 +4355,15 @@
 			"releaseYear": 2025,
 			"priceAud": 999,
 			"colors": [],
+			"overviewImages": [
+				{
+					"label": "back",
+					"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/spring-2025-ipad-air-11.png",
+					"localPath": "public/data/ipad/images/ipad-air-11-m3-spring-2025-ipad-air-11.png",
+					"widthPx": 912,
+					"heightPx": 782
+				}
+			],
 			"configurations": [],
 			"storageOptions": [
 				{
@@ -4400,6 +4544,15 @@
 			"releaseYear": 2024,
 			"priceAud": 1299,
 			"colors": [],
+			"overviewImages": [
+				{
+					"label": "back",
+					"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/spring-2024-3.png",
+					"localPath": "public/data/ipad/images/ipad-air-13-m2-spring-2024-3.png",
+					"widthPx": 1070,
+					"heightPx": 990
+				}
+			],
 			"configurations": [],
 			"storageOptions": [
 				{
@@ -4580,6 +4733,15 @@
 			"releaseYear": 2024,
 			"priceAud": 999,
 			"colors": [],
+			"overviewImages": [
+				{
+					"label": "back",
+					"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/spring-2024-4.png",
+					"localPath": "public/data/ipad/images/ipad-air-11-m2-spring-2024-4.png",
+					"widthPx": 912,
+					"heightPx": 782
+				}
+			],
 			"configurations": [],
 			"storageOptions": [
 				{
@@ -4760,6 +4922,15 @@
 			"releaseYear": 2022,
 			"priceAud": 929,
 			"colors": [],
+			"overviewImages": [
+				{
+					"label": "back",
+					"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad-air-5th-gen-colors.png",
+					"localPath": "public/data/ipad/images/ipad-air-5th-generation-ipad-air-5th-gen-colors.png",
+					"widthPx": 912,
+					"heightPx": 782
+				}
+			],
 			"configurations": [],
 			"storageOptions": [
 				{
@@ -4928,6 +5099,15 @@
 			"releaseYear": 2020,
 			"priceAud": 899,
 			"colors": [],
+			"overviewImages": [
+				{
+					"label": "back",
+					"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ipad-air-4th-gen-colors.png",
+					"localPath": "public/data/ipad/images/ipad-air-4th-generation-ipad-air-4th-gen-colors.png",
+					"widthPx": 914,
+					"heightPx": 782
+				}
+			],
 			"configurations": [],
 			"storageOptions": [
 				{
@@ -5097,6 +5277,15 @@
 			"releaseYear": 2019,
 			"priceAud": 779,
 			"colors": [],
+			"overviewImages": [
+				{
+					"label": "back",
+					"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ipad-air-3gen.png",
+					"localPath": "public/data/ipad/images/ipad-air-3rd-generation-ipad-air-3gen.png",
+					"widthPx": 806,
+					"heightPx": 780
+				}
+			],
 			"configurations": [],
 			"storageOptions": [
 				{
@@ -5265,6 +5454,15 @@
 			"releaseYear": 2014,
 			"priceAud": 619,
 			"colors": [],
+			"overviewImages": [
+				{
+					"label": "back",
+					"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/identify-ipad-air2.png",
+					"localPath": "public/data/ipad/images/ipad-air-2-identify-ipad-air2.png",
+					"widthPx": 790,
+					"heightPx": 772
+				}
+			],
 			"configurations": [],
 			"storageOptions": [
 				{
@@ -5433,6 +5631,15 @@
 			"releaseYear": 2013,
 			"priceAud": 598,
 			"colors": [],
+			"overviewImages": [
+				{
+					"label": "back",
+					"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/identify-ipad-air.png",
+					"localPath": "public/data/ipad/images/ipad-air-1st-generation-identify-ipad-air.png",
+					"widthPx": 790,
+					"heightPx": 772
+				}
+			],
 			"configurations": [],
 			"storageOptions": [
 				{
@@ -5601,6 +5808,15 @@
 			"releaseYear": 2022,
 			"priceAud": 749,
 			"colors": [],
+			"overviewImages": [
+				{
+					"label": "back",
+					"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/fall-2022-10-gen-ipad.png",
+					"localPath": "public/data/ipad/images/ipad-10th-generation-fall-2022-10-gen-ipad.png",
+					"widthPx": 998,
+					"heightPx": 822
+				}
+			],
 			"configurations": [],
 			"storageOptions": [
 				{
@@ -5769,6 +5985,15 @@
 			"releaseYear": 2021,
 			"priceAud": 499,
 			"colors": [],
+			"overviewImages": [
+				{
+					"label": "back",
+					"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ipad-2021-colors.png",
+					"localPath": "public/data/ipad/images/ipad-9th-generation-ipad-2021-colors.png",
+					"widthPx": 718,
+					"heightPx": 778
+				}
+			],
 			"configurations": [],
 			"storageOptions": [
 				{
@@ -5937,6 +6162,15 @@
 			"releaseYear": 2020,
 			"priceAud": 499,
 			"colors": [],
+			"overviewImages": [
+				{
+					"label": "back",
+					"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ipad-8th-gen-colors.png",
+					"localPath": "public/data/ipad/images/ipad-8th-generation-ipad-8th-gen-colors.png",
+					"widthPx": 820,
+					"heightPx": 776
+				}
+			],
 			"configurations": [],
 			"storageOptions": [
 				{
@@ -6105,6 +6339,15 @@
 			"releaseYear": 2019,
 			"priceAud": 529,
 			"colors": [],
+			"overviewImages": [
+				{
+					"label": "back",
+					"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ipad-7th-gen.png",
+					"localPath": "public/data/ipad/images/ipad-7th-generation-ipad-7th-gen.png",
+					"widthPx": 820,
+					"heightPx": 778
+				}
+			],
 			"configurations": [],
 			"storageOptions": [
 				{
@@ -6273,6 +6516,15 @@
 			"releaseYear": 2018,
 			"priceAud": 469,
 			"colors": [],
+			"overviewImages": [
+				{
+					"label": "back",
+					"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ios11-3-ipad-9-7-in-2018.png",
+					"localPath": "public/data/ipad/images/ipad-6th-generation-ios11-3-ipad-9-7-in-2018.png",
+					"widthPx": 818,
+					"heightPx": 776
+				}
+			],
 			"configurations": [],
 			"storageOptions": [
 				{
@@ -6435,6 +6687,15 @@
 			"releaseYear": 2017,
 			"priceAud": 469,
 			"colors": [],
+			"overviewImages": [
+				{
+					"label": "back",
+					"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ios11-ipad-5gen.png",
+					"localPath": "public/data/ipad/images/ipad-5th-generation-ios11-ipad-5gen.png",
+					"widthPx": 914,
+					"heightPx": 780
+				}
+			],
 			"configurations": [],
 			"storageOptions": [
 				{
@@ -6597,6 +6858,15 @@
 			"releaseYear": 2021,
 			"priceAud": 749,
 			"colors": [],
+			"overviewImages": [
+				{
+					"label": "back",
+					"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ipad-mini-2021-colors.png",
+					"localPath": "public/data/ipad/images/ipad-mini-6th-generation-ipad-mini-2021-colors.png",
+					"widthPx": 762,
+					"heightPx": 678
+				}
+			],
 			"configurations": [],
 			"storageOptions": [
 				{
@@ -6760,6 +7030,15 @@
 			"releaseYear": 2019,
 			"priceAud": 599,
 			"colors": [],
+			"overviewImages": [
+				{
+					"label": "back",
+					"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ipad-mini-5gen.png",
+					"localPath": "public/data/ipad/images/ipad-mini-5th-generation-ipad-mini-5gen.png",
+					"widthPx": 660,
+					"heightPx": 678
+				}
+			],
 			"configurations": [],
 			"storageOptions": [
 				{
@@ -6922,6 +7201,15 @@
 			"releaseYear": 2015,
 			"priceAud": 569,
 			"colors": [],
+			"overviewImages": [
+				{
+					"label": "back",
+					"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/identify-ipad-mini4.png",
+					"localPath": "public/data/ipad/images/ipad-mini-4-identify-ipad-mini4.png",
+					"widthPx": 658,
+					"heightPx": 664
+				}
+			],
 			"configurations": [],
 			"storageOptions": [
 				{
@@ -7090,6 +7378,15 @@
 			"releaseYear": 2014,
 			"priceAud": 499,
 			"colors": [],
+			"overviewImages": [
+				{
+					"label": "back",
+					"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/identify-ipad-mini3.png",
+					"localPath": "public/data/ipad/images/ipad-mini-3-identify-ipad-mini3.png",
+					"widthPx": 664,
+					"heightPx": 666
+				}
+			],
 			"configurations": [],
 			"storageOptions": [
 				{
@@ -7464,7 +7761,15 @@
 				"builtInApps": []
 			},
 			"accessories": [],
-			"overviewImages": [],
+			"overviewImages": [
+				{
+					"label": "back",
+					"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/identify-ipad-mini2.png",
+					"localPath": "public/data/ipad/images/ipad-mini-2-identify-ipad-mini2.png",
+					"widthPx": 756,
+					"heightPx": 666
+				}
+			],
 			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue rows for iPad mini 2. Price and colour/image evidence absent and remain null/empty rather than inferred."
 		}
 	]
