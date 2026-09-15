@@ -1,6 +1,6 @@
 "use client";
 
-import { Bookmark, Check, ChevronDown, ExternalLink } from "lucide-react";
+import { BadgeCheck, Bookmark, Check, ChevronDown, ExternalLink } from "lucide-react";
 import type { CSSProperties } from "react";
 import { useMemo, useState } from "react";
 import { useAuth } from "@/lib/auth/AuthProvider";
@@ -118,13 +118,15 @@ function detailSections(device: CatalogDevice) {
 }
 
 export function DeviceDetail({ category, device, note }: DeviceDetailProps) {
-	const { actionError, isBookmarked, isLoading, toggleBookmark, user } =
+	const { actionError, isBookmarked, isLoading, isOwned, toggleBookmark, toggleOwned, user } =
 		useAuth();
 	const [selectedColorId, setSelectedColorId] = useState<string | undefined>(
 		() => getColors(device)[0]?.id,
 	);
 	const bookmarked = isBookmarked(category, device.id);
+	const owned = isOwned(category, device.id);
 	const [bookmarkPending, setBookmarkPending] = useState(false);
+	const [ownedPending, setOwnedPending] = useState(false);
 	const [showSources, setShowSources] = useState(false);
 	const config = catalogConfigs[category];
 	const colors = getColors(device);
@@ -139,6 +141,12 @@ export function DeviceDetail({ category, device, note }: DeviceDetailProps) {
 		setBookmarkPending(true);
 		await toggleBookmark(category, device.id);
 		setBookmarkPending(false);
+	}
+
+	async function handleOwned() {
+		setOwnedPending(true);
+		await toggleOwned(category, device.id);
+		setOwnedPending(false);
 	}
 
 	return (
@@ -193,6 +201,31 @@ export function DeviceDetail({ category, device, note }: DeviceDetailProps) {
 								: user
 									? "Bookmark"
 									: "Sign in to bookmark"}
+					</button>
+					<button
+						type="button"
+						className={`${styles.bookmarkButton} ${owned ? styles.bookmarked : ""}`}
+						aria-pressed={owned}
+						aria-label={
+							owned
+								? `Remove ${device.name} from your devices`
+								: `Mark ${device.name} as yours`
+						}
+						onClick={handleOwned}
+						disabled={ownedPending || isLoading}
+					>
+						{owned ? (
+							<Check aria-hidden="true" size={16} />
+						) : (
+							<BadgeCheck aria-hidden="true" size={16} />
+						)}
+						{ownedPending
+							? "Saving…"
+							: owned
+								? "Yours"
+								: user
+									? "Mine"
+									: "Sign in to mark yours"}
 					</button>
 					{actionError ? (
 						<p role="alert" className={styles.bookmarkError}>
