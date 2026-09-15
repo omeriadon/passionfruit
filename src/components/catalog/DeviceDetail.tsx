@@ -7,14 +7,12 @@ import {
 	ChevronDown,
 	ExternalLink,
 } from "lucide-react";
-import type { CSSProperties } from "react";
 import { useMemo, useState } from "react";
 import { useAuth } from "@/lib/auth/AuthProvider";
 import {
 	formatCatalogValue,
 	getColors,
 	getImageSource,
-	getSwatchHex,
 	humanizeKey,
 	imageForColor,
 	type CatalogCategory,
@@ -24,6 +22,7 @@ import {
 	type CatalogValue,
 } from "@/lib/catalog/types";
 import { catalogConfigs } from "@/lib/catalog/config";
+import { FinishSwatch } from "./FinishSwatch";
 import styles from "./catalog.module.css";
 import type { DeviceNote } from "@/lib/device-notes";
 import { IPhoneDetail } from "./detail/IPhoneDetail";
@@ -276,30 +275,18 @@ export function DeviceDetail({ category, device, note }: DeviceDetailProps) {
 						aria-label="Choose a finish"
 					>
 						{colors.map((color) => {
-							const swatch = getSwatchHex(color);
-							const swatchImage = getImageSource(imageForColor(color));
 							return (
 								<button
 									key={color.id ?? color.displayName}
 									type="button"
 									className={`${styles.swatchButton} ${selectedColor?.id === color.id ? styles.selectedSwatch : ""}`}
-									style={
-										swatch || swatchImage
-											? ({
-													...(swatch ? { "--swatch": swatch } : {}),
-													...(swatchImage
-														? {
-																"--swatch-image": `url("${swatchImage}")`,
-															}
-														: {}),
-												} as CSSProperties)
-											: undefined
-									}
 									role="radio"
 									aria-checked={selectedColor?.id === color.id}
 									aria-label={color.displayName ?? "Unnamed finish"}
 									onClick={() => setSelectedColorId(color.id)}
-								/>
+								>
+									<FinishSwatch finish={color.finish} />
+								</button>
 							);
 						})}
 					</div>

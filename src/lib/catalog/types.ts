@@ -23,16 +23,8 @@ export type CatalogImage = {
 export type CatalogColor = {
 	id?: string;
 	displayName?: string;
-	swatch?: string | { kind?: string; value?: string; url?: string };
+	finish?: import("@/components/catalog/FinishSwatch").FinishRecord;
 	images?: CatalogImage[];
-};
-
-const fallbackSwatches: Record<string, string> = {
-	"gold-aluminium": "#f4d4c6",
-	"rose-gold-aluminium": "#eacfc8",
-	"silver-aluminium": "#f0eff1",
-	"space-grey-aluminium": "#727272",
-	titanium: "#e3ddd7",
 };
 
 export type CatalogColumn = {
@@ -92,13 +84,6 @@ export function getColors(device: CatalogDevice): CatalogColor[] {
 					typeof color === "object" && color !== null,
 			)
 		: [];
-}
-
-export function getSwatchHex(color: CatalogColor): string | undefined {
-	const swatch = color.swatch;
-	const value = typeof swatch === "string" ? swatch : swatch?.value;
-	if (value && value.toLowerCase() !== "#ffffff") return value;
-	return color.id ? fallbackSwatches[color.id] : undefined;
 }
 
 export function getImages(device: CatalogDevice): CatalogImage[] {

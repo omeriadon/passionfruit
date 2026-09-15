@@ -215,8 +215,8 @@ export function IPhoneDetail({ device, showSources }: IPhoneDetailProps) {
 			<Section id="audio" title="Audio">
 				<SummaryList
 					items={[
-						["Speaker", yesNo(audio?.speaker)],
-						["Microphone", yesNo(audio?.microphone)],
+						["Speaker", text(audio?.speakerConfiguration)],
+						["Microphone", text(audio?.microphoneConfiguration)],
 					]}
 				/>
 			</Section>

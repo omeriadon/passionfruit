@@ -408,21 +408,23 @@
 .colorOptions {
 	display: flex;
 	flex-wrap: wrap;
-	gap: 0.55rem;
+	gap: 0.75rem;
 	justify-content: flex-end;
 }
 
 .swatchButton {
-	background: var(--swatch, #d3d3d3);
-	background-image: var(--swatch-image, none);
-	background-position: center;
-	background-size: cover;
-	border: 2px solid color-mix(in srgb, currentColor 22%, transparent);
+	background: transparent;
+	border: none;
 	border-radius: 999px;
 	cursor: pointer;
-	height: 1.6rem;
+	height: 3.5rem;
 	padding: 0;
-	width: 1.6rem;
+	width: 3.5rem;
+}
+
+.swatchButton:focus-visible {
+	outline: 2px solid var(--catalog-accent, #b46a46);
+	outline-offset: 2px;
 }
 
 .selectedSwatch {
