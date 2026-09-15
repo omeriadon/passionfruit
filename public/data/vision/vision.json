@@ -9,9 +9,9 @@
 				{
 					"id": "light-grey-accessory",
 					"displayName": "light grey",
-					"swatch": {
-						"kind": "css",
-						"value": "#d3d3d3"
+					"finish": {
+						"base": "#d3d3d3",
+						"material": "flat"
 					},
 					"images": [
 						{
@@ -104,9 +104,9 @@
 				{
 					"id": "dark-grey-accessory",
 					"displayName": "dark grey",
-					"swatch": {
-						"kind": "css",
-						"value": "#404040"
+					"finish": {
+						"base": "#404040",
+						"material": "flat"
 					},
 					"images": [
 						{
@@ -157,9 +157,9 @@
 				{
 					"id": "white-accessory",
 					"displayName": "white",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#ffffff",
+						"material": "flat"
 					},
 					"images": [
 						{
