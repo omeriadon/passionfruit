@@ -8,7 +8,7 @@ import {
 	Pencil,
 	Smartphone,
 	Tablet,
-	Tv,
+	TvMinimal,
 	Watch,
 	type LucideProps,
 } from "lucide-react";
@@ -16,7 +16,7 @@ import {
 const icons = {
 	airpods: Headphones,
 	"apple-pencil": Pencil,
-	"apple-tv": Tv,
+	"apple-tv": TvMinimal,
 	"apple-watch": Watch,
 	homepod: Home,
 	ipad: Tablet,
