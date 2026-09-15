@@ -10,9 +10,7 @@
 					"displayName": "Natural Titanium",
 					"finish": {
 						"base": "#e3ddd7",
-						"material": "brushed-titanium",
-						"shine": 0.3,
-						"grain": 0.08
+						"material": "brushed-titanium"
 					},
 					"images": [
 						{
@@ -50,9 +48,7 @@
 					"displayName": "Black Titanium",
 					"finish": {
 						"base": "#34322e",
-						"material": "brushed-titanium",
-						"shine": 0.3,
-						"grain": 0.08
+						"material": "brushed-titanium"
 					},
 					"images": [
 						{
@@ -217,9 +213,7 @@
 					"displayName": "Dark Bronze Aluminium",
 					"finish": {
 						"base": "#523f30",
-						"material": "matte-aluminum",
-						"shine": 0.15,
-						"grain": 0.1
+						"material": "matte-aluminum"
 					},
 					"images": [
 						{
@@ -257,9 +251,7 @@
 					"displayName": "Light Gold Aluminium",
 					"finish": {
 						"base": "#877664",
-						"material": "matte-aluminum",
-						"shine": 0.15,
-						"grain": 0.1
+						"material": "matte-aluminum"
 					},
 					"images": [
 						{
@@ -297,9 +289,7 @@
 					"displayName": "Black Aluminium",
 					"finish": {
 						"base": "#3c3835",
-						"material": "matte-aluminum",
-						"shine": 0.15,
-						"grain": 0.1
+						"material": "matte-aluminum"
 					},
 					"images": [
 						{
@@ -337,9 +327,7 @@
 					"displayName": "Space Gray Aluminium",
 					"finish": {
 						"base": "#565254",
-						"material": "matte-aluminum",
-						"shine": 0.15,
-						"grain": 0.1
+						"material": "matte-aluminum"
 					},
 					"images": [
 						{
@@ -377,9 +365,7 @@
 					"displayName": "Radiant Gold Titanium",
 					"finish": {
 						"base": "#837558",
-						"material": "polished-titanium",
-						"shine": 0.6,
-						"grain": 0
+						"material": "polished-titanium"
 					},
 					"images": [
 						{
@@ -416,10 +402,8 @@
 					"id": "natural-titanium",
 					"displayName": "Natural Titanium",
 					"finish": {
-						"base": "#c9c3bb",
-						"material": "polished-titanium",
-						"shine": 0.6,
-						"grain": 0
+						"base": "#e3ddd7",
+						"material": "polished-titanium"
 					},
 					"images": [
 						{
@@ -457,9 +441,7 @@
 					"displayName": "Pearl White Ceramic",
 					"finish": {
 						"base": "#e9e5de",
-						"material": "ceramic",
-						"shine": 0.7,
-						"grain": 0.05
+						"material": "ceramic"
 					},
 					"images": [
 						{
@@ -497,9 +479,7 @@
 					"displayName": "Night Blue Ceramic",
 					"finish": {
 						"base": "#232a35",
-						"material": "ceramic",
-						"shine": 0.7,
-						"grain": 0.05
+						"material": "ceramic"
 					},
 					"images": [
 						{
@@ -666,9 +646,7 @@
 					"displayName": "Rose Gold Aluminium",
 					"finish": {
 						"base": "#eacfc8",
-						"material": "matte-aluminum",
-						"shine": 0.15,
-						"grain": 0.1
+						"material": "matte-aluminum"
 					},
 					"images": [
 						{
@@ -706,9 +684,7 @@
 					"displayName": "Silver Aluminium",
 					"finish": {
 						"base": "#f0eff1",
-						"material": "matte-aluminum",
-						"shine": 0.15,
-						"grain": 0.1
+						"material": "matte-aluminum"
 					},
 					"images": [
 						{
@@ -746,9 +722,7 @@
 					"displayName": "Space Grey Aluminium",
 					"finish": {
 						"base": "#727272",
-						"material": "matte-aluminum",
-						"shine": 0.15,
-						"grain": 0.1
+						"material": "matte-aluminum"
 					},
 					"images": [
 						{
@@ -826,9 +800,7 @@
 					"displayName": "Natural Titanium",
 					"finish": {
 						"base": "#e3ddd7",
-						"material": "polished-titanium",
-						"shine": 0.6,
-						"grain": 0
+						"material": "polished-titanium"
 					},
 					"images": [
 						{
@@ -866,9 +838,7 @@
 					"displayName": "Gold Titanium",
 					"finish": {
 						"base": "#f4dec8",
-						"material": "polished-titanium",
-						"shine": 0.6,
-						"grain": 0
+						"material": "polished-titanium"
 					},
 					"images": [
 						{
@@ -906,9 +876,7 @@
 					"displayName": "Slate Titanium",
 					"finish": {
 						"base": "#47423d",
-						"material": "polished-titanium",
-						"shine": 0.6,
-						"grain": 0
+						"material": "polished-titanium"
 					},
 					"images": [
 						{
@@ -1163,9 +1131,7 @@
 					"displayName": "Midnight Aluminium",
 					"finish": {
 						"base": "#1a2530",
-						"material": "matte-aluminum",
-						"shine": 0.15,
-						"grain": 0.1
+						"material": "matte-aluminum"
 					},
 					"images": [
 						{
@@ -1203,9 +1169,7 @@
 					"displayName": "Starlight Aluminium",
 					"finish": {
 						"base": "#ded6d1",
-						"material": "matte-aluminum",
-						"shine": 0.15,
-						"grain": 0.1
+						"material": "matte-aluminum"
 					},
 					"images": [
 						{
@@ -1451,9 +1415,7 @@
 					"displayName": "Natural Titanium",
 					"finish": {
 						"base": "#e3ddd7",
-						"material": "brushed-titanium",
-						"shine": 0.3,
-						"grain": 0.08
+						"material": "brushed-titanium"
 					},
 					"images": [
 						{
@@ -1491,9 +1453,7 @@
 					"displayName": "Black Titanium",
 					"finish": {
 						"base": "#34322e",
-						"material": "brushed-titanium",
-						"shine": 0.3,
-						"grain": 0.08
+						"material": "brushed-titanium"
 					},
 					"images": [
 						{
@@ -1774,9 +1734,7 @@
 					"displayName": "Rose Gold Aluminium",
 					"finish": {
 						"base": "#f6d9cd",
-						"material": "matte-aluminum",
-						"shine": 0.15,
-						"grain": 0.1
+						"material": "matte-aluminum"
 					},
 					"images": [
 						{
@@ -1814,9 +1772,7 @@
 					"displayName": "Silver Aluminium",
 					"finish": {
 						"base": "#e0e0e0",
-						"material": "matte-aluminum",
-						"shine": 0.15,
-						"grain": 0.1
+						"material": "matte-aluminum"
 					},
 					"images": [
 						{
@@ -1854,9 +1810,7 @@
 					"displayName": "Slate Titanium",
 					"finish": {
 						"base": "#47423d",
-						"material": "polished-titanium",
-						"shine": 0.6,
-						"grain": 0
+						"material": "polished-titanium"
 					},
 					"images": [
 						{
@@ -1894,9 +1848,7 @@
 					"displayName": "Gold Titanium",
 					"finish": {
 						"base": "#f4dec8",
-						"material": "polished-titanium",
-						"shine": 0.6,
-						"grain": 0
+						"material": "polished-titanium"
 					},
 					"images": [
 						{
@@ -1933,10 +1885,8 @@
 					"id": "natural-titanium",
 					"displayName": "Natural Titanium",
 					"finish": {
-						"base": "#ccc4bc",
-						"material": "polished-titanium",
-						"shine": 0.6,
-						"grain": 0
+						"base": "#e3ddd7",
+						"material": "polished-titanium"
 					},
 					"images": [
 						{
@@ -2190,9 +2140,7 @@
 					"displayName": "Midnight Aluminium",
 					"finish": {
 						"base": "#1a2530",
-						"material": "matte-aluminum",
-						"shine": 0.15,
-						"grain": 0.1
+						"material": "matte-aluminum"
 					},
 					"images": [
 						{
@@ -2230,9 +2178,7 @@
 					"displayName": "Starlight Aluminium",
 					"finish": {
 						"base": "#ded6d1",
-						"material": "matte-aluminum",
-						"shine": 0.15,
-						"grain": 0.1
+						"material": "matte-aluminum"
 					},
 					"images": [
 						{
@@ -2270,9 +2216,7 @@
 					"displayName": "Silver Aluminium",
 					"finish": {
 						"base": "#e6e6e7",
-						"material": "matte-aluminum",
-						"shine": 0.15,
-						"grain": 0.1
+						"material": "matte-aluminum"
 					},
 					"images": [
 						{
@@ -2476,9 +2420,7 @@
 					"displayName": "Black Titanium",
 					"finish": {
 						"base": "#34322e",
-						"material": "brushed-titanium",
-						"shine": 0.3,
-						"grain": 0.08
+						"material": "brushed-titanium"
 					},
 					"images": [
 						{
@@ -2515,10 +2457,8 @@
 					"id": "natural-titanium",
 					"displayName": "Natural Titanium",
 					"finish": {
-						"base": "#ccc4bc",
-						"material": "brushed-titanium",
-						"shine": 0.3,
-						"grain": 0.08
+						"base": "#e3ddd7",
+						"material": "brushed-titanium"
 					},
 					"images": [
 						{
@@ -2754,9 +2694,7 @@
 					"displayName": "Midnight Aluminium",
 					"finish": {
 						"base": "#1a2530",
-						"material": "matte-aluminum",
-						"shine": 0.15,
-						"grain": 0.1
+						"material": "matte-aluminum"
 					},
 					"images": [
 						{
@@ -2794,9 +2732,7 @@
 					"displayName": "Starlight Aluminium",
 					"finish": {
 						"base": "#ded6d1",
-						"material": "matte-aluminum",
-						"shine": 0.15,
-						"grain": 0.1
+						"material": "matte-aluminum"
 					},
 					"images": []
 				},
@@ -2805,9 +2741,7 @@
 					"displayName": "Silver Aluminium",
 					"finish": {
 						"base": "#f0eff1",
-						"material": "matte-aluminum",
-						"shine": 0.15,
-						"grain": 0.1
+						"material": "matte-aluminum"
 					},
 					"images": []
 				},
@@ -2816,9 +2750,7 @@
 					"displayName": "Pink Aluminium",
 					"finish": {
 						"base": "#fadcde",
-						"material": "matte-aluminum",
-						"shine": 0.15,
-						"grain": 0.1
+						"material": "matte-aluminum"
 					},
 					"images": []
 				},
@@ -2827,9 +2759,7 @@
 					"displayName": "(PRODUCT)RED Aluminium",
 					"finish": {
 						"base": "#c80e2d",
-						"material": "matte-aluminum",
-						"shine": 0.15,
-						"grain": 0.1
+						"material": "matte-aluminum"
 					},
 					"images": []
 				},
@@ -2838,9 +2768,7 @@
 					"displayName": "Silver Stainless",
 					"finish": {
 						"base": "#e6e6e7",
-						"material": "polished-steel",
-						"shine": 0.8,
-						"grain": 0
+						"material": "polished-steel"
 					},
 					"images": []
 				},
@@ -2849,9 +2777,7 @@
 					"displayName": "Graphite Stainless",
 					"finish": {
 						"base": "#3e3a36",
-						"material": "polished-steel",
-						"shine": 0.8,
-						"grain": 0
+						"material": "polished-steel"
 					},
 					"images": []
 				},
@@ -2860,9 +2786,7 @@
 					"displayName": "Gold Stainless",
 					"finish": {
 						"base": "#d4bda1",
-						"material": "polished-steel",
-						"shine": 0.8,
-						"grain": 0
+						"material": "polished-steel"
 					},
 					"images": []
 				}
@@ -3087,9 +3011,7 @@
 					"displayName": "Brushed Gold Aluminium",
 					"finish": {
 						"base": "#f4d4c6",
-						"material": "matte-aluminum",
-						"shine": 0.15,
-						"grain": 0.1
+						"material": "matte-aluminum"
 					},
 					"images": [
 						{
@@ -3127,9 +3049,7 @@
 					"displayName": "Silver Aluminium",
 					"finish": {
 						"base": "#f0eff1",
-						"material": "matte-aluminum",
-						"shine": 0.15,
-						"grain": 0.1
+						"material": "matte-aluminum"
 					},
 					"images": [
 						{
@@ -3153,9 +3073,7 @@
 					"displayName": "Space Grey Aluminium",
 					"finish": {
 						"base": "#727272",
-						"material": "matte-aluminum",
-						"shine": 0.15,
-						"grain": 0.1
+						"material": "matte-aluminum"
 					},
 					"images": [
 						{
@@ -3346,9 +3264,7 @@
 					"displayName": "Natural Titanium",
 					"finish": {
 						"base": "#e3ddd7",
-						"material": "brushed-titanium",
-						"shine": 0.3,
-						"grain": 0.08
+						"material": "brushed-titanium"
 					},
 					"images": [
 						{
@@ -3578,9 +3494,7 @@
 					"displayName": "Midnight Aluminium",
 					"finish": {
 						"base": "#1a2530",
-						"material": "matte-aluminum",
-						"shine": 0.15,
-						"grain": 0.1
+						"material": "matte-aluminum"
 					},
 					"images": [
 						{
@@ -3604,9 +3518,7 @@
 					"displayName": "Starlight Aluminium",
 					"finish": {
 						"base": "#ded6d1",
-						"material": "matte-aluminum",
-						"shine": 0.15,
-						"grain": 0.1
+						"material": "matte-aluminum"
 					},
 					"images": [
 						{
@@ -3630,9 +3542,7 @@
 					"displayName": "Silver Aluminium",
 					"finish": {
 						"base": "#f0eff1",
-						"material": "matte-aluminum",
-						"shine": 0.15,
-						"grain": 0.1
+						"material": "matte-aluminum"
 					},
 					"images": [
 						{
@@ -3656,9 +3566,7 @@
 					"displayName": "(PRODUCT)RED Aluminium",
 					"finish": {
 						"base": "#c80e2d",
-						"material": "matte-aluminum",
-						"shine": 0.15,
-						"grain": 0.1
+						"material": "matte-aluminum"
 					},
 					"images": [
 						{
@@ -3682,9 +3590,7 @@
 					"displayName": "Silver Stainless",
 					"finish": {
 						"base": "#e6e6e7",
-						"material": "polished-steel",
-						"shine": 0.8,
-						"grain": 0
+						"material": "polished-steel"
 					},
 					"images": [
 						{
@@ -3708,9 +3614,7 @@
 					"displayName": "Graphite Stainless",
 					"finish": {
 						"base": "#3e3a36",
-						"material": "polished-steel",
-						"shine": 0.8,
-						"grain": 0
+						"material": "polished-steel"
 					},
 					"images": [
 						{
@@ -3734,9 +3638,7 @@
 					"displayName": "Gold Stainless",
 					"finish": {
 						"base": "#d4bda1",
-						"material": "polished-steel",
-						"shine": 0.8,
-						"grain": 0
+						"material": "polished-steel"
 					},
 					"images": [
 						{
@@ -3940,9 +3842,7 @@
 					"displayName": "Midnight Aluminium",
 					"finish": {
 						"base": "#1a2530",
-						"material": "matte-aluminum",
-						"shine": 0.15,
-						"grain": 0.1
+						"material": "matte-aluminum"
 					},
 					"images": [
 						{
@@ -3966,9 +3866,7 @@
 					"displayName": "Starlight Aluminium",
 					"finish": {
 						"base": "#ded6d1",
-						"material": "matte-aluminum",
-						"shine": 0.15,
-						"grain": 0.1
+						"material": "matte-aluminum"
 					},
 					"images": [
 						{
@@ -3992,9 +3890,7 @@
 					"displayName": "Green Aluminium",
 					"finish": {
 						"base": "#36382b",
-						"material": "matte-aluminum",
-						"shine": 0.15,
-						"grain": 0.1
+						"material": "matte-aluminum"
 					},
 					"images": [
 						{
@@ -4018,9 +3914,7 @@
 					"displayName": "Blue Aluminium",
 					"finish": {
 						"base": "#3e4b6c",
-						"material": "matte-aluminum",
-						"shine": 0.15,
-						"grain": 0.1
+						"material": "matte-aluminum"
 					},
 					"images": [
 						{
@@ -4044,9 +3938,7 @@
 					"displayName": "(PRODUCT)RED Aluminium",
 					"finish": {
 						"base": "#c6464a",
-						"material": "matte-aluminum",
-						"shine": 0.15,
-						"grain": 0.1
+						"material": "matte-aluminum"
 					},
 					"images": [
 						{
@@ -4070,9 +3962,7 @@
 					"displayName": "Silver Stainless",
 					"finish": {
 						"base": "#e6e6e7",
-						"material": "polished-steel",
-						"shine": 0.8,
-						"grain": 0
+						"material": "polished-steel"
 					},
 					"images": [
 						{
@@ -4096,9 +3986,7 @@
 					"displayName": "Graphite Stainless",
 					"finish": {
 						"base": "#3e3a36",
-						"material": "polished-steel",
-						"shine": 0.8,
-						"grain": 0
+						"material": "polished-steel"
 					},
 					"images": [
 						{
@@ -4122,9 +4010,7 @@
 					"displayName": "Gold Stainless",
 					"finish": {
 						"base": "#d4bda1",
-						"material": "polished-steel",
-						"shine": 0.8,
-						"grain": 0
+						"material": "polished-steel"
 					},
 					"images": [
 						{
@@ -4333,9 +4219,7 @@
 					"displayName": "Blue Aluminium",
 					"finish": {
 						"base": "#6e8eba",
-						"material": "matte-aluminum",
-						"shine": 0.15,
-						"grain": 0.1
+						"material": "matte-aluminum"
 					},
 					"images": [
 						{
@@ -4359,9 +4243,7 @@
 					"displayName": "(PRODUCT)RED Aluminium",
 					"finish": {
 						"base": "#a91e3b",
-						"material": "matte-aluminum",
-						"shine": 0.15,
-						"grain": 0.1
+						"material": "matte-aluminum"
 					},
 					"images": [
 						{
@@ -4385,9 +4267,7 @@
 					"displayName": "Silver Aluminium",
 					"finish": {
 						"base": "#e6e6e7",
-						"material": "matte-aluminum",
-						"shine": 0.15,
-						"grain": 0.1
+						"material": "matte-aluminum"
 					},
 					"images": [
 						{
@@ -4411,9 +4291,7 @@
 					"displayName": "Space Grey Aluminium",
 					"finish": {
 						"base": "#5e5f61",
-						"material": "matte-aluminum",
-						"shine": 0.15,
-						"grain": 0.1
+						"material": "matte-aluminum"
 					},
 					"images": [
 						{
@@ -4437,9 +4315,7 @@
 					"displayName": "Gold Stainless",
 					"finish": {
 						"base": "#d4bda1",
-						"material": "polished-steel",
-						"shine": 0.8,
-						"grain": 0
+						"material": "polished-steel"
 					},
 					"images": [
 						{
@@ -4463,9 +4339,7 @@
 					"displayName": "Silver Stainless",
 					"finish": {
 						"base": "#e6e6e7",
-						"material": "polished-steel",
-						"shine": 0.8,
-						"grain": 0
+						"material": "polished-steel"
 					},
 					"images": [
 						{
@@ -4489,9 +4363,7 @@
 					"displayName": "Graphite Stainless",
 					"finish": {
 						"base": "#3e3a36",
-						"material": "polished-steel",
-						"shine": 0.8,
-						"grain": 0
+						"material": "polished-steel"
 					},
 					"images": [
 						{
@@ -4515,9 +4387,7 @@
 					"displayName": "Space Black Titanium",
 					"finish": {
 						"base": "#47433f",
-						"material": "polished-titanium",
-						"shine": 0.6,
-						"grain": 0
+						"material": "polished-titanium"
 					},
 					"images": [
 						{
@@ -4717,9 +4587,7 @@
 					"displayName": "Space Grey Aluminium",
 					"finish": {
 						"base": "#6a6d70",
-						"material": "matte-aluminum",
-						"shine": 0.15,
-						"grain": 0.1
+						"material": "matte-aluminum"
 					},
 					"images": [
 						{
@@ -4743,9 +4611,7 @@
 					"displayName": "Silver Aluminium",
 					"finish": {
 						"base": "#d8d8dc",
-						"material": "matte-aluminum",
-						"shine": 0.15,
-						"grain": 0.1
+						"material": "matte-aluminum"
 					},
 					"images": [
 						{
@@ -4769,9 +4635,7 @@
 					"displayName": "Rose Gold Aluminium",
 					"finish": {
 						"base": "#e8c9c0",
-						"material": "matte-aluminum",
-						"shine": 0.15,
-						"grain": 0.1
+						"material": "matte-aluminum"
 					},
 					"images": [
 						{
@@ -4795,9 +4659,7 @@
 					"displayName": "Gold Aluminium",
 					"finish": {
 						"base": "#e3c9b7",
-						"material": "matte-aluminum",
-						"shine": 0.15,
-						"grain": 0.1
+						"material": "matte-aluminum"
 					},
 					"images": [
 						{
@@ -4957,9 +4819,7 @@
 					"displayName": "Space Grey Aluminium",
 					"finish": {
 						"base": "#6a6d70",
-						"material": "matte-aluminum",
-						"shine": 0.15,
-						"grain": 0.1
+						"material": "matte-aluminum"
 					},
 					"images": [
 						{
@@ -4983,9 +4843,7 @@
 					"displayName": "Silver Aluminium",
 					"finish": {
 						"base": "#d8d8dc",
-						"material": "matte-aluminum",
-						"shine": 0.15,
-						"grain": 0.1
+						"material": "matte-aluminum"
 					},
 					"images": [
 						{
@@ -5009,9 +4867,7 @@
 					"displayName": "Rose Gold Aluminium",
 					"finish": {
 						"base": "#e8c9c0",
-						"material": "matte-aluminum",
-						"shine": 0.15,
-						"grain": 0.1
+						"material": "matte-aluminum"
 					},
 					"images": [
 						{
@@ -5035,9 +4891,7 @@
 					"displayName": "Gold Aluminium",
 					"finish": {
 						"base": "#e3c9b7",
-						"material": "matte-aluminum",
-						"shine": 0.15,
-						"grain": 0.1
+						"material": "matte-aluminum"
 					},
 					"images": [
 						{
@@ -5209,9 +5063,7 @@
 					"displayName": "Space Grey Aluminium",
 					"finish": {
 						"base": "#6a6d70",
-						"material": "matte-aluminum",
-						"shine": 0.15,
-						"grain": 0.1
+						"material": "matte-aluminum"
 					},
 					"images": [
 						{
@@ -5235,9 +5087,7 @@
 					"displayName": "Silver Aluminium",
 					"finish": {
 						"base": "#d8d8dc",
-						"material": "matte-aluminum",
-						"shine": 0.15,
-						"grain": 0.1
+						"material": "matte-aluminum"
 					},
 					"images": [
 						{
@@ -5261,9 +5111,7 @@
 					"displayName": "Gold Aluminium",
 					"finish": {
 						"base": "#e3c9b7",
-						"material": "matte-aluminum",
-						"shine": 0.15,
-						"grain": 0.1
+						"material": "matte-aluminum"
 					},
 					"images": [
 						{
@@ -5440,9 +5288,7 @@
 					"displayName": "Space Grey Aluminium",
 					"finish": {
 						"base": "#6a6d70",
-						"material": "matte-aluminum",
-						"shine": 0.15,
-						"grain": 0.1
+						"material": "matte-aluminum"
 					},
 					"images": [
 						{
@@ -5466,9 +5312,7 @@
 					"displayName": "Silver Aluminium",
 					"finish": {
 						"base": "#d8d8dc",
-						"material": "matte-aluminum",
-						"shine": 0.15,
-						"grain": 0.1
+						"material": "matte-aluminum"
 					},
 					"images": [
 						{
@@ -5492,9 +5336,7 @@
 					"displayName": "Gold Aluminium",
 					"finish": {
 						"base": "#e3c9b7",
-						"material": "matte-aluminum",
-						"shine": 0.15,
-						"grain": 0.1
+						"material": "matte-aluminum"
 					},
 					"images": [
 						{
@@ -5661,9 +5503,7 @@
 					"displayName": "Space Grey Aluminium",
 					"finish": {
 						"base": "#6a6d70",
-						"material": "matte-aluminum",
-						"shine": 0.15,
-						"grain": 0.1
+						"material": "matte-aluminum"
 					},
 					"images": [
 						{
@@ -5687,9 +5527,7 @@
 					"displayName": "Silver Aluminium",
 					"finish": {
 						"base": "#d8d8dc",
-						"material": "matte-aluminum",
-						"shine": 0.15,
-						"grain": 0.1
+						"material": "matte-aluminum"
 					},
 					"images": [
 						{
@@ -5713,9 +5551,7 @@
 					"displayName": "Gold Aluminium",
 					"finish": {
 						"base": "#e3c9b7",
-						"material": "matte-aluminum",
-						"shine": 0.15,
-						"grain": 0.1
+						"material": "matte-aluminum"
 					},
 					"images": [
 						{
@@ -5738,10 +5574,8 @@
 					"id": "titanium",
 					"displayName": "Titanium",
 					"finish": {
-						"base": "#c9c3bb",
-						"material": "brushed-titanium",
-						"shine": 0.3,
-						"grain": 0.08
+						"base": "#e3ddd7",
+						"material": "brushed-titanium"
 					},
 					"images": [
 						{
