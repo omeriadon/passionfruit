@@ -1,7 +1,7 @@
 import {
-	RootProvider,
 	type RootProviderProps,
 } from "fumadocs-ui/provider/next";
+import { SearchRootProvider } from "@/components/SearchRootProvider";
 import "./global.css";
 import { AuthProvider } from "@/lib/auth/AuthProvider";
 
@@ -35,7 +35,9 @@ export default function Layout({ children }: LayoutProps<"/">) {
 		<html lang="en" suppressHydrationWarning>
 			<body className="flex flex-col min-h-screen">
 				<AuthProvider>
-					<RootProvider {...rootProviderOptions}>{children}</RootProvider>
+					<SearchRootProvider {...rootProviderOptions}>
+						{children}
+					</SearchRootProvider>
 				</AuthProvider>
 			</body>
 		</html>
