@@ -304,6 +304,7 @@
 
 .detailMeta {
 	color: var(--catalog-muted);
+	font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
 	margin: 1rem 0 1.25rem;
 }
 

@@ -207,7 +207,7 @@ export function DeviceDetail({ category, device, note }: DeviceDetailProps) {
 								: null,
 						]
 							.filter(Boolean)
-							.join(" · ")}
+							.join("\u00a0\u00a0\u00a0\u00a0")}
 					</p>
 					{note ? (
 						<div className={styles.editorialNote}>

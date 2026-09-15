@@ -51,11 +51,13 @@ export function DeviceSidebarLabel({
 	}
 
 	return (
-		<span className="relative block w-full">
+		<span
+			onMouseEnter={showTooltip}
+			onMouseLeave={() => setTooltipPosition(null)}
+			className="relative -mx-2.5 -my-1.5 block w-[calc(100%+1.25rem)] px-2.5 py-1.5"
+		>
 			<span
 				key="row"
-				onMouseEnter={showTooltip}
-				onMouseLeave={() => setTooltipPosition(null)}
 				className="relative flex min-w-0 w-full items-center gap-2"
 				data-year-start={yearStart || undefined}
 			>
@@ -85,8 +87,10 @@ export function DeviceSidebarLabel({
 							}}
 						>
 							<div className="flex items-center justify-between gap-4">
-								<span className="min-w-0 truncate font-medium">{name}</span>
-								<span className="shrink-0 text-fd-muted-foreground">
+								<span className="min-w-0 truncate font-mono font-medium">
+									{name}
+								</span>
+								<span className="shrink-0 font-mono text-fd-muted-foreground">
 									{releaseYear ?? "Year unknown"}
 								</span>
 							</div>
