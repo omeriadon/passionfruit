@@ -5,7 +5,6 @@ import {
 	humanizeKey,
 } from "@/lib/catalog/types";
 import styles from "../catalog.module.css";
-import { Configurations } from "./Configurations";
 import { StorageOptions } from "./StorageOptions";
 
 type IPhoneDetailProps = {
@@ -142,8 +141,8 @@ function NamedItems({
 }
 
 export function IPhoneDetail({ device, showSources }: IPhoneDetailProps) {
-	const memoryOptions = Array.isArray(device.memoryOptions)
-		? device.memoryOptions.map(formatCatalogValue).join(", ")
+	const memoryGb = typeof device.memoryGb === "number"
+		? `${device.memoryGb} GB`
 		: undefined;
 	const overviewImages = records(device.overviewImages);
 	const audio = record(device.audio);
@@ -173,11 +172,8 @@ export function IPhoneDetail({ device, showSources }: IPhoneDetailProps) {
 			<Section id="storage" title="Storage">
 				<StorageOptions value={device.storageOptions ?? null} />
 			</Section>
-			<Section id="configurations" title="Configurations">
-				<Configurations value={device.configurations ?? null} />
-			</Section>
 			<Section id="memory" title="Memory">
-				<p>{memoryOptions || "Not recorded"}</p>
+				<p>{memoryGb || "Not recorded"}</p>
 			</Section>
 			<Section id="design-and-compatibility" title="Design and compatibility">
 				<SummaryList

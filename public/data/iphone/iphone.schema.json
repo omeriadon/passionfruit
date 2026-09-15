@@ -133,11 +133,10 @@
 					"type": "string",
 					"minLength": 1
 				},
-				"memoryOptions": {
-					"type": "array",
-					"items": {
-						"$ref": "#/$defs/iphoneMemoryOption"
-					}
+				"memoryGb": {
+					"type": "integer",
+					"minimum": 1,
+					"description": "RAM in GB. iPhones ship with a single fixed RAM capacity per model (not user-configurable), always a whole number of gigabytes."
 				},
 				"overviewImages": {
 					"type": "array",
@@ -319,60 +318,6 @@
 						"pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
 						"minLength": 1
 					}
-				},
-				"sourceNotes": {
-					"type": "string",
-					"minLength": 1
-				}
-			}
-		},
-		"iphoneMemoryOption": {
-			"type": "object",
-			"additionalProperties": false,
-			"required": [
-				"id",
-				"capacityValue",
-				"capacityUnit",
-				"kind"
-			],
-			"properties": {
-				"id": {
-					"type": "string",
-					"pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
-					"minLength": 1
-				},
-				"displayName": {
-					"type": "string",
-					"minLength": 1
-				},
-				"capacityValue": {
-					"type": "integer",
-					"minimum": 1
-				},
-				"capacityUnit": {
-					"enum": [
-						"GB",
-						"TB"
-					]
-				},
-				"kind": {
-					"enum": [
-						"unified",
-						"DRAM",
-						"NAND cache",
-						"other"
-					]
-				},
-				"speedMbps": {
-					"type": "integer",
-					"exclusiveMinimum": 0
-				},
-				"speedUnit": {
-					"const": "Mbps"
-				},
-				"configuration": {
-					"type": "string",
-					"minLength": 1
 				},
 				"sourceNotes": {
 					"type": "string",
@@ -1636,14 +1581,6 @@
 					"type": "string",
 					"pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
 					"minLength": 1
-				},
-				"memoryIds": {
-					"type": "array",
-					"items": {
-						"type": "string",
-						"pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
-						"minLength": 1
-					}
 				},
 				"connectivity": {
 					"type": "string",

@@ -375,7 +375,8 @@
 			"ceramicShieldBack": "1",
 			"isFolding": true,
 			"applePencilSupport": true,
-			"sourceNotes": "Evidence: data/tmp/iphone/iphone-duo.html, iphone-duo-specs.html, iphone-compare-2026.html. First foldable iPhone; Pencil USB-C only via later 2026 update. USD $1,999 third-party; AUD unpublished. Gap-fill 2026-09-14: base-model launch AUD RRP 3499 (cheapest configuration at launch)."
+			"sourceNotes": "Evidence: data/tmp/iphone/iphone-duo.html, iphone-duo-specs.html, iphone-compare-2026.html. First foldable iPhone; Pencil USB-C only via later 2026 update. USD $1,999 third-party; AUD unpublished. Gap-fill 2026-09-14: base-model launch AUD RRP 3499 (cheapest configuration at launch).",
+			"memoryGb": 12
 		},
 		{
 			"id": "iphone-18-pro-max",
@@ -726,7 +727,8 @@
 			"ceramicShieldBack": "1",
 			"isFolding": false,
 			"applePencilSupport": false,
-			"sourceNotes": "Evidence: shared 18 Pro page/specs (no dedicated Pro Max URL; /iphone-18-pro-max/ 404s). 45h video / 40h streamed. USD $1,299 third-party; AUD unpublished. Gap-fill 2026-09-14: base-model launch AUD RRP 2299 (cheapest configuration at launch)."
+			"sourceNotes": "Evidence: shared 18 Pro page/specs (no dedicated Pro Max URL; /iphone-18-pro-max/ 404s). 45h video / 40h streamed. USD $1,299 third-party; AUD unpublished. Gap-fill 2026-09-14: base-model launch AUD RRP 2299 (cheapest configuration at launch).",
+			"memoryGb": 12
 		},
 		{
 			"id": "iphone-18-pro",
@@ -1086,7 +1088,8 @@
 			"ceramicShieldBack": "1",
 			"isFolding": false,
 			"applePencilSupport": false,
-			"sourceNotes": "Evidence: data/tmp/iphone/iphone-18-pro.html, iphone-18-pro-specs.html, iphone-compare-2026.html. Ceramic Shield 2 front / Ceramic Shield back (gen unstated, mapped to 1). USD $1,199 third-party; AUD unpublished. Gap-fill 2026-09-14: base-model launch AUD RRP 2099 (cheapest configuration at launch)."
+			"sourceNotes": "Evidence: data/tmp/iphone/iphone-18-pro.html, iphone-18-pro-specs.html, iphone-compare-2026.html. Ceramic Shield 2 front / Ceramic Shield back (gen unstated, mapped to 1). USD $1,199 third-party; AUD unpublished. Gap-fill 2026-09-14: base-model launch AUD RRP 2099 (cheapest configuration at launch).",
+			"memoryGb": 12
 		},
 		{
 			"id": "iphone-17",
@@ -1427,7 +1430,8 @@
 				"sourceNotes": "Supplied compare HTML does not state launch iOS version or built-in application inventory. Gap-fill 2026-09-14: launch iOS 26 is the well-documented release pairing for this model."
 			},
 			"accessories": [],
-			"sourceNotes": "Merged from usable source 1. Exact Summary, Display, Chip, Power and Battery, Connector, and capability text is preserved in extraction checkpoint evidence. Gap-fill 2026-09-14: radio specs per-model from data/tmp/iphone/iphone-compare-au-2026.html (Wi-Fi/Bluetooth/UWB/Thread/NFC/GPS rows). Price corrected Sep 2026: iphone-17 raised to A$1,549 per AU buy page/SMH; iphone-16-pro-max launch RRP A$2,149."
+			"sourceNotes": "Merged from usable source 1. Exact Summary, Display, Chip, Power and Battery, Connector, and capability text is preserved in extraction checkpoint evidence. Gap-fill 2026-09-14: radio specs per-model from data/tmp/iphone/iphone-compare-au-2026.html (Wi-Fi/Bluetooth/UWB/Thread/NFC/GPS rows). Price corrected Sep 2026: iphone-17 raised to A$1,549 per AU buy page/SMH; iphone-16-pro-max launch RRP A$2,149.",
+			"memoryGb": 8
 		},
 		{
 			"id": "iphone-17-pro-max",
@@ -1772,7 +1776,8 @@
 				"sourceNotes": "Supplied compare HTML does not state launch iOS version or built-in application inventory. Gap-fill 2026-09-14: launch iOS 26 is the well-documented release pairing for this model."
 			},
 			"accessories": [],
-			"sourceNotes": "Merged from usable source 1. Exact Summary, Display, Chip, Power and Battery, Connector, and capability text is preserved in extraction checkpoint evidence. Gap-fill 2026-09-14: radio specs per-model from data/tmp/iphone/iphone-compare-au-2026.html (Wi-Fi/Bluetooth/UWB/Thread/NFC/GPS rows)."
+			"sourceNotes": "Merged from usable source 1. Exact Summary, Display, Chip, Power and Battery, Connector, and capability text is preserved in extraction checkpoint evidence. Gap-fill 2026-09-14: radio specs per-model from data/tmp/iphone/iphone-compare-au-2026.html (Wi-Fi/Bluetooth/UWB/Thread/NFC/GPS rows).",
+			"memoryGb": 12
 		},
 		{
 			"id": "iphone-17e",
@@ -2076,7 +2081,8 @@
 				"sourceNotes": "Supplied compare HTML does not state launch iOS version or built-in application inventory. Gap-fill 2026-09-14: launch iOS 26 is the well-documented release pairing for this model."
 			},
 			"accessories": [],
-			"sourceNotes": "Merged from usable source 2. Exact Summary, Display, Chip, Power and Battery, Connector, and capability text is preserved in extraction checkpoint evidence. Gap-fill 2026-09-14: radio specs per-model from data/tmp/iphone/iphone-compare-au-2026.html (Wi-Fi/Bluetooth/UWB/Thread/NFC/GPS rows). Gap-fill 2026-09-14: restored missing 128GB base tier; base price belongs to 128GB."
+			"sourceNotes": "Merged from usable source 2. Exact Summary, Display, Chip, Power and Battery, Connector, and capability text is preserved in extraction checkpoint evidence. Gap-fill 2026-09-14: radio specs per-model from data/tmp/iphone/iphone-compare-au-2026.html (Wi-Fi/Bluetooth/UWB/Thread/NFC/GPS rows). Gap-fill 2026-09-14: restored missing 128GB base tier; base price belongs to 128GB.",
+			"memoryGb": 8
 		},
 		{
 			"id": "iphone-air",
@@ -2414,7 +2420,8 @@
 				"sourceNotes": "Supplied compare HTML does not state launch iOS version or built-in application inventory. Gap-fill 2026-09-14: launch iOS 26 is the well-documented release pairing for this model."
 			},
 			"accessories": [],
-			"sourceNotes": "Merged from usable source 1. Exact Summary, Display, Chip, Power and Battery, Connector, and capability text is preserved in extraction checkpoint evidence. Gap-fill 2026-09-14: radio specs per-model from data/tmp/iphone/iphone-compare-au-2026.html (Wi-Fi/Bluetooth/UWB/Thread/NFC/GPS rows)."
+			"sourceNotes": "Merged from usable source 1. Exact Summary, Display, Chip, Power and Battery, Connector, and capability text is preserved in extraction checkpoint evidence. Gap-fill 2026-09-14: radio specs per-model from data/tmp/iphone/iphone-compare-au-2026.html (Wi-Fi/Bluetooth/UWB/Thread/NFC/GPS rows).",
+			"memoryGb": 12
 		},
 		{
 			"id": "iphone-16",
@@ -2748,7 +2755,8 @@
 				"sourceNotes": "Supplied compare HTML does not state launch iOS version or built-in application inventory. Gap-fill 2026-09-14: launch iOS 18 is the well-documented release pairing for this model."
 			},
 			"accessories": [],
-			"sourceNotes": "Merged from usable source 2. Exact Summary, Display, Chip, Power and Battery, Connector, and capability text is preserved in extraction checkpoint evidence. Gap-fill 2026-09-14: radio specs per-model from data/tmp/iphone/iphone-compare-au-2026.html (Wi-Fi/Bluetooth/UWB/Thread/NFC/GPS rows)."
+			"sourceNotes": "Merged from usable source 2. Exact Summary, Display, Chip, Power and Battery, Connector, and capability text is preserved in extraction checkpoint evidence. Gap-fill 2026-09-14: radio specs per-model from data/tmp/iphone/iphone-compare-au-2026.html (Wi-Fi/Bluetooth/UWB/Thread/NFC/GPS rows).",
+			"memoryGb": 8
 		},
 		{
 			"id": "iphone-16-pro-max",
@@ -3098,7 +3106,8 @@
 				"sourceNotes": "Supplied compare HTML does not state launch iOS version or built-in application inventory. Gap-fill 2026-09-14: launch iOS 18 is the well-documented release pairing for this model."
 			},
 			"accessories": [],
-			"sourceNotes": "Merged from usable sources 2, 3. Exact Summary, Display, Chip, Power and Battery, Connector, and capability text is preserved in extraction checkpoint evidence. Gap-fill 2026-09-14: radio specs per-model from data/tmp/iphone/iphone-compare-au-2026.html (Wi-Fi/Bluetooth/UWB/Thread/NFC/GPS rows). Price corrected Sep 2026: iphone-17 raised to A$1,549 per AU buy page/SMH; iphone-16-pro-max launch RRP A$2,149."
+			"sourceNotes": "Merged from usable sources 2, 3. Exact Summary, Display, Chip, Power and Battery, Connector, and capability text is preserved in extraction checkpoint evidence. Gap-fill 2026-09-14: radio specs per-model from data/tmp/iphone/iphone-compare-au-2026.html (Wi-Fi/Bluetooth/UWB/Thread/NFC/GPS rows). Price corrected Sep 2026: iphone-17 raised to A$1,549 per AU buy page/SMH; iphone-16-pro-max launch RRP A$2,149.",
+			"memoryGb": 8
 		},
 		{
 			"id": "iphone-15-pro-max",
@@ -3452,7 +3461,8 @@
 				"sourceNotes": "Supplied compare HTML does not state launch iOS version or built-in application inventory. Gap-fill 2026-09-14: launch iOS 17 is the well-documented release pairing for this model."
 			},
 			"accessories": [],
-			"sourceNotes": "Merged from usable source 3. Starting AUD price is structured null because supplied HTML states only \"Available at authorised resellers\". Exact Summary, Display, Chip, Power and Battery, Connector, and capability text is preserved in extraction checkpoint evidence. Gap-fill 2026-09-14: radio specs per-model from data/tmp/iphone/iphone-compare-au-2026.html (Wi-Fi/Bluetooth/UWB/Thread/NFC/GPS rows). Gap-fill 2026-09-14: base-model launch AUD RRP 2199 (cheapest configuration at launch)."
+			"sourceNotes": "Merged from usable source 3. Starting AUD price is structured null because supplied HTML states only \"Available at authorised resellers\". Exact Summary, Display, Chip, Power and Battery, Connector, and capability text is preserved in extraction checkpoint evidence. Gap-fill 2026-09-14: radio specs per-model from data/tmp/iphone/iphone-compare-au-2026.html (Wi-Fi/Bluetooth/UWB/Thread/NFC/GPS rows). Gap-fill 2026-09-14: base-model launch AUD RRP 2199 (cheapest configuration at launch).",
+			"memoryGb": 8
 		},
 		{
 			"id": "iphone-14",
@@ -3808,7 +3818,8 @@
 				"sourceNotes": "Supplied compare HTML does not state launch iOS version or built-in application inventory. Gap-fill 2026-09-14: launch iOS 16 is the well-documented release pairing for this model."
 			},
 			"accessories": [],
-			"sourceNotes": "Merged from usable source 4. Starting AUD price is structured null because supplied HTML states only \"Available at authorised resellers\". Exact Summary, Display, Chip, Power and Battery, Connector, and capability text is preserved in extraction checkpoint evidence. Gap-fill 2026-09-14: radio specs per-model from data/tmp/iphone/iphone-compare-au-2026.html (Wi-Fi/Bluetooth/UWB/Thread/NFC/GPS rows). Gap-fill 2026-09-14: base-model launch AUD RRP 1399 (cheapest configuration at launch)."
+			"sourceNotes": "Merged from usable source 4. Starting AUD price is structured null because supplied HTML states only \"Available at authorised resellers\". Exact Summary, Display, Chip, Power and Battery, Connector, and capability text is preserved in extraction checkpoint evidence. Gap-fill 2026-09-14: radio specs per-model from data/tmp/iphone/iphone-compare-au-2026.html (Wi-Fi/Bluetooth/UWB/Thread/NFC/GPS rows). Gap-fill 2026-09-14: base-model launch AUD RRP 1399 (cheapest configuration at launch).",
+			"memoryGb": 6
 		},
 		{
 			"id": "iphone-14-plus",
@@ -4188,7 +4199,8 @@
 				"sourceNotes": "Supplied compare HTML does not state launch iOS version or built-in application inventory. Gap-fill 2026-09-14: launch iOS 16 is the well-documented release pairing for this model."
 			},
 			"accessories": [],
-			"sourceNotes": "Merged from usable source 4. Starting AUD price is structured null because supplied HTML states only \"Available at authorised resellers\". Exact Summary, Display, Chip, Power and Battery, Connector, and capability text is preserved in extraction checkpoint evidence. Gap-fill 2026-09-14: radio specs per-model from data/tmp/iphone/iphone-compare-au-2026.html (Wi-Fi/Bluetooth/UWB/Thread/NFC/GPS rows). Gap-fill 2026-09-14: base-model launch AUD RRP 1579 (cheapest configuration at launch)."
+			"sourceNotes": "Merged from usable source 4. Starting AUD price is structured null because supplied HTML states only \"Available at authorised resellers\". Exact Summary, Display, Chip, Power and Battery, Connector, and capability text is preserved in extraction checkpoint evidence. Gap-fill 2026-09-14: radio specs per-model from data/tmp/iphone/iphone-compare-au-2026.html (Wi-Fi/Bluetooth/UWB/Thread/NFC/GPS rows). Gap-fill 2026-09-14: base-model launch AUD RRP 1579 (cheapest configuration at launch).",
+			"memoryGb": 6
 		},
 		{
 			"id": "iphone-14-pro",
@@ -4558,7 +4570,8 @@
 				"sourceNotes": "Supplied compare HTML does not state launch iOS version or built-in application inventory. Gap-fill 2026-09-14: launch iOS 16 is the well-documented release pairing for this model."
 			},
 			"accessories": [],
-			"sourceNotes": "Merged from usable sources 3, 4. Starting AUD price is structured null because supplied HTML states only \"Available at authorised resellers\". Exact Summary, Display, Chip, Power and Battery, Connector, and capability text is preserved in extraction checkpoint evidence. Gap-fill 2026-09-14: radio specs per-model from data/tmp/iphone/iphone-compare-au-2026.html (Wi-Fi/Bluetooth/UWB/Thread/NFC/GPS rows). Gap-fill 2026-09-14: base-model launch AUD RRP 1749 (cheapest configuration at launch)."
+			"sourceNotes": "Merged from usable sources 3, 4. Starting AUD price is structured null because supplied HTML states only \"Available at authorised resellers\". Exact Summary, Display, Chip, Power and Battery, Connector, and capability text is preserved in extraction checkpoint evidence. Gap-fill 2026-09-14: radio specs per-model from data/tmp/iphone/iphone-compare-au-2026.html (Wi-Fi/Bluetooth/UWB/Thread/NFC/GPS rows). Gap-fill 2026-09-14: base-model launch AUD RRP 1749 (cheapest configuration at launch).",
+			"memoryGb": 6
 		},
 		{
 			"id": "iphone-se-3rd-generation",
@@ -4862,7 +4875,8 @@
 				"sourceNotes": "Supplied compare HTML does not state launch iOS version or built-in application inventory. Gap-fill 2026-09-14: launch iOS 15 is the well-documented release pairing for this model."
 			},
 			"accessories": [],
-			"sourceNotes": "Merged from usable source 6. Starting AUD price is structured null because supplied HTML states only \"Available at authorised resellers\". Exact Summary, Display, Chip, Power and Battery, Connector, and capability text is preserved in extraction checkpoint evidence. Gap-fill 2026-09-14: radio specs per-model from data/tmp/iphone/iphone-compare-au-2026.html (Wi-Fi/Bluetooth/UWB/Thread/NFC/GPS rows). Gap-fill 2026-09-14: base-model launch AUD RRP 719 (cheapest configuration at launch)."
+			"sourceNotes": "Merged from usable source 6. Starting AUD price is structured null because supplied HTML states only \"Available at authorised resellers\". Exact Summary, Display, Chip, Power and Battery, Connector, and capability text is preserved in extraction checkpoint evidence. Gap-fill 2026-09-14: radio specs per-model from data/tmp/iphone/iphone-compare-au-2026.html (Wi-Fi/Bluetooth/UWB/Thread/NFC/GPS rows). Gap-fill 2026-09-14: base-model launch AUD RRP 719 (cheapest configuration at launch).",
+			"memoryGb": 4
 		},
 		{
 			"id": "iphone-13",
@@ -5218,7 +5232,8 @@
 				"sourceNotes": "Supplied compare HTML does not state launch iOS version or built-in application inventory. Gap-fill 2026-09-14: launch iOS 15 is the well-documented release pairing for this model."
 			},
 			"accessories": [],
-			"sourceNotes": "Merged from usable source 5. Starting AUD price is structured null because supplied HTML states only \"Available at authorised resellers\". Exact Summary, Display, Chip, Power and Battery, Connector, and capability text is preserved in extraction checkpoint evidence. Gap-fill 2026-09-14: radio specs per-model from data/tmp/iphone/iphone-compare-au-2026.html (Wi-Fi/Bluetooth/UWB/Thread/NFC/GPS rows). Gap-fill 2026-09-14: base-model launch AUD RRP 1349 (cheapest configuration at launch)."
+			"sourceNotes": "Merged from usable source 5. Starting AUD price is structured null because supplied HTML states only \"Available at authorised resellers\". Exact Summary, Display, Chip, Power and Battery, Connector, and capability text is preserved in extraction checkpoint evidence. Gap-fill 2026-09-14: radio specs per-model from data/tmp/iphone/iphone-compare-au-2026.html (Wi-Fi/Bluetooth/UWB/Thread/NFC/GPS rows). Gap-fill 2026-09-14: base-model launch AUD RRP 1349 (cheapest configuration at launch).",
+			"memoryGb": 4
 		},
 		{
 			"id": "iphone-13-mini",
@@ -5599,7 +5614,8 @@
 				"sourceNotes": "Supplied compare HTML does not state launch iOS version or built-in application inventory. Gap-fill 2026-09-14: launch iOS 15 is the well-documented release pairing for this model."
 			},
 			"accessories": [],
-			"sourceNotes": "Merged from usable source 5. Starting AUD price is structured null because supplied HTML states only \"Available at authorised resellers\". Exact Summary, Display, Chip, Power and Battery, Connector, and capability text is preserved in extraction checkpoint evidence. Gap-fill 2026-09-14: radio specs per-model from data/tmp/iphone/iphone-compare-au-2026.html (Wi-Fi/Bluetooth/UWB/Thread/NFC/GPS rows). Gap-fill 2026-09-14: base-model launch AUD RRP 1199 (cheapest configuration at launch)."
+			"sourceNotes": "Merged from usable source 5. Starting AUD price is structured null because supplied HTML states only \"Available at authorised resellers\". Exact Summary, Display, Chip, Power and Battery, Connector, and capability text is preserved in extraction checkpoint evidence. Gap-fill 2026-09-14: radio specs per-model from data/tmp/iphone/iphone-compare-au-2026.html (Wi-Fi/Bluetooth/UWB/Thread/NFC/GPS rows). Gap-fill 2026-09-14: base-model launch AUD RRP 1199 (cheapest configuration at launch).",
+			"memoryGb": 4
 		},
 		{
 			"id": "iphone-13-pro-max",
@@ -5990,7 +6006,8 @@
 				"sourceNotes": "Supplied compare HTML does not state launch iOS version or built-in application inventory. Gap-fill 2026-09-14: launch iOS 15 is the well-documented release pairing for this model."
 			},
 			"accessories": [],
-			"sourceNotes": "Merged from usable source 5. Starting AUD price is structured null because supplied HTML states only \"Available at authorised resellers\". Exact Summary, Display, Chip, Power and Battery, Connector, and capability text is preserved in extraction checkpoint evidence. Gap-fill 2026-09-14: radio specs per-model from data/tmp/iphone/iphone-compare-au-2026.html (Wi-Fi/Bluetooth/UWB/Thread/NFC/GPS rows). Gap-fill 2026-09-14: base-model launch AUD RRP 1849 (cheapest configuration at launch)."
+			"sourceNotes": "Merged from usable source 5. Starting AUD price is structured null because supplied HTML states only \"Available at authorised resellers\". Exact Summary, Display, Chip, Power and Battery, Connector, and capability text is preserved in extraction checkpoint evidence. Gap-fill 2026-09-14: radio specs per-model from data/tmp/iphone/iphone-compare-au-2026.html (Wi-Fi/Bluetooth/UWB/Thread/NFC/GPS rows). Gap-fill 2026-09-14: base-model launch AUD RRP 1849 (cheapest configuration at launch).",
+			"memoryGb": 6
 		},
 		{
 			"id": "iphone-12",
@@ -6346,7 +6363,8 @@
 				"sourceNotes": "Supplied compare HTML does not state launch iOS version or built-in application inventory. Gap-fill 2026-09-14: launch iOS 14 is the well-documented release pairing for this model."
 			},
 			"accessories": [],
-			"sourceNotes": "Merged from usable source 8. Starting AUD price is structured null because supplied HTML states only \"Available at authorised resellers\". Exact Summary, Display, Chip, Power and Battery, Connector, and capability text is preserved in extraction checkpoint evidence. Gap-fill 2026-09-14: radio specs per-model from data/tmp/iphone/iphone-compare-au-2026.html (Wi-Fi/Bluetooth/UWB/Thread/NFC/GPS rows). Gap-fill 2026-09-14: base-model launch AUD RRP 1349 (cheapest configuration at launch)."
+			"sourceNotes": "Merged from usable source 8. Starting AUD price is structured null because supplied HTML states only \"Available at authorised resellers\". Exact Summary, Display, Chip, Power and Battery, Connector, and capability text is preserved in extraction checkpoint evidence. Gap-fill 2026-09-14: radio specs per-model from data/tmp/iphone/iphone-compare-au-2026.html (Wi-Fi/Bluetooth/UWB/Thread/NFC/GPS rows). Gap-fill 2026-09-14: base-model launch AUD RRP 1349 (cheapest configuration at launch).",
+			"memoryGb": 4
 		},
 		{
 			"id": "iphone-12-pro",
@@ -6698,7 +6716,8 @@
 				"sourceNotes": "Supplied compare HTML does not state launch iOS version or built-in application inventory. Gap-fill 2026-09-14: launch iOS 14 is the well-documented release pairing for this model."
 			},
 			"accessories": [],
-			"sourceNotes": "Merged from usable source 6. Starting AUD price is structured null because supplied HTML states only \"Available at authorised resellers\". Exact Summary, Display, Chip, Power and Battery, Connector, and capability text is preserved in extraction checkpoint evidence. Gap-fill 2026-09-14: radio specs per-model from data/tmp/iphone/iphone-compare-au-2026.html (Wi-Fi/Bluetooth/UWB/Thread/NFC/GPS rows). Gap-fill 2026-09-14: base-model launch AUD RRP 1699 (cheapest configuration at launch)."
+			"sourceNotes": "Merged from usable source 6. Starting AUD price is structured null because supplied HTML states only \"Available at authorised resellers\". Exact Summary, Display, Chip, Power and Battery, Connector, and capability text is preserved in extraction checkpoint evidence. Gap-fill 2026-09-14: radio specs per-model from data/tmp/iphone/iphone-compare-au-2026.html (Wi-Fi/Bluetooth/UWB/Thread/NFC/GPS rows). Gap-fill 2026-09-14: base-model launch AUD RRP 1699 (cheapest configuration at launch).",
+			"memoryGb": 6
 		},
 		{
 			"id": "iphone-12-pro-max",
@@ -7050,7 +7069,8 @@
 				"sourceNotes": "Supplied compare HTML does not state launch iOS version or built-in application inventory. Gap-fill 2026-09-14: launch iOS 14 is the well-documented release pairing for this model."
 			},
 			"accessories": [],
-			"sourceNotes": "Merged from usable source 6. Starting AUD price is structured null because supplied HTML states only \"Available at authorised resellers\". Exact Summary, Display, Chip, Power and Battery, Connector, and capability text is preserved in extraction checkpoint evidence. Gap-fill 2026-09-14: radio specs per-model from data/tmp/iphone/iphone-compare-au-2026.html (Wi-Fi/Bluetooth/UWB/Thread/NFC/GPS rows). Gap-fill 2026-09-14: base-model launch AUD RRP 1849 (cheapest configuration at launch)."
+			"sourceNotes": "Merged from usable source 6. Starting AUD price is structured null because supplied HTML states only \"Available at authorised resellers\". Exact Summary, Display, Chip, Power and Battery, Connector, and capability text is preserved in extraction checkpoint evidence. Gap-fill 2026-09-14: radio specs per-model from data/tmp/iphone/iphone-compare-au-2026.html (Wi-Fi/Bluetooth/UWB/Thread/NFC/GPS rows). Gap-fill 2026-09-14: base-model launch AUD RRP 1849 (cheapest configuration at launch).",
+			"memoryGb": 6
 		},
 		{
 			"id": "iphone-11",
@@ -7399,7 +7419,8 @@
 				"sourceNotes": "Supplied compare HTML does not state launch iOS version or built-in application inventory. Gap-fill 2026-09-14: launch iOS 13 is the well-documented release pairing for this model."
 			},
 			"accessories": [],
-			"sourceNotes": "Merged from usable source 8. Starting AUD price is structured null because supplied HTML states only \"Available at authorised resellers\". Exact Summary, Display, Chip, Power and Battery, Connector, and capability text is preserved in extraction checkpoint evidence. Gap-fill 2026-09-14: radio specs per-model from data/tmp/iphone/iphone-compare-au-2026.html (Wi-Fi/Bluetooth/UWB/Thread/NFC/GPS rows). Gap-fill 2026-09-14: base-model launch AUD RRP 1199 (cheapest configuration at launch). Gap-fill 2026-09-14: restored missing 256GB tier per WhistleOut AU pricing table."
+			"sourceNotes": "Merged from usable source 8. Starting AUD price is structured null because supplied HTML states only \"Available at authorised resellers\". Exact Summary, Display, Chip, Power and Battery, Connector, and capability text is preserved in extraction checkpoint evidence. Gap-fill 2026-09-14: radio specs per-model from data/tmp/iphone/iphone-compare-au-2026.html (Wi-Fi/Bluetooth/UWB/Thread/NFC/GPS rows). Gap-fill 2026-09-14: base-model launch AUD RRP 1199 (cheapest configuration at launch). Gap-fill 2026-09-14: restored missing 256GB tier per WhistleOut AU pricing table.",
+			"memoryGb": 4
 		},
 		{
 			"id": "iphone-11-pro",
@@ -7745,7 +7766,8 @@
 				"sourceNotes": "Supplied compare HTML does not state launch iOS version or built-in application inventory. Gap-fill 2026-09-14: launch iOS 13 is the well-documented release pairing for this model."
 			},
 			"accessories": [],
-			"sourceNotes": "Merged from usable source 8. Starting AUD price is structured null because supplied HTML states only \"Available at authorised resellers\". Exact Summary, Display, Chip, Power and Battery, Connector, and capability text is preserved in extraction checkpoint evidence. Gap-fill 2026-09-14: radio specs per-model from data/tmp/iphone/iphone-compare-au-2026.html (Wi-Fi/Bluetooth/UWB/Thread/NFC/GPS rows). Gap-fill 2026-09-14: base-model launch AUD RRP 1749 (cheapest configuration at launch)."
+			"sourceNotes": "Merged from usable source 8. Starting AUD price is structured null because supplied HTML states only \"Available at authorised resellers\". Exact Summary, Display, Chip, Power and Battery, Connector, and capability text is preserved in extraction checkpoint evidence. Gap-fill 2026-09-14: radio specs per-model from data/tmp/iphone/iphone-compare-au-2026.html (Wi-Fi/Bluetooth/UWB/Thread/NFC/GPS rows). Gap-fill 2026-09-14: base-model launch AUD RRP 1749 (cheapest configuration at launch).",
+			"memoryGb": 4
 		},
 		{
 			"id": "iphone-7",
@@ -7879,7 +7901,6 @@
 					"capacityUnit": "GB"
 				}
 			],
-			"memoryOptions": [],
 			"chips": [
 				{
 					"id": "iphone-7-chip",
@@ -8042,7 +8063,8 @@
 			},
 			"overviewImages": [],
 			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, colours, swatches, image bytes and Apple-hosted URLs are absent from target-specific evidence and remain null/empty rather than inferred. Gap-fill 2026-09-14: radio specs per-model from data/tmp/iphone/iphone-compare-au-2026.html (Wi-Fi/Bluetooth/UWB/Thread/NFC/GPS rows). Gap-fill 2026-09-14: finishes/capacities per Apple support tech specs and Apple compare finish list (data/tmp/iphone/iphone-compare-au-2026.html); swatch hexes are approximations. Gap-fill 2026-09-14: base-model launch AUD RRP 1079 (cheapest configuration at launch).",
-			"accessories": []
+			"accessories": [],
+			"memoryGb": 2
 		},
 		{
 			"id": "iphone-7-plus",
@@ -8176,7 +8198,6 @@
 					"capacityUnit": "GB"
 				}
 			],
-			"memoryOptions": [],
 			"chips": [
 				{
 					"id": "iphone-7-plus-chip",
@@ -8339,7 +8360,8 @@
 			},
 			"overviewImages": [],
 			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, colours, swatches, image bytes and Apple-hosted URLs are absent from target-specific evidence and remain null/empty rather than inferred. Gap-fill 2026-09-14: radio specs per-model from data/tmp/iphone/iphone-compare-au-2026.html (Wi-Fi/Bluetooth/UWB/Thread/NFC/GPS rows). Gap-fill 2026-09-14: finishes/capacities per Apple support tech specs and Apple compare finish list (data/tmp/iphone/iphone-compare-au-2026.html); swatch hexes are approximations. Gap-fill 2026-09-14: base-model launch AUD RRP 1269 (cheapest configuration at launch).",
-			"accessories": []
+			"accessories": [],
+			"memoryGb": 3
 		},
 		{
 			"id": "iphone-8",
@@ -8447,7 +8469,6 @@
 					"capacityUnit": "GB"
 				}
 			],
-			"memoryOptions": [],
 			"chips": [
 				{
 					"id": "iphone-8-chip",
@@ -8612,7 +8633,8 @@
 			},
 			"overviewImages": [],
 			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, colours, swatches, image bytes and Apple-hosted URLs are absent from target-specific evidence and remain null/empty rather than inferred. Gap-fill 2026-09-14: radio specs per-model from data/tmp/iphone/iphone-compare-au-2026.html (Wi-Fi/Bluetooth/UWB/Thread/NFC/GPS rows). Gap-fill 2026-09-14: finishes/capacities per Apple support tech specs and Apple compare finish list (data/tmp/iphone/iphone-compare-au-2026.html); swatch hexes are approximations. Gap-fill 2026-09-14: base-model launch AUD RRP 1079 (cheapest configuration at launch).",
-			"accessories": []
+			"accessories": [],
+			"memoryGb": 2
 		},
 		{
 			"id": "iphone-8-plus",
@@ -8720,7 +8742,6 @@
 					"capacityUnit": "GB"
 				}
 			],
-			"memoryOptions": [],
 			"chips": [
 				{
 					"id": "iphone-8-plus-chip",
@@ -8885,7 +8906,8 @@
 			},
 			"overviewImages": [],
 			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, colours, swatches, image bytes and Apple-hosted URLs are absent from target-specific evidence and remain null/empty rather than inferred. Gap-fill 2026-09-14: radio specs per-model from data/tmp/iphone/iphone-compare-au-2026.html (Wi-Fi/Bluetooth/UWB/Thread/NFC/GPS rows). Gap-fill 2026-09-14: finishes/capacities per Apple support tech specs and Apple compare finish list (data/tmp/iphone/iphone-compare-au-2026.html); swatch hexes are approximations. Gap-fill 2026-09-14: base-model launch AUD RRP 1229 (cheapest configuration at launch).",
-			"accessories": []
+			"accessories": [],
+			"memoryGb": 3
 		},
 		{
 			"id": "iphone-se-2nd-generation",
@@ -8980,7 +9002,6 @@
 					"capacityUnit": "GB"
 				}
 			],
-			"memoryOptions": [],
 			"chips": [
 				{
 					"id": "iphone-se-2nd-generation-chip",
@@ -9145,7 +9166,8 @@
 			},
 			"overviewImages": [],
 			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, colours, swatches, image bytes and Apple-hosted URLs are absent from target-specific evidence and remain null/empty rather than inferred. Gap-fill 2026-09-14: radio specs per-model from data/tmp/iphone/iphone-compare-au-2026.html (Wi-Fi/Bluetooth/UWB/Thread/NFC/GPS rows). Gap-fill 2026-09-14: finishes/capacities per Apple support tech specs and Apple compare finish list (data/tmp/iphone/iphone-compare-au-2026.html); swatch hexes are approximations. Gap-fill 2026-09-14: base-model launch AUD RRP 749 (cheapest configuration at launch).",
-			"accessories": []
+			"accessories": [],
+			"memoryGb": 3
 		},
 		{
 			"id": "iphone-x",
@@ -9211,7 +9233,6 @@
 					"capacityUnit": "GB"
 				}
 			],
-			"memoryOptions": [],
 			"chips": [
 				{
 					"id": "iphone-x-chip",
@@ -9376,7 +9397,8 @@
 			},
 			"overviewImages": [],
 			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, colours, swatches, image bytes and Apple-hosted URLs are absent from target-specific evidence and remain null/empty rather than inferred. Gap-fill 2026-09-14: radio specs per-model from data/tmp/iphone/iphone-compare-au-2026.html (Wi-Fi/Bluetooth/UWB/Thread/NFC/GPS rows). Gap-fill 2026-09-14: finishes/capacities per Apple support tech specs and Apple compare finish list (data/tmp/iphone/iphone-compare-au-2026.html); swatch hexes are approximations. Gap-fill 2026-09-14: base-model launch AUD RRP 1579 (cheapest configuration at launch).",
-			"accessories": []
+			"accessories": [],
+			"memoryGb": 3
 		},
 		{
 			"id": "iphone-xr",
@@ -9510,7 +9532,6 @@
 					"capacityUnit": "GB"
 				}
 			],
-			"memoryOptions": [],
 			"chips": [
 				{
 					"id": "iphone-xr-chip",
@@ -9675,7 +9696,8 @@
 			},
 			"overviewImages": [],
 			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, colours, swatches, image bytes and Apple-hosted URLs are absent from target-specific evidence and remain null/empty rather than inferred. Gap-fill 2026-09-14: radio specs per-model from data/tmp/iphone/iphone-compare-au-2026.html (Wi-Fi/Bluetooth/UWB/Thread/NFC/GPS rows). Gap-fill 2026-09-14: finishes/capacities per Apple support tech specs and Apple compare finish list (data/tmp/iphone/iphone-compare-au-2026.html); swatch hexes are approximations. Gap-fill 2026-09-14: base-model launch AUD RRP 1229 (cheapest configuration at launch).",
-			"accessories": []
+			"accessories": [],
+			"memoryGb": 3
 		},
 		{
 			"id": "iphone-xs",
@@ -9770,7 +9792,6 @@
 					"capacityUnit": "GB"
 				}
 			],
-			"memoryOptions": [],
 			"chips": [
 				{
 					"id": "iphone-xs-chip",
@@ -9935,7 +9956,8 @@
 			},
 			"overviewImages": [],
 			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, colours, swatches, image bytes and Apple-hosted URLs are absent from target-specific evidence and remain null/empty rather than inferred. Gap-fill 2026-09-14: radio specs per-model from data/tmp/iphone/iphone-compare-au-2026.html (Wi-Fi/Bluetooth/UWB/Thread/NFC/GPS rows). Gap-fill 2026-09-14: finishes/capacities per Apple support tech specs and Apple compare finish list (data/tmp/iphone/iphone-compare-au-2026.html); swatch hexes are approximations. Gap-fill 2026-09-14: base-model launch AUD RRP 1629 (cheapest configuration at launch).",
-			"accessories": []
+			"accessories": [],
+			"memoryGb": 4
 		},
 		{
 			"id": "iphone-xs-max",
@@ -10030,7 +10052,6 @@
 					"capacityUnit": "GB"
 				}
 			],
-			"memoryOptions": [],
 			"chips": [
 				{
 					"id": "iphone-xs-max-chip",
@@ -10195,7 +10216,8 @@
 			},
 			"overviewImages": [],
 			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, colours, swatches, image bytes and Apple-hosted URLs are absent from target-specific evidence and remain null/empty rather than inferred. Gap-fill 2026-09-14: radio specs per-model from data/tmp/iphone/iphone-compare-au-2026.html (Wi-Fi/Bluetooth/UWB/Thread/NFC/GPS rows). Gap-fill 2026-09-14: finishes/capacities per Apple support tech specs and Apple compare finish list (data/tmp/iphone/iphone-compare-au-2026.html); swatch hexes are approximations. Gap-fill 2026-09-14: base-model launch AUD RRP 1799 (cheapest configuration at launch).",
-			"accessories": []
+			"accessories": [],
+			"memoryGb": 4
 		},
 		{
 			"id": "iphone-11-pro-max",
@@ -10303,7 +10325,6 @@
 					"capacityUnit": "GB"
 				}
 			],
-			"memoryOptions": [],
 			"chips": [
 				{
 					"id": "iphone-11-pro-max-chip",
@@ -10468,7 +10489,8 @@
 			},
 			"overviewImages": [],
 			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, colours, swatches, image bytes and Apple-hosted URLs are absent from target-specific evidence and remain null/empty rather than inferred. Gap-fill 2026-09-14: radio specs per-model from data/tmp/iphone/iphone-compare-au-2026.html (Wi-Fi/Bluetooth/UWB/Thread/NFC/GPS rows). Gap-fill 2026-09-14: finishes/capacities per Apple support tech specs and Apple compare finish list (data/tmp/iphone/iphone-compare-au-2026.html); swatch hexes are approximations. Gap-fill 2026-09-14: base-model launch AUD RRP 1899 (cheapest configuration at launch).",
-			"accessories": []
+			"accessories": [],
+			"memoryGb": 4
 		},
 		{
 			"id": "iphone-12-mini",
@@ -10602,7 +10624,6 @@
 					"capacityUnit": "GB"
 				}
 			],
-			"memoryOptions": [],
 			"chips": [
 				{
 					"id": "iphone-12-mini-chip",
@@ -10769,7 +10790,8 @@
 			},
 			"overviewImages": [],
 			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, colours, swatches, image bytes and Apple-hosted URLs are absent from target-specific evidence and remain null/empty rather than inferred. Gap-fill 2026-09-14: radio specs per-model from data/tmp/iphone/iphone-compare-au-2026.html (Wi-Fi/Bluetooth/UWB/Thread/NFC/GPS rows). Gap-fill 2026-09-14: finishes/capacities per Apple support tech specs and Apple compare finish list (data/tmp/iphone/iphone-compare-au-2026.html); swatch hexes are approximations. Gap-fill 2026-09-14: base-model launch AUD RRP 1199 (cheapest configuration at launch).",
-			"accessories": []
+			"accessories": [],
+			"memoryGb": 4
 		},
 		{
 			"id": "iphone-13-pro",
@@ -10908,7 +10930,6 @@
 					"capacityUnit": "TB"
 				}
 			],
-			"memoryOptions": [],
 			"chips": [
 				{
 					"id": "iphone-13-pro-chip",
@@ -11075,7 +11096,8 @@
 			},
 			"overviewImages": [],
 			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, colours, swatches, image bytes and Apple-hosted URLs are absent from target-specific evidence and remain null/empty rather than inferred. Gap-fill 2026-09-14: radio specs per-model from data/tmp/iphone/iphone-compare-au-2026.html (Wi-Fi/Bluetooth/UWB/Thread/NFC/GPS rows). Gap-fill 2026-09-14: finishes/capacities per Apple support tech specs and Apple compare finish list (data/tmp/iphone/iphone-compare-au-2026.html); swatch hexes are approximations. Gap-fill 2026-09-14: base-model launch AUD RRP 1699 (cheapest configuration at launch).",
-			"accessories": []
+			"accessories": [],
+			"memoryGb": 6
 		},
 		{
 			"id": "iphone-15",
@@ -11196,7 +11218,6 @@
 					"capacityUnit": "GB"
 				}
 			],
-			"memoryOptions": [],
 			"chips": [
 				{
 					"id": "iphone-15-chip",
@@ -11363,7 +11384,8 @@
 			},
 			"overviewImages": [],
 			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, colours, swatches, image bytes and Apple-hosted URLs are absent from target-specific evidence and remain null/empty rather than inferred. Gap-fill 2026-09-14: radio specs per-model from data/tmp/iphone/iphone-compare-au-2026.html (Wi-Fi/Bluetooth/UWB/Thread/NFC/GPS rows). Gap-fill 2026-09-14: finishes/capacities per Apple support tech specs and Apple compare finish list (data/tmp/iphone/iphone-compare-au-2026.html); swatch hexes are approximations. Gap-fill 2026-09-14: base-model launch AUD RRP 1499 (cheapest configuration at launch).",
-			"accessories": []
+			"accessories": [],
+			"memoryGb": 6
 		},
 		{
 			"id": "iphone-15-plus",
@@ -11484,7 +11506,6 @@
 					"capacityUnit": "GB"
 				}
 			],
-			"memoryOptions": [],
 			"chips": [
 				{
 					"id": "iphone-15-plus-chip",
@@ -11651,7 +11672,8 @@
 			},
 			"overviewImages": [],
 			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, colours, swatches, image bytes and Apple-hosted URLs are absent from target-specific evidence and remain null/empty rather than inferred. Gap-fill 2026-09-14: radio specs per-model from data/tmp/iphone/iphone-compare-au-2026.html (Wi-Fi/Bluetooth/UWB/Thread/NFC/GPS rows). Gap-fill 2026-09-14: finishes/capacities per Apple support tech specs and Apple compare finish list (data/tmp/iphone/iphone-compare-au-2026.html); swatch hexes are approximations. Gap-fill 2026-09-14: base-model launch AUD RRP 1649 (cheapest configuration at launch).",
-			"accessories": []
+			"accessories": [],
+			"memoryGb": 6
 		},
 		{
 			"id": "iphone-15-pro",
@@ -11776,7 +11798,6 @@
 					"capacityUnit": "TB"
 				}
 			],
-			"memoryOptions": [],
 			"chips": [
 				{
 					"id": "iphone-15-pro-chip",
@@ -11943,7 +11964,8 @@
 			},
 			"overviewImages": [],
 			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, colours, swatches, image bytes and Apple-hosted URLs are absent from target-specific evidence and remain null/empty rather than inferred. Gap-fill 2026-09-14: radio specs per-model from data/tmp/iphone/iphone-compare-au-2026.html (Wi-Fi/Bluetooth/UWB/Thread/NFC/GPS rows). Gap-fill 2026-09-14: finishes/capacities per Apple support tech specs and Apple compare finish list (data/tmp/iphone/iphone-compare-au-2026.html); swatch hexes are approximations. Gap-fill 2026-09-14: base-model launch AUD RRP 1849 (cheapest configuration at launch).",
-			"accessories": []
+			"accessories": [],
+			"memoryGb": 8
 		},
 		{
 			"id": "iphone-16-plus",
@@ -12064,7 +12086,6 @@
 					"capacityUnit": "GB"
 				}
 			],
-			"memoryOptions": [],
 			"chips": [
 				{
 					"id": "iphone-16-plus-chip",
@@ -12231,7 +12252,8 @@
 			},
 			"overviewImages": [],
 			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, colours, swatches, image bytes and Apple-hosted URLs are absent from target-specific evidence and remain null/empty rather than inferred. Gap-fill 2026-09-14: radio specs per-model from data/tmp/iphone/iphone-compare-au-2026.html (Wi-Fi/Bluetooth/UWB/Thread/NFC/GPS rows). Gap-fill 2026-09-14: finishes/capacities per Apple support tech specs and Apple compare finish list (data/tmp/iphone/iphone-compare-au-2026.html); swatch hexes are approximations. Gap-fill 2026-09-14: base-model launch AUD RRP 1599 (cheapest configuration at launch).",
-			"accessories": []
+			"accessories": [],
+			"memoryGb": 8
 		},
 		{
 			"id": "iphone-16-pro",
@@ -12356,7 +12378,6 @@
 					"capacityUnit": "TB"
 				}
 			],
-			"memoryOptions": [],
 			"chips": [
 				{
 					"id": "iphone-16-pro-chip",
@@ -12523,7 +12544,8 @@
 			},
 			"overviewImages": [],
 			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, colours, swatches, image bytes and Apple-hosted URLs are absent from target-specific evidence and remain null/empty rather than inferred. Gap-fill 2026-09-14: radio specs per-model from data/tmp/iphone/iphone-compare-au-2026.html (Wi-Fi/Bluetooth/UWB/Thread/NFC/GPS rows). Gap-fill 2026-09-14: finishes/capacities per Apple support tech specs and Apple compare finish list (data/tmp/iphone/iphone-compare-au-2026.html); swatch hexes are approximations. Gap-fill 2026-09-14: base-model launch AUD RRP 1799 (cheapest configuration at launch).",
-			"accessories": []
+			"accessories": [],
+			"memoryGb": 8
 		},
 		{
 			"id": "iphone-16e",
@@ -12605,7 +12627,6 @@
 					"capacityUnit": "GB"
 				}
 			],
-			"memoryOptions": [],
 			"chips": [
 				{
 					"id": "iphone-16e-chip",
@@ -12771,7 +12792,8 @@
 			},
 			"overviewImages": [],
 			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, colours, swatches, image bytes and Apple-hosted URLs are absent from target-specific evidence and remain null/empty rather than inferred. Gap-fill 2026-09-14: radio specs per-model from data/tmp/iphone/iphone-compare-au-2026.html (Wi-Fi/Bluetooth/UWB/Thread/NFC/GPS rows). Gap-fill 2026-09-14: finishes/capacities per Apple support tech specs and Apple compare finish list (data/tmp/iphone/iphone-compare-au-2026.html); swatch hexes are approximations. Gap-fill 2026-09-14: base-model launch AUD RRP 999 (cheapest configuration at launch).",
-			"accessories": []
+			"accessories": [],
+			"memoryGb": 8
 		},
 		{
 			"id": "iphone-17-pro",
@@ -12866,7 +12888,6 @@
 					"capacityUnit": "TB"
 				}
 			],
-			"memoryOptions": [],
 			"chips": [
 				{
 					"id": "iphone-17-pro-chip",
@@ -13033,7 +13054,8 @@
 			},
 			"overviewImages": [],
 			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, colours, swatches, image bytes and Apple-hosted URLs are absent from target-specific evidence and remain null/empty rather than inferred. Gap-fill 2026-09-14: radio specs per-model from data/tmp/iphone/iphone-compare-au-2026.html (Wi-Fi/Bluetooth/UWB/Thread/NFC/GPS rows). Gap-fill 2026-09-14: finishes/capacities per Apple support tech specs and Apple compare finish list (data/tmp/iphone/iphone-compare-au-2026.html); swatch hexes are approximations. Gap-fill 2026-09-14: base-model launch AUD RRP 1999 (cheapest configuration at launch).",
-			"accessories": []
+			"accessories": [],
+			"memoryGb": 12
 		}
 	]
 }
