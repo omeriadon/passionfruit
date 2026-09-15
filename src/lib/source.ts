@@ -294,6 +294,110 @@ export function getCatalogPageTree(): PageTree.Root {
 	return transformed as PageTree.Root;
 }
 
+/**
+ * Static page tree for the `/you` section (Bookmarks + Account). Hand-built
+ * rather than loader-driven: bookmark contents are per-user runtime data, so
+ * only the chrome (tabs, sidebar entries) is static. Never data-backed detail
+ * routes here — the Bookmarks page renders its list client-side.
+ */
+export function getYouPageTree(): PageTree.Root {
+	return {
+		name: "You",
+		children: [
+			{
+				$id: "you:devices",
+				type: "folder" as const,
+				name: "Devices",
+				root: true,
+				defaultOpen: true,
+				index: catalogPageItem("devices", "Devices", "/you/devices"),
+				children: [],
+			},
+			{
+				$id: "you:account",
+				type: "folder" as const,
+				name: "Account",
+				root: true,
+				defaultOpen: true,
+				index: catalogPageItem("account", "Account", "/you/account"),
+				children: [
+					catalogPageItem("order", "Device order", "/you/account/order"),
+				],
+			},
+		],
+	} as PageTree.Root;
+}
+
+/**
+ * Resolve a bookmarked device to display facts from the static catalogue.
+ * Covers device categories, iPad accessory sections, and other-catalog
+ * sections. Returns undefined for unknown categories or removed entries —
+ * callers must render a graceful fallback, never throw.
+ */
+export function getBookmarkedDevice(
+	category: string,
+	deviceId: string,
+): { name: string; priceAud: number | null; href: string } | undefined {
+	const deviceData = (catalogDatasets as Record<string, CatalogDataset>)[
+		category
+	];
+	if (deviceData && "devices" in deviceData) {
+		const device = (deviceData.devices as { id: string; name: string }[]).find(
+			(item) => item.id === deviceId,
+		);
+		if (!device) return undefined;
+		return {
+			name: device.name,
+			priceAud: readPriceAud(device),
+			href: `${docsRoute}/${category}/${deviceId}`,
+		};
+	}
+
+	const accessoryData = (accessoryDatasets as Record<string, CatalogDataset>)[
+		category
+	];
+	if (accessoryData && "accessories" in accessoryData) {
+		const item = (
+			accessoryData.accessories as { id: string; displayName: string }[]
+		).find((entry) => entry.id === deviceId);
+		if (!item) return undefined;
+		return {
+			name: item.displayName,
+			priceAud: readPriceAud(item),
+			href: `${docsRoute}/ipad/accessories/${category}/${deviceId}`,
+		};
+	}
+
+	const otherData = (otherDatasets as Record<string, OtherCatalogDataset>)[
+		category
+	];
+	if (otherData && "products" in otherData) {
+		const product = (
+			otherData.products as { id: string; displayName: string }[]
+		).find((entry) => entry.id === deviceId);
+		if (!product) return undefined;
+		return {
+			name: product.displayName,
+			priceAud: readPriceAud(product),
+			href: `${docsRoute}/other/${category}/${deviceId}`,
+		};
+	}
+
+	return undefined;
+}
+
+function readPriceAud(entry: unknown): number | null {
+	if (
+		typeof entry === "object" &&
+		entry !== null &&
+		"priceAud" in entry &&
+		typeof (entry as { priceAud?: unknown }).priceAud === "number"
+	) {
+		return (entry as { priceAud: number }).priceAud;
+	}
+	return null;
+}
+
 export function getPageImageUrl(page: (typeof source)["$inferPage"]) {
 	const segments = [...page.slugs, "image.png"];
 

@@ -1,46 +1,37 @@
-import { getCatalogPageTree } from "@/lib/source";
+import { getYouPageTree } from "@/lib/source";
 import { GlassLayout, type GlassLayoutProps } from "fumadocs-ui/layouts/glass";
 import { getLayoutTabs, type LayoutTab } from "fumadocs-ui/layouts/shared";
 import { baseOptions } from "@/lib/layout.shared";
-import { catalogCategories, otherCatalogSections } from "@/lib/shared";
 import { GlassAccountHeader } from "@/components/auth/GlassAccountHeader";
 
 const baseLayoutOptions = baseOptions();
-const catalogTree = getCatalogPageTree();
-const catalogTabs = getLayoutTabs(catalogTree)
+const youTree = getYouPageTree();
+
+const youTabMeta: Record<string, { title: string; description: string }> = {
+	"/you/devices": {
+		title: "Devices",
+		description: "Your devices and bookmarks",
+	},
+	"/you/account": {
+		title: "Account",
+		description: "Settings and device order",
+	},
+};
+
+const youTabs = getLayoutTabs(youTree)
 	.map((option): LayoutTab | null => {
-		const category = catalogCategories.find(
-			(item) => option.url === `/docs/${item.slug}`,
-		);
-		if (category) {
-			return {
-				...option,
-				title: category.title,
-				description: category.description,
-			};
-		}
-
-		const section = otherCatalogSections.find(
-			(item) => option.url === `/docs/other/${item.slug}`,
-		);
-		if (section) {
-			return {
-				...option,
-				title: section.title,
-				description: section.description,
-			};
-		}
-
-		return null;
+		const meta = youTabMeta[option.url];
+		if (!meta) return null;
+		return { ...option, title: meta.title, description: meta.description };
 	})
 	.filter((option): option is LayoutTab => option !== null);
 
 const glassLayoutOptions: Omit<GlassLayoutProps, "children"> = {
 	...baseLayoutOptions,
 
-	tree: catalogTree,
+	tree: youTree,
 
-	tabs: catalogTabs,
+	tabs: youTabs,
 
 	sidebar: {
 		collapsible: false,
@@ -61,6 +52,6 @@ const glassLayoutOptions: Omit<GlassLayoutProps, "children"> = {
 	i18n: false,
 };
 
-export default function Layout({ children }: LayoutProps<"/docs">) {
+export default function Layout({ children }: LayoutProps<"/you">) {
 	return <GlassLayout {...glassLayoutOptions}>{children}</GlassLayout>;
 }

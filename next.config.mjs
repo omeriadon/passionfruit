@@ -17,6 +17,25 @@ const config = {
 			},
 		];
 	},
+	async redirects() {
+		return [
+			{
+				source: "/docs/account/bookmarks",
+				destination: "/you/devices",
+				permanent: true,
+			},
+			{
+				source: "/you/bookmarks",
+				destination: "/you/devices",
+				permanent: true,
+			},
+			{
+				source: "/docs/account/:path*",
+				destination: "/you/account",
+				permanent: true,
+			},
+		];
+	},
 };
 
 export default withMDX(config);

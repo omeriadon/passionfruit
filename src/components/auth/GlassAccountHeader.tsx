@@ -14,6 +14,7 @@ import {
 } from "lucide-react";
 import type { ComponentProps } from "react";
 import { cn } from "@/lib/cn";
+import { CategoryOrderEffect } from "@/components/you/CategoryOrderEffect";
 
 export function GlassAccountHeader({
 	className,
@@ -22,8 +23,8 @@ export function GlassAccountHeader({
 	const { slots } = useGlassLayout();
 	const sidebar = slots.sidebar.use();
 	const pathname = usePathname();
-	const showingAccount = pathname.startsWith("/docs/account");
-	const devicesHref = showingAccount ? "/docs/ipad" : pathname;
+	const showingYou = pathname.startsWith("/you");
+	const devicesHref = showingYou ? "/docs/ipad" : pathname;
 
 	return (
 		<div
@@ -33,6 +34,7 @@ export function GlassAccountHeader({
 			)}
 			{...props}
 		>
+			<CategoryOrderEffect />
 			{sidebar.collapsible && sidebar.collapsed ? (
 				<button
 					aria-label="Show Sidebar"
@@ -54,10 +56,10 @@ export function GlassAccountHeader({
 			>
 				<Link
 					href={devicesHref}
-					aria-current={showingAccount ? undefined : "page"}
+					aria-current={showingYou ? undefined : "page"}
 					className={cn(
 						"inline-flex items-center gap-1.5 rounded-full px-3 py-1.5 text-sm font-medium transition-colors",
-						showingAccount
+						showingYou
 							? "text-fd-muted-foreground hover:bg-fd-accent hover:text-fd-accent-foreground"
 							: "bg-fd-primary text-fd-primary-foreground shadow-sm",
 					)}
@@ -66,11 +68,11 @@ export function GlassAccountHeader({
 					<span>Devices</span>
 				</Link>
 				<Link
-					href="/docs/account/bookmarks"
-					aria-current={showingAccount ? "page" : undefined}
+					href="/you/devices"
+					aria-current={showingYou ? "page" : undefined}
 					className={cn(
 						"inline-flex items-center gap-1.5 rounded-full px-3 py-1.5 text-sm font-medium transition-colors",
-						showingAccount
+						showingYou
 							? "bg-fd-primary text-fd-primary-foreground shadow-sm"
 							: "text-fd-muted-foreground hover:bg-fd-accent hover:text-fd-accent-foreground",
 					)}

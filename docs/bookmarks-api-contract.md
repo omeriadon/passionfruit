@@ -13,9 +13,10 @@ PostgreSQL. The UI must not read or write PostgreSQL directly.
   database IDs.
 - Device identity is the pair `category` and `deviceId`. `deviceId` must
   match the canonical data identifier used by the UI.
-- Usernames are case-sensitive opaque strings. The service must not impose a
-  character-class or email-format rule. It may enforce a documented maximum
-  length of 255 Unicode characters and must reject blank values.
+- Usernames are stored as-given and matched case-insensitively via a
+  normalized (lowercased) form with a unique index. They must be 1–64
+  characters after trimming; the service must reject blank values. It must
+  not impose a character-class or email-format rule.
 - Passwords are never returned, logged, or stored in plaintext. The service
   hashes them with a memory-hard password hash such as Argon2id.
 - All timestamps are ISO 8601 UTC strings.
@@ -84,6 +85,47 @@ Requires a bearer token. Response `200 OK`:
 	}
 }
 ```
+
+### Change username
+
+`PATCH /api/v1/auth/username`
+
+Request:
+
+```json
+{
+	"username": "new-name"
+}
+```
+
+Response `200 OK` returns `{ "user": ... }` with the updated username. A
+normalized collision with another account returns `409 username_taken`.
+Blank or over-long values return `422 validation_failed`.
+
+### Change password
+
+`PATCH /api/v1/auth/password`
+
+Request:
+
+```json
+{
+	"currentPassword": "correct horse battery staple",
+	"newPassword": "even more correct horse battery staple"
+}
+```
+
+Response `200 OK` returns `{ "user": ... }`. A wrong current password
+returns `401 unauthorized`. A new password shorter than 8 characters returns
+`422 validation_failed`.
+
+### Delete account
+
+`DELETE /api/v1/auth/account`
+
+Response `204 No Content`. Removes the account together with its bookmarks,
+owned devices, saved category order, and sessions. The username becomes
+available for reuse.
 
 ### Bearer token handling
 
@@ -161,6 +203,80 @@ This prevents stale UI state from turning an idempotent action into an error.
 must reject empty values, path traversal, and values that do not fit its
 allowed identifier length without querying unrelated records.
 
+## Owned devices
+
+A user can mark devices as their own, independent of bookmarks. Every owned
+endpoint requires authentication. A user can have at most one owned record
+for a given `(category, deviceId)` pair.
+
+### List owned devices
+
+`GET /api/v1/owned`
+
+Response `200 OK`:
+
+```json
+{
+	"owned": [
+		{
+			"category": "iphone",
+			"deviceId": "iphone-17-pro-max",
+			"createdAt": "2026-08-24T08:00:00Z"
+		}
+	]
+}
+```
+
+### Mark device as owned
+
+`PUT /api/v1/owned/{category}/{deviceId}`
+
+No request body is required. Response `201 Created` when newly created,
+`200 OK` with the existing record when already owned (idempotent).
+
+### Remove owned device
+
+`DELETE /api/v1/owned/{category}/{deviceId}`
+
+Response `204 No Content` whether the record existed or was already absent.
+
+## Category order
+
+Each user may store a preferred ordering of device categories, applied by
+the UI to sidebars and device groupings. Every endpoint requires
+authentication.
+
+### Get category order
+
+`GET /api/v1/preferences/order`
+
+Response `200 OK`:
+
+```json
+{
+	"order": ["iphone", "mac", "ipad"]
+}
+```
+
+Defaults to `[]`, meaning the catalogue's built-in order applies. Slugs the
+catalogue no longer contains are ignored by the UI.
+
+### Set category order
+
+`PUT /api/v1/preferences/order`
+
+Request:
+
+```json
+{
+	"order": ["iphone", "mac", "ipad"]
+}
+```
+
+Replaces the whole order in one transaction and returns it. At most 32
+entries; entries are trimmed, must be non-empty, and duplicates collapse to
+the first occurrence. Violations return `422 validation_failed`.
+
 ## Errors
 
 All non-2xx JSON responses use this shape:
@@ -206,7 +322,7 @@ with credentials.
 For browser requests, allow:
 
 - Origins listed in `CORS_ALLOWED_ORIGINS`.
-- Methods `GET`, `PUT`, `DELETE`, `POST`, and `OPTIONS`.
+- Methods `GET`, `PUT`, `DELETE`, `POST`, `PATCH`, and `OPTIONS`.
 - Request headers `Authorization` and `Content-Type`.
 - Response header `X-Request-ID` if exposed.
 - Credentials only if the implementation later adds cookie sessions; bearer
@@ -226,14 +342,18 @@ are:
   timestamps, and an index on token hash.
 - `bookmarks`: opaque ID, user ID, category, device ID, created timestamp, and
   a unique constraint on `(user_id, category, device_id)`.
+- `owned_devices`: same shape as `bookmarks`, for devices the user owns.
+- `category_orders`: opaque ID, user ID, category, integer position, and a
+  unique constraint on `(user_id, category)`.
 
 Usernames should use a type that preserves the submitted Unicode string. The
 service must define and consistently apply its equality/collation behavior;
 the simplest initial rule is exact string equality with a unique index.
 
-Foreign keys from sessions and bookmarks to users must be enforced. Deleting
-an account, if account deletion is added later, should cascade its sessions
-and bookmarks. Registration, login session creation, and bookmark writes must
+Foreign keys from sessions, bookmarks, owned devices, and category orders to
+users must be enforced. Deleting an account cascades to its sessions,
+bookmarks, owned devices, and category order. Registration, login session
+creation, and bookmark writes must
 use transactions where more than one row is affected.
 
 The database URL, TLS requirements, migration settings, session lifetime, and
