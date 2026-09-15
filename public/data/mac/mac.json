@@ -9,9 +9,11 @@
 				{
 					"id": "silver",
 					"displayName": "Silver",
-					"swatch": {
-						"kind": "css",
-						"value": "#e2e3e4"
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [
 						{
@@ -34,9 +36,11 @@
 				{
 					"id": "blush",
 					"displayName": "Blush",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#f0d3cb",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [
 						{
@@ -54,14 +58,16 @@
 							"heightPx": 310
 						}
 					],
-					"sourceNotes": "Swatch class colornav-swatch-blush; product image class image-compare-macbook-neo-a18-pro-blush; image bytes not staged.; image bytes unavailable in owned staging; Apple-hosted URL omitted rather than fabricated.; exact CSS swatch unavailable; appleUrl unavailable in owned staged sources; localPath is source-prefixed staged evidence."
+					"sourceNotes": "Swatch class colornav-swatch-blush; product image class image-compare-macbook-neo-a18-pro-blush; image bytes not staged.; image bytes unavailable in owned staging; Apple-hosted URL omitted rather than fabricated.; exact CSS swatch unavailable; appleUrl unavailable in owned staged sources; localPath is source-prefixed staged evidence. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "citrus",
 					"displayName": "Citrus",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#e6dfa2",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [
 						{
@@ -79,14 +85,16 @@
 							"heightPx": 310
 						}
 					],
-					"sourceNotes": "Swatch class colornav-swatch-citrus; product image class image-compare-macbook-neo-a18-pro-citrus; image bytes not staged.; image bytes unavailable in owned staging; Apple-hosted URL omitted rather than fabricated.; exact CSS swatch unavailable; appleUrl unavailable in owned staged sources; localPath is source-prefixed staged evidence."
+					"sourceNotes": "Swatch class colornav-swatch-citrus; product image class image-compare-macbook-neo-a18-pro-citrus; image bytes not staged.; image bytes unavailable in owned staging; Apple-hosted URL omitted rather than fabricated.; exact CSS swatch unavailable; appleUrl unavailable in owned staged sources; localPath is source-prefixed staged evidence. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "indigo",
 					"displayName": "Indigo",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#4d5d7f",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [
 						{
@@ -104,7 +112,7 @@
 							"heightPx": 310
 						}
 					],
-					"sourceNotes": "Swatch class colornav-swatch-indigo; product image class image-compare-macbook-neo-a18-pro-indigo; image bytes not staged.; image bytes unavailable in owned staging; Apple-hosted URL omitted rather than fabricated.; exact CSS swatch unavailable; appleUrl unavailable in owned staged sources; localPath is source-prefixed staged evidence."
+					"sourceNotes": "Swatch class colornav-swatch-indigo; product image class image-compare-macbook-neo-a18-pro-indigo; image bytes not staged.; image bytes unavailable in owned staging; Apple-hosted URL omitted rather than fabricated.; exact CSS swatch unavailable; appleUrl unavailable in owned staged sources; localPath is source-prefixed staged evidence. Base hex approximate, sampled from Apple compare/buy imagery."
 				}
 			],
 			"configurations": [
@@ -280,9 +288,11 @@
 				{
 					"id": "sky-blue",
 					"displayName": "Sky Blue",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#b6c7d6",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [
 						{
@@ -300,14 +310,16 @@
 							"heightPx": 344
 						}
 					],
-					"sourceNotes": "Swatch class colornav-swatch-skyblue; product image class not matched; image bytes not staged.; image bytes unavailable in owned staging; Apple-hosted URL omitted rather than fabricated.; exact CSS swatch unavailable; appleUrl unavailable in owned staged sources; localPath is source-prefixed staged evidence."
+					"sourceNotes": "Swatch class colornav-swatch-skyblue; product image class not matched; image bytes not staged.; image bytes unavailable in owned staging; Apple-hosted URL omitted rather than fabricated.; exact CSS swatch unavailable; appleUrl unavailable in owned staged sources; localPath is source-prefixed staged evidence. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "silver",
 					"displayName": "Silver",
-					"swatch": {
-						"kind": "css",
-						"value": "#e2e3e4"
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [
 						{
@@ -330,9 +342,11 @@
 				{
 					"id": "starlight",
 					"displayName": "Starlight",
-					"swatch": {
-						"kind": "css",
-						"value": "#e3dcd1"
+					"finish": {
+						"base": "#e3dcd1",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [
 						{
@@ -355,9 +369,11 @@
 				{
 					"id": "midnight",
 					"displayName": "Midnight",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#232a35",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [
 						{
@@ -375,7 +391,7 @@
 							"heightPx": 344
 						}
 					],
-					"sourceNotes": "Swatch class colornav-swatch-midnight; product image class image-compare-macbook-air-m5-midnight; image bytes not staged.; image bytes unavailable in owned staging; Apple-hosted URL omitted rather than fabricated.; exact CSS swatch unavailable; appleUrl unavailable in owned staged sources; localPath is source-prefixed staged evidence."
+					"sourceNotes": "Swatch class colornav-swatch-midnight; product image class image-compare-macbook-air-m5-midnight; image bytes not staged.; image bytes unavailable in owned staging; Apple-hosted URL omitted rather than fabricated.; exact CSS swatch unavailable; appleUrl unavailable in owned staged sources; localPath is source-prefixed staged evidence. Base hex approximate, sampled from Apple compare/buy imagery."
 				}
 			],
 			"configurations": [
@@ -590,19 +606,23 @@
 				{
 					"id": "space-black",
 					"displayName": "Space Black",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#2e2c2e",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Swatch class colornav-swatch-spaceblack; product image class not matched; image bytes not staged.; image bytes unavailable in owned staging; Apple-hosted URL omitted rather than fabricated.; exact CSS swatch unavailable"
+					"sourceNotes": "Swatch class colornav-swatch-spaceblack; product image class not matched; image bytes not staged.; image bytes unavailable in owned staging; Apple-hosted URL omitted rather than fabricated.; exact CSS swatch unavailable; Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "silver",
 					"displayName": "Silver",
-					"swatch": {
-						"kind": "css",
-						"value": "#e2e3e4"
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [
 						{
@@ -836,9 +856,11 @@
 				{
 					"id": "blue",
 					"displayName": "Blue",
-					"swatch": {
-						"kind": "css",
-						"value": "#88aebf"
+					"finish": {
+						"base": "#88aebf",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
 					"sourceNotes": "Swatch class colornav-swatch-blue-m4; product image class not matched; image bytes not staged.; image bytes unavailable in owned staging; Apple-hosted URL omitted rather than fabricated."
@@ -846,9 +868,11 @@
 				{
 					"id": "purple",
 					"displayName": "Purple",
-					"swatch": {
-						"kind": "css",
-						"value": "#b9b8d1"
+					"finish": {
+						"base": "#b9b8d1",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
 					"sourceNotes": "Swatch class colornav-swatch-purple-m4; product image class not matched; image bytes not staged.; image bytes unavailable in owned staging; Apple-hosted URL omitted rather than fabricated."
@@ -856,9 +880,11 @@
 				{
 					"id": "pink",
 					"displayName": "Pink",
-					"swatch": {
-						"kind": "css",
-						"value": "#e8d1cf"
+					"finish": {
+						"base": "#e8d1cf",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
 					"sourceNotes": "Swatch class colornav-swatch-pink-m4; product image class not matched; image bytes not staged.; image bytes unavailable in owned staging; Apple-hosted URL omitted rather than fabricated."
@@ -866,29 +892,35 @@
 				{
 					"id": "orange",
 					"displayName": "Orange",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#edb489",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Swatch class colornav-swatch-orange-m4; product image class not matched; image bytes not staged.; image bytes unavailable in owned staging; Apple-hosted URL omitted rather than fabricated.; exact CSS swatch unavailable"
+					"sourceNotes": "Swatch class colornav-swatch-orange-m4; product image class not matched; image bytes not staged.; image bytes unavailable in owned staging; Apple-hosted URL omitted rather than fabricated.; exact CSS swatch unavailable; Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "yellow",
 					"displayName": "Yellow",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#ece7b6",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Swatch class colornav-swatch-yellow-m4; product image class not matched; image bytes not staged.; image bytes unavailable in owned staging; Apple-hosted URL omitted rather than fabricated.; exact CSS swatch unavailable"
+					"sourceNotes": "Swatch class colornav-swatch-yellow-m4; product image class not matched; image bytes not staged.; image bytes unavailable in owned staging; Apple-hosted URL omitted rather than fabricated.; exact CSS swatch unavailable; Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "green",
 					"displayName": "Green",
-					"swatch": {
-						"kind": "css",
-						"value": "#ccdfc9"
+					"finish": {
+						"base": "#ccdfc9",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
 					"sourceNotes": "Swatch class colornav-swatch-green-m4; product image class not matched; image bytes not staged.; image bytes unavailable in owned staging; Apple-hosted URL omitted rather than fabricated."
@@ -896,9 +928,11 @@
 				{
 					"id": "silver",
 					"displayName": "Silver",
-					"swatch": {
-						"kind": "css",
-						"value": "#e2e3e4"
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
 					"sourceNotes": "Swatch class colornav-swatch-solidsilver; product image class image-compare-imac-24-m4-2-solidsilver; image bytes not staged.; image bytes unavailable in owned staging; Apple-hosted URL omitted rather than fabricated."
@@ -1097,19 +1131,23 @@
 				{
 					"id": "space-black",
 					"displayName": "Space Black",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#2e2c2e",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Swatch class colornav-swatch-spaceblack; product image class not matched; image bytes not staged.; image bytes unavailable in owned staging; Apple-hosted URL omitted rather than fabricated.; exact CSS swatch unavailable"
+					"sourceNotes": "Swatch class colornav-swatch-spaceblack; product image class not matched; image bytes not staged.; image bytes unavailable in owned staging; Apple-hosted URL omitted rather than fabricated.; exact CSS swatch unavailable; Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "silver",
 					"displayName": "Silver",
-					"swatch": {
-						"kind": "css",
-						"value": "#e2e3e4"
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
 					"sourceNotes": "Swatch class colornav-swatch-silver; product image class image-compare-macbook-pro-14-m5-pro-silver; image bytes not staged.; image bytes unavailable in owned staging; Apple-hosted URL omitted rather than fabricated."
@@ -1327,19 +1365,23 @@
 				{
 					"id": "space-black",
 					"displayName": "Space Black",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#2e2c2e",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Swatch class colornav-swatch-spaceblack; product image class not matched; image bytes not staged.; image bytes unavailable in owned staging; Apple-hosted URL omitted rather than fabricated.; exact CSS swatch unavailable"
+					"sourceNotes": "Swatch class colornav-swatch-spaceblack; product image class not matched; image bytes not staged.; image bytes unavailable in owned staging; Apple-hosted URL omitted rather than fabricated.; exact CSS swatch unavailable; Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "silver",
 					"displayName": "Silver",
-					"swatch": {
-						"kind": "css",
-						"value": "#e2e3e4"
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
 					"sourceNotes": "Swatch class colornav-swatch-silver; product image class image-compare-macbook-pro-16-m5-max-silver; image bytes not staged.; image bytes unavailable in owned staging; Apple-hosted URL omitted rather than fabricated."
@@ -1568,9 +1610,11 @@
 				{
 					"id": "silver",
 					"displayName": "Silver",
-					"swatch": {
-						"kind": "css",
-						"value": "#e2e3e4"
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
 					"sourceNotes": "Swatch class colornav-swatch-silver; product image class image-compare-mac-mini-m4-silver; image bytes not staged.; image bytes unavailable in owned staging; Apple-hosted URL omitted rather than fabricated."
@@ -1787,9 +1831,11 @@
 				{
 					"id": "silver",
 					"displayName": "Silver",
-					"swatch": {
-						"kind": "css",
-						"value": "#e2e3e4"
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
 					"sourceNotes": "Swatch class colornav-swatch-silver; product image class image-compare-mac-mini-m4-pro-silver; image bytes not staged.; image bytes unavailable in owned staging; Apple-hosted URL omitted rather than fabricated."
@@ -2018,9 +2064,11 @@
 				{
 					"id": "silver",
 					"displayName": "Silver",
-					"swatch": {
-						"kind": "css",
-						"value": "#e2e3e4"
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
 					"sourceNotes": "Swatch class colornav-swatch-silver; product image class image-compare-mac-studio-m4-max-silver; image bytes not staged.; image bytes unavailable in owned staging; Apple-hosted URL omitted rather than fabricated."
@@ -2258,9 +2306,11 @@
 				{
 					"id": "midnight",
 					"displayName": "Midnight",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#232a35",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [
 						{
@@ -2271,14 +2321,16 @@
 							"heightPx": 316
 						}
 					],
-					"sourceNotes": "Swatch class colornav-swatch-midnight; product image class image-compare-macbook-air-m3-midnight; image bytes not staged.; image bytes unavailable in owned staging; Apple-hosted URL omitted rather than fabricated.; exact CSS swatch unavailable; appleUrl unavailable in owned staged sources; localPath is source-prefixed staged evidence."
+					"sourceNotes": "Swatch class colornav-swatch-midnight; product image class image-compare-macbook-air-m3-midnight; image bytes not staged.; image bytes unavailable in owned staging; Apple-hosted URL omitted rather than fabricated.; exact CSS swatch unavailable; appleUrl unavailable in owned staged sources; localPath is source-prefixed staged evidence. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "starlight",
 					"displayName": "Starlight",
-					"swatch": {
-						"kind": "css",
-						"value": "#e3dcd1"
+					"finish": {
+						"base": "#e3dcd1",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [
 						{
@@ -2294,9 +2346,11 @@
 				{
 					"id": "space-grey",
 					"displayName": "Space Grey",
-					"swatch": {
-						"kind": "css",
-						"value": "#68696d"
+					"finish": {
+						"base": "#68696d",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [
 						{
@@ -2312,9 +2366,11 @@
 				{
 					"id": "silver",
 					"displayName": "Silver",
-					"swatch": {
-						"kind": "css",
-						"value": "#e2e3e4"
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [
 						{
@@ -2538,9 +2594,11 @@
 				{
 					"id": "sky-blue",
 					"displayName": "Sky Blue",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#b6c7d6",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [
 						{
@@ -2551,14 +2609,16 @@
 							"heightPx": 316
 						}
 					],
-					"sourceNotes": "Swatch class colornav-swatch-skyblue; product image class not matched; image bytes not staged.; image bytes unavailable in owned staging; Apple-hosted URL omitted rather than fabricated.; exact CSS swatch unavailable; appleUrl unavailable in owned staged sources; localPath is source-prefixed staged evidence."
+					"sourceNotes": "Swatch class colornav-swatch-skyblue; product image class not matched; image bytes not staged.; image bytes unavailable in owned staging; Apple-hosted URL omitted rather than fabricated.; exact CSS swatch unavailable; appleUrl unavailable in owned staged sources; localPath is source-prefixed staged evidence. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "silver",
 					"displayName": "Silver",
-					"swatch": {
-						"kind": "css",
-						"value": "#e2e3e4"
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
 					"sourceNotes": "Swatch class colornav-swatch-silver; product image class image-compare-macbook-air-m4-silver; image bytes not staged.; image bytes unavailable in owned staging; Apple-hosted URL omitted rather than fabricated."
@@ -2566,9 +2626,11 @@
 				{
 					"id": "starlight",
 					"displayName": "Starlight",
-					"swatch": {
-						"kind": "css",
-						"value": "#e3dcd1"
+					"finish": {
+						"base": "#e3dcd1",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
 					"sourceNotes": "Swatch class colornav-swatch-starlight; product image class image-compare-macbook-air-m4-starlight; image bytes not staged.; image bytes unavailable in owned staging; Apple-hosted URL omitted rather than fabricated."
@@ -2576,12 +2638,14 @@
 				{
 					"id": "midnight",
 					"displayName": "Midnight",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#232a35",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Swatch class colornav-swatch-midnight; product image class image-compare-macbook-air-m4-midnight; image bytes not staged.; image bytes unavailable in owned staging; Apple-hosted URL omitted rather than fabricated.; exact CSS swatch unavailable"
+					"sourceNotes": "Swatch class colornav-swatch-midnight; product image class image-compare-macbook-air-m4-midnight; image bytes not staged.; image bytes unavailable in owned staging; Apple-hosted URL omitted rather than fabricated.; exact CSS swatch unavailable; Base hex approximate, sampled from Apple compare/buy imagery."
 				}
 			],
 			"configurations": [
@@ -2796,9 +2860,11 @@
 				{
 					"id": "silver",
 					"displayName": "Silver",
-					"swatch": {
-						"kind": "css",
-						"value": "#e2e3e4"
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
 					"sourceNotes": "Swatch class colornav-swatch-silver; product image class image-compare-mac-studio-m3-ultra-silver; image bytes not staged.; image bytes unavailable in owned staging; Apple-hosted URL omitted rather than fabricated."
@@ -3027,9 +3093,11 @@
 				{
 					"id": "midnight",
 					"displayName": "Midnight",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#232a35",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [
 						{
@@ -3047,14 +3115,16 @@
 							"heightPx": 344
 						}
 					],
-					"sourceNotes": "Swatch class colornav-swatch-midnight; product image class image-compare-macbook-air-m2-midnight; image bytes not staged.; image bytes unavailable in owned staging; Apple-hosted URL omitted rather than fabricated.; exact CSS swatch unavailable; appleUrl unavailable in owned staged sources; localPath is source-prefixed staged evidence."
+					"sourceNotes": "Swatch class colornav-swatch-midnight; product image class image-compare-macbook-air-m2-midnight; image bytes not staged.; image bytes unavailable in owned staging; Apple-hosted URL omitted rather than fabricated.; exact CSS swatch unavailable; appleUrl unavailable in owned staged sources; localPath is source-prefixed staged evidence. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "starlight",
 					"displayName": "Starlight",
-					"swatch": {
-						"kind": "css",
-						"value": "#e3dcd1"
+					"finish": {
+						"base": "#e3dcd1",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [
 						{
@@ -3077,9 +3147,11 @@
 				{
 					"id": "space-grey",
 					"displayName": "Space Grey",
-					"swatch": {
-						"kind": "css",
-						"value": "#68696d"
+					"finish": {
+						"base": "#68696d",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [
 						{
@@ -3102,9 +3174,11 @@
 				{
 					"id": "silver",
 					"displayName": "Silver",
-					"swatch": {
-						"kind": "css",
-						"value": "#e2e3e4"
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [
 						{
@@ -3334,9 +3408,11 @@
 				{
 					"id": "space-grey",
 					"displayName": "Space Grey",
-					"swatch": {
-						"kind": "css",
-						"value": "#68696d"
+					"finish": {
+						"base": "#68696d",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [
 						{
@@ -3359,9 +3435,11 @@
 				{
 					"id": "silver",
 					"displayName": "Silver",
-					"swatch": {
-						"kind": "css",
-						"value": "#e2e3e4"
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [
 						{
@@ -3384,9 +3462,11 @@
 				{
 					"id": "gold",
 					"displayName": "Gold",
-					"swatch": {
-						"kind": "css",
-						"value": "#e3ccb4"
+					"finish": {
+						"base": "#e3ccb4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [
 						{
@@ -3602,9 +3682,11 @@
 				{
 					"id": "blue",
 					"displayName": "Blue",
-					"swatch": {
-						"kind": "css",
-						"value": "#88aebf"
+					"finish": {
+						"base": "#88aebf",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [
 						{
@@ -3627,9 +3709,11 @@
 				{
 					"id": "green",
 					"displayName": "Green",
-					"swatch": {
-						"kind": "css",
-						"value": "#ccdfc9"
+					"finish": {
+						"base": "#ccdfc9",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [
 						{
@@ -3652,9 +3736,11 @@
 				{
 					"id": "pink",
 					"displayName": "Pink",
-					"swatch": {
-						"kind": "css",
-						"value": "#e8d1cf"
+					"finish": {
+						"base": "#e8d1cf",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [
 						{
@@ -3677,9 +3763,11 @@
 				{
 					"id": "silver",
 					"displayName": "Silver",
-					"swatch": {
-						"kind": "css",
-						"value": "#e2e3e4"
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [
 						{
@@ -3887,32 +3975,38 @@
 				{
 					"id": "gridcell-class-compare-column",
 					"displayName": "gridcell\" class=\"compare-column\">",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#d9dadb",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "space-black",
 					"displayName": "Space Black",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#2e2c2e",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "silver",
 					"displayName": "Silver",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				}
 			],
 			"configurations": [],
@@ -4067,62 +4161,74 @@
 				{
 					"id": "gridcell-class-compare-column",
 					"displayName": "gridcell\" class=\"compare-column\">",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#d9dadb",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "sky",
 					"displayName": "Sky",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#b6c7d6",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "blue",
 					"displayName": "Blue",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#88aebf",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "silver",
 					"displayName": "Silver",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "starlight",
 					"displayName": "Starlight",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#e3dcd1",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "midnight-div",
 					"displayName": "Midnight <div",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#232a35",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				}
 			],
 			"configurations": [],
@@ -4271,32 +4377,38 @@
 				{
 					"id": "gridcell-class-compare-column",
 					"displayName": "gridcell\" class=\"compare-column\">",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#d9dadb",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "space-black",
 					"displayName": "Space Black",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#2e2c2e",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "silver",
 					"displayName": "Silver",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				}
 			],
 			"configurations": [],
@@ -4451,32 +4563,38 @@
 				{
 					"id": "gridcell-class-compare-column",
 					"displayName": "gridcell\" class=\"compare-column\">",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#d9dadb",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "space-black",
 					"displayName": "Space Black",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#2e2c2e",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "silver",
 					"displayName": "Silver",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				}
 			],
 			"configurations": [],
@@ -4631,62 +4749,74 @@
 				{
 					"id": "gridcell-class-compare-column",
 					"displayName": "gridcell\" class=\"compare-column\">",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#d9dadb",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "sky",
 					"displayName": "Sky",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#b6c7d6",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "blue",
 					"displayName": "Blue",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#88aebf",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "silver",
 					"displayName": "Silver",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "starlight",
 					"displayName": "Starlight",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#e3dcd1",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "midnight-div",
 					"displayName": "Midnight <div",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#232a35",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				}
 			],
 			"configurations": [],
@@ -4835,32 +4965,38 @@
 				{
 					"id": "gridcell-class-compare-column",
 					"displayName": "gridcell\" class=\"compare-column\">",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#d9dadb",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "space-black",
 					"displayName": "Space Black",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#2e2c2e",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "silver",
 					"displayName": "Silver",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				}
 			],
 			"configurations": [],
@@ -5015,62 +5151,74 @@
 				{
 					"id": "gridcell-class-compare-column",
 					"displayName": "gridcell\" class=\"compare-column\">",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#d9dadb",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "sky",
 					"displayName": "Sky",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#b6c7d6",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "blue",
 					"displayName": "Blue",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#88aebf",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "silver",
 					"displayName": "Silver",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "starlight",
 					"displayName": "Starlight",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#e3dcd1",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "midnight-div",
 					"displayName": "Midnight <div",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#232a35",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				}
 			],
 			"configurations": [],
@@ -5219,32 +5367,38 @@
 				{
 					"id": "gridcell-class-compare-column",
 					"displayName": "gridcell\" class=\"compare-column\">",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#d9dadb",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "space-black",
 					"displayName": "Space Black",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#2e2c2e",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "silver",
 					"displayName": "Silver",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				}
 			],
 			"configurations": [],
@@ -5399,62 +5553,74 @@
 				{
 					"id": "gridcell-class-compare-column",
 					"displayName": "gridcell\" class=\"compare-column\">",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#d9dadb",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "sky",
 					"displayName": "Sky",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#b6c7d6",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "blue",
 					"displayName": "Blue",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#88aebf",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "silver",
 					"displayName": "Silver",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "starlight",
 					"displayName": "Starlight",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#e3dcd1",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "midnight-div",
 					"displayName": "Midnight <div",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#232a35",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				}
 			],
 			"configurations": [],
@@ -5603,32 +5769,38 @@
 				{
 					"id": "gridcell-class-compare-column",
 					"displayName": "gridcell\" class=\"compare-column\">",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#d9dadb",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "space-black",
 					"displayName": "Space Black",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#2e2c2e",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "silver",
 					"displayName": "Silver",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				}
 			],
 			"configurations": [],
@@ -5783,62 +5955,74 @@
 				{
 					"id": "gridcell-class-compare-column",
 					"displayName": "gridcell\" class=\"compare-column\">",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#d9dadb",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "sky",
 					"displayName": "Sky",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#b6c7d6",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "blue",
 					"displayName": "Blue",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#88aebf",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "silver",
 					"displayName": "Silver",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "starlight",
 					"displayName": "Starlight",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#e3dcd1",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "midnight-div",
 					"displayName": "Midnight <div",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#232a35",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				}
 			],
 			"configurations": [],
@@ -5987,32 +6171,38 @@
 				{
 					"id": "gridcell-class-compare-column",
 					"displayName": "gridcell\" class=\"compare-column\">",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#d9dadb",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "space-black",
 					"displayName": "Space Black",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#2e2c2e",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "silver",
 					"displayName": "Silver",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				}
 			],
 			"configurations": [],
@@ -6167,22 +6357,26 @@
 				{
 					"id": "gridcell-class-compare-column-first-child",
 					"displayName": "gridcell\" class=\"compare-column first-child\">",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#d9dadb",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "silver-blush-citrus-indigo-div",
 					"displayName": "Silver Blush Citrus Indigo <div",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#d9dadb",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				}
 			],
 			"configurations": [],
@@ -6304,62 +6498,74 @@
 				{
 					"id": "gridcell-class-compare-column",
 					"displayName": "gridcell\" class=\"compare-column\">",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#d9dadb",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "sky",
 					"displayName": "Sky",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#b6c7d6",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "blue",
 					"displayName": "Blue",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#88aebf",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "silver",
 					"displayName": "Silver",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "starlight",
 					"displayName": "Starlight",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#e3dcd1",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "midnight-div",
 					"displayName": "Midnight <div",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#232a35",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				}
 			],
 			"configurations": [],
@@ -6508,32 +6714,38 @@
 				{
 					"id": "gridcell-class-compare-column",
 					"displayName": "gridcell\" class=\"compare-column\">",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#d9dadb",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "space-black",
 					"displayName": "Space Black",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#2e2c2e",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "silver",
 					"displayName": "Silver",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				}
 			],
 			"configurations": [],
@@ -6688,22 +6900,26 @@
 				{
 					"id": "gridcell-class-compare-column-first-child",
 					"displayName": "gridcell\" class=\"compare-column first-child\">",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#d9dadb",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "silver-blush-citrus-indigo-div",
 					"displayName": "Silver Blush Citrus Indigo <div",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#d9dadb",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				}
 			],
 			"configurations": [],
@@ -6825,62 +7041,74 @@
 				{
 					"id": "gridcell-class-compare-column",
 					"displayName": "gridcell\" class=\"compare-column\">",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#d9dadb",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "sky",
 					"displayName": "Sky",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#b6c7d6",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "blue",
 					"displayName": "Blue",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#88aebf",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "silver",
 					"displayName": "Silver",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "starlight",
 					"displayName": "Starlight",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#e3dcd1",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "midnight-div",
 					"displayName": "Midnight <div",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#232a35",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				}
 			],
 			"configurations": [],
@@ -7029,32 +7257,38 @@
 				{
 					"id": "gridcell-class-compare-column",
 					"displayName": "gridcell\" class=\"compare-column\">",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#d9dadb",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "space-black",
 					"displayName": "Space Black",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#2e2c2e",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "silver",
 					"displayName": "Silver",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				}
 			],
 			"configurations": [],
@@ -7209,22 +7443,26 @@
 				{
 					"id": "gridcell-class-compare-column-first-child",
 					"displayName": "gridcell\" class=\"compare-column first-child\">",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#d9dadb",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "silver-blush-citrus-indigo-div",
 					"displayName": "Silver Blush Citrus Indigo <div",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#d9dadb",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				}
 			],
 			"configurations": [],
@@ -7346,82 +7584,98 @@
 				{
 					"id": "gridcell-class-compare-column-first-child",
 					"displayName": "gridcell\" class=\"compare-column first-child\">",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#d9dadb",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "blue",
 					"displayName": "Blue",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#88aebf",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "purple",
 					"displayName": "Purple",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#b9b8d1",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "pink",
 					"displayName": "Pink",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#e8d1cf",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "orange",
 					"displayName": "Orange",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#edb489",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "yellow",
 					"displayName": "Yellow",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#ece7b6",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "green",
 					"displayName": "Green",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#ccdfc9",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "silver-div",
 					"displayName": "Silver <div",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				}
 			],
 			"configurations": [],
@@ -7563,32 +7817,38 @@
 				{
 					"id": "gridcell-class-compare-column",
 					"displayName": "gridcell\" class=\"compare-column\">",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#d9dadb",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "space-black",
 					"displayName": "Space Black",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#2e2c2e",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "silver-div",
 					"displayName": "Silver <div",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				}
 			],
 			"configurations": [],
@@ -7744,32 +8004,38 @@
 				{
 					"id": "gridcell-class-compare-column",
 					"displayName": "gridcell\" class=\"compare-column\">",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#d9dadb",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "space-black",
 					"displayName": "Space Black",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#2e2c2e",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "silver",
 					"displayName": "Silver",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				}
 			],
 			"configurations": [],
@@ -7932,82 +8198,98 @@
 				{
 					"id": "gridcell-class-compare-column-first-child",
 					"displayName": "gridcell\" class=\"compare-column first-child\">",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#d9dadb",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "blue",
 					"displayName": "Blue",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#88aebf",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "purple",
 					"displayName": "Purple",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#b9b8d1",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "pink",
 					"displayName": "Pink",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#e8d1cf",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "orange",
 					"displayName": "Orange",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#edb489",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "yellow",
 					"displayName": "Yellow",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#ece7b6",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "green",
 					"displayName": "Green",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#ccdfc9",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "silver-div",
 					"displayName": "Silver <div",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				}
 			],
 			"configurations": [],
@@ -8149,32 +8431,38 @@
 				{
 					"id": "gridcell-class-compare-column",
 					"displayName": "gridcell\" class=\"compare-column\">",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#d9dadb",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "space-black",
 					"displayName": "Space Black",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#2e2c2e",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "silver-div",
 					"displayName": "Silver <div",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				}
 			],
 			"configurations": [],
@@ -8330,32 +8618,38 @@
 				{
 					"id": "gridcell-class-compare-column",
 					"displayName": "gridcell\" class=\"compare-column\">",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#d9dadb",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "space-black",
 					"displayName": "Space Black",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#2e2c2e",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "silver",
 					"displayName": "Silver",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				}
 			],
 			"configurations": [],
@@ -8518,22 +8812,26 @@
 				{
 					"id": "gridcell-class-compare-column-first-child",
 					"displayName": "gridcell\" class=\"compare-column first-child\">",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#d9dadb",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "silver-div",
 					"displayName": "Silver <div",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				}
 			],
 			"configurations": [],
@@ -8613,22 +8911,26 @@
 				{
 					"id": "gridcell-class-compare-column",
 					"displayName": "gridcell\" class=\"compare-column\">",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#d9dadb",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "silver-div",
 					"displayName": "Silver <div",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				}
 			],
 			"configurations": [],
@@ -8708,22 +9010,26 @@
 				{
 					"id": "gridcell-class-compare-column",
 					"displayName": "gridcell\" class=\"compare-column\">",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#d9dadb",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "silver",
 					"displayName": "Silver",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				}
 			],
 			"configurations": [],
@@ -8803,22 +9109,26 @@
 				{
 					"id": "gridcell-class-compare-column-first-child",
 					"displayName": "gridcell\" class=\"compare-column first-child\">",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#d9dadb",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "silver-div",
 					"displayName": "Silver <div",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				}
 			],
 			"configurations": [],
@@ -8898,22 +9208,26 @@
 				{
 					"id": "gridcell-class-compare-column",
 					"displayName": "gridcell\" class=\"compare-column\">",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#d9dadb",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "silver-div",
 					"displayName": "Silver <div",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				}
 			],
 			"configurations": [],
@@ -8993,22 +9307,26 @@
 				{
 					"id": "gridcell-class-compare-column",
 					"displayName": "gridcell\" class=\"compare-column\">",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#d9dadb",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "silver",
 					"displayName": "Silver",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				}
 			],
 			"configurations": [],
@@ -9088,52 +9406,62 @@
 				{
 					"id": "gridcell-class-compare-column-first-child",
 					"displayName": "gridcell\" class=\"compare-column first-child\">",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#d9dadb",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "midnight",
 					"displayName": "Midnight",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#232a35",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "starlight",
 					"displayName": "Starlight",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#e3dcd1",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "space-gray",
 					"displayName": "Space Grey",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#68696d",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "silver-div",
 					"displayName": "Silver <div",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				}
 			],
 			"configurations": [],
@@ -9282,62 +9610,74 @@
 				{
 					"id": "gridcell-class-compare-column",
 					"displayName": "gridcell\" class=\"compare-column\">",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#d9dadb",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "sky",
 					"displayName": "Sky",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#b6c7d6",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "blue",
 					"displayName": "Blue",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#88aebf",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "silver",
 					"displayName": "Silver",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "starlight",
 					"displayName": "Starlight",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#e3dcd1",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "midnight-div",
 					"displayName": "Midnight <div",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#232a35",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				}
 			],
 			"configurations": [],
@@ -9486,22 +9826,26 @@
 				{
 					"id": "gridcell-class-compare-column",
 					"displayName": "gridcell\" class=\"compare-column\">",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#d9dadb",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "silver",
 					"displayName": "Silver",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				}
 			],
 			"configurations": [],
@@ -9655,22 +9999,26 @@
 				{
 					"id": "space-black",
 					"displayName": "Space Black",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#2e2c2e",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered finish label and gallery image class image-compare-macbook-pro-16-m3-spaceblack; exact swatch value, target image bytes, Apple-hosted URL, and dimensions unavailable in supplied HTML."
+					"sourceNotes": "Rendered finish label and gallery image class image-compare-macbook-pro-16-m3-spaceblack; exact swatch value, target image bytes, Apple-hosted URL, and dimensions unavailable in supplied HTML. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "silver",
 					"displayName": "Silver",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered finish label and gallery image class image-compare-macbook-pro-16-m3-silver; exact swatch value, target image bytes, Apple-hosted URL, and dimensions unavailable in supplied HTML."
+					"sourceNotes": "Rendered finish label and gallery image class image-compare-macbook-pro-16-m3-silver; exact swatch value, target image bytes, Apple-hosted URL, and dimensions unavailable in supplied HTML. Base hex approximate, sampled from Apple compare/buy imagery."
 				}
 			],
 			"configurations": [],
@@ -9741,22 +10089,26 @@
 				{
 					"id": "space-gray",
 					"displayName": "Space Grey",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#68696d",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered finish label and gallery image class image-compare-macbook-pro-16-m2-spacegray; exact swatch value, target image bytes, Apple-hosted URL, and dimensions unavailable in supplied HTML."
+					"sourceNotes": "Rendered finish label and gallery image class image-compare-macbook-pro-16-m2-spacegray; exact swatch value, target image bytes, Apple-hosted URL, and dimensions unavailable in supplied HTML. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "silver",
 					"displayName": "Silver",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered finish label and gallery image class image-compare-macbook-pro-16-m2-silver; exact swatch value, target image bytes, Apple-hosted URL, and dimensions unavailable in supplied HTML."
+					"sourceNotes": "Rendered finish label and gallery image class image-compare-macbook-pro-16-m2-silver; exact swatch value, target image bytes, Apple-hosted URL, and dimensions unavailable in supplied HTML. Base hex approximate, sampled from Apple compare/buy imagery."
 				}
 			],
 			"configurations": [],
@@ -9827,22 +10179,26 @@
 				{
 					"id": "space-gray",
 					"displayName": "Space Grey",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#68696d",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered finish label and gallery image class image-compare-macbook-pro-14-spacegray; exact swatch value, target image bytes, Apple-hosted URL, and dimensions unavailable in supplied HTML."
+					"sourceNotes": "Rendered finish label and gallery image class image-compare-macbook-pro-14-spacegray; exact swatch value, target image bytes, Apple-hosted URL, and dimensions unavailable in supplied HTML. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "silver",
 					"displayName": "Silver",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered finish label and gallery image class image-compare-macbook-pro-14-silver; exact swatch value, target image bytes, Apple-hosted URL, and dimensions unavailable in supplied HTML."
+					"sourceNotes": "Rendered finish label and gallery image class image-compare-macbook-pro-14-silver; exact swatch value, target image bytes, Apple-hosted URL, and dimensions unavailable in supplied HTML. Base hex approximate, sampled from Apple compare/buy imagery."
 				}
 			],
 			"configurations": [],
