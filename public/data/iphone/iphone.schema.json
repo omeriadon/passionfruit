@@ -176,7 +176,6 @@
 			"required": [
 				"id",
 				"displayName",
-				"swatch",
 				"images"
 			],
 			"properties": {
@@ -187,9 +186,6 @@
 				"displayName": {
 					"type": "string",
 					"minLength": 1
-				},
-				"swatch": {
-					"$ref": "#/$defs/iphoneSwatch"
 				},
 				"images": {
 					"type": "array",
@@ -204,6 +200,10 @@
 				"sourceNotes": {
 					"type": "string",
 					"minLength": 1
+				},
+				"finish": {
+					"$ref": "#/$defs/finish",
+					"description": "Finish record for the material swatch dot. Optional until backfill completes."
 				}
 			}
 		},
@@ -240,44 +240,6 @@
 					"minimum": 1
 				}
 			}
-		},
-		"iphoneSwatch": {
-			"oneOf": [
-				{
-					"type": "object",
-					"additionalProperties": false,
-					"required": [
-						"kind",
-						"value"
-					],
-					"properties": {
-						"kind": {
-							"const": "css"
-						},
-						"value": {
-							"type": "string",
-							"pattern": "^#[0-9a-fA-F]{6}$|^#[0-9a-fA-F]{8}$|^rgba?\\("
-						}
-					}
-				},
-				{
-					"type": "object",
-					"additionalProperties": false,
-					"required": [
-						"kind",
-						"url"
-					],
-					"properties": {
-						"kind": {
-							"const": "image"
-						},
-						"url": {
-							"type": "string",
-							"format": "uri"
-						}
-					}
-				}
-			]
 		},
 		"iphoneStorageOption": {
 			"type": "object",
@@ -607,17 +569,7 @@
 		"iphoneAudio": {
 			"type": "object",
 			"additionalProperties": false,
-			"required": [
-				"speaker",
-				"microphone"
-			],
 			"properties": {
-				"speaker": {
-					"type": "boolean"
-				},
-				"microphone": {
-					"type": "boolean"
-				},
 				"speakerConfiguration": {
 					"type": "string",
 					"minLength": 1
@@ -1640,6 +1592,125 @@
 					"items": {
 						"type": "string",
 						"minLength": 1
+					}
+				}
+			}
+		},
+		"finish": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": [
+				"base",
+				"material"
+			],
+			"description": "Data-driven finish record. One generic renderer turns this into a material swatch dot (gradient + grain + shine, optional duo split). Never a per-finish asset or custom node.",
+			"properties": {
+				"base": {
+					"type": "string",
+					"pattern": "^#[0-9a-fA-F]{6}$",
+					"description": "Anchor hex. Also the flat fallback render."
+				},
+				"material": {
+					"enum": [
+						"matte-aluminum",
+						"brushed-titanium",
+						"polished-titanium",
+						"polished-steel",
+						"ceramic",
+						"glass",
+						"fabric",
+						"flat"
+					],
+					"description": "Surface recipe: sheen spread, glare, brushed streaks or weave are derived from this."
+				},
+				"sheen": {
+					"type": "object",
+					"additionalProperties": false,
+					"description": "Optional specular override. Defaults come from material.",
+					"properties": {
+						"glareX": {
+							"type": "number",
+							"minimum": 0,
+							"maximum": 100
+						},
+						"glareY": {
+							"type": "number",
+							"minimum": 0,
+							"maximum": 100
+						},
+						"intensity": {
+							"type": "number",
+							"minimum": 0,
+							"maximum": 1
+						}
+					}
+				},
+				"shine": {
+					"type": "number",
+					"minimum": 0,
+					"maximum": 1,
+					"description": "Crisp clearcoat hotspot + rim light. 0 none, 1 full glass-like pop. Defaults per material."
+				},
+				"grain": {
+					"type": "number",
+					"minimum": 0,
+					"maximum": 1,
+					"description": "Micro-noise overlay (parametric turbulence, no assets). Matte metals/ceramic low, fabric high."
+				},
+				"weave": {
+					"type": "boolean",
+					"description": "Parametric crosshatch overlay for woven fabric (e.g. HomePod mesh). Only meaningful with fabric material."
+				},
+				"duo": {
+					"type": "object",
+					"additionalProperties": false,
+					"required": [
+						"base",
+						"material"
+					],
+					"description": "Second fill for two-tone split dots (e.g. Watch case + band). Grain/shine/sheen apply whole-dot.",
+					"properties": {
+						"base": {
+							"type": "string",
+							"pattern": "^#[0-9a-fA-F]{6}$"
+						},
+						"material": {
+							"enum": [
+								"matte-aluminum",
+								"brushed-titanium",
+								"polished-titanium",
+								"polished-steel",
+								"ceramic",
+								"glass",
+								"fabric",
+								"flat"
+							]
+						},
+						"split": {
+							"type": "object",
+							"additionalProperties": false,
+							"description": "Divider geometry. Curve bows the line so it reads as Apple's photographic swoosh, not a straight diagonal.",
+							"properties": {
+								"angle": {
+									"type": "number",
+									"minimum": 0,
+									"maximum": 360,
+									"default": 135
+								},
+								"curve": {
+									"type": "number",
+									"minimum": -0.3,
+									"maximum": 0.3,
+									"default": 0.18
+								},
+								"offset": {
+									"type": "number",
+									"minimum": -0.5,
+									"maximum": 0.5,
+									"default": 0
+								}
+							}
+						}
 					}
 				}
 			}

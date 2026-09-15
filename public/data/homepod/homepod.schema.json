@@ -25,32 +25,53 @@
 				"heightPx": { "type": "integer", "minimum": 1 }
 			}
 		},
-		"swatch": {
-			"oneOf": [
-				{
+		"finish": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["base", "material"],
+			"description": "Data-driven finish record. One generic renderer turns this into a material swatch dot (gradient + grain + shine, optional duo split). Never a per-finish asset or custom node.",
+			"properties": {
+				"base": { "type": "string", "pattern": "^#[0-9a-fA-F]{6}$", "description": "Anchor hex. Also the flat fallback render." },
+				"material": { "enum": ["matte-aluminum", "brushed-titanium", "polished-titanium", "polished-steel", "ceramic", "glass", "fabric", "flat"], "description": "Surface recipe: sheen spread, glare, brushed streaks or weave are derived from this." },
+				"sheen": {
 					"type": "object",
 					"additionalProperties": false,
-					"required": ["kind", "value"],
+					"description": "Optional specular override. Defaults come from material.",
 					"properties": {
-						"kind": { "const": "css" },
-						"value": { "type": "string", "minLength": 1 }
+						"glareX": { "type": "number", "minimum": 0, "maximum": 100 },
+						"glareY": { "type": "number", "minimum": 0, "maximum": 100 },
+						"intensity": { "type": "number", "minimum": 0, "maximum": 1 }
 					}
 				},
-				{
+				"shine": { "type": "number", "minimum": 0, "maximum": 1, "description": "Crisp clearcoat hotspot + rim light. 0 none, 1 full glass-like pop. Defaults per material." },
+				"grain": { "type": "number", "minimum": 0, "maximum": 1, "description": "Micro-noise overlay (parametric turbulence, no assets). Matte metals/ceramic low, fabric high." },
+				"weave": { "type": "boolean", "description": "Parametric crosshatch overlay for woven fabric (e.g. HomePod mesh). Only meaningful with fabric material." },
+				"duo": {
 					"type": "object",
 					"additionalProperties": false,
-					"required": ["kind", "url"],
+					"required": ["base", "material"],
+					"description": "Second fill for two-tone split dots (e.g. Watch case + band). Grain/shine/sheen apply whole-dot.",
 					"properties": {
-						"kind": { "const": "image" },
-						"url": { "type": "string", "format": "uri" }
+						"base": { "type": "string", "pattern": "^#[0-9a-fA-F]{6}$" },
+						"material": { "enum": ["matte-aluminum", "brushed-titanium", "polished-titanium", "polished-steel", "ceramic", "glass", "fabric", "flat"] },
+						"split": {
+							"type": "object",
+							"additionalProperties": false,
+							"description": "Divider geometry. Curve bows the line so it reads as Apple's photographic swoosh, not a straight diagonal.",
+							"properties": {
+								"angle": { "type": "number", "minimum": 0, "maximum": 360, "default": 135 },
+								"curve": { "type": "number", "minimum": -0.3, "maximum": 0.3, "default": 0.18 },
+								"offset": { "type": "number", "minimum": -0.5, "maximum": 0.5, "default": 0 }
+							}
+						}
 					}
 				}
-			]
+			}
 		},
 		"color": {
 			"type": "object",
 			"additionalProperties": false,
-			"required": ["id", "displayName", "swatch", "images"],
+			"required": ["id", "displayName", "images"],
 			"properties": {
 				"id": {
 					"type": "string",
@@ -58,7 +79,7 @@
 					"minLength": 1
 				},
 				"displayName": { "type": "string", "minLength": 1 },
-				"swatch": { "$ref": "#/$defs/swatch" },
+				"finish": { "$ref": "#/$defs/finish", "description": "Finish record for the material swatch dot. Optional until backfill completes." },
 				"images": {
 					"type": "array",
 					"minItems": 1,
