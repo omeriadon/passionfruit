@@ -185,7 +185,7 @@ select {
 
 #nd-sidebar [data-id$="-viewport"] a:has([data-year-start="true"]),
 #nd-mobile-sidebar a:has([data-year-start="true"]) {
-	margin-top: 0.375rem;
+	margin-top: 0.575rem;
 }
 
 #nd-sidebar [data-id$="-viewport"] a[href^="/docs/"] {
