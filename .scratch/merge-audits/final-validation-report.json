@@ -26,7 +26,7 @@
 			"collectionKey": "devices",
 			"records": 19,
 			"schemaSha256": "4d72afa0b51b18e185a213c26d7067f5d0c7d5ca55a200f8bd9b1e9fa3fe1893",
-			"imageReferences": 112,
+			"imageReferences": 254,
 			"valid": true,
 			"errorCount": 0,
 			"errors": []
@@ -46,7 +46,7 @@
 			"collectionKey": "devices",
 			"records": 40,
 			"schemaSha256": "552939e5476b49a3985cbcdd42de921089cf9aa54e7605eab473316835860fc1",
-			"imageReferences": 20,
+			"imageReferences": 54,
 			"valid": true,
 			"errorCount": 0,
 			"errors": []
@@ -56,7 +56,7 @@
 			"collectionKey": "devices",
 			"records": 41,
 			"schemaSha256": "ba357d6c6eb512274ce6485104024993548ab9fe08ca9656071de6bf4fb5f9e0",
-			"imageReferences": 88,
+			"imageReferences": 178,
 			"valid": true,
 			"errorCount": 0,
 			"errors": []
@@ -66,7 +66,7 @@
 			"collectionKey": "devices",
 			"records": 53,
 			"schemaSha256": "e9809fefd44031c36ea17f2f29d2b75ba533dc8b1f5d860651c1ff9043021ba4",
-			"imageReferences": 45,
+			"imageReferences": 112,
 			"valid": true,
 			"errorCount": 0,
 			"errors": []
@@ -86,7 +86,7 @@
 			"collectionKey": "accessories",
 			"records": 4,
 			"schemaSha256": "b4f606cddfd971554b8c7be3c188a894c1e22bde17dd006a5da43e4d7a68a102",
-			"imageReferences": 5,
+			"imageReferences": 8,
 			"valid": true,
 			"errorCount": 0,
 			"errors": []
@@ -115,6 +115,7 @@
 	"totalDevices": 167,
 	"totalAccessories": 9,
 	"totalProducts": 2,
-	"imageReferences": 498,
-	"invalidImageReferences": []
+	"imageReferences": 834,
+	"invalidImageReferences": [],
+	"recordsWithoutImages": []
 }
