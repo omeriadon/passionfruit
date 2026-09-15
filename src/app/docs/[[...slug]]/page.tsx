@@ -163,7 +163,7 @@ export async function generateMetadata(
 		if (!route) notFound();
 
 		return {
-			title: "Apple Catalog",
+			title: "Passionfruit",
 			description: "Structured Apple device data.",
 		};
 	}
