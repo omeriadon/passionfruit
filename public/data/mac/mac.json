@@ -862,7 +862,15 @@
 						"shine": 0.2,
 						"grain": 0.1
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "mac6-images:compare_imac_24_m4_blue:fcdp5icivh2e_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_imac_24_m4_blue__fcdp5icivh2e_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_imac_24_m4_blue__fcdp5icivh2e_large_2x.jpg",
+							"widthPx": 446,
+							"heightPx": 376
+						}
+					],
 					"sourceNotes": "Swatch class colornav-swatch-blue-m4; product image class not matched; image bytes not staged.; image bytes unavailable in owned staging; Apple-hosted URL omitted rather than fabricated."
 				},
 				{
@@ -874,7 +882,15 @@
 						"shine": 0.2,
 						"grain": 0.1
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "mac6-images:compare_imac_24_m4_purple:fpxz9lr6lxyu_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_imac_24_m4_purple__fpxz9lr6lxyu_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_imac_24_m4_purple__fpxz9lr6lxyu_large_2x.jpg",
+							"widthPx": 446,
+							"heightPx": 376
+						}
+					],
 					"sourceNotes": "Swatch class colornav-swatch-purple-m4; product image class not matched; image bytes not staged.; image bytes unavailable in owned staging; Apple-hosted URL omitted rather than fabricated."
 				},
 				{
@@ -886,7 +902,15 @@
 						"shine": 0.2,
 						"grain": 0.1
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "mac6-images:compare_imac_24_m4_pink:fwpbzjd83fee_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_imac_24_m4_pink__fwpbzjd83fee_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_imac_24_m4_pink__fwpbzjd83fee_large_2x.jpg",
+							"widthPx": 446,
+							"heightPx": 376
+						}
+					],
 					"sourceNotes": "Swatch class colornav-swatch-pink-m4; product image class not matched; image bytes not staged.; image bytes unavailable in owned staging; Apple-hosted URL omitted rather than fabricated."
 				},
 				{
@@ -898,7 +922,15 @@
 						"shine": 0.2,
 						"grain": 0.1
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "mac6-images:compare_imac_24_m4_orange:fw7k2rbuctay_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_imac_24_m4_orange__fw7k2rbuctay_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_imac_24_m4_orange__fw7k2rbuctay_large_2x.jpg",
+							"widthPx": 446,
+							"heightPx": 376
+						}
+					],
 					"sourceNotes": "Swatch class colornav-swatch-orange-m4; product image class not matched; image bytes not staged.; image bytes unavailable in owned staging; Apple-hosted URL omitted rather than fabricated.; exact CSS swatch unavailable; Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
@@ -910,7 +942,15 @@
 						"shine": 0.2,
 						"grain": 0.1
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "mac6-images:compare_imac_24_m4_yellow:cel496oxyggi_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_imac_24_m4_yellow__cel496oxyggi_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_imac_24_m4_yellow__cel496oxyggi_large_2x.jpg",
+							"widthPx": 446,
+							"heightPx": 376
+						}
+					],
 					"sourceNotes": "Swatch class colornav-swatch-yellow-m4; product image class not matched; image bytes not staged.; image bytes unavailable in owned staging; Apple-hosted URL omitted rather than fabricated.; exact CSS swatch unavailable; Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
@@ -922,7 +962,15 @@
 						"shine": 0.2,
 						"grain": 0.1
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "mac6-images:compare_imac_24_m4_green:fhwld12njsuy_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_imac_24_m4_green__fhwld12njsuy_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_imac_24_m4_green__fhwld12njsuy_large_2x.jpg",
+							"widthPx": 446,
+							"heightPx": 376
+						}
+					],
 					"sourceNotes": "Swatch class colornav-swatch-green-m4; product image class not matched; image bytes not staged.; image bytes unavailable in owned staging; Apple-hosted URL omitted rather than fabricated."
 				},
 				{
@@ -934,7 +982,15 @@
 						"shine": 0.2,
 						"grain": 0.1
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "mac6-images:compare_imac_24_m4_silver:edo689dmh8a6_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_imac_24_m4_silver__edo689dmh8a6_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_imac_24_m4_silver__edo689dmh8a6_large_2x.jpg",
+							"widthPx": 446,
+							"heightPx": 376
+						}
+					],
 					"sourceNotes": "Swatch class colornav-swatch-solidsilver; product image class image-compare-imac-24-m4-2-solidsilver; image bytes not staged.; image bytes unavailable in owned staging; Apple-hosted URL omitted rather than fabricated."
 				}
 			],
@@ -1137,7 +1193,15 @@
 						"shine": 0.2,
 						"grain": 0.1
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "mac6-images:compare_macbook_pro_m5_14_spaceblack:e8bg1b4hasii_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_macbook_pro_m5_14_spaceblack__e8bg1b4hasii_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_macbook_pro_m5_14_spaceblack__e8bg1b4hasii_large_2x.jpg",
+							"widthPx": 540,
+							"heightPx": 328
+						}
+					],
 					"sourceNotes": "Swatch class colornav-swatch-spaceblack; product image class not matched; image bytes not staged.; image bytes unavailable in owned staging; Apple-hosted URL omitted rather than fabricated.; exact CSS swatch unavailable; Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
@@ -1149,7 +1213,15 @@
 						"shine": 0.2,
 						"grain": 0.1
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "mac6-images:compare_macbook_pro_m5_14_silver:gjpnrwj6g4qe_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_macbook_pro_m5_14_silver__gjpnrwj6g4qe_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_macbook_pro_m5_14_silver__gjpnrwj6g4qe_large_2x.jpg",
+							"widthPx": 540,
+							"heightPx": 328
+						}
+					],
 					"sourceNotes": "Swatch class colornav-swatch-silver; product image class image-compare-macbook-pro-14-m5-pro-silver; image bytes not staged.; image bytes unavailable in owned staging; Apple-hosted URL omitted rather than fabricated."
 				}
 			],
@@ -1371,7 +1443,15 @@
 						"shine": 0.2,
 						"grain": 0.1
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "mac6-images:compare_macbook_pro_m5_16_spaceblack:81ui3u6gyuqu_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_macbook_pro_m5_16_spaceblack__81ui3u6gyuqu_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_macbook_pro_m5_16_spaceblack__81ui3u6gyuqu_large_2x.jpg",
+							"widthPx": 596,
+							"heightPx": 368
+						}
+					],
 					"sourceNotes": "Swatch class colornav-swatch-spaceblack; product image class not matched; image bytes not staged.; image bytes unavailable in owned staging; Apple-hosted URL omitted rather than fabricated.; exact CSS swatch unavailable; Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
@@ -1383,7 +1463,15 @@
 						"shine": 0.2,
 						"grain": 0.1
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "mac6-images:compare_macbook_pro_m5_16_silver:egqckriiesia_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_macbook_pro_m5_16_silver__egqckriiesia_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_macbook_pro_m5_16_silver__egqckriiesia_large_2x.jpg",
+							"widthPx": 596,
+							"heightPx": 368
+						}
+					],
 					"sourceNotes": "Swatch class colornav-swatch-silver; product image class image-compare-macbook-pro-16-m5-max-silver; image bytes not staged.; image bytes unavailable in owned staging; Apple-hosted URL omitted rather than fabricated."
 				}
 			],
@@ -1616,7 +1704,15 @@
 						"shine": 0.2,
 						"grain": 0.1
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "mac6-images:compare_mac_mini_m4_silver:d0eyh8j772ye_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_mac_mini_m4_silver__d0eyh8j772ye_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_mac_mini_m4_silver__d0eyh8j772ye_large_2x.jpg",
+							"widthPx": 182,
+							"heightPx": 76
+						}
+					],
 					"sourceNotes": "Swatch class colornav-swatch-silver; product image class image-compare-mac-mini-m4-silver; image bytes not staged.; image bytes unavailable in owned staging; Apple-hosted URL omitted rather than fabricated."
 				}
 			],
@@ -1837,7 +1933,15 @@
 						"shine": 0.2,
 						"grain": 0.1
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "mac6-images:compare_mac_mini_m4_silver:d0eyh8j772ye_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_mac_mini_m4_silver__d0eyh8j772ye_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_mac_mini_m4_silver__d0eyh8j772ye_large_2x.jpg",
+							"widthPx": 182,
+							"heightPx": 76
+						}
+					],
 					"sourceNotes": "Swatch class colornav-swatch-silver; product image class image-compare-mac-mini-m4-pro-silver; image bytes not staged.; image bytes unavailable in owned staging; Apple-hosted URL omitted rather than fabricated."
 				}
 			],
@@ -2070,7 +2174,15 @@
 						"shine": 0.2,
 						"grain": 0.1
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "mac6-images:compare_mac_studio_silver_m4:c1woyu7bp2ie_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_mac_studio_silver_m4__c1woyu7bp2ie_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_mac_studio_silver_m4__c1woyu7bp2ie_large_2x.jpg",
+							"widthPx": 280,
+							"heightPx": 140
+						}
+					],
 					"sourceNotes": "Swatch class colornav-swatch-silver; product image class image-compare-mac-studio-m4-max-silver; image bytes not staged.; image bytes unavailable in owned staging; Apple-hosted URL omitted rather than fabricated."
 				}
 			],
@@ -2866,7 +2978,15 @@
 						"shine": 0.2,
 						"grain": 0.1
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "mac6-images:compare_mac_studio_silver_m4:c1woyu7bp2ie_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_mac_studio_silver_m4__c1woyu7bp2ie_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_mac_studio_silver_m4__c1woyu7bp2ie_large_2x.jpg",
+							"widthPx": 280,
+							"heightPx": 140
+						}
+					],
 					"sourceNotes": "Swatch class colornav-swatch-silver; product image class image-compare-mac-studio-m3-ultra-silver; image bytes not staged.; image bytes unavailable in owned staging; Apple-hosted URL omitted rather than fabricated."
 				}
 			],
@@ -3993,7 +4113,15 @@
 						"shine": 0.2,
 						"grain": 0.1
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "mac6-images:compare_macbook_air_m5_15_midnight:fhljrimm88i2_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_macbook_air_m5_15_midnight__fhljrimm88i2_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_macbook_air_m5_15_midnight__fhljrimm88i2_large_2x.jpg",
+							"widthPx": 572,
+							"heightPx": 348
+						}
+					],
 					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
@@ -4179,7 +4307,15 @@
 						"shine": 0.2,
 						"grain": 0.1
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "mac6-images:compare_macbook_pro_m5_14_silver:gjpnrwj6g4qe_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_macbook_pro_m5_14_silver__gjpnrwj6g4qe_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_macbook_pro_m5_14_silver__gjpnrwj6g4qe_large_2x.jpg",
+							"widthPx": 540,
+							"heightPx": 328
+						}
+					],
 					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
@@ -4395,7 +4531,15 @@
 						"shine": 0.2,
 						"grain": 0.1
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "mac6-images:compare_macbook_pro_m5_16_spaceblack:81ui3u6gyuqu_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_macbook_pro_m5_16_spaceblack__81ui3u6gyuqu_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_macbook_pro_m5_16_spaceblack__81ui3u6gyuqu_large_2x.jpg",
+							"widthPx": 596,
+							"heightPx": 368
+						}
+					],
 					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
@@ -4407,7 +4551,15 @@
 						"shine": 0.2,
 						"grain": 0.1
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "mac6-images:compare_macbook_pro_m5_16_silver:egqckriiesia_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_macbook_pro_m5_16_silver__egqckriiesia_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_macbook_pro_m5_16_silver__egqckriiesia_large_2x.jpg",
+							"widthPx": 596,
+							"heightPx": 368
+						}
+					],
 					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				}
 			],
@@ -4581,7 +4733,15 @@
 						"shine": 0.2,
 						"grain": 0.1
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "mac6-images:compare_macbook_air_mx_15_midnight:c2xkdctmuwq6_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_macbook_air_mx_15_midnight__c2xkdctmuwq6_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_macbook_air_mx_15_midnight__c2xkdctmuwq6_large_2x.jpg",
+							"widthPx": 572,
+							"heightPx": 348
+						}
+					],
 					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
@@ -4767,7 +4927,15 @@
 						"shine": 0.2,
 						"grain": 0.1
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "mac6-images:compare_macbook_air_mx_15_silver:bthqnr9v8po2_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_macbook_air_mx_15_silver__bthqnr9v8po2_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_macbook_air_mx_15_silver__bthqnr9v8po2_large_2x.jpg",
+							"widthPx": 572,
+							"heightPx": 348
+						}
+					],
 					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
@@ -4983,7 +5151,15 @@
 						"shine": 0.2,
 						"grain": 0.1
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "mac6-images:compare_macbook_air_mx_15_midnight:c2xkdctmuwq6_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_macbook_air_mx_15_midnight__c2xkdctmuwq6_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_macbook_air_mx_15_midnight__c2xkdctmuwq6_large_2x.jpg",
+							"widthPx": 572,
+							"heightPx": 348
+						}
+					],
 					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
@@ -5169,7 +5345,15 @@
 						"shine": 0.2,
 						"grain": 0.1
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "mac6-images:compare_macbook_air_retina_silver:ejt1n5ue6kk2_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_macbook_air_retina_silver__ejt1n5ue6kk2_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_macbook_air_retina_silver__ejt1n5ue6kk2_large_2x.jpg",
+							"widthPx": 532,
+							"heightPx": 308
+						}
+					],
 					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
@@ -5385,7 +5569,15 @@
 						"shine": 0.2,
 						"grain": 0.1
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "mac6-images:compare_macbook_air_2017_silver:gk4233q28qeu_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_macbook_air_2017_silver__gk4233q28qeu_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_macbook_air_2017_silver__gk4233q28qeu_large_2x.jpg",
+							"widthPx": 532,
+							"heightPx": 308
+						}
+					],
 					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
@@ -5571,7 +5763,15 @@
 						"shine": 0.2,
 						"grain": 0.1
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "mac6-images:compare_macbook_pro_13_silver:h055725r76uu_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_macbook_pro_13_silver__h055725r76uu_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_macbook_pro_13_silver__h055725r76uu_large_2x.jpg",
+							"widthPx": 534,
+							"heightPx": 310
+						}
+					],
 					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
@@ -5787,7 +5987,15 @@
 						"shine": 0.2,
 						"grain": 0.1
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "mac6-images:compare_macbook_pro_13_spacegray:dqz3lo8fxcia_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_macbook_pro_13_spacegray__dqz3lo8fxcia_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_macbook_pro_13_spacegray__dqz3lo8fxcia_large_2x.jpg",
+							"widthPx": 534,
+							"heightPx": 310
+						}
+					],
 					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
@@ -5973,7 +6181,15 @@
 						"shine": 0.2,
 						"grain": 0.1
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "mac6-images:compare_macbook_pro_14_spaceblack:bcacn5s80i9u_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_macbook_pro_14_spaceblack__bcacn5s80i9u_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_macbook_pro_14_spaceblack__bcacn5s80i9u_large_2x.jpg",
+							"widthPx": 540,
+							"heightPx": 328
+						}
+					],
 					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
@@ -6189,7 +6405,15 @@
 						"shine": 0.2,
 						"grain": 0.1
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "mac6-images:compare_macbook_pro_14_spaceblack:bcacn5s80i9u_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_macbook_pro_14_spaceblack__bcacn5s80i9u_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_macbook_pro_14_spaceblack__bcacn5s80i9u_large_2x.jpg",
+							"widthPx": 540,
+							"heightPx": 328
+						}
+					],
 					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
@@ -6201,7 +6425,15 @@
 						"shine": 0.2,
 						"grain": 0.1
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "mac6-images:compare_macbook_pro_14_silver:i4mzeamc5aa2_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_macbook_pro_14_silver__i4mzeamc5aa2_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_macbook_pro_14_silver__i4mzeamc5aa2_large_2x.jpg",
+							"widthPx": 540,
+							"heightPx": 328
+						}
+					],
 					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				}
 			],
@@ -6375,7 +6607,15 @@
 						"shine": 0.2,
 						"grain": 0.1
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "mac6-images:compare_macbook_pro_14_silver:i4mzeamc5aa2_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_macbook_pro_14_silver__i4mzeamc5aa2_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_macbook_pro_14_silver__i4mzeamc5aa2_large_2x.jpg",
+							"widthPx": 540,
+							"heightPx": 328
+						}
+					],
 					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				}
 			],
@@ -6516,7 +6756,15 @@
 						"shine": 0.2,
 						"grain": 0.1
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "mac6-images:compare_macbook_pro_14_spacegray:bs4ph4qrvs76_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_macbook_pro_14_spacegray__bs4ph4qrvs76_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_macbook_pro_14_spacegray__bs4ph4qrvs76_large_2x.jpg",
+							"widthPx": 540,
+							"heightPx": 328
+						}
+					],
 					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
@@ -6732,7 +6980,15 @@
 						"shine": 0.2,
 						"grain": 0.1
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "mac6-images:compare_macbook_pro_14_spaceblack:bcacn5s80i9u_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_macbook_pro_14_spaceblack__bcacn5s80i9u_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_macbook_pro_14_spaceblack__bcacn5s80i9u_large_2x.jpg",
+							"widthPx": 540,
+							"heightPx": 328
+						}
+					],
 					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
@@ -6744,7 +7000,15 @@
 						"shine": 0.2,
 						"grain": 0.1
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "mac6-images:compare_macbook_pro_14_silver:i4mzeamc5aa2_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_macbook_pro_14_silver__i4mzeamc5aa2_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_macbook_pro_14_silver__i4mzeamc5aa2_large_2x.jpg",
+							"widthPx": 540,
+							"heightPx": 328
+						}
+					],
 					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				}
 			],
@@ -6918,7 +7182,15 @@
 						"shine": 0.2,
 						"grain": 0.1
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "mac6-images:compare_macbook_pro_14_spacegray:bs4ph4qrvs76_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_macbook_pro_14_spacegray__bs4ph4qrvs76_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_macbook_pro_14_spacegray__bs4ph4qrvs76_large_2x.jpg",
+							"widthPx": 540,
+							"heightPx": 328
+						}
+					],
 					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				}
 			],
@@ -7059,7 +7331,15 @@
 						"shine": 0.2,
 						"grain": 0.1
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "mac6-images:compare_macbook_pro_16_spaceblack:f89510vnuemq_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_macbook_pro_16_spaceblack__f89510vnuemq_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_macbook_pro_16_spaceblack__f89510vnuemq_large_2x.jpg",
+							"widthPx": 596,
+							"heightPx": 368
+						}
+					],
 					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
@@ -7275,7 +7555,15 @@
 						"shine": 0.2,
 						"grain": 0.1
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "mac6-images:compare_macbook_pro_16_spaceblack:f89510vnuemq_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_macbook_pro_16_spaceblack__f89510vnuemq_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_macbook_pro_16_spaceblack__f89510vnuemq_large_2x.jpg",
+							"widthPx": 596,
+							"heightPx": 368
+						}
+					],
 					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
@@ -7287,7 +7575,15 @@
 						"shine": 0.2,
 						"grain": 0.1
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "mac6-images:compare_macbook_pro_16_silver:d4gi8ytb772a_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_macbook_pro_16_silver__d4gi8ytb772a_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_macbook_pro_16_silver__d4gi8ytb772a_large_2x.jpg",
+							"widthPx": 596,
+							"heightPx": 368
+						}
+					],
 					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				}
 			],
@@ -7461,7 +7757,15 @@
 						"shine": 0.2,
 						"grain": 0.1
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "mac6-images:compare_macbook_pro_16_touch_silver:i79inz0f7ceq_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_macbook_pro_16_touch_silver__i79inz0f7ceq_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_macbook_pro_16_touch_silver__i79inz0f7ceq_large_2x.jpg",
+							"widthPx": 632,
+							"heightPx": 364
+						}
+					],
 					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				}
 			],
@@ -7602,7 +7906,15 @@
 						"shine": 0.2,
 						"grain": 0.1
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "mac6-images:compare_imac_24_m4_blue:fcdp5icivh2e_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_imac_24_m4_blue__fcdp5icivh2e_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_imac_24_m4_blue__fcdp5icivh2e_large_2x.jpg",
+							"widthPx": 446,
+							"heightPx": 376
+						}
+					],
 					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
@@ -7614,7 +7926,15 @@
 						"shine": 0.2,
 						"grain": 0.1
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "mac6-images:compare_imac_24_m4_purple:fpxz9lr6lxyu_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_imac_24_m4_purple__fpxz9lr6lxyu_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_imac_24_m4_purple__fpxz9lr6lxyu_large_2x.jpg",
+							"widthPx": 446,
+							"heightPx": 376
+						}
+					],
 					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
@@ -7626,7 +7946,15 @@
 						"shine": 0.2,
 						"grain": 0.1
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "mac6-images:compare_imac_24_m4_pink:fwpbzjd83fee_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_imac_24_m4_pink__fwpbzjd83fee_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_imac_24_m4_pink__fwpbzjd83fee_large_2x.jpg",
+							"widthPx": 446,
+							"heightPx": 376
+						}
+					],
 					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
@@ -7638,7 +7966,15 @@
 						"shine": 0.2,
 						"grain": 0.1
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "mac6-images:compare_imac_24_m4_orange:fw7k2rbuctay_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_imac_24_m4_orange__fw7k2rbuctay_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_imac_24_m4_orange__fw7k2rbuctay_large_2x.jpg",
+							"widthPx": 446,
+							"heightPx": 376
+						}
+					],
 					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
@@ -7650,7 +7986,15 @@
 						"shine": 0.2,
 						"grain": 0.1
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "mac6-images:compare_imac_24_m4_yellow:cel496oxyggi_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_imac_24_m4_yellow__cel496oxyggi_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_imac_24_m4_yellow__cel496oxyggi_large_2x.jpg",
+							"widthPx": 446,
+							"heightPx": 376
+						}
+					],
 					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
@@ -7662,7 +8006,15 @@
 						"shine": 0.2,
 						"grain": 0.1
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "mac6-images:compare_imac_24_m4_green:fhwld12njsuy_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_imac_24_m4_green__fhwld12njsuy_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_imac_24_m4_green__fhwld12njsuy_large_2x.jpg",
+							"widthPx": 446,
+							"heightPx": 376
+						}
+					],
 					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
@@ -7674,7 +8026,15 @@
 						"shine": 0.2,
 						"grain": 0.1
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "mac6-images:compare_imac_24_m4_silver:edo689dmh8a6_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_imac_24_m4_silver__edo689dmh8a6_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_imac_24_m4_silver__edo689dmh8a6_large_2x.jpg",
+							"widthPx": 446,
+							"heightPx": 376
+						}
+					],
 					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				}
 			],
@@ -7835,7 +8195,15 @@
 						"shine": 0.2,
 						"grain": 0.1
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "mac6-images:compare_mac_mini_m2_silver:fhf41ykb62a2_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_mac_mini_m2_silver__fhf41ykb62a2_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_mac_mini_m2_silver__fhf41ykb62a2_large_2x.jpg",
+							"widthPx": 280,
+							"heightPx": 56
+						}
+					],
 					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
@@ -8022,7 +8390,15 @@
 						"shine": 0.2,
 						"grain": 0.1
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "mac6-images:compare_mac_studio_silver:cjho1zelpv6u_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_mac_studio_silver__cjho1zelpv6u_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_mac_studio_silver__cjho1zelpv6u_large_2x.jpg",
+							"widthPx": 280,
+							"heightPx": 140
+						}
+					],
 					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
@@ -8216,7 +8592,15 @@
 						"shine": 0.2,
 						"grain": 0.1
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "mac6-images:compare_mac_pro_silver:ezesotky808y_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_mac_pro_silver__ezesotky808y_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_mac_pro_silver__ezesotky808y_large_2x.jpg",
+							"widthPx": 182,
+							"heightPx": 432
+						}
+					],
 					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
@@ -8449,7 +8833,15 @@
 						"shine": 0.2,
 						"grain": 0.1
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "mac6-images:compare_mac_pro_silver:ezesotky808y_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_mac_pro_silver__ezesotky808y_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_mac_pro_silver__ezesotky808y_large_2x.jpg",
+							"widthPx": 182,
+							"heightPx": 432
+						}
+					],
 					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
@@ -8636,7 +9028,15 @@
 						"shine": 0.2,
 						"grain": 0.1
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "mac6-images:compare_imac_24_blue:ddj9y4wumh6q_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_imac_24_blue__ddj9y4wumh6q_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_imac_24_blue__ddj9y4wumh6q_large_2x.jpg",
+							"widthPx": 446,
+							"heightPx": 376
+						}
+					],
 					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
@@ -8830,7 +9230,15 @@
 						"shine": 0.2,
 						"grain": 0.1
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "mac6-images:compare_imac_24_m4_silver:edo689dmh8a6_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_imac_24_m4_silver__edo689dmh8a6_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_imac_24_m4_silver__edo689dmh8a6_large_2x.jpg",
+							"widthPx": 446,
+							"heightPx": 376
+						}
+					],
 					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				}
 			],
@@ -8929,7 +9337,15 @@
 						"shine": 0.2,
 						"grain": 0.1
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "mac6-images:compare_imac_24_m4_silver:edo689dmh8a6_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_imac_24_m4_silver__edo689dmh8a6_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_imac_24_m4_silver__edo689dmh8a6_large_2x.jpg",
+							"widthPx": 446,
+							"heightPx": 376
+						}
+					],
 					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				}
 			],
@@ -9028,7 +9444,15 @@
 						"shine": 0.2,
 						"grain": 0.1
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "mac6-images:compare_imac_21_5_retina_2019_silver:dxrouqtnyze6_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_imac_21_5_retina_2019_silver__dxrouqtnyze6_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_imac_21_5_retina_2019_silver__dxrouqtnyze6_large_2x.jpg",
+							"widthPx": 434,
+							"heightPx": 366
+						}
+					],
 					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				}
 			],
@@ -9127,7 +9551,15 @@
 						"shine": 0.2,
 						"grain": 0.1
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "mac6-images:compare_imac_21_5_retina_2017_silver:bf6h2nfzob8i_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_imac_21_5_retina_2017_silver__bf6h2nfzob8i_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_imac_21_5_retina_2017_silver__bf6h2nfzob8i_large_2x.jpg",
+							"widthPx": 434,
+							"heightPx": 366
+						}
+					],
 					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				}
 			],
@@ -9226,7 +9658,15 @@
 						"shine": 0.2,
 						"grain": 0.1
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "mac6-images:compare_imac_27_silver:f3eshdo88ay6_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_imac_27_silver__f3eshdo88ay6_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_imac_27_silver__f3eshdo88ay6_large_2x.jpg",
+							"widthPx": 530,
+							"heightPx": 424
+						}
+					],
 					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				}
 			],
@@ -9325,7 +9765,15 @@
 						"shine": 0.2,
 						"grain": 0.1
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "mac6-images:compare_imac_pro_spacegray:e9efe59wjaai_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_imac_pro_spacegray__e9efe59wjaai_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_imac_pro_spacegray__e9efe59wjaai_large_2x.jpg",
+							"widthPx": 532,
+							"heightPx": 428
+						}
+					],
 					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				}
 			],
@@ -9424,7 +9872,15 @@
 						"shine": 0.2,
 						"grain": 0.1
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "mac6-images:compare_mac_mini_silver:no4krszk9z62_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_mac_mini_silver__no4krszk9z62_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_mac_mini_silver__no4krszk9z62_large_2x.jpg",
+							"widthPx": 280,
+							"heightPx": 56
+						}
+					],
 					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
@@ -9628,7 +10084,15 @@
 						"shine": 0.2,
 						"grain": 0.1
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "mac6-images:compare_mac_mini_spacegray:0wu8xkz5fxuu_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_mac_mini_spacegray__0wu8xkz5fxuu_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_mac_mini_spacegray__0wu8xkz5fxuu_large_2x.jpg",
+							"widthPx": 280,
+							"heightPx": 56
+						}
+					],
 					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
@@ -9844,7 +10308,15 @@
 						"shine": 0.2,
 						"grain": 0.1
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "mac6-images:compare_mac_studio_silver:cjho1zelpv6u_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_mac_studio_silver__cjho1zelpv6u_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_mac_studio_silver__cjho1zelpv6u_large_2x.jpg",
+							"widthPx": 280,
+							"heightPx": 140
+						}
+					],
 					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				}
 			],
@@ -10005,7 +10477,15 @@
 						"shine": 0.2,
 						"grain": 0.1
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "mac6-images:compare_macbook_pro_16_spaceblack:f89510vnuemq_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_macbook_pro_16_spaceblack__f89510vnuemq_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_macbook_pro_16_spaceblack__f89510vnuemq_large_2x.jpg",
+							"widthPx": 596,
+							"heightPx": 368
+						}
+					],
 					"sourceNotes": "Rendered finish label and gallery image class image-compare-macbook-pro-16-m3-spaceblack; exact swatch value, target image bytes, Apple-hosted URL, and dimensions unavailable in supplied HTML. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
@@ -10017,7 +10497,15 @@
 						"shine": 0.2,
 						"grain": 0.1
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "mac6-images:compare_macbook_pro_16_silver:d4gi8ytb772a_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_macbook_pro_16_silver__d4gi8ytb772a_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_macbook_pro_16_silver__d4gi8ytb772a_large_2x.jpg",
+							"widthPx": 596,
+							"heightPx": 368
+						}
+					],
 					"sourceNotes": "Rendered finish label and gallery image class image-compare-macbook-pro-16-m3-silver; exact swatch value, target image bytes, Apple-hosted URL, and dimensions unavailable in supplied HTML. Base hex approximate, sampled from Apple compare/buy imagery."
 				}
 			],
@@ -10095,7 +10583,15 @@
 						"shine": 0.2,
 						"grain": 0.1
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "mac6-images:compare_macbook_pro_16_spacegray:fx7v3msxbd6q_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_macbook_pro_16_spacegray__fx7v3msxbd6q_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_macbook_pro_16_spacegray__fx7v3msxbd6q_large_2x.jpg",
+							"widthPx": 596,
+							"heightPx": 368
+						}
+					],
 					"sourceNotes": "Rendered finish label and gallery image class image-compare-macbook-pro-16-m2-spacegray; exact swatch value, target image bytes, Apple-hosted URL, and dimensions unavailable in supplied HTML. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
@@ -10107,7 +10603,15 @@
 						"shine": 0.2,
 						"grain": 0.1
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "mac6-images:compare_macbook_pro_16_silver:d4gi8ytb772a_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_macbook_pro_16_silver__d4gi8ytb772a_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_macbook_pro_16_silver__d4gi8ytb772a_large_2x.jpg",
+							"widthPx": 596,
+							"heightPx": 368
+						}
+					],
 					"sourceNotes": "Rendered finish label and gallery image class image-compare-macbook-pro-16-m2-silver; exact swatch value, target image bytes, Apple-hosted URL, and dimensions unavailable in supplied HTML. Base hex approximate, sampled from Apple compare/buy imagery."
 				}
 			],
@@ -10185,7 +10689,15 @@
 						"shine": 0.2,
 						"grain": 0.1
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "mac6-images:compare_macbook_pro_14_spacegray:bs4ph4qrvs76_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_macbook_pro_14_spacegray__bs4ph4qrvs76_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_macbook_pro_14_spacegray__bs4ph4qrvs76_large_2x.jpg",
+							"widthPx": 540,
+							"heightPx": 328
+						}
+					],
 					"sourceNotes": "Rendered finish label and gallery image class image-compare-macbook-pro-14-spacegray; exact swatch value, target image bytes, Apple-hosted URL, and dimensions unavailable in supplied HTML. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
@@ -10197,7 +10709,15 @@
 						"shine": 0.2,
 						"grain": 0.1
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "mac6-images:compare_macbook_pro_14_silver:i4mzeamc5aa2_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_macbook_pro_14_silver__i4mzeamc5aa2_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_macbook_pro_14_silver__i4mzeamc5aa2_large_2x.jpg",
+							"widthPx": 540,
+							"heightPx": 328
+						}
+					],
 					"sourceNotes": "Rendered finish label and gallery image class image-compare-macbook-pro-14-silver; exact swatch value, target image bytes, Apple-hosted URL, and dimensions unavailable in supplied HTML. Base hex approximate, sampled from Apple compare/buy imagery."
 				}
 			],
@@ -10265,7 +10785,48 @@
 			"name": "MacBook Pro 16-in. (M1 Pro or M1 Max, 2021)",
 			"releaseYear": 2021,
 			"priceAud": 3749,
-			"colors": [],
+			"colors": [
+				{
+					"id": "space-gray",
+					"displayName": "Space Grey",
+					"finish": {
+						"base": "#68696d",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
+					},
+					"images": [
+						{
+							"label": "mac6-images:compare_macbook_pro_16_spacegray:fx7v3msxbd6q_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_macbook_pro_16_spacegray__fx7v3msxbd6q_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_macbook_pro_16_spacegray__fx7v3msxbd6q_large_2x.jpg",
+							"widthPx": 596,
+							"heightPx": 368
+						}
+					],
+					"sourceNotes": "Backfill: finish row mirrors 14-in M1 Pro/Max sibling; product image staged from Apple Mac compare page (16-in Space Gray/Silver)."
+				},
+				{
+					"id": "silver",
+					"displayName": "Silver",
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
+					},
+					"images": [
+						{
+							"label": "mac6-images:compare_macbook_pro_16_silver:d4gi8ytb772a_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_macbook_pro_16_silver__d4gi8ytb772a_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_macbook_pro_16_silver__d4gi8ytb772a_large_2x.jpg",
+							"widthPx": 596,
+							"heightPx": 368
+						}
+					],
+					"sourceNotes": "Backfill: finish row mirrors 14-in M1 Pro/Max sibling; product image staged from Apple Mac compare page (16-in Space Gray/Silver)."
+				}
+			],
 			"configurations": [],
 			"storageOptions": [
 				{
