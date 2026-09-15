@@ -12,13 +12,18 @@ export function baseOptions(): BaseLayoutProps {
 		links: [],
 
 		nav: {
-			title: appName,
+			title: (
+				<>
+					{/* icon here */}
+					<h1 className="text-lg font-bold font-mono -ml-1.25">{appName}</h1>
+				</>
+			),
 			url: "/",
 			enabled: true,
 			transparentMode: "none",
 			children: (
 				<>
-					<span className="flex-1" />
+					<span className="flex-2" />
 					<AccountButton />
 				</>
 			),
