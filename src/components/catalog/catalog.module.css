@@ -310,10 +310,15 @@
 
 .editorialNote {
 	border-left: 3px solid var(--catalog-accent, #b46a46);
-	color: var(--catalog-muted);
 	margin: 0 0 1.5rem;
 	max-width: 34rem;
 	padding-left: 0.85rem;
+}
+
+.editorialNoteContainer > p {
+	margin: 0;
+	font-family: ui-monospace, SFMono-Regular, monospace;
+	opacity: 0.5;
 }
 
 .editorialNote p {
@@ -334,9 +339,6 @@
 }
 .noteBadge_no {
 	color: #a33a3a;
-}
-.noteBadge_none {
-	color: var(--catalog-muted);
 }
 
 .bookmarkButton {

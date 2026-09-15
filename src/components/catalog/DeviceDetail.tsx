@@ -210,15 +210,18 @@ export function DeviceDetail({ category, device, note }: DeviceDetailProps) {
 							.join("\u00a0\u00a0\u00a0\u00a0")}
 					</p>
 					{note ? (
-						<div className={styles.editorialNote}>
-							{note.goodToBuyText ? (
-								<span
-									className={`${styles.noteBadge} ${styles[`noteBadge_${note.goodToBuy}`]}`}
-								>
-									{note.goodToBuyText}
-								</span>
-							) : null}
-							<p>{note.editorial}</p>
+						<div className={styles.editorialNoteContainer}>
+							<p>Editorial Note</p>
+							<div className={styles.editorialNote}>
+								{note.goodToBuyText ? (
+									<span
+										className={`${styles.noteBadge} ${styles[`noteBadge_${note.goodToBuy}`]}`}
+									>
+										{note.goodToBuyText}
+									</span>
+								) : null}
+								<p>{note.editorial}</p>
+							</div>
 						</div>
 					) : null}
 					<div className={styles.detailActions}>
