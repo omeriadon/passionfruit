@@ -2160,7 +2160,7 @@
 					"displayName": "Sky Blue",
 					"finish": {
 						"base": "#BDD2E5",
-						"material": "polished-titanium"
+						"material": "glass"
 					},
 					"images": [
 						{
@@ -2178,7 +2178,7 @@
 					"displayName": "Light Gold",
 					"finish": {
 						"base": "#E7DCC4",
-						"material": "polished-titanium"
+						"material": "glass"
 					},
 					"images": [
 						{
@@ -2196,7 +2196,7 @@
 					"displayName": "Cloud White",
 					"finish": {
 						"base": "#EFEDE7",
-						"material": "polished-titanium"
+						"material": "glass"
 					},
 					"images": [
 						{
@@ -2214,7 +2214,7 @@
 					"displayName": "Space Black",
 					"finish": {
 						"base": "#2B2E33",
-						"material": "polished-titanium"
+						"material": "glass"
 					},
 					"images": [
 						{
