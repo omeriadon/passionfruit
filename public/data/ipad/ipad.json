@@ -5,7 +5,42 @@
 			"name": "iPad Pro 13-inch (M5)",
 			"releaseYear": 2025,
 			"priceAud": 1999,
-			"colors": [],
+			"colors": [
+				{
+					"id": "ipad-pro-13-m5-spaceblack",
+					"displayName": "Space Black",
+					"finish": {
+						"base": "#2e2c2e",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "front",
+							"appleUrl": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/ipad-pro-13-select-wifi-spaceblack-202405?wid=940&hei=1112&fmt=p-jpg&qlt=95&.v=T1BCOVhFWUx5RnVHWklQQWdsQTFDY3pCNlo3Y2trYUx2VGtnRmoxbk1mRFcvUGs3Z3lJUWVHYk5KZW9nNkdxb1Q5NVJ4OStiQklybHZqYkJwOUI0UWt2aHJVVVRvS3hUQ0EwVk8wak9Ka0g3djBPZUREMElRMHhHVnprUmxPLzg",
+							"localPath": "public/data/ipad/images/ipad-pro-13-select-wifi-spaceblack-202405.jpg",
+							"widthPx": 940,
+							"heightPx": 1112
+						}
+					]
+				},
+				{
+					"id": "ipad-pro-13-m5-silver",
+					"displayName": "Silver",
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "front",
+							"appleUrl": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/ipad-pro-13-select-wifi-silver-202405?wid=940&hei=1112&fmt=p-jpg&qlt=95&.v=T1BCOVhFWUx5RnVHWklQQWdsQTFDV0xGdWdkb2NmaG1yVzIvWDFuNS82LytPWGFLNk1GaGFmR2E1bUR3TXNrOXhxZ1ZZWHcyTUFGTS9hRk5FME1JTXNRUkRub2x2S3QvTjZFa2ZmMXdrcXJ3VWhVeWpNVmUwdDB0cjdHdHgrVnk",
+							"localPath": "public/data/ipad/images/ipad-pro-13-select-wifi-silver-202405.jpg",
+							"widthPx": 940,
+							"heightPx": 1112
+						}
+					]
+				}
+			],
 			"configurations": [],
 			"storageOptions": [
 				{
@@ -208,9 +243,9 @@
 				{
 					"id": "ipad-pro-11-m5-spaceblack",
 					"displayName": "Space Black",
-					"swatch": {
-						"kind": "css",
-						"value": "#2e2c2e"
+					"finish": {
+						"base": "#2e2c2e",
+						"material": "matte-aluminum"
 					},
 					"images": [
 						{
@@ -225,9 +260,9 @@
 				{
 					"id": "ipad-pro-11-m5-silver",
 					"displayName": "Silver",
-					"swatch": {
-						"kind": "css",
-						"value": "#e2e3e4"
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum"
 					},
 					"images": [
 						{
@@ -438,7 +473,76 @@
 			"name": "iPad Air 13-inch (M4)",
 			"releaseYear": 2026,
 			"priceAud": 1599,
-			"colors": [],
+			"colors": [
+				{
+					"id": "ipad-air-13-m4-spacegrey",
+					"displayName": "Space Grey",
+					"finish": {
+						"base": "#68696d",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "front",
+							"appleUrl": "https://www.apple.com/v/ipad/compare/al/images/overview/ipad_air_11_m4_spacegray__foa0ijnqpi2y_large.jpg",
+							"localPath": "public/data/ipad/images/ipad_air_11_m4_spacegray__foa0ijnqpi2y_large.jpg",
+							"widthPx": 257,
+							"heightPx": 292
+						}
+					]
+				},
+				{
+					"id": "ipad-air-13-m4-blue",
+					"displayName": "Blue",
+					"finish": {
+						"base": "#d7e5e6",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "front",
+							"appleUrl": "https://www.apple.com/v/ipad/compare/al/images/overview/ipad_air_11_m4_blue__exgp5c6s4zgy_large.jpg",
+							"localPath": "public/data/ipad/images/ipad_air_11_m4_blue__exgp5c6s4zgy_large.jpg",
+							"widthPx": 257,
+							"heightPx": 292
+						}
+					]
+				},
+				{
+					"id": "ipad-air-13-m4-purple",
+					"displayName": "Purple",
+					"finish": {
+						"base": "#e3dee9",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "front",
+							"appleUrl": "https://www.apple.com/v/ipad/compare/al/images/overview/ipad_air_11_m4_purple__dc5imizwemwm_large.jpg",
+							"localPath": "public/data/ipad/images/ipad_air_11_m4_purple__dc5imizwemwm_large.jpg",
+							"widthPx": 257,
+							"heightPx": 292
+						}
+					]
+				},
+				{
+					"id": "ipad-air-13-m4-starlight",
+					"displayName": "Starlight",
+					"finish": {
+						"base": "#e3dcd1",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "front",
+							"appleUrl": "https://www.apple.com/v/ipad/compare/al/images/overview/ipad_air_11_m4_starlight__ckjmo75jgej6_large.jpg",
+							"localPath": "public/data/ipad/images/ipad_air_11_m4_starlight__ckjmo75jgej6_large.jpg",
+							"widthPx": 257,
+							"heightPx": 292
+						}
+					]
+				}
+			],
 			"configurations": [],
 			"storageOptions": [
 				{
@@ -641,9 +745,9 @@
 				{
 					"id": "ipad-air-11-m4-spacegrey",
 					"displayName": "Space Grey",
-					"swatch": {
-						"kind": "css",
-						"value": "#68696d"
+					"finish": {
+						"base": "#68696d",
+						"material": "matte-aluminum"
 					},
 					"images": [
 						{
@@ -658,9 +762,9 @@
 				{
 					"id": "ipad-air-11-m4-blue",
 					"displayName": "Blue",
-					"swatch": {
-						"kind": "css",
-						"value": "#d7e5e6"
+					"finish": {
+						"base": "#d7e5e6",
+						"material": "matte-aluminum"
 					},
 					"images": [
 						{
@@ -675,9 +779,9 @@
 				{
 					"id": "ipad-air-11-m4-purple",
 					"displayName": "Purple",
-					"swatch": {
-						"kind": "css",
-						"value": "#e3dee9"
+					"finish": {
+						"base": "#e3dee9",
+						"material": "matte-aluminum"
 					},
 					"images": [
 						{
@@ -692,9 +796,9 @@
 				{
 					"id": "ipad-air-11-m4-starlight",
 					"displayName": "Starlight",
-					"swatch": {
-						"kind": "css",
-						"value": "#e3dcd1"
+					"finish": {
+						"base": "#e3dcd1",
+						"material": "matte-aluminum"
 					},
 					"images": [
 						{
@@ -905,7 +1009,76 @@
 			"name": "iPad (A16)",
 			"releaseYear": 2025,
 			"priceAud": 749,
-			"colors": [],
+			"colors": [
+				{
+					"id": "ipad-a16-blue",
+					"displayName": "Blue",
+					"finish": {
+						"base": "#6983a4",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "front",
+							"appleUrl": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/ipad-2022-hero-blue-wifi-select?wid=940&hei=1112&fmt=png-alpha&.v=ZDYzbWk1aEx5d0Zuc0F2SVU5OUdjYysrRVozbWRzbjhnK1I1RGhZalVLOFRBb2Y3bDBKVGVlSmVleUE2Ymp3SVM0TjRWdzF2UjRGVEY0c3dBQVZ6VFJVSTEzTy9jUnIrRUtYQzJ6bHZJc00",
+							"localPath": "public/data/ipad/images/ipad-2022-hero-blue-wifi-select.png",
+							"widthPx": 940,
+							"heightPx": 1112
+						}
+					]
+				},
+				{
+					"id": "ipad-a16-silver",
+					"displayName": "Silver",
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "front",
+							"appleUrl": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/ipad-2022-hero-silver-wifi-select?wid=940&hei=1112&fmt=png-alpha&.v=MG1udWpyWFI4d3VJQmF2aGlucjRyYUtrNVcxNFM0TGJlbkh3VDIzWFBmY2hPVVo3RjZFdVpCTXpsVXRVUk9xbmJjNitDN2kyNWFITm1kN1lsSUFHR2J2UHJZOUZxd0JoWkRMWVBTV1Y2Z3YrNmVjbmk5c1V4VVk2VEt3TGcxekg",
+							"localPath": "public/data/ipad/images/ipad-2022-hero-silver-wifi-select.png",
+							"widthPx": 940,
+							"heightPx": 1112
+						}
+					]
+				},
+				{
+					"id": "ipad-a16-pink",
+					"displayName": "Pink",
+					"finish": {
+						"base": "#de6878",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "front",
+							"appleUrl": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/ipad-2022-hero-pink-wifi-select?wid=940&hei=1112&fmt=png-alpha&.v=K1VRcjAwcUw4UURuam5iaHdRaWlCN1kvYTZkQXJ1Z1hERDd5dUNRaWRNMFRBb2Y3bDBKVGVlSmVleUE2Ymp3SVM0TjRWdzF2UjRGVEY0c3dBQVZ6VFNyaEt5OEVaRTFoTmNyQmlpVUFxdms",
+							"localPath": "public/data/ipad/images/ipad-2022-hero-pink-wifi-select.png",
+							"widthPx": 940,
+							"heightPx": 1112
+						}
+					]
+				},
+				{
+					"id": "ipad-a16-yellow",
+					"displayName": "Yellow",
+					"finish": {
+						"base": "#f0d961",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "front",
+							"appleUrl": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/ipad-2022-hero-yellow-wifi-select?wid=940&hei=1112&fmt=png-alpha&.v=Q251SHhDYWdkSG14R3NzbW9vU1lxM0hEa2phNHR6TGgvaHgzbUc2R3J2c2hPVVo3RjZFdVpCTXpsVXRVUk9xbmJjNitDN2kyNWFITm1kN1lsSUFHR2ExdkJqQW5NMEtqSnBIV1lIUUtPU0M1dDgvV3BhU1hoSzFPUEZjam5HQ2g",
+							"localPath": "public/data/ipad/images/ipad-2022-hero-yellow-wifi-select.png",
+							"widthPx": 940,
+							"heightPx": 1112
+						}
+					]
+				}
+			],
 			"configurations": [],
 			"storageOptions": [
 				{
@@ -1091,7 +1264,76 @@
 			"name": "iPad mini (A17 Pro)",
 			"releaseYear": 2024,
 			"priceAud": 949,
-			"colors": [],
+			"colors": [
+				{
+					"id": "ipad-mini-a17-pro-spacegray",
+					"displayName": "Space Gray",
+					"finish": {
+						"base": "#68696d",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "front",
+							"appleUrl": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/ipad-mini-select-wifi-spacegray-202410?wid=940&hei=1112&fmt=png-alpha&.v=NmJhVkxMSzd4RmRrSjJwN2s4VWJVKzlBaHA1THNMUXlDa1dRMU1wTGcxYlRKc3dEODNneTBSZFNTOGZoVVpTaURPUU9BWmJWRXFZMEJicERYSS9tMXZ3UU5uUUpBVE5PT3lEMWJHa3h5c29tYUg4SmtKcW5xSGI3YTdpRVdNejg",
+							"localPath": "public/data/ipad/images/ipad-mini-select-wifi-spacegray-202410.png",
+							"widthPx": 940,
+							"heightPx": 1112
+						}
+					]
+				},
+				{
+					"id": "ipad-mini-a17-pro-blue",
+					"displayName": "Blue",
+					"finish": {
+						"base": "#d7e5e6",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "front",
+							"appleUrl": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/ipad-mini-select-wifi-blue-202410?wid=940&hei=1112&fmt=png-alpha&.v=NmJhVkxMSzd4RmRrSjJwN2s4VWJVMHBIYm5EcjF5ZHdTWjByNmplMHhtVDRXdlpsMGFvb09SOHRPYjdBV3NIZmJjNitDN2kyNWFITm1kN1lsSUFHR2JiZ2pyMnJPbUExZmhtMSs0WUFMOWIrNmVjbmk5c1V4VVk2VEt3TGcxekg",
+							"localPath": "public/data/ipad/images/ipad-mini-select-wifi-blue-202410.png",
+							"widthPx": 940,
+							"heightPx": 1112
+						}
+					]
+				},
+				{
+					"id": "ipad-mini-a17-pro-purple",
+					"displayName": "Purple",
+					"finish": {
+						"base": "#e3dee9",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "front",
+							"appleUrl": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/ipad-mini-select-wifi-purple-202410?wid=940&hei=1112&fmt=png-alpha&.v=NmJhVkxMSzd4RmRrSjJwN2s4VWJVNzVFK2U2TjRHYmZNU1M0UzNyaEJrVWVIWjNpaWxvby9UZ2w1T1c3cUwrbTJpdkFkeXRGenVzczlmSUZMYlgrMGpTeHhnaUcyb2JhMy9MQVIreWhPN2IrQWpCVmo0bmtLZHNRZStPMUV5Smw",
+							"localPath": "public/data/ipad/images/ipad-mini-select-wifi-purple-202410.png",
+							"widthPx": 940,
+							"heightPx": 1112
+						}
+					]
+				},
+				{
+					"id": "ipad-mini-a17-pro-starlight",
+					"displayName": "Starlight",
+					"finish": {
+						"base": "#e3dcd1",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "front",
+							"appleUrl": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/ipad-mini-select-wifi-starlight-202410?wid=940&hei=1112&fmt=png-alpha&.v=NmJhVkxMSzd4RmRrSjJwN2s4VWJVL1BpQlQwb3h0VkRmZ2J1a0V4U1RJUFRKc3dEODNneTBSZFNTOGZoVVpTaURPUU9BWmJWRXFZMEJicERYSS9tMXJDcDlldEFQaVVyK0hEMVJoODVlTnc1SS91S1JMZnFCdjg2TmtONThzSkE",
+							"localPath": "public/data/ipad/images/ipad-mini-select-wifi-starlight-202410.png",
+							"widthPx": 940,
+							"heightPx": 1112
+						}
+					]
+				}
+			],
 			"configurations": [],
 			"storageOptions": [
 				{
