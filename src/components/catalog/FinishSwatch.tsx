@@ -42,8 +42,15 @@ export type FinishRecord = {
 type Recipe = {
 	/** Luminosity spread 0..1 around the base hex. */
 	spread: number;
-	/** Directional base angle in degrees. */
+	/** Directional base angle in degrees (ignored for radial bases). */
 	angle: number;
+	/** Radial base (center glow fading to a darker rim) instead of directional. */
+	radialBase: boolean;
+	/**
+	 * Auto two-tone: derive a near-tone second side by darkening the base by
+	 * this amount (0 = off). Explicit duo records in data always win.
+	 */
+	subtleDuo: number;
 	glareX: number;
 	glareY: number;
 	glareOpacity: number;
@@ -58,6 +65,8 @@ const RECIPES: Record<FinishMaterial, Recipe> = {
 	"matte-aluminum": {
 		spread: 0.1,
 		angle: 160,
+		radialBase: true,
+		subtleDuo: 0,
 		glareX: 34,
 		glareY: 26,
 		glareOpacity: 0.35,
@@ -70,11 +79,13 @@ const RECIPES: Record<FinishMaterial, Recipe> = {
 	"brushed-titanium": {
 		spread: 0.16,
 		angle: 135,
+		radialBase: false,
+		subtleDuo: 0,
 		glareX: 33,
 		glareY: 25,
 		glareOpacity: 0.4,
 		shine: 0.3,
-		grain: 0.08,
+		grain: 0.15,
 		streaks: true,
 		weave: false,
 		flat: false,
@@ -82,11 +93,13 @@ const RECIPES: Record<FinishMaterial, Recipe> = {
 	"polished-titanium": {
 		spread: 0.22,
 		angle: 135,
+		radialBase: false,
+		subtleDuo: 0.14,
 		glareX: 32,
 		glareY: 24,
 		glareOpacity: 0.5,
 		shine: 0.6,
-		grain: 0,
+		grain: 0.1,
 		streaks: false,
 		weave: false,
 		flat: false,
@@ -94,6 +107,8 @@ const RECIPES: Record<FinishMaterial, Recipe> = {
 	"polished-steel": {
 		spread: 0.3,
 		angle: 135,
+		radialBase: false,
+		subtleDuo: 0,
 		glareX: 32,
 		glareY: 24,
 		glareOpacity: 0.6,
@@ -106,6 +121,8 @@ const RECIPES: Record<FinishMaterial, Recipe> = {
 	ceramic: {
 		spread: 0.12,
 		angle: 150,
+		radialBase: true,
+		subtleDuo: 0.12,
 		glareX: 36,
 		glareY: 28,
 		glareOpacity: 0.5,
@@ -118,6 +135,8 @@ const RECIPES: Record<FinishMaterial, Recipe> = {
 	glass: {
 		spread: 0.25,
 		angle: 135,
+		radialBase: false,
+		subtleDuo: 0,
 		glareX: 35,
 		glareY: 28,
 		glareOpacity: 0.5,
@@ -130,6 +149,8 @@ const RECIPES: Record<FinishMaterial, Recipe> = {
 	fabric: {
 		spread: 0,
 		angle: 135,
+		radialBase: false,
+		subtleDuo: 0,
 		glareX: 34,
 		glareY: 26,
 		glareOpacity: 0,
@@ -142,6 +163,8 @@ const RECIPES: Record<FinishMaterial, Recipe> = {
 	flat: {
 		spread: 0,
 		angle: 135,
+		radialBase: false,
+		subtleDuo: 0,
 		glareX: 34,
 		glareY: 26,
 		glareOpacity: 0,
@@ -187,6 +210,15 @@ function shade(hex: string, amount: number) {
 		rgb[1] + (target - rgb[1]) * mix,
 		rgb[2] + (target - rgb[2]) * mix,
 	);
+}
+
+function radialStops(base: string, spread: number): Array<[number, string]> {
+	if (spread <= 0) return [[0, base]];
+	return [
+		[0, shade(base, spread)],
+		[55, base],
+		[100, shade(base, -spread * 1.2)],
+	];
 }
 
 function gradientStops(base: string, spread: number): Array<[number, string]> {
@@ -265,11 +297,30 @@ function GradientDef({
 	id,
 	base,
 	recipe,
+	glareX,
+	glareY,
 }: {
 	id: string;
 	base: string;
 	recipe: Recipe;
+	glareX: number;
+	glareY: number;
 }) {
+	if (recipe.radialBase) {
+		const stops = radialStops(base, recipe.spread);
+		return (
+			<radialGradient
+				id={id}
+				cx={glareX / 100}
+				cy={glareY / 100}
+				r="0.75"
+			>
+				{stops.map(([offset, color]) => (
+					<stop key={offset} offset={`${offset}%`} stopColor={color} />
+				))}
+			</radialGradient>
+		);
+	}
 	const stops = gradientStops(base, recipe.spread);
 	return (
 		<linearGradient
@@ -298,10 +349,21 @@ export function FinishSwatch({ finish }: { finish?: FinishRecord }) {
 	const shine = clamp(finish?.shine, recipe.shine);
 	const grain = clamp(finish?.grain, recipe.grain);
 	const weave = finish?.weave ?? recipe.weave;
-	const duo = finish?.duo;
+	// Explicit duo records always win. Otherwise polished materials get an
+	// automatic near-tone second side (same preset, only base differs).
+	const effectiveDuo =
+		finish?.duo ??
+		(recipe.subtleDuo > 0
+			? {
+					base: shade(base, -recipe.subtleDuo),
+					material,
+				}
+			: undefined);
 	const duoRecipe: Recipe =
-		duo?.material && RECIPES[duo.material] ? RECIPES[duo.material] : recipe;
-	const duoBase = duo?.base ?? base;
+		effectiveDuo?.material && RECIPES[effectiveDuo.material]
+			? RECIPES[effectiveDuo.material]
+			: recipe;
+	const duoBase = effectiveDuo?.base ?? base;
 
 	const clipId = `fc-${uid}`;
 	const gradAId = `fa-${uid}`;
@@ -327,13 +389,25 @@ export function FinishSwatch({ finish }: { finish?: FinishRecord }) {
 				<clipPath id={clipId}>
 					<circle cx={CENTER} cy={CENTER} r={RADIUS} />
 				</clipPath>
-				<GradientDef id={gradAId} base={base} recipe={recipe} />
-				{duo ? (
-					<GradientDef id={gradBId} base={duoBase} recipe={duoRecipe} />
+				<GradientDef
+					id={gradAId}
+					base={base}
+					recipe={recipe}
+					glareX={glareX}
+					glareY={glareY}
+				/>
+				{effectiveDuo ? (
+					<GradientDef
+						id={gradBId}
+						base={duoBase}
+						recipe={duoRecipe}
+						glareX={glareX}
+						glareY={glareY}
+					/>
 				) : null}
-				{duo ? (
+				{effectiveDuo ? (
 					<clipPath id={sideId}>
-						<path d={splitPath(duo.split ?? {})} />
+						<path d={splitPath(effectiveDuo.split ?? {})} />
 					</clipPath>
 				) : null}
 				{/* Feathered speculars: radial fades to transparent so the glow
@@ -386,22 +460,22 @@ export function FinishSwatch({ finish }: { finish?: FinishRecord }) {
 				</pattern>
 				<pattern
 					id={streakId}
-					width="3"
-					height="6"
+					width="2"
+					height="5"
 					patternUnits="userSpaceOnUse"
 					patternTransform={`rotate(${recipe.angle})`}
 				>
-					<rect width="1.2" height="6" fill="#ffffff" opacity="0.05" />
-					<rect width="3" height="6" fill="transparent" />
+					<rect width="0.7" height="5" fill="#ffffff" opacity="0.035" />
+					<rect width="2" height="5" fill="transparent" />
 				</pattern>
 			</defs>
 			<g clipPath={`url(#${clipId})`}>
-				{recipe.flat && !duo ? (
+				{recipe.flat && !effectiveDuo ? (
 					<rect width={SIZE} height={SIZE} fill={base} />
 				) : (
 					<rect width={SIZE} height={SIZE} fill={`url(#${gradAId})`} />
 				)}
-				{duo ? (
+				{effectiveDuo ? (
 					<rect
 						width={SIZE}
 						height={SIZE}
@@ -409,7 +483,7 @@ export function FinishSwatch({ finish }: { finish?: FinishRecord }) {
 						clipPath={`url(#${sideId})`}
 					/>
 				) : null}
-				{recipe.streaks && !duo ? (
+				{recipe.streaks && !effectiveDuo ? (
 					<rect width={SIZE} height={SIZE} fill={`url(#${streakId})`} />
 				) : null}
 				{weave ? (
