@@ -103,7 +103,7 @@ export function GlassAccountHeader({
 				<div className="@container hidden justify-end md:flex md:w-52 xl:w-64">
 					<slots.searchTrigger.full
 						className={cn(
-							"glass-header-surface rounded-full",
+							"glass-header-surface rounded-xl",
 							"text-fd-muted-foreground ps-3 w-full @sm:max-w-50",
 						)}
 					/>
