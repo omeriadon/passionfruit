@@ -211,13 +211,13 @@ export function DeviceDetail({ category, device, note }: DeviceDetailProps) {
 					</p>
 					{note ? (
 						<div className={styles.editorialNote}>
-							<span
-								className={`${styles.noteBadge} ${styles[`noteBadge_${note.goodToBuy}`]}`}
-							>
-								{note.goodToBuy === "unknown"
-									? "Buy status not set"
-									: `Good to buy: ${note.goodToBuy}`}
-							</span>
+							{note.goodToBuyText ? (
+								<span
+									className={`${styles.noteBadge} ${styles[`noteBadge_${note.goodToBuy}`]}`}
+								>
+									{note.goodToBuyText}
+								</span>
+							) : null}
 							<p>{note.editorial}</p>
 						</div>
 					) : null}

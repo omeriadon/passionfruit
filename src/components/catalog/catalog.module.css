@@ -334,10 +334,7 @@
 .noteBadge_no {
 	color: #a33a3a;
 }
-.noteBadge_caution {
-	color: #996b00;
-}
-.noteBadge_unknown {
+.noteBadge_none {
 	color: var(--catalog-muted);
 }
 
