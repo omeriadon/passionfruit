@@ -21,7 +21,6 @@ import {
 	type CatalogImage,
 	type CatalogValue,
 } from "@/lib/catalog/types";
-import { catalogConfigs } from "@/lib/catalog/config";
 import { FinishSwatch } from "./FinishSwatch";
 import styles from "./catalog.module.css";
 import type { DeviceNote } from "@/lib/device-notes";
@@ -142,10 +141,11 @@ export function DeviceDetail({ category, device, note }: DeviceDetailProps) {
 	);
 	const bookmarked = isBookmarked(category, device.id);
 	const owned = isOwned(category, device.id);
+	const [optimisticBookmarked, setOptimisticBookmarked] = useState<boolean>();
+	const [optimisticOwned, setOptimisticOwned] = useState<boolean>();
 	const [bookmarkPending, setBookmarkPending] = useState(false);
 	const [ownedPending, setOwnedPending] = useState(false);
 	const [showSources, setShowSources] = useState(false);
-	const config = catalogConfigs[category];
 	const colors = getColors(device);
 	const selectedColor = useMemo(
 		() => colors.find((color) => color.id === selectedColorId) ?? colors[0],
@@ -153,34 +153,61 @@ export function DeviceDetail({ category, device, note }: DeviceDetailProps) {
 	);
 	const image = displayImage(device, selectedColor);
 	const imageSource = getImageSource(image);
+	const displayedBookmarked = user
+		? (optimisticBookmarked ?? bookmarked)
+		: false;
+	const displayedOwned = user ? (optimisticOwned ?? owned) : false;
 
 	async function handleBookmark() {
+		if (!user) {
+			await toggleBookmark(category, device.id);
+			return;
+		}
+		const next = !displayedBookmarked;
+		setOptimisticBookmarked(next);
 		setBookmarkPending(true);
-		await toggleBookmark(category, device.id);
-		setBookmarkPending(false);
+		try {
+			await toggleBookmark(category, device.id);
+		} finally {
+			setOptimisticBookmarked(undefined);
+			setBookmarkPending(false);
+		}
 	}
 
 	async function handleOwned() {
+		if (!user) {
+			await toggleOwned(category, device.id);
+			return;
+		}
+		const next = !displayedOwned;
+		setOptimisticOwned(next);
 		setOwnedPending(true);
-		await toggleOwned(category, device.id);
-		setOwnedPending(false);
+		try {
+			await toggleOwned(category, device.id);
+		} finally {
+			setOptimisticOwned(undefined);
+			setOwnedPending(false);
+		}
 	}
 
 	return (
 		<article className={styles.detail} aria-labelledby={`${device.id}-title`}>
 			<div className={styles.detailHero}>
 				<div className={styles.detailCopy}>
-					<p className={styles.eyebrow}>{config.label}</p>
 					<h2 id={`${device.id}-title`} className={styles.detailTitle}>
 						{device.name}
 					</h2>
 					<p className={styles.detailMeta}>
-						{typeof device.releaseYear === "number"
-							? `Released ${device.releaseYear}`
-							: "Release year not recorded"}
-						{typeof device.priceAud === "number"
-							? ` · From $${device.priceAud.toLocaleString("en-AU")}`
-							: ""}
+						{[
+							typeof device.releaseYear === "number"
+								? String(device.releaseYear)
+								: null,
+							typeof device.priceAud === "number"
+								? `$${device.priceAud.toLocaleString("en-AU")}`
+								: null,
+						]
+							.filter(Boolean)
+							.join(" · ")}
 					</p>
 					{note ? (
 						<div className={styles.editorialNote}>
@@ -194,50 +221,54 @@ export function DeviceDetail({ category, device, note }: DeviceDetailProps) {
 							<p>{note.editorial}</p>
 						</div>
 					) : null}
-					<button
-						type="button"
-						className={`${styles.bookmarkButton} ${bookmarked ? styles.bookmarked : ""}`}
-						aria-pressed={bookmarked}
-						aria-label={
-							bookmarked
-								? `Remove ${device.name} bookmark`
-								: `Bookmark ${device.name}`
-						}
-						onClick={handleBookmark}
-						disabled={bookmarkPending || isLoading}
-					>
-						{bookmarked ? (
-							<Check aria-hidden="true" size={16} />
-						) : (
-							<Bookmark aria-hidden="true" size={16} />
-						)}
-						{bookmarkPending
-							? "Saving…"
-							: bookmarked
+					<div className={styles.detailActions}>
+						<button
+							type="button"
+							className={`${styles.bookmarkButton} ${displayedBookmarked ? styles.bookmarked : ""}`}
+							aria-pressed={displayedBookmarked}
+							aria-label={
+								displayedBookmarked
+									? `Remove ${device.name} bookmark`
+									: user
+										? `Bookmark ${device.name}`
+										: `Sign in to bookmark ${device.name}`
+							}
+							onClick={handleBookmark}
+							disabled={bookmarkPending || isLoading}
+						>
+							{displayedBookmarked ? (
+								<Check aria-hidden="true" size={15} />
+							) : (
+								<Bookmark aria-hidden="true" size={15} />
+							)}
+							{displayedBookmarked
 								? "Bookmarked"
 								: user
 									? "Bookmark"
-									: "Sign in to bookmark"}
-					</button>
-					<button
-						type="button"
-						className={`${styles.bookmarkButton} ${owned ? styles.bookmarked : ""}`}
-						aria-pressed={owned}
-						aria-label={
-							owned
-								? `Remove ${device.name} from your devices`
-								: `Mark ${device.name} as yours`
-						}
-						onClick={handleOwned}
-						disabled={ownedPending || isLoading}
-					>
-						{owned ? (
-							<Check aria-hidden="true" size={16} />
-						) : (
-							<BadgeCheck aria-hidden="true" size={16} />
-						)}
-						{ownedPending ? "Saving…" : user ? "Mine" : "Sign in to mark yours"}
-					</button>
+									: "Sign in"}
+						</button>
+						<button
+							type="button"
+							className={`${styles.bookmarkButton} ${displayedOwned ? styles.bookmarked : ""}`}
+							aria-pressed={displayedOwned}
+							aria-label={
+								displayedOwned
+									? `Remove ${device.name} from your devices`
+									: user
+										? `Mark ${device.name} as yours`
+										: `Sign in to mark ${device.name} as yours`
+							}
+							onClick={handleOwned}
+							disabled={ownedPending || isLoading}
+						>
+							{displayedOwned ? (
+								<Check aria-hidden="true" size={15} />
+							) : (
+								<BadgeCheck aria-hidden="true" size={15} />
+							)}
+							{displayedOwned ? "Mine" : user ? "Mine" : "Sign in"}
+						</button>
+					</div>
 					{actionError ? (
 						<p role="alert" className={styles.bookmarkError}>
 							{actionError}
@@ -267,12 +298,7 @@ export function DeviceDetail({ category, device, note }: DeviceDetailProps) {
 
 			{colors.length > 0 ? (
 				<div className={styles.colorPicker}>
-					<div>
-						<p className={styles.fieldLabel}>Finish</p>
-						<p className={styles.selectedColor}>
-							{selectedColor?.displayName ?? "Select a finish"}
-						</p>
-					</div>
+					<p className={styles.fieldLabel}>Finish</p>
 					<div
 						className={styles.colorOptions}
 						role="radiogroup"
@@ -289,7 +315,10 @@ export function DeviceDetail({ category, device, note }: DeviceDetailProps) {
 									aria-label={color.displayName ?? "Unnamed finish"}
 									onClick={() => setSelectedColorId(color.id)}
 								>
-									<FinishSwatch finish={color.finish} />
+									<span className={styles.swatchVisual}>
+										<FinishSwatch finish={color.finish} />
+									</span>
+									<span>{color.displayName ?? "Unnamed finish"}</span>
 								</button>
 							);
 						})}

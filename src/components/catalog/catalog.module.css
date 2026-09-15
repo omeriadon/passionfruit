@@ -45,7 +45,8 @@
 
 .detailTitle {
 	font-size: clamp(2rem, 5vw, 4rem);
-	max-width: 12ch;
+	font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+	max-width: none;
 }
 
 .tableActions {
@@ -303,7 +304,7 @@
 
 .detailMeta {
 	color: var(--catalog-muted);
-	margin: 1rem 0 1.5rem;
+	margin: 1rem 0 1.25rem;
 }
 
 .editorialNote {
@@ -321,14 +322,9 @@
 }
 
 .noteBadge {
-	border: 1px solid currentColor;
-	border-radius: 999px;
 	display: inline-flex;
-	font-size: 0.7rem;
+	font-size: 0.8rem;
 	font-weight: 600;
-	letter-spacing: 0.02em;
-	padding: 0.25rem 0.55rem;
-	text-transform: uppercase;
 }
 
 .noteBadge_yes {
@@ -345,8 +341,16 @@
 }
 
 .bookmarkButton {
-	align-self: flex-start;
 	background: transparent;
+	border-radius: 6px;
+	font-size: 0.85rem;
+	padding: 0.45rem 0.7rem;
+}
+
+.detailActions {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.45rem;
 }
 
 .bookmarked {
@@ -356,8 +360,7 @@
 }
 
 .bookmarkButton:disabled {
-	cursor: wait;
-	opacity: 0.65;
+	cursor: default;
 }
 
 .bookmarkError {
@@ -397,29 +400,34 @@
 
 .colorPicker {
 	align-items: center;
-	padding: 2rem 0;
-}
-
-.selectedColor {
-	font-size: 0.9rem;
-	margin: 0.25rem 0 0;
+	padding: 1.5rem 0;
 }
 
 .colorOptions {
 	display: flex;
 	flex-wrap: wrap;
-	gap: 0.75rem;
+	gap: 1rem;
 	justify-content: flex-end;
 }
 
 .swatchButton {
+	align-items: center;
 	background: transparent;
 	border: none;
-	border-radius: 999px;
 	cursor: pointer;
-	height: 3.5rem;
+	display: flex;
+	flex-direction: column;
+	font: inherit;
+	font-size: 0.75rem;
+	gap: 0.5rem;
+	height: auto;
 	padding: 0;
-	width: 3.5rem;
+	width: 4.5rem;
+}
+
+.swatchVisual {
+	height: 4rem;
+	width: 4rem;
 }
 
 .swatchButton:focus-visible {
@@ -427,10 +435,11 @@
 	outline-offset: 2px;
 }
 
-.selectedSwatch {
+.selectedSwatch .swatchVisual {
 	box-shadow:
 		0 0 0 3px Canvas,
-		0 0 0 5px var(--catalog-accent, #b46a46);
+		0 0 0 5px white;
+	border-radius: 50%;
 }
 
 .detailSections {
@@ -451,18 +460,28 @@
 
 .optionList {
 	display: flex;
-	flex-wrap: wrap;
-	gap: 0.6rem;
+	gap: 1.5rem;
 	list-style: none;
 	margin: 0;
 	padding: 0;
 }
 
 .optionList li {
-	border: 1px solid var(--catalog-border);
-	border-radius: 999px;
 	font-weight: 600;
-	padding: 0.55rem 0.9rem;
+	white-space: nowrap;
+}
+
+.compactRow {
+	align-items: center;
+	display: flex;
+	gap: 1.5rem;
+	justify-content: space-between;
+}
+
+.compactRow h2 {
+	font-size: 0.9rem;
+	line-height: normal;
+	margin: 0;
 }
 
 .configurationList,

@@ -37,7 +37,7 @@ export function AccessoryCatalog({
 			aria-labelledby={`${accessory}-title`}
 		>
 			{detail ? (
-				<DeviceDetail category="ipad" device={detail} />
+				<DeviceDetail key={detail.id} category="ipad" device={detail} />
 			) : (
 				<>
 					<div className={styles.sectionIntro}>

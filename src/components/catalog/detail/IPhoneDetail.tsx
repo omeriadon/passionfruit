@@ -171,9 +171,12 @@ export function IPhoneDetail({ device, showSources }: IPhoneDetailProps) {
 			<Section id="storage" title="Storage">
 				<StorageOptions value={device.storageOptions ?? null} />
 			</Section>
-			<Section id="memory" title="Memory">
-				<p>{memoryGb || "Not recorded"}</p>
-			</Section>
+			<section id="memory" className={styles.detailSection}>
+				<div className={styles.compactRow}>
+					<h2>Memory</h2>
+					<strong>{memoryGb || "Not recorded"}</strong>
+				</div>
+			</section>
 			<Section id="design-and-compatibility" title="Design and compatibility">
 				<SummaryList
 					items={[
@@ -385,7 +388,6 @@ export function IPhoneDetail({ device, showSources }: IPhoneDetailProps) {
 export function getIPhoneTableOfContents(device: CatalogDevice) {
 	const entries = [
 		["Storage", "#storage"],
-		["Configurations", "#configurations"],
 		["Memory", "#memory"],
 		["Design and compatibility", "#design-and-compatibility"],
 		["Overview images", "#overview-images"],

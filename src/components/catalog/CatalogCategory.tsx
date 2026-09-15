@@ -32,6 +32,7 @@ export function CatalogCategory({
 		<div className={styles.catalogCategory}>
 			{detailDevice ? (
 				<DeviceDetail
+					key={`${category}:${detailDevice.id}`}
 					category={category}
 					device={detailDevice}
 					note={detailNote}
