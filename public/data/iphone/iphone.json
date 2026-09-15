@@ -11,9 +11,18 @@
 					"displayName": "Night Sky",
 					"finish": {
 						"base": "#141C28",
-						"material": "flat"
+						"material": "glass",
+						"shine": 0.6
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "iPhone Duo Night Sky",
+							"appleUrl": "https://www.apple.com/newsroom/images/2026/09/apple-unveils-iphone-duo/article/Apple-iPhone-Duo-colors-260909_big.jpg.large_2x.jpg",
+							"localPath": "public/data/iphone/images/5ba75dd6f80f6381-Apple-iPhone-Duo-colors-260909_big.jpg.large_2x.jpg",
+							"widthPx": 1960,
+							"heightPx": 1102
+						}
+					],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name (no official swatch hex published); recorded per data/tmp/iphone/iphone-18-pro-au-2026.html and buy-iphone-*-au-2026.html finish lists."
 				},
 				{
@@ -21,9 +30,18 @@
 					"displayName": "Star White",
 					"finish": {
 						"base": "#F4F1EA",
-						"material": "flat"
+						"material": "ceramic",
+						"shine": 0.5
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "iPhone Duo Star White",
+							"appleUrl": "https://www.apple.com/newsroom/images/2026/09/apple-unveils-iphone-duo/article/Apple-iPhone-Duo-colors-260909_big.jpg.large_2x.jpg",
+							"localPath": "public/data/iphone/images/5ba75dd6f80f6381-Apple-iPhone-Duo-colors-260909_big.jpg.large_2x.jpg",
+							"widthPx": 1960,
+							"heightPx": 1102
+						}
+					],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name (no official swatch hex published); recorded per data/tmp/iphone/iphone-18-pro-au-2026.html and buy-iphone-*-au-2026.html finish lists."
 				}
 			],
@@ -388,7 +406,15 @@
 						"base": "#5E1A2B",
 						"material": "matte-aluminum"
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "iPhone 18 Pro Max Burgundy",
+							"appleUrl": "https://www.apple.com/newsroom/images/2026/09/get-ready-to-experience-iphone-18-pro-the-new-apple-watch-lineup-and-airpods-5/article/Apple-iPhone-18-Pro-Max-burgundy-iPhone-18-Pro-burgundy_inline.jpg.large_2x.jpg",
+							"localPath": "public/data/iphone/images/78c203936dd75334-Apple-iPhone-18-Pro-Max-burgundy-iPhone-18-Pro-burgundy_inline.jpg.large_2x.jpg",
+							"widthPx": 1306,
+							"heightPx": 1741
+						}
+					],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name (no official swatch hex published); recorded per data/tmp/iphone/iphone-18-pro-au-2026.html and buy-iphone-*-au-2026.html finish lists."
 				},
 				{
@@ -398,7 +424,15 @@
 						"base": "#D9E6EA",
 						"material": "matte-aluminum"
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "iPhone 18 Pro Max Glacier",
+							"appleUrl": "https://www.apple.com/newsroom/images/2026/09/get-ready-to-experience-iphone-18-pro-the-new-apple-watch-lineup-and-airpods-5/article/Apple-iPhone-18-Pro-Max-glacier-iPhone-18-Pro-glacier_inline.jpg.large_2x.jpg",
+							"localPath": "public/data/iphone/images/0fa118c75397a787-Apple-iPhone-18-Pro-Max-glacier-iPhone-18-Pro-glacier_inline.jpg.large_2x.jpg",
+							"widthPx": 1306,
+							"heightPx": 1741
+						}
+					],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name (no official swatch hex published); recorded per data/tmp/iphone/iphone-18-pro-au-2026.html and buy-iphone-*-au-2026.html finish lists."
 				},
 				{
@@ -408,7 +442,15 @@
 						"base": "#E3E4E6",
 						"material": "matte-aluminum"
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "iPhone 18 Pro Max Silver",
+							"appleUrl": "https://www.apple.com/newsroom/images/2026/09/get-ready-to-experience-iphone-18-pro-the-new-apple-watch-lineup-and-airpods-5/article/Apple-iPhone-18-Pro-Max-silver-iPhone-18-Pro-silver_inline.jpg.large_2x.jpg",
+							"localPath": "public/data/iphone/images/188376154917f9c9-Apple-iPhone-18-Pro-Max-silver-iPhone-18-Pro-silver_inline.jpg.large_2x.jpg",
+							"widthPx": 1306,
+							"heightPx": 1741
+						}
+					],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name (no official swatch hex published); recorded per data/tmp/iphone/iphone-18-pro-au-2026.html and buy-iphone-*-au-2026.html finish lists."
 				},
 				{
@@ -418,7 +460,15 @@
 						"base": "#1D1D1F",
 						"material": "matte-aluminum"
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "iPhone 18 Pro Max Black",
+							"appleUrl": "https://www.apple.com/newsroom/images/2026/09/get-ready-to-experience-iphone-18-pro-the-new-apple-watch-lineup-and-airpods-5/article/Apple-iPhone-18-Pro-Max-black-iPhone-18-Pro-black_inline.jpg.large_2x.jpg",
+							"localPath": "public/data/iphone/images/3f9b87df580bd406-Apple-iPhone-18-Pro-Max-black-iPhone-18-Pro-black_inline.jpg.large_2x.jpg",
+							"widthPx": 1306,
+							"heightPx": 1741
+						}
+					],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name (no official swatch hex published); recorded per data/tmp/iphone/iphone-18-pro-au-2026.html and buy-iphone-*-au-2026.html finish lists."
 				}
 			],
@@ -737,7 +787,15 @@
 						"base": "#5E1A2B",
 						"material": "matte-aluminum"
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "iPhone 18 Pro Burgundy",
+							"appleUrl": "https://www.apple.com/newsroom/images/2026/09/get-ready-to-experience-iphone-18-pro-the-new-apple-watch-lineup-and-airpods-5/article/Apple-iPhone-18-Pro-Max-burgundy-iPhone-18-Pro-burgundy_inline.jpg.large_2x.jpg",
+							"localPath": "public/data/iphone/images/78c203936dd75334-Apple-iPhone-18-Pro-Max-burgundy-iPhone-18-Pro-burgundy_inline.jpg.large_2x.jpg",
+							"widthPx": 1306,
+							"heightPx": 1741
+						}
+					],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name (no official swatch hex published); recorded per data/tmp/iphone/iphone-18-pro-au-2026.html and buy-iphone-*-au-2026.html finish lists."
 				},
 				{
@@ -747,7 +805,15 @@
 						"base": "#D9E6EA",
 						"material": "matte-aluminum"
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "iPhone 18 Pro Glacier",
+							"appleUrl": "https://www.apple.com/newsroom/images/2026/09/get-ready-to-experience-iphone-18-pro-the-new-apple-watch-lineup-and-airpods-5/article/Apple-iPhone-18-Pro-Max-glacier-iPhone-18-Pro-glacier_inline.jpg.large_2x.jpg",
+							"localPath": "public/data/iphone/images/0fa118c75397a787-Apple-iPhone-18-Pro-Max-glacier-iPhone-18-Pro-glacier_inline.jpg.large_2x.jpg",
+							"widthPx": 1306,
+							"heightPx": 1741
+						}
+					],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name (no official swatch hex published); recorded per data/tmp/iphone/iphone-18-pro-au-2026.html and buy-iphone-*-au-2026.html finish lists."
 				},
 				{
@@ -757,7 +823,15 @@
 						"base": "#E3E4E6",
 						"material": "matte-aluminum"
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "iPhone 18 Pro Silver",
+							"appleUrl": "https://www.apple.com/newsroom/images/2026/09/get-ready-to-experience-iphone-18-pro-the-new-apple-watch-lineup-and-airpods-5/article/Apple-iPhone-18-Pro-Max-silver-iPhone-18-Pro-silver_inline.jpg.large_2x.jpg",
+							"localPath": "public/data/iphone/images/188376154917f9c9-Apple-iPhone-18-Pro-Max-silver-iPhone-18-Pro-silver_inline.jpg.large_2x.jpg",
+							"widthPx": 1306,
+							"heightPx": 1741
+						}
+					],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name (no official swatch hex published); recorded per data/tmp/iphone/iphone-18-pro-au-2026.html and buy-iphone-*-au-2026.html finish lists."
 				},
 				{
@@ -767,7 +841,15 @@
 						"base": "#1D1D1F",
 						"material": "matte-aluminum"
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "iPhone 18 Pro Black",
+							"appleUrl": "https://www.apple.com/newsroom/images/2026/09/get-ready-to-experience-iphone-18-pro-the-new-apple-watch-lineup-and-airpods-5/article/Apple-iPhone-18-Pro-Max-black-iPhone-18-Pro-black_inline.jpg.large_2x.jpg",
+							"localPath": "public/data/iphone/images/3f9b87df580bd406-Apple-iPhone-18-Pro-Max-black-iPhone-18-Pro-black_inline.jpg.large_2x.jpg",
+							"widthPx": 1306,
+							"heightPx": 1741
+						}
+					],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name (no official swatch hex published); recorded per data/tmp/iphone/iphone-18-pro-au-2026.html and buy-iphone-*-au-2026.html finish lists."
 				}
 			],
@@ -7749,7 +7831,15 @@
 						"material": "glass",
 						"shine": 1.0
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "iPhone 7 Jet Black",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/iphone/standard/apple-iphone7-jetblk-airpod_inline.jpg.large_2x.jpg",
+							"localPath": "public/data/iphone/images/2fb83b07b7a7581b-apple-iphone7-jetblk-airpod_inline.jpg.large_2x.jpg",
+							"widthPx": 1142,
+							"heightPx": 1400
+						}
+					],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
 				},
 				{
@@ -7759,7 +7849,15 @@
 						"base": "#2F2F33",
 						"material": "matte-aluminum"
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "iPhone 7 Black",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/iphone/standard/apple-iphone7_big.jpg.large_2x.jpg",
+							"localPath": "public/data/iphone/images/69d3a47b2c441fcf-apple-iphone7_big.jpg.large_2x.jpg",
+							"widthPx": 1632,
+							"heightPx": 1276
+						}
+					],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
 				},
 				{
@@ -7769,7 +7867,15 @@
 						"base": "#E3E4E6",
 						"material": "matte-aluminum"
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "iPhone 7 Silver",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/iphone/standard/apple-iphone7_big.jpg.large_2x.jpg",
+							"localPath": "public/data/iphone/images/69d3a47b2c441fcf-apple-iphone7_big.jpg.large_2x.jpg",
+							"widthPx": 1632,
+							"heightPx": 1276
+						}
+					],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
 				},
 				{
@@ -7779,7 +7885,15 @@
 						"base": "#F4E8CE",
 						"material": "matte-aluminum"
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "iPhone 7 Gold",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/iphone/standard/apple-iphone7_big.jpg.large_2x.jpg",
+							"localPath": "public/data/iphone/images/69d3a47b2c441fcf-apple-iphone7_big.jpg.large_2x.jpg",
+							"widthPx": 1632,
+							"heightPx": 1276
+						}
+					],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
 				},
 				{
@@ -7789,7 +7903,15 @@
 						"base": "#EAC9C0",
 						"material": "matte-aluminum"
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "iPhone 7 Rose Gold",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/iphone/standard/apple-iphone7_big.jpg.large_2x.jpg",
+							"localPath": "public/data/iphone/images/69d3a47b2c441fcf-apple-iphone7_big.jpg.large_2x.jpg",
+							"widthPx": 1632,
+							"heightPx": 1276
+						}
+					],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
 				},
 				{
@@ -7799,7 +7921,15 @@
 						"base": "#A6192E",
 						"material": "matte-aluminum"
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "iPhone 7 (PRODUCT)RED",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/iphone/standard/apple-iphone7_big.jpg.large_2x.jpg",
+							"localPath": "public/data/iphone/images/69d3a47b2c441fcf-apple-iphone7_big.jpg.large_2x.jpg",
+							"widthPx": 1632,
+							"heightPx": 1276
+						}
+					],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
 				}
 			],
@@ -8044,7 +8174,15 @@
 						"material": "glass",
 						"shine": 1.0
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "iPhone 7 Plus Jet Black",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/iphone/standard/apple-iphone7plus-jetblk_inline.jpg.large_2x.jpg",
+							"localPath": "public/data/iphone/images/f6dc087649c7bcc5-apple-iphone7plus-jetblk_inline.jpg.large_2x.jpg",
+							"widthPx": 1142,
+							"heightPx": 858
+						}
+					],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
 				},
 				{
@@ -8054,7 +8192,15 @@
 						"base": "#2F2F33",
 						"material": "matte-aluminum"
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "iPhone 7 Plus Black",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/iphone/standard/iphone7plus-lineup_inline.jpg.large_2x.jpg",
+							"localPath": "public/data/iphone/images/91db8d2a2bb01dc6-iphone7plus-lineup_inline.jpg.large_2x.jpg",
+							"widthPx": 1142,
+							"heightPx": 896
+						}
+					],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
 				},
 				{
@@ -8064,7 +8210,15 @@
 						"base": "#E3E4E6",
 						"material": "matte-aluminum"
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "iPhone 7 Plus Silver",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/iphone/standard/iphone7plus-lineup_inline.jpg.large_2x.jpg",
+							"localPath": "public/data/iphone/images/91db8d2a2bb01dc6-iphone7plus-lineup_inline.jpg.large_2x.jpg",
+							"widthPx": 1142,
+							"heightPx": 896
+						}
+					],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
 				},
 				{
@@ -8074,7 +8228,15 @@
 						"base": "#F4E8CE",
 						"material": "matte-aluminum"
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "iPhone 7 Plus Gold",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/iphone/standard/iphone7plus-lineup_inline.jpg.large_2x.jpg",
+							"localPath": "public/data/iphone/images/91db8d2a2bb01dc6-iphone7plus-lineup_inline.jpg.large_2x.jpg",
+							"widthPx": 1142,
+							"heightPx": 896
+						}
+					],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
 				},
 				{
@@ -8084,7 +8246,15 @@
 						"base": "#EAC9C0",
 						"material": "matte-aluminum"
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "iPhone 7 Plus Rose Gold",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/iphone/standard/iphone7plus-lineup_inline.jpg.large_2x.jpg",
+							"localPath": "public/data/iphone/images/91db8d2a2bb01dc6-iphone7plus-lineup_inline.jpg.large_2x.jpg",
+							"widthPx": 1142,
+							"heightPx": 896
+						}
+					],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
 				},
 				{
@@ -8094,7 +8264,15 @@
 						"base": "#A6192E",
 						"material": "matte-aluminum"
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "iPhone 7 Plus (PRODUCT)RED",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/iphone/standard/iphone7plus-lineup_inline.jpg.large_2x.jpg",
+							"localPath": "public/data/iphone/images/91db8d2a2bb01dc6-iphone7plus-lineup_inline.jpg.large_2x.jpg",
+							"widthPx": 1142,
+							"heightPx": 896
+						}
+					],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
 				}
 			],
@@ -8338,7 +8516,15 @@
 						"base": "#53534F",
 						"material": "glass"
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "iPhone 8 Space Gray",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/iphone/standard/iPhone8Plus_color_selection_inline.jpg.large_2x.jpg",
+							"localPath": "public/data/iphone/images/c7a9996ace2d6844-iPhone8Plus_color_selection_inline.jpg.large_2x.jpg",
+							"widthPx": 1142,
+							"heightPx": 1374
+						}
+					],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
 				},
 				{
@@ -8348,7 +8534,15 @@
 						"base": "#E3E4E6",
 						"material": "glass"
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "iPhone 8 Silver",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/iphone/standard/iPhone8Plus_color_selection_inline.jpg.large_2x.jpg",
+							"localPath": "public/data/iphone/images/c7a9996ace2d6844-iPhone8Plus_color_selection_inline.jpg.large_2x.jpg",
+							"widthPx": 1142,
+							"heightPx": 1374
+						}
+					],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
 				},
 				{
@@ -8358,7 +8552,15 @@
 						"base": "#F4E8CE",
 						"material": "glass"
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "iPhone 8 Gold",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/iphone/standard/iPhone8Plus_color_selection_inline.jpg.large_2x.jpg",
+							"localPath": "public/data/iphone/images/c7a9996ace2d6844-iPhone8Plus_color_selection_inline.jpg.large_2x.jpg",
+							"widthPx": 1142,
+							"heightPx": 1374
+						}
+					],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
 				},
 				{
@@ -8368,7 +8570,15 @@
 						"base": "#A6192E",
 						"material": "glass"
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "iPhone 8 (PRODUCT)RED",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/iphone/standard/iPhone8Plus_color_selection_inline.jpg.large_2x.jpg",
+							"localPath": "public/data/iphone/images/c7a9996ace2d6844-iPhone8Plus_color_selection_inline.jpg.large_2x.jpg",
+							"widthPx": 1142,
+							"heightPx": 1374
+						}
+					],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
 				}
 			],
@@ -8608,7 +8818,15 @@
 						"base": "#53534F",
 						"material": "glass"
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "iPhone 8 Plus Space Gray",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/iphone/standard/iPhone8Plus_color_selection_inline.jpg.large_2x.jpg",
+							"localPath": "public/data/iphone/images/c7a9996ace2d6844-iPhone8Plus_color_selection_inline.jpg.large_2x.jpg",
+							"widthPx": 1142,
+							"heightPx": 1374
+						}
+					],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
 				},
 				{
@@ -8618,7 +8836,15 @@
 						"base": "#E3E4E6",
 						"material": "glass"
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "iPhone 8 Plus Silver",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/iphone/standard/iPhone8Plus_color_selection_inline.jpg.large_2x.jpg",
+							"localPath": "public/data/iphone/images/c7a9996ace2d6844-iPhone8Plus_color_selection_inline.jpg.large_2x.jpg",
+							"widthPx": 1142,
+							"heightPx": 1374
+						}
+					],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
 				},
 				{
@@ -8628,7 +8854,15 @@
 						"base": "#F4E8CE",
 						"material": "glass"
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "iPhone 8 Plus Gold",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/iphone/standard/iPhone8Plus_color_selection_inline.jpg.large_2x.jpg",
+							"localPath": "public/data/iphone/images/c7a9996ace2d6844-iPhone8Plus_color_selection_inline.jpg.large_2x.jpg",
+							"widthPx": 1142,
+							"heightPx": 1374
+						}
+					],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
 				},
 				{
@@ -8638,7 +8872,15 @@
 						"base": "#A6192E",
 						"material": "glass"
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "iPhone 8 Plus (PRODUCT)RED",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/iphone/standard/iPhone8Plus_color_selection_inline.jpg.large_2x.jpg",
+							"localPath": "public/data/iphone/images/c7a9996ace2d6844-iPhone8Plus_color_selection_inline.jpg.large_2x.jpg",
+							"widthPx": 1142,
+							"heightPx": 1374
+						}
+					],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
 				}
 			],
@@ -8878,7 +9120,15 @@
 						"base": "#1D1D1F",
 						"material": "glass"
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "iPhone SE (2nd generation) Black",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/iphone/standard/Apple_new-iphone-se-black-camera-and-touch-id_04152020_big.jpg.large_2x.jpg",
+							"localPath": "public/data/iphone/images/6f52a2c82b5ccf99-Apple_new-iphone-se-black-camera-and-touch-id_04152020_big.jpg.large_2x.jpg",
+							"widthPx": 1960,
+							"heightPx": 1198
+						}
+					],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
 				},
 				{
@@ -8888,7 +9138,15 @@
 						"base": "#F5F5F7",
 						"material": "glass"
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "iPhone SE (2nd generation) White",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/iphone/standard/Apple_new-iphone-se-white_04152020_big.jpg.large_2x.jpg",
+							"localPath": "public/data/iphone/images/46ac3cbceeb456e4-Apple_new-iphone-se-white_04152020_big.jpg.large_2x.jpg",
+							"widthPx": 1960,
+							"heightPx": 2240
+						}
+					],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
 				},
 				{
@@ -8898,7 +9156,15 @@
 						"base": "#A6192E",
 						"material": "glass"
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "iPhone SE (2nd generation) (PRODUCT)RED",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/iphone/standard/Apple_new-iphone-se-black-white-product-red-colors_04152020_inline.jpg.large_2x.jpg",
+							"localPath": "public/data/iphone/images/b717f62d8993235b-Apple_new-iphone-se-black-white-product-red-colors_04152020_inline.jpg.large_2x.jpg",
+							"widthPx": 1306,
+							"heightPx": 1494
+						}
+					],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
 				}
 			],
@@ -9135,7 +9401,15 @@
 						"base": "#53534F",
 						"material": "polished-steel"
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "iPhone X Space Gray",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/iphone/standard/iphonex_front_back_glass_big.jpg.large_2x.jpg",
+							"localPath": "public/data/iphone/images/828dd282d48a6d66-iphonex_front_back_glass_big.jpg.large_2x.jpg",
+							"widthPx": 1632,
+							"heightPx": 2400
+						}
+					],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
 				},
 				{
@@ -9145,7 +9419,15 @@
 						"base": "#E3E4E6",
 						"material": "polished-steel"
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "iPhone X Silver",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/iphone/standard/iphonex_front_back_glass_big.jpg.large_2x.jpg",
+							"localPath": "public/data/iphone/images/828dd282d48a6d66-iphonex_front_back_glass_big.jpg.large_2x.jpg",
+							"widthPx": 1632,
+							"heightPx": 2400
+						}
+					],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
 				}
 			],
@@ -9363,7 +9645,15 @@
 						"base": "#1D1D1F",
 						"material": "glass"
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "iPhone XR Black",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/iphone/standard/iPhone_XR_black-back_09122018_carousel.jpg.large_2x.jpg",
+							"localPath": "public/data/iphone/images/8b773f27d7221048-iPhone_XR_black-back_09122018_carousel.jpg.large_2x.jpg",
+							"widthPx": 1142,
+							"heightPx": 1308
+						}
+					],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
 				},
 				{
@@ -9373,7 +9663,15 @@
 						"base": "#F5F5F7",
 						"material": "glass"
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "iPhone XR White",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/iphone/standard/iPhone_XR_white-back_09122018_carousel.jpg.large_2x.jpg",
+							"localPath": "public/data/iphone/images/d80a79577cd43b3d-iPhone_XR_white-back_09122018_carousel.jpg.large_2x.jpg",
+							"widthPx": 1142,
+							"heightPx": 1308
+						}
+					],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
 				},
 				{
@@ -9383,7 +9681,15 @@
 						"base": "#2E6BD8",
 						"material": "glass"
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "iPhone XR Blue",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/iphone/standard/iPhone_XR_blue-back_09122018_carousel.jpg.large_2x.jpg",
+							"localPath": "public/data/iphone/images/1e23f68329bdd50c-iPhone_XR_blue-back_09122018_carousel.jpg.large_2x.jpg",
+							"widthPx": 1142,
+							"heightPx": 1308
+						}
+					],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
 				},
 				{
@@ -9393,7 +9699,15 @@
 						"base": "#F7E08B",
 						"material": "glass"
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "iPhone XR Yellow",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/iphone/standard/iPhone_XR_yellow-back_09122018_carousel.jpg.large_2x.jpg",
+							"localPath": "public/data/iphone/images/69c1d83782ca6ee4-iPhone_XR_yellow-back_09122018_carousel.jpg.large_2x.jpg",
+							"widthPx": 1142,
+							"heightPx": 1308
+						}
+					],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
 				},
 				{
@@ -9403,7 +9717,15 @@
 						"base": "#E8715F",
 						"material": "glass"
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "iPhone XR Coral",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/iphone/standard/iPhone_XR_coral-back_09122018_carousel.jpg.large_2x.jpg",
+							"localPath": "public/data/iphone/images/2bb98ea388f9695f-iPhone_XR_coral-back_09122018_carousel.jpg.large_2x.jpg",
+							"widthPx": 1142,
+							"heightPx": 1308
+						}
+					],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
 				},
 				{
@@ -9413,7 +9735,15 @@
 						"base": "#A6192E",
 						"material": "glass"
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "iPhone XR (PRODUCT)RED",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/iphone/standard/iPhone_XR_red-back_09122018_carousel.jpg.large_2x.jpg",
+							"localPath": "public/data/iphone/images/23189789de0625d9-iPhone_XR_red-back_09122018_carousel.jpg.large_2x.jpg",
+							"widthPx": 1142,
+							"heightPx": 1308
+						}
+					],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
 				}
 			],
@@ -9659,7 +9989,15 @@
 						"base": "#53534F",
 						"material": "polished-steel"
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "iPhone XS Space Gray",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/iphone/standard/Apple-iPhone-Xs-line-up-09122018_inline.jpg.large_2x.jpg",
+							"localPath": "public/data/iphone/images/4493f02eb5605b10-Apple-iPhone-Xs-line-up-09122018_inline.jpg.large_2x.jpg",
+							"widthPx": 1142,
+							"heightPx": 1370
+						}
+					],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
 				},
 				{
@@ -9669,7 +10007,15 @@
 						"base": "#E3E4E6",
 						"material": "polished-steel"
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "iPhone XS Silver",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/iphone/standard/Apple-iPhone-Xs-line-up-09122018_inline.jpg.large_2x.jpg",
+							"localPath": "public/data/iphone/images/4493f02eb5605b10-Apple-iPhone-Xs-line-up-09122018_inline.jpg.large_2x.jpg",
+							"widthPx": 1142,
+							"heightPx": 1370
+						}
+					],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
 				},
 				{
@@ -9679,7 +10025,15 @@
 						"base": "#F4E8CE",
 						"material": "polished-steel"
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "iPhone XS Gold",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/iphone/standard/Apple-iPhone-Xs-combo-gold-09122018_big.jpg.large_2x.jpg",
+							"localPath": "public/data/iphone/images/fcb9c3a18f801bdf-Apple-iPhone-Xs-combo-gold-09122018_big.jpg.large_2x.jpg",
+							"widthPx": 1632,
+							"heightPx": 2040
+						}
+					],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
 				}
 			],
@@ -9916,7 +10270,15 @@
 						"base": "#53534F",
 						"material": "polished-steel"
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "iPhone XS Max Space Gray",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/iphone/standard/Apple-iPhone-Xs-line-up-09122018_inline.jpg.large_2x.jpg",
+							"localPath": "public/data/iphone/images/4493f02eb5605b10-Apple-iPhone-Xs-line-up-09122018_inline.jpg.large_2x.jpg",
+							"widthPx": 1142,
+							"heightPx": 1370
+						}
+					],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
 				},
 				{
@@ -9926,7 +10288,15 @@
 						"base": "#E3E4E6",
 						"material": "polished-steel"
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "iPhone XS Max Silver",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/iphone/standard/Apple-iPhone-Xs-line-up-09122018_inline.jpg.large_2x.jpg",
+							"localPath": "public/data/iphone/images/4493f02eb5605b10-Apple-iPhone-Xs-line-up-09122018_inline.jpg.large_2x.jpg",
+							"widthPx": 1142,
+							"heightPx": 1370
+						}
+					],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
 				},
 				{
@@ -9936,7 +10306,15 @@
 						"base": "#F4E8CE",
 						"material": "polished-steel"
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "iPhone XS Max Gold",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/iphone/standard/Apple-iPhone-Xs-combo-gold-09122018_big.jpg.large_2x.jpg",
+							"localPath": "public/data/iphone/images/fcb9c3a18f801bdf-Apple-iPhone-Xs-combo-gold-09122018_big.jpg.large_2x.jpg",
+							"widthPx": 1632,
+							"heightPx": 2040
+						}
+					],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
 				}
 			],
@@ -10173,7 +10551,15 @@
 						"base": "#1F3A2D",
 						"material": "polished-steel"
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "iPhone 11 Pro Max Midnight Green",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/iphone/standard/Apple_iPhone-11-Pro_Colors_091019_big.jpg.large_2x.jpg",
+							"localPath": "public/data/iphone/images/cbd39774ef33fe4a-Apple_iPhone-11-Pro_Colors_091019_big.jpg.large_2x.jpg",
+							"widthPx": 1632,
+							"heightPx": 1632
+						}
+					],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
 				},
 				{
@@ -10183,7 +10569,15 @@
 						"base": "#53534F",
 						"material": "polished-steel"
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "iPhone 11 Pro Max Space Gray",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/iphone/standard/Apple_iPhone-11-Pro_Colors_091019_big.jpg.large_2x.jpg",
+							"localPath": "public/data/iphone/images/cbd39774ef33fe4a-Apple_iPhone-11-Pro_Colors_091019_big.jpg.large_2x.jpg",
+							"widthPx": 1632,
+							"heightPx": 1632
+						}
+					],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
 				},
 				{
@@ -10193,7 +10587,15 @@
 						"base": "#E3E4E6",
 						"material": "polished-steel"
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "iPhone 11 Pro Max Silver",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/iphone/standard/Apple_iPhone-11-Pro_Colors_091019_big.jpg.large_2x.jpg",
+							"localPath": "public/data/iphone/images/cbd39774ef33fe4a-Apple_iPhone-11-Pro_Colors_091019_big.jpg.large_2x.jpg",
+							"widthPx": 1632,
+							"heightPx": 1632
+						}
+					],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
 				},
 				{
@@ -10203,7 +10605,15 @@
 						"base": "#F4E8CE",
 						"material": "polished-steel"
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "iPhone 11 Pro Max Gold",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/iphone/standard/Apple_iPhone-11-Pro_Colors_091019_big.jpg.large_2x.jpg",
+							"localPath": "public/data/iphone/images/cbd39774ef33fe4a-Apple_iPhone-11-Pro_Colors_091019_big.jpg.large_2x.jpg",
+							"widthPx": 1632,
+							"heightPx": 1632
+						}
+					],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
 				}
 			],
@@ -10443,7 +10853,15 @@
 						"base": "#1D1D1F",
 						"material": "glass"
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "iPhone 12 mini Black",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/iphone/standard/apple_iphone-12_color-black_10132020_big_carousel.jpg.large_2x.jpg",
+							"localPath": "public/data/iphone/images/0dd502daa5f87d5b-apple_iphone-12_color-black_10132020_big_carousel.jpg.large_2x.jpg",
+							"widthPx": 1960,
+							"heightPx": 1400
+						}
+					],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
 				},
 				{
@@ -10453,7 +10871,15 @@
 						"base": "#F5F5F7",
 						"material": "glass"
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "iPhone 12 mini White",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/iphone/standard/apple_iphone-12_color-white_10132020_big_carousel.jpg.large_2x.jpg",
+							"localPath": "public/data/iphone/images/f202a1f1ed1c1e24-apple_iphone-12_color-white_10132020_big_carousel.jpg.large_2x.jpg",
+							"widthPx": 1960,
+							"heightPx": 1400
+						}
+					],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
 				},
 				{
@@ -10463,7 +10889,15 @@
 						"base": "#A6192E",
 						"material": "glass"
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "iPhone 12 mini (PRODUCT)RED",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/iphone/standard/apple_iphone-12_color-red_10132020_big_carousel.jpg.large_2x.jpg",
+							"localPath": "public/data/iphone/images/feec25b390de2bf6-apple_iphone-12_color-red_10132020_big_carousel.jpg.large_2x.jpg",
+							"widthPx": 1960,
+							"heightPx": 1400
+						}
+					],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
 				},
 				{
@@ -10473,7 +10907,15 @@
 						"base": "#BFD8C9",
 						"material": "glass"
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "iPhone 12 mini Green",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/iphone/standard/apple_iphone-12_color-green_10132020_big_carousel.jpg.large_2x.jpg",
+							"localPath": "public/data/iphone/images/c115a12bd8980424-apple_iphone-12_color-green_10132020_big_carousel.jpg.large_2x.jpg",
+							"widthPx": 1960,
+							"heightPx": 1400
+						}
+					],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
 				},
 				{
@@ -10483,7 +10925,15 @@
 						"base": "#2E6BD8",
 						"material": "glass"
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "iPhone 12 mini Blue",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/iphone/standard/apple_iphone-12_color-blue_10132020_big_carousel.jpg.large_2x.jpg",
+							"localPath": "public/data/iphone/images/8a2f7c896d420baa-apple_iphone-12_color-blue_10132020_big_carousel.jpg.large_2x.jpg",
+							"widthPx": 1960,
+							"heightPx": 1400
+						}
+					],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
 				},
 				{
@@ -10493,7 +10943,15 @@
 						"base": "#CDBEE7",
 						"material": "glass"
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "iPhone 12 mini Purple",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/iphone/standard/apple_iphone-12_2-up_10132020_inline.jpg.large_2x.jpg",
+							"localPath": "public/data/iphone/images/ebeef5088497bf22-apple_iphone-12_2-up_10132020_inline.jpg.large_2x.jpg",
+							"widthPx": 1306,
+							"heightPx": 1828
+						}
+					],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
 				}
 			],
@@ -10741,7 +11199,15 @@
 						"base": "#3C3C3D",
 						"material": "polished-steel"
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "iPhone 13 Pro Graphite",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/iphone/standard/Apple_iPhone-13-Pro_Colors_09142021_big.jpg.large_2x.jpg",
+							"localPath": "public/data/iphone/images/0bfa2483658de480-Apple_iPhone-13-Pro_Colors_09142021_big.jpg.large_2x.jpg",
+							"widthPx": 1960,
+							"heightPx": 1568
+						}
+					],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
 				},
 				{
@@ -10751,7 +11217,15 @@
 						"base": "#F4E8CE",
 						"material": "polished-steel"
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "iPhone 13 Pro Gold",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/iphone/standard/Apple_iPhone-13-Pro_Colors_09142021_big.jpg.large_2x.jpg",
+							"localPath": "public/data/iphone/images/0bfa2483658de480-Apple_iPhone-13-Pro_Colors_09142021_big.jpg.large_2x.jpg",
+							"widthPx": 1960,
+							"heightPx": 1568
+						}
+					],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
 				},
 				{
@@ -10761,7 +11235,15 @@
 						"base": "#E3E4E6",
 						"material": "polished-steel"
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "iPhone 13 Pro Silver",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/iphone/standard/Apple_iPhone-13-Pro_Colors_09142021_big.jpg.large_2x.jpg",
+							"localPath": "public/data/iphone/images/0bfa2483658de480-Apple_iPhone-13-Pro_Colors_09142021_big.jpg.large_2x.jpg",
+							"widthPx": 1960,
+							"heightPx": 1568
+						}
+					],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
 				},
 				{
@@ -10771,7 +11253,15 @@
 						"base": "#A7C1D9",
 						"material": "polished-steel"
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "iPhone 13 Pro Sierra Blue",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/iphone/standard/Apple_iPhone-13-Pro_Colors_09142021_big.jpg.large_2x.jpg",
+							"localPath": "public/data/iphone/images/0bfa2483658de480-Apple_iPhone-13-Pro_Colors_09142021_big.jpg.large_2x.jpg",
+							"widthPx": 1960,
+							"heightPx": 1568
+						}
+					],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
 				},
 				{
@@ -10781,7 +11271,15 @@
 						"base": "#3E4F41",
 						"material": "polished-steel"
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "iPhone 13 Pro Alpine Green",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/iphone/standard/Apple_iPhone-13-Pro_Colors_09142021_big.jpg.large_2x.jpg",
+							"localPath": "public/data/iphone/images/0bfa2483658de480-Apple_iPhone-13-Pro_Colors_09142021_big.jpg.large_2x.jpg",
+							"widthPx": 1960,
+							"heightPx": 1568
+						}
+					],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
 				}
 			],
@@ -11045,7 +11543,15 @@
 						"material": "glass",
 						"grain": 0.15
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "iPhone 15 Black",
+							"appleUrl": "https://www.apple.com/newsroom/images/2023/09/apple-debuts-iphone-15-and-iphone-15-plus/article/Apple-iPhone-15-lineup-color-lineup-230912_big.jpg.large_2x.jpg",
+							"localPath": "public/data/iphone/images/2dc1b7fa991b8530-Apple-iPhone-15-lineup-color-lineup-230912_big.jpg.large_2x.jpg",
+							"widthPx": 1960,
+							"heightPx": 1306
+						}
+					],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
 				},
 				{
@@ -11056,7 +11562,15 @@
 						"material": "glass",
 						"grain": 0.15
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "iPhone 15 Blue",
+							"appleUrl": "https://www.apple.com/newsroom/images/2023/09/apple-debuts-iphone-15-and-iphone-15-plus/article/Apple-iPhone-15-lineup-color-lineup-230912_big.jpg.large_2x.jpg",
+							"localPath": "public/data/iphone/images/2dc1b7fa991b8530-Apple-iPhone-15-lineup-color-lineup-230912_big.jpg.large_2x.jpg",
+							"widthPx": 1960,
+							"heightPx": 1306
+						}
+					],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
 				},
 				{
@@ -11067,7 +11581,15 @@
 						"material": "glass",
 						"grain": 0.15
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "iPhone 15 Green",
+							"appleUrl": "https://www.apple.com/newsroom/images/2023/09/apple-debuts-iphone-15-and-iphone-15-plus/article/Apple-iPhone-15-lineup-color-lineup-230912_big.jpg.large_2x.jpg",
+							"localPath": "public/data/iphone/images/2dc1b7fa991b8530-Apple-iPhone-15-lineup-color-lineup-230912_big.jpg.large_2x.jpg",
+							"widthPx": 1960,
+							"heightPx": 1306
+						}
+					],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
 				},
 				{
@@ -11078,7 +11600,15 @@
 						"material": "glass",
 						"grain": 0.15
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "iPhone 15 Yellow",
+							"appleUrl": "https://www.apple.com/newsroom/images/2023/09/apple-debuts-iphone-15-and-iphone-15-plus/article/Apple-iPhone-15-lineup-color-lineup-230912_big.jpg.large_2x.jpg",
+							"localPath": "public/data/iphone/images/2dc1b7fa991b8530-Apple-iPhone-15-lineup-color-lineup-230912_big.jpg.large_2x.jpg",
+							"widthPx": 1960,
+							"heightPx": 1306
+						}
+					],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
 				},
 				{
@@ -11089,7 +11619,15 @@
 						"material": "glass",
 						"grain": 0.15
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "iPhone 15 Pink",
+							"appleUrl": "https://www.apple.com/newsroom/images/2023/09/apple-debuts-iphone-15-and-iphone-15-plus/article/Apple-iPhone-15-lineup-color-lineup-230912_big.jpg.large_2x.jpg",
+							"localPath": "public/data/iphone/images/2dc1b7fa991b8530-Apple-iPhone-15-lineup-color-lineup-230912_big.jpg.large_2x.jpg",
+							"widthPx": 1960,
+							"heightPx": 1306
+						}
+					],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
 				}
 			],
@@ -11335,7 +11873,15 @@
 						"material": "glass",
 						"grain": 0.15
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "iPhone 15 Plus Black",
+							"appleUrl": "https://www.apple.com/newsroom/images/2023/09/apple-debuts-iphone-15-and-iphone-15-plus/article/Apple-iPhone-15-lineup-color-lineup-230912_big.jpg.large_2x.jpg",
+							"localPath": "public/data/iphone/images/2dc1b7fa991b8530-Apple-iPhone-15-lineup-color-lineup-230912_big.jpg.large_2x.jpg",
+							"widthPx": 1960,
+							"heightPx": 1306
+						}
+					],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
 				},
 				{
@@ -11346,7 +11892,15 @@
 						"material": "glass",
 						"grain": 0.15
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "iPhone 15 Plus Blue",
+							"appleUrl": "https://www.apple.com/newsroom/images/2023/09/apple-debuts-iphone-15-and-iphone-15-plus/article/Apple-iPhone-15-lineup-color-lineup-230912_big.jpg.large_2x.jpg",
+							"localPath": "public/data/iphone/images/2dc1b7fa991b8530-Apple-iPhone-15-lineup-color-lineup-230912_big.jpg.large_2x.jpg",
+							"widthPx": 1960,
+							"heightPx": 1306
+						}
+					],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
 				},
 				{
@@ -11357,7 +11911,15 @@
 						"material": "glass",
 						"grain": 0.15
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "iPhone 15 Plus Green",
+							"appleUrl": "https://www.apple.com/newsroom/images/2023/09/apple-debuts-iphone-15-and-iphone-15-plus/article/Apple-iPhone-15-lineup-color-lineup-230912_big.jpg.large_2x.jpg",
+							"localPath": "public/data/iphone/images/2dc1b7fa991b8530-Apple-iPhone-15-lineup-color-lineup-230912_big.jpg.large_2x.jpg",
+							"widthPx": 1960,
+							"heightPx": 1306
+						}
+					],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
 				},
 				{
@@ -11368,7 +11930,15 @@
 						"material": "glass",
 						"grain": 0.15
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "iPhone 15 Plus Yellow",
+							"appleUrl": "https://www.apple.com/newsroom/images/2023/09/apple-debuts-iphone-15-and-iphone-15-plus/article/Apple-iPhone-15-lineup-color-lineup-230912_big.jpg.large_2x.jpg",
+							"localPath": "public/data/iphone/images/2dc1b7fa991b8530-Apple-iPhone-15-lineup-color-lineup-230912_big.jpg.large_2x.jpg",
+							"widthPx": 1960,
+							"heightPx": 1306
+						}
+					],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
 				},
 				{
@@ -11379,7 +11949,15 @@
 						"material": "glass",
 						"grain": 0.15
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "iPhone 15 Plus Pink",
+							"appleUrl": "https://www.apple.com/newsroom/images/2023/09/apple-debuts-iphone-15-and-iphone-15-plus/article/Apple-iPhone-15-lineup-color-lineup-230912_big.jpg.large_2x.jpg",
+							"localPath": "public/data/iphone/images/2dc1b7fa991b8530-Apple-iPhone-15-lineup-color-lineup-230912_big.jpg.large_2x.jpg",
+							"widthPx": 1960,
+							"heightPx": 1306
+						}
+					],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
 				}
 			],
@@ -11624,7 +12202,15 @@
 						"base": "#C2BCB2",
 						"material": "brushed-titanium"
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "iPhone 15 Pro Natural Titanium",
+							"appleUrl": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphone15_pro_max_natural_titanium__byvhspupwiuq_small_2x.jpg",
+							"localPath": "public/data/iphone/images/22fff05a08bf12b2-compare_iphone15_pro_max_natural_titanium__byvhspupwiuq_small_2x.jpg",
+							"widthPx": 292,
+							"heightPx": 362
+						}
+					],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
 				},
 				{
@@ -11634,7 +12220,15 @@
 						"base": "#3F474E",
 						"material": "brushed-titanium"
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "iPhone 15 Pro Blue Titanium",
+							"appleUrl": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphone15_pro_max_blue_titanium__c8xeminnbm82_small_2x.jpg",
+							"localPath": "public/data/iphone/images/bdbadfb288dbd1a5-compare_iphone15_pro_max_blue_titanium__c8xeminnbm82_small_2x.jpg",
+							"widthPx": 292,
+							"heightPx": 362
+						}
+					],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
 				},
 				{
@@ -11644,7 +12238,15 @@
 						"base": "#E3E4E6",
 						"material": "brushed-titanium"
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "iPhone 15 Pro White Titanium",
+							"appleUrl": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphone15_pro_max_white_titanium__citdiqo2e0gi_small_2x.jpg",
+							"localPath": "public/data/iphone/images/8c1de44bef3f93cf-compare_iphone15_pro_max_white_titanium__citdiqo2e0gi_small_2x.jpg",
+							"widthPx": 292,
+							"heightPx": 362
+						}
+					],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
 				},
 				{
@@ -11654,7 +12256,15 @@
 						"base": "#1D1D1F",
 						"material": "brushed-titanium"
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "iPhone 15 Pro Black Titanium",
+							"appleUrl": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphone15_pro_max_black_titanium__djidfm1dcmie_small_2x.jpg",
+							"localPath": "public/data/iphone/images/de4b1e8c154eadee-compare_iphone15_pro_max_black_titanium__djidfm1dcmie_small_2x.jpg",
+							"widthPx": 292,
+							"heightPx": 362
+						}
+					],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
 				}
 			],
@@ -11914,7 +12524,15 @@
 						"material": "glass",
 						"grain": 0.15
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "iPhone 16 Plus Ultramarine",
+							"appleUrl": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphone16_ultramarine__sr260qois4am_small_2x.jpg",
+							"localPath": "public/data/iphone/images/6fb2267436be1eb4-compare_iphone16_ultramarine__sr260qois4am_small_2x.jpg",
+							"widthPx": 268,
+							"heightPx": 328
+						}
+					],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
 				},
 				{
@@ -11925,7 +12543,15 @@
 						"material": "glass",
 						"grain": 0.15
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "iPhone 16 Plus Teal",
+							"appleUrl": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphone16_teal__fkzqehm57iai_small_2x.jpg",
+							"localPath": "public/data/iphone/images/1fd421a3c08b3277-compare_iphone16_teal__fkzqehm57iai_small_2x.jpg",
+							"widthPx": 268,
+							"heightPx": 328
+						}
+					],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
 				},
 				{
@@ -11936,7 +12562,15 @@
 						"material": "glass",
 						"grain": 0.15
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "iPhone 16 Plus Pink",
+							"appleUrl": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphone16_pink__fzr1z22a7m2q_small_2x.jpg",
+							"localPath": "public/data/iphone/images/d0f5e96f2ced40c2-compare_iphone16_pink__fzr1z22a7m2q_small_2x.jpg",
+							"widthPx": 268,
+							"heightPx": 328
+						}
+					],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
 				},
 				{
@@ -11947,7 +12581,15 @@
 						"material": "glass",
 						"grain": 0.15
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "iPhone 16 Plus White",
+							"appleUrl": "https://www.apple.com/newsroom/images/2024/09/apple-introduces-iphone-16-and-iphone-16-plus/article/Apple-iPhone-16-finish-lineup-240909_big.jpg.large_2x.jpg",
+							"localPath": "public/data/iphone/images/16c813717acde7b1-Apple-iPhone-16-finish-lineup-240909_big.jpg.large_2x.jpg",
+							"widthPx": 1960,
+							"heightPx": 1306
+						}
+					],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
 				},
 				{
@@ -11958,7 +12600,15 @@
 						"material": "glass",
 						"grain": 0.15
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "iPhone 16 Plus Black",
+							"appleUrl": "https://www.apple.com/newsroom/images/2024/09/apple-introduces-iphone-16-and-iphone-16-plus/article/Apple-iPhone-16-finish-lineup-240909_big.jpg.large_2x.jpg",
+							"localPath": "public/data/iphone/images/16c813717acde7b1-Apple-iPhone-16-finish-lineup-240909_big.jpg.large_2x.jpg",
+							"widthPx": 1960,
+							"heightPx": 1306
+						}
+					],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
 				}
 			],
@@ -12203,7 +12853,15 @@
 						"base": "#1D1D1F",
 						"material": "brushed-titanium"
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "iPhone 16 Pro Black Titanium",
+							"appleUrl": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphone16_pro_max_black_titanium__evlilxt8g2mq_small_2x.jpg",
+							"localPath": "public/data/iphone/images/ea3973d6e51a02eb-compare_iphone16_pro_max_black_titanium__evlilxt8g2mq_small_2x.jpg",
+							"widthPx": 290,
+							"heightPx": 362
+						}
+					],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
 				},
 				{
@@ -12213,7 +12871,15 @@
 						"base": "#E3E4E6",
 						"material": "brushed-titanium"
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "iPhone 16 Pro White Titanium",
+							"appleUrl": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphone16_pro_max_white_titanium__nrwzujp5v762_small_2x.jpg",
+							"localPath": "public/data/iphone/images/a940e4d6e132b86f-compare_iphone16_pro_max_white_titanium__nrwzujp5v762_small_2x.jpg",
+							"widthPx": 290,
+							"heightPx": 362
+						}
+					],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
 				},
 				{
@@ -12223,7 +12889,15 @@
 						"base": "#C2BCB2",
 						"material": "brushed-titanium"
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "iPhone 16 Pro Natural Titanium",
+							"appleUrl": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphone16_pro_max_natural_titanium__finz5cbww0mm_small_2x.jpg",
+							"localPath": "public/data/iphone/images/555d83473fdd38f2-compare_iphone16_pro_max_natural_titanium__finz5cbww0mm_small_2x.jpg",
+							"widthPx": 290,
+							"heightPx": 362
+						}
+					],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
 				},
 				{
@@ -12233,7 +12907,15 @@
 						"base": "#BFA48F",
 						"material": "brushed-titanium"
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "iPhone 16 Pro Desert Titanium",
+							"appleUrl": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphone16_pro_max_desert_titanium__f8058hcu01ua_small_2x.jpg",
+							"localPath": "public/data/iphone/images/e028347141b6f6cb-compare_iphone16_pro_max_desert_titanium__f8058hcu01ua_small_2x.jpg",
+							"widthPx": 290,
+							"heightPx": 362
+						}
+					],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
 				}
 			],
@@ -12492,7 +13174,15 @@
 						"base": "#F5F5F7",
 						"material": "glass"
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "iPhone 16e White",
+							"appleUrl": "https://www.apple.com/newsroom/images/2025/02/apple-debuts-iphone-16e-a-powerful-new-member-of-the-iphone-16-family/article/Apple-iPhone-16e-color-lineup-back-250219_inline.jpg.large_2x.jpg",
+							"localPath": "public/data/iphone/images/8b24226cffd28c6a-Apple-iPhone-16e-color-lineup-back-250219_inline.jpg.large_2x.jpg",
+							"widthPx": 1306,
+							"heightPx": 1306
+						}
+					],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
 				},
 				{
@@ -12502,7 +13192,15 @@
 						"base": "#1D1D1F",
 						"material": "glass"
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "iPhone 16e Black",
+							"appleUrl": "https://www.apple.com/newsroom/images/2025/02/apple-debuts-iphone-16e-a-powerful-new-member-of-the-iphone-16-family/article/Apple-iPhone-16e-color-lineup-back-250219_inline.jpg.large_2x.jpg",
+							"localPath": "public/data/iphone/images/8b24226cffd28c6a-Apple-iPhone-16e-color-lineup-back-250219_inline.jpg.large_2x.jpg",
+							"widthPx": 1306,
+							"heightPx": 1306
+						}
+					],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
 				}
 			],
@@ -12737,7 +13435,15 @@
 						"base": "#C4622D",
 						"material": "matte-aluminum"
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "iPhone 17 Pro Cosmic Orange",
+							"appleUrl": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphone17_pro_max_cosmic_orange__d7yolstz8cmu_small_2x.jpg",
+							"localPath": "public/data/iphone/images/b5b6a12ddf30f997-compare_iphone17_pro_max_cosmic_orange__d7yolstz8cmu_small_2x.jpg",
+							"widthPx": 290,
+							"heightPx": 362
+						}
+					],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
 				},
 				{
@@ -12747,7 +13453,15 @@
 						"base": "#2E3A5C",
 						"material": "matte-aluminum"
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "iPhone 17 Pro Deep Blue",
+							"appleUrl": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphone17_pro_max_deep_blue__frgcd836v866_small_2x.jpg",
+							"localPath": "public/data/iphone/images/07a4bb8569958c85-compare_iphone17_pro_max_deep_blue__frgcd836v866_small_2x.jpg",
+							"widthPx": 290,
+							"heightPx": 362
+						}
+					],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
 				},
 				{
@@ -12757,7 +13471,15 @@
 						"base": "#E3E4E6",
 						"material": "matte-aluminum"
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "iPhone 17 Pro Silver",
+							"appleUrl": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphone17_pro_max_silver__dtw5i9e8osmu_small_2x.jpg",
+							"localPath": "public/data/iphone/images/8fe0b64bd929722b-compare_iphone17_pro_max_silver__dtw5i9e8osmu_small_2x.jpg",
+							"widthPx": 290,
+							"heightPx": 362
+						}
+					],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
 				}
 			],
