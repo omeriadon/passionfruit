@@ -66,7 +66,7 @@ export function SidebarDeviceSearch() {
 	);
 	if (!host) return null;
 	return createPortal(
-		<div className="px-4 pt-2">
+		<div className="px-2 pt-2">
 			<DeviceSearch />
 		</div>,
 		host,
