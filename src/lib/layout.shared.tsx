@@ -5,7 +5,7 @@ import { appName, gitConfig } from "./shared";
 export function baseOptions(): BaseLayoutProps {
 	return {
 		// Shared repository shortcut. It becomes a generated navigation item.
-		githubUrl: `https://github.com/${gitConfig.user}/${gitConfig.repo}`,
+		// githubUrl: `https://github.com/${gitConfig.user}/${gitConfig.repo}`,
 
 		// Add main, icon, button, menu, or custom items here. Set `secondary`
 		// and `on` to control placement across supported layouts.
