@@ -15,6 +15,10 @@ import {
 import type { ComponentProps } from "react";
 import { cn } from "@/lib/cn";
 import { CategoryOrderEffect } from "@/components/you/CategoryOrderEffect";
+import {
+	SidebarDeviceSearch,
+	YouSidebarLinks,
+} from "@/components/you/SidebarPortals";
 
 export function GlassAccountHeader({
 	className,
@@ -35,13 +39,15 @@ export function GlassAccountHeader({
 			{...props}
 		>
 			<CategoryOrderEffect />
+			<SidebarDeviceSearch />
+			<YouSidebarLinks />
 			{sidebar.collapsible && sidebar.collapsed ? (
 				<button
 					aria-label="Show Sidebar"
 					className={cn(
 						buttonVariants({ size: "icon-sm", variant: "secondary" }),
 						"glass-header-surface rounded-full",
-						"size-10 me-auto shrink-0 max-md:hidden",
+						"size-10 shrink-0 max-md:hidden",
 					)}
 					onClick={() => sidebar.setCollapsed(false)}
 					type="button"
@@ -52,7 +58,7 @@ export function GlassAccountHeader({
 
 			<nav
 				aria-label="Primary navigation"
-				className="glass-header-surface hidden shrink-0 items-center gap-1 rounded-full p-1 md:flex"
+				className="glass-header-surface hidden shrink-0 items-center gap-1 rounded-full p-1 md:flex me-auto"
 			>
 				<Link
 					href={devicesHref}

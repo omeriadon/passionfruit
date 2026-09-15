@@ -1,0 +1,132 @@
+"use client";
+
+import Link from "fumadocs-core/link";
+import { useMemo, useRef, useState } from "react";
+import { useRouter } from "next/navigation";
+import { useAuth } from "@/lib/auth/AuthProvider";
+import { deviceIndex } from "@/lib/device-index";
+import { catalogCategories } from "@/lib/shared";
+
+function categoryTitle(slug: string): string {
+	return (
+		catalogCategories.find((entry) => entry.slug === slug)?.title ?? slug
+	);
+}
+
+export function DeviceSearch() {
+	const { categoryOrder } = useAuth();
+	const router = useRouter();
+	const [query, setQuery] = useState("");
+	const [open, setOpen] = useState(false);
+	const [active, setActive] = useState(0);
+	const blurTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+	const results = useMemo(() => {
+		const needle = query.trim().toLowerCase();
+		if (needle.length === 0) return [];
+		const order = new Map<string, number>();
+		for (const slug of categoryOrder ?? []) {
+			if (!order.has(slug)) order.set(slug, order.size);
+		}
+		for (const entry of catalogCategories) {
+			if (!order.has(entry.slug)) order.set(entry.slug, order.size);
+		}
+		return deviceIndex
+			.filter((entry) => entry.name.toLowerCase().includes(needle))
+			.sort((a, b) => {
+				const byCategory =
+					(order.get(a.category) ?? Number.MAX_SAFE_INTEGER) -
+					(order.get(b.category) ?? Number.MAX_SAFE_INTEGER);
+				if (byCategory !== 0) return byCategory;
+				const aStarts = a.name.toLowerCase().startsWith(needle) ? 0 : 1;
+				const bStarts = b.name.toLowerCase().startsWith(needle) ? 0 : 1;
+				if (aStarts !== bStarts) return aStarts - bStarts;
+				return a.name.localeCompare(b.name);
+			})
+			.slice(0, 8);
+	}, [query, categoryOrder]);
+
+	function go(href: string) {
+		setOpen(false);
+		setQuery("");
+		router.push(href);
+	}
+
+	return (
+		<div className="relative">
+			<input
+				value={query}
+				onChange={(event) => {
+					setQuery(event.target.value);
+					setOpen(true);
+					setActive(0);
+				}}
+				onFocus={() => setOpen(true)}
+				onBlur={() => {
+					blurTimer.current = setTimeout(() => setOpen(false), 120);
+				}}
+				onKeyDown={(event) => {
+					if (event.key === "Escape") {
+						setQuery("");
+						setOpen(false);
+					} else if (event.key === "ArrowDown") {
+						event.preventDefault();
+						setActive((index) =>
+							results.length === 0
+								? 0
+								: Math.min(index + 1, results.length - 1),
+						);
+					} else if (event.key === "ArrowUp") {
+						event.preventDefault();
+						setActive((index) => Math.max(index - 1, 0));
+					} else if (event.key === "Enter" && results[active]) {
+						go(results[active].href);
+					}
+				}}
+				type="search"
+				role="combobox"
+				aria-expanded={open && results.length > 0}
+				aria-label="Search any device"
+				placeholder="(search any device)"
+				className="w-full rounded-lg border border-fd-border bg-fd-background px-3 py-1.5 text-sm outline-none placeholder:text-fd-muted-foreground focus:border-fd-primary"
+			/>
+			{open && query.trim().length > 0 ? (
+				<ul
+					role="listbox"
+					className="absolute inset-x-0 top-full z-40 mt-1 max-h-72 overflow-auto rounded-lg border border-fd-border bg-fd-popover p-1 shadow-lg"
+				>
+					{results.length === 0 ? (
+						<li className="px-2 py-1.5 text-sm text-fd-muted-foreground">
+							No devices match.
+						</li>
+					) : (
+						results.map((entry, index) => (
+							<li key={`${entry.category}:${entry.id}`} role="option" aria-selected={index === active}>
+								<Link
+									href={entry.href}
+									onMouseDown={(event) => {
+										event.preventDefault();
+										if (blurTimer.current) clearTimeout(blurTimer.current);
+										go(entry.href);
+									}}
+									onMouseEnter={() => setActive(index)}
+									className={`flex flex-col rounded-md px-2 py-1.5 ${index === active ? "bg-fd-accent" : ""}`}
+								>
+									<span className="truncate text-sm font-medium">
+										{entry.name}
+									</span>
+									<span className="text-xs text-fd-muted-foreground">
+										{categoryTitle(entry.category)}
+										{entry.priceAud !== null
+											? ` · A$${entry.priceAud.toLocaleString()}`
+											: ""}
+									</span>
+								</Link>
+							</li>
+						))
+					)}
+				</ul>
+			) : null}
+		</div>
+	);
+}

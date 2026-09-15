@@ -21,12 +21,7 @@ const config = {
 		return [
 			{
 				source: "/docs/account/bookmarks",
-				destination: "/you/devices",
-				permanent: true,
-			},
-			{
-				source: "/you/bookmarks",
-				destination: "/you/devices",
+				destination: "/you/bookmarks",
 				permanent: true,
 			},
 			{

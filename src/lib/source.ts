@@ -307,10 +307,19 @@ export function getYouPageTree(): PageTree.Root {
 			{
 				$id: "you:devices",
 				type: "folder" as const,
-				name: "Devices",
+				name: "Your devices",
 				root: true,
 				defaultOpen: true,
-				index: catalogPageItem("devices", "Devices", "/you/devices"),
+				index: catalogPageItem("devices", "Your devices", "/you/devices"),
+				children: [],
+			},
+			{
+				$id: "you:bookmarks",
+				type: "folder" as const,
+				name: "Bookmarks",
+				root: true,
+				defaultOpen: true,
+				index: catalogPageItem("bookmarks", "Bookmarks", "/you/bookmarks"),
 				children: [],
 			},
 			{
@@ -319,8 +328,13 @@ export function getYouPageTree(): PageTree.Root {
 				name: "Account",
 				root: true,
 				defaultOpen: true,
-				index: catalogPageItem("account", "Account", "/you/account"),
+				index: catalogPageItem("account", "Account settings", "/you/account"),
 				children: [
+					catalogPageItem(
+						"account-settings",
+						"Account settings",
+						"/you/account",
+					),
 					catalogPageItem("order", "Device order", "/you/account/order"),
 				],
 			},

@@ -1,21 +1,15 @@
 "use client";
 
+import { useRef, useState } from "react";
 import { useAuth } from "@/lib/auth/AuthProvider";
 import { catalogCategories } from "@/lib/shared";
-
-function move(order: string[], slug: string, delta: -1 | 1): string[] {
-	const index = order.indexOf(slug);
-	const target = index + delta;
-	if (index < 0 || target < 0 || target >= order.length) return order;
-	const next = [...order];
-	next.splice(index, 1);
-	next.splice(target, 0, slug);
-	return next;
-}
 
 export function DeviceOrder() {
 	const { user, isLoading, openAuthDialog, categoryOrder, setCategoryOrder } =
 		useAuth();
+	const [dragIndex, setDragIndex] = useState<number | null>(null);
+	const [dropIndex, setDropIndex] = useState<number | null>(null);
+	const listRef = useRef<HTMLOListElement>(null);
 
 	if (isLoading) {
 		return <p className="text-fd-muted-foreground">Loading order…</p>;
@@ -47,42 +41,81 @@ export function DeviceOrder() {
 		.filter((slug) => !saved.includes(slug));
 	const order = [...saved, ...missing];
 
+	function persist(next: string[]) {
+		setDragIndex(null);
+		setDropIndex(null);
+		void setCategoryOrder(next);
+	}
+
+	function move(from: number, to: number) {
+		if (from === to) return [...order];
+		const next = [...order];
+		const [slug] = next.splice(from, 1);
+		next.splice(to, 0, slug);
+		return next;
+	}
+
 	return (
 		<div className="flex max-w-md flex-col gap-2">
 			<p className="text-sm text-fd-muted-foreground">
-				Top of the list shows first in the sidebar.
+				Drag to rearrange. Top of the list shows first in the sidebar.
 			</p>
-			<ol className="flex flex-col divide-y divide-fd-border rounded-xl border border-fd-border">
+			<ol
+				ref={listRef}
+				className="flex flex-col divide-y divide-fd-border rounded-xl border border-fd-border"
+			>
 				{order.map((slug, index) => {
 					const title =
 						catalogCategories.find((entry) => entry.slug === slug)?.title ??
 						slug;
+					const isDropTarget = dropIndex === index && dragIndex !== index;
 					return (
-						<li key={slug} className="flex items-center gap-3 px-3 py-2">
+						<li
+							key={slug}
+							draggable
+							onDragStart={(event) => {
+								event.dataTransfer.effectAllowed = "move";
+								event.dataTransfer.setData("text/plain", String(index));
+								setDragIndex(index);
+							}}
+							onDragOver={(event) => {
+								event.preventDefault();
+								event.dataTransfer.dropEffect = "move";
+								if (dropIndex !== index) setDropIndex(index);
+							}}
+							onDragLeave={() => {
+								if (dropIndex === index) setDropIndex(null);
+							}}
+							onDrop={(event) => {
+								event.preventDefault();
+								const from = Number(event.dataTransfer.getData("text/plain"));
+								if (!Number.isNaN(from)) persist(move(from, index));
+								else {
+									setDragIndex(null);
+									setDropIndex(null);
+								}
+							}}
+							onDragEnd={() => {
+								setDragIndex(null);
+								setDropIndex(null);
+							}}
+							aria-label={`${title}, position ${index + 1} of ${order.length}. Drag to reorder.`}
+							className={`flex cursor-grab items-center gap-3 px-3 py-2 active:cursor-grabbing ${
+								dragIndex === index ? "opacity-40" : ""
+							} ${isDropTarget ? "border-t-2 border-t-fd-primary" : ""}`}
+						>
+							<span
+								aria-hidden="true"
+								className="shrink-0 text-fd-muted-foreground"
+							>
+								⋮⋮
+							</span>
 							<span className="w-6 shrink-0 text-sm text-fd-muted-foreground">
 								{index + 1}
 							</span>
 							<span className="min-w-0 flex-1 truncate font-medium">
 								{title}
 							</span>
-							<button
-								type="button"
-								aria-label={`Move ${title} up`}
-								disabled={index === 0}
-								onClick={() => setCategoryOrder(move(order, slug, -1))}
-								className="rounded-full px-2 py-1 text-sm disabled:opacity-30 hover:bg-fd-accent"
-							>
-								↑
-							</button>
-							<button
-								type="button"
-								aria-label={`Move ${title} down`}
-								disabled={index === order.length - 1}
-								onClick={() => setCategoryOrder(move(order, slug, 1))}
-								className="rounded-full px-2 py-1 text-sm disabled:opacity-30 hover:bg-fd-accent"
-							>
-								↓
-							</button>
 						</li>
 					);
 				})}

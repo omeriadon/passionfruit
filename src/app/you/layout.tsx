@@ -9,8 +9,12 @@ const youTree = getYouPageTree();
 
 const youTabMeta: Record<string, { title: string; description: string }> = {
 	"/you/devices": {
-		title: "Devices",
-		description: "Your devices and bookmarks",
+		title: "Your devices",
+		description: "Devices you own",
+	},
+	"/you/bookmarks": {
+		title: "Bookmarks",
+		description: "Devices saved to your account",
 	},
 	"/you/account": {
 		title: "Account",

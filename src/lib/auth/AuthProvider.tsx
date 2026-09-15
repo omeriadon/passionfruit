@@ -88,17 +88,30 @@ export function AuthProvider({ children }: { children: ReactNode }) {
 	}, []);
 
 	const loadSession = useCallback(async (sessionToken: string) => {
-		const [currentUser, bookmarks, owned, order] = await Promise.all([
-			getCurrentUser(sessionToken),
-			listBookmarks(sessionToken),
-			listOwned(sessionToken),
-			getCategoryOrder(sessionToken),
-		]);
+		// The identity check is the only thing allowed to end a session, and
+		// only on 401. Bookmarks/owned/order are best-effort: a failing
+		// endpoint must degrade to an empty list, never sign the user out.
+		let currentUser: AuthUser | null = null;
+		try {
+			currentUser = await getCurrentUser(sessionToken);
+		} catch (error) {
+			if (error instanceof ApiError && error.status === 401) {
+				clearSession();
+				return;
+			}
+			setToken(sessionToken);
+			return;
+		}
 		setToken(sessionToken);
 		setUser(currentUser);
-		setBookmarkItems(bookmarks);
-		setOwnedItems(owned);
-		setCategoryOrderState(order);
+		const [bookmarks, owned, order] = await Promise.all([
+			listBookmarks(sessionToken).catch(() => null),
+			listOwned(sessionToken).catch(() => null),
+			getCategoryOrder(sessionToken).catch(() => null),
+		]);
+		if (bookmarks !== null) setBookmarkItems(bookmarks);
+		if (owned !== null) setOwnedItems(owned);
+		if (order !== null) setCategoryOrderState(order);
 	}, []);
 
 	useEffect(() => {

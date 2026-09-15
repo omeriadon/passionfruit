@@ -31,34 +31,43 @@ export async function GET(request: Request) {
 		fetch(`${bookmarksApiUrl}/api/v1/bookmarks`, {
 			headers,
 			cache: "no-store",
-		}),
-		fetch(`${bookmarksApiUrl}/api/v1/owned`, { headers, cache: "no-store" }),
+		}).catch(() => null),
+		fetch(`${bookmarksApiUrl}/api/v1/owned`, { headers, cache: "no-store" }).catch(
+			() => null,
+		),
 	]);
-	if (!bookmarksRes.ok || !ownedRes.ok) {
-		return NextResponse.json(
-			{ error: "Could not load devices." },
-			{ status: !bookmarksRes.ok ? bookmarksRes.status : ownedRes.status },
-		);
+	// A dead token must still surface as 401 so the client can sign out.
+	// Any other failure degrades to an empty list, never a logout.
+	if (bookmarksRes?.status === 401 && ownedRes?.status === 401) {
+		return NextResponse.json({ error: "Invalid session." }, { status: 401 });
 	}
 
-	const bookmarksPayload = (await bookmarksRes.json()) as
-		| { bookmarks: Bookmark[] }
-		| Bookmark[];
-	const ownedPayload = (await ownedRes.json()) as
-		| { owned: OwnedDevice[] }
-		| OwnedDevice[];
+	async function readList(
+		response: Response | null,
+		key: "bookmarks",
+	): Promise<Bookmark[]>;
+	async function readList(
+		response: Response | null,
+		key: "owned",
+	): Promise<OwnedDevice[]>;
+	async function readList(response: Response | null, key: string) {
+		if (!response || !response.ok) return [];
+		try {
+			const payload = (await response.json()) as Record<string, unknown>;
+			const list = payload[key];
+			return Array.isArray(list) ? list : [];
+		} catch {
+			return [];
+		}
+	}
 
-	const bookmarks = (
-		Array.isArray(bookmarksPayload)
-			? bookmarksPayload
-			: (bookmarksPayload.bookmarks ?? [])
-	).map(enrich);
-	const owned = (
-		Array.isArray(ownedPayload) ? ownedPayload : (ownedPayload.owned ?? [])
-	).map(enrich);
+	const [bookmarks, owned] = await Promise.all([
+		readList(bookmarksRes, "bookmarks"),
+		readList(ownedRes, "owned"),
+	]);
 
 	return NextResponse.json(
-		{ owned, bookmarks },
+		{ owned: owned.map(enrich), bookmarks: bookmarks.map(enrich) },
 		{ headers: { "cache-control": "no-store" } },
 	);
 }

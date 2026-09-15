@@ -34,6 +34,22 @@ const checks = [
 		marker: 'aria-labelledby="apple-display-title"',
 		absent: ["Open details"],
 	},
+	{
+		path: "/you/devices",
+		marker: "Your devices",
+	},
+	{
+		path: "/you/bookmarks",
+		marker: "Bookmarks",
+	},
+	{
+		path: "/you/account",
+		marker: "Account settings",
+	},
+	{
+		path: "/you/account/order",
+		marker: "Device order",
+	},
 ];
 
 for (const check of checks) {

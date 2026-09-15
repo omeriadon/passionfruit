@@ -9,7 +9,7 @@ import type { Metadata } from "next";
 import { notFound, redirect } from "next/navigation";
 import { AccountSettings } from "@/components/you/AccountSettings";
 import { DeviceOrder } from "@/components/you/DeviceOrder";
-import { DevicesList } from "@/components/you/DevicesList";
+import { Bookmarks, YourDevices } from "@/components/you/YouDeviceTabs";
 
 const youPageOptions: Omit<DocsPageProps, "children" | "toc"> = {
 	full: false,
@@ -29,12 +29,26 @@ export default async function Page(props: PageProps<"/you/[[...slug]]">) {
 	if (slugs.length === 1 && slugs[0] === "devices") {
 		return (
 			<DocsPage {...youPageOptions} toc={[]}>
-				<DocsTitle>Devices</DocsTitle>
+				<DocsTitle>Your devices</DocsTitle>
 				<DocsDescription className="mb-0">
-					The devices you own and have bookmarked.
+					The devices you own, grouped by type and newest first.
 				</DocsDescription>
 				<DocsBody>
-					<DevicesList />
+					<YourDevices />
+				</DocsBody>
+			</DocsPage>
+		);
+	}
+
+	if (slugs.length === 1 && slugs[0] === "bookmarks") {
+		return (
+			<DocsPage {...youPageOptions} toc={[]}>
+				<DocsTitle>Bookmarks</DocsTitle>
+				<DocsDescription className="mb-0">
+					Devices saved to your account, grouped by type and newest first.
+				</DocsDescription>
+				<DocsBody>
+					<Bookmarks />
 				</DocsBody>
 			</DocsPage>
 		);
@@ -54,11 +68,7 @@ export default async function Page(props: PageProps<"/you/[[...slug]]">) {
 		);
 	}
 
-	if (
-		slugs.length === 2 &&
-		slugs[0] === "account" &&
-		slugs[1] === "order"
-	) {
+	if (slugs.length === 2 && slugs[0] === "account" && slugs[1] === "order") {
 		return (
 			<DocsPage {...youPageOptions} toc={[]}>
 				<DocsTitle>Device order</DocsTitle>
@@ -78,6 +88,7 @@ export default async function Page(props: PageProps<"/you/[[...slug]]">) {
 export function generateStaticParams() {
 	return [
 		{ slug: ["devices"] },
+		{ slug: ["bookmarks"] },
 		{ slug: ["account"] },
 		{ slug: ["account", "order"] },
 	];
@@ -100,8 +111,14 @@ export async function generateMetadata(
 			description: "Change your username or password, or delete your account.",
 		};
 	}
+	if (slugs[0] === "bookmarks") {
+		return {
+			title: "Bookmarks",
+			description: "Devices saved to your account.",
+		};
+	}
 	return {
-		title: "Devices",
-		description: "The devices you own and have bookmarked.",
+		title: "Your devices",
+		description: "The devices you own.",
 	};
 }
