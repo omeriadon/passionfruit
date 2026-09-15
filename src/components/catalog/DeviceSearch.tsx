@@ -3,14 +3,13 @@
 import Link from "fumadocs-core/link";
 import { useMemo, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
+import { Search, X } from "lucide-react";
 import { useAuth } from "@/lib/auth/AuthProvider";
 import { deviceIndex } from "@/lib/device-index";
 import { catalogCategories } from "@/lib/shared";
 
 function categoryTitle(slug: string): string {
-	return (
-		catalogCategories.find((entry) => entry.slug === slug)?.title ?? slug
-	);
+	return catalogCategories.find((entry) => entry.slug === slug)?.title ?? slug;
 }
 
 export function DeviceSearch() {
@@ -54,42 +53,63 @@ export function DeviceSearch() {
 
 	return (
 		<div className="relative">
-			<input
-				value={query}
-				onChange={(event) => {
-					setQuery(event.target.value);
-					setOpen(true);
-					setActive(0);
-				}}
-				onFocus={() => setOpen(true)}
-				onBlur={() => {
-					blurTimer.current = setTimeout(() => setOpen(false), 120);
-				}}
-				onKeyDown={(event) => {
-					if (event.key === "Escape") {
-						setQuery("");
-						setOpen(false);
-					} else if (event.key === "ArrowDown") {
-						event.preventDefault();
-						setActive((index) =>
-							results.length === 0
-								? 0
-								: Math.min(index + 1, results.length - 1),
-						);
-					} else if (event.key === "ArrowUp") {
-						event.preventDefault();
-						setActive((index) => Math.max(index - 1, 0));
-					} else if (event.key === "Enter" && results[active]) {
-						go(results[active].href);
-					}
-				}}
-				type="search"
-				role="combobox"
-				aria-expanded={open && results.length > 0}
-				aria-label="Search any device"
-				placeholder="(search any device)"
-				className="w-full rounded-lg border border-fd-border bg-fd-background px-3 py-1.5 text-sm outline-none placeholder:text-fd-muted-foreground focus:border-fd-primary"
-			/>
+			<div className="relative flex items-center rounded-lg border border-fd-border bg-fd-background transition-colors focus-within:border-fd-primary">
+				<Search
+					aria-hidden="true"
+					className="pointer-events-none absolute left-3 size-4 text-fd-muted-foreground"
+				/>
+				<input
+					value={query}
+					onChange={(event) => {
+						setQuery(event.target.value);
+						setOpen(true);
+						setActive(0);
+					}}
+					onFocus={() => setOpen(true)}
+					onBlur={() => {
+						blurTimer.current = setTimeout(() => setOpen(false), 120);
+					}}
+					onKeyDown={(event) => {
+						if (event.key === "Escape") {
+							setQuery("");
+							setOpen(false);
+						} else if (event.key === "ArrowDown") {
+							event.preventDefault();
+							setActive((index) =>
+								results.length === 0
+									? 0
+									: Math.min(index + 1, results.length - 1),
+							);
+						} else if (event.key === "ArrowUp") {
+							event.preventDefault();
+							setActive((index) => Math.max(index - 1, 0));
+						} else if (event.key === "Enter" && results[active]) {
+							go(results[active].href);
+						}
+					}}
+					type="search"
+					role="combobox"
+					aria-expanded={open && results.length > 0}
+					aria-label="Search any device"
+					placeholder="Search any device"
+					className="min-w-0 flex-1 appearance-none bg-transparent py-2 pl-9 pr-3 text-sm outline-none placeholder:text-fd-muted-foreground [&::-webkit-search-cancel-button]:hidden"
+				/>
+				{query ? (
+					<button
+						type="button"
+						aria-label="Clear device search"
+						onMouseDown={(event) => event.preventDefault()}
+						onClick={() => {
+							setQuery("");
+							setOpen(false);
+							setActive(0);
+						}}
+						className="mr-1 inline-flex size-7 shrink-0 items-center justify-center rounded-md text-fd-muted-foreground hover:bg-fd-accent hover:text-fd-accent-foreground"
+					>
+						<X aria-hidden="true" className="size-4" />
+					</button>
+				) : null}
+			</div>
 			{open && query.trim().length > 0 ? (
 				<ul
 					role="listbox"
@@ -101,7 +121,11 @@ export function DeviceSearch() {
 						</li>
 					) : (
 						results.map((entry, index) => (
-							<li key={`${entry.category}:${entry.id}`} role="option" aria-selected={index === active}>
+							<li
+								key={`${entry.category}:${entry.id}`}
+								role="option"
+								aria-selected={index === active}
+							>
 								<Link
 									href={entry.href}
 									onMouseDown={(event) => {

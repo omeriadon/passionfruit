@@ -65,6 +65,12 @@ select {
 	isolation: isolate;
 }
 
+#nd-sidebar > #nd-sidebar-device-search {
+	position: absolute;
+	inset: 6.5rem 0 auto;
+	z-index: 3;
+}
+
 #nd-sidebar > div:first-of-type > * {
 	position: relative;
 	z-index: 2;
@@ -95,6 +101,12 @@ select {
 
 #nd-sidebar > div:last-of-type > div:first-of-type {
 	padding-top: 6.5rem;
+}
+
+#nd-sidebar.nd-sidebar-with-device-search
+	> div:last-of-type
+	> div:first-of-type {
+	padding-top: 10.5rem;
 }
 
 #nd-sidebar > div:first-of-type::after {

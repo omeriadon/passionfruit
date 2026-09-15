@@ -12,21 +12,43 @@ function useSidebarHost(id: string, active: boolean, prepend: boolean) {
 
 	useEffect(() => {
 		if (!active) return;
-		const sidebar = document.getElementById("nd-sidebar");
-		if (!sidebar) return;
-		document.getElementById(id)?.remove();
-		const element = document.createElement("div");
-		element.id = id;
-		// Own stacking context so portaled results paint above the masked
-		// scroll viewport and tab picker below, never underneath them.
-		element.className = "relative z-40";
-		if (prepend) {
-			// Below the title row, directly above the tab picker — never
-			// covering the title. Falls back to top if the layout changes.
-			sidebar.insertBefore(element, sidebar.children[1] ?? null);
-		} else sidebar.appendChild(element);
-		setHost(element);
+		let observer: MutationObserver | null = null;
+		let mounted: HTMLElement | null = null;
+
+		const mount = () => {
+			const sidebar = document.getElementById("nd-sidebar");
+			if (!sidebar) return false;
+			document.getElementById(id)?.remove();
+			const element = document.createElement("div");
+			element.id = id;
+			// Own stacking context so portaled results paint above the masked
+			// scroll viewport and tab picker below, never underneath them.
+			element.className = "relative z-40";
+			if (prepend) {
+				// Below the title row, directly above the tab picker — never
+				// covering the title. Falls back to top if the layout changes.
+				sidebar.insertBefore(element, sidebar.children[1] ?? null);
+				sidebar.classList.add("nd-sidebar-with-device-search");
+			} else sidebar.appendChild(element);
+			mounted = element;
+			setHost(element);
+			return true;
+		};
+
+		if (!mount()) {
+			observer = new MutationObserver(() => {
+				if (mount()) observer?.disconnect();
+			});
+			observer.observe(document.body, { childList: true, subtree: true });
+		}
+
 		return () => {
+			observer?.disconnect();
+			if (prepend) {
+				mounted?.parentElement?.classList.remove(
+					"nd-sidebar-with-device-search",
+				);
+			}
 			document.getElementById(id)?.remove();
 			setHost(null);
 		};
@@ -61,8 +83,7 @@ export function YouSidebarLinks() {
 	>([]);
 	const { sessionToken } = useAuth();
 
-	const active =
-		pathname === "/you/devices" || pathname === "/you/bookmarks";
+	const active = pathname === "/you/devices" || pathname === "/you/bookmarks";
 	const host = useSidebarHost("nd-sidebar-you-links", active, false);
 
 	useEffect(() => {
