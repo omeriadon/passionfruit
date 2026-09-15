@@ -7,6 +7,7 @@ import { Search, X } from "lucide-react";
 import { useAuth } from "@/lib/auth/AuthProvider";
 import { deviceIndex } from "@/lib/device-index";
 import { catalogCategories } from "@/lib/shared";
+import { DeviceTypeIcon } from "@/components/catalog/DeviceTypeIcon";
 
 export function DeviceSearch() {
 	const { categoryOrder, isBookmarked, isOwned } = useAuth();
@@ -132,8 +133,12 @@ export function DeviceSearch() {
 									onMouseEnter={() => setActive(index)}
 									className={`flex flex-col rounded-md px-2 py-1.5 ${index === active ? "bg-fd-accent" : ""}`}
 								>
-									<span className="truncate text-sm font-medium">
-										{entry.name}
+									<span className="flex min-w-0 items-center gap-2 text-sm font-medium">
+										<DeviceTypeIcon
+											category={entry.category}
+											className="size-4 shrink-0"
+										/>
+										<span className="truncate">{entry.name}</span>
 									</span>
 									<span className="flex items-center justify-between gap-3 text-xs text-fd-muted-foreground">
 										<span className="flex min-w-0 items-center gap-1.5">

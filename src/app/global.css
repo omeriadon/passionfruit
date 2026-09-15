@@ -148,6 +148,7 @@ select {
 #nd-sidebar > button {
 	position: absolute;
 	inset: 5.5rem 0.5rem auto;
+	margin-top: 6px;
 	z-index: 2;
 	padding-inline: 0.5rem;
 	margin-inline: 0;

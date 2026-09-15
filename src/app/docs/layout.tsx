@@ -4,6 +4,7 @@ import { getLayoutTabs, type LayoutTab } from "fumadocs-ui/layouts/shared";
 import { baseOptions } from "@/lib/layout.shared";
 import { catalogCategories, otherCatalogSections } from "@/lib/shared";
 import { GlassAccountHeader } from "@/components/auth/GlassAccountHeader";
+import { DeviceTypeIcon } from "@/components/catalog/DeviceTypeIcon";
 
 const baseLayoutOptions = baseOptions();
 const catalogTree = getCatalogPageTree();
@@ -17,6 +18,7 @@ const catalogTabs = getLayoutTabs(catalogTree)
 				...option,
 				title: category.title,
 				description: category.description,
+				icon: <DeviceTypeIcon category={category.slug} className="size-4" />,
 			};
 		}
 
@@ -28,6 +30,7 @@ const catalogTabs = getLayoutTabs(catalogTree)
 				...option,
 				title: section.title,
 				description: section.description,
+				icon: <DeviceTypeIcon category={section.slug} className="size-4" />,
 			};
 		}
 
