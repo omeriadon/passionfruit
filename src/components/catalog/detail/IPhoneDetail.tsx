@@ -141,9 +141,8 @@ function NamedItems({
 }
 
 export function IPhoneDetail({ device, showSources }: IPhoneDetailProps) {
-	const memoryGb = typeof device.memoryGb === "number"
-		? `${device.memoryGb} GB`
-		: undefined;
+	const memoryGb =
+		typeof device.memoryGb === "number" ? `${device.memoryGb} GB` : undefined;
 	const overviewImages = records(device.overviewImages);
 	const audio = record(device.audio);
 	const battery = record(device.batteryAndPower);

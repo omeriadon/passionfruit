@@ -18,6 +18,12 @@ function useSidebarHost(id: string, active: boolean, prepend: boolean) {
 		const mount = () => {
 			const sidebar = document.getElementById("nd-sidebar");
 			if (!sidebar) return false;
+			const target = prepend
+				? sidebar
+				: sidebar.querySelector<HTMLElement>(
+						":scope > div > [data-id$='-viewport']",
+					);
+			if (!target) return false;
 			document.getElementById(id)?.remove();
 			const element = document.createElement("div");
 			element.id = id;
@@ -28,7 +34,7 @@ function useSidebarHost(id: string, active: boolean, prepend: boolean) {
 				// Below the title row, directly above the tab picker.
 				sidebar.insertBefore(element, sidebar.children[1] ?? null);
 				sidebar.classList.add("nd-sidebar-with-device-search");
-			} else sidebar.appendChild(element);
+			} else target.appendChild(element);
 			mounted = element;
 			setHost(element);
 			return true;
@@ -51,7 +57,7 @@ function useSidebarHost(id: string, active: boolean, prepend: boolean) {
 			document.getElementById(id)?.remove();
 			setHost(null);
 		};
-	}, [id, active]);
+	}, [id, active, prepend]);
 
 	return host;
 }

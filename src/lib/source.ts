@@ -1,5 +1,6 @@
 import { loader } from "fumadocs-core/source";
 import type * as PageTree from "fumadocs-core/page-tree";
+import { createElement, type ReactNode } from "react";
 import { lucideIconsPlugin } from "fumadocs-core/source/lucide-icons";
 import { docsContentRoute, docsImageRoute, docsRoute } from "./shared";
 import { defineDocs } from "fumadocs-mdx/macro";
@@ -18,6 +19,7 @@ import {
 } from "./shared";
 import { sortDevices } from "./catalog/config";
 import type { CatalogDevice } from "./catalog/types";
+import { DeviceSidebarLabel } from "@/components/catalog/DeviceSidebarLabel";
 
 // Catalog data imports are intentionally kept in this server-side source module.
 import airpodsData from "../../public/data/airpods/airpods.json";
@@ -179,7 +181,11 @@ function findFolderByRoute(
 	return undefined;
 }
 
-function catalogPageItem(id: string, name: string, url: string): PageTree.Item {
+function catalogPageItem(
+	id: string,
+	name: ReactNode,
+	url: string,
+): PageTree.Item {
 	return {
 		$id: `catalog:${url}`,
 		type: "page",
@@ -224,7 +230,11 @@ export function getCatalogPageTree(): PageTree.Root {
 			sortDevices(data.devices as CatalogDevice[]).map((device) =>
 				catalogPageItem(
 					device.id,
-					device.name,
+					createElement(DeviceSidebarLabel, {
+						category: category.slug,
+						deviceId: device.id,
+						name: device.name,
+					}),
 					`${docsRoute}/${category.slug}/${device.id}`,
 				),
 			),
@@ -239,7 +249,11 @@ export function getCatalogPageTree(): PageTree.Root {
 			data.accessories.map((item) =>
 				catalogPageItem(
 					item.id,
-					item.displayName,
+					createElement(DeviceSidebarLabel, {
+						category: accessory.slug,
+						deviceId: item.id,
+						name: item.displayName,
+					}),
 					`${docsRoute}/ipad/accessories/${accessory.slug}/${item.id}`,
 				),
 			),
@@ -273,7 +287,11 @@ export function getCatalogPageTree(): PageTree.Root {
 			children: otherDatasets[section.slug].products.map((product) =>
 				catalogPageItem(
 					product.id,
-					product.displayName,
+					createElement(DeviceSidebarLabel, {
+						category: section.slug,
+						deviceId: product.id,
+						name: product.displayName,
+					}),
 					`${docsRoute}/other/${section.slug}/${product.id}`,
 				),
 			),

@@ -50,129 +50,22 @@ select {
 	) !important;
 }
 
-.glass-account-switch-pill,
-.glass-theme-switch::before {
+.glass-theme-switch > button.bg-fd-accent {
 	background: var(--color-fd-primary);
+	color: var(--color-fd-primary-foreground);
 	box-shadow: var(--shadow-sm);
-	transition: transform 250ms cubic-bezier(0.22, 1, 0.36, 1);
 }
 
-.glass-account-switch-pill {
-	position: absolute;
-	inset: 0.25rem 50% 0.25rem 0.25rem;
-	border-radius: 9999px;
-	pointer-events: none;
+.glass-theme-switch > button:not(.bg-fd-accent):is(:hover, :focus-visible) {
+	background: var(--color-fd-accent);
+	color: var(--color-fd-accent-foreground);
 }
 
-.glass-account-switch[data-active="you"] .glass-account-switch-pill,
-.glass-account-switch:has(> a:nth-of-type(2):is(:hover, :focus-visible))
-	.glass-account-switch-pill {
-	transform: translateX(100%);
-}
-
-.glass-account-switch:has(> a:first-of-type:is(:hover, :focus-visible))
-	.glass-account-switch-pill {
-	transform: translateX(0);
-}
-
-.glass-account-switch > a {
-	color: var(--color-fd-muted-foreground);
-	transition: color 250ms cubic-bezier(0.22, 1, 0.36, 1);
-}
-
-.glass-account-switch > a[aria-current="page"],
-.glass-account-switch:has(> a:is(:hover, :focus-visible))
-	> a:is(:hover, :focus-visible) {
-	color: var(--color-fd-primary-foreground);
-}
-
-.glass-account-switch:has(> a:is(:hover, :focus-visible))
-	> a[aria-current="page"]:not(:hover, :focus-visible) {
-	color: var(--color-fd-muted-foreground);
-}
-
-.glass-theme-switch {
-	position: relative;
-}
-
-.glass-theme-switch::before {
-	content: "";
-	position: absolute;
-	top: 0.25rem;
-	left: 0.375rem;
-	width: 1.625rem;
-	height: 1.625rem;
-	border-radius: 9999px;
-	pointer-events: none;
-}
-
-.glass-theme-switch:has(> button:nth-child(2).bg-fd-accent)::before {
-	transform: translateX(100%);
-}
-
-.glass-theme-switch:has(> button:nth-child(3).bg-fd-accent)::before {
-	transform: translateX(200%);
-}
-
-.glass-theme-switch:has(
-		> button:first-child:is(:hover, :focus-visible)
-	)::before {
-	transform: translateX(0);
-}
-
-.glass-theme-switch:has(
-		> button:nth-child(2):is(:hover, :focus-visible)
-	)::before {
-	transform: translateX(100%);
-}
-
-.glass-theme-switch:has(
-		> button:nth-child(3):is(:hover, :focus-visible)
-	)::before {
-	transform: translateX(200%);
-}
-
-.glass-theme-switch > button {
-	position: relative;
-	z-index: 1;
-	background: transparent !important;
-	transition: color 250ms cubic-bezier(0.22, 1, 0.36, 1);
-}
-
-.glass-theme-switch > button.bg-fd-accent,
-.glass-theme-switch:has(> button:is(:hover, :focus-visible))
-	> button:is(:hover, :focus-visible) {
-	color: var(--color-fd-primary-foreground);
-}
-
-.glass-theme-switch:has(> button:is(:hover, :focus-visible))
-	> button.bg-fd-accent:not(:hover, :focus-visible) {
-	color: var(--color-fd-muted-foreground);
-}
-
-[data-search-full] kbd {
-	transition:
-		background-color 250ms cubic-bezier(0.22, 1, 0.36, 1),
-		border-color 250ms cubic-bezier(0.22, 1, 0.36, 1),
-		box-shadow 250ms cubic-bezier(0.22, 1, 0.36, 1),
-		color 250ms cubic-bezier(0.22, 1, 0.36, 1);
-}
-
-[data-search-full]:is(:hover, :focus-visible) kbd {
-	background: var(--color-fd-primary);
-	color: var(--color-fd-primary-foreground);
+.glass-header-surface[data-search-full] kbd {
+	background: var(--color-fd-accent);
+	color: var(--color-fd-accent-foreground);
 	border-color: transparent;
-	box-shadow: var(--shadow-sm);
-}
-
-@media (prefers-reduced-motion: reduce) {
-	.glass-account-switch-pill,
-	.glass-account-switch > a,
-	.glass-theme-switch::before,
-	.glass-theme-switch > button,
-	[data-search-full] kbd {
-		transition: none;
-	}
+	border-radius: 9999px;
 }
 
 /* Let the default Glass sidebar list continue beneath its title and tabs. */
@@ -188,6 +81,10 @@ select {
 	z-index: 2;
 	pointer-events: none;
 	isolation: isolate;
+}
+
+#nd-sidebar:not(.nd-sidebar-with-device-search) > div:first-of-type {
+	height: 6.5rem;
 }
 
 #nd-sidebar > #nd-sidebar-device-search {
@@ -224,13 +121,13 @@ select {
 	);
 }
 
-#nd-sidebar > div:last-of-type > div:first-of-type {
+#nd-sidebar > div:has(> [data-id$="-viewport"]) > [data-id$="-viewport"] {
 	padding-top: 6.5rem;
 }
 
 #nd-sidebar.nd-sidebar-with-device-search
-	> div:last-of-type
-	> div:first-of-type {
+	> div:has(> [data-id$="-viewport"])
+	> [data-id$="-viewport"] {
 	padding-top: 10.5rem;
 }
 
@@ -252,6 +149,8 @@ select {
 	position: absolute;
 	inset: 5.5rem 0.5rem auto;
 	z-index: 2;
+	padding-inline: 0.5rem;
+	margin-inline: 0;
 	background-color: color-mix(
 		in srgb,
 		var(--color-fd-popover) 32%,
@@ -262,6 +161,10 @@ select {
 	border-color: color-mix(in srgb, currentColor 16%, transparent) !important;
 }
 
+#nd-sidebar:not(.nd-sidebar-with-device-search) > button {
+	top: 2.5rem;
+}
+
 #nd-sidebar > button[data-popup-open="true"] {
 	background-color: color-mix(
 		in srgb,
@@ -270,13 +173,36 @@ select {
 	) !important;
 }
 
-#nd-sidebar > div:last-of-type {
+#nd-sidebar > div:has(> [data-id$="-viewport"]) {
 	position: absolute;
 	inset: 0;
 	display: flex;
 	min-height: 0;
 	width: 100%;
 	overflow: hidden;
+}
+
+#nd-sidebar
+	[data-id$="-viewport"]
+	a:is(
+		[href="/docs/airpods"],
+		[href="/docs/apple-tv"],
+		[href="/docs/apple-watch"],
+		[href="/docs/homepod"],
+		[href="/docs/ipad"],
+		[href="/docs/iphone"],
+		[href="/docs/mac"],
+		[href="/docs/vision"],
+		[href="/docs/ipad/accessories"],
+		[href="/docs/ipad/accessories/apple-pencil"],
+		[href="/docs/ipad/accessories/magic-keyboard"],
+		[href="/docs/other/apple-display"]
+	) {
+	margin-bottom: 1rem;
+	border: 1px solid var(--color-fd-border);
+	border-radius: 0.75rem;
+	padding: 0.625rem 0.75rem;
+	font-weight: 600;
 }
 
 .catalog-route-boundary {

@@ -58,14 +58,17 @@ export function GlassAccountHeader({
 
 			<nav
 				aria-label="Primary navigation"
-				className="glass-account-switch glass-header-surface relative hidden shrink-0 grid-cols-2 items-center rounded-full p-1 md:grid me-auto"
-				data-active={showingYou ? "you" : "devices"}
+				className="glass-header-surface hidden shrink-0 items-center gap-1 rounded-full p-1 md:flex me-auto"
 			>
-				<span aria-hidden="true" className="glass-account-switch-pill" />
 				<Link
 					href={devicesHref}
 					aria-current={showingYou ? undefined : "page"}
-					className="relative z-1 inline-flex items-center justify-center gap-1.5 rounded-full px-3 py-1.5 text-sm font-medium"
+					className={cn(
+						"inline-flex items-center gap-1.5 rounded-full px-3 py-1.5 text-sm font-medium transition-colors",
+						showingYou
+							? "text-fd-muted-foreground hover:bg-fd-accent hover:text-fd-accent-foreground"
+							: "bg-fd-primary text-fd-primary-foreground shadow-sm",
+					)}
 				>
 					<LibraryBig aria-hidden="true" className="size-4" />
 					<span>Devices</span>
@@ -73,7 +76,12 @@ export function GlassAccountHeader({
 				<Link
 					href="/you/devices"
 					aria-current={showingYou ? "page" : undefined}
-					className="relative z-1 inline-flex items-center justify-center gap-1.5 rounded-full px-3 py-1.5 text-sm font-medium"
+					className={cn(
+						"inline-flex items-center gap-1.5 rounded-full px-3 py-1.5 text-sm font-medium transition-colors",
+						showingYou
+							? "bg-fd-primary text-fd-primary-foreground shadow-sm"
+							: "text-fd-muted-foreground hover:bg-fd-accent hover:text-fd-accent-foreground",
+					)}
 				>
 					<UserRound aria-hidden="true" className="size-4" />
 					<span>You</span>
