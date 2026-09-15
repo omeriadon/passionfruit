@@ -11,8 +11,7 @@
 					"displayName": "Night Sky",
 					"finish": {
 						"base": "#141C28",
-						"material": "glass",
-						"shine": 0.6
+						"material": "brushed-titanium"
 					},
 					"images": [
 						{
@@ -30,8 +29,7 @@
 					"displayName": "Star White",
 					"finish": {
 						"base": "#F4F1EA",
-						"material": "ceramic",
-						"shine": 0.5
+						"material": "brushed-titanium"
 					},
 					"images": [
 						{

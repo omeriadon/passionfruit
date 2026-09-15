@@ -62,5 +62,10 @@ const glassLayoutOptions: Omit<GlassLayoutProps, "children"> = {
 };
 
 export default function Layout({ children }: LayoutProps<"/docs">) {
-	return <GlassLayout {...glassLayoutOptions}>{children}</GlassLayout>;
+	return (
+		<>
+			<style>{`#nd-sidebar > div:first-child { padding-top: 0.5rem; } #nd-sidebar-device-search > div { padding-top: 0.25rem; } #nd-sidebar-device-search + * { margin-top: 0.375rem; }`}</style>
+			<GlassLayout {...glassLayoutOptions}>{children}</GlassLayout>
+		</>
+	);
 }
