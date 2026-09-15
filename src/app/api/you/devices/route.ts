@@ -1,5 +1,9 @@
 import { NextResponse } from "next/server";
-import { bookmarksApiUrl, type Bookmark, type OwnedDevice } from "@/lib/auth/api";
+import {
+	bookmarksApiUrl,
+	type Bookmark,
+	type OwnedDevice,
+} from "@/lib/auth/api";
 import { getBookmarkedDevice } from "@/lib/source";
 
 export type EnrichedDeviceEntry = {
@@ -9,6 +13,7 @@ export type EnrichedDeviceEntry = {
 	name: string | null;
 	priceAud: number | null;
 	href: string | null;
+	releaseYear: number | null;
 };
 
 /**
@@ -32,9 +37,10 @@ export async function GET(request: Request) {
 			headers,
 			cache: "no-store",
 		}).catch(() => null),
-		fetch(`${bookmarksApiUrl}/api/v1/owned`, { headers, cache: "no-store" }).catch(
-			() => null,
-		),
+		fetch(`${bookmarksApiUrl}/api/v1/owned`, {
+			headers,
+			cache: "no-store",
+		}).catch(() => null),
 	]);
 	// A dead token must still surface as 401 so the client can sign out.
 	// Any other failure degrades to an empty list, never a logout.
@@ -81,5 +87,6 @@ function enrich(item: Bookmark): EnrichedDeviceEntry {
 		name: resolved?.name ?? null,
 		priceAud: resolved?.priceAud ?? null,
 		href: resolved?.href ?? null,
+		releaseYear: resolved?.releaseYear ?? null,
 	};
 }

@@ -227,16 +227,21 @@ export function getCatalogPageTree(): PageTree.Root {
 		if (!("devices" in data)) continue;
 		childrenByUrl.set(
 			`${docsRoute}/${category.slug}`,
-			sortDevices(data.devices as CatalogDevice[]).map((device) =>
-				catalogPageItem(
-					device.id,
-					createElement(DeviceSidebarLabel, {
-						category: category.slug,
-						deviceId: device.id,
-						name: device.name,
-					}),
-					`${docsRoute}/${category.slug}/${device.id}`,
-				),
+			sortDevices(data.devices as CatalogDevice[]).map(
+				(device, index, devices) =>
+					catalogPageItem(
+						device.id,
+						createElement(DeviceSidebarLabel, {
+							category: category.slug,
+							deviceId: device.id,
+							name: device.name,
+							releaseYear: releaseYearOf(device),
+							yearStart:
+								index > 0 &&
+								releaseYearOf(devices[index - 1]) !== releaseYearOf(device),
+						}),
+						`${docsRoute}/${category.slug}/${device.id}`,
+					),
 			),
 		);
 	}
@@ -246,13 +251,17 @@ export function getCatalogPageTree(): PageTree.Root {
 		if (!("accessories" in data)) continue;
 		childrenByUrl.set(
 			`${docsRoute}/ipad/accessories/${accessory.slug}`,
-			data.accessories.map((item) =>
+			data.accessories.map((item, index, items) =>
 				catalogPageItem(
 					item.id,
 					createElement(DeviceSidebarLabel, {
 						category: accessory.slug,
 						deviceId: item.id,
 						name: item.displayName,
+						releaseYear: releaseYearOf(item),
+						yearStart:
+							index > 0 &&
+							releaseYearOf(items[index - 1]) !== releaseYearOf(item),
 					}),
 					`${docsRoute}/ipad/accessories/${accessory.slug}/${item.id}`,
 				),
@@ -291,6 +300,7 @@ export function getCatalogPageTree(): PageTree.Root {
 						category: section.slug,
 						deviceId: product.id,
 						name: product.displayName,
+						releaseYear: releaseYearOf(product),
 					}),
 					`${docsRoute}/other/${section.slug}/${product.id}`,
 				),
@@ -310,6 +320,19 @@ export function getCatalogPageTree(): PageTree.Root {
 	}
 
 	return transformed as PageTree.Root;
+}
+
+function releaseYearOf(entry: unknown): number | null {
+	if (
+		typeof entry === "object" &&
+		entry !== null &&
+		"releaseYear" in entry &&
+		typeof entry.releaseYear === "number" &&
+		Number.isFinite(entry.releaseYear)
+	) {
+		return entry.releaseYear;
+	}
+	return null;
 }
 
 /**
@@ -360,7 +383,14 @@ export function getYouPageTree(): PageTree.Root {
 export function getBookmarkedDevice(
 	category: string,
 	deviceId: string,
-): { name: string; priceAud: number | null; href: string } | undefined {
+):
+	| {
+			name: string;
+			priceAud: number | null;
+			href: string;
+			releaseYear: number | null;
+	  }
+	| undefined {
 	const deviceData = (catalogDatasets as Record<string, CatalogDataset>)[
 		category
 	];
@@ -373,6 +403,7 @@ export function getBookmarkedDevice(
 			name: device.name,
 			priceAud: readPriceAud(device),
 			href: `${docsRoute}/${category}/${deviceId}`,
+			releaseYear: releaseYearOf(device),
 		};
 	}
 
@@ -388,6 +419,7 @@ export function getBookmarkedDevice(
 			name: item.displayName,
 			priceAud: readPriceAud(item),
 			href: `${docsRoute}/ipad/accessories/${category}/${deviceId}`,
+			releaseYear: releaseYearOf(item),
 		};
 	}
 
@@ -403,6 +435,7 @@ export function getBookmarkedDevice(
 			name: product.displayName,
 			priceAud: readPriceAud(product),
 			href: `${docsRoute}/other/${category}/${deviceId}`,
+			releaseYear: releaseYearOf(product),
 		};
 	}
 

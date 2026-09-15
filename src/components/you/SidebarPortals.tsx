@@ -6,7 +6,8 @@ import { useEffect, useState } from "react";
 import { createPortal } from "react-dom";
 import { useAuth } from "@/lib/auth/AuthProvider";
 import { DeviceSearch } from "@/components/catalog/DeviceSearch";
-import { DeviceTypeIcon } from "@/components/catalog/DeviceTypeIcon";
+import { DeviceSidebarLabel } from "@/components/catalog/DeviceSidebarLabel";
+import type { EnrichedDeviceEntry } from "@/app/api/you/devices/route";
 
 function useSidebarHost(id: string, active: boolean, prepend: boolean) {
 	const [host, setHost] = useState<HTMLElement | null>(null);
@@ -85,18 +86,8 @@ export function YouSidebarLinks() {
 	const pathname = usePathname();
 	const { user, categoryOrder } = useAuth();
 	const [items, setItems] = useState<{
-		owned: {
-			category: string;
-			deviceId: string;
-			name: string;
-			href: string | null;
-		}[];
-		bookmarks: {
-			category: string;
-			deviceId: string;
-			name: string;
-			href: string | null;
-		}[];
+		owned: EnrichedDeviceEntry[];
+		bookmarks: EnrichedDeviceEntry[];
 	}>({ owned: [], bookmarks: [] });
 	const { sessionToken } = useAuth();
 
@@ -116,33 +107,13 @@ export function YouSidebarLinks() {
 			.then(async (response) => {
 				if (!response.ok) return;
 				const payload = (await response.json()) as {
-					owned: {
-						category: string;
-						deviceId: string;
-						name: string | null;
-						href: string | null;
-					}[];
-					bookmarks: {
-						category: string;
-						deviceId: string;
-						name: string | null;
-						href: string | null;
-					}[];
+					owned: EnrichedDeviceEntry[];
+					bookmarks: EnrichedDeviceEntry[];
 				};
 				if (cancelled) return;
 				setItems({
-					owned: payload.owned.map((entry) => ({
-						category: entry.category,
-						deviceId: entry.deviceId,
-						name: entry.name ?? entry.deviceId,
-						href: entry.href,
-					})),
-					bookmarks: payload.bookmarks.map((entry) => ({
-						category: entry.category,
-						deviceId: entry.deviceId,
-						name: entry.name ?? entry.deviceId,
-						href: entry.href,
-					})),
+					owned: payload.owned,
+					bookmarks: payload.bookmarks,
 				});
 			})
 			.catch(() => {});
@@ -164,11 +135,14 @@ export function YouSidebarLinks() {
 		if (!order.has(slug)) order.set(slug, order.size);
 	}
 	const sortItems = (list: typeof items.owned) =>
-		[...list].sort(
-			(a, b) =>
+		[...list].sort((a, b) => {
+			const categoryDifference =
 				(order.get(a.category) ?? Number.MAX_SAFE_INTEGER) -
-				(order.get(b.category) ?? Number.MAX_SAFE_INTEGER),
-		);
+				(order.get(b.category) ?? Number.MAX_SAFE_INTEGER);
+			return categoryDifference !== 0
+				? categoryDifference
+				: (b.releaseYear ?? 0) - (a.releaseYear ?? 0);
+		});
 	const sections = [
 		{ title: "Owned", items: sortItems(items.owned) },
 		{ title: "Bookmarked", items: sortItems(items.bookmarks) },
@@ -182,28 +156,40 @@ export function YouSidebarLinks() {
 						{section.title}
 					</p>
 					<ul className="flex flex-col">
-						{section.items.map((item) => (
+						{section.items.map((item, index, sectionItems) => (
 							<li key={`${section.title}:${item.category}:${item.deviceId}`}>
 								{item.href ? (
 									<Link
 										href={item.href}
-										className="block truncate rounded-md px-2 py-1.5 text-sm hover:bg-fd-accent"
+										className="relative block truncate rounded-md px-2 py-1.5 font-mono text-sm hover:bg-fd-accent"
 									>
-										<span className="flex min-w-0 items-center gap-2">
-											<DeviceTypeIcon
-												category={item.category}
-												className="size-4 shrink-0 text-fd-muted-foreground"
-											/>
-											<span className="truncate">{item.name}</span>
-										</span>
+										<DeviceSidebarLabel
+											category={item.category}
+											deviceId={item.deviceId}
+											name={item.name ?? item.deviceId}
+											releaseYear={item.releaseYear}
+											yearStart={
+												index > 0 &&
+												(sectionItems[index - 1].category !== item.category ||
+													sectionItems[index - 1].releaseYear !==
+														item.releaseYear)
+											}
+										/>
 									</Link>
 								) : (
-									<span className="flex min-w-0 items-center gap-2 px-2 py-1.5 text-sm">
-										<DeviceTypeIcon
+									<span className="relative flex min-w-0 items-center gap-2 px-2 py-1.5 font-mono text-sm">
+										<DeviceSidebarLabel
 											category={item.category}
-											className="size-4 shrink-0 text-fd-muted-foreground"
+											deviceId={item.deviceId}
+											name={item.name ?? item.deviceId}
+											releaseYear={item.releaseYear}
+											yearStart={
+												index > 0 &&
+												(sectionItems[index - 1].category !== item.category ||
+													sectionItems[index - 1].releaseYear !==
+														item.releaseYear)
+											}
 										/>
-										<span className="truncate">{item.name}</span>
 									</span>
 								)}
 							</li>
