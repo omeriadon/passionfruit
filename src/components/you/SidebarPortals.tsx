@@ -171,7 +171,7 @@ export function YouSidebarLinks() {
 		);
 	const sections = [
 		{ title: "Owned", items: sortItems(items.owned) },
-		{ title: "Bookmarks", items: sortItems(items.bookmarks) },
+		{ title: "Bookmarked", items: sortItems(items.bookmarks) },
 	].filter((section) => section.items.length > 0);
 
 	return createPortal(

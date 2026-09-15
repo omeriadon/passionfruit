@@ -17,7 +17,6 @@ const catalogTabs = getLayoutTabs(catalogTree)
 			return {
 				...option,
 				title: category.title,
-				description: category.description,
 				icon: <DeviceTypeIcon category={category.slug} className="size-4" />,
 			};
 		}
@@ -29,7 +28,6 @@ const catalogTabs = getLayoutTabs(catalogTree)
 			return {
 				...option,
 				title: section.title,
-				description: section.description,
 				icon: <DeviceTypeIcon category={section.slug} className="size-4" />,
 			};
 		}

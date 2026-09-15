@@ -10,18 +10,14 @@ export const gitConfig = {
 };
 
 export const catalogCategories = [
-	{ slug: "airpods", title: "AirPods", description: "Wireless audio" },
-	{ slug: "apple-tv", title: "Apple TV", description: "Home entertainment" },
-	{
-		slug: "apple-watch",
-		title: "Apple Watch",
-		description: "Wearables and health",
-	},
-	{ slug: "homepod", title: "HomePod", description: "Home audio" },
-	{ slug: "ipad", title: "iPad", description: "Tablets and accessories" },
-	{ slug: "iphone", title: "iPhone", description: "Phones" },
-	{ slug: "mac", title: "Mac", description: "Mac notebooks and desktops" },
-	{ slug: "vision", title: "Vision", description: "Spatial computing" },
+	{ slug: "airpods", title: "AirPods" },
+	{ slug: "apple-tv", title: "Apple TV" },
+	{ slug: "apple-watch", title: "Apple Watch" },
+	{ slug: "homepod", title: "HomePod" },
+	{ slug: "ipad", title: "iPad" },
+	{ slug: "iphone", title: "iPhone" },
+	{ slug: "mac", title: "Mac" },
+	{ slug: "vision", title: "Vision" },
 ] as const;
 
 export type CatalogCategory = (typeof catalogCategories)[number]["slug"];
@@ -30,12 +26,10 @@ export const ipadAccessorySections = [
 	{
 		slug: "apple-pencil",
 		title: "Apple Pencil",
-		description: "Styluses for iPad",
 	},
 	{
 		slug: "magic-keyboard",
 		title: "Magic Keyboard",
-		description: "Keyboards for iPad",
 	},
 ] as const;
 
@@ -46,7 +40,6 @@ export const otherCatalogSections = [
 	{
 		slug: "apple-display",
 		title: "Apple displays",
-		description: "Studio Display and XDR",
 	},
 ] as const;
 
