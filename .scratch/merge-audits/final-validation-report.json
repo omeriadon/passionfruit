@@ -46,7 +46,7 @@
 			"collectionKey": "devices",
 			"records": 40,
 			"schemaSha256": "552939e5476b49a3985cbcdd42de921089cf9aa54e7605eab473316835860fc1",
-			"imageReferences": 54,
+			"imageReferences": 137,
 			"valid": true,
 			"errorCount": 0,
 			"errors": []
@@ -115,7 +115,7 @@
 	"totalDevices": 167,
 	"totalAccessories": 9,
 	"totalProducts": 2,
-	"imageReferences": 834,
+	"imageReferences": 917,
 	"invalidImageReferences": [],
 	"recordsWithoutImages": []
 }
