@@ -85,7 +85,7 @@ const RECIPES: Record<FinishMaterial, Recipe> = {
 		glareY: 25,
 		glareOpacity: 0.4,
 		shine: 0.3,
-		grain: 0.15,
+		grain: 0.3,
 		streaks: true,
 		weave: false,
 		flat: false,
