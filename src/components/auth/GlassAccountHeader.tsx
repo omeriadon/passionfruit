@@ -76,7 +76,7 @@ export function GlassAccountHeader({
 					)}
 				>
 					<UserRound aria-hidden="true" className="size-4" />
-					<span>Account</span>
+					<span>You</span>
 				</Link>
 			</nav>
 
