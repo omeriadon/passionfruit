@@ -17,6 +17,9 @@ function useSidebarHost(id: string, active: boolean, prepend: boolean) {
 		document.getElementById(id)?.remove();
 		const element = document.createElement("div");
 		element.id = id;
+		// Own stacking context so portaled results paint above the masked
+		// scroll viewport and tab picker below, never underneath them.
+		element.className = "relative z-40";
 		if (prepend) {
 			// Below the title row, directly above the tab picker — never
 			// covering the title. Falls back to top if the layout changes.
