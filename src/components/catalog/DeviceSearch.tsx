@@ -8,12 +8,8 @@ import { useAuth } from "@/lib/auth/AuthProvider";
 import { deviceIndex } from "@/lib/device-index";
 import { catalogCategories } from "@/lib/shared";
 
-function categoryTitle(slug: string): string {
-	return catalogCategories.find((entry) => entry.slug === slug)?.title ?? slug;
-}
-
 export function DeviceSearch() {
-	const { categoryOrder } = useAuth();
+	const { categoryOrder, isBookmarked, isOwned } = useAuth();
 	const router = useRouter();
 	const [query, setQuery] = useState("");
 	const [open, setOpen] = useState(false);
@@ -53,7 +49,7 @@ export function DeviceSearch() {
 
 	return (
 		<div className="relative">
-			<div className="relative flex items-center rounded-lg border border-fd-border bg-fd-background transition-colors focus-within:border-fd-primary">
+			<div className="glass-header-surface relative flex items-center rounded-xl transition-colors focus-within:ring-2 focus-within:ring-fd-primary/40">
 				<Search
 					aria-hidden="true"
 					className="pointer-events-none absolute left-3 size-4 text-fd-muted-foreground"
@@ -113,7 +109,7 @@ export function DeviceSearch() {
 			{open && query.trim().length > 0 ? (
 				<ul
 					role="listbox"
-					className="absolute inset-x-0 top-full z-40 mt-1 max-h-72 overflow-auto rounded-lg border border-fd-border bg-fd-popover p-1 shadow-lg"
+					className="absolute inset-x-0 top-full z-40 mt-1 max-h-72 overflow-auto rounded-xl border border-fd-border bg-fd-popover p-1 shadow-lg"
 				>
 					{results.length === 0 ? (
 						<li className="px-2 py-1.5 text-sm text-fd-muted-foreground">
@@ -139,11 +135,20 @@ export function DeviceSearch() {
 									<span className="truncate text-sm font-medium">
 										{entry.name}
 									</span>
-									<span className="text-xs text-fd-muted-foreground">
-										{categoryTitle(entry.category)}
-										{entry.priceAud !== null
-											? ` · A$${entry.priceAud.toLocaleString()}`
-											: ""}
+									<span className="flex items-center justify-between gap-3 text-xs text-fd-muted-foreground">
+										<span className="flex min-w-0 items-center gap-1.5">
+											{isOwned(entry.category, entry.id) ? (
+												<span className="rounded-full bg-fd-accent px-1.5 py-0.5 text-[10px] font-medium text-fd-accent-foreground">
+													Mine
+												</span>
+											) : null}
+											{isBookmarked(entry.category, entry.id) ? (
+												<span className="rounded-full bg-fd-accent px-1.5 py-0.5 text-[10px] font-medium text-fd-accent-foreground">
+													Bookmarked
+												</span>
+											) : null}
+										</span>
+										<span className="shrink-0">{entry.releaseYear ?? ""}</span>
 									</span>
 								</Link>
 							</li>

@@ -25,8 +25,7 @@ function useSidebarHost(id: string, active: boolean, prepend: boolean) {
 			// scroll viewport and tab picker below, never underneath them.
 			element.className = "relative z-40";
 			if (prepend) {
-				// Below the title row, directly above the tab picker — never
-				// covering the title. Falls back to top if the layout changes.
+				// Below the title row, directly above the tab picker.
 				sidebar.insertBefore(element, sidebar.children[1] ?? null);
 				sidebar.classList.add("nd-sidebar-with-device-search");
 			} else sidebar.appendChild(element);
@@ -67,7 +66,7 @@ export function SidebarDeviceSearch() {
 	);
 	if (!host) return null;
 	return createPortal(
-		<div className="px-2 pt-2">
+		<div className="px-4 pt-2">
 			<DeviceSearch />
 		</div>,
 		host,

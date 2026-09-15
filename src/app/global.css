@@ -59,7 +59,7 @@ select {
 #nd-sidebar > div:first-of-type {
 	position: absolute;
 	inset: 0 0 auto;
-	height: 6.5rem;
+	height: 10.5rem;
 	z-index: 2;
 	pointer-events: none;
 	isolation: isolate;
@@ -67,7 +67,7 @@ select {
 
 #nd-sidebar > #nd-sidebar-device-search {
 	position: absolute;
-	inset: 6.5rem 0 auto;
+	inset: 2.5rem 0 auto;
 	z-index: 3;
 }
 
@@ -125,7 +125,7 @@ select {
 
 #nd-sidebar > button {
 	position: absolute;
-	inset: 2.5rem 0.5rem auto;
+	inset: 5.5rem 0.5rem auto;
 	z-index: 2;
 	background-color: color-mix(
 		in srgb,
