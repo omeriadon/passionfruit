@@ -24,6 +24,7 @@ import { CatalogCategory } from "@/components/catalog/CatalogCategory";
 import { AccessoryCatalog } from "@/components/catalog/AccessoryCatalog";
 import type { CatalogDevice } from "@/lib/catalog/types";
 import { OtherCatalog } from "@/components/catalog/OtherCatalog";
+import { getIPhoneTableOfContents } from "@/components/catalog/detail/IPhoneDetail";
 
 const docsPageOptions: Omit<DocsPageProps, "children" | "toc"> = {
 	// Set true to make the article fill all available page space.
@@ -110,8 +111,21 @@ export default async function Page(props: PageProps<"/docs/[[...slug]]">) {
 	if (!page && !catalogRoute) notFound();
 
 	if (!page) {
+		const catalogData =
+			catalogRoute?.kind === "device" && catalogRoute.category === "iphone"
+				? getCatalogData(catalogRoute)
+				: undefined;
+		const detailDevice =
+			catalogData && "devices" in catalogData && catalogRoute?.kind === "device"
+				? (catalogData.devices.find(
+						(device) => device.id === catalogRoute.deviceSlug,
+					) as CatalogDevice | undefined)
+				: undefined;
 		return (
-			<DocsPage {...docsPageOptions}>
+			<DocsPage
+				{...docsPageOptions}
+				toc={detailDevice ? getIPhoneTableOfContents(detailDevice) : []}
+			>
 				<DocsBody>
 					<CatalogRouteBoundary slugs={params.slug ?? []} />
 				</DocsBody>

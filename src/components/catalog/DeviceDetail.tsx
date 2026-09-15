@@ -26,6 +26,7 @@ import {
 import { catalogConfigs } from "@/lib/catalog/config";
 import styles from "./catalog.module.css";
 import type { DeviceNote } from "@/lib/device-notes";
+import { IPhoneDetail } from "./detail/IPhoneDetail";
 
 type DeviceDetailProps = {
 	category: CatalogCategory;
@@ -305,20 +306,24 @@ export function DeviceDetail({ category, device, note }: DeviceDetailProps) {
 				</div>
 			) : null}
 
-			<div className={styles.detailSections}>
-				{detailSections(device).map(([key, value]) => {
-					const isSource = key === "sourceNotes";
-					if (isSource && !showSources) return null;
-					return (
-						<section className={styles.detailSection} key={key}>
-							<h3>{humanizeKey(key)}</h3>
-							<div className={styles.detailValue}>
-								<DataValue value={value} />
-							</div>
-						</section>
-					);
-				})}
-			</div>
+			{category === "iphone" ? (
+				<IPhoneDetail device={device} showSources={showSources} />
+			) : (
+				<div className={styles.detailSections}>
+					{detailSections(device).map(([key, value]) => {
+						const isSource = key === "sourceNotes";
+						if (isSource && !showSources) return null;
+						return (
+							<section className={styles.detailSection} key={key}>
+								<h3>{humanizeKey(key)}</h3>
+								<div className={styles.detailValue}>
+									<DataValue value={value} />
+								</div>
+							</section>
+						);
+					})}
+				</div>
+			)}
 
 			{Object.prototype.hasOwnProperty.call(device, "sourceNotes") ? (
 				<button

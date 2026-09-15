@@ -432,18 +432,88 @@
 }
 
 .detailSections {
-	display: grid;
-	gap: 2rem;
-	grid-template-columns: repeat(auto-fit, minmax(min(100%, 20rem), 1fr));
+	display: flex;
+	flex-direction: column;
 }
 
 .detailSection {
 	padding: 0 0 2rem;
 }
 
+.detailSection h2,
 .detailSection h3 {
-	font-size: 0.85rem;
+	font-size: 1.25rem;
 	margin: 0 0 1rem;
+	scroll-margin-top: 6rem;
+}
+
+.optionList {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.6rem;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.optionList li {
+	border: 1px solid var(--catalog-border);
+	border-radius: 999px;
+	font-weight: 600;
+	padding: 0.55rem 0.9rem;
+}
+
+.configurationList,
+.summaryCards {
+	display: flex;
+	flex-direction: column;
+	gap: 0;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.configurationList li,
+.summaryCards li {
+	align-items: center;
+	border-bottom: 1px solid var(--catalog-border);
+	display: flex;
+	gap: 1rem;
+	justify-content: space-between;
+	padding-block: 0.85rem;
+}
+
+.configurationList li:first-child,
+.summaryCards li:first-child {
+	border-top: 1px solid var(--catalog-border);
+}
+
+.configurationList div,
+.summaryCards li {
+	align-items: flex-start;
+}
+
+.configurationList div {
+	display: flex;
+	flex-direction: column;
+	gap: 0.2rem;
+}
+
+.configurationList span,
+.summaryCards span {
+	color: var(--catalog-muted);
+}
+
+.overviewImages {
+	display: grid;
+	gap: 1rem;
+	grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+}
+
+.overviewImages img {
+	height: auto;
+	max-width: 100%;
+	object-fit: contain;
 }
 
 .dataObject,
