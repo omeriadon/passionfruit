@@ -54,6 +54,10 @@ function displayImage(
 					.includes("large"),
 		) ?? images[0]) as CatalogImage | undefined;
 	}
+	const overviewImages = device.overviewImages;
+	if (Array.isArray(overviewImages) && overviewImages.length > 0) {
+		return overviewImages[0] as CatalogImage | undefined;
+	}
 	return undefined;
 }
 
