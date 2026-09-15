@@ -200,10 +200,67 @@ select {
 		[href="/docs/other/apple-display"]
 	) {
 	margin-bottom: 1rem;
-	border: 1px solid var(--color-fd-border);
+	background-color: color-mix(
+		in srgb,
+		var(--color-fd-popover) 32%,
+		transparent
+	) !important;
+	-webkit-backdrop-filter: blur(4px) saturate(125%);
+	backdrop-filter: blur(4px) saturate(125%);
+	border: 1px solid color-mix(in srgb, currentColor 16%, transparent);
 	border-radius: 0.75rem;
 	padding: 0.625rem 0.75rem;
 	font-weight: 600;
+}
+
+/* Keep the Glass TOC expanded so its links stay available without hover. */
+#nd-toc {
+	width: 240px !important;
+	padding: 0.75rem 1rem;
+}
+
+#nd-toc-title {
+	display: none;
+}
+
+#nd-toc > div > div {
+	--row: 2.25rem !important;
+	pointer-events: auto !important;
+}
+
+#nd-toc > div > div > a > div {
+	display: none;
+}
+
+#nd-toc > div > div > a > span {
+	opacity: 1 !important;
+}
+
+@media (max-width: 1279px) {
+	.fd-glass-layout {
+		--fd-right-width: 0px !important;
+	}
+
+	#nd-toc {
+		background: transparent !important;
+		border: 0 !important;
+		box-shadow: none !important;
+		grid-area: auto;
+		grid-column: 1 / -1;
+		grid-row: 2;
+		inset: auto !important;
+		mask-image: none !important;
+		max-height: none !important;
+		overflow: visible !important;
+		padding: 0.75rem 1.5rem 2rem;
+		position: static !important;
+		transform: none !important;
+		width: auto !important;
+	}
+
+	#nd-toc > div {
+		width: 100%;
+	}
 }
 
 .catalog-route-boundary {
