@@ -66,9 +66,7 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 6"
-					],
+					"standards": ["Wi-Fi 6"],
 					"mimo": "2x2 MIMO"
 				},
 				"bluetooth": {

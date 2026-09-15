@@ -1,1 +1,33 @@
-{"nodes": [{"id": "$graphify-root$_content_device_notes_readme_md", "label": "README.md", "file_type": "document", "node_kind": "page", "source_file": "content/device-notes/README.md", "source_location": "L1"}, {"id": "$graphify-root$_content_device_notes_readme_device_notes", "label": "Device notes", "file_type": "document", "node_kind": "heading", "source_file": "content/device-notes/README.md", "source_location": "L1"}], "edges": [{"source": "$graphify-root$_content_device_notes_readme_md", "target": "$graphify-root$_content_device_notes_readme_device_notes", "relation": "contains", "confidence": "EXTRACTED", "source_file": "content/device-notes/README.md", "source_location": "L1", "weight": 1.0}], "input_tokens": 0, "output_tokens": 0}
+{
+	"nodes": [
+		{
+			"id": "$graphify-root$_content_device_notes_readme_md",
+			"label": "README.md",
+			"file_type": "document",
+			"node_kind": "page",
+			"source_file": "content/device-notes/README.md",
+			"source_location": "L1"
+		},
+		{
+			"id": "$graphify-root$_content_device_notes_readme_device_notes",
+			"label": "Device notes",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": "content/device-notes/README.md",
+			"source_location": "L1"
+		}
+	],
+	"edges": [
+		{
+			"source": "$graphify-root$_content_device_notes_readme_md",
+			"target": "$graphify-root$_content_device_notes_readme_device_notes",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": "content/device-notes/README.md",
+			"source_location": "L1",
+			"weight": 1.0
+		}
+	],
+	"input_tokens": 0,
+	"output_tokens": 0
+}

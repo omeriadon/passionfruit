@@ -47,10 +47,7 @@
 				{
 					"id": "iphone-duo-256gb",
 					"displayName": "iPhone Duo 256GB",
-					"colorIds": [
-						"night-sky",
-						"star-white"
-					],
+					"colorIds": ["night-sky", "star-white"],
 					"storageId": "256gb",
 					"priceAud": 3499,
 					"sourceNotes": "AUD price per data/tmp/iphone/buy-iphone-duo-au-2026.html (finish-independent)."
@@ -58,10 +55,7 @@
 				{
 					"id": "iphone-duo-512gb",
 					"displayName": "iPhone Duo 512GB",
-					"colorIds": [
-						"night-sky",
-						"star-white"
-					],
+					"colorIds": ["night-sky", "star-white"],
 					"storageId": "512gb",
 					"priceAud": 3899,
 					"sourceNotes": "AUD price per data/tmp/iphone/buy-iphone-duo-au-2026.html (finish-independent)."
@@ -69,10 +63,7 @@
 				{
 					"id": "iphone-duo-1tb",
 					"displayName": "iPhone Duo 1TB",
-					"colorIds": [
-						"night-sky",
-						"star-white"
-					],
+					"colorIds": ["night-sky", "star-white"],
 					"storageId": "1tb",
 					"priceAud": 4699,
 					"sourceNotes": "AUD price per data/tmp/iphone/buy-iphone-duo-au-2026.html (finish-independent)."
@@ -80,10 +71,7 @@
 				{
 					"id": "iphone-duo-2tb",
 					"displayName": "iPhone Duo 2TB",
-					"colorIds": [
-						"night-sky",
-						"star-white"
-					],
+					"colorIds": ["night-sky", "star-white"],
 					"storageId": "2tb",
 					"priceAud": 5899,
 					"sourceNotes": "AUD price per data/tmp/iphone/buy-iphone-duo-au-2026.html (finish-independent)."
@@ -238,9 +226,7 @@
 					"portId": "iphone-duo-usb-c",
 					"wiredFastCharge": true,
 					"wirelessCharging": true,
-					"wirelessStandards": [
-						"MagSafe"
-					],
+					"wirelessStandards": ["MagSafe"],
 					"fastChargeMinutesToPercent": {
 						"minutes": 20,
 						"percent": 50
@@ -265,19 +251,13 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 7"
-					]
+					"standards": ["Wi-Fi 7"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 6.0"
 				},
 				"cellular": {
-					"technologies": [
-						"LTE",
-						"5G sub-6",
-						"5G mmWave"
-					],
+					"technologies": ["LTE", "5G sub-6", "5G mmWave"],
 					"eSIMOnly": true
 				},
 				"uwb": {
@@ -297,16 +277,11 @@
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": true,
-					"systems": [
-						"GPS"
-					]
+					"systems": ["GPS"]
 				}
 			},
 			"authentication": {
-				"methods": [
-					"Touch ID",
-					"passcode"
-				],
+				"methods": ["Touch ID", "passcode"],
 				"primaryMethod": "Touch ID",
 				"placement": "side button",
 				"sourceNotes": "Touch ID side button; no Face ID."
@@ -377,11 +352,7 @@
 					"accessoryId": "apple-pencil-usb-c",
 					"displayName": "Apple Pencil (USB-C)",
 					"category": "Apple Pencil",
-					"capabilities": [
-						"writing",
-						"drawing",
-						"document annotation"
-					]
+					"capabilities": ["writing", "drawing", "document annotation"]
 				}
 			],
 			"ceramicShieldFront": "2",
@@ -474,12 +445,7 @@
 				{
 					"id": "iphone-18-pro-max-256gb",
 					"displayName": "iPhone 18 Pro Max 256GB",
-					"colorIds": [
-						"burgundy",
-						"glacier",
-						"silver",
-						"black"
-					],
+					"colorIds": ["burgundy", "glacier", "silver", "black"],
 					"storageId": "256gb",
 					"priceAud": 2299,
 					"sourceNotes": "AUD price per data/tmp/iphone/buy-iphone-18-pro-au-2026.html (finish-independent)."
@@ -487,12 +453,7 @@
 				{
 					"id": "iphone-18-pro-max-512gb",
 					"displayName": "iPhone 18 Pro Max 512GB",
-					"colorIds": [
-						"burgundy",
-						"glacier",
-						"silver",
-						"black"
-					],
+					"colorIds": ["burgundy", "glacier", "silver", "black"],
 					"storageId": "512gb",
 					"priceAud": 2699,
 					"sourceNotes": "AUD price per data/tmp/iphone/buy-iphone-18-pro-au-2026.html (finish-independent)."
@@ -500,12 +461,7 @@
 				{
 					"id": "iphone-18-pro-max-1tb",
 					"displayName": "iPhone 18 Pro Max 1TB",
-					"colorIds": [
-						"burgundy",
-						"glacier",
-						"silver",
-						"black"
-					],
+					"colorIds": ["burgundy", "glacier", "silver", "black"],
 					"storageId": "1tb",
 					"priceAud": 3499,
 					"sourceNotes": "AUD price per data/tmp/iphone/buy-iphone-18-pro-au-2026.html (finish-independent)."
@@ -513,12 +469,7 @@
 				{
 					"id": "iphone-18-pro-max-2tb",
 					"displayName": "iPhone 18 Pro Max 2TB",
-					"colorIds": [
-						"burgundy",
-						"glacier",
-						"silver",
-						"black"
-					],
+					"colorIds": ["burgundy", "glacier", "silver", "black"],
 					"storageId": "2tb",
 					"priceAud": 4699,
 					"sourceNotes": "AUD price per data/tmp/iphone/buy-iphone-18-pro-au-2026.html (finish-independent)."
@@ -648,9 +599,7 @@
 					"portId": "iphone-18-pro-max-usb-c",
 					"wiredFastCharge": true,
 					"wirelessCharging": true,
-					"wirelessStandards": [
-						"MagSafe"
-					],
+					"wirelessStandards": ["MagSafe"],
 					"fastChargeMinutesToPercent": {
 						"minutes": 15,
 						"percent": 50
@@ -675,19 +624,13 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 7"
-					]
+					"standards": ["Wi-Fi 7"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 6.0"
 				},
 				"cellular": {
-					"technologies": [
-						"LTE",
-						"5G sub-6",
-						"5G mmWave"
-					]
+					"technologies": ["LTE", "5G sub-6", "5G mmWave"]
 				},
 				"uwb": {
 					"chip": "second-generation Ultra Wideband chip",
@@ -706,16 +649,11 @@
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": true,
-					"systems": [
-						"GPS"
-					]
+					"systems": ["GPS"]
 				}
 			},
 			"authentication": {
-				"methods": [
-					"Face ID",
-					"passcode"
-				],
+				"methods": ["Face ID", "passcode"],
 				"primaryMethod": "Face ID"
 			},
 			"physical": {
@@ -855,12 +793,7 @@
 				{
 					"id": "iphone-18-pro-256gb",
 					"displayName": "iPhone 18 Pro 256GB",
-					"colorIds": [
-						"burgundy",
-						"glacier",
-						"silver",
-						"black"
-					],
+					"colorIds": ["burgundy", "glacier", "silver", "black"],
 					"storageId": "256gb",
 					"priceAud": 2099,
 					"sourceNotes": "AUD price per data/tmp/iphone/buy-iphone-18-pro-au-2026.html (finish-independent)."
@@ -868,12 +801,7 @@
 				{
 					"id": "iphone-18-pro-512gb",
 					"displayName": "iPhone 18 Pro 512GB",
-					"colorIds": [
-						"burgundy",
-						"glacier",
-						"silver",
-						"black"
-					],
+					"colorIds": ["burgundy", "glacier", "silver", "black"],
 					"storageId": "512gb",
 					"priceAud": 2499,
 					"sourceNotes": "AUD price per data/tmp/iphone/buy-iphone-18-pro-au-2026.html (finish-independent)."
@@ -881,12 +809,7 @@
 				{
 					"id": "iphone-18-pro-1tb",
 					"displayName": "iPhone 18 Pro 1TB",
-					"colorIds": [
-						"burgundy",
-						"glacier",
-						"silver",
-						"black"
-					],
+					"colorIds": ["burgundy", "glacier", "silver", "black"],
 					"storageId": "1tb",
 					"priceAud": 3299,
 					"sourceNotes": "AUD price per data/tmp/iphone/buy-iphone-18-pro-au-2026.html (finish-independent)."
@@ -894,12 +817,7 @@
 				{
 					"id": "iphone-18-pro-2tb",
 					"displayName": "iPhone 18 Pro 2TB",
-					"colorIds": [
-						"burgundy",
-						"glacier",
-						"silver",
-						"black"
-					],
+					"colorIds": ["burgundy", "glacier", "silver", "black"],
 					"storageId": "2tb",
 					"priceAud": 4499,
 					"sourceNotes": "AUD price per data/tmp/iphone/buy-iphone-18-pro-au-2026.html (finish-independent)."
@@ -1033,9 +951,7 @@
 					"portId": "iphone-18-pro-usb-c",
 					"wiredFastCharge": true,
 					"wirelessCharging": true,
-					"wirelessStandards": [
-						"MagSafe"
-					],
+					"wirelessStandards": ["MagSafe"],
 					"fastChargeMinutesToPercent": {
 						"minutes": 15,
 						"percent": 50
@@ -1060,19 +976,13 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 7"
-					]
+					"standards": ["Wi-Fi 7"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 6.0"
 				},
 				"cellular": {
-					"technologies": [
-						"LTE",
-						"5G sub-6",
-						"5G mmWave"
-					]
+					"technologies": ["LTE", "5G sub-6", "5G mmWave"]
 				},
 				"uwb": {
 					"chip": "second-generation Ultra Wideband chip",
@@ -1091,21 +1001,11 @@
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": true,
-					"systems": [
-						"GPS",
-						"GLONASS",
-						"Galileo",
-						"QZSS",
-						"BeiDou",
-						"NavIC"
-					]
+					"systems": ["GPS", "GLONASS", "Galileo", "QZSS", "BeiDou", "NavIC"]
 				}
 			},
 			"authentication": {
-				"methods": [
-					"Face ID",
-					"passcode"
-				],
+				"methods": ["Face ID", "passcode"],
 				"primaryMethod": "Face ID"
 			},
 			"physical": {
@@ -1263,26 +1163,14 @@
 				{
 					"id": "256gb-configuration",
 					"displayName": "iPhone 17 256GB",
-					"colorIds": [
-						"lavender",
-						"sage",
-						"mist-blue",
-						"white",
-						"black"
-					],
+					"colorIds": ["lavender", "sage", "mist-blue", "white", "black"],
 					"storageId": "256gb",
 					"priceAud": 1399
 				},
 				{
 					"id": "512gb-configuration",
 					"displayName": "iPhone 17 512GB",
-					"colorIds": [
-						"lavender",
-						"sage",
-						"mist-blue",
-						"white",
-						"black"
-					],
+					"colorIds": ["lavender", "sage", "mist-blue", "white", "black"],
 					"storageId": "512gb"
 				}
 			],
@@ -1396,10 +1284,7 @@
 					"portId": "USB-C",
 					"wiredFastCharge": true,
 					"wirelessCharging": true,
-					"wirelessStandards": [
-						"MagSafe",
-						"Qi2"
-					],
+					"wirelessStandards": ["MagSafe", "Qi2"],
 					"fastChargeMinutesToPercent": {
 						"percent": 50,
 						"minutes": 20
@@ -1427,18 +1312,13 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 7"
-					]
+					"standards": ["Wi-Fi 7"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 6.0"
 				},
 				"cellular": {
-					"technologies": [
-						"LTE",
-						"5G sub-6"
-					]
+					"technologies": ["LTE", "5G sub-6"]
 				},
 				"uwb": {
 					"chip": "second-generation Ultra Wideband chip",
@@ -1457,21 +1337,11 @@
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": true,
-					"systems": [
-						"GPS",
-						"GLONASS",
-						"Galileo",
-						"QZSS",
-						"BeiDou",
-						"NavIC"
-					]
+					"systems": ["GPS", "GLONASS", "Galileo", "QZSS", "BeiDou", "NavIC"]
 				}
 			},
 			"authentication": {
-				"methods": [
-					"Face ID",
-					"passcode"
-				],
+				"methods": ["Face ID", "passcode"],
 				"primaryMethod": "Face ID",
 				"sourceNotes": "Exact authentication section establishes Face ID."
 			},
@@ -1567,42 +1437,26 @@
 				{
 					"id": "256gb-configuration",
 					"displayName": "iPhone 17 Pro Max 256GB",
-					"colorIds": [
-						"cosmic-orange",
-						"deep-blue",
-						"silver"
-					],
+					"colorIds": ["cosmic-orange", "deep-blue", "silver"],
 					"storageId": "256gb",
 					"priceAud": 2199
 				},
 				{
 					"id": "512gb-configuration",
 					"displayName": "iPhone 17 Pro Max 512GB",
-					"colorIds": [
-						"cosmic-orange",
-						"deep-blue",
-						"silver"
-					],
+					"colorIds": ["cosmic-orange", "deep-blue", "silver"],
 					"storageId": "512gb"
 				},
 				{
 					"id": "1tb-configuration",
 					"displayName": "iPhone 17 Pro Max 1TB",
-					"colorIds": [
-						"cosmic-orange",
-						"deep-blue",
-						"silver"
-					],
+					"colorIds": ["cosmic-orange", "deep-blue", "silver"],
 					"storageId": "1tb"
 				},
 				{
 					"id": "2tb-configuration",
 					"displayName": "iPhone 17 Pro Max 2TB",
-					"colorIds": [
-						"cosmic-orange",
-						"deep-blue",
-						"silver"
-					],
+					"colorIds": ["cosmic-orange", "deep-blue", "silver"],
 					"storageId": "2tb"
 				}
 			],
@@ -1740,10 +1594,7 @@
 					"portId": "USB-C",
 					"wiredFastCharge": true,
 					"wirelessCharging": true,
-					"wirelessStandards": [
-						"MagSafe",
-						"Qi2"
-					],
+					"wirelessStandards": ["MagSafe", "Qi2"],
 					"fastChargeMinutesToPercent": {
 						"percent": 50,
 						"minutes": 20
@@ -1771,18 +1622,13 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 7"
-					]
+					"standards": ["Wi-Fi 7"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 6.0"
 				},
 				"cellular": {
-					"technologies": [
-						"LTE",
-						"5G sub-6"
-					]
+					"technologies": ["LTE", "5G sub-6"]
 				},
 				"uwb": {
 					"chip": "second-generation Ultra Wideband chip",
@@ -1801,21 +1647,11 @@
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": true,
-					"systems": [
-						"GPS",
-						"GLONASS",
-						"Galileo",
-						"QZSS",
-						"BeiDou",
-						"NavIC"
-					]
+					"systems": ["GPS", "GLONASS", "Galileo", "QZSS", "BeiDou", "NavIC"]
 				}
 			},
 			"authentication": {
-				"methods": [
-					"Face ID",
-					"passcode"
-				],
+				"methods": ["Face ID", "passcode"],
 				"primaryMethod": "Face ID",
 				"sourceNotes": "Exact authentication section establishes Face ID."
 			},
@@ -1911,11 +1747,7 @@
 				{
 					"id": "128gb-configuration",
 					"displayName": "iPhone 17e 128GB",
-					"colorIds": [
-						"soft-pink",
-						"white",
-						"black"
-					],
+					"colorIds": ["soft-pink", "white", "black"],
 					"storageId": "128gb",
 					"priceAud": 999,
 					"sourceNotes": "Base-configuration launch AUD RRP (Apple AU buy page, From A$999)."
@@ -1923,21 +1755,13 @@
 				{
 					"id": "256gb-configuration",
 					"displayName": "iPhone 17e 256GB",
-					"colorIds": [
-						"soft-pink",
-						"white",
-						"black"
-					],
+					"colorIds": ["soft-pink", "white", "black"],
 					"storageId": "256gb"
 				},
 				{
 					"id": "512gb-configuration",
 					"displayName": "iPhone 17e 512GB",
-					"colorIds": [
-						"soft-pink",
-						"white",
-						"black"
-					],
+					"colorIds": ["soft-pink", "white", "black"],
 					"storageId": "512gb"
 				}
 			],
@@ -2043,10 +1867,7 @@
 					"portId": "USB-C",
 					"wiredFastCharge": true,
 					"wirelessCharging": true,
-					"wirelessStandards": [
-						"MagSafe",
-						"Qi2"
-					],
+					"wirelessStandards": ["MagSafe", "Qi2"],
 					"fastChargeMinutesToPercent": {
 						"percent": 50,
 						"minutes": 30
@@ -2074,18 +1895,13 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 6"
-					]
+					"standards": ["Wi-Fi 6"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.3"
 				},
 				"cellular": {
-					"technologies": [
-						"LTE",
-						"5G sub-6"
-					]
+					"technologies": ["LTE", "5G sub-6"]
 				},
 				"uwb": {
 					"chip": "No Ultra Wideband chip",
@@ -2104,21 +1920,11 @@
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": false,
-					"systems": [
-						"GPS",
-						"GLONASS",
-						"Galileo",
-						"QZSS",
-						"BeiDou",
-						"NavIC"
-					]
+					"systems": ["GPS", "GLONASS", "Galileo", "QZSS", "BeiDou", "NavIC"]
 				}
 			},
 			"authentication": {
-				"methods": [
-					"Face ID",
-					"passcode"
-				],
+				"methods": ["Face ID", "passcode"],
 				"primaryMethod": "Face ID",
 				"sourceNotes": "Exact authentication section establishes Face ID."
 			},
@@ -2232,35 +2038,20 @@
 				{
 					"id": "256gb-configuration",
 					"displayName": "iPhone Air 256GB",
-					"colorIds": [
-						"sky-blue",
-						"light-gold",
-						"cloud-white",
-						"space-black"
-					],
+					"colorIds": ["sky-blue", "light-gold", "cloud-white", "space-black"],
 					"storageId": "256gb",
 					"priceAud": 1799
 				},
 				{
 					"id": "512gb-configuration",
 					"displayName": "iPhone Air 512GB",
-					"colorIds": [
-						"sky-blue",
-						"light-gold",
-						"cloud-white",
-						"space-black"
-					],
+					"colorIds": ["sky-blue", "light-gold", "cloud-white", "space-black"],
 					"storageId": "512gb"
 				},
 				{
 					"id": "1tb-configuration",
 					"displayName": "iPhone Air 1TB",
-					"colorIds": [
-						"sky-blue",
-						"light-gold",
-						"cloud-white",
-						"space-black"
-					],
+					"colorIds": ["sky-blue", "light-gold", "cloud-white", "space-black"],
 					"storageId": "1tb"
 				}
 			],
@@ -2380,10 +2171,7 @@
 					"portId": "USB-C",
 					"wiredFastCharge": true,
 					"wirelessCharging": true,
-					"wirelessStandards": [
-						"MagSafe",
-						"Qi2"
-					],
+					"wirelessStandards": ["MagSafe", "Qi2"],
 					"fastChargeMinutesToPercent": {
 						"percent": 50,
 						"minutes": 30
@@ -2411,18 +2199,13 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 7"
-					]
+					"standards": ["Wi-Fi 7"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 6.0"
 				},
 				"cellular": {
-					"technologies": [
-						"LTE",
-						"5G sub-6"
-					]
+					"technologies": ["LTE", "5G sub-6"]
 				},
 				"uwb": {
 					"chip": "second-generation Ultra Wideband chip",
@@ -2441,21 +2224,11 @@
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": true,
-					"systems": [
-						"GPS",
-						"GLONASS",
-						"Galileo",
-						"QZSS",
-						"BeiDou",
-						"NavIC"
-					]
+					"systems": ["GPS", "GLONASS", "Galileo", "QZSS", "BeiDou", "NavIC"]
 				}
 			},
 			"authentication": {
-				"methods": [
-					"Face ID",
-					"passcode"
-				],
+				"methods": ["Face ID", "passcode"],
 				"primaryMethod": "Face ID",
 				"sourceNotes": "Exact authentication section establishes Face ID."
 			},
@@ -2587,38 +2360,20 @@
 				{
 					"id": "128gb-configuration",
 					"displayName": "iPhone 16 128GB",
-					"colorIds": [
-						"ultramarine",
-						"teal",
-						"pink",
-						"white",
-						"black"
-					],
+					"colorIds": ["ultramarine", "teal", "pink", "white", "black"],
 					"storageId": "128gb",
 					"priceAud": 999
 				},
 				{
 					"id": "256gb-configuration",
 					"displayName": "iPhone 16 256GB",
-					"colorIds": [
-						"ultramarine",
-						"teal",
-						"pink",
-						"white",
-						"black"
-					],
+					"colorIds": ["ultramarine", "teal", "pink", "white", "black"],
 					"storageId": "256gb"
 				},
 				{
 					"id": "512gb-configuration",
 					"displayName": "iPhone 16 512GB",
-					"colorIds": [
-						"ultramarine",
-						"teal",
-						"pink",
-						"white",
-						"black"
-					],
+					"colorIds": ["ultramarine", "teal", "pink", "white", "black"],
 					"storageId": "512gb"
 				}
 			],
@@ -2714,10 +2469,7 @@
 					"portId": "USB-C",
 					"wiredFastCharge": true,
 					"wirelessCharging": true,
-					"wirelessStandards": [
-						"MagSafe",
-						"Qi2"
-					],
+					"wirelessStandards": ["MagSafe", "Qi2"],
 					"fastChargeMinutesToPercent": {
 						"percent": 50,
 						"minutes": 30
@@ -2745,18 +2497,13 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 7"
-					]
+					"standards": ["Wi-Fi 7"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.3"
 				},
 				"cellular": {
-					"technologies": [
-						"LTE",
-						"5G sub-6"
-					]
+					"technologies": ["LTE", "5G sub-6"]
 				},
 				"uwb": {
 					"chip": "second-generation Ultra Wideband chip",
@@ -2775,20 +2522,11 @@
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": false,
-					"systems": [
-						"GPS",
-						"GLONASS",
-						"Galileo",
-						"QZSS",
-						"BeiDou"
-					]
+					"systems": ["GPS", "GLONASS", "Galileo", "QZSS", "BeiDou"]
 				}
 			},
 			"authentication": {
-				"methods": [
-					"Face ID",
-					"passcode"
-				],
+				"methods": ["Face ID", "passcode"],
 				"primaryMethod": "Face ID",
 				"sourceNotes": "Exact authentication section establishes Face ID."
 			},
@@ -3062,10 +2800,7 @@
 					"portId": "USB-C",
 					"wiredFastCharge": true,
 					"wirelessCharging": true,
-					"wirelessStandards": [
-						"MagSafe",
-						"Qi2"
-					],
+					"wirelessStandards": ["MagSafe", "Qi2"],
 					"fastChargeMinutesToPercent": {
 						"percent": 50,
 						"minutes": 35
@@ -3093,18 +2828,13 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 7"
-					]
+					"standards": ["Wi-Fi 7"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.3"
 				},
 				"cellular": {
-					"technologies": [
-						"LTE",
-						"5G sub-6"
-					]
+					"technologies": ["LTE", "5G sub-6"]
 				},
 				"uwb": {
 					"chip": "second-generation Ultra Wideband chip",
@@ -3123,21 +2853,11 @@
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": true,
-					"systems": [
-						"GPS",
-						"GLONASS",
-						"Galileo",
-						"QZSS",
-						"BeiDou",
-						"NavIC"
-					]
+					"systems": ["GPS", "GLONASS", "Galileo", "QZSS", "BeiDou", "NavIC"]
 				}
 			},
 			"authentication": {
-				"methods": [
-					"Face ID",
-					"passcode"
-				],
+				"methods": ["Face ID", "passcode"],
 				"primaryMethod": "Face ID",
 				"sourceNotes": "Exact authentication section establishes Face ID."
 			},
@@ -3415,10 +3135,7 @@
 					"portId": "USB-C",
 					"wiredFastCharge": true,
 					"wirelessCharging": true,
-					"wirelessStandards": [
-						"MagSafe",
-						"Qi2"
-					],
+					"wirelessStandards": ["MagSafe", "Qi2"],
 					"fastChargeMinutesToPercent": {
 						"percent": 50,
 						"minutes": 35
@@ -3446,18 +3163,13 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 6E"
-					]
+					"standards": ["Wi-Fi 6E"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.3"
 				},
 				"cellular": {
-					"technologies": [
-						"LTE",
-						"5G sub-6"
-					]
+					"technologies": ["LTE", "5G sub-6"]
 				},
 				"uwb": {
 					"chip": "second-generation Ultra Wideband chip",
@@ -3476,21 +3188,11 @@
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": true,
-					"systems": [
-						"GPS",
-						"GLONASS",
-						"Galileo",
-						"QZSS",
-						"BeiDou",
-						"NavIC"
-					]
+					"systems": ["GPS", "GLONASS", "Galileo", "QZSS", "BeiDou", "NavIC"]
 				}
 			},
 			"authentication": {
-				"methods": [
-					"Face ID",
-					"passcode"
-				],
+				"methods": ["Face ID", "passcode"],
 				"primaryMethod": "Face ID",
 				"sourceNotes": "Exact authentication section establishes Face ID."
 			},
@@ -3771,10 +3473,7 @@
 					"portId": "Lightning",
 					"wiredFastCharge": true,
 					"wirelessCharging": true,
-					"wirelessStandards": [
-						"MagSafe",
-						"Qi2"
-					],
+					"wirelessStandards": ["MagSafe", "Qi2"],
 					"fastChargeMinutesToPercent": {
 						"percent": 50,
 						"minutes": 30
@@ -3802,18 +3501,13 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 6"
-					]
+					"standards": ["Wi-Fi 6"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.3"
 				},
 				"cellular": {
-					"technologies": [
-						"LTE",
-						"5G sub-6"
-					]
+					"technologies": ["LTE", "5G sub-6"]
 				},
 				"uwb": {
 					"chip": "Apple Ultra Wideband chip",
@@ -3832,20 +3526,11 @@
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": false,
-					"systems": [
-						"GPS",
-						"GLONASS",
-						"Galileo",
-						"QZSS",
-						"BeiDou"
-					]
+					"systems": ["GPS", "GLONASS", "Galileo", "QZSS", "BeiDou"]
 				}
 			},
 			"authentication": {
-				"methods": [
-					"Face ID",
-					"passcode"
-				],
+				"methods": ["Face ID", "passcode"],
 				"primaryMethod": "Face ID",
 				"sourceNotes": "Exact authentication section establishes Face ID."
 			},
@@ -4150,10 +3835,7 @@
 					"portId": "Lightning",
 					"wiredFastCharge": true,
 					"wirelessCharging": true,
-					"wirelessStandards": [
-						"MagSafe",
-						"Qi2"
-					],
+					"wirelessStandards": ["MagSafe", "Qi2"],
 					"fastChargeMinutesToPercent": {
 						"percent": 50,
 						"minutes": 35
@@ -4181,18 +3863,13 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 6"
-					]
+					"standards": ["Wi-Fi 6"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.3"
 				},
 				"cellular": {
-					"technologies": [
-						"LTE",
-						"5G sub-6"
-					]
+					"technologies": ["LTE", "5G sub-6"]
 				},
 				"uwb": {
 					"chip": "Apple Ultra Wideband chip",
@@ -4211,20 +3888,11 @@
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": false,
-					"systems": [
-						"GPS",
-						"GLONASS",
-						"Galileo",
-						"QZSS",
-						"BeiDou"
-					]
+					"systems": ["GPS", "GLONASS", "Galileo", "QZSS", "BeiDou"]
 				}
 			},
 			"authentication": {
-				"methods": [
-					"Face ID",
-					"passcode"
-				],
+				"methods": ["Face ID", "passcode"],
 				"primaryMethod": "Face ID",
 				"sourceNotes": "Exact authentication section establishes Face ID."
 			},
@@ -4338,12 +4006,7 @@
 				{
 					"id": "128gb-configuration",
 					"displayName": "iPhone 14 Pro 128GB",
-					"colorIds": [
-						"deep-purple",
-						"gold",
-						"silver",
-						"space-black"
-					],
+					"colorIds": ["deep-purple", "gold", "silver", "space-black"],
 					"storageId": "128gb",
 					"priceAud": 1749,
 					"sourceNotes": "Launch AUD RRP for the base configuration (same evidence as device priceAud)."
@@ -4351,36 +4014,21 @@
 				{
 					"id": "256gb-configuration",
 					"displayName": "iPhone 14 Pro 256GB",
-					"colorIds": [
-						"deep-purple",
-						"gold",
-						"silver",
-						"space-black"
-					],
+					"colorIds": ["deep-purple", "gold", "silver", "space-black"],
 					"storageId": "256gb",
 					"sourceNotes": "Launch AUD RRP for the base configuration (same evidence as device priceAud)."
 				},
 				{
 					"id": "512gb-configuration",
 					"displayName": "iPhone 14 Pro 512GB",
-					"colorIds": [
-						"deep-purple",
-						"gold",
-						"silver",
-						"space-black"
-					],
+					"colorIds": ["deep-purple", "gold", "silver", "space-black"],
 					"storageId": "512gb",
 					"sourceNotes": "Launch AUD RRP for the base configuration (same evidence as device priceAud)."
 				},
 				{
 					"id": "1tb-configuration",
 					"displayName": "iPhone 14 Pro 1TB",
-					"colorIds": [
-						"deep-purple",
-						"gold",
-						"silver",
-						"space-black"
-					],
+					"colorIds": ["deep-purple", "gold", "silver", "space-black"],
 					"storageId": "1tb"
 				}
 			],
@@ -4519,10 +4167,7 @@
 					"portId": "Lightning",
 					"wiredFastCharge": true,
 					"wirelessCharging": true,
-					"wirelessStandards": [
-						"MagSafe",
-						"Qi2"
-					],
+					"wirelessStandards": ["MagSafe", "Qi2"],
 					"fastChargeMinutesToPercent": {
 						"percent": 50,
 						"minutes": 30
@@ -4550,18 +4195,13 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 6"
-					]
+					"standards": ["Wi-Fi 6"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.3"
 				},
 				"cellular": {
-					"technologies": [
-						"LTE",
-						"5G sub-6"
-					]
+					"technologies": ["LTE", "5G sub-6"]
 				},
 				"uwb": {
 					"chip": "Apple Ultra Wideband chip",
@@ -4580,20 +4220,11 @@
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": true,
-					"systems": [
-						"GPS",
-						"GLONASS",
-						"Galileo",
-						"QZSS",
-						"BeiDou"
-					]
+					"systems": ["GPS", "GLONASS", "Galileo", "QZSS", "BeiDou"]
 				}
 			},
 			"authentication": {
-				"methods": [
-					"Face ID",
-					"passcode"
-				],
+				"methods": ["Face ID", "passcode"],
 				"primaryMethod": "Face ID",
 				"sourceNotes": "Exact authentication section establishes Face ID."
 			},
@@ -4689,11 +4320,7 @@
 				{
 					"id": "64gb-configuration",
 					"displayName": "iPhone SE (3rd generation) 64GB",
-					"colorIds": [
-						"midnight",
-						"starlight",
-						"red"
-					],
+					"colorIds": ["midnight", "starlight", "red"],
 					"storageId": "64gb",
 					"priceAud": 719,
 					"sourceNotes": "Launch AUD RRP for the base configuration (same evidence as device priceAud)."
@@ -4701,22 +4328,14 @@
 				{
 					"id": "128gb-configuration",
 					"displayName": "iPhone SE (3rd generation) 128GB",
-					"colorIds": [
-						"midnight",
-						"starlight",
-						"red"
-					],
+					"colorIds": ["midnight", "starlight", "red"],
 					"storageId": "128gb",
 					"sourceNotes": "Launch AUD RRP for the base configuration (same evidence as device priceAud)."
 				},
 				{
 					"id": "256gb-configuration",
 					"displayName": "iPhone SE (3rd generation) 256GB",
-					"colorIds": [
-						"midnight",
-						"starlight",
-						"red"
-					],
+					"colorIds": ["midnight", "starlight", "red"],
 					"storageId": "256gb",
 					"sourceNotes": "Launch AUD RRP for the base configuration (same evidence as device priceAud)."
 				}
@@ -4822,9 +4441,7 @@
 					"portId": "Lightning",
 					"wiredFastCharge": true,
 					"wirelessCharging": true,
-					"wirelessStandards": [
-						"Qi"
-					],
+					"wirelessStandards": ["Qi"],
 					"fastChargeMinutesToPercent": {
 						"percent": 50,
 						"minutes": 30
@@ -4852,18 +4469,13 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 6"
-					]
+					"standards": ["Wi-Fi 6"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.0"
 				},
 				"cellular": {
-					"technologies": [
-						"LTE",
-						"5G sub-6"
-					]
+					"technologies": ["LTE", "5G sub-6"]
 				},
 				"uwb": {
 					"chip": "No Ultra Wideband chip",
@@ -4882,20 +4494,11 @@
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": false,
-					"systems": [
-						"GPS",
-						"GLONASS",
-						"Galileo",
-						"QZSS",
-						"BeiDou"
-					]
+					"systems": ["GPS", "GLONASS", "Galileo", "QZSS", "BeiDou"]
 				}
 			},
 			"authentication": {
-				"methods": [
-					"Touch ID",
-					"passcode"
-				],
+				"methods": ["Touch ID", "passcode"],
 				"primaryMethod": "Touch ID",
 				"placement": "other",
 				"sourceNotes": "Home-button iPhone SE uses Touch ID; placement modeled as other."
@@ -5046,14 +4649,7 @@
 				{
 					"id": "128gb-configuration",
 					"displayName": "iPhone 13 128GB",
-					"colorIds": [
-						"green",
-						"pink",
-						"blue",
-						"midnight",
-						"starlight",
-						"red"
-					],
+					"colorIds": ["green", "pink", "blue", "midnight", "starlight", "red"],
 					"storageId": "128gb",
 					"priceAud": 1349,
 					"sourceNotes": "Launch AUD RRP for the base configuration (same evidence as device priceAud)."
@@ -5061,28 +4657,14 @@
 				{
 					"id": "256gb-configuration",
 					"displayName": "iPhone 13 256GB",
-					"colorIds": [
-						"green",
-						"pink",
-						"blue",
-						"midnight",
-						"starlight",
-						"red"
-					],
+					"colorIds": ["green", "pink", "blue", "midnight", "starlight", "red"],
 					"storageId": "256gb",
 					"sourceNotes": "Launch AUD RRP for the base configuration (same evidence as device priceAud)."
 				},
 				{
 					"id": "512gb-configuration",
 					"displayName": "iPhone 13 512GB",
-					"colorIds": [
-						"green",
-						"pink",
-						"blue",
-						"midnight",
-						"starlight",
-						"red"
-					],
+					"colorIds": ["green", "pink", "blue", "midnight", "starlight", "red"],
 					"storageId": "512gb",
 					"sourceNotes": "Launch AUD RRP for the base configuration (same evidence as device priceAud)."
 				}
@@ -5177,10 +4759,7 @@
 					"portId": "Lightning",
 					"wiredFastCharge": true,
 					"wirelessCharging": true,
-					"wirelessStandards": [
-						"MagSafe",
-						"Qi2"
-					],
+					"wirelessStandards": ["MagSafe", "Qi2"],
 					"fastChargeMinutesToPercent": {
 						"percent": 50,
 						"minutes": 30
@@ -5208,18 +4787,13 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 6"
-					]
+					"standards": ["Wi-Fi 6"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.0"
 				},
 				"cellular": {
-					"technologies": [
-						"LTE",
-						"5G sub-6"
-					]
+					"technologies": ["LTE", "5G sub-6"]
 				},
 				"uwb": {
 					"chip": "Apple Ultra Wideband chip",
@@ -5238,20 +4812,11 @@
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": false,
-					"systems": [
-						"GPS",
-						"GLONASS",
-						"Galileo",
-						"QZSS",
-						"BeiDou"
-					]
+					"systems": ["GPS", "GLONASS", "Galileo", "QZSS", "BeiDou"]
 				}
 			},
 			"authentication": {
-				"methods": [
-					"Face ID",
-					"passcode"
-				],
+				"methods": ["Face ID", "passcode"],
 				"primaryMethod": "Face ID",
 				"sourceNotes": "Exact authentication section establishes Face ID."
 			},
@@ -5401,14 +4966,7 @@
 				{
 					"id": "128gb-configuration",
 					"displayName": "iPhone 13 mini 128GB",
-					"colorIds": [
-						"green",
-						"pink",
-						"blue",
-						"midnight",
-						"starlight",
-						"red"
-					],
+					"colorIds": ["green", "pink", "blue", "midnight", "starlight", "red"],
 					"storageId": "128gb",
 					"priceAud": 1199,
 					"sourceNotes": "Launch AUD RRP for the base configuration (same evidence as device priceAud)."
@@ -5416,28 +4974,14 @@
 				{
 					"id": "256gb-configuration",
 					"displayName": "iPhone 13 mini 256GB",
-					"colorIds": [
-						"green",
-						"pink",
-						"blue",
-						"midnight",
-						"starlight",
-						"red"
-					],
+					"colorIds": ["green", "pink", "blue", "midnight", "starlight", "red"],
 					"storageId": "256gb",
 					"sourceNotes": "Launch AUD RRP for the base configuration (same evidence as device priceAud)."
 				},
 				{
 					"id": "512gb-configuration",
 					"displayName": "iPhone 13 mini 512GB",
-					"colorIds": [
-						"green",
-						"pink",
-						"blue",
-						"midnight",
-						"starlight",
-						"red"
-					],
+					"colorIds": ["green", "pink", "blue", "midnight", "starlight", "red"],
 					"storageId": "512gb",
 					"sourceNotes": "Launch AUD RRP for the base configuration (same evidence as device priceAud)."
 				}
@@ -5557,10 +5101,7 @@
 					"portId": "Lightning",
 					"wiredFastCharge": true,
 					"wirelessCharging": true,
-					"wirelessStandards": [
-						"MagSafe",
-						"Qi2"
-					],
+					"wirelessStandards": ["MagSafe", "Qi2"],
 					"fastChargeMinutesToPercent": {
 						"percent": 50,
 						"minutes": 30
@@ -5588,18 +5129,13 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 6"
-					]
+					"standards": ["Wi-Fi 6"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.0"
 				},
 				"cellular": {
-					"technologies": [
-						"LTE",
-						"5G sub-6"
-					]
+					"technologies": ["LTE", "5G sub-6"]
 				},
 				"uwb": {
 					"chip": "Apple Ultra Wideband chip",
@@ -5618,20 +5154,11 @@
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": false,
-					"systems": [
-						"GPS",
-						"GLONASS",
-						"Galileo",
-						"QZSS",
-						"BeiDou"
-					]
+					"systems": ["GPS", "GLONASS", "Galileo", "QZSS", "BeiDou"]
 				}
 			},
 			"authentication": {
-				"methods": [
-					"Face ID",
-					"passcode"
-				],
+				"methods": ["Face ID", "passcode"],
 				"primaryMethod": "Face ID",
 				"sourceNotes": "Exact authentication section establishes Face ID."
 			},
@@ -5947,10 +5474,7 @@
 					"portId": "Lightning",
 					"wiredFastCharge": true,
 					"wirelessCharging": true,
-					"wirelessStandards": [
-						"MagSafe",
-						"Qi2"
-					],
+					"wirelessStandards": ["MagSafe", "Qi2"],
 					"fastChargeMinutesToPercent": {
 						"percent": 50,
 						"minutes": 35
@@ -5978,18 +5502,13 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 6"
-					]
+					"standards": ["Wi-Fi 6"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.0"
 				},
 				"cellular": {
-					"technologies": [
-						"LTE",
-						"5G sub-6"
-					]
+					"technologies": ["LTE", "5G sub-6"]
 				},
 				"uwb": {
 					"chip": "Apple Ultra Wideband chip",
@@ -6008,20 +5527,11 @@
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": false,
-					"systems": [
-						"GPS",
-						"GLONASS",
-						"Galileo",
-						"QZSS",
-						"BeiDou"
-					]
+					"systems": ["GPS", "GLONASS", "Galileo", "QZSS", "BeiDou"]
 				}
 			},
 			"authentication": {
-				"methods": [
-					"Face ID",
-					"passcode"
-				],
+				"methods": ["Face ID", "passcode"],
 				"primaryMethod": "Face ID",
 				"sourceNotes": "Exact authentication section establishes Face ID."
 			},
@@ -6171,14 +5681,7 @@
 				{
 					"id": "64gb-configuration",
 					"displayName": "iPhone 12 64GB",
-					"colorIds": [
-						"purple",
-						"blue",
-						"green",
-						"red",
-						"white",
-						"black"
-					],
+					"colorIds": ["purple", "blue", "green", "red", "white", "black"],
 					"storageId": "64gb",
 					"priceAud": 1349,
 					"sourceNotes": "Launch AUD RRP for the base configuration (same evidence as device priceAud)."
@@ -6186,28 +5689,14 @@
 				{
 					"id": "128gb-configuration",
 					"displayName": "iPhone 12 128GB",
-					"colorIds": [
-						"purple",
-						"blue",
-						"green",
-						"red",
-						"white",
-						"black"
-					],
+					"colorIds": ["purple", "blue", "green", "red", "white", "black"],
 					"storageId": "128gb",
 					"sourceNotes": "Launch AUD RRP for the base configuration (same evidence as device priceAud)."
 				},
 				{
 					"id": "256gb-configuration",
 					"displayName": "iPhone 12 256GB",
-					"colorIds": [
-						"purple",
-						"blue",
-						"green",
-						"red",
-						"white",
-						"black"
-					],
+					"colorIds": ["purple", "blue", "green", "red", "white", "black"],
 					"storageId": "256gb",
 					"sourceNotes": "Launch AUD RRP for the base configuration (same evidence as device priceAud)."
 				}
@@ -6302,10 +5791,7 @@
 					"portId": "Lightning",
 					"wiredFastCharge": true,
 					"wirelessCharging": true,
-					"wirelessStandards": [
-						"MagSafe",
-						"Qi2"
-					],
+					"wirelessStandards": ["MagSafe", "Qi2"],
 					"fastChargeMinutesToPercent": {
 						"percent": 50,
 						"minutes": 30
@@ -6333,18 +5819,13 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 6"
-					]
+					"standards": ["Wi-Fi 6"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.0"
 				},
 				"cellular": {
-					"technologies": [
-						"LTE",
-						"5G sub-6"
-					]
+					"technologies": ["LTE", "5G sub-6"]
 				},
 				"uwb": {
 					"chip": "Apple Ultra Wideband chip",
@@ -6363,20 +5844,11 @@
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": false,
-					"systems": [
-						"GPS",
-						"GLONASS",
-						"Galileo",
-						"QZSS",
-						"BeiDou"
-					]
+					"systems": ["GPS", "GLONASS", "Galileo", "QZSS", "BeiDou"]
 				}
 			},
 			"authentication": {
-				"methods": [
-					"Face ID",
-					"passcode"
-				],
+				"methods": ["Face ID", "passcode"],
 				"primaryMethod": "Face ID",
 				"sourceNotes": "Exact authentication section establishes Face ID."
 			},
@@ -6490,12 +5962,7 @@
 				{
 					"id": "128gb-configuration",
 					"displayName": "iPhone 12 Pro 128GB",
-					"colorIds": [
-						"pacific-blue",
-						"gold",
-						"graphite",
-						"silver"
-					],
+					"colorIds": ["pacific-blue", "gold", "graphite", "silver"],
 					"storageId": "128gb",
 					"priceAud": 1699,
 					"sourceNotes": "Launch AUD RRP for the base configuration (same evidence as device priceAud)."
@@ -6503,24 +5970,14 @@
 				{
 					"id": "256gb-configuration",
 					"displayName": "iPhone 12 Pro 256GB",
-					"colorIds": [
-						"pacific-blue",
-						"gold",
-						"graphite",
-						"silver"
-					],
+					"colorIds": ["pacific-blue", "gold", "graphite", "silver"],
 					"storageId": "256gb",
 					"sourceNotes": "Launch AUD RRP for the base configuration (same evidence as device priceAud)."
 				},
 				{
 					"id": "512gb-configuration",
 					"displayName": "iPhone 12 Pro 512GB",
-					"colorIds": [
-						"pacific-blue",
-						"gold",
-						"graphite",
-						"silver"
-					],
+					"colorIds": ["pacific-blue", "gold", "graphite", "silver"],
 					"storageId": "512gb",
 					"sourceNotes": "Launch AUD RRP for the base configuration (same evidence as device priceAud)."
 				}
@@ -6653,10 +6110,7 @@
 					"portId": "Lightning",
 					"wiredFastCharge": true,
 					"wirelessCharging": true,
-					"wirelessStandards": [
-						"MagSafe",
-						"Qi2"
-					],
+					"wirelessStandards": ["MagSafe", "Qi2"],
 					"fastChargeMinutesToPercent": {
 						"percent": 50,
 						"minutes": 30
@@ -6684,18 +6138,13 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 6"
-					]
+					"standards": ["Wi-Fi 6"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.0"
 				},
 				"cellular": {
-					"technologies": [
-						"LTE",
-						"5G sub-6"
-					]
+					"technologies": ["LTE", "5G sub-6"]
 				},
 				"uwb": {
 					"chip": "Apple Ultra Wideband chip",
@@ -6714,20 +6163,11 @@
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": false,
-					"systems": [
-						"GPS",
-						"GLONASS",
-						"Galileo",
-						"QZSS",
-						"BeiDou"
-					]
+					"systems": ["GPS", "GLONASS", "Galileo", "QZSS", "BeiDou"]
 				}
 			},
 			"authentication": {
-				"methods": [
-					"Face ID",
-					"passcode"
-				],
+				"methods": ["Face ID", "passcode"],
 				"primaryMethod": "Face ID",
 				"sourceNotes": "Exact authentication section establishes Face ID."
 			},
@@ -6841,12 +6281,7 @@
 				{
 					"id": "128gb-configuration",
 					"displayName": "iPhone 12 Pro Max 128GB",
-					"colorIds": [
-						"pacific-blue",
-						"gold",
-						"graphite",
-						"silver"
-					],
+					"colorIds": ["pacific-blue", "gold", "graphite", "silver"],
 					"storageId": "128gb",
 					"priceAud": 1849,
 					"sourceNotes": "Launch AUD RRP for the base configuration (same evidence as device priceAud)."
@@ -6854,24 +6289,14 @@
 				{
 					"id": "256gb-configuration",
 					"displayName": "iPhone 12 Pro Max 256GB",
-					"colorIds": [
-						"pacific-blue",
-						"gold",
-						"graphite",
-						"silver"
-					],
+					"colorIds": ["pacific-blue", "gold", "graphite", "silver"],
 					"storageId": "256gb",
 					"sourceNotes": "Launch AUD RRP for the base configuration (same evidence as device priceAud)."
 				},
 				{
 					"id": "512gb-configuration",
 					"displayName": "iPhone 12 Pro Max 512GB",
-					"colorIds": [
-						"pacific-blue",
-						"gold",
-						"graphite",
-						"silver"
-					],
+					"colorIds": ["pacific-blue", "gold", "graphite", "silver"],
 					"storageId": "512gb",
 					"sourceNotes": "Launch AUD RRP for the base configuration (same evidence as device priceAud)."
 				}
@@ -7004,10 +6429,7 @@
 					"portId": "Lightning",
 					"wiredFastCharge": true,
 					"wirelessCharging": true,
-					"wirelessStandards": [
-						"MagSafe",
-						"Qi2"
-					],
+					"wirelessStandards": ["MagSafe", "Qi2"],
 					"fastChargeMinutesToPercent": {
 						"percent": 50,
 						"minutes": 30
@@ -7035,18 +6457,13 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 6"
-					]
+					"standards": ["Wi-Fi 6"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.0"
 				},
 				"cellular": {
-					"technologies": [
-						"LTE",
-						"5G sub-6"
-					]
+					"technologies": ["LTE", "5G sub-6"]
 				},
 				"uwb": {
 					"chip": "Apple Ultra Wideband chip",
@@ -7065,20 +6482,11 @@
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": false,
-					"systems": [
-						"GPS",
-						"GLONASS",
-						"Galileo",
-						"QZSS",
-						"BeiDou"
-					]
+					"systems": ["GPS", "GLONASS", "Galileo", "QZSS", "BeiDou"]
 				}
 			},
 			"authentication": {
-				"methods": [
-					"Face ID",
-					"passcode"
-				],
+				"methods": ["Face ID", "passcode"],
 				"primaryMethod": "Face ID",
 				"sourceNotes": "Exact authentication section establishes Face ID."
 			},
@@ -7228,14 +6636,7 @@
 				{
 					"id": "64gb-configuration",
 					"displayName": "iPhone 11 64GB",
-					"colorIds": [
-						"purple",
-						"yellow",
-						"green",
-						"black",
-						"white",
-						"red"
-					],
+					"colorIds": ["purple", "yellow", "green", "black", "white", "red"],
 					"storageId": "64gb",
 					"priceAud": 1199,
 					"sourceNotes": "Launch AUD RRP for the base configuration (same evidence as device priceAud)."
@@ -7243,28 +6644,14 @@
 				{
 					"id": "128gb-configuration",
 					"displayName": "iPhone 11 128GB",
-					"colorIds": [
-						"purple",
-						"yellow",
-						"green",
-						"black",
-						"white",
-						"red"
-					],
+					"colorIds": ["purple", "yellow", "green", "black", "white", "red"],
 					"storageId": "128gb",
 					"sourceNotes": "Launch AUD RRP for the base configuration (same evidence as device priceAud)."
 				},
 				{
 					"id": "iphone-11-256gb",
 					"displayName": "iPhone 11 256GB",
-					"colorIds": [
-						"purple",
-						"yellow",
-						"green",
-						"black",
-						"white",
-						"red"
-					],
+					"colorIds": ["purple", "yellow", "green", "black", "white", "red"],
 					"storageId": "256gb",
 					"sourceNotes": "Launch AUD RRP for the base configuration (same evidence as device priceAud)."
 				}
@@ -7358,9 +6745,7 @@
 					"portId": "Lightning",
 					"wiredFastCharge": true,
 					"wirelessCharging": true,
-					"wirelessStandards": [
-						"Qi"
-					],
+					"wirelessStandards": ["Qi"],
 					"fastChargeMinutesToPercent": {
 						"percent": 50,
 						"minutes": 30
@@ -7388,17 +6773,13 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 6"
-					]
+					"standards": ["Wi-Fi 6"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.0"
 				},
 				"cellular": {
-					"technologies": [
-						"LTE"
-					]
+					"technologies": ["LTE"]
 				},
 				"uwb": {
 					"chip": "Apple Ultra Wideband chip",
@@ -7417,16 +6798,11 @@
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": false,
-					"systems": [
-						"GPS"
-					]
+					"systems": ["GPS"]
 				}
 			},
 			"authentication": {
-				"methods": [
-					"Face ID",
-					"passcode"
-				],
+				"methods": ["Face ID", "passcode"],
 				"primaryMethod": "Face ID",
 				"sourceNotes": "Exact authentication section establishes Face ID."
 			},
@@ -7540,12 +6916,7 @@
 				{
 					"id": "64gb-configuration",
 					"displayName": "iPhone 11 Pro 64GB",
-					"colorIds": [
-						"midnight-green",
-						"silver",
-						"spacegray",
-						"gold"
-					],
+					"colorIds": ["midnight-green", "silver", "spacegray", "gold"],
 					"storageId": "64gb",
 					"priceAud": 1749,
 					"sourceNotes": "Launch AUD RRP for the base configuration (same evidence as device priceAud)."
@@ -7553,24 +6924,14 @@
 				{
 					"id": "256gb-configuration",
 					"displayName": "iPhone 11 Pro 256GB",
-					"colorIds": [
-						"midnight-green",
-						"silver",
-						"spacegray",
-						"gold"
-					],
+					"colorIds": ["midnight-green", "silver", "spacegray", "gold"],
 					"storageId": "256gb",
 					"sourceNotes": "Launch AUD RRP for the base configuration (same evidence as device priceAud)."
 				},
 				{
 					"id": "512gb-configuration",
 					"displayName": "iPhone 11 Pro 512GB",
-					"colorIds": [
-						"midnight-green",
-						"silver",
-						"spacegray",
-						"gold"
-					],
+					"colorIds": ["midnight-green", "silver", "spacegray", "gold"],
 					"storageId": "512gb",
 					"sourceNotes": "Launch AUD RRP for the base configuration (same evidence as device priceAud)."
 				}
@@ -7703,9 +7064,7 @@
 					"portId": "Lightning",
 					"wiredFastCharge": true,
 					"wirelessCharging": true,
-					"wirelessStandards": [
-						"Qi"
-					],
+					"wirelessStandards": ["Qi"],
 					"fastChargeMinutesToPercent": {
 						"percent": 50,
 						"minutes": 30
@@ -7733,17 +7092,13 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 6"
-					]
+					"standards": ["Wi-Fi 6"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.0"
 				},
 				"cellular": {
-					"technologies": [
-						"LTE"
-					]
+					"technologies": ["LTE"]
 				},
 				"uwb": {
 					"chip": "Apple Ultra Wideband chip",
@@ -7762,16 +7117,11 @@
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": false,
-					"systems": [
-						"GPS"
-					]
+					"systems": ["GPS"]
 				}
 			},
 			"authentication": {
-				"methods": [
-					"Face ID",
-					"passcode"
-				],
+				"methods": ["Face ID", "passcode"],
 				"primaryMethod": "Face ID",
 				"sourceNotes": "Exact authentication section establishes Face ID."
 			},
@@ -8073,17 +7423,13 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 5"
-					]
+					"standards": ["Wi-Fi 5"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 4.2"
 				},
 				"cellular": {
-					"technologies": [
-						"LTE"
-					]
+					"technologies": ["LTE"]
 				},
 				"uwb": {
 					"chip": "No Ultra Wideband chip",
@@ -8103,16 +7449,11 @@
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": false,
-					"systems": [
-						"GPS"
-					]
+					"systems": ["GPS"]
 				}
 			},
 			"authentication": {
-				"methods": [
-					"Touch ID",
-					"passcode"
-				],
+				"methods": ["Touch ID", "passcode"],
 				"primaryMethod": "Touch ID"
 			},
 			"physical": {
@@ -8416,17 +7757,13 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 5"
-					]
+					"standards": ["Wi-Fi 5"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 4.2"
 				},
 				"cellular": {
-					"technologies": [
-						"LTE"
-					]
+					"technologies": ["LTE"]
 				},
 				"uwb": {
 					"chip": "No Ultra Wideband chip",
@@ -8446,16 +7783,11 @@
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": false,
-					"systems": [
-						"GPS"
-					]
+					"systems": ["GPS"]
 				}
 			},
 			"authentication": {
-				"methods": [
-					"Touch ID",
-					"passcode"
-				],
+				"methods": ["Touch ID", "passcode"],
 				"primaryMethod": "Touch ID"
 			},
 			"physical": {
@@ -8571,12 +7903,7 @@
 				{
 					"id": "iphone-8-64gb",
 					"displayName": "iPhone 8 64GB",
-					"colorIds": [
-						"space-gray",
-						"silver",
-						"gold",
-						"red"
-					],
+					"colorIds": ["space-gray", "silver", "gold", "red"],
 					"storageId": "64gb",
 					"priceAud": 1079,
 					"sourceNotes": "Launch AUD RRP for the base configuration (same evidence as device priceAud)."
@@ -8584,24 +7911,14 @@
 				{
 					"id": "iphone-8-128gb",
 					"displayName": "iPhone 8 128GB",
-					"colorIds": [
-						"space-gray",
-						"silver",
-						"gold",
-						"red"
-					],
+					"colorIds": ["space-gray", "silver", "gold", "red"],
 					"storageId": "128gb",
 					"sourceNotes": "Launch AUD RRP for the base configuration (same evidence as device priceAud)."
 				},
 				{
 					"id": "iphone-8-256gb",
 					"displayName": "iPhone 8 256GB",
-					"colorIds": [
-						"space-gray",
-						"silver",
-						"gold",
-						"red"
-					],
+					"colorIds": ["space-gray", "silver", "gold", "red"],
 					"storageId": "256gb",
 					"sourceNotes": "Launch AUD RRP for the base configuration (same evidence as device priceAud)."
 				}
@@ -8695,9 +8012,7 @@
 					"portId": "iphone-8-lightning-port",
 					"wiredFastCharge": false,
 					"wirelessCharging": true,
-					"wirelessStandards": [
-						"Qi"
-					]
+					"wirelessStandards": ["Qi"]
 				},
 				"powerSupply": {
 					"hasExternalPowerAdapter": false,
@@ -8718,17 +8033,13 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 5"
-					]
+					"standards": ["Wi-Fi 5"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.0"
 				},
 				"cellular": {
-					"technologies": [
-						"LTE"
-					]
+					"technologies": ["LTE"]
 				},
 				"uwb": {
 					"chip": "No Ultra Wideband chip",
@@ -8748,16 +8059,11 @@
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": false,
-					"systems": [
-						"GPS"
-					]
+					"systems": ["GPS"]
 				}
 			},
 			"authentication": {
-				"methods": [
-					"Touch ID",
-					"passcode"
-				],
+				"methods": ["Touch ID", "passcode"],
 				"primaryMethod": "Touch ID"
 			},
 			"physical": {
@@ -8873,12 +8179,7 @@
 				{
 					"id": "iphone-8-plus-64gb",
 					"displayName": "iPhone 8 Plus 64GB",
-					"colorIds": [
-						"space-gray",
-						"silver",
-						"gold",
-						"red"
-					],
+					"colorIds": ["space-gray", "silver", "gold", "red"],
 					"storageId": "64gb",
 					"priceAud": 1229,
 					"sourceNotes": "Launch AUD RRP for the base configuration (same evidence as device priceAud)."
@@ -8886,24 +8187,14 @@
 				{
 					"id": "iphone-8-plus-128gb",
 					"displayName": "iPhone 8 Plus 128GB",
-					"colorIds": [
-						"space-gray",
-						"silver",
-						"gold",
-						"red"
-					],
+					"colorIds": ["space-gray", "silver", "gold", "red"],
 					"storageId": "128gb",
 					"sourceNotes": "Launch AUD RRP for the base configuration (same evidence as device priceAud)."
 				},
 				{
 					"id": "iphone-8-plus-256gb",
 					"displayName": "iPhone 8 Plus 256GB",
-					"colorIds": [
-						"space-gray",
-						"silver",
-						"gold",
-						"red"
-					],
+					"colorIds": ["space-gray", "silver", "gold", "red"],
 					"storageId": "256gb",
 					"sourceNotes": "Launch AUD RRP for the base configuration (same evidence as device priceAud)."
 				}
@@ -8997,9 +8288,7 @@
 					"portId": "iphone-8-plus-lightning-port",
 					"wiredFastCharge": false,
 					"wirelessCharging": true,
-					"wirelessStandards": [
-						"Qi"
-					]
+					"wirelessStandards": ["Qi"]
 				},
 				"powerSupply": {
 					"hasExternalPowerAdapter": false,
@@ -9020,17 +8309,13 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 5"
-					]
+					"standards": ["Wi-Fi 5"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.0"
 				},
 				"cellular": {
-					"technologies": [
-						"LTE"
-					]
+					"technologies": ["LTE"]
 				},
 				"uwb": {
 					"chip": "No Ultra Wideband chip",
@@ -9050,16 +8335,11 @@
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": false,
-					"systems": [
-						"GPS"
-					]
+					"systems": ["GPS"]
 				}
 			},
 			"authentication": {
-				"methods": [
-					"Touch ID",
-					"passcode"
-				],
+				"methods": ["Touch ID", "passcode"],
 				"primaryMethod": "Touch ID"
 			},
 			"physical": {
@@ -9157,11 +8437,7 @@
 				{
 					"id": "iphone-se-2nd-generation-64gb",
 					"displayName": "iPhone SE (2nd generation) 64GB",
-					"colorIds": [
-						"black",
-						"white",
-						"red"
-					],
+					"colorIds": ["black", "white", "red"],
 					"storageId": "64gb",
 					"priceAud": 749,
 					"sourceNotes": "Launch AUD RRP for the base configuration (same evidence as device priceAud)."
@@ -9169,22 +8445,14 @@
 				{
 					"id": "iphone-se-2nd-generation-128gb",
 					"displayName": "iPhone SE (2nd generation) 128GB",
-					"colorIds": [
-						"black",
-						"white",
-						"red"
-					],
+					"colorIds": ["black", "white", "red"],
 					"storageId": "128gb",
 					"sourceNotes": "Launch AUD RRP for the base configuration (same evidence as device priceAud)."
 				},
 				{
 					"id": "iphone-se-2nd-generation-256gb",
 					"displayName": "iPhone SE (2nd generation) 256GB",
-					"colorIds": [
-						"black",
-						"white",
-						"red"
-					],
+					"colorIds": ["black", "white", "red"],
 					"storageId": "256gb",
 					"sourceNotes": "Launch AUD RRP for the base configuration (same evidence as device priceAud)."
 				}
@@ -9278,9 +8546,7 @@
 					"portId": "iphone-se-2nd-generation-lightning-port",
 					"wiredFastCharge": false,
 					"wirelessCharging": true,
-					"wirelessStandards": [
-						"Qi"
-					]
+					"wirelessStandards": ["Qi"]
 				},
 				"powerSupply": {
 					"hasExternalPowerAdapter": false,
@@ -9301,17 +8567,13 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 6"
-					]
+					"standards": ["Wi-Fi 6"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.0"
 				},
 				"cellular": {
-					"technologies": [
-						"LTE"
-					]
+					"technologies": ["LTE"]
 				},
 				"uwb": {
 					"chip": "No Ultra Wideband chip",
@@ -9331,16 +8593,11 @@
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": false,
-					"systems": [
-						"GPS"
-					]
+					"systems": ["GPS"]
 				}
 			},
 			"authentication": {
-				"methods": [
-					"Touch ID",
-					"passcode"
-				],
+				"methods": ["Touch ID", "passcode"],
 				"primaryMethod": "Touch ID"
 			},
 			"physical": {
@@ -9420,10 +8677,7 @@
 				{
 					"id": "iphone-x-64gb",
 					"displayName": "iPhone X 64GB",
-					"colorIds": [
-						"space-gray",
-						"silver"
-					],
+					"colorIds": ["space-gray", "silver"],
 					"storageId": "64gb",
 					"priceAud": 1579,
 					"sourceNotes": "Launch AUD RRP for the base configuration (same evidence as device priceAud)."
@@ -9431,10 +8685,7 @@
 				{
 					"id": "iphone-x-256gb",
 					"displayName": "iPhone X 256GB",
-					"colorIds": [
-						"space-gray",
-						"silver"
-					],
+					"colorIds": ["space-gray", "silver"],
 					"storageId": "256gb",
 					"sourceNotes": "Launch AUD RRP for the base configuration (same evidence as device priceAud)."
 				}
@@ -9522,9 +8773,7 @@
 					"portId": "iphone-x-lightning-port",
 					"wiredFastCharge": false,
 					"wirelessCharging": true,
-					"wirelessStandards": [
-						"Qi"
-					]
+					"wirelessStandards": ["Qi"]
 				},
 				"powerSupply": {
 					"hasExternalPowerAdapter": false,
@@ -9545,17 +8794,13 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 5"
-					]
+					"standards": ["Wi-Fi 5"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.0"
 				},
 				"cellular": {
-					"technologies": [
-						"LTE"
-					]
+					"technologies": ["LTE"]
 				},
 				"uwb": {
 					"chip": "No Ultra Wideband chip",
@@ -9575,16 +8820,11 @@
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": false,
-					"systems": [
-						"GPS"
-					]
+					"systems": ["GPS"]
 				}
 			},
 			"authentication": {
-				"methods": [
-					"Face ID",
-					"passcode"
-				],
+				"methods": ["Face ID", "passcode"],
 				"primaryMethod": "Face ID"
 			},
 			"physical": {
@@ -9736,14 +8976,7 @@
 				{
 					"id": "iphone-xr-64gb",
 					"displayName": "iPhone XR 64GB",
-					"colorIds": [
-						"black",
-						"white",
-						"blue",
-						"yellow",
-						"coral",
-						"red"
-					],
+					"colorIds": ["black", "white", "blue", "yellow", "coral", "red"],
 					"storageId": "64gb",
 					"priceAud": 1229,
 					"sourceNotes": "Launch AUD RRP for the base configuration (same evidence as device priceAud)."
@@ -9751,28 +8984,14 @@
 				{
 					"id": "iphone-xr-128gb",
 					"displayName": "iPhone XR 128GB",
-					"colorIds": [
-						"black",
-						"white",
-						"blue",
-						"yellow",
-						"coral",
-						"red"
-					],
+					"colorIds": ["black", "white", "blue", "yellow", "coral", "red"],
 					"storageId": "128gb",
 					"sourceNotes": "Launch AUD RRP for the base configuration (same evidence as device priceAud)."
 				},
 				{
 					"id": "iphone-xr-256gb",
 					"displayName": "iPhone XR 256GB",
-					"colorIds": [
-						"black",
-						"white",
-						"blue",
-						"yellow",
-						"coral",
-						"red"
-					],
+					"colorIds": ["black", "white", "blue", "yellow", "coral", "red"],
 					"storageId": "256gb",
 					"sourceNotes": "Launch AUD RRP for the base configuration (same evidence as device priceAud)."
 				}
@@ -9866,9 +9085,7 @@
 					"portId": "iphone-xr-lightning-port",
 					"wiredFastCharge": false,
 					"wirelessCharging": true,
-					"wirelessStandards": [
-						"Qi"
-					]
+					"wirelessStandards": ["Qi"]
 				},
 				"powerSupply": {
 					"hasExternalPowerAdapter": false,
@@ -9889,17 +9106,13 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 5"
-					]
+					"standards": ["Wi-Fi 5"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.0"
 				},
 				"cellular": {
-					"technologies": [
-						"LTE"
-					]
+					"technologies": ["LTE"]
 				},
 				"uwb": {
 					"chip": "No Ultra Wideband chip",
@@ -9919,16 +9132,11 @@
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": false,
-					"systems": [
-						"GPS"
-					]
+					"systems": ["GPS"]
 				}
 			},
 			"authentication": {
-				"methods": [
-					"Face ID",
-					"passcode"
-				],
+				"methods": ["Face ID", "passcode"],
 				"primaryMethod": "Face ID"
 			},
 			"physical": {
@@ -10026,11 +9234,7 @@
 				{
 					"id": "iphone-xs-64gb",
 					"displayName": "iPhone XS 64GB",
-					"colorIds": [
-						"space-gray",
-						"silver",
-						"gold"
-					],
+					"colorIds": ["space-gray", "silver", "gold"],
 					"storageId": "64gb",
 					"priceAud": 1629,
 					"sourceNotes": "Launch AUD RRP for the base configuration (same evidence as device priceAud)."
@@ -10038,22 +9242,14 @@
 				{
 					"id": "iphone-xs-256gb",
 					"displayName": "iPhone XS 256GB",
-					"colorIds": [
-						"space-gray",
-						"silver",
-						"gold"
-					],
+					"colorIds": ["space-gray", "silver", "gold"],
 					"storageId": "256gb",
 					"sourceNotes": "Launch AUD RRP for the base configuration (same evidence as device priceAud)."
 				},
 				{
 					"id": "iphone-xs-512gb",
 					"displayName": "iPhone XS 512GB",
-					"colorIds": [
-						"space-gray",
-						"silver",
-						"gold"
-					],
+					"colorIds": ["space-gray", "silver", "gold"],
 					"storageId": "512gb",
 					"sourceNotes": "Launch AUD RRP for the base configuration (same evidence as device priceAud)."
 				}
@@ -10147,9 +9343,7 @@
 					"portId": "iphone-xs-lightning-port",
 					"wiredFastCharge": false,
 					"wirelessCharging": true,
-					"wirelessStandards": [
-						"Qi"
-					]
+					"wirelessStandards": ["Qi"]
 				},
 				"powerSupply": {
 					"hasExternalPowerAdapter": false,
@@ -10170,17 +9364,13 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 5"
-					]
+					"standards": ["Wi-Fi 5"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.0"
 				},
 				"cellular": {
-					"technologies": [
-						"LTE"
-					]
+					"technologies": ["LTE"]
 				},
 				"uwb": {
 					"chip": "No Ultra Wideband chip",
@@ -10200,16 +9390,11 @@
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": false,
-					"systems": [
-						"GPS"
-					]
+					"systems": ["GPS"]
 				}
 			},
 			"authentication": {
-				"methods": [
-					"Face ID",
-					"passcode"
-				],
+				"methods": ["Face ID", "passcode"],
 				"primaryMethod": "Face ID"
 			},
 			"physical": {
@@ -10307,11 +9492,7 @@
 				{
 					"id": "iphone-xs-max-64gb",
 					"displayName": "iPhone XS Max 64GB",
-					"colorIds": [
-						"space-gray",
-						"silver",
-						"gold"
-					],
+					"colorIds": ["space-gray", "silver", "gold"],
 					"storageId": "64gb",
 					"priceAud": 1799,
 					"sourceNotes": "Launch AUD RRP for the base configuration (same evidence as device priceAud)."
@@ -10319,22 +9500,14 @@
 				{
 					"id": "iphone-xs-max-256gb",
 					"displayName": "iPhone XS Max 256GB",
-					"colorIds": [
-						"space-gray",
-						"silver",
-						"gold"
-					],
+					"colorIds": ["space-gray", "silver", "gold"],
 					"storageId": "256gb",
 					"sourceNotes": "Launch AUD RRP for the base configuration (same evidence as device priceAud)."
 				},
 				{
 					"id": "iphone-xs-max-512gb",
 					"displayName": "iPhone XS Max 512GB",
-					"colorIds": [
-						"space-gray",
-						"silver",
-						"gold"
-					],
+					"colorIds": ["space-gray", "silver", "gold"],
 					"storageId": "512gb",
 					"sourceNotes": "Launch AUD RRP for the base configuration (same evidence as device priceAud)."
 				}
@@ -10428,9 +9601,7 @@
 					"portId": "iphone-xs-max-lightning-port",
 					"wiredFastCharge": false,
 					"wirelessCharging": true,
-					"wirelessStandards": [
-						"Qi"
-					]
+					"wirelessStandards": ["Qi"]
 				},
 				"powerSupply": {
 					"hasExternalPowerAdapter": false,
@@ -10451,17 +9622,13 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 5"
-					]
+					"standards": ["Wi-Fi 5"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.0"
 				},
 				"cellular": {
-					"technologies": [
-						"LTE"
-					]
+					"technologies": ["LTE"]
 				},
 				"uwb": {
 					"chip": "No Ultra Wideband chip",
@@ -10481,16 +9648,11 @@
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": false,
-					"systems": [
-						"GPS"
-					]
+					"systems": ["GPS"]
 				}
 			},
 			"authentication": {
-				"methods": [
-					"Face ID",
-					"passcode"
-				],
+				"methods": ["Face ID", "passcode"],
 				"primaryMethod": "Face ID"
 			},
 			"physical": {
@@ -10606,12 +9768,7 @@
 				{
 					"id": "iphone-11-pro-max-64gb",
 					"displayName": "iPhone 11 Pro Max 64GB",
-					"colorIds": [
-						"midnight-green",
-						"space-gray",
-						"silver",
-						"gold"
-					],
+					"colorIds": ["midnight-green", "space-gray", "silver", "gold"],
 					"storageId": "64gb",
 					"priceAud": 1899,
 					"sourceNotes": "Launch AUD RRP for the base configuration (same evidence as device priceAud)."
@@ -10619,24 +9776,14 @@
 				{
 					"id": "iphone-11-pro-max-256gb",
 					"displayName": "iPhone 11 Pro Max 256GB",
-					"colorIds": [
-						"midnight-green",
-						"space-gray",
-						"silver",
-						"gold"
-					],
+					"colorIds": ["midnight-green", "space-gray", "silver", "gold"],
 					"storageId": "256gb",
 					"sourceNotes": "Launch AUD RRP for the base configuration (same evidence as device priceAud)."
 				},
 				{
 					"id": "iphone-11-pro-max-512gb",
 					"displayName": "iPhone 11 Pro Max 512GB",
-					"colorIds": [
-						"midnight-green",
-						"space-gray",
-						"silver",
-						"gold"
-					],
+					"colorIds": ["midnight-green", "space-gray", "silver", "gold"],
 					"storageId": "512gb",
 					"sourceNotes": "Launch AUD RRP for the base configuration (same evidence as device priceAud)."
 				}
@@ -10730,9 +9877,7 @@
 					"portId": "iphone-11-pro-max-lightning-port",
 					"wiredFastCharge": false,
 					"wirelessCharging": true,
-					"wirelessStandards": [
-						"Qi"
-					]
+					"wirelessStandards": ["Qi"]
 				},
 				"powerSupply": {
 					"hasExternalPowerAdapter": false,
@@ -10753,17 +9898,13 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 6"
-					]
+					"standards": ["Wi-Fi 6"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.0"
 				},
 				"cellular": {
-					"technologies": [
-						"LTE"
-					]
+					"technologies": ["LTE"]
 				},
 				"uwb": {
 					"chip": "Apple Ultra Wideband chip19",
@@ -10783,16 +9924,11 @@
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": false,
-					"systems": [
-						"GPS"
-					]
+					"systems": ["GPS"]
 				}
 			},
 			"authentication": {
-				"methods": [
-					"Face ID",
-					"passcode"
-				],
+				"methods": ["Face ID", "passcode"],
 				"primaryMethod": "Face ID"
 			},
 			"physical": {
@@ -10944,14 +10080,7 @@
 				{
 					"id": "iphone-12-mini-64gb",
 					"displayName": "iPhone 12 mini 64GB",
-					"colorIds": [
-						"black",
-						"white",
-						"red",
-						"green",
-						"blue",
-						"purple"
-					],
+					"colorIds": ["black", "white", "red", "green", "blue", "purple"],
 					"storageId": "64gb",
 					"priceAud": 1199,
 					"sourceNotes": "Launch AUD RRP for the base configuration (same evidence as device priceAud)."
@@ -10959,28 +10088,14 @@
 				{
 					"id": "iphone-12-mini-128gb",
 					"displayName": "iPhone 12 mini 128GB",
-					"colorIds": [
-						"black",
-						"white",
-						"red",
-						"green",
-						"blue",
-						"purple"
-					],
+					"colorIds": ["black", "white", "red", "green", "blue", "purple"],
 					"storageId": "128gb",
 					"sourceNotes": "Launch AUD RRP for the base configuration (same evidence as device priceAud)."
 				},
 				{
 					"id": "iphone-12-mini-256gb",
 					"displayName": "iPhone 12 mini 256GB",
-					"colorIds": [
-						"black",
-						"white",
-						"red",
-						"green",
-						"blue",
-						"purple"
-					],
+					"colorIds": ["black", "white", "red", "green", "blue", "purple"],
 					"storageId": "256gb",
 					"sourceNotes": "Launch AUD RRP for the base configuration (same evidence as device priceAud)."
 				}
@@ -11074,10 +10189,7 @@
 					"portId": "iphone-12-mini-lightning-port",
 					"wiredFastCharge": false,
 					"wirelessCharging": true,
-					"wirelessStandards": [
-						"MagSafe",
-						"Qi"
-					]
+					"wirelessStandards": ["MagSafe", "Qi"]
 				},
 				"powerSupply": {
 					"hasExternalPowerAdapter": false,
@@ -11098,18 +10210,13 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 6"
-					]
+					"standards": ["Wi-Fi 6"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.0"
 				},
 				"cellular": {
-					"technologies": [
-						"LTE",
-						"5G sub-6"
-					]
+					"technologies": ["LTE", "5G sub-6"]
 				},
 				"uwb": {
 					"chip": "Apple Ultra Wideband chip19",
@@ -11129,16 +10236,11 @@
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": false,
-					"systems": [
-						"GPS"
-					]
+					"systems": ["GPS"]
 				}
 			},
 			"authentication": {
-				"methods": [
-					"Face ID",
-					"passcode"
-				],
+				"methods": ["Face ID", "passcode"],
 				"primaryMethod": "Face ID"
 			},
 			"physical": {
@@ -11417,10 +10519,7 @@
 					"portId": "iphone-13-pro-lightning-port",
 					"wiredFastCharge": false,
 					"wirelessCharging": true,
-					"wirelessStandards": [
-						"MagSafe",
-						"Qi"
-					]
+					"wirelessStandards": ["MagSafe", "Qi"]
 				},
 				"powerSupply": {
 					"hasExternalPowerAdapter": false,
@@ -11441,18 +10540,13 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 6"
-					]
+					"standards": ["Wi-Fi 6"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.0"
 				},
 				"cellular": {
-					"technologies": [
-						"LTE",
-						"5G sub-6"
-					]
+					"technologies": ["LTE", "5G sub-6"]
 				},
 				"uwb": {
 					"chip": "Apple Ultra Wideband chip19",
@@ -11472,16 +10566,11 @@
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": false,
-					"systems": [
-						"GPS"
-					]
+					"systems": ["GPS"]
 				}
 			},
 			"authentication": {
-				"methods": [
-					"Face ID",
-					"passcode"
-				],
+				"methods": ["Face ID", "passcode"],
 				"primaryMethod": "Face ID"
 			},
 			"physical": {
@@ -11615,13 +10704,7 @@
 				{
 					"id": "iphone-15-128gb",
 					"displayName": "iPhone 15 128GB",
-					"colorIds": [
-						"black",
-						"blue",
-						"green",
-						"yellow",
-						"pink"
-					],
+					"colorIds": ["black", "blue", "green", "yellow", "pink"],
 					"storageId": "128gb",
 					"priceAud": 1499,
 					"sourceNotes": "Launch AUD RRP for the base configuration (same evidence as device priceAud)."
@@ -11629,26 +10712,14 @@
 				{
 					"id": "iphone-15-256gb",
 					"displayName": "iPhone 15 256GB",
-					"colorIds": [
-						"black",
-						"blue",
-						"green",
-						"yellow",
-						"pink"
-					],
+					"colorIds": ["black", "blue", "green", "yellow", "pink"],
 					"storageId": "256gb",
 					"sourceNotes": "Launch AUD RRP for the base configuration (same evidence as device priceAud)."
 				},
 				{
 					"id": "iphone-15-512gb",
 					"displayName": "iPhone 15 512GB",
-					"colorIds": [
-						"black",
-						"blue",
-						"green",
-						"yellow",
-						"pink"
-					],
+					"colorIds": ["black", "blue", "green", "yellow", "pink"],
 					"storageId": "512gb",
 					"sourceNotes": "Launch AUD RRP for the base configuration (same evidence as device priceAud)."
 				}
@@ -11742,10 +10813,7 @@
 					"portId": "iphone-15-usb-c-port",
 					"wiredFastCharge": false,
 					"wirelessCharging": true,
-					"wirelessStandards": [
-						"MagSafe",
-						"Qi"
-					]
+					"wirelessStandards": ["MagSafe", "Qi"]
 				},
 				"powerSupply": {
 					"hasExternalPowerAdapter": false,
@@ -11766,18 +10834,13 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 6"
-					]
+					"standards": ["Wi-Fi 6"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.3"
 				},
 				"cellular": {
-					"technologies": [
-						"LTE",
-						"5G sub-6"
-					]
+					"technologies": ["LTE", "5G sub-6"]
 				},
 				"uwb": {
 					"chip": "Apple second-generation Ultra Wideband chip19",
@@ -11797,16 +10860,11 @@
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": false,
-					"systems": [
-						"GPS"
-					]
+					"systems": ["GPS"]
 				}
 			},
 			"authentication": {
-				"methods": [
-					"Face ID",
-					"passcode"
-				],
+				"methods": ["Face ID", "passcode"],
 				"primaryMethod": "Face ID"
 			},
 			"physical": {
@@ -11940,13 +10998,7 @@
 				{
 					"id": "iphone-15-plus-128gb",
 					"displayName": "iPhone 15 Plus 128GB",
-					"colorIds": [
-						"black",
-						"blue",
-						"green",
-						"yellow",
-						"pink"
-					],
+					"colorIds": ["black", "blue", "green", "yellow", "pink"],
 					"storageId": "128gb",
 					"priceAud": 1649,
 					"sourceNotes": "Launch AUD RRP for the base configuration (same evidence as device priceAud)."
@@ -11954,26 +11006,14 @@
 				{
 					"id": "iphone-15-plus-256gb",
 					"displayName": "iPhone 15 Plus 256GB",
-					"colorIds": [
-						"black",
-						"blue",
-						"green",
-						"yellow",
-						"pink"
-					],
+					"colorIds": ["black", "blue", "green", "yellow", "pink"],
 					"storageId": "256gb",
 					"sourceNotes": "Launch AUD RRP for the base configuration (same evidence as device priceAud)."
 				},
 				{
 					"id": "iphone-15-plus-512gb",
 					"displayName": "iPhone 15 Plus 512GB",
-					"colorIds": [
-						"black",
-						"blue",
-						"green",
-						"yellow",
-						"pink"
-					],
+					"colorIds": ["black", "blue", "green", "yellow", "pink"],
 					"storageId": "512gb",
 					"sourceNotes": "Launch AUD RRP for the base configuration (same evidence as device priceAud)."
 				}
@@ -12067,10 +11107,7 @@
 					"portId": "iphone-15-plus-usb-c-port",
 					"wiredFastCharge": false,
 					"wirelessCharging": true,
-					"wirelessStandards": [
-						"MagSafe",
-						"Qi"
-					]
+					"wirelessStandards": ["MagSafe", "Qi"]
 				},
 				"powerSupply": {
 					"hasExternalPowerAdapter": false,
@@ -12091,18 +11128,13 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 6"
-					]
+					"standards": ["Wi-Fi 6"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.3"
 				},
 				"cellular": {
-					"technologies": [
-						"LTE",
-						"5G sub-6"
-					]
+					"technologies": ["LTE", "5G sub-6"]
 				},
 				"uwb": {
 					"chip": "Apple second-generation Ultra Wideband chip19",
@@ -12122,16 +11154,11 @@
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": false,
-					"systems": [
-						"GPS"
-					]
+					"systems": ["GPS"]
 				}
 			},
 			"authentication": {
-				"methods": [
-					"Face ID",
-					"passcode"
-				],
+				"methods": ["Face ID", "passcode"],
 				"primaryMethod": "Face ID"
 			},
 			"physical": {
@@ -12388,10 +11415,7 @@
 					"portId": "iphone-15-pro-usb-c-port",
 					"wiredFastCharge": false,
 					"wirelessCharging": true,
-					"wirelessStandards": [
-						"MagSafe",
-						"Qi"
-					]
+					"wirelessStandards": ["MagSafe", "Qi"]
 				},
 				"powerSupply": {
 					"hasExternalPowerAdapter": false,
@@ -12412,18 +11436,13 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 6E"
-					]
+					"standards": ["Wi-Fi 6E"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.3"
 				},
 				"cellular": {
-					"technologies": [
-						"LTE",
-						"5G sub-6"
-					]
+					"technologies": ["LTE", "5G sub-6"]
 				},
 				"uwb": {
 					"chip": "Apple second-generation Ultra Wideband chip19",
@@ -12443,16 +11462,11 @@
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": true,
-					"systems": [
-						"GPS"
-					]
+					"systems": ["GPS"]
 				}
 			},
 			"authentication": {
-				"methods": [
-					"Face ID",
-					"passcode"
-				],
+				"methods": ["Face ID", "passcode"],
 				"primaryMethod": "Face ID"
 			},
 			"physical": {
@@ -12586,13 +11600,7 @@
 				{
 					"id": "iphone-16-plus-128gb",
 					"displayName": "iPhone 16 Plus 128GB",
-					"colorIds": [
-						"ultramarine",
-						"teal",
-						"pink",
-						"white",
-						"black"
-					],
+					"colorIds": ["ultramarine", "teal", "pink", "white", "black"],
 					"storageId": "128gb",
 					"priceAud": 1599,
 					"sourceNotes": "Launch AUD RRP for the base configuration (same evidence as device priceAud)."
@@ -12600,26 +11608,14 @@
 				{
 					"id": "iphone-16-plus-256gb",
 					"displayName": "iPhone 16 Plus 256GB",
-					"colorIds": [
-						"ultramarine",
-						"teal",
-						"pink",
-						"white",
-						"black"
-					],
+					"colorIds": ["ultramarine", "teal", "pink", "white", "black"],
 					"storageId": "256gb",
 					"sourceNotes": "Launch AUD RRP for the base configuration (same evidence as device priceAud)."
 				},
 				{
 					"id": "iphone-16-plus-512gb",
 					"displayName": "iPhone 16 Plus 512GB",
-					"colorIds": [
-						"ultramarine",
-						"teal",
-						"pink",
-						"white",
-						"black"
-					],
+					"colorIds": ["ultramarine", "teal", "pink", "white", "black"],
 					"storageId": "512gb",
 					"sourceNotes": "Launch AUD RRP for the base configuration (same evidence as device priceAud)."
 				}
@@ -12713,10 +11709,7 @@
 					"portId": "iphone-16-plus-usb-c-port",
 					"wiredFastCharge": false,
 					"wirelessCharging": true,
-					"wirelessStandards": [
-						"MagSafe",
-						"Qi"
-					]
+					"wirelessStandards": ["MagSafe", "Qi"]
 				},
 				"powerSupply": {
 					"hasExternalPowerAdapter": false,
@@ -12737,18 +11730,13 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 7"
-					]
+					"standards": ["Wi-Fi 7"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.3"
 				},
 				"cellular": {
-					"technologies": [
-						"LTE",
-						"5G sub-6"
-					]
+					"technologies": ["LTE", "5G sub-6"]
 				},
 				"uwb": {
 					"chip": "Apple second-generation Ultra Wideband chip19",
@@ -12768,16 +11756,11 @@
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": false,
-					"systems": [
-						"GPS"
-					]
+					"systems": ["GPS"]
 				}
 			},
 			"authentication": {
-				"methods": [
-					"Face ID",
-					"passcode"
-				],
+				"methods": ["Face ID", "passcode"],
 				"primaryMethod": "Face ID"
 			},
 			"physical": {
@@ -13034,10 +12017,7 @@
 					"portId": "iphone-16-pro-usb-c-port",
 					"wiredFastCharge": false,
 					"wirelessCharging": true,
-					"wirelessStandards": [
-						"MagSafe",
-						"Qi"
-					]
+					"wirelessStandards": ["MagSafe", "Qi"]
 				},
 				"powerSupply": {
 					"hasExternalPowerAdapter": false,
@@ -13058,18 +12038,13 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 7"
-					]
+					"standards": ["Wi-Fi 7"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.3"
 				},
 				"cellular": {
-					"technologies": [
-						"LTE",
-						"5G sub-6"
-					]
+					"technologies": ["LTE", "5G sub-6"]
 				},
 				"uwb": {
 					"chip": "Apple second-generation Ultra Wideband chip19",
@@ -13089,16 +12064,11 @@
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": true,
-					"systems": [
-						"GPS"
-					]
+					"systems": ["GPS"]
 				}
 			},
 			"authentication": {
-				"methods": [
-					"Face ID",
-					"passcode"
-				],
+				"methods": ["Face ID", "passcode"],
 				"primaryMethod": "Face ID"
 			},
 			"physical": {
@@ -13178,10 +12148,7 @@
 				{
 					"id": "iphone-16e-128gb",
 					"displayName": "iPhone 16e 128GB",
-					"colorIds": [
-						"white",
-						"black"
-					],
+					"colorIds": ["white", "black"],
 					"storageId": "128gb",
 					"priceAud": 999,
 					"sourceNotes": "Launch AUD RRP for the base configuration (same evidence as device priceAud)."
@@ -13189,20 +12156,14 @@
 				{
 					"id": "iphone-16e-256gb",
 					"displayName": "iPhone 16e 256GB",
-					"colorIds": [
-						"white",
-						"black"
-					],
+					"colorIds": ["white", "black"],
 					"storageId": "256gb",
 					"sourceNotes": "Launch AUD RRP for the base configuration (same evidence as device priceAud)."
 				},
 				{
 					"id": "iphone-16e-512gb",
 					"displayName": "iPhone 16e 512GB",
-					"colorIds": [
-						"white",
-						"black"
-					],
+					"colorIds": ["white", "black"],
 					"storageId": "512gb",
 					"sourceNotes": "Launch AUD RRP for the base configuration (same evidence as device priceAud)."
 				}
@@ -13296,9 +12257,7 @@
 					"portId": "iphone-16e-usb-c-port",
 					"wiredFastCharge": false,
 					"wirelessCharging": true,
-					"wirelessStandards": [
-						"Qi"
-					]
+					"wirelessStandards": ["Qi"]
 				},
 				"powerSupply": {
 					"hasExternalPowerAdapter": false,
@@ -13319,18 +12278,13 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 6"
-					]
+					"standards": ["Wi-Fi 6"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.3"
 				},
 				"cellular": {
-					"technologies": [
-						"LTE",
-						"5G sub-6"
-					]
+					"technologies": ["LTE", "5G sub-6"]
 				},
 				"uwb": {
 					"chip": "No Ultra Wideband chip",
@@ -13350,16 +12304,11 @@
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": false,
-					"systems": [
-						"GPS"
-					]
+					"systems": ["GPS"]
 				}
 			},
 			"authentication": {
-				"methods": [
-					"Face ID",
-					"passcode"
-				],
+				"methods": ["Face ID", "passcode"],
 				"primaryMethod": "Face ID"
 			},
 			"physical": {
@@ -13457,11 +12406,7 @@
 				{
 					"id": "iphone-17-pro-256gb",
 					"displayName": "iPhone 17 Pro 256GB",
-					"colorIds": [
-						"cosmic-orange",
-						"deep-blue",
-						"silver"
-					],
+					"colorIds": ["cosmic-orange", "deep-blue", "silver"],
 					"storageId": "256gb",
 					"priceAud": 1999,
 					"sourceNotes": "Launch AUD RRP for the base configuration (same evidence as device priceAud)."
@@ -13469,22 +12414,14 @@
 				{
 					"id": "iphone-17-pro-512gb",
 					"displayName": "iPhone 17 Pro 512GB",
-					"colorIds": [
-						"cosmic-orange",
-						"deep-blue",
-						"silver"
-					],
+					"colorIds": ["cosmic-orange", "deep-blue", "silver"],
 					"storageId": "512gb",
 					"sourceNotes": "Launch AUD RRP for the base configuration (same evidence as device priceAud)."
 				},
 				{
 					"id": "iphone-17-pro-1tb",
 					"displayName": "iPhone 17 Pro 1TB",
-					"colorIds": [
-						"cosmic-orange",
-						"deep-blue",
-						"silver"
-					],
+					"colorIds": ["cosmic-orange", "deep-blue", "silver"],
 					"storageId": "1tb",
 					"sourceNotes": "Launch AUD RRP for the base configuration (same evidence as device priceAud)."
 				}
@@ -13578,10 +12515,7 @@
 					"portId": "iphone-17-pro-usb-c-port",
 					"wiredFastCharge": false,
 					"wirelessCharging": true,
-					"wirelessStandards": [
-						"MagSafe",
-						"Qi"
-					]
+					"wirelessStandards": ["MagSafe", "Qi"]
 				},
 				"powerSupply": {
 					"hasExternalPowerAdapter": false,
@@ -13602,18 +12536,13 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 7"
-					]
+					"standards": ["Wi-Fi 7"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 6.0"
 				},
 				"cellular": {
-					"technologies": [
-						"LTE",
-						"5G sub-6"
-					]
+					"technologies": ["LTE", "5G sub-6"]
 				},
 				"uwb": {
 					"chip": "Apple second-generation Ultra Wideband chip19",
@@ -13633,16 +12562,11 @@
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": true,
-					"systems": [
-						"GPS"
-					]
+					"systems": ["GPS"]
 				}
 			},
 			"authentication": {
-				"methods": [
-					"Face ID",
-					"passcode"
-				],
+				"methods": ["Face ID", "passcode"],
 				"primaryMethod": "Face ID"
 			},
 			"physical": {

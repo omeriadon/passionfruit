@@ -1,1 +1,118 @@
-{"nodes": [{"id": "$graphify-root$_data_rules_airpods_md", "label": "airpods.md", "file_type": "document", "node_kind": "page", "source_file": "data/rules/airpods.md", "source_location": "L1"}, {"id": "$graphify-root$_data_rules_airpods_airpods_extraction_rules", "label": "AirPods extraction rules", "file_type": "document", "node_kind": "heading", "source_file": "data/rules/airpods.md", "source_location": "L1"}, {"id": "$graphify-root$_data_rules_airpods_identity_and_pricing", "label": "Identity and pricing", "file_type": "document", "node_kind": "heading", "source_file": "data/rules/airpods.md", "source_location": "L5"}, {"id": "$graphify-root$_data_rules_airpods_form_and_physical_data", "label": "Form and physical data", "file_type": "document", "node_kind": "heading", "source_file": "data/rules/airpods.md", "source_location": "L10"}, {"id": "$graphify-root$_data_rules_airpods_audio_and_hardware", "label": "Audio and hardware", "file_type": "document", "node_kind": "heading", "source_file": "data/rules/airpods.md", "source_location": "L18"}, {"id": "$graphify-root$_data_rules_airpods_features_power_and_connectivity", "label": "Features, power, and connectivity", "file_type": "document", "node_kind": "heading", "source_file": "data/rules/airpods.md", "source_location": "L28"}, {"id": "$graphify-root$_data_rules_airpods_exclusions", "label": "Exclusions", "file_type": "document", "node_kind": "heading", "source_file": "data/rules/airpods.md", "source_location": "L37"}], "edges": [{"source": "$graphify-root$_data_rules_airpods_md", "target": "$graphify-root$_data_rules_airpods_airpods_extraction_rules", "relation": "contains", "confidence": "EXTRACTED", "source_file": "data/rules/airpods.md", "source_location": "L1", "weight": 1.0}, {"source": "$graphify-root$_data_rules_airpods_airpods_extraction_rules", "target": "$graphify-root$_data_rules_airpods_identity_and_pricing", "relation": "contains", "confidence": "EXTRACTED", "source_file": "data/rules/airpods.md", "source_location": "L5", "weight": 1.0}, {"source": "$graphify-root$_data_rules_airpods_airpods_extraction_rules", "target": "$graphify-root$_data_rules_airpods_form_and_physical_data", "relation": "contains", "confidence": "EXTRACTED", "source_file": "data/rules/airpods.md", "source_location": "L10", "weight": 1.0}, {"source": "$graphify-root$_data_rules_airpods_airpods_extraction_rules", "target": "$graphify-root$_data_rules_airpods_audio_and_hardware", "relation": "contains", "confidence": "EXTRACTED", "source_file": "data/rules/airpods.md", "source_location": "L18", "weight": 1.0}, {"source": "$graphify-root$_data_rules_airpods_airpods_extraction_rules", "target": "$graphify-root$_data_rules_airpods_features_power_and_connectivity", "relation": "contains", "confidence": "EXTRACTED", "source_file": "data/rules/airpods.md", "source_location": "L28", "weight": 1.0}, {"source": "$graphify-root$_data_rules_airpods_airpods_extraction_rules", "target": "$graphify-root$_data_rules_airpods_exclusions", "relation": "contains", "confidence": "EXTRACTED", "source_file": "data/rules/airpods.md", "source_location": "L37", "weight": 1.0}], "input_tokens": 0, "output_tokens": 0}
+{
+	"nodes": [
+		{
+			"id": "$graphify-root$_data_rules_airpods_md",
+			"label": "airpods.md",
+			"file_type": "document",
+			"node_kind": "page",
+			"source_file": "data/rules/airpods.md",
+			"source_location": "L1"
+		},
+		{
+			"id": "$graphify-root$_data_rules_airpods_airpods_extraction_rules",
+			"label": "AirPods extraction rules",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": "data/rules/airpods.md",
+			"source_location": "L1"
+		},
+		{
+			"id": "$graphify-root$_data_rules_airpods_identity_and_pricing",
+			"label": "Identity and pricing",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": "data/rules/airpods.md",
+			"source_location": "L5"
+		},
+		{
+			"id": "$graphify-root$_data_rules_airpods_form_and_physical_data",
+			"label": "Form and physical data",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": "data/rules/airpods.md",
+			"source_location": "L10"
+		},
+		{
+			"id": "$graphify-root$_data_rules_airpods_audio_and_hardware",
+			"label": "Audio and hardware",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": "data/rules/airpods.md",
+			"source_location": "L18"
+		},
+		{
+			"id": "$graphify-root$_data_rules_airpods_features_power_and_connectivity",
+			"label": "Features, power, and connectivity",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": "data/rules/airpods.md",
+			"source_location": "L28"
+		},
+		{
+			"id": "$graphify-root$_data_rules_airpods_exclusions",
+			"label": "Exclusions",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": "data/rules/airpods.md",
+			"source_location": "L37"
+		}
+	],
+	"edges": [
+		{
+			"source": "$graphify-root$_data_rules_airpods_md",
+			"target": "$graphify-root$_data_rules_airpods_airpods_extraction_rules",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": "data/rules/airpods.md",
+			"source_location": "L1",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_data_rules_airpods_airpods_extraction_rules",
+			"target": "$graphify-root$_data_rules_airpods_identity_and_pricing",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": "data/rules/airpods.md",
+			"source_location": "L5",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_data_rules_airpods_airpods_extraction_rules",
+			"target": "$graphify-root$_data_rules_airpods_form_and_physical_data",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": "data/rules/airpods.md",
+			"source_location": "L10",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_data_rules_airpods_airpods_extraction_rules",
+			"target": "$graphify-root$_data_rules_airpods_audio_and_hardware",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": "data/rules/airpods.md",
+			"source_location": "L18",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_data_rules_airpods_airpods_extraction_rules",
+			"target": "$graphify-root$_data_rules_airpods_features_power_and_connectivity",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": "data/rules/airpods.md",
+			"source_location": "L28",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_data_rules_airpods_airpods_extraction_rules",
+			"target": "$graphify-root$_data_rules_airpods_exclusions",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": "data/rules/airpods.md",
+			"source_location": "L37",
+			"weight": 1.0
+		}
+	],
+	"input_tokens": 0,
+	"output_tokens": 0
+}

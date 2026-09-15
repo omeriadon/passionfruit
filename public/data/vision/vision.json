@@ -430,18 +430,14 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 6"
-					]
+					"standards": ["Wi-Fi 6"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.3"
 				}
 			},
 			"authentication": {
-				"methods": [
-					"Optic ID"
-				],
+				"methods": ["Optic ID"],
 				"primaryMethod": "Optic ID",
 				"opticId": {
 					"available": true,
@@ -537,9 +533,7 @@
 				{
 					"displayName": "Trackpads and mouse devices",
 					"category": "input",
-					"capabilities": [
-						"Mouse support requires visionOS 2 or later."
-					],
+					"capabilities": ["Mouse support requires visionOS 2 or later."],
 					"accessoryId": "trackpads-and-mouse-devices"
 				},
 				{

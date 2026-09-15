@@ -1,1 +1,441 @@
-{"nodes": [{"id": "$graphify-root$_scratch_cleanup_manifest_md", "label": "cleanup-manifest.md", "file_type": "document", "node_kind": "page", "source_file": ".scratch/cleanup-manifest.md", "source_location": "L1"}, {"id": "$graphify-root$_scratch_cleanup_manifest_conservative_scratch_cleanup", "label": "Conservative scratch cleanup", "file_type": "document", "node_kind": "heading", "source_file": ".scratch/cleanup-manifest.md", "source_location": "L1"}, {"id": "$graphify-root$_scratch_cleanup_manifest_deleted", "label": "Deleted", "file_type": "document", "node_kind": "heading", "source_file": ".scratch/cleanup-manifest.md", "source_location": "L5"}, {"id": "$graphify-root$_scratch_cleanup_manifest_intentionally_preserved", "label": "Intentionally preserved", "file_type": "document", "node_kind": "heading", "source_file": ".scratch/cleanup-manifest.md", "source_location": "L9"}, {"id": "$graphify-root$_scratch_cleanup_manifest_watch_image_overlap_check", "label": "Watch image overlap check", "file_type": "document", "node_kind": "heading", "source_file": ".scratch/cleanup-manifest.md", "source_location": "L18"}, {"id": "$graphify-root$_scratch_cleanup_manifest_second_pass_deletions", "label": "Second-pass deletions", "file_type": "document", "node_kind": "heading", "source_file": ".scratch/cleanup-manifest.md", "source_location": "L22"}, {"id": "$graphify-root$_scratch_cleanup_manifest_historical_worker_logs", "label": "Historical worker logs", "file_type": "document", "node_kind": "heading", "source_file": ".scratch/cleanup-manifest.md", "source_location": "L28"}, {"id": "$graphify-root$_scratch_cleanup_manifest_historical_worker_checkpoints", "label": "Historical worker checkpoints", "file_type": "document", "node_kind": "heading", "source_file": ".scratch/cleanup-manifest.md", "source_location": "L49"}, {"id": "$graphify-root$_scratch_cleanup_manifest_superseded_one_off_scripts", "label": "Superseded one-off scripts", "file_type": "document", "node_kind": "heading", "source_file": ".scratch/cleanup-manifest.md", "source_location": "L72"}, {"id": "$graphify-root$_scratch_cleanup_manifest_superseded_intermediate_audit_error_outputs", "label": "Superseded intermediate audit/error outputs", "file_type": "document", "node_kind": "heading", "source_file": ".scratch/cleanup-manifest.md", "source_location": "L92"}, {"id": "$graphify-root$_scratch_cleanup_manifest_third_pass_cleanup", "label": "Third-pass cleanup", "file_type": "document", "node_kind": "heading", "source_file": ".scratch/cleanup-manifest.md", "source_location": "L101"}, {"id": "$graphify-root$_scratch_cleanup_manifest_deleted_105", "label": "Deleted", "file_type": "document", "node_kind": "heading", "source_file": ".scratch/cleanup-manifest.md", "source_location": "L105"}, {"id": "$graphify-root$_scratch_cleanup_manifest_status_file_audit", "label": "Status-file audit", "file_type": "document", "node_kind": "heading", "source_file": ".scratch/cleanup-manifest.md", "source_location": "L116"}, {"id": "$graphify-root$_scratch_cleanup_manifest_protected_paths_verified_unchanged_by_this_pass", "label": "Protected paths verified unchanged by this pass", "file_type": "document", "node_kind": "heading", "source_file": ".scratch/cleanup-manifest.md", "source_location": "L120"}, {"id": "$graphify-root$_scratch_cleanup_manifest_fourth_pass_cleanup", "label": "Fourth-pass cleanup", "file_type": "document", "node_kind": "heading", "source_file": ".scratch/cleanup-manifest.md", "source_location": "L129"}, {"id": "$graphify-root$_scratch_cleanup_manifest_deleted_140", "label": "Deleted", "file_type": "document", "node_kind": "heading", "source_file": ".scratch/cleanup-manifest.md", "source_location": "L140"}, {"id": "$graphify-root$_scratch_cleanup_manifest_explicitly_retained_after_this_inventory", "label": "Explicitly retained after this inventory", "file_type": "document", "node_kind": "heading", "source_file": ".scratch/cleanup-manifest.md", "source_location": "L146"}, {"id": "$graphify-root$_scratch_cleanup_manifest_fifth_pass_cleanup", "label": "Fifth-pass cleanup", "file_type": "document", "node_kind": "heading", "source_file": ".scratch/cleanup-manifest.md", "source_location": "L153"}, {"id": "$graphify-root$_scratch_cleanup_manifest_deleted_157", "label": "Deleted", "file_type": "document", "node_kind": "heading", "source_file": ".scratch/cleanup-manifest.md", "source_location": "L157"}, {"id": "$graphify-root$_scratch_cleanup_manifest_sixth_pass_strict_cleanup", "label": "Sixth-pass strict cleanup", "file_type": "document", "node_kind": "heading", "source_file": ".scratch/cleanup-manifest.md", "source_location": "L165"}, {"id": "$graphify-root$_scratch_cleanup_manifest_obsolete_root_reports_and_shared_contract_helpers", "label": "Obsolete root reports and shared-contract helpers", "file_type": "document", "node_kind": "heading", "source_file": ".scratch/cleanup-manifest.md", "source_location": "L177"}, {"id": "$graphify-root$_scratch_cleanup_manifest_retired_template_validation_snapshots", "label": "Retired template-validation snapshots", "file_type": "document", "node_kind": "heading", "source_file": ".scratch/cleanup-manifest.md", "source_location": "L188"}, {"id": "$graphify-root$_scratch_cleanup_manifest_superseded_strict_validators_and_historical_validation_artifacts", "label": "Superseded strict validators and historical validation artifacts", "file_type": "document", "node_kind": "heading", "source_file": ".scratch/cleanup-manifest.md", "source_location": "L204"}, {"id": "$graphify-root$_scratch_cleanup_manifest_superseded_merge_snapshots_reports_and_validators", "label": "Superseded merge snapshots, reports, and validators", "file_type": "document", "node_kind": "heading", "source_file": ".scratch/cleanup-manifest.md", "source_location": "L250"}, {"id": "$graphify-root$_scratch_cleanup_manifest_duplicate_quarantine_image_trees", "label": "Duplicate quarantine image trees", "file_type": "document", "node_kind": "heading", "source_file": ".scratch/cleanup-manifest.md", "source_location": "L293"}, {"id": "$graphify-root$_scratch_cleanup_manifest_aggregate_validation_evidence_retained", "label": "Aggregate validation evidence retained", "file_type": "document", "node_kind": "heading", "source_file": ".scratch/cleanup-manifest.md", "source_location": "L308"}], "edges": [{"source": "$graphify-root$_scratch_cleanup_manifest_md", "target": "$graphify-root$_scratch_cleanup_manifest_conservative_scratch_cleanup", "relation": "contains", "confidence": "EXTRACTED", "source_file": ".scratch/cleanup-manifest.md", "source_location": "L1", "weight": 1.0}, {"source": "$graphify-root$_scratch_cleanup_manifest_conservative_scratch_cleanup", "target": "$graphify-root$_scratch_cleanup_manifest_deleted", "relation": "contains", "confidence": "EXTRACTED", "source_file": ".scratch/cleanup-manifest.md", "source_location": "L5", "weight": 1.0}, {"source": "$graphify-root$_scratch_cleanup_manifest_conservative_scratch_cleanup", "target": "$graphify-root$_scratch_cleanup_manifest_intentionally_preserved", "relation": "contains", "confidence": "EXTRACTED", "source_file": ".scratch/cleanup-manifest.md", "source_location": "L9", "weight": 1.0}, {"source": "$graphify-root$_scratch_cleanup_manifest_conservative_scratch_cleanup", "target": "$graphify-root$_scratch_cleanup_manifest_watch_image_overlap_check", "relation": "contains", "confidence": "EXTRACTED", "source_file": ".scratch/cleanup-manifest.md", "source_location": "L18", "weight": 1.0}, {"source": "$graphify-root$_scratch_cleanup_manifest_conservative_scratch_cleanup", "target": "$graphify-root$_scratch_cleanup_manifest_second_pass_deletions", "relation": "contains", "confidence": "EXTRACTED", "source_file": ".scratch/cleanup-manifest.md", "source_location": "L22", "weight": 1.0}, {"source": "$graphify-root$_scratch_cleanup_manifest_second_pass_deletions", "target": "$graphify-root$_scratch_cleanup_manifest_historical_worker_logs", "relation": "contains", "confidence": "EXTRACTED", "source_file": ".scratch/cleanup-manifest.md", "source_location": "L28", "weight": 1.0}, {"source": "$graphify-root$_scratch_cleanup_manifest_second_pass_deletions", "target": "$graphify-root$_scratch_cleanup_manifest_historical_worker_checkpoints", "relation": "contains", "confidence": "EXTRACTED", "source_file": ".scratch/cleanup-manifest.md", "source_location": "L49", "weight": 1.0}, {"source": "$graphify-root$_scratch_cleanup_manifest_second_pass_deletions", "target": "$graphify-root$_scratch_cleanup_manifest_superseded_one_off_scripts", "relation": "contains", "confidence": "EXTRACTED", "source_file": ".scratch/cleanup-manifest.md", "source_location": "L72", "weight": 1.0}, {"source": "$graphify-root$_scratch_cleanup_manifest_second_pass_deletions", "target": "$graphify-root$_scratch_cleanup_manifest_superseded_intermediate_audit_error_outputs", "relation": "contains", "confidence": "EXTRACTED", "source_file": ".scratch/cleanup-manifest.md", "source_location": "L92", "weight": 1.0}, {"source": "$graphify-root$_scratch_cleanup_manifest_conservative_scratch_cleanup", "target": "$graphify-root$_scratch_cleanup_manifest_third_pass_cleanup", "relation": "contains", "confidence": "EXTRACTED", "source_file": ".scratch/cleanup-manifest.md", "source_location": "L101", "weight": 1.0}, {"source": "$graphify-root$_scratch_cleanup_manifest_third_pass_cleanup", "target": "$graphify-root$_scratch_cleanup_manifest_deleted_105", "relation": "contains", "confidence": "EXTRACTED", "source_file": ".scratch/cleanup-manifest.md", "source_location": "L105", "weight": 1.0}, {"source": "$graphify-root$_scratch_cleanup_manifest_third_pass_cleanup", "target": "$graphify-root$_scratch_cleanup_manifest_status_file_audit", "relation": "contains", "confidence": "EXTRACTED", "source_file": ".scratch/cleanup-manifest.md", "source_location": "L116", "weight": 1.0}, {"source": "$graphify-root$_scratch_cleanup_manifest_third_pass_cleanup", "target": "$graphify-root$_scratch_cleanup_manifest_protected_paths_verified_unchanged_by_this_pass", "relation": "contains", "confidence": "EXTRACTED", "source_file": ".scratch/cleanup-manifest.md", "source_location": "L120", "weight": 1.0}, {"source": "$graphify-root$_scratch_cleanup_manifest_conservative_scratch_cleanup", "target": "$graphify-root$_scratch_cleanup_manifest_fourth_pass_cleanup", "relation": "contains", "confidence": "EXTRACTED", "source_file": ".scratch/cleanup-manifest.md", "source_location": "L129", "weight": 1.0}, {"source": "$graphify-root$_scratch_cleanup_manifest_fourth_pass_cleanup", "target": "$graphify-root$_scratch_cleanup_manifest_deleted_140", "relation": "contains", "confidence": "EXTRACTED", "source_file": ".scratch/cleanup-manifest.md", "source_location": "L140", "weight": 1.0}, {"source": "$graphify-root$_scratch_cleanup_manifest_fourth_pass_cleanup", "target": "$graphify-root$_scratch_cleanup_manifest_explicitly_retained_after_this_inventory", "relation": "contains", "confidence": "EXTRACTED", "source_file": ".scratch/cleanup-manifest.md", "source_location": "L146", "weight": 1.0}, {"source": "$graphify-root$_scratch_cleanup_manifest_conservative_scratch_cleanup", "target": "$graphify-root$_scratch_cleanup_manifest_fifth_pass_cleanup", "relation": "contains", "confidence": "EXTRACTED", "source_file": ".scratch/cleanup-manifest.md", "source_location": "L153", "weight": 1.0}, {"source": "$graphify-root$_scratch_cleanup_manifest_fifth_pass_cleanup", "target": "$graphify-root$_scratch_cleanup_manifest_deleted_157", "relation": "contains", "confidence": "EXTRACTED", "source_file": ".scratch/cleanup-manifest.md", "source_location": "L157", "weight": 1.0}, {"source": "$graphify-root$_scratch_cleanup_manifest_conservative_scratch_cleanup", "target": "$graphify-root$_scratch_cleanup_manifest_sixth_pass_strict_cleanup", "relation": "contains", "confidence": "EXTRACTED", "source_file": ".scratch/cleanup-manifest.md", "source_location": "L165", "weight": 1.0}, {"source": "$graphify-root$_scratch_cleanup_manifest_sixth_pass_strict_cleanup", "target": "$graphify-root$_scratch_cleanup_manifest_obsolete_root_reports_and_shared_contract_helpers", "relation": "contains", "confidence": "EXTRACTED", "source_file": ".scratch/cleanup-manifest.md", "source_location": "L177", "weight": 1.0}, {"source": "$graphify-root$_scratch_cleanup_manifest_sixth_pass_strict_cleanup", "target": "$graphify-root$_scratch_cleanup_manifest_retired_template_validation_snapshots", "relation": "contains", "confidence": "EXTRACTED", "source_file": ".scratch/cleanup-manifest.md", "source_location": "L188", "weight": 1.0}, {"source": "$graphify-root$_scratch_cleanup_manifest_sixth_pass_strict_cleanup", "target": "$graphify-root$_scratch_cleanup_manifest_superseded_strict_validators_and_historical_validation_artifacts", "relation": "contains", "confidence": "EXTRACTED", "source_file": ".scratch/cleanup-manifest.md", "source_location": "L204", "weight": 1.0}, {"source": "$graphify-root$_scratch_cleanup_manifest_sixth_pass_strict_cleanup", "target": "$graphify-root$_scratch_cleanup_manifest_superseded_merge_snapshots_reports_and_validators", "relation": "contains", "confidence": "EXTRACTED", "source_file": ".scratch/cleanup-manifest.md", "source_location": "L250", "weight": 1.0}, {"source": "$graphify-root$_scratch_cleanup_manifest_sixth_pass_strict_cleanup", "target": "$graphify-root$_scratch_cleanup_manifest_duplicate_quarantine_image_trees", "relation": "contains", "confidence": "EXTRACTED", "source_file": ".scratch/cleanup-manifest.md", "source_location": "L293", "weight": 1.0}, {"source": "$graphify-root$_scratch_cleanup_manifest_sixth_pass_strict_cleanup", "target": "$graphify-root$_scratch_cleanup_manifest_aggregate_validation_evidence_retained", "relation": "contains", "confidence": "EXTRACTED", "source_file": ".scratch/cleanup-manifest.md", "source_location": "L308", "weight": 1.0}], "input_tokens": 0, "output_tokens": 0}
+{
+	"nodes": [
+		{
+			"id": "$graphify-root$_scratch_cleanup_manifest_md",
+			"label": "cleanup-manifest.md",
+			"file_type": "document",
+			"node_kind": "page",
+			"source_file": ".scratch/cleanup-manifest.md",
+			"source_location": "L1"
+		},
+		{
+			"id": "$graphify-root$_scratch_cleanup_manifest_conservative_scratch_cleanup",
+			"label": "Conservative scratch cleanup",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/cleanup-manifest.md",
+			"source_location": "L1"
+		},
+		{
+			"id": "$graphify-root$_scratch_cleanup_manifest_deleted",
+			"label": "Deleted",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/cleanup-manifest.md",
+			"source_location": "L5"
+		},
+		{
+			"id": "$graphify-root$_scratch_cleanup_manifest_intentionally_preserved",
+			"label": "Intentionally preserved",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/cleanup-manifest.md",
+			"source_location": "L9"
+		},
+		{
+			"id": "$graphify-root$_scratch_cleanup_manifest_watch_image_overlap_check",
+			"label": "Watch image overlap check",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/cleanup-manifest.md",
+			"source_location": "L18"
+		},
+		{
+			"id": "$graphify-root$_scratch_cleanup_manifest_second_pass_deletions",
+			"label": "Second-pass deletions",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/cleanup-manifest.md",
+			"source_location": "L22"
+		},
+		{
+			"id": "$graphify-root$_scratch_cleanup_manifest_historical_worker_logs",
+			"label": "Historical worker logs",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/cleanup-manifest.md",
+			"source_location": "L28"
+		},
+		{
+			"id": "$graphify-root$_scratch_cleanup_manifest_historical_worker_checkpoints",
+			"label": "Historical worker checkpoints",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/cleanup-manifest.md",
+			"source_location": "L49"
+		},
+		{
+			"id": "$graphify-root$_scratch_cleanup_manifest_superseded_one_off_scripts",
+			"label": "Superseded one-off scripts",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/cleanup-manifest.md",
+			"source_location": "L72"
+		},
+		{
+			"id": "$graphify-root$_scratch_cleanup_manifest_superseded_intermediate_audit_error_outputs",
+			"label": "Superseded intermediate audit/error outputs",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/cleanup-manifest.md",
+			"source_location": "L92"
+		},
+		{
+			"id": "$graphify-root$_scratch_cleanup_manifest_third_pass_cleanup",
+			"label": "Third-pass cleanup",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/cleanup-manifest.md",
+			"source_location": "L101"
+		},
+		{
+			"id": "$graphify-root$_scratch_cleanup_manifest_deleted_105",
+			"label": "Deleted",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/cleanup-manifest.md",
+			"source_location": "L105"
+		},
+		{
+			"id": "$graphify-root$_scratch_cleanup_manifest_status_file_audit",
+			"label": "Status-file audit",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/cleanup-manifest.md",
+			"source_location": "L116"
+		},
+		{
+			"id": "$graphify-root$_scratch_cleanup_manifest_protected_paths_verified_unchanged_by_this_pass",
+			"label": "Protected paths verified unchanged by this pass",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/cleanup-manifest.md",
+			"source_location": "L120"
+		},
+		{
+			"id": "$graphify-root$_scratch_cleanup_manifest_fourth_pass_cleanup",
+			"label": "Fourth-pass cleanup",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/cleanup-manifest.md",
+			"source_location": "L129"
+		},
+		{
+			"id": "$graphify-root$_scratch_cleanup_manifest_deleted_140",
+			"label": "Deleted",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/cleanup-manifest.md",
+			"source_location": "L140"
+		},
+		{
+			"id": "$graphify-root$_scratch_cleanup_manifest_explicitly_retained_after_this_inventory",
+			"label": "Explicitly retained after this inventory",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/cleanup-manifest.md",
+			"source_location": "L146"
+		},
+		{
+			"id": "$graphify-root$_scratch_cleanup_manifest_fifth_pass_cleanup",
+			"label": "Fifth-pass cleanup",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/cleanup-manifest.md",
+			"source_location": "L153"
+		},
+		{
+			"id": "$graphify-root$_scratch_cleanup_manifest_deleted_157",
+			"label": "Deleted",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/cleanup-manifest.md",
+			"source_location": "L157"
+		},
+		{
+			"id": "$graphify-root$_scratch_cleanup_manifest_sixth_pass_strict_cleanup",
+			"label": "Sixth-pass strict cleanup",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/cleanup-manifest.md",
+			"source_location": "L165"
+		},
+		{
+			"id": "$graphify-root$_scratch_cleanup_manifest_obsolete_root_reports_and_shared_contract_helpers",
+			"label": "Obsolete root reports and shared-contract helpers",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/cleanup-manifest.md",
+			"source_location": "L177"
+		},
+		{
+			"id": "$graphify-root$_scratch_cleanup_manifest_retired_template_validation_snapshots",
+			"label": "Retired template-validation snapshots",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/cleanup-manifest.md",
+			"source_location": "L188"
+		},
+		{
+			"id": "$graphify-root$_scratch_cleanup_manifest_superseded_strict_validators_and_historical_validation_artifacts",
+			"label": "Superseded strict validators and historical validation artifacts",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/cleanup-manifest.md",
+			"source_location": "L204"
+		},
+		{
+			"id": "$graphify-root$_scratch_cleanup_manifest_superseded_merge_snapshots_reports_and_validators",
+			"label": "Superseded merge snapshots, reports, and validators",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/cleanup-manifest.md",
+			"source_location": "L250"
+		},
+		{
+			"id": "$graphify-root$_scratch_cleanup_manifest_duplicate_quarantine_image_trees",
+			"label": "Duplicate quarantine image trees",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/cleanup-manifest.md",
+			"source_location": "L293"
+		},
+		{
+			"id": "$graphify-root$_scratch_cleanup_manifest_aggregate_validation_evidence_retained",
+			"label": "Aggregate validation evidence retained",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/cleanup-manifest.md",
+			"source_location": "L308"
+		}
+	],
+	"edges": [
+		{
+			"source": "$graphify-root$_scratch_cleanup_manifest_md",
+			"target": "$graphify-root$_scratch_cleanup_manifest_conservative_scratch_cleanup",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/cleanup-manifest.md",
+			"source_location": "L1",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_cleanup_manifest_conservative_scratch_cleanup",
+			"target": "$graphify-root$_scratch_cleanup_manifest_deleted",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/cleanup-manifest.md",
+			"source_location": "L5",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_cleanup_manifest_conservative_scratch_cleanup",
+			"target": "$graphify-root$_scratch_cleanup_manifest_intentionally_preserved",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/cleanup-manifest.md",
+			"source_location": "L9",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_cleanup_manifest_conservative_scratch_cleanup",
+			"target": "$graphify-root$_scratch_cleanup_manifest_watch_image_overlap_check",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/cleanup-manifest.md",
+			"source_location": "L18",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_cleanup_manifest_conservative_scratch_cleanup",
+			"target": "$graphify-root$_scratch_cleanup_manifest_second_pass_deletions",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/cleanup-manifest.md",
+			"source_location": "L22",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_cleanup_manifest_second_pass_deletions",
+			"target": "$graphify-root$_scratch_cleanup_manifest_historical_worker_logs",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/cleanup-manifest.md",
+			"source_location": "L28",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_cleanup_manifest_second_pass_deletions",
+			"target": "$graphify-root$_scratch_cleanup_manifest_historical_worker_checkpoints",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/cleanup-manifest.md",
+			"source_location": "L49",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_cleanup_manifest_second_pass_deletions",
+			"target": "$graphify-root$_scratch_cleanup_manifest_superseded_one_off_scripts",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/cleanup-manifest.md",
+			"source_location": "L72",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_cleanup_manifest_second_pass_deletions",
+			"target": "$graphify-root$_scratch_cleanup_manifest_superseded_intermediate_audit_error_outputs",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/cleanup-manifest.md",
+			"source_location": "L92",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_cleanup_manifest_conservative_scratch_cleanup",
+			"target": "$graphify-root$_scratch_cleanup_manifest_third_pass_cleanup",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/cleanup-manifest.md",
+			"source_location": "L101",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_cleanup_manifest_third_pass_cleanup",
+			"target": "$graphify-root$_scratch_cleanup_manifest_deleted_105",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/cleanup-manifest.md",
+			"source_location": "L105",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_cleanup_manifest_third_pass_cleanup",
+			"target": "$graphify-root$_scratch_cleanup_manifest_status_file_audit",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/cleanup-manifest.md",
+			"source_location": "L116",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_cleanup_manifest_third_pass_cleanup",
+			"target": "$graphify-root$_scratch_cleanup_manifest_protected_paths_verified_unchanged_by_this_pass",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/cleanup-manifest.md",
+			"source_location": "L120",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_cleanup_manifest_conservative_scratch_cleanup",
+			"target": "$graphify-root$_scratch_cleanup_manifest_fourth_pass_cleanup",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/cleanup-manifest.md",
+			"source_location": "L129",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_cleanup_manifest_fourth_pass_cleanup",
+			"target": "$graphify-root$_scratch_cleanup_manifest_deleted_140",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/cleanup-manifest.md",
+			"source_location": "L140",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_cleanup_manifest_fourth_pass_cleanup",
+			"target": "$graphify-root$_scratch_cleanup_manifest_explicitly_retained_after_this_inventory",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/cleanup-manifest.md",
+			"source_location": "L146",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_cleanup_manifest_conservative_scratch_cleanup",
+			"target": "$graphify-root$_scratch_cleanup_manifest_fifth_pass_cleanup",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/cleanup-manifest.md",
+			"source_location": "L153",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_cleanup_manifest_fifth_pass_cleanup",
+			"target": "$graphify-root$_scratch_cleanup_manifest_deleted_157",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/cleanup-manifest.md",
+			"source_location": "L157",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_cleanup_manifest_conservative_scratch_cleanup",
+			"target": "$graphify-root$_scratch_cleanup_manifest_sixth_pass_strict_cleanup",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/cleanup-manifest.md",
+			"source_location": "L165",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_cleanup_manifest_sixth_pass_strict_cleanup",
+			"target": "$graphify-root$_scratch_cleanup_manifest_obsolete_root_reports_and_shared_contract_helpers",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/cleanup-manifest.md",
+			"source_location": "L177",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_cleanup_manifest_sixth_pass_strict_cleanup",
+			"target": "$graphify-root$_scratch_cleanup_manifest_retired_template_validation_snapshots",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/cleanup-manifest.md",
+			"source_location": "L188",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_cleanup_manifest_sixth_pass_strict_cleanup",
+			"target": "$graphify-root$_scratch_cleanup_manifest_superseded_strict_validators_and_historical_validation_artifacts",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/cleanup-manifest.md",
+			"source_location": "L204",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_cleanup_manifest_sixth_pass_strict_cleanup",
+			"target": "$graphify-root$_scratch_cleanup_manifest_superseded_merge_snapshots_reports_and_validators",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/cleanup-manifest.md",
+			"source_location": "L250",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_cleanup_manifest_sixth_pass_strict_cleanup",
+			"target": "$graphify-root$_scratch_cleanup_manifest_duplicate_quarantine_image_trees",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/cleanup-manifest.md",
+			"source_location": "L293",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_cleanup_manifest_sixth_pass_strict_cleanup",
+			"target": "$graphify-root$_scratch_cleanup_manifest_aggregate_validation_evidence_retained",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/cleanup-manifest.md",
+			"source_location": "L308",
+			"weight": 1.0
+		}
+	],
+	"input_tokens": 0,
+	"output_tokens": 0
+}

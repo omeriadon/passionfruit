@@ -21,7 +21,7 @@ import { DocsLayout } from "fumadocs-ui/layouts/docs";
 	tabMode="top"
 >
 	{children}
-</DocsLayout>
+</DocsLayout>;
 ```
 
 The documented `tabs` contract supports an explicit array, `false`, or an

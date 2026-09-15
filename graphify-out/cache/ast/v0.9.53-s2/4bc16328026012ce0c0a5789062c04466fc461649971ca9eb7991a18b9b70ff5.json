@@ -1,1 +1,38 @@
-{"nodes": [{"id": "$graphify-root$_content_device_notes_mac_macbook_pro_16_in_m1_pro_or_m1_max_2021_md", "label": "macbook-pro-16-in-m1-pro-or-m1-max-2021.md", "file_type": "document", "node_kind": "page", "source_file": "content/device-notes/mac/macbook-pro-16-in-m1-pro-or-m1-max-2021.md", "source_location": "L1", "frontmatter": {"goodToBuy": "unknown", "editorial": "No editorial note has been authored yet.", "tags": "[]"}}, {"id": "$graphify-root$_content_device_notes_mac_macbook_pro_16_in_m1_pro_or_m1_max_2021_macbook_pro_16_in_m1_pro_or_m1_max_2021", "label": "MacBook Pro 16-in. (M1 Pro or M1 Max, 2021)", "file_type": "document", "node_kind": "heading", "source_file": "content/device-notes/mac/macbook-pro-16-in-m1-pro-or-m1-max-2021.md", "source_location": "L7"}], "edges": [{"source": "$graphify-root$_content_device_notes_mac_macbook_pro_16_in_m1_pro_or_m1_max_2021_md", "target": "$graphify-root$_content_device_notes_mac_macbook_pro_16_in_m1_pro_or_m1_max_2021_macbook_pro_16_in_m1_pro_or_m1_max_2021", "relation": "contains", "confidence": "EXTRACTED", "source_file": "content/device-notes/mac/macbook-pro-16-in-m1-pro-or-m1-max-2021.md", "source_location": "L7", "weight": 1.0}], "input_tokens": 0, "output_tokens": 0}
+{
+	"nodes": [
+		{
+			"id": "$graphify-root$_content_device_notes_mac_macbook_pro_16_in_m1_pro_or_m1_max_2021_md",
+			"label": "macbook-pro-16-in-m1-pro-or-m1-max-2021.md",
+			"file_type": "document",
+			"node_kind": "page",
+			"source_file": "content/device-notes/mac/macbook-pro-16-in-m1-pro-or-m1-max-2021.md",
+			"source_location": "L1",
+			"frontmatter": {
+				"goodToBuy": "unknown",
+				"editorial": "No editorial note has been authored yet.",
+				"tags": "[]"
+			}
+		},
+		{
+			"id": "$graphify-root$_content_device_notes_mac_macbook_pro_16_in_m1_pro_or_m1_max_2021_macbook_pro_16_in_m1_pro_or_m1_max_2021",
+			"label": "MacBook Pro 16-in. (M1 Pro or M1 Max, 2021)",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": "content/device-notes/mac/macbook-pro-16-in-m1-pro-or-m1-max-2021.md",
+			"source_location": "L7"
+		}
+	],
+	"edges": [
+		{
+			"source": "$graphify-root$_content_device_notes_mac_macbook_pro_16_in_m1_pro_or_m1_max_2021_md",
+			"target": "$graphify-root$_content_device_notes_mac_macbook_pro_16_in_m1_pro_or_m1_max_2021_macbook_pro_16_in_m1_pro_or_m1_max_2021",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": "content/device-notes/mac/macbook-pro-16-in-m1-pro-or-m1-max-2021.md",
+			"source_location": "L7",
+			"weight": 1.0
+		}
+	],
+	"input_tokens": 0,
+	"output_tokens": 0
+}

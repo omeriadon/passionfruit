@@ -1,1 +1,19 @@
-{"nodes": [{"id": "$graphify-root$_content_docs_vision_index_mdx", "label": "index.mdx", "file_type": "document", "node_kind": "page", "source_file": "content/docs/vision/index.mdx", "source_location": "L1", "frontmatter": {"title": "Vision", "description": "Spatial computing hardware and specifications."}}], "edges": [], "input_tokens": 0, "output_tokens": 0}
+{
+	"nodes": [
+		{
+			"id": "$graphify-root$_content_docs_vision_index_mdx",
+			"label": "index.mdx",
+			"file_type": "document",
+			"node_kind": "page",
+			"source_file": "content/docs/vision/index.mdx",
+			"source_location": "L1",
+			"frontmatter": {
+				"title": "Vision",
+				"description": "Spatial computing hardware and specifications."
+			}
+		}
+	],
+	"edges": [],
+	"input_tokens": 0,
+	"output_tokens": 0
+}

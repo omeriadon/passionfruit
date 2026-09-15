@@ -43,7 +43,11 @@
 			"additionalProperties": false,
 			"required": ["id", "displayName"],
 			"properties": {
-				"id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$", "minLength": 1 },
+				"id": {
+					"type": "string",
+					"pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+					"minLength": 1
+				},
 				"displayName": { "type": "string", "minLength": 1 },
 				"family": { "type": "string", "minLength": 1 },
 				"sourceNotes": { "type": "string", "minLength": 1 }
@@ -175,7 +179,11 @@
 					"items": { "type": "string", "minLength": 1 }
 				},
 				"physical": { "$ref": "#/$defs/physical" },
-				"images": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/image" } },
+				"images": {
+					"type": "array",
+					"minItems": 1,
+					"items": { "$ref": "#/$defs/image" }
+				},
 				"audioTechnologies": {
 					"type": "array",
 					"minItems": 1,
@@ -186,7 +194,11 @@
 					"minItems": 1,
 					"items": { "$ref": "#/$defs/namedFeature" }
 				},
-				"chips": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/chip" } },
+				"chips": {
+					"type": "array",
+					"minItems": 1,
+					"items": { "$ref": "#/$defs/chip" }
+				},
 				"microphoneCount": { "type": "integer", "minimum": 0 },
 				"controls": {
 					"type": "array",
@@ -207,7 +219,11 @@
 					"minItems": 1,
 					"items": { "$ref": "#/$defs/batteryClaim" }
 				},
-				"ipRating": { "type": "string", "minLength": 1, "pattern": "IP[0-9A-Z]+|WR[0-9]+" },
+				"ipRating": {
+					"type": "string",
+					"minLength": 1,
+					"pattern": "IP[0-9A-Z]+|WR[0-9]+"
+				},
 				"connectivity": {
 					"type": "array",
 					"minItems": 1,

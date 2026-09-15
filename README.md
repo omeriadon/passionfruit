@@ -10,15 +10,16 @@ Passionfruit uses Fuma Nama's [Fumadocs](https://www.fumadocs.dev/docs) framewor
 
 Passionfruit also ~~has~~ plans to implement an AI powered chatbot named **Clarus** who can help you navigate the docs to better make purchasing decisions or understanding the specifications behind each and every Apple product.
 
-The model will *allegedly* be powered by GLM 5.2<sup>2</sup> and will have full RAG access to our documentation service, and *potentially* also internet access to make comparisons to Windows and Linux compatible hardware counterparts.
+The model will _allegedly_ be powered by GLM 5.2<sup>2</sup> and will have full RAG access to our documentation service, and _potentially_ also internet access to make comparisons to Windows and Linux compatible hardware counterparts.
 
 ## Helping Us Out
 
-We aren't looking for donations of any sorts (at least I'm not, not sure about Adon though), but if you notice a **missing device** or an **incorrect specification**, we'd love for you to let us know. 
+We aren't looking for donations of any sorts (at least I'm not, not sure about Adon though), but if you notice a **missing device** or an **incorrect specification**, we'd love for you to let us know.
 
-Please check our ~~[Contributing Guidelines]()~~ (we don't have one yet, but will add one soon 😉) to help us keep Passionfruit accurate and up-to-date.
+Please check our ~~[Contributing Guidelines](<>)~~ (we don't have one yet, but will add one soon 😉) to help us keep Passionfruit accurate and up-to-date.
 
 ### Built By
+
 Created with ❤️ by Adon and Dylan for [third.space](https://thirdspace.hackclub.com/) by Hack Club.
 
 ### Disclaimer/Asterisks

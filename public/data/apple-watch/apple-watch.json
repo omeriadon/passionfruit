@@ -150,18 +150,11 @@
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": true,
-					"systems": [
-						"GPS",
-						"Galileo",
-						"QZSS",
-						"BeiDou"
-					]
+					"systems": ["GPS", "Galileo", "QZSS", "BeiDou"]
 				}
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode"
 			},
 			"physical": {
@@ -177,20 +170,11 @@
 			"software": {
 				"operatingSystem": "watchOS",
 				"operatingSystemVersionAtLaunch": "27",
-				"compatibleOperatingSystems": [
-					"iOS 27"
-				],
-				"builtInApps": [
-					"Readiness",
-					"Vitals",
-					"Heart Rate",
-					"ECG"
-				]
+				"compatibleOperatingSystems": ["iOS 27"],
+				"builtInApps": ["Readiness", "Vitals", "Heart Rate", "ECG"]
 			},
 			"watchDetails": {
-				"caseSizes": [
-					"49mm"
-				],
+				"caseSizes": ["49mm"],
 				"alwaysOn": true,
 				"wideAngleDisplay": true,
 				"hasSpeaker": true,
@@ -594,9 +578,7 @@
 				}
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode"
 			},
 			"physical": {
@@ -613,17 +595,10 @@
 				"operatingSystem": "watchOS",
 				"operatingSystemVersionAtLaunch": "27",
 				"compatibleOperatingSystems": [],
-				"builtInApps": [
-					"Readiness",
-					"Vitals",
-					"Heart Rate"
-				]
+				"builtInApps": ["Readiness", "Vitals", "Heart Rate"]
 			},
 			"watchDetails": {
-				"caseSizes": [
-					"42mm",
-					"46mm"
-				],
+				"caseSizes": ["42mm", "46mm"],
 				"alwaysOn": true,
 				"wideAngleDisplay": true,
 				"hasSpeaker": true,
@@ -980,9 +955,7 @@
 					"portId": "wireless",
 					"wiredFastCharge": true,
 					"wirelessCharging": true,
-					"wirelessStandards": [
-						"inductive"
-					],
+					"wirelessStandards": ["inductive"],
 					"fastCharge": {
 						"minutes": 30,
 						"percent": 80
@@ -993,18 +966,13 @@
 			"connectivity": {
 				"ports": [],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 4"
-					]
+					"standards": ["Wi-Fi 4"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.3"
 				},
 				"cellular": {
-					"technologies": [
-						"LTE",
-						"5G sub-6"
-					]
+					"technologies": ["LTE", "5G sub-6"]
 				},
 				"uwb": {
 					"chip": "Second-generation Ultra Wideband chip"
@@ -1012,19 +980,11 @@
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": false,
-					"systems": [
-						"GPS",
-						"GLONASS",
-						"Galileo",
-						"QZSS",
-						"BeiDou"
-					]
+					"systems": ["GPS", "GLONASS", "Galileo", "QZSS", "BeiDou"]
 				}
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode"
 			},
 			"physical": {
@@ -1076,10 +1036,7 @@
 				"sourceNotes": "Complete Summary retained verbatim as source facts."
 			},
 			"watchDetails": {
-				"caseSizes": [
-					"46 mm",
-					"42 mm"
-				],
+				"caseSizes": ["46 mm", "42 mm"],
 				"alwaysOn": true,
 				"wideAngleDisplay": true,
 				"u1UwbChip": "Second-generation Ultra Wideband chip",
@@ -1273,9 +1230,7 @@
 					"portId": "wireless",
 					"wiredFastCharge": true,
 					"wirelessCharging": true,
-					"wirelessStandards": [
-						"inductive"
-					],
+					"wirelessStandards": ["inductive"],
 					"fastCharge": {
 						"minutes": 45,
 						"percent": 80
@@ -1286,35 +1241,22 @@
 			"connectivity": {
 				"ports": [],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 4"
-					]
+					"standards": ["Wi-Fi 4"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.3"
 				},
 				"cellular": {
-					"technologies": [
-						"LTE",
-						"5G sub-6"
-					]
+					"technologies": ["LTE", "5G sub-6"]
 				},
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": false,
-					"systems": [
-						"GPS",
-						"GLONASS",
-						"Galileo",
-						"QZSS",
-						"BeiDou"
-					]
+					"systems": ["GPS", "GLONASS", "Galileo", "QZSS", "BeiDou"]
 				}
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode"
 			},
 			"physical": {
@@ -1361,10 +1303,7 @@
 				"sourceNotes": "Complete Summary retained verbatim as source facts."
 			},
 			"watchDetails": {
-				"caseSizes": [
-					"44 mm",
-					"40 mm"
-				],
+				"caseSizes": ["44 mm", "40 mm"],
 				"alwaysOn": true,
 				"wideAngleDisplay": false,
 				"otherWirelessChip": "W3 Apple wireless chip",
@@ -1549,9 +1488,7 @@
 					"portId": "wireless",
 					"wiredFastCharge": true,
 					"wirelessCharging": true,
-					"wirelessStandards": [
-						"inductive"
-					],
+					"wirelessStandards": ["inductive"],
 					"fastCharge": {
 						"minutes": 45,
 						"percent": 80
@@ -1562,18 +1499,13 @@
 			"connectivity": {
 				"ports": [],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 4"
-					]
+					"standards": ["Wi-Fi 4"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.3"
 				},
 				"cellular": {
-					"technologies": [
-						"LTE",
-						"5G sub-6"
-					]
+					"technologies": ["LTE", "5G sub-6"]
 				},
 				"uwb": {
 					"chip": "Second-generation Ultra Wideband chip"
@@ -1581,19 +1513,11 @@
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": true,
-					"systems": [
-						"GPS",
-						"GLONASS",
-						"Galileo",
-						"QZSS",
-						"BeiDou"
-					]
+					"systems": ["GPS", "GLONASS", "Galileo", "QZSS", "BeiDou"]
 				}
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode"
 			},
 			"physical": {
@@ -1640,9 +1564,7 @@
 				"sourceNotes": "Complete Summary retained verbatim as source facts."
 			},
 			"watchDetails": {
-				"caseSizes": [
-					"49 mm"
-				],
+				"caseSizes": ["49 mm"],
 				"alwaysOn": true,
 				"wideAngleDisplay": true,
 				"u1UwbChip": "Second-generation Ultra Wideband chip",
@@ -1990,9 +1912,7 @@
 					"portId": "wireless",
 					"wiredFastCharge": true,
 					"wirelessCharging": true,
-					"wirelessStandards": [
-						"inductive"
-					],
+					"wirelessStandards": ["inductive"],
 					"fastCharge": {
 						"minutes": 30,
 						"percent": 80
@@ -2003,17 +1923,13 @@
 			"connectivity": {
 				"ports": [],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 4"
-					]
+					"standards": ["Wi-Fi 4"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.3"
 				},
 				"cellular": {
-					"technologies": [
-						"LTE"
-					]
+					"technologies": ["LTE"]
 				},
 				"uwb": {
 					"chip": "Second-generation Ultra Wideband chip"
@@ -2021,19 +1937,11 @@
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": false,
-					"systems": [
-						"GPS",
-						"GLONASS",
-						"Galileo",
-						"QZSS",
-						"BeiDou"
-					]
+					"systems": ["GPS", "GLONASS", "Galileo", "QZSS", "BeiDou"]
 				}
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode"
 			},
 			"physical": {
@@ -2085,10 +1993,7 @@
 				"sourceNotes": "Complete Summary retained verbatim as source facts."
 			},
 			"watchDetails": {
-				"caseSizes": [
-					"46 mm",
-					"42 mm"
-				],
+				"caseSizes": ["46 mm", "42 mm"],
 				"alwaysOn": true,
 				"wideAngleDisplay": true,
 				"u1UwbChip": "Second-generation Ultra Wideband chip",
@@ -2313,43 +2218,29 @@
 					"portId": "wireless",
 					"wiredFastCharge": false,
 					"wirelessCharging": true,
-					"wirelessStandards": [
-						"inductive"
-					]
+					"wirelessStandards": ["inductive"]
 				},
 				"powerSupply": {}
 			},
 			"connectivity": {
 				"ports": [],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 4"
-					]
+					"standards": ["Wi-Fi 4"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.3"
 				},
 				"cellular": {
-					"technologies": [
-						"LTE"
-					]
+					"technologies": ["LTE"]
 				},
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": false,
-					"systems": [
-						"GPS",
-						"GLONASS",
-						"Galileo",
-						"QZSS",
-						"BeiDou"
-					]
+					"systems": ["GPS", "GLONASS", "Galileo", "QZSS", "BeiDou"]
 				}
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode"
 			},
 			"physical": {
@@ -2395,10 +2286,7 @@
 				"sourceNotes": "Complete Summary retained verbatim as source facts."
 			},
 			"watchDetails": {
-				"caseSizes": [
-					"44 mm",
-					"40 mm"
-				],
+				"caseSizes": ["44 mm", "40 mm"],
 				"alwaysOn": false,
 				"wideAngleDisplay": false,
 				"otherWirelessChip": "W3 Apple wireless chip",
@@ -2554,26 +2442,20 @@
 					"portId": "wireless",
 					"wiredFastCharge": true,
 					"wirelessCharging": true,
-					"wirelessStandards": [
-						"inductive"
-					]
+					"wirelessStandards": ["inductive"]
 				},
 				"powerSupply": {}
 			},
 			"connectivity": {
 				"ports": [],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 4"
-					]
+					"standards": ["Wi-Fi 4"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.3"
 				},
 				"cellular": {
-					"technologies": [
-						"LTE"
-					]
+					"technologies": ["LTE"]
 				},
 				"uwb": {
 					"chip": "Second-generation Ultra Wideband chip"
@@ -2581,19 +2463,11 @@
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": true,
-					"systems": [
-						"GPS",
-						"GLONASS",
-						"Galileo",
-						"QZSS",
-						"BeiDou"
-					]
+					"systems": ["GPS", "GLONASS", "Galileo", "QZSS", "BeiDou"]
 				}
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode"
 			},
 			"physical": {
@@ -2640,9 +2514,7 @@
 				"sourceNotes": "Complete Summary retained verbatim as source facts."
 			},
 			"watchDetails": {
-				"caseSizes": [
-					"49 mm"
-				],
+				"caseSizes": ["49 mm"],
 				"alwaysOn": true,
 				"wideAngleDisplay": false,
 				"u1UwbChip": "Second-generation Ultra Wideband chip",
@@ -2861,9 +2733,7 @@
 					"portId": "wireless",
 					"wiredFastCharge": true,
 					"wirelessCharging": true,
-					"wirelessStandards": [
-						"inductive"
-					],
+					"wirelessStandards": ["inductive"],
 					"fastCharge": {
 						"minutes": 45,
 						"percent": 80
@@ -2874,17 +2744,13 @@
 			"connectivity": {
 				"ports": [],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 4"
-					]
+					"standards": ["Wi-Fi 4"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.3"
 				},
 				"cellular": {
-					"technologies": [
-						"LTE"
-					]
+					"technologies": ["LTE"]
 				},
 				"uwb": {
 					"chip": "Second-generation Ultra Wideband chip"
@@ -2892,19 +2758,11 @@
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": false,
-					"systems": [
-						"GPS",
-						"GLONASS",
-						"Galileo",
-						"QZSS",
-						"BeiDou"
-					]
+					"systems": ["GPS", "GLONASS", "Galileo", "QZSS", "BeiDou"]
 				}
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode"
 			},
 			"physical": {
@@ -2956,10 +2814,7 @@
 				"sourceNotes": "Complete Summary retained verbatim as source facts."
 			},
 			"watchDetails": {
-				"caseSizes": [
-					"45 mm",
-					"41 mm"
-				],
+				"caseSizes": ["45 mm", "41 mm"],
 				"alwaysOn": true,
 				"wideAngleDisplay": false,
 				"u1UwbChip": "Second-generation Ultra Wideband chip",
@@ -3156,43 +3011,29 @@
 					"portId": "wireless",
 					"wiredFastCharge": false,
 					"wirelessCharging": true,
-					"wirelessStandards": [
-						"inductive"
-					]
+					"wirelessStandards": ["inductive"]
 				},
 				"powerSupply": {}
 			},
 			"connectivity": {
 				"ports": [],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 4"
-					]
+					"standards": ["Wi-Fi 4"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.3"
 				},
 				"cellular": {
-					"technologies": [
-						"LTE"
-					]
+					"technologies": ["LTE"]
 				},
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": false,
-					"systems": [
-						"GPS",
-						"GLONASS",
-						"Galileo",
-						"QZSS",
-						"BeiDou"
-					]
+					"systems": ["GPS", "GLONASS", "Galileo", "QZSS", "BeiDou"]
 				}
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode"
 			},
 			"physical": {
@@ -3239,10 +3080,7 @@
 				"sourceNotes": "Complete Summary retained verbatim as source facts."
 			},
 			"watchDetails": {
-				"caseSizes": [
-					"44 mm",
-					"40 mm"
-				],
+				"caseSizes": ["44 mm", "40 mm"],
 				"alwaysOn": false,
 				"wideAngleDisplay": false,
 				"otherWirelessChip": "W3 Apple wireless chip",
@@ -3359,26 +3197,20 @@
 					"portId": "wireless",
 					"wiredFastCharge": true,
 					"wirelessCharging": true,
-					"wirelessStandards": [
-						"inductive"
-					]
+					"wirelessStandards": ["inductive"]
 				},
 				"powerSupply": {}
 			},
 			"connectivity": {
 				"ports": [],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 4"
-					]
+					"standards": ["Wi-Fi 4"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.3"
 				},
 				"cellular": {
-					"technologies": [
-						"LTE"
-					]
+					"technologies": ["LTE"]
 				},
 				"uwb": {
 					"chip": "First-generation Ultra Wideband chip"
@@ -3386,19 +3218,11 @@
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": true,
-					"systems": [
-						"GPS",
-						"GLONASS",
-						"Galileo",
-						"QZSS",
-						"BeiDou"
-					]
+					"systems": ["GPS", "GLONASS", "Galileo", "QZSS", "BeiDou"]
 				}
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode"
 			},
 			"physical": {
@@ -3440,9 +3264,7 @@
 				"sourceNotes": "Complete Summary retained verbatim as source facts."
 			},
 			"watchDetails": {
-				"caseSizes": [
-					"49 mm"
-				],
+				"caseSizes": ["49 mm"],
 				"alwaysOn": true,
 				"wideAngleDisplay": false,
 				"u1UwbChip": "First-generation Ultra Wideband chip",
@@ -3721,9 +3543,7 @@
 					"portId": "wireless",
 					"wiredFastCharge": true,
 					"wirelessCharging": true,
-					"wirelessStandards": [
-						"inductive"
-					],
+					"wirelessStandards": ["inductive"],
 					"fastCharge": {
 						"minutes": 45,
 						"percent": 80
@@ -3734,17 +3554,13 @@
 			"connectivity": {
 				"ports": [],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 4"
-					]
+					"standards": ["Wi-Fi 4"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.3"
 				},
 				"cellular": {
-					"technologies": [
-						"LTE"
-					]
+					"technologies": ["LTE"]
 				},
 				"uwb": {
 					"chip": "First-generation Ultra Wideband chip"
@@ -3752,19 +3568,11 @@
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": false,
-					"systems": [
-						"GPS",
-						"GLONASS",
-						"Galileo",
-						"QZSS",
-						"BeiDou"
-					]
+					"systems": ["GPS", "GLONASS", "Galileo", "QZSS", "BeiDou"]
 				}
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode"
 			},
 			"physical": {
@@ -3816,10 +3624,7 @@
 				"sourceNotes": "Complete Summary retained verbatim as source facts."
 			},
 			"watchDetails": {
-				"caseSizes": [
-					"45 mm",
-					"41 mm"
-				],
+				"caseSizes": ["45 mm", "41 mm"],
 				"alwaysOn": true,
 				"wideAngleDisplay": false,
 				"u1UwbChip": "First-generation Ultra Wideband chip",
@@ -4093,9 +3898,7 @@
 					"portId": "wireless",
 					"wiredFastCharge": true,
 					"wirelessCharging": true,
-					"wirelessStandards": [
-						"inductive"
-					],
+					"wirelessStandards": ["inductive"],
 					"fastCharge": {
 						"minutes": 45,
 						"percent": 80
@@ -4106,17 +3909,13 @@
 			"connectivity": {
 				"ports": [],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 4"
-					]
+					"standards": ["Wi-Fi 4"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.3"
 				},
 				"cellular": {
-					"technologies": [
-						"LTE"
-					]
+					"technologies": ["LTE"]
 				},
 				"uwb": {
 					"chip": "U1 chip (Ultra Wideband)"
@@ -4124,19 +3923,11 @@
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": false,
-					"systems": [
-						"GPS",
-						"GLONASS",
-						"Galileo",
-						"QZSS",
-						"BeiDou"
-					]
+					"systems": ["GPS", "GLONASS", "Galileo", "QZSS", "BeiDou"]
 				}
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode"
 			},
 			"physical": {
@@ -4193,10 +3984,7 @@
 				"sourceNotes": "Complete Summary retained verbatim as source facts."
 			},
 			"watchDetails": {
-				"caseSizes": [
-					"45 mm",
-					"41 mm"
-				],
+				"caseSizes": ["45 mm", "41 mm"],
 				"alwaysOn": true,
 				"wideAngleDisplay": false,
 				"u1UwbChip": "U1 chip (Ultra Wideband)",
@@ -4470,26 +4258,20 @@
 					"portId": "wireless",
 					"wiredFastCharge": false,
 					"wirelessCharging": true,
-					"wirelessStandards": [
-						"inductive"
-					]
+					"wirelessStandards": ["inductive"]
 				},
 				"powerSupply": {}
 			},
 			"connectivity": {
 				"ports": [],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 4"
-					]
+					"standards": ["Wi-Fi 4"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.3"
 				},
 				"cellular": {
-					"technologies": [
-						"LTE"
-					]
+					"technologies": ["LTE"]
 				},
 				"uwb": {
 					"chip": "U1 chip (Ultra Wideband)"
@@ -4497,19 +4279,11 @@
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": false,
-					"systems": [
-						"GPS",
-						"GLONASS",
-						"Galileo",
-						"QZSS",
-						"BeiDou"
-					]
+					"systems": ["GPS", "GLONASS", "Galileo", "QZSS", "BeiDou"]
 				}
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode"
 			},
 			"physical": {
@@ -4561,10 +4335,7 @@
 				"sourceNotes": "Complete Summary retained verbatim as source facts."
 			},
 			"watchDetails": {
-				"caseSizes": [
-					"44 mm",
-					"40 mm"
-				],
+				"caseSizes": ["44 mm", "40 mm"],
 				"alwaysOn": true,
 				"wideAngleDisplay": false,
 				"u1UwbChip": "U1 chip (Ultra Wideband)",
@@ -4743,15 +4514,11 @@
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": false,
-					"systems": [
-						"GPS"
-					]
+					"systems": ["GPS"]
 				}
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode"
 			},
 			"physical": {
@@ -4795,10 +4562,7 @@
 				"builtInApps": []
 			},
 			"watchDetails": {
-				"caseSizes": [
-					"42-mm",
-					"38-mm"
-				],
+				"caseSizes": ["42-mm", "38-mm"],
 				"alwaysOn": false,
 				"wideAngleDisplay": false,
 				"hasSpeaker": false,
@@ -4975,15 +4739,11 @@
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": false,
-					"systems": [
-						"GPS"
-					]
+					"systems": ["GPS"]
 				}
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode"
 			},
 			"physical": {
@@ -5039,10 +4799,7 @@
 				"builtInApps": []
 			},
 			"watchDetails": {
-				"caseSizes": [
-					"42-mm",
-					"38-mm"
-				],
+				"caseSizes": ["42-mm", "38-mm"],
 				"alwaysOn": false,
 				"wideAngleDisplay": false,
 				"hasSpeaker": false,
@@ -5195,15 +4952,11 @@
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": false,
-					"systems": [
-						"GPS"
-					]
+					"systems": ["GPS"]
 				}
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode"
 			},
 			"physical": {
@@ -5264,10 +5017,7 @@
 				"builtInApps": []
 			},
 			"watchDetails": {
-				"caseSizes": [
-					"42-mm",
-					"38-mm"
-				],
+				"caseSizes": ["42-mm", "38-mm"],
 				"alwaysOn": false,
 				"wideAngleDisplay": false,
 				"hasSpeaker": false,
@@ -5420,15 +5170,11 @@
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": false,
-					"systems": [
-						"GPS"
-					]
+					"systems": ["GPS"]
 				}
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode"
 			},
 			"physical": {
@@ -5479,10 +5225,7 @@
 				"builtInApps": []
 			},
 			"watchDetails": {
-				"caseSizes": [
-					"44-mm",
-					"40-mm"
-				],
+				"caseSizes": ["44-mm", "40-mm"],
 				"alwaysOn": false,
 				"wideAngleDisplay": false,
 				"hasSpeaker": false,
@@ -5659,15 +5402,11 @@
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": false,
-					"systems": [
-						"GPS"
-					]
+					"systems": ["GPS"]
 				}
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode"
 			},
 			"physical": {
@@ -5728,10 +5467,7 @@
 				"builtInApps": []
 			},
 			"watchDetails": {
-				"caseSizes": [
-					"44-mm",
-					"40-mm"
-				],
+				"caseSizes": ["44-mm", "40-mm"],
 				"alwaysOn": true,
 				"wideAngleDisplay": false,
 				"hasSpeaker": false,

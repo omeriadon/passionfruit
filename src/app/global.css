@@ -171,13 +171,14 @@ select {
 
 #nd-sidebar.nd-sidebar-with-device-search
 	> #nd-sidebar-device-search
-	[data-sidebar-device-type] {
+	[data-sidebar-device-type][data-selected="true"] {
 	background-color: color-mix(
 		in srgb,
-		var(--color-fd-popover) 8%,
+		var(--color-fd-foreground) 12%,
 		transparent
 	) !important;
-	border: 1px solid color-mix(in srgb, currentColor 32%, transparent);
+	border: 1px solid
+		color-mix(in srgb, var(--color-fd-foreground) 48%, transparent);
 }
 
 #nd-sidebar.nd-sidebar-with-device-search > button > svg:first-child {

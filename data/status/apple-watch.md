@@ -34,5 +34,5 @@ All four valid inputs expose a 17-device catalogue. The complete 17-device catal
 | Apple Watch Ultra     | PRESENT | `watch.html`, `watch2.html`, `watch3.html`, `watch4.html`                                    |
 | Apple Watch Ultra 2   | PRESENT | `watch.html`, `watch2.html`, `watch3.html`, `watch4.html`                                    |
 | Apple Watch Ultra 3   | PRESENT | `watch.html`, `watch2.html`, `watch3.html`, `watch4.html`                                    |
-| Apple Watch Series 12 | PRESENT | `watch-series-12.html`, `watch-compare-2026.html`, `watch-series-12-newsroom.html`          |
-| Apple Watch Ultra 4   | PRESENT | `watch-ultra-4.html`, `watch-compare-2026.html`, `watch-ultra-4-newsroom.html`              |
+| Apple Watch Series 12 | PRESENT | `watch-series-12.html`, `watch-compare-2026.html`, `watch-series-12-newsroom.html`           |
+| Apple Watch Ultra 4   | PRESENT | `watch-ultra-4.html`, `watch-compare-2026.html`, `watch-ultra-4-newsroom.html`               |

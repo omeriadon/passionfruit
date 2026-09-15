@@ -1,6 +1,4 @@
-import {
-	type RootProviderProps,
-} from "fumadocs-ui/provider/next";
+import { type RootProviderProps } from "fumadocs-ui/provider/next";
 import { SearchRootProvider } from "@/components/SearchRootProvider";
 import "./global.css";
 import { AuthProvider } from "@/lib/auth/AuthProvider";

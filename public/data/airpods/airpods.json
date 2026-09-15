@@ -4,10 +4,7 @@
 			"id": "airpods-5",
 			"name": "AirPods 5",
 			"formFactor": "in-ear",
-			"cases": [
-				"Charging Case (USB-C)",
-				"Wireless Charging Case (USB-C)"
-			],
+			"cases": ["Charging Case (USB-C)", "Wireless Charging Case (USB-C)"],
 			"physical": {
 				"earpieceWeight": {
 					"value": 4.3,
@@ -174,9 +171,7 @@
 			"id": "airpods-pro-3",
 			"name": "AirPods Pro 3",
 			"formFactor": "in-ear",
-			"cases": [
-				"MagSafe Charging Case (USB-C)"
-			],
+			"cases": ["MagSafe Charging Case (USB-C)"],
 			"physical": {
 				"earpieceWeight": {
 					"value": 5.55,
@@ -409,9 +404,7 @@
 					"sourceNotes": "Bluetooth\u00ae 5.3"
 				}
 			],
-			"inTheBox": [
-				"AirPods Pro 3"
-			],
+			"inTheBox": ["AirPods Pro 3"],
 			"priceAud": 429,
 			"port": "USB-C",
 			"ipRating": "Dust, sweat and water resistant (IP57)",
@@ -421,9 +414,7 @@
 			"id": "airpods-4-active-noise-cancellation",
 			"name": "AirPods 4 with Active Noise Cancellation",
 			"formFactor": "in-ear",
-			"cases": [
-				"MagSafe Charging Case (USB-C)"
-			],
+			"cases": ["MagSafe Charging Case (USB-C)"],
 			"physical": {
 				"earpieceWeight": {
 					"value": 4.3,
@@ -629,9 +620,7 @@
 					"sourceNotes": "Bluetooth\u00ae 5.3"
 				}
 			],
-			"inTheBox": [
-				"AirPods 4 with Active Noise Cancellation"
-			],
+			"inTheBox": ["AirPods 4 with Active Noise Cancellation"],
 			"priceAud": 299,
 			"port": "USB-C",
 			"ipRating": "Dust, sweat and water resistant (IP54)",
@@ -641,9 +630,7 @@
 			"id": "airpods-max-2",
 			"name": "AirPods Max 2",
 			"formFactor": "over-ear",
-			"cases": [
-				"Smart Case"
-			],
+			"cases": ["Smart Case"],
 			"physical": {
 				"earpieceWeight": {
 					"value": 386.2,
@@ -892,9 +879,7 @@
 					"sourceNotes": "Bluetooth\u00ae 5.3"
 				}
 			],
-			"inTheBox": [
-				"AirPods Max 2"
-			],
+			"inTheBox": ["AirPods Max 2"],
 			"priceAud": 999,
 			"port": "USB-C",
 			"sourceNotes": "Original colour entries were removed from the AirPods shape; source colours: Midnight, Starlight, Blue, Purple, Orange.\n\nOriginal microphone descriptions, retained because the independent schema stores the count only: Nine microphones total:; Eight microphones for Active Noise Cancellation; Three microphones for voice pick-up (two shared with Active Noise Cancellation and one additional microphone)\n\nOriginal summary facts without a dedicated field, retained verbatim: - H2 chip\n- Up to 1.5x more Active Noise Cancellation than original AirPods Max3\n- Adaptive Audio4 and Transparency mode5\n- Conversation Awareness4\n- Personalised Spatial Audio with dynamic head tracking6\n- Lossless Audio and ultra-low-latency audio via USB-C7\n- Hearing Test9and Hearing Aid features9, and Loud Sound Reduction\n- Live Translation10\n- Digital Crown\n- Force sensor\n- Single charge: Up to 20 hours of listening time on one charge with Active Noise Cancellation11\n- 5 hrs\n- Charging: More than 24 hours of listening time with charging case11\n- Smart Case\n- Sweat and Water resistance: Sweat and water resistant17 ipRating omitted: Apple states only \u201cSweat and water resistant\u201d with no IP/WR code for AirPods Max, and the schema requires an embedded IP/WR code; same treatment as AirPods Max (gen 1), which carries no ipRating key."
@@ -903,9 +888,7 @@
 			"id": "airpods-pro-2",
 			"name": "AirPods Pro 2",
 			"formFactor": "in-ear",
-			"cases": [
-				"MagSafe Charging Case (USB-C)"
-			],
+			"cases": ["MagSafe Charging Case (USB-C)"],
 			"physical": {
 				"earpieceWeight": {
 					"value": 5.3,
@@ -1132,9 +1115,7 @@
 			"id": "airpods-4",
 			"name": "AirPods 4",
 			"formFactor": "in-ear",
-			"cases": [
-				"Charging Case (USB-C)"
-			],
+			"cases": ["Charging Case (USB-C)"],
 			"physical": {
 				"earpieceWeight": {
 					"value": 4.3,
@@ -1322,9 +1303,7 @@
 			"id": "airpods-max",
 			"name": "AirPods Max",
 			"formFactor": "over-ear",
-			"cases": [
-				"Smart Case"
-			],
+			"cases": ["Smart Case"],
 			"physical": {
 				"earpieceWeight": {
 					"value": 386.2,
@@ -1547,9 +1526,7 @@
 			"id": "airpods-2nd-generation",
 			"name": "AirPods (2nd generation)",
 			"formFactor": "in-ear",
-			"cases": [
-				"Lightning Charging Case"
-			],
+			"cases": ["Lightning Charging Case"],
 			"physical": {
 				"earpieceWeight": {
 					"value": 4,
@@ -1656,9 +1633,7 @@
 			"id": "airpods-3rd-generation-lightning",
 			"name": "AirPods (3rd generation) with Lightning Charging Case",
 			"formFactor": "in-ear",
-			"cases": [
-				"Lightning Charging Case"
-			],
+			"cases": ["Lightning Charging Case"],
 			"physical": {
 				"earpieceWeight": {
 					"value": 4.28,
@@ -1802,9 +1777,7 @@
 			"id": "airpods-3rd-generation-magsafe",
 			"name": "AirPods (3rd generation) with MagSafe Charging Case",
 			"formFactor": "in-ear",
-			"cases": [
-				"MagSafe Charging Case"
-			],
+			"cases": ["MagSafe Charging Case"],
 			"physical": {
 				"earpieceWeight": {
 					"value": 4.28,

@@ -61,7 +61,11 @@ export function AccountSettings() {
 	function onUsername(event: FormEvent) {
 		event.preventDefault();
 		if (!username.trim()) return;
-		void run("username", () => updateUsername(username.trim()), "Username updated.");
+		void run(
+			"username",
+			() => updateUsername(username.trim()),
+			"Username updated.",
+		);
 	}
 
 	function onPassword(event: FormEvent) {
@@ -98,9 +102,15 @@ export function AccountSettings() {
 
 			<section aria-label="Username">
 				<h2 className="text-base font-semibold">
-					Username <span className="font-normal text-fd-muted-foreground">· currently {user.username}</span>
+					Username{" "}
+					<span className="font-normal text-fd-muted-foreground">
+						· currently {user.username}
+					</span>
 				</h2>
-				<form onSubmit={onUsername} className="mt-2 flex flex-col items-start gap-2">
+				<form
+					onSubmit={onUsername}
+					className="mt-2 flex flex-col items-start gap-2"
+				>
 					<input
 						value={username}
 						onChange={(event) => setUsername(event.target.value)}
@@ -108,7 +118,11 @@ export function AccountSettings() {
 						maxLength={64}
 						className={inputClass}
 					/>
-					<button type="submit" disabled={pending !== null} className={buttonClass}>
+					<button
+						type="submit"
+						disabled={pending !== null}
+						className={buttonClass}
+					>
 						{pending === "username" ? "Saving…" : "Change username"}
 					</button>
 				</form>
@@ -116,7 +130,10 @@ export function AccountSettings() {
 
 			<section aria-label="Password">
 				<h2 className="text-base font-semibold">Password</h2>
-				<form onSubmit={onPassword} className="mt-2 flex flex-col items-start gap-2">
+				<form
+					onSubmit={onPassword}
+					className="mt-2 flex flex-col items-start gap-2"
+				>
 					<input
 						type="password"
 						value={currentPassword}
@@ -133,7 +150,11 @@ export function AccountSettings() {
 						autoComplete="new-password"
 						className={inputClass}
 					/>
-					<button type="submit" disabled={pending !== null} className={buttonClass}>
+					<button
+						type="submit"
+						disabled={pending !== null}
+						className={buttonClass}
+					>
 						{pending === "password" ? "Saving…" : "Change password"}
 					</button>
 				</form>
@@ -142,8 +163,8 @@ export function AccountSettings() {
 			<section aria-label="Delete account">
 				<h2 className="text-base font-semibold">Delete account</h2>
 				<p className="mt-1 text-sm text-fd-muted-foreground">
-					Removes your account, bookmarks, owned devices, and saved order.
-					This cannot be undone.
+					Removes your account, bookmarks, owned devices, and saved order. This
+					cannot be undone.
 				</p>
 				<button
 					type="button"

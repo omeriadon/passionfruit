@@ -207,10 +207,7 @@
 		"finish": {
 			"type": "object",
 			"additionalProperties": false,
-			"required": [
-				"base",
-				"material"
-			],
+			"required": ["base", "material"],
 			"description": "Data-driven finish record. One generic renderer turns this into a material swatch dot (gradient + grain + shine, optional duo split). Never a per-finish asset or custom node.",
 			"properties": {
 				"base": {
@@ -272,10 +269,7 @@
 				"duo": {
 					"type": "object",
 					"additionalProperties": false,
-					"required": [
-						"base",
-						"material"
-					],
+					"required": ["base", "material"],
 					"description": "Second fill for two-tone split dots (e.g. Watch case + band). Grain/shine/sheen apply whole-dot.",
 					"properties": {
 						"base": {

@@ -1,1 +1,118 @@
-{"nodes": [{"id": "$graphify-root$_scratch_schema_redesign_independent_canonical_migration_md", "label": "independent-canonical-migration.md", "file_type": "document", "node_kind": "page", "source_file": ".scratch/schema-redesign/independent-canonical-migration.md", "source_location": "L1"}, {"id": "$graphify-root$_scratch_schema_redesign_independent_canonical_migration_independent_canonical_data_migration", "label": "Independent canonical data migration", "file_type": "document", "node_kind": "heading", "source_file": ".scratch/schema-redesign/independent-canonical-migration.md", "source_location": "L1"}, {"id": "$graphify-root$_scratch_schema_redesign_independent_canonical_migration_scope", "label": "Scope", "file_type": "document", "node_kind": "heading", "source_file": ".scratch/schema-redesign/independent-canonical-migration.md", "source_location": "L5"}, {"id": "$graphify-root$_scratch_schema_redesign_independent_canonical_migration_airpods", "label": "AirPods", "file_type": "document", "node_kind": "heading", "source_file": ".scratch/schema-redesign/independent-canonical-migration.md", "source_location": "L15"}, {"id": "$graphify-root$_scratch_schema_redesign_independent_canonical_migration_apple_tv", "label": "Apple TV", "file_type": "document", "node_kind": "heading", "source_file": ".scratch/schema-redesign/independent-canonical-migration.md", "source_location": "L24"}, {"id": "$graphify-root$_scratch_schema_redesign_independent_canonical_migration_apple_watch", "label": "Apple Watch", "file_type": "document", "node_kind": "heading", "source_file": ".scratch/schema-redesign/independent-canonical-migration.md", "source_location": "L33"}, {"id": "$graphify-root$_scratch_schema_redesign_independent_canonical_migration_validation", "label": "Validation", "file_type": "document", "node_kind": "heading", "source_file": ".scratch/schema-redesign/independent-canonical-migration.md", "source_location": "L43"}], "edges": [{"source": "$graphify-root$_scratch_schema_redesign_independent_canonical_migration_md", "target": "$graphify-root$_scratch_schema_redesign_independent_canonical_migration_independent_canonical_data_migration", "relation": "contains", "confidence": "EXTRACTED", "source_file": ".scratch/schema-redesign/independent-canonical-migration.md", "source_location": "L1", "weight": 1.0}, {"source": "$graphify-root$_scratch_schema_redesign_independent_canonical_migration_independent_canonical_data_migration", "target": "$graphify-root$_scratch_schema_redesign_independent_canonical_migration_scope", "relation": "contains", "confidence": "EXTRACTED", "source_file": ".scratch/schema-redesign/independent-canonical-migration.md", "source_location": "L5", "weight": 1.0}, {"source": "$graphify-root$_scratch_schema_redesign_independent_canonical_migration_independent_canonical_data_migration", "target": "$graphify-root$_scratch_schema_redesign_independent_canonical_migration_airpods", "relation": "contains", "confidence": "EXTRACTED", "source_file": ".scratch/schema-redesign/independent-canonical-migration.md", "source_location": "L15", "weight": 1.0}, {"source": "$graphify-root$_scratch_schema_redesign_independent_canonical_migration_independent_canonical_data_migration", "target": "$graphify-root$_scratch_schema_redesign_independent_canonical_migration_apple_tv", "relation": "contains", "confidence": "EXTRACTED", "source_file": ".scratch/schema-redesign/independent-canonical-migration.md", "source_location": "L24", "weight": 1.0}, {"source": "$graphify-root$_scratch_schema_redesign_independent_canonical_migration_independent_canonical_data_migration", "target": "$graphify-root$_scratch_schema_redesign_independent_canonical_migration_apple_watch", "relation": "contains", "confidence": "EXTRACTED", "source_file": ".scratch/schema-redesign/independent-canonical-migration.md", "source_location": "L33", "weight": 1.0}, {"source": "$graphify-root$_scratch_schema_redesign_independent_canonical_migration_independent_canonical_data_migration", "target": "$graphify-root$_scratch_schema_redesign_independent_canonical_migration_validation", "relation": "contains", "confidence": "EXTRACTED", "source_file": ".scratch/schema-redesign/independent-canonical-migration.md", "source_location": "L43", "weight": 1.0}], "input_tokens": 0, "output_tokens": 0}
+{
+	"nodes": [
+		{
+			"id": "$graphify-root$_scratch_schema_redesign_independent_canonical_migration_md",
+			"label": "independent-canonical-migration.md",
+			"file_type": "document",
+			"node_kind": "page",
+			"source_file": ".scratch/schema-redesign/independent-canonical-migration.md",
+			"source_location": "L1"
+		},
+		{
+			"id": "$graphify-root$_scratch_schema_redesign_independent_canonical_migration_independent_canonical_data_migration",
+			"label": "Independent canonical data migration",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/schema-redesign/independent-canonical-migration.md",
+			"source_location": "L1"
+		},
+		{
+			"id": "$graphify-root$_scratch_schema_redesign_independent_canonical_migration_scope",
+			"label": "Scope",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/schema-redesign/independent-canonical-migration.md",
+			"source_location": "L5"
+		},
+		{
+			"id": "$graphify-root$_scratch_schema_redesign_independent_canonical_migration_airpods",
+			"label": "AirPods",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/schema-redesign/independent-canonical-migration.md",
+			"source_location": "L15"
+		},
+		{
+			"id": "$graphify-root$_scratch_schema_redesign_independent_canonical_migration_apple_tv",
+			"label": "Apple TV",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/schema-redesign/independent-canonical-migration.md",
+			"source_location": "L24"
+		},
+		{
+			"id": "$graphify-root$_scratch_schema_redesign_independent_canonical_migration_apple_watch",
+			"label": "Apple Watch",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/schema-redesign/independent-canonical-migration.md",
+			"source_location": "L33"
+		},
+		{
+			"id": "$graphify-root$_scratch_schema_redesign_independent_canonical_migration_validation",
+			"label": "Validation",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/schema-redesign/independent-canonical-migration.md",
+			"source_location": "L43"
+		}
+	],
+	"edges": [
+		{
+			"source": "$graphify-root$_scratch_schema_redesign_independent_canonical_migration_md",
+			"target": "$graphify-root$_scratch_schema_redesign_independent_canonical_migration_independent_canonical_data_migration",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/schema-redesign/independent-canonical-migration.md",
+			"source_location": "L1",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_schema_redesign_independent_canonical_migration_independent_canonical_data_migration",
+			"target": "$graphify-root$_scratch_schema_redesign_independent_canonical_migration_scope",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/schema-redesign/independent-canonical-migration.md",
+			"source_location": "L5",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_schema_redesign_independent_canonical_migration_independent_canonical_data_migration",
+			"target": "$graphify-root$_scratch_schema_redesign_independent_canonical_migration_airpods",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/schema-redesign/independent-canonical-migration.md",
+			"source_location": "L15",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_schema_redesign_independent_canonical_migration_independent_canonical_data_migration",
+			"target": "$graphify-root$_scratch_schema_redesign_independent_canonical_migration_apple_tv",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/schema-redesign/independent-canonical-migration.md",
+			"source_location": "L24",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_schema_redesign_independent_canonical_migration_independent_canonical_data_migration",
+			"target": "$graphify-root$_scratch_schema_redesign_independent_canonical_migration_apple_watch",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/schema-redesign/independent-canonical-migration.md",
+			"source_location": "L33",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_schema_redesign_independent_canonical_migration_independent_canonical_data_migration",
+			"target": "$graphify-root$_scratch_schema_redesign_independent_canonical_migration_validation",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/schema-redesign/independent-canonical-migration.md",
+			"source_location": "L43",
+			"weight": 1.0
+		}
+	],
+	"input_tokens": 0,
+	"output_tokens": 0
+}

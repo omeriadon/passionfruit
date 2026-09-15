@@ -55,7 +55,10 @@
 			"properties": {
 				"id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
 				"displayName": { "type": "string", "minLength": 1 },
-				"finish": { "$ref": "#/$defs/finish", "description": "Finish record for the material swatch dot. Optional until backfill completes." },
+				"finish": {
+					"$ref": "#/$defs/finish",
+					"description": "Finish record for the material swatch dot. Optional until backfill completes."
+				},
 				"images": { "type": "array", "items": { "$ref": "#/$defs/image" } }
 			}
 		},
@@ -65,8 +68,24 @@
 			"required": ["base", "material"],
 			"description": "Data-driven finish record. One generic renderer turns this into a material swatch dot (gradient + grain + shine, optional duo split). Never a per-finish asset or custom node.",
 			"properties": {
-				"base": { "type": "string", "pattern": "^#[0-9a-fA-F]{6}$", "description": "Anchor hex. Also the flat fallback render." },
-				"material": { "enum": ["matte-aluminum", "brushed-titanium", "polished-titanium", "polished-steel", "ceramic", "glass", "fabric", "flat"], "description": "Surface recipe: sheen spread, glare, brushed streaks or weave are derived from this." },
+				"base": {
+					"type": "string",
+					"pattern": "^#[0-9a-fA-F]{6}$",
+					"description": "Anchor hex. Also the flat fallback render."
+				},
+				"material": {
+					"enum": [
+						"matte-aluminum",
+						"brushed-titanium",
+						"polished-titanium",
+						"polished-steel",
+						"ceramic",
+						"glass",
+						"fabric",
+						"flat"
+					],
+					"description": "Surface recipe: sheen spread, glare, brushed streaks or weave are derived from this."
+				},
 				"sheen": {
 					"type": "object",
 					"additionalProperties": false,
@@ -77,9 +96,22 @@
 						"intensity": { "type": "number", "minimum": 0, "maximum": 1 }
 					}
 				},
-				"shine": { "type": "number", "minimum": 0, "maximum": 1, "description": "Crisp clearcoat hotspot + rim light. 0 none, 1 full glass-like pop. Defaults per material." },
-				"grain": { "type": "number", "minimum": 0, "maximum": 1, "description": "Micro-noise overlay (parametric turbulence, no assets). Matte metals/ceramic low, fabric high." },
-				"weave": { "type": "boolean", "description": "Parametric crosshatch overlay for woven fabric (e.g. HomePod mesh). Only meaningful with fabric material." },
+				"shine": {
+					"type": "number",
+					"minimum": 0,
+					"maximum": 1,
+					"description": "Crisp clearcoat hotspot + rim light. 0 none, 1 full glass-like pop. Defaults per material."
+				},
+				"grain": {
+					"type": "number",
+					"minimum": 0,
+					"maximum": 1,
+					"description": "Micro-noise overlay (parametric turbulence, no assets). Matte metals/ceramic low, fabric high."
+				},
+				"weave": {
+					"type": "boolean",
+					"description": "Parametric crosshatch overlay for woven fabric (e.g. HomePod mesh). Only meaningful with fabric material."
+				},
 				"duo": {
 					"type": "object",
 					"additionalProperties": false,
@@ -87,15 +119,41 @@
 					"description": "Second fill for two-tone split dots (e.g. Watch case + band). Grain/shine/sheen apply whole-dot.",
 					"properties": {
 						"base": { "type": "string", "pattern": "^#[0-9a-fA-F]{6}$" },
-						"material": { "enum": ["matte-aluminum", "brushed-titanium", "polished-titanium", "polished-steel", "ceramic", "glass", "fabric", "flat"] },
+						"material": {
+							"enum": [
+								"matte-aluminum",
+								"brushed-titanium",
+								"polished-titanium",
+								"polished-steel",
+								"ceramic",
+								"glass",
+								"fabric",
+								"flat"
+							]
+						},
 						"split": {
 							"type": "object",
 							"additionalProperties": false,
 							"description": "Divider geometry. Curve bows the line so it reads as Apple's photographic swoosh, not a straight diagonal.",
 							"properties": {
-								"angle": { "type": "number", "minimum": 0, "maximum": 360, "default": 135 },
-								"curve": { "type": "number", "minimum": -0.3, "maximum": 0.3, "default": 0.18 },
-								"offset": { "type": "number", "minimum": -0.5, "maximum": 0.5, "default": 0 }
+								"angle": {
+									"type": "number",
+									"minimum": 0,
+									"maximum": 360,
+									"default": 135
+								},
+								"curve": {
+									"type": "number",
+									"minimum": -0.3,
+									"maximum": 0.3,
+									"default": 0.18
+								},
+								"offset": {
+									"type": "number",
+									"minimum": -0.5,
+									"maximum": 0.5,
+									"default": 0
+								}
 							}
 						}
 					}
@@ -107,7 +165,11 @@
 			"additionalProperties": false,
 			"required": ["id", "displayName"],
 			"properties": {
-				"id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$", "minLength": 1 },
+				"id": {
+					"type": "string",
+					"pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+					"minLength": 1
+				},
 				"displayName": { "type": "string", "minLength": 1 },
 				"family": { "type": "string", "minLength": 1 },
 				"cpuCores": { "type": "integer", "minimum": 1 },
@@ -136,7 +198,11 @@
 			"additionalProperties": false,
 			"required": ["id", "technology"],
 			"properties": {
-				"id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$", "minLength": 1 },
+				"id": {
+					"type": "string",
+					"pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+					"minLength": 1
+				},
 				"technology": { "type": "string", "minLength": 1 },
 				"panelKind": { "type": "string", "minLength": 1 },
 				"sizeIn": { "type": "number", "exclusiveMinimum": 0 },
@@ -330,7 +396,11 @@
 			"additionalProperties": false,
 			"required": ["id", "displayName", "dimensions"],
 			"properties": {
-				"id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$", "minLength": 1 },
+				"id": {
+					"type": "string",
+					"pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+					"minLength": 1
+				},
 				"displayName": { "type": "string", "minLength": 1 },
 				"dimensions": {
 					"type": "array",
@@ -363,7 +433,11 @@
 			"type": "object",
 			"additionalProperties": false,
 			"properties": {
-				"ipRating": { "type": "string", "minLength": 1, "pattern": "^(IP[0-9A-Z]+|WR[0-9]+.*)$" },
+				"ipRating": {
+					"type": "string",
+					"minLength": 1,
+					"pattern": "^(IP[0-9A-Z]+|WR[0-9]+.*)$"
+				},
 				"waterDepthM": { "type": "number", "minimum": 0 },
 				"dustProtected": { "type": "boolean" },
 				"sweatResistant": { "type": "boolean" }
@@ -462,14 +536,26 @@
 				"name": { "type": "string", "minLength": 1 },
 				"releaseYear": { "type": "integer", "minimum": 1976, "maximum": 2100 },
 				"priceAud": { "type": "number", "exclusiveMinimum": 0 },
-				"colors": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/color" } },
+				"colors": {
+					"type": "array",
+					"minItems": 1,
+					"items": { "$ref": "#/$defs/color" }
+				},
 				"configurations": {
 					"type": "array",
 					"minItems": 1,
 					"items": { "$ref": "#/$defs/configuration" }
 				},
-				"chips": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/chip" } },
-				"displays": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/display" } },
+				"chips": {
+					"type": "array",
+					"minItems": 1,
+					"items": { "$ref": "#/$defs/chip" }
+				},
+				"displays": {
+					"type": "array",
+					"minItems": 1,
+					"items": { "$ref": "#/$defs/display" }
+				},
 				"audio": { "$ref": "#/$defs/audio" },
 				"batteryAndPower": { "$ref": "#/$defs/batteryAndPower" },
 				"connectivity": { "$ref": "#/$defs/connectivity" },

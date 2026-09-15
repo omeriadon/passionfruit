@@ -1,1 +1,19 @@
-{"nodes": [{"id": "$graphify-root$_content_docs_ipad_accessories_apple_pencil_mdx", "label": "apple-pencil.mdx", "file_type": "document", "node_kind": "page", "source_file": "content/docs/ipad/accessories/apple-pencil.mdx", "source_location": "L1", "frontmatter": {"title": "Apple Pencil", "description": "Apple Pencil compatibility and capabilities."}}], "edges": [], "input_tokens": 0, "output_tokens": 0}
+{
+	"nodes": [
+		{
+			"id": "$graphify-root$_content_docs_ipad_accessories_apple_pencil_mdx",
+			"label": "apple-pencil.mdx",
+			"file_type": "document",
+			"node_kind": "page",
+			"source_file": "content/docs/ipad/accessories/apple-pencil.mdx",
+			"source_location": "L1",
+			"frontmatter": {
+				"title": "Apple Pencil",
+				"description": "Apple Pencil compatibility and capabilities."
+			}
+		}
+	],
+	"edges": [],
+	"input_tokens": 0,
+	"output_tokens": 0
+}

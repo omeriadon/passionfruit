@@ -1,1 +1,38 @@
-{"nodes": [{"id": "$graphify-root$_content_device_notes_vision_apple_vision_pro_m5_md", "label": "apple-vision-pro-m5.md", "file_type": "document", "node_kind": "page", "source_file": "content/device-notes/vision/apple-vision-pro-m5.md", "source_location": "L1", "frontmatter": {"goodToBuy": "unknown", "editorial": "No editorial note has been authored yet.", "tags": "[]"}}, {"id": "$graphify-root$_content_device_notes_vision_apple_vision_pro_m5_apple_vision_pro", "label": "Apple Vision Pro", "file_type": "document", "node_kind": "heading", "source_file": "content/device-notes/vision/apple-vision-pro-m5.md", "source_location": "L7"}], "edges": [{"source": "$graphify-root$_content_device_notes_vision_apple_vision_pro_m5_md", "target": "$graphify-root$_content_device_notes_vision_apple_vision_pro_m5_apple_vision_pro", "relation": "contains", "confidence": "EXTRACTED", "source_file": "content/device-notes/vision/apple-vision-pro-m5.md", "source_location": "L7", "weight": 1.0}], "input_tokens": 0, "output_tokens": 0}
+{
+	"nodes": [
+		{
+			"id": "$graphify-root$_content_device_notes_vision_apple_vision_pro_m5_md",
+			"label": "apple-vision-pro-m5.md",
+			"file_type": "document",
+			"node_kind": "page",
+			"source_file": "content/device-notes/vision/apple-vision-pro-m5.md",
+			"source_location": "L1",
+			"frontmatter": {
+				"goodToBuy": "unknown",
+				"editorial": "No editorial note has been authored yet.",
+				"tags": "[]"
+			}
+		},
+		{
+			"id": "$graphify-root$_content_device_notes_vision_apple_vision_pro_m5_apple_vision_pro",
+			"label": "Apple Vision Pro",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": "content/device-notes/vision/apple-vision-pro-m5.md",
+			"source_location": "L7"
+		}
+	],
+	"edges": [
+		{
+			"source": "$graphify-root$_content_device_notes_vision_apple_vision_pro_m5_md",
+			"target": "$graphify-root$_content_device_notes_vision_apple_vision_pro_m5_apple_vision_pro",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": "content/device-notes/vision/apple-vision-pro-m5.md",
+			"source_location": "L7",
+			"weight": 1.0
+		}
+	],
+	"input_tokens": 0,
+	"output_tokens": 0
+}

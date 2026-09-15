@@ -1,1 +1,178 @@
-{"nodes": [{"id": "$graphify-root$_scratch_image_audit_report_md", "label": "report.md", "file_type": "document", "node_kind": "page", "source_file": ".scratch/image-audit/report.md", "source_location": "L1"}, {"id": "$graphify-root$_scratch_image_audit_report_feynman_repository_wide_staged_image_integrity_audit", "label": "Feynman Repository-Wide Staged-Image Integrity Audit", "file_type": "document", "node_kind": "heading", "source_file": ".scratch/image-audit/report.md", "source_location": "L1"}, {"id": "$graphify-root$_scratch_image_audit_report_verdict", "label": "Verdict", "file_type": "document", "node_kind": "heading", "source_file": ".scratch/image-audit/report.md", "source_location": "L9"}, {"id": "$graphify-root$_scratch_image_audit_report_family_results", "label": "Family Results", "file_type": "document", "node_kind": "heading", "source_file": ".scratch/image-audit/report.md", "source_location": "L20"}, {"id": "$graphify-root$_scratch_image_audit_report_path_correctness", "label": "Path Correctness", "file_type": "document", "node_kind": "heading", "source_file": ".scratch/image-audit/report.md", "source_location": "L33"}, {"id": "$graphify-root$_scratch_image_audit_report_dimensions_and_mime", "label": "Dimensions And MIME", "file_type": "document", "node_kind": "heading", "source_file": ".scratch/image-audit/report.md", "source_location": "L45"}, {"id": "$graphify-root$_scratch_image_audit_report_transparency", "label": "Transparency", "file_type": "document", "node_kind": "heading", "source_file": ".scratch/image-audit/report.md", "source_location": "L68"}, {"id": "$graphify-root$_scratch_image_audit_report_sha_256_duplicates", "label": "SHA-256 Duplicates", "file_type": "document", "node_kind": "heading", "source_file": ".scratch/image-audit/report.md", "source_location": "L77"}, {"id": "$graphify-root$_scratch_image_audit_report_staged_inventory", "label": "Staged Inventory", "file_type": "document", "node_kind": "heading", "source_file": ".scratch/image-audit/report.md", "source_location": "L121"}, {"id": "$graphify-root$_scratch_image_audit_report_checkpoint", "label": "Checkpoint", "file_type": "document", "node_kind": "heading", "source_file": ".scratch/image-audit/report.md", "source_location": "L129"}], "edges": [{"source": "$graphify-root$_scratch_image_audit_report_md", "target": "$graphify-root$_scratch_image_audit_report_feynman_repository_wide_staged_image_integrity_audit", "relation": "contains", "confidence": "EXTRACTED", "source_file": ".scratch/image-audit/report.md", "source_location": "L1", "weight": 1.0}, {"source": "$graphify-root$_scratch_image_audit_report_feynman_repository_wide_staged_image_integrity_audit", "target": "$graphify-root$_scratch_image_audit_report_verdict", "relation": "contains", "confidence": "EXTRACTED", "source_file": ".scratch/image-audit/report.md", "source_location": "L9", "weight": 1.0}, {"source": "$graphify-root$_scratch_image_audit_report_feynman_repository_wide_staged_image_integrity_audit", "target": "$graphify-root$_scratch_image_audit_report_family_results", "relation": "contains", "confidence": "EXTRACTED", "source_file": ".scratch/image-audit/report.md", "source_location": "L20", "weight": 1.0}, {"source": "$graphify-root$_scratch_image_audit_report_feynman_repository_wide_staged_image_integrity_audit", "target": "$graphify-root$_scratch_image_audit_report_path_correctness", "relation": "contains", "confidence": "EXTRACTED", "source_file": ".scratch/image-audit/report.md", "source_location": "L33", "weight": 1.0}, {"source": "$graphify-root$_scratch_image_audit_report_feynman_repository_wide_staged_image_integrity_audit", "target": "$graphify-root$_scratch_image_audit_report_dimensions_and_mime", "relation": "contains", "confidence": "EXTRACTED", "source_file": ".scratch/image-audit/report.md", "source_location": "L45", "weight": 1.0}, {"source": "$graphify-root$_scratch_image_audit_report_feynman_repository_wide_staged_image_integrity_audit", "target": "$graphify-root$_scratch_image_audit_report_transparency", "relation": "contains", "confidence": "EXTRACTED", "source_file": ".scratch/image-audit/report.md", "source_location": "L68", "weight": 1.0}, {"source": "$graphify-root$_scratch_image_audit_report_feynman_repository_wide_staged_image_integrity_audit", "target": "$graphify-root$_scratch_image_audit_report_sha_256_duplicates", "relation": "contains", "confidence": "EXTRACTED", "source_file": ".scratch/image-audit/report.md", "source_location": "L77", "weight": 1.0}, {"source": "$graphify-root$_scratch_image_audit_report_feynman_repository_wide_staged_image_integrity_audit", "target": "$graphify-root$_scratch_image_audit_report_staged_inventory", "relation": "contains", "confidence": "EXTRACTED", "source_file": ".scratch/image-audit/report.md", "source_location": "L121", "weight": 1.0}, {"source": "$graphify-root$_scratch_image_audit_report_feynman_repository_wide_staged_image_integrity_audit", "target": "$graphify-root$_scratch_image_audit_report_checkpoint", "relation": "contains", "confidence": "EXTRACTED", "source_file": ".scratch/image-audit/report.md", "source_location": "L129", "weight": 1.0}, {"source": "$graphify-root$_scratch_image_audit_report_md", "target": "$graphify-root$_scratch_checkpoints_feynman_md", "relation": "references", "confidence": "EXTRACTED", "source_file": ".scratch/image-audit/report.md", "source_location": "L131", "weight": 1.0}], "input_tokens": 0, "output_tokens": 0}
+{
+	"nodes": [
+		{
+			"id": "$graphify-root$_scratch_image_audit_report_md",
+			"label": "report.md",
+			"file_type": "document",
+			"node_kind": "page",
+			"source_file": ".scratch/image-audit/report.md",
+			"source_location": "L1"
+		},
+		{
+			"id": "$graphify-root$_scratch_image_audit_report_feynman_repository_wide_staged_image_integrity_audit",
+			"label": "Feynman Repository-Wide Staged-Image Integrity Audit",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/image-audit/report.md",
+			"source_location": "L1"
+		},
+		{
+			"id": "$graphify-root$_scratch_image_audit_report_verdict",
+			"label": "Verdict",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/image-audit/report.md",
+			"source_location": "L9"
+		},
+		{
+			"id": "$graphify-root$_scratch_image_audit_report_family_results",
+			"label": "Family Results",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/image-audit/report.md",
+			"source_location": "L20"
+		},
+		{
+			"id": "$graphify-root$_scratch_image_audit_report_path_correctness",
+			"label": "Path Correctness",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/image-audit/report.md",
+			"source_location": "L33"
+		},
+		{
+			"id": "$graphify-root$_scratch_image_audit_report_dimensions_and_mime",
+			"label": "Dimensions And MIME",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/image-audit/report.md",
+			"source_location": "L45"
+		},
+		{
+			"id": "$graphify-root$_scratch_image_audit_report_transparency",
+			"label": "Transparency",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/image-audit/report.md",
+			"source_location": "L68"
+		},
+		{
+			"id": "$graphify-root$_scratch_image_audit_report_sha_256_duplicates",
+			"label": "SHA-256 Duplicates",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/image-audit/report.md",
+			"source_location": "L77"
+		},
+		{
+			"id": "$graphify-root$_scratch_image_audit_report_staged_inventory",
+			"label": "Staged Inventory",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/image-audit/report.md",
+			"source_location": "L121"
+		},
+		{
+			"id": "$graphify-root$_scratch_image_audit_report_checkpoint",
+			"label": "Checkpoint",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/image-audit/report.md",
+			"source_location": "L129"
+		}
+	],
+	"edges": [
+		{
+			"source": "$graphify-root$_scratch_image_audit_report_md",
+			"target": "$graphify-root$_scratch_image_audit_report_feynman_repository_wide_staged_image_integrity_audit",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/image-audit/report.md",
+			"source_location": "L1",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_image_audit_report_feynman_repository_wide_staged_image_integrity_audit",
+			"target": "$graphify-root$_scratch_image_audit_report_verdict",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/image-audit/report.md",
+			"source_location": "L9",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_image_audit_report_feynman_repository_wide_staged_image_integrity_audit",
+			"target": "$graphify-root$_scratch_image_audit_report_family_results",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/image-audit/report.md",
+			"source_location": "L20",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_image_audit_report_feynman_repository_wide_staged_image_integrity_audit",
+			"target": "$graphify-root$_scratch_image_audit_report_path_correctness",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/image-audit/report.md",
+			"source_location": "L33",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_image_audit_report_feynman_repository_wide_staged_image_integrity_audit",
+			"target": "$graphify-root$_scratch_image_audit_report_dimensions_and_mime",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/image-audit/report.md",
+			"source_location": "L45",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_image_audit_report_feynman_repository_wide_staged_image_integrity_audit",
+			"target": "$graphify-root$_scratch_image_audit_report_transparency",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/image-audit/report.md",
+			"source_location": "L68",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_image_audit_report_feynman_repository_wide_staged_image_integrity_audit",
+			"target": "$graphify-root$_scratch_image_audit_report_sha_256_duplicates",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/image-audit/report.md",
+			"source_location": "L77",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_image_audit_report_feynman_repository_wide_staged_image_integrity_audit",
+			"target": "$graphify-root$_scratch_image_audit_report_staged_inventory",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/image-audit/report.md",
+			"source_location": "L121",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_image_audit_report_feynman_repository_wide_staged_image_integrity_audit",
+			"target": "$graphify-root$_scratch_image_audit_report_checkpoint",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/image-audit/report.md",
+			"source_location": "L129",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_image_audit_report_md",
+			"target": "$graphify-root$_scratch_checkpoints_feynman_md",
+			"relation": "references",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/image-audit/report.md",
+			"source_location": "L131",
+			"weight": 1.0
+		}
+	],
+	"input_tokens": 0,
+	"output_tokens": 0
+}

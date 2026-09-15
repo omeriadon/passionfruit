@@ -195,10 +195,7 @@
 					"version": "Bluetooth 6.0"
 				},
 				"cellular": {
-					"technologies": [
-						"5G sub-6",
-						"LTE"
-					],
+					"technologies": ["5G sub-6", "LTE"],
 					"eSIMOnly": false
 				},
 				"uwb": null,
@@ -208,9 +205,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"Face ID"
-				],
+				"methods": ["Face ID"],
 				"primaryMethod": "Face ID"
 			},
 			"physical": {
@@ -429,10 +424,7 @@
 					"version": "Bluetooth 6.0"
 				},
 				"cellular": {
-					"technologies": [
-						"5G sub-6",
-						"LTE"
-					],
+					"technologies": ["5G sub-6", "LTE"],
 					"eSIMOnly": false
 				},
 				"uwb": null,
@@ -442,9 +434,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"Face ID"
-				],
+				"methods": ["Face ID"],
 				"primaryMethod": "Face ID"
 			},
 			"physical": {
@@ -697,10 +687,7 @@
 					"version": "Bluetooth 6.0"
 				},
 				"cellular": {
-					"technologies": [
-						"5G sub-6",
-						"LTE"
-					],
+					"technologies": ["5G sub-6", "LTE"],
 					"eSIMOnly": false
 				},
 				"uwb": null,
@@ -710,9 +697,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"Touch ID"
-				],
+				"methods": ["Touch ID"],
 				"primaryMethod": "Touch ID"
 			},
 			"physical": {
@@ -965,10 +950,7 @@
 					"version": "Bluetooth 5.3"
 				},
 				"cellular": {
-					"technologies": [
-						"5G sub-6",
-						"LTE"
-					],
+					"technologies": ["5G sub-6", "LTE"],
 					"eSIMOnly": false
 				},
 				"uwb": null,
@@ -978,9 +960,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"Touch ID"
-				],
+				"methods": ["Touch ID"],
 				"primaryMethod": "Touch ID"
 			},
 			"physical": {
@@ -1220,10 +1200,7 @@
 					"version": "Bluetooth 5.3"
 				},
 				"cellular": {
-					"technologies": [
-						"5G sub-6",
-						"LTE"
-					],
+					"technologies": ["5G sub-6", "LTE"],
 					"eSIMOnly": false
 				},
 				"uwb": null,
@@ -1233,9 +1210,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"Touch ID"
-				],
+				"methods": ["Touch ID"],
 				"primaryMethod": "Touch ID"
 			},
 			"physical": {
@@ -1469,10 +1444,7 @@
 					"version": "Bluetooth 5.0"
 				},
 				"cellular": {
-					"technologies": [
-						"5G sub-6",
-						"LTE"
-					],
+					"technologies": ["5G sub-6", "LTE"],
 					"eSIMOnly": false
 				},
 				"uwb": null,
@@ -1482,9 +1454,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"Touch ID"
-				],
+				"methods": ["Touch ID"],
 				"primaryMethod": "Touch ID"
 			},
 			"physical": {
@@ -1713,9 +1683,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"Face ID"
-				],
+				"methods": ["Face ID"],
 				"primaryMethod": "Face ID"
 			},
 			"physical": {
@@ -1944,9 +1912,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"Face ID"
-				],
+				"methods": ["Face ID"],
 				"primaryMethod": "Face ID"
 			},
 			"physical": {
@@ -2175,9 +2141,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"Face ID"
-				],
+				"methods": ["Face ID"],
 				"primaryMethod": "Face ID"
 			},
 			"physical": {
@@ -2400,9 +2364,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"Face ID"
-				],
+				"methods": ["Face ID"],
 				"primaryMethod": "Face ID"
 			},
 			"physical": {
@@ -2625,9 +2587,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"Face ID"
-				],
+				"methods": ["Face ID"],
 				"primaryMethod": "Face ID"
 			},
 			"physical": {
@@ -2843,9 +2803,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"Touch ID"
-				],
+				"methods": ["Touch ID"],
 				"primaryMethod": "Touch ID"
 			},
 			"physical": {
@@ -3061,9 +3019,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"Touch ID"
-				],
+				"methods": ["Touch ID"],
 				"primaryMethod": "Touch ID"
 			},
 			"physical": {
@@ -3292,9 +3248,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"Face ID"
-				],
+				"methods": ["Face ID"],
 				"primaryMethod": "Face ID"
 			},
 			"physical": {
@@ -3523,9 +3477,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"Face ID"
-				],
+				"methods": ["Face ID"],
 				"primaryMethod": "Face ID"
 			},
 			"physical": {
@@ -3754,9 +3706,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"Face ID"
-				],
+				"methods": ["Face ID"],
 				"primaryMethod": "Face ID"
 			},
 			"physical": {
@@ -3979,9 +3929,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"Face ID"
-				],
+				"methods": ["Face ID"],
 				"primaryMethod": "Face ID"
 			},
 			"physical": {
@@ -4196,9 +4144,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"Face ID"
-				],
+				"methods": ["Face ID"],
 				"primaryMethod": "Face ID"
 			},
 			"physical": {
@@ -4414,9 +4360,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"Touch ID"
-				],
+				"methods": ["Touch ID"],
 				"primaryMethod": "Touch ID"
 			},
 			"physical": {
@@ -4624,9 +4568,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"Touch ID"
-				],
+				"methods": ["Touch ID"],
 				"primaryMethod": "Touch ID"
 			},
 			"physical": {
@@ -4882,9 +4824,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"Touch ID"
-				],
+				"methods": ["Touch ID"],
 				"primaryMethod": "Touch ID"
 			},
 			"physical": {
@@ -5140,9 +5080,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"Touch ID"
-				],
+				"methods": ["Touch ID"],
 				"primaryMethod": "Touch ID"
 			},
 			"physical": {
@@ -5398,9 +5336,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"Touch ID"
-				],
+				"methods": ["Touch ID"],
 				"primaryMethod": "Touch ID"
 			},
 			"physical": {
@@ -5656,9 +5592,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"Touch ID"
-				],
+				"methods": ["Touch ID"],
 				"primaryMethod": "Touch ID"
 			},
 			"physical": {
@@ -5919,9 +5853,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"Touch ID"
-				],
+				"methods": ["Touch ID"],
 				"primaryMethod": "Touch ID"
 			},
 			"physical": {
@@ -6132,9 +6064,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"Touch ID"
-				],
+				"methods": ["Touch ID"],
 				"primaryMethod": "Touch ID"
 			},
 			"physical": {
@@ -6344,9 +6274,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"Touch ID"
-				],
+				"methods": ["Touch ID"],
 				"primaryMethod": "Touch ID"
 			},
 			"physical": {
@@ -6556,9 +6484,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"Touch ID"
-				],
+				"methods": ["Touch ID"],
 				"primaryMethod": "Touch ID"
 			},
 			"physical": {
@@ -6768,9 +6694,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"none"
-				],
+				"methods": ["none"],
 				"primaryMethod": "none"
 			},
 			"physical": {
@@ -7014,9 +6938,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"Touch ID"
-				],
+				"methods": ["Touch ID"],
 				"primaryMethod": "Touch ID"
 			},
 			"physical": {
@@ -7226,9 +7148,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"Touch ID"
-				],
+				"methods": ["Touch ID"],
 				"primaryMethod": "Touch ID"
 			},
 			"physical": {
@@ -7438,9 +7358,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"Touch ID"
-				],
+				"methods": ["Touch ID"],
 				"primaryMethod": "Touch ID"
 			},
 			"physical": {
@@ -7650,9 +7568,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"Touch ID"
-				],
+				"methods": ["Touch ID"],
 				"primaryMethod": "Touch ID"
 			},
 			"physical": {
@@ -7856,9 +7772,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"Touch ID"
-				],
+				"methods": ["Touch ID"],
 				"primaryMethod": "Touch ID"
 			},
 			"physical": {
@@ -8062,9 +7976,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"Touch ID"
-				],
+				"methods": ["Touch ID"],
 				"primaryMethod": "Touch ID"
 			},
 			"physical": {
@@ -8303,9 +8215,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"Touch ID"
-				],
+				"methods": ["Touch ID"],
 				"primaryMethod": "Touch ID"
 			},
 			"physical": {
@@ -8509,9 +8419,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"Touch ID"
-				],
+				"methods": ["Touch ID"],
 				"primaryMethod": "Touch ID"
 			},
 			"physical": {
@@ -8721,9 +8629,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"Touch ID"
-				],
+				"methods": ["Touch ID"],
 				"primaryMethod": "Touch ID"
 			},
 			"physical": {
@@ -8933,9 +8839,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"Touch ID"
-				],
+				"methods": ["Touch ID"],
 				"primaryMethod": "Touch ID"
 			},
 			"physical": {
@@ -9136,17 +9040,13 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 4"
-					]
+					"standards": ["Wi-Fi 4"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 4.0"
 				},
 				"cellular": {
-					"technologies": [
-						"LTE"
-					]
+					"technologies": ["LTE"]
 				},
 				"uwb": null,
 				"thread": null,
@@ -9157,9 +9057,7 @@
 				}
 			},
 			"authentication": {
-				"methods": [
-					"Touch ID"
-				],
+				"methods": ["Touch ID"],
 				"primaryMethod": "Touch ID"
 			},
 			"physical": {

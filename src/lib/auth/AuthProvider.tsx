@@ -51,7 +51,10 @@ type AuthContextValue = {
 	register: (username: string, password: string) => Promise<void>;
 	logout: () => void;
 	updateUsername: (username: string) => Promise<void>;
-	changePassword: (currentPassword: string, newPassword: string) => Promise<void>;
+	changePassword: (
+		currentPassword: string,
+		newPassword: string,
+	) => Promise<void>;
 	deleteAccount: () => Promise<void>;
 	toggleBookmark: (category: string, deviceId: string) => Promise<boolean>;
 	isBookmarked: (category: string, deviceId: string) => boolean;

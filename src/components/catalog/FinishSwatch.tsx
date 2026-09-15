@@ -308,12 +308,7 @@ function GradientDef({
 	if (recipe.radialBase) {
 		const stops = radialStops(base, recipe.spread);
 		return (
-			<radialGradient
-				id={id}
-				cx={glareX / 100}
-				cy={glareY / 100}
-				r="0.75"
-			>
+			<radialGradient id={id} cx={glareX / 100} cy={glareY / 100} r="0.75">
 				{stops.map(([offset, color]) => (
 					<stop key={offset} offset={`${offset}%`} stopColor={color} />
 				))}

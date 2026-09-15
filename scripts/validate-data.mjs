@@ -18,15 +18,34 @@ const datasets = [
 		schemaPath: `public/data/${section}/${section}.schema.json`,
 		collectionKey: "devices",
 	})),
-	{ section: "apple-pencil", dataPath: "public/data/other/apple-pencil/apple-pencil.json", schemaPath: "public/data/other/apple-pencil/apple-pencil.schema.json", collectionKey: "accessories" },
-	{ section: "magic-keyboard", dataPath: "public/data/other/magic-keyboard/magic-keyboard.json", schemaPath: "public/data/other/magic-keyboard/magic-keyboard.schema.json", collectionKey: "accessories" },
-	{ section: "apple-display", dataPath: "public/data/other/apple-display/apple-display.json", schemaPath: "public/data/other/apple-display/apple-display.schema.json", collectionKey: "products" },
+	{
+		section: "apple-pencil",
+		dataPath: "public/data/other/apple-pencil/apple-pencil.json",
+		schemaPath: "public/data/other/apple-pencil/apple-pencil.schema.json",
+		collectionKey: "accessories",
+	},
+	{
+		section: "magic-keyboard",
+		dataPath: "public/data/other/magic-keyboard/magic-keyboard.json",
+		schemaPath: "public/data/other/magic-keyboard/magic-keyboard.schema.json",
+		collectionKey: "accessories",
+	},
+	{
+		section: "apple-display",
+		dataPath: "public/data/other/apple-display/apple-display.json",
+		schemaPath: "public/data/other/apple-display/apple-display.schema.json",
+		collectionKey: "products",
+	},
 ];
 
 const resolveLocalPath = (value) =>
 	value.startsWith("/data/") ? `public${value}` : value;
 
-const ajv = new Ajv2020({ allErrors: true, strict: true, allowUnionTypes: true });
+const ajv = new Ajv2020({
+	allErrors: true,
+	strict: true,
+	allowUnionTypes: true,
+});
 ajv.addFormat("uri", (value) => {
 	try {
 		new URL(value);
@@ -47,7 +66,8 @@ const report = {
 };
 
 const collectImageRefs = (value, refs) => {
-	if (Array.isArray(value)) return value.forEach((item) => collectImageRefs(item, refs));
+	if (Array.isArray(value))
+		return value.forEach((item) => collectImageRefs(item, refs));
 	if (!value || typeof value !== "object") return;
 	if (typeof value.localPath === "string") refs.push(value);
 	Object.values(value).forEach((item) => collectImageRefs(item, refs));
@@ -64,9 +84,17 @@ for (const dataset of datasets) {
 	for (const ref of refs) {
 		const resolved = resolveLocalPath(ref.localPath);
 		if (!existsSync(resolved)) {
-			report.invalidImageReferences.push({ section: dataset.section, path: ref.localPath, reason: "missing" });
+			report.invalidImageReferences.push({
+				section: dataset.section,
+				path: ref.localPath,
+				reason: "missing",
+			});
 		} else if (statSync(resolved).size === 0) {
-			report.invalidImageReferences.push({ section: dataset.section, path: ref.localPath, reason: "empty" });
+			report.invalidImageReferences.push({
+				section: dataset.section,
+				path: ref.localPath,
+				reason: "empty",
+			});
 		}
 	}
 	const records = data[dataset.collectionKey];
@@ -74,7 +102,10 @@ for (const dataset of datasets) {
 		const recordRefs = [];
 		collectImageRefs(record, recordRefs);
 		if (recordRefs.length === 0) {
-			report.recordsWithoutImages.push({ section: dataset.section, id: record.id });
+			report.recordsWithoutImages.push({
+				section: dataset.section,
+				id: record.id,
+			});
 		}
 	}
 	report.datasets.push({
@@ -87,11 +118,29 @@ for (const dataset of datasets) {
 		errorCount: valid ? 0 : validate.errors.length,
 		errors: valid ? [] : validate.errors,
 	});
-	if (dataset.collectionKey === "devices") report.totalDevices += records.length;
-	if (dataset.collectionKey === "accessories") report.totalAccessories += records.length;
-	if (dataset.collectionKey === "products") report.totalProducts += records.length;
+	if (dataset.collectionKey === "devices")
+		report.totalDevices += records.length;
+	if (dataset.collectionKey === "accessories")
+		report.totalAccessories += records.length;
+	if (dataset.collectionKey === "products")
+		report.totalProducts += records.length;
 	report.imageReferences += refs.length;
 }
 
-writeFileSync(".scratch/merge-audits/final-validation-report.json", `${JSON.stringify(report, null, "\t")}\n`);
-	console.log(JSON.stringify({ ...report, allValid: report.datasets.every((dataset) => dataset.valid) && report.invalidImageReferences.length === 0 && report.recordsWithoutImages.length === 0 }, null, 2));
+writeFileSync(
+	".scratch/merge-audits/final-validation-report.json",
+	`${JSON.stringify(report, null, "\t")}\n`,
+);
+console.log(
+	JSON.stringify(
+		{
+			...report,
+			allValid:
+				report.datasets.every((dataset) => dataset.valid) &&
+				report.invalidImageReferences.length === 0 &&
+				report.recordsWithoutImages.length === 0,
+		},
+		null,
+		2,
+	),
+);

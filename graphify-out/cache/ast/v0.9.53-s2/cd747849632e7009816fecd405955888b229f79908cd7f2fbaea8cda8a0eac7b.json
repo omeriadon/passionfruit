@@ -1,1 +1,152 @@
-{"nodes": [{"id": "$graphify-root$_data_rules_general_md", "label": "general.md", "file_type": "document", "node_kind": "page", "source_file": "data/rules/general.md", "source_location": "L1"}, {"id": "$graphify-root$_data_rules_general_general_extraction_rules", "label": "General extraction rules", "file_type": "document", "node_kind": "heading", "source_file": "data/rules/general.md", "source_location": "L1"}, {"id": "$graphify-root$_data_rules_general_contract_boundary", "label": "Contract boundary", "file_type": "document", "node_kind": "heading", "source_file": "data/rules/general.md", "source_location": "L5"}, {"id": "$graphify-root$_data_rules_general_input", "label": "Input", "file_type": "document", "node_kind": "heading", "source_file": "data/rules/general.md", "source_location": "L16"}, {"id": "$graphify-root$_data_rules_general_output_layout", "label": "Output layout", "file_type": "document", "node_kind": "heading", "source_file": "data/rules/general.md", "source_location": "L23"}, {"id": "$graphify-root$_data_rules_general_status", "label": "Status", "file_type": "document", "node_kind": "heading", "source_file": "data/rules/general.md", "source_location": "L30"}, {"id": "$graphify-root$_data_rules_general_data_conventions", "label": "Data conventions", "file_type": "document", "node_kind": "heading", "source_file": "data/rules/general.md", "source_location": "L36"}, {"id": "$graphify-root$_data_rules_general_images", "label": "Images", "file_type": "document", "node_kind": "heading", "source_file": "data/rules/general.md", "source_location": "L43"}, {"id": "$graphify-root$_data_rules_general_completion_criteria", "label": "Completion criteria", "file_type": "document", "node_kind": "heading", "source_file": "data/rules/general.md", "source_location": "L51"}], "edges": [{"source": "$graphify-root$_data_rules_general_md", "target": "$graphify-root$_data_rules_general_general_extraction_rules", "relation": "contains", "confidence": "EXTRACTED", "source_file": "data/rules/general.md", "source_location": "L1", "weight": 1.0}, {"source": "$graphify-root$_data_rules_general_general_extraction_rules", "target": "$graphify-root$_data_rules_general_contract_boundary", "relation": "contains", "confidence": "EXTRACTED", "source_file": "data/rules/general.md", "source_location": "L5", "weight": 1.0}, {"source": "$graphify-root$_data_rules_general_general_extraction_rules", "target": "$graphify-root$_data_rules_general_input", "relation": "contains", "confidence": "EXTRACTED", "source_file": "data/rules/general.md", "source_location": "L16", "weight": 1.0}, {"source": "$graphify-root$_data_rules_general_general_extraction_rules", "target": "$graphify-root$_data_rules_general_output_layout", "relation": "contains", "confidence": "EXTRACTED", "source_file": "data/rules/general.md", "source_location": "L23", "weight": 1.0}, {"source": "$graphify-root$_data_rules_general_general_extraction_rules", "target": "$graphify-root$_data_rules_general_status", "relation": "contains", "confidence": "EXTRACTED", "source_file": "data/rules/general.md", "source_location": "L30", "weight": 1.0}, {"source": "$graphify-root$_data_rules_general_general_extraction_rules", "target": "$graphify-root$_data_rules_general_data_conventions", "relation": "contains", "confidence": "EXTRACTED", "source_file": "data/rules/general.md", "source_location": "L36", "weight": 1.0}, {"source": "$graphify-root$_data_rules_general_general_extraction_rules", "target": "$graphify-root$_data_rules_general_images", "relation": "contains", "confidence": "EXTRACTED", "source_file": "data/rules/general.md", "source_location": "L43", "weight": 1.0}, {"source": "$graphify-root$_data_rules_general_general_extraction_rules", "target": "$graphify-root$_data_rules_general_completion_criteria", "relation": "contains", "confidence": "EXTRACTED", "source_file": "data/rules/general.md", "source_location": "L51", "weight": 1.0}], "input_tokens": 0, "output_tokens": 0}
+{
+	"nodes": [
+		{
+			"id": "$graphify-root$_data_rules_general_md",
+			"label": "general.md",
+			"file_type": "document",
+			"node_kind": "page",
+			"source_file": "data/rules/general.md",
+			"source_location": "L1"
+		},
+		{
+			"id": "$graphify-root$_data_rules_general_general_extraction_rules",
+			"label": "General extraction rules",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": "data/rules/general.md",
+			"source_location": "L1"
+		},
+		{
+			"id": "$graphify-root$_data_rules_general_contract_boundary",
+			"label": "Contract boundary",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": "data/rules/general.md",
+			"source_location": "L5"
+		},
+		{
+			"id": "$graphify-root$_data_rules_general_input",
+			"label": "Input",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": "data/rules/general.md",
+			"source_location": "L16"
+		},
+		{
+			"id": "$graphify-root$_data_rules_general_output_layout",
+			"label": "Output layout",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": "data/rules/general.md",
+			"source_location": "L23"
+		},
+		{
+			"id": "$graphify-root$_data_rules_general_status",
+			"label": "Status",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": "data/rules/general.md",
+			"source_location": "L30"
+		},
+		{
+			"id": "$graphify-root$_data_rules_general_data_conventions",
+			"label": "Data conventions",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": "data/rules/general.md",
+			"source_location": "L36"
+		},
+		{
+			"id": "$graphify-root$_data_rules_general_images",
+			"label": "Images",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": "data/rules/general.md",
+			"source_location": "L43"
+		},
+		{
+			"id": "$graphify-root$_data_rules_general_completion_criteria",
+			"label": "Completion criteria",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": "data/rules/general.md",
+			"source_location": "L51"
+		}
+	],
+	"edges": [
+		{
+			"source": "$graphify-root$_data_rules_general_md",
+			"target": "$graphify-root$_data_rules_general_general_extraction_rules",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": "data/rules/general.md",
+			"source_location": "L1",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_data_rules_general_general_extraction_rules",
+			"target": "$graphify-root$_data_rules_general_contract_boundary",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": "data/rules/general.md",
+			"source_location": "L5",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_data_rules_general_general_extraction_rules",
+			"target": "$graphify-root$_data_rules_general_input",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": "data/rules/general.md",
+			"source_location": "L16",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_data_rules_general_general_extraction_rules",
+			"target": "$graphify-root$_data_rules_general_output_layout",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": "data/rules/general.md",
+			"source_location": "L23",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_data_rules_general_general_extraction_rules",
+			"target": "$graphify-root$_data_rules_general_status",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": "data/rules/general.md",
+			"source_location": "L30",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_data_rules_general_general_extraction_rules",
+			"target": "$graphify-root$_data_rules_general_data_conventions",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": "data/rules/general.md",
+			"source_location": "L36",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_data_rules_general_general_extraction_rules",
+			"target": "$graphify-root$_data_rules_general_images",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": "data/rules/general.md",
+			"source_location": "L43",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_data_rules_general_general_extraction_rules",
+			"target": "$graphify-root$_data_rules_general_completion_criteria",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": "data/rules/general.md",
+			"source_location": "L51",
+			"weight": 1.0
+		}
+	],
+	"input_tokens": 0,
+	"output_tokens": 0
+}

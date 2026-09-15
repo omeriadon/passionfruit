@@ -1,1 +1,38 @@
-{"nodes": [{"id": "$graphify-root$_content_device_notes_mac_mac_pro_intel_2019_md", "label": "mac-pro-intel-2019.md", "file_type": "document", "node_kind": "page", "source_file": "content/device-notes/mac/mac-pro-intel-2019.md", "source_location": "L1", "frontmatter": {"goodToBuy": "unknown", "editorial": "No editorial note has been authored yet.", "tags": "[]"}}, {"id": "$graphify-root$_content_device_notes_mac_mac_pro_intel_2019_mac_pro_intel_2019", "label": "Mac Pro (Intel, 2019)", "file_type": "document", "node_kind": "heading", "source_file": "content/device-notes/mac/mac-pro-intel-2019.md", "source_location": "L7"}], "edges": [{"source": "$graphify-root$_content_device_notes_mac_mac_pro_intel_2019_md", "target": "$graphify-root$_content_device_notes_mac_mac_pro_intel_2019_mac_pro_intel_2019", "relation": "contains", "confidence": "EXTRACTED", "source_file": "content/device-notes/mac/mac-pro-intel-2019.md", "source_location": "L7", "weight": 1.0}], "input_tokens": 0, "output_tokens": 0}
+{
+	"nodes": [
+		{
+			"id": "$graphify-root$_content_device_notes_mac_mac_pro_intel_2019_md",
+			"label": "mac-pro-intel-2019.md",
+			"file_type": "document",
+			"node_kind": "page",
+			"source_file": "content/device-notes/mac/mac-pro-intel-2019.md",
+			"source_location": "L1",
+			"frontmatter": {
+				"goodToBuy": "unknown",
+				"editorial": "No editorial note has been authored yet.",
+				"tags": "[]"
+			}
+		},
+		{
+			"id": "$graphify-root$_content_device_notes_mac_mac_pro_intel_2019_mac_pro_intel_2019",
+			"label": "Mac Pro (Intel, 2019)",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": "content/device-notes/mac/mac-pro-intel-2019.md",
+			"source_location": "L7"
+		}
+	],
+	"edges": [
+		{
+			"source": "$graphify-root$_content_device_notes_mac_mac_pro_intel_2019_md",
+			"target": "$graphify-root$_content_device_notes_mac_mac_pro_intel_2019_mac_pro_intel_2019",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": "content/device-notes/mac/mac-pro-intel-2019.md",
+			"source_location": "L7",
+			"weight": 1.0
+		}
+	],
+	"input_tokens": 0,
+	"output_tokens": 0
+}

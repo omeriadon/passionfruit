@@ -1,1 +1,101 @@
-{"nodes": [{"id": "$graphify-root$_data_rules_ipad_md", "label": "ipad.md", "file_type": "document", "node_kind": "page", "source_file": "data/rules/ipad.md", "source_location": "L1"}, {"id": "$graphify-root$_data_rules_ipad_ipad_extraction_rules", "label": "iPad extraction rules", "file_type": "document", "node_kind": "heading", "source_file": "data/rules/ipad.md", "source_location": "L1"}, {"id": "$graphify-root$_data_rules_ipad_identity_variants_and_images", "label": "Identity, variants, and images", "file_type": "document", "node_kind": "heading", "source_file": "data/rules/ipad.md", "source_location": "L5"}, {"id": "$graphify-root$_data_rules_ipad_hardware", "label": "Hardware", "file_type": "document", "node_kind": "heading", "source_file": "data/rules/ipad.md", "source_location": "L12"}, {"id": "$graphify-root$_data_rules_ipad_ipad_accessories", "label": "iPad accessories", "file_type": "document", "node_kind": "heading", "source_file": "data/rules/ipad.md", "source_location": "L23"}, {"id": "$graphify-root$_data_rules_ipad_contract_limits", "label": "Contract limits", "file_type": "document", "node_kind": "heading", "source_file": "data/rules/ipad.md", "source_location": "L28"}], "edges": [{"source": "$graphify-root$_data_rules_ipad_md", "target": "$graphify-root$_data_rules_ipad_ipad_extraction_rules", "relation": "contains", "confidence": "EXTRACTED", "source_file": "data/rules/ipad.md", "source_location": "L1", "weight": 1.0}, {"source": "$graphify-root$_data_rules_ipad_ipad_extraction_rules", "target": "$graphify-root$_data_rules_ipad_identity_variants_and_images", "relation": "contains", "confidence": "EXTRACTED", "source_file": "data/rules/ipad.md", "source_location": "L5", "weight": 1.0}, {"source": "$graphify-root$_data_rules_ipad_ipad_extraction_rules", "target": "$graphify-root$_data_rules_ipad_hardware", "relation": "contains", "confidence": "EXTRACTED", "source_file": "data/rules/ipad.md", "source_location": "L12", "weight": 1.0}, {"source": "$graphify-root$_data_rules_ipad_ipad_extraction_rules", "target": "$graphify-root$_data_rules_ipad_ipad_accessories", "relation": "contains", "confidence": "EXTRACTED", "source_file": "data/rules/ipad.md", "source_location": "L23", "weight": 1.0}, {"source": "$graphify-root$_data_rules_ipad_ipad_extraction_rules", "target": "$graphify-root$_data_rules_ipad_contract_limits", "relation": "contains", "confidence": "EXTRACTED", "source_file": "data/rules/ipad.md", "source_location": "L28", "weight": 1.0}], "input_tokens": 0, "output_tokens": 0}
+{
+	"nodes": [
+		{
+			"id": "$graphify-root$_data_rules_ipad_md",
+			"label": "ipad.md",
+			"file_type": "document",
+			"node_kind": "page",
+			"source_file": "data/rules/ipad.md",
+			"source_location": "L1"
+		},
+		{
+			"id": "$graphify-root$_data_rules_ipad_ipad_extraction_rules",
+			"label": "iPad extraction rules",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": "data/rules/ipad.md",
+			"source_location": "L1"
+		},
+		{
+			"id": "$graphify-root$_data_rules_ipad_identity_variants_and_images",
+			"label": "Identity, variants, and images",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": "data/rules/ipad.md",
+			"source_location": "L5"
+		},
+		{
+			"id": "$graphify-root$_data_rules_ipad_hardware",
+			"label": "Hardware",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": "data/rules/ipad.md",
+			"source_location": "L12"
+		},
+		{
+			"id": "$graphify-root$_data_rules_ipad_ipad_accessories",
+			"label": "iPad accessories",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": "data/rules/ipad.md",
+			"source_location": "L23"
+		},
+		{
+			"id": "$graphify-root$_data_rules_ipad_contract_limits",
+			"label": "Contract limits",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": "data/rules/ipad.md",
+			"source_location": "L28"
+		}
+	],
+	"edges": [
+		{
+			"source": "$graphify-root$_data_rules_ipad_md",
+			"target": "$graphify-root$_data_rules_ipad_ipad_extraction_rules",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": "data/rules/ipad.md",
+			"source_location": "L1",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_data_rules_ipad_ipad_extraction_rules",
+			"target": "$graphify-root$_data_rules_ipad_identity_variants_and_images",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": "data/rules/ipad.md",
+			"source_location": "L5",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_data_rules_ipad_ipad_extraction_rules",
+			"target": "$graphify-root$_data_rules_ipad_hardware",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": "data/rules/ipad.md",
+			"source_location": "L12",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_data_rules_ipad_ipad_extraction_rules",
+			"target": "$graphify-root$_data_rules_ipad_ipad_accessories",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": "data/rules/ipad.md",
+			"source_location": "L23",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_data_rules_ipad_ipad_extraction_rules",
+			"target": "$graphify-root$_data_rules_ipad_contract_limits",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": "data/rules/ipad.md",
+			"source_location": "L28",
+			"weight": 1.0
+		}
+	],
+	"input_tokens": 0,
+	"output_tokens": 0
+}

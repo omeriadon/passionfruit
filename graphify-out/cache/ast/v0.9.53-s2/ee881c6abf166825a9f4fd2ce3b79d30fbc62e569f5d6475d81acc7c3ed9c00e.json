@@ -1,1 +1,110 @@
-{"nodes": [{"id": "$graphify-root$_readme_md", "label": "README.md", "file_type": "document", "node_kind": "page", "source_file": "README.md", "source_location": "L1"}, {"id": "$graphify-root$_readme_passionfruit", "label": "passionfruit", "file_type": "document", "node_kind": "heading", "source_file": "README.md", "source_location": "L1"}, {"id": "$graphify-root$_readme_meet_clarus", "label": "Meet Clarus", "file_type": "document", "node_kind": "heading", "source_file": "README.md", "source_location": "L9"}, {"id": "$graphify-root$_readme_helping_us_out", "label": "Helping Us Out", "file_type": "document", "node_kind": "heading", "source_file": "README.md", "source_location": "L15"}, {"id": "$graphify-root$_readme_built_by", "label": "Built By", "file_type": "document", "node_kind": "heading", "source_file": "README.md", "source_location": "L21"}, {"id": "$graphify-root$_readme_disclaimer_asterisks", "label": "Disclaimer/Asterisks", "file_type": "document", "node_kind": "heading", "source_file": "README.md", "source_location": "L24"}], "edges": [{"source": "$graphify-root$_readme_md", "target": "$graphify-root$_readme_passionfruit", "relation": "contains", "confidence": "EXTRACTED", "source_file": "README.md", "source_location": "L1", "weight": 1.0}, {"source": "$graphify-root$_readme_md", "target": "$graphify-root$_start_comparing_devices_md", "relation": "references", "confidence": "EXTRACTED", "source_file": "README.md", "source_location": "L7", "weight": 1.0}, {"source": "$graphify-root$_readme_passionfruit", "target": "$graphify-root$_readme_meet_clarus", "relation": "contains", "confidence": "EXTRACTED", "source_file": "README.md", "source_location": "L9", "weight": 1.0}, {"source": "$graphify-root$_readme_passionfruit", "target": "$graphify-root$_readme_helping_us_out", "relation": "contains", "confidence": "EXTRACTED", "source_file": "README.md", "source_location": "L15", "weight": 1.0}, {"source": "$graphify-root$_readme_helping_us_out", "target": "$graphify-root$_readme_built_by", "relation": "contains", "confidence": "EXTRACTED", "source_file": "README.md", "source_location": "L21", "weight": 1.0}, {"source": "$graphify-root$_readme_helping_us_out", "target": "$graphify-root$_readme_disclaimer_asterisks", "relation": "contains", "confidence": "EXTRACTED", "source_file": "README.md", "source_location": "L24", "weight": 1.0}], "input_tokens": 0, "output_tokens": 0}
+{
+	"nodes": [
+		{
+			"id": "$graphify-root$_readme_md",
+			"label": "README.md",
+			"file_type": "document",
+			"node_kind": "page",
+			"source_file": "README.md",
+			"source_location": "L1"
+		},
+		{
+			"id": "$graphify-root$_readme_passionfruit",
+			"label": "passionfruit",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": "README.md",
+			"source_location": "L1"
+		},
+		{
+			"id": "$graphify-root$_readme_meet_clarus",
+			"label": "Meet Clarus",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": "README.md",
+			"source_location": "L9"
+		},
+		{
+			"id": "$graphify-root$_readme_helping_us_out",
+			"label": "Helping Us Out",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": "README.md",
+			"source_location": "L15"
+		},
+		{
+			"id": "$graphify-root$_readme_built_by",
+			"label": "Built By",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": "README.md",
+			"source_location": "L21"
+		},
+		{
+			"id": "$graphify-root$_readme_disclaimer_asterisks",
+			"label": "Disclaimer/Asterisks",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": "README.md",
+			"source_location": "L24"
+		}
+	],
+	"edges": [
+		{
+			"source": "$graphify-root$_readme_md",
+			"target": "$graphify-root$_readme_passionfruit",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": "README.md",
+			"source_location": "L1",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_readme_md",
+			"target": "$graphify-root$_start_comparing_devices_md",
+			"relation": "references",
+			"confidence": "EXTRACTED",
+			"source_file": "README.md",
+			"source_location": "L7",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_readme_passionfruit",
+			"target": "$graphify-root$_readme_meet_clarus",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": "README.md",
+			"source_location": "L9",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_readme_passionfruit",
+			"target": "$graphify-root$_readme_helping_us_out",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": "README.md",
+			"source_location": "L15",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_readme_helping_us_out",
+			"target": "$graphify-root$_readme_built_by",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": "README.md",
+			"source_location": "L21",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_readme_helping_us_out",
+			"target": "$graphify-root$_readme_disclaimer_asterisks",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": "README.md",
+			"source_location": "L24",
+			"weight": 1.0
+		}
+	],
+	"input_tokens": 0,
+	"output_tokens": 0
+}

@@ -1,620 +1,620 @@
 {
-  ".githooks/format-all": {
-    "mtime": 1787660031.5907836,
-    "seen": 1789387922.713402,
-    "ast_hash": "5c37dd49a8778f957ba54d6a3ca90166",
-    "semantic_hash": "5c37dd49a8778f957ba54d6a3ca90166"
-  },
-  ".githooks/pre-commit": {
-    "mtime": 1787660031.5909503,
-    "seen": 1789387922.713404,
-    "ast_hash": "82bfd5ec9693757ab52850483c5b2837",
-    "semantic_hash": "82bfd5ec9693757ab52850483c5b2837"
-  },
-  ".githooks/pre-push": {
-    "mtime": 1787660031.5910466,
-    "seen": 1789387922.7134058,
-    "ast_hash": "82bfd5ec9693757ab52850483c5b2837",
-    "semantic_hash": "82bfd5ec9693757ab52850483c5b2837"
-  },
-  ".opencode/opencode.json": {
-    "mtime": 1789387807.111924,
-    "seen": 1789387922.713407,
-    "ast_hash": "abcc8b9dcd80bca5f9dde6d9f0c3ae79",
-    "semantic_hash": "abcc8b9dcd80bca5f9dde6d9f0c3ae79"
-  },
-  ".opencode/plugins/graphify.js": {
-    "mtime": 1789387807.111821,
-    "seen": 1789387922.713407,
-    "ast_hash": "3ea725724bc8ebe483c9f13d6aa1124f",
-    "semantic_hash": "3ea725724bc8ebe483c9f13d6aa1124f"
-  },
-  ".scratch/image-audit/images.json": {
-    "mtime": 1787469377.2514164,
-    "seen": 1789387922.713408,
-    "ast_hash": "83b761c93e529598025826733a08357f",
-    "semantic_hash": "83b761c93e529598025826733a08357f"
-  },
-  ".scratch/merge-audits/accessory-schema-validation.json": {
-    "mtime": 1787482180.207894,
-    "seen": 1789387922.713409,
-    "ast_hash": "7f9ffcb01a013e6b0db25e67feefb4ab",
-    "semantic_hash": "7f9ffcb01a013e6b0db25e67feefb4ab"
-  },
-  ".scratch/merge-audits/final-validation-report.json": {
-    "mtime": 1787660031.591809,
-    "seen": 1789387922.713409,
-    "ast_hash": "f4ee365a0abb093fd6b4b2e7ce2565c7",
-    "semantic_hash": "f4ee365a0abb093fd6b4b2e7ce2565c7"
-  },
-  ".scratch/merge-audits/image-verification.json": {
-    "mtime": 1787469377.3361993,
-    "seen": 1789387922.7134101,
-    "ast_hash": "2b86ea0990f9fa72a30815d41478da31",
-    "semantic_hash": "2b86ea0990f9fa72a30815d41478da31"
-  },
-  ".scratch/merge-audits/json/canonical-validation.json": {
-    "mtime": 1787469377.3609657,
-    "seen": 1789387922.713411,
-    "ast_hash": "8b4ea5ea447b15381407f65b8e7afefb",
-    "semantic_hash": "8b4ea5ea447b15381407f65b8e7afefb"
-  },
-  ".scratch/merge-audits/json/image-integrity.json": {
-    "mtime": 1787469377.3765976,
-    "seen": 1789387922.713411,
-    "ast_hash": "393930812e8f4ec29ad04401afca0871",
-    "semantic_hash": "393930812e8f4ec29ad04401afca0871"
-  },
-  ".scratch/strict/airpods/strict-devices.json": {
-    "mtime": 1787469377.8099542,
-    "seen": 1789387922.713412,
-    "ast_hash": "8f9d7f9881166f57cd202667709f6a14",
-    "semantic_hash": "8f9d7f9881166f57cd202667709f6a14"
-  },
-  ".scratch/strict/apple-tv/apple-tv.devices.json": {
-    "mtime": 1787469377.8152385,
-    "seen": 1789387922.7134132,
-    "ast_hash": "295cd899c16702233660b12f27040c90",
-    "semantic_hash": "295cd899c16702233660b12f27040c90"
-  },
-  ".scratch/strict/apple-tv/apple-tv.images.json": {
-    "mtime": 1787469377.817735,
-    "seen": 1789387922.7134132,
-    "ast_hash": "7f69d7d6698da782838a2131898ba6cf",
-    "semantic_hash": "7f69d7d6698da782838a2131898ba6cf"
-  },
-  ".scratch/strict/apple-watch/remaining-devices.json": {
-    "mtime": 1787469377.8509169,
-    "seen": 1789387922.713414,
-    "ast_hash": "d5694b5b5afdc2d904c924d3a62bd299",
-    "semantic_hash": "d5694b5b5afdc2d904c924d3a62bd299"
-  },
-  ".scratch/strict/homepod/strict-devices.json": {
-    "mtime": 1787469377.9739726,
-    "seen": 1789387922.713414,
-    "ast_hash": "d8a4c20e497ea0f0f02fee2100e08335",
-    "semantic_hash": "d8a4c20e497ea0f0f02fee2100e08335"
-  },
-  ".scratch/strict/ipad/strict-devices.json": {
-    "mtime": 1787465421.7880926,
-    "seen": 1789387922.713415,
-    "ast_hash": "ae3d876a8176eccb509a9c7865354491",
-    "semantic_hash": "ae3d876a8176eccb509a9c7865354491"
-  },
-  ".scratch/strict/ipad/strict-devices.merge-ready.json": {
-    "mtime": 1787469378.1130266,
-    "seen": 1789387922.7134159,
-    "ast_hash": "f545f7b1573c2fa6b7afc527894bbb4c",
-    "semantic_hash": "f545f7b1573c2fa6b7afc527894bbb4c"
-  },
-  ".scratch/strict/iphone/remaining-devices.json": {
-    "mtime": 1787469378.18709,
-    "seen": 1789387922.7134159,
-    "ast_hash": "1b47cff5cc0bd72bf9dac18ec61b4ace",
-    "semantic_hash": "1b47cff5cc0bd72bf9dac18ec61b4ace"
-  },
-  ".scratch/strict/iphone/strict-devices.json": {
-    "mtime": 1787463907.3531547,
-    "seen": 1789387922.713417,
-    "ast_hash": "d4dc5c364f41a8334ef461a89b90b18d",
-    "semantic_hash": "d4dc5c364f41a8334ef461a89b90b18d"
-  },
-  ".scratch/strict/mac/mac-legacy-2020-2021.json": {
-    "mtime": 1787482326.8614686,
-    "seen": 1789387922.713418,
-    "ast_hash": "8ab7f41dd9b0c32a81aff8d7a44b8b7d",
-    "semantic_hash": "8ab7f41dd9b0c32a81aff8d7a44b8b7d"
-  },
-  ".scratch/strict/mac/mac-modern-remaining.json": {
-    "mtime": 1787479764.1236382,
-    "seen": 1789387922.713418,
-    "ast_hash": "cc7a10007244706296b44833a6d189c8",
-    "semantic_hash": "cc7a10007244706296b44833a6d189c8"
-  },
-  ".scratch/strict/mac/remaining-devices.json": {
-    "mtime": 1787470463.9451501,
-    "seen": 1789387922.713419,
-    "ast_hash": "1493147e06c3251cfce220cb59b63af1",
-    "semantic_hash": "1493147e06c3251cfce220cb59b63af1"
-  },
-  ".scratch/strict/mac/strict-devices.json": {
-    "mtime": 1787469378.434035,
-    "seen": 1789387922.71342,
-    "ast_hash": "ab5f02ef962685e84a8fac3bb7121f2f",
-    "semantic_hash": "ab5f02ef962685e84a8fac3bb7121f2f"
-  },
-  ".scratch/strict/vision/strict-devices.json": {
-    "mtime": 1787660031.5921867,
-    "seen": 1789387922.71342,
-    "ast_hash": "eaa5468e95d0c15b2e4e40c86f1b3ceb",
-    "semantic_hash": "eaa5468e95d0c15b2e4e40c86f1b3ceb"
-  },
-  ".scratch/strict/watch/strict-devices.json": {
-    "mtime": 1787469378.6771848,
-    "seen": 1789387922.713421,
-    "ast_hash": "c643ae64327c92396834ad53c9ffeee8",
-    "semantic_hash": "c643ae64327c92396834ad53c9ffeee8"
-  },
-  ".vscode/settings.json": {
-    "mtime": 1787493127.683049,
-    "seen": 1789387922.713421,
-    "ast_hash": "3d09eb01091bb4fbefbbb658d5a2e6ee",
-    "semantic_hash": "3d09eb01091bb4fbefbbb658d5a2e6ee"
-  },
-  "content/docs/account/meta.json": {
-    "mtime": 1787748619.6526392,
-    "seen": 1789387922.713422,
-    "ast_hash": "3eea11bd1a6a487c9ebac24dfbe9d892",
-    "semantic_hash": "3eea11bd1a6a487c9ebac24dfbe9d892"
-  },
-  "content/docs/airpods/meta.json": {
-    "mtime": 1787654212.924199,
-    "seen": 1789387922.713423,
-    "ast_hash": "e57a5bd5ffcfd318e61481b2a9d8b3e5",
-    "semantic_hash": "e57a5bd5ffcfd318e61481b2a9d8b3e5"
-  },
-  "content/docs/apple-tv/meta.json": {
-    "mtime": 1787654212.924411,
-    "seen": 1789387922.713423,
-    "ast_hash": "e57a5bd5ffcfd318e61481b2a9d8b3e5",
-    "semantic_hash": "e57a5bd5ffcfd318e61481b2a9d8b3e5"
-  },
-  "content/docs/apple-watch/meta.json": {
-    "mtime": 1787654212.9247968,
-    "seen": 1789387922.713424,
-    "ast_hash": "e57a5bd5ffcfd318e61481b2a9d8b3e5",
-    "semantic_hash": "e57a5bd5ffcfd318e61481b2a9d8b3e5"
-  },
-  "content/docs/homepod/meta.json": {
-    "mtime": 1787654212.9249918,
-    "seen": 1789387922.713425,
-    "ast_hash": "e57a5bd5ffcfd318e61481b2a9d8b3e5",
-    "semantic_hash": "e57a5bd5ffcfd318e61481b2a9d8b3e5"
-  },
-  "content/docs/ipad/meta.json": {
-    "mtime": 1787654212.9255745,
-    "seen": 1789387922.713425,
-    "ast_hash": "e57a5bd5ffcfd318e61481b2a9d8b3e5",
-    "semantic_hash": "e57a5bd5ffcfd318e61481b2a9d8b3e5"
-  },
-  "content/docs/iphone/meta.json": {
-    "mtime": 1787654212.9261014,
-    "seen": 1789387922.7134259,
-    "ast_hash": "e57a5bd5ffcfd318e61481b2a9d8b3e5",
-    "semantic_hash": "e57a5bd5ffcfd318e61481b2a9d8b3e5"
-  },
-  "content/docs/mac/meta.json": {
-    "mtime": 1787654212.9263003,
-    "seen": 1789387922.7134268,
-    "ast_hash": "e57a5bd5ffcfd318e61481b2a9d8b3e5",
-    "semantic_hash": "e57a5bd5ffcfd318e61481b2a9d8b3e5"
-  },
-  "content/docs/vision/meta.json": {
-    "mtime": 1787654212.9265075,
-    "seen": 1789387922.7134268,
-    "ast_hash": "e57a5bd5ffcfd318e61481b2a9d8b3e5",
-    "semantic_hash": "e57a5bd5ffcfd318e61481b2a9d8b3e5"
-  },
-  "next.config.mjs": {
-    "mtime": 1787654212.927008,
-    "seen": 1789387922.713428,
-    "ast_hash": "89b1c34d9604d89fbdb9d303d9bd40f7",
-    "semantic_hash": "89b1c34d9604d89fbdb9d303d9bd40f7"
-  },
-  "package.json": {
-    "mtime": 1787660031.5943482,
-    "seen": 1789387922.713428,
-    "ast_hash": "5e82bb3f64755f2b487dd3b92c82be0e",
-    "semantic_hash": "5e82bb3f64755f2b487dd3b92c82be0e"
-  },
-  "postcss.config.mjs": {
-    "mtime": 1787388516.9497004,
-    "seen": 1789387922.713429,
-    "ast_hash": "358ba0479b6b3f4b3a2304f3caf81c2b",
-    "semantic_hash": "358ba0479b6b3f4b3a2304f3caf81c2b"
-  },
-  "proxy.ts": {
-    "mtime": 1787388516.9816265,
-    "seen": 1789387922.71343,
-    "ast_hash": "dd329aab73b4d66dfd3287bacb05c4fc",
-    "semantic_hash": "dd329aab73b4d66dfd3287bacb05c4fc"
-  },
-  "public/data/airpods/airpods.json": {
-    "mtime": 1789387468.9493124,
-    "seen": 1789387922.71343,
-    "ast_hash": "87a763c0234c200c26d5fc2280ba79af",
-    "semantic_hash": "87a763c0234c200c26d5fc2280ba79af"
-  },
-  "public/data/airpods/airpods.schema.json": {
-    "mtime": 1787493011.7381194,
-    "seen": 1789387922.7134311,
-    "ast_hash": "50203354f551a3188a260bd37e7a45fd",
-    "semantic_hash": "50203354f551a3188a260bd37e7a45fd"
-  },
-  "public/data/apple-tv/apple-tv.json": {
-    "mtime": 1787493503.6286345,
-    "seen": 1789387922.7134311,
-    "ast_hash": "59690a5bb520bbb1e07a220572851251",
-    "semantic_hash": "59690a5bb520bbb1e07a220572851251"
-  },
-  "public/data/apple-tv/apple-tv.schema.json": {
-    "mtime": 1787543035.0531962,
-    "seen": 1789387922.713432,
-    "ast_hash": "1a41916f9144b212b8e6f485fc606df8",
-    "semantic_hash": "1a41916f9144b212b8e6f485fc606df8"
-  },
-  "public/data/apple-watch/apple-watch.json": {
-    "mtime": 1787654208.2726896,
-    "seen": 1789387922.713433,
-    "ast_hash": "04fc8767d7034f1299725c9801687b4d",
-    "semantic_hash": "04fc8767d7034f1299725c9801687b4d"
-  },
-  "public/data/apple-watch/apple-watch.schema.json": {
-    "mtime": 1787493011.898883,
-    "seen": 1789387922.713433,
-    "ast_hash": "35b52deeaeaa05a3da49c88267f54db2",
-    "semantic_hash": "35b52deeaeaa05a3da49c88267f54db2"
-  },
-  "public/data/homepod/homepod.json": {
-    "mtime": 1787494694.6271288,
-    "seen": 1789387922.7134342,
-    "ast_hash": "7dea995e37af367d201e384f54351886",
-    "semantic_hash": "7dea995e37af367d201e384f54351886"
-  },
-  "public/data/homepod/homepod.schema.json": {
-    "mtime": 1787493012.0837245,
-    "seen": 1789387922.713435,
-    "ast_hash": "917f09700aeeecd4215f579a76bedd99",
-    "semantic_hash": "917f09700aeeecd4215f579a76bedd99"
-  },
-  "public/data/ipad/ipad.json": {
-    "mtime": 1787654208.273336,
-    "seen": 1789387922.713435,
-    "ast_hash": "ff5cdc4febc99f9777d6241e8cfd4117",
-    "semantic_hash": "ff5cdc4febc99f9777d6241e8cfd4117"
-  },
-  "public/data/ipad/ipad.schema.json": {
-    "mtime": 1787493012.2493725,
-    "seen": 1789387922.713436,
-    "ast_hash": "c89cc98a8b4fa83d29dcda0b23618b5c",
-    "semantic_hash": "c89cc98a8b4fa83d29dcda0b23618b5c"
-  },
-  "public/data/iphone/iphone.json": {
-    "mtime": 1787493268.3615122,
-    "seen": 1789387922.713436,
-    "ast_hash": "cb96fcbc1458f153e1f9d2b12ee10332",
-    "semantic_hash": "cb96fcbc1458f153e1f9d2b12ee10332"
-  },
-  "public/data/iphone/iphone.schema.json": {
-    "mtime": 1787493777.3006492,
-    "seen": 1789387922.7134368,
-    "ast_hash": "21212cbfe77eb28410c6df5ce0e350af",
-    "semantic_hash": "21212cbfe77eb28410c6df5ce0e350af"
-  },
-  "public/data/mac/mac.json": {
-    "mtime": 1787495510.8860614,
-    "seen": 1789387922.7134368,
-    "ast_hash": "49612aa2892d84b16b95150fdd0b55f2",
-    "semantic_hash": "49612aa2892d84b16b95150fdd0b55f2"
-  },
-  "public/data/mac/mac.schema.json": {
-    "mtime": 1787546432.65643,
-    "seen": 1789387922.713438,
-    "ast_hash": "642c3f2b49ea75013cfffd1497caa300",
-    "semantic_hash": "642c3f2b49ea75013cfffd1497caa300"
-  },
-  "public/data/other/apple-display/apple-display.json": {
-    "mtime": 1787654208.2745376,
-    "seen": 1789387922.713439,
-    "ast_hash": "289fd86d08b07222af8c9eaabe0ba904",
-    "semantic_hash": "289fd86d08b07222af8c9eaabe0ba904"
-  },
-  "public/data/other/apple-display/apple-display.schema.json": {
-    "mtime": 1787654208.275316,
-    "seen": 1789387922.713439,
-    "ast_hash": "1eb2086511055d675313cc5b62ad0a5e",
-    "semantic_hash": "1eb2086511055d675313cc5b62ad0a5e"
-  },
-  "public/data/other/apple-pencil/apple-pencil.json": {
-    "mtime": 1787546755.8914108,
-    "seen": 1789387922.71344,
-    "ast_hash": "981243d566832f6fc7d24313c682582b",
-    "semantic_hash": "981243d566832f6fc7d24313c682582b"
-  },
-  "public/data/other/apple-pencil/apple-pencil.schema.json": {
-    "mtime": 1787546351.9778156,
-    "seen": 1789387922.71344,
-    "ast_hash": "56a84c7eb0bea1d33f9a93acb6942cad",
-    "semantic_hash": "56a84c7eb0bea1d33f9a93acb6942cad"
-  },
-  "public/data/other/magic-keyboard/magic-keyboard.json": {
-    "mtime": 1787494396.9226763,
-    "seen": 1789387922.7134411,
-    "ast_hash": "04a0042392a888cdd428ccc939de6f23",
-    "semantic_hash": "04a0042392a888cdd428ccc939de6f23"
-  },
-  "public/data/other/magic-keyboard/magic-keyboard.schema.json": {
-    "mtime": 1787493901.221348,
-    "seen": 1789387922.713442,
-    "ast_hash": "6b7104f9899b355bae90ecb06887feb8",
-    "semantic_hash": "6b7104f9899b355bae90ecb06887feb8"
-  },
-  "public/data/templates/airpods.template.json": {
-    "mtime": 1787495710.5114484,
-    "seen": 1789387922.713442,
-    "ast_hash": "8f02fad95b6a1016831befac650a9e59",
-    "semantic_hash": "8f02fad95b6a1016831befac650a9e59"
-  },
-  "public/data/templates/apple-pencil.template.json": {
-    "mtime": 1787495710.512501,
-    "seen": 1789387922.713443,
-    "ast_hash": "3c38007702973f529fc3ce94ddd94e73",
-    "semantic_hash": "3c38007702973f529fc3ce94ddd94e73"
-  },
-  "public/data/templates/apple-tv.template.json": {
-    "mtime": 1787495710.5116494,
-    "seen": 1789387922.713443,
-    "ast_hash": "9613c8f2c74f65d4e603b5ffa67d1ae0",
-    "semantic_hash": "9613c8f2c74f65d4e603b5ffa67d1ae0"
-  },
-  "public/data/templates/apple-watch.template.json": {
-    "mtime": 1787495710.5117888,
-    "seen": 1789387922.713444,
-    "ast_hash": "de26f889552b04af76c7e202cee06903",
-    "semantic_hash": "de26f889552b04af76c7e202cee06903"
-  },
-  "public/data/templates/homepod.template.json": {
-    "mtime": 1787561809.0224514,
-    "seen": 1789387922.7134452,
-    "ast_hash": "d5accfaf21e07189538bceb7018b1e81",
-    "semantic_hash": "d5accfaf21e07189538bceb7018b1e81"
-  },
-  "public/data/templates/ipad.template.json": {
-    "mtime": 1787571735.8556218,
-    "seen": 1789387922.7134452,
-    "ast_hash": "e4d6233bd9e060df2ecfaa0437b5b896",
-    "semantic_hash": "e4d6233bd9e060df2ecfaa0437b5b896"
-  },
-  "public/data/templates/iphone.template.json": {
-    "mtime": 1787563989.0596495,
-    "seen": 1789387922.713446,
-    "ast_hash": "b9d5d3efbe2561cf699515371fe0fc59",
-    "semantic_hash": "b9d5d3efbe2561cf699515371fe0fc59"
-  },
-  "public/data/templates/mac.template.json": {
-    "mtime": 1787576805.6705468,
-    "seen": 1789387922.713446,
-    "ast_hash": "fe652febff7476980f1ac3c643aa687f",
-    "semantic_hash": "fe652febff7476980f1ac3c643aa687f"
-  },
-  "public/data/templates/magic-keyboard.template.json": {
-    "mtime": 1787546623.8197541,
-    "seen": 1789387922.7134469,
-    "ast_hash": "32d9dfa323491d21112749c9940a18ed",
-    "semantic_hash": "32d9dfa323491d21112749c9940a18ed"
-  },
-  "public/data/templates/vision.template.json": {
-    "mtime": 1787495710.512384,
-    "seen": 1789387922.713448,
-    "ast_hash": "ca1a43872db07e8a378f407a724615dd",
-    "semantic_hash": "ca1a43872db07e8a378f407a724615dd"
-  },
-  "public/data/vision/vision.json": {
-    "mtime": 1787660031.594706,
-    "seen": 1789387922.713448,
-    "ast_hash": "384ad79fc40f2bc98ede3c2f8ebac36a",
-    "semantic_hash": "384ad79fc40f2bc98ede3c2f8ebac36a"
-  },
-  "public/data/vision/vision.schema.json": {
-    "mtime": 1787660031.5951736,
-    "seen": 1789387922.713449,
-    "ast_hash": "28bc417f30b6c480df3754d914bd1e6c",
-    "semantic_hash": "28bc417f30b6c480df3754d914bd1e6c"
-  },
-  "scripts/check-catalog-routes.mjs": {
-    "mtime": 1787654212.927991,
-    "seen": 1789387922.713449,
-    "ast_hash": "9cea10a97ece0fea6a7c14cbf9ae0127",
-    "semantic_hash": "9cea10a97ece0fea6a7c14cbf9ae0127"
-  },
-  "scripts/validate-data.mjs": {
-    "mtime": 1787654208.2757988,
-    "seen": 1789387922.71345,
-    "ast_hash": "b1332bb3975d26f680e7a7e58bbf5cd8",
-    "semantic_hash": "b1332bb3975d26f680e7a7e58bbf5cd8"
-  },
-  "src/app/(home)/layout.tsx": {
-    "mtime": 1787656084.9153957,
-    "seen": 1789387922.71345,
-    "ast_hash": "2306adc72a30a429100bd922527c8f26",
-    "semantic_hash": "2306adc72a30a429100bd922527c8f26"
-  },
-  "src/app/(home)/page.tsx": {
-    "mtime": 1787574351.796016,
-    "seen": 1789387922.713451,
-    "ast_hash": "8493bb395d5056292af617131237720d",
-    "semantic_hash": "8493bb395d5056292af617131237720d"
-  },
-  "src/app/api/search/route.ts": {
-    "mtime": 1787570586.2876706,
-    "seen": 1789387922.713452,
-    "ast_hash": "7d77d891aef82f675eb7020cee8c4d63",
-    "semantic_hash": "7d77d891aef82f675eb7020cee8c4d63"
-  },
-  "src/app/docs/[[...slug]]/page.tsx": {
-    "mtime": 1787742849.9326053,
-    "seen": 1789387922.713452,
-    "ast_hash": "85d15949f7f9aa9f28084cdef598399a",
-    "semantic_hash": "85d15949f7f9aa9f28084cdef598399a"
-  },
-  "src/app/docs/layout.tsx": {
-    "mtime": 1787748635.6100707,
-    "seen": 1789387922.713453,
-    "ast_hash": "97543e8581092638062d1488e17a624a",
-    "semantic_hash": "97543e8581092638062d1488e17a624a"
-  },
-  "src/app/layout.tsx": {
-    "mtime": 1787743179.8151996,
-    "seen": 1789387922.713454,
-    "ast_hash": "f8e1a4d20588df446c99e1e8b49ed2a3",
-    "semantic_hash": "f8e1a4d20588df446c99e1e8b49ed2a3"
-  },
-  "src/app/llms-full.txt/route.ts": {
-    "mtime": 1787572596.1242847,
-    "seen": 1789387922.7134552,
-    "ast_hash": "994b9ace47a970018ea6f7b27bd697bf",
-    "semantic_hash": "994b9ace47a970018ea6f7b27bd697bf"
-  },
-  "src/app/llms.mdx/docs/[[...slug]]/route.ts": {
-    "mtime": 1787652361.8874116,
-    "seen": 1789387922.7134552,
-    "ast_hash": "826d8480e804840d90c04cfe1429e11e",
-    "semantic_hash": "826d8480e804840d90c04cfe1429e11e"
-  },
-  "src/app/llms.txt/route.ts": {
-    "mtime": 1787568021.4809031,
-    "seen": 1789387922.7134562,
-    "ast_hash": "d9745e22662a3a26b4a6b4e206eeaf44",
-    "semantic_hash": "d9745e22662a3a26b4a6b4e206eeaf44"
-  },
-  "src/app/og/docs/[...slug]/route.tsx": {
-    "mtime": 1787741927.0802386,
-    "seen": 1789387922.7134562,
-    "ast_hash": "dc4d903f5cc1c5ab78becd589665c3e0",
-    "semantic_hash": "dc4d903f5cc1c5ab78becd589665c3e0"
-  },
-  "src/components/auth/AccountButton.tsx": {
-    "mtime": 1787659809.8138008,
-    "seen": 1789387922.7134569,
-    "ast_hash": "f8f5f1e06ea0e63d501aae8fafedb2c2",
-    "semantic_hash": "f8f5f1e06ea0e63d501aae8fafedb2c2"
-  },
-  "src/components/auth/AuthDialog.tsx": {
-    "mtime": 1787660101.9859827,
-    "seen": 1789387922.7134578,
-    "ast_hash": "de2a181f160a8cea1ea2a5d1d74cd56a",
-    "semantic_hash": "de2a181f160a8cea1ea2a5d1d74cd56a"
-  },
-  "src/components/auth/GlassAccountHeader.tsx": {
-    "mtime": 1787750213.0450149,
-    "seen": 1789387922.713459,
-    "ast_hash": "8bebede766bab418e3a9a1076f04d00d",
-    "semantic_hash": "8bebede766bab418e3a9a1076f04d00d"
-  },
-  "src/components/catalog/AccessoryCatalog.tsx": {
-    "mtime": 1787654212.9300392,
-    "seen": 1789387922.71346,
-    "ast_hash": "c278a6a2b2f7b778ca3cc9b47f49a65c",
-    "semantic_hash": "c278a6a2b2f7b778ca3cc9b47f49a65c"
-  },
-  "src/components/catalog/CatalogCategory.tsx": {
-    "mtime": 1787654212.9301255,
-    "seen": 1789387922.71346,
-    "ast_hash": "cc2125317c5e2b1c37ffb7e1b4185d37",
-    "semantic_hash": "cc2125317c5e2b1c37ffb7e1b4185d37"
-  },
-  "src/components/catalog/CatalogTable.tsx": {
-    "mtime": 1787654212.9302173,
-    "seen": 1789387922.713461,
-    "ast_hash": "8d9321ef160a69c1d9fb9bf880669838",
-    "semantic_hash": "8d9321ef160a69c1d9fb9bf880669838"
-  },
-  "src/components/catalog/DeviceDetail.tsx": {
-    "mtime": 1787746637.077711,
-    "seen": 1789387922.713461,
-    "ast_hash": "8e580ef2ccb5d8a32b30d834b5551c8c",
-    "semantic_hash": "8e580ef2ccb5d8a32b30d834b5551c8c"
-  },
-  "src/components/catalog/OtherCatalog.tsx": {
-    "mtime": 1787654212.9304287,
-    "seen": 1789387922.713462,
-    "ast_hash": "0f7a586cf1232724e3c3a98637927886",
-    "semantic_hash": "0f7a586cf1232724e3c3a98637927886"
-  },
-  "src/components/mdx.tsx": {
-    "mtime": 1787566736.1709723,
-    "seen": 1789387922.713463,
-    "ast_hash": "8912d9a82875cc19e30a1dc08286b6c4",
-    "semantic_hash": "8912d9a82875cc19e30a1dc08286b6c4"
-  },
-  "src/lib/auth/AuthProvider.tsx": {
-    "mtime": 1787654212.9306705,
-    "seen": 1789387922.713463,
-    "ast_hash": "072a9fe820737d6039472cce43cf86e8",
-    "semantic_hash": "072a9fe820737d6039472cce43cf86e8"
-  },
-  "src/lib/auth/api.ts": {
-    "mtime": 1787660373.1402829,
-    "seen": 1789387922.713464,
-    "ast_hash": "be6c85d6f27f56ec7e437662c206141d",
-    "semantic_hash": "be6c85d6f27f56ec7e437662c206141d"
-  },
-  "src/lib/catalog/config.ts": {
-    "mtime": 1787654212.9310093,
-    "seen": 1789387922.713464,
-    "ast_hash": "53e3465b8d7e5532c96cb3e1afcdf398",
-    "semantic_hash": "53e3465b8d7e5532c96cb3e1afcdf398"
-  },
-  "src/lib/catalog/types.ts": {
-    "mtime": 1787745478.8384557,
-    "seen": 1789387922.713465,
-    "ast_hash": "2c84963bc89f9f673432ee88eda23b46",
-    "semantic_hash": "2c84963bc89f9f673432ee88eda23b46"
-  },
-  "src/lib/cn.ts": {
-    "mtime": 1787546816.942817,
-    "seen": 1789387922.7134662,
-    "ast_hash": "d93aa8ed3398bfcca78ba2d9be6ae20c",
-    "semantic_hash": "d93aa8ed3398bfcca78ba2d9be6ae20c"
-  },
-  "src/lib/device-notes.ts": {
-    "mtime": 1787654212.9312952,
-    "seen": 1789387922.7134662,
-    "ast_hash": "ca6a9145ab508195fadf143ea11d6e6b",
-    "semantic_hash": "ca6a9145ab508195fadf143ea11d6e6b"
-  },
-  "src/lib/layout.shared.tsx": {
-    "mtime": 1787660365.5475395,
-    "seen": 1789387922.713467,
-    "ast_hash": "ea735cfe9951059ada8fca21092f3812",
-    "semantic_hash": "ea735cfe9951059ada8fca21092f3812"
-  },
-  "src/lib/shared.ts": {
-    "mtime": 1787744656.7255805,
-    "seen": 1789387922.713467,
-    "ast_hash": "a78e778bdf6ddf4483c5f9a98ced7a75",
-    "semantic_hash": "a78e778bdf6ddf4483c5f9a98ced7a75"
-  },
-  "src/lib/source.ts": {
-    "mtime": 1787834585.3815978,
-    "seen": 1789387922.7134678,
-    "ast_hash": "71423f60786646e9d0384b976aca918f",
-    "semantic_hash": "71423f60786646e9d0384b976aca918f"
-  },
-  "tsconfig.json": {
-    "mtime": 1787388517.1064014,
-    "seen": 1789387922.713469,
-    "ast_hash": "fda83561d333f81baf863bf1d42aba79",
-    "semantic_hash": "fda83561d333f81baf863bf1d42aba79"
-  }
+	".githooks/format-all": {
+		"mtime": 1787660031.5907836,
+		"seen": 1789387922.713402,
+		"ast_hash": "5c37dd49a8778f957ba54d6a3ca90166",
+		"semantic_hash": "5c37dd49a8778f957ba54d6a3ca90166"
+	},
+	".githooks/pre-commit": {
+		"mtime": 1787660031.5909503,
+		"seen": 1789387922.713404,
+		"ast_hash": "82bfd5ec9693757ab52850483c5b2837",
+		"semantic_hash": "82bfd5ec9693757ab52850483c5b2837"
+	},
+	".githooks/pre-push": {
+		"mtime": 1787660031.5910466,
+		"seen": 1789387922.7134058,
+		"ast_hash": "82bfd5ec9693757ab52850483c5b2837",
+		"semantic_hash": "82bfd5ec9693757ab52850483c5b2837"
+	},
+	".opencode/opencode.json": {
+		"mtime": 1789387807.111924,
+		"seen": 1789387922.713407,
+		"ast_hash": "abcc8b9dcd80bca5f9dde6d9f0c3ae79",
+		"semantic_hash": "abcc8b9dcd80bca5f9dde6d9f0c3ae79"
+	},
+	".opencode/plugins/graphify.js": {
+		"mtime": 1789387807.111821,
+		"seen": 1789387922.713407,
+		"ast_hash": "3ea725724bc8ebe483c9f13d6aa1124f",
+		"semantic_hash": "3ea725724bc8ebe483c9f13d6aa1124f"
+	},
+	".scratch/image-audit/images.json": {
+		"mtime": 1787469377.2514164,
+		"seen": 1789387922.713408,
+		"ast_hash": "83b761c93e529598025826733a08357f",
+		"semantic_hash": "83b761c93e529598025826733a08357f"
+	},
+	".scratch/merge-audits/accessory-schema-validation.json": {
+		"mtime": 1787482180.207894,
+		"seen": 1789387922.713409,
+		"ast_hash": "7f9ffcb01a013e6b0db25e67feefb4ab",
+		"semantic_hash": "7f9ffcb01a013e6b0db25e67feefb4ab"
+	},
+	".scratch/merge-audits/final-validation-report.json": {
+		"mtime": 1787660031.591809,
+		"seen": 1789387922.713409,
+		"ast_hash": "f4ee365a0abb093fd6b4b2e7ce2565c7",
+		"semantic_hash": "f4ee365a0abb093fd6b4b2e7ce2565c7"
+	},
+	".scratch/merge-audits/image-verification.json": {
+		"mtime": 1787469377.3361993,
+		"seen": 1789387922.7134101,
+		"ast_hash": "2b86ea0990f9fa72a30815d41478da31",
+		"semantic_hash": "2b86ea0990f9fa72a30815d41478da31"
+	},
+	".scratch/merge-audits/json/canonical-validation.json": {
+		"mtime": 1787469377.3609657,
+		"seen": 1789387922.713411,
+		"ast_hash": "8b4ea5ea447b15381407f65b8e7afefb",
+		"semantic_hash": "8b4ea5ea447b15381407f65b8e7afefb"
+	},
+	".scratch/merge-audits/json/image-integrity.json": {
+		"mtime": 1787469377.3765976,
+		"seen": 1789387922.713411,
+		"ast_hash": "393930812e8f4ec29ad04401afca0871",
+		"semantic_hash": "393930812e8f4ec29ad04401afca0871"
+	},
+	".scratch/strict/airpods/strict-devices.json": {
+		"mtime": 1787469377.8099542,
+		"seen": 1789387922.713412,
+		"ast_hash": "8f9d7f9881166f57cd202667709f6a14",
+		"semantic_hash": "8f9d7f9881166f57cd202667709f6a14"
+	},
+	".scratch/strict/apple-tv/apple-tv.devices.json": {
+		"mtime": 1787469377.8152385,
+		"seen": 1789387922.7134132,
+		"ast_hash": "295cd899c16702233660b12f27040c90",
+		"semantic_hash": "295cd899c16702233660b12f27040c90"
+	},
+	".scratch/strict/apple-tv/apple-tv.images.json": {
+		"mtime": 1787469377.817735,
+		"seen": 1789387922.7134132,
+		"ast_hash": "7f69d7d6698da782838a2131898ba6cf",
+		"semantic_hash": "7f69d7d6698da782838a2131898ba6cf"
+	},
+	".scratch/strict/apple-watch/remaining-devices.json": {
+		"mtime": 1787469377.8509169,
+		"seen": 1789387922.713414,
+		"ast_hash": "d5694b5b5afdc2d904c924d3a62bd299",
+		"semantic_hash": "d5694b5b5afdc2d904c924d3a62bd299"
+	},
+	".scratch/strict/homepod/strict-devices.json": {
+		"mtime": 1787469377.9739726,
+		"seen": 1789387922.713414,
+		"ast_hash": "d8a4c20e497ea0f0f02fee2100e08335",
+		"semantic_hash": "d8a4c20e497ea0f0f02fee2100e08335"
+	},
+	".scratch/strict/ipad/strict-devices.json": {
+		"mtime": 1787465421.7880926,
+		"seen": 1789387922.713415,
+		"ast_hash": "ae3d876a8176eccb509a9c7865354491",
+		"semantic_hash": "ae3d876a8176eccb509a9c7865354491"
+	},
+	".scratch/strict/ipad/strict-devices.merge-ready.json": {
+		"mtime": 1787469378.1130266,
+		"seen": 1789387922.7134159,
+		"ast_hash": "f545f7b1573c2fa6b7afc527894bbb4c",
+		"semantic_hash": "f545f7b1573c2fa6b7afc527894bbb4c"
+	},
+	".scratch/strict/iphone/remaining-devices.json": {
+		"mtime": 1787469378.18709,
+		"seen": 1789387922.7134159,
+		"ast_hash": "1b47cff5cc0bd72bf9dac18ec61b4ace",
+		"semantic_hash": "1b47cff5cc0bd72bf9dac18ec61b4ace"
+	},
+	".scratch/strict/iphone/strict-devices.json": {
+		"mtime": 1787463907.3531547,
+		"seen": 1789387922.713417,
+		"ast_hash": "d4dc5c364f41a8334ef461a89b90b18d",
+		"semantic_hash": "d4dc5c364f41a8334ef461a89b90b18d"
+	},
+	".scratch/strict/mac/mac-legacy-2020-2021.json": {
+		"mtime": 1787482326.8614686,
+		"seen": 1789387922.713418,
+		"ast_hash": "8ab7f41dd9b0c32a81aff8d7a44b8b7d",
+		"semantic_hash": "8ab7f41dd9b0c32a81aff8d7a44b8b7d"
+	},
+	".scratch/strict/mac/mac-modern-remaining.json": {
+		"mtime": 1787479764.1236382,
+		"seen": 1789387922.713418,
+		"ast_hash": "cc7a10007244706296b44833a6d189c8",
+		"semantic_hash": "cc7a10007244706296b44833a6d189c8"
+	},
+	".scratch/strict/mac/remaining-devices.json": {
+		"mtime": 1787470463.9451501,
+		"seen": 1789387922.713419,
+		"ast_hash": "1493147e06c3251cfce220cb59b63af1",
+		"semantic_hash": "1493147e06c3251cfce220cb59b63af1"
+	},
+	".scratch/strict/mac/strict-devices.json": {
+		"mtime": 1787469378.434035,
+		"seen": 1789387922.71342,
+		"ast_hash": "ab5f02ef962685e84a8fac3bb7121f2f",
+		"semantic_hash": "ab5f02ef962685e84a8fac3bb7121f2f"
+	},
+	".scratch/strict/vision/strict-devices.json": {
+		"mtime": 1787660031.5921867,
+		"seen": 1789387922.71342,
+		"ast_hash": "eaa5468e95d0c15b2e4e40c86f1b3ceb",
+		"semantic_hash": "eaa5468e95d0c15b2e4e40c86f1b3ceb"
+	},
+	".scratch/strict/watch/strict-devices.json": {
+		"mtime": 1787469378.6771848,
+		"seen": 1789387922.713421,
+		"ast_hash": "c643ae64327c92396834ad53c9ffeee8",
+		"semantic_hash": "c643ae64327c92396834ad53c9ffeee8"
+	},
+	".vscode/settings.json": {
+		"mtime": 1787493127.683049,
+		"seen": 1789387922.713421,
+		"ast_hash": "3d09eb01091bb4fbefbbb658d5a2e6ee",
+		"semantic_hash": "3d09eb01091bb4fbefbbb658d5a2e6ee"
+	},
+	"content/docs/account/meta.json": {
+		"mtime": 1787748619.6526392,
+		"seen": 1789387922.713422,
+		"ast_hash": "3eea11bd1a6a487c9ebac24dfbe9d892",
+		"semantic_hash": "3eea11bd1a6a487c9ebac24dfbe9d892"
+	},
+	"content/docs/airpods/meta.json": {
+		"mtime": 1787654212.924199,
+		"seen": 1789387922.713423,
+		"ast_hash": "e57a5bd5ffcfd318e61481b2a9d8b3e5",
+		"semantic_hash": "e57a5bd5ffcfd318e61481b2a9d8b3e5"
+	},
+	"content/docs/apple-tv/meta.json": {
+		"mtime": 1787654212.924411,
+		"seen": 1789387922.713423,
+		"ast_hash": "e57a5bd5ffcfd318e61481b2a9d8b3e5",
+		"semantic_hash": "e57a5bd5ffcfd318e61481b2a9d8b3e5"
+	},
+	"content/docs/apple-watch/meta.json": {
+		"mtime": 1787654212.9247968,
+		"seen": 1789387922.713424,
+		"ast_hash": "e57a5bd5ffcfd318e61481b2a9d8b3e5",
+		"semantic_hash": "e57a5bd5ffcfd318e61481b2a9d8b3e5"
+	},
+	"content/docs/homepod/meta.json": {
+		"mtime": 1787654212.9249918,
+		"seen": 1789387922.713425,
+		"ast_hash": "e57a5bd5ffcfd318e61481b2a9d8b3e5",
+		"semantic_hash": "e57a5bd5ffcfd318e61481b2a9d8b3e5"
+	},
+	"content/docs/ipad/meta.json": {
+		"mtime": 1787654212.9255745,
+		"seen": 1789387922.713425,
+		"ast_hash": "e57a5bd5ffcfd318e61481b2a9d8b3e5",
+		"semantic_hash": "e57a5bd5ffcfd318e61481b2a9d8b3e5"
+	},
+	"content/docs/iphone/meta.json": {
+		"mtime": 1787654212.9261014,
+		"seen": 1789387922.7134259,
+		"ast_hash": "e57a5bd5ffcfd318e61481b2a9d8b3e5",
+		"semantic_hash": "e57a5bd5ffcfd318e61481b2a9d8b3e5"
+	},
+	"content/docs/mac/meta.json": {
+		"mtime": 1787654212.9263003,
+		"seen": 1789387922.7134268,
+		"ast_hash": "e57a5bd5ffcfd318e61481b2a9d8b3e5",
+		"semantic_hash": "e57a5bd5ffcfd318e61481b2a9d8b3e5"
+	},
+	"content/docs/vision/meta.json": {
+		"mtime": 1787654212.9265075,
+		"seen": 1789387922.7134268,
+		"ast_hash": "e57a5bd5ffcfd318e61481b2a9d8b3e5",
+		"semantic_hash": "e57a5bd5ffcfd318e61481b2a9d8b3e5"
+	},
+	"next.config.mjs": {
+		"mtime": 1787654212.927008,
+		"seen": 1789387922.713428,
+		"ast_hash": "89b1c34d9604d89fbdb9d303d9bd40f7",
+		"semantic_hash": "89b1c34d9604d89fbdb9d303d9bd40f7"
+	},
+	"package.json": {
+		"mtime": 1787660031.5943482,
+		"seen": 1789387922.713428,
+		"ast_hash": "5e82bb3f64755f2b487dd3b92c82be0e",
+		"semantic_hash": "5e82bb3f64755f2b487dd3b92c82be0e"
+	},
+	"postcss.config.mjs": {
+		"mtime": 1787388516.9497004,
+		"seen": 1789387922.713429,
+		"ast_hash": "358ba0479b6b3f4b3a2304f3caf81c2b",
+		"semantic_hash": "358ba0479b6b3f4b3a2304f3caf81c2b"
+	},
+	"proxy.ts": {
+		"mtime": 1787388516.9816265,
+		"seen": 1789387922.71343,
+		"ast_hash": "dd329aab73b4d66dfd3287bacb05c4fc",
+		"semantic_hash": "dd329aab73b4d66dfd3287bacb05c4fc"
+	},
+	"public/data/airpods/airpods.json": {
+		"mtime": 1789387468.9493124,
+		"seen": 1789387922.71343,
+		"ast_hash": "87a763c0234c200c26d5fc2280ba79af",
+		"semantic_hash": "87a763c0234c200c26d5fc2280ba79af"
+	},
+	"public/data/airpods/airpods.schema.json": {
+		"mtime": 1787493011.7381194,
+		"seen": 1789387922.7134311,
+		"ast_hash": "50203354f551a3188a260bd37e7a45fd",
+		"semantic_hash": "50203354f551a3188a260bd37e7a45fd"
+	},
+	"public/data/apple-tv/apple-tv.json": {
+		"mtime": 1787493503.6286345,
+		"seen": 1789387922.7134311,
+		"ast_hash": "59690a5bb520bbb1e07a220572851251",
+		"semantic_hash": "59690a5bb520bbb1e07a220572851251"
+	},
+	"public/data/apple-tv/apple-tv.schema.json": {
+		"mtime": 1787543035.0531962,
+		"seen": 1789387922.713432,
+		"ast_hash": "1a41916f9144b212b8e6f485fc606df8",
+		"semantic_hash": "1a41916f9144b212b8e6f485fc606df8"
+	},
+	"public/data/apple-watch/apple-watch.json": {
+		"mtime": 1787654208.2726896,
+		"seen": 1789387922.713433,
+		"ast_hash": "04fc8767d7034f1299725c9801687b4d",
+		"semantic_hash": "04fc8767d7034f1299725c9801687b4d"
+	},
+	"public/data/apple-watch/apple-watch.schema.json": {
+		"mtime": 1787493011.898883,
+		"seen": 1789387922.713433,
+		"ast_hash": "35b52deeaeaa05a3da49c88267f54db2",
+		"semantic_hash": "35b52deeaeaa05a3da49c88267f54db2"
+	},
+	"public/data/homepod/homepod.json": {
+		"mtime": 1787494694.6271288,
+		"seen": 1789387922.7134342,
+		"ast_hash": "7dea995e37af367d201e384f54351886",
+		"semantic_hash": "7dea995e37af367d201e384f54351886"
+	},
+	"public/data/homepod/homepod.schema.json": {
+		"mtime": 1787493012.0837245,
+		"seen": 1789387922.713435,
+		"ast_hash": "917f09700aeeecd4215f579a76bedd99",
+		"semantic_hash": "917f09700aeeecd4215f579a76bedd99"
+	},
+	"public/data/ipad/ipad.json": {
+		"mtime": 1787654208.273336,
+		"seen": 1789387922.713435,
+		"ast_hash": "ff5cdc4febc99f9777d6241e8cfd4117",
+		"semantic_hash": "ff5cdc4febc99f9777d6241e8cfd4117"
+	},
+	"public/data/ipad/ipad.schema.json": {
+		"mtime": 1787493012.2493725,
+		"seen": 1789387922.713436,
+		"ast_hash": "c89cc98a8b4fa83d29dcda0b23618b5c",
+		"semantic_hash": "c89cc98a8b4fa83d29dcda0b23618b5c"
+	},
+	"public/data/iphone/iphone.json": {
+		"mtime": 1787493268.3615122,
+		"seen": 1789387922.713436,
+		"ast_hash": "cb96fcbc1458f153e1f9d2b12ee10332",
+		"semantic_hash": "cb96fcbc1458f153e1f9d2b12ee10332"
+	},
+	"public/data/iphone/iphone.schema.json": {
+		"mtime": 1787493777.3006492,
+		"seen": 1789387922.7134368,
+		"ast_hash": "21212cbfe77eb28410c6df5ce0e350af",
+		"semantic_hash": "21212cbfe77eb28410c6df5ce0e350af"
+	},
+	"public/data/mac/mac.json": {
+		"mtime": 1787495510.8860614,
+		"seen": 1789387922.7134368,
+		"ast_hash": "49612aa2892d84b16b95150fdd0b55f2",
+		"semantic_hash": "49612aa2892d84b16b95150fdd0b55f2"
+	},
+	"public/data/mac/mac.schema.json": {
+		"mtime": 1787546432.65643,
+		"seen": 1789387922.713438,
+		"ast_hash": "642c3f2b49ea75013cfffd1497caa300",
+		"semantic_hash": "642c3f2b49ea75013cfffd1497caa300"
+	},
+	"public/data/other/apple-display/apple-display.json": {
+		"mtime": 1787654208.2745376,
+		"seen": 1789387922.713439,
+		"ast_hash": "289fd86d08b07222af8c9eaabe0ba904",
+		"semantic_hash": "289fd86d08b07222af8c9eaabe0ba904"
+	},
+	"public/data/other/apple-display/apple-display.schema.json": {
+		"mtime": 1787654208.275316,
+		"seen": 1789387922.713439,
+		"ast_hash": "1eb2086511055d675313cc5b62ad0a5e",
+		"semantic_hash": "1eb2086511055d675313cc5b62ad0a5e"
+	},
+	"public/data/other/apple-pencil/apple-pencil.json": {
+		"mtime": 1787546755.8914108,
+		"seen": 1789387922.71344,
+		"ast_hash": "981243d566832f6fc7d24313c682582b",
+		"semantic_hash": "981243d566832f6fc7d24313c682582b"
+	},
+	"public/data/other/apple-pencil/apple-pencil.schema.json": {
+		"mtime": 1787546351.9778156,
+		"seen": 1789387922.71344,
+		"ast_hash": "56a84c7eb0bea1d33f9a93acb6942cad",
+		"semantic_hash": "56a84c7eb0bea1d33f9a93acb6942cad"
+	},
+	"public/data/other/magic-keyboard/magic-keyboard.json": {
+		"mtime": 1787494396.9226763,
+		"seen": 1789387922.7134411,
+		"ast_hash": "04a0042392a888cdd428ccc939de6f23",
+		"semantic_hash": "04a0042392a888cdd428ccc939de6f23"
+	},
+	"public/data/other/magic-keyboard/magic-keyboard.schema.json": {
+		"mtime": 1787493901.221348,
+		"seen": 1789387922.713442,
+		"ast_hash": "6b7104f9899b355bae90ecb06887feb8",
+		"semantic_hash": "6b7104f9899b355bae90ecb06887feb8"
+	},
+	"public/data/templates/airpods.template.json": {
+		"mtime": 1787495710.5114484,
+		"seen": 1789387922.713442,
+		"ast_hash": "8f02fad95b6a1016831befac650a9e59",
+		"semantic_hash": "8f02fad95b6a1016831befac650a9e59"
+	},
+	"public/data/templates/apple-pencil.template.json": {
+		"mtime": 1787495710.512501,
+		"seen": 1789387922.713443,
+		"ast_hash": "3c38007702973f529fc3ce94ddd94e73",
+		"semantic_hash": "3c38007702973f529fc3ce94ddd94e73"
+	},
+	"public/data/templates/apple-tv.template.json": {
+		"mtime": 1787495710.5116494,
+		"seen": 1789387922.713443,
+		"ast_hash": "9613c8f2c74f65d4e603b5ffa67d1ae0",
+		"semantic_hash": "9613c8f2c74f65d4e603b5ffa67d1ae0"
+	},
+	"public/data/templates/apple-watch.template.json": {
+		"mtime": 1787495710.5117888,
+		"seen": 1789387922.713444,
+		"ast_hash": "de26f889552b04af76c7e202cee06903",
+		"semantic_hash": "de26f889552b04af76c7e202cee06903"
+	},
+	"public/data/templates/homepod.template.json": {
+		"mtime": 1787561809.0224514,
+		"seen": 1789387922.7134452,
+		"ast_hash": "d5accfaf21e07189538bceb7018b1e81",
+		"semantic_hash": "d5accfaf21e07189538bceb7018b1e81"
+	},
+	"public/data/templates/ipad.template.json": {
+		"mtime": 1787571735.8556218,
+		"seen": 1789387922.7134452,
+		"ast_hash": "e4d6233bd9e060df2ecfaa0437b5b896",
+		"semantic_hash": "e4d6233bd9e060df2ecfaa0437b5b896"
+	},
+	"public/data/templates/iphone.template.json": {
+		"mtime": 1787563989.0596495,
+		"seen": 1789387922.713446,
+		"ast_hash": "b9d5d3efbe2561cf699515371fe0fc59",
+		"semantic_hash": "b9d5d3efbe2561cf699515371fe0fc59"
+	},
+	"public/data/templates/mac.template.json": {
+		"mtime": 1787576805.6705468,
+		"seen": 1789387922.713446,
+		"ast_hash": "fe652febff7476980f1ac3c643aa687f",
+		"semantic_hash": "fe652febff7476980f1ac3c643aa687f"
+	},
+	"public/data/templates/magic-keyboard.template.json": {
+		"mtime": 1787546623.8197541,
+		"seen": 1789387922.7134469,
+		"ast_hash": "32d9dfa323491d21112749c9940a18ed",
+		"semantic_hash": "32d9dfa323491d21112749c9940a18ed"
+	},
+	"public/data/templates/vision.template.json": {
+		"mtime": 1787495710.512384,
+		"seen": 1789387922.713448,
+		"ast_hash": "ca1a43872db07e8a378f407a724615dd",
+		"semantic_hash": "ca1a43872db07e8a378f407a724615dd"
+	},
+	"public/data/vision/vision.json": {
+		"mtime": 1787660031.594706,
+		"seen": 1789387922.713448,
+		"ast_hash": "384ad79fc40f2bc98ede3c2f8ebac36a",
+		"semantic_hash": "384ad79fc40f2bc98ede3c2f8ebac36a"
+	},
+	"public/data/vision/vision.schema.json": {
+		"mtime": 1787660031.5951736,
+		"seen": 1789387922.713449,
+		"ast_hash": "28bc417f30b6c480df3754d914bd1e6c",
+		"semantic_hash": "28bc417f30b6c480df3754d914bd1e6c"
+	},
+	"scripts/check-catalog-routes.mjs": {
+		"mtime": 1787654212.927991,
+		"seen": 1789387922.713449,
+		"ast_hash": "9cea10a97ece0fea6a7c14cbf9ae0127",
+		"semantic_hash": "9cea10a97ece0fea6a7c14cbf9ae0127"
+	},
+	"scripts/validate-data.mjs": {
+		"mtime": 1787654208.2757988,
+		"seen": 1789387922.71345,
+		"ast_hash": "b1332bb3975d26f680e7a7e58bbf5cd8",
+		"semantic_hash": "b1332bb3975d26f680e7a7e58bbf5cd8"
+	},
+	"src/app/(home)/layout.tsx": {
+		"mtime": 1787656084.9153957,
+		"seen": 1789387922.71345,
+		"ast_hash": "2306adc72a30a429100bd922527c8f26",
+		"semantic_hash": "2306adc72a30a429100bd922527c8f26"
+	},
+	"src/app/(home)/page.tsx": {
+		"mtime": 1787574351.796016,
+		"seen": 1789387922.713451,
+		"ast_hash": "8493bb395d5056292af617131237720d",
+		"semantic_hash": "8493bb395d5056292af617131237720d"
+	},
+	"src/app/api/search/route.ts": {
+		"mtime": 1787570586.2876706,
+		"seen": 1789387922.713452,
+		"ast_hash": "7d77d891aef82f675eb7020cee8c4d63",
+		"semantic_hash": "7d77d891aef82f675eb7020cee8c4d63"
+	},
+	"src/app/docs/[[...slug]]/page.tsx": {
+		"mtime": 1787742849.9326053,
+		"seen": 1789387922.713452,
+		"ast_hash": "85d15949f7f9aa9f28084cdef598399a",
+		"semantic_hash": "85d15949f7f9aa9f28084cdef598399a"
+	},
+	"src/app/docs/layout.tsx": {
+		"mtime": 1787748635.6100707,
+		"seen": 1789387922.713453,
+		"ast_hash": "97543e8581092638062d1488e17a624a",
+		"semantic_hash": "97543e8581092638062d1488e17a624a"
+	},
+	"src/app/layout.tsx": {
+		"mtime": 1787743179.8151996,
+		"seen": 1789387922.713454,
+		"ast_hash": "f8e1a4d20588df446c99e1e8b49ed2a3",
+		"semantic_hash": "f8e1a4d20588df446c99e1e8b49ed2a3"
+	},
+	"src/app/llms-full.txt/route.ts": {
+		"mtime": 1787572596.1242847,
+		"seen": 1789387922.7134552,
+		"ast_hash": "994b9ace47a970018ea6f7b27bd697bf",
+		"semantic_hash": "994b9ace47a970018ea6f7b27bd697bf"
+	},
+	"src/app/llms.mdx/docs/[[...slug]]/route.ts": {
+		"mtime": 1787652361.8874116,
+		"seen": 1789387922.7134552,
+		"ast_hash": "826d8480e804840d90c04cfe1429e11e",
+		"semantic_hash": "826d8480e804840d90c04cfe1429e11e"
+	},
+	"src/app/llms.txt/route.ts": {
+		"mtime": 1787568021.4809031,
+		"seen": 1789387922.7134562,
+		"ast_hash": "d9745e22662a3a26b4a6b4e206eeaf44",
+		"semantic_hash": "d9745e22662a3a26b4a6b4e206eeaf44"
+	},
+	"src/app/og/docs/[...slug]/route.tsx": {
+		"mtime": 1787741927.0802386,
+		"seen": 1789387922.7134562,
+		"ast_hash": "dc4d903f5cc1c5ab78becd589665c3e0",
+		"semantic_hash": "dc4d903f5cc1c5ab78becd589665c3e0"
+	},
+	"src/components/auth/AccountButton.tsx": {
+		"mtime": 1787659809.8138008,
+		"seen": 1789387922.7134569,
+		"ast_hash": "f8f5f1e06ea0e63d501aae8fafedb2c2",
+		"semantic_hash": "f8f5f1e06ea0e63d501aae8fafedb2c2"
+	},
+	"src/components/auth/AuthDialog.tsx": {
+		"mtime": 1787660101.9859827,
+		"seen": 1789387922.7134578,
+		"ast_hash": "de2a181f160a8cea1ea2a5d1d74cd56a",
+		"semantic_hash": "de2a181f160a8cea1ea2a5d1d74cd56a"
+	},
+	"src/components/auth/GlassAccountHeader.tsx": {
+		"mtime": 1787750213.0450149,
+		"seen": 1789387922.713459,
+		"ast_hash": "8bebede766bab418e3a9a1076f04d00d",
+		"semantic_hash": "8bebede766bab418e3a9a1076f04d00d"
+	},
+	"src/components/catalog/AccessoryCatalog.tsx": {
+		"mtime": 1787654212.9300392,
+		"seen": 1789387922.71346,
+		"ast_hash": "c278a6a2b2f7b778ca3cc9b47f49a65c",
+		"semantic_hash": "c278a6a2b2f7b778ca3cc9b47f49a65c"
+	},
+	"src/components/catalog/CatalogCategory.tsx": {
+		"mtime": 1787654212.9301255,
+		"seen": 1789387922.71346,
+		"ast_hash": "cc2125317c5e2b1c37ffb7e1b4185d37",
+		"semantic_hash": "cc2125317c5e2b1c37ffb7e1b4185d37"
+	},
+	"src/components/catalog/CatalogTable.tsx": {
+		"mtime": 1787654212.9302173,
+		"seen": 1789387922.713461,
+		"ast_hash": "8d9321ef160a69c1d9fb9bf880669838",
+		"semantic_hash": "8d9321ef160a69c1d9fb9bf880669838"
+	},
+	"src/components/catalog/DeviceDetail.tsx": {
+		"mtime": 1787746637.077711,
+		"seen": 1789387922.713461,
+		"ast_hash": "8e580ef2ccb5d8a32b30d834b5551c8c",
+		"semantic_hash": "8e580ef2ccb5d8a32b30d834b5551c8c"
+	},
+	"src/components/catalog/OtherCatalog.tsx": {
+		"mtime": 1787654212.9304287,
+		"seen": 1789387922.713462,
+		"ast_hash": "0f7a586cf1232724e3c3a98637927886",
+		"semantic_hash": "0f7a586cf1232724e3c3a98637927886"
+	},
+	"src/components/mdx.tsx": {
+		"mtime": 1787566736.1709723,
+		"seen": 1789387922.713463,
+		"ast_hash": "8912d9a82875cc19e30a1dc08286b6c4",
+		"semantic_hash": "8912d9a82875cc19e30a1dc08286b6c4"
+	},
+	"src/lib/auth/AuthProvider.tsx": {
+		"mtime": 1787654212.9306705,
+		"seen": 1789387922.713463,
+		"ast_hash": "072a9fe820737d6039472cce43cf86e8",
+		"semantic_hash": "072a9fe820737d6039472cce43cf86e8"
+	},
+	"src/lib/auth/api.ts": {
+		"mtime": 1787660373.1402829,
+		"seen": 1789387922.713464,
+		"ast_hash": "be6c85d6f27f56ec7e437662c206141d",
+		"semantic_hash": "be6c85d6f27f56ec7e437662c206141d"
+	},
+	"src/lib/catalog/config.ts": {
+		"mtime": 1787654212.9310093,
+		"seen": 1789387922.713464,
+		"ast_hash": "53e3465b8d7e5532c96cb3e1afcdf398",
+		"semantic_hash": "53e3465b8d7e5532c96cb3e1afcdf398"
+	},
+	"src/lib/catalog/types.ts": {
+		"mtime": 1787745478.8384557,
+		"seen": 1789387922.713465,
+		"ast_hash": "2c84963bc89f9f673432ee88eda23b46",
+		"semantic_hash": "2c84963bc89f9f673432ee88eda23b46"
+	},
+	"src/lib/cn.ts": {
+		"mtime": 1787546816.942817,
+		"seen": 1789387922.7134662,
+		"ast_hash": "d93aa8ed3398bfcca78ba2d9be6ae20c",
+		"semantic_hash": "d93aa8ed3398bfcca78ba2d9be6ae20c"
+	},
+	"src/lib/device-notes.ts": {
+		"mtime": 1787654212.9312952,
+		"seen": 1789387922.7134662,
+		"ast_hash": "ca6a9145ab508195fadf143ea11d6e6b",
+		"semantic_hash": "ca6a9145ab508195fadf143ea11d6e6b"
+	},
+	"src/lib/layout.shared.tsx": {
+		"mtime": 1787660365.5475395,
+		"seen": 1789387922.713467,
+		"ast_hash": "ea735cfe9951059ada8fca21092f3812",
+		"semantic_hash": "ea735cfe9951059ada8fca21092f3812"
+	},
+	"src/lib/shared.ts": {
+		"mtime": 1787744656.7255805,
+		"seen": 1789387922.713467,
+		"ast_hash": "a78e778bdf6ddf4483c5f9a98ced7a75",
+		"semantic_hash": "a78e778bdf6ddf4483c5f9a98ced7a75"
+	},
+	"src/lib/source.ts": {
+		"mtime": 1787834585.3815978,
+		"seen": 1789387922.7134678,
+		"ast_hash": "71423f60786646e9d0384b976aca918f",
+		"semantic_hash": "71423f60786646e9d0384b976aca918f"
+	},
+	"tsconfig.json": {
+		"mtime": 1787388517.1064014,
+		"seen": 1789387922.713469,
+		"ast_hash": "fda83561d333f81baf863bf1d42aba79",
+		"semantic_hash": "fda83561d333f81baf863bf1d42aba79"
+	}
 }
