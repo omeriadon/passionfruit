@@ -9,9 +9,12 @@
 				{
 					"id": "white",
 					"displayName": "White",
-					"swatch": {
-						"kind": "css",
-						"value": "#00000000"
+					"finish": {
+						"base": "#F2F2F2",
+						"material": "fabric",
+						"shine": 0,
+						"grain": 0.3,
+						"weave": true
 					},
 					"images": [
 						{
@@ -75,9 +78,12 @@
 				{
 					"id": "yellow",
 					"displayName": "Yellow",
-					"swatch": {
-						"kind": "css",
-						"value": "#00000000"
+					"finish": {
+						"base": "#FBC65E",
+						"material": "fabric",
+						"shine": 0,
+						"grain": 0.3,
+						"weave": true
 					},
 					"images": [
 						{
@@ -134,9 +140,12 @@
 				{
 					"id": "orange",
 					"displayName": "Orange",
-					"swatch": {
-						"kind": "css",
-						"value": "#00000000"
+					"finish": {
+						"base": "#E67557",
+						"material": "fabric",
+						"shine": 0,
+						"grain": 0.3,
+						"weave": true
 					},
 					"images": [
 						{
@@ -193,9 +202,12 @@
 				{
 					"id": "blue",
 					"displayName": "Blue",
-					"swatch": {
-						"kind": "css",
-						"value": "#00000000"
+					"finish": {
+						"base": "#2C4C61",
+						"material": "fabric",
+						"shine": 0,
+						"grain": 0.3,
+						"weave": true
 					},
 					"images": [
 						{
@@ -252,9 +264,12 @@
 				{
 					"id": "midnight",
 					"displayName": "Midnight",
-					"swatch": {
-						"kind": "css",
-						"value": "#00000000"
+					"finish": {
+						"base": "#2C2D31",
+						"material": "fabric",
+						"shine": 0,
+						"grain": 0.3,
+						"weave": true
 					},
 					"images": [
 						{
@@ -440,9 +455,12 @@
 				{
 					"id": "midnight",
 					"displayName": "Midnight",
-					"swatch": {
-						"kind": "css",
-						"value": "#00000000"
+					"finish": {
+						"base": "#2E2F33",
+						"material": "fabric",
+						"shine": 0,
+						"grain": 0.3,
+						"weave": true
 					},
 					"images": [
 						{
@@ -548,9 +566,12 @@
 				{
 					"id": "white",
 					"displayName": "White",
-					"swatch": {
-						"kind": "css",
-						"value": "#00000000"
+					"finish": {
+						"base": "#F2F2F2",
+						"material": "fabric",
+						"shine": 0,
+						"grain": 0.3,
+						"weave": true
 					},
 					"images": [
 						{
