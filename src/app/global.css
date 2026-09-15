@@ -164,8 +164,9 @@ select {
 }
 
 #nd-sidebar.nd-sidebar-with-device-search > button {
-	margin-left: 3.5rem;
-	width: calc(100% - 4rem);
+	right: 0.5rem;
+	margin-left: 3rem;
+	width: auto;
 }
 
 #nd-sidebar.nd-sidebar-with-device-search
@@ -173,14 +174,24 @@ select {
 	[data-sidebar-device-type] {
 	background-color: color-mix(
 		in srgb,
-		var(--color-fd-popover) 48%,
+		var(--color-fd-popover) 8%,
 		transparent
 	) !important;
-	border: 1px solid color-mix(in srgb, currentColor 24%, transparent);
+	border: 1px solid color-mix(in srgb, currentColor 32%, transparent);
 }
 
 #nd-sidebar.nd-sidebar-with-device-search > button > svg:first-child {
 	display: none;
+}
+
+#nd-sidebar.nd-sidebar-with-device-search > button {
+	font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+body > [data-base-ui-portal]:has(a[href="/docs/airpods"]) [role="dialog"] {
+	width: var(--anchor-width) !important;
+	min-width: 0 !important;
+	font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
 }
 
 #nd-sidebar:not(.nd-sidebar-with-device-search) > button {
@@ -230,6 +241,7 @@ select {
 		[href="/docs/ipad/accessories/magic-keyboard"],
 		[href="/docs/other/apple-display"]
 	) {
+	display: none;
 	margin-bottom: 1rem;
 	background-color: color-mix(
 		in srgb,

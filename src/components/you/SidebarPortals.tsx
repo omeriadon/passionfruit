@@ -107,7 +107,7 @@ function SidebarDeviceTypeButton({ pathname }: { pathname: string }) {
 			href={href}
 			aria-label={`${category.title} device type`}
 			data-sidebar-device-type
-			className="glass-header-surface absolute left-2 top-12 inline-flex size-10 items-center justify-center rounded-xl text-fd-secondary-foreground transition-colors hover:bg-fd-accent hover:text-fd-accent-foreground"
+			className="glass-header-surface absolute left-2 top-13.5 inline-flex size-9.5 items-center justify-center rounded-xl text-fd-secondary-foreground transition-colors hover:bg-fd-accent hover:text-fd-accent-foreground"
 		>
 			<DeviceTypeIcon category={category.slug} className="size-4" />
 		</Link>
