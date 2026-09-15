@@ -4,6 +4,7 @@ import Link from "fumadocs-core/link";
 import { useMemo } from "react";
 import { catalogCategories } from "@/lib/shared";
 import type { EnrichedDeviceEntry } from "@/app/api/you/devices/route";
+import { DeviceTypeIcon } from "@/components/catalog/DeviceTypeIcon";
 
 function timestamp(value: string | null): number {
 	if (!value) return Number.NEGATIVE_INFINITY;
@@ -28,7 +29,10 @@ export function DeviceTypeSections({
 	onRemove,
 	removeLabel,
 }: {
-	items: EnrichedDeviceEntry[];
+	items: (EnrichedDeviceEntry & {
+		owned?: boolean;
+		bookmarked?: boolean;
+	})[];
 	preferredOrder: string[] | null;
 	onRemove: (category: string, deviceId: string) => void;
 	removeLabel: (name: string) => string;
@@ -41,7 +45,13 @@ export function DeviceTypeSections({
 		for (const category of catalogCategories) {
 			if (!order.has(category.slug)) order.set(category.slug, order.size);
 		}
-		const groups = new Map<string, EnrichedDeviceEntry[]>();
+		const groups = new Map<
+			string,
+			(EnrichedDeviceEntry & {
+				owned?: boolean;
+				bookmarked?: boolean;
+			})[]
+		>();
 		for (const item of items) {
 			const list = groups.get(item.category) ?? [];
 			list.push(item);
@@ -68,7 +78,8 @@ export function DeviceTypeSections({
 		<div className="flex flex-col gap-6">
 			{sections.map((section) => (
 				<section key={section.category} aria-label={section.title}>
-					<h2 className="text-base font-semibold">
+					<h2 className="flex items-center gap-2 text-base font-semibold">
+						<DeviceTypeIcon category={section.category} className="size-4" />
 						{section.title}{" "}
 						<span className="text-sm font-normal text-fd-muted-foreground">
 							{section.items.length}
@@ -83,6 +94,10 @@ export function DeviceTypeSections({
 									key={`${item.category}:${item.deviceId}`}
 									className="flex items-center gap-3 py-2.5"
 								>
+									<DeviceTypeIcon
+										category={item.category}
+										className="size-5 shrink-0 text-fd-muted-foreground"
+									/>
 									<div className="flex min-w-0 flex-1 flex-col">
 										{item.href ? (
 											<Link
@@ -98,6 +113,8 @@ export function DeviceTypeSections({
 											{item.priceAud !== null
 												? `A$${item.priceAud.toLocaleString()}`
 												: "Price unavailable"}
+											{item.owned ? " · Owned" : ""}
+											{item.bookmarked ? " · Bookmarked" : ""}
 											{date ? ` · saved ${date}` : ""}
 										</span>
 									</div>

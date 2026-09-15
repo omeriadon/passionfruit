@@ -6,6 +6,7 @@ import { useEffect, useState } from "react";
 import { createPortal } from "react-dom";
 import { useAuth } from "@/lib/auth/AuthProvider";
 import { DeviceSearch } from "@/components/catalog/DeviceSearch";
+import { DeviceTypeIcon } from "@/components/catalog/DeviceTypeIcon";
 
 function useSidebarHost(id: string, active: boolean, prepend: boolean) {
 	const [host, setHost] = useState<HTMLElement | null>(null);
@@ -79,21 +80,32 @@ export function SidebarDeviceSearch() {
 	);
 }
 
-/** The signed-in user's devices inside the sidebar. /you device tabs only. */
+/** The signed-in user's collection inside the sidebar. */
 export function YouSidebarLinks() {
 	const pathname = usePathname();
 	const { user, categoryOrder } = useAuth();
-	const [items, setItems] = useState<
-		{ category: string; deviceId: string; name: string; href: string | null }[]
-	>([]);
+	const [items, setItems] = useState<{
+		owned: {
+			category: string;
+			deviceId: string;
+			name: string;
+			href: string | null;
+		}[];
+		bookmarks: {
+			category: string;
+			deviceId: string;
+			name: string;
+			href: string | null;
+		}[];
+	}>({ owned: [], bookmarks: [] });
 	const { sessionToken } = useAuth();
 
-	const active = pathname === "/you/devices" || pathname === "/you/bookmarks";
+	const active = pathname.startsWith("/you/collection");
 	const host = useSidebarHost("nd-sidebar-you-links", active, false);
 
 	useEffect(() => {
 		if (!active || !sessionToken) {
-			setItems([]);
+			setItems({ owned: [], bookmarks: [] });
 			return;
 		}
 		let cancelled = false;
@@ -118,16 +130,20 @@ export function YouSidebarLinks() {
 					}[];
 				};
 				if (cancelled) return;
-				const list =
-					pathname === "/you/devices" ? payload.owned : payload.bookmarks;
-				setItems(
-					list.map((entry) => ({
+				setItems({
+					owned: payload.owned.map((entry) => ({
 						category: entry.category,
 						deviceId: entry.deviceId,
 						name: entry.name ?? entry.deviceId,
 						href: entry.href,
 					})),
-				);
+					bookmarks: payload.bookmarks.map((entry) => ({
+						category: entry.category,
+						deviceId: entry.deviceId,
+						name: entry.name ?? entry.deviceId,
+						href: entry.href,
+					})),
+				});
 			})
 			.catch(() => {});
 		return () => {
@@ -135,41 +151,66 @@ export function YouSidebarLinks() {
 		};
 	}, [active, sessionToken, pathname]);
 
-	if (!host || !user || items.length === 0) return null;
+	if (
+		!host ||
+		!user ||
+		(items.owned.length === 0 && items.bookmarks.length === 0)
+	) {
+		return null;
+	}
 
 	const order = new Map<string, number>();
 	for (const slug of categoryOrder ?? []) {
 		if (!order.has(slug)) order.set(slug, order.size);
 	}
-	const sorted = [...items].sort(
-		(a, b) =>
-			(order.get(a.category) ?? Number.MAX_SAFE_INTEGER) -
-			(order.get(b.category) ?? Number.MAX_SAFE_INTEGER),
-	);
+	const sortItems = (list: typeof items.owned) =>
+		[...list].sort(
+			(a, b) =>
+				(order.get(a.category) ?? Number.MAX_SAFE_INTEGER) -
+				(order.get(b.category) ?? Number.MAX_SAFE_INTEGER),
+		);
+	const sections = [
+		{ title: "Owned", items: sortItems(items.owned) },
+		{ title: "Bookmarks", items: sortItems(items.bookmarks) },
+	].filter((section) => section.items.length > 0);
 
 	return createPortal(
-		<nav aria-label="Your devices" className="px-2 pb-2">
-			<p className="px-2 pb-1 text-xs font-medium uppercase tracking-wide text-fd-muted-foreground">
-				{pathname === "/you/devices" ? "Your devices" : "Bookmarks"}
-			</p>
-			<ul className="flex flex-col">
-				{sorted.map((item) => (
-					<li key={`${item.category}:${item.deviceId}`}>
-						{item.href ? (
-							<Link
-								href={item.href}
-								className="block truncate rounded-md px-2 py-1.5 text-sm hover:bg-fd-accent"
-							>
-								{item.name}
-							</Link>
-						) : (
-							<span className="block truncate px-2 py-1.5 text-sm">
-								{item.name}
-							</span>
-						)}
-					</li>
-				))}
-			</ul>
+		<nav aria-label="Collection" className="px-2 pb-2">
+			{sections.map((section) => (
+				<div key={section.title} className="mb-3 last:mb-0">
+					<p className="px-2 pb-1 text-xs font-medium uppercase tracking-wide text-fd-muted-foreground">
+						{section.title}
+					</p>
+					<ul className="flex flex-col">
+						{section.items.map((item) => (
+							<li key={`${section.title}:${item.category}:${item.deviceId}`}>
+								{item.href ? (
+									<Link
+										href={item.href}
+										className="block truncate rounded-md px-2 py-1.5 text-sm hover:bg-fd-accent"
+									>
+										<span className="flex min-w-0 items-center gap-2">
+											<DeviceTypeIcon
+												category={item.category}
+												className="size-4 shrink-0 text-fd-muted-foreground"
+											/>
+											<span className="truncate">{item.name}</span>
+										</span>
+									</Link>
+								) : (
+									<span className="flex min-w-0 items-center gap-2 px-2 py-1.5 text-sm">
+										<DeviceTypeIcon
+											category={item.category}
+											className="size-4 shrink-0 text-fd-muted-foreground"
+										/>
+										<span className="truncate">{item.name}</span>
+									</span>
+								)}
+							</li>
+						))}
+					</ul>
+				</div>
+			))}
 		</nav>,
 		host,
 	);

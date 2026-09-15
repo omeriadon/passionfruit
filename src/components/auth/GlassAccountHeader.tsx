@@ -74,7 +74,7 @@ export function GlassAccountHeader({
 					<span>Devices</span>
 				</Link>
 				<Link
-					href="/you/devices"
+					href="/you/collection"
 					aria-current={showingYou ? "page" : undefined}
 					className={cn(
 						"inline-flex items-center gap-1.5 rounded-full px-3 py-1.5 text-sm font-medium transition-colors",

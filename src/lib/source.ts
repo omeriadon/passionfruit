@@ -313,31 +313,22 @@ export function getCatalogPageTree(): PageTree.Root {
 }
 
 /**
- * Static page tree for the `/you` section (Bookmarks + Account). Hand-built
- * rather than loader-driven: bookmark contents are per-user runtime data, so
- * only the chrome (tabs, sidebar entries) is static. Never data-backed detail
- * routes here — the Bookmarks page renders its list client-side.
+ * Static page tree for the `/you` section (Collection + Account). Hand-built
+ * rather than loader-driven: collection contents are per-user runtime data,
+ * so only the chrome (tabs, sidebar entries) is static. Never data-backed
+ * detail routes here — the Collection page renders its lists client-side.
  */
 export function getYouPageTree(): PageTree.Root {
 	return {
 		name: "You",
 		children: [
 			{
-				$id: "you:devices",
+				$id: "you:collection",
 				type: "folder" as const,
-				name: "Your devices",
+				name: "Collection",
 				root: true,
 				defaultOpen: true,
-				index: catalogPageItem("devices", "Your devices", "/you/devices"),
-				children: [],
-			},
-			{
-				$id: "you:bookmarks",
-				type: "folder" as const,
-				name: "Bookmarks",
-				root: true,
-				defaultOpen: true,
-				index: catalogPageItem("bookmarks", "Bookmarks", "/you/bookmarks"),
+				index: catalogPageItem("collection", "Collection", "/you/collection"),
 				children: [],
 			},
 			{

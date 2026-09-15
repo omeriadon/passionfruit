@@ -9,7 +9,7 @@ import type { Metadata } from "next";
 import { notFound, redirect } from "next/navigation";
 import { AccountSettings } from "@/components/you/AccountSettings";
 import { DeviceOrder } from "@/components/you/DeviceOrder";
-import { Bookmarks, YourDevices } from "@/components/you/YouDeviceTabs";
+import { Collection } from "@/components/you/YouDeviceTabs";
 
 const youPageOptions: Omit<DocsPageProps, "children" | "toc"> = {
 	full: false,
@@ -24,31 +24,23 @@ export default async function Page(props: PageProps<"/you/[[...slug]]">) {
 	const params = await props.params;
 	const slugs = params.slug ?? [];
 
-	if (slugs.length === 0) redirect("/you/devices");
-
-	if (slugs.length === 1 && slugs[0] === "devices") {
-		return (
-			<DocsPage {...youPageOptions} toc={[]}>
-				<DocsTitle>Your devices</DocsTitle>
-				<DocsDescription className="mb-0">
-					The devices you own, grouped by type and newest first.
-				</DocsDescription>
-				<DocsBody>
-					<YourDevices />
-				</DocsBody>
-			</DocsPage>
-		);
+	if (
+		slugs.length === 0 ||
+		slugs[0] === "devices" ||
+		slugs[0] === "bookmarks"
+	) {
+		redirect("/you/collection");
 	}
 
-	if (slugs.length === 1 && slugs[0] === "bookmarks") {
+	if (slugs.length === 1 && slugs[0] === "collection") {
 		return (
 			<DocsPage {...youPageOptions} toc={[]}>
-				<DocsTitle>Bookmarks</DocsTitle>
+				<DocsTitle>Collection</DocsTitle>
 				<DocsDescription className="mb-0">
-					Devices saved to your account, grouped by type and newest first.
+					The devices you own and have bookmarked, grouped by type.
 				</DocsDescription>
 				<DocsBody>
-					<Bookmarks />
+					<Collection />
 				</DocsBody>
 			</DocsPage>
 		);
@@ -87,8 +79,7 @@ export default async function Page(props: PageProps<"/you/[[...slug]]">) {
 
 export function generateStaticParams() {
 	return [
-		{ slug: ["devices"] },
-		{ slug: ["bookmarks"] },
+		{ slug: ["collection"] },
 		{ slug: ["account"] },
 		{ slug: ["account", "order"] },
 	];
@@ -111,14 +102,18 @@ export async function generateMetadata(
 			description: "Change your username or password, or delete your account.",
 		};
 	}
-	if (slugs[0] === "bookmarks") {
+	if (
+		slugs[0] === "collection" ||
+		slugs[0] === "devices" ||
+		slugs[0] === "bookmarks"
+	) {
 		return {
-			title: "Bookmarks",
-			description: "Devices saved to your account.",
+			title: "Collection",
+			description: "Devices you own and have bookmarked.",
 		};
 	}
 	return {
-		title: "Your devices",
-		description: "The devices you own.",
+		title: "Collection",
+		description: "Devices you own and have bookmarked.",
 	};
 }

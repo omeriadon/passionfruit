@@ -1,9 +1,9 @@
 "use client";
 
-import Link from "fumadocs-core/link";
 import { useAuth } from "@/lib/auth/AuthProvider";
 import { DeviceTypeSections } from "@/components/you/DeviceTypeSections";
 import { useYouDevices } from "@/components/you/useYouDevices";
+import type { EnrichedDeviceEntry } from "@/app/api/you/devices/route";
 
 function Gate({ children }: { children: React.ReactNode }) {
 	const { user, isLoading, openAuthDialog } = useAuth();
@@ -29,9 +29,64 @@ function Gate({ children }: { children: React.ReactNode }) {
 	return <>{children}</>;
 }
 
-export function YourDevices() {
-	const { toggleOwned, categoryOrder } = useAuth();
-	const { owned, loadError, setOwned } = useYouDevices();
+type CollectionEntry = EnrichedDeviceEntry & {
+	owned: boolean;
+	bookmarked: boolean;
+};
+
+function CollectionSection({
+	items,
+	title,
+	preferredOrder,
+	onRemove,
+	removeLabel,
+}: {
+	items: CollectionEntry[];
+	title: string;
+	preferredOrder: string[] | null;
+	onRemove: (category: string, deviceId: string) => void;
+	removeLabel: (name: string) => string;
+}) {
+	return (
+		<section aria-label={title}>
+			<h2 className="text-lg font-semibold">{title}</h2>
+			<div className="mt-2">
+				{items.length === 0 ? (
+					<p className="text-fd-muted-foreground">Nothing here yet.</p>
+				) : (
+					<DeviceTypeSections
+						items={items}
+						preferredOrder={preferredOrder}
+						onRemove={onRemove}
+						removeLabel={removeLabel}
+					/>
+				)}
+			</div>
+		</section>
+	);
+}
+
+export function Collection() {
+	const { toggleOwned, toggleBookmark, categoryOrder } = useAuth();
+	const { owned, bookmarks, loadError, setOwned, setBookmarks } =
+		useYouDevices();
+
+	const ownedByKey = new Map(
+		(owned ?? []).map((item) => [`${item.category}:${item.deviceId}`, item]),
+	);
+	const bookmarkByKey = new Map(
+		(bookmarks ?? []).map((item) => [
+			`${item.category}:${item.deviceId}`,
+			item,
+		]),
+	);
+	const merge = (item: EnrichedDeviceEntry): CollectionEntry => ({
+		...item,
+		owned: ownedByKey.has(`${item.category}:${item.deviceId}`),
+		bookmarked: bookmarkByKey.has(`${item.category}:${item.deviceId}`),
+	});
+	const ownedItems = (owned ?? []).map(merge);
+	const bookmarkItems = (bookmarks ?? []).map(merge);
 
 	async function handleRemove(category: string, deviceId: string) {
 		if (await toggleOwned(category, deviceId)) return;
@@ -44,32 +99,7 @@ export function YourDevices() {
 					),
 		);
 	}
-
-	return (
-		<Gate>
-			{loadError ? (
-				<p className="text-fd-muted-foreground">{loadError}</p>
-			) : owned === null || owned.length === 0 ? (
-				<p className="text-fd-muted-foreground">
-					Nothing marked as yours yet. Open any device and press Mine.
-				</p>
-			) : (
-				<DeviceTypeSections
-					items={owned}
-					preferredOrder={categoryOrder}
-					onRemove={handleRemove}
-					removeLabel={(name) => `Remove ${name} from your devices`}
-				/>
-			)}
-		</Gate>
-	);
-}
-
-export function Bookmarks() {
-	const { toggleBookmark, categoryOrder } = useAuth();
-	const { bookmarks, loadError, setBookmarks } = useYouDevices();
-
-	async function handleRemove(category: string, deviceId: string) {
+	async function handleBookmarkRemove(category: string, deviceId: string) {
 		if (await toggleBookmark(category, deviceId)) return;
 		setBookmarks((current) =>
 			current === null
@@ -85,21 +115,23 @@ export function Bookmarks() {
 		<Gate>
 			{loadError ? (
 				<p className="text-fd-muted-foreground">{loadError}</p>
-			) : bookmarks === null || bookmarks.length === 0 ? (
-				<p className="text-fd-muted-foreground">
-					No bookmarks yet. Browse the{" "}
-					<Link href="/docs/iphone" className="underline">
-						devices
-					</Link>{" "}
-					and save the ones you want to find here.
-				</p>
 			) : (
-				<DeviceTypeSections
-					items={bookmarks}
-					preferredOrder={categoryOrder}
-					onRemove={handleRemove}
-					removeLabel={(name) => `Remove ${name} bookmark`}
-				/>
+				<div className="flex flex-col gap-8">
+					<CollectionSection
+						title="Owned"
+						items={ownedItems}
+						preferredOrder={categoryOrder}
+						onRemove={handleRemove}
+						removeLabel={(name) => `Remove ${name} from your collection`}
+					/>
+					<CollectionSection
+						title="Bookmarks"
+						items={bookmarkItems}
+						preferredOrder={categoryOrder}
+						onRemove={handleBookmarkRemove}
+						removeLabel={(name) => `Remove ${name} bookmark`}
+					/>
+				</div>
 			)}
 		</Gate>
 	);
