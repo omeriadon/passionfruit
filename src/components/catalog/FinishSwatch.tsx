@@ -56,7 +56,6 @@ type Recipe = {
 	glareOpacity: number;
 	shine: number;
 	grain: number;
-	streaks: boolean;
 	weave: boolean;
 	flat: boolean;
 };
@@ -72,7 +71,7 @@ const RECIPES: Record<FinishMaterial, Recipe> = {
 		glareOpacity: 0.35,
 		shine: 0.15,
 		grain: 0.12,
-		streaks: false,
+
 		weave: false,
 		flat: false,
 	},
@@ -86,7 +85,7 @@ const RECIPES: Record<FinishMaterial, Recipe> = {
 		glareOpacity: 0.4,
 		shine: 0.3,
 		grain: 0.3,
-		streaks: true,
+
 		weave: false,
 		flat: false,
 	},
@@ -100,7 +99,7 @@ const RECIPES: Record<FinishMaterial, Recipe> = {
 		glareOpacity: 0.5,
 		shine: 0.6,
 		grain: 0.1,
-		streaks: false,
+
 		weave: false,
 		flat: false,
 	},
@@ -114,7 +113,7 @@ const RECIPES: Record<FinishMaterial, Recipe> = {
 		glareOpacity: 0.6,
 		shine: 0.8,
 		grain: 0,
-		streaks: false,
+
 		weave: false,
 		flat: false,
 	},
@@ -128,7 +127,7 @@ const RECIPES: Record<FinishMaterial, Recipe> = {
 		glareOpacity: 0.5,
 		shine: 0.7,
 		grain: 0.05,
-		streaks: false,
+
 		weave: false,
 		flat: false,
 	},
@@ -142,7 +141,7 @@ const RECIPES: Record<FinishMaterial, Recipe> = {
 		glareOpacity: 0.5,
 		shine: 0.9,
 		grain: 0,
-		streaks: false,
+
 		weave: false,
 		flat: false,
 	},
@@ -156,7 +155,7 @@ const RECIPES: Record<FinishMaterial, Recipe> = {
 		glareOpacity: 0,
 		shine: 0,
 		grain: 0.3,
-		streaks: false,
+
 		weave: true,
 		flat: true,
 	},
@@ -170,7 +169,7 @@ const RECIPES: Record<FinishMaterial, Recipe> = {
 		glareOpacity: 0,
 		shine: 0,
 		grain: 0,
-		streaks: false,
+
 		weave: false,
 		flat: true,
 	},
@@ -372,7 +371,6 @@ export function FinishSwatch({ finish }: { finish?: FinishRecord }) {
 	const hotId = `fh-${uid}`;
 	const noiseId = `fn-${uid}`;
 	const weaveId = `fw-${uid}`;
-	const streakId = `fs-${uid}`;
 	const sideId = `fd-${uid}`;
 	const glareCX = (glareX / 100) * SIZE;
 	const glareCY = (glareY / 100) * SIZE;
@@ -458,16 +456,6 @@ export function FinishSwatch({ finish }: { finish?: FinishRecord }) {
 						opacity="0.5"
 					/>
 				</pattern>
-				<pattern
-					id={streakId}
-					width="2"
-					height="5"
-					patternUnits="userSpaceOnUse"
-					patternTransform={`rotate(${recipe.angle})`}
-				>
-					<rect width="0.7" height="5" fill="#ffffff" opacity="0.035" />
-					<rect width="2" height="5" fill="transparent" />
-				</pattern>
 			</defs>
 			<g clipPath={`url(#${clipId})`}>
 				{recipe.flat && !effectiveDuo ? (
@@ -482,9 +470,6 @@ export function FinishSwatch({ finish }: { finish?: FinishRecord }) {
 						fill={duoRecipe.flat ? duoBase : `url(#${gradBId})`}
 						clipPath={`url(#${sideId})`}
 					/>
-				) : null}
-				{recipe.streaks && !effectiveDuo ? (
-					<rect width={SIZE} height={SIZE} fill={`url(#${streakId})`} />
 				) : null}
 				{weave ? (
 					<rect width={SIZE} height={SIZE} fill={`url(#${weaveId})`} />
