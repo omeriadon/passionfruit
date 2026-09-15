@@ -1,7 +1,6 @@
 ---
-goodToBuy: unknown
+goodToBuy: none
 editorial: "No editorial note has been authored yet."
-tags: []
 ---
 
 # MacBook Neo (A18 Pro)

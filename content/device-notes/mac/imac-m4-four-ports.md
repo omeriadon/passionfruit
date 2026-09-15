@@ -1,7 +1,6 @@
 ---
-goodToBuy: unknown
+goodToBuy: none
 editorial: "No editorial note has been authored yet."
-tags: []
 ---
 
 # iMac (M4, four ports)

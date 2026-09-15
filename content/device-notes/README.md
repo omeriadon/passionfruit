@@ -7,11 +7,11 @@ Each note is stored at `content/device-notes/<category>/<device-id>.md`. Accesso
 Frontmatter shape:
 
 ```yaml
-goodToBuy: unknown
+goodToBuy: none
+goodToBuyText: ""
 editorial: "No editorial note has been authored yet."
-tags: []
 ```
 
-`goodToBuy` is `yes`, `no`, `caution`, or `unknown`. Use `unknown` until an opinion is authored. `editorial` is a short detail-view paragraph. `tags` is an optional list of short strings.
+`goodToBuy` is `yes`, `no`, or `none` and controls the badge color. `goodToBuyText` is optional free text shown in the detail view when non-empty. `editorial` is a short detail-view paragraph.
 
 The loader returns safe defaults when a note is missing, malformed, or incomplete.

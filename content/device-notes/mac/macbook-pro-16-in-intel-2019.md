@@ -1,7 +1,6 @@
 ---
-goodToBuy: unknown
+goodToBuy: none
 editorial: "No editorial note has been authored yet."
-tags: []
 ---
 
 # MacBook Pro 16-in. (Intel, 2019)
