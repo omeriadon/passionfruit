@@ -1,6 +1,12 @@
 "use client";
 
-import { BadgeCheck, Bookmark, Check, ChevronDown, ExternalLink } from "lucide-react";
+import {
+	BadgeCheck,
+	Bookmark,
+	Check,
+	ChevronDown,
+	ExternalLink,
+} from "lucide-react";
 import type { CSSProperties } from "react";
 import { useMemo, useState } from "react";
 import { useAuth } from "@/lib/auth/AuthProvider";
@@ -118,8 +124,15 @@ function detailSections(device: CatalogDevice) {
 }
 
 export function DeviceDetail({ category, device, note }: DeviceDetailProps) {
-	const { actionError, isBookmarked, isLoading, isOwned, toggleBookmark, toggleOwned, user } =
-		useAuth();
+	const {
+		actionError,
+		isBookmarked,
+		isLoading,
+		isOwned,
+		toggleBookmark,
+		toggleOwned,
+		user,
+	} = useAuth();
 	const [selectedColorId, setSelectedColorId] = useState<string | undefined>(
 		() => getColors(device)[0]?.id,
 	);
@@ -219,13 +232,7 @@ export function DeviceDetail({ category, device, note }: DeviceDetailProps) {
 						) : (
 							<BadgeCheck aria-hidden="true" size={16} />
 						)}
-						{ownedPending
-							? "Saving…"
-							: owned
-								? "Yours"
-								: user
-									? "Mine"
-									: "Sign in to mark yours"}
+						{ownedPending ? "Saving…" : user ? "Mine" : "Sign in to mark yours"}
 					</button>
 					{actionError ? (
 						<p role="alert" className={styles.bookmarkError}>
