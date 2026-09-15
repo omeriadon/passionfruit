@@ -1175,8 +1175,7 @@
 					"displayName": "Lavender",
 					"finish": {
 						"base": "#C9C0DE",
-						"material": "glass",
-						"grain": 0.15
+						"material": "glass"
 					},
 					"images": [
 						{
@@ -1194,8 +1193,7 @@
 					"displayName": "Sage",
 					"finish": {
 						"base": "#AEB89F",
-						"material": "glass",
-						"grain": 0.15
+						"material": "glass"
 					},
 					"images": [
 						{
@@ -1213,8 +1211,7 @@
 					"displayName": "Mist Blue",
 					"finish": {
 						"base": "#B4C8DF",
-						"material": "glass",
-						"grain": 0.15
+						"material": "glass"
 					},
 					"images": [
 						{
@@ -1232,8 +1229,7 @@
 					"displayName": "White",
 					"finish": {
 						"base": "#F5F5F7",
-						"material": "glass",
-						"grain": 0.15
+						"material": "glass"
 					},
 					"images": [
 						{
@@ -1251,8 +1247,7 @@
 					"displayName": "Black",
 					"finish": {
 						"base": "#1D1D1F",
-						"material": "glass",
-						"grain": 0.15
+						"material": "glass"
 					},
 					"images": [
 						{
@@ -1864,8 +1859,7 @@
 					"displayName": "Soft Pink",
 					"finish": {
 						"base": "#F2D2D9",
-						"material": "glass",
-						"grain": 0.15
+						"material": "glass"
 					},
 					"images": [
 						{
@@ -1883,8 +1877,7 @@
 					"displayName": "White",
 					"finish": {
 						"base": "#F5F5F7",
-						"material": "glass",
-						"grain": 0.15
+						"material": "glass"
 					},
 					"images": [
 						{
@@ -1902,8 +1895,7 @@
 					"displayName": "Black",
 					"finish": {
 						"base": "#1D1D1F",
-						"material": "glass",
-						"grain": 0.15
+						"material": "glass"
 					},
 					"images": [
 						{
@@ -2507,8 +2499,7 @@
 					"displayName": "Ultramarine",
 					"finish": {
 						"base": "#9FB4E3",
-						"material": "glass",
-						"grain": 0.15
+						"material": "glass"
 					},
 					"images": [
 						{
@@ -2526,8 +2517,7 @@
 					"displayName": "Teal",
 					"finish": {
 						"base": "#5AB3A9",
-						"material": "glass",
-						"grain": 0.15
+						"material": "glass"
 					},
 					"images": [
 						{
@@ -2545,8 +2535,7 @@
 					"displayName": "Pink",
 					"finish": {
 						"base": "#E8A9C6",
-						"material": "glass",
-						"grain": 0.15
+						"material": "glass"
 					},
 					"images": [
 						{
@@ -2564,8 +2553,7 @@
 					"displayName": "White",
 					"finish": {
 						"base": "#F5F5F7",
-						"material": "glass",
-						"grain": 0.15
+						"material": "glass"
 					},
 					"images": [
 						{
@@ -2583,8 +2571,7 @@
 					"displayName": "Black",
 					"finish": {
 						"base": "#1D1D1F",
-						"material": "glass",
-						"grain": 0.15
+						"material": "glass"
 					},
 					"images": [
 						{
@@ -2880,7 +2867,7 @@
 					"id": "white-titanium",
 					"displayName": "White Titanium",
 					"finish": {
-						"base": "#E3E4E6",
+						"base": "#E6E2D8",
 						"material": "brushed-titanium"
 					},
 					"images": [
@@ -2898,7 +2885,7 @@
 					"id": "black-titanium",
 					"displayName": "Black Titanium",
 					"finish": {
-						"base": "#1D1D1F",
+						"base": "#2E2E30",
 						"material": "brushed-titanium"
 					},
 					"images": [
@@ -3229,7 +3216,7 @@
 					"id": "white-titanium",
 					"displayName": "White Titanium",
 					"finish": {
-						"base": "#E3E4E6",
+						"base": "#E6E2D8",
 						"material": "brushed-titanium"
 					},
 					"images": [
@@ -3247,7 +3234,7 @@
 					"id": "black-titanium",
 					"displayName": "Black Titanium",
 					"finish": {
-						"base": "#1D1D1F",
+						"base": "#2E2E30",
 						"material": "brushed-titanium"
 					},
 					"images": [
@@ -11540,8 +11527,7 @@
 					"displayName": "Black",
 					"finish": {
 						"base": "#1D1D1F",
-						"material": "glass",
-						"grain": 0.15
+						"material": "glass"
 					},
 					"images": [
 						{
@@ -11559,8 +11545,7 @@
 					"displayName": "Blue",
 					"finish": {
 						"base": "#DCE5EF",
-						"material": "glass",
-						"grain": 0.15
+						"material": "glass"
 					},
 					"images": [
 						{
@@ -11578,8 +11563,7 @@
 					"displayName": "Green",
 					"finish": {
 						"base": "#CFD8C6",
-						"material": "glass",
-						"grain": 0.15
+						"material": "glass"
 					},
 					"images": [
 						{
@@ -11597,8 +11581,7 @@
 					"displayName": "Yellow",
 					"finish": {
 						"base": "#F2E7BB",
-						"material": "glass",
-						"grain": 0.15
+						"material": "glass"
 					},
 					"images": [
 						{
@@ -11616,8 +11599,7 @@
 					"displayName": "Pink",
 					"finish": {
 						"base": "#EECFD6",
-						"material": "glass",
-						"grain": 0.15
+						"material": "glass"
 					},
 					"images": [
 						{
@@ -11870,8 +11852,7 @@
 					"displayName": "Black",
 					"finish": {
 						"base": "#1D1D1F",
-						"material": "glass",
-						"grain": 0.15
+						"material": "glass"
 					},
 					"images": [
 						{
@@ -11889,8 +11870,7 @@
 					"displayName": "Blue",
 					"finish": {
 						"base": "#DCE5EF",
-						"material": "glass",
-						"grain": 0.15
+						"material": "glass"
 					},
 					"images": [
 						{
@@ -11908,8 +11888,7 @@
 					"displayName": "Green",
 					"finish": {
 						"base": "#CFD8C6",
-						"material": "glass",
-						"grain": 0.15
+						"material": "glass"
 					},
 					"images": [
 						{
@@ -11927,8 +11906,7 @@
 					"displayName": "Yellow",
 					"finish": {
 						"base": "#F2E7BB",
-						"material": "glass",
-						"grain": 0.15
+						"material": "glass"
 					},
 					"images": [
 						{
@@ -11946,8 +11924,7 @@
 					"displayName": "Pink",
 					"finish": {
 						"base": "#EECFD6",
-						"material": "glass",
-						"grain": 0.15
+						"material": "glass"
 					},
 					"images": [
 						{
@@ -12235,7 +12212,7 @@
 					"id": "white-titanium",
 					"displayName": "White Titanium",
 					"finish": {
-						"base": "#E3E4E6",
+						"base": "#E6E2D8",
 						"material": "brushed-titanium"
 					},
 					"images": [
@@ -12253,7 +12230,7 @@
 					"id": "black-titanium",
 					"displayName": "Black Titanium",
 					"finish": {
-						"base": "#1D1D1F",
+						"base": "#2E2E30",
 						"material": "brushed-titanium"
 					},
 					"images": [
@@ -12521,8 +12498,7 @@
 					"displayName": "Ultramarine",
 					"finish": {
 						"base": "#9FB4E3",
-						"material": "glass",
-						"grain": 0.15
+						"material": "glass"
 					},
 					"images": [
 						{
@@ -12540,8 +12516,7 @@
 					"displayName": "Teal",
 					"finish": {
 						"base": "#5AB3A9",
-						"material": "glass",
-						"grain": 0.15
+						"material": "glass"
 					},
 					"images": [
 						{
@@ -12559,8 +12534,7 @@
 					"displayName": "Pink",
 					"finish": {
 						"base": "#E8A9C6",
-						"material": "glass",
-						"grain": 0.15
+						"material": "glass"
 					},
 					"images": [
 						{
@@ -12578,8 +12552,7 @@
 					"displayName": "White",
 					"finish": {
 						"base": "#F5F5F7",
-						"material": "glass",
-						"grain": 0.15
+						"material": "glass"
 					},
 					"images": [
 						{
@@ -12597,8 +12570,7 @@
 					"displayName": "Black",
 					"finish": {
 						"base": "#1D1D1F",
-						"material": "glass",
-						"grain": 0.15
+						"material": "glass"
 					},
 					"images": [
 						{
@@ -12850,7 +12822,7 @@
 					"id": "black-titanium",
 					"displayName": "Black Titanium",
 					"finish": {
-						"base": "#1D1D1F",
+						"base": "#2E2E30",
 						"material": "brushed-titanium"
 					},
 					"images": [
@@ -12868,7 +12840,7 @@
 					"id": "white-titanium",
 					"displayName": "White Titanium",
 					"finish": {
-						"base": "#E3E4E6",
+						"base": "#E6E2D8",
 						"material": "brushed-titanium"
 					},
 					"images": [
