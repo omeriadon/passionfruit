@@ -9,9 +9,9 @@
 				{
 					"id": "night-sky",
 					"displayName": "Night Sky",
-					"swatch": {
-						"kind": "css",
-						"value": "#141C28"
+					"finish": {
+						"base": "#141C28",
+						"material": "flat"
 					},
 					"images": [],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name (no official swatch hex published); recorded per data/tmp/iphone/iphone-18-pro-au-2026.html and buy-iphone-*-au-2026.html finish lists."
@@ -19,9 +19,9 @@
 				{
 					"id": "star-white",
 					"displayName": "Star White",
-					"swatch": {
-						"kind": "css",
-						"value": "#F4F1EA"
+					"finish": {
+						"base": "#F4F1EA",
+						"material": "flat"
 					},
 					"images": [],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name (no official swatch hex published); recorded per data/tmp/iphone/iphone-18-pro-au-2026.html and buy-iphone-*-au-2026.html finish lists."
@@ -191,10 +191,7 @@
 					"appleReferenceImageSupport": false
 				}
 			],
-			"audio": {
-				"speaker": true,
-				"microphone": true
-			},
+			"audio": {},
 			"batteryAndPower": {
 				"hasBattery": true,
 				"batteryCapacityMah": null,
@@ -387,9 +384,9 @@
 				{
 					"id": "burgundy",
 					"displayName": "Burgundy",
-					"swatch": {
-						"kind": "css",
-						"value": "#5E1A2B"
+					"finish": {
+						"base": "#5E1A2B",
+						"material": "matte-aluminum"
 					},
 					"images": [],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name (no official swatch hex published); recorded per data/tmp/iphone/iphone-18-pro-au-2026.html and buy-iphone-*-au-2026.html finish lists."
@@ -397,9 +394,9 @@
 				{
 					"id": "glacier",
 					"displayName": "Glacier",
-					"swatch": {
-						"kind": "css",
-						"value": "#D9E6EA"
+					"finish": {
+						"base": "#D9E6EA",
+						"material": "matte-aluminum"
 					},
 					"images": [],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name (no official swatch hex published); recorded per data/tmp/iphone/iphone-18-pro-au-2026.html and buy-iphone-*-au-2026.html finish lists."
@@ -407,9 +404,9 @@
 				{
 					"id": "silver",
 					"displayName": "Silver",
-					"swatch": {
-						"kind": "css",
-						"value": "#E3E4E6"
+					"finish": {
+						"base": "#E3E4E6",
+						"material": "matte-aluminum"
 					},
 					"images": [],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name (no official swatch hex published); recorded per data/tmp/iphone/iphone-18-pro-au-2026.html and buy-iphone-*-au-2026.html finish lists."
@@ -417,9 +414,9 @@
 				{
 					"id": "black",
 					"displayName": "Black",
-					"swatch": {
-						"kind": "css",
-						"value": "#1D1D1F"
+					"finish": {
+						"base": "#1D1D1F",
+						"material": "matte-aluminum"
 					},
 					"images": [],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name (no official swatch hex published); recorded per data/tmp/iphone/iphone-18-pro-au-2026.html and buy-iphone-*-au-2026.html finish lists."
@@ -582,10 +579,7 @@
 					"centerStage": true
 				}
 			],
-			"audio": {
-				"speaker": true,
-				"microphone": true
-			},
+			"audio": {},
 			"batteryAndPower": {
 				"hasBattery": true,
 				"batteryCapacityMah": null,
@@ -739,9 +733,9 @@
 				{
 					"id": "burgundy",
 					"displayName": "Burgundy",
-					"swatch": {
-						"kind": "css",
-						"value": "#5E1A2B"
+					"finish": {
+						"base": "#5E1A2B",
+						"material": "matte-aluminum"
 					},
 					"images": [],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name (no official swatch hex published); recorded per data/tmp/iphone/iphone-18-pro-au-2026.html and buy-iphone-*-au-2026.html finish lists."
@@ -749,9 +743,9 @@
 				{
 					"id": "glacier",
 					"displayName": "Glacier",
-					"swatch": {
-						"kind": "css",
-						"value": "#D9E6EA"
+					"finish": {
+						"base": "#D9E6EA",
+						"material": "matte-aluminum"
 					},
 					"images": [],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name (no official swatch hex published); recorded per data/tmp/iphone/iphone-18-pro-au-2026.html and buy-iphone-*-au-2026.html finish lists."
@@ -759,9 +753,9 @@
 				{
 					"id": "silver",
 					"displayName": "Silver",
-					"swatch": {
-						"kind": "css",
-						"value": "#E3E4E6"
+					"finish": {
+						"base": "#E3E4E6",
+						"material": "matte-aluminum"
 					},
 					"images": [],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name (no official swatch hex published); recorded per data/tmp/iphone/iphone-18-pro-au-2026.html and buy-iphone-*-au-2026.html finish lists."
@@ -769,9 +763,9 @@
 				{
 					"id": "black",
 					"displayName": "Black",
-					"swatch": {
-						"kind": "css",
-						"value": "#1D1D1F"
+					"finish": {
+						"base": "#1D1D1F",
+						"material": "matte-aluminum"
 					},
 					"images": [],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name (no official swatch hex published); recorded per data/tmp/iphone/iphone-18-pro-au-2026.html and buy-iphone-*-au-2026.html finish lists."
@@ -938,10 +932,7 @@
 					"centerStage": true
 				}
 			],
-			"audio": {
-				"speaker": true,
-				"microphone": true
-			},
+			"audio": {},
 			"batteryAndPower": {
 				"hasBattery": true,
 				"batteryCapacityMah": null,
@@ -1100,9 +1091,10 @@
 				{
 					"id": "lavender",
 					"displayName": "Lavender",
-					"swatch": {
-						"kind": "image",
-						"url": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphone17_lavender__etuerbkei0ya_small_2x.jpg"
+					"finish": {
+						"base": "#C9C0DE",
+						"material": "glass",
+						"grain": 0.15
 					},
 					"images": [
 						{
@@ -1118,9 +1110,10 @@
 				{
 					"id": "sage",
 					"displayName": "Sage",
-					"swatch": {
-						"kind": "image",
-						"url": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphone17_sage__edsxj53vsn0i_small_2x.jpg"
+					"finish": {
+						"base": "#AEB89F",
+						"material": "glass",
+						"grain": 0.15
 					},
 					"images": [
 						{
@@ -1136,9 +1129,10 @@
 				{
 					"id": "mist-blue",
 					"displayName": "Mist Blue",
-					"swatch": {
-						"kind": "image",
-						"url": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphone17_mist_blue__fjf0c9euujee_small_2x.jpg"
+					"finish": {
+						"base": "#B4C8DF",
+						"material": "glass",
+						"grain": 0.15
 					},
 					"images": [
 						{
@@ -1154,9 +1148,10 @@
 				{
 					"id": "white",
 					"displayName": "White",
-					"swatch": {
-						"kind": "image",
-						"url": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphone17_white__cddjqf5mzlaq_small_2x.jpg"
+					"finish": {
+						"base": "#F5F5F7",
+						"material": "glass",
+						"grain": 0.15
 					},
 					"images": [
 						{
@@ -1172,9 +1167,10 @@
 				{
 					"id": "black",
 					"displayName": "Black",
-					"swatch": {
-						"kind": "image",
-						"url": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphone17_black__epmfmcpap0sy_small_2x.jpg"
+					"finish": {
+						"base": "#1D1D1F",
+						"material": "glass",
+						"grain": 0.15
 					},
 					"images": [
 						{
@@ -1303,8 +1299,6 @@
 				}
 			],
 			"audio": {
-				"speaker": true,
-				"microphone": true,
 				"sourceNotes": "Speaker and microphone presence established by iPhone product type; detailed configurations absent from supplied HTML."
 			},
 			"batteryAndPower": {
@@ -1442,9 +1436,9 @@
 				{
 					"id": "cosmic-orange",
 					"displayName": "Cosmic Orange",
-					"swatch": {
-						"kind": "image",
-						"url": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphone17_pro_max_cosmic_orange__d7yolstz8cmu_small_2x.jpg"
+					"finish": {
+						"base": "#C4622D",
+						"material": "matte-aluminum"
 					},
 					"images": [
 						{
@@ -1460,9 +1454,9 @@
 				{
 					"id": "deep-blue",
 					"displayName": "Deep Blue",
-					"swatch": {
-						"kind": "image",
-						"url": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphone17_pro_max_deep_blue__frgcd836v866_small_2x.jpg"
+					"finish": {
+						"base": "#2E3A5C",
+						"material": "matte-aluminum"
 					},
 					"images": [
 						{
@@ -1478,9 +1472,9 @@
 				{
 					"id": "silver",
 					"displayName": "Silver",
-					"swatch": {
-						"kind": "image",
-						"url": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphone17_pro_max_silver__dtw5i9e8osmu_small_2x.jpg"
+					"finish": {
+						"base": "#E3E4E6",
+						"material": "matte-aluminum"
 					},
 					"images": [
 						{
@@ -1649,8 +1643,6 @@
 				}
 			],
 			"audio": {
-				"speaker": true,
-				"microphone": true,
 				"sourceNotes": "Speaker and microphone presence established by iPhone product type; detailed configurations absent from supplied HTML."
 			},
 			"batteryAndPower": {
@@ -1788,9 +1780,10 @@
 				{
 					"id": "soft-pink",
 					"displayName": "Soft Pink",
-					"swatch": {
-						"kind": "image",
-						"url": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphone17e_pink__bj426l1s94gi_small_2x.jpg"
+					"finish": {
+						"base": "#F2D2D9",
+						"material": "glass",
+						"grain": 0.15
 					},
 					"images": [
 						{
@@ -1806,9 +1799,10 @@
 				{
 					"id": "white",
 					"displayName": "White",
-					"swatch": {
-						"kind": "image",
-						"url": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphone17e_white__dznzme1jxvki_small_2x.jpg"
+					"finish": {
+						"base": "#F5F5F7",
+						"material": "glass",
+						"grain": 0.15
 					},
 					"images": [
 						{
@@ -1824,9 +1818,10 @@
 				{
 					"id": "black",
 					"displayName": "Black",
-					"swatch": {
-						"kind": "image",
-						"url": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphone17e_black__f8ox5biet3au_small_2x.jpg"
+					"finish": {
+						"base": "#1D1D1F",
+						"material": "glass",
+						"grain": 0.15
 					},
 					"images": [
 						{
@@ -1954,8 +1949,6 @@
 				}
 			],
 			"audio": {
-				"speaker": true,
-				"microphone": true,
 				"sourceNotes": "Speaker and microphone presence established by iPhone product type; detailed configurations absent from supplied HTML."
 			},
 			"batteryAndPower": {
@@ -2093,9 +2086,9 @@
 				{
 					"id": "sky-blue",
 					"displayName": "Sky Blue",
-					"swatch": {
-						"kind": "image",
-						"url": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphone_air_sky_blue__kvm15b10x6qa_small_2x.jpg"
+					"finish": {
+						"base": "#BDD2E5",
+						"material": "polished-titanium"
 					},
 					"images": [
 						{
@@ -2111,9 +2104,9 @@
 				{
 					"id": "light-gold",
 					"displayName": "Light Gold",
-					"swatch": {
-						"kind": "image",
-						"url": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphone_air_light_gold__c1s3ly3yjuc2_small_2x.jpg"
+					"finish": {
+						"base": "#E7DCC4",
+						"material": "polished-titanium"
 					},
 					"images": [
 						{
@@ -2129,9 +2122,9 @@
 				{
 					"id": "cloud-white",
 					"displayName": "Cloud White",
-					"swatch": {
-						"kind": "image",
-						"url": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphone_air_cloud_white__fay39sc7sru6_small_2x.jpg"
+					"finish": {
+						"base": "#EFEDE7",
+						"material": "polished-titanium"
 					},
 					"images": [
 						{
@@ -2147,9 +2140,9 @@
 				{
 					"id": "space-black",
 					"displayName": "Space Black",
-					"swatch": {
-						"kind": "image",
-						"url": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphone_air_space_black__erjeo9fa6oa6_small_2x.jpg"
+					"finish": {
+						"base": "#2B2E33",
+						"material": "polished-titanium"
 					},
 					"images": [
 						{
@@ -2293,8 +2286,6 @@
 				}
 			],
 			"audio": {
-				"speaker": true,
-				"microphone": true,
 				"sourceNotes": "Speaker and microphone presence established by iPhone product type; detailed configurations absent from supplied HTML."
 			},
 			"batteryAndPower": {
@@ -2432,9 +2423,10 @@
 				{
 					"id": "ultramarine",
 					"displayName": "Ultramarine",
-					"swatch": {
-						"kind": "image",
-						"url": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphone16_ultramarine__sr260qois4am_small_2x.jpg"
+					"finish": {
+						"base": "#9FB4E3",
+						"material": "glass",
+						"grain": 0.15
 					},
 					"images": [
 						{
@@ -2450,9 +2442,10 @@
 				{
 					"id": "teal",
 					"displayName": "Teal",
-					"swatch": {
-						"kind": "image",
-						"url": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphone16_teal__fkzqehm57iai_small_2x.jpg"
+					"finish": {
+						"base": "#5AB3A9",
+						"material": "glass",
+						"grain": 0.15
 					},
 					"images": [
 						{
@@ -2468,9 +2461,10 @@
 				{
 					"id": "pink",
 					"displayName": "Pink",
-					"swatch": {
-						"kind": "image",
-						"url": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphone16_pink__fzr1z22a7m2q_small_2x.jpg"
+					"finish": {
+						"base": "#E8A9C6",
+						"material": "glass",
+						"grain": 0.15
 					},
 					"images": [
 						{
@@ -2486,9 +2480,10 @@
 				{
 					"id": "white",
 					"displayName": "White",
-					"swatch": {
-						"kind": "image",
-						"url": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphone16_pro_max_white_titanium__nrwzujp5v762_small_2x.jpg"
+					"finish": {
+						"base": "#F5F5F7",
+						"material": "glass",
+						"grain": 0.15
 					},
 					"images": [
 						{
@@ -2504,9 +2499,10 @@
 				{
 					"id": "black",
 					"displayName": "Black",
-					"swatch": {
-						"kind": "image",
-						"url": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphone16_pro_max_black_titanium__evlilxt8g2mq_small_2x.jpg"
+					"finish": {
+						"base": "#1D1D1F",
+						"material": "glass",
+						"grain": 0.15
 					},
 					"images": [
 						{
@@ -2629,8 +2625,6 @@
 				}
 			],
 			"audio": {
-				"speaker": true,
-				"microphone": true,
 				"sourceNotes": "Speaker and microphone presence established by iPhone product type; detailed configurations absent from supplied HTML."
 			},
 			"batteryAndPower": {
@@ -2767,9 +2761,9 @@
 				{
 					"id": "desert-titanium",
 					"displayName": "Desert Titanium",
-					"swatch": {
-						"kind": "image",
-						"url": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphone16_pro_max_desert_titanium__f8058hcu01ua_small_2x.jpg"
+					"finish": {
+						"base": "#BFA48F",
+						"material": "brushed-titanium"
 					},
 					"images": [
 						{
@@ -2785,9 +2779,9 @@
 				{
 					"id": "natural-titanium",
 					"displayName": "Natural Titanium",
-					"swatch": {
-						"kind": "image",
-						"url": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphone16_pro_max_natural_titanium__finz5cbww0mm_small_2x.jpg"
+					"finish": {
+						"base": "#C2BCB2",
+						"material": "brushed-titanium"
 					},
 					"images": [
 						{
@@ -2803,9 +2797,9 @@
 				{
 					"id": "white-titanium",
 					"displayName": "White Titanium",
-					"swatch": {
-						"kind": "image",
-						"url": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphone16_pro_max_white_titanium__nrwzujp5v762_small_2x.jpg"
+					"finish": {
+						"base": "#E3E4E6",
+						"material": "brushed-titanium"
 					},
 					"images": [
 						{
@@ -2821,9 +2815,9 @@
 				{
 					"id": "black-titanium",
 					"displayName": "Black Titanium",
-					"swatch": {
-						"kind": "image",
-						"url": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphone16_pro_max_black_titanium__evlilxt8g2mq_small_2x.jpg"
+					"finish": {
+						"base": "#1D1D1F",
+						"material": "brushed-titanium"
 					},
 					"images": [
 						{
@@ -2979,8 +2973,6 @@
 				}
 			],
 			"audio": {
-				"speaker": true,
-				"microphone": true,
 				"sourceNotes": "Speaker and microphone presence established by iPhone product type; detailed configurations absent from supplied HTML."
 			},
 			"batteryAndPower": {
@@ -3118,9 +3110,9 @@
 				{
 					"id": "natural-titanium",
 					"displayName": "Natural Titanium",
-					"swatch": {
-						"kind": "image",
-						"url": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphone15_pro_max_natural_titanium__byvhspupwiuq_small_2x.jpg"
+					"finish": {
+						"base": "#C2BCB2",
+						"material": "brushed-titanium"
 					},
 					"images": [
 						{
@@ -3136,9 +3128,9 @@
 				{
 					"id": "blue-titanium",
 					"displayName": "Blue Titanium",
-					"swatch": {
-						"kind": "image",
-						"url": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphone15_pro_max_blue_titanium__c8xeminnbm82_small_2x.jpg"
+					"finish": {
+						"base": "#3F474E",
+						"material": "brushed-titanium"
 					},
 					"images": [
 						{
@@ -3154,9 +3146,9 @@
 				{
 					"id": "white-titanium",
 					"displayName": "White Titanium",
-					"swatch": {
-						"kind": "image",
-						"url": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphone15_pro_max_white_titanium__citdiqo2e0gi_small_2x.jpg"
+					"finish": {
+						"base": "#E3E4E6",
+						"material": "brushed-titanium"
 					},
 					"images": [
 						{
@@ -3172,9 +3164,9 @@
 				{
 					"id": "black-titanium",
 					"displayName": "Black Titanium",
-					"swatch": {
-						"kind": "image",
-						"url": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphone15_pro_max_black_titanium__djidfm1dcmie_small_2x.jpg"
+					"finish": {
+						"base": "#1D1D1F",
+						"material": "brushed-titanium"
 					},
 					"images": [
 						{
@@ -3334,8 +3326,6 @@
 				}
 			],
 			"audio": {
-				"speaker": true,
-				"microphone": true,
 				"sourceNotes": "Speaker and microphone presence established by iPhone product type; detailed configurations absent from supplied HTML."
 			},
 			"batteryAndPower": {
@@ -3473,9 +3463,9 @@
 				{
 					"id": "blue",
 					"displayName": "Blue",
-					"swatch": {
-						"kind": "image",
-						"url": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphone14_plus_blue__ct1alvw58q82_small_2x.jpg"
+					"finish": {
+						"base": "#A7BFD4",
+						"material": "glass"
 					},
 					"images": [
 						{
@@ -3491,9 +3481,9 @@
 				{
 					"id": "purple",
 					"displayName": "Purple",
-					"swatch": {
-						"kind": "image",
-						"url": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphone14_pro_deep_purple__p5fjz0npooiq_small_2x.jpg"
+					"finish": {
+						"base": "#CFC3DE",
+						"material": "glass"
 					},
 					"images": [
 						{
@@ -3509,9 +3499,9 @@
 				{
 					"id": "yellow",
 					"displayName": "Yellow",
-					"swatch": {
-						"kind": "image",
-						"url": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphone14_plus_yellow__cijyg33497rm_small_2x.jpg"
+					"finish": {
+						"base": "#F3E6A0",
+						"material": "glass"
 					},
 					"images": [
 						{
@@ -3527,9 +3517,9 @@
 				{
 					"id": "midnight",
 					"displayName": "Midnight",
-					"swatch": {
-						"kind": "image",
-						"url": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphone14_plus_midnight__c9kmil1aq0ae_small_2x.jpg"
+					"finish": {
+						"base": "#22282F",
+						"material": "glass"
 					},
 					"images": [
 						{
@@ -3545,9 +3535,9 @@
 				{
 					"id": "starlight",
 					"displayName": "Starlight",
-					"swatch": {
-						"kind": "image",
-						"url": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphone14_plus_starlight__f49kqx4mhlea_small_2x.jpg"
+					"finish": {
+						"base": "#E9E1D1",
+						"material": "glass"
 					},
 					"images": [
 						{
@@ -3563,9 +3553,9 @@
 				{
 					"id": "red",
 					"displayName": "(PRODUCT)RED",
-					"swatch": {
-						"kind": "image",
-						"url": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphone14_plus_red__zu2trl902due_small_2x.jpg"
+					"finish": {
+						"base": "#A6192E",
+						"material": "glass"
 					},
 					"images": [
 						{
@@ -3692,8 +3682,6 @@
 				}
 			],
 			"audio": {
-				"speaker": true,
-				"microphone": true,
 				"sourceNotes": "Speaker and microphone presence established by iPhone product type; detailed configurations absent from supplied HTML."
 			},
 			"batteryAndPower": {
@@ -3830,9 +3818,9 @@
 				{
 					"id": "blue",
 					"displayName": "Blue",
-					"swatch": {
-						"kind": "image",
-						"url": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphone14_plus_blue__ct1alvw58q82_small_2x.jpg"
+					"finish": {
+						"base": "#A7BFD4",
+						"material": "glass"
 					},
 					"images": [
 						{
@@ -3848,9 +3836,9 @@
 				{
 					"id": "purple",
 					"displayName": "Purple",
-					"swatch": {
-						"kind": "image",
-						"url": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphone14_plus_purple__ebfjg5vvyu0y_small_2x.jpg"
+					"finish": {
+						"base": "#CFC3DE",
+						"material": "glass"
 					},
 					"images": [
 						{
@@ -3866,9 +3854,9 @@
 				{
 					"id": "yellow",
 					"displayName": "Yellow",
-					"swatch": {
-						"kind": "image",
-						"url": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphone14_plus_yellow__cijyg33497rm_small_2x.jpg"
+					"finish": {
+						"base": "#F3E6A0",
+						"material": "glass"
 					},
 					"images": [
 						{
@@ -3884,9 +3872,9 @@
 				{
 					"id": "midnight",
 					"displayName": "Midnight",
-					"swatch": {
-						"kind": "image",
-						"url": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphone14_plus_midnight__c9kmil1aq0ae_small_2x.jpg"
+					"finish": {
+						"base": "#22282F",
+						"material": "glass"
 					},
 					"images": [
 						{
@@ -3902,9 +3890,9 @@
 				{
 					"id": "starlight",
 					"displayName": "Starlight",
-					"swatch": {
-						"kind": "image",
-						"url": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphone14_plus_starlight__f49kqx4mhlea_small_2x.jpg"
+					"finish": {
+						"base": "#E9E1D1",
+						"material": "glass"
 					},
 					"images": [
 						{
@@ -3920,9 +3908,9 @@
 				{
 					"id": "red",
 					"displayName": "(PRODUCT)RED",
-					"swatch": {
-						"kind": "image",
-						"url": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphone14_plus_red__zu2trl902due_small_2x.jpg"
+					"finish": {
+						"base": "#A6192E",
+						"material": "glass"
 					},
 					"images": [
 						{
@@ -4073,8 +4061,6 @@
 				}
 			],
 			"audio": {
-				"speaker": true,
-				"microphone": true,
 				"sourceNotes": "Speaker and microphone presence established by iPhone product type; detailed configurations absent from supplied HTML."
 			},
 			"batteryAndPower": {
@@ -4211,9 +4197,9 @@
 				{
 					"id": "deep-purple",
 					"displayName": "Deep Purple",
-					"swatch": {
-						"kind": "image",
-						"url": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphone14_pro_deep_purple__p5fjz0npooiq_small_2x.jpg"
+					"finish": {
+						"base": "#595068",
+						"material": "polished-steel"
 					},
 					"images": [
 						{
@@ -4229,9 +4215,9 @@
 				{
 					"id": "gold",
 					"displayName": "Gold",
-					"swatch": {
-						"kind": "image",
-						"url": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphone14_pro_gold__cqyq3tm1zuxe_small_2x.jpg"
+					"finish": {
+						"base": "#F4E8CE",
+						"material": "polished-steel"
 					},
 					"images": [
 						{
@@ -4247,9 +4233,9 @@
 				{
 					"id": "silver",
 					"displayName": "Silver",
-					"swatch": {
-						"kind": "image",
-						"url": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphone14_pro_silver__knexgp9cr5m6_small_2x.jpg"
+					"finish": {
+						"base": "#E3E4E6",
+						"material": "polished-steel"
 					},
 					"images": [
 						{
@@ -4265,9 +4251,9 @@
 				{
 					"id": "space-black",
 					"displayName": "Space Black",
-					"swatch": {
-						"kind": "image",
-						"url": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphone14_pro_space_black__dym2kqku7n6u_small_2x.jpg"
+					"finish": {
+						"base": "#2A2825",
+						"material": "polished-steel"
 					},
 					"images": [
 						{
@@ -4444,8 +4430,6 @@
 				}
 			],
 			"audio": {
-				"speaker": true,
-				"microphone": true,
 				"sourceNotes": "Speaker and microphone presence established by iPhone product type; detailed configurations absent from supplied HTML."
 			},
 			"batteryAndPower": {
@@ -4582,9 +4566,9 @@
 				{
 					"id": "midnight",
 					"displayName": "Midnight",
-					"swatch": {
-						"kind": "image",
-						"url": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphoneSE_3rd_gen_midnight__c57d9v9oipyu_small_2x.jpg"
+					"finish": {
+						"base": "#22282F",
+						"material": "glass"
 					},
 					"images": [
 						{
@@ -4600,9 +4584,9 @@
 				{
 					"id": "starlight",
 					"displayName": "Starlight",
-					"swatch": {
-						"kind": "image",
-						"url": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphoneSE_3rd_gen_starlight__f3ys7aooaiqi_small_2x.jpg"
+					"finish": {
+						"base": "#E9E1D1",
+						"material": "glass"
 					},
 					"images": [
 						{
@@ -4618,9 +4602,9 @@
 				{
 					"id": "red",
 					"displayName": "(PRODUCT)RED",
-					"swatch": {
-						"kind": "image",
-						"url": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphoneSE_3rd_gen_red__do7m5pqh39ci_small_2x.jpg"
+					"finish": {
+						"base": "#A6192E",
+						"material": "glass"
 					},
 					"images": [
 						{
@@ -4749,8 +4733,6 @@
 				}
 			],
 			"audio": {
-				"speaker": true,
-				"microphone": true,
 				"sourceNotes": "Speaker and microphone presence established by iPhone product type; detailed configurations absent from supplied HTML."
 			},
 			"batteryAndPower": {
@@ -4887,9 +4869,9 @@
 				{
 					"id": "green",
 					"displayName": "Green",
-					"swatch": {
-						"kind": "image",
-						"url": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphone13_pro_max_alpine_green__erdqy93lc18i_small_2x.jpg"
+					"finish": {
+						"base": "#39493E",
+						"material": "glass"
 					},
 					"images": [
 						{
@@ -4905,9 +4887,9 @@
 				{
 					"id": "pink",
 					"displayName": "Pink",
-					"swatch": {
-						"kind": "image",
-						"url": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphone13_mini_pink__blln0h9o7f0i_small_2x.jpg"
+					"finish": {
+						"base": "#F6D9DF",
+						"material": "glass"
 					},
 					"images": [
 						{
@@ -4923,9 +4905,9 @@
 				{
 					"id": "blue",
 					"displayName": "Blue",
-					"swatch": {
-						"kind": "image",
-						"url": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphone13_pro_max_sierra_blue__ccdnnwrapdau_small_2x.jpg"
+					"finish": {
+						"base": "#A3B8D0",
+						"material": "glass"
 					},
 					"images": [
 						{
@@ -4941,9 +4923,9 @@
 				{
 					"id": "midnight",
 					"displayName": "Midnight",
-					"swatch": {
-						"kind": "image",
-						"url": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphone13_mini_midnight__e8z05098gnma_small_2x.jpg"
+					"finish": {
+						"base": "#22282F",
+						"material": "glass"
 					},
 					"images": [
 						{
@@ -4959,9 +4941,9 @@
 				{
 					"id": "starlight",
 					"displayName": "Starlight",
-					"swatch": {
-						"kind": "image",
-						"url": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphone13_mini_starlight__mg21bdoe6f62_small_2x.jpg"
+					"finish": {
+						"base": "#E9E1D1",
+						"material": "glass"
 					},
 					"images": [
 						{
@@ -4977,9 +4959,9 @@
 				{
 					"id": "red",
 					"displayName": "(PRODUCT)RED",
-					"swatch": {
-						"kind": "image",
-						"url": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphone13_mini_product_red__c0x8iraijcmu_small_2x.jpg"
+					"finish": {
+						"base": "#A6192E",
+						"material": "glass"
 					},
 					"images": [
 						{
@@ -5106,8 +5088,6 @@
 				}
 			],
 			"audio": {
-				"speaker": true,
-				"microphone": true,
 				"sourceNotes": "Speaker and microphone presence established by iPhone product type; detailed configurations absent from supplied HTML."
 			},
 			"batteryAndPower": {
@@ -5244,9 +5224,9 @@
 				{
 					"id": "green",
 					"displayName": "Green",
-					"swatch": {
-						"kind": "image",
-						"url": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphone13_mini_green__eaa4pvqtsbiq_small_2x.jpg"
+					"finish": {
+						"base": "#39493E",
+						"material": "glass"
 					},
 					"images": [
 						{
@@ -5262,9 +5242,9 @@
 				{
 					"id": "pink",
 					"displayName": "Pink",
-					"swatch": {
-						"kind": "image",
-						"url": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphone13_mini_pink__blln0h9o7f0i_small_2x.jpg"
+					"finish": {
+						"base": "#F6D9DF",
+						"material": "glass"
 					},
 					"images": [
 						{
@@ -5280,9 +5260,9 @@
 				{
 					"id": "blue",
 					"displayName": "Blue",
-					"swatch": {
-						"kind": "image",
-						"url": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphone13_mini_blue__e1ohuf2klquu_small_2x.jpg"
+					"finish": {
+						"base": "#A3B8D0",
+						"material": "glass"
 					},
 					"images": [
 						{
@@ -5298,9 +5278,9 @@
 				{
 					"id": "midnight",
 					"displayName": "Midnight",
-					"swatch": {
-						"kind": "image",
-						"url": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphone13_mini_midnight__e8z05098gnma_small_2x.jpg"
+					"finish": {
+						"base": "#22282F",
+						"material": "glass"
 					},
 					"images": [
 						{
@@ -5316,9 +5296,9 @@
 				{
 					"id": "starlight",
 					"displayName": "Starlight",
-					"swatch": {
-						"kind": "image",
-						"url": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphone13_mini_starlight__mg21bdoe6f62_small_2x.jpg"
+					"finish": {
+						"base": "#E9E1D1",
+						"material": "glass"
 					},
 					"images": [
 						{
@@ -5334,9 +5314,9 @@
 				{
 					"id": "red",
 					"displayName": "(PRODUCT)RED",
-					"swatch": {
-						"kind": "image",
-						"url": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphone13_mini_product_red__c0x8iraijcmu_small_2x.jpg"
+					"finish": {
+						"base": "#A6192E",
+						"material": "glass"
 					},
 					"images": [
 						{
@@ -5488,8 +5468,6 @@
 				}
 			],
 			"audio": {
-				"speaker": true,
-				"microphone": true,
 				"sourceNotes": "Speaker and microphone presence established by iPhone product type; detailed configurations absent from supplied HTML."
 			},
 			"batteryAndPower": {
@@ -5626,9 +5604,9 @@
 				{
 					"id": "alpine-green",
 					"displayName": "Alpine Green",
-					"swatch": {
-						"kind": "image",
-						"url": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphone13_pro_max_alpine_green__erdqy93lc18i_small_2x.jpg"
+					"finish": {
+						"base": "#3E4F41",
+						"material": "polished-steel"
 					},
 					"images": [
 						{
@@ -5644,9 +5622,9 @@
 				{
 					"id": "silver",
 					"displayName": "Silver",
-					"swatch": {
-						"kind": "image",
-						"url": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphone13_pro_max_silver__dbfz7im067e6_small_2x.jpg"
+					"finish": {
+						"base": "#E3E4E6",
+						"material": "polished-steel"
 					},
 					"images": [
 						{
@@ -5662,9 +5640,9 @@
 				{
 					"id": "gold",
 					"displayName": "Gold",
-					"swatch": {
-						"kind": "image",
-						"url": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphone13_pro_max_gold__dpkma79ndo8y_small_2x.jpg"
+					"finish": {
+						"base": "#F4E8CE",
+						"material": "polished-steel"
 					},
 					"images": [
 						{
@@ -5680,9 +5658,9 @@
 				{
 					"id": "graphite",
 					"displayName": "Graphite",
-					"swatch": {
-						"kind": "image",
-						"url": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphone13_pro_max_graphite__e0rjnrin6ncm_small_2x.jpg"
+					"finish": {
+						"base": "#3C3C3D",
+						"material": "polished-steel"
 					},
 					"images": [
 						{
@@ -5698,9 +5676,9 @@
 				{
 					"id": "sierra-blue",
 					"displayName": "Sierra Blue",
-					"swatch": {
-						"kind": "image",
-						"url": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphone13_pro_max_sierra_blue__ccdnnwrapdau_small_2x.jpg"
+					"finish": {
+						"base": "#A7C1D9",
+						"material": "polished-steel"
 					},
 					"images": [
 						{
@@ -5880,8 +5858,6 @@
 				}
 			],
 			"audio": {
-				"speaker": true,
-				"microphone": true,
 				"sourceNotes": "Speaker and microphone presence established by iPhone product type; detailed configurations absent from supplied HTML."
 			},
 			"batteryAndPower": {
@@ -6018,9 +5994,9 @@
 				{
 					"id": "purple",
 					"displayName": "Purple",
-					"swatch": {
-						"kind": "image",
-						"url": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphone12_purple__dgt75n0isaeu_small_2x.jpg"
+					"finish": {
+						"base": "#CDBEE7",
+						"material": "glass"
 					},
 					"images": [
 						{
@@ -6036,9 +6012,9 @@
 				{
 					"id": "blue",
 					"displayName": "Blue",
-					"swatch": {
-						"kind": "image",
-						"url": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphone12_blue__ffk87fz4nuqi_small_2x.jpg"
+					"finish": {
+						"base": "#2E6BD8",
+						"material": "glass"
 					},
 					"images": [
 						{
@@ -6054,9 +6030,9 @@
 				{
 					"id": "green",
 					"displayName": "Green",
-					"swatch": {
-						"kind": "image",
-						"url": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphone12_green__cua80qomesgi_small_2x.jpg"
+					"finish": {
+						"base": "#BFD8C9",
+						"material": "glass"
 					},
 					"images": [
 						{
@@ -6072,9 +6048,9 @@
 				{
 					"id": "red",
 					"displayName": "(PRODUCT)RED",
-					"swatch": {
-						"kind": "image",
-						"url": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphone12_red__3fpikxvolteu_small_2x.jpg"
+					"finish": {
+						"base": "#A6192E",
+						"material": "glass"
 					},
 					"images": [
 						{
@@ -6090,9 +6066,9 @@
 				{
 					"id": "white",
 					"displayName": "White",
-					"swatch": {
-						"kind": "image",
-						"url": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphone12_white__bkv9u0pios6a_small_2x.jpg"
+					"finish": {
+						"base": "#F5F5F7",
+						"material": "glass"
 					},
 					"images": [
 						{
@@ -6108,9 +6084,9 @@
 				{
 					"id": "black",
 					"displayName": "Black",
-					"swatch": {
-						"kind": "image",
-						"url": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphone12_black__gj93q2eeofma_small_2x.jpg"
+					"finish": {
+						"base": "#1D1D1F",
+						"material": "glass"
 					},
 					"images": [
 						{
@@ -6237,8 +6213,6 @@
 				}
 			],
 			"audio": {
-				"speaker": true,
-				"microphone": true,
 				"sourceNotes": "Speaker and microphone presence established by iPhone product type; detailed configurations absent from supplied HTML."
 			},
 			"batteryAndPower": {
@@ -6375,9 +6349,9 @@
 				{
 					"id": "pacific-blue",
 					"displayName": "Pacific Blue",
-					"swatch": {
-						"kind": "image",
-						"url": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphone12_pro_max_pacific_blue__i251ea884ei6_small_2x.jpg"
+					"finish": {
+						"base": "#39495A",
+						"material": "polished-steel"
 					},
 					"images": [
 						{
@@ -6393,9 +6367,9 @@
 				{
 					"id": "gold",
 					"displayName": "Gold",
-					"swatch": {
-						"kind": "image",
-						"url": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphone12_pro_max_gold__bknb963nzyqa_small_2x.jpg"
+					"finish": {
+						"base": "#F4E8CE",
+						"material": "polished-steel"
 					},
 					"images": [
 						{
@@ -6411,9 +6385,9 @@
 				{
 					"id": "graphite",
 					"displayName": "Graphite",
-					"swatch": {
-						"kind": "image",
-						"url": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphone12_pro_max_graphite__b6j4sfia3yaa_small_2x.jpg"
+					"finish": {
+						"base": "#3C3C3D",
+						"material": "polished-steel"
 					},
 					"images": [
 						{
@@ -6429,9 +6403,9 @@
 				{
 					"id": "silver",
 					"displayName": "Silver",
-					"swatch": {
-						"kind": "image",
-						"url": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphone12_pro_max_silver__1mkvn3uvleqi_small_2x.jpg"
+					"finish": {
+						"base": "#E3E4E6",
+						"material": "polished-steel"
 					},
 					"images": [
 						{
@@ -6590,8 +6564,6 @@
 				}
 			],
 			"audio": {
-				"speaker": true,
-				"microphone": true,
 				"sourceNotes": "Speaker and microphone presence established by iPhone product type; detailed configurations absent from supplied HTML."
 			},
 			"batteryAndPower": {
@@ -6728,9 +6700,9 @@
 				{
 					"id": "pacific-blue",
 					"displayName": "Pacific Blue",
-					"swatch": {
-						"kind": "image",
-						"url": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphone12_pro_max_pacific_blue__i251ea884ei6_small_2x.jpg"
+					"finish": {
+						"base": "#39495A",
+						"material": "polished-steel"
 					},
 					"images": [
 						{
@@ -6746,9 +6718,9 @@
 				{
 					"id": "gold",
 					"displayName": "Gold",
-					"swatch": {
-						"kind": "image",
-						"url": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphone12_pro_max_gold__bknb963nzyqa_small_2x.jpg"
+					"finish": {
+						"base": "#F4E8CE",
+						"material": "polished-steel"
 					},
 					"images": [
 						{
@@ -6764,9 +6736,9 @@
 				{
 					"id": "graphite",
 					"displayName": "Graphite",
-					"swatch": {
-						"kind": "image",
-						"url": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphone12_pro_max_graphite__b6j4sfia3yaa_small_2x.jpg"
+					"finish": {
+						"base": "#3C3C3D",
+						"material": "polished-steel"
 					},
 					"images": [
 						{
@@ -6782,9 +6754,9 @@
 				{
 					"id": "silver",
 					"displayName": "Silver",
-					"swatch": {
-						"kind": "image",
-						"url": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphone12_pro_max_silver__1mkvn3uvleqi_small_2x.jpg"
+					"finish": {
+						"base": "#E3E4E6",
+						"material": "polished-steel"
 					},
 					"images": [
 						{
@@ -6943,8 +6915,6 @@
 				}
 			],
 			"audio": {
-				"speaker": true,
-				"microphone": true,
 				"sourceNotes": "Speaker and microphone presence established by iPhone product type; detailed configurations absent from supplied HTML."
 			},
 			"batteryAndPower": {
@@ -7081,9 +7051,9 @@
 				{
 					"id": "purple",
 					"displayName": "Purple",
-					"swatch": {
-						"kind": "image",
-						"url": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphone11_purple__dncianr6j2uu_small_2x.jpg"
+					"finish": {
+						"base": "#D0CCDA",
+						"material": "glass"
 					},
 					"images": [
 						{
@@ -7099,9 +7069,9 @@
 				{
 					"id": "yellow",
 					"displayName": "Yellow",
-					"swatch": {
-						"kind": "image",
-						"url": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphone11_yellow__dnty92kzldg2_small_2x.jpg"
+					"finish": {
+						"base": "#F6E58C",
+						"material": "glass"
 					},
 					"images": [
 						{
@@ -7117,9 +7087,9 @@
 				{
 					"id": "green",
 					"displayName": "Green",
-					"swatch": {
-						"kind": "image",
-						"url": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphone11_pro_midnightgreen__ghme5a7mxnqm_small_2x.jpg"
+					"finish": {
+						"base": "#AAD9C4",
+						"material": "glass"
 					},
 					"images": [
 						{
@@ -7135,9 +7105,9 @@
 				{
 					"id": "black",
 					"displayName": "Black",
-					"swatch": {
-						"kind": "image",
-						"url": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphone11_black__luskajpcyaaa_small_2x.jpg"
+					"finish": {
+						"base": "#1D1D1F",
+						"material": "glass"
 					},
 					"images": [
 						{
@@ -7153,9 +7123,9 @@
 				{
 					"id": "white",
 					"displayName": "White",
-					"swatch": {
-						"kind": "image",
-						"url": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphone11_white__c1bigtkwcsq6_small_2x.jpg"
+					"finish": {
+						"base": "#F5F5F7",
+						"material": "glass"
 					},
 					"images": [
 						{
@@ -7171,9 +7141,9 @@
 				{
 					"id": "red",
 					"displayName": "(PRODUCT)RED",
-					"swatch": {
-						"kind": "image",
-						"url": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphone11_red__b22porlgz2qa_small_2x.jpg"
+					"finish": {
+						"base": "#A6192E",
+						"material": "glass"
 					},
 					"images": [
 						{
@@ -7299,8 +7269,6 @@
 				}
 			],
 			"audio": {
-				"speaker": true,
-				"microphone": true,
 				"sourceNotes": "Speaker and microphone presence established by iPhone product type; detailed configurations absent from supplied HTML."
 			},
 			"batteryAndPower": {
@@ -7431,9 +7399,9 @@
 				{
 					"id": "midnight-green",
 					"displayName": "Midnight Green",
-					"swatch": {
-						"kind": "image",
-						"url": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphone11_pro_midnightgreen__ghme5a7mxnqm_small_2x.jpg"
+					"finish": {
+						"base": "#1F3A2D",
+						"material": "polished-steel"
 					},
 					"images": [
 						{
@@ -7449,9 +7417,9 @@
 				{
 					"id": "silver",
 					"displayName": "Silver",
-					"swatch": {
-						"kind": "image",
-						"url": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphone11_pro_silver__ckxa8mvp0ej6_small_2x.jpg"
+					"finish": {
+						"base": "#E3E4E6",
+						"material": "polished-steel"
 					},
 					"images": [
 						{
@@ -7467,9 +7435,9 @@
 				{
 					"id": "spacegray",
 					"displayName": "Space Grey",
-					"swatch": {
-						"kind": "image",
-						"url": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphone11_pro_spacegrey__5tufecsmnjmq_small_2x.jpg"
+					"finish": {
+						"base": "#53534F",
+						"material": "polished-steel"
 					},
 					"images": [
 						{
@@ -7485,9 +7453,9 @@
 				{
 					"id": "gold",
 					"displayName": "Gold",
-					"swatch": {
-						"kind": "image",
-						"url": "https://www.apple.com/v/iphone/compare/al/images/overview/compare_iphone11_pro_gold__c24q20hey2i6_small_2x.jpg"
+					"finish": {
+						"base": "#F4E8CE",
+						"material": "polished-steel"
 					},
 					"images": [
 						{
@@ -7646,8 +7614,6 @@
 				}
 			],
 			"audio": {
-				"speaker": true,
-				"microphone": true,
 				"sourceNotes": "Speaker and microphone presence established by iPhone product type; detailed configurations absent from supplied HTML."
 			},
 			"batteryAndPower": {
@@ -7778,9 +7744,10 @@
 				{
 					"id": "jet-black",
 					"displayName": "Jet Black",
-					"swatch": {
-						"kind": "css",
-						"value": "#101014"
+					"finish": {
+						"base": "#101014",
+						"material": "glass",
+						"shine": 1.0
 					},
 					"images": [],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
@@ -7788,9 +7755,9 @@
 				{
 					"id": "black",
 					"displayName": "Black",
-					"swatch": {
-						"kind": "css",
-						"value": "#2F2F33"
+					"finish": {
+						"base": "#2F2F33",
+						"material": "matte-aluminum"
 					},
 					"images": [],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
@@ -7798,9 +7765,9 @@
 				{
 					"id": "silver",
 					"displayName": "Silver",
-					"swatch": {
-						"kind": "css",
-						"value": "#E3E4E6"
+					"finish": {
+						"base": "#E3E4E6",
+						"material": "matte-aluminum"
 					},
 					"images": [],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
@@ -7808,9 +7775,9 @@
 				{
 					"id": "gold",
 					"displayName": "Gold",
-					"swatch": {
-						"kind": "css",
-						"value": "#F4E8CE"
+					"finish": {
+						"base": "#F4E8CE",
+						"material": "matte-aluminum"
 					},
 					"images": [],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
@@ -7818,9 +7785,9 @@
 				{
 					"id": "rose-gold",
 					"displayName": "Rose Gold",
-					"swatch": {
-						"kind": "css",
-						"value": "#EAC9C0"
+					"finish": {
+						"base": "#EAC9C0",
+						"material": "matte-aluminum"
 					},
 					"images": [],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
@@ -7828,9 +7795,9 @@
 				{
 					"id": "red",
 					"displayName": "(PRODUCT)RED",
-					"swatch": {
-						"kind": "css",
-						"value": "#A6192E"
+					"finish": {
+						"base": "#A6192E",
+						"material": "matte-aluminum"
 					},
 					"images": [],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
@@ -7954,10 +7921,7 @@
 					"sourceNotes": "Hidden compare rows 109, 110 and 148."
 				}
 			],
-			"audio": {
-				"speaker": true,
-				"microphone": true
-			},
+			"audio": {},
 			"batteryAndPower": {
 				"hasBattery": true,
 				"batteryCapacityMah": null,
@@ -8075,9 +8039,10 @@
 				{
 					"id": "jet-black",
 					"displayName": "Jet Black",
-					"swatch": {
-						"kind": "css",
-						"value": "#101014"
+					"finish": {
+						"base": "#101014",
+						"material": "glass",
+						"shine": 1.0
 					},
 					"images": [],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
@@ -8085,9 +8050,9 @@
 				{
 					"id": "black",
 					"displayName": "Black",
-					"swatch": {
-						"kind": "css",
-						"value": "#2F2F33"
+					"finish": {
+						"base": "#2F2F33",
+						"material": "matte-aluminum"
 					},
 					"images": [],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
@@ -8095,9 +8060,9 @@
 				{
 					"id": "silver",
 					"displayName": "Silver",
-					"swatch": {
-						"kind": "css",
-						"value": "#E3E4E6"
+					"finish": {
+						"base": "#E3E4E6",
+						"material": "matte-aluminum"
 					},
 					"images": [],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
@@ -8105,9 +8070,9 @@
 				{
 					"id": "gold",
 					"displayName": "Gold",
-					"swatch": {
-						"kind": "css",
-						"value": "#F4E8CE"
+					"finish": {
+						"base": "#F4E8CE",
+						"material": "matte-aluminum"
 					},
 					"images": [],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
@@ -8115,9 +8080,9 @@
 				{
 					"id": "rose-gold",
 					"displayName": "Rose Gold",
-					"swatch": {
-						"kind": "css",
-						"value": "#EAC9C0"
+					"finish": {
+						"base": "#EAC9C0",
+						"material": "matte-aluminum"
 					},
 					"images": [],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
@@ -8125,9 +8090,9 @@
 				{
 					"id": "red",
 					"displayName": "(PRODUCT)RED",
-					"swatch": {
-						"kind": "css",
-						"value": "#A6192E"
+					"finish": {
+						"base": "#A6192E",
+						"material": "matte-aluminum"
 					},
 					"images": [],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
@@ -8251,10 +8216,7 @@
 					"sourceNotes": "Hidden compare rows 109, 110 and 148."
 				}
 			],
-			"audio": {
-				"speaker": true,
-				"microphone": true
-			},
+			"audio": {},
 			"batteryAndPower": {
 				"hasBattery": true,
 				"batteryCapacityMah": null,
@@ -8372,9 +8334,9 @@
 				{
 					"id": "space-gray",
 					"displayName": "Space Gray",
-					"swatch": {
-						"kind": "css",
-						"value": "#53534F"
+					"finish": {
+						"base": "#53534F",
+						"material": "glass"
 					},
 					"images": [],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
@@ -8382,9 +8344,9 @@
 				{
 					"id": "silver",
 					"displayName": "Silver",
-					"swatch": {
-						"kind": "css",
-						"value": "#E3E4E6"
+					"finish": {
+						"base": "#E3E4E6",
+						"material": "glass"
 					},
 					"images": [],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
@@ -8392,9 +8354,9 @@
 				{
 					"id": "gold",
 					"displayName": "Gold",
-					"swatch": {
-						"kind": "css",
-						"value": "#F4E8CE"
+					"finish": {
+						"base": "#F4E8CE",
+						"material": "glass"
 					},
 					"images": [],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
@@ -8402,9 +8364,9 @@
 				{
 					"id": "red",
 					"displayName": "(PRODUCT)RED",
-					"swatch": {
-						"kind": "css",
-						"value": "#A6192E"
+					"finish": {
+						"base": "#A6192E",
+						"material": "glass"
 					},
 					"images": [],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
@@ -8522,10 +8484,7 @@
 					"sourceNotes": "Hidden compare rows 109, 110 and 148."
 				}
 			],
-			"audio": {
-				"speaker": true,
-				"microphone": true
-			},
+			"audio": {},
 			"batteryAndPower": {
 				"hasBattery": true,
 				"batteryCapacityMah": null,
@@ -8645,9 +8604,9 @@
 				{
 					"id": "space-gray",
 					"displayName": "Space Gray",
-					"swatch": {
-						"kind": "css",
-						"value": "#53534F"
+					"finish": {
+						"base": "#53534F",
+						"material": "glass"
 					},
 					"images": [],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
@@ -8655,9 +8614,9 @@
 				{
 					"id": "silver",
 					"displayName": "Silver",
-					"swatch": {
-						"kind": "css",
-						"value": "#E3E4E6"
+					"finish": {
+						"base": "#E3E4E6",
+						"material": "glass"
 					},
 					"images": [],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
@@ -8665,9 +8624,9 @@
 				{
 					"id": "gold",
 					"displayName": "Gold",
-					"swatch": {
-						"kind": "css",
-						"value": "#F4E8CE"
+					"finish": {
+						"base": "#F4E8CE",
+						"material": "glass"
 					},
 					"images": [],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
@@ -8675,9 +8634,9 @@
 				{
 					"id": "red",
 					"displayName": "(PRODUCT)RED",
-					"swatch": {
-						"kind": "css",
-						"value": "#A6192E"
+					"finish": {
+						"base": "#A6192E",
+						"material": "glass"
 					},
 					"images": [],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
@@ -8795,10 +8754,7 @@
 					"sourceNotes": "Hidden compare rows 109, 110 and 148."
 				}
 			],
-			"audio": {
-				"speaker": true,
-				"microphone": true
-			},
+			"audio": {},
 			"batteryAndPower": {
 				"hasBattery": true,
 				"batteryCapacityMah": null,
@@ -8918,9 +8874,9 @@
 				{
 					"id": "black",
 					"displayName": "Black",
-					"swatch": {
-						"kind": "css",
-						"value": "#1D1D1F"
+					"finish": {
+						"base": "#1D1D1F",
+						"material": "glass"
 					},
 					"images": [],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
@@ -8928,9 +8884,9 @@
 				{
 					"id": "white",
 					"displayName": "White",
-					"swatch": {
-						"kind": "css",
-						"value": "#F5F5F7"
+					"finish": {
+						"base": "#F5F5F7",
+						"material": "glass"
 					},
 					"images": [],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
@@ -8938,9 +8894,9 @@
 				{
 					"id": "red",
 					"displayName": "(PRODUCT)RED",
-					"swatch": {
-						"kind": "css",
-						"value": "#A6192E"
+					"finish": {
+						"base": "#A6192E",
+						"material": "glass"
 					},
 					"images": [],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
@@ -9055,10 +9011,7 @@
 					"sourceNotes": "Hidden compare rows 109, 110 and 148."
 				}
 			],
-			"audio": {
-				"speaker": true,
-				"microphone": true
-			},
+			"audio": {},
 			"batteryAndPower": {
 				"hasBattery": true,
 				"batteryCapacityMah": null,
@@ -9178,9 +9131,9 @@
 				{
 					"id": "space-gray",
 					"displayName": "Space Gray",
-					"swatch": {
-						"kind": "css",
-						"value": "#53534F"
+					"finish": {
+						"base": "#53534F",
+						"material": "polished-steel"
 					},
 					"images": [],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
@@ -9188,9 +9141,9 @@
 				{
 					"id": "silver",
 					"displayName": "Silver",
-					"swatch": {
-						"kind": "css",
-						"value": "#E3E4E6"
+					"finish": {
+						"base": "#E3E4E6",
+						"material": "polished-steel"
 					},
 					"images": [],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
@@ -9286,10 +9239,7 @@
 					"sourceNotes": "Hidden compare rows 109, 110 and 148."
 				}
 			],
-			"audio": {
-				"speaker": true,
-				"microphone": true
-			},
+			"audio": {},
 			"batteryAndPower": {
 				"hasBattery": true,
 				"batteryCapacityMah": null,
@@ -9409,9 +9359,9 @@
 				{
 					"id": "black",
 					"displayName": "Black",
-					"swatch": {
-						"kind": "css",
-						"value": "#1D1D1F"
+					"finish": {
+						"base": "#1D1D1F",
+						"material": "glass"
 					},
 					"images": [],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
@@ -9419,9 +9369,9 @@
 				{
 					"id": "white",
 					"displayName": "White",
-					"swatch": {
-						"kind": "css",
-						"value": "#F5F5F7"
+					"finish": {
+						"base": "#F5F5F7",
+						"material": "glass"
 					},
 					"images": [],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
@@ -9429,9 +9379,9 @@
 				{
 					"id": "blue",
 					"displayName": "Blue",
-					"swatch": {
-						"kind": "css",
-						"value": "#2E6BD8"
+					"finish": {
+						"base": "#2E6BD8",
+						"material": "glass"
 					},
 					"images": [],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
@@ -9439,9 +9389,9 @@
 				{
 					"id": "yellow",
 					"displayName": "Yellow",
-					"swatch": {
-						"kind": "css",
-						"value": "#F7E08B"
+					"finish": {
+						"base": "#F7E08B",
+						"material": "glass"
 					},
 					"images": [],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
@@ -9449,9 +9399,9 @@
 				{
 					"id": "coral",
 					"displayName": "Coral",
-					"swatch": {
-						"kind": "css",
-						"value": "#E8715F"
+					"finish": {
+						"base": "#E8715F",
+						"material": "glass"
 					},
 					"images": [],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
@@ -9459,9 +9409,9 @@
 				{
 					"id": "red",
 					"displayName": "(PRODUCT)RED",
-					"swatch": {
-						"kind": "css",
-						"value": "#A6192E"
+					"finish": {
+						"base": "#A6192E",
+						"material": "glass"
 					},
 					"images": [],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
@@ -9585,10 +9535,7 @@
 					"sourceNotes": "Hidden compare rows 109, 110 and 148."
 				}
 			],
-			"audio": {
-				"speaker": true,
-				"microphone": true
-			},
+			"audio": {},
 			"batteryAndPower": {
 				"hasBattery": true,
 				"batteryCapacityMah": null,
@@ -9708,9 +9655,9 @@
 				{
 					"id": "space-gray",
 					"displayName": "Space Gray",
-					"swatch": {
-						"kind": "css",
-						"value": "#53534F"
+					"finish": {
+						"base": "#53534F",
+						"material": "polished-steel"
 					},
 					"images": [],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
@@ -9718,9 +9665,9 @@
 				{
 					"id": "silver",
 					"displayName": "Silver",
-					"swatch": {
-						"kind": "css",
-						"value": "#E3E4E6"
+					"finish": {
+						"base": "#E3E4E6",
+						"material": "polished-steel"
 					},
 					"images": [],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
@@ -9728,9 +9675,9 @@
 				{
 					"id": "gold",
 					"displayName": "Gold",
-					"swatch": {
-						"kind": "css",
-						"value": "#F4E8CE"
+					"finish": {
+						"base": "#F4E8CE",
+						"material": "polished-steel"
 					},
 					"images": [],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
@@ -9845,10 +9792,7 @@
 					"sourceNotes": "Hidden compare rows 109, 110 and 148."
 				}
 			],
-			"audio": {
-				"speaker": true,
-				"microphone": true
-			},
+			"audio": {},
 			"batteryAndPower": {
 				"hasBattery": true,
 				"batteryCapacityMah": null,
@@ -9968,9 +9912,9 @@
 				{
 					"id": "space-gray",
 					"displayName": "Space Gray",
-					"swatch": {
-						"kind": "css",
-						"value": "#53534F"
+					"finish": {
+						"base": "#53534F",
+						"material": "polished-steel"
 					},
 					"images": [],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
@@ -9978,9 +9922,9 @@
 				{
 					"id": "silver",
 					"displayName": "Silver",
-					"swatch": {
-						"kind": "css",
-						"value": "#E3E4E6"
+					"finish": {
+						"base": "#E3E4E6",
+						"material": "polished-steel"
 					},
 					"images": [],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
@@ -9988,9 +9932,9 @@
 				{
 					"id": "gold",
 					"displayName": "Gold",
-					"swatch": {
-						"kind": "css",
-						"value": "#F4E8CE"
+					"finish": {
+						"base": "#F4E8CE",
+						"material": "polished-steel"
 					},
 					"images": [],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
@@ -10105,10 +10049,7 @@
 					"sourceNotes": "Hidden compare rows 109, 110 and 148."
 				}
 			],
-			"audio": {
-				"speaker": true,
-				"microphone": true
-			},
+			"audio": {},
 			"batteryAndPower": {
 				"hasBattery": true,
 				"batteryCapacityMah": null,
@@ -10228,9 +10169,9 @@
 				{
 					"id": "midnight-green",
 					"displayName": "Midnight Green",
-					"swatch": {
-						"kind": "css",
-						"value": "#1F3A2D"
+					"finish": {
+						"base": "#1F3A2D",
+						"material": "polished-steel"
 					},
 					"images": [],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
@@ -10238,9 +10179,9 @@
 				{
 					"id": "space-gray",
 					"displayName": "Space Gray",
-					"swatch": {
-						"kind": "css",
-						"value": "#53534F"
+					"finish": {
+						"base": "#53534F",
+						"material": "polished-steel"
 					},
 					"images": [],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
@@ -10248,9 +10189,9 @@
 				{
 					"id": "silver",
 					"displayName": "Silver",
-					"swatch": {
-						"kind": "css",
-						"value": "#E3E4E6"
+					"finish": {
+						"base": "#E3E4E6",
+						"material": "polished-steel"
 					},
 					"images": [],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
@@ -10258,9 +10199,9 @@
 				{
 					"id": "gold",
 					"displayName": "Gold",
-					"swatch": {
-						"kind": "css",
-						"value": "#F4E8CE"
+					"finish": {
+						"base": "#F4E8CE",
+						"material": "polished-steel"
 					},
 					"images": [],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
@@ -10378,10 +10319,7 @@
 					"sourceNotes": "Hidden compare rows 109, 110 and 148."
 				}
 			],
-			"audio": {
-				"speaker": true,
-				"microphone": true
-			},
+			"audio": {},
 			"batteryAndPower": {
 				"hasBattery": true,
 				"batteryCapacityMah": null,
@@ -10501,9 +10439,9 @@
 				{
 					"id": "black",
 					"displayName": "Black",
-					"swatch": {
-						"kind": "css",
-						"value": "#1D1D1F"
+					"finish": {
+						"base": "#1D1D1F",
+						"material": "glass"
 					},
 					"images": [],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
@@ -10511,9 +10449,9 @@
 				{
 					"id": "white",
 					"displayName": "White",
-					"swatch": {
-						"kind": "css",
-						"value": "#F5F5F7"
+					"finish": {
+						"base": "#F5F5F7",
+						"material": "glass"
 					},
 					"images": [],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
@@ -10521,9 +10459,9 @@
 				{
 					"id": "red",
 					"displayName": "(PRODUCT)RED",
-					"swatch": {
-						"kind": "css",
-						"value": "#A6192E"
+					"finish": {
+						"base": "#A6192E",
+						"material": "glass"
 					},
 					"images": [],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
@@ -10531,9 +10469,9 @@
 				{
 					"id": "green",
 					"displayName": "Green",
-					"swatch": {
-						"kind": "css",
-						"value": "#BFD8C9"
+					"finish": {
+						"base": "#BFD8C9",
+						"material": "glass"
 					},
 					"images": [],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
@@ -10541,9 +10479,9 @@
 				{
 					"id": "blue",
 					"displayName": "Blue",
-					"swatch": {
-						"kind": "css",
-						"value": "#2E6BD8"
+					"finish": {
+						"base": "#2E6BD8",
+						"material": "glass"
 					},
 					"images": [],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
@@ -10551,9 +10489,9 @@
 				{
 					"id": "purple",
 					"displayName": "Purple",
-					"swatch": {
-						"kind": "css",
-						"value": "#CDBEE7"
+					"finish": {
+						"base": "#CDBEE7",
+						"material": "glass"
 					},
 					"images": [],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
@@ -10677,10 +10615,7 @@
 					"sourceNotes": "Hidden compare rows 109, 110 and 148."
 				}
 			],
-			"audio": {
-				"speaker": true,
-				"microphone": true
-			},
+			"audio": {},
 			"batteryAndPower": {
 				"hasBattery": true,
 				"batteryCapacityMah": null,
@@ -10802,9 +10737,9 @@
 				{
 					"id": "graphite",
 					"displayName": "Graphite",
-					"swatch": {
-						"kind": "css",
-						"value": "#3C3C3D"
+					"finish": {
+						"base": "#3C3C3D",
+						"material": "polished-steel"
 					},
 					"images": [],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
@@ -10812,9 +10747,9 @@
 				{
 					"id": "gold",
 					"displayName": "Gold",
-					"swatch": {
-						"kind": "css",
-						"value": "#F4E8CE"
+					"finish": {
+						"base": "#F4E8CE",
+						"material": "polished-steel"
 					},
 					"images": [],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
@@ -10822,9 +10757,9 @@
 				{
 					"id": "silver",
 					"displayName": "Silver",
-					"swatch": {
-						"kind": "css",
-						"value": "#E3E4E6"
+					"finish": {
+						"base": "#E3E4E6",
+						"material": "polished-steel"
 					},
 					"images": [],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
@@ -10832,9 +10767,9 @@
 				{
 					"id": "sierra-blue",
 					"displayName": "Sierra Blue",
-					"swatch": {
-						"kind": "css",
-						"value": "#A7C1D9"
+					"finish": {
+						"base": "#A7C1D9",
+						"material": "polished-steel"
 					},
 					"images": [],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
@@ -10842,9 +10777,9 @@
 				{
 					"id": "alpine-green",
 					"displayName": "Alpine Green",
-					"swatch": {
-						"kind": "css",
-						"value": "#3E4F41"
+					"finish": {
+						"base": "#3E4F41",
+						"material": "polished-steel"
 					},
 					"images": [],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
@@ -10983,10 +10918,7 @@
 					"sourceNotes": "Hidden compare rows 109, 110 and 148."
 				}
 			],
-			"audio": {
-				"speaker": true,
-				"microphone": true
-			},
+			"audio": {},
 			"batteryAndPower": {
 				"hasBattery": true,
 				"batteryCapacityMah": null,
@@ -11108,9 +11040,10 @@
 				{
 					"id": "black",
 					"displayName": "Black",
-					"swatch": {
-						"kind": "css",
-						"value": "#1D1D1F"
+					"finish": {
+						"base": "#1D1D1F",
+						"material": "glass",
+						"grain": 0.15
 					},
 					"images": [],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
@@ -11118,9 +11051,10 @@
 				{
 					"id": "blue",
 					"displayName": "Blue",
-					"swatch": {
-						"kind": "css",
-						"value": "#DCE5EF"
+					"finish": {
+						"base": "#DCE5EF",
+						"material": "glass",
+						"grain": 0.15
 					},
 					"images": [],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
@@ -11128,9 +11062,10 @@
 				{
 					"id": "green",
 					"displayName": "Green",
-					"swatch": {
-						"kind": "css",
-						"value": "#CFD8C6"
+					"finish": {
+						"base": "#CFD8C6",
+						"material": "glass",
+						"grain": 0.15
 					},
 					"images": [],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
@@ -11138,9 +11073,10 @@
 				{
 					"id": "yellow",
 					"displayName": "Yellow",
-					"swatch": {
-						"kind": "css",
-						"value": "#F2E7BB"
+					"finish": {
+						"base": "#F2E7BB",
+						"material": "glass",
+						"grain": 0.15
 					},
 					"images": [],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
@@ -11148,9 +11084,10 @@
 				{
 					"id": "pink",
 					"displayName": "Pink",
-					"swatch": {
-						"kind": "css",
-						"value": "#EECFD6"
+					"finish": {
+						"base": "#EECFD6",
+						"material": "glass",
+						"grain": 0.15
 					},
 					"images": [],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
@@ -11271,10 +11208,7 @@
 					"sourceNotes": "Hidden compare rows 109, 110 and 148."
 				}
 			],
-			"audio": {
-				"speaker": true,
-				"microphone": true
-			},
+			"audio": {},
 			"batteryAndPower": {
 				"hasBattery": true,
 				"batteryCapacityMah": null,
@@ -11396,9 +11330,10 @@
 				{
 					"id": "black",
 					"displayName": "Black",
-					"swatch": {
-						"kind": "css",
-						"value": "#1D1D1F"
+					"finish": {
+						"base": "#1D1D1F",
+						"material": "glass",
+						"grain": 0.15
 					},
 					"images": [],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
@@ -11406,9 +11341,10 @@
 				{
 					"id": "blue",
 					"displayName": "Blue",
-					"swatch": {
-						"kind": "css",
-						"value": "#DCE5EF"
+					"finish": {
+						"base": "#DCE5EF",
+						"material": "glass",
+						"grain": 0.15
 					},
 					"images": [],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
@@ -11416,9 +11352,10 @@
 				{
 					"id": "green",
 					"displayName": "Green",
-					"swatch": {
-						"kind": "css",
-						"value": "#CFD8C6"
+					"finish": {
+						"base": "#CFD8C6",
+						"material": "glass",
+						"grain": 0.15
 					},
 					"images": [],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
@@ -11426,9 +11363,10 @@
 				{
 					"id": "yellow",
 					"displayName": "Yellow",
-					"swatch": {
-						"kind": "css",
-						"value": "#F2E7BB"
+					"finish": {
+						"base": "#F2E7BB",
+						"material": "glass",
+						"grain": 0.15
 					},
 					"images": [],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
@@ -11436,9 +11374,10 @@
 				{
 					"id": "pink",
 					"displayName": "Pink",
-					"swatch": {
-						"kind": "css",
-						"value": "#EECFD6"
+					"finish": {
+						"base": "#EECFD6",
+						"material": "glass",
+						"grain": 0.15
 					},
 					"images": [],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
@@ -11559,10 +11498,7 @@
 					"sourceNotes": "Hidden compare rows 109, 110 and 148."
 				}
 			],
-			"audio": {
-				"speaker": true,
-				"microphone": true
-			},
+			"audio": {},
 			"batteryAndPower": {
 				"hasBattery": true,
 				"batteryCapacityMah": null,
@@ -11684,9 +11620,9 @@
 				{
 					"id": "natural-titanium",
 					"displayName": "Natural Titanium",
-					"swatch": {
-						"kind": "css",
-						"value": "#C2BCB2"
+					"finish": {
+						"base": "#C2BCB2",
+						"material": "brushed-titanium"
 					},
 					"images": [],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
@@ -11694,9 +11630,9 @@
 				{
 					"id": "blue-titanium",
 					"displayName": "Blue Titanium",
-					"swatch": {
-						"kind": "css",
-						"value": "#3F474E"
+					"finish": {
+						"base": "#3F474E",
+						"material": "brushed-titanium"
 					},
 					"images": [],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
@@ -11704,9 +11640,9 @@
 				{
 					"id": "white-titanium",
 					"displayName": "White Titanium",
-					"swatch": {
-						"kind": "css",
-						"value": "#E3E4E6"
+					"finish": {
+						"base": "#E3E4E6",
+						"material": "brushed-titanium"
 					},
 					"images": [],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
@@ -11714,9 +11650,9 @@
 				{
 					"id": "black-titanium",
 					"displayName": "Black Titanium",
-					"swatch": {
-						"kind": "css",
-						"value": "#1D1D1F"
+					"finish": {
+						"base": "#1D1D1F",
+						"material": "brushed-titanium"
 					},
 					"images": [],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
@@ -11851,10 +11787,7 @@
 					"sourceNotes": "Hidden compare rows 109, 110 and 148."
 				}
 			],
-			"audio": {
-				"speaker": true,
-				"microphone": true
-			},
+			"audio": {},
 			"batteryAndPower": {
 				"hasBattery": true,
 				"batteryCapacityMah": null,
@@ -11976,9 +11909,10 @@
 				{
 					"id": "ultramarine",
 					"displayName": "Ultramarine",
-					"swatch": {
-						"kind": "css",
-						"value": "#9FB4E3"
+					"finish": {
+						"base": "#9FB4E3",
+						"material": "glass",
+						"grain": 0.15
 					},
 					"images": [],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
@@ -11986,9 +11920,10 @@
 				{
 					"id": "teal",
 					"displayName": "Teal",
-					"swatch": {
-						"kind": "css",
-						"value": "#5AB3A9"
+					"finish": {
+						"base": "#5AB3A9",
+						"material": "glass",
+						"grain": 0.15
 					},
 					"images": [],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
@@ -11996,9 +11931,10 @@
 				{
 					"id": "pink",
 					"displayName": "Pink",
-					"swatch": {
-						"kind": "css",
-						"value": "#E8A9C6"
+					"finish": {
+						"base": "#E8A9C6",
+						"material": "glass",
+						"grain": 0.15
 					},
 					"images": [],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
@@ -12006,9 +11942,10 @@
 				{
 					"id": "white",
 					"displayName": "White",
-					"swatch": {
-						"kind": "css",
-						"value": "#F5F5F7"
+					"finish": {
+						"base": "#F5F5F7",
+						"material": "glass",
+						"grain": 0.15
 					},
 					"images": [],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
@@ -12016,9 +11953,10 @@
 				{
 					"id": "black",
 					"displayName": "Black",
-					"swatch": {
-						"kind": "css",
-						"value": "#1D1D1F"
+					"finish": {
+						"base": "#1D1D1F",
+						"material": "glass",
+						"grain": 0.15
 					},
 					"images": [],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
@@ -12139,10 +12077,7 @@
 					"sourceNotes": "Hidden compare rows 109, 110 and 148."
 				}
 			],
-			"audio": {
-				"speaker": true,
-				"microphone": true
-			},
+			"audio": {},
 			"batteryAndPower": {
 				"hasBattery": true,
 				"batteryCapacityMah": null,
@@ -12264,9 +12199,9 @@
 				{
 					"id": "black-titanium",
 					"displayName": "Black Titanium",
-					"swatch": {
-						"kind": "css",
-						"value": "#1D1D1F"
+					"finish": {
+						"base": "#1D1D1F",
+						"material": "brushed-titanium"
 					},
 					"images": [],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
@@ -12274,9 +12209,9 @@
 				{
 					"id": "white-titanium",
 					"displayName": "White Titanium",
-					"swatch": {
-						"kind": "css",
-						"value": "#E3E4E6"
+					"finish": {
+						"base": "#E3E4E6",
+						"material": "brushed-titanium"
 					},
 					"images": [],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
@@ -12284,9 +12219,9 @@
 				{
 					"id": "natural-titanium",
 					"displayName": "Natural Titanium",
-					"swatch": {
-						"kind": "css",
-						"value": "#C2BCB2"
+					"finish": {
+						"base": "#C2BCB2",
+						"material": "brushed-titanium"
 					},
 					"images": [],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
@@ -12294,9 +12229,9 @@
 				{
 					"id": "desert-titanium",
 					"displayName": "Desert Titanium",
-					"swatch": {
-						"kind": "css",
-						"value": "#BFA48F"
+					"finish": {
+						"base": "#BFA48F",
+						"material": "brushed-titanium"
 					},
 					"images": [],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
@@ -12431,10 +12366,7 @@
 					"sourceNotes": "Hidden compare rows 109, 110 and 148."
 				}
 			],
-			"audio": {
-				"speaker": true,
-				"microphone": true
-			},
+			"audio": {},
 			"batteryAndPower": {
 				"hasBattery": true,
 				"batteryCapacityMah": null,
@@ -12556,9 +12488,9 @@
 				{
 					"id": "white",
 					"displayName": "White",
-					"swatch": {
-						"kind": "css",
-						"value": "#F5F5F7"
+					"finish": {
+						"base": "#F5F5F7",
+						"material": "glass"
 					},
 					"images": [],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
@@ -12566,9 +12498,9 @@
 				{
 					"id": "black",
 					"displayName": "Black",
-					"swatch": {
-						"kind": "css",
-						"value": "#1D1D1F"
+					"finish": {
+						"base": "#1D1D1F",
+						"material": "glass"
 					},
 					"images": [],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
@@ -12680,10 +12612,7 @@
 					"sourceNotes": "Hidden compare rows 109, 110 and 148."
 				}
 			],
-			"audio": {
-				"speaker": true,
-				"microphone": true
-			},
+			"audio": {},
 			"batteryAndPower": {
 				"hasBattery": true,
 				"batteryCapacityMah": null,
@@ -12804,9 +12733,9 @@
 				{
 					"id": "cosmic-orange",
 					"displayName": "Cosmic Orange",
-					"swatch": {
-						"kind": "css",
-						"value": "#C4622D"
+					"finish": {
+						"base": "#C4622D",
+						"material": "matte-aluminum"
 					},
 					"images": [],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
@@ -12814,9 +12743,9 @@
 				{
 					"id": "deep-blue",
 					"displayName": "Deep Blue",
-					"swatch": {
-						"kind": "css",
-						"value": "#2E3A5C"
+					"finish": {
+						"base": "#2E3A5C",
+						"material": "matte-aluminum"
 					},
 					"images": [],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
@@ -12824,9 +12753,9 @@
 				{
 					"id": "silver",
 					"displayName": "Silver",
-					"swatch": {
-						"kind": "css",
-						"value": "#E3E4E6"
+					"finish": {
+						"base": "#E3E4E6",
+						"material": "matte-aluminum"
 					},
 					"images": [],
 					"sourceNotes": "Approximate hex matched to the official Apple finish name; no official swatch hex published for this legacy finish."
@@ -12941,10 +12870,7 @@
 					"sourceNotes": "Hidden compare rows 109, 110 and 148."
 				}
 			],
-			"audio": {
-				"speaker": true,
-				"microphone": true
-			},
+			"audio": {},
 			"batteryAndPower": {
 				"hasBattery": true,
 				"batteryCapacityMah": null,
