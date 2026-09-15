@@ -43,6 +43,14 @@ const report = {
 	totalProducts: 0,
 	imageReferences: 0,
 	invalidImageReferences: [],
+	recordsWithoutImages: [],
+};
+
+const collectImageRefs = (value, refs) => {
+	if (Array.isArray(value)) return value.forEach((item) => collectImageRefs(item, refs));
+	if (!value || typeof value !== "object") return;
+	if (typeof value.localPath === "string") refs.push(value);
+	Object.values(value).forEach((item) => collectImageRefs(item, refs));
 };
 
 for (const dataset of datasets) {
@@ -52,13 +60,7 @@ for (const dataset of datasets) {
 	const validate = ajv.compile(schema);
 	const valid = validate(data);
 	const refs = [];
-	const walk = (value) => {
-		if (Array.isArray(value)) return value.forEach(walk);
-		if (!value || typeof value !== "object") return;
-		if (typeof value.localPath === "string") refs.push(value);
-		Object.values(value).forEach(walk);
-	};
-	walk(data);
+	collectImageRefs(data, refs);
 	for (const ref of refs) {
 		const resolved = resolveLocalPath(ref.localPath);
 		if (!existsSync(resolved)) {
@@ -67,22 +69,29 @@ for (const dataset of datasets) {
 			report.invalidImageReferences.push({ section: dataset.section, path: ref.localPath, reason: "empty" });
 		}
 	}
-	const records = data[dataset.collectionKey].length;
+	const records = data[dataset.collectionKey];
+	for (const record of records) {
+		const recordRefs = [];
+		collectImageRefs(record, recordRefs);
+		if (recordRefs.length === 0) {
+			report.recordsWithoutImages.push({ section: dataset.section, id: record.id });
+		}
+	}
 	report.datasets.push({
 		section: dataset.section,
 		collectionKey: dataset.collectionKey,
-		records,
+		records: records.length,
 		schemaSha256: createHash("sha256").update(schemaBuffer).digest("hex"),
 		imageReferences: refs.length,
 		valid,
 		errorCount: valid ? 0 : validate.errors.length,
 		errors: valid ? [] : validate.errors,
 	});
-	if (dataset.collectionKey === "devices") report.totalDevices += records;
-	if (dataset.collectionKey === "accessories") report.totalAccessories += records;
-	if (dataset.collectionKey === "products") report.totalProducts += records;
+	if (dataset.collectionKey === "devices") report.totalDevices += records.length;
+	if (dataset.collectionKey === "accessories") report.totalAccessories += records.length;
+	if (dataset.collectionKey === "products") report.totalProducts += records.length;
 	report.imageReferences += refs.length;
 }
 
 writeFileSync(".scratch/merge-audits/final-validation-report.json", `${JSON.stringify(report, null, "\t")}\n`);
-console.log(JSON.stringify({ ...report, allValid: report.datasets.every((dataset) => dataset.valid) && report.invalidImageReferences.length === 0 }, null, 2));
+	console.log(JSON.stringify({ ...report, allValid: report.datasets.every((dataset) => dataset.valid) && report.invalidImageReferences.length === 0 && report.recordsWithoutImages.length === 0 }, null, 2));
