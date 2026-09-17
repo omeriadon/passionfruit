@@ -17,7 +17,7 @@ export function baseOptions(): BaseLayoutProps {
 					<img
 						src="/favicon-transparent.svg"
 						alt=""
-						className="size-7"
+						className="size-7 -ml-2"
 						aria-hidden="true"
 					/>
 					<h1 className="text-lg font-bold font-mono">{appName}</h1>
