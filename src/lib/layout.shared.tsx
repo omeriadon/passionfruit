@@ -14,8 +14,13 @@ export function baseOptions(): BaseLayoutProps {
 		nav: {
 			title: (
 				<>
-					{/* icon here */}
-					<h1 className="text-lg font-bold font-mono -ml-1.25">{appName}</h1>
+					<img
+						src="/favicon-transparent.svg"
+						alt=""
+						className="size-7 -ml-2"
+						aria-hidden="true"
+					/>
+					<h1 className="text-lg font-bold font-mono">{appName}</h1>
 				</>
 			),
 			url: "/",
