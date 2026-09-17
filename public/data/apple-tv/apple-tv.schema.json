@@ -18,7 +18,7 @@
 			"additionalProperties": false,
 			"required": ["value", "unit"],
 			"properties": {
-				"value": { "type": "number" },
+				"value": { "type": "number", "minimum": 0 },
 				"unit": { "type": "string", "enum": ["mm", "g"] },
 				"qualifier": { "type": "string", "minLength": 1 }
 			}
@@ -28,7 +28,7 @@
 			"additionalProperties": false,
 			"required": ["label", "appleUrl", "localPath", "widthPx", "heightPx"],
 			"properties": {
-				"label": { "type": "string" },
+				"label": { "type": "string", "minLength": 1 },
 				"appleUrl": { "type": "string", "format": "uri" },
 				"localPath": { "type": "string", "minLength": 1 },
 				"widthPx": { "type": "integer", "minimum": 1 },
@@ -40,7 +40,11 @@
 			"additionalProperties": false,
 			"required": ["id", "displayName"],
 			"properties": {
-				"id": { "type": "string", "minLength": 1 },
+				"id": {
+					"type": "string",
+					"pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+					"minLength": 1
+				},
 				"displayName": { "type": "string", "minLength": 1 },
 				"family": { "type": "string", "minLength": 1 },
 				"sourceNotes": { "type": "string", "minLength": 1 }
@@ -110,7 +114,11 @@
 			"additionalProperties": false,
 			"required": ["ports"],
 			"properties": {
-				"ports": { "type": "array", "items": { "$ref": "#/$defs/port" } },
+				"ports": {
+					"type": "array",
+					"minItems": 1,
+					"items": { "$ref": "#/$defs/port" }
+				},
 				"wifi": { "$ref": "#/$defs/wireless" },
 				"bluetooth": { "$ref": "#/$defs/wireless" },
 				"thread": { "$ref": "#/$defs/wireless" },
@@ -126,6 +134,7 @@
 				"displayName": { "type": "string", "minLength": 1 },
 				"dimensions": {
 					"type": "array",
+					"minItems": 1,
 					"items": { "$ref": "#/$defs/measurement" }
 				},
 				"weight": { "$ref": "#/$defs/measurement" },
@@ -147,6 +156,7 @@
 				},
 				"components": {
 					"type": "array",
+					"minItems": 1,
 					"items": { "$ref": "#/$defs/physicalComponent" }
 				}
 			}
@@ -196,9 +206,14 @@
 				"chip": { "$ref": "#/$defs/chip" },
 				"connectivity": { "$ref": "#/$defs/connectivity" },
 				"physical": { "$ref": "#/$defs/physical" },
-				"images": { "type": "array", "items": { "$ref": "#/$defs/image" } },
+				"images": {
+					"type": "array",
+					"minItems": 1,
+					"items": { "$ref": "#/$defs/image" }
+				},
 				"accessories": {
 					"type": "array",
+					"minItems": 1,
 					"items": { "$ref": "#/$defs/accessory" }
 				},
 				"sourceNotes": { "type": "string", "minLength": 1 }

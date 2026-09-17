@@ -1,11 +1,72 @@
-import { source } from "@/lib/source";
-import { DocsLayout } from "fumadocs-ui/layouts/docs";
+import { getCatalogPageTree } from "@/lib/source";
+import { GlassLayout, type GlassLayoutProps } from "fumadocs-ui/layouts/glass";
+import { getLayoutTabs, type LayoutTab } from "fumadocs-ui/layouts/shared";
 import { baseOptions } from "@/lib/layout.shared";
+import { catalogCategories, otherCatalogSections } from "@/lib/shared";
+import { GlassAccountHeader } from "@/components/auth/GlassAccountHeader";
+import { DeviceTypeIcon } from "@/components/catalog/DeviceTypeIcon";
+
+const baseLayoutOptions = baseOptions();
+const catalogTree = getCatalogPageTree();
+const catalogTabs = getLayoutTabs(catalogTree)
+	.map((option): LayoutTab | null => {
+		const category = catalogCategories.find(
+			(item) => option.url === `/docs/${item.slug}`,
+		);
+		if (category) {
+			return {
+				...option,
+				title: category.title,
+				icon: <DeviceTypeIcon category={category.slug} className="size-4" />,
+			};
+		}
+
+		const section = otherCatalogSections.find(
+			(item) => option.url === `/docs/other/${item.slug}`,
+		);
+		if (section) {
+			return {
+				...option,
+				title: section.title,
+				icon: <DeviceTypeIcon category={section.slug} className="size-4" />,
+			};
+		}
+
+		return null;
+	})
+	.filter((option): option is LayoutTab => option !== null);
+
+const glassLayoutOptions: Omit<GlassLayoutProps, "children"> = {
+	...baseLayoutOptions,
+
+	tree: catalogTree,
+
+	tabs: catalogTabs,
+
+	sidebar: {
+		collapsible: false,
+	},
+
+	slots: {
+		header: GlassAccountHeader,
+	},
+	githubUrl: baseLayoutOptions.githubUrl,
+	links: baseLayoutOptions.links ?? [],
+	themeSwitch: {
+		enabled: true,
+		mode: "light-dark-system",
+	},
+	searchToggle: {
+		enabled: true,
+	},
+	i18n: false,
+};
 
 export default function Layout({ children }: LayoutProps<"/docs">) {
 	return (
-		<DocsLayout tree={source.getPageTree()} {...baseOptions()}>
-			{children}
-		</DocsLayout>
+		<>
+			<style>{`#nd-sidebar > div:first-child { padding-top: 0.5rem; } #nd-sidebar-device-search > div { padding-top: 0.25rem; } #nd-sidebar-device-search + * { margin-top: 0.375rem; }`}</style>
+			<GlassLayout {...glassLayoutOptions}>{children}</GlassLayout>
+		</>
 	);
 }

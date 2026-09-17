@@ -1,0 +1,101 @@
+{
+	"nodes": [
+		{
+			"id": "$graphify-root$_data_rules_mac_md",
+			"label": "mac.md",
+			"file_type": "document",
+			"node_kind": "page",
+			"source_file": "data/rules/mac.md",
+			"source_location": "L1"
+		},
+		{
+			"id": "$graphify-root$_data_rules_mac_mac_extraction_rules",
+			"label": "Mac extraction rules",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": "data/rules/mac.md",
+			"source_location": "L1"
+		},
+		{
+			"id": "$graphify-root$_data_rules_mac_identity_variants_and_images",
+			"label": "Identity, variants, and images",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": "data/rules/mac.md",
+			"source_location": "L5"
+		},
+		{
+			"id": "$graphify-root$_data_rules_mac_hardware",
+			"label": "Hardware",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": "data/rules/mac.md",
+			"source_location": "L11"
+		},
+		{
+			"id": "$graphify-root$_data_rules_mac_laptop_and_desktop_power_display_handling",
+			"label": "Laptop and desktop power/display handling",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": "data/rules/mac.md",
+			"source_location": "L24"
+		},
+		{
+			"id": "$graphify-root$_data_rules_mac_contract_limits",
+			"label": "Contract limits",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": "data/rules/mac.md",
+			"source_location": "L33"
+		}
+	],
+	"edges": [
+		{
+			"source": "$graphify-root$_data_rules_mac_md",
+			"target": "$graphify-root$_data_rules_mac_mac_extraction_rules",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": "data/rules/mac.md",
+			"source_location": "L1",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_data_rules_mac_mac_extraction_rules",
+			"target": "$graphify-root$_data_rules_mac_identity_variants_and_images",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": "data/rules/mac.md",
+			"source_location": "L5",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_data_rules_mac_mac_extraction_rules",
+			"target": "$graphify-root$_data_rules_mac_hardware",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": "data/rules/mac.md",
+			"source_location": "L11",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_data_rules_mac_mac_extraction_rules",
+			"target": "$graphify-root$_data_rules_mac_laptop_and_desktop_power_display_handling",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": "data/rules/mac.md",
+			"source_location": "L24",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_data_rules_mac_mac_extraction_rules",
+			"target": "$graphify-root$_data_rules_mac_contract_limits",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": "data/rules/mac.md",
+			"source_location": "L33",
+			"weight": 1.0
+		}
+	],
+	"input_tokens": 0,
+	"output_tokens": 0
+}

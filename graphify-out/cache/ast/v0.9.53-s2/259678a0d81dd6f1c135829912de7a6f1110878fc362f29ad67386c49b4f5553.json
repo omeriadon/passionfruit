@@ -1,0 +1,101 @@
+{
+	"nodes": [
+		{
+			"id": "$graphify-root$_scratch_coverage_audit_os26_os27_sources_md",
+			"label": "coverage-audit-os26-os27-sources.md",
+			"file_type": "document",
+			"node_kind": "page",
+			"source_file": ".scratch/coverage-audit-os26-os27-sources.md",
+			"source_location": "L1"
+		},
+		{
+			"id": "$graphify-root$_scratch_coverage_audit_os26_os27_sources_os_26_os_27_device_coverage_source_audit",
+			"label": "OS 26 / OS 27 device coverage source audit",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/coverage-audit-os26-os27-sources.md",
+			"source_location": "L1"
+		},
+		{
+			"id": "$graphify-root$_scratch_coverage_audit_os26_os27_sources_authoritative_apple_sources",
+			"label": "Authoritative Apple sources",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/coverage-audit-os26-os27-sources.md",
+			"source_location": "L7"
+		},
+		{
+			"id": "$graphify-root$_scratch_coverage_audit_os26_os27_sources_repository_comparison",
+			"label": "Repository comparison",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/coverage-audit-os26-os27-sources.md",
+			"source_location": "L17"
+		},
+		{
+			"id": "$graphify-root$_scratch_coverage_audit_os26_os27_sources_os_27_status_and_caveat",
+			"label": "OS 27 status and caveat",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/coverage-audit-os26-os27-sources.md",
+			"source_location": "L25"
+		},
+		{
+			"id": "$graphify-root$_scratch_coverage_audit_os26_os27_sources_audit_conclusion",
+			"label": "Audit conclusion",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/coverage-audit-os26-os27-sources.md",
+			"source_location": "L33"
+		}
+	],
+	"edges": [
+		{
+			"source": "$graphify-root$_scratch_coverage_audit_os26_os27_sources_md",
+			"target": "$graphify-root$_scratch_coverage_audit_os26_os27_sources_os_26_os_27_device_coverage_source_audit",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/coverage-audit-os26-os27-sources.md",
+			"source_location": "L1",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_coverage_audit_os26_os27_sources_os_26_os_27_device_coverage_source_audit",
+			"target": "$graphify-root$_scratch_coverage_audit_os26_os27_sources_authoritative_apple_sources",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/coverage-audit-os26-os27-sources.md",
+			"source_location": "L7",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_coverage_audit_os26_os27_sources_os_26_os_27_device_coverage_source_audit",
+			"target": "$graphify-root$_scratch_coverage_audit_os26_os27_sources_repository_comparison",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/coverage-audit-os26-os27-sources.md",
+			"source_location": "L17",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_coverage_audit_os26_os27_sources_os_26_os_27_device_coverage_source_audit",
+			"target": "$graphify-root$_scratch_coverage_audit_os26_os27_sources_os_27_status_and_caveat",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/coverage-audit-os26-os27-sources.md",
+			"source_location": "L25",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_coverage_audit_os26_os27_sources_os_26_os_27_device_coverage_source_audit",
+			"target": "$graphify-root$_scratch_coverage_audit_os26_os27_sources_audit_conclusion",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/coverage-audit-os26-os27-sources.md",
+			"source_location": "L33",
+			"weight": 1.0
+		}
+	],
+	"input_tokens": 0,
+	"output_tokens": 0
+}

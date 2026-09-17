@@ -46,7 +46,8 @@
 					"pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
 				},
 				"name": {
-					"type": "string"
+					"type": "string",
+					"minLength": 1
 				},
 				"releaseYear": {
 					"type": "integer",
@@ -54,7 +55,7 @@
 					"maximum": 2100
 				},
 				"priceAud": {
-					"type": ["number", "null"],
+					"type": "number",
 					"minimum": 0
 				},
 				"colors": {
@@ -71,24 +72,28 @@
 				},
 				"storageOptions": {
 					"type": "array",
+					"minItems": 1,
 					"items": {
 						"$ref": "#/$defs/ipadStorageOption"
 					}
 				},
 				"chips": {
 					"type": "array",
+					"minItems": 1,
 					"items": {
 						"$ref": "#/$defs/ipadChip"
 					}
 				},
 				"displays": {
 					"type": "array",
+					"minItems": 1,
 					"items": {
 						"$ref": "#/$defs/ipadDisplay"
 					}
 				},
 				"cameras": {
 					"type": "array",
+					"minItems": 1,
 					"items": {
 						"$ref": "#/$defs/ipadCamera"
 					}
@@ -121,7 +126,8 @@
 					}
 				},
 				"sourceNotes": {
-					"type": "string"
+					"type": "string",
+					"minLength": 1
 				},
 				"memoryOptions": {
 					"type": "array",
@@ -140,20 +146,23 @@
 		"ipadColor": {
 			"type": "object",
 			"additionalProperties": false,
-			"required": ["id", "displayName", "swatch", "images"],
+			"required": ["id", "displayName", "images"],
 			"properties": {
 				"id": {
 					"type": "string",
 					"pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
 				},
 				"displayName": {
-					"type": "string"
+					"type": "string",
+					"minLength": 1
 				},
-				"swatch": {
-					"$ref": "#/$defs/ipadSwatch"
+				"finish": {
+					"$ref": "#/$defs/finish",
+					"description": "Finish record for the material swatch dot. Optional until backfill completes."
 				},
 				"images": {
 					"type": "array",
+					"minItems": 1,
 					"items": {
 						"$ref": "#/$defs/ipadImage"
 					}
@@ -163,7 +172,8 @@
 					"exclusiveMinimum": 0
 				},
 				"sourceNotes": {
-					"type": "string"
+					"type": "string",
+					"minLength": 1
 				}
 			}
 		},
@@ -173,14 +183,16 @@
 			"required": ["label", "appleUrl", "localPath", "widthPx", "heightPx"],
 			"properties": {
 				"label": {
-					"type": "string"
+					"type": "string",
+					"minLength": 1
 				},
 				"appleUrl": {
 					"type": "string",
 					"format": "uri"
 				},
 				"localPath": {
-					"type": "string"
+					"type": "string",
+					"minLength": 1
 				},
 				"widthPx": {
 					"type": "integer",
@@ -192,37 +204,118 @@
 				}
 			}
 		},
-		"ipadSwatch": {
-			"oneOf": [
-				{
+		"finish": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["base", "material"],
+			"description": "Data-driven finish record. One generic renderer turns this into a material swatch dot (gradient + grain + shine, optional duo split). Never a per-finish asset or custom node.",
+			"properties": {
+				"base": {
+					"type": "string",
+					"pattern": "^#[0-9a-fA-F]{6}$",
+					"description": "Anchor hex. Also the flat fallback render."
+				},
+				"material": {
+					"enum": [
+						"matte-aluminum",
+						"brushed-titanium",
+						"polished-titanium",
+						"polished-steel",
+						"ceramic",
+						"glass",
+						"fabric",
+						"flat"
+					],
+					"description": "Surface recipe: sheen spread, glare, brushed streaks or weave are derived from this."
+				},
+				"sheen": {
 					"type": "object",
 					"additionalProperties": false,
-					"required": ["kind", "value"],
+					"description": "Optional specular override. Defaults come from material.",
 					"properties": {
-						"kind": {
-							"const": "css"
+						"glareX": {
+							"type": "number",
+							"minimum": 0,
+							"maximum": 100
 						},
-						"value": {
-							"type": "string",
-							"pattern": "^#[0-9a-fA-F]{6}$|^#[0-9a-fA-F]{8}$|^rgba?\\("
+						"glareY": {
+							"type": "number",
+							"minimum": 0,
+							"maximum": 100
+						},
+						"intensity": {
+							"type": "number",
+							"minimum": 0,
+							"maximum": 1
 						}
 					}
 				},
-				{
+				"shine": {
+					"type": "number",
+					"minimum": 0,
+					"maximum": 1,
+					"description": "Crisp clearcoat hotspot + rim light. 0 none, 1 full glass-like pop. Defaults per material."
+				},
+				"grain": {
+					"type": "number",
+					"minimum": 0,
+					"maximum": 1,
+					"description": "Micro-noise overlay (parametric turbulence, no assets). Matte metals/ceramic low, fabric high."
+				},
+				"weave": {
+					"type": "boolean",
+					"description": "Parametric crosshatch overlay for woven fabric (e.g. HomePod mesh). Only meaningful with fabric material."
+				},
+				"duo": {
 					"type": "object",
 					"additionalProperties": false,
-					"required": ["kind", "url"],
+					"required": ["base", "material"],
+					"description": "Second fill for two-tone split dots (e.g. Watch case + band). Grain/shine/sheen apply whole-dot.",
 					"properties": {
-						"kind": {
-							"const": "image"
-						},
-						"url": {
+						"base": {
 							"type": "string",
-							"format": "uri"
+							"pattern": "^#[0-9a-fA-F]{6}$"
+						},
+						"material": {
+							"enum": [
+								"matte-aluminum",
+								"brushed-titanium",
+								"polished-titanium",
+								"polished-steel",
+								"ceramic",
+								"glass",
+								"fabric",
+								"flat"
+							]
+						},
+						"split": {
+							"type": "object",
+							"additionalProperties": false,
+							"description": "Divider geometry. Curve bows the line so it reads as Apple's photographic swoosh, not a straight diagonal.",
+							"properties": {
+								"angle": {
+									"type": "number",
+									"minimum": 0,
+									"maximum": 360,
+									"default": 135
+								},
+								"curve": {
+									"type": "number",
+									"minimum": -0.3,
+									"maximum": 0.3,
+									"default": 0.18
+								},
+								"offset": {
+									"type": "number",
+									"minimum": -0.5,
+									"maximum": 0.5,
+									"default": 0
+								}
+							}
 						}
 					}
 				}
-			]
+			}
 		},
 		"ipadStorageOption": {
 			"type": "object",
@@ -230,10 +323,13 @@
 			"required": ["id", "capacityValue", "capacityUnit"],
 			"properties": {
 				"id": {
-					"type": "string"
+					"type": "string",
+					"pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+					"minLength": 1
 				},
 				"displayName": {
-					"type": "string"
+					"type": "string",
+					"minLength": 1
 				},
 				"capacityValue": {
 					"type": "integer",
@@ -243,16 +339,20 @@
 					"enum": ["GB", "TB"]
 				},
 				"priceDeltaAud": {
-					"type": "number"
+					"type": "number",
+					"minimum": 0
 				},
 				"availableColorIds": {
 					"type": "array",
 					"items": {
-						"type": "string"
+						"type": "string",
+						"pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+						"minLength": 1
 					}
 				},
 				"sourceNotes": {
-					"type": "string"
+					"type": "string",
+					"minLength": 1
 				}
 			}
 		},
@@ -262,10 +362,13 @@
 			"required": ["id", "capacityValue", "capacityUnit", "kind"],
 			"properties": {
 				"id": {
-					"type": "string"
+					"type": "string",
+					"pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+					"minLength": 1
 				},
 				"displayName": {
-					"type": "string"
+					"type": "string",
+					"minLength": 1
 				},
 				"capacityValue": {
 					"type": "integer",
@@ -278,16 +381,19 @@
 					"enum": ["unified", "DRAM", "NAND cache", "other"]
 				},
 				"speedMbps": {
-					"type": "integer"
+					"type": "integer",
+					"minimum": 0
 				},
 				"speedUnit": {
 					"const": "Mbps"
 				},
 				"configuration": {
-					"type": "string"
+					"type": "string",
+					"minLength": 1
 				},
 				"sourceNotes": {
-					"type": "string"
+					"type": "string",
+					"minLength": 1
 				}
 			}
 		},
@@ -305,32 +411,39 @@
 			],
 			"properties": {
 				"id": {
-					"type": "string"
+					"type": "string",
+					"pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+					"minLength": 1
 				},
 				"displayName": {
-					"type": "string"
+					"type": "string",
+					"minLength": 1
 				},
 				"family": {
-					"type": "string"
+					"type": "string",
+					"minLength": 1
 				},
 				"cpuCores": {
 					"$ref": "#/$defs/ipadCpuCores"
 				},
 				"gpuCores": {
 					"type": ["integer", "null"],
-					"minimum": 0
+					"minimum": 0,
+					"description": "Apple does not consistently publish GPU core counts for iPad chips in the supplied evidence; use explicit null only when the source omits it."
 				},
 				"neuralEngineCores": {
 					"type": ["integer", "null"],
-					"minimum": 0
+					"minimum": 0,
+					"description": "Apple does not publish Neural Engine core counts for iPad chips in the supplied evidence; use explicit null only when the source omits it."
 				},
 				"memoryBandwidthGbps": {
 					"type": ["number", "null"],
 					"minimum": 0,
-					"description": "Gigabits per second unless sourceNotes states bytes per second."
+					"description": "Gigabits per second unless sourceNotes states bytes per second. Apple does not publish memory bandwidth for iPad chips; use explicit null only when the supplied evidence omits it."
 				},
 				"cpuCoreConfiguration": {
-					"type": "string"
+					"type": "string",
+					"minLength": 1
 				},
 				"neuralAccelerators": {
 					"type": "boolean"
@@ -345,14 +458,16 @@
 					}
 				},
 				"processNode": {
-					"type": "string"
+					"type": "string",
+					"minLength": 1
 				},
 				"transistorCountBillions": {
-					"type": ["number", "null"],
+					"type": "number",
 					"minimum": 0
 				},
 				"sourceNotes": {
-					"type": "string"
+					"type": "string",
+					"minLength": 1
 				}
 			}
 		},
@@ -369,10 +484,13 @@
 			],
 			"properties": {
 				"id": {
-					"type": "string"
+					"type": "string",
+					"pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+					"minLength": 1
 				},
 				"technology": {
-					"type": "string"
+					"type": "string",
+					"minLength": 1
 				},
 				"panelKind": {
 					"enum": [
@@ -381,48 +499,47 @@
 						"OLED",
 						"tandem OLED",
 						"micro-OLED",
-						"other",
-						null
+						"other"
 					]
 				},
 				"sizeIn": {
-					"type": ["number", "null"],
+					"type": "number",
 					"minimum": 0,
 					"description": "Inches"
 				},
 				"resolutionWidthPx": {
-					"type": ["integer", "null"],
+					"type": "integer",
 					"minimum": 1
 				},
 				"resolutionHeightPx": {
-					"type": ["integer", "null"],
+					"type": "integer",
 					"minimum": 1
 				},
 				"pixelsPerInch": {
-					"type": ["number", "null"],
+					"type": "number",
 					"minimum": 0
 				},
 				"refreshRateHz": {
-					"type": ["number", "null"],
+					"type": "number",
 					"minimum": 0
 				},
 				"refreshRateRange": {
 					"$ref": "#/$defs/ipadMeasurementRange"
 				},
 				"sdrPeakBrightnessNits": {
-					"type": ["number", "null"],
+					"type": "number",
 					"minimum": 0
 				},
 				"hdrPeakBrightnessNits": {
-					"type": ["number", "null"],
+					"type": "number",
 					"minimum": 0
 				},
 				"fullScreenHdrBrightnessNits": {
-					"type": ["number", "null"],
+					"type": "number",
 					"minimum": 0
 				},
 				"minimumBrightnessNits": {
-					"type": ["number", "null"],
+					"type": "number",
 					"minimum": 0
 				},
 				"trueTone": {
@@ -456,7 +573,8 @@
 					"type": "boolean"
 				},
 				"sourceNotes": {
-					"type": "string"
+					"type": "string",
+					"minLength": 1
 				}
 			}
 		},
@@ -466,7 +584,9 @@
 			"required": ["id", "role", "displayName", "megapixels"],
 			"properties": {
 				"id": {
-					"type": "string"
+					"type": "string",
+					"pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+					"minLength": 1
 				},
 				"role": {
 					"enum": [
@@ -481,18 +601,19 @@
 					]
 				},
 				"displayName": {
-					"type": "string"
+					"type": "string",
+					"minLength": 1
 				},
 				"megapixels": {
-					"type": ["number", "null"],
+					"type": "number",
 					"exclusiveMinimum": 0
 				},
 				"opticalZoomMultiplier": {
-					"type": ["number", "null"],
+					"type": "number",
 					"exclusiveMinimum": 0
 				},
 				"apertureFNumber": {
-					"type": ["number", "null"],
+					"type": "number",
 					"exclusiveMinimum": 0
 				},
 				"sensorShiftOis": {
@@ -514,15 +635,15 @@
 					"type": "boolean"
 				},
 				"videoMaxResolutionWidthPx": {
-					"type": ["integer", "null"],
+					"type": "integer",
 					"minimum": 1
 				},
 				"videoMaxResolutionHeightPx": {
-					"type": ["integer", "null"],
+					"type": "integer",
 					"minimum": 1
 				},
 				"videoMaxFrameRateHz": {
-					"type": ["number", "null"],
+					"type": "number",
 					"exclusiveMinimum": 0
 				},
 				"proRes": {
@@ -532,7 +653,8 @@
 					"type": "boolean"
 				},
 				"sourceNotes": {
-					"type": "string"
+					"type": "string",
+					"minLength": 1
 				}
 			}
 		},
@@ -548,10 +670,12 @@
 					"type": "boolean"
 				},
 				"speakerConfiguration": {
-					"type": "string"
+					"type": "string",
+					"minLength": 1
 				},
 				"microphoneConfiguration": {
-					"type": "string"
+					"type": "string",
+					"minLength": 1
 				},
 				"siren": {
 					"type": "boolean"
@@ -571,11 +695,13 @@
 				"formats": {
 					"type": "array",
 					"items": {
-						"type": "string"
+						"type": "string",
+						"minLength": 1
 					}
 				},
 				"sourceNotes": {
-					"type": "string"
+					"type": "string",
+					"minLength": 1
 				}
 			}
 		},
@@ -596,14 +722,17 @@
 				},
 				"batteryCapacityMah": {
 					"type": ["number", "null"],
-					"minimum": 0
+					"minimum": 0,
+					"description": "Apple does not publish iPad battery capacity in mAh in product specifications; use explicit null only when the supplied evidence omits it."
 				},
 				"batteryCapacityWhr": {
 					"type": ["number", "null"],
-					"minimum": 0
+					"minimum": 0,
+					"description": "Apple does not publish iPad battery capacity in Whr in product specifications; use explicit null only when the supplied evidence omits it."
 				},
 				"runtimeHours": {
 					"type": "array",
+					"minItems": 1,
 					"items": {
 						"$ref": "#/$defs/ipadBatteryRuntime"
 					}
@@ -633,29 +762,16 @@
 			"properties": {
 				"ports": {
 					"type": "array",
+					"minItems": 1,
 					"items": {
 						"$ref": "#/$defs/ipadPort"
 					}
 				},
 				"wifi": {
-					"anyOf": [
-						{
-							"$ref": "#/$defs/ipadWifi"
-						},
-						{
-							"type": "null"
-						}
-					]
+					"$ref": "#/$defs/ipadWifi"
 				},
 				"bluetooth": {
-					"anyOf": [
-						{
-							"$ref": "#/$defs/ipadBluetooth"
-						},
-						{
-							"type": "null"
-						}
-					]
+					"$ref": "#/$defs/ipadBluetooth"
 				},
 				"cellular": {
 					"anyOf": [
@@ -665,7 +781,8 @@
 						{
 							"type": "null"
 						}
-					]
+					],
+					"description": "Explicit null records a device with no cellular hardware (e.g. a Wi-Fi-only model); use only when the hardware is absent."
 				},
 				"uwb": {
 					"anyOf": [
@@ -675,7 +792,8 @@
 						{
 							"type": "null"
 						}
-					]
+					],
+					"description": "Explicit null records a device with no ultra-wideband hardware; use only when the hardware is absent."
 				},
 				"thread": {
 					"anyOf": [
@@ -685,7 +803,8 @@
 						{
 							"type": "null"
 						}
-					]
+					],
+					"description": "Explicit null records a device with no Thread radio; use only when the hardware is absent."
 				},
 				"infrared": {
 					"anyOf": [
@@ -695,7 +814,8 @@
 						{
 							"type": "null"
 						}
-					]
+					],
+					"description": "Explicit null records a device with no infrared hardware; use only when the hardware is absent."
 				},
 				"nearFieldCommunication": {
 					"anyOf": [
@@ -705,7 +825,8 @@
 						{
 							"type": "null"
 						}
-					]
+					],
+					"description": "Explicit null records a device with no NFC hardware; use only when the hardware is absent."
 				},
 				"gps": {
 					"anyOf": [
@@ -715,7 +836,8 @@
 						{
 							"type": "null"
 						}
-					]
+					],
+					"description": "Explicit null records a device with no GPS hardware (e.g. a Wi-Fi-only model); use only when the hardware is absent."
 				}
 			}
 		},
@@ -726,6 +848,7 @@
 			"properties": {
 				"methods": {
 					"type": "array",
+					"minItems": 1,
 					"uniqueItems": true,
 					"items": {
 						"enum": [
@@ -749,10 +872,11 @@
 					]
 				},
 				"placement": {
-					"enum": ["top button", "keyboard", "side button", "other", null]
+					"enum": ["top button", "keyboard", "side button", "other"]
 				},
 				"sourceNotes": {
-					"type": "string"
+					"type": "string",
+					"minLength": 1
 				}
 			}
 		},
@@ -794,15 +918,18 @@
 			"properties": {
 				"ipRating": {
 					"type": ["string", "null"],
-					"pattern": "^(IP[0-9]X?|IP6X|IP68)$|^$|^null$"
+					"pattern": "^(IP[0-9]X?|IP6X|IP68)$",
+					"description": "Apple publishes no ingress-protection rating for iPad; use explicit null (never \"\" or \"null\") only when the rating is absent from the supplied evidence."
 				},
 				"waterDepthM": {
 					"type": ["number", "null"],
-					"minimum": 0
+					"minimum": 0,
+					"description": "Apple publishes no water-depth rating for iPad; use explicit null only when the supplied evidence omits it."
 				},
 				"splashPressureAtm": {
 					"type": ["number", "null"],
-					"minimum": 0
+					"minimum": 0,
+					"description": "Apple publishes no splash-pressure rating for iPad; use explicit null only when the supplied evidence omits it."
 				},
 				"dustProtected": {
 					"type": "boolean"
@@ -822,25 +949,31 @@
 			],
 			"properties": {
 				"operatingSystem": {
-					"type": "string"
+					"type": "string",
+					"minLength": 1
 				},
 				"operatingSystemVersionAtLaunch": {
-					"type": ["string", "null"]
+					"type": ["string", "null"],
+					"minLength": 1,
+					"description": "The launch iPadOS version is absent from the supplied compare-matrix evidence; use explicit null only when the source omits it."
 				},
 				"compatibleOperatingSystems": {
 					"type": "array",
 					"items": {
-						"type": "string"
+						"type": "string",
+						"minLength": 1
 					}
 				},
 				"builtInApps": {
 					"type": "array",
 					"items": {
-						"type": "string"
+						"type": "string",
+						"minLength": 1
 					}
 				},
 				"sourceNotes": {
-					"type": "string"
+					"type": "string",
+					"minLength": 1
 				}
 			}
 		},
@@ -850,13 +983,17 @@
 			"required": ["label", "appleUrl", "localPath", "widthPx", "heightPx"],
 			"properties": {
 				"label": {
-					"type": "string"
+					"type": "string",
+					"minLength": 1
 				},
 				"appleUrl": {
-					"type": "string"
+					"type": "string",
+					"format": "uri",
+					"minLength": 1
 				},
 				"localPath": {
-					"type": "string"
+					"type": "string",
+					"minLength": 1
 				},
 				"widthPx": {
 					"type": "integer",
@@ -879,11 +1016,13 @@
 				},
 				"performance": {
 					"type": ["integer", "null"],
-					"minimum": 0
+					"minimum": 0,
+					"description": "Apple does not publish the performance-core split for iPad chips in the supplied evidence; use explicit null only when the source omits it."
 				},
 				"efficiency": {
 					"type": ["integer", "null"],
-					"minimum": 0
+					"minimum": 0,
+					"description": "Apple does not publish the efficiency-core split for iPad chips in the supplied evidence; use explicit null only when the source omits it."
 				}
 			}
 		},
@@ -893,13 +1032,17 @@
 			"required": ["id", "displayName", "kinds"],
 			"properties": {
 				"id": {
-					"type": "string"
+					"type": "string",
+					"pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+					"minLength": 1
 				},
 				"displayName": {
-					"type": "string"
+					"type": "string",
+					"minLength": 1
 				},
 				"kinds": {
 					"type": "array",
+					"minItems": 1,
 					"uniqueItems": true,
 					"items": {
 						"enum": [
@@ -920,10 +1063,12 @@
 			"required": ["minimum", "maximum", "unit"],
 			"properties": {
 				"minimum": {
-					"type": "number"
+					"type": "number",
+					"minimum": 0
 				},
 				"maximum": {
-					"type": "number"
+					"type": "number",
+					"minimum": 0
 				},
 				"unit": {
 					"type": "string",
@@ -955,7 +1100,8 @@
 					]
 				},
 				"qualifier": {
-					"type": "string"
+					"type": "string",
+					"minLength": 1
 				}
 			}
 		},
@@ -965,20 +1111,24 @@
 			"required": ["id", "activity", "hours"],
 			"properties": {
 				"id": {
-					"type": "string"
+					"type": "string",
+					"pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+					"minLength": 1
 				},
 				"activity": {
-					"type": "string"
+					"type": "string",
+					"minLength": 1
 				},
 				"hours": {
-					"type": ["number", "null"],
+					"type": "number",
 					"minimum": 0
 				},
 				"qualifier": {
-					"type": "string"
+					"type": "string",
+					"minLength": 1
 				},
 				"network": {
-					"enum": ["Wi-Fi", "cellular", "offline", null]
+					"enum": ["Wi-Fi", "cellular", "offline"]
 				}
 			}
 		},
@@ -995,7 +1145,9 @@
 			],
 			"properties": {
 				"portId": {
-					"type": ["string", "null"]
+					"type": "string",
+					"pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+					"minLength": 1
 				},
 				"wiredFastCharge": {
 					"type": "boolean"
@@ -1011,6 +1163,7 @@
 					}
 				},
 				"fastChargeMinutesToPercent": {
+					"description": "Apple does not publish iPad fast-charge minutes-to-percent curves; use explicit null only when the supplied evidence omits it.",
 					"anyOf": [
 						{
 							"type": "null"
@@ -1035,7 +1188,8 @@
 				},
 				"adapterPowerW": {
 					"type": ["number", "null"],
-					"minimum": 0
+					"minimum": 0,
+					"description": "Apple does not consistently publish iPad adapter wattage in the supplied evidence; use explicit null only when the source omits it."
 				}
 			}
 		},
@@ -1057,17 +1211,21 @@
 				},
 				"outputVoltageV": {
 					"type": ["number", "null"],
-					"minimum": 0
+					"minimum": 0,
+					"description": "Apple does not publish iPad power-supply electrical details; use explicit null only when the supplied evidence omits it."
 				},
 				"outputCurrentA": {
 					"type": ["number", "null"],
-					"minimum": 0
+					"minimum": 0,
+					"description": "Apple does not publish iPad power-supply electrical details; use explicit null only when the supplied evidence omits it."
 				},
 				"outputPowerW": {
 					"type": ["number", "null"],
-					"minimum": 0
+					"minimum": 0,
+					"description": "Apple does not publish iPad power-supply electrical details; use explicit null only when the supplied evidence omits it."
 				},
 				"inputVoltageRangeV": {
+					"description": "Apple does not publish iPad input-voltage range; use explicit null only when the supplied evidence omits it.",
 					"anyOf": [
 						{
 							"type": "null"
@@ -1091,11 +1249,13 @@
 				},
 				"frequencyHz": {
 					"type": ["number", "null"],
-					"minimum": 0
+					"minimum": 0,
+					"description": "Apple does not publish iPad power-supply electrical details; use explicit null only when the supplied evidence omits it."
 				},
 				"consumptionW": {
 					"type": ["number", "null"],
-					"minimum": 0
+					"minimum": 0,
+					"description": "Apple does not publish iPad power consumption; use explicit null only when the supplied evidence omits it."
 				}
 			}
 		},
@@ -1105,7 +1265,9 @@
 			"required": ["id", "kind"],
 			"properties": {
 				"id": {
-					"type": "string"
+					"type": "string",
+					"pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+					"minLength": 1
 				},
 				"kind": {
 					"enum": [
@@ -1141,10 +1303,12 @@
 				},
 				"maxPowerW": {
 					"type": ["number", "null"],
-					"description": "Watts"
+					"minimum": 0,
+					"description": "Watts. Apple does not publish per-port maximum power for iPad; use explicit null only when the supplied evidence omits it."
 				},
 				"sourceNotes": {
-					"type": "string"
+					"type": "string",
+					"minLength": 1
 				}
 			}
 		},
@@ -1168,10 +1332,12 @@
 					}
 				},
 				"chip": {
-					"type": "string"
+					"type": "string",
+					"minLength": 1
 				},
 				"MIMO": {
-					"type": "string"
+					"type": "string",
+					"minLength": 1
 				},
 				"simultaneousDualBand": {
 					"type": "boolean"
@@ -1202,6 +1368,7 @@
 			"properties": {
 				"technologies": {
 					"type": "array",
+					"minItems": 1,
 					"uniqueItems": true,
 					"items": {
 						"enum": ["LTE", "5G sub-6", "5G mmWave"]
@@ -1210,7 +1377,8 @@
 				"bands": {
 					"type": "array",
 					"items": {
-						"type": "string"
+						"type": "string",
+						"minLength": 1
 					}
 				},
 				"eSIMOnly": {
@@ -1224,7 +1392,8 @@
 			"required": ["chip"],
 			"properties": {
 				"chip": {
-					"type": "string"
+					"type": "string",
+					"minLength": 1
 				},
 				"secondGeneration": {
 					"type": "boolean"
@@ -1240,7 +1409,7 @@
 					"type": "boolean"
 				},
 				"role": {
-					"enum": ["endpoint", "border-router", "both", null]
+					"enum": ["endpoint", "border-router", "both"]
 				}
 			}
 		},
@@ -1253,7 +1422,8 @@
 					"type": "boolean"
 				},
 				"purpose": {
-					"type": ["string", "null"]
+					"type": "string",
+					"minLength": 1
 				}
 			}
 		},
@@ -1286,6 +1456,7 @@
 				},
 				"systems": {
 					"type": "array",
+					"minItems": 1,
 					"items": {
 						"enum": ["GPS", "GLONASS", "Galileo", "QZSS", "BeiDou", "NavIC"]
 					}
@@ -1298,7 +1469,8 @@
 			"required": ["value", "unit"],
 			"properties": {
 				"value": {
-					"type": ["number", "null"]
+					"type": "number",
+					"minimum": 0
 				},
 				"unit": {
 					"type": "string",
@@ -1330,7 +1502,8 @@
 					]
 				},
 				"qualifier": {
-					"type": "string"
+					"type": "string",
+					"minLength": 1
 				}
 			}
 		},
@@ -1340,10 +1513,13 @@
 			"required": ["id", "displayName", "dimensions", "weight"],
 			"properties": {
 				"id": {
-					"type": "string"
+					"type": "string",
+					"pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+					"minLength": 1
 				},
 				"displayName": {
-					"type": "string"
+					"type": "string",
+					"minLength": 1
 				},
 				"dimensions": {
 					"type": "array",
@@ -1352,14 +1528,15 @@
 					}
 				},
 				"weight": {
-					"type": ["number", "null"],
+					"type": "number",
 					"minimum": 0
 				},
 				"weightUnit": {
-					"enum": ["g", "kg", "oz", "lb", null]
+					"enum": ["g", "kg", "oz", "lb"]
 				},
 				"sourceNotes": {
-					"type": "string"
+					"type": "string",
+					"minLength": 1
 				}
 			}
 		},
@@ -1373,21 +1550,28 @@
 					"pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
 				},
 				"displayName": {
-					"type": "string"
+					"type": "string",
+					"minLength": 1
 				},
 				"colorIds": {
 					"type": "array",
 					"items": {
-						"type": "string"
+						"type": "string",
+						"pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+						"minLength": 1
 					}
 				},
 				"storageId": {
-					"type": "string"
+					"type": "string",
+					"pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+					"minLength": 1
 				},
 				"memoryIds": {
 					"type": "array",
 					"items": {
-						"type": "string"
+						"type": "string",
+						"pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+						"minLength": 1
 					}
 				},
 				"connectivity": {
@@ -1400,14 +1584,17 @@
 					]
 				},
 				"chipId": {
-					"type": "string"
+					"type": "string",
+					"pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+					"minLength": 1
 				},
 				"priceAud": {
-					"type": ["number", "null"],
+					"type": "number",
 					"minimum": 0
 				},
 				"sourceNotes": {
-					"type": "string"
+					"type": "string",
+					"minLength": 1
 				}
 			}
 		},
@@ -1421,7 +1608,8 @@
 					"pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
 				},
 				"displayName": {
-					"type": "string"
+					"type": "string",
+					"minLength": 1
 				},
 				"category": {
 					"type": "string",
@@ -1439,7 +1627,8 @@
 				"capabilities": {
 					"type": "array",
 					"items": {
-						"type": "string"
+						"type": "string",
+						"minLength": 1
 					}
 				}
 			}

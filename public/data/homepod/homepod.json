@@ -4,14 +4,17 @@
 			"id": "homepod-mini",
 			"name": "HomePod mini",
 			"releaseYear": 2020,
-			"priceAud": null,
+			"priceAud": 199,
 			"colors": [
 				{
 					"id": "white",
 					"displayName": "White",
-					"swatch": {
-						"kind": "css",
-						"value": "#00000000"
+					"finish": {
+						"base": "#F2F2F2",
+						"material": "fabric",
+						"shine": 0,
+						"grain": 0.3,
+						"weave": true
 					},
 					"images": [
 						{
@@ -75,9 +78,12 @@
 				{
 					"id": "yellow",
 					"displayName": "Yellow",
-					"swatch": {
-						"kind": "css",
-						"value": "#00000000"
+					"finish": {
+						"base": "#FBC65E",
+						"material": "fabric",
+						"shine": 0,
+						"grain": 0.3,
+						"weave": true
 					},
 					"images": [
 						{
@@ -134,9 +140,12 @@
 				{
 					"id": "orange",
 					"displayName": "Orange",
-					"swatch": {
-						"kind": "css",
-						"value": "#00000000"
+					"finish": {
+						"base": "#E67557",
+						"material": "fabric",
+						"shine": 0,
+						"grain": 0.3,
+						"weave": true
 					},
 					"images": [
 						{
@@ -193,9 +202,12 @@
 				{
 					"id": "blue",
 					"displayName": "Blue",
-					"swatch": {
-						"kind": "css",
-						"value": "#00000000"
+					"finish": {
+						"base": "#2C4C61",
+						"material": "fabric",
+						"shine": 0,
+						"grain": 0.3,
+						"weave": true
 					},
 					"images": [
 						{
@@ -252,9 +264,12 @@
 				{
 					"id": "midnight",
 					"displayName": "Midnight",
-					"swatch": {
-						"kind": "css",
-						"value": "#00000000"
+					"finish": {
+						"base": "#2C2D31",
+						"material": "fabric",
+						"shine": 0,
+						"grain": 0.3,
+						"weave": true
 					},
 					"images": [
 						{
@@ -320,7 +335,7 @@
 			"audio": {
 				"speaker": true,
 				"microphone": true,
-				"speakerConfiguration": "Full-range driver and dual passive radiators for deep bass and crisp high frequencies; Custom-designed acoustic waveguide for a 360-degree sound field; Acoustically transparent fabric; Computational audio for real-time tuning; Sound Recognition for smoke and carbon monoxide alarm sounds; Multiroom audio with AirPlay; Stereo pair–capable",
+				"speakerConfiguration": "Full-range driver and dual passive radiators for deep bass and crisp high frequencies; Custom-designed acoustic waveguide for a 360-degree sound field; Acoustically transparent fabric; Computational audio for real-time tuning; Sound Recognition for smoke and carbon monoxide alarm sounds; Multiroom audio with AirPlay; Stereo pair\u2013capable",
 				"microphoneConfiguration": "Four-microphone design for far-field Siri",
 				"spatialAudio": false,
 				"formats": [
@@ -355,9 +370,7 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 4"
-					]
+					"standards": ["Wi-Fi 4"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.0"
@@ -437,14 +450,17 @@
 			"id": "homepod-2nd-generation",
 			"name": "HomePod (2nd generation)",
 			"releaseYear": 2023,
-			"priceAud": null,
+			"priceAud": 549,
 			"colors": [
 				{
 					"id": "midnight",
 					"displayName": "Midnight",
-					"swatch": {
-						"kind": "css",
-						"value": "#00000000"
+					"finish": {
+						"base": "#2E2F33",
+						"material": "fabric",
+						"shine": 0,
+						"grain": 0.3,
+						"weave": true
 					},
 					"images": [
 						{
@@ -550,9 +566,12 @@
 				{
 					"id": "white",
 					"displayName": "White",
-					"swatch": {
-						"kind": "css",
-						"value": "#00000000"
+					"finish": {
+						"base": "#F2F2F2",
+						"material": "fabric",
+						"shine": 0,
+						"grain": 0.3,
+						"weave": true
 					},
 					"images": [
 						{
@@ -618,7 +637,7 @@
 			"audio": {
 				"speaker": true,
 				"microphone": true,
-				"speakerConfiguration": "4-inch high-excursion woofer; Array of five horn-loaded tweeters, each tweeter with its own neodymium magnet; Internal low-frequency calibration microphone for automatic bass correction; Advanced computational audio with system sensing for real-time tuning; Room sensing; Spatial Audio with Dolby Atmos for music and video; Sound Recognition for smoke and carbon monoxide alarm sounds; Multiroom audio with AirPlay; Stereo pair–capable",
+				"speakerConfiguration": "4-inch high-excursion woofer; Array of five horn-loaded tweeters, each tweeter with its own neodymium magnet; Internal low-frequency calibration microphone for automatic bass correction; Advanced computational audio with system sensing for real-time tuning; Room sensing; Spatial Audio with Dolby Atmos for music and video; Sound Recognition for smoke and carbon monoxide alarm sounds; Multiroom audio with AirPlay; Stereo pair\u2013capable",
 				"microphoneConfiguration": "Four-microphone design for far-field Siri; Internal low-frequency calibration microphone for automatic bass correction",
 				"spatialAudio": true,
 				"formats": [
@@ -653,9 +672,7 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 4"
-					]
+					"standards": ["Wi-Fi 4"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.0"

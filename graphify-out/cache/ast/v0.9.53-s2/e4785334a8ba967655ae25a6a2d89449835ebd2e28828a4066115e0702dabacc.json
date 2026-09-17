@@ -1,0 +1,67 @@
+{
+	"nodes": [
+		{
+			"id": "$graphify-root$_data_status_apple_tv_md",
+			"label": "apple-tv.md",
+			"file_type": "document",
+			"node_kind": "page",
+			"source_file": "data/status/apple-tv.md",
+			"source_location": "L1"
+		},
+		{
+			"id": "$graphify-root$_data_status_apple_tv_apple_tv_reconciliation",
+			"label": "Apple TV reconciliation",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": "data/status/apple-tv.md",
+			"source_location": "L1"
+		},
+		{
+			"id": "$graphify-root$_data_status_apple_tv_inputs",
+			"label": "Inputs",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": "data/status/apple-tv.md",
+			"source_location": "L3"
+		},
+		{
+			"id": "$graphify-root$_data_status_apple_tv_devices",
+			"label": "Devices",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": "data/status/apple-tv.md",
+			"source_location": "L13"
+		}
+	],
+	"edges": [
+		{
+			"source": "$graphify-root$_data_status_apple_tv_md",
+			"target": "$graphify-root$_data_status_apple_tv_apple_tv_reconciliation",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": "data/status/apple-tv.md",
+			"source_location": "L1",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_data_status_apple_tv_apple_tv_reconciliation",
+			"target": "$graphify-root$_data_status_apple_tv_inputs",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": "data/status/apple-tv.md",
+			"source_location": "L3",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_data_status_apple_tv_apple_tv_reconciliation",
+			"target": "$graphify-root$_data_status_apple_tv_devices",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": "data/status/apple-tv.md",
+			"source_location": "L13",
+			"weight": 1.0
+		}
+	],
+	"input_tokens": 0,
+	"output_tokens": 0
+}

@@ -1,0 +1,38 @@
+{
+	"nodes": [
+		{
+			"id": "$graphify-root$_content_device_notes_mac_macbook_pro_14_in_m2_pro_or_m2_max_2023_md",
+			"label": "macbook-pro-14-in-m2-pro-or-m2-max-2023.md",
+			"file_type": "document",
+			"node_kind": "page",
+			"source_file": "content/device-notes/mac/macbook-pro-14-in-m2-pro-or-m2-max-2023.md",
+			"source_location": "L1",
+			"frontmatter": {
+				"goodToBuy": "unknown",
+				"editorial": "No editorial note has been authored yet.",
+				"tags": "[]"
+			}
+		},
+		{
+			"id": "$graphify-root$_content_device_notes_mac_macbook_pro_14_in_m2_pro_or_m2_max_2023_macbook_pro_14_in_m2_pro_or_m2_max_2023",
+			"label": "MacBook Pro 14-in. (M2 Pro or M2 Max, 2023)",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": "content/device-notes/mac/macbook-pro-14-in-m2-pro-or-m2-max-2023.md",
+			"source_location": "L7"
+		}
+	],
+	"edges": [
+		{
+			"source": "$graphify-root$_content_device_notes_mac_macbook_pro_14_in_m2_pro_or_m2_max_2023_md",
+			"target": "$graphify-root$_content_device_notes_mac_macbook_pro_14_in_m2_pro_or_m2_max_2023_macbook_pro_14_in_m2_pro_or_m2_max_2023",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": "content/device-notes/mac/macbook-pro-14-in-m2-pro-or-m2-max-2023.md",
+			"source_location": "L7",
+			"weight": 1.0
+		}
+	],
+	"input_tokens": 0,
+	"output_tokens": 0
+}

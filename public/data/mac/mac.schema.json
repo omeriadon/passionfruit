@@ -8,6 +8,7 @@
 	"properties": {
 		"devices": {
 			"type": "array",
+			"minItems": 1,
 			"items": { "$ref": "#/$defs/mac" }
 		}
 	},
@@ -24,36 +25,119 @@
 				"heightPx": { "type": "integer", "minimum": 1 }
 			}
 		},
-		"swatch": {
-			"oneOf": [
-				{
+		"finish": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["base", "material"],
+			"description": "Data-driven finish record. One generic renderer turns this into a material swatch dot (gradient + grain + shine, optional duo split). Never a per-finish asset or custom node.",
+			"properties": {
+				"base": {
+					"type": "string",
+					"pattern": "^#[0-9a-fA-F]{6}$",
+					"description": "Anchor hex. Also the flat fallback render."
+				},
+				"material": {
+					"enum": [
+						"matte-aluminum",
+						"brushed-titanium",
+						"polished-titanium",
+						"polished-steel",
+						"ceramic",
+						"glass",
+						"fabric",
+						"flat"
+					],
+					"description": "Surface recipe: sheen spread, glare, brushed streaks or weave are derived from this."
+				},
+				"sheen": {
 					"type": "object",
 					"additionalProperties": false,
-					"required": ["kind", "value"],
+					"description": "Optional specular override. Defaults come from material.",
 					"properties": {
-						"kind": { "const": "css" },
-						"value": { "type": "string", "minLength": 1 }
+						"glareX": { "type": "number", "minimum": 0, "maximum": 100 },
+						"glareY": { "type": "number", "minimum": 0, "maximum": 100 },
+						"intensity": { "type": "number", "minimum": 0, "maximum": 1 }
 					}
 				},
-				{
+				"shine": {
+					"type": "number",
+					"minimum": 0,
+					"maximum": 1,
+					"description": "Crisp clearcoat hotspot + rim light. 0 none, 1 full glass-like pop. Defaults per material."
+				},
+				"grain": {
+					"type": "number",
+					"minimum": 0,
+					"maximum": 1,
+					"description": "Micro-noise overlay (parametric turbulence, no assets). Matte metals/ceramic low, fabric high."
+				},
+				"weave": {
+					"type": "boolean",
+					"description": "Parametric crosshatch overlay for woven fabric (e.g. HomePod mesh). Only meaningful with fabric material."
+				},
+				"duo": {
 					"type": "object",
 					"additionalProperties": false,
-					"required": ["kind", "url"],
+					"required": ["base", "material"],
+					"description": "Second fill for two-tone split dots (e.g. Watch case + band). Grain/shine/sheen apply whole-dot.",
 					"properties": {
-						"kind": { "const": "image" },
-						"url": { "type": "string", "format": "uri" }
+						"base": { "type": "string", "pattern": "^#[0-9a-fA-F]{6}$" },
+						"material": {
+							"enum": [
+								"matte-aluminum",
+								"brushed-titanium",
+								"polished-titanium",
+								"polished-steel",
+								"ceramic",
+								"glass",
+								"fabric",
+								"flat"
+							]
+						},
+						"split": {
+							"type": "object",
+							"additionalProperties": false,
+							"description": "Divider geometry. Curve bows the line so it reads as Apple's photographic swoosh, not a straight diagonal.",
+							"properties": {
+								"angle": {
+									"type": "number",
+									"minimum": 0,
+									"maximum": 360,
+									"default": 135
+								},
+								"curve": {
+									"type": "number",
+									"minimum": -0.3,
+									"maximum": 0.3,
+									"default": 0.18
+								},
+								"offset": {
+									"type": "number",
+									"minimum": -0.5,
+									"maximum": 0.5,
+									"default": 0
+								}
+							}
+						}
 					}
 				}
-			]
+			}
 		},
 		"color": {
 			"type": "object",
 			"additionalProperties": false,
-			"required": ["id", "displayName", "swatch", "images"],
+			"required": ["id", "displayName", "images"],
 			"properties": {
-				"id": { "type": "string", "minLength": 1 },
+				"id": {
+					"type": "string",
+					"pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+					"minLength": 1
+				},
 				"displayName": { "type": "string", "minLength": 1 },
-				"swatch": { "$ref": "#/$defs/swatch" },
+				"finish": {
+					"$ref": "#/$defs/finish",
+					"description": "Finish record for the material swatch dot. Optional until backfill completes."
+				},
 				"images": { "type": "array", "items": { "$ref": "#/$defs/image" } },
 				"colorPriceAud": { "type": "number", "exclusiveMinimum": 0 },
 				"sourceNotes": { "type": "string", "minLength": 1 }
@@ -64,7 +148,7 @@
 			"additionalProperties": false,
 			"required": ["value", "unit"],
 			"properties": {
-				"value": { "type": "number" },
+				"value": { "type": "number", "minimum": 0 },
 				"unit": { "type": "string", "minLength": 1 },
 				"qualifier": { "type": "string", "minLength": 1 }
 			}
@@ -74,8 +158,8 @@
 			"additionalProperties": false,
 			"required": ["minimum", "maximum", "unit"],
 			"properties": {
-				"minimum": { "type": "number" },
-				"maximum": { "type": "number" },
+				"minimum": { "type": "number", "minimum": 0 },
+				"maximum": { "type": "number", "minimum": 0 },
 				"unit": { "type": "string", "minLength": 1 },
 				"qualifier": { "type": "string", "minLength": 1 }
 			}
@@ -95,10 +179,15 @@
 			"additionalProperties": false,
 			"required": ["id", "displayName", "kinds"],
 			"properties": {
-				"id": { "type": "string", "minLength": 1 },
+				"id": {
+					"type": "string",
+					"pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+					"minLength": 1
+				},
 				"displayName": { "type": "string", "minLength": 1 },
 				"kinds": {
 					"type": "array",
+					"minItems": 1,
 					"items": { "type": "string", "minLength": 1 }
 				}
 			}
@@ -108,7 +197,11 @@
 			"additionalProperties": false,
 			"required": ["id", "displayName"],
 			"properties": {
-				"id": { "type": "string", "minLength": 1 },
+				"id": {
+					"type": "string",
+					"pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+					"minLength": 1
+				},
 				"displayName": { "type": "string", "minLength": 1 },
 				"family": { "type": "string", "minLength": 1 },
 				"cpuCores": { "$ref": "#/$defs/cpuCores" },
@@ -131,14 +224,22 @@
 			"additionalProperties": false,
 			"required": ["id", "capacityValue", "capacityUnit"],
 			"properties": {
-				"id": { "type": "string", "minLength": 1 },
+				"id": {
+					"type": "string",
+					"pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+					"minLength": 1
+				},
 				"displayName": { "type": "string", "minLength": 1 },
 				"capacityValue": { "type": "integer", "minimum": 1 },
 				"capacityUnit": { "type": "string", "enum": ["GB", "TB"] },
-				"priceDeltaAud": { "type": "number" },
+				"priceDeltaAud": { "type": "number", "minimum": 0 },
 				"availableColorIds": {
 					"type": "array",
-					"items": { "type": "string", "minLength": 1 }
+					"items": {
+						"type": "string",
+						"pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+						"minLength": 1
+					}
 				},
 				"sourceNotes": { "type": "string", "minLength": 1 }
 			}
@@ -148,7 +249,11 @@
 			"additionalProperties": false,
 			"required": ["id", "capacityValue", "capacityUnit", "kind"],
 			"properties": {
-				"id": { "type": "string", "minLength": 1 },
+				"id": {
+					"type": "string",
+					"pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+					"minLength": 1
+				},
 				"displayName": { "type": "string", "minLength": 1 },
 				"capacityValue": { "type": "integer", "minimum": 1 },
 				"capacityUnit": { "type": "string", "enum": ["GB", "TB"] },
@@ -163,14 +268,30 @@
 			"additionalProperties": false,
 			"required": ["id"],
 			"properties": {
-				"id": { "type": "string", "minLength": 1 },
+				"id": {
+					"type": "string",
+					"pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+					"minLength": 1
+				},
 				"displayName": { "type": "string", "minLength": 1 },
-				"storageId": { "type": "string", "minLength": 1 },
+				"storageId": {
+					"type": "string",
+					"pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+					"minLength": 1
+				},
 				"memoryIds": {
 					"type": "array",
-					"items": { "type": "string", "minLength": 1 }
+					"items": {
+						"type": "string",
+						"pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+						"minLength": 1
+					}
 				},
-				"chipId": { "type": "string", "minLength": 1 },
+				"chipId": {
+					"type": "string",
+					"pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+					"minLength": 1
+				},
 				"priceAud": { "type": "number", "minimum": 0 },
 				"sourceNotes": { "type": "string", "minLength": 1 }
 			}
@@ -180,7 +301,11 @@
 			"additionalProperties": false,
 			"required": ["id", "technology"],
 			"properties": {
-				"id": { "type": "string", "minLength": 1 },
+				"id": {
+					"type": "string",
+					"pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+					"minLength": 1
+				},
 				"technology": { "type": "string", "minLength": 1 },
 				"panelKind": { "type": "string", "minLength": 1 },
 				"sizeIn": { "type": "number", "minimum": 0 },
@@ -210,7 +335,11 @@
 			"additionalProperties": false,
 			"required": ["id", "role", "displayName"],
 			"properties": {
-				"id": { "type": "string", "minLength": 1 },
+				"id": {
+					"type": "string",
+					"pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+					"minLength": 1
+				},
 				"role": { "type": "string", "minLength": 1 },
 				"displayName": { "type": "string", "minLength": 1 },
 				"megapixels": { "type": "number", "minimum": 0 },
@@ -238,7 +367,7 @@
 					"type": "array",
 					"items": { "type": "string", "minLength": 1 }
 				},
-				"sourceNotes": { "type": "string" }
+				"sourceNotes": { "type": "string", "minLength": 1 }
 			}
 		},
 		"runtime": {
@@ -246,7 +375,11 @@
 			"additionalProperties": false,
 			"required": ["id", "activity", "hours"],
 			"properties": {
-				"id": { "type": "string", "minLength": 1 },
+				"id": {
+					"type": "string",
+					"pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+					"minLength": 1
+				},
 				"activity": { "type": "string", "minLength": 1 },
 				"hours": { "type": "number", "minimum": 0 },
 				"network": { "type": "string", "minLength": 1 },
@@ -258,7 +391,11 @@
 			"additionalProperties": false,
 			"required": ["wirelessCharging"],
 			"properties": {
-				"portId": { "type": "string", "minLength": 1 },
+				"portId": {
+					"type": "string",
+					"pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+					"minLength": 1
+				},
 				"wiredFastCharge": { "type": "boolean" },
 				"wirelessCharging": { "type": "boolean" },
 				"wirelessStandards": {
@@ -297,8 +434,8 @@
 					"additionalProperties": false,
 					"required": ["minimum", "maximum"],
 					"properties": {
-						"minimum": { "type": "number" },
-						"maximum": { "type": "number" }
+						"minimum": { "type": "number", "minimum": 0 },
+						"maximum": { "type": "number", "minimum": 0 }
 					}
 				},
 				"frequencyHz": { "type": "number", "minimum": 0 },
@@ -311,7 +448,8 @@
 			"required": ["battery", "power"],
 			"properties": {
 				"battery": {
-					"oneOf": [{ "$ref": "#/$defs/battery" }, { "type": "null" }]
+					"oneOf": [{ "$ref": "#/$defs/battery" }, { "type": "null" }],
+					"description": "Explicit null records a desktop Mac with no battery; use only when the product has no battery."
 				},
 				"power": { "$ref": "#/$defs/power" }
 			}
@@ -321,7 +459,11 @@
 			"additionalProperties": false,
 			"required": ["id", "kind"],
 			"properties": {
-				"id": { "type": "string", "minLength": 1 },
+				"id": {
+					"type": "string",
+					"pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+					"minLength": 1
+				},
 				"kind": { "type": "string", "minLength": 1 },
 				"standard": { "type": "string", "minLength": 1 },
 				"quantity": { "type": "integer", "minimum": 1 },
@@ -343,6 +485,7 @@
 					"properties": {
 						"standards": {
 							"type": "array",
+							"minItems": 1,
 							"items": { "type": "string", "minLength": 1 }
 						}
 					}
@@ -362,6 +505,7 @@
 			"properties": {
 				"methods": {
 					"type": "array",
+					"minItems": 1,
 					"items": { "type": "string", "minLength": 1 }
 				},
 				"primaryMethod": { "type": "string", "minLength": 1 },
@@ -374,13 +518,17 @@
 			"additionalProperties": false,
 			"required": ["id", "displayName", "dimensions"],
 			"properties": {
-				"id": { "type": "string", "minLength": 1 },
+				"id": {
+					"type": "string",
+					"pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+					"minLength": 1
+				},
 				"displayName": { "type": "string", "minLength": 1 },
 				"dimensions": {
 					"type": "array",
 					"items": { "$ref": "#/$defs/measurement" }
 				},
-				"weight": { "type": "number" },
+				"weight": { "type": "number", "minimum": 0 },
 				"weightUnit": { "type": "string", "minLength": 1 },
 				"sourceNotes": { "type": "string", "minLength": 1 }
 			}
@@ -426,7 +574,11 @@
 			"additionalProperties": false,
 			"required": ["displayName", "category"],
 			"properties": {
-				"accessoryId": { "type": "string", "minLength": 1 },
+				"accessoryId": {
+					"type": "string",
+					"pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+					"minLength": 1
+				},
 				"displayName": { "type": "string", "minLength": 1 },
 				"category": { "type": "string", "minLength": 1 },
 				"capabilities": {
@@ -459,10 +611,14 @@
 				"accessories"
 			],
 			"properties": {
-				"id": { "type": "string", "minLength": 1 },
+				"id": {
+					"type": "string",
+					"pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+					"minLength": 1
+				},
 				"name": { "type": "string", "minLength": 1 },
-				"releaseYear": { "type": "integer", "minimum": 1976 },
-				"priceAud": { "type": ["number", "null"], "minimum": 0 },
+				"releaseYear": { "type": "integer", "minimum": 1976, "maximum": 2100 },
+				"priceAud": { "type": "number", "minimum": 0 },
 				"colors": { "type": "array", "items": { "$ref": "#/$defs/color" } },
 				"configurations": {
 					"type": "array",
@@ -476,7 +632,11 @@
 					"type": "array",
 					"items": { "$ref": "#/$defs/memory" }
 				},
-				"chips": { "type": "array", "items": { "$ref": "#/$defs/chip" } },
+				"chips": {
+					"type": "array",
+					"minItems": 1,
+					"items": { "$ref": "#/$defs/chip" }
+				},
 				"displays": { "type": "array", "items": { "$ref": "#/$defs/display" } },
 				"cameras": { "type": "array", "items": { "$ref": "#/$defs/camera" } },
 				"audio": { "$ref": "#/$defs/audio" },

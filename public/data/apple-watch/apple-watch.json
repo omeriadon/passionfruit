@@ -1,6 +1,617 @@
 {
 	"devices": [
 		{
+			"id": "apple-watch-ultra-4",
+			"name": "Apple Watch Ultra 4",
+			"releaseYear": 2026,
+			"colors": [
+				{
+					"id": "natural-titanium",
+					"displayName": "Natural Titanium",
+					"finish": {
+						"base": "#e3ddd7",
+						"material": "brushed-titanium"
+					},
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/v/apple-watch-ultra-4/a/images/overview/product-viewer/product_finishes_natural__fcf2wz3wghea_large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/product-finishes-natural--fcf2wz3wghea-large-2x.jpg",
+							"widthPx": 2880,
+							"heightPx": 1520
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/v/apple-watch-ultra-4/a/images/overview/product-viewer/product_finishes_natural__fcf2wz3wghea_large.jpg",
+							"localPath": "public/data/apple-watch/images/product-finishes-natural--fcf2wz3wghea-large.jpg",
+							"widthPx": 1440,
+							"heightPx": 760
+						},
+						{
+							"label": "small 2x",
+							"appleUrl": "https://www.apple.com/v/apple-watch-ultra-4/a/images/overview/product-viewer/product_finishes_natural__fcf2wz3wghea_small_2x.jpg",
+							"localPath": "public/data/apple-watch/images/product-finishes-natural--fcf2wz3wghea-small-2x.jpg",
+							"widthPx": 1468,
+							"heightPx": 1280
+						},
+						{
+							"label": "small",
+							"appleUrl": "https://www.apple.com/v/apple-watch-ultra-4/a/images/overview/product-viewer/product_finishes_natural__fcf2wz3wghea_small.jpg",
+							"localPath": "public/data/apple-watch/images/product-finishes-natural--fcf2wz3wghea-small.jpg",
+							"widthPx": 734,
+							"heightPx": 640
+						}
+					]
+				},
+				{
+					"id": "black-titanium",
+					"displayName": "Black Titanium",
+					"finish": {
+						"base": "#34322e",
+						"material": "brushed-titanium"
+					},
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/v/apple-watch-ultra-4/a/images/overview/product-viewer/product_finishes_black__d8fehns3thg2_large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/product-finishes-black--d8fehns3thg2-large-2x.jpg",
+							"widthPx": 2880,
+							"heightPx": 1520
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/v/apple-watch-ultra-4/a/images/overview/product-viewer/product_finishes_black__d8fehns3thg2_large.jpg",
+							"localPath": "public/data/apple-watch/images/product-finishes-black--d8fehns3thg2-large.jpg",
+							"widthPx": 1440,
+							"heightPx": 760
+						},
+						{
+							"label": "small 2x",
+							"appleUrl": "https://www.apple.com/v/apple-watch-ultra-4/a/images/overview/product-viewer/product_finishes_black__d8fehns3thg2_small_2x.jpg",
+							"localPath": "public/data/apple-watch/images/product-finishes-black--d8fehns3thg2-small-2x.jpg",
+							"widthPx": 1468,
+							"heightPx": 1280
+						},
+						{
+							"label": "small",
+							"appleUrl": "https://www.apple.com/v/apple-watch-ultra-4/a/images/overview/product-viewer/product_finishes_black__d8fehns3thg2_small.jpg",
+							"localPath": "public/data/apple-watch/images/product-finishes-black--d8fehns3thg2-small.jpg",
+							"widthPx": 734,
+							"heightPx": 640
+						}
+					]
+				}
+			],
+			"configurations": [
+				{
+					"id": "49mm-gps-cellular",
+					"displayName": "49mm GPS + Cellular",
+					"caseSize": "49mm",
+					"cellular": true,
+					"gps": true,
+					"priceAud": 1349,
+					"sourceNotes": "49mm titanium, GPS + Cellular only (no GPS-only variant) per data/tmp/watch/watch-compare-2026.html and model overview evidence."
+				}
+			],
+			"chips": [
+				{
+					"id": "s11",
+					"displayName": "S11 chip",
+					"family": "Apple S-series",
+					"cpuCores": 2
+				}
+			],
+			"displays": [
+				{
+					"id": "ultra-4-49mm",
+					"technology": "Always-On Retina display with wide-angle OLEDs and LTPO3, sapphire crystal",
+					"panelKind": "OLED",
+					"resolutionWidthPx": 422,
+					"resolutionHeightPx": 514,
+					"sdrPeakBrightnessNits": 3000,
+					"alwaysOn": true
+				}
+			],
+			"audio": {
+				"speaker": true,
+				"microphone": true,
+				"siren": true
+			},
+			"batteryAndPower": {
+				"hasBattery": true,
+				"runtimeHours": [
+					{
+						"id": "normal-use",
+						"activity": "normal use",
+						"hours": 50
+					},
+					{
+						"id": "low-power-mode",
+						"activity": "Low Power Mode",
+						"hours": 84
+					},
+					{
+						"id": "max-extended-workout",
+						"activity": "Max Extended Workout tracking",
+						"hours": 45
+					}
+				],
+				"charging": {
+					"wirelessCharging": true,
+					"wiredFastCharge": true
+				},
+				"powerSupply": {}
+			},
+			"connectivity": {
+				"ports": [],
+				"bluetooth": {
+					"version": "Bluetooth 5.3"
+				},
+				"gps": {
+					"present": true,
+					"precisionDualFrequency": true,
+					"systems": ["GPS", "Galileo", "QZSS", "BeiDou"]
+				}
+			},
+			"authentication": {
+				"methods": ["passcode"],
+				"primaryMethod": "passcode"
+			},
+			"physical": {
+				"weights": [],
+				"dimensions": [],
+				"components": []
+			},
+			"resistance": {
+				"ipRating": "IP6X",
+				"waterDepthM": 100,
+				"dustProtected": true
+			},
+			"software": {
+				"operatingSystem": "watchOS",
+				"operatingSystemVersionAtLaunch": "27",
+				"compatibleOperatingSystems": ["iOS 27"],
+				"builtInApps": ["Readiness", "Vitals", "Heart Rate", "ECG"]
+			},
+			"watchDetails": {
+				"caseSizes": ["49mm"],
+				"alwaysOn": true,
+				"wideAngleDisplay": true,
+				"hasSpeaker": true,
+				"hasSiren": true,
+				"swimproofClassification": "WR100",
+				"gestures": true,
+				"healthSensingSystem": true
+			},
+			"overviewImages": [],
+			"sourceNotes": "Evidence: data/tmp/watch/watch-ultra-4.html, watch-compare-2026.html, newsroom. $799 US; priceAud omitted. Finishes per data/tmp/watch/watch-ultra-4.html (aerospace-grade titanium, natural and black) and watch-compare-2026.html. Swatches reuse the identical continuing Ultra 3 finish swatches.",
+			"priceAud": 1349
+		},
+		{
+			"id": "apple-watch-series-12",
+			"name": "Apple Watch Series 12",
+			"releaseYear": 2026,
+			"colors": [
+				{
+					"id": "dark-bronze-aluminium",
+					"displayName": "Dark Bronze Aluminium",
+					"finish": {
+						"base": "#523f30",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/v/apple-watch-series-12/a/images/overview/product-viewer/product_finishes_aluminum_dark_bronze__cn6ty9h5yliu_large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/product-finishes-aluminum-dark-bronze--cn6ty9h5yliu-large-2x.jpg",
+							"widthPx": 2880,
+							"heightPx": 1520
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/v/apple-watch-series-12/a/images/overview/product-viewer/product_finishes_aluminum_dark_bronze__cn6ty9h5yliu_large.jpg",
+							"localPath": "public/data/apple-watch/images/product-finishes-aluminum-dark-bronze--cn6ty9h5yliu-large.jpg",
+							"widthPx": 1440,
+							"heightPx": 760
+						},
+						{
+							"label": "small 2x",
+							"appleUrl": "https://www.apple.com/v/apple-watch-series-12/a/images/overview/product-viewer/product_finishes_aluminum_dark_bronze__cn6ty9h5yliu_small_2x.jpg",
+							"localPath": "public/data/apple-watch/images/product-finishes-aluminum-dark-bronze--cn6ty9h5yliu-small-2x.jpg",
+							"widthPx": 1468,
+							"heightPx": 1280
+						},
+						{
+							"label": "small",
+							"appleUrl": "https://www.apple.com/v/apple-watch-series-12/a/images/overview/product-viewer/product_finishes_aluminum_dark_bronze__cn6ty9h5yliu_small.jpg",
+							"localPath": "public/data/apple-watch/images/product-finishes-aluminum-dark-bronze--cn6ty9h5yliu-small.jpg",
+							"widthPx": 734,
+							"heightPx": 640
+						}
+					]
+				},
+				{
+					"id": "light-gold-aluminium",
+					"displayName": "Light Gold Aluminium",
+					"finish": {
+						"base": "#877664",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/v/apple-watch-series-12/a/images/overview/product-viewer/product_finishes_aluminum_light_gold__cr815xqxzoia_large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/product-finishes-aluminum-light-gold--cr815xqxzoia-large-2x.jpg",
+							"widthPx": 2880,
+							"heightPx": 1520
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/v/apple-watch-series-12/a/images/overview/product-viewer/product_finishes_aluminum_light_gold__cr815xqxzoia_large.jpg",
+							"localPath": "public/data/apple-watch/images/product-finishes-aluminum-light-gold--cr815xqxzoia-large.jpg",
+							"widthPx": 1440,
+							"heightPx": 760
+						},
+						{
+							"label": "small 2x",
+							"appleUrl": "https://www.apple.com/v/apple-watch-series-12/a/images/overview/product-viewer/product_finishes_aluminum_light_gold__cr815xqxzoia_small_2x.jpg",
+							"localPath": "public/data/apple-watch/images/product-finishes-aluminum-light-gold--cr815xqxzoia-small-2x.jpg",
+							"widthPx": 1468,
+							"heightPx": 1280
+						},
+						{
+							"label": "small",
+							"appleUrl": "https://www.apple.com/v/apple-watch-series-12/a/images/overview/product-viewer/product_finishes_aluminum_light_gold__cr815xqxzoia_small.jpg",
+							"localPath": "public/data/apple-watch/images/product-finishes-aluminum-light-gold--cr815xqxzoia-small.jpg",
+							"widthPx": 734,
+							"heightPx": 640
+						}
+					]
+				},
+				{
+					"id": "black-aluminium",
+					"displayName": "Black Aluminium",
+					"finish": {
+						"base": "#3c3835",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/v/apple-watch-series-12/a/images/overview/product-viewer/product_finishes_aluminum_black__ebajxwacb88y_large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/product-finishes-aluminum-black--ebajxwacb88y-large-2x.jpg",
+							"widthPx": 2880,
+							"heightPx": 1520
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/v/apple-watch-series-12/a/images/overview/product-viewer/product_finishes_aluminum_black__ebajxwacb88y_large.jpg",
+							"localPath": "public/data/apple-watch/images/product-finishes-aluminum-black--ebajxwacb88y-large.jpg",
+							"widthPx": 1440,
+							"heightPx": 760
+						},
+						{
+							"label": "small 2x",
+							"appleUrl": "https://www.apple.com/v/apple-watch-series-12/a/images/overview/product-viewer/product_finishes_aluminum_black__ebajxwacb88y_small_2x.jpg",
+							"localPath": "public/data/apple-watch/images/product-finishes-aluminum-black--ebajxwacb88y-small-2x.jpg",
+							"widthPx": 1468,
+							"heightPx": 1280
+						},
+						{
+							"label": "small",
+							"appleUrl": "https://www.apple.com/v/apple-watch-series-12/a/images/overview/product-viewer/product_finishes_aluminum_black__ebajxwacb88y_small.jpg",
+							"localPath": "public/data/apple-watch/images/product-finishes-aluminum-black--ebajxwacb88y-small.jpg",
+							"widthPx": 734,
+							"heightPx": 640
+						}
+					]
+				},
+				{
+					"id": "space-gray-aluminium",
+					"displayName": "Space Gray Aluminium",
+					"finish": {
+						"base": "#565254",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/v/apple-watch-series-12/a/images/overview/product-viewer/product_finishes_aluminum_space_gray__d83ign704owi_large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/product-finishes-aluminum-space-gray--d83ign704owi-large-2x.jpg",
+							"widthPx": 2880,
+							"heightPx": 1520
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/v/apple-watch-series-12/a/images/overview/product-viewer/product_finishes_aluminum_space_gray__d83ign704owi_large.jpg",
+							"localPath": "public/data/apple-watch/images/product-finishes-aluminum-space-gray--d83ign704owi-large.jpg",
+							"widthPx": 1440,
+							"heightPx": 760
+						},
+						{
+							"label": "small 2x",
+							"appleUrl": "https://www.apple.com/v/apple-watch-series-12/a/images/overview/product-viewer/product_finishes_aluminum_space_gray__d83ign704owi_small_2x.jpg",
+							"localPath": "public/data/apple-watch/images/product-finishes-aluminum-space-gray--d83ign704owi-small-2x.jpg",
+							"widthPx": 1468,
+							"heightPx": 1280
+						},
+						{
+							"label": "small",
+							"appleUrl": "https://www.apple.com/v/apple-watch-series-12/a/images/overview/product-viewer/product_finishes_aluminum_space_gray__d83ign704owi_small.jpg",
+							"localPath": "public/data/apple-watch/images/product-finishes-aluminum-space-gray--d83ign704owi-small.jpg",
+							"widthPx": 734,
+							"heightPx": 640
+						}
+					]
+				},
+				{
+					"id": "radiant-gold-titanium",
+					"displayName": "Radiant Gold Titanium",
+					"finish": {
+						"base": "#837558",
+						"material": "polished-titanium"
+					},
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/v/apple-watch-series-12/a/images/overview/product-viewer/product_finishes_titanium_radiant_gold__dhabqmjal4wi_large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/product-finishes-titanium-radiant-gold--dhabqmjal4wi-large-2x.jpg",
+							"widthPx": 2880,
+							"heightPx": 1520
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/v/apple-watch-series-12/a/images/overview/product-viewer/product_finishes_titanium_radiant_gold__dhabqmjal4wi_large.jpg",
+							"localPath": "public/data/apple-watch/images/product-finishes-titanium-radiant-gold--dhabqmjal4wi-large.jpg",
+							"widthPx": 1440,
+							"heightPx": 760
+						},
+						{
+							"label": "small 2x",
+							"appleUrl": "https://www.apple.com/v/apple-watch-series-12/a/images/overview/product-viewer/product_finishes_titanium_radiant_gold__dhabqmjal4wi_small_2x.jpg",
+							"localPath": "public/data/apple-watch/images/product-finishes-titanium-radiant-gold--dhabqmjal4wi-small-2x.jpg",
+							"widthPx": 1468,
+							"heightPx": 1280
+						},
+						{
+							"label": "small",
+							"appleUrl": "https://www.apple.com/v/apple-watch-series-12/a/images/overview/product-viewer/product_finishes_titanium_radiant_gold__dhabqmjal4wi_small.jpg",
+							"localPath": "public/data/apple-watch/images/product-finishes-titanium-radiant-gold--dhabqmjal4wi-small.jpg",
+							"widthPx": 734,
+							"heightPx": 640
+						}
+					]
+				},
+				{
+					"id": "natural-titanium",
+					"displayName": "Natural Titanium",
+					"finish": {
+						"base": "#e3ddd7",
+						"material": "polished-titanium"
+					},
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/v/apple-watch-series-12/a/images/overview/product-viewer/product_finishes_titanium_natural__dcwev7ob2quu_large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/product-finishes-titanium-natural--dcwev7ob2quu-large-2x.jpg",
+							"widthPx": 2880,
+							"heightPx": 1520
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/v/apple-watch-series-12/a/images/overview/product-viewer/product_finishes_titanium_natural__dcwev7ob2quu_large.jpg",
+							"localPath": "public/data/apple-watch/images/product-finishes-titanium-natural--dcwev7ob2quu-large.jpg",
+							"widthPx": 1440,
+							"heightPx": 760
+						},
+						{
+							"label": "small 2x",
+							"appleUrl": "https://www.apple.com/v/apple-watch-series-12/a/images/overview/product-viewer/product_finishes_titanium_natural__dcwev7ob2quu_small_2x.jpg",
+							"localPath": "public/data/apple-watch/images/product-finishes-titanium-natural--dcwev7ob2quu-small-2x.jpg",
+							"widthPx": 1468,
+							"heightPx": 1280
+						},
+						{
+							"label": "small",
+							"appleUrl": "https://www.apple.com/v/apple-watch-series-12/a/images/overview/product-viewer/product_finishes_titanium_natural__dcwev7ob2quu_small.jpg",
+							"localPath": "public/data/apple-watch/images/product-finishes-titanium-natural--dcwev7ob2quu-small.jpg",
+							"widthPx": 734,
+							"heightPx": 640
+						}
+					]
+				},
+				{
+					"id": "pearl-white-ceramic",
+					"displayName": "Pearl White Ceramic",
+					"finish": {
+						"base": "#e9e5de",
+						"material": "ceramic"
+					},
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/v/apple-watch-series-12/a/images/overview/product-viewer/product_finishes_ceramic_pearl_white__m797y0r8nsqy_large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/product-finishes-ceramic-pearl-white--m797y0r8nsqy-large-2x.jpg",
+							"widthPx": 2880,
+							"heightPx": 1520
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/v/apple-watch-series-12/a/images/overview/product-viewer/product_finishes_ceramic_pearl_white__m797y0r8nsqy_large.jpg",
+							"localPath": "public/data/apple-watch/images/product-finishes-ceramic-pearl-white--m797y0r8nsqy-large.jpg",
+							"widthPx": 1440,
+							"heightPx": 760
+						},
+						{
+							"label": "small 2x",
+							"appleUrl": "https://www.apple.com/v/apple-watch-series-12/a/images/overview/product-viewer/product_finishes_ceramic_pearl_white__m797y0r8nsqy_small_2x.jpg",
+							"localPath": "public/data/apple-watch/images/product-finishes-ceramic-pearl-white--m797y0r8nsqy-small-2x.jpg",
+							"widthPx": 1468,
+							"heightPx": 1280
+						},
+						{
+							"label": "small",
+							"appleUrl": "https://www.apple.com/v/apple-watch-series-12/a/images/overview/product-viewer/product_finishes_ceramic_pearl_white__m797y0r8nsqy_small.jpg",
+							"localPath": "public/data/apple-watch/images/product-finishes-ceramic-pearl-white--m797y0r8nsqy-small.jpg",
+							"widthPx": 734,
+							"heightPx": 640
+						}
+					]
+				},
+				{
+					"id": "night-blue-ceramic",
+					"displayName": "Night Blue Ceramic",
+					"finish": {
+						"base": "#232a35",
+						"material": "ceramic"
+					},
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/v/apple-watch-series-12/a/images/overview/product-viewer/product_finishes_ceramic_night_blue__c86m67tq2c8y_large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/product-finishes-ceramic-night-blue--c86m67tq2c8y-large-2x.jpg",
+							"widthPx": 2880,
+							"heightPx": 1520
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/v/apple-watch-series-12/a/images/overview/product-viewer/product_finishes_ceramic_night_blue__c86m67tq2c8y_large.jpg",
+							"localPath": "public/data/apple-watch/images/product-finishes-ceramic-night-blue--c86m67tq2c8y-large.jpg",
+							"widthPx": 1440,
+							"heightPx": 760
+						},
+						{
+							"label": "small 2x",
+							"appleUrl": "https://www.apple.com/v/apple-watch-series-12/a/images/overview/product-viewer/product_finishes_ceramic_night_blue__c86m67tq2c8y_small_2x.jpg",
+							"localPath": "public/data/apple-watch/images/product-finishes-ceramic-night-blue--c86m67tq2c8y-small-2x.jpg",
+							"widthPx": 1468,
+							"heightPx": 1280
+						},
+						{
+							"label": "small",
+							"appleUrl": "https://www.apple.com/v/apple-watch-series-12/a/images/overview/product-viewer/product_finishes_ceramic_night_blue__c86m67tq2c8y_small.jpg",
+							"localPath": "public/data/apple-watch/images/product-finishes-ceramic-night-blue--c86m67tq2c8y-small.jpg",
+							"widthPx": 734,
+							"heightPx": 640
+						}
+					]
+				}
+			],
+			"configurations": [
+				{
+					"id": "42mm-gps",
+					"displayName": "42mm GPS",
+					"caseSize": "42mm",
+					"cellular": false,
+					"gps": true,
+					"priceAud": 649,
+					"sourceNotes": "GPS variant per data/tmp/watch/watch-compare-2026.html (GPS and GPS + Cellular buy options listed). priceAud is the cheapest displayed device price."
+				},
+				{
+					"id": "46mm-gps-cellular",
+					"displayName": "46mm GPS + Cellular",
+					"caseSize": "46mm",
+					"cellular": true,
+					"gps": true,
+					"sourceNotes": "GPS + Cellular variant per data/tmp/watch/watch-compare-2026.html (Cellular options listed)."
+				}
+			],
+			"chips": [
+				{
+					"id": "s11",
+					"displayName": "S11 chip",
+					"family": "Apple S-series",
+					"cpuCores": 2,
+					"sourceNotes": "S11 chip with 64-bit dual-core processor; powers Health Sensing System."
+				}
+			],
+			"displays": [
+				{
+					"id": "series-12-46mm",
+					"technology": "Wide-angle Always-On Retina display",
+					"panelKind": "OLED",
+					"resolutionWidthPx": 416,
+					"resolutionHeightPx": 496,
+					"sdrPeakBrightnessNits": 2000,
+					"alwaysOn": true,
+					"sourceNotes": "46mm 416x496 per compare; 2000 nits peak per overview."
+				},
+				{
+					"id": "series-12-42mm",
+					"technology": "Wide-angle Always-On Retina display",
+					"panelKind": "OLED",
+					"resolutionWidthPx": 374,
+					"resolutionHeightPx": 446,
+					"sdrPeakBrightnessNits": 2000,
+					"alwaysOn": true
+				}
+			],
+			"audio": {
+				"speaker": true,
+				"microphone": true,
+				"siren": false
+			},
+			"batteryAndPower": {
+				"hasBattery": true,
+				"runtimeHours": [
+					{
+						"id": "normal-use",
+						"activity": "normal use",
+						"hours": 24
+					},
+					{
+						"id": "low-power-mode",
+						"activity": "Low Power Mode",
+						"hours": 38
+					}
+				],
+				"charging": {
+					"wirelessCharging": true,
+					"wiredFastCharge": true
+				},
+				"powerSupply": {}
+			},
+			"connectivity": {
+				"ports": [],
+				"bluetooth": {
+					"version": "Bluetooth 5.3"
+				}
+			},
+			"authentication": {
+				"methods": ["passcode"],
+				"primaryMethod": "passcode"
+			},
+			"physical": {
+				"weights": [],
+				"dimensions": [],
+				"components": []
+			},
+			"resistance": {
+				"ipRating": "IP6X",
+				"waterDepthM": 50,
+				"dustProtected": true
+			},
+			"software": {
+				"operatingSystem": "watchOS",
+				"operatingSystemVersionAtLaunch": "27",
+				"compatibleOperatingSystems": [],
+				"builtInApps": ["Readiness", "Vitals", "Heart Rate"]
+			},
+			"watchDetails": {
+				"caseSizes": ["42mm", "46mm"],
+				"alwaysOn": true,
+				"wideAngleDisplay": true,
+				"hasSpeaker": true,
+				"hasSiren": false,
+				"swimproofClassification": "WR 50M",
+				"gestures": true,
+				"healthSensingSystem": true
+			},
+			"overviewImages": [],
+			"sourceNotes": "Evidence: data/tmp/watch/watch-series-12.html, watch-compare-2026.html, newsroom. gestures=true (single+double tap); healthSensingSystem=true. $399 US; priceAud omitted. Finish names per data/tmp/watch/watch-series-12.html and watch-compare-2026.html (aluminium: dark bronze, light gold, black, space gray; titanium: radiant gold, natural; ceramic: pearl white, night blue). Swatch hexes sampled from Apple finish imagery (product_finishes_*_large.jpg); approximate midtones under studio lighting, not Apple-published values.",
+			"priceAud": 649
+		},
+		{
 			"id": "apple-watch-series-11",
 			"name": "Apple Watch Series 11",
 			"releaseYear": 2025,
@@ -8,7 +619,10 @@
 				{
 					"id": "rose-gold-aluminium",
 					"displayName": "Rose Gold Aluminium",
-					"swatch": "#eacfc8",
+					"finish": {
+						"base": "#eacfc8",
+						"material": "matte-aluminum"
+					},
 					"images": [
 						{
 							"label": "large 2x",
@@ -43,7 +657,10 @@
 				{
 					"id": "silver-aluminium",
 					"displayName": "Silver Aluminium",
-					"swatch": "#f0eff1",
+					"finish": {
+						"base": "#f0eff1",
+						"material": "matte-aluminum"
+					},
 					"images": [
 						{
 							"label": "large 2x",
@@ -78,7 +695,10 @@
 				{
 					"id": "space-grey-aluminium",
 					"displayName": "Space Grey Aluminium",
-					"swatch": "#727272",
+					"finish": {
+						"base": "#727272",
+						"material": "matte-aluminum"
+					},
 					"images": [
 						{
 							"label": "large 2x",
@@ -113,7 +733,12 @@
 				{
 					"id": "jet-black-aluminium",
 					"displayName": "Jet Black Aluminium",
-					"swatch": "#010203",
+					"finish": {
+						"base": "#26262b",
+						"material": "matte-aluminum",
+						"shine": 0.7,
+						"grain": 0
+					},
 					"images": [
 						{
 							"label": "large 2x",
@@ -148,7 +773,10 @@
 				{
 					"id": "natural-titanium",
 					"displayName": "Natural Titanium",
-					"swatch": "#e3ddd7",
+					"finish": {
+						"base": "#e3ddd7",
+						"material": "polished-titanium"
+					},
 					"images": [
 						{
 							"label": "large 2x",
@@ -183,7 +811,10 @@
 				{
 					"id": "gold-titanium",
 					"displayName": "Gold Titanium",
-					"swatch": "#f4dec8",
+					"finish": {
+						"base": "#f4dec8",
+						"material": "polished-titanium"
+					},
 					"images": [
 						{
 							"label": "large 2x",
@@ -218,7 +849,10 @@
 				{
 					"id": "slate-titanium",
 					"displayName": "Slate Titanium",
-					"swatch": "#47423d",
+					"finish": {
+						"base": "#47423d",
+						"material": "polished-titanium"
+					},
 					"images": [
 						{
 							"label": "large 2x",
@@ -251,7 +885,25 @@
 					]
 				}
 			],
-			"configurations": [],
+			"configurations": [
+				{
+					"id": "42mm-gps",
+					"displayName": "42mm GPS",
+					"caseSize": "42mm",
+					"cellular": false,
+					"gps": true,
+					"priceAud": 679,
+					"sourceNotes": "GPS variant per data/tmp/watch/watch-compare-2026.html (GPS and GPS + Cellular buy options listed). priceAud is the cheapest displayed device price."
+				},
+				{
+					"id": "46mm-gps-cellular",
+					"displayName": "46mm GPS + Cellular",
+					"caseSize": "46mm",
+					"cellular": true,
+					"gps": true,
+					"sourceNotes": "GPS + Cellular variant per data/tmp/watch/watch-compare-2026.html (Cellular options listed)."
+				}
+			],
 			"chips": [
 				{
 					"id": "s10-chip",
@@ -303,9 +955,7 @@
 					"portId": "wireless",
 					"wiredFastCharge": true,
 					"wirelessCharging": true,
-					"wirelessStandards": [
-						"inductive"
-					],
+					"wirelessStandards": ["inductive"],
 					"fastCharge": {
 						"minutes": 30,
 						"percent": 80
@@ -316,18 +966,13 @@
 			"connectivity": {
 				"ports": [],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 4"
-					]
+					"standards": ["Wi-Fi 4"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.3"
 				},
 				"cellular": {
-					"technologies": [
-						"LTE",
-						"5G sub-6"
-					]
+					"technologies": ["LTE", "5G sub-6"]
 				},
 				"uwb": {
 					"chip": "Second-generation Ultra Wideband chip"
@@ -335,19 +980,11 @@
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": false,
-					"systems": [
-						"GPS",
-						"GLONASS",
-						"Galileo",
-						"QZSS",
-						"BeiDou"
-					]
+					"systems": ["GPS", "GLONASS", "Galileo", "QZSS", "BeiDou"]
 				}
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode"
 			},
 			"physical": {
@@ -399,10 +1036,7 @@
 				"sourceNotes": "Complete Summary retained verbatim as source facts."
 			},
 			"watchDetails": {
-				"caseSizes": [
-					"46 mm",
-					"42 mm"
-				],
+				"caseSizes": ["46 mm", "42 mm"],
 				"alwaysOn": true,
 				"wideAngleDisplay": true,
 				"u1UwbChip": "Second-generation Ultra Wideband chip",
@@ -452,7 +1086,10 @@
 				{
 					"id": "midnight-aluminium",
 					"displayName": "Midnight Aluminium",
-					"swatch": "#1a2530",
+					"finish": {
+						"base": "#1a2530",
+						"material": "matte-aluminum"
+					},
 					"images": [
 						{
 							"label": "large 2x",
@@ -487,7 +1124,10 @@
 				{
 					"id": "starlight-aluminium",
 					"displayName": "Starlight Aluminium",
-					"swatch": "#ded6d1",
+					"finish": {
+						"base": "#ded6d1",
+						"material": "matte-aluminum"
+					},
 					"images": [
 						{
 							"label": "large 2x",
@@ -520,7 +1160,25 @@
 					]
 				}
 			],
-			"configurations": [],
+			"configurations": [
+				{
+					"id": "40mm-gps",
+					"displayName": "40mm GPS",
+					"caseSize": "40mm",
+					"cellular": false,
+					"gps": true,
+					"priceAud": 399,
+					"sourceNotes": "GPS variant per data/tmp/watch/watch-compare-2026.html (GPS and GPS + Cellular buy options listed). priceAud is the cheapest displayed device price."
+				},
+				{
+					"id": "44mm-gps-cellular",
+					"displayName": "44mm GPS + Cellular",
+					"caseSize": "44mm",
+					"cellular": true,
+					"gps": true,
+					"sourceNotes": "GPS + Cellular variant per data/tmp/watch/watch-compare-2026.html (Cellular options listed)."
+				}
+			],
 			"chips": [
 				{
 					"id": "s10-chip",
@@ -572,9 +1230,7 @@
 					"portId": "wireless",
 					"wiredFastCharge": true,
 					"wirelessCharging": true,
-					"wirelessStandards": [
-						"inductive"
-					],
+					"wirelessStandards": ["inductive"],
 					"fastCharge": {
 						"minutes": 45,
 						"percent": 80
@@ -585,35 +1241,22 @@
 			"connectivity": {
 				"ports": [],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 4"
-					]
+					"standards": ["Wi-Fi 4"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.3"
 				},
 				"cellular": {
-					"technologies": [
-						"LTE",
-						"5G sub-6"
-					]
+					"technologies": ["LTE", "5G sub-6"]
 				},
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": false,
-					"systems": [
-						"GPS",
-						"GLONASS",
-						"Galileo",
-						"QZSS",
-						"BeiDou"
-					]
+					"systems": ["GPS", "GLONASS", "Galileo", "QZSS", "BeiDou"]
 				}
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode"
 			},
 			"physical": {
@@ -660,10 +1303,7 @@
 				"sourceNotes": "Complete Summary retained verbatim as source facts."
 			},
 			"watchDetails": {
-				"caseSizes": [
-					"44 mm",
-					"40 mm"
-				],
+				"caseSizes": ["44 mm", "40 mm"],
 				"alwaysOn": true,
 				"wideAngleDisplay": false,
 				"otherWirelessChip": "W3 Apple wireless chip",
@@ -712,7 +1352,10 @@
 				{
 					"id": "natural-titanium",
 					"displayName": "Natural Titanium",
-					"swatch": "#e3ddd7",
+					"finish": {
+						"base": "#e3ddd7",
+						"material": "brushed-titanium"
+					},
 					"images": [
 						{
 							"label": "large 2x",
@@ -747,7 +1390,10 @@
 				{
 					"id": "black-titanium",
 					"displayName": "Black Titanium",
-					"swatch": "#0f0e0e",
+					"finish": {
+						"base": "#34322e",
+						"material": "brushed-titanium"
+					},
 					"images": [
 						{
 							"label": "large 2x",
@@ -780,7 +1426,17 @@
 					]
 				}
 			],
-			"configurations": [],
+			"configurations": [
+				{
+					"id": "49mm-gps-cellular",
+					"displayName": "49mm GPS + Cellular",
+					"caseSize": "49mm",
+					"cellular": true,
+					"gps": true,
+					"priceAud": 1399,
+					"sourceNotes": "49mm titanium, GPS + Cellular only (no GPS-only variant) per data/tmp/watch/watch-compare-2026.html and model overview evidence."
+				}
+			],
 			"chips": [
 				{
 					"id": "s10-chip",
@@ -832,9 +1488,7 @@
 					"portId": "wireless",
 					"wiredFastCharge": true,
 					"wirelessCharging": true,
-					"wirelessStandards": [
-						"inductive"
-					],
+					"wirelessStandards": ["inductive"],
 					"fastCharge": {
 						"minutes": 45,
 						"percent": 80
@@ -845,18 +1499,13 @@
 			"connectivity": {
 				"ports": [],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 4"
-					]
+					"standards": ["Wi-Fi 4"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.3"
 				},
 				"cellular": {
-					"technologies": [
-						"LTE",
-						"5G sub-6"
-					]
+					"technologies": ["LTE", "5G sub-6"]
 				},
 				"uwb": {
 					"chip": "Second-generation Ultra Wideband chip"
@@ -864,19 +1513,11 @@
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": true,
-					"systems": [
-						"GPS",
-						"GLONASS",
-						"Galileo",
-						"QZSS",
-						"BeiDou"
-					]
+					"systems": ["GPS", "GLONASS", "Galileo", "QZSS", "BeiDou"]
 				}
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode"
 			},
 			"physical": {
@@ -923,9 +1564,7 @@
 				"sourceNotes": "Complete Summary retained verbatim as source facts."
 			},
 			"watchDetails": {
-				"caseSizes": [
-					"49 mm"
-				],
+				"caseSizes": ["49 mm"],
 				"alwaysOn": true,
 				"wideAngleDisplay": true,
 				"u1UwbChip": "Second-generation Ultra Wideband chip",
@@ -975,7 +1614,12 @@
 				{
 					"id": "jet-black-aluminium",
 					"displayName": "Jet Black Aluminium",
-					"swatch": "#010203",
+					"finish": {
+						"base": "#26262b",
+						"material": "matte-aluminum",
+						"shine": 0.7,
+						"grain": 0
+					},
 					"images": [
 						{
 							"label": "large 2x",
@@ -1010,7 +1654,10 @@
 				{
 					"id": "rose-gold-aluminium",
 					"displayName": "Rose Gold Aluminium",
-					"swatch": "#f6d9cd",
+					"finish": {
+						"base": "#f6d9cd",
+						"material": "matte-aluminum"
+					},
 					"images": [
 						{
 							"label": "large 2x",
@@ -1045,7 +1692,10 @@
 				{
 					"id": "silver-aluminium",
 					"displayName": "Silver Aluminium",
-					"swatch": "#e0e0e0",
+					"finish": {
+						"base": "#e0e0e0",
+						"material": "matte-aluminum"
+					},
 					"images": [
 						{
 							"label": "large 2x",
@@ -1080,7 +1730,10 @@
 				{
 					"id": "slate-titanium",
 					"displayName": "Slate Titanium",
-					"swatch": "#47423d",
+					"finish": {
+						"base": "#47423d",
+						"material": "polished-titanium"
+					},
 					"images": [
 						{
 							"label": "large 2x",
@@ -1115,7 +1768,10 @@
 				{
 					"id": "gold-titanium",
 					"displayName": "Gold Titanium",
-					"swatch": "#f4dec8",
+					"finish": {
+						"base": "#f4dec8",
+						"material": "polished-titanium"
+					},
 					"images": [
 						{
 							"label": "large 2x",
@@ -1150,7 +1806,10 @@
 				{
 					"id": "natural-titanium",
 					"displayName": "Natural Titanium",
-					"swatch": "#ccc4bc",
+					"finish": {
+						"base": "#e3ddd7",
+						"material": "polished-titanium"
+					},
 					"images": [
 						{
 							"label": "large 2x",
@@ -1183,7 +1842,25 @@
 					]
 				}
 			],
-			"configurations": [],
+			"configurations": [
+				{
+					"id": "42mm-gps",
+					"displayName": "42mm GPS",
+					"caseSize": "42mm",
+					"cellular": false,
+					"gps": true,
+					"priceAud": 679,
+					"sourceNotes": "GPS variant per data/tmp/watch/watch-compare-2026.html (GPS and GPS + Cellular buy options listed). priceAud is the cheapest displayed device price."
+				},
+				{
+					"id": "46mm-gps-cellular",
+					"displayName": "46mm GPS + Cellular",
+					"caseSize": "46mm",
+					"cellular": true,
+					"gps": true,
+					"sourceNotes": "GPS + Cellular variant per data/tmp/watch/watch-compare-2026.html (Cellular options listed)."
+				}
+			],
 			"chips": [
 				{
 					"id": "s10-chip",
@@ -1235,9 +1912,7 @@
 					"portId": "wireless",
 					"wiredFastCharge": true,
 					"wirelessCharging": true,
-					"wirelessStandards": [
-						"inductive"
-					],
+					"wirelessStandards": ["inductive"],
 					"fastCharge": {
 						"minutes": 30,
 						"percent": 80
@@ -1248,17 +1923,13 @@
 			"connectivity": {
 				"ports": [],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 4"
-					]
+					"standards": ["Wi-Fi 4"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.3"
 				},
 				"cellular": {
-					"technologies": [
-						"LTE"
-					]
+					"technologies": ["LTE"]
 				},
 				"uwb": {
 					"chip": "Second-generation Ultra Wideband chip"
@@ -1266,19 +1937,11 @@
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": false,
-					"systems": [
-						"GPS",
-						"GLONASS",
-						"Galileo",
-						"QZSS",
-						"BeiDou"
-					]
+					"systems": ["GPS", "GLONASS", "Galileo", "QZSS", "BeiDou"]
 				}
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode"
 			},
 			"physical": {
@@ -1330,10 +1993,7 @@
 				"sourceNotes": "Complete Summary retained verbatim as source facts."
 			},
 			"watchDetails": {
-				"caseSizes": [
-					"46 mm",
-					"42 mm"
-				],
+				"caseSizes": ["46 mm", "42 mm"],
 				"alwaysOn": true,
 				"wideAngleDisplay": true,
 				"u1UwbChip": "Second-generation Ultra Wideband chip",
@@ -1383,23 +2043,137 @@
 				{
 					"id": "midnight-aluminium",
 					"displayName": "Midnight Aluminium",
-					"swatch": "#1a2530",
-					"images": []
+					"finish": {
+						"base": "#1a2530",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/v/watch/compare/ah/images/overview/compare_watch_se_gen2_aluminum_midnight__bl3wyc9yo17m_large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/compare-watch-se-gen2-aluminum-midnight--bl3wyc9yo17m-large-2x.jpg",
+							"widthPx": 500,
+							"heightPx": 570
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/v/watch/compare/ah/images/overview/compare_watch_se_gen2_aluminum_midnight__bl3wyc9yo17m_large.jpg",
+							"localPath": "public/data/apple-watch/images/compare-watch-se-gen2-aluminum-midnight--bl3wyc9yo17m-large.jpg",
+							"widthPx": 250,
+							"heightPx": 285
+						},
+						{
+							"label": "small 2x",
+							"appleUrl": "https://www.apple.com/v/watch/compare/ah/images/overview/compare_watch_se_gen2_aluminum_midnight__bl3wyc9yo17m_small_2x.jpg",
+							"localPath": "public/data/apple-watch/images/compare-watch-se-gen2-aluminum-midnight--bl3wyc9yo17m-small-2x.jpg",
+							"widthPx": 294,
+							"heightPx": 336
+						},
+						{
+							"label": "small",
+							"appleUrl": "https://www.apple.com/v/watch/compare/ah/images/overview/compare_watch_se_gen2_aluminum_midnight__bl3wyc9yo17m_small.jpg",
+							"localPath": "public/data/apple-watch/images/compare-watch-se-gen2-aluminum-midnight--bl3wyc9yo17m-small.jpg",
+							"widthPx": 147,
+							"heightPx": 168
+						}
+					]
 				},
 				{
 					"id": "starlight-aluminium",
 					"displayName": "Starlight Aluminium",
-					"swatch": "#ded6d1",
-					"images": []
+					"finish": {
+						"base": "#ded6d1",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/v/watch/compare/ah/images/overview/compare_watch_se_gen2_aluminum_starlight__mt6b6z7vuaie_large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/compare-watch-se-gen2-aluminum-starlight--mt6b6z7vuaie-large-2x.jpg",
+							"widthPx": 500,
+							"heightPx": 570
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/v/watch/compare/ah/images/overview/compare_watch_se_gen2_aluminum_starlight__mt6b6z7vuaie_large.jpg",
+							"localPath": "public/data/apple-watch/images/compare-watch-se-gen2-aluminum-starlight--mt6b6z7vuaie-large.jpg",
+							"widthPx": 250,
+							"heightPx": 285
+						},
+						{
+							"label": "small 2x",
+							"appleUrl": "https://www.apple.com/v/watch/compare/ah/images/overview/compare_watch_se_gen2_aluminum_starlight__mt6b6z7vuaie_small_2x.jpg",
+							"localPath": "public/data/apple-watch/images/compare-watch-se-gen2-aluminum-starlight--mt6b6z7vuaie-small-2x.jpg",
+							"widthPx": 294,
+							"heightPx": 336
+						},
+						{
+							"label": "small",
+							"appleUrl": "https://www.apple.com/v/watch/compare/ah/images/overview/compare_watch_se_gen2_aluminum_starlight__mt6b6z7vuaie_small.jpg",
+							"localPath": "public/data/apple-watch/images/compare-watch-se-gen2-aluminum-starlight--mt6b6z7vuaie-small.jpg",
+							"widthPx": 147,
+							"heightPx": 168
+						}
+					]
 				},
 				{
 					"id": "silver-aluminium",
 					"displayName": "Silver Aluminium",
-					"swatch": "#e6e6e7",
-					"images": []
+					"finish": {
+						"base": "#e6e6e7",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/v/watch/compare/ah/images/overview/compare_watch_se_gen2_aluminum_silver__cvybwwt1hr0i_large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/compare-watch-se-gen2-aluminum-silver--cvybwwt1hr0i-large-2x.jpg",
+							"widthPx": 500,
+							"heightPx": 570
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/v/watch/compare/ah/images/overview/compare_watch_se_gen2_aluminum_silver__cvybwwt1hr0i_large.jpg",
+							"localPath": "public/data/apple-watch/images/compare-watch-se-gen2-aluminum-silver--cvybwwt1hr0i-large.jpg",
+							"widthPx": 250,
+							"heightPx": 285
+						},
+						{
+							"label": "small 2x",
+							"appleUrl": "https://www.apple.com/v/watch/compare/ah/images/overview/compare_watch_se_gen2_aluminum_silver__cvybwwt1hr0i_small_2x.jpg",
+							"localPath": "public/data/apple-watch/images/compare-watch-se-gen2-aluminum-silver--cvybwwt1hr0i-small-2x.jpg",
+							"widthPx": 294,
+							"heightPx": 336
+						},
+						{
+							"label": "small",
+							"appleUrl": "https://www.apple.com/v/watch/compare/ah/images/overview/compare_watch_se_gen2_aluminum_silver__cvybwwt1hr0i_small.jpg",
+							"localPath": "public/data/apple-watch/images/compare-watch-se-gen2-aluminum-silver--cvybwwt1hr0i-small.jpg",
+							"widthPx": 147,
+							"heightPx": 168
+						}
+					]
 				}
 			],
-			"configurations": [],
+			"configurations": [
+				{
+					"id": "40mm-gps",
+					"displayName": "40mm GPS",
+					"caseSize": "40mm",
+					"cellular": false,
+					"gps": true,
+					"priceAud": 399,
+					"sourceNotes": "GPS variant per data/tmp/watch/watch-compare-2026.html (GPS and GPS + Cellular buy options listed). priceAud is the cheapest displayed device price."
+				},
+				{
+					"id": "44mm-gps-cellular",
+					"displayName": "44mm GPS + Cellular",
+					"caseSize": "44mm",
+					"cellular": true,
+					"gps": true,
+					"sourceNotes": "GPS + Cellular variant per data/tmp/watch/watch-compare-2026.html (Cellular options listed)."
+				}
+			],
 			"chips": [
 				{
 					"id": "s8-chip",
@@ -1444,43 +2218,29 @@
 					"portId": "wireless",
 					"wiredFastCharge": false,
 					"wirelessCharging": true,
-					"wirelessStandards": [
-						"inductive"
-					]
+					"wirelessStandards": ["inductive"]
 				},
 				"powerSupply": {}
 			},
 			"connectivity": {
 				"ports": [],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 4"
-					]
+					"standards": ["Wi-Fi 4"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.3"
 				},
 				"cellular": {
-					"technologies": [
-						"LTE"
-					]
+					"technologies": ["LTE"]
 				},
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": false,
-					"systems": [
-						"GPS",
-						"GLONASS",
-						"Galileo",
-						"QZSS",
-						"BeiDou"
-					]
+					"systems": ["GPS", "GLONASS", "Galileo", "QZSS", "BeiDou"]
 				}
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode"
 			},
 			"physical": {
@@ -1526,10 +2286,7 @@
 				"sourceNotes": "Complete Summary retained verbatim as source facts."
 			},
 			"watchDetails": {
-				"caseSizes": [
-					"44 mm",
-					"40 mm"
-				],
+				"caseSizes": ["44 mm", "40 mm"],
 				"alwaysOn": false,
 				"wideAngleDisplay": false,
 				"otherWirelessChip": "W3 Apple wireless chip",
@@ -1549,7 +2306,10 @@
 				{
 					"id": "black-titanium",
 					"displayName": "Black Titanium",
-					"swatch": "#0f0e0e",
+					"finish": {
+						"base": "#34322e",
+						"material": "brushed-titanium"
+					},
 					"images": [
 						{
 							"label": "large 2x",
@@ -1584,7 +2344,10 @@
 				{
 					"id": "natural-titanium",
 					"displayName": "Natural Titanium",
-					"swatch": "#ccc4bc",
+					"finish": {
+						"base": "#e3ddd7",
+						"material": "brushed-titanium"
+					},
 					"images": [
 						{
 							"label": "large 2x",
@@ -1617,7 +2380,17 @@
 					]
 				}
 			],
-			"configurations": [],
+			"configurations": [
+				{
+					"id": "49mm-gps-cellular",
+					"displayName": "49mm GPS + Cellular",
+					"caseSize": "49mm",
+					"cellular": true,
+					"gps": true,
+					"priceAud": 1399,
+					"sourceNotes": "49mm titanium, GPS + Cellular only (no GPS-only variant) per data/tmp/watch/watch-compare-2026.html and model overview evidence."
+				}
+			],
 			"chips": [
 				{
 					"id": "s9-chip",
@@ -1669,26 +2442,20 @@
 					"portId": "wireless",
 					"wiredFastCharge": true,
 					"wirelessCharging": true,
-					"wirelessStandards": [
-						"inductive"
-					]
+					"wirelessStandards": ["inductive"]
 				},
 				"powerSupply": {}
 			},
 			"connectivity": {
 				"ports": [],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 4"
-					]
+					"standards": ["Wi-Fi 4"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.3"
 				},
 				"cellular": {
-					"technologies": [
-						"LTE"
-					]
+					"technologies": ["LTE"]
 				},
 				"uwb": {
 					"chip": "Second-generation Ultra Wideband chip"
@@ -1696,19 +2463,11 @@
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": true,
-					"systems": [
-						"GPS",
-						"GLONASS",
-						"Galileo",
-						"QZSS",
-						"BeiDou"
-					]
+					"systems": ["GPS", "GLONASS", "Galileo", "QZSS", "BeiDou"]
 				}
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode"
 			},
 			"physical": {
@@ -1755,9 +2514,7 @@
 				"sourceNotes": "Complete Summary retained verbatim as source facts."
 			},
 			"watchDetails": {
-				"caseSizes": [
-					"49 mm"
-				],
+				"caseSizes": ["49 mm"],
 				"alwaysOn": true,
 				"wideAngleDisplay": false,
 				"u1UwbChip": "Second-generation Ultra Wideband chip",
@@ -1807,7 +2564,10 @@
 				{
 					"id": "midnight-aluminium",
 					"displayName": "Midnight Aluminium",
-					"swatch": "#1a2530",
+					"finish": {
+						"base": "#1a2530",
+						"material": "matte-aluminum"
+					},
 					"images": [
 						{
 							"label": "large 2x",
@@ -1842,47 +2602,86 @@
 				{
 					"id": "starlight-aluminium",
 					"displayName": "Starlight Aluminium",
-					"swatch": "#ded6d1",
+					"finish": {
+						"base": "#ded6d1",
+						"material": "matte-aluminum"
+					},
 					"images": []
 				},
 				{
 					"id": "silver-aluminium",
 					"displayName": "Silver Aluminium",
-					"swatch": "#f0eff1",
+					"finish": {
+						"base": "#f0eff1",
+						"material": "matte-aluminum"
+					},
 					"images": []
 				},
 				{
 					"id": "pink-aluminium",
 					"displayName": "Pink Aluminium",
-					"swatch": "#fadcde",
+					"finish": {
+						"base": "#fadcde",
+						"material": "matte-aluminum"
+					},
 					"images": []
 				},
 				{
 					"id": "product-red-aluminium",
 					"displayName": "(PRODUCT)RED Aluminium",
-					"swatch": "#c80e2d",
+					"finish": {
+						"base": "#c80e2d",
+						"material": "matte-aluminum"
+					},
 					"images": []
 				},
 				{
 					"id": "silver-stainless",
 					"displayName": "Silver Stainless",
-					"swatch": "#e6e6e7",
+					"finish": {
+						"base": "#e6e6e7",
+						"material": "polished-steel"
+					},
 					"images": []
 				},
 				{
 					"id": "graphite-stainless",
 					"displayName": "Graphite Stainless",
-					"swatch": "#3e3a36",
+					"finish": {
+						"base": "#3e3a36",
+						"material": "polished-steel"
+					},
 					"images": []
 				},
 				{
 					"id": "gold-stainless",
 					"displayName": "Gold Stainless",
-					"swatch": "#d4bda1",
+					"finish": {
+						"base": "#d4bda1",
+						"material": "polished-steel"
+					},
 					"images": []
 				}
 			],
-			"configurations": [],
+			"configurations": [
+				{
+					"id": "41mm-gps",
+					"displayName": "41mm GPS",
+					"caseSize": "41mm",
+					"cellular": false,
+					"gps": true,
+					"priceAud": 599,
+					"sourceNotes": "GPS variant per data/tmp/watch/watch-compare-2026.html (GPS and GPS + Cellular buy options listed). priceAud is the cheapest displayed device price."
+				},
+				{
+					"id": "45mm-gps-cellular",
+					"displayName": "45mm GPS + Cellular",
+					"caseSize": "45mm",
+					"cellular": true,
+					"gps": true,
+					"sourceNotes": "GPS + Cellular variant per data/tmp/watch/watch-compare-2026.html (Cellular options listed)."
+				}
+			],
 			"chips": [
 				{
 					"id": "s9-chip",
@@ -1934,9 +2733,7 @@
 					"portId": "wireless",
 					"wiredFastCharge": true,
 					"wirelessCharging": true,
-					"wirelessStandards": [
-						"inductive"
-					],
+					"wirelessStandards": ["inductive"],
 					"fastCharge": {
 						"minutes": 45,
 						"percent": 80
@@ -1947,17 +2744,13 @@
 			"connectivity": {
 				"ports": [],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 4"
-					]
+					"standards": ["Wi-Fi 4"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.3"
 				},
 				"cellular": {
-					"technologies": [
-						"LTE"
-					]
+					"technologies": ["LTE"]
 				},
 				"uwb": {
 					"chip": "Second-generation Ultra Wideband chip"
@@ -1965,19 +2758,11 @@
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": false,
-					"systems": [
-						"GPS",
-						"GLONASS",
-						"Galileo",
-						"QZSS",
-						"BeiDou"
-					]
+					"systems": ["GPS", "GLONASS", "Galileo", "QZSS", "BeiDou"]
 				}
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode"
 			},
 			"physical": {
@@ -2029,10 +2814,7 @@
 				"sourceNotes": "Complete Summary retained verbatim as source facts."
 			},
 			"watchDetails": {
-				"caseSizes": [
-					"45 mm",
-					"41 mm"
-				],
+				"caseSizes": ["45 mm", "41 mm"],
 				"alwaysOn": true,
 				"wideAngleDisplay": false,
 				"u1UwbChip": "Second-generation Ultra Wideband chip",
@@ -2082,23 +2864,109 @@
 				{
 					"id": "brushed-gold-aluminium",
 					"displayName": "Brushed Gold Aluminium",
-					"swatch": "#f4d4c6",
-					"images": []
+					"finish": {
+						"base": "#f4d4c6",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/v/watch/compare/ah/images/overview/compare_watch_se_gen1_aluminum_brush_gold__efof1ek2u62q_large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/compare-watch-se-gen1-aluminum-brush-gold--efof1ek2u62q-large-2x.jpg",
+							"widthPx": 500,
+							"heightPx": 570
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/v/watch/compare/ah/images/overview/compare_watch_se_gen1_aluminum_brush_gold__efof1ek2u62q_large.jpg",
+							"localPath": "public/data/apple-watch/images/compare-watch-se-gen1-aluminum-brush-gold--efof1ek2u62q-large.jpg",
+							"widthPx": 250,
+							"heightPx": 285
+						},
+						{
+							"label": "small 2x",
+							"appleUrl": "https://www.apple.com/v/watch/compare/ah/images/overview/compare_watch_se_gen1_aluminum_brush_gold__efof1ek2u62q_small_2x.jpg",
+							"localPath": "public/data/apple-watch/images/compare-watch-se-gen1-aluminum-brush-gold--efof1ek2u62q-small-2x.jpg",
+							"widthPx": 294,
+							"heightPx": 336
+						},
+						{
+							"label": "small",
+							"appleUrl": "https://www.apple.com/v/watch/compare/ah/images/overview/compare_watch_se_gen1_aluminum_brush_gold__efof1ek2u62q_small.jpg",
+							"localPath": "public/data/apple-watch/images/compare-watch-se-gen1-aluminum-brush-gold--efof1ek2u62q-small.jpg",
+							"widthPx": 147,
+							"heightPx": 168
+						}
+					]
 				},
 				{
 					"id": "silver-aluminium",
 					"displayName": "Silver Aluminium",
-					"swatch": "#f0eff1",
-					"images": []
+					"finish": {
+						"base": "#f0eff1",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/lifestyle/Apple_watch-SE-Aluminum-silver-case-yellow-band_09152020_big.jpg.large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-se-aluminum-silver-case-yellow-band-09152020-large-2x.jpg",
+							"widthPx": 1960,
+							"heightPx": 1196
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/lifestyle/Apple_watch-SE-Aluminum-silver-case-yellow-band_09152020_big.jpg.large.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-se-aluminum-silver-case-yellow-band-09152020-large.jpg",
+							"widthPx": 980,
+							"heightPx": 598
+						}
+					]
 				},
 				{
 					"id": "space-grey-aluminium",
 					"displayName": "Space Grey Aluminium",
-					"swatch": "#727272",
-					"images": []
+					"finish": {
+						"base": "#727272",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/lifestyle/Apple_announces-watch-se_09152020_big.jpg.large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-se-announces-09152020-large-2x.jpg",
+							"widthPx": 1960,
+							"heightPx": 1686
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/lifestyle/Apple_announces-watch-se_09152020_big.jpg.large.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-se-announces-09152020-large.jpg",
+							"widthPx": 980,
+							"heightPx": 843
+						}
+					]
 				}
 			],
-			"configurations": [],
+			"configurations": [
+				{
+					"id": "40mm-gps",
+					"displayName": "40mm GPS",
+					"caseSize": "40mm",
+					"cellular": false,
+					"gps": true,
+					"priceAud": 399,
+					"sourceNotes": "GPS variant per data/tmp/watch/watch-compare-2026.html (GPS and GPS + Cellular buy options listed). priceAud is the cheapest displayed device price."
+				},
+				{
+					"id": "44mm-gps-cellular",
+					"displayName": "44mm GPS + Cellular",
+					"caseSize": "44mm",
+					"cellular": true,
+					"gps": true,
+					"sourceNotes": "GPS + Cellular variant per data/tmp/watch/watch-compare-2026.html (Cellular options listed)."
+				}
+			],
 			"chips": [
 				{
 					"id": "s5-chip",
@@ -2143,43 +3011,29 @@
 					"portId": "wireless",
 					"wiredFastCharge": false,
 					"wirelessCharging": true,
-					"wirelessStandards": [
-						"inductive"
-					]
+					"wirelessStandards": ["inductive"]
 				},
 				"powerSupply": {}
 			},
 			"connectivity": {
 				"ports": [],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 4"
-					]
+					"standards": ["Wi-Fi 4"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.3"
 				},
 				"cellular": {
-					"technologies": [
-						"LTE"
-					]
+					"technologies": ["LTE"]
 				},
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": false,
-					"systems": [
-						"GPS",
-						"GLONASS",
-						"Galileo",
-						"QZSS",
-						"BeiDou"
-					]
+					"systems": ["GPS", "GLONASS", "Galileo", "QZSS", "BeiDou"]
 				}
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode"
 			},
 			"physical": {
@@ -2226,10 +3080,7 @@
 				"sourceNotes": "Complete Summary retained verbatim as source facts."
 			},
 			"watchDetails": {
-				"caseSizes": [
-					"44 mm",
-					"40 mm"
-				],
+				"caseSizes": ["44 mm", "40 mm"],
 				"alwaysOn": false,
 				"wideAngleDisplay": false,
 				"otherWirelessChip": "W3 Apple wireless chip",
@@ -2249,7 +3100,10 @@
 				{
 					"id": "natural-titanium",
 					"displayName": "Natural Titanium",
-					"swatch": "#e3ddd7",
+					"finish": {
+						"base": "#e3ddd7",
+						"material": "brushed-titanium"
+					},
 					"images": [
 						{
 							"label": "large 2x",
@@ -2282,7 +3136,17 @@
 					]
 				}
 			],
-			"configurations": [],
+			"configurations": [
+				{
+					"id": "49mm-gps-cellular",
+					"displayName": "49mm GPS + Cellular",
+					"caseSize": "49mm",
+					"cellular": true,
+					"gps": true,
+					"priceAud": 1229,
+					"sourceNotes": "49mm titanium, GPS + Cellular only (no GPS-only variant) per data/tmp/watch/watch-compare-2026.html and model overview evidence."
+				}
+			],
 			"chips": [
 				{
 					"id": "s8-chip",
@@ -2333,26 +3197,20 @@
 					"portId": "wireless",
 					"wiredFastCharge": true,
 					"wirelessCharging": true,
-					"wirelessStandards": [
-						"inductive"
-					]
+					"wirelessStandards": ["inductive"]
 				},
 				"powerSupply": {}
 			},
 			"connectivity": {
 				"ports": [],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 4"
-					]
+					"standards": ["Wi-Fi 4"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.3"
 				},
 				"cellular": {
-					"technologies": [
-						"LTE"
-					]
+					"technologies": ["LTE"]
 				},
 				"uwb": {
 					"chip": "First-generation Ultra Wideband chip"
@@ -2360,19 +3218,11 @@
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": true,
-					"systems": [
-						"GPS",
-						"GLONASS",
-						"Galileo",
-						"QZSS",
-						"BeiDou"
-					]
+					"systems": ["GPS", "GLONASS", "Galileo", "QZSS", "BeiDou"]
 				}
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode"
 			},
 			"physical": {
@@ -2414,9 +3264,7 @@
 				"sourceNotes": "Complete Summary retained verbatim as source facts."
 			},
 			"watchDetails": {
-				"caseSizes": [
-					"49 mm"
-				],
+				"caseSizes": ["49 mm"],
 				"alwaysOn": true,
 				"wideAngleDisplay": false,
 				"u1UwbChip": "First-generation Ultra Wideband chip",
@@ -2466,47 +3314,191 @@
 				{
 					"id": "midnight-aluminium",
 					"displayName": "Midnight Aluminium",
-					"swatch": "#1a2530",
-					"images": []
+					"finish": {
+						"base": "#1a2530",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/lifestyle/Apple-Watch-S8-aluminum-midnight-220907_inline.jpg.large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-s8-aluminum-midnight-220907-inline-large-2x.jpg",
+							"widthPx": 1306,
+							"heightPx": 1306
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/lifestyle/Apple-Watch-S8-aluminum-midnight-220907_inline.jpg.large.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-s8-aluminum-midnight-220907-inline-large.jpg",
+							"widthPx": 653,
+							"heightPx": 653
+						}
+					]
 				},
 				{
 					"id": "starlight-aluminium",
 					"displayName": "Starlight Aluminium",
-					"swatch": "#ded6d1",
-					"images": []
+					"finish": {
+						"base": "#ded6d1",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/lifestyle/Apple-Watch-S8-aluminum-starlight-220907_inline.jpg.large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-s8-aluminum-starlight-220907-inline-large-2x.jpg",
+							"widthPx": 1306,
+							"heightPx": 1306
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/lifestyle/Apple-Watch-S8-aluminum-starlight-220907_inline.jpg.large.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-s8-aluminum-starlight-220907-inline-large.jpg",
+							"widthPx": 653,
+							"heightPx": 653
+						}
+					]
 				},
 				{
 					"id": "silver-aluminium",
 					"displayName": "Silver Aluminium",
-					"swatch": "#f0eff1",
-					"images": []
+					"finish": {
+						"base": "#f0eff1",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/Apple-Watch-S8-aluminum-silver-220907_inline.jpg.large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-s8-aluminum-silver-220907-inline-large-2x.jpg",
+							"widthPx": 1306,
+							"heightPx": 1306
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/Apple-Watch-S8-aluminum-silver-220907_inline.jpg.large.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-s8-aluminum-silver-220907-inline-large.jpg",
+							"widthPx": 653,
+							"heightPx": 653
+						}
+					]
 				},
 				{
 					"id": "product-red-aluminium",
 					"displayName": "(PRODUCT)RED Aluminium",
-					"swatch": "#c80e2d",
-					"images": []
+					"finish": {
+						"base": "#c80e2d",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/lifestyle/Apple-Watch-S8-aluminum-PRODUCT-RED-220907_inline.jpg.large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-s8-aluminum-product-red-220907-inline-large-2x.jpg",
+							"widthPx": 1306,
+							"heightPx": 1306
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/lifestyle/Apple-Watch-S8-aluminum-PRODUCT-RED-220907_inline.jpg.large.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-s8-aluminum-product-red-220907-inline-large.jpg",
+							"widthPx": 653,
+							"heightPx": 653
+						}
+					]
 				},
 				{
 					"id": "silver-stainless",
 					"displayName": "Silver Stainless",
-					"swatch": "#e6e6e7",
-					"images": []
+					"finish": {
+						"base": "#e6e6e7",
+						"material": "polished-steel"
+					},
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/Apple-Watch-S8-stainless-steel-silver-220907_inline.jpg.large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-s8-stainless-steel-silver-220907-inline-large-2x.jpg",
+							"widthPx": 1306,
+							"heightPx": 1306
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/Apple-Watch-S8-stainless-steel-silver-220907_inline.jpg.large.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-s8-stainless-steel-silver-220907-inline-large.jpg",
+							"widthPx": 653,
+							"heightPx": 653
+						}
+					]
 				},
 				{
 					"id": "graphite-stainless",
 					"displayName": "Graphite Stainless",
-					"swatch": "#3e3a36",
-					"images": []
+					"finish": {
+						"base": "#3e3a36",
+						"material": "polished-steel"
+					},
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/Apple-Watch-S8-stainless-steel-graphite-220907_inline.jpg.large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-s8-stainless-steel-graphite-220907-inline-large-2x.jpg",
+							"widthPx": 1306,
+							"heightPx": 1306
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/Apple-Watch-S8-stainless-steel-graphite-220907_inline.jpg.large.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-s8-stainless-steel-graphite-220907-inline-large.jpg",
+							"widthPx": 653,
+							"heightPx": 653
+						}
+					]
 				},
 				{
 					"id": "gold-stainless",
 					"displayName": "Gold Stainless",
-					"swatch": "#d4bda1",
-					"images": []
+					"finish": {
+						"base": "#d4bda1",
+						"material": "polished-steel"
+					},
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/Apple-Watch-S8-stainless-steel-gold-220907_inline.jpg.large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-s8-stainless-steel-gold-220907-inline-large-2x.jpg",
+							"widthPx": 1306,
+							"heightPx": 1306
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/Apple-Watch-S8-stainless-steel-gold-220907_inline.jpg.large.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-s8-stainless-steel-gold-220907-inline-large.jpg",
+							"widthPx": 653,
+							"heightPx": 653
+						}
+					]
 				}
 			],
-			"configurations": [],
+			"configurations": [
+				{
+					"id": "41mm-gps",
+					"displayName": "41mm GPS",
+					"caseSize": "41mm",
+					"cellular": false,
+					"gps": true,
+					"priceAud": 599,
+					"sourceNotes": "GPS variant per data/tmp/watch/watch-compare-2026.html (GPS and GPS + Cellular buy options listed). priceAud is the cheapest displayed device price."
+				},
+				{
+					"id": "45mm-gps-cellular",
+					"displayName": "45mm GPS + Cellular",
+					"caseSize": "45mm",
+					"cellular": true,
+					"gps": true,
+					"sourceNotes": "GPS + Cellular variant per data/tmp/watch/watch-compare-2026.html (Cellular options listed)."
+				}
+			],
 			"chips": [
 				{
 					"id": "s8-chip",
@@ -2551,9 +3543,7 @@
 					"portId": "wireless",
 					"wiredFastCharge": true,
 					"wirelessCharging": true,
-					"wirelessStandards": [
-						"inductive"
-					],
+					"wirelessStandards": ["inductive"],
 					"fastCharge": {
 						"minutes": 45,
 						"percent": 80
@@ -2564,17 +3554,13 @@
 			"connectivity": {
 				"ports": [],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 4"
-					]
+					"standards": ["Wi-Fi 4"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.3"
 				},
 				"cellular": {
-					"technologies": [
-						"LTE"
-					]
+					"technologies": ["LTE"]
 				},
 				"uwb": {
 					"chip": "First-generation Ultra Wideband chip"
@@ -2582,19 +3568,11 @@
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": false,
-					"systems": [
-						"GPS",
-						"GLONASS",
-						"Galileo",
-						"QZSS",
-						"BeiDou"
-					]
+					"systems": ["GPS", "GLONASS", "Galileo", "QZSS", "BeiDou"]
 				}
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode"
 			},
 			"physical": {
@@ -2646,10 +3624,7 @@
 				"sourceNotes": "Complete Summary retained verbatim as source facts."
 			},
 			"watchDetails": {
-				"caseSizes": [
-					"45 mm",
-					"41 mm"
-				],
+				"caseSizes": ["45 mm", "41 mm"],
 				"alwaysOn": true,
 				"wideAngleDisplay": false,
 				"u1UwbChip": "First-generation Ultra Wideband chip",
@@ -2670,53 +3645,215 @@
 				{
 					"id": "midnight-aluminium",
 					"displayName": "Midnight Aluminium",
-					"swatch": "#1a2530",
-					"images": []
+					"finish": {
+						"base": "#1a2530",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/Apple_watch-series7_hero_09142021_big.jpg.large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-series7-hero-09142021-large-2x.jpg",
+							"widthPx": 1960,
+							"heightPx": 1400
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/Apple_watch-series7_hero_09142021_big.jpg.large.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-series7-hero-09142021-large.jpg",
+							"widthPx": 980,
+							"heightPx": 700
+						}
+					]
 				},
 				{
 					"id": "starlight-aluminium",
 					"displayName": "Starlight Aluminium",
-					"swatch": "#ded6d1",
-					"images": []
+					"finish": {
+						"base": "#ded6d1",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/Apple_watch-series7_design_09142021_big.jpg.large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-series7-design-09142021-large-2x.jpg",
+							"widthPx": 1960,
+							"heightPx": 1102
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/Apple_watch-series7_design_09142021_big.jpg.large.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-series7-design-09142021-large.jpg",
+							"widthPx": 980,
+							"heightPx": 551
+						}
+					]
 				},
 				{
 					"id": "green-aluminium",
 					"displayName": "Green Aluminium",
-					"swatch": "#36382b",
-					"images": []
+					"finish": {
+						"base": "#36382b",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/Apple_watch-series7_lineup-01_09142021_big_carousel.jpg.large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-series7-lineup-01-09142021-large-2x.jpg",
+							"widthPx": 1960,
+							"heightPx": 1102
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/Apple_watch-series7_lineup-01_09142021_big_carousel.jpg.large.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-series7-lineup-01-09142021-large.jpg",
+							"widthPx": 980,
+							"heightPx": 551
+						}
+					]
 				},
 				{
 					"id": "blue-aluminium",
 					"displayName": "Blue Aluminium",
-					"swatch": "#3e4b6c",
-					"images": []
+					"finish": {
+						"base": "#3e4b6c",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/Apple_watch-series7_lineup-02_09142021_big_carousel.jpg.large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-series7-lineup-02-09142021-large-2x.jpg",
+							"widthPx": 1960,
+							"heightPx": 1102
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/Apple_watch-series7_lineup-02_09142021_big_carousel.jpg.large.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-series7-lineup-02-09142021-large.jpg",
+							"widthPx": 980,
+							"heightPx": 551
+						}
+					]
 				},
 				{
 					"id": "product-red-aluminium",
 					"displayName": "(PRODUCT)RED Aluminium",
-					"swatch": "#c6464a",
-					"images": []
+					"finish": {
+						"base": "#c6464a",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/Apple_watch-series7_lifestyle-01_09142021_big_carousel.jpg.large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-series7-lifestyle-01-09142021-large-2x.jpg",
+							"widthPx": 1960,
+							"heightPx": 1102
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/Apple_watch-series7_lifestyle-01_09142021_big_carousel.jpg.large.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-series7-lifestyle-01-09142021-large.jpg",
+							"widthPx": 980,
+							"heightPx": 551
+						}
+					]
 				},
 				{
 					"id": "silver-stainless",
 					"displayName": "Silver Stainless",
-					"swatch": "#e6e6e7",
-					"images": []
+					"finish": {
+						"base": "#e6e6e7",
+						"material": "polished-steel"
+					},
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/Apple_watch-series7_lifestyle-02_09142021_big_carousel.jpg.large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-series7-lifestyle-02-09142021-large-2x.jpg",
+							"widthPx": 1960,
+							"heightPx": 1102
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/Apple_watch-series7_lifestyle-02_09142021_big_carousel.jpg.large.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-series7-lifestyle-02-09142021-large.jpg",
+							"widthPx": 980,
+							"heightPx": 551
+						}
+					]
 				},
 				{
 					"id": "graphite-stainless",
 					"displayName": "Graphite Stainless",
-					"swatch": "#3e3a36",
-					"images": []
+					"finish": {
+						"base": "#3e3a36",
+						"material": "polished-steel"
+					},
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/Apple_watch-series7_lifestyle-03_09142021_big_carousel.jpg.large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-series7-lifestyle-03-09142021-large-2x.jpg",
+							"widthPx": 1960,
+							"heightPx": 1102
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/Apple_watch-series7_lifestyle-03_09142021_big_carousel.jpg.large.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-series7-lifestyle-03-09142021-large.jpg",
+							"widthPx": 980,
+							"heightPx": 551
+						}
+					]
 				},
 				{
 					"id": "gold-stainless",
 					"displayName": "Gold Stainless",
-					"swatch": "#d4bda1",
-					"images": []
+					"finish": {
+						"base": "#d4bda1",
+						"material": "polished-steel"
+					},
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/Apple_watch-series7_durability_09142021_big.jpg.large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-series7-durability-09142021-large-2x.jpg",
+							"widthPx": 1960,
+							"heightPx": 1102
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/Apple_watch-series7_durability_09142021_big.jpg.large.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-series7-durability-09142021-large.jpg",
+							"widthPx": 980,
+							"heightPx": 551
+						}
+					]
 				}
 			],
-			"configurations": [],
+			"configurations": [
+				{
+					"id": "41mm-gps",
+					"displayName": "41mm GPS",
+					"caseSize": "41mm",
+					"cellular": false,
+					"gps": true,
+					"priceAud": 599,
+					"sourceNotes": "GPS variant per data/tmp/watch/watch-compare-2026.html (GPS and GPS + Cellular buy options listed). priceAud is the cheapest displayed device price."
+				},
+				{
+					"id": "45mm-gps-cellular",
+					"displayName": "45mm GPS + Cellular",
+					"caseSize": "45mm",
+					"cellular": true,
+					"gps": true,
+					"sourceNotes": "GPS + Cellular variant per data/tmp/watch/watch-compare-2026.html (Cellular options listed)."
+				}
+			],
 			"chips": [
 				{
 					"id": "s7-chip",
@@ -2761,9 +3898,7 @@
 					"portId": "wireless",
 					"wiredFastCharge": true,
 					"wirelessCharging": true,
-					"wirelessStandards": [
-						"inductive"
-					],
+					"wirelessStandards": ["inductive"],
 					"fastCharge": {
 						"minutes": 45,
 						"percent": 80
@@ -2774,17 +3909,13 @@
 			"connectivity": {
 				"ports": [],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 4"
-					]
+					"standards": ["Wi-Fi 4"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.3"
 				},
 				"cellular": {
-					"technologies": [
-						"LTE"
-					]
+					"technologies": ["LTE"]
 				},
 				"uwb": {
 					"chip": "U1 chip (Ultra Wideband)"
@@ -2792,19 +3923,11 @@
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": false,
-					"systems": [
-						"GPS",
-						"GLONASS",
-						"Galileo",
-						"QZSS",
-						"BeiDou"
-					]
+					"systems": ["GPS", "GLONASS", "Galileo", "QZSS", "BeiDou"]
 				}
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode"
 			},
 			"physical": {
@@ -2861,10 +3984,7 @@
 				"sourceNotes": "Complete Summary retained verbatim as source facts."
 			},
 			"watchDetails": {
-				"caseSizes": [
-					"45 mm",
-					"41 mm"
-				],
+				"caseSizes": ["45 mm", "41 mm"],
 				"alwaysOn": true,
 				"wideAngleDisplay": false,
 				"u1UwbChip": "U1 chip (Ultra Wideband)",
@@ -2885,53 +4005,215 @@
 				{
 					"id": "blue-aluminium",
 					"displayName": "Blue Aluminium",
-					"swatch": "#6e8eba",
-					"images": []
+					"finish": {
+						"base": "#6e8eba",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/Apple_watch-series-6-Aluminum-blue-case-close-up_09152020_big.jpg.large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-series6-Aluminum-blue-case-close-up-09152020-large-2x.jpg",
+							"widthPx": 1960,
+							"heightPx": 1102
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/Apple_watch-series-6-Aluminum-blue-case-close-up_09152020_big.jpg.large.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-series6-Aluminum-blue-case-close-up-09152020-large.jpg",
+							"widthPx": 980,
+							"heightPx": 551
+						}
+					]
 				},
 				{
 					"id": "product-red-aluminium",
 					"displayName": "(PRODUCT)RED Aluminium",
-					"swatch": "#a91e3b",
-					"images": []
+					"finish": {
+						"base": "#a91e3b",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/Apple_watch-series-6-aluminum-red-case_09152020_carousel.jpg.large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-series6-aluminum-red-case-09152020-large-2x.jpg",
+							"widthPx": 1306,
+							"heightPx": 1306
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/Apple_watch-series-6-aluminum-red-case_09152020_carousel.jpg.large.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-series6-aluminum-red-case-09152020-large.jpg",
+							"widthPx": 653,
+							"heightPx": 653
+						}
+					]
 				},
 				{
 					"id": "silver-aluminium",
 					"displayName": "Silver Aluminium",
-					"swatch": "#e6e6e7",
-					"images": []
+					"finish": {
+						"base": "#e6e6e7",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/Apple_watch-series-6-aluminum-silver-case-tachymeter-watchface_09152020_inline.jpg.large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-series6-aluminum-silver-case-tachymeter-watchface-09152020-large-2x.jpg",
+							"widthPx": 1306,
+							"heightPx": 1306
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/Apple_watch-series-6-aluminum-silver-case-tachymeter-watchface_09152020_inline.jpg.large.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-series6-aluminum-silver-case-tachymeter-watchface-09152020-large.jpg",
+							"widthPx": 653,
+							"heightPx": 653
+						}
+					]
 				},
 				{
 					"id": "space-grey-aluminium",
 					"displayName": "Space Grey Aluminium",
-					"swatch": "#5e5f61",
-					"images": []
+					"finish": {
+						"base": "#5e5f61",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/Apple_watch-series-6-aluminum-space-gray-case-nike-watch-mist-green-band_09152020_carousel.jpg.large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-series6-aluminum-space-gray-case-nike-watch-mist-green-band-09152020-large-2x.jpg",
+							"widthPx": 1306,
+							"heightPx": 1306
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/Apple_watch-series-6-aluminum-space-gray-case-nike-watch-mist-green-band_09152020_carousel.jpg.large.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-series6-aluminum-space-gray-case-nike-watch-mist-green-band-09152020-large.jpg",
+							"widthPx": 653,
+							"heightPx": 653
+						}
+					]
 				},
 				{
 					"id": "gold-stainless",
 					"displayName": "Gold Stainless",
-					"swatch": "#d4bda1",
-					"images": []
+					"finish": {
+						"base": "#d4bda1",
+						"material": "polished-steel"
+					},
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/Apple_watch-series-6-stainless-steel-gold-case_09152020_inline.jpg.large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-series6-stainless-steel-gold-case-09152020-large-2x.jpg",
+							"widthPx": 1306,
+							"heightPx": 1306
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/Apple_watch-series-6-stainless-steel-gold-case_09152020_inline.jpg.large.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-series6-stainless-steel-gold-case-09152020-large.jpg",
+							"widthPx": 653,
+							"heightPx": 653
+						}
+					]
 				},
 				{
 					"id": "silver-stainless",
 					"displayName": "Silver Stainless",
-					"swatch": "#e6e6e7",
-					"images": []
+					"finish": {
+						"base": "#e6e6e7",
+						"material": "polished-steel"
+					},
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/Apple_watch-series-6-hermes-stainless-steel-silver-double-tour_09152020_carousel.jpg.large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-series6-hermes-stainless-steel-silver-double-tour-09152020-large-2x.jpg",
+							"widthPx": 1306,
+							"heightPx": 1898
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/Apple_watch-series-6-hermes-stainless-steel-silver-double-tour_09152020_carousel.jpg.large.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-series6-hermes-stainless-steel-silver-double-tour-09152020-large.jpg",
+							"widthPx": 653,
+							"heightPx": 949
+						}
+					]
 				},
 				{
 					"id": "graphite-stainless",
 					"displayName": "Graphite Stainless",
-					"swatch": "#3e3a36",
-					"images": []
+					"finish": {
+						"base": "#3e3a36",
+						"material": "polished-steel"
+					},
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/Apple_watch-series-6-stainless-steel-gray-case-orange-band_09152020_inline.jpg.large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-series6-stainless-steel-gray-case-orange-band-09152020-large-2x.jpg",
+							"widthPx": 1306,
+							"heightPx": 1306
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/Apple_watch-series-6-stainless-steel-gray-case-orange-band_09152020_inline.jpg.large.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-series6-stainless-steel-gray-case-orange-band-09152020-large.jpg",
+							"widthPx": 653,
+							"heightPx": 653
+						}
+					]
 				},
 				{
 					"id": "space-black-titanium",
 					"displayName": "Space Black Titanium",
-					"swatch": "#47433f",
-					"images": []
+					"finish": {
+						"base": "#47433f",
+						"material": "polished-titanium"
+					},
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/Apple_delivers-apple-watch-series-6_09152020_big.jpg.large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-series6-hero-09152020-large-2x.jpg",
+							"widthPx": 1960,
+							"heightPx": 1690
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/Apple_delivers-apple-watch-series-6_09152020_big.jpg.large.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-series6-hero-09152020-large.jpg",
+							"widthPx": 980,
+							"heightPx": 845
+						}
+					]
 				}
 			],
-			"configurations": [],
+			"configurations": [
+				{
+					"id": "40mm-gps",
+					"displayName": "40mm GPS",
+					"caseSize": "40mm",
+					"cellular": false,
+					"gps": true,
+					"priceAud": 599,
+					"sourceNotes": "GPS variant per data/tmp/watch/watch-compare-2026.html (GPS and GPS + Cellular buy options listed). priceAud is the cheapest displayed device price."
+				},
+				{
+					"id": "44mm-gps-cellular",
+					"displayName": "44mm GPS + Cellular",
+					"caseSize": "44mm",
+					"cellular": true,
+					"gps": true,
+					"sourceNotes": "GPS + Cellular variant per data/tmp/watch/watch-compare-2026.html (Cellular options listed)."
+				}
+			],
 			"chips": [
 				{
 					"id": "s6-chip",
@@ -2976,26 +4258,20 @@
 					"portId": "wireless",
 					"wiredFastCharge": false,
 					"wirelessCharging": true,
-					"wirelessStandards": [
-						"inductive"
-					]
+					"wirelessStandards": ["inductive"]
 				},
 				"powerSupply": {}
 			},
 			"connectivity": {
 				"ports": [],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 4"
-					]
+					"standards": ["Wi-Fi 4"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.3"
 				},
 				"cellular": {
-					"technologies": [
-						"LTE"
-					]
+					"technologies": ["LTE"]
 				},
 				"uwb": {
 					"chip": "U1 chip (Ultra Wideband)"
@@ -3003,19 +4279,11 @@
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": false,
-					"systems": [
-						"GPS",
-						"GLONASS",
-						"Galileo",
-						"QZSS",
-						"BeiDou"
-					]
+					"systems": ["GPS", "GLONASS", "Galileo", "QZSS", "BeiDou"]
 				}
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode"
 			},
 			"physical": {
@@ -3067,10 +4335,7 @@
 				"sourceNotes": "Complete Summary retained verbatim as source facts."
 			},
 			"watchDetails": {
-				"caseSizes": [
-					"44 mm",
-					"40 mm"
-				],
+				"caseSizes": ["44 mm", "40 mm"],
 				"alwaysOn": true,
 				"wideAngleDisplay": false,
 				"u1UwbChip": "U1 chip (Ultra Wideband)",
@@ -3091,29 +4356,119 @@
 				{
 					"id": "space-grey-aluminium",
 					"displayName": "Space Grey Aluminium",
-					"swatch": "#ffffff",
-					"images": []
+					"finish": {
+						"base": "#6a6d70",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/apple-watch2-3up_inline.jpg.large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch2-3up_inline-large-2x.jpg",
+							"widthPx": 1142,
+							"heightPx": 714
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/apple-watch2-3up_inline.jpg.large.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch2-3up_inline-large.jpg",
+							"widthPx": 571,
+							"heightPx": 357
+						}
+					]
 				},
 				{
 					"id": "silver-aluminium",
 					"displayName": "Silver Aluminium",
-					"swatch": "#ffffff",
-					"images": []
+					"finish": {
+						"base": "#d8d8dc",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/lifestyle/apple-watch2-swimming_big.jpg.large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch2-swimming_big-large-2x.jpg",
+							"widthPx": 1632,
+							"heightPx": 1440
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/lifestyle/apple-watch2-swimming_big.jpg.large.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch2-swimming_big-large.jpg",
+							"widthPx": 816,
+							"heightPx": 720
+						}
+					]
 				},
 				{
 					"id": "rose-gold-aluminium",
 					"displayName": "Rose Gold Aluminium",
-					"swatch": "#ffffff",
-					"images": []
+					"finish": {
+						"base": "#e8c9c0",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/apple-watch2-rosegold_inline.jpg.large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch2-rosegold_inline-large-2x.jpg",
+							"widthPx": 1142,
+							"heightPx": 1428
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/apple-watch2-rosegold_inline.jpg.large.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch2-rosegold_inline-large.jpg",
+							"widthPx": 571,
+							"heightPx": 714
+						}
+					]
 				},
 				{
 					"id": "gold-aluminium",
 					"displayName": "Gold Aluminium",
-					"swatch": "#ffffff",
-					"images": []
+					"finish": {
+						"base": "#e3c9b7",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/apple-watch2-3up-water_inline.jpg.large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch2-3up-water_inline-large-2x.jpg",
+							"widthPx": 1142,
+							"heightPx": 1428
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/apple-watch2-3up-water_inline.jpg.large.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch2-3up-water_inline-large.jpg",
+							"widthPx": 571,
+							"heightPx": 714
+						}
+					]
 				}
 			],
-			"configurations": [],
+			"configurations": [
+				{
+					"id": "38mm-gps",
+					"displayName": "38mm GPS",
+					"caseSize": "38mm",
+					"cellular": false,
+					"gps": true,
+					"priceAud": 399,
+					"sourceNotes": "GPS-only generation; compare lists no cellular option for this column (cellular introduced with Series 3). Sizes per watchDetails. priceAud is the cheapest displayed device price."
+				},
+				{
+					"id": "42mm-gps",
+					"displayName": "42mm GPS",
+					"caseSize": "42mm",
+					"cellular": false,
+					"gps": true,
+					"sourceNotes": "GPS-only generation; compare lists no cellular option for this column (cellular introduced with Series 3). Sizes per watchDetails."
+				}
+			],
 			"chips": [
 				{
 					"id": "apple-watch-series-1-chip",
@@ -3159,15 +4514,11 @@
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": false,
-					"systems": [
-						"GPS"
-					]
+					"systems": ["GPS"]
 				}
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode"
 			},
 			"physical": {
@@ -3211,10 +4562,7 @@
 				"builtInApps": []
 			},
 			"watchDetails": {
-				"caseSizes": [
-					"42-mm",
-					"38-mm"
-				],
+				"caseSizes": ["42-mm", "38-mm"],
 				"alwaysOn": false,
 				"wideAngleDisplay": false,
 				"hasSpeaker": false,
@@ -3222,7 +4570,8 @@
 				"swimproofClassification": "Not stated in supplied source"
 			},
 			"overviewImages": [],
-			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, swatches, product image bytes and Apple-hosted URLs are absent from supplied evidence and remain null/empty rather than inferred.\n\nLegacy Watch fields removed from the independent shape and preserved verbatim where no typed field exists: {\"family\":\"watch\",\"memoryOptions\":[],\"cameras\":[],\"storageOptions\":[],\"accessories\":[],\"watchDetails\":{\"caseSizes\":[\"42-mm\",\"38-mm\"],\"alwaysOn\":false,\"wideAngleDisplay\":false,\"hasSpeaker\":false,\"hasSiren\":false,\"completeSummary\":[\"Retina display\",\"S1 chip with dual-core processor\",\"Up to 18 hours33\",\"Splash-resistant13\",\"42 mm by 36.4 mm by 10.5 mm (42-mm) 30 grams\"]}}\n\nLegacy audio facts without dedicated fields: {\"formats\":[]}\n\nLegacy colour notes retained verbatim: [\"Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value.\",\"Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value.\",\"Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value.\",\"Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value.\"]\n\nThe independent Watch schema requires configurations; the source supplied no configuration records, so this field is retained as an empty array without inventing data.\n\nApple Watch Series 1 has no swimproof classification in the supplied source; the schema-required field is marked accordingly without asserting a device capability."
+			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, swatches, product image bytes and Apple-hosted URLs are absent from supplied evidence and remain null/empty rather than inferred.\n\nLegacy Watch fields removed from the independent shape and preserved verbatim where no typed field exists: {\"family\":\"watch\",\"memoryOptions\":[],\"cameras\":[],\"storageOptions\":[],\"accessories\":[],\"watchDetails\":{\"caseSizes\":[\"42-mm\",\"38-mm\"],\"alwaysOn\":false,\"wideAngleDisplay\":false,\"hasSpeaker\":false,\"hasSiren\":false,\"completeSummary\":[\"Retina display\",\"S1 chip with dual-core processor\",\"Up to 18 hours33\",\"Splash-resistant13\",\"42 mm by 36.4 mm by 10.5 mm (42-mm) 30 grams\"]}}\n\nLegacy audio facts without dedicated fields: {\"formats\":[]}\n\nLegacy colour notes retained verbatim: [\"Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value.\",\"Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value.\",\"Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value.\",\"Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value.\"]\n\nThe independent Watch schema requires configurations; the source supplied no configuration records, so this field is retained as an empty array without inventing data.\n\nApple Watch Series 1 has no swimproof classification in the supplied source; the schema-required field is marked accordingly without asserting a device capability.",
+			"priceAud": 399
 		},
 		{
 			"id": "apple-watch-series-2",
@@ -3232,29 +4581,119 @@
 				{
 					"id": "space-grey-aluminium",
 					"displayName": "Space Grey Aluminium",
-					"swatch": "#ffffff",
-					"images": []
+					"finish": {
+						"base": "#6a6d70",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/apple-watch2-3up_inline.jpg.large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch2-3up_inline-large-2x.jpg",
+							"widthPx": 1142,
+							"heightPx": 714
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/apple-watch2-3up_inline.jpg.large.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch2-3up_inline-large.jpg",
+							"widthPx": 571,
+							"heightPx": 357
+						}
+					]
 				},
 				{
 					"id": "silver-aluminium",
 					"displayName": "Silver Aluminium",
-					"swatch": "#ffffff",
-					"images": []
+					"finish": {
+						"base": "#d8d8dc",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/apple-watch2-3up-water_inline.jpg.large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch2-3up-water_inline-large-2x.jpg",
+							"widthPx": 1142,
+							"heightPx": 1428
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/apple-watch2-3up-water_inline.jpg.large.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch2-3up-water_inline-large.jpg",
+							"widthPx": 571,
+							"heightPx": 714
+						}
+					]
 				},
 				{
 					"id": "rose-gold-aluminium",
 					"displayName": "Rose Gold Aluminium",
-					"swatch": "#ffffff",
-					"images": []
+					"finish": {
+						"base": "#e8c9c0",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/apple-watch2-rosegold_inline.jpg.large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch2-rosegold_inline-large-2x.jpg",
+							"widthPx": 1142,
+							"heightPx": 1428
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/apple-watch2-rosegold_inline.jpg.large.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch2-rosegold_inline-large.jpg",
+							"widthPx": 571,
+							"heightPx": 714
+						}
+					]
 				},
 				{
 					"id": "gold-aluminium",
 					"displayName": "Gold Aluminium",
-					"swatch": "#ffffff",
-					"images": []
+					"finish": {
+						"base": "#e3c9b7",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/lifestyle/apple-watch2-cycling_inline.jpg.large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch2-cycling_inline-large-2x.jpg",
+							"widthPx": 1142,
+							"heightPx": 1464
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/lifestyle/apple-watch2-cycling_inline.jpg.large.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch2-cycling_inline-large.jpg",
+							"widthPx": 571,
+							"heightPx": 732
+						}
+					]
 				}
 			],
-			"configurations": [],
+			"configurations": [
+				{
+					"id": "38mm-gps",
+					"displayName": "38mm GPS",
+					"caseSize": "38mm",
+					"cellular": false,
+					"gps": true,
+					"priceAud": 529,
+					"sourceNotes": "GPS-only generation; compare lists no cellular option for this column (cellular introduced with Series 3). Sizes per watchDetails. priceAud is the cheapest displayed device price."
+				},
+				{
+					"id": "42mm-gps",
+					"displayName": "42mm GPS",
+					"caseSize": "42mm",
+					"cellular": false,
+					"gps": true,
+					"sourceNotes": "GPS-only generation; compare lists no cellular option for this column (cellular introduced with Series 3). Sizes per watchDetails."
+				}
+			],
 			"chips": [
 				{
 					"id": "apple-watch-series-2-chip",
@@ -3300,15 +4739,11 @@
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": false,
-					"systems": [
-						"GPS"
-					]
+					"systems": ["GPS"]
 				}
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode"
 			},
 			"physical": {
@@ -3364,10 +4799,7 @@
 				"builtInApps": []
 			},
 			"watchDetails": {
-				"caseSizes": [
-					"42-mm",
-					"38-mm"
-				],
+				"caseSizes": ["42-mm", "38-mm"],
 				"alwaysOn": false,
 				"wideAngleDisplay": false,
 				"hasSpeaker": false,
@@ -3375,7 +4807,8 @@
 				"swimproofClassification": "Swim"
 			},
 			"overviewImages": [],
-			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, swatches, product image bytes and Apple-hosted URLs are absent from supplied evidence and remain null/empty rather than inferred.\n\nLegacy Watch fields removed from the independent shape and preserved verbatim where no typed field exists: {\"family\":\"watch\",\"memoryOptions\":[],\"cameras\":[],\"storageOptions\":[],\"accessories\":[],\"watchDetails\":{\"caseSizes\":[\"42-mm\",\"38-mm\"],\"alwaysOn\":false,\"wideAngleDisplay\":false,\"hasSpeaker\":false,\"hasSiren\":false,\"swimproofClassification\":\"Swim\",\"completeSummary\":[\"Retina display\",\"S2 chip with dual-core processor\",\"Up to 18 hours33\",\"Water-resistant to 50 m12\",\"Swim\",\"42 mm by 36.4 mm by 11.4 mm (42-mm) 34.2 grams (aluminium) 52.4 grams (stainless steel) 45.6 grams (ceramic)\"]}}\n\nLegacy audio facts without dedicated fields: {\"formats\":[]}\n\nLegacy colour notes retained verbatim: [\"Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value.\",\"Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value.\",\"Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value.\",\"Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value.\"]\n\nThe independent Watch schema requires configurations; the source supplied no configuration records, so this field is retained as an empty array without inventing data."
+			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, swatches, product image bytes and Apple-hosted URLs are absent from supplied evidence and remain null/empty rather than inferred.\n\nLegacy Watch fields removed from the independent shape and preserved verbatim where no typed field exists: {\"family\":\"watch\",\"memoryOptions\":[],\"cameras\":[],\"storageOptions\":[],\"accessories\":[],\"watchDetails\":{\"caseSizes\":[\"42-mm\",\"38-mm\"],\"alwaysOn\":false,\"wideAngleDisplay\":false,\"hasSpeaker\":false,\"hasSiren\":false,\"swimproofClassification\":\"Swim\",\"completeSummary\":[\"Retina display\",\"S2 chip with dual-core processor\",\"Up to 18 hours33\",\"Water-resistant to 50 m12\",\"Swim\",\"42 mm by 36.4 mm by 11.4 mm (42-mm) 34.2 grams (aluminium) 52.4 grams (stainless steel) 45.6 grams (ceramic)\"]}}\n\nLegacy audio facts without dedicated fields: {\"formats\":[]}\n\nLegacy colour notes retained verbatim: [\"Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value.\",\"Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value.\",\"Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value.\",\"Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value.\"]\n\nThe independent Watch schema requires configurations; the source supplied no configuration records, so this field is retained as an empty array without inventing data.",
+			"priceAud": 529
 		},
 		{
 			"id": "apple-watch-series-3",
@@ -3385,23 +4818,95 @@
 				{
 					"id": "space-grey-aluminium",
 					"displayName": "Space Grey Aluminium",
-					"swatch": "#ffffff",
-					"images": []
+					"finish": {
+						"base": "#6a6d70",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/watch_series_3_dualcore_newband_inline.jpg.large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/watch_series_3_dualcore_newband_inline-large-2x.jpg",
+							"widthPx": 1142,
+							"heightPx": 1280
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/watch_series_3_dualcore_newband_inline.jpg.large.jpg",
+							"localPath": "public/data/apple-watch/images/watch_series_3_dualcore_newband_inline-large.jpg",
+							"widthPx": 571,
+							"heightPx": 640
+						}
+					]
 				},
 				{
 					"id": "silver-aluminium",
 					"displayName": "Silver Aluminium",
-					"swatch": "#ffffff",
-					"images": []
+					"finish": {
+						"base": "#d8d8dc",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/watch_series_3_sportloop_one_newband_inline.jpg.large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/watch_series_3_sportloop_one_newband_inline-large-2x.jpg",
+							"widthPx": 1142,
+							"heightPx": 1240
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/watch_series_3_sportloop_one_newband_inline.jpg.large.jpg",
+							"localPath": "public/data/apple-watch/images/watch_series_3_sportloop_one_newband_inline-large.jpg",
+							"widthPx": 571,
+							"heightPx": 620
+						}
+					]
 				},
 				{
 					"id": "gold-aluminium",
 					"displayName": "Gold Aluminium",
-					"swatch": "#ffffff",
-					"images": []
+					"finish": {
+						"base": "#e3c9b7",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/lifestyle/watch_series_3_walking_wristshot_inline.jpg.large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/watch_series_3_walking_wristshot_inline-large-2x.jpg",
+							"widthPx": 1142,
+							"heightPx": 1424
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/lifestyle/watch_series_3_walking_wristshot_inline.jpg.large.jpg",
+							"localPath": "public/data/apple-watch/images/watch_series_3_walking_wristshot_inline-large.jpg",
+							"widthPx": 571,
+							"heightPx": 712
+						}
+					]
 				}
 			],
-			"configurations": [],
+			"configurations": [
+				{
+					"id": "38mm-gps",
+					"displayName": "38mm GPS",
+					"caseSize": "38mm",
+					"cellular": false,
+					"gps": true,
+					"priceAud": 459,
+					"sourceNotes": "GPS variant per data/tmp/watch/watch-compare-2026.html (GPS and GPS + Cellular buy options listed). priceAud is the cheapest displayed device price."
+				},
+				{
+					"id": "42mm-gps-cellular",
+					"displayName": "42mm GPS + Cellular",
+					"caseSize": "42mm",
+					"cellular": true,
+					"gps": true,
+					"sourceNotes": "GPS + Cellular variant per data/tmp/watch/watch-compare-2026.html (Cellular options listed)."
+				}
+			],
 			"chips": [
 				{
 					"id": "apple-watch-series-3-chip",
@@ -3447,15 +4952,11 @@
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": false,
-					"systems": [
-						"GPS"
-					]
+					"systems": ["GPS"]
 				}
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode"
 			},
 			"physical": {
@@ -3516,10 +5017,7 @@
 				"builtInApps": []
 			},
 			"watchDetails": {
-				"caseSizes": [
-					"42-mm",
-					"38-mm"
-				],
+				"caseSizes": ["42-mm", "38-mm"],
 				"alwaysOn": false,
 				"wideAngleDisplay": false,
 				"hasSpeaker": false,
@@ -3527,7 +5025,8 @@
 				"swimproofClassification": "Swim"
 			},
 			"overviewImages": [],
-			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, swatches, product image bytes and Apple-hosted URLs are absent from supplied evidence and remain null/empty rather than inferred.\n\nLegacy Watch fields removed from the independent shape and preserved verbatim where no typed field exists: {\"family\":\"watch\",\"memoryOptions\":[],\"cameras\":[],\"storageOptions\":[],\"accessories\":[],\"watchDetails\":{\"caseSizes\":[\"42-mm\",\"38-mm\"],\"alwaysOn\":false,\"wideAngleDisplay\":false,\"hasSpeaker\":false,\"hasSiren\":false,\"swimproofClassification\":\"Swim\",\"completeSummary\":[\"Retina display\",\"S3 chip with dual-core processor\",\"Up to 18 hours32\",\"Water-resistant to 50 m12\",\"Swim\",\"42 mm by 36.4 mm by 11.4 mm (42-mm) 32.3 grams (aluminium, GPS) 34.9 grams (aluminium, GPS + Cellular) 52.8 grams (stainless steel)46.4 grams (ceramic)\"]}}\n\nLegacy audio facts without dedicated fields: {\"formats\":[]}\n\nLegacy colour notes retained verbatim: [\"Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value.\",\"Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value.\",\"Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value.\"]\n\nThe independent Watch schema requires configurations; the source supplied no configuration records, so this field is retained as an empty array without inventing data."
+			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, swatches, product image bytes and Apple-hosted URLs are absent from supplied evidence and remain null/empty rather than inferred.\n\nLegacy Watch fields removed from the independent shape and preserved verbatim where no typed field exists: {\"family\":\"watch\",\"memoryOptions\":[],\"cameras\":[],\"storageOptions\":[],\"accessories\":[],\"watchDetails\":{\"caseSizes\":[\"42-mm\",\"38-mm\"],\"alwaysOn\":false,\"wideAngleDisplay\":false,\"hasSpeaker\":false,\"hasSiren\":false,\"swimproofClassification\":\"Swim\",\"completeSummary\":[\"Retina display\",\"S3 chip with dual-core processor\",\"Up to 18 hours32\",\"Water-resistant to 50 m12\",\"Swim\",\"42 mm by 36.4 mm by 11.4 mm (42-mm) 32.3 grams (aluminium, GPS) 34.9 grams (aluminium, GPS + Cellular) 52.8 grams (stainless steel)46.4 grams (ceramic)\"]}}\n\nLegacy audio facts without dedicated fields: {\"formats\":[]}\n\nLegacy colour notes retained verbatim: [\"Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value.\",\"Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value.\",\"Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value.\"]\n\nThe independent Watch schema requires configurations; the source supplied no configuration records, so this field is retained as an empty array without inventing data.",
+			"priceAud": 459
 		},
 		{
 			"id": "apple-watch-series-4",
@@ -3537,23 +5036,95 @@
 				{
 					"id": "space-grey-aluminium",
 					"displayName": "Space Grey Aluminium",
-					"swatch": "#ffffff",
-					"images": []
+					"finish": {
+						"base": "#6a6d70",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/apple-watch-series4_watch-front-training_09122018_big.jpg.large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-series4-watch-front-training-09122018-large-2x.jpg",
+							"widthPx": 1632,
+							"heightPx": 2040
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/apple-watch-series4_watch-front-training_09122018_big.jpg.large.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-series4-watch-front-training-09122018-large.jpg",
+							"widthPx": 816,
+							"heightPx": 1020
+						}
+					]
 				},
 				{
 					"id": "silver-aluminium",
 					"displayName": "Silver Aluminium",
-					"swatch": "#ffffff",
-					"images": []
+					"finish": {
+						"base": "#d8d8dc",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/lifestyle/apple-watch-series4_yoga_09122018_inline.jpg.large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-series4-yoga-09122018-large-2x.jpg",
+							"widthPx": 1142,
+							"heightPx": 770
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/lifestyle/apple-watch-series4_yoga_09122018_inline.jpg.large.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-series4-yoga-09122018-large.jpg",
+							"widthPx": 571,
+							"heightPx": 385
+						}
+					]
 				},
 				{
 					"id": "gold-aluminium",
 					"displayName": "Gold Aluminium",
-					"swatch": "#ffffff",
-					"images": []
+					"finish": {
+						"base": "#e3c9b7",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/apple-watch-series4_gold-milanese_09122018_carousel.jpg.large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-series4-gold-milanese-09122018-large-2x.jpg",
+							"widthPx": 1142,
+							"heightPx": 1308
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/apple-watch-series4_gold-milanese_09122018_carousel.jpg.large.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-series4-gold-milanese-09122018-large.jpg",
+							"widthPx": 571,
+							"heightPx": 654
+						}
+					]
 				}
 			],
-			"configurations": [],
+			"configurations": [
+				{
+					"id": "40mm-gps",
+					"displayName": "40mm GPS",
+					"caseSize": "40mm",
+					"cellular": false,
+					"gps": true,
+					"priceAud": 599,
+					"sourceNotes": "GPS variant per data/tmp/watch/watch-compare-2026.html (GPS and GPS + Cellular buy options listed). priceAud is the cheapest displayed device price."
+				},
+				{
+					"id": "44mm-gps-cellular",
+					"displayName": "44mm GPS + Cellular",
+					"caseSize": "44mm",
+					"cellular": true,
+					"gps": true,
+					"sourceNotes": "GPS + Cellular variant per data/tmp/watch/watch-compare-2026.html (Cellular options listed)."
+				}
+			],
 			"chips": [
 				{
 					"id": "apple-watch-series-4-chip",
@@ -3599,15 +5170,11 @@
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": false,
-					"systems": [
-						"GPS"
-					]
+					"systems": ["GPS"]
 				}
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode"
 			},
 			"physical": {
@@ -3658,10 +5225,7 @@
 				"builtInApps": []
 			},
 			"watchDetails": {
-				"caseSizes": [
-					"44-mm",
-					"40-mm"
-				],
+				"caseSizes": ["44-mm", "40-mm"],
 				"alwaysOn": false,
 				"wideAngleDisplay": false,
 				"hasSpeaker": false,
@@ -3669,7 +5233,8 @@
 				"swimproofClassification": "Swim"
 			},
 			"overviewImages": [],
-			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, swatches, product image bytes and Apple-hosted URLs are absent from supplied evidence and remain null/empty rather than inferred.\n\nLegacy Watch fields removed from the independent shape and preserved verbatim where no typed field exists: {\"family\":\"watch\",\"memoryOptions\":[],\"cameras\":[],\"storageOptions\":[],\"accessories\":[],\"watchDetails\":{\"caseSizes\":[\"44-mm\",\"40-mm\"],\"alwaysOn\":false,\"wideAngleDisplay\":false,\"hasSpeaker\":false,\"hasSiren\":false,\"swimproofClassification\":\"Swim\",\"completeSummary\":[\"Retina display\",\"S4 chip with 64-bit dual-core processor\",\"Up to 18 hours31\",\"Low Power Mode\",\"Water-resistant to 50 m12\",\"Swim\",\"44 mm by 38 mm by 10.7 mm (44-mm) 36.7 grams (aluminium) 47.9 grams (stainless steel)\"]}}\n\nLegacy audio facts without dedicated fields: {\"formats\":[]}\n\nLegacy colour notes retained verbatim: [\"Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value.\",\"Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value.\",\"Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value.\"]\n\nThe independent Watch schema requires configurations; the source supplied no configuration records, so this field is retained as an empty array without inventing data."
+			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, swatches, product image bytes and Apple-hosted URLs are absent from supplied evidence and remain null/empty rather than inferred.\n\nLegacy Watch fields removed from the independent shape and preserved verbatim where no typed field exists: {\"family\":\"watch\",\"memoryOptions\":[],\"cameras\":[],\"storageOptions\":[],\"accessories\":[],\"watchDetails\":{\"caseSizes\":[\"44-mm\",\"40-mm\"],\"alwaysOn\":false,\"wideAngleDisplay\":false,\"hasSpeaker\":false,\"hasSiren\":false,\"swimproofClassification\":\"Swim\",\"completeSummary\":[\"Retina display\",\"S4 chip with 64-bit dual-core processor\",\"Up to 18 hours31\",\"Low Power Mode\",\"Water-resistant to 50 m12\",\"Swim\",\"44 mm by 38 mm by 10.7 mm (44-mm) 36.7 grams (aluminium) 47.9 grams (stainless steel)\"]}}\n\nLegacy audio facts without dedicated fields: {\"formats\":[]}\n\nLegacy colour notes retained verbatim: [\"Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value.\",\"Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value.\",\"Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value.\"]\n\nThe independent Watch schema requires configurations; the source supplied no configuration records, so this field is retained as an empty array without inventing data.",
+			"priceAud": 599
 		},
 		{
 			"id": "apple-watch-series-5",
@@ -3679,29 +5244,119 @@
 				{
 					"id": "space-grey-aluminium",
 					"displayName": "Space Grey Aluminium",
-					"swatch": "#ffffff",
-					"images": []
+					"finish": {
+						"base": "#6a6d70",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/Apple_watch_series_5-gold-aluminum-case-pomegranate-band-and-space-gray-aluminum-case-pine-green-band-091019_big.jpg.large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-series5-gold-aluminum-case-pomegranate-band-and-space-gray-aluminum-case-pine-green-band-091019-large-2x.jpg",
+							"widthPx": 1632,
+							"heightPx": 1696
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/Apple_watch_series_5-gold-aluminum-case-pomegranate-band-and-space-gray-aluminum-case-pine-green-band-091019_big.jpg.large.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-series5-gold-aluminum-case-pomegranate-band-and-space-gray-aluminum-case-pine-green-band-091019-large.jpg",
+							"widthPx": 816,
+							"heightPx": 848
+						}
+					]
 				},
 				{
 					"id": "silver-aluminium",
 					"displayName": "Silver Aluminium",
-					"swatch": "#ffffff",
-					"images": []
+					"finish": {
+						"base": "#d8d8dc",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/Apple_watch_series_5-silver-aluminum-case-camel-band-091019_carousel.jpg.large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-series5-silver-aluminum-case-camel-band-091019-large-2x.jpg",
+							"widthPx": 1142,
+							"heightPx": 1142
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/Apple_watch_series_5-silver-aluminum-case-camel-band-091019_carousel.jpg.large.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-series5-silver-aluminum-case-camel-band-091019-large.jpg",
+							"widthPx": 571,
+							"heightPx": 571
+						}
+					]
 				},
 				{
 					"id": "gold-aluminium",
 					"displayName": "Gold Aluminium",
-					"swatch": "#ffffff",
-					"images": []
+					"finish": {
+						"base": "#e3c9b7",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/Apple_watch_series_5-pomegranate-band-gold-aluminum-case-091019_carousel.jpg.large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-series5-pomegranate-band-gold-aluminum-case-091019-large-2x.jpg",
+							"widthPx": 1142,
+							"heightPx": 1142
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/Apple_watch_series_5-pomegranate-band-gold-aluminum-case-091019_carousel.jpg.large.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-series5-pomegranate-band-gold-aluminum-case-091019-large.jpg",
+							"widthPx": 571,
+							"heightPx": 571
+						}
+					]
 				},
 				{
 					"id": "titanium",
 					"displayName": "Titanium",
-					"swatch": "#ffffff",
-					"images": []
+					"finish": {
+						"base": "#e3ddd7",
+						"material": "brushed-titanium"
+					},
+					"images": [
+						{
+							"label": "large 2x",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/Apple_watch_series_5-natural-brushed-titanium-case-viper-natural-band-091019_carousel.jpg.large_2x.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-series5-natural-brushed-titanium-case-viper-natural-band-091019-large-2x.jpg",
+							"widthPx": 1142,
+							"heightPx": 1142
+						},
+						{
+							"label": "large",
+							"appleUrl": "https://www.apple.com/newsroom/images/product/watch/standard/Apple_watch_series_5-natural-brushed-titanium-case-viper-natural-band-091019_carousel.jpg.large.jpg",
+							"localPath": "public/data/apple-watch/images/apple-watch-series5-natural-brushed-titanium-case-viper-natural-band-091019-large.jpg",
+							"widthPx": 571,
+							"heightPx": 571
+						}
+					]
 				}
 			],
-			"configurations": [],
+			"configurations": [
+				{
+					"id": "40mm-gps",
+					"displayName": "40mm GPS",
+					"caseSize": "40mm",
+					"cellular": false,
+					"gps": true,
+					"priceAud": 649,
+					"sourceNotes": "GPS variant per data/tmp/watch/watch-compare-2026.html (GPS and GPS + Cellular buy options listed). priceAud is the cheapest displayed device price."
+				},
+				{
+					"id": "44mm-gps-cellular",
+					"displayName": "44mm GPS + Cellular",
+					"caseSize": "44mm",
+					"cellular": true,
+					"gps": true,
+					"sourceNotes": "GPS + Cellular variant per data/tmp/watch/watch-compare-2026.html (Cellular options listed)."
+				}
+			],
 			"chips": [
 				{
 					"id": "apple-watch-series-5-chip",
@@ -3747,15 +5402,11 @@
 				"gps": {
 					"present": true,
 					"precisionDualFrequency": false,
-					"systems": [
-						"GPS"
-					]
+					"systems": ["GPS"]
 				}
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode"
 			},
 			"physical": {
@@ -3816,10 +5467,7 @@
 				"builtInApps": []
 			},
 			"watchDetails": {
-				"caseSizes": [
-					"44-mm",
-					"40-mm"
-				],
+				"caseSizes": ["44-mm", "40-mm"],
 				"alwaysOn": true,
 				"wideAngleDisplay": false,
 				"hasSpeaker": false,
@@ -3827,7 +5475,8 @@
 				"swimproofClassification": "Swim"
 			},
 			"overviewImages": [],
-			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, swatches, product image bytes and Apple-hosted URLs are absent from supplied evidence and remain null/empty rather than inferred.\n\nLegacy Watch fields removed from the independent shape and preserved verbatim where no typed field exists: {\"family\":\"watch\",\"memoryOptions\":[],\"cameras\":[],\"storageOptions\":[],\"accessories\":[],\"watchDetails\":{\"caseSizes\":[\"44-mm\",\"40-mm\"],\"alwaysOn\":true,\"wideAngleDisplay\":false,\"hasSpeaker\":false,\"hasSiren\":false,\"swimproofClassification\":\"Swim\",\"completeSummary\":[\"Always-On Retina display\",\"S5 chip with 64-bit dual-core processor\",\"Up to 18 hours30\",\"Low Power Mode\",\"Water-resistant to 50 m12\",\"Swim\",\"44 mm by 38 mm by 10.74 mm (44-mm) 36.5 grams (aluminium) 47.8 grams (stainless steel) 41.7 grams (titanium) 46.7 grams (ceramic)\"]}}\n\nLegacy audio facts without dedicated fields: {\"formats\":[]}\n\nLegacy colour notes retained verbatim: [\"Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value.\",\"Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value.\",\"Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value.\",\"Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value.\"]\n\nThe independent Watch schema requires configurations; the source supplied no configuration records, so this field is retained as an empty array without inventing data."
+			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue. Prices, swatches, product image bytes and Apple-hosted URLs are absent from supplied evidence and remain null/empty rather than inferred.\n\nLegacy Watch fields removed from the independent shape and preserved verbatim where no typed field exists: {\"family\":\"watch\",\"memoryOptions\":[],\"cameras\":[],\"storageOptions\":[],\"accessories\":[],\"watchDetails\":{\"caseSizes\":[\"44-mm\",\"40-mm\"],\"alwaysOn\":true,\"wideAngleDisplay\":false,\"hasSpeaker\":false,\"hasSiren\":false,\"swimproofClassification\":\"Swim\",\"completeSummary\":[\"Always-On Retina display\",\"S5 chip with 64-bit dual-core processor\",\"Up to 18 hours30\",\"Low Power Mode\",\"Water-resistant to 50 m12\",\"Swim\",\"44 mm by 38 mm by 10.74 mm (44-mm) 36.5 grams (aluminium) 47.8 grams (stainless steel) 41.7 grams (titanium) 46.7 grams (ceramic)\"]}}\n\nLegacy audio facts without dedicated fields: {\"formats\":[]}\n\nLegacy colour notes retained verbatim: [\"Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value.\",\"Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value.\",\"Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value.\",\"Colour name from hidden compare row Eo85SkTA. Swatch is a non-authoritative placeholder required by the contract; supplied evidence contains no swatch bytes or CSS value.\"]\n\nThe independent Watch schema requires configurations; the source supplied no configuration records, so this field is retained as an empty array without inventing data.",
+			"priceAud": 649
 		}
 	]
 }

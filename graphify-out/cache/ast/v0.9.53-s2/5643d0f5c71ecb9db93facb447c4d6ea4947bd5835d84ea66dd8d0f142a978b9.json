@@ -1,0 +1,84 @@
+{
+	"nodes": [
+		{
+			"id": "$graphify-root$_scratch_image_path_map_md",
+			"label": "image-path-map.md",
+			"file_type": "document",
+			"node_kind": "page",
+			"source_file": ".scratch/image-path-map.md",
+			"source_location": "L1"
+		},
+		{
+			"id": "$graphify-root$_scratch_image_path_map_pauli_canonical_image_path_map",
+			"label": "Pauli Canonical Image Path Map",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/image-path-map.md",
+			"source_location": "L1"
+		},
+		{
+			"id": "$graphify-root$_scratch_image_path_map_section_mapping",
+			"label": "Section Mapping",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/image-path-map.md",
+			"source_location": "L9"
+		},
+		{
+			"id": "$graphify-root$_scratch_image_path_map_json_normalization",
+			"label": "JSON Normalization",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/image-path-map.md",
+			"source_location": "L22"
+		},
+		{
+			"id": "$graphify-root$_scratch_image_path_map_final_checks",
+			"label": "Final Checks",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/image-path-map.md",
+			"source_location": "L30"
+		}
+	],
+	"edges": [
+		{
+			"source": "$graphify-root$_scratch_image_path_map_md",
+			"target": "$graphify-root$_scratch_image_path_map_pauli_canonical_image_path_map",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/image-path-map.md",
+			"source_location": "L1",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_image_path_map_pauli_canonical_image_path_map",
+			"target": "$graphify-root$_scratch_image_path_map_section_mapping",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/image-path-map.md",
+			"source_location": "L9",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_image_path_map_pauli_canonical_image_path_map",
+			"target": "$graphify-root$_scratch_image_path_map_json_normalization",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/image-path-map.md",
+			"source_location": "L22",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_image_path_map_pauli_canonical_image_path_map",
+			"target": "$graphify-root$_scratch_image_path_map_final_checks",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/image-path-map.md",
+			"source_location": "L30",
+			"weight": 1.0
+		}
+	],
+	"input_tokens": 0,
+	"output_tokens": 0
+}

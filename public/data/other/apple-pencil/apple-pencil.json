@@ -110,7 +110,29 @@
 			"category": "pencil",
 			"priceAud": null,
 			"colors": [],
-			"images": [],
+			"images": [
+				{
+					"label": "Product image",
+					"appleUrl": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MK0C2?wid=1000&hei=1000&fmt=jpeg&qlt=95",
+					"localPath": "public/data/other/apple-pencil/images/apple-pencil-1st-generation-mk0c2.jpg",
+					"widthPx": 1000,
+					"heightPx": 1000
+				},
+				{
+					"label": "Alternate view",
+					"appleUrl": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MK0C2_AV1?wid=1000&hei=1000&fmt=jpeg&qlt=95",
+					"localPath": "public/data/other/apple-pencil/images/apple-pencil-1st-generation-mk0c2-av1.jpg",
+					"widthPx": 1000,
+					"heightPx": 1000
+				},
+				{
+					"label": "Alternate view",
+					"appleUrl": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MK0C2_AV2?wid=1000&hei=1000&fmt=jpeg&qlt=95",
+					"localPath": "public/data/other/apple-pencil/images/apple-pencil-1st-generation-mk0c2-av2.jpg",
+					"widthPx": 1000,
+					"heightPx": 1000
+				}
+			],
 			"compatibleDeviceIds": [],
 			"capabilities": [],
 			"sourceUrl": "https://www.apple.com/au-edu/shop/product/myqw3za/a/apple-pencil-1st-generation",

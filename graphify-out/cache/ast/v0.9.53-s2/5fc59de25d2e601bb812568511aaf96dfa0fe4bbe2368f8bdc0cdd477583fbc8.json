@@ -1,0 +1,118 @@
+{
+	"nodes": [
+		{
+			"id": "$graphify-root$_data_rules_apple_tv_md",
+			"label": "apple-tv.md",
+			"file_type": "document",
+			"node_kind": "page",
+			"source_file": "data/rules/apple-tv.md",
+			"source_location": "L1"
+		},
+		{
+			"id": "$graphify-root$_data_rules_apple_tv_apple_tv_extraction_rules",
+			"label": "Apple TV extraction rules",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": "data/rules/apple-tv.md",
+			"source_location": "L1"
+		},
+		{
+			"id": "$graphify-root$_data_rules_apple_tv_identity_and_pricing",
+			"label": "Identity and pricing",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": "data/rules/apple-tv.md",
+			"source_location": "L5"
+		},
+		{
+			"id": "$graphify-root$_data_rules_apple_tv_configurations",
+			"label": "Configurations",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": "data/rules/apple-tv.md",
+			"source_location": "L10"
+		},
+		{
+			"id": "$graphify-root$_data_rules_apple_tv_hardware_and_connectivity",
+			"label": "Hardware and connectivity",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": "data/rules/apple-tv.md",
+			"source_location": "L17"
+		},
+		{
+			"id": "$graphify-root$_data_rules_apple_tv_evidence_preservation",
+			"label": "Evidence preservation",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": "data/rules/apple-tv.md",
+			"source_location": "L26"
+		},
+		{
+			"id": "$graphify-root$_data_rules_apple_tv_exclusions",
+			"label": "Exclusions",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": "data/rules/apple-tv.md",
+			"source_location": "L31"
+		}
+	],
+	"edges": [
+		{
+			"source": "$graphify-root$_data_rules_apple_tv_md",
+			"target": "$graphify-root$_data_rules_apple_tv_apple_tv_extraction_rules",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": "data/rules/apple-tv.md",
+			"source_location": "L1",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_data_rules_apple_tv_apple_tv_extraction_rules",
+			"target": "$graphify-root$_data_rules_apple_tv_identity_and_pricing",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": "data/rules/apple-tv.md",
+			"source_location": "L5",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_data_rules_apple_tv_apple_tv_extraction_rules",
+			"target": "$graphify-root$_data_rules_apple_tv_configurations",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": "data/rules/apple-tv.md",
+			"source_location": "L10",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_data_rules_apple_tv_apple_tv_extraction_rules",
+			"target": "$graphify-root$_data_rules_apple_tv_hardware_and_connectivity",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": "data/rules/apple-tv.md",
+			"source_location": "L17",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_data_rules_apple_tv_apple_tv_extraction_rules",
+			"target": "$graphify-root$_data_rules_apple_tv_evidence_preservation",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": "data/rules/apple-tv.md",
+			"source_location": "L26",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_data_rules_apple_tv_apple_tv_extraction_rules",
+			"target": "$graphify-root$_data_rules_apple_tv_exclusions",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": "data/rules/apple-tv.md",
+			"source_location": "L31",
+			"weight": 1.0
+		}
+	],
+	"input_tokens": 0,
+	"output_tokens": 0
+}

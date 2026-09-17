@@ -3,7 +3,7 @@
   "configVersion": 1,
   "workspaces": {
     "": {
-      "name": "apple-tracker",
+      "name": "passionfruit",
       "dependencies": {
         "cnfast": "^0.1.0",
         "fumadocs-core": "16.14.5",

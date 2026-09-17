@@ -1,0 +1,38 @@
+{
+	"nodes": [
+		{
+			"id": "$graphify-root$_content_device_notes_mac_imac_24_in_m1_four_ports_2021_md",
+			"label": "imac-24-in-m1-four-ports-2021.md",
+			"file_type": "document",
+			"node_kind": "page",
+			"source_file": "content/device-notes/mac/imac-24-in-m1-four-ports-2021.md",
+			"source_location": "L1",
+			"frontmatter": {
+				"goodToBuy": "unknown",
+				"editorial": "No editorial note has been authored yet.",
+				"tags": "[]"
+			}
+		},
+		{
+			"id": "$graphify-root$_content_device_notes_mac_imac_24_in_m1_four_ports_2021_imac_24_in_m1_four_ports_2021",
+			"label": "iMac 24-in. (M1, four ports, 2021)",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": "content/device-notes/mac/imac-24-in-m1-four-ports-2021.md",
+			"source_location": "L7"
+		}
+	],
+	"edges": [
+		{
+			"source": "$graphify-root$_content_device_notes_mac_imac_24_in_m1_four_ports_2021_md",
+			"target": "$graphify-root$_content_device_notes_mac_imac_24_in_m1_four_ports_2021_imac_24_in_m1_four_ports_2021",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": "content/device-notes/mac/imac-24-in-m1-four-ports-2021.md",
+			"source_location": "L7",
+			"weight": 1.0
+		}
+	],
+	"input_tokens": 0,
+	"output_tokens": 0
+}

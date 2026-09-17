@@ -17,6 +17,7 @@ Extract every in-scope Apple Watch model from Apple Watch DevTools HTML under `d
 - Record battery runtimes, charging, fast charge, and power-supply facts in `batteryAndPower`.
 - Record Wi-Fi, Bluetooth, cellular, GPS, UWB, and ports in `connectivity`.
 - Record authentication methods, dimensions, weights, case components, water resistance, IP rating, launch software, watch sizes, case materials, and cellular availability in their typed bundles.
+- Record `gestures` and `healthSensingSystem` booleans in `watchDetails` where evidenced.
 - Record overview imagery in `overviewImages`.
 
 ## Contract limits

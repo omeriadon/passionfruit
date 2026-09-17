@@ -1,9 +1,144 @@
 import { loader } from "fumadocs-core/source";
+import type * as PageTree from "fumadocs-core/page-tree";
+import { createElement, type ReactNode } from "react";
 import { lucideIconsPlugin } from "fumadocs-core/source/lucide-icons";
 import { docsContentRoute, docsImageRoute, docsRoute } from "./shared";
 import { defineDocs } from "fumadocs-mdx/macro";
 import { metaSchema, pageSchema } from "fumadocs-core/source/schema";
+import type {
+	CatalogCategory,
+	CatalogRoute,
+	IpadAccessorySection,
+	OtherCatalogSection,
+} from "./shared";
+import {
+	catalogCategories,
+	getCatalogRoute,
+	ipadAccessorySections,
+	otherCatalogSections,
+} from "./shared";
+import { sortDevices } from "./catalog/config";
+import type { CatalogDevice } from "./catalog/types";
+import { DeviceSidebarLabel } from "@/components/catalog/DeviceSidebarLabel";
 
+// Catalog data imports are intentionally kept in this server-side source module.
+import airpodsData from "../../public/data/airpods/airpods.json";
+import appleTVData from "../../public/data/apple-tv/apple-tv.json";
+import appleWatchData from "../../public/data/apple-watch/apple-watch.json";
+import homePodData from "../../public/data/homepod/homepod.json";
+import ipadData from "../../public/data/ipad/ipad.json";
+import iphoneData from "../../public/data/iphone/iphone.json";
+import macData from "../../public/data/mac/mac.json";
+import visionData from "../../public/data/vision/vision.json";
+import applePencilData from "../../public/data/other/apple-pencil/apple-pencil.json";
+import magicKeyboardData from "../../public/data/other/magic-keyboard/magic-keyboard.json";
+import appleDisplayData from "../../public/data/other/apple-display/apple-display.json";
+
+export type CatalogDataset =
+	| typeof airpodsData
+	| typeof appleTVData
+	| typeof appleWatchData
+	| typeof homePodData
+	| typeof ipadData
+	| typeof iphoneData
+	| typeof macData
+	| typeof visionData
+	| typeof applePencilData
+	| typeof magicKeyboardData;
+
+type OtherCatalogDataset = typeof appleDisplayData;
+
+const catalogDatasets: Record<CatalogCategory, CatalogDataset> = {
+	airpods: airpodsData,
+	"apple-tv": appleTVData,
+	"apple-watch": appleWatchData,
+	homepod: homePodData,
+	ipad: ipadData,
+	iphone: iphoneData,
+	mac: macData,
+	vision: visionData,
+};
+
+const accessoryDatasets: Record<IpadAccessorySection, CatalogDataset> = {
+	"apple-pencil": applePencilData,
+	"magic-keyboard": magicKeyboardData,
+};
+
+const otherDatasets: Record<OtherCatalogSection, OtherCatalogDataset> = {
+	"apple-display": appleDisplayData,
+};
+
+export function getCatalogData(route: CatalogRoute): CatalogDataset {
+	if (route.kind === "other" || route.kind === "other-device") {
+		throw new Error("Other catalog routes use getOtherCatalogData.");
+	}
+	if (route.kind === "accessory" || route.kind === "accessory-device") {
+		return accessoryDatasets[route.accessory];
+	}
+
+	return catalogDatasets[route.category];
+}
+
+export function getOtherCatalogData(section: OtherCatalogSection) {
+	return otherDatasets[section];
+}
+
+export function getCatalogRecordCount(route: CatalogRoute): number {
+	if (route.kind === "other" || route.kind === "other-device") {
+		return getOtherCatalogData(route.section).products.length;
+	}
+	const data = getCatalogData(route);
+	if ("devices" in data) return data.devices.length;
+	if ("accessories" in data) return data.accessories.length;
+	return 0;
+}
+
+export function getCatalogRouteData(slugs: string[] | undefined) {
+	const route = getCatalogRoute(slugs);
+	if (route?.kind === "other" || route?.kind === "other-device") {
+		return route
+			? { route, data: getOtherCatalogData(route.section) }
+			: undefined;
+	}
+	return route ? { route, data: getCatalogData(route) } : undefined;
+}
+
+export function getCatalogStaticParams(): { slug: string[] }[] {
+	const params: { slug: string[] }[] = [];
+
+	for (const category of Object.keys(catalogDatasets) as CatalogCategory[]) {
+		const data = catalogDatasets[category];
+		if ("devices" in data) {
+			for (const device of data.devices) {
+				params.push({ slug: [category, device.id] });
+			}
+		}
+	}
+
+	for (const accessory of ipadAccessorySections) {
+		const data = accessoryDatasets[accessory.slug];
+		if ("accessories" in data) {
+			for (const device of data.accessories) {
+				params.push({
+					slug: ["ipad", "accessories", accessory.slug, device.id],
+				});
+			}
+		}
+	}
+
+	for (const section of otherCatalogSections) {
+		params.push({ slug: ["other", section.slug] });
+		for (const product of otherDatasets[section.slug].products) {
+			params.push({ slug: ["other", section.slug, product.id] });
+		}
+	}
+
+	return params;
+}
+
+// Content source configuration. Change `dir` to move the MDX source, adjust
+// either schema to change frontmatter validation, or disable processed
+// markdown when raw page content is not needed by a route.
 const docs = defineDocs({
 	dir: "content/docs",
 	docs: {
@@ -17,12 +152,310 @@ const docs = defineDocs({
 	},
 });
 
-// See https://fumadocs.dev/docs/headless/source-api for more info
-export const source = loader({
+// Loader configuration. `baseUrl` controls generated links, `source` is the
+// normalized Fumadocs source, and `plugins` extends page-tree generation.
+const sourceOptions = {
 	baseUrl: docsRoute,
 	source: docs.toFumadocsSource(),
 	plugins: [lucideIconsPlugin()],
-});
+};
+
+// See https://fumadocs.dev/docs/headless/source-api for more info
+export const source = loader(sourceOptions);
+
+function findFolderByRoute(
+	node: PageTree.Root | PageTree.Folder,
+	url: string,
+): PageTree.Folder | undefined {
+	for (const child of node.children) {
+		if (child.type !== "folder") continue;
+		if (
+			child.index?.url === url ||
+			(child.$ref?.folder && `${docsRoute}/${child.$ref.folder}` === url)
+		) {
+			return child;
+		}
+		const match = findFolderByRoute(child, url);
+		if (match) return match;
+	}
+	return undefined;
+}
+
+function catalogPageItem(
+	id: string,
+	name: ReactNode,
+	url: string,
+): PageTree.Item {
+	return {
+		$id: `catalog:${url}`,
+		type: "page",
+		name,
+		url,
+	};
+}
+
+function withChildren(
+	node: PageTree.Root | PageTree.Folder,
+	childrenByUrl: ReadonlyMap<string, PageTree.Item[]>,
+): PageTree.Root | PageTree.Folder {
+	return {
+		...node,
+		children: node.children.map((child) => {
+			if (child.type !== "folder") return child;
+			const transformed = withChildren(child, childrenByUrl) as PageTree.Folder;
+			const folderUrl =
+				child.index?.url ??
+				(child.$ref?.folder ? `${docsRoute}/${child.$ref.folder}` : "");
+			const additions = childrenByUrl.get(folderUrl);
+			return additions
+				? { ...transformed, children: [...transformed.children, ...additions] }
+				: transformed;
+		}),
+	};
+}
+
+/**
+ * Add data-backed detail routes to the official Fumadocs page tree. These
+ * routes do not have MDX files, but are still rendered by the catalog route
+ * boundary and therefore belong in the same sidebar tree as the MDX pages.
+ */
+export function getCatalogPageTree(): PageTree.Root {
+	const childrenByUrl = new Map<string, PageTree.Item[]>();
+
+	for (const category of catalogCategories) {
+		const data = catalogDatasets[category.slug];
+		if (!("devices" in data)) continue;
+		childrenByUrl.set(
+			`${docsRoute}/${category.slug}`,
+			sortDevices(data.devices as CatalogDevice[]).map(
+				(device, index, devices) =>
+					catalogPageItem(
+						device.id,
+						createElement(DeviceSidebarLabel, {
+							category: category.slug,
+							deviceId: device.id,
+							name: device.name,
+							releaseYear: releaseYearOf(device),
+							key: device.id,
+							yearStart:
+								index > 0 &&
+								releaseYearOf(devices[index - 1]) !== releaseYearOf(device),
+						}),
+						`${docsRoute}/${category.slug}/${device.id}`,
+					),
+			),
+		);
+	}
+
+	for (const accessory of ipadAccessorySections) {
+		const data = accessoryDatasets[accessory.slug];
+		if (!("accessories" in data)) continue;
+		childrenByUrl.set(
+			`${docsRoute}/ipad/accessories/${accessory.slug}`,
+			data.accessories.map((item, index, items) =>
+				catalogPageItem(
+					item.id,
+					createElement(DeviceSidebarLabel, {
+						category: accessory.slug,
+						deviceId: item.id,
+						name: item.displayName,
+						releaseYear: releaseYearOf(item),
+						key: item.id,
+						yearStart:
+							index > 0 &&
+							releaseYearOf(items[index - 1]) !== releaseYearOf(item),
+					}),
+					`${docsRoute}/ipad/accessories/${accessory.slug}/${item.id}`,
+				),
+			),
+		);
+	}
+
+	const tree = source.getPageTree();
+	const transformed = withChildren(tree, childrenByUrl);
+
+	for (const category of catalogCategories) {
+		const url = `${docsRoute}/${category.slug}`;
+		const folder = findFolderByRoute(transformed, url);
+		if (folder && !folder.index) {
+			folder.index = catalogPageItem(category.slug, category.title, url);
+		}
+	}
+
+	transformed.children = [
+		...transformed.children,
+		...otherCatalogSections.map((section) => ({
+			$id: `catalog:other:${section.slug}`,
+			type: "folder" as const,
+			name: section.title,
+			root: true,
+			defaultOpen: true,
+			index: catalogPageItem(
+				section.slug,
+				section.title,
+				`${docsRoute}/other/${section.slug}`,
+			),
+			children: otherDatasets[section.slug].products.map((product) =>
+				catalogPageItem(
+					product.id,
+					createElement(DeviceSidebarLabel, {
+						category: section.slug,
+						deviceId: product.id,
+						name: product.displayName,
+						releaseYear: releaseYearOf(product),
+						key: product.id,
+					}),
+					`${docsRoute}/other/${section.slug}/${product.id}`,
+				),
+			),
+		})),
+	];
+
+	for (const category of catalogCategories) {
+		if (!findFolderByRoute(transformed, `${docsRoute}/${category.slug}`)) {
+			throw new Error(`Missing page-tree folder for ${category.slug}`);
+		}
+	}
+	for (const section of otherCatalogSections) {
+		if (!findFolderByRoute(transformed, `${docsRoute}/other/${section.slug}`)) {
+			throw new Error(`Missing page-tree folder for ${section.slug}`);
+		}
+	}
+
+	return transformed as PageTree.Root;
+}
+
+function releaseYearOf(entry: unknown): number | null {
+	if (
+		typeof entry === "object" &&
+		entry !== null &&
+		"releaseYear" in entry &&
+		typeof entry.releaseYear === "number" &&
+		Number.isFinite(entry.releaseYear)
+	) {
+		return entry.releaseYear;
+	}
+	return null;
+}
+
+/**
+ * Static page tree for the `/you` section (Collection + Account). Hand-built
+ * rather than loader-driven: collection contents are per-user runtime data,
+ * so only the chrome (tabs, sidebar entries) is static. Never data-backed
+ * detail routes here — the Collection page renders its lists client-side.
+ */
+export function getYouPageTree(): PageTree.Root {
+	return {
+		name: "You",
+		children: [
+			{
+				$id: "you:collection",
+				type: "folder" as const,
+				name: "Collection",
+				root: true,
+				defaultOpen: true,
+				index: catalogPageItem("collection", "Collection", "/you/collection"),
+				children: [],
+			},
+			{
+				$id: "you:account",
+				type: "folder" as const,
+				name: "Account",
+				root: true,
+				defaultOpen: true,
+				index: catalogPageItem("account", "Account settings", "/you/account"),
+				children: [
+					catalogPageItem(
+						"account-settings",
+						"Account settings",
+						"/you/account",
+					),
+					catalogPageItem("order", "Device order", "/you/account/order"),
+				],
+			},
+		],
+	} as PageTree.Root;
+}
+
+/**
+ * Resolve a bookmarked device to display facts from the static catalogue.
+ * Covers device categories, iPad accessory sections, and other-catalog
+ * sections. Returns undefined for unknown categories or removed entries —
+ * callers must render a graceful fallback, never throw.
+ */
+export function getBookmarkedDevice(
+	category: string,
+	deviceId: string,
+):
+	| {
+			name: string;
+			priceAud: number | null;
+			href: string;
+			releaseYear: number | null;
+	  }
+	| undefined {
+	const deviceData = (catalogDatasets as Record<string, CatalogDataset>)[
+		category
+	];
+	if (deviceData && "devices" in deviceData) {
+		const device = (deviceData.devices as { id: string; name: string }[]).find(
+			(item) => item.id === deviceId,
+		);
+		if (!device) return undefined;
+		return {
+			name: device.name,
+			priceAud: readPriceAud(device),
+			href: `${docsRoute}/${category}/${deviceId}`,
+			releaseYear: releaseYearOf(device),
+		};
+	}
+
+	const accessoryData = (accessoryDatasets as Record<string, CatalogDataset>)[
+		category
+	];
+	if (accessoryData && "accessories" in accessoryData) {
+		const item = (
+			accessoryData.accessories as { id: string; displayName: string }[]
+		).find((entry) => entry.id === deviceId);
+		if (!item) return undefined;
+		return {
+			name: item.displayName,
+			priceAud: readPriceAud(item),
+			href: `${docsRoute}/ipad/accessories/${category}/${deviceId}`,
+			releaseYear: releaseYearOf(item),
+		};
+	}
+
+	const otherData = (otherDatasets as Record<string, OtherCatalogDataset>)[
+		category
+	];
+	if (otherData && "products" in otherData) {
+		const product = (
+			otherData.products as { id: string; displayName: string }[]
+		).find((entry) => entry.id === deviceId);
+		if (!product) return undefined;
+		return {
+			name: product.displayName,
+			priceAud: readPriceAud(product),
+			href: `${docsRoute}/other/${category}/${deviceId}`,
+			releaseYear: releaseYearOf(product),
+		};
+	}
+
+	return undefined;
+}
+
+function readPriceAud(entry: unknown): number | null {
+	if (
+		typeof entry === "object" &&
+		entry !== null &&
+		"priceAud" in entry &&
+		typeof (entry as { priceAud?: unknown }).priceAud === "number"
+	) {
+		return (entry as { priceAud: number }).priceAud;
+	}
+	return null;
+}
 
 export function getPageImageUrl(page: (typeof source)["$inferPage"]) {
 	const segments = [...page.slugs, "image.png"];

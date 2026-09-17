@@ -1,0 +1,3518 @@
+{
+	"nodes": [
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_md",
+			"label": "device-data-reference.md",
+			"file_type": "document",
+			"node_kind": "page",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_device_data_reference",
+			"label": "Device data reference",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_contract_decisions",
+			"label": "Contract decisions",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L5"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_reading_the_tables",
+			"label": "Reading the tables",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L18"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_airpods",
+			"label": "AirPods",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L25"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_device_fields",
+			"label": "Device fields",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L30"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_nested_object_fields",
+			"label": "Nested object fields",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L55"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_measurement",
+			"label": "`measurement`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L57"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_image",
+			"label": "`image`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L65"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_chip",
+			"label": "`chip`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L75"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_audiotechnology",
+			"label": "`audioTechnology`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L84"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_namedfeature",
+			"label": "`namedFeature`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L94"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_batteryclaim",
+			"label": "`batteryClaim`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L105"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_connectivityfeature",
+			"label": "`connectivityFeature`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L119"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_caseweight",
+			"label": "`caseWeight`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L128"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_physical",
+			"label": "`physical`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L135"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_apple_tv",
+			"label": "Apple TV",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L142"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_device_fields_147",
+			"label": "Device fields",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L147"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_nested_object_fields_163",
+			"label": "Nested object fields",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L163"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_measurement_165",
+			"label": "`measurement`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L165"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_image_173",
+			"label": "`image`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L173"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_chip_183",
+			"label": "`chip`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L183"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_storage",
+			"label": "`storage`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L192"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_configurationconnectivity",
+			"label": "`configurationConnectivity`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L199"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_configuration",
+			"label": "`configuration`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L208"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_port",
+			"label": "`port`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L219"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_wireless",
+			"label": "`wireless`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L229"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_connectivity",
+			"label": "`connectivity`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L239"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_physicalcomponent",
+			"label": "`physicalComponent`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L249"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_physical_259",
+			"label": "`physical`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L259"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_accessory",
+			"label": "`accessory`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L267"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_apple_watch",
+			"label": "Apple Watch",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L277"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_device_fields_282",
+			"label": "Device fields",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L282"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_nested_object_fields_305",
+			"label": "Nested object fields",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L305"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_measurement_307",
+			"label": "`measurement`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L307"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_measurementrange",
+			"label": "`measurementRange`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L315"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_image_323",
+			"label": "`image`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L323"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_color",
+			"label": "`color`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L333"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_chip_342",
+			"label": "`chip`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L342"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_configuration_355",
+			"label": "`configuration`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L355"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_display",
+			"label": "`display`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L367"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_runtime",
+			"label": "`runtime`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L396"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_fastcharge",
+			"label": "`fastCharge`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L405"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_charging",
+			"label": "`charging`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L412"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_powersupply",
+			"label": "`powerSupply`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L422"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_voltagerange",
+			"label": "`voltageRange`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L434"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_batteryandpower",
+			"label": "`batteryAndPower`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L441"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_port_452",
+			"label": "`port`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L452"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_wireless_461",
+			"label": "`wireless`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L461"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_bluetooth",
+			"label": "`bluetooth`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L468"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_cellular",
+			"label": "`cellular`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L474"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_uwb",
+			"label": "`uwb`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L480"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_gps",
+			"label": "`gps`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L486"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_connectivity_494",
+			"label": "`connectivity`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L494"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_authentication",
+			"label": "`authentication`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L505"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_physicalcomponent_512",
+			"label": "`physicalComponent`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L512"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_physical_522",
+			"label": "`physical`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L522"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_resistance",
+			"label": "`resistance`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L530"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_software",
+			"label": "`software`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L539"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_watchdetails",
+			"label": "`watchDetails`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L549"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_audio",
+			"label": "`audio`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L562"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_homepod",
+			"label": "HomePod",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L572"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_device_fields_577",
+			"label": "Device fields",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L577"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_nested_object_fields_595",
+			"label": "Nested object fields",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L595"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_image_597",
+			"label": "`image`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L597"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_color_607",
+			"label": "`color`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L607"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_cpucores",
+			"label": "`cpuCores`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L618"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_chip_626",
+			"label": "`chip`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L626"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_audio_638",
+			"label": "`audio`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L638"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_powersupply_650",
+			"label": "`powerSupply`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L650"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_port_663",
+			"label": "`port`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L663"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_connectivity_672",
+			"label": "`connectivity`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L672"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_measurement_685",
+			"label": "`measurement`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L685"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_physicalcomponent_693",
+			"label": "`physicalComponent`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L693"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_physical_704",
+			"label": "`physical`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L704"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_software_712",
+			"label": "`software`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L712"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_accessory_721",
+			"label": "`accessory`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L721"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_ipad",
+			"label": "iPad",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L730"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_device_fields_735",
+			"label": "Device fields",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L735"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_nested_object_fields_761",
+			"label": "Nested object fields",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L761"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_ipadcolor",
+			"label": "`ipadColor`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L763"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_ipadimage",
+			"label": "`ipadImage`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L774"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_ipadstorageoption",
+			"label": "`ipadStorageOption`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L784"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_ipadmemoryoption",
+			"label": "`ipadMemoryOption`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L796"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_ipadchip",
+			"label": "`ipadChip`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L810"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_ipaddisplay",
+			"label": "`ipadDisplay`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L829"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_ipadcamera",
+			"label": "`ipadCamera`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L858"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_ipadaudio",
+			"label": "`ipadAudio`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L881"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_ipadbatteryandpower",
+			"label": "`ipadBatteryAndPower`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L897"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_ipadconnectivity",
+			"label": "`ipadConnectivity`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L908"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_ipadauthentication",
+			"label": "`ipadAuthentication`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L922"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_ipadphysical",
+			"label": "`ipadPhysical`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L931"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_ipadresistance",
+			"label": "`ipadResistance`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L939"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_ipadsoftware",
+			"label": "`ipadSoftware`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L949"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_ipadoverviewimage",
+			"label": "`ipadOverviewImage`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L959"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_ipadcpucores",
+			"label": "`ipadCpuCores`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L969"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_ipadmediaengine",
+			"label": "`ipadMediaEngine`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L977"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_ipadmeasurementrange",
+			"label": "`ipadMeasurementRange`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L985"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_ipadbatteryruntime",
+			"label": "`ipadBatteryRuntime`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L994"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_ipadcharging",
+			"label": "`ipadCharging`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1004"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_ipadpowersupply",
+			"label": "`ipadPowerSupply`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1015"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_ipadport",
+			"label": "`ipadPort`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1027"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_ipadwifi",
+			"label": "`ipadWifi`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1039"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_ipadbluetooth",
+			"label": "`ipadBluetooth`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1048"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_ipadcellular",
+			"label": "`ipadCellular`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1054"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_ipaduwb",
+			"label": "`ipadUwb`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1062"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_ipadthread",
+			"label": "`ipadThread`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1069"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_ipadinfrared",
+			"label": "`ipadInfrared`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1076"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_ipadnearfieldcommunication",
+			"label": "`ipadNearFieldCommunication`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1083"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_ipadgps",
+			"label": "`ipadGps`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1091"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_ipadmeasurement",
+			"label": "`ipadMeasurement`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1099"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_ipadphysicalcomponent",
+			"label": "`ipadPhysicalComponent`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1107"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_ipadconfiguration",
+			"label": "`ipadConfiguration`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1118"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_ipadaccessoryreference",
+			"label": "`ipadAccessoryReference`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1132"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_iphone",
+			"label": "iPhone",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1141"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_device_fields_1146",
+			"label": "Device fields",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1146"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_nested_object_fields_1172",
+			"label": "Nested object fields",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1172"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_iphonecolor",
+			"label": "`iphoneColor`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1174"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_iphoneimage",
+			"label": "`iphoneImage`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1185"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_iphonestorageoption",
+			"label": "`iphoneStorageOption`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1195"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_iphonememoryoption",
+			"label": "`iphoneMemoryOption`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1207"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_iphonechip",
+			"label": "`iphoneChip`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1221"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_iphonedisplay",
+			"label": "`iphoneDisplay`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1240"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_iphonecamera",
+			"label": "`iphoneCamera`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1269"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_iphoneaudio",
+			"label": "`iphoneAudio`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1292"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_iphonebatteryandpower",
+			"label": "`iphoneBatteryAndPower`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1308"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_iphoneconnectivity",
+			"label": "`iphoneConnectivity`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1319"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_iphoneauthentication",
+			"label": "`iphoneAuthentication`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1333"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_iphonephysical",
+			"label": "`iphonePhysical`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1342"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_iphoneresistance",
+			"label": "`iphoneResistance`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1350"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_iphonesoftware",
+			"label": "`iphoneSoftware`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1360"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_iphoneoverviewimage",
+			"label": "`iphoneOverviewImage`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1370"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_iphonecpucores",
+			"label": "`iphoneCpuCores`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1380"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_iphonemediaengine",
+			"label": "`iphoneMediaEngine`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1388"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_iphonemeasurementrange",
+			"label": "`iphoneMeasurementRange`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1396"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_iphonebatteryruntime",
+			"label": "`iphoneBatteryRuntime`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1405"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_iphonecharging",
+			"label": "`iphoneCharging`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1415"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_iphonepowersupply",
+			"label": "`iphonePowerSupply`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1426"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_iphoneport",
+			"label": "`iphonePort`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1438"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_iphonewifi",
+			"label": "`iphoneWifi`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1450"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_iphonebluetooth",
+			"label": "`iphoneBluetooth`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1459"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_iphonecellular",
+			"label": "`iphoneCellular`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1465"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_iphoneuwb",
+			"label": "`iphoneUwb`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1473"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_iphonethread",
+			"label": "`iphoneThread`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1480"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_iphoneinfrared",
+			"label": "`iphoneInfrared`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1487"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_iphonenearfieldcommunication",
+			"label": "`iphoneNearFieldCommunication`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1494"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_iphonegps",
+			"label": "`iphoneGps`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1502"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_iphonemeasurement",
+			"label": "`iphoneMeasurement`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1510"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_iphonephysicalcomponent",
+			"label": "`iphonePhysicalComponent`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1518"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_iphoneconfiguration",
+			"label": "`iphoneConfiguration`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1529"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_iphoneaccessoryreference",
+			"label": "`iphoneAccessoryReference`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1543"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_mac",
+			"label": "Mac",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1552"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_device_fields_1557",
+			"label": "Device fields",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1557"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_nested_object_fields_1583",
+			"label": "Nested object fields",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1583"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_image_1585",
+			"label": "`image`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1585"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_color_1595",
+			"label": "`color`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1595"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_measurement_1606",
+			"label": "`measurement`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1606"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_measurementrange_1614",
+			"label": "`measurementRange`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1614"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_cpucores_1623",
+			"label": "`cpuCores`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1623"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_mediaengine",
+			"label": "`mediaEngine`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1631"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_chip_1639",
+			"label": "`chip`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1639"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_storage_1657",
+			"label": "`storage`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1657"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_memory",
+			"label": "`memory`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1669"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_configuration_1682",
+			"label": "`configuration`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1682"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_display_1694",
+			"label": "`display`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1694"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_camera",
+			"label": "`camera`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1722"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_audio_1740",
+			"label": "`audio`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1740"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_runtime_1752",
+			"label": "`runtime`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1752"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_charging_1762",
+			"label": "`charging`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1762"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_battery",
+			"label": "`battery`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1773"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_power",
+			"label": "`power`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1782"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_batteryandpower_1794",
+			"label": "`batteryAndPower`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1794"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_port_1801",
+			"label": "`port`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1801"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_connectivity_1813",
+			"label": "`connectivity`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1813"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_authentication_1821",
+			"label": "`authentication`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1821"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_physicalcomponent_1830",
+			"label": "`physicalComponent`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1830"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_physical_1841",
+			"label": "`physical`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1841"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_software_1849",
+			"label": "`software`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1849"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_accessory_1858",
+			"label": "`accessory`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1858"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_vision",
+			"label": "Vision",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1867"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_device_fields_1872",
+			"label": "Device fields",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1872"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_nested_object_fields_1898",
+			"label": "Nested object fields",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1898"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_image_1900",
+			"label": "`image`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1900"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_color_1910",
+			"label": "`color`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1910"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_measurement_1921",
+			"label": "`measurement`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1921"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_storage_1929",
+			"label": "`storage`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1929"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_memory_1941",
+			"label": "`memory`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1941"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_configuration_1952",
+			"label": "`configuration`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1952"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_cpucores_1961",
+			"label": "`cpuCores`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1961"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_chip_1969",
+			"label": "`chip`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1969"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_display_1985",
+			"label": "`display`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1985"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_camera_2001",
+			"label": "`camera`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L2001"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_sensor",
+			"label": "`sensor`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L2013"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_opticid",
+			"label": "`opticId`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L2022"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_audio_2030",
+			"label": "`audio`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L2030"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_runtime_2041",
+			"label": "`runtime`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L2041"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_charging_2049",
+			"label": "`charging`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L2049"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_battery_2060",
+			"label": "`battery`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L2060"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_power_2069",
+			"label": "`power`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L2069"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_batteryandpower_2081",
+			"label": "`batteryAndPower`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L2081"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_port_2088",
+			"label": "`port`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L2088"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_connectivity_2097",
+			"label": "`connectivity`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L2097"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_authentication_2105",
+			"label": "`authentication`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L2105"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_physicalcomponent_2114",
+			"label": "`physicalComponent`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L2114"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_physical_2125",
+			"label": "`physical`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L2125"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_software_2133",
+			"label": "`software`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L2133"
+		},
+		{
+			"id": "$graphify-root$_scratch_device_data_reference_accessory_2141",
+			"label": "`accessory`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L2141"
+		}
+	],
+	"edges": [
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_md",
+			"target": "$graphify-root$_scratch_device_data_reference_device_data_reference",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_device_data_reference",
+			"target": "$graphify-root$_scratch_device_data_reference_contract_decisions",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L5",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_device_data_reference",
+			"target": "$graphify-root$_scratch_device_data_reference_reading_the_tables",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L18",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_device_data_reference",
+			"target": "$graphify-root$_scratch_device_data_reference_airpods",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L25",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_airpods",
+			"target": "$graphify-root$_scratch_device_data_reference_device_fields",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L30",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_airpods",
+			"target": "$graphify-root$_scratch_device_data_reference_nested_object_fields",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L55",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields",
+			"target": "$graphify-root$_scratch_device_data_reference_measurement",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L57",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields",
+			"target": "$graphify-root$_scratch_device_data_reference_image",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L65",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields",
+			"target": "$graphify-root$_scratch_device_data_reference_chip",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L75",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields",
+			"target": "$graphify-root$_scratch_device_data_reference_audiotechnology",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L84",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields",
+			"target": "$graphify-root$_scratch_device_data_reference_namedfeature",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L94",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields",
+			"target": "$graphify-root$_scratch_device_data_reference_batteryclaim",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L105",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields",
+			"target": "$graphify-root$_scratch_device_data_reference_connectivityfeature",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L119",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields",
+			"target": "$graphify-root$_scratch_device_data_reference_caseweight",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L128",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields",
+			"target": "$graphify-root$_scratch_device_data_reference_physical",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L135",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_device_data_reference",
+			"target": "$graphify-root$_scratch_device_data_reference_apple_tv",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L142",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_apple_tv",
+			"target": "$graphify-root$_scratch_device_data_reference_device_fields_147",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L147",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_apple_tv",
+			"target": "$graphify-root$_scratch_device_data_reference_nested_object_fields_163",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L163",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_163",
+			"target": "$graphify-root$_scratch_device_data_reference_measurement_165",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L165",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_163",
+			"target": "$graphify-root$_scratch_device_data_reference_image_173",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L173",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_163",
+			"target": "$graphify-root$_scratch_device_data_reference_chip_183",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L183",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_163",
+			"target": "$graphify-root$_scratch_device_data_reference_storage",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L192",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_163",
+			"target": "$graphify-root$_scratch_device_data_reference_configurationconnectivity",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L199",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_163",
+			"target": "$graphify-root$_scratch_device_data_reference_configuration",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L208",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_163",
+			"target": "$graphify-root$_scratch_device_data_reference_port",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L219",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_163",
+			"target": "$graphify-root$_scratch_device_data_reference_wireless",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L229",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_163",
+			"target": "$graphify-root$_scratch_device_data_reference_connectivity",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L239",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_163",
+			"target": "$graphify-root$_scratch_device_data_reference_physicalcomponent",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L249",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_163",
+			"target": "$graphify-root$_scratch_device_data_reference_physical_259",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L259",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_163",
+			"target": "$graphify-root$_scratch_device_data_reference_accessory",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L267",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_device_data_reference",
+			"target": "$graphify-root$_scratch_device_data_reference_apple_watch",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L277",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_apple_watch",
+			"target": "$graphify-root$_scratch_device_data_reference_device_fields_282",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L282",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_apple_watch",
+			"target": "$graphify-root$_scratch_device_data_reference_nested_object_fields_305",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L305",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_305",
+			"target": "$graphify-root$_scratch_device_data_reference_measurement_307",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L307",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_305",
+			"target": "$graphify-root$_scratch_device_data_reference_measurementrange",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L315",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_305",
+			"target": "$graphify-root$_scratch_device_data_reference_image_323",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L323",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_305",
+			"target": "$graphify-root$_scratch_device_data_reference_color",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L333",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_305",
+			"target": "$graphify-root$_scratch_device_data_reference_chip_342",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L342",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_305",
+			"target": "$graphify-root$_scratch_device_data_reference_configuration_355",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L355",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_305",
+			"target": "$graphify-root$_scratch_device_data_reference_display",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L367",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_305",
+			"target": "$graphify-root$_scratch_device_data_reference_runtime",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L396",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_305",
+			"target": "$graphify-root$_scratch_device_data_reference_fastcharge",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L405",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_305",
+			"target": "$graphify-root$_scratch_device_data_reference_charging",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L412",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_305",
+			"target": "$graphify-root$_scratch_device_data_reference_powersupply",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L422",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_305",
+			"target": "$graphify-root$_scratch_device_data_reference_voltagerange",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L434",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_305",
+			"target": "$graphify-root$_scratch_device_data_reference_batteryandpower",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L441",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_305",
+			"target": "$graphify-root$_scratch_device_data_reference_port_452",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L452",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_305",
+			"target": "$graphify-root$_scratch_device_data_reference_wireless_461",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L461",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_305",
+			"target": "$graphify-root$_scratch_device_data_reference_bluetooth",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L468",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_305",
+			"target": "$graphify-root$_scratch_device_data_reference_cellular",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L474",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_305",
+			"target": "$graphify-root$_scratch_device_data_reference_uwb",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L480",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_305",
+			"target": "$graphify-root$_scratch_device_data_reference_gps",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L486",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_305",
+			"target": "$graphify-root$_scratch_device_data_reference_connectivity_494",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L494",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_305",
+			"target": "$graphify-root$_scratch_device_data_reference_authentication",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L505",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_305",
+			"target": "$graphify-root$_scratch_device_data_reference_physicalcomponent_512",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L512",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_305",
+			"target": "$graphify-root$_scratch_device_data_reference_physical_522",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L522",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_305",
+			"target": "$graphify-root$_scratch_device_data_reference_resistance",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L530",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_305",
+			"target": "$graphify-root$_scratch_device_data_reference_software",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L539",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_305",
+			"target": "$graphify-root$_scratch_device_data_reference_watchdetails",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L549",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_305",
+			"target": "$graphify-root$_scratch_device_data_reference_audio",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L562",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_device_data_reference",
+			"target": "$graphify-root$_scratch_device_data_reference_homepod",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L572",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_homepod",
+			"target": "$graphify-root$_scratch_device_data_reference_device_fields_577",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L577",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_homepod",
+			"target": "$graphify-root$_scratch_device_data_reference_nested_object_fields_595",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L595",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_595",
+			"target": "$graphify-root$_scratch_device_data_reference_image_597",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L597",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_595",
+			"target": "$graphify-root$_scratch_device_data_reference_color_607",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L607",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_595",
+			"target": "$graphify-root$_scratch_device_data_reference_cpucores",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L618",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_595",
+			"target": "$graphify-root$_scratch_device_data_reference_chip_626",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L626",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_595",
+			"target": "$graphify-root$_scratch_device_data_reference_audio_638",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L638",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_595",
+			"target": "$graphify-root$_scratch_device_data_reference_powersupply_650",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L650",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_595",
+			"target": "$graphify-root$_scratch_device_data_reference_port_663",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L663",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_595",
+			"target": "$graphify-root$_scratch_device_data_reference_connectivity_672",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L672",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_595",
+			"target": "$graphify-root$_scratch_device_data_reference_measurement_685",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L685",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_595",
+			"target": "$graphify-root$_scratch_device_data_reference_physicalcomponent_693",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L693",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_595",
+			"target": "$graphify-root$_scratch_device_data_reference_physical_704",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L704",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_595",
+			"target": "$graphify-root$_scratch_device_data_reference_software_712",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L712",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_595",
+			"target": "$graphify-root$_scratch_device_data_reference_accessory_721",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L721",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_device_data_reference",
+			"target": "$graphify-root$_scratch_device_data_reference_ipad",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L730",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_ipad",
+			"target": "$graphify-root$_scratch_device_data_reference_device_fields_735",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L735",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_ipad",
+			"target": "$graphify-root$_scratch_device_data_reference_nested_object_fields_761",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L761",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_761",
+			"target": "$graphify-root$_scratch_device_data_reference_ipadcolor",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L763",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_761",
+			"target": "$graphify-root$_scratch_device_data_reference_ipadimage",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L774",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_761",
+			"target": "$graphify-root$_scratch_device_data_reference_ipadstorageoption",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L784",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_761",
+			"target": "$graphify-root$_scratch_device_data_reference_ipadmemoryoption",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L796",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_761",
+			"target": "$graphify-root$_scratch_device_data_reference_ipadchip",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L810",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_761",
+			"target": "$graphify-root$_scratch_device_data_reference_ipaddisplay",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L829",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_761",
+			"target": "$graphify-root$_scratch_device_data_reference_ipadcamera",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L858",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_761",
+			"target": "$graphify-root$_scratch_device_data_reference_ipadaudio",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L881",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_761",
+			"target": "$graphify-root$_scratch_device_data_reference_ipadbatteryandpower",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L897",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_761",
+			"target": "$graphify-root$_scratch_device_data_reference_ipadconnectivity",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L908",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_761",
+			"target": "$graphify-root$_scratch_device_data_reference_ipadauthentication",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L922",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_761",
+			"target": "$graphify-root$_scratch_device_data_reference_ipadphysical",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L931",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_761",
+			"target": "$graphify-root$_scratch_device_data_reference_ipadresistance",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L939",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_761",
+			"target": "$graphify-root$_scratch_device_data_reference_ipadsoftware",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L949",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_761",
+			"target": "$graphify-root$_scratch_device_data_reference_ipadoverviewimage",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L959",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_761",
+			"target": "$graphify-root$_scratch_device_data_reference_ipadcpucores",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L969",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_761",
+			"target": "$graphify-root$_scratch_device_data_reference_ipadmediaengine",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L977",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_761",
+			"target": "$graphify-root$_scratch_device_data_reference_ipadmeasurementrange",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L985",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_761",
+			"target": "$graphify-root$_scratch_device_data_reference_ipadbatteryruntime",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L994",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_761",
+			"target": "$graphify-root$_scratch_device_data_reference_ipadcharging",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1004",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_761",
+			"target": "$graphify-root$_scratch_device_data_reference_ipadpowersupply",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1015",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_761",
+			"target": "$graphify-root$_scratch_device_data_reference_ipadport",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1027",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_761",
+			"target": "$graphify-root$_scratch_device_data_reference_ipadwifi",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1039",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_761",
+			"target": "$graphify-root$_scratch_device_data_reference_ipadbluetooth",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1048",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_761",
+			"target": "$graphify-root$_scratch_device_data_reference_ipadcellular",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1054",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_761",
+			"target": "$graphify-root$_scratch_device_data_reference_ipaduwb",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1062",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_761",
+			"target": "$graphify-root$_scratch_device_data_reference_ipadthread",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1069",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_761",
+			"target": "$graphify-root$_scratch_device_data_reference_ipadinfrared",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1076",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_761",
+			"target": "$graphify-root$_scratch_device_data_reference_ipadnearfieldcommunication",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1083",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_761",
+			"target": "$graphify-root$_scratch_device_data_reference_ipadgps",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1091",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_761",
+			"target": "$graphify-root$_scratch_device_data_reference_ipadmeasurement",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1099",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_761",
+			"target": "$graphify-root$_scratch_device_data_reference_ipadphysicalcomponent",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1107",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_761",
+			"target": "$graphify-root$_scratch_device_data_reference_ipadconfiguration",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1118",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_761",
+			"target": "$graphify-root$_scratch_device_data_reference_ipadaccessoryreference",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1132",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_device_data_reference",
+			"target": "$graphify-root$_scratch_device_data_reference_iphone",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1141",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_iphone",
+			"target": "$graphify-root$_scratch_device_data_reference_device_fields_1146",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1146",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_iphone",
+			"target": "$graphify-root$_scratch_device_data_reference_nested_object_fields_1172",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1172",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_1172",
+			"target": "$graphify-root$_scratch_device_data_reference_iphonecolor",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1174",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_1172",
+			"target": "$graphify-root$_scratch_device_data_reference_iphoneimage",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1185",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_1172",
+			"target": "$graphify-root$_scratch_device_data_reference_iphonestorageoption",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1195",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_1172",
+			"target": "$graphify-root$_scratch_device_data_reference_iphonememoryoption",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1207",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_1172",
+			"target": "$graphify-root$_scratch_device_data_reference_iphonechip",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1221",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_1172",
+			"target": "$graphify-root$_scratch_device_data_reference_iphonedisplay",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1240",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_1172",
+			"target": "$graphify-root$_scratch_device_data_reference_iphonecamera",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1269",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_1172",
+			"target": "$graphify-root$_scratch_device_data_reference_iphoneaudio",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1292",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_1172",
+			"target": "$graphify-root$_scratch_device_data_reference_iphonebatteryandpower",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1308",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_1172",
+			"target": "$graphify-root$_scratch_device_data_reference_iphoneconnectivity",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1319",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_1172",
+			"target": "$graphify-root$_scratch_device_data_reference_iphoneauthentication",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1333",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_1172",
+			"target": "$graphify-root$_scratch_device_data_reference_iphonephysical",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1342",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_1172",
+			"target": "$graphify-root$_scratch_device_data_reference_iphoneresistance",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1350",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_1172",
+			"target": "$graphify-root$_scratch_device_data_reference_iphonesoftware",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1360",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_1172",
+			"target": "$graphify-root$_scratch_device_data_reference_iphoneoverviewimage",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1370",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_1172",
+			"target": "$graphify-root$_scratch_device_data_reference_iphonecpucores",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1380",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_1172",
+			"target": "$graphify-root$_scratch_device_data_reference_iphonemediaengine",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1388",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_1172",
+			"target": "$graphify-root$_scratch_device_data_reference_iphonemeasurementrange",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1396",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_1172",
+			"target": "$graphify-root$_scratch_device_data_reference_iphonebatteryruntime",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1405",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_1172",
+			"target": "$graphify-root$_scratch_device_data_reference_iphonecharging",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1415",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_1172",
+			"target": "$graphify-root$_scratch_device_data_reference_iphonepowersupply",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1426",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_1172",
+			"target": "$graphify-root$_scratch_device_data_reference_iphoneport",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1438",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_1172",
+			"target": "$graphify-root$_scratch_device_data_reference_iphonewifi",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1450",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_1172",
+			"target": "$graphify-root$_scratch_device_data_reference_iphonebluetooth",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1459",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_1172",
+			"target": "$graphify-root$_scratch_device_data_reference_iphonecellular",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1465",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_1172",
+			"target": "$graphify-root$_scratch_device_data_reference_iphoneuwb",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1473",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_1172",
+			"target": "$graphify-root$_scratch_device_data_reference_iphonethread",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1480",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_1172",
+			"target": "$graphify-root$_scratch_device_data_reference_iphoneinfrared",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1487",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_1172",
+			"target": "$graphify-root$_scratch_device_data_reference_iphonenearfieldcommunication",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1494",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_1172",
+			"target": "$graphify-root$_scratch_device_data_reference_iphonegps",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1502",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_1172",
+			"target": "$graphify-root$_scratch_device_data_reference_iphonemeasurement",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1510",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_1172",
+			"target": "$graphify-root$_scratch_device_data_reference_iphonephysicalcomponent",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1518",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_1172",
+			"target": "$graphify-root$_scratch_device_data_reference_iphoneconfiguration",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1529",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_1172",
+			"target": "$graphify-root$_scratch_device_data_reference_iphoneaccessoryreference",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1543",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_device_data_reference",
+			"target": "$graphify-root$_scratch_device_data_reference_mac",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1552",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_mac",
+			"target": "$graphify-root$_scratch_device_data_reference_device_fields_1557",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1557",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_mac",
+			"target": "$graphify-root$_scratch_device_data_reference_nested_object_fields_1583",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1583",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_1583",
+			"target": "$graphify-root$_scratch_device_data_reference_image_1585",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1585",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_1583",
+			"target": "$graphify-root$_scratch_device_data_reference_color_1595",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1595",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_1583",
+			"target": "$graphify-root$_scratch_device_data_reference_measurement_1606",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1606",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_1583",
+			"target": "$graphify-root$_scratch_device_data_reference_measurementrange_1614",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1614",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_1583",
+			"target": "$graphify-root$_scratch_device_data_reference_cpucores_1623",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1623",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_1583",
+			"target": "$graphify-root$_scratch_device_data_reference_mediaengine",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1631",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_1583",
+			"target": "$graphify-root$_scratch_device_data_reference_chip_1639",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1639",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_1583",
+			"target": "$graphify-root$_scratch_device_data_reference_storage_1657",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1657",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_1583",
+			"target": "$graphify-root$_scratch_device_data_reference_memory",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1669",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_1583",
+			"target": "$graphify-root$_scratch_device_data_reference_configuration_1682",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1682",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_1583",
+			"target": "$graphify-root$_scratch_device_data_reference_display_1694",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1694",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_1583",
+			"target": "$graphify-root$_scratch_device_data_reference_camera",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1722",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_1583",
+			"target": "$graphify-root$_scratch_device_data_reference_audio_1740",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1740",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_1583",
+			"target": "$graphify-root$_scratch_device_data_reference_runtime_1752",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1752",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_1583",
+			"target": "$graphify-root$_scratch_device_data_reference_charging_1762",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1762",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_1583",
+			"target": "$graphify-root$_scratch_device_data_reference_battery",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1773",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_1583",
+			"target": "$graphify-root$_scratch_device_data_reference_power",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1782",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_1583",
+			"target": "$graphify-root$_scratch_device_data_reference_batteryandpower_1794",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1794",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_1583",
+			"target": "$graphify-root$_scratch_device_data_reference_port_1801",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1801",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_1583",
+			"target": "$graphify-root$_scratch_device_data_reference_connectivity_1813",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1813",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_1583",
+			"target": "$graphify-root$_scratch_device_data_reference_authentication_1821",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1821",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_1583",
+			"target": "$graphify-root$_scratch_device_data_reference_physicalcomponent_1830",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1830",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_1583",
+			"target": "$graphify-root$_scratch_device_data_reference_physical_1841",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1841",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_1583",
+			"target": "$graphify-root$_scratch_device_data_reference_software_1849",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1849",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_1583",
+			"target": "$graphify-root$_scratch_device_data_reference_accessory_1858",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1858",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_device_data_reference",
+			"target": "$graphify-root$_scratch_device_data_reference_vision",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1867",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_vision",
+			"target": "$graphify-root$_scratch_device_data_reference_device_fields_1872",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1872",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_vision",
+			"target": "$graphify-root$_scratch_device_data_reference_nested_object_fields_1898",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1898",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_1898",
+			"target": "$graphify-root$_scratch_device_data_reference_image_1900",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1900",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_1898",
+			"target": "$graphify-root$_scratch_device_data_reference_color_1910",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1910",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_1898",
+			"target": "$graphify-root$_scratch_device_data_reference_measurement_1921",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1921",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_1898",
+			"target": "$graphify-root$_scratch_device_data_reference_storage_1929",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1929",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_1898",
+			"target": "$graphify-root$_scratch_device_data_reference_memory_1941",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1941",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_1898",
+			"target": "$graphify-root$_scratch_device_data_reference_configuration_1952",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1952",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_1898",
+			"target": "$graphify-root$_scratch_device_data_reference_cpucores_1961",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1961",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_1898",
+			"target": "$graphify-root$_scratch_device_data_reference_chip_1969",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1969",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_1898",
+			"target": "$graphify-root$_scratch_device_data_reference_display_1985",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L1985",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_1898",
+			"target": "$graphify-root$_scratch_device_data_reference_camera_2001",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L2001",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_1898",
+			"target": "$graphify-root$_scratch_device_data_reference_sensor",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L2013",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_1898",
+			"target": "$graphify-root$_scratch_device_data_reference_opticid",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L2022",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_1898",
+			"target": "$graphify-root$_scratch_device_data_reference_audio_2030",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L2030",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_1898",
+			"target": "$graphify-root$_scratch_device_data_reference_runtime_2041",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L2041",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_1898",
+			"target": "$graphify-root$_scratch_device_data_reference_charging_2049",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L2049",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_1898",
+			"target": "$graphify-root$_scratch_device_data_reference_battery_2060",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L2060",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_1898",
+			"target": "$graphify-root$_scratch_device_data_reference_power_2069",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L2069",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_1898",
+			"target": "$graphify-root$_scratch_device_data_reference_batteryandpower_2081",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L2081",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_1898",
+			"target": "$graphify-root$_scratch_device_data_reference_port_2088",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L2088",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_1898",
+			"target": "$graphify-root$_scratch_device_data_reference_connectivity_2097",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L2097",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_1898",
+			"target": "$graphify-root$_scratch_device_data_reference_authentication_2105",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L2105",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_1898",
+			"target": "$graphify-root$_scratch_device_data_reference_physicalcomponent_2114",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L2114",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_1898",
+			"target": "$graphify-root$_scratch_device_data_reference_physical_2125",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L2125",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_1898",
+			"target": "$graphify-root$_scratch_device_data_reference_software_2133",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L2133",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_device_data_reference_nested_object_fields_1898",
+			"target": "$graphify-root$_scratch_device_data_reference_accessory_2141",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/device-data-reference.md",
+			"source_location": "L2141",
+			"weight": 1.0
+		}
+	],
+	"input_tokens": 0,
+	"output_tokens": 0
+}

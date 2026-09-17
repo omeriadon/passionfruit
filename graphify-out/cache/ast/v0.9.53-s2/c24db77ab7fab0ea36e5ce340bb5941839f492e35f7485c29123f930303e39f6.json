@@ -1,0 +1,866 @@
+{
+	"nodes": [
+		{
+			"id": "$graphify-root$_scratch_html_capture_batches_md",
+			"label": "html-capture-batches.md",
+			"file_type": "document",
+			"node_kind": "page",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L1"
+		},
+		{
+			"id": "$graphify-root$_scratch_html_capture_batches_apple_watch_batch_1",
+			"label": "Apple Watch batch 1",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L1"
+		},
+		{
+			"id": "$graphify-root$_scratch_html_capture_batches_apple_watch_batch_2",
+			"label": "Apple Watch batch 2",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L7"
+		},
+		{
+			"id": "$graphify-root$_scratch_html_capture_batches_apple_watch_batch_3",
+			"label": "Apple Watch batch 3",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L13"
+		},
+		{
+			"id": "$graphify-root$_scratch_html_capture_batches_apple_watch_batch_4",
+			"label": "Apple Watch batch 4",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L19"
+		},
+		{
+			"id": "$graphify-root$_scratch_html_capture_batches_apple_watch_batch_5",
+			"label": "Apple Watch batch 5",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L25"
+		},
+		{
+			"id": "$graphify-root$_scratch_html_capture_batches_apple_watch_batch_6",
+			"label": "Apple Watch batch 6",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L31"
+		},
+		{
+			"id": "$graphify-root$_scratch_html_capture_batches_ipad_batch_1",
+			"label": "iPad batch 1",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L36"
+		},
+		{
+			"id": "$graphify-root$_scratch_html_capture_batches_ipad_batch_2",
+			"label": "iPad batch 2",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L42"
+		},
+		{
+			"id": "$graphify-root$_scratch_html_capture_batches_ipad_batch_3",
+			"label": "iPad batch 3",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L48"
+		},
+		{
+			"id": "$graphify-root$_scratch_html_capture_batches_ipad_batch_4",
+			"label": "iPad batch 4",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L54"
+		},
+		{
+			"id": "$graphify-root$_scratch_html_capture_batches_ipad_batch_5",
+			"label": "iPad batch 5",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L60"
+		},
+		{
+			"id": "$graphify-root$_scratch_html_capture_batches_ipad_batch_6",
+			"label": "iPad batch 6",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L66"
+		},
+		{
+			"id": "$graphify-root$_scratch_html_capture_batches_ipad_batch_7",
+			"label": "iPad batch 7",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L72"
+		},
+		{
+			"id": "$graphify-root$_scratch_html_capture_batches_ipad_batch_8",
+			"label": "iPad batch 8",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L78"
+		},
+		{
+			"id": "$graphify-root$_scratch_html_capture_batches_ipad_batch_9",
+			"label": "iPad batch 9",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L84"
+		},
+		{
+			"id": "$graphify-root$_scratch_html_capture_batches_ipad_batch_10",
+			"label": "iPad batch 10",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L90"
+		},
+		{
+			"id": "$graphify-root$_scratch_html_capture_batches_ipad_batch_11",
+			"label": "iPad batch 11",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L96"
+		},
+		{
+			"id": "$graphify-root$_scratch_html_capture_batches_ipad_batch_12",
+			"label": "iPad batch 12",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L102"
+		},
+		{
+			"id": "$graphify-root$_scratch_html_capture_batches_ipad_batch_13",
+			"label": "iPad batch 13",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L108"
+		},
+		{
+			"id": "$graphify-root$_scratch_html_capture_batches_ipad_batch_14",
+			"label": "iPad batch 14",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L114"
+		},
+		{
+			"id": "$graphify-root$_scratch_html_capture_batches_iphone_batch_1",
+			"label": "iPhone batch 1",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L118"
+		},
+		{
+			"id": "$graphify-root$_scratch_html_capture_batches_iphone_batch_2",
+			"label": "iPhone batch 2",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L124"
+		},
+		{
+			"id": "$graphify-root$_scratch_html_capture_batches_iphone_batch_3",
+			"label": "iPhone batch 3",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L130"
+		},
+		{
+			"id": "$graphify-root$_scratch_html_capture_batches_iphone_batch_4",
+			"label": "iPhone batch 4",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L136"
+		},
+		{
+			"id": "$graphify-root$_scratch_html_capture_batches_iphone_batch_5",
+			"label": "iPhone batch 5",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L142"
+		},
+		{
+			"id": "$graphify-root$_scratch_html_capture_batches_iphone_batch_6",
+			"label": "iPhone batch 6",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L148"
+		},
+		{
+			"id": "$graphify-root$_scratch_html_capture_batches_iphone_batch_7",
+			"label": "iPhone batch 7",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L154"
+		},
+		{
+			"id": "$graphify-root$_scratch_html_capture_batches_iphone_batch_8",
+			"label": "iPhone batch 8",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L160"
+		},
+		{
+			"id": "$graphify-root$_scratch_html_capture_batches_iphone_batch_9",
+			"label": "iPhone batch 9",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L166"
+		},
+		{
+			"id": "$graphify-root$_scratch_html_capture_batches_iphone_batch_10",
+			"label": "iPhone batch 10",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L172"
+		},
+		{
+			"id": "$graphify-root$_scratch_html_capture_batches_iphone_batch_11",
+			"label": "iPhone batch 11",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L178"
+		},
+		{
+			"id": "$graphify-root$_scratch_html_capture_batches_iphone_batch_12",
+			"label": "iPhone batch 12",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L184"
+		},
+		{
+			"id": "$graphify-root$_scratch_html_capture_batches_iphone_batch_13",
+			"label": "iPhone batch 13",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L190"
+		},
+		{
+			"id": "$graphify-root$_scratch_html_capture_batches_mac_batch_1",
+			"label": "Mac batch 1",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L195"
+		},
+		{
+			"id": "$graphify-root$_scratch_html_capture_batches_mac_batch_2",
+			"label": "Mac batch 2",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L201"
+		},
+		{
+			"id": "$graphify-root$_scratch_html_capture_batches_mac_batch_3",
+			"label": "Mac batch 3",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L207"
+		},
+		{
+			"id": "$graphify-root$_scratch_html_capture_batches_mac_batch_4",
+			"label": "Mac batch 4",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L213"
+		},
+		{
+			"id": "$graphify-root$_scratch_html_capture_batches_mac_batch_5",
+			"label": "Mac batch 5",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L219"
+		},
+		{
+			"id": "$graphify-root$_scratch_html_capture_batches_mac_batch_6",
+			"label": "Mac batch 6",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L225"
+		},
+		{
+			"id": "$graphify-root$_scratch_html_capture_batches_mac_batch_7",
+			"label": "Mac batch 7",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L231"
+		},
+		{
+			"id": "$graphify-root$_scratch_html_capture_batches_mac_batch_8",
+			"label": "Mac batch 8",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L237"
+		},
+		{
+			"id": "$graphify-root$_scratch_html_capture_batches_mac_batch_9",
+			"label": "Mac batch 9",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L243"
+		},
+		{
+			"id": "$graphify-root$_scratch_html_capture_batches_mac_batch_10",
+			"label": "Mac batch 10",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L249"
+		},
+		{
+			"id": "$graphify-root$_scratch_html_capture_batches_mac_batch_11",
+			"label": "Mac batch 11",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L255"
+		},
+		{
+			"id": "$graphify-root$_scratch_html_capture_batches_mac_batch_12",
+			"label": "Mac batch 12",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L261"
+		},
+		{
+			"id": "$graphify-root$_scratch_html_capture_batches_mac_batch_13",
+			"label": "Mac batch 13",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L267"
+		},
+		{
+			"id": "$graphify-root$_scratch_html_capture_batches_mac_batch_14",
+			"label": "Mac batch 14",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L273"
+		},
+		{
+			"id": "$graphify-root$_scratch_html_capture_batches_mac_batch_15",
+			"label": "Mac batch 15",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L279"
+		},
+		{
+			"id": "$graphify-root$_scratch_html_capture_batches_mac_batch_16",
+			"label": "Mac batch 16",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L285"
+		},
+		{
+			"id": "$graphify-root$_scratch_html_capture_batches_mac_batch_17",
+			"label": "Mac batch 17",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L291"
+		}
+	],
+	"edges": [
+		{
+			"source": "$graphify-root$_scratch_html_capture_batches_md",
+			"target": "$graphify-root$_scratch_html_capture_batches_apple_watch_batch_1",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L1",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_html_capture_batches_md",
+			"target": "$graphify-root$_scratch_html_capture_batches_apple_watch_batch_2",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L7",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_html_capture_batches_md",
+			"target": "$graphify-root$_scratch_html_capture_batches_apple_watch_batch_3",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L13",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_html_capture_batches_md",
+			"target": "$graphify-root$_scratch_html_capture_batches_apple_watch_batch_4",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L19",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_html_capture_batches_md",
+			"target": "$graphify-root$_scratch_html_capture_batches_apple_watch_batch_5",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L25",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_html_capture_batches_md",
+			"target": "$graphify-root$_scratch_html_capture_batches_apple_watch_batch_6",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L31",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_html_capture_batches_md",
+			"target": "$graphify-root$_scratch_html_capture_batches_ipad_batch_1",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L36",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_html_capture_batches_md",
+			"target": "$graphify-root$_scratch_html_capture_batches_ipad_batch_2",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L42",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_html_capture_batches_md",
+			"target": "$graphify-root$_scratch_html_capture_batches_ipad_batch_3",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L48",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_html_capture_batches_md",
+			"target": "$graphify-root$_scratch_html_capture_batches_ipad_batch_4",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L54",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_html_capture_batches_md",
+			"target": "$graphify-root$_scratch_html_capture_batches_ipad_batch_5",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L60",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_html_capture_batches_md",
+			"target": "$graphify-root$_scratch_html_capture_batches_ipad_batch_6",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L66",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_html_capture_batches_md",
+			"target": "$graphify-root$_scratch_html_capture_batches_ipad_batch_7",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L72",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_html_capture_batches_md",
+			"target": "$graphify-root$_scratch_html_capture_batches_ipad_batch_8",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L78",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_html_capture_batches_md",
+			"target": "$graphify-root$_scratch_html_capture_batches_ipad_batch_9",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L84",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_html_capture_batches_md",
+			"target": "$graphify-root$_scratch_html_capture_batches_ipad_batch_10",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L90",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_html_capture_batches_md",
+			"target": "$graphify-root$_scratch_html_capture_batches_ipad_batch_11",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L96",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_html_capture_batches_md",
+			"target": "$graphify-root$_scratch_html_capture_batches_ipad_batch_12",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L102",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_html_capture_batches_md",
+			"target": "$graphify-root$_scratch_html_capture_batches_ipad_batch_13",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L108",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_html_capture_batches_md",
+			"target": "$graphify-root$_scratch_html_capture_batches_ipad_batch_14",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L114",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_html_capture_batches_md",
+			"target": "$graphify-root$_scratch_html_capture_batches_iphone_batch_1",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L118",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_html_capture_batches_md",
+			"target": "$graphify-root$_scratch_html_capture_batches_iphone_batch_2",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L124",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_html_capture_batches_md",
+			"target": "$graphify-root$_scratch_html_capture_batches_iphone_batch_3",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L130",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_html_capture_batches_md",
+			"target": "$graphify-root$_scratch_html_capture_batches_iphone_batch_4",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L136",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_html_capture_batches_md",
+			"target": "$graphify-root$_scratch_html_capture_batches_iphone_batch_5",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L142",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_html_capture_batches_md",
+			"target": "$graphify-root$_scratch_html_capture_batches_iphone_batch_6",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L148",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_html_capture_batches_md",
+			"target": "$graphify-root$_scratch_html_capture_batches_iphone_batch_7",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L154",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_html_capture_batches_md",
+			"target": "$graphify-root$_scratch_html_capture_batches_iphone_batch_8",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L160",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_html_capture_batches_md",
+			"target": "$graphify-root$_scratch_html_capture_batches_iphone_batch_9",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L166",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_html_capture_batches_md",
+			"target": "$graphify-root$_scratch_html_capture_batches_iphone_batch_10",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L172",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_html_capture_batches_md",
+			"target": "$graphify-root$_scratch_html_capture_batches_iphone_batch_11",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L178",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_html_capture_batches_md",
+			"target": "$graphify-root$_scratch_html_capture_batches_iphone_batch_12",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L184",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_html_capture_batches_md",
+			"target": "$graphify-root$_scratch_html_capture_batches_iphone_batch_13",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L190",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_html_capture_batches_md",
+			"target": "$graphify-root$_scratch_html_capture_batches_mac_batch_1",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L195",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_html_capture_batches_md",
+			"target": "$graphify-root$_scratch_html_capture_batches_mac_batch_2",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L201",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_html_capture_batches_md",
+			"target": "$graphify-root$_scratch_html_capture_batches_mac_batch_3",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L207",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_html_capture_batches_md",
+			"target": "$graphify-root$_scratch_html_capture_batches_mac_batch_4",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L213",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_html_capture_batches_md",
+			"target": "$graphify-root$_scratch_html_capture_batches_mac_batch_5",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L219",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_html_capture_batches_md",
+			"target": "$graphify-root$_scratch_html_capture_batches_mac_batch_6",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L225",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_html_capture_batches_md",
+			"target": "$graphify-root$_scratch_html_capture_batches_mac_batch_7",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L231",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_html_capture_batches_md",
+			"target": "$graphify-root$_scratch_html_capture_batches_mac_batch_8",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L237",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_html_capture_batches_md",
+			"target": "$graphify-root$_scratch_html_capture_batches_mac_batch_9",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L243",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_html_capture_batches_md",
+			"target": "$graphify-root$_scratch_html_capture_batches_mac_batch_10",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L249",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_html_capture_batches_md",
+			"target": "$graphify-root$_scratch_html_capture_batches_mac_batch_11",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L255",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_html_capture_batches_md",
+			"target": "$graphify-root$_scratch_html_capture_batches_mac_batch_12",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L261",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_html_capture_batches_md",
+			"target": "$graphify-root$_scratch_html_capture_batches_mac_batch_13",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L267",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_html_capture_batches_md",
+			"target": "$graphify-root$_scratch_html_capture_batches_mac_batch_14",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L273",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_html_capture_batches_md",
+			"target": "$graphify-root$_scratch_html_capture_batches_mac_batch_15",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L279",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_html_capture_batches_md",
+			"target": "$graphify-root$_scratch_html_capture_batches_mac_batch_16",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L285",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_scratch_html_capture_batches_md",
+			"target": "$graphify-root$_scratch_html_capture_batches_mac_batch_17",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".scratch/html-capture-batches.md",
+			"source_location": "L291",
+			"weight": 1.0
+		}
+	],
+	"input_tokens": 0,
+	"output_tokens": 0
+}
