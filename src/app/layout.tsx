@@ -1,7 +1,26 @@
 import { type RootProviderProps } from "fumadocs-ui/provider/next";
+import type { Metadata } from "next";
 import { SearchRootProvider } from "@/components/SearchRootProvider";
 import "./global.css";
 import { AuthProvider } from "@/lib/auth/AuthProvider";
+
+export const metadata: Metadata = {
+	icons: {
+		icon: [
+			{
+				url: "/favicon.svg",
+				type: "image/svg+xml",
+				media: "(prefers-color-scheme: light)",
+			},
+			{
+				url: "/favicon-transparent.svg",
+				type: "image/svg+xml",
+				media: "(prefers-color-scheme: dark)",
+			},
+		],
+		shortcut: "/favicon.svg",
+	},
+};
 
 const rootProviderOptions: Omit<RootProviderProps, "children"> = {
 	// Base UI direction for menus, dialogs, popovers, and other primitives.
