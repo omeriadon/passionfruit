@@ -1,12 +1,177 @@
 {
 	"devices": [
 		{
+			"id": "airpods-5",
+			"name": "AirPods 5",
+			"formFactor": "in-ear",
+			"cases": ["Charging Case (USB-C)", "Wireless Charging Case (USB-C)"],
+			"physical": {
+				"earpieceWeight": {
+					"value": 4.3,
+					"unit": "g",
+					"qualifier": "per bud per compare"
+				},
+				"caseWeights": [
+					{
+						"name": "Charging Case (USB-C)",
+						"weight": {
+							"value": 32.3,
+							"unit": "g"
+						}
+					},
+					{
+						"name": "Wireless Charging Case (USB-C)",
+						"weight": {
+							"value": 34.7,
+							"unit": "g"
+						}
+					}
+				]
+			},
+			"images": [
+				{
+					"label": "front",
+					"appleUrl": "https://www.apple.com/v/airpods-5/a/images/overview/bento-gallery/bento_pair__c7i9mu5k2zee_large_2x.jpg",
+					"localPath": "public/data/airpods/images/airpods-5-white.jpg",
+					"widthPx": 2520,
+					"heightPx": 1360
+				}
+			],
+			"audioTechnologies": [
+				{
+					"id": "active-noise-cancellation",
+					"name": "Active Noise Cancellation",
+					"category": "noise-control",
+					"details": "Up to 1.5x more ANC than AirPods 4 with ANC; up to 50% more noise removed."
+				},
+				{
+					"id": "adaptive-audio",
+					"name": "Adaptive Audio",
+					"category": "noise-control"
+				},
+				{
+					"id": "transparency",
+					"name": "Transparency",
+					"category": "noise-control"
+				},
+				{
+					"id": "conversation-awareness",
+					"name": "Conversation Awareness",
+					"category": "noise-control"
+				},
+				{
+					"id": "voice-isolation",
+					"name": "Voice Isolation",
+					"category": "audio-processing"
+				},
+				{
+					"id": "personalized-spatial-audio",
+					"name": "Personalized Spatial Audio with dynamic head tracking",
+					"category": "spatial-audio"
+				},
+				{
+					"id": "adaptive-eq",
+					"name": "Adaptive EQ",
+					"category": "audio-processing"
+				},
+				{
+					"id": "custom-driver",
+					"name": "Custom high-excursion Apple driver",
+					"category": "driver"
+				},
+				{
+					"id": "custom-amplifier",
+					"name": "Custom high dynamic range amplifier",
+					"category": "amplifier"
+				}
+			],
+			"sensors": [
+				{
+					"id": "optical-in-ear-sensor",
+					"name": "Optical in-ear sensor"
+				}
+			],
+			"chips": [
+				{
+					"id": "h2",
+					"displayName": "H2 headphone chip"
+				}
+			],
+			"microphoneCount": 3,
+			"controls": [
+				{
+					"id": "force-sensor",
+					"name": "Force sensor"
+				},
+				{
+					"id": "siri-interactions",
+					"name": "Siri Interactions",
+					"details": "Nod/shake head; hands-free Siri."
+				}
+			],
+			"hearingHealth": [],
+			"liveTranslation": [
+				{
+					"id": "live-translation",
+					"name": "Live Translation",
+					"details": "Apple Intelligence live translation."
+				}
+			],
+			"port": "USB-C",
+			"batteryAndCharging": [
+				{
+					"id": "listening-anc-base",
+					"kind": "listening-time",
+					"hours": 4,
+					"condition": "ANC enabled, base AirPods 5"
+				},
+				{
+					"id": "listening-anc-wireless",
+					"kind": "listening-time",
+					"hours": 5,
+					"condition": "ANC enabled, with Wireless Charging Case"
+				},
+				{
+					"id": "case-total-base",
+					"kind": "case-listening-time",
+					"hours": 20,
+					"condition": "With Charging Case, ANC enabled",
+					"caseName": "Charging Case (USB-C)"
+				},
+				{
+					"id": "case-total-wireless",
+					"kind": "case-listening-time",
+					"hours": 22,
+					"condition": "With Wireless Charging Case, ANC enabled",
+					"caseName": "Wireless Charging Case (USB-C)"
+				},
+				{
+					"id": "fast-charge",
+					"kind": "fast-charge",
+					"details": "5 minutes in case provides around 1 hour listening."
+				}
+			],
+			"ipRating": "IP57",
+			"connectivity": [
+				{
+					"id": "bluetooth-5-3",
+					"technology": "Bluetooth",
+					"version": "5.3"
+				}
+			],
+			"inTheBox": [
+				"AirPods 5",
+				"Charging Case (USB-C) / Wireless Charging Case (USB-C) by SKU",
+				"Documentation"
+			],
+			"sourceNotes": "Evidence: data/tmp/airpods/airpods-5.html, airpods-compare-2026.html, newsroom. $129/$149 US; priceAud omitted. Weights 4.3g bud, 32.3/34.7g cases per compare.",
+			"priceAud": 219
+		},
+		{
 			"id": "airpods-pro-3",
 			"name": "AirPods Pro 3",
 			"formFactor": "in-ear",
-			"cases": [
-				"MagSafe Charging Case (USB-C)"
-			],
+			"cases": ["MagSafe Charging Case (USB-C)"],
 			"physical": {
 				"earpieceWeight": {
 					"value": 5.55,
@@ -156,7 +321,7 @@
 				},
 				{
 					"id": "say-hey-siri-or-just-siri-to-do-things-like-play-a-song-make-a-call-or-get-directions",
-					"name": "Say “Hey Siri” or just “Siri” to do things like play a song, make a call or get directions"
+					"name": "Say \u201cHey Siri\u201d or just \u201cSiri\u201d to do things like play a song, make a call or get directions"
 				},
 				{
 					"id": "siri-interactions",
@@ -236,12 +401,10 @@
 					"id": "bluetooth-5-3",
 					"technology": "Bluetooth",
 					"version": "5.3",
-					"sourceNotes": "Bluetooth® 5.3"
+					"sourceNotes": "Bluetooth\u00ae 5.3"
 				}
 			],
-			"inTheBox": [
-				"AirPods Pro 3"
-			],
+			"inTheBox": ["AirPods Pro 3"],
 			"priceAud": 429,
 			"port": "USB-C",
 			"ipRating": "Dust, sweat and water resistant (IP57)",
@@ -251,9 +414,7 @@
 			"id": "airpods-4-active-noise-cancellation",
 			"name": "AirPods 4 with Active Noise Cancellation",
 			"formFactor": "in-ear",
-			"cases": [
-				"MagSafe Charging Case (USB-C)"
-			],
+			"cases": ["MagSafe Charging Case (USB-C)"],
 			"physical": {
 				"earpieceWeight": {
 					"value": 4.3,
@@ -400,7 +561,7 @@
 				},
 				{
 					"id": "say-hey-siri-or-just-siri-to-do-things-like-play-a-song-make-a-call-or-get-directions",
-					"name": "Say “Hey Siri” or just “Siri” to do things like play a song, make a call or get directions"
+					"name": "Say \u201cHey Siri\u201d or just \u201cSiri\u201d to do things like play a song, make a call or get directions"
 				},
 				{
 					"id": "siri-interactions",
@@ -456,12 +617,10 @@
 					"id": "bluetooth-5-3",
 					"technology": "Bluetooth",
 					"version": "5.3",
-					"sourceNotes": "Bluetooth® 5.3"
+					"sourceNotes": "Bluetooth\u00ae 5.3"
 				}
 			],
-			"inTheBox": [
-				"AirPods 4 with Active Noise Cancellation"
-			],
+			"inTheBox": ["AirPods 4 with Active Noise Cancellation"],
 			"priceAud": 299,
 			"port": "USB-C",
 			"ipRating": "Dust, sweat and water resistant (IP54)",
@@ -471,9 +630,7 @@
 			"id": "airpods-max-2",
 			"name": "AirPods Max 2",
 			"formFactor": "over-ear",
-			"cases": [
-				"Smart Case"
-			],
+			"cases": ["Smart Case"],
 			"physical": {
 				"earpieceWeight": {
 					"value": 386.2,
@@ -647,7 +804,7 @@
 				},
 				{
 					"id": "say-hey-siri-or-just-siri-to-do-things-like-play-a-song-make-a-call-or-get-directions",
-					"name": "Say “Hey Siri” or just “Siri” to do things like play a song, make a call or get directions"
+					"name": "Say \u201cHey Siri\u201d or just \u201cSiri\u201d to do things like play a song, make a call or get directions"
 				},
 				{
 					"id": "siri-interactions",
@@ -719,24 +876,19 @@
 					"id": "bluetooth-5-3",
 					"technology": "Bluetooth",
 					"version": "5.3",
-					"sourceNotes": "Bluetooth® 5.3"
+					"sourceNotes": "Bluetooth\u00ae 5.3"
 				}
 			],
-			"inTheBox": [
-				"AirPods Max 2"
-			],
+			"inTheBox": ["AirPods Max 2"],
 			"priceAud": 999,
 			"port": "USB-C",
-			"ipRating": "Sweat and water resistant",
-			"sourceNotes": "Original colour entries were removed from the AirPods shape; source colours: Midnight, Starlight, Blue, Purple, Orange.\n\nOriginal microphone descriptions, retained because the independent schema stores the count only: Nine microphones total:; Eight microphones for Active Noise Cancellation; Three microphones for voice pick-up (two shared with Active Noise Cancellation and one additional microphone)\n\nOriginal summary facts without a dedicated field, retained verbatim: - H2 chip\n- Up to 1.5x more Active Noise Cancellation than original AirPods Max3\n- Adaptive Audio4 and Transparency mode5\n- Conversation Awareness4\n- Personalised Spatial Audio with dynamic head tracking6\n- Lossless Audio and ultra-low-latency audio via USB-C7\n- Hearing Test9and Hearing Aid features9, and Loud Sound Reduction\n- Live Translation10\n- Digital Crown\n- Force sensor\n- Single charge: Up to 20 hours of listening time on one charge with Active Noise Cancellation11\n- 5 hrs\n- Charging: More than 24 hours of listening time with charging case11\n- Smart Case\n- Sweat and Water resistance: Sweat and water resistant17"
+			"sourceNotes": "Original colour entries were removed from the AirPods shape; source colours: Midnight, Starlight, Blue, Purple, Orange.\n\nOriginal microphone descriptions, retained because the independent schema stores the count only: Nine microphones total:; Eight microphones for Active Noise Cancellation; Three microphones for voice pick-up (two shared with Active Noise Cancellation and one additional microphone)\n\nOriginal summary facts without a dedicated field, retained verbatim: - H2 chip\n- Up to 1.5x more Active Noise Cancellation than original AirPods Max3\n- Adaptive Audio4 and Transparency mode5\n- Conversation Awareness4\n- Personalised Spatial Audio with dynamic head tracking6\n- Lossless Audio and ultra-low-latency audio via USB-C7\n- Hearing Test9and Hearing Aid features9, and Loud Sound Reduction\n- Live Translation10\n- Digital Crown\n- Force sensor\n- Single charge: Up to 20 hours of listening time on one charge with Active Noise Cancellation11\n- 5 hrs\n- Charging: More than 24 hours of listening time with charging case11\n- Smart Case\n- Sweat and Water resistance: Sweat and water resistant17 ipRating omitted: Apple states only \u201cSweat and water resistant\u201d with no IP/WR code for AirPods Max, and the schema requires an embedded IP/WR code; same treatment as AirPods Max (gen 1), which carries no ipRating key."
 		},
 		{
 			"id": "airpods-pro-2",
 			"name": "AirPods Pro 2",
 			"formFactor": "in-ear",
-			"cases": [
-				"MagSafe Charging Case (USB-C)"
-			],
+			"cases": ["MagSafe Charging Case (USB-C)"],
 			"physical": {
 				"earpieceWeight": {
 					"value": 5.3,
@@ -882,7 +1034,7 @@
 				},
 				{
 					"id": "say-hey-siri-or-just-siri-to-do-things-like-play-a-song-make-a-call-or-get-directions",
-					"name": "Say “Hey Siri” or just “Siri” to do things like play a song, make a call or get directions"
+					"name": "Say \u201cHey Siri\u201d or just \u201cSiri\u201d to do things like play a song, make a call or get directions"
 				},
 				{
 					"id": "siri-interactions",
@@ -944,7 +1096,7 @@
 					"id": "bluetooth-5-3",
 					"technology": "Bluetooth",
 					"version": "5.3",
-					"sourceNotes": "Bluetooth® 5.3"
+					"sourceNotes": "Bluetooth\u00ae 5.3"
 				}
 			],
 			"inTheBox": [
@@ -963,9 +1115,7 @@
 			"id": "airpods-4",
 			"name": "AirPods 4",
 			"formFactor": "in-ear",
-			"cases": [
-				"Charging Case (USB-C)"
-			],
+			"cases": ["Charging Case (USB-C)"],
 			"physical": {
 				"earpieceWeight": {
 					"value": 4.3,
@@ -1090,7 +1240,7 @@
 				},
 				{
 					"id": "say-hey-siri-or-just-siri-to-do-things-like-play-a-song-make-a-call-or-get-directions",
-					"name": "Say “Hey Siri” or just “Siri” to do things like play a song, make a call or get directions"
+					"name": "Say \u201cHey Siri\u201d or just \u201cSiri\u201d to do things like play a song, make a call or get directions"
 				},
 				{
 					"id": "siri-interactions",
@@ -1135,7 +1285,7 @@
 					"id": "bluetooth-5-3",
 					"technology": "Bluetooth",
 					"version": "5.3",
-					"sourceNotes": "Bluetooth® 5.3"
+					"sourceNotes": "Bluetooth\u00ae 5.3"
 				}
 			],
 			"inTheBox": [
@@ -1153,9 +1303,7 @@
 			"id": "airpods-max",
 			"name": "AirPods Max",
 			"formFactor": "over-ear",
-			"cases": [
-				"Smart Case"
-			],
+			"cases": ["Smart Case"],
 			"physical": {
 				"earpieceWeight": {
 					"value": 386.2,
@@ -1315,7 +1463,7 @@
 				},
 				{
 					"id": "say-hey-siri-to-do-things-like-play-a-song-make-a-call-or-get-directions",
-					"name": "Say “Hey Siri” to do things like play a song, make a call or get directions"
+					"name": "Say \u201cHey Siri\u201d to do things like play a song, make a call or get directions"
 				}
 			],
 			"hearingHealth": [],
@@ -1361,7 +1509,7 @@
 					"id": "bluetooth-5-0",
 					"technology": "Bluetooth",
 					"version": "5.0",
-					"sourceNotes": "Bluetooth® 5.0"
+					"sourceNotes": "Bluetooth\u00ae 5.0"
 				}
 			],
 			"inTheBox": [
@@ -1378,9 +1526,7 @@
 			"id": "airpods-2nd-generation",
 			"name": "AirPods (2nd generation)",
 			"formFactor": "in-ear",
-			"cases": [
-				"Lightning Charging Case"
-			],
+			"cases": ["Lightning Charging Case"],
 			"physical": {
 				"earpieceWeight": {
 					"value": 4,
@@ -1405,7 +1551,15 @@
 					"heightPx": 680
 				}
 			],
-			"audioTechnologies": [],
+			"audioTechnologies": [
+				{
+					"id": "aac-audio",
+					"name": "AAC audio",
+					"category": "other",
+					"details": "Plays AAC-encoded audio over Bluetooth (Apple rates battery life using 256-Kbps AAC tracks).",
+					"sourceNotes": "Minimal truthful entry: Apple compare evidence (data/tmp/airpods/airpod4.html, airpods-compare-2026.html) lists Adaptive EQ, Driver and Amplifier information as unavailable for this generation, and Apple publishes no dedicated Audio Technology section for it; AAC playback evidenced by Apple support tech specs 111856 battery-test footnotes (256-Kbps AAC tracks)."
+				}
+			],
 			"sensors": [
 				{
 					"id": "dual-optical-sensors",
@@ -1426,7 +1580,7 @@
 				},
 				{
 					"id": "say-hey-siri-to-do-things-like-play-a-song-make-a-call-or-get-directions",
-					"name": "Say “Hey Siri” to do things like play a song, make a call or get directions"
+					"name": "Say \u201cHey Siri\u201d to do things like play a song, make a call or get directions"
 				}
 			],
 			"hearingHealth": [],
@@ -1462,26 +1616,24 @@
 					"id": "bluetooth-5-0",
 					"technology": "Bluetooth",
 					"version": "5.0",
-					"sourceNotes": "Bluetooth® 5.0"
+					"sourceNotes": "Bluetooth\u00ae 5.0"
 				}
 			],
 			"inTheBox": [
 				"AirPods (2nd generation)",
 				"Lightning Charging Case",
-				"Lightning to USB‑A Cable",
+				"Lightning to USB\u2011A Cable",
 				"Documentation"
 			],
 			"priceAud": 0,
 			"port": "Lightning",
-			"sourceNotes": "Original colour entries were removed from the AirPods shape; source colours: White.\n\nOriginal summary facts without a dedicated field, retained verbatim: - H1 chip\n- Double tap\n- Single charge: Up to 5 hours of listening time on one charge11\n- More than 24 hours of listening time with charging case11\n- Lightning Charging Case\n- “Hey Siri”\n- Automatic Switching19\n- Personalised engraving"
+			"sourceNotes": "Original colour entries were removed from the AirPods shape; source colours: White.\n\nOriginal summary facts without a dedicated field, retained verbatim: - H1 chip\n- Double tap\n- Single charge: Up to 5 hours of listening time on one charge11\n- More than 24 hours of listening time with charging case11\n- Lightning Charging Case\n- \u201cHey Siri\u201d\n- Automatic Switching19\n- Personalised engraving"
 		},
 		{
 			"id": "airpods-3rd-generation-lightning",
 			"name": "AirPods (3rd generation) with Lightning Charging Case",
 			"formFactor": "in-ear",
-			"cases": [
-				"Lightning Charging Case"
-			],
+			"cases": ["Lightning Charging Case"],
 			"physical": {
 				"earpieceWeight": {
 					"value": 4.28,
@@ -1572,7 +1724,7 @@
 				},
 				{
 					"id": "say-hey-siri-to-do-things-like-play-a-song-make-a-call-or-get-directions",
-					"name": "Say “Hey Siri” to do things like play a song, make a call or get directions"
+					"name": "Say \u201cHey Siri\u201d to do things like play a song, make a call or get directions"
 				}
 			],
 			"hearingHealth": [],
@@ -1608,26 +1760,24 @@
 					"id": "bluetooth-5-0",
 					"technology": "Bluetooth",
 					"version": "5.0",
-					"sourceNotes": "Bluetooth® 5.0"
+					"sourceNotes": "Bluetooth\u00ae 5.0"
 				}
 			],
 			"inTheBox": [
 				"AirPods (3rd generation)",
 				"Lightning Charging Case",
-				"Lightning to USB‑C Cable",
+				"Lightning to USB\u2011C Cable",
 				"Documentation"
 			],
 			"priceAud": 0,
-			"sourceNotes": "Original colour entries were removed from the AirPods shape; source colours: White.\n\nOriginal microphone descriptions, retained because the independent schema stores the count only: Inward-facing microphone\n\nOriginal summary facts without a dedicated field, retained verbatim: - H1 chip\n- Personalised Spatial Audio with dynamic head tracking6\n- Force sensor\n- Single charge: Up to 6 hours of listening time on one charge11\n- Up to 30 hours of listening time with charging case11\n- Lightning Charging Case13\n- Sweat and water resistant17\n- “Hey Siri”\n- Automatic Switching19\n- Personalised engraving",
+			"sourceNotes": "Original colour entries were removed from the AirPods shape; source colours: White.\n\nOriginal microphone descriptions, retained because the independent schema stores the count only: Inward-facing microphone\n\nOriginal summary facts without a dedicated field, retained verbatim: - H1 chip\n- Personalised Spatial Audio with dynamic head tracking6\n- Force sensor\n- Single charge: Up to 6 hours of listening time on one charge11\n- Up to 30 hours of listening time with charging case11\n- Lightning Charging Case13\n- Sweat and water resistant17\n- \u201cHey Siri\u201d\n- Automatic Switching19\n- Personalised engraving",
 			"ipRating": "Sweat and water resistant (IPX4)"
 		},
 		{
 			"id": "airpods-3rd-generation-magsafe",
 			"name": "AirPods (3rd generation) with MagSafe Charging Case",
 			"formFactor": "in-ear",
-			"cases": [
-				"MagSafe Charging Case"
-			],
+			"cases": ["MagSafe Charging Case"],
 			"physical": {
 				"earpieceWeight": {
 					"value": 4.28,
@@ -1718,7 +1868,7 @@
 				},
 				{
 					"id": "say-hey-siri-to-do-things-like-play-a-song-make-a-call-or-get-directions",
-					"name": "Say “Hey Siri” to do things like play a song, make a call or get directions"
+					"name": "Say \u201cHey Siri\u201d to do things like play a song, make a call or get directions"
 				}
 			],
 			"hearingHealth": [],
@@ -1754,17 +1904,17 @@
 					"id": "bluetooth-5-0",
 					"technology": "Bluetooth",
 					"version": "5.0",
-					"sourceNotes": "Bluetooth® 5.0"
+					"sourceNotes": "Bluetooth\u00ae 5.0"
 				}
 			],
 			"inTheBox": [
 				"AirPods (3rd generation)",
 				"MagSafe Charging Case",
-				"Lightning to USB‑C Cable",
+				"Lightning to USB\u2011C Cable",
 				"Documentation"
 			],
 			"priceAud": 0,
-			"sourceNotes": "Original colour entries were removed from the AirPods shape; source colours: White.\n\nOriginal microphone descriptions, retained because the independent schema stores the count only: Inward-facing microphone\n\nOriginal summary facts without a dedicated field, retained verbatim: - H1 chip\n- Personalised Spatial Audio with dynamic head tracking6\n- Force sensor\n- Single charge: Up to 6 hours of listening time on one charge11\n- Up to 30 hours of listening time with charging case11\n- MagSafe Charging Case13\n- Sweat and water resistant17\n- “Hey Siri”\n- Automatic Switching19\n- Personalised engraving",
+			"sourceNotes": "Original colour entries were removed from the AirPods shape; source colours: White.\n\nOriginal microphone descriptions, retained because the independent schema stores the count only: Inward-facing microphone\n\nOriginal summary facts without a dedicated field, retained verbatim: - H1 chip\n- Personalised Spatial Audio with dynamic head tracking6\n- Force sensor\n- Single charge: Up to 6 hours of listening time on one charge11\n- Up to 30 hours of listening time with charging case11\n- MagSafe Charging Case13\n- Sweat and water resistant17\n- \u201cHey Siri\u201d\n- Automatic Switching19\n- Personalised engraving",
 			"ipRating": "Sweat and water resistant (IPX4)"
 		}
 	]

@@ -9,7 +9,7 @@
 | `data/tmp/watch/watch3.html` | Present usable | 1030654 bytes                                                                                                                                               |
 | `data/tmp/watch/watch4.html` | Present usable | 1017645 bytes                                                                                                                                               |
 | Canonical candidate source   | PRESENT        | `.scratch/strict/watch/strict-devices.json`, 12 devices                                                                                                     |
-| Canonical output             | PRESENT        | `public/data/apple-watch/apple-watch.json`, 17 canonical devices; Ajv Draft 2020-12 shared contract passes with 0 errors; all 112 image references verified |
+| Canonical output             | PRESENT        | `public/data/apple-watch/apple-watch.json`, 19 canonical devices; Ajv Draft 2020-12 shared contract passes with 0 errors; all 112 image references verified |
 
 All four valid inputs expose a 17-device catalogue. The complete 17-device catalogue is merged and validated.
 
@@ -34,3 +34,5 @@ All four valid inputs expose a 17-device catalogue. The complete 17-device catal
 | Apple Watch Ultra     | PRESENT | `watch.html`, `watch2.html`, `watch3.html`, `watch4.html`                                    |
 | Apple Watch Ultra 2   | PRESENT | `watch.html`, `watch2.html`, `watch3.html`, `watch4.html`                                    |
 | Apple Watch Ultra 3   | PRESENT | `watch.html`, `watch2.html`, `watch3.html`, `watch4.html`                                    |
+| Apple Watch Series 12 | PRESENT | `watch-series-12.html`, `watch-compare-2026.html`, `watch-series-12-newsroom.html`           |
+| Apple Watch Ultra 4   | PRESENT | `watch-ultra-4.html`, `watch-compare-2026.html`, `watch-ultra-4-newsroom.html`               |

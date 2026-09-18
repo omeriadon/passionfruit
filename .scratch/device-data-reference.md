@@ -1990,7 +1990,7 @@ This is the human-readable index for the canonical device contracts. The adjacen
 | `technology`         | required | `string`  | `"3D display system"`                                                                    |
 | `panelKind`          | required | `string`  | `"micro-OLED"`                                                                           |
 | `sizeIn`             | optional | `number`  | `0`                                                                                      |
-| `resolutionWidthPx`  | required | `integer | null` | `null`                                                                               |
+| `resolutionWidthPx`  | required | `integer  | null`                                                                                    | `null` |
 | `resolutionHeightPx` | optional | `integer` | `1`                                                                                      |
 | `pixelsPerInch`      | optional | `number`  | `1`                                                                                      |
 | `refreshRateRange`   | optional | `object`  | `{"minimum":90,"maximum":120,"unit":"hz"}`                                               |

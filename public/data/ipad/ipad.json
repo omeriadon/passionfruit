@@ -5,7 +5,42 @@
 			"name": "iPad Pro 13-inch (M5)",
 			"releaseYear": 2025,
 			"priceAud": 1999,
-			"colors": [],
+			"colors": [
+				{
+					"id": "ipad-pro-13-m5-spaceblack",
+					"displayName": "Space Black",
+					"finish": {
+						"base": "#2e2c2e",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "front",
+							"appleUrl": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/ipad-pro-13-select-wifi-spaceblack-202405?wid=940&hei=1112&fmt=p-jpg&qlt=95&.v=T1BCOVhFWUx5RnVHWklQQWdsQTFDY3pCNlo3Y2trYUx2VGtnRmoxbk1mRFcvUGs3Z3lJUWVHYk5KZW9nNkdxb1Q5NVJ4OStiQklybHZqYkJwOUI0UWt2aHJVVVRvS3hUQ0EwVk8wak9Ka0g3djBPZUREMElRMHhHVnprUmxPLzg",
+							"localPath": "public/data/ipad/images/ipad-pro-13-select-wifi-spaceblack-202405.jpg",
+							"widthPx": 940,
+							"heightPx": 1112
+						}
+					]
+				},
+				{
+					"id": "ipad-pro-13-m5-silver",
+					"displayName": "Silver",
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "front",
+							"appleUrl": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/ipad-pro-13-select-wifi-silver-202405?wid=940&hei=1112&fmt=p-jpg&qlt=95&.v=T1BCOVhFWUx5RnVHWklQQWdsQTFDV0xGdWdkb2NmaG1yVzIvWDFuNS82LytPWGFLNk1GaGFmR2E1bUR3TXNrOXhxZ1ZZWHcyTUFGTS9hRk5FME1JTXNRUkRub2x2S3QvTjZFa2ZmMXdrcXJ3VWhVeWpNVmUwdDB0cjdHdHgrVnk",
+							"localPath": "public/data/ipad/images/ipad-pro-13-select-wifi-silver-202405.jpg",
+							"widthPx": 940,
+							"heightPx": 1112
+						}
+					]
+				}
+			],
 			"configurations": [],
 			"storageOptions": [
 				{
@@ -69,7 +104,6 @@
 				{
 					"id": "ipad-pro-13-m5-display",
 					"technology": "Ultra Retina XDR display",
-					"panelKind": null,
 					"sizeIn": 13,
 					"resolutionWidthPx": 2752,
 					"resolutionHeightPx": 2064,
@@ -144,7 +178,6 @@
 						"id": "ipad-pro-13-m5-port-usb-c",
 						"kind": "USB-C",
 						"supportsDisplayOut": true,
-						"maxPowerW": null,
 						"sourceNotes": "Source wording is Thunderbolt/USB 4. USB 4 is retained as the explicit non-exclusive protocol standard; Thunderbolt capability remains described in this note.",
 						"standard": "USB 4"
 					},
@@ -152,7 +185,6 @@
 						"id": "ipad-pro-13-m5-port-smart",
 						"kind": "Smart Connector",
 						"supportsDisplayOut": false,
-						"maxPowerW": null,
 						"sourceNotes": "Standard set to proprietary because Smart Connector has no USB protocol standard. Standard omitted because Smart Connector has no USB protocol standard."
 					}
 				],
@@ -163,10 +195,7 @@
 					"version": "Bluetooth 6.0"
 				},
 				"cellular": {
-					"technologies": [
-						"5G sub-6",
-						"LTE"
-					],
+					"technologies": ["5G sub-6", "LTE"],
 					"eSIMOnly": false
 				},
 				"uwb": null,
@@ -176,9 +205,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"Face ID"
-				],
+				"methods": ["Face ID"],
 				"primaryMethod": "Face ID"
 			},
 			"physical": {
@@ -211,9 +238,9 @@
 				{
 					"id": "ipad-pro-11-m5-spaceblack",
 					"displayName": "Space Black",
-					"swatch": {
-						"kind": "css",
-						"value": "#2e2c2e"
+					"finish": {
+						"base": "#2e2c2e",
+						"material": "matte-aluminum"
 					},
 					"images": [
 						{
@@ -228,9 +255,9 @@
 				{
 					"id": "ipad-pro-11-m5-silver",
 					"displayName": "Silver",
-					"swatch": {
-						"kind": "css",
-						"value": "#e2e3e4"
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum"
 					},
 					"images": [
 						{
@@ -306,7 +333,6 @@
 				{
 					"id": "ipad-pro-11-m5-display",
 					"technology": "Ultra Retina XDR display",
-					"panelKind": null,
 					"sizeIn": 11,
 					"resolutionWidthPx": 2420,
 					"resolutionHeightPx": 1668,
@@ -381,7 +407,6 @@
 						"id": "ipad-pro-11-m5-port-usb-c",
 						"kind": "USB-C",
 						"supportsDisplayOut": true,
-						"maxPowerW": null,
 						"sourceNotes": "Source wording is Thunderbolt/USB 4. USB 4 is retained as the explicit non-exclusive protocol standard; Thunderbolt capability remains described in this note.",
 						"standard": "USB 4"
 					},
@@ -389,7 +414,6 @@
 						"id": "ipad-pro-11-m5-port-smart",
 						"kind": "Smart Connector",
 						"supportsDisplayOut": false,
-						"maxPowerW": null,
 						"sourceNotes": "Standard set to proprietary because Smart Connector has no USB protocol standard. Standard omitted because Smart Connector has no USB protocol standard."
 					}
 				],
@@ -400,10 +424,7 @@
 					"version": "Bluetooth 6.0"
 				},
 				"cellular": {
-					"technologies": [
-						"5G sub-6",
-						"LTE"
-					],
+					"technologies": ["5G sub-6", "LTE"],
 					"eSIMOnly": false
 				},
 				"uwb": null,
@@ -413,9 +434,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"Face ID"
-				],
+				"methods": ["Face ID"],
 				"primaryMethod": "Face ID"
 			},
 			"physical": {
@@ -444,7 +463,76 @@
 			"name": "iPad Air 13-inch (M4)",
 			"releaseYear": 2026,
 			"priceAud": 1599,
-			"colors": [],
+			"colors": [
+				{
+					"id": "ipad-air-13-m4-spacegrey",
+					"displayName": "Space Grey",
+					"finish": {
+						"base": "#68696d",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "front",
+							"appleUrl": "https://www.apple.com/v/ipad/compare/al/images/overview/ipad_air_11_m4_spacegray__foa0ijnqpi2y_large.jpg",
+							"localPath": "public/data/ipad/images/ipad_air_11_m4_spacegray__foa0ijnqpi2y_large.jpg",
+							"widthPx": 257,
+							"heightPx": 292
+						}
+					]
+				},
+				{
+					"id": "ipad-air-13-m4-blue",
+					"displayName": "Blue",
+					"finish": {
+						"base": "#d7e5e6",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "front",
+							"appleUrl": "https://www.apple.com/v/ipad/compare/al/images/overview/ipad_air_11_m4_blue__exgp5c6s4zgy_large.jpg",
+							"localPath": "public/data/ipad/images/ipad_air_11_m4_blue__exgp5c6s4zgy_large.jpg",
+							"widthPx": 257,
+							"heightPx": 292
+						}
+					]
+				},
+				{
+					"id": "ipad-air-13-m4-purple",
+					"displayName": "Purple",
+					"finish": {
+						"base": "#e3dee9",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "front",
+							"appleUrl": "https://www.apple.com/v/ipad/compare/al/images/overview/ipad_air_11_m4_purple__dc5imizwemwm_large.jpg",
+							"localPath": "public/data/ipad/images/ipad_air_11_m4_purple__dc5imizwemwm_large.jpg",
+							"widthPx": 257,
+							"heightPx": 292
+						}
+					]
+				},
+				{
+					"id": "ipad-air-13-m4-starlight",
+					"displayName": "Starlight",
+					"finish": {
+						"base": "#e3dcd1",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "front",
+							"appleUrl": "https://www.apple.com/v/ipad/compare/al/images/overview/ipad_air_11_m4_starlight__ckjmo75jgej6_large.jpg",
+							"localPath": "public/data/ipad/images/ipad_air_11_m4_starlight__ckjmo75jgej6_large.jpg",
+							"widthPx": 257,
+							"heightPx": 292
+						}
+					]
+				}
+			],
 			"configurations": [],
 			"storageOptions": [
 				{
@@ -508,7 +596,6 @@
 				{
 					"id": "ipad-air-13-m4-display",
 					"technology": "Liquid Retina display",
-					"panelKind": null,
 					"sizeIn": 13,
 					"resolutionWidthPx": 2732,
 					"resolutionHeightPx": 2048,
@@ -583,7 +670,6 @@
 						"id": "ipad-air-13-m4-port-usb-c",
 						"kind": "USB-C",
 						"supportsDisplayOut": true,
-						"maxPowerW": null,
 						"sourceNotes": "Source wording is Thunderbolt/USB 4. USB 4 is retained as the explicit non-exclusive protocol standard; Thunderbolt capability remains described in this note.",
 						"standard": "USB 4"
 					},
@@ -591,7 +677,6 @@
 						"id": "ipad-air-13-m4-port-smart",
 						"kind": "Smart Connector",
 						"supportsDisplayOut": false,
-						"maxPowerW": null,
 						"sourceNotes": "Standard set to proprietary because Smart Connector has no USB protocol standard. Standard omitted because Smart Connector has no USB protocol standard."
 					}
 				],
@@ -602,10 +687,7 @@
 					"version": "Bluetooth 6.0"
 				},
 				"cellular": {
-					"technologies": [
-						"5G sub-6",
-						"LTE"
-					],
+					"technologies": ["5G sub-6", "LTE"],
 					"eSIMOnly": false
 				},
 				"uwb": null,
@@ -615,9 +697,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"Touch ID"
-				],
+				"methods": ["Touch ID"],
 				"primaryMethod": "Touch ID"
 			},
 			"physical": {
@@ -650,9 +730,9 @@
 				{
 					"id": "ipad-air-11-m4-spacegrey",
 					"displayName": "Space Grey",
-					"swatch": {
-						"kind": "css",
-						"value": "#68696d"
+					"finish": {
+						"base": "#68696d",
+						"material": "matte-aluminum"
 					},
 					"images": [
 						{
@@ -667,9 +747,9 @@
 				{
 					"id": "ipad-air-11-m4-blue",
 					"displayName": "Blue",
-					"swatch": {
-						"kind": "css",
-						"value": "#d7e5e6"
+					"finish": {
+						"base": "#d7e5e6",
+						"material": "matte-aluminum"
 					},
 					"images": [
 						{
@@ -684,9 +764,9 @@
 				{
 					"id": "ipad-air-11-m4-purple",
 					"displayName": "Purple",
-					"swatch": {
-						"kind": "css",
-						"value": "#e3dee9"
+					"finish": {
+						"base": "#e3dee9",
+						"material": "matte-aluminum"
 					},
 					"images": [
 						{
@@ -701,9 +781,9 @@
 				{
 					"id": "ipad-air-11-m4-starlight",
 					"displayName": "Starlight",
-					"swatch": {
-						"kind": "css",
-						"value": "#e3dcd1"
+					"finish": {
+						"base": "#e3dcd1",
+						"material": "matte-aluminum"
 					},
 					"images": [
 						{
@@ -779,7 +859,6 @@
 				{
 					"id": "ipad-air-11-m4-display",
 					"technology": "Liquid Retina display",
-					"panelKind": null,
 					"sizeIn": 11,
 					"resolutionWidthPx": 2360,
 					"resolutionHeightPx": 1640,
@@ -854,7 +933,6 @@
 						"id": "ipad-air-11-m4-port-usb-c",
 						"kind": "USB-C",
 						"supportsDisplayOut": true,
-						"maxPowerW": null,
 						"sourceNotes": "Source wording is Thunderbolt/USB 4. USB 4 is retained as the explicit non-exclusive protocol standard; Thunderbolt capability remains described in this note.",
 						"standard": "USB 4"
 					},
@@ -862,7 +940,6 @@
 						"id": "ipad-air-11-m4-port-smart",
 						"kind": "Smart Connector",
 						"supportsDisplayOut": false,
-						"maxPowerW": null,
 						"sourceNotes": "Standard set to proprietary because Smart Connector has no USB protocol standard. Standard omitted because Smart Connector has no USB protocol standard."
 					}
 				],
@@ -873,10 +950,7 @@
 					"version": "Bluetooth 5.3"
 				},
 				"cellular": {
-					"technologies": [
-						"5G sub-6",
-						"LTE"
-					],
+					"technologies": ["5G sub-6", "LTE"],
 					"eSIMOnly": false
 				},
 				"uwb": null,
@@ -886,9 +960,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"Touch ID"
-				],
+				"methods": ["Touch ID"],
 				"primaryMethod": "Touch ID"
 			},
 			"physical": {
@@ -916,8 +988,77 @@
 			"id": "ipad-a16",
 			"name": "iPad (A16)",
 			"releaseYear": 2025,
-			"priceAud": null,
-			"colors": [],
+			"priceAud": 749,
+			"colors": [
+				{
+					"id": "ipad-a16-blue",
+					"displayName": "Blue",
+					"finish": {
+						"base": "#6983a4",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "front",
+							"appleUrl": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/ipad-2022-hero-blue-wifi-select?wid=940&hei=1112&fmt=png-alpha&.v=ZDYzbWk1aEx5d0Zuc0F2SVU5OUdjYysrRVozbWRzbjhnK1I1RGhZalVLOFRBb2Y3bDBKVGVlSmVleUE2Ymp3SVM0TjRWdzF2UjRGVEY0c3dBQVZ6VFJVSTEzTy9jUnIrRUtYQzJ6bHZJc00",
+							"localPath": "public/data/ipad/images/ipad-2022-hero-blue-wifi-select.png",
+							"widthPx": 940,
+							"heightPx": 1112
+						}
+					]
+				},
+				{
+					"id": "ipad-a16-silver",
+					"displayName": "Silver",
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "front",
+							"appleUrl": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/ipad-2022-hero-silver-wifi-select?wid=940&hei=1112&fmt=png-alpha&.v=MG1udWpyWFI4d3VJQmF2aGlucjRyYUtrNVcxNFM0TGJlbkh3VDIzWFBmY2hPVVo3RjZFdVpCTXpsVXRVUk9xbmJjNitDN2kyNWFITm1kN1lsSUFHR2J2UHJZOUZxd0JoWkRMWVBTV1Y2Z3YrNmVjbmk5c1V4VVk2VEt3TGcxekg",
+							"localPath": "public/data/ipad/images/ipad-2022-hero-silver-wifi-select.png",
+							"widthPx": 940,
+							"heightPx": 1112
+						}
+					]
+				},
+				{
+					"id": "ipad-a16-pink",
+					"displayName": "Pink",
+					"finish": {
+						"base": "#de6878",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "front",
+							"appleUrl": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/ipad-2022-hero-pink-wifi-select?wid=940&hei=1112&fmt=png-alpha&.v=K1VRcjAwcUw4UURuam5iaHdRaWlCN1kvYTZkQXJ1Z1hERDd5dUNRaWRNMFRBb2Y3bDBKVGVlSmVleUE2Ymp3SVM0TjRWdzF2UjRGVEY0c3dBQVZ6VFNyaEt5OEVaRTFoTmNyQmlpVUFxdms",
+							"localPath": "public/data/ipad/images/ipad-2022-hero-pink-wifi-select.png",
+							"widthPx": 940,
+							"heightPx": 1112
+						}
+					]
+				},
+				{
+					"id": "ipad-a16-yellow",
+					"displayName": "Yellow",
+					"finish": {
+						"base": "#f0d961",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "front",
+							"appleUrl": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/ipad-2022-hero-yellow-wifi-select?wid=940&hei=1112&fmt=png-alpha&.v=Q251SHhDYWdkSG14R3NzbW9vU1lxM0hEa2phNHR6TGgvaHgzbUc2R3J2c2hPVVo3RjZFdVpCTXpsVXRVUk9xbmJjNitDN2kyNWFITm1kN1lsSUFHR2ExdkJqQW5NMEtqSnBIV1lIUUtPU0M1dDgvV3BhU1hoSzFPUEZjam5HQ2g",
+							"localPath": "public/data/ipad/images/ipad-2022-hero-yellow-wifi-select.png",
+							"widthPx": 940,
+							"heightPx": 1112
+						}
+					]
+				}
+			],
 			"configurations": [],
 			"storageOptions": [
 				{
@@ -968,7 +1109,6 @@
 				{
 					"id": "ipad-a16-display",
 					"technology": "Liquid Retina display",
-					"panelKind": null,
 					"sizeIn": 11,
 					"resolutionWidthPx": 2360,
 					"resolutionHeightPx": 1640,
@@ -1043,7 +1183,6 @@
 						"id": "ipad-a16-port-usb-c",
 						"kind": "USB-C",
 						"supportsDisplayOut": true,
-						"maxPowerW": null,
 						"sourceNotes": "Source wording only says USB-C. The supplied exports do not state a protocol generation; USB 2 is an explicit unresolved placeholder and is not authoritative.",
 						"standard": "USB 2"
 					},
@@ -1051,7 +1190,6 @@
 						"id": "ipad-a16-port-smart",
 						"kind": "Smart Connector",
 						"supportsDisplayOut": false,
-						"maxPowerW": null,
 						"sourceNotes": "Standard set to proprietary because Smart Connector has no USB protocol standard. Standard omitted because Smart Connector has no USB protocol standard."
 					}
 				],
@@ -1062,10 +1200,7 @@
 					"version": "Bluetooth 5.3"
 				},
 				"cellular": {
-					"technologies": [
-						"5G sub-6",
-						"LTE"
-					],
+					"technologies": ["5G sub-6", "LTE"],
 					"eSIMOnly": false
 				},
 				"uwb": null,
@@ -1075,9 +1210,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"Touch ID"
-				],
+				"methods": ["Touch ID"],
 				"primaryMethod": "Touch ID"
 			},
 			"physical": {
@@ -1105,8 +1238,77 @@
 			"id": "ipad-mini-a17-pro",
 			"name": "iPad mini (A17 Pro)",
 			"releaseYear": 2024,
-			"priceAud": null,
-			"colors": [],
+			"priceAud": 949,
+			"colors": [
+				{
+					"id": "ipad-mini-a17-pro-spacegray",
+					"displayName": "Space Gray",
+					"finish": {
+						"base": "#68696d",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "front",
+							"appleUrl": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/ipad-mini-select-wifi-spacegray-202410?wid=940&hei=1112&fmt=png-alpha&.v=NmJhVkxMSzd4RmRrSjJwN2s4VWJVKzlBaHA1THNMUXlDa1dRMU1wTGcxYlRKc3dEODNneTBSZFNTOGZoVVpTaURPUU9BWmJWRXFZMEJicERYSS9tMXZ3UU5uUUpBVE5PT3lEMWJHa3h5c29tYUg4SmtKcW5xSGI3YTdpRVdNejg",
+							"localPath": "public/data/ipad/images/ipad-mini-select-wifi-spacegray-202410.png",
+							"widthPx": 940,
+							"heightPx": 1112
+						}
+					]
+				},
+				{
+					"id": "ipad-mini-a17-pro-blue",
+					"displayName": "Blue",
+					"finish": {
+						"base": "#d7e5e6",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "front",
+							"appleUrl": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/ipad-mini-select-wifi-blue-202410?wid=940&hei=1112&fmt=png-alpha&.v=NmJhVkxMSzd4RmRrSjJwN2s4VWJVMHBIYm5EcjF5ZHdTWjByNmplMHhtVDRXdlpsMGFvb09SOHRPYjdBV3NIZmJjNitDN2kyNWFITm1kN1lsSUFHR2JiZ2pyMnJPbUExZmhtMSs0WUFMOWIrNmVjbmk5c1V4VVk2VEt3TGcxekg",
+							"localPath": "public/data/ipad/images/ipad-mini-select-wifi-blue-202410.png",
+							"widthPx": 940,
+							"heightPx": 1112
+						}
+					]
+				},
+				{
+					"id": "ipad-mini-a17-pro-purple",
+					"displayName": "Purple",
+					"finish": {
+						"base": "#e3dee9",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "front",
+							"appleUrl": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/ipad-mini-select-wifi-purple-202410?wid=940&hei=1112&fmt=png-alpha&.v=NmJhVkxMSzd4RmRrSjJwN2s4VWJVNzVFK2U2TjRHYmZNU1M0UzNyaEJrVWVIWjNpaWxvby9UZ2w1T1c3cUwrbTJpdkFkeXRGenVzczlmSUZMYlgrMGpTeHhnaUcyb2JhMy9MQVIreWhPN2IrQWpCVmo0bmtLZHNRZStPMUV5Smw",
+							"localPath": "public/data/ipad/images/ipad-mini-select-wifi-purple-202410.png",
+							"widthPx": 940,
+							"heightPx": 1112
+						}
+					]
+				},
+				{
+					"id": "ipad-mini-a17-pro-starlight",
+					"displayName": "Starlight",
+					"finish": {
+						"base": "#e3dcd1",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "front",
+							"appleUrl": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/ipad-mini-select-wifi-starlight-202410?wid=940&hei=1112&fmt=png-alpha&.v=NmJhVkxMSzd4RmRrSjJwN2s4VWJVL1BpQlQwb3h0VkRmZ2J1a0V4U1RJUFRKc3dEODNneTBSZFNTOGZoVVpTaURPUU9BWmJWRXFZMEJicERYSS9tMXJDcDlldEFQaVVyK0hEMVJoODVlTnc1SS91S1JMZnFCdjg2TmtONThzSkE",
+							"localPath": "public/data/ipad/images/ipad-mini-select-wifi-starlight-202410.png",
+							"widthPx": 940,
+							"heightPx": 1112
+						}
+					]
+				}
+			],
 			"configurations": [],
 			"storageOptions": [
 				{
@@ -1157,7 +1359,6 @@
 				{
 					"id": "ipad-mini-a17-pro-display",
 					"technology": "Liquid Retina display",
-					"panelKind": null,
 					"sizeIn": 8.3,
 					"resolutionWidthPx": 2360,
 					"resolutionHeightPx": 1640,
@@ -1232,7 +1433,6 @@
 						"id": "ipad-mini-a17-pro-port-usb-c",
 						"kind": "USB-C",
 						"supportsDisplayOut": true,
-						"maxPowerW": null,
 						"sourceNotes": "Source wording only says USB-C. The supplied exports do not state a protocol generation; USB 2 is an explicit unresolved placeholder and is not authoritative.",
 						"standard": "USB 2"
 					}
@@ -1244,10 +1444,7 @@
 					"version": "Bluetooth 5.0"
 				},
 				"cellular": {
-					"technologies": [
-						"5G sub-6",
-						"LTE"
-					],
+					"technologies": ["5G sub-6", "LTE"],
 					"eSIMOnly": false
 				},
 				"uwb": null,
@@ -1257,9 +1454,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"Touch ID"
-				],
+				"methods": ["Touch ID"],
 				"primaryMethod": "Touch ID"
 			},
 			"physical": {
@@ -1287,8 +1482,52 @@
 			"id": "ipad-pro-13-m4",
 			"name": "iPad Pro 13-inch (M4)",
 			"releaseYear": 2024,
-			"priceAud": null,
-			"colors": [],
+			"priceAud": 2199,
+			"colors": [
+				{
+					"id": "ipad-pro-13-m4-space-black",
+					"displayName": "Space Black",
+					"finish": {
+						"base": "#2e2c2e",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/spring-2024-1.png",
+							"localPath": "public/data/ipad/images/ipad-pro-13-m4-spring-2024-1.png",
+							"widthPx": 960,
+							"heightPx": 912
+						}
+					]
+				},
+				{
+					"id": "ipad-pro-13-m4-silver",
+					"displayName": "Silver",
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/spring-2024-1.png",
+							"localPath": "public/data/ipad/images/ipad-pro-13-m4-spring-2024-1.png",
+							"widthPx": 960,
+							"heightPx": 912
+						}
+					]
+				}
+			],
+			"overviewImages": [
+				{
+					"label": "back",
+					"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/spring-2024-1.png",
+					"localPath": "public/data/ipad/images/ipad-pro-13-m4-spring-2024-1.png",
+					"widthPx": 960,
+					"heightPx": 912
+				}
+			],
 			"configurations": [],
 			"storageOptions": [
 				{
@@ -1352,7 +1591,6 @@
 				{
 					"id": "ipad-pro-13-m4-display",
 					"technology": "Ultra Retina XDR display",
-					"panelKind": null,
 					"sizeIn": 13,
 					"resolutionWidthPx": 2266,
 					"resolutionHeightPx": 1488,
@@ -1421,7 +1659,6 @@
 						"id": "ipad-pro-13-m4-port-usb-c",
 						"kind": "USB-C",
 						"supportsDisplayOut": true,
-						"maxPowerW": null,
 						"sourceNotes": "Source wording is Thunderbolt/USB 4. USB 4 is retained as the explicit non-exclusive protocol standard; Thunderbolt capability remains described in this note.",
 						"standard": "USB 4"
 					},
@@ -1429,7 +1666,6 @@
 						"id": "ipad-pro-13-m4-port-smart",
 						"kind": "Smart Connector",
 						"supportsDisplayOut": false,
-						"maxPowerW": null,
 						"sourceNotes": "Standard set to proprietary because Smart Connector has no USB protocol standard. Standard omitted because Smart Connector has no USB protocol standard."
 					}
 				],
@@ -1447,9 +1683,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"Face ID"
-				],
+				"methods": ["Face ID"],
 				"primaryMethod": "Face ID"
 			},
 			"physical": {
@@ -1477,8 +1711,52 @@
 			"id": "ipad-pro-12-9-6th-gen",
 			"name": "iPad Pro 12.9-inch (6th generation)",
 			"releaseYear": 2022,
-			"priceAud": null,
-			"colors": [],
+			"priceAud": 1899,
+			"colors": [
+				{
+					"id": "ipad-pro-12-9-6th-gen-silver",
+					"displayName": "Silver",
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/fall-2022-12-9-inch-6gen-ipad-pro.png",
+							"localPath": "public/data/ipad/images/ipad-pro-12-9-6th-gen-fall-2022-12-9-inch-6gen-ipad-pro.png",
+							"widthPx": 960,
+							"heightPx": 912
+						}
+					]
+				},
+				{
+					"id": "ipad-pro-12-9-6th-gen-space-gray",
+					"displayName": "Space Gray",
+					"finish": {
+						"base": "#68696d",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/fall-2022-12-9-inch-6gen-ipad-pro.png",
+							"localPath": "public/data/ipad/images/ipad-pro-12-9-6th-gen-fall-2022-12-9-inch-6gen-ipad-pro.png",
+							"widthPx": 960,
+							"heightPx": 912
+						}
+					]
+				}
+			],
+			"overviewImages": [
+				{
+					"label": "back",
+					"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/fall-2022-12-9-inch-6gen-ipad-pro.png",
+					"localPath": "public/data/ipad/images/ipad-pro-12-9-6th-gen-fall-2022-12-9-inch-6gen-ipad-pro.png",
+					"widthPx": 960,
+					"heightPx": 912
+				}
+			],
 			"configurations": [],
 			"storageOptions": [
 				{
@@ -1541,7 +1819,6 @@
 				{
 					"id": "ipad-pro-12-9-6th-gen-display",
 					"technology": "Liquid Retina XDR display",
-					"panelKind": null,
 					"sizeIn": 12.9,
 					"resolutionWidthPx": 2752,
 					"resolutionHeightPx": 2064,
@@ -1565,8 +1842,8 @@
 					"id": "ipad-pro-12-9-6th-gen-front-camera",
 					"role": "front",
 					"displayName": "TrueDepth camera with Ultra Wide camera",
-					"megapixels": null,
-					"sourceNotes": "Source display text does not state megapixels; camera presence and Apple display name retained."
+					"megapixels": 12,
+					"sourceNotes": "Front-camera megapixels from supplied Apple AU compare matrix row WwutNEDq (Front Camera: Ultra Wide): '12MP Ultra Wide front camera' in data/tmp/ipad/ipad-compare-au-2026.html (also present in data/tmp/ipad/ipad.html)."
 				}
 			],
 			"audio": {
@@ -1611,7 +1888,6 @@
 						"id": "ipad-pro-12-9-6th-gen-port-usb-c",
 						"kind": "USB-C",
 						"supportsDisplayOut": true,
-						"maxPowerW": null,
 						"sourceNotes": "Source wording is Thunderbolt/USB 4. USB 4 is retained as the explicit non-exclusive protocol standard; Thunderbolt capability remains described in this note.",
 						"standard": "USB 4"
 					},
@@ -1619,7 +1895,6 @@
 						"id": "ipad-pro-12-9-6th-gen-port-smart",
 						"kind": "Smart Connector",
 						"supportsDisplayOut": false,
-						"maxPowerW": null,
 						"sourceNotes": "Standard set to proprietary because Smart Connector has no USB protocol standard. Standard omitted because Smart Connector has no USB protocol standard."
 					}
 				],
@@ -1637,9 +1912,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"Face ID"
-				],
+				"methods": ["Face ID"],
 				"primaryMethod": "Face ID"
 			},
 			"physical": {
@@ -1665,10 +1938,54 @@
 		},
 		{
 			"id": "ipad-pro-12-9-5th-gen",
-			"name": "iPad Pro 12.9‑inch (5th generation)",
+			"name": "iPad Pro 12.9\u2011inch (5th generation)",
 			"releaseYear": 2021,
-			"priceAud": null,
-			"colors": [],
+			"priceAud": 1649,
+			"colors": [
+				{
+					"id": "ipad-pro-12-9-5th-gen-silver",
+					"displayName": "Silver",
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/2021-ipad-pro-12-9-colors.png",
+							"localPath": "public/data/ipad/images/ipad-pro-12-9-5th-gen-2021-ipad-pro-12-9-colors.png",
+							"widthPx": 1000,
+							"heightPx": 946
+						}
+					]
+				},
+				{
+					"id": "ipad-pro-12-9-5th-gen-space-gray",
+					"displayName": "Space Gray",
+					"finish": {
+						"base": "#68696d",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/2021-ipad-pro-12-9-colors.png",
+							"localPath": "public/data/ipad/images/ipad-pro-12-9-5th-gen-2021-ipad-pro-12-9-colors.png",
+							"widthPx": 1000,
+							"heightPx": 946
+						}
+					]
+				}
+			],
+			"overviewImages": [
+				{
+					"label": "back",
+					"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/2021-ipad-pro-12-9-colors.png",
+					"localPath": "public/data/ipad/images/ipad-pro-12-9-5th-gen-2021-ipad-pro-12-9-colors.png",
+					"widthPx": 1000,
+					"heightPx": 946
+				}
+			],
 			"configurations": [],
 			"storageOptions": [
 				{
@@ -1731,7 +2048,6 @@
 				{
 					"id": "ipad-pro-12-9-5th-gen-display",
 					"technology": "Liquid Retina XDR display",
-					"panelKind": null,
 					"sizeIn": 12.9,
 					"resolutionWidthPx": 2732,
 					"resolutionHeightPx": 2048,
@@ -1755,8 +2071,8 @@
 					"id": "ipad-pro-12-9-5th-gen-front-camera",
 					"role": "front",
 					"displayName": "TrueDepth camera with Ultra Wide camera",
-					"megapixels": null,
-					"sourceNotes": "Source display text does not state megapixels; camera presence and Apple display name retained."
+					"megapixels": 12,
+					"sourceNotes": "Front-camera megapixels from supplied Apple AU compare matrix row WwutNEDq (Front Camera: Ultra Wide): '12MP Ultra Wide front camera' in data/tmp/ipad/ipad-compare-au-2026.html (also present in data/tmp/ipad/ipad.html)."
 				}
 			],
 			"audio": {
@@ -1801,7 +2117,6 @@
 						"id": "ipad-pro-12-9-5th-gen-port-usb-c",
 						"kind": "USB-C",
 						"supportsDisplayOut": true,
-						"maxPowerW": null,
 						"sourceNotes": "Source wording is Thunderbolt/USB 4. USB 4 is retained as the explicit non-exclusive protocol standard; Thunderbolt capability remains described in this note.",
 						"standard": "USB 4"
 					},
@@ -1809,7 +2124,6 @@
 						"id": "ipad-pro-12-9-5th-gen-port-smart",
 						"kind": "Smart Connector",
 						"supportsDisplayOut": false,
-						"maxPowerW": null,
 						"sourceNotes": "Standard set to proprietary because Smart Connector has no USB protocol standard. Standard omitted because Smart Connector has no USB protocol standard."
 					}
 				],
@@ -1827,9 +2141,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"Face ID"
-				],
+				"methods": ["Face ID"],
 				"primaryMethod": "Face ID"
 			},
 			"physical": {
@@ -1855,10 +2167,54 @@
 		},
 		{
 			"id": "ipad-pro-12-9-4th-gen",
-			"name": "iPad Pro 12.9‑inch (4th generation)",
+			"name": "iPad Pro 12.9\u2011inch (4th generation)",
 			"releaseYear": 2020,
-			"priceAud": null,
-			"colors": [],
+			"priceAud": 1649,
+			"colors": [
+				{
+					"id": "ipad-pro-12-9-4th-gen-silver",
+					"displayName": "Silver",
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ios13-4-ipad-pro-4gen-12-9-in.png",
+							"localPath": "public/data/ipad/images/ipad-pro-12-9-4th-gen-ios13-4-ipad-pro-4gen-12-9-in.png",
+							"widthPx": 998,
+							"heightPx": 948
+						}
+					]
+				},
+				{
+					"id": "ipad-pro-12-9-4th-gen-space-gray",
+					"displayName": "Space Gray",
+					"finish": {
+						"base": "#68696d",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ios13-4-ipad-pro-4gen-12-9-in.png",
+							"localPath": "public/data/ipad/images/ipad-pro-12-9-4th-gen-ios13-4-ipad-pro-4gen-12-9-in.png",
+							"widthPx": 998,
+							"heightPx": 948
+						}
+					]
+				}
+			],
+			"overviewImages": [
+				{
+					"label": "back",
+					"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ios13-4-ipad-pro-4gen-12-9-in.png",
+					"localPath": "public/data/ipad/images/ipad-pro-12-9-4th-gen-ios13-4-ipad-pro-4gen-12-9-in.png",
+					"widthPx": 998,
+					"heightPx": 948
+				}
+			],
 			"configurations": [],
 			"storageOptions": [
 				{
@@ -1915,7 +2271,6 @@
 				{
 					"id": "ipad-pro-12-9-4th-gen-display",
 					"technology": "Liquid Retina display",
-					"panelKind": null,
 					"sizeIn": 12.9,
 					"resolutionWidthPx": 2732,
 					"resolutionHeightPx": 2048,
@@ -1939,8 +2294,8 @@
 					"id": "ipad-pro-12-9-4th-gen-front-camera",
 					"role": "front",
 					"displayName": "TrueDepth camera",
-					"megapixels": null,
-					"sourceNotes": "Source display text does not state megapixels; camera presence and Apple display name retained."
+					"megapixels": 7,
+					"sourceNotes": "Front-camera megapixels from supplied Apple AU compare matrix row WwutNEDq (Front Camera: Ultra Wide): '7MP front camera' in data/tmp/ipad/ipad-compare-au-2026.html (also present in data/tmp/ipad/ipad.html)."
 				}
 			],
 			"audio": {
@@ -1985,7 +2340,6 @@
 						"id": "ipad-pro-12-9-4th-gen-port-usb-c",
 						"kind": "USB-C",
 						"supportsDisplayOut": true,
-						"maxPowerW": null,
 						"sourceNotes": "Source wording is Thunderbolt/USB 4. USB 4 is retained as the explicit non-exclusive protocol standard; Thunderbolt capability remains described in this note.",
 						"standard": "USB 4"
 					},
@@ -1993,7 +2347,6 @@
 						"id": "ipad-pro-12-9-4th-gen-port-smart",
 						"kind": "Smart Connector",
 						"supportsDisplayOut": false,
-						"maxPowerW": null,
 						"sourceNotes": "Standard set to proprietary because Smart Connector has no USB protocol standard. Standard omitted because Smart Connector has no USB protocol standard."
 					}
 				],
@@ -2011,9 +2364,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"Face ID"
-				],
+				"methods": ["Face ID"],
 				"primaryMethod": "Face ID"
 			},
 			"physical": {
@@ -2039,10 +2390,54 @@
 		},
 		{
 			"id": "ipad-pro-12-9-3rd-gen",
-			"name": "iPad Pro 12.9‑inch (3rd generation)",
+			"name": "iPad Pro 12.9\u2011inch (3rd generation)",
 			"releaseYear": 2018,
-			"priceAud": null,
-			"colors": [],
+			"priceAud": 1529,
+			"colors": [
+				{
+					"id": "ipad-pro-12-9-3rd-gen-silver",
+					"displayName": "Silver",
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ios12-ipad-pro-12-9-in.png",
+							"localPath": "public/data/ipad/images/ipad-pro-12-9-3rd-gen-ios12-ipad-pro-12-9-in.png",
+							"widthPx": 992,
+							"heightPx": 990
+						}
+					]
+				},
+				{
+					"id": "ipad-pro-12-9-3rd-gen-space-gray",
+					"displayName": "Space Gray",
+					"finish": {
+						"base": "#68696d",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ios12-ipad-pro-12-9-in.png",
+							"localPath": "public/data/ipad/images/ipad-pro-12-9-3rd-gen-ios12-ipad-pro-12-9-in.png",
+							"widthPx": 992,
+							"heightPx": 990
+						}
+					]
+				}
+			],
+			"overviewImages": [
+				{
+					"label": "back",
+					"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ios12-ipad-pro-12-9-in.png",
+					"localPath": "public/data/ipad/images/ipad-pro-12-9-3rd-gen-ios12-ipad-pro-12-9-in.png",
+					"widthPx": 992,
+					"heightPx": 990
+				}
+			],
 			"configurations": [],
 			"storageOptions": [
 				{
@@ -2099,7 +2494,6 @@
 				{
 					"id": "ipad-pro-12-9-3rd-gen-display",
 					"technology": "Liquid Retina display",
-					"panelKind": null,
 					"sizeIn": 12.9,
 					"resolutionWidthPx": 2732,
 					"resolutionHeightPx": 2048,
@@ -2123,8 +2517,8 @@
 					"id": "ipad-pro-12-9-3rd-gen-front-camera",
 					"role": "front",
 					"displayName": "TrueDepth camera",
-					"megapixels": null,
-					"sourceNotes": "Source display text does not state megapixels; camera presence and Apple display name retained."
+					"megapixels": 7,
+					"sourceNotes": "Front-camera megapixels from supplied Apple AU compare matrix row WwutNEDq (Front Camera: Ultra Wide): '7MP front camera' in data/tmp/ipad/ipad-compare-au-2026.html (also present in data/tmp/ipad/ipad.html)."
 				}
 			],
 			"audio": {
@@ -2169,7 +2563,6 @@
 						"id": "ipad-pro-12-9-3rd-gen-port-usb-c",
 						"kind": "USB-C",
 						"supportsDisplayOut": true,
-						"maxPowerW": null,
 						"sourceNotes": "Source wording is Thunderbolt/USB 4. USB 4 is retained as the explicit non-exclusive protocol standard; Thunderbolt capability remains described in this note.",
 						"standard": "USB 4"
 					},
@@ -2177,7 +2570,6 @@
 						"id": "ipad-pro-12-9-3rd-gen-port-smart",
 						"kind": "Smart Connector",
 						"supportsDisplayOut": false,
-						"maxPowerW": null,
 						"sourceNotes": "Standard set to proprietary because Smart Connector has no USB protocol standard. Standard omitted because Smart Connector has no USB protocol standard."
 					}
 				],
@@ -2195,9 +2587,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"Face ID"
-				],
+				"methods": ["Face ID"],
 				"primaryMethod": "Face ID"
 			},
 			"physical": {
@@ -2223,10 +2613,54 @@
 		},
 		{
 			"id": "ipad-pro-12-9-2nd-gen",
-			"name": "iPad Pro 12.9‑inch (2nd generation)",
+			"name": "iPad Pro 12.9\u2011inch (2nd generation)",
 			"releaseYear": 2017,
-			"priceAud": null,
-			"colors": [],
+			"priceAud": 1199,
+			"colors": [
+				{
+					"id": "ipad-pro-12-9-2nd-gen-silver",
+					"displayName": "Silver",
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ios11-ipad-pro-12-in.png",
+							"localPath": "public/data/ipad/images/ipad-pro-12-9-2nd-gen-ios11-ipad-pro-12-in.png",
+							"widthPx": 872,
+							"heightPx": 990
+						}
+					]
+				},
+				{
+					"id": "ipad-pro-12-9-2nd-gen-space-gray",
+					"displayName": "Space Gray",
+					"finish": {
+						"base": "#68696d",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ios11-ipad-pro-12-in.png",
+							"localPath": "public/data/ipad/images/ipad-pro-12-9-2nd-gen-ios11-ipad-pro-12-in.png",
+							"widthPx": 872,
+							"heightPx": 990
+						}
+					]
+				}
+			],
+			"overviewImages": [
+				{
+					"label": "back",
+					"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ios11-ipad-pro-12-in.png",
+					"localPath": "public/data/ipad/images/ipad-pro-12-9-2nd-gen-ios11-ipad-pro-12-in.png",
+					"widthPx": 872,
+					"heightPx": 990
+				}
+			],
 			"configurations": [],
 			"storageOptions": [
 				{
@@ -2277,7 +2711,6 @@
 				{
 					"id": "ipad-pro-12-9-2nd-gen-display",
 					"technology": "Retina display",
-					"panelKind": null,
 					"sizeIn": 12.9,
 					"resolutionWidthPx": 2732,
 					"resolutionHeightPx": 2048,
@@ -2301,8 +2734,8 @@
 					"id": "ipad-pro-12-9-2nd-gen-front-camera",
 					"role": "front",
 					"displayName": "FaceTime HD camera",
-					"megapixels": null,
-					"sourceNotes": "Source display text does not state megapixels; camera presence and Apple display name retained."
+					"megapixels": 7,
+					"sourceNotes": "Front-camera megapixels from supplied Apple AU compare matrix row WwutNEDq (Front Camera: Ultra Wide): '7MP FaceTime HD camera' in data/tmp/ipad/ipad-compare-au-2026.html (also present in data/tmp/ipad/ipad.html)."
 				}
 			],
 			"audio": {
@@ -2353,7 +2786,6 @@
 						"id": "ipad-pro-12-9-2nd-gen-port-smart",
 						"kind": "Smart Connector",
 						"supportsDisplayOut": false,
-						"maxPowerW": null,
 						"sourceNotes": "Standard set to proprietary because Smart Connector has no USB protocol standard. Standard omitted because Smart Connector has no USB protocol standard."
 					}
 				],
@@ -2371,9 +2803,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"Touch ID"
-				],
+				"methods": ["Touch ID"],
 				"primaryMethod": "Touch ID"
 			},
 			"physical": {
@@ -2399,10 +2829,54 @@
 		},
 		{
 			"id": "ipad-pro-12-9-1st-gen",
-			"name": "iPad Pro 12.9‑inch (1st generation)",
+			"name": "iPad Pro 12.9\u2011inch (1st generation)",
 			"releaseYear": 2015,
-			"priceAud": null,
-			"colors": [],
+			"priceAud": 1249,
+			"colors": [
+				{
+					"id": "ipad-pro-12-9-1st-gen-silver",
+					"displayName": "Silver",
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/identify-ipad-pro.png",
+							"localPath": "public/data/ipad/images/ipad-pro-12-9-1st-gen-identify-ipad-pro.png",
+							"widthPx": 1002,
+							"heightPx": 988
+						}
+					]
+				},
+				{
+					"id": "ipad-pro-12-9-1st-gen-space-gray",
+					"displayName": "Space Gray",
+					"finish": {
+						"base": "#68696d",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/identify-ipad-pro.png",
+							"localPath": "public/data/ipad/images/ipad-pro-12-9-1st-gen-identify-ipad-pro.png",
+							"widthPx": 1002,
+							"heightPx": 988
+						}
+					]
+				}
+			],
+			"overviewImages": [
+				{
+					"label": "back",
+					"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/identify-ipad-pro.png",
+					"localPath": "public/data/ipad/images/ipad-pro-12-9-1st-gen-identify-ipad-pro.png",
+					"widthPx": 1002,
+					"heightPx": 988
+				}
+			],
 			"configurations": [],
 			"storageOptions": [
 				{
@@ -2453,7 +2927,6 @@
 				{
 					"id": "ipad-pro-12-9-1st-gen-display",
 					"technology": "Retina display",
-					"panelKind": null,
 					"sizeIn": 12.9,
 					"resolutionWidthPx": 2732,
 					"resolutionHeightPx": 2048,
@@ -2477,8 +2950,8 @@
 					"id": "ipad-pro-12-9-1st-gen-front-camera",
 					"role": "front",
 					"displayName": "FaceTime HD camera",
-					"megapixels": null,
-					"sourceNotes": "Source display text does not state megapixels; camera presence and Apple display name retained."
+					"megapixels": 1.2,
+					"sourceNotes": "Front-camera megapixels from supplied Apple AU compare matrix row WwutNEDq (Front Camera: Ultra Wide): '1.2MP FaceTime HD camera' in data/tmp/ipad/ipad-compare-au-2026.html (also present in data/tmp/ipad/ipad.html)."
 				}
 			],
 			"audio": {
@@ -2529,7 +3002,6 @@
 						"id": "ipad-pro-12-9-1st-gen-port-smart",
 						"kind": "Smart Connector",
 						"supportsDisplayOut": false,
-						"maxPowerW": null,
 						"sourceNotes": "Standard set to proprietary because Smart Connector has no USB protocol standard. Standard omitted because Smart Connector has no USB protocol standard."
 					}
 				],
@@ -2547,9 +3019,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"Touch ID"
-				],
+				"methods": ["Touch ID"],
 				"primaryMethod": "Touch ID"
 			},
 			"physical": {
@@ -2577,8 +3047,52 @@
 			"id": "ipad-pro-11-m4",
 			"name": "iPad Pro 11-inch (M4)",
 			"releaseYear": 2024,
-			"priceAud": null,
-			"colors": [],
+			"priceAud": 1699,
+			"colors": [
+				{
+					"id": "ipad-pro-11-m4-space-black",
+					"displayName": "Space Black",
+					"finish": {
+						"base": "#2e2c2e",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/spring-2024-2.png",
+							"localPath": "public/data/ipad/images/ipad-pro-11-m4-spring-2024-2.png",
+							"widthPx": 856,
+							"heightPx": 824
+						}
+					]
+				},
+				{
+					"id": "ipad-pro-11-m4-silver",
+					"displayName": "Silver",
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/spring-2024-2.png",
+							"localPath": "public/data/ipad/images/ipad-pro-11-m4-spring-2024-2.png",
+							"widthPx": 856,
+							"heightPx": 824
+						}
+					]
+				}
+			],
+			"overviewImages": [
+				{
+					"label": "back",
+					"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/spring-2024-2.png",
+					"localPath": "public/data/ipad/images/ipad-pro-11-m4-spring-2024-2.png",
+					"widthPx": 856,
+					"heightPx": 824
+				}
+			],
 			"configurations": [],
 			"storageOptions": [
 				{
@@ -2642,7 +3156,6 @@
 				{
 					"id": "ipad-pro-11-m4-display",
 					"technology": "Ultra Retina XDR display",
-					"panelKind": null,
 					"sizeIn": 11,
 					"resolutionWidthPx": 2732,
 					"resolutionHeightPx": 2048,
@@ -2711,7 +3224,6 @@
 						"id": "ipad-pro-11-m4-port-usb-c",
 						"kind": "USB-C",
 						"supportsDisplayOut": true,
-						"maxPowerW": null,
 						"sourceNotes": "Source wording is Thunderbolt/USB 4. USB 4 is retained as the explicit non-exclusive protocol standard; Thunderbolt capability remains described in this note.",
 						"standard": "USB 4"
 					},
@@ -2719,7 +3231,6 @@
 						"id": "ipad-pro-11-m4-port-smart",
 						"kind": "Smart Connector",
 						"supportsDisplayOut": false,
-						"maxPowerW": null,
 						"sourceNotes": "Standard set to proprietary because Smart Connector has no USB protocol standard. Standard omitted because Smart Connector has no USB protocol standard."
 					}
 				],
@@ -2737,9 +3248,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"Face ID"
-				],
+				"methods": ["Face ID"],
 				"primaryMethod": "Face ID"
 			},
 			"physical": {
@@ -2767,8 +3276,52 @@
 			"id": "ipad-pro-11-4th-gen",
 			"name": "iPad Pro 11-inch (4th generation)",
 			"releaseYear": 2022,
-			"priceAud": null,
-			"colors": [],
+			"priceAud": 1399,
+			"colors": [
+				{
+					"id": "ipad-pro-11-4th-gen-silver",
+					"displayName": "Silver",
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/fall-2022-11-inch-4gen-ipad-pro.png",
+							"localPath": "public/data/ipad/images/ipad-pro-11-4th-gen-fall-2022-11-inch-4gen-ipad-pro.png",
+							"widthPx": 856,
+							"heightPx": 824
+						}
+					]
+				},
+				{
+					"id": "ipad-pro-11-4th-gen-space-gray",
+					"displayName": "Space Gray",
+					"finish": {
+						"base": "#68696d",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/fall-2022-11-inch-4gen-ipad-pro.png",
+							"localPath": "public/data/ipad/images/ipad-pro-11-4th-gen-fall-2022-11-inch-4gen-ipad-pro.png",
+							"widthPx": 856,
+							"heightPx": 824
+						}
+					]
+				}
+			],
+			"overviewImages": [
+				{
+					"label": "back",
+					"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/fall-2022-11-inch-4gen-ipad-pro.png",
+					"localPath": "public/data/ipad/images/ipad-pro-11-4th-gen-fall-2022-11-inch-4gen-ipad-pro.png",
+					"widthPx": 856,
+					"heightPx": 824
+				}
+			],
 			"configurations": [],
 			"storageOptions": [
 				{
@@ -2831,7 +3384,6 @@
 				{
 					"id": "ipad-pro-11-4th-gen-display",
 					"technology": "Liquid Retina display",
-					"panelKind": null,
 					"sizeIn": 11,
 					"resolutionWidthPx": 2420,
 					"resolutionHeightPx": 1668,
@@ -2855,8 +3407,8 @@
 					"id": "ipad-pro-11-4th-gen-front-camera",
 					"role": "front",
 					"displayName": "TrueDepth camera with Ultra Wide camera",
-					"megapixels": null,
-					"sourceNotes": "Source display text does not state megapixels; camera presence and Apple display name retained."
+					"megapixels": 12,
+					"sourceNotes": "Front-camera megapixels from supplied Apple AU compare matrix row WwutNEDq (Front Camera: Ultra Wide): '12MP Ultra Wide front camera' in data/tmp/ipad/ipad-compare-au-2026.html (also present in data/tmp/ipad/ipad.html)."
 				}
 			],
 			"audio": {
@@ -2901,7 +3453,6 @@
 						"id": "ipad-pro-11-4th-gen-port-usb-c",
 						"kind": "USB-C",
 						"supportsDisplayOut": true,
-						"maxPowerW": null,
 						"sourceNotes": "Source wording only says USB-C. The supplied exports do not state a protocol generation; USB 2 is an explicit unresolved placeholder and is not authoritative.",
 						"standard": "USB 2"
 					},
@@ -2909,7 +3460,6 @@
 						"id": "ipad-pro-11-4th-gen-port-smart",
 						"kind": "Smart Connector",
 						"supportsDisplayOut": false,
-						"maxPowerW": null,
 						"sourceNotes": "Standard set to proprietary because Smart Connector has no USB protocol standard. Standard omitted because Smart Connector has no USB protocol standard."
 					}
 				],
@@ -2927,9 +3477,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"Face ID"
-				],
+				"methods": ["Face ID"],
 				"primaryMethod": "Face ID"
 			},
 			"physical": {
@@ -2955,10 +3503,54 @@
 		},
 		{
 			"id": "ipad-pro-11-3rd-gen",
-			"name": "iPad Pro 11‑inch (3rd generation)",
+			"name": "iPad Pro 11\u2011inch (3rd generation)",
 			"releaseYear": 2021,
-			"priceAud": null,
-			"colors": [],
+			"priceAud": 1199,
+			"colors": [
+				{
+					"id": "ipad-pro-11-3rd-gen-silver",
+					"displayName": "Silver",
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/2021-ipad-pro-11-colors.png",
+							"localPath": "public/data/ipad/images/ipad-pro-11-3rd-gen-2021-ipad-pro-11-colors.png",
+							"widthPx": 929,
+							"heightPx": 891
+						}
+					]
+				},
+				{
+					"id": "ipad-pro-11-3rd-gen-space-gray",
+					"displayName": "Space Gray",
+					"finish": {
+						"base": "#68696d",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/2021-ipad-pro-11-colors.png",
+							"localPath": "public/data/ipad/images/ipad-pro-11-3rd-gen-2021-ipad-pro-11-colors.png",
+							"widthPx": 929,
+							"heightPx": 891
+						}
+					]
+				}
+			],
+			"overviewImages": [
+				{
+					"label": "back",
+					"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/2021-ipad-pro-11-colors.png",
+					"localPath": "public/data/ipad/images/ipad-pro-11-3rd-gen-2021-ipad-pro-11-colors.png",
+					"widthPx": 929,
+					"heightPx": 891
+				}
+			],
 			"configurations": [],
 			"storageOptions": [
 				{
@@ -3021,7 +3613,6 @@
 				{
 					"id": "ipad-pro-11-3rd-gen-display",
 					"technology": "Liquid Retina display",
-					"panelKind": null,
 					"sizeIn": 11,
 					"resolutionWidthPx": 2388,
 					"resolutionHeightPx": 1668,
@@ -3045,8 +3636,8 @@
 					"id": "ipad-pro-11-3rd-gen-front-camera",
 					"role": "front",
 					"displayName": "TrueDepth camera with Ultra Wide camera",
-					"megapixels": null,
-					"sourceNotes": "Source display text does not state megapixels; camera presence and Apple display name retained."
+					"megapixels": 12,
+					"sourceNotes": "Front-camera megapixels from supplied Apple AU compare matrix row WwutNEDq (Front Camera: Ultra Wide): '12MP Ultra Wide front camera' in data/tmp/ipad/ipad-compare-au-2026.html (also present in data/tmp/ipad/ipad.html)."
 				}
 			],
 			"audio": {
@@ -3091,7 +3682,6 @@
 						"id": "ipad-pro-11-3rd-gen-port-usb-c",
 						"kind": "USB-C",
 						"supportsDisplayOut": true,
-						"maxPowerW": null,
 						"sourceNotes": "Source wording only says USB-C. The supplied exports do not state a protocol generation; USB 2 is an explicit unresolved placeholder and is not authoritative.",
 						"standard": "USB 2"
 					},
@@ -3099,7 +3689,6 @@
 						"id": "ipad-pro-11-3rd-gen-port-smart",
 						"kind": "Smart Connector",
 						"supportsDisplayOut": false,
-						"maxPowerW": null,
 						"sourceNotes": "Standard set to proprietary because Smart Connector has no USB protocol standard. Standard omitted because Smart Connector has no USB protocol standard."
 					}
 				],
@@ -3117,9 +3706,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"Face ID"
-				],
+				"methods": ["Face ID"],
 				"primaryMethod": "Face ID"
 			},
 			"physical": {
@@ -3145,10 +3732,54 @@
 		},
 		{
 			"id": "ipad-pro-11-2nd-gen",
-			"name": "iPad Pro 11‑inch (2nd generation)",
+			"name": "iPad Pro 11\u2011inch (2nd generation)",
 			"releaseYear": 2020,
-			"priceAud": null,
-			"colors": [],
+			"priceAud": 1329,
+			"colors": [
+				{
+					"id": "ipad-pro-11-2nd-gen-silver",
+					"displayName": "Silver",
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ios13-4-ipad-pro-4gen-11-in.png",
+							"localPath": "public/data/ipad/images/ipad-pro-11-2nd-gen-ios13-4-ipad-pro-4gen-11-in.png",
+							"widthPx": 938,
+							"heightPx": 892
+						}
+					]
+				},
+				{
+					"id": "ipad-pro-11-2nd-gen-space-gray",
+					"displayName": "Space Gray",
+					"finish": {
+						"base": "#68696d",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ios13-4-ipad-pro-4gen-11-in.png",
+							"localPath": "public/data/ipad/images/ipad-pro-11-2nd-gen-ios13-4-ipad-pro-4gen-11-in.png",
+							"widthPx": 938,
+							"heightPx": 892
+						}
+					]
+				}
+			],
+			"overviewImages": [
+				{
+					"label": "back",
+					"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ios13-4-ipad-pro-4gen-11-in.png",
+					"localPath": "public/data/ipad/images/ipad-pro-11-2nd-gen-ios13-4-ipad-pro-4gen-11-in.png",
+					"widthPx": 938,
+					"heightPx": 892
+				}
+			],
 			"configurations": [],
 			"storageOptions": [
 				{
@@ -3205,7 +3836,6 @@
 				{
 					"id": "ipad-pro-11-2nd-gen-display",
 					"technology": "Liquid Retina display",
-					"panelKind": null,
 					"sizeIn": 11,
 					"resolutionWidthPx": 2388,
 					"resolutionHeightPx": 1668,
@@ -3229,8 +3859,8 @@
 					"id": "ipad-pro-11-2nd-gen-front-camera",
 					"role": "front",
 					"displayName": "TrueDepth camera",
-					"megapixels": null,
-					"sourceNotes": "Source display text does not state megapixels; camera presence and Apple display name retained."
+					"megapixels": 7,
+					"sourceNotes": "Front-camera megapixels from supplied Apple AU compare matrix row WwutNEDq (Front Camera: Ultra Wide): '7MP front camera' in data/tmp/ipad/ipad-compare-au-2026.html (also present in data/tmp/ipad/ipad.html)."
 				}
 			],
 			"audio": {
@@ -3275,7 +3905,6 @@
 						"id": "ipad-pro-11-2nd-gen-port-usb-c",
 						"kind": "USB-C",
 						"supportsDisplayOut": true,
-						"maxPowerW": null,
 						"sourceNotes": "Source wording only says USB-C. The supplied exports do not state a protocol generation; USB 2 is an explicit unresolved placeholder and is not authoritative.",
 						"standard": "USB 2"
 					},
@@ -3283,7 +3912,6 @@
 						"id": "ipad-pro-11-2nd-gen-port-smart",
 						"kind": "Smart Connector",
 						"supportsDisplayOut": false,
-						"maxPowerW": null,
 						"sourceNotes": "Standard set to proprietary because Smart Connector has no USB protocol standard. Standard omitted because Smart Connector has no USB protocol standard."
 					}
 				],
@@ -3301,9 +3929,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"Face ID"
-				],
+				"methods": ["Face ID"],
 				"primaryMethod": "Face ID"
 			},
 			"physical": {
@@ -3329,10 +3955,54 @@
 		},
 		{
 			"id": "ipad-pro-11-1st-gen",
-			"name": "iPad Pro 11‑inch (1st generation)",
+			"name": "iPad Pro 11\u2011inch (1st generation)",
 			"releaseYear": 2018,
-			"priceAud": null,
-			"colors": [],
+			"priceAud": 1229,
+			"colors": [
+				{
+					"id": "ipad-pro-11-1st-gen-silver",
+					"displayName": "Silver",
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ios12-ipad-pro-11-in.png",
+							"localPath": "public/data/ipad/images/ipad-pro-11-1st-gen-ios12-ipad-pro-11-in.png",
+							"widthPx": 888,
+							"heightPx": 896
+						}
+					]
+				},
+				{
+					"id": "ipad-pro-11-1st-gen-space-gray",
+					"displayName": "Space Gray",
+					"finish": {
+						"base": "#68696d",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ios12-ipad-pro-11-in.png",
+							"localPath": "public/data/ipad/images/ipad-pro-11-1st-gen-ios12-ipad-pro-11-in.png",
+							"widthPx": 888,
+							"heightPx": 896
+						}
+					]
+				}
+			],
+			"overviewImages": [
+				{
+					"label": "back",
+					"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ios12-ipad-pro-11-in.png",
+					"localPath": "public/data/ipad/images/ipad-pro-11-1st-gen-ios12-ipad-pro-11-in.png",
+					"widthPx": 888,
+					"heightPx": 896
+				}
+			],
 			"configurations": [],
 			"storageOptions": [
 				{
@@ -3381,7 +4051,6 @@
 				{
 					"id": "ipad-pro-11-1st-gen-display",
 					"technology": "Liquid Retina display",
-					"panelKind": null,
 					"sizeIn": 11,
 					"resolutionWidthPx": 2388,
 					"resolutionHeightPx": 1668,
@@ -3405,8 +4074,8 @@
 					"id": "ipad-pro-11-1st-gen-front-camera",
 					"role": "front",
 					"displayName": "TrueDepth camera",
-					"megapixels": null,
-					"sourceNotes": "Source display text does not state megapixels; camera presence and Apple display name retained."
+					"megapixels": 7,
+					"sourceNotes": "Front-camera megapixels from supplied Apple AU compare matrix row WwutNEDq (Front Camera: Ultra Wide): '7MP front camera' in data/tmp/ipad/ipad-compare-au-2026.html (also present in data/tmp/ipad/ipad.html)."
 				}
 			],
 			"audio": {
@@ -3451,7 +4120,6 @@
 						"id": "ipad-pro-11-1st-gen-port-usb-c",
 						"kind": "USB-C",
 						"supportsDisplayOut": true,
-						"maxPowerW": null,
 						"sourceNotes": "Source wording only says USB-C. The supplied exports do not state a protocol generation; USB 2 is an explicit unresolved placeholder and is not authoritative.",
 						"standard": "USB 2"
 					},
@@ -3459,7 +4127,6 @@
 						"id": "ipad-pro-11-1st-gen-port-smart",
 						"kind": "Smart Connector",
 						"supportsDisplayOut": false,
-						"maxPowerW": null,
 						"sourceNotes": "Standard set to proprietary because Smart Connector has no USB protocol standard. Standard omitted because Smart Connector has no USB protocol standard."
 					}
 				],
@@ -3477,9 +4144,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"Face ID"
-				],
+				"methods": ["Face ID"],
 				"primaryMethod": "Face ID"
 			},
 			"physical": {
@@ -3505,10 +4170,54 @@
 		},
 		{
 			"id": "ipad-pro-10-5-in",
-			"name": "iPad Pro 10.5‑inch",
+			"name": "iPad Pro 10.5\u2011inch",
 			"releaseYear": 2017,
-			"priceAud": null,
-			"colors": [],
+			"priceAud": 979,
+			"colors": [
+				{
+					"id": "ipad-pro-10-5-in-silver",
+					"displayName": "Silver",
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ios11-ipad-pro-10-in.png",
+							"localPath": "public/data/ipad/images/ipad-pro-10-5-in-ios11-ipad-pro-10-in.png",
+							"widthPx": 778,
+							"heightPx": 878
+						}
+					]
+				},
+				{
+					"id": "ipad-pro-10-5-in-space-gray",
+					"displayName": "Space Gray",
+					"finish": {
+						"base": "#68696d",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ios11-ipad-pro-10-in.png",
+							"localPath": "public/data/ipad/images/ipad-pro-10-5-in-ios11-ipad-pro-10-in.png",
+							"widthPx": 778,
+							"heightPx": 878
+						}
+					]
+				}
+			],
+			"overviewImages": [
+				{
+					"label": "back",
+					"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ios11-ipad-pro-10-in.png",
+					"localPath": "public/data/ipad/images/ipad-pro-10-5-in-ios11-ipad-pro-10-in.png",
+					"widthPx": 778,
+					"heightPx": 878
+				}
+			],
 			"configurations": [],
 			"storageOptions": [
 				{
@@ -3559,7 +4268,6 @@
 				{
 					"id": "ipad-pro-10-5-in-display",
 					"technology": "Retina display",
-					"panelKind": null,
 					"sizeIn": 10.5,
 					"resolutionWidthPx": 2224,
 					"resolutionHeightPx": 1668,
@@ -3583,8 +4291,8 @@
 					"id": "ipad-pro-10-5-in-front-camera",
 					"role": "front",
 					"displayName": "FaceTime HD camera",
-					"megapixels": null,
-					"sourceNotes": "Source display text does not state megapixels; camera presence and Apple display name retained."
+					"megapixels": 7,
+					"sourceNotes": "Front-camera megapixels from supplied Apple AU compare matrix row WwutNEDq (Front Camera: Ultra Wide): '7MP FaceTime HD camera' in data/tmp/ipad/ipad-compare-au-2026.html (also present in data/tmp/ipad/ipad.html)."
 				}
 			],
 			"audio": {
@@ -3635,7 +4343,6 @@
 						"id": "ipad-pro-10-5-in-port-smart",
 						"kind": "Smart Connector",
 						"supportsDisplayOut": false,
-						"maxPowerW": null,
 						"sourceNotes": "Standard set to proprietary because Smart Connector has no USB protocol standard. Standard omitted because Smart Connector has no USB protocol standard."
 					}
 				],
@@ -3653,9 +4360,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"Touch ID"
-				],
+				"methods": ["Touch ID"],
 				"primaryMethod": "Touch ID"
 			},
 			"physical": {
@@ -3681,10 +4386,54 @@
 		},
 		{
 			"id": "ipad-pro-9-7-in",
-			"name": "iPad Pro 9.7‑inch",
+			"name": "iPad Pro 9.7\u2011inch",
 			"releaseYear": 2016,
-			"priceAud": null,
-			"colors": [],
+			"priceAud": 899,
+			"colors": [
+				{
+					"id": "ipad-pro-9-7-in-silver",
+					"displayName": "Silver",
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/identify-ipad-pro-9-7.png",
+							"localPath": "public/data/ipad/images/ipad-pro-9-7-in-identify-ipad-pro-9-7.png",
+							"widthPx": 816,
+							"heightPx": 776
+						}
+					]
+				},
+				{
+					"id": "ipad-pro-9-7-in-space-gray",
+					"displayName": "Space Gray",
+					"finish": {
+						"base": "#68696d",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/identify-ipad-pro-9-7.png",
+							"localPath": "public/data/ipad/images/ipad-pro-9-7-in-identify-ipad-pro-9-7.png",
+							"widthPx": 816,
+							"heightPx": 776
+						}
+					]
+				}
+			],
+			"overviewImages": [
+				{
+					"label": "back",
+					"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/identify-ipad-pro-9-7.png",
+					"localPath": "public/data/ipad/images/ipad-pro-9-7-in-identify-ipad-pro-9-7.png",
+					"widthPx": 816,
+					"heightPx": 776
+				}
+			],
 			"configurations": [],
 			"storageOptions": [
 				{
@@ -3727,7 +4476,6 @@
 				{
 					"id": "ipad-pro-9-7-in-display",
 					"technology": "Retina display",
-					"panelKind": null,
 					"sizeIn": 9.7,
 					"resolutionWidthPx": 2048,
 					"resolutionHeightPx": 1536,
@@ -3751,8 +4499,8 @@
 					"id": "ipad-pro-9-7-in-front-camera",
 					"role": "front",
 					"displayName": "FaceTime HD camera",
-					"megapixels": null,
-					"sourceNotes": "Source display text does not state megapixels; camera presence and Apple display name retained."
+					"megapixels": 5,
+					"sourceNotes": "Front-camera megapixels from supplied Apple AU compare matrix row WwutNEDq (Front Camera: Ultra Wide): '5MP FaceTime HD camera' in data/tmp/ipad/ipad-compare-au-2026.html (also present in data/tmp/ipad/ipad.html)."
 				}
 			],
 			"audio": {
@@ -3803,7 +4551,6 @@
 						"id": "ipad-pro-9-7-in-port-smart",
 						"kind": "Smart Connector",
 						"supportsDisplayOut": false,
-						"maxPowerW": null,
 						"sourceNotes": "Standard set to proprietary because Smart Connector has no USB protocol standard. Standard omitted because Smart Connector has no USB protocol standard."
 					}
 				],
@@ -3821,9 +4568,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"Touch ID"
-				],
+				"methods": ["Touch ID"],
 				"primaryMethod": "Touch ID"
 			},
 			"physical": {
@@ -3851,8 +4596,86 @@
 			"id": "ipad-air-13-m3",
 			"name": "iPad Air 13-inch (M3)",
 			"releaseYear": 2025,
-			"priceAud": null,
-			"colors": [],
+			"priceAud": 1349,
+			"colors": [
+				{
+					"id": "ipad-air-13-m3-space-gray",
+					"displayName": "Space Gray",
+					"finish": {
+						"base": "#68696d",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/spring-2025-ipad-air-13.png",
+							"localPath": "public/data/ipad/images/ipad-air-13-m3-spring-2025-ipad-air-13.png",
+							"widthPx": 1070,
+							"heightPx": 990
+						}
+					]
+				},
+				{
+					"id": "ipad-air-13-m3-blue",
+					"displayName": "Blue",
+					"finish": {
+						"base": "#d7e5e6",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/spring-2025-ipad-air-13.png",
+							"localPath": "public/data/ipad/images/ipad-air-13-m3-spring-2025-ipad-air-13.png",
+							"widthPx": 1070,
+							"heightPx": 990
+						}
+					]
+				},
+				{
+					"id": "ipad-air-13-m3-purple",
+					"displayName": "Purple",
+					"finish": {
+						"base": "#e3dee9",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/spring-2025-ipad-air-13.png",
+							"localPath": "public/data/ipad/images/ipad-air-13-m3-spring-2025-ipad-air-13.png",
+							"widthPx": 1070,
+							"heightPx": 990
+						}
+					]
+				},
+				{
+					"id": "ipad-air-13-m3-starlight",
+					"displayName": "Starlight",
+					"finish": {
+						"base": "#e3dcd1",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/spring-2025-ipad-air-13.png",
+							"localPath": "public/data/ipad/images/ipad-air-13-m3-spring-2025-ipad-air-13.png",
+							"widthPx": 1070,
+							"heightPx": 990
+						}
+					]
+				}
+			],
+			"overviewImages": [
+				{
+					"label": "back",
+					"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/spring-2025-ipad-air-13.png",
+					"localPath": "public/data/ipad/images/ipad-air-13-m3-spring-2025-ipad-air-13.png",
+					"widthPx": 1070,
+					"heightPx": 990
+				}
+			],
 			"configurations": [],
 			"storageOptions": [
 				{
@@ -3909,7 +4732,6 @@
 				{
 					"id": "ipad-air-13-m3-display",
 					"technology": "Liquid Retina display",
-					"panelKind": null,
 					"sizeIn": 13,
 					"resolutionWidthPx": 2732,
 					"resolutionHeightPx": 2048,
@@ -3978,7 +4800,6 @@
 						"id": "ipad-air-13-m3-port-usb-c",
 						"kind": "USB-C",
 						"supportsDisplayOut": true,
-						"maxPowerW": null,
 						"sourceNotes": "Source wording only says USB-C. The supplied exports do not state a protocol generation; USB 2 is an explicit unresolved placeholder and is not authoritative.",
 						"standard": "USB 2"
 					},
@@ -3986,7 +4807,6 @@
 						"id": "ipad-air-13-m3-port-smart",
 						"kind": "Smart Connector",
 						"supportsDisplayOut": false,
-						"maxPowerW": null,
 						"sourceNotes": "Standard set to proprietary because Smart Connector has no USB protocol standard. Standard omitted because Smart Connector has no USB protocol standard."
 					}
 				],
@@ -4004,9 +4824,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"Touch ID"
-				],
+				"methods": ["Touch ID"],
 				"primaryMethod": "Touch ID"
 			},
 			"physical": {
@@ -4034,8 +4852,86 @@
 			"id": "ipad-air-11-m3",
 			"name": "iPad Air 11-inch (M3)",
 			"releaseYear": 2025,
-			"priceAud": null,
-			"colors": [],
+			"priceAud": 999,
+			"colors": [
+				{
+					"id": "ipad-air-11-m3-space-gray",
+					"displayName": "Space Gray",
+					"finish": {
+						"base": "#68696d",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/spring-2025-ipad-air-11.png",
+							"localPath": "public/data/ipad/images/ipad-air-11-m3-spring-2025-ipad-air-11.png",
+							"widthPx": 912,
+							"heightPx": 782
+						}
+					]
+				},
+				{
+					"id": "ipad-air-11-m3-blue",
+					"displayName": "Blue",
+					"finish": {
+						"base": "#d7e5e6",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/spring-2025-ipad-air-11.png",
+							"localPath": "public/data/ipad/images/ipad-air-11-m3-spring-2025-ipad-air-11.png",
+							"widthPx": 912,
+							"heightPx": 782
+						}
+					]
+				},
+				{
+					"id": "ipad-air-11-m3-purple",
+					"displayName": "Purple",
+					"finish": {
+						"base": "#e3dee9",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/spring-2025-ipad-air-11.png",
+							"localPath": "public/data/ipad/images/ipad-air-11-m3-spring-2025-ipad-air-11.png",
+							"widthPx": 912,
+							"heightPx": 782
+						}
+					]
+				},
+				{
+					"id": "ipad-air-11-m3-starlight",
+					"displayName": "Starlight",
+					"finish": {
+						"base": "#e3dcd1",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/spring-2025-ipad-air-11.png",
+							"localPath": "public/data/ipad/images/ipad-air-11-m3-spring-2025-ipad-air-11.png",
+							"widthPx": 912,
+							"heightPx": 782
+						}
+					]
+				}
+			],
+			"overviewImages": [
+				{
+					"label": "back",
+					"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/spring-2025-ipad-air-11.png",
+					"localPath": "public/data/ipad/images/ipad-air-11-m3-spring-2025-ipad-air-11.png",
+					"widthPx": 912,
+					"heightPx": 782
+				}
+			],
 			"configurations": [],
 			"storageOptions": [
 				{
@@ -4092,7 +4988,6 @@
 				{
 					"id": "ipad-air-11-m3-display",
 					"technology": "Liquid Retina display",
-					"panelKind": null,
 					"sizeIn": 11,
 					"resolutionWidthPx": 2360,
 					"resolutionHeightPx": 1640,
@@ -4161,7 +5056,6 @@
 						"id": "ipad-air-11-m3-port-usb-c",
 						"kind": "USB-C",
 						"supportsDisplayOut": true,
-						"maxPowerW": null,
 						"sourceNotes": "Source wording only says USB-C. The supplied exports do not state a protocol generation; USB 2 is an explicit unresolved placeholder and is not authoritative.",
 						"standard": "USB 2"
 					},
@@ -4169,7 +5063,6 @@
 						"id": "ipad-air-11-m3-port-smart",
 						"kind": "Smart Connector",
 						"supportsDisplayOut": false,
-						"maxPowerW": null,
 						"sourceNotes": "Standard set to proprietary because Smart Connector has no USB protocol standard. Standard omitted because Smart Connector has no USB protocol standard."
 					}
 				],
@@ -4187,9 +5080,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"Touch ID"
-				],
+				"methods": ["Touch ID"],
 				"primaryMethod": "Touch ID"
 			},
 			"physical": {
@@ -4217,8 +5108,86 @@
 			"id": "ipad-air-13-m2",
 			"name": "iPad Air 13-inch (M2)",
 			"releaseYear": 2024,
-			"priceAud": null,
-			"colors": [],
+			"priceAud": 1299,
+			"colors": [
+				{
+					"id": "ipad-air-13-m2-space-gray",
+					"displayName": "Space Gray",
+					"finish": {
+						"base": "#68696d",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/spring-2024-3.png",
+							"localPath": "public/data/ipad/images/ipad-air-13-m2-spring-2024-3.png",
+							"widthPx": 1070,
+							"heightPx": 990
+						}
+					]
+				},
+				{
+					"id": "ipad-air-13-m2-blue",
+					"displayName": "Blue",
+					"finish": {
+						"base": "#d7e5e6",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/spring-2024-3.png",
+							"localPath": "public/data/ipad/images/ipad-air-13-m2-spring-2024-3.png",
+							"widthPx": 1070,
+							"heightPx": 990
+						}
+					]
+				},
+				{
+					"id": "ipad-air-13-m2-purple",
+					"displayName": "Purple",
+					"finish": {
+						"base": "#e3dee9",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/spring-2024-3.png",
+							"localPath": "public/data/ipad/images/ipad-air-13-m2-spring-2024-3.png",
+							"widthPx": 1070,
+							"heightPx": 990
+						}
+					]
+				},
+				{
+					"id": "ipad-air-13-m2-starlight",
+					"displayName": "Starlight",
+					"finish": {
+						"base": "#e3dcd1",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/spring-2024-3.png",
+							"localPath": "public/data/ipad/images/ipad-air-13-m2-spring-2024-3.png",
+							"widthPx": 1070,
+							"heightPx": 990
+						}
+					]
+				}
+			],
+			"overviewImages": [
+				{
+					"label": "back",
+					"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/spring-2024-3.png",
+					"localPath": "public/data/ipad/images/ipad-air-13-m2-spring-2024-3.png",
+					"widthPx": 1070,
+					"heightPx": 990
+				}
+			],
 			"configurations": [],
 			"storageOptions": [
 				{
@@ -4275,7 +5244,6 @@
 				{
 					"id": "ipad-air-13-m2-display",
 					"technology": "Liquid Retina display",
-					"panelKind": null,
 					"sizeIn": 13,
 					"resolutionWidthPx": 2732,
 					"resolutionHeightPx": 2048,
@@ -4344,7 +5312,6 @@
 						"id": "ipad-air-13-m2-port-usb-c",
 						"kind": "USB-C",
 						"supportsDisplayOut": true,
-						"maxPowerW": null,
 						"sourceNotes": "Source wording only says USB-C. The supplied exports do not state a protocol generation; USB 2 is an explicit unresolved placeholder and is not authoritative.",
 						"standard": "USB 2"
 					},
@@ -4352,7 +5319,6 @@
 						"id": "ipad-air-13-m2-port-smart",
 						"kind": "Smart Connector",
 						"supportsDisplayOut": false,
-						"maxPowerW": null,
 						"sourceNotes": "Standard set to proprietary because Smart Connector has no USB protocol standard. Standard omitted because Smart Connector has no USB protocol standard."
 					}
 				],
@@ -4370,9 +5336,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"Touch ID"
-				],
+				"methods": ["Touch ID"],
 				"primaryMethod": "Touch ID"
 			},
 			"physical": {
@@ -4400,8 +5364,86 @@
 			"id": "ipad-air-11-m2",
 			"name": "iPad Air 11-inch (M2)",
 			"releaseYear": 2024,
-			"priceAud": null,
-			"colors": [],
+			"priceAud": 999,
+			"colors": [
+				{
+					"id": "ipad-air-11-m2-space-gray",
+					"displayName": "Space Gray",
+					"finish": {
+						"base": "#68696d",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/spring-2024-4.png",
+							"localPath": "public/data/ipad/images/ipad-air-11-m2-spring-2024-4.png",
+							"widthPx": 912,
+							"heightPx": 782
+						}
+					]
+				},
+				{
+					"id": "ipad-air-11-m2-blue",
+					"displayName": "Blue",
+					"finish": {
+						"base": "#d7e5e6",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/spring-2024-4.png",
+							"localPath": "public/data/ipad/images/ipad-air-11-m2-spring-2024-4.png",
+							"widthPx": 912,
+							"heightPx": 782
+						}
+					]
+				},
+				{
+					"id": "ipad-air-11-m2-purple",
+					"displayName": "Purple",
+					"finish": {
+						"base": "#e3dee9",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/spring-2024-4.png",
+							"localPath": "public/data/ipad/images/ipad-air-11-m2-spring-2024-4.png",
+							"widthPx": 912,
+							"heightPx": 782
+						}
+					]
+				},
+				{
+					"id": "ipad-air-11-m2-starlight",
+					"displayName": "Starlight",
+					"finish": {
+						"base": "#e3dcd1",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/spring-2024-4.png",
+							"localPath": "public/data/ipad/images/ipad-air-11-m2-spring-2024-4.png",
+							"widthPx": 912,
+							"heightPx": 782
+						}
+					]
+				}
+			],
+			"overviewImages": [
+				{
+					"label": "back",
+					"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/spring-2024-4.png",
+					"localPath": "public/data/ipad/images/ipad-air-11-m2-spring-2024-4.png",
+					"widthPx": 912,
+					"heightPx": 782
+				}
+			],
 			"configurations": [],
 			"storageOptions": [
 				{
@@ -4458,7 +5500,6 @@
 				{
 					"id": "ipad-air-11-m2-display",
 					"technology": "Liquid Retina display",
-					"panelKind": null,
 					"sizeIn": 11,
 					"resolutionWidthPx": 2360,
 					"resolutionHeightPx": 1640,
@@ -4527,7 +5568,6 @@
 						"id": "ipad-air-11-m2-port-usb-c",
 						"kind": "USB-C",
 						"supportsDisplayOut": true,
-						"maxPowerW": null,
 						"sourceNotes": "Source wording only says USB-C. The supplied exports do not state a protocol generation; USB 2 is an explicit unresolved placeholder and is not authoritative.",
 						"standard": "USB 2"
 					},
@@ -4535,7 +5575,6 @@
 						"id": "ipad-air-11-m2-port-smart",
 						"kind": "Smart Connector",
 						"supportsDisplayOut": false,
-						"maxPowerW": null,
 						"sourceNotes": "Standard set to proprietary because Smart Connector has no USB protocol standard. Standard omitted because Smart Connector has no USB protocol standard."
 					}
 				],
@@ -4553,9 +5592,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"Touch ID"
-				],
+				"methods": ["Touch ID"],
 				"primaryMethod": "Touch ID"
 			},
 			"physical": {
@@ -4583,8 +5620,103 @@
 			"id": "ipad-air-5th-generation",
 			"name": "iPad Air (5th generation)",
 			"releaseYear": 2022,
-			"priceAud": null,
-			"colors": [],
+			"priceAud": 929,
+			"colors": [
+				{
+					"id": "ipad-air-5th-generation-space-gray",
+					"displayName": "Space Gray",
+					"finish": {
+						"base": "#68696d",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad-air-5th-gen-colors.png",
+							"localPath": "public/data/ipad/images/ipad-air-5th-generation-ipad-air-5th-gen-colors.png",
+							"widthPx": 912,
+							"heightPx": 782
+						}
+					]
+				},
+				{
+					"id": "ipad-air-5th-generation-starlight",
+					"displayName": "Starlight",
+					"finish": {
+						"base": "#e3dcd1",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad-air-5th-gen-colors.png",
+							"localPath": "public/data/ipad/images/ipad-air-5th-generation-ipad-air-5th-gen-colors.png",
+							"widthPx": 912,
+							"heightPx": 782
+						}
+					]
+				},
+				{
+					"id": "ipad-air-5th-generation-pink",
+					"displayName": "Pink",
+					"finish": {
+						"base": "#de6878",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad-air-5th-gen-colors.png",
+							"localPath": "public/data/ipad/images/ipad-air-5th-generation-ipad-air-5th-gen-colors.png",
+							"widthPx": 912,
+							"heightPx": 782
+						}
+					]
+				},
+				{
+					"id": "ipad-air-5th-generation-purple",
+					"displayName": "Purple",
+					"finish": {
+						"base": "#e3dee9",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad-air-5th-gen-colors.png",
+							"localPath": "public/data/ipad/images/ipad-air-5th-generation-ipad-air-5th-gen-colors.png",
+							"widthPx": 912,
+							"heightPx": 782
+						}
+					]
+				},
+				{
+					"id": "ipad-air-5th-generation-blue",
+					"displayName": "Blue",
+					"finish": {
+						"base": "#d7e5e6",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad-air-5th-gen-colors.png",
+							"localPath": "public/data/ipad/images/ipad-air-5th-generation-ipad-air-5th-gen-colors.png",
+							"widthPx": 912,
+							"heightPx": 782
+						}
+					]
+				}
+			],
+			"overviewImages": [
+				{
+					"label": "back",
+					"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad-air-5th-gen-colors.png",
+					"localPath": "public/data/ipad/images/ipad-air-5th-generation-ipad-air-5th-gen-colors.png",
+					"widthPx": 912,
+					"heightPx": 782
+				}
+			],
 			"configurations": [],
 			"storageOptions": [
 				{
@@ -4629,7 +5761,6 @@
 				{
 					"id": "ipad-air-5th-generation-display",
 					"technology": "Liquid Retina display",
-					"panelKind": null,
 					"sizeIn": 10.9,
 					"resolutionWidthPx": 2360,
 					"resolutionHeightPx": 1640,
@@ -4698,7 +5829,6 @@
 						"id": "ipad-air-5th-generation-port-usb-c",
 						"kind": "USB-C",
 						"supportsDisplayOut": true,
-						"maxPowerW": null,
 						"sourceNotes": "Source wording only says USB-C. The supplied exports do not state a protocol generation; USB 2 is an explicit unresolved placeholder and is not authoritative.",
 						"standard": "USB 2"
 					},
@@ -4706,7 +5836,6 @@
 						"id": "ipad-air-5th-generation-port-smart",
 						"kind": "Smart Connector",
 						"supportsDisplayOut": false,
-						"maxPowerW": null,
 						"sourceNotes": "Standard set to proprietary because Smart Connector has no USB protocol standard. Standard omitted because Smart Connector has no USB protocol standard."
 					}
 				],
@@ -4724,9 +5853,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"Touch ID"
-				],
+				"methods": ["Touch ID"],
 				"primaryMethod": "Touch ID"
 			},
 			"physical": {
@@ -4754,8 +5881,52 @@
 			"id": "ipad-air-4th-generation",
 			"name": "iPad Air (4th generation)",
 			"releaseYear": 2020,
-			"priceAud": null,
-			"colors": [],
+			"priceAud": 899,
+			"colors": [
+				{
+					"id": "ipad-air-4th-generation-silver",
+					"displayName": "Silver",
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ipad-air-4th-gen-colors.png",
+							"localPath": "public/data/ipad/images/ipad-air-4th-generation-ipad-air-4th-gen-colors.png",
+							"widthPx": 914,
+							"heightPx": 782
+						}
+					]
+				},
+				{
+					"id": "ipad-air-4th-generation-space-gray",
+					"displayName": "Space Gray",
+					"finish": {
+						"base": "#68696d",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ipad-air-4th-gen-colors.png",
+							"localPath": "public/data/ipad/images/ipad-air-4th-generation-ipad-air-4th-gen-colors.png",
+							"widthPx": 914,
+							"heightPx": 782
+						}
+					]
+				}
+			],
+			"overviewImages": [
+				{
+					"label": "back",
+					"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ipad-air-4th-gen-colors.png",
+					"localPath": "public/data/ipad/images/ipad-air-4th-generation-ipad-air-4th-gen-colors.png",
+					"widthPx": 914,
+					"heightPx": 782
+				}
+			],
 			"configurations": [],
 			"storageOptions": [
 				{
@@ -4800,7 +5971,6 @@
 				{
 					"id": "ipad-air-4th-generation-display",
 					"technology": "Liquid Retina display",
-					"panelKind": null,
 					"sizeIn": 10.9,
 					"resolutionWidthPx": 2360,
 					"resolutionHeightPx": 1640,
@@ -4824,8 +5994,8 @@
 					"id": "ipad-air-4th-generation-front-camera",
 					"role": "front",
 					"displayName": "FaceTime HD camera",
-					"megapixels": null,
-					"sourceNotes": "Source display text does not state megapixels; camera presence and Apple display name retained."
+					"megapixels": 7,
+					"sourceNotes": "Front-camera megapixels from supplied Apple AU compare matrix row WwutNEDq (Front Camera: Ultra Wide): '7MP FaceTime HD camera' in data/tmp/ipad/ipad-compare-au-2026.html (also present in data/tmp/ipad/ipad.html)."
 				}
 			],
 			"audio": {
@@ -4870,7 +6040,6 @@
 						"id": "ipad-air-4th-generation-port-usb-c",
 						"kind": "USB-C",
 						"supportsDisplayOut": true,
-						"maxPowerW": null,
 						"sourceNotes": "Source wording only says USB-C. The supplied exports do not state a protocol generation; USB 2 is an explicit unresolved placeholder and is not authoritative.",
 						"standard": "USB 2"
 					},
@@ -4878,7 +6047,6 @@
 						"id": "ipad-air-4th-generation-port-smart",
 						"kind": "Smart Connector",
 						"supportsDisplayOut": false,
-						"maxPowerW": null,
 						"sourceNotes": "Standard set to proprietary because Smart Connector has no USB protocol standard. Standard omitted because Smart Connector has no USB protocol standard."
 					}
 				],
@@ -4896,9 +6064,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"Touch ID"
-				],
+				"methods": ["Touch ID"],
 				"primaryMethod": "Touch ID"
 			},
 			"physical": {
@@ -4926,8 +6092,52 @@
 			"id": "ipad-air-3rd-generation",
 			"name": "iPad Air (3rd generation)",
 			"releaseYear": 2019,
-			"priceAud": null,
-			"colors": [],
+			"priceAud": 779,
+			"colors": [
+				{
+					"id": "ipad-air-3rd-generation-silver",
+					"displayName": "Silver",
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ipad-air-3gen.png",
+							"localPath": "public/data/ipad/images/ipad-air-3rd-generation-ipad-air-3gen.png",
+							"widthPx": 806,
+							"heightPx": 780
+						}
+					]
+				},
+				{
+					"id": "ipad-air-3rd-generation-space-gray",
+					"displayName": "Space Gray",
+					"finish": {
+						"base": "#68696d",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ipad-air-3gen.png",
+							"localPath": "public/data/ipad/images/ipad-air-3rd-generation-ipad-air-3gen.png",
+							"widthPx": 806,
+							"heightPx": 780
+						}
+					]
+				}
+			],
+			"overviewImages": [
+				{
+					"label": "back",
+					"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ipad-air-3gen.png",
+					"localPath": "public/data/ipad/images/ipad-air-3rd-generation-ipad-air-3gen.png",
+					"widthPx": 806,
+					"heightPx": 780
+				}
+			],
 			"configurations": [],
 			"storageOptions": [
 				{
@@ -4972,7 +6182,6 @@
 				{
 					"id": "ipad-air-3rd-generation-display",
 					"technology": "Retina display",
-					"panelKind": null,
 					"sizeIn": 10.5,
 					"resolutionWidthPx": 2360,
 					"resolutionHeightPx": 1640,
@@ -4996,8 +6205,8 @@
 					"id": "ipad-air-3rd-generation-front-camera",
 					"role": "front",
 					"displayName": "FaceTime HD camera",
-					"megapixels": null,
-					"sourceNotes": "Source display text does not state megapixels; camera presence and Apple display name retained."
+					"megapixels": 7,
+					"sourceNotes": "Front-camera megapixels from supplied Apple AU compare matrix row WwutNEDq (Front Camera: Ultra Wide): '7MP FaceTime HD camera' in data/tmp/ipad/ipad-compare-au-2026.html (also present in data/tmp/ipad/ipad.html)."
 				}
 			],
 			"audio": {
@@ -5048,7 +6257,6 @@
 						"id": "ipad-air-3rd-generation-port-smart",
 						"kind": "Smart Connector",
 						"supportsDisplayOut": false,
-						"maxPowerW": null,
 						"sourceNotes": "Standard set to proprietary because Smart Connector has no USB protocol standard. Standard omitted because Smart Connector has no USB protocol standard."
 					}
 				],
@@ -5066,9 +6274,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"Touch ID"
-				],
+				"methods": ["Touch ID"],
 				"primaryMethod": "Touch ID"
 			},
 			"physical": {
@@ -5096,8 +6302,52 @@
 			"id": "ipad-air-2",
 			"name": "iPad Air 2",
 			"releaseYear": 2014,
-			"priceAud": null,
-			"colors": [],
+			"priceAud": 619,
+			"colors": [
+				{
+					"id": "ipad-air-2-silver",
+					"displayName": "Silver",
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/identify-ipad-air2.png",
+							"localPath": "public/data/ipad/images/ipad-air-2-identify-ipad-air2.png",
+							"widthPx": 790,
+							"heightPx": 772
+						}
+					]
+				},
+				{
+					"id": "ipad-air-2-space-gray",
+					"displayName": "Space Gray",
+					"finish": {
+						"base": "#68696d",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/identify-ipad-air2.png",
+							"localPath": "public/data/ipad/images/ipad-air-2-identify-ipad-air2.png",
+							"widthPx": 790,
+							"heightPx": 772
+						}
+					]
+				}
+			],
+			"overviewImages": [
+				{
+					"label": "back",
+					"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/identify-ipad-air2.png",
+					"localPath": "public/data/ipad/images/ipad-air-2-identify-ipad-air2.png",
+					"widthPx": 790,
+					"heightPx": 772
+				}
+			],
 			"configurations": [],
 			"storageOptions": [
 				{
@@ -5148,7 +6398,6 @@
 				{
 					"id": "ipad-air-2-display",
 					"technology": "Retina display",
-					"panelKind": null,
 					"sizeIn": 9.7,
 					"resolutionWidthPx": 2224,
 					"resolutionHeightPx": 1668,
@@ -5172,8 +6421,8 @@
 					"id": "ipad-air-2-front-camera",
 					"role": "front",
 					"displayName": "FaceTime HD camera",
-					"megapixels": null,
-					"sourceNotes": "Source display text does not state megapixels; camera presence and Apple display name retained."
+					"megapixels": 1.2,
+					"sourceNotes": "Front-camera megapixels from supplied Apple AU compare matrix row WwutNEDq (Front Camera: Ultra Wide): '1.2MP FaceTime HD camera' in data/tmp/ipad/ipad-compare-au-2026.html (also present in data/tmp/ipad/ipad.html)."
 				}
 			],
 			"audio": {
@@ -5235,9 +6484,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"Touch ID"
-				],
+				"methods": ["Touch ID"],
 				"primaryMethod": "Touch ID"
 			},
 			"physical": {
@@ -5265,8 +6512,52 @@
 			"id": "ipad-air-1st-generation",
 			"name": "iPad Air (1st generation)",
 			"releaseYear": 2013,
-			"priceAud": null,
-			"colors": [],
+			"priceAud": 598,
+			"colors": [
+				{
+					"id": "ipad-air-1st-generation-silver",
+					"displayName": "Silver",
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/identify-ipad-air.png",
+							"localPath": "public/data/ipad/images/ipad-air-1st-generation-identify-ipad-air.png",
+							"widthPx": 790,
+							"heightPx": 772
+						}
+					]
+				},
+				{
+					"id": "ipad-air-1st-generation-space-gray",
+					"displayName": "Space Gray",
+					"finish": {
+						"base": "#68696d",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/identify-ipad-air.png",
+							"localPath": "public/data/ipad/images/ipad-air-1st-generation-identify-ipad-air.png",
+							"widthPx": 790,
+							"heightPx": 772
+						}
+					]
+				}
+			],
+			"overviewImages": [
+				{
+					"label": "back",
+					"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/identify-ipad-air.png",
+					"localPath": "public/data/ipad/images/ipad-air-1st-generation-identify-ipad-air.png",
+					"widthPx": 790,
+					"heightPx": 772
+				}
+			],
 			"configurations": [],
 			"storageOptions": [
 				{
@@ -5317,7 +6608,6 @@
 				{
 					"id": "ipad-air-1st-generation-display",
 					"technology": "Retina display",
-					"panelKind": null,
 					"sizeIn": 9.7,
 					"resolutionWidthPx": 2048,
 					"resolutionHeightPx": 1536,
@@ -5341,8 +6631,8 @@
 					"id": "ipad-air-1st-generation-front-camera",
 					"role": "front",
 					"displayName": "FaceTime HD camera",
-					"megapixels": null,
-					"sourceNotes": "Source display text does not state megapixels; camera presence and Apple display name retained."
+					"megapixels": 1.2,
+					"sourceNotes": "Front-camera megapixels from supplied Apple AU compare matrix row WwutNEDq (Front Camera: Ultra Wide): '1.2MP FaceTime HD camera' in data/tmp/ipad/ipad-compare-au-2026.html (also present in data/tmp/ipad/ipad.html)."
 				}
 			],
 			"audio": {
@@ -5404,9 +6694,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"none"
-				],
+				"methods": ["none"],
 				"primaryMethod": "none"
 			},
 			"physical": {
@@ -5434,8 +6722,86 @@
 			"id": "ipad-10th-generation",
 			"name": "iPad (10th generation)",
 			"releaseYear": 2022,
-			"priceAud": null,
-			"colors": [],
+			"priceAud": 749,
+			"colors": [
+				{
+					"id": "ipad-10th-generation-silver",
+					"displayName": "Silver",
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/fall-2022-10-gen-ipad.png",
+							"localPath": "public/data/ipad/images/ipad-10th-generation-fall-2022-10-gen-ipad.png",
+							"widthPx": 998,
+							"heightPx": 822
+						}
+					]
+				},
+				{
+					"id": "ipad-10th-generation-blue",
+					"displayName": "Blue",
+					"finish": {
+						"base": "#6983a4",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/fall-2022-10-gen-ipad.png",
+							"localPath": "public/data/ipad/images/ipad-10th-generation-fall-2022-10-gen-ipad.png",
+							"widthPx": 998,
+							"heightPx": 822
+						}
+					]
+				},
+				{
+					"id": "ipad-10th-generation-pink",
+					"displayName": "Pink",
+					"finish": {
+						"base": "#de6878",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/fall-2022-10-gen-ipad.png",
+							"localPath": "public/data/ipad/images/ipad-10th-generation-fall-2022-10-gen-ipad.png",
+							"widthPx": 998,
+							"heightPx": 822
+						}
+					]
+				},
+				{
+					"id": "ipad-10th-generation-yellow",
+					"displayName": "Yellow",
+					"finish": {
+						"base": "#f0d961",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/fall-2022-10-gen-ipad.png",
+							"localPath": "public/data/ipad/images/ipad-10th-generation-fall-2022-10-gen-ipad.png",
+							"widthPx": 998,
+							"heightPx": 822
+						}
+					]
+				}
+			],
+			"overviewImages": [
+				{
+					"label": "back",
+					"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/fall-2022-10-gen-ipad.png",
+					"localPath": "public/data/ipad/images/ipad-10th-generation-fall-2022-10-gen-ipad.png",
+					"widthPx": 998,
+					"heightPx": 822
+				}
+			],
 			"configurations": [],
 			"storageOptions": [
 				{
@@ -5480,7 +6846,6 @@
 				{
 					"id": "ipad-10th-generation-display",
 					"technology": "Liquid Retina display",
-					"panelKind": null,
 					"sizeIn": 10.9,
 					"resolutionWidthPx": 2048,
 					"resolutionHeightPx": 1536,
@@ -5549,7 +6914,6 @@
 						"id": "ipad-10th-generation-port-usb-c",
 						"kind": "USB-C",
 						"supportsDisplayOut": true,
-						"maxPowerW": null,
 						"sourceNotes": "Source wording only says USB-C. The supplied exports do not state a protocol generation; USB 2 is an explicit unresolved placeholder and is not authoritative.",
 						"standard": "USB 2"
 					},
@@ -5557,7 +6921,6 @@
 						"id": "ipad-10th-generation-port-smart",
 						"kind": "Smart Connector",
 						"supportsDisplayOut": false,
-						"maxPowerW": null,
 						"sourceNotes": "Standard set to proprietary because Smart Connector has no USB protocol standard. Standard omitted because Smart Connector has no USB protocol standard."
 					}
 				],
@@ -5575,9 +6938,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"Touch ID"
-				],
+				"methods": ["Touch ID"],
 				"primaryMethod": "Touch ID"
 			},
 			"physical": {
@@ -5605,8 +6966,52 @@
 			"id": "ipad-9th-generation",
 			"name": "iPad (9th generation)",
 			"releaseYear": 2021,
-			"priceAud": null,
-			"colors": [],
+			"priceAud": 499,
+			"colors": [
+				{
+					"id": "ipad-9th-generation-silver",
+					"displayName": "Silver",
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ipad-2021-colors.png",
+							"localPath": "public/data/ipad/images/ipad-9th-generation-ipad-2021-colors.png",
+							"widthPx": 718,
+							"heightPx": 778
+						}
+					]
+				},
+				{
+					"id": "ipad-9th-generation-space-gray",
+					"displayName": "Space Gray",
+					"finish": {
+						"base": "#68696d",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ipad-2021-colors.png",
+							"localPath": "public/data/ipad/images/ipad-9th-generation-ipad-2021-colors.png",
+							"widthPx": 718,
+							"heightPx": 778
+						}
+					]
+				}
+			],
+			"overviewImages": [
+				{
+					"label": "back",
+					"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ipad-2021-colors.png",
+					"localPath": "public/data/ipad/images/ipad-9th-generation-ipad-2021-colors.png",
+					"widthPx": 718,
+					"heightPx": 778
+				}
+			],
 			"configurations": [],
 			"storageOptions": [
 				{
@@ -5651,7 +7056,6 @@
 				{
 					"id": "ipad-9th-generation-display",
 					"technology": "Retina display",
-					"panelKind": null,
 					"sizeIn": 10.2,
 					"resolutionWidthPx": 2360,
 					"resolutionHeightPx": 1640,
@@ -5675,8 +7079,8 @@
 					"id": "ipad-9th-generation-front-camera",
 					"role": "front",
 					"displayName": "Ultra Wide camera",
-					"megapixels": null,
-					"sourceNotes": "Source display text does not state megapixels; camera presence and Apple display name retained."
+					"megapixels": 12,
+					"sourceNotes": "Front-camera megapixels from supplied Apple AU compare matrix row WwutNEDq (Front Camera: Ultra Wide): '12MP Ultra Wide front camera' in data/tmp/ipad/ipad-compare-au-2026.html (also present in data/tmp/ipad/ipad.html)."
 				}
 			],
 			"audio": {
@@ -5727,7 +7131,6 @@
 						"id": "ipad-9th-generation-port-smart",
 						"kind": "Smart Connector",
 						"supportsDisplayOut": false,
-						"maxPowerW": null,
 						"sourceNotes": "Standard set to proprietary because Smart Connector has no USB protocol standard. Standard omitted because Smart Connector has no USB protocol standard."
 					}
 				],
@@ -5745,9 +7148,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"Touch ID"
-				],
+				"methods": ["Touch ID"],
 				"primaryMethod": "Touch ID"
 			},
 			"physical": {
@@ -5775,8 +7176,52 @@
 			"id": "ipad-8th-generation",
 			"name": "iPad (8th generation)",
 			"releaseYear": 2020,
-			"priceAud": null,
-			"colors": [],
+			"priceAud": 499,
+			"colors": [
+				{
+					"id": "ipad-8th-generation-silver",
+					"displayName": "Silver",
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ipad-8th-gen-colors.png",
+							"localPath": "public/data/ipad/images/ipad-8th-generation-ipad-8th-gen-colors.png",
+							"widthPx": 820,
+							"heightPx": 776
+						}
+					]
+				},
+				{
+					"id": "ipad-8th-generation-space-gray",
+					"displayName": "Space Gray",
+					"finish": {
+						"base": "#68696d",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ipad-8th-gen-colors.png",
+							"localPath": "public/data/ipad/images/ipad-8th-generation-ipad-8th-gen-colors.png",
+							"widthPx": 820,
+							"heightPx": 776
+						}
+					]
+				}
+			],
+			"overviewImages": [
+				{
+					"label": "back",
+					"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ipad-8th-gen-colors.png",
+					"localPath": "public/data/ipad/images/ipad-8th-generation-ipad-8th-gen-colors.png",
+					"widthPx": 820,
+					"heightPx": 776
+				}
+			],
 			"configurations": [],
 			"storageOptions": [
 				{
@@ -5821,7 +7266,6 @@
 				{
 					"id": "ipad-8th-generation-display",
 					"technology": "Retina display",
-					"panelKind": null,
 					"sizeIn": 10.2,
 					"resolutionWidthPx": 2160,
 					"resolutionHeightPx": 1620,
@@ -5845,8 +7289,8 @@
 					"id": "ipad-8th-generation-front-camera",
 					"role": "front",
 					"displayName": "FaceTime HD camera",
-					"megapixels": null,
-					"sourceNotes": "Source display text does not state megapixels; camera presence and Apple display name retained."
+					"megapixels": 1.2,
+					"sourceNotes": "Front-camera megapixels from supplied Apple AU compare matrix row WwutNEDq (Front Camera: Ultra Wide): '1.2MP FaceTime HD camera' in data/tmp/ipad/ipad-compare-au-2026.html (also present in data/tmp/ipad/ipad.html)."
 				}
 			],
 			"audio": {
@@ -5897,7 +7341,6 @@
 						"id": "ipad-8th-generation-port-smart",
 						"kind": "Smart Connector",
 						"supportsDisplayOut": false,
-						"maxPowerW": null,
 						"sourceNotes": "Standard set to proprietary because Smart Connector has no USB protocol standard. Standard omitted because Smart Connector has no USB protocol standard."
 					}
 				],
@@ -5915,9 +7358,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"Touch ID"
-				],
+				"methods": ["Touch ID"],
 				"primaryMethod": "Touch ID"
 			},
 			"physical": {
@@ -5945,8 +7386,52 @@
 			"id": "ipad-7th-generation",
 			"name": "iPad (7th generation)",
 			"releaseYear": 2019,
-			"priceAud": null,
-			"colors": [],
+			"priceAud": 529,
+			"colors": [
+				{
+					"id": "ipad-7th-generation-silver",
+					"displayName": "Silver",
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ipad-7th-gen.png",
+							"localPath": "public/data/ipad/images/ipad-7th-generation-ipad-7th-gen.png",
+							"widthPx": 820,
+							"heightPx": 778
+						}
+					]
+				},
+				{
+					"id": "ipad-7th-generation-space-gray",
+					"displayName": "Space Gray",
+					"finish": {
+						"base": "#68696d",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ipad-7th-gen.png",
+							"localPath": "public/data/ipad/images/ipad-7th-generation-ipad-7th-gen.png",
+							"widthPx": 820,
+							"heightPx": 778
+						}
+					]
+				}
+			],
+			"overviewImages": [
+				{
+					"label": "back",
+					"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ipad-7th-gen.png",
+					"localPath": "public/data/ipad/images/ipad-7th-generation-ipad-7th-gen.png",
+					"widthPx": 820,
+					"heightPx": 778
+				}
+			],
 			"configurations": [],
 			"storageOptions": [
 				{
@@ -5991,7 +7476,6 @@
 				{
 					"id": "ipad-7th-generation-display",
 					"technology": "Retina display",
-					"panelKind": null,
 					"sizeIn": 10.2,
 					"resolutionWidthPx": 2160,
 					"resolutionHeightPx": 1620,
@@ -6015,8 +7499,8 @@
 					"id": "ipad-7th-generation-front-camera",
 					"role": "front",
 					"displayName": "FaceTime HD camera",
-					"megapixels": null,
-					"sourceNotes": "Source display text does not state megapixels; camera presence and Apple display name retained."
+					"megapixels": 1.2,
+					"sourceNotes": "Front-camera megapixels from supplied Apple AU compare matrix row WwutNEDq (Front Camera: Ultra Wide): '1.2MP FaceTime HD camera' in data/tmp/ipad/ipad-compare-au-2026.html (also present in data/tmp/ipad/ipad.html)."
 				}
 			],
 			"audio": {
@@ -6067,7 +7551,6 @@
 						"id": "ipad-7th-generation-port-smart",
 						"kind": "Smart Connector",
 						"supportsDisplayOut": false,
-						"maxPowerW": null,
 						"sourceNotes": "Standard set to proprietary because Smart Connector has no USB protocol standard. Standard omitted because Smart Connector has no USB protocol standard."
 					}
 				],
@@ -6085,9 +7568,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"Touch ID"
-				],
+				"methods": ["Touch ID"],
 				"primaryMethod": "Touch ID"
 			},
 			"physical": {
@@ -6115,8 +7596,52 @@
 			"id": "ipad-6th-generation",
 			"name": "iPad (6th generation)",
 			"releaseYear": 2018,
-			"priceAud": null,
-			"colors": [],
+			"priceAud": 469,
+			"colors": [
+				{
+					"id": "ipad-6th-generation-silver",
+					"displayName": "Silver",
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ios11-3-ipad-9-7-in-2018.png",
+							"localPath": "public/data/ipad/images/ipad-6th-generation-ios11-3-ipad-9-7-in-2018.png",
+							"widthPx": 818,
+							"heightPx": 776
+						}
+					]
+				},
+				{
+					"id": "ipad-6th-generation-space-gray",
+					"displayName": "Space Gray",
+					"finish": {
+						"base": "#68696d",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ios11-3-ipad-9-7-in-2018.png",
+							"localPath": "public/data/ipad/images/ipad-6th-generation-ios11-3-ipad-9-7-in-2018.png",
+							"widthPx": 818,
+							"heightPx": 776
+						}
+					]
+				}
+			],
+			"overviewImages": [
+				{
+					"label": "back",
+					"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ios11-3-ipad-9-7-in-2018.png",
+					"localPath": "public/data/ipad/images/ipad-6th-generation-ios11-3-ipad-9-7-in-2018.png",
+					"widthPx": 818,
+					"heightPx": 776
+				}
+			],
 			"configurations": [],
 			"storageOptions": [
 				{
@@ -6161,7 +7686,6 @@
 				{
 					"id": "ipad-6th-generation-display",
 					"technology": "Retina display",
-					"panelKind": null,
 					"sizeIn": 9.7,
 					"resolutionWidthPx": 2160,
 					"resolutionHeightPx": 1620,
@@ -6185,8 +7709,8 @@
 					"id": "ipad-6th-generation-front-camera",
 					"role": "front",
 					"displayName": "FaceTime HD camera",
-					"megapixels": null,
-					"sourceNotes": "Source display text does not state megapixels; camera presence and Apple display name retained."
+					"megapixels": 1.2,
+					"sourceNotes": "Front-camera megapixels from supplied Apple AU compare matrix row WwutNEDq (Front Camera: Ultra Wide): '1.2MP FaceTime HD camera' in data/tmp/ipad/ipad-compare-au-2026.html (also present in data/tmp/ipad/ipad.html)."
 				}
 			],
 			"audio": {
@@ -6248,9 +7772,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"Touch ID"
-				],
+				"methods": ["Touch ID"],
 				"primaryMethod": "Touch ID"
 			},
 			"physical": {
@@ -6278,8 +7800,52 @@
 			"id": "ipad-5th-generation",
 			"name": "iPad (5th generation)",
 			"releaseYear": 2017,
-			"priceAud": null,
-			"colors": [],
+			"priceAud": 469,
+			"colors": [
+				{
+					"id": "ipad-5th-generation-silver",
+					"displayName": "Silver",
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ios11-ipad-5gen.png",
+							"localPath": "public/data/ipad/images/ipad-5th-generation-ios11-ipad-5gen.png",
+							"widthPx": 914,
+							"heightPx": 780
+						}
+					]
+				},
+				{
+					"id": "ipad-5th-generation-space-gray",
+					"displayName": "Space Gray",
+					"finish": {
+						"base": "#68696d",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ios11-ipad-5gen.png",
+							"localPath": "public/data/ipad/images/ipad-5th-generation-ios11-ipad-5gen.png",
+							"widthPx": 914,
+							"heightPx": 780
+						}
+					]
+				}
+			],
+			"overviewImages": [
+				{
+					"label": "back",
+					"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ios11-ipad-5gen.png",
+					"localPath": "public/data/ipad/images/ipad-5th-generation-ios11-ipad-5gen.png",
+					"widthPx": 914,
+					"heightPx": 780
+				}
+			],
 			"configurations": [],
 			"storageOptions": [
 				{
@@ -6324,7 +7890,6 @@
 				{
 					"id": "ipad-5th-generation-display",
 					"technology": "Retina display",
-					"panelKind": null,
 					"sizeIn": 9.7,
 					"resolutionWidthPx": 2160,
 					"resolutionHeightPx": 1620,
@@ -6348,8 +7913,8 @@
 					"id": "ipad-5th-generation-front-camera",
 					"role": "front",
 					"displayName": "FaceTime HD camera",
-					"megapixels": null,
-					"sourceNotes": "Source display text does not state megapixels; camera presence and Apple display name retained."
+					"megapixels": 1.2,
+					"sourceNotes": "Front-camera megapixels from supplied Apple AU compare matrix row WwutNEDq (Front Camera: Ultra Wide): '1.2MP FaceTime HD camera' in data/tmp/ipad/ipad-compare-au-2026.html (also present in data/tmp/ipad/ipad.html)."
 				}
 			],
 			"audio": {
@@ -6411,9 +7976,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"Touch ID"
-				],
+				"methods": ["Touch ID"],
 				"primaryMethod": "Touch ID"
 			},
 			"physical": {
@@ -6441,8 +8004,86 @@
 			"id": "ipad-mini-6th-generation",
 			"name": "iPad mini (6th generation)",
 			"releaseYear": 2021,
-			"priceAud": null,
-			"colors": [],
+			"priceAud": 749,
+			"colors": [
+				{
+					"id": "ipad-mini-6th-generation-space-gray",
+					"displayName": "Space Gray",
+					"finish": {
+						"base": "#68696d",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ipad-mini-2021-colors.png",
+							"localPath": "public/data/ipad/images/ipad-mini-6th-generation-ipad-mini-2021-colors.png",
+							"widthPx": 762,
+							"heightPx": 678
+						}
+					]
+				},
+				{
+					"id": "ipad-mini-6th-generation-pink",
+					"displayName": "Pink",
+					"finish": {
+						"base": "#de6878",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ipad-mini-2021-colors.png",
+							"localPath": "public/data/ipad/images/ipad-mini-6th-generation-ipad-mini-2021-colors.png",
+							"widthPx": 762,
+							"heightPx": 678
+						}
+					]
+				},
+				{
+					"id": "ipad-mini-6th-generation-purple",
+					"displayName": "Purple",
+					"finish": {
+						"base": "#e3dee9",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ipad-mini-2021-colors.png",
+							"localPath": "public/data/ipad/images/ipad-mini-6th-generation-ipad-mini-2021-colors.png",
+							"widthPx": 762,
+							"heightPx": 678
+						}
+					]
+				},
+				{
+					"id": "ipad-mini-6th-generation-starlight",
+					"displayName": "Starlight",
+					"finish": {
+						"base": "#e3dcd1",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ipad-mini-2021-colors.png",
+							"localPath": "public/data/ipad/images/ipad-mini-6th-generation-ipad-mini-2021-colors.png",
+							"widthPx": 762,
+							"heightPx": 678
+						}
+					]
+				}
+			],
+			"overviewImages": [
+				{
+					"label": "back",
+					"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ipad-mini-2021-colors.png",
+					"localPath": "public/data/ipad/images/ipad-mini-6th-generation-ipad-mini-2021-colors.png",
+					"widthPx": 762,
+					"heightPx": 678
+				}
+			],
 			"configurations": [],
 			"storageOptions": [
 				{
@@ -6487,7 +8128,6 @@
 				{
 					"id": "ipad-mini-6th-generation-display",
 					"technology": "Liquid Retina display",
-					"panelKind": null,
 					"sizeIn": 8.3,
 					"resolutionWidthPx": 2048,
 					"resolutionHeightPx": 1536,
@@ -6511,8 +8151,8 @@
 					"id": "ipad-mini-6th-generation-front-camera",
 					"role": "front",
 					"displayName": "Ultra Wide camera",
-					"megapixels": null,
-					"sourceNotes": "Source display text does not state megapixels; camera presence and Apple display name retained."
+					"megapixels": 12,
+					"sourceNotes": "Front-camera megapixels from supplied Apple AU compare matrix row WwutNEDq (Front Camera: Ultra Wide): '12MP Ultra Wide front camera' in data/tmp/ipad/ipad-compare-au-2026.html (also present in data/tmp/ipad/ipad.html)."
 				}
 			],
 			"audio": {
@@ -6557,8 +8197,7 @@
 						"id": "ipad-mini-6th-generation-port-usb-c",
 						"kind": "USB-C",
 						"supportsDisplayOut": true,
-						"maxPowerW": null,
-						"sourceNotes": "Source wording: USB‑C Port standard placeholder set to USB 2 to satisfy the authoritative non-null enum; supplied compare evidence does not establish a protocol standard.",
+						"sourceNotes": "Source wording: USB\u2011C Port standard placeholder set to USB 2 to satisfy the authoritative non-null enum; supplied compare evidence does not establish a protocol standard.",
 						"standard": "USB 2"
 					}
 				],
@@ -6576,9 +8215,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"Touch ID"
-				],
+				"methods": ["Touch ID"],
 				"primaryMethod": "Touch ID"
 			},
 			"physical": {
@@ -6606,8 +8243,52 @@
 			"id": "ipad-mini-5th-generation",
 			"name": "iPad mini (5th generation)",
 			"releaseYear": 2019,
-			"priceAud": null,
-			"colors": [],
+			"priceAud": 599,
+			"colors": [
+				{
+					"id": "ipad-mini-5th-generation-space-gray",
+					"displayName": "Space Gray",
+					"finish": {
+						"base": "#68696d",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ipad-mini-5gen.png",
+							"localPath": "public/data/ipad/images/ipad-mini-5th-generation-ipad-mini-5gen.png",
+							"widthPx": 660,
+							"heightPx": 678
+						}
+					]
+				},
+				{
+					"id": "ipad-mini-5th-generation-silver",
+					"displayName": "Silver",
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ipad-mini-5gen.png",
+							"localPath": "public/data/ipad/images/ipad-mini-5th-generation-ipad-mini-5gen.png",
+							"widthPx": 660,
+							"heightPx": 678
+						}
+					]
+				}
+			],
+			"overviewImages": [
+				{
+					"label": "back",
+					"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ipad-mini-5gen.png",
+					"localPath": "public/data/ipad/images/ipad-mini-5th-generation-ipad-mini-5gen.png",
+					"widthPx": 660,
+					"heightPx": 678
+				}
+			],
 			"configurations": [],
 			"storageOptions": [
 				{
@@ -6652,7 +8333,6 @@
 				{
 					"id": "ipad-mini-5th-generation-display",
 					"technology": "Retina display",
-					"panelKind": null,
 					"sizeIn": 7.9,
 					"resolutionWidthPx": 2048,
 					"resolutionHeightPx": 1536,
@@ -6676,8 +8356,8 @@
 					"id": "ipad-mini-5th-generation-front-camera",
 					"role": "front",
 					"displayName": "FaceTime HD camera",
-					"megapixels": null,
-					"sourceNotes": "Source display text does not state megapixels; camera presence and Apple display name retained."
+					"megapixels": 7,
+					"sourceNotes": "Front-camera megapixels from supplied Apple AU compare matrix row WwutNEDq (Front Camera: Ultra Wide): '7MP FaceTime HD camera' in data/tmp/ipad/ipad-compare-au-2026.html (also present in data/tmp/ipad/ipad.html)."
 				}
 			],
 			"audio": {
@@ -6739,9 +8419,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"Touch ID"
-				],
+				"methods": ["Touch ID"],
 				"primaryMethod": "Touch ID"
 			},
 			"physical": {
@@ -6769,8 +8447,52 @@
 			"id": "ipad-mini-4",
 			"name": "iPad mini 4",
 			"releaseYear": 2015,
-			"priceAud": null,
-			"colors": [],
+			"priceAud": 569,
+			"colors": [
+				{
+					"id": "ipad-mini-4-space-gray",
+					"displayName": "Space Gray",
+					"finish": {
+						"base": "#68696d",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/identify-ipad-mini4.png",
+							"localPath": "public/data/ipad/images/ipad-mini-4-identify-ipad-mini4.png",
+							"widthPx": 658,
+							"heightPx": 664
+						}
+					]
+				},
+				{
+					"id": "ipad-mini-4-silver",
+					"displayName": "Silver",
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/identify-ipad-mini4.png",
+							"localPath": "public/data/ipad/images/ipad-mini-4-identify-ipad-mini4.png",
+							"widthPx": 658,
+							"heightPx": 664
+						}
+					]
+				}
+			],
+			"overviewImages": [
+				{
+					"label": "back",
+					"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/identify-ipad-mini4.png",
+					"localPath": "public/data/ipad/images/ipad-mini-4-identify-ipad-mini4.png",
+					"widthPx": 658,
+					"heightPx": 664
+				}
+			],
 			"configurations": [],
 			"storageOptions": [
 				{
@@ -6821,7 +8543,6 @@
 				{
 					"id": "ipad-mini-4-display",
 					"technology": "Retina display",
-					"panelKind": null,
 					"sizeIn": 7.9,
 					"resolutionWidthPx": 2266,
 					"resolutionHeightPx": 1488,
@@ -6845,8 +8566,8 @@
 					"id": "ipad-mini-4-front-camera",
 					"role": "front",
 					"displayName": "FaceTime HD camera",
-					"megapixels": null,
-					"sourceNotes": "Source display text does not state megapixels; camera presence and Apple display name retained."
+					"megapixels": 1.2,
+					"sourceNotes": "Front-camera megapixels from supplied Apple AU compare matrix row WwutNEDq (Front Camera: Ultra Wide): '1.2MP FaceTime HD camera' in data/tmp/ipad/ipad-compare-au-2026.html (also present in data/tmp/ipad/ipad.html)."
 				}
 			],
 			"audio": {
@@ -6908,9 +8629,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"Touch ID"
-				],
+				"methods": ["Touch ID"],
 				"primaryMethod": "Touch ID"
 			},
 			"physical": {
@@ -6938,8 +8657,52 @@
 			"id": "ipad-mini-3",
 			"name": "iPad mini 3",
 			"releaseYear": 2014,
-			"priceAud": null,
-			"colors": [],
+			"priceAud": 499,
+			"colors": [
+				{
+					"id": "ipad-mini-3-space-gray",
+					"displayName": "Space Gray",
+					"finish": {
+						"base": "#68696d",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/identify-ipad-mini3.png",
+							"localPath": "public/data/ipad/images/ipad-mini-3-identify-ipad-mini3.png",
+							"widthPx": 664,
+							"heightPx": 666
+						}
+					]
+				},
+				{
+					"id": "ipad-mini-3-silver",
+					"displayName": "Silver",
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/identify-ipad-mini3.png",
+							"localPath": "public/data/ipad/images/ipad-mini-3-identify-ipad-mini3.png",
+							"widthPx": 664,
+							"heightPx": 666
+						}
+					]
+				}
+			],
+			"overviewImages": [
+				{
+					"label": "back",
+					"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/identify-ipad-mini3.png",
+					"localPath": "public/data/ipad/images/ipad-mini-3-identify-ipad-mini3.png",
+					"widthPx": 664,
+					"heightPx": 666
+				}
+			],
 			"configurations": [],
 			"storageOptions": [
 				{
@@ -6990,7 +8753,6 @@
 				{
 					"id": "ipad-mini-3-display",
 					"technology": "Retina display",
-					"panelKind": null,
 					"sizeIn": 7.9,
 					"resolutionWidthPx": 2048,
 					"resolutionHeightPx": 1536,
@@ -7014,8 +8776,8 @@
 					"id": "ipad-mini-3-front-camera",
 					"role": "front",
 					"displayName": "FaceTime HD camera",
-					"megapixels": null,
-					"sourceNotes": "Source display text does not state megapixels; camera presence and Apple display name retained."
+					"megapixels": 1.2,
+					"sourceNotes": "Front-camera megapixels from supplied Apple AU compare matrix row WwutNEDq (Front Camera: Ultra Wide): '1.2MP FaceTime HD camera' in data/tmp/ipad/ipad-compare-au-2026.html (also present in data/tmp/ipad/ipad.html)."
 				}
 			],
 			"audio": {
@@ -7077,9 +8839,7 @@
 				"gps": null
 			},
 			"authentication": {
-				"methods": [
-					"Touch ID"
-				],
+				"methods": ["Touch ID"],
 				"primaryMethod": "Touch ID"
 			},
 			"physical": {
@@ -7107,8 +8867,43 @@
 			"id": "ipad-mini-2",
 			"name": "iPad mini 2",
 			"releaseYear": 2013,
-			"priceAud": null,
-			"colors": [],
+			"priceAud": 479,
+			"colors": [
+				{
+					"id": "ipad-mini-2-space-gray",
+					"displayName": "Space Gray",
+					"finish": {
+						"base": "#68696d",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/identify-ipad-mini2.png",
+							"localPath": "public/data/ipad/images/ipad-mini-2-identify-ipad-mini2.png",
+							"widthPx": 756,
+							"heightPx": 666
+						}
+					]
+				},
+				{
+					"id": "ipad-mini-2-silver",
+					"displayName": "Silver",
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum"
+					},
+					"images": [
+						{
+							"label": "back",
+							"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/identify-ipad-mini2.png",
+							"localPath": "public/data/ipad/images/ipad-mini-2-identify-ipad-mini2.png",
+							"widthPx": 756,
+							"heightPx": 666
+						}
+					]
+				}
+			],
 			"configurations": [],
 			"storageOptions": [
 				{
@@ -7163,8 +8958,6 @@
 					"resolutionHeightPx": 1536,
 					"pixelsPerInch": 326,
 					"sdrPeakBrightnessNits": 400,
-					"hdrPeakBrightnessNits": null,
-					"fullScreenHdrBrightnessNits": null,
 					"trueTone": false,
 					"promotion": false,
 					"alwaysOn": false,
@@ -7247,17 +9040,13 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 4"
-					]
+					"standards": ["Wi-Fi 4"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 4.0"
 				},
 				"cellular": {
-					"technologies": [
-						"LTE"
-					]
+					"technologies": ["LTE"]
 				},
 				"uwb": null,
 				"thread": null,
@@ -7268,9 +9057,7 @@
 				}
 			},
 			"authentication": {
-				"methods": [
-					"Touch ID"
-				],
+				"methods": ["Touch ID"],
 				"primaryMethod": "Touch ID"
 			},
 			"physical": {
@@ -7304,7 +9091,7 @@
 				]
 			},
 			"resistance": {
-				"ipRating": "",
+				"ipRating": null,
 				"waterDepthM": null,
 				"splashPressureAtm": null,
 				"dustProtected": false,
@@ -7317,7 +9104,15 @@
 				"builtInApps": []
 			},
 			"accessories": [],
-			"overviewImages": [],
+			"overviewImages": [
+				{
+					"label": "back",
+					"appleUrl": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/identify-ipad-mini2.png",
+					"localPath": "public/data/ipad/images/ipad-mini-2-identify-ipad-mini2.png",
+					"widthPx": 756,
+					"heightPx": 666
+				}
+			],
 			"sourceNotes": "Extracted from supplied Apple AU compare hidden catalogue rows for iPad mini 2. Price and colour/image evidence absent and remain null/empty rather than inferred."
 		}
 	]

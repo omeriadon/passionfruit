@@ -18,12 +18,12 @@
 			"additionalProperties": false,
 			"required": ["value", "unit"],
 			"properties": {
-				"value": { "type": "number" },
+				"value": { "type": "number", "exclusiveMinimum": 0 },
 				"unit": {
 					"type": "string",
 					"enum": ["g", "hours", "minutes", "percent"]
 				},
-				"qualifier": { "type": "string" }
+				"qualifier": { "type": "string", "minLength": 1 }
 			}
 		},
 		"image": {
@@ -31,8 +31,8 @@
 			"additionalProperties": false,
 			"required": ["label", "appleUrl", "localPath", "widthPx", "heightPx"],
 			"properties": {
-				"label": { "type": "string" },
-				"appleUrl": { "type": "string", "format": "uri" },
+				"label": { "type": "string", "minLength": 1 },
+				"appleUrl": { "type": "string", "format": "uri", "minLength": 1 },
 				"localPath": { "type": "string", "minLength": 1 },
 				"widthPx": { "type": "integer", "minimum": 1 },
 				"heightPx": { "type": "integer", "minimum": 1 }
@@ -43,7 +43,11 @@
 			"additionalProperties": false,
 			"required": ["id", "displayName"],
 			"properties": {
-				"id": { "type": "string", "minLength": 1 },
+				"id": {
+					"type": "string",
+					"pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+					"minLength": 1
+				},
 				"displayName": { "type": "string", "minLength": 1 },
 				"family": { "type": "string", "minLength": 1 },
 				"sourceNotes": { "type": "string", "minLength": 1 }
@@ -138,6 +142,7 @@
 				"earpieceWeight": { "$ref": "#/$defs/measurement" },
 				"caseWeights": {
 					"type": "array",
+					"minItems": 1,
 					"items": { "$ref": "#/$defs/caseWeight" }
 				}
 			}
@@ -170,22 +175,34 @@
 				"formFactor": { "type": "string", "enum": ["in-ear", "over-ear"] },
 				"cases": {
 					"type": "array",
+					"minItems": 1,
 					"items": { "type": "string", "minLength": 1 }
 				},
 				"physical": { "$ref": "#/$defs/physical" },
-				"images": { "type": "array", "items": { "$ref": "#/$defs/image" } },
+				"images": {
+					"type": "array",
+					"minItems": 1,
+					"items": { "$ref": "#/$defs/image" }
+				},
 				"audioTechnologies": {
 					"type": "array",
+					"minItems": 1,
 					"items": { "$ref": "#/$defs/audioTechnology" }
 				},
 				"sensors": {
 					"type": "array",
+					"minItems": 1,
 					"items": { "$ref": "#/$defs/namedFeature" }
 				},
-				"chips": { "type": "array", "items": { "$ref": "#/$defs/chip" } },
+				"chips": {
+					"type": "array",
+					"minItems": 1,
+					"items": { "$ref": "#/$defs/chip" }
+				},
 				"microphoneCount": { "type": "integer", "minimum": 0 },
 				"controls": {
 					"type": "array",
+					"minItems": 1,
 					"items": { "$ref": "#/$defs/namedFeature" }
 				},
 				"hearingHealth": {
@@ -199,15 +216,22 @@
 				"port": { "type": "string", "enum": ["USB-C", "Lightning"] },
 				"batteryAndCharging": {
 					"type": "array",
+					"minItems": 1,
 					"items": { "$ref": "#/$defs/batteryClaim" }
 				},
-				"ipRating": { "type": "string", "minLength": 1 },
+				"ipRating": {
+					"type": "string",
+					"minLength": 1,
+					"pattern": "IP[0-9A-Z]+|WR[0-9]+"
+				},
 				"connectivity": {
 					"type": "array",
+					"minItems": 1,
 					"items": { "$ref": "#/$defs/connectivityFeature" }
 				},
 				"inTheBox": {
 					"type": "array",
+					"minItems": 1,
 					"items": { "type": "string", "minLength": 1 }
 				},
 				"sourceNotes": { "type": "string", "minLength": 1 }

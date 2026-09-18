@@ -1,0 +1,19 @@
+{
+	"nodes": [
+		{
+			"id": "$graphify-root$_content_docs_mac_index_mdx",
+			"label": "index.mdx",
+			"file_type": "document",
+			"node_kind": "page",
+			"source_file": "content/docs/mac/index.mdx",
+			"source_location": "L1",
+			"frontmatter": {
+				"title": "Mac",
+				"description": "Mac notebooks and desktops."
+			}
+		}
+	],
+	"edges": [],
+	"input_tokens": 0,
+	"output_tokens": 0
+}

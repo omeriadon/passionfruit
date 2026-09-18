@@ -4,11 +4,11 @@ Checked 2026-08-23. The supplied `data/tmp/other/pencil.html` is an Australian E
 
 ## Prices
 
-| Model | Current Apple AU retail | Current education price | Evidence |
-| --- | ---: | ---: | --- |
-| Apple Pencil Pro | A$219 | A$199 | [AU retail](https://www.apple.com/au/shop/product/mx2d3za/a/apple-pencil-pro), [AU Education](https://www.apple.com/au-edu/shop/product/mx2d3za/a/apple-pencil-pro) |
-| Apple Pencil (USB-C) | A$139 | A$119 | [AU retail](https://www.apple.com/au/shop/product/muwa3za/a/apple-pencil-usb-c), [AU Education](https://www.apple.com/au-edu/shop/product/muwa3za/a/apple-pencil-usb-c) |
-| Apple Pencil (2nd generation) | A$219 | A$199 | [AU retail](https://www.apple.com/au/shop/product/mxn43za/a/apple-pencil-2nd-generation), [AU Education](https://www.apple.com/au-edu/shop/product/mxn43za/a/apple-pencil-2nd-generation) |
+| Model                         | Current Apple AU retail | Current education price | Evidence                                                                                                                                                                                  |
+| ----------------------------- | ----------------------: | ----------------------: | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Apple Pencil Pro              |                   A$219 |                   A$199 | [AU retail](https://www.apple.com/au/shop/product/mx2d3za/a/apple-pencil-pro), [AU Education](https://www.apple.com/au-edu/shop/product/mx2d3za/a/apple-pencil-pro)                       |
+| Apple Pencil (USB-C)          |                   A$139 |                   A$119 | [AU retail](https://www.apple.com/au/shop/product/muwa3za/a/apple-pencil-usb-c), [AU Education](https://www.apple.com/au-edu/shop/product/muwa3za/a/apple-pencil-usb-c)                   |
+| Apple Pencil (2nd generation) |                   A$219 |                   A$199 | [AU retail](https://www.apple.com/au/shop/product/mxn43za/a/apple-pencil-2nd-generation), [AU Education](https://www.apple.com/au-edu/shop/product/mxn43za/a/apple-pencil-2nd-generation) |
 
 The local HTML explicitly contains only the A$199 Pro and A$119 USB-C education prices. It links the 2nd-generation product as part `MXN43` but does not show its price.
 

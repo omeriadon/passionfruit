@@ -1,0 +1,38 @@
+{
+	"nodes": [
+		{
+			"id": "$graphify-root$_content_device_notes_ipad_ipad_air_11_m2_md",
+			"label": "ipad-air-11-m2.md",
+			"file_type": "document",
+			"node_kind": "page",
+			"source_file": "content/device-notes/ipad/ipad-air-11-m2.md",
+			"source_location": "L1",
+			"frontmatter": {
+				"goodToBuy": "unknown",
+				"editorial": "No editorial note has been authored yet.",
+				"tags": "[]"
+			}
+		},
+		{
+			"id": "$graphify-root$_content_device_notes_ipad_ipad_air_11_m2_ipad_air_11_inch_m2",
+			"label": "iPad Air 11-inch (M2)",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": "content/device-notes/ipad/ipad-air-11-m2.md",
+			"source_location": "L7"
+		}
+	],
+	"edges": [
+		{
+			"source": "$graphify-root$_content_device_notes_ipad_ipad_air_11_m2_md",
+			"target": "$graphify-root$_content_device_notes_ipad_ipad_air_11_m2_ipad_air_11_inch_m2",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": "content/device-notes/ipad/ipad-air-11-m2.md",
+			"source_location": "L7",
+			"weight": 1.0
+		}
+	],
+	"input_tokens": 0,
+	"output_tokens": 0
+}

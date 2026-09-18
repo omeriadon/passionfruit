@@ -15,10 +15,7 @@
 				{
 					"id": "white",
 					"displayName": "White",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
-					},
+					"finish": { "base": "#ffffff", "material": "flat", "shine": 0 },
 					"images": [
 						{
 							"label": "White large",
@@ -67,10 +64,7 @@
 				{
 					"id": "black",
 					"displayName": "Black",
-					"swatch": {
-						"kind": "css",
-						"value": "#000000"
-					},
+					"finish": { "base": "#000000", "material": "flat", "shine": 0 },
 					"images": [
 						{
 							"label": "Black large",
@@ -182,10 +176,7 @@
 				{
 					"id": "white",
 					"displayName": "White",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
-					},
+					"finish": { "base": "#ffffff", "material": "flat", "shine": 0 },
 					"images": [
 						{
 							"label": "White large",
@@ -234,10 +225,7 @@
 				{
 					"id": "black",
 					"displayName": "Black",
-					"swatch": {
-						"kind": "css",
-						"value": "#000000"
-					},
+					"finish": { "base": "#000000", "material": "flat", "shine": 0 },
 					"images": [
 						{
 							"label": "Black large",
@@ -349,10 +337,7 @@
 				{
 					"id": "white",
 					"displayName": "White",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
-					},
+					"finish": { "base": "#ffffff", "material": "flat", "shine": 0 },
 					"images": [
 						{
 							"label": "White large",
@@ -401,10 +386,7 @@
 				{
 					"id": "black",
 					"displayName": "Black",
-					"swatch": {
-						"kind": "css",
-						"value": "#000000"
-					},
+					"finish": { "base": "#000000", "material": "flat", "shine": 0 },
 					"images": [
 						{
 							"label": "Black large",
@@ -519,10 +501,7 @@
 				{
 					"id": "white",
 					"displayName": "White",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
-					},
+					"finish": { "base": "#ffffff", "material": "flat", "shine": 0 },
 					"images": [
 						{
 							"label": "White large",
@@ -571,10 +550,7 @@
 				{
 					"id": "black",
 					"displayName": "Black",
-					"swatch": {
-						"kind": "css",
-						"value": "#000000"
-					},
+					"finish": { "base": "#000000", "material": "flat", "shine": 0 },
 					"images": [
 						{
 							"label": "Black large",

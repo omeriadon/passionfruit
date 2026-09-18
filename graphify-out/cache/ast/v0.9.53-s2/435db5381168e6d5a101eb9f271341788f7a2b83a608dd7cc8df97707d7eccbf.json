@@ -1,0 +1,19 @@
+{
+	"nodes": [
+		{
+			"id": "$graphify-root$_content_docs_homepod_index_mdx",
+			"label": "index.mdx",
+			"file_type": "document",
+			"node_kind": "page",
+			"source_file": "content/docs/homepod/index.mdx",
+			"source_location": "L1",
+			"frontmatter": {
+				"title": "HomePod",
+				"description": "Home audio devices and their specifications."
+			}
+		}
+	],
+	"edges": [],
+	"input_tokens": 0,
+	"output_tokens": 0
+}

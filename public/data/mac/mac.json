@@ -9,9 +9,11 @@
 				{
 					"id": "silver",
 					"displayName": "Silver",
-					"swatch": {
-						"kind": "css",
-						"value": "#e2e3e4"
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [
 						{
@@ -34,9 +36,11 @@
 				{
 					"id": "blush",
 					"displayName": "Blush",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#f0d3cb",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [
 						{
@@ -54,14 +58,16 @@
 							"heightPx": 310
 						}
 					],
-					"sourceNotes": "Swatch class colornav-swatch-blush; product image class image-compare-macbook-neo-a18-pro-blush; image bytes not staged.; image bytes unavailable in owned staging; Apple-hosted URL omitted rather than fabricated.; exact CSS swatch unavailable; appleUrl unavailable in owned staged sources; localPath is source-prefixed staged evidence."
+					"sourceNotes": "Swatch class colornav-swatch-blush; product image class image-compare-macbook-neo-a18-pro-blush; image bytes not staged.; image bytes unavailable in owned staging; Apple-hosted URL omitted rather than fabricated.; exact CSS swatch unavailable; appleUrl unavailable in owned staged sources; localPath is source-prefixed staged evidence. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "citrus",
 					"displayName": "Citrus",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#e6dfa2",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [
 						{
@@ -79,14 +85,16 @@
 							"heightPx": 310
 						}
 					],
-					"sourceNotes": "Swatch class colornav-swatch-citrus; product image class image-compare-macbook-neo-a18-pro-citrus; image bytes not staged.; image bytes unavailable in owned staging; Apple-hosted URL omitted rather than fabricated.; exact CSS swatch unavailable; appleUrl unavailable in owned staged sources; localPath is source-prefixed staged evidence."
+					"sourceNotes": "Swatch class colornav-swatch-citrus; product image class image-compare-macbook-neo-a18-pro-citrus; image bytes not staged.; image bytes unavailable in owned staging; Apple-hosted URL omitted rather than fabricated.; exact CSS swatch unavailable; appleUrl unavailable in owned staged sources; localPath is source-prefixed staged evidence. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "indigo",
 					"displayName": "Indigo",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#4d5d7f",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [
 						{
@@ -104,7 +112,7 @@
 							"heightPx": 310
 						}
 					],
-					"sourceNotes": "Swatch class colornav-swatch-indigo; product image class image-compare-macbook-neo-a18-pro-indigo; image bytes not staged.; image bytes unavailable in owned staging; Apple-hosted URL omitted rather than fabricated.; exact CSS swatch unavailable; appleUrl unavailable in owned staged sources; localPath is source-prefixed staged evidence."
+					"sourceNotes": "Swatch class colornav-swatch-indigo; product image class image-compare-macbook-neo-a18-pro-indigo; image bytes not staged.; image bytes unavailable in owned staging; Apple-hosted URL omitted rather than fabricated.; exact CSS swatch unavailable; appleUrl unavailable in owned staged sources; localPath is source-prefixed staged evidence. Base hex approximate, sampled from Apple compare/buy imagery."
 				}
 			],
 			"configurations": [
@@ -162,10 +170,7 @@
 						{
 							"id": "media-engine",
 							"displayName": "Media Engine",
-							"kinds": [
-								"video-decode",
-								"ProRes encode-decode"
-							]
+							"kinds": ["video-decode", "ProRes encode-decode"]
 						}
 					],
 					"sourceNotes": "System on Chip (SoC) Apple A18 Pro chip 6-core CPU with 2 performance cores and 4 efficiency cores 5-core GPU Hardware-accelerated ray tracing 16-core Neural Engine 60GB/s memory bandwidth Media Engine Hardware-accelerated H.264, HEVC, ProRes and ProRes RAW Video decode engine Video encode engine ProRes encode and decode engine AV1 decode"
@@ -220,19 +225,14 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 6E",
-						"Wi-Fi 6"
-					]
+					"standards": ["Wi-Fi 6E", "Wi-Fi 6"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 6.0"
 				}
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"sourceNotes": "Touch ID; passcode"
 			},
@@ -280,9 +280,11 @@
 				{
 					"id": "sky-blue",
 					"displayName": "Sky Blue",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#b6c7d6",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [
 						{
@@ -300,14 +302,16 @@
 							"heightPx": 344
 						}
 					],
-					"sourceNotes": "Swatch class colornav-swatch-skyblue; product image class not matched; image bytes not staged.; image bytes unavailable in owned staging; Apple-hosted URL omitted rather than fabricated.; exact CSS swatch unavailable; appleUrl unavailable in owned staged sources; localPath is source-prefixed staged evidence."
+					"sourceNotes": "Swatch class colornav-swatch-skyblue; product image class not matched; image bytes not staged.; image bytes unavailable in owned staging; Apple-hosted URL omitted rather than fabricated.; exact CSS swatch unavailable; appleUrl unavailable in owned staged sources; localPath is source-prefixed staged evidence. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "silver",
 					"displayName": "Silver",
-					"swatch": {
-						"kind": "css",
-						"value": "#e2e3e4"
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [
 						{
@@ -330,9 +334,11 @@
 				{
 					"id": "starlight",
 					"displayName": "Starlight",
-					"swatch": {
-						"kind": "css",
-						"value": "#e3dcd1"
+					"finish": {
+						"base": "#e3dcd1",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [
 						{
@@ -355,9 +361,11 @@
 				{
 					"id": "midnight",
 					"displayName": "Midnight",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#232a35",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [
 						{
@@ -375,7 +383,7 @@
 							"heightPx": 344
 						}
 					],
-					"sourceNotes": "Swatch class colornav-swatch-midnight; product image class image-compare-macbook-air-m5-midnight; image bytes not staged.; image bytes unavailable in owned staging; Apple-hosted URL omitted rather than fabricated.; exact CSS swatch unavailable; appleUrl unavailable in owned staged sources; localPath is source-prefixed staged evidence."
+					"sourceNotes": "Swatch class colornav-swatch-midnight; product image class image-compare-macbook-air-m5-midnight; image bytes not staged.; image bytes unavailable in owned staging; Apple-hosted URL omitted rather than fabricated.; exact CSS swatch unavailable; appleUrl unavailable in owned staged sources; localPath is source-prefixed staged evidence. Base hex approximate, sampled from Apple compare/buy imagery."
 				}
 			],
 			"configurations": [
@@ -471,10 +479,7 @@
 						{
 							"id": "media-engine",
 							"displayName": "Media Engine",
-							"kinds": [
-								"video-decode",
-								"ProRes encode-decode"
-							]
+							"kinds": ["video-decode", "ProRes encode-decode"]
 						}
 					],
 					"sourceNotes": "System on Chip (SoC) M5 chip 10-core CPU with 4 super cores and 6 efficiency cores Up to 10-core GPU Neural Accelerators Hardware-accelerated ray tracing 16-core Neural Engine 153GB/s memory bandwidth Media Engine Hardware-accelerated H.264, HEVC, ProRes and ProRes RAW Video decode engine Video encode engine ProRes encode and decode engine AV1 decode"
@@ -531,18 +536,14 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 7"
-					]
+					"standards": ["Wi-Fi 7"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 6.0"
 				}
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"sourceNotes": "Touch ID; passcode"
 			},
@@ -590,19 +591,23 @@
 				{
 					"id": "space-black",
 					"displayName": "Space Black",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#2e2c2e",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Swatch class colornav-swatch-spaceblack; product image class not matched; image bytes not staged.; image bytes unavailable in owned staging; Apple-hosted URL omitted rather than fabricated.; exact CSS swatch unavailable"
+					"sourceNotes": "Swatch class colornav-swatch-spaceblack; product image class not matched; image bytes not staged.; image bytes unavailable in owned staging; Apple-hosted URL omitted rather than fabricated.; exact CSS swatch unavailable; Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "silver",
 					"displayName": "Silver",
-					"swatch": {
-						"kind": "css",
-						"value": "#e2e3e4"
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [
 						{
@@ -704,10 +709,7 @@
 						{
 							"id": "media-engine",
 							"displayName": "Media Engine",
-							"kinds": [
-								"video-decode",
-								"ProRes encode-decode"
-							]
+							"kinds": ["video-decode", "ProRes encode-decode"]
 						}
 					],
 					"sourceNotes": "System on Chip (SoC) M5 chip 10-core CPU with 4 super cores and 6 efficiency cores 10-core GPU Neural Accelerators Hardware-accelerated ray tracing 16-core Neural Engine 153GB/s memory bandwidth Media Engine Hardware-accelerated H.264, HEVC, ProRes and ProRes RAW Video decode engine Video encode engine ProRes encode and decode engine AV1 decode"
@@ -776,19 +778,14 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 6E",
-						"Wi-Fi 6"
-					]
+					"standards": ["Wi-Fi 6E", "Wi-Fi 6"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.3"
 				}
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"sourceNotes": "Touch ID; passcode"
 			},
@@ -836,71 +833,141 @@
 				{
 					"id": "blue",
 					"displayName": "Blue",
-					"swatch": {
-						"kind": "css",
-						"value": "#88aebf"
+					"finish": {
+						"base": "#88aebf",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "mac6-images:compare_imac_24_m4_blue:fcdp5icivh2e_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_imac_24_m4_blue__fcdp5icivh2e_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_imac_24_m4_blue__fcdp5icivh2e_large_2x.jpg",
+							"widthPx": 446,
+							"heightPx": 376
+						}
+					],
 					"sourceNotes": "Swatch class colornav-swatch-blue-m4; product image class not matched; image bytes not staged.; image bytes unavailable in owned staging; Apple-hosted URL omitted rather than fabricated."
 				},
 				{
 					"id": "purple",
 					"displayName": "Purple",
-					"swatch": {
-						"kind": "css",
-						"value": "#b9b8d1"
+					"finish": {
+						"base": "#b9b8d1",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "mac6-images:compare_imac_24_m4_purple:fpxz9lr6lxyu_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_imac_24_m4_purple__fpxz9lr6lxyu_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_imac_24_m4_purple__fpxz9lr6lxyu_large_2x.jpg",
+							"widthPx": 446,
+							"heightPx": 376
+						}
+					],
 					"sourceNotes": "Swatch class colornav-swatch-purple-m4; product image class not matched; image bytes not staged.; image bytes unavailable in owned staging; Apple-hosted URL omitted rather than fabricated."
 				},
 				{
 					"id": "pink",
 					"displayName": "Pink",
-					"swatch": {
-						"kind": "css",
-						"value": "#e8d1cf"
+					"finish": {
+						"base": "#e8d1cf",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "mac6-images:compare_imac_24_m4_pink:fwpbzjd83fee_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_imac_24_m4_pink__fwpbzjd83fee_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_imac_24_m4_pink__fwpbzjd83fee_large_2x.jpg",
+							"widthPx": 446,
+							"heightPx": 376
+						}
+					],
 					"sourceNotes": "Swatch class colornav-swatch-pink-m4; product image class not matched; image bytes not staged.; image bytes unavailable in owned staging; Apple-hosted URL omitted rather than fabricated."
 				},
 				{
 					"id": "orange",
 					"displayName": "Orange",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#edb489",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
-					"images": [],
-					"sourceNotes": "Swatch class colornav-swatch-orange-m4; product image class not matched; image bytes not staged.; image bytes unavailable in owned staging; Apple-hosted URL omitted rather than fabricated.; exact CSS swatch unavailable"
+					"images": [
+						{
+							"label": "mac6-images:compare_imac_24_m4_orange:fw7k2rbuctay_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_imac_24_m4_orange__fw7k2rbuctay_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_imac_24_m4_orange__fw7k2rbuctay_large_2x.jpg",
+							"widthPx": 446,
+							"heightPx": 376
+						}
+					],
+					"sourceNotes": "Swatch class colornav-swatch-orange-m4; product image class not matched; image bytes not staged.; image bytes unavailable in owned staging; Apple-hosted URL omitted rather than fabricated.; exact CSS swatch unavailable; Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "yellow",
 					"displayName": "Yellow",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#ece7b6",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
-					"images": [],
-					"sourceNotes": "Swatch class colornav-swatch-yellow-m4; product image class not matched; image bytes not staged.; image bytes unavailable in owned staging; Apple-hosted URL omitted rather than fabricated.; exact CSS swatch unavailable"
+					"images": [
+						{
+							"label": "mac6-images:compare_imac_24_m4_yellow:cel496oxyggi_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_imac_24_m4_yellow__cel496oxyggi_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_imac_24_m4_yellow__cel496oxyggi_large_2x.jpg",
+							"widthPx": 446,
+							"heightPx": 376
+						}
+					],
+					"sourceNotes": "Swatch class colornav-swatch-yellow-m4; product image class not matched; image bytes not staged.; image bytes unavailable in owned staging; Apple-hosted URL omitted rather than fabricated.; exact CSS swatch unavailable; Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "green",
 					"displayName": "Green",
-					"swatch": {
-						"kind": "css",
-						"value": "#ccdfc9"
+					"finish": {
+						"base": "#ccdfc9",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "mac6-images:compare_imac_24_m4_green:fhwld12njsuy_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_imac_24_m4_green__fhwld12njsuy_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_imac_24_m4_green__fhwld12njsuy_large_2x.jpg",
+							"widthPx": 446,
+							"heightPx": 376
+						}
+					],
 					"sourceNotes": "Swatch class colornav-swatch-green-m4; product image class not matched; image bytes not staged.; image bytes unavailable in owned staging; Apple-hosted URL omitted rather than fabricated."
 				},
 				{
 					"id": "silver",
 					"displayName": "Silver",
-					"swatch": {
-						"kind": "css",
-						"value": "#e2e3e4"
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "mac6-images:compare_imac_24_m4_silver:edo689dmh8a6_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_imac_24_m4_silver__edo689dmh8a6_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_imac_24_m4_silver__edo689dmh8a6_large_2x.jpg",
+							"widthPx": 446,
+							"heightPx": 376
+						}
+					],
 					"sourceNotes": "Swatch class colornav-swatch-solidsilver; product image class image-compare-imac-24-m4-2-solidsilver; image bytes not staged.; image bytes unavailable in owned staging; Apple-hosted URL omitted rather than fabricated."
 				}
 			],
@@ -978,10 +1045,7 @@
 						{
 							"id": "media-engine",
 							"displayName": "Media Engine",
-							"kinds": [
-								"video-decode",
-								"ProRes encode-decode"
-							]
+							"kinds": ["video-decode", "ProRes encode-decode"]
 						}
 					],
 					"sourceNotes": "System on Chip (SoC) M4 chip 8-core CPU with 4 performance cores and 4 efficiency cores 8-core GPU Hardware-accelerated ray tracing 16-core Neural Engine 120GB/s memory bandwidth Media Engine Hardware-accelerated H.264, HEVC, ProRes and ProRes RAW Video decode engine Video encode engine ProRes encode and decode engine AV1 decode"
@@ -1037,19 +1101,14 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 6E",
-						"Wi-Fi 6"
-					]
+					"standards": ["Wi-Fi 6E", "Wi-Fi 6"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.3"
 				}
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"sourceNotes": "Touch ID; passcode"
 			},
@@ -1097,21 +1156,41 @@
 				{
 					"id": "space-black",
 					"displayName": "Space Black",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#2e2c2e",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
-					"images": [],
-					"sourceNotes": "Swatch class colornav-swatch-spaceblack; product image class not matched; image bytes not staged.; image bytes unavailable in owned staging; Apple-hosted URL omitted rather than fabricated.; exact CSS swatch unavailable"
+					"images": [
+						{
+							"label": "mac6-images:compare_macbook_pro_m5_14_spaceblack:e8bg1b4hasii_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_macbook_pro_m5_14_spaceblack__e8bg1b4hasii_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_macbook_pro_m5_14_spaceblack__e8bg1b4hasii_large_2x.jpg",
+							"widthPx": 540,
+							"heightPx": 328
+						}
+					],
+					"sourceNotes": "Swatch class colornav-swatch-spaceblack; product image class not matched; image bytes not staged.; image bytes unavailable in owned staging; Apple-hosted URL omitted rather than fabricated.; exact CSS swatch unavailable; Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "silver",
 					"displayName": "Silver",
-					"swatch": {
-						"kind": "css",
-						"value": "#e2e3e4"
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "mac6-images:compare_macbook_pro_m5_14_silver:gjpnrwj6g4qe_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_macbook_pro_m5_14_silver__gjpnrwj6g4qe_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_macbook_pro_m5_14_silver__gjpnrwj6g4qe_large_2x.jpg",
+							"widthPx": 540,
+							"heightPx": 328
+						}
+					],
 					"sourceNotes": "Swatch class colornav-swatch-silver; product image class image-compare-macbook-pro-14-m5-pro-silver; image bytes not staged.; image bytes unavailable in owned staging; Apple-hosted URL omitted rather than fabricated."
 				}
 			],
@@ -1196,10 +1275,7 @@
 						{
 							"id": "media-engine",
 							"displayName": "Media Engine",
-							"kinds": [
-								"video-decode",
-								"ProRes encode-decode"
-							]
+							"kinds": ["video-decode", "ProRes encode-decode"]
 						}
 					],
 					"sourceNotes": "System on Chip (SoC) M5 Pro chip Up to 18-core CPU with 6 super cores and 12 performance cores Up to 20-core GPU Neural Accelerators Hardware-accelerated ray tracing 16-core Neural Engine 307GB/s memory bandwidth Media Engine Hardware-accelerated H.264, HEVC, ProRes and ProRes RAW Video decode engine Video encode engine ProRes encode and decode engine AV1 decode"
@@ -1268,18 +1344,14 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 7"
-					]
+					"standards": ["Wi-Fi 7"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 6.0"
 				}
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"sourceNotes": "Touch ID; passcode"
 			},
@@ -1327,21 +1399,41 @@
 				{
 					"id": "space-black",
 					"displayName": "Space Black",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#2e2c2e",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
-					"images": [],
-					"sourceNotes": "Swatch class colornav-swatch-spaceblack; product image class not matched; image bytes not staged.; image bytes unavailable in owned staging; Apple-hosted URL omitted rather than fabricated.; exact CSS swatch unavailable"
+					"images": [
+						{
+							"label": "mac6-images:compare_macbook_pro_m5_16_spaceblack:81ui3u6gyuqu_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_macbook_pro_m5_16_spaceblack__81ui3u6gyuqu_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_macbook_pro_m5_16_spaceblack__81ui3u6gyuqu_large_2x.jpg",
+							"widthPx": 596,
+							"heightPx": 368
+						}
+					],
+					"sourceNotes": "Swatch class colornav-swatch-spaceblack; product image class not matched; image bytes not staged.; image bytes unavailable in owned staging; Apple-hosted URL omitted rather than fabricated.; exact CSS swatch unavailable; Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "silver",
 					"displayName": "Silver",
-					"swatch": {
-						"kind": "css",
-						"value": "#e2e3e4"
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "mac6-images:compare_macbook_pro_m5_16_silver:egqckriiesia_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_macbook_pro_m5_16_silver__egqckriiesia_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_macbook_pro_m5_16_silver__egqckriiesia_large_2x.jpg",
+							"widthPx": 596,
+							"heightPx": 368
+						}
+					],
 					"sourceNotes": "Swatch class colornav-swatch-silver; product image class image-compare-macbook-pro-16-m5-max-silver; image bytes not staged.; image bytes unavailable in owned staging; Apple-hosted URL omitted rather than fabricated."
 				}
 			],
@@ -1437,10 +1529,7 @@
 						{
 							"id": "media-engine",
 							"displayName": "Media Engine",
-							"kinds": [
-								"video-decode",
-								"ProRes encode-decode"
-							]
+							"kinds": ["video-decode", "ProRes encode-decode"]
 						}
 					],
 					"sourceNotes": "System on Chip (SoC) M5 Max chip 18-core CPU with 6 super cores and 12 performance cores Up to 40-core GPU Neural Accelerators Hardware-accelerated ray tracing 16-core Neural Engine 614GB/s memory bandwidth Media Engine Hardware-accelerated H.264, HEVC, ProRes and ProRes RAW Video decode engine Two video encode engines Two ProRes encode and decode engines AV1 decode"
@@ -1509,18 +1598,14 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 7"
-					]
+					"standards": ["Wi-Fi 7"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 6.0"
 				}
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"sourceNotes": "Touch ID; passcode"
 			},
@@ -1568,11 +1653,21 @@
 				{
 					"id": "silver",
 					"displayName": "Silver",
-					"swatch": {
-						"kind": "css",
-						"value": "#e2e3e4"
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "mac6-images:compare_mac_mini_m4_silver:d0eyh8j772ye_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_mac_mini_m4_silver__d0eyh8j772ye_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_mac_mini_m4_silver__d0eyh8j772ye_large_2x.jpg",
+							"widthPx": 182,
+							"heightPx": 76
+						}
+					],
 					"sourceNotes": "Swatch class colornav-swatch-silver; product image class image-compare-mac-mini-m4-silver; image bytes not staged.; image bytes unavailable in owned staging; Apple-hosted URL omitted rather than fabricated."
 				}
 			],
@@ -1662,10 +1757,7 @@
 						{
 							"id": "media-engine",
 							"displayName": "Media Engine",
-							"kinds": [
-								"video-decode",
-								"ProRes encode-decode"
-							]
+							"kinds": ["video-decode", "ProRes encode-decode"]
 						}
 					],
 					"sourceNotes": "System on Chip (SoC) M4 chip 10-core CPU with 4 performance cores and 6 efficiency cores 10-core GPU Hardware-accelerated ray tracing 16-core Neural Engine 120GB/s memory bandwidth Media Engine Hardware-accelerated H.264, HEVC, ProRes and ProRes RAW Video decode engine Video encode engine ProRes encode and decode engine AV1 decode"
@@ -1727,19 +1819,14 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 6E",
-						"Wi-Fi 6"
-					]
+					"standards": ["Wi-Fi 6E", "Wi-Fi 6"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.3"
 				}
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"sourceNotes": "passcode"
 			},
@@ -1787,11 +1874,21 @@
 				{
 					"id": "silver",
 					"displayName": "Silver",
-					"swatch": {
-						"kind": "css",
-						"value": "#e2e3e4"
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "mac6-images:compare_mac_mini_m4_silver:d0eyh8j772ye_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_mac_mini_m4_silver__d0eyh8j772ye_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_mac_mini_m4_silver__d0eyh8j772ye_large_2x.jpg",
+							"widthPx": 182,
+							"heightPx": 76
+						}
+					],
 					"sourceNotes": "Swatch class colornav-swatch-silver; product image class image-compare-mac-mini-m4-pro-silver; image bytes not staged.; image bytes unavailable in owned staging; Apple-hosted URL omitted rather than fabricated."
 				}
 			],
@@ -1893,10 +1990,7 @@
 						{
 							"id": "media-engine",
 							"displayName": "Media Engine",
-							"kinds": [
-								"video-decode",
-								"ProRes encode-decode"
-							]
+							"kinds": ["video-decode", "ProRes encode-decode"]
 						}
 					],
 					"sourceNotes": "System on Chip (SoC) M4 Pro chip Up to 14-core CPU with 10 performance cores and 4 efficiency cores Up to 20-core GPU Hardware-accelerated ray tracing 16-core Neural Engine 273GB/s memory bandwidth Media Engine Hardware-accelerated H.264, HEVC, ProRes and ProRes RAW Video decode engine Video encode engine ProRes encode and decode engine AV1 decode"
@@ -1958,19 +2052,14 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 6E",
-						"Wi-Fi 6"
-					]
+					"standards": ["Wi-Fi 6E", "Wi-Fi 6"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.3"
 				}
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"sourceNotes": "passcode"
 			},
@@ -2018,11 +2107,21 @@
 				{
 					"id": "silver",
 					"displayName": "Silver",
-					"swatch": {
-						"kind": "css",
-						"value": "#e2e3e4"
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "mac6-images:compare_mac_studio_silver_m4:c1woyu7bp2ie_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_mac_studio_silver_m4__c1woyu7bp2ie_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_mac_studio_silver_m4__c1woyu7bp2ie_large_2x.jpg",
+							"widthPx": 280,
+							"heightPx": 140
+						}
+					],
 					"sourceNotes": "Swatch class colornav-swatch-silver; product image class image-compare-mac-studio-m4-max-silver; image bytes not staged.; image bytes unavailable in owned staging; Apple-hosted URL omitted rather than fabricated."
 				}
 			],
@@ -2126,11 +2225,7 @@
 						{
 							"id": "media-engine",
 							"displayName": "Media Engine",
-							"kinds": [
-								"video-decode",
-								"ProRes encode-decode",
-								"other"
-							]
+							"kinds": ["video-decode", "ProRes encode-decode", "other"]
 						}
 					],
 					"sourceNotes": "System on Chip (SoC) M4 Max chip Up to 16-core CPU with 12 performance cores and 4 efficiency cores Up to 40-core GPU Hardware-accelerated ray tracing 16-core Neural Engine Up to 546GB/s memory bandwidth Media Engine Hardware-accelerated H.264, HEVC, ProRes and ProRes RAW Video decode engine Two video encode engines Two ProRes encode and decode engines AV1 decode"
@@ -2198,19 +2293,14 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 6E",
-						"Wi-Fi 6"
-					]
+					"standards": ["Wi-Fi 6E", "Wi-Fi 6"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.3"
 				}
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"sourceNotes": "passcode"
 			},
@@ -2253,14 +2343,16 @@
 			"id": "macbook-air-13-in-m3",
 			"name": "MacBook Air 13-in. (M3)",
 			"releaseYear": 2023,
-			"priceAud": null,
+			"priceAud": 1799,
 			"colors": [
 				{
 					"id": "midnight",
 					"displayName": "Midnight",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#232a35",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [
 						{
@@ -2271,14 +2363,16 @@
 							"heightPx": 316
 						}
 					],
-					"sourceNotes": "Swatch class colornav-swatch-midnight; product image class image-compare-macbook-air-m3-midnight; image bytes not staged.; image bytes unavailable in owned staging; Apple-hosted URL omitted rather than fabricated.; exact CSS swatch unavailable; appleUrl unavailable in owned staged sources; localPath is source-prefixed staged evidence."
+					"sourceNotes": "Swatch class colornav-swatch-midnight; product image class image-compare-macbook-air-m3-midnight; image bytes not staged.; image bytes unavailable in owned staging; Apple-hosted URL omitted rather than fabricated.; exact CSS swatch unavailable; appleUrl unavailable in owned staged sources; localPath is source-prefixed staged evidence. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "starlight",
 					"displayName": "Starlight",
-					"swatch": {
-						"kind": "css",
-						"value": "#e3dcd1"
+					"finish": {
+						"base": "#e3dcd1",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [
 						{
@@ -2294,9 +2388,11 @@
 				{
 					"id": "space-grey",
 					"displayName": "Space Grey",
-					"swatch": {
-						"kind": "css",
-						"value": "#68696d"
+					"finish": {
+						"base": "#68696d",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [
 						{
@@ -2312,9 +2408,11 @@
 				{
 					"id": "silver",
 					"displayName": "Silver",
-					"swatch": {
-						"kind": "css",
-						"value": "#e2e3e4"
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [
 						{
@@ -2420,10 +2518,7 @@
 						{
 							"id": "media-engine",
 							"displayName": "Media Engine",
-							"kinds": [
-								"video-decode",
-								"ProRes encode-decode"
-							]
+							"kinds": ["video-decode", "ProRes encode-decode"]
 						}
 					],
 					"sourceNotes": "System on Chip (SoC) M3 chip 8-core CPU with 4 performance cores and 4 efficiency cores Up to 10-core GPU Hardware-accelerated ray tracing 16-core Neural Engine 100GB/s memory bandwidth Media Engine Hardware-accelerated H.264, HEVC, ProRes and ProRes RAW Video decode engine Video encode engine ProRes encode and decode engine AV1 decode"
@@ -2478,19 +2573,14 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 6E",
-						"Wi-Fi 6"
-					]
+					"standards": ["Wi-Fi 6E", "Wi-Fi 6"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.3"
 				}
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"sourceNotes": "Touch ID; passcode"
 			},
@@ -2533,14 +2623,16 @@
 			"id": "macbook-air-13-in-m4",
 			"name": "MacBook Air 13-in. (M4)",
 			"releaseYear": 2024,
-			"priceAud": null,
+			"priceAud": 1699,
 			"colors": [
 				{
 					"id": "sky-blue",
 					"displayName": "Sky Blue",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#b6c7d6",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [
 						{
@@ -2551,14 +2643,16 @@
 							"heightPx": 316
 						}
 					],
-					"sourceNotes": "Swatch class colornav-swatch-skyblue; product image class not matched; image bytes not staged.; image bytes unavailable in owned staging; Apple-hosted URL omitted rather than fabricated.; exact CSS swatch unavailable; appleUrl unavailable in owned staged sources; localPath is source-prefixed staged evidence."
+					"sourceNotes": "Swatch class colornav-swatch-skyblue; product image class not matched; image bytes not staged.; image bytes unavailable in owned staging; Apple-hosted URL omitted rather than fabricated.; exact CSS swatch unavailable; appleUrl unavailable in owned staged sources; localPath is source-prefixed staged evidence. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "silver",
 					"displayName": "Silver",
-					"swatch": {
-						"kind": "css",
-						"value": "#e2e3e4"
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
 					"sourceNotes": "Swatch class colornav-swatch-silver; product image class image-compare-macbook-air-m4-silver; image bytes not staged.; image bytes unavailable in owned staging; Apple-hosted URL omitted rather than fabricated."
@@ -2566,9 +2660,11 @@
 				{
 					"id": "starlight",
 					"displayName": "Starlight",
-					"swatch": {
-						"kind": "css",
-						"value": "#e3dcd1"
+					"finish": {
+						"base": "#e3dcd1",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
 					"sourceNotes": "Swatch class colornav-swatch-starlight; product image class image-compare-macbook-air-m4-starlight; image bytes not staged.; image bytes unavailable in owned staging; Apple-hosted URL omitted rather than fabricated."
@@ -2576,12 +2672,14 @@
 				{
 					"id": "midnight",
 					"displayName": "Midnight",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#232a35",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Swatch class colornav-swatch-midnight; product image class image-compare-macbook-air-m4-midnight; image bytes not staged.; image bytes unavailable in owned staging; Apple-hosted URL omitted rather than fabricated.; exact CSS swatch unavailable"
+					"sourceNotes": "Swatch class colornav-swatch-midnight; product image class image-compare-macbook-air-m4-midnight; image bytes not staged.; image bytes unavailable in owned staging; Apple-hosted URL omitted rather than fabricated.; exact CSS swatch unavailable; Base hex approximate, sampled from Apple compare/buy imagery."
 				}
 			],
 			"configurations": [
@@ -2676,10 +2774,7 @@
 						{
 							"id": "media-engine",
 							"displayName": "Media Engine",
-							"kinds": [
-								"video-decode",
-								"ProRes encode-decode"
-							]
+							"kinds": ["video-decode", "ProRes encode-decode"]
 						}
 					],
 					"sourceNotes": "System on Chip (SoC) M4 chip 10-core CPU with 4 performance cores and 6 efficiency cores Up to 10-core GPU Hardware-accelerated ray tracing 16-core Neural Engine 120GB/s memory bandwidth Media Engine Hardware-accelerated H.264, HEVC, ProRes and ProRes RAW Video decode engine Video encode engine ProRes encode and decode engine AV1 decode"
@@ -2736,19 +2831,14 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 6E",
-						"Wi-Fi 6"
-					]
+					"standards": ["Wi-Fi 6E", "Wi-Fi 6"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.3"
 				}
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"sourceNotes": "Touch ID; passcode"
 			},
@@ -2791,16 +2881,26 @@
 			"id": "mac-studio-m3-ultra",
 			"name": "Mac Studio (M3 Ultra)",
 			"releaseYear": 2025,
-			"priceAud": null,
+			"priceAud": 6999,
 			"colors": [
 				{
 					"id": "silver",
 					"displayName": "Silver",
-					"swatch": {
-						"kind": "css",
-						"value": "#e2e3e4"
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
-					"images": [],
+					"images": [
+						{
+							"label": "mac6-images:compare_mac_studio_silver_m4:c1woyu7bp2ie_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_mac_studio_silver_m4__c1woyu7bp2ie_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_mac_studio_silver_m4__c1woyu7bp2ie_large_2x.jpg",
+							"widthPx": 280,
+							"heightPx": 140
+						}
+					],
 					"sourceNotes": "Swatch class colornav-swatch-silver; product image class image-compare-mac-studio-m3-ultra-silver; image bytes not staged.; image bytes unavailable in owned staging; Apple-hosted URL omitted rather than fabricated."
 				}
 			],
@@ -2894,10 +2994,7 @@
 						{
 							"id": "media-engine",
 							"displayName": "Media Engine",
-							"kinds": [
-								"video-decode",
-								"other"
-							]
+							"kinds": ["video-decode", "other"]
 						}
 					],
 					"sourceNotes": "System on Chip (SoC) M3 Ultra chip Up to 32-core CPU with 24 performance cores and 8 efficiency cores Up to 80-core GPU Hardware-accelerated ray tracing 32-core Neural Engine 819GB/s memory bandwidth Media Engine Hardware-accelerated H.264, HEVC, ProRes and ProRes RAW Two video decode engines Four video encode engines Four ProRes encode and decode engines AV1 decode"
@@ -2906,7 +3003,7 @@
 			"displays": [
 				{
 					"id": "display-not-available",
-					"technology": "— Not available",
+					"technology": "\u2014 Not available",
 					"sizeIn": 0,
 					"trueTone": false,
 					"wideColorP3": false
@@ -2916,9 +3013,9 @@
 				{
 					"id": "camera-0",
 					"role": "other",
-					"displayName": "— Not available",
+					"displayName": "\u2014 Not available",
 					"centerStage": false,
-					"sourceNotes": "— Not available"
+					"sourceNotes": "\u2014 Not available"
 				}
 			],
 			"audio": {
@@ -2967,19 +3064,14 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 6E",
-						"Wi-Fi 6"
-					]
+					"standards": ["Wi-Fi 6E", "Wi-Fi 6"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.3"
 				}
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"sourceNotes": "passcode"
 			},
@@ -3022,14 +3114,16 @@
 			"id": "macbook-air-13-in-m2",
 			"name": "MacBook Air 13-in. (M2)",
 			"releaseYear": 2022,
-			"priceAud": null,
+			"priceAud": 1899,
 			"colors": [
 				{
 					"id": "midnight",
 					"displayName": "Midnight",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#232a35",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [
 						{
@@ -3047,14 +3141,16 @@
 							"heightPx": 344
 						}
 					],
-					"sourceNotes": "Swatch class colornav-swatch-midnight; product image class image-compare-macbook-air-m2-midnight; image bytes not staged.; image bytes unavailable in owned staging; Apple-hosted URL omitted rather than fabricated.; exact CSS swatch unavailable; appleUrl unavailable in owned staged sources; localPath is source-prefixed staged evidence."
+					"sourceNotes": "Swatch class colornav-swatch-midnight; product image class image-compare-macbook-air-m2-midnight; image bytes not staged.; image bytes unavailable in owned staging; Apple-hosted URL omitted rather than fabricated.; exact CSS swatch unavailable; appleUrl unavailable in owned staged sources; localPath is source-prefixed staged evidence. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "starlight",
 					"displayName": "Starlight",
-					"swatch": {
-						"kind": "css",
-						"value": "#e3dcd1"
+					"finish": {
+						"base": "#e3dcd1",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [
 						{
@@ -3077,9 +3173,11 @@
 				{
 					"id": "space-grey",
 					"displayName": "Space Grey",
-					"swatch": {
-						"kind": "css",
-						"value": "#68696d"
+					"finish": {
+						"base": "#68696d",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [
 						{
@@ -3102,9 +3200,11 @@
 				{
 					"id": "silver",
 					"displayName": "Silver",
-					"swatch": {
-						"kind": "css",
-						"value": "#e2e3e4"
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [
 						{
@@ -3217,10 +3317,7 @@
 						{
 							"id": "media-engine",
 							"displayName": "Media Engine",
-							"kinds": [
-								"video-decode",
-								"ProRes encode-decode"
-							]
+							"kinds": ["video-decode", "ProRes encode-decode"]
 						}
 					],
 					"sourceNotes": "System on Chip (SoC) M2 chip 8-core CPU with 4 performance cores and 4 efficiency cores Up to 10-core GPU 16-core Neural Engine 100GB/s memory bandwidth Media Engine Hardware-accelerated H.264, HEVC, ProRes and ProRes RAW Video decode engine Video encode engine ProRes encode and decode engine"
@@ -3275,18 +3372,14 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 6"
-					]
+					"standards": ["Wi-Fi 6"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.3"
 				}
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"sourceNotes": "Touch ID; passcode"
 			},
@@ -3329,14 +3422,16 @@
 			"id": "macbook-air-13-in-m1-2020",
 			"name": "MacBook Air 13-in. (M1, 2020)",
 			"releaseYear": 2020,
-			"priceAud": null,
+			"priceAud": 1599,
 			"colors": [
 				{
 					"id": "space-grey",
 					"displayName": "Space Grey",
-					"swatch": {
-						"kind": "css",
-						"value": "#68696d"
+					"finish": {
+						"base": "#68696d",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [
 						{
@@ -3359,9 +3454,11 @@
 				{
 					"id": "silver",
 					"displayName": "Silver",
-					"swatch": {
-						"kind": "css",
-						"value": "#e2e3e4"
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [
 						{
@@ -3384,9 +3481,11 @@
 				{
 					"id": "gold",
 					"displayName": "Gold",
-					"swatch": {
-						"kind": "css",
-						"value": "#e3ccb4"
+					"finish": {
+						"base": "#e3ccb4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [
 						{
@@ -3491,9 +3590,7 @@
 						{
 							"id": "media-engine",
 							"displayName": "Media Engine",
-							"kinds": [
-								"video-encode"
-							]
+							"kinds": ["video-encode"]
 						}
 					],
 					"sourceNotes": "System on Chip (SoC) M1 chip 8-core CPU with 4 performance cores and 4 efficiency cores 7-core GPU 16-core Neural Engine Media Engine Hardware-accelerated H.264 and HEVC Video decode engine Video encode engine"
@@ -3548,18 +3645,14 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 6"
-					]
+					"standards": ["Wi-Fi 6"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.0"
 				}
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"sourceNotes": "Touch ID; passcode"
 			},
@@ -3597,14 +3690,16 @@
 			"id": "imac-24-in-m1-two-ports-2021",
 			"name": "iMac 24-in. (M1, two ports, 2021)",
 			"releaseYear": 2021,
-			"priceAud": null,
+			"priceAud": 1899,
 			"colors": [
 				{
 					"id": "blue",
 					"displayName": "Blue",
-					"swatch": {
-						"kind": "css",
-						"value": "#88aebf"
+					"finish": {
+						"base": "#88aebf",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [
 						{
@@ -3627,9 +3722,11 @@
 				{
 					"id": "green",
 					"displayName": "Green",
-					"swatch": {
-						"kind": "css",
-						"value": "#ccdfc9"
+					"finish": {
+						"base": "#ccdfc9",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [
 						{
@@ -3652,9 +3749,11 @@
 				{
 					"id": "pink",
 					"displayName": "Pink",
-					"swatch": {
-						"kind": "css",
-						"value": "#e8d1cf"
+					"finish": {
+						"base": "#e8d1cf",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [
 						{
@@ -3677,9 +3776,11 @@
 				{
 					"id": "silver",
 					"displayName": "Silver",
-					"swatch": {
-						"kind": "css",
-						"value": "#e2e3e4"
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [
 						{
@@ -3772,9 +3873,7 @@
 						{
 							"id": "media-engine",
 							"displayName": "Media Engine",
-							"kinds": [
-								"video-encode"
-							]
+							"kinds": ["video-encode"]
 						}
 					],
 					"sourceNotes": "System on Chip (SoC) M1 chip 8-core CPU with 4 performance cores and 4 efficiency cores 7-core GPU 16-core Neural Engine Media Engine Hardware-accelerated H.264 and HEVC Video decode engine Video encode engine"
@@ -3828,18 +3927,14 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 6"
-					]
+					"standards": ["Wi-Fi 6"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.0"
 				}
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"sourceNotes": "Touch ID; passcode"
 			},
@@ -3885,34 +3980,36 @@
 			"priceAud": 3199,
 			"colors": [
 				{
-					"id": "gridcell-class-compare-column",
-					"displayName": "gridcell\" class=\"compare-column\">",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
-					},
-					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
-				},
-				{
 					"id": "space-black",
 					"displayName": "Space Black",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#2e2c2e",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
-					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"images": [
+						{
+							"label": "mac6-images:compare_macbook_air_m5_15_midnight:fhljrimm88i2_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_macbook_air_m5_15_midnight__fhljrimm88i2_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_macbook_air_m5_15_midnight__fhljrimm88i2_large_2x.jpg",
+							"widthPx": 572,
+							"heightPx": 348
+						}
+					],
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "silver",
 					"displayName": "Silver",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				}
 			],
 			"configurations": [],
@@ -4040,9 +4137,7 @@
 				]
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
 			},
@@ -4065,64 +4160,48 @@
 			"priceAud": 2099,
 			"colors": [
 				{
-					"id": "gridcell-class-compare-column",
-					"displayName": "gridcell\" class=\"compare-column\">",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
-					},
-					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
-				},
-				{
-					"id": "sky",
-					"displayName": "Sky",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
-					},
-					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
-				},
-				{
 					"id": "blue",
 					"displayName": "Blue",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#88aebf",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "silver",
 					"displayName": "Silver",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
-					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"images": [
+						{
+							"label": "mac6-images:compare_macbook_pro_m5_14_silver:gjpnrwj6g4qe_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_macbook_pro_m5_14_silver__gjpnrwj6g4qe_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_macbook_pro_m5_14_silver__gjpnrwj6g4qe_large_2x.jpg",
+							"widthPx": 540,
+							"heightPx": 328
+						}
+					],
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "starlight",
 					"displayName": "Starlight",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#e3dcd1",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
-				},
-				{
-					"id": "midnight-div",
-					"displayName": "Midnight <div",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
-					},
-					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				}
 			],
 			"configurations": [],
@@ -4244,9 +4323,7 @@
 				]
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
 			},
@@ -4269,34 +4346,44 @@
 			"priceAud": 3199,
 			"colors": [
 				{
-					"id": "gridcell-class-compare-column",
-					"displayName": "gridcell\" class=\"compare-column\">",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
-					},
-					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
-				},
-				{
 					"id": "space-black",
 					"displayName": "Space Black",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#2e2c2e",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
-					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"images": [
+						{
+							"label": "mac6-images:compare_macbook_pro_m5_16_spaceblack:81ui3u6gyuqu_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_macbook_pro_m5_16_spaceblack__81ui3u6gyuqu_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_macbook_pro_m5_16_spaceblack__81ui3u6gyuqu_large_2x.jpg",
+							"widthPx": 596,
+							"heightPx": 368
+						}
+					],
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "silver",
 					"displayName": "Silver",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
-					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"images": [
+						{
+							"label": "mac6-images:compare_macbook_pro_m5_16_silver:egqckriiesia_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_macbook_pro_m5_16_silver__egqckriiesia_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_macbook_pro_m5_16_silver__egqckriiesia_large_2x.jpg",
+							"widthPx": 596,
+							"heightPx": 368
+						}
+					],
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				}
 			],
 			"configurations": [],
@@ -4424,9 +4511,7 @@
 				]
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
 			},
@@ -4449,34 +4534,36 @@
 			"priceAud": 3199,
 			"colors": [
 				{
-					"id": "gridcell-class-compare-column",
-					"displayName": "gridcell\" class=\"compare-column\">",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
-					},
-					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
-				},
-				{
 					"id": "space-black",
 					"displayName": "Space Black",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#2e2c2e",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
-					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"images": [
+						{
+							"label": "mac6-images:compare_macbook_air_mx_15_midnight:c2xkdctmuwq6_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_macbook_air_mx_15_midnight__c2xkdctmuwq6_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_macbook_air_mx_15_midnight__c2xkdctmuwq6_large_2x.jpg",
+							"widthPx": 572,
+							"heightPx": 348
+						}
+					],
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "silver",
 					"displayName": "Silver",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				}
 			],
 			"configurations": [],
@@ -4604,9 +4691,7 @@
 				]
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
 			},
@@ -4629,64 +4714,48 @@
 			"priceAud": 2099,
 			"colors": [
 				{
-					"id": "gridcell-class-compare-column",
-					"displayName": "gridcell\" class=\"compare-column\">",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
-					},
-					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
-				},
-				{
-					"id": "sky",
-					"displayName": "Sky",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
-					},
-					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
-				},
-				{
 					"id": "blue",
 					"displayName": "Blue",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#88aebf",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "silver",
 					"displayName": "Silver",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
-					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"images": [
+						{
+							"label": "mac6-images:compare_macbook_air_mx_15_silver:bthqnr9v8po2_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_macbook_air_mx_15_silver__bthqnr9v8po2_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_macbook_air_mx_15_silver__bthqnr9v8po2_large_2x.jpg",
+							"widthPx": 572,
+							"heightPx": 348
+						}
+					],
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "starlight",
 					"displayName": "Starlight",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#e3dcd1",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
-				},
-				{
-					"id": "midnight-div",
-					"displayName": "Midnight <div",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
-					},
-					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				}
 			],
 			"configurations": [],
@@ -4808,9 +4877,7 @@
 				]
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
 			},
@@ -4833,34 +4900,36 @@
 			"priceAud": 3199,
 			"colors": [
 				{
-					"id": "gridcell-class-compare-column",
-					"displayName": "gridcell\" class=\"compare-column\">",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
-					},
-					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
-				},
-				{
 					"id": "space-black",
 					"displayName": "Space Black",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#2e2c2e",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
-					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"images": [
+						{
+							"label": "mac6-images:compare_macbook_air_mx_15_midnight:c2xkdctmuwq6_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_macbook_air_mx_15_midnight__c2xkdctmuwq6_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_macbook_air_mx_15_midnight__c2xkdctmuwq6_large_2x.jpg",
+							"widthPx": 572,
+							"heightPx": 348
+						}
+					],
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "silver",
 					"displayName": "Silver",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				}
 			],
 			"configurations": [],
@@ -4988,9 +5057,7 @@
 				]
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
 			},
@@ -5013,64 +5080,48 @@
 			"priceAud": 2099,
 			"colors": [
 				{
-					"id": "gridcell-class-compare-column",
-					"displayName": "gridcell\" class=\"compare-column\">",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
-					},
-					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
-				},
-				{
-					"id": "sky",
-					"displayName": "Sky",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
-					},
-					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
-				},
-				{
 					"id": "blue",
 					"displayName": "Blue",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#88aebf",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "silver",
 					"displayName": "Silver",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
-					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"images": [
+						{
+							"label": "mac6-images:compare_macbook_air_retina_silver:ejt1n5ue6kk2_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_macbook_air_retina_silver__ejt1n5ue6kk2_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_macbook_air_retina_silver__ejt1n5ue6kk2_large_2x.jpg",
+							"widthPx": 532,
+							"heightPx": 308
+						}
+					],
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "starlight",
 					"displayName": "Starlight",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#e3dcd1",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
-				},
-				{
-					"id": "midnight-div",
-					"displayName": "Midnight <div",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
-					},
-					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				}
 			],
 			"configurations": [],
@@ -5192,9 +5243,7 @@
 				]
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
 			},
@@ -5217,34 +5266,36 @@
 			"priceAud": 3199,
 			"colors": [
 				{
-					"id": "gridcell-class-compare-column",
-					"displayName": "gridcell\" class=\"compare-column\">",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
-					},
-					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
-				},
-				{
 					"id": "space-black",
 					"displayName": "Space Black",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#2e2c2e",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
-					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"images": [
+						{
+							"label": "mac6-images:compare_macbook_air_2017_silver:gk4233q28qeu_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_macbook_air_2017_silver__gk4233q28qeu_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_macbook_air_2017_silver__gk4233q28qeu_large_2x.jpg",
+							"widthPx": 532,
+							"heightPx": 308
+						}
+					],
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "silver",
 					"displayName": "Silver",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				}
 			],
 			"configurations": [],
@@ -5372,9 +5423,7 @@
 				]
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
 			},
@@ -5397,64 +5446,48 @@
 			"priceAud": 2099,
 			"colors": [
 				{
-					"id": "gridcell-class-compare-column",
-					"displayName": "gridcell\" class=\"compare-column\">",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
-					},
-					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
-				},
-				{
-					"id": "sky",
-					"displayName": "Sky",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
-					},
-					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
-				},
-				{
 					"id": "blue",
 					"displayName": "Blue",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#88aebf",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "silver",
 					"displayName": "Silver",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
-					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"images": [
+						{
+							"label": "mac6-images:compare_macbook_pro_13_silver:h055725r76uu_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_macbook_pro_13_silver__h055725r76uu_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_macbook_pro_13_silver__h055725r76uu_large_2x.jpg",
+							"widthPx": 534,
+							"heightPx": 310
+						}
+					],
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "starlight",
 					"displayName": "Starlight",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#e3dcd1",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
-				},
-				{
-					"id": "midnight-div",
-					"displayName": "Midnight <div",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
-					},
-					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				}
 			],
 			"configurations": [],
@@ -5576,9 +5609,7 @@
 				]
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
 			},
@@ -5601,34 +5632,36 @@
 			"priceAud": 3199,
 			"colors": [
 				{
-					"id": "gridcell-class-compare-column",
-					"displayName": "gridcell\" class=\"compare-column\">",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
-					},
-					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
-				},
-				{
 					"id": "space-black",
 					"displayName": "Space Black",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#2e2c2e",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
-					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"images": [
+						{
+							"label": "mac6-images:compare_macbook_pro_13_spacegray:dqz3lo8fxcia_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_macbook_pro_13_spacegray__dqz3lo8fxcia_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_macbook_pro_13_spacegray__dqz3lo8fxcia_large_2x.jpg",
+							"widthPx": 534,
+							"heightPx": 310
+						}
+					],
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "silver",
 					"displayName": "Silver",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				}
 			],
 			"configurations": [],
@@ -5756,9 +5789,7 @@
 				]
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
 			},
@@ -5781,64 +5812,48 @@
 			"priceAud": 2099,
 			"colors": [
 				{
-					"id": "gridcell-class-compare-column",
-					"displayName": "gridcell\" class=\"compare-column\">",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
-					},
-					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
-				},
-				{
-					"id": "sky",
-					"displayName": "Sky",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
-					},
-					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
-				},
-				{
 					"id": "blue",
 					"displayName": "Blue",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#88aebf",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "silver",
 					"displayName": "Silver",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
-					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"images": [
+						{
+							"label": "mac6-images:compare_macbook_pro_14_spaceblack:bcacn5s80i9u_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_macbook_pro_14_spaceblack__bcacn5s80i9u_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_macbook_pro_14_spaceblack__bcacn5s80i9u_large_2x.jpg",
+							"widthPx": 540,
+							"heightPx": 328
+						}
+					],
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "starlight",
 					"displayName": "Starlight",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#e3dcd1",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
-				},
-				{
-					"id": "midnight-div",
-					"displayName": "Midnight <div",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
-					},
-					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				}
 			],
 			"configurations": [],
@@ -5960,9 +5975,7 @@
 				]
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
 			},
@@ -5985,34 +5998,44 @@
 			"priceAud": 3199,
 			"colors": [
 				{
-					"id": "gridcell-class-compare-column",
-					"displayName": "gridcell\" class=\"compare-column\">",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
-					},
-					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
-				},
-				{
 					"id": "space-black",
 					"displayName": "Space Black",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#2e2c2e",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
-					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"images": [
+						{
+							"label": "mac6-images:compare_macbook_pro_14_spaceblack:bcacn5s80i9u_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_macbook_pro_14_spaceblack__bcacn5s80i9u_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_macbook_pro_14_spaceblack__bcacn5s80i9u_large_2x.jpg",
+							"widthPx": 540,
+							"heightPx": 328
+						}
+					],
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "silver",
 					"displayName": "Silver",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
-					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"images": [
+						{
+							"label": "mac6-images:compare_macbook_pro_14_silver:i4mzeamc5aa2_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_macbook_pro_14_silver__i4mzeamc5aa2_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_macbook_pro_14_silver__i4mzeamc5aa2_large_2x.jpg",
+							"widthPx": 540,
+							"heightPx": 328
+						}
+					],
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				}
 			],
 			"configurations": [],
@@ -6140,9 +6163,7 @@
 				]
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
 			},
@@ -6165,24 +6186,24 @@
 			"priceAud": 1049,
 			"colors": [
 				{
-					"id": "gridcell-class-compare-column-first-child",
-					"displayName": "gridcell\" class=\"compare-column first-child\">",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"id": "silver",
+					"displayName": "Silver",
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
-					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
-				},
-				{
-					"id": "silver-blush-citrus-indigo-div",
-					"displayName": "Silver Blush Citrus Indigo <div",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
-					},
-					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"images": [
+						{
+							"label": "mac6-images:compare_macbook_pro_14_silver:i4mzeamc5aa2_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_macbook_pro_14_silver__i4mzeamc5aa2_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_macbook_pro_14_silver__i4mzeamc5aa2_large_2x.jpg",
+							"widthPx": 540,
+							"heightPx": 328
+						}
+					],
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				}
 			],
 			"configurations": [],
@@ -6277,9 +6298,7 @@
 				]
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
 			},
@@ -6302,64 +6321,48 @@
 			"priceAud": 2099,
 			"colors": [
 				{
-					"id": "gridcell-class-compare-column",
-					"displayName": "gridcell\" class=\"compare-column\">",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
-					},
-					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
-				},
-				{
-					"id": "sky",
-					"displayName": "Sky",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
-					},
-					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
-				},
-				{
 					"id": "blue",
 					"displayName": "Blue",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#88aebf",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "silver",
 					"displayName": "Silver",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
-					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"images": [
+						{
+							"label": "mac6-images:compare_macbook_pro_14_spacegray:bs4ph4qrvs76_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_macbook_pro_14_spacegray__bs4ph4qrvs76_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_macbook_pro_14_spacegray__bs4ph4qrvs76_large_2x.jpg",
+							"widthPx": 540,
+							"heightPx": 328
+						}
+					],
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "starlight",
 					"displayName": "Starlight",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#e3dcd1",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
-				},
-				{
-					"id": "midnight-div",
-					"displayName": "Midnight <div",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
-					},
-					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				}
 			],
 			"configurations": [],
@@ -6481,9 +6484,7 @@
 				]
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
 			},
@@ -6506,34 +6507,44 @@
 			"priceAud": 3199,
 			"colors": [
 				{
-					"id": "gridcell-class-compare-column",
-					"displayName": "gridcell\" class=\"compare-column\">",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
-					},
-					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
-				},
-				{
 					"id": "space-black",
 					"displayName": "Space Black",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#2e2c2e",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
-					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"images": [
+						{
+							"label": "mac6-images:compare_macbook_pro_14_spaceblack:bcacn5s80i9u_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_macbook_pro_14_spaceblack__bcacn5s80i9u_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_macbook_pro_14_spaceblack__bcacn5s80i9u_large_2x.jpg",
+							"widthPx": 540,
+							"heightPx": 328
+						}
+					],
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "silver",
 					"displayName": "Silver",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
-					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"images": [
+						{
+							"label": "mac6-images:compare_macbook_pro_14_silver:i4mzeamc5aa2_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_macbook_pro_14_silver__i4mzeamc5aa2_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_macbook_pro_14_silver__i4mzeamc5aa2_large_2x.jpg",
+							"widthPx": 540,
+							"heightPx": 328
+						}
+					],
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				}
 			],
 			"configurations": [],
@@ -6661,9 +6672,7 @@
 				]
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
 			},
@@ -6686,24 +6695,24 @@
 			"priceAud": 1049,
 			"colors": [
 				{
-					"id": "gridcell-class-compare-column-first-child",
-					"displayName": "gridcell\" class=\"compare-column first-child\">",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"id": "space-gray",
+					"displayName": "Space Grey",
+					"finish": {
+						"base": "#68696d",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
-					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
-				},
-				{
-					"id": "silver-blush-citrus-indigo-div",
-					"displayName": "Silver Blush Citrus Indigo <div",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
-					},
-					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"images": [
+						{
+							"label": "mac6-images:compare_macbook_pro_14_spacegray:bs4ph4qrvs76_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_macbook_pro_14_spacegray__bs4ph4qrvs76_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_macbook_pro_14_spacegray__bs4ph4qrvs76_large_2x.jpg",
+							"widthPx": 540,
+							"heightPx": 328
+						}
+					],
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				}
 			],
 			"configurations": [],
@@ -6798,9 +6807,7 @@
 				]
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
 			},
@@ -6823,64 +6830,48 @@
 			"priceAud": 2099,
 			"colors": [
 				{
-					"id": "gridcell-class-compare-column",
-					"displayName": "gridcell\" class=\"compare-column\">",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
-					},
-					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
-				},
-				{
-					"id": "sky",
-					"displayName": "Sky",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
-					},
-					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
-				},
-				{
 					"id": "blue",
 					"displayName": "Blue",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#88aebf",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "silver",
 					"displayName": "Silver",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
-					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"images": [
+						{
+							"label": "mac6-images:compare_macbook_pro_16_spaceblack:f89510vnuemq_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_macbook_pro_16_spaceblack__f89510vnuemq_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_macbook_pro_16_spaceblack__f89510vnuemq_large_2x.jpg",
+							"widthPx": 596,
+							"heightPx": 368
+						}
+					],
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "starlight",
 					"displayName": "Starlight",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#e3dcd1",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
-				},
-				{
-					"id": "midnight-div",
-					"displayName": "Midnight <div",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
-					},
-					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				}
 			],
 			"configurations": [],
@@ -7002,9 +6993,7 @@
 				]
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
 			},
@@ -7027,34 +7016,44 @@
 			"priceAud": 3199,
 			"colors": [
 				{
-					"id": "gridcell-class-compare-column",
-					"displayName": "gridcell\" class=\"compare-column\">",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
-					},
-					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
-				},
-				{
 					"id": "space-black",
 					"displayName": "Space Black",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#2e2c2e",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
-					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"images": [
+						{
+							"label": "mac6-images:compare_macbook_pro_16_spaceblack:f89510vnuemq_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_macbook_pro_16_spaceblack__f89510vnuemq_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_macbook_pro_16_spaceblack__f89510vnuemq_large_2x.jpg",
+							"widthPx": 596,
+							"heightPx": 368
+						}
+					],
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "silver",
 					"displayName": "Silver",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
-					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"images": [
+						{
+							"label": "mac6-images:compare_macbook_pro_16_silver:d4gi8ytb772a_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_macbook_pro_16_silver__d4gi8ytb772a_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_macbook_pro_16_silver__d4gi8ytb772a_large_2x.jpg",
+							"widthPx": 596,
+							"heightPx": 368
+						}
+					],
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				}
 			],
 			"configurations": [],
@@ -7182,9 +7181,7 @@
 				]
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
 			},
@@ -7207,24 +7204,24 @@
 			"priceAud": 1049,
 			"colors": [
 				{
-					"id": "gridcell-class-compare-column-first-child",
-					"displayName": "gridcell\" class=\"compare-column first-child\">",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"id": "silver",
+					"displayName": "Silver",
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
-					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
-				},
-				{
-					"id": "silver-blush-citrus-indigo-div",
-					"displayName": "Silver Blush Citrus Indigo <div",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
-					},
-					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"images": [
+						{
+							"label": "mac6-images:compare_macbook_pro_16_touch_silver:i79inz0f7ceq_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_macbook_pro_16_touch_silver__i79inz0f7ceq_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_macbook_pro_16_touch_silver__i79inz0f7ceq_large_2x.jpg",
+							"widthPx": 632,
+							"heightPx": 364
+						}
+					],
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				}
 			],
 			"configurations": [],
@@ -7319,9 +7316,7 @@
 				]
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
 			},
@@ -7344,84 +7339,144 @@
 			"priceAud": 2399,
 			"colors": [
 				{
-					"id": "gridcell-class-compare-column-first-child",
-					"displayName": "gridcell\" class=\"compare-column first-child\">",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
-					},
-					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
-				},
-				{
 					"id": "blue",
 					"displayName": "Blue",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#88aebf",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
-					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"images": [
+						{
+							"label": "mac6-images:compare_imac_24_m4_blue:fcdp5icivh2e_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_imac_24_m4_blue__fcdp5icivh2e_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_imac_24_m4_blue__fcdp5icivh2e_large_2x.jpg",
+							"widthPx": 446,
+							"heightPx": 376
+						}
+					],
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "purple",
 					"displayName": "Purple",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#b9b8d1",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
-					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"images": [
+						{
+							"label": "mac6-images:compare_imac_24_m4_purple:fpxz9lr6lxyu_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_imac_24_m4_purple__fpxz9lr6lxyu_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_imac_24_m4_purple__fpxz9lr6lxyu_large_2x.jpg",
+							"widthPx": 446,
+							"heightPx": 376
+						}
+					],
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "pink",
 					"displayName": "Pink",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#e8d1cf",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
-					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"images": [
+						{
+							"label": "mac6-images:compare_imac_24_m4_pink:fwpbzjd83fee_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_imac_24_m4_pink__fwpbzjd83fee_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_imac_24_m4_pink__fwpbzjd83fee_large_2x.jpg",
+							"widthPx": 446,
+							"heightPx": 376
+						}
+					],
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "orange",
 					"displayName": "Orange",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#edb489",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
-					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"images": [
+						{
+							"label": "mac6-images:compare_imac_24_m4_orange:fw7k2rbuctay_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_imac_24_m4_orange__fw7k2rbuctay_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_imac_24_m4_orange__fw7k2rbuctay_large_2x.jpg",
+							"widthPx": 446,
+							"heightPx": 376
+						}
+					],
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "yellow",
 					"displayName": "Yellow",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#ece7b6",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
-					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"images": [
+						{
+							"label": "mac6-images:compare_imac_24_m4_yellow:cel496oxyggi_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_imac_24_m4_yellow__cel496oxyggi_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_imac_24_m4_yellow__cel496oxyggi_large_2x.jpg",
+							"widthPx": 446,
+							"heightPx": 376
+						}
+					],
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "green",
 					"displayName": "Green",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#ccdfc9",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
-					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"images": [
+						{
+							"label": "mac6-images:compare_imac_24_m4_green:fhwld12njsuy_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_imac_24_m4_green__fhwld12njsuy_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_imac_24_m4_green__fhwld12njsuy_large_2x.jpg",
+							"widthPx": 446,
+							"heightPx": 376
+						}
+					],
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
-					"id": "silver-div",
-					"displayName": "Silver <div",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"id": "silver",
+					"displayName": "Silver",
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
-					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"images": [
+						{
+							"label": "mac6-images:compare_imac_24_m4_silver:edo689dmh8a6_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_imac_24_m4_silver__edo689dmh8a6_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_imac_24_m4_silver__edo689dmh8a6_large_2x.jpg",
+							"widthPx": 446,
+							"heightPx": 376
+						}
+					],
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				}
 			],
 			"configurations": [],
@@ -7503,8 +7558,8 @@
 				"speaker": true,
 				"microphone": true,
 				"spatialAudio": true,
-				"speakerConfiguration": "gridcell\" class=\"first-child compare-column template-item-default\" > High‑fidelity six‑speaker system with force‑cancelling woofers Wide stereo sound <div",
-				"sourceNotes": "gridcell\" class=\"first-child compare-column template-item-default\" > High‑fidelity six‑speaker system with force‑cancelling woofers Wide stereo sound <div; gridcell\" class=\"first-child compare-column template-item-default\" > Support for Spatial Audio when playing music or video with Dolby Atmos <div; gridcell\" class=\"first-child compare-column template-item-default\" > Studio-quality three-mic array with high signal-to-noise ratio and directional beamforming <div"
+				"speakerConfiguration": "gridcell\" class=\"first-child compare-column template-item-default\" > High\u2011fidelity six\u2011speaker system with force\u2011cancelling woofers Wide stereo sound <div",
+				"sourceNotes": "gridcell\" class=\"first-child compare-column template-item-default\" > High\u2011fidelity six\u2011speaker system with force\u2011cancelling woofers Wide stereo sound <div; gridcell\" class=\"first-child compare-column template-item-default\" > Support for Spatial Audio when playing music or video with Dolby Atmos <div; gridcell\" class=\"first-child compare-column template-item-default\" > Studio-quality three-mic array with high signal-to-noise ratio and directional beamforming <div"
 			},
 			"batteryAndPower": {
 				"battery": {
@@ -7536,9 +7591,7 @@
 				]
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
 			},
@@ -7561,34 +7614,24 @@
 			"priceAud": 3999,
 			"colors": [
 				{
-					"id": "gridcell-class-compare-column",
-					"displayName": "gridcell\" class=\"compare-column\">",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
-					},
-					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
-				},
-				{
 					"id": "space-black",
 					"displayName": "Space Black",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#2e2c2e",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
-					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
-				},
-				{
-					"id": "silver-div",
-					"displayName": "Silver <div",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
-					},
-					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"images": [
+						{
+							"label": "mac6-images:compare_mac_mini_m2_silver:fhf41ykb62a2_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_mac_mini_m2_silver__fhf41ykb62a2_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_mac_mini_m2_silver__fhf41ykb62a2_large_2x.jpg",
+							"widthPx": 280,
+							"heightPx": 56
+						}
+					],
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				}
 			],
 			"configurations": [],
@@ -7717,9 +7760,7 @@
 				]
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
 			},
@@ -7742,34 +7783,36 @@
 			"priceAud": 6999,
 			"colors": [
 				{
-					"id": "gridcell-class-compare-column",
-					"displayName": "gridcell\" class=\"compare-column\">",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
-					},
-					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
-				},
-				{
 					"id": "space-black",
 					"displayName": "Space Black",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#2e2c2e",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
-					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"images": [
+						{
+							"label": "mac6-images:compare_mac_studio_silver:cjho1zelpv6u_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_mac_studio_silver__cjho1zelpv6u_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_mac_studio_silver__cjho1zelpv6u_large_2x.jpg",
+							"widthPx": 280,
+							"heightPx": 140
+						}
+					],
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "silver",
 					"displayName": "Silver",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				}
 			],
 			"configurations": [],
@@ -7905,9 +7948,7 @@
 				]
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
 			},
@@ -7930,84 +7971,84 @@
 			"priceAud": 2399,
 			"colors": [
 				{
-					"id": "gridcell-class-compare-column-first-child",
-					"displayName": "gridcell\" class=\"compare-column first-child\">",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
-					},
-					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
-				},
-				{
 					"id": "blue",
 					"displayName": "Blue",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#88aebf",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
-					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"images": [
+						{
+							"label": "mac6-images:compare_mac_pro_silver:ezesotky808y_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_mac_pro_silver__ezesotky808y_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_mac_pro_silver__ezesotky808y_large_2x.jpg",
+							"widthPx": 182,
+							"heightPx": 432
+						}
+					],
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "purple",
 					"displayName": "Purple",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#b9b8d1",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "pink",
 					"displayName": "Pink",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#e8d1cf",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "orange",
 					"displayName": "Orange",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#edb489",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "yellow",
 					"displayName": "Yellow",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#ece7b6",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "green",
 					"displayName": "Green",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#ccdfc9",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
-				},
-				{
-					"id": "silver-div",
-					"displayName": "Silver <div",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
-					},
-					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				}
 			],
 			"configurations": [],
@@ -8089,8 +8130,8 @@
 				"speaker": true,
 				"microphone": true,
 				"spatialAudio": true,
-				"speakerConfiguration": "gridcell\" class=\"first-child compare-column template-item-default\" > High‑fidelity six‑speaker system with force‑cancelling woofers Wide stereo sound <div",
-				"sourceNotes": "gridcell\" class=\"first-child compare-column template-item-default\" > High‑fidelity six‑speaker system with force‑cancelling woofers Wide stereo sound <div; gridcell\" class=\"first-child compare-column template-item-default\" > Support for Spatial Audio when playing music or video with Dolby Atmos <div; gridcell\" class=\"first-child compare-column template-item-default\" > Studio-quality three-mic array with high signal-to-noise ratio and directional beamforming <div"
+				"speakerConfiguration": "gridcell\" class=\"first-child compare-column template-item-default\" > High\u2011fidelity six\u2011speaker system with force\u2011cancelling woofers Wide stereo sound <div",
+				"sourceNotes": "gridcell\" class=\"first-child compare-column template-item-default\" > High\u2011fidelity six\u2011speaker system with force\u2011cancelling woofers Wide stereo sound <div; gridcell\" class=\"first-child compare-column template-item-default\" > Support for Spatial Audio when playing music or video with Dolby Atmos <div; gridcell\" class=\"first-child compare-column template-item-default\" > Studio-quality three-mic array with high signal-to-noise ratio and directional beamforming <div"
 			},
 			"batteryAndPower": {
 				"battery": {
@@ -8122,9 +8163,7 @@
 				]
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
 			},
@@ -8147,34 +8186,24 @@
 			"priceAud": 3999,
 			"colors": [
 				{
-					"id": "gridcell-class-compare-column",
-					"displayName": "gridcell\" class=\"compare-column\">",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
-					},
-					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
-				},
-				{
 					"id": "space-black",
 					"displayName": "Space Black",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#2e2c2e",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
-					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
-				},
-				{
-					"id": "silver-div",
-					"displayName": "Silver <div",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
-					},
-					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"images": [
+						{
+							"label": "mac6-images:compare_mac_pro_silver:ezesotky808y_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_mac_pro_silver__ezesotky808y_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_mac_pro_silver__ezesotky808y_large_2x.jpg",
+							"widthPx": 182,
+							"heightPx": 432
+						}
+					],
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				}
 			],
 			"configurations": [],
@@ -8303,9 +8332,7 @@
 				]
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
 			},
@@ -8328,34 +8355,36 @@
 			"priceAud": 6999,
 			"colors": [
 				{
-					"id": "gridcell-class-compare-column",
-					"displayName": "gridcell\" class=\"compare-column\">",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
-					},
-					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
-				},
-				{
 					"id": "space-black",
 					"displayName": "Space Black",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#2e2c2e",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
-					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"images": [
+						{
+							"label": "mac6-images:compare_imac_24_blue:ddj9y4wumh6q_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_imac_24_blue__ddj9y4wumh6q_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_imac_24_blue__ddj9y4wumh6q_large_2x.jpg",
+							"widthPx": 446,
+							"heightPx": 376
+						}
+					],
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "silver",
 					"displayName": "Silver",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				}
 			],
 			"configurations": [],
@@ -8491,9 +8520,7 @@
 				]
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
 			},
@@ -8516,24 +8543,24 @@
 			"priceAud": 1299,
 			"colors": [
 				{
-					"id": "gridcell-class-compare-column-first-child",
-					"displayName": "gridcell\" class=\"compare-column first-child\">",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"id": "silver",
+					"displayName": "Silver",
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
-					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
-				},
-				{
-					"id": "silver-div",
-					"displayName": "Silver <div",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
-					},
-					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"images": [
+						{
+							"label": "mac6-images:compare_imac_24_m4_silver:edo689dmh8a6_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_imac_24_m4_silver__edo689dmh8a6_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_imac_24_m4_silver__edo689dmh8a6_large_2x.jpg",
+							"widthPx": 446,
+							"heightPx": 376
+						}
+					],
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				}
 			],
 			"configurations": [],
@@ -8573,8 +8600,8 @@
 				"speaker": true,
 				"microphone": true,
 				"spatialAudio": true,
-				"speakerConfiguration": "gridcell\" class=\"first-child compare-column template-item-default\" > — Not available <div",
-				"sourceNotes": "gridcell\" class=\"first-child compare-column template-item-default\" > — Not available <div; gridcell\" class=\"first-child compare-column template-item-default\" > Authorise payments on the web <div; gridcell\" class=\"first-child compare-column template-item-default\" > FaceTime video <div"
+				"speakerConfiguration": "gridcell\" class=\"first-child compare-column template-item-default\" > \u2014 Not available <div",
+				"sourceNotes": "gridcell\" class=\"first-child compare-column template-item-default\" > \u2014 Not available <div; gridcell\" class=\"first-child compare-column template-item-default\" > Authorise payments on the web <div; gridcell\" class=\"first-child compare-column template-item-default\" > FaceTime video <div"
 			},
 			"batteryAndPower": {
 				"battery": null,
@@ -8586,9 +8613,7 @@
 				"ports": []
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
 			},
@@ -8611,24 +8636,24 @@
 			"priceAud": 2499,
 			"colors": [
 				{
-					"id": "gridcell-class-compare-column",
-					"displayName": "gridcell\" class=\"compare-column\">",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"id": "silver",
+					"displayName": "Silver",
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
-					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
-				},
-				{
-					"id": "silver-div",
-					"displayName": "Silver <div",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
-					},
-					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"images": [
+						{
+							"label": "mac6-images:compare_imac_24_m4_silver:edo689dmh8a6_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_imac_24_m4_silver__edo689dmh8a6_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_imac_24_m4_silver__edo689dmh8a6_large_2x.jpg",
+							"widthPx": 446,
+							"heightPx": 376
+						}
+					],
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				}
 			],
 			"configurations": [],
@@ -8668,8 +8693,8 @@
 				"speaker": true,
 				"microphone": true,
 				"spatialAudio": true,
-				"speakerConfiguration": "gridcell\" class=\"compare-column template-item-default\" > — Not available <div",
-				"sourceNotes": "gridcell\" class=\"compare-column template-item-default\" > — Not available <div; gridcell\" class=\"compare-column template-item-default\" > Authorise payments on the web <div; gridcell\" class=\"compare-column template-item-default\" > FaceTime video <div"
+				"speakerConfiguration": "gridcell\" class=\"compare-column template-item-default\" > \u2014 Not available <div",
+				"sourceNotes": "gridcell\" class=\"compare-column template-item-default\" > \u2014 Not available <div; gridcell\" class=\"compare-column template-item-default\" > Authorise payments on the web <div; gridcell\" class=\"compare-column template-item-default\" > FaceTime video <div"
 			},
 			"batteryAndPower": {
 				"battery": null,
@@ -8681,9 +8706,7 @@
 				"ports": []
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
 			},
@@ -8706,24 +8729,24 @@
 			"priceAud": 4299,
 			"colors": [
 				{
-					"id": "gridcell-class-compare-column",
-					"displayName": "gridcell\" class=\"compare-column\">",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
-					},
-					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
-				},
-				{
 					"id": "silver",
 					"displayName": "Silver",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
-					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"images": [
+						{
+							"label": "mac6-images:compare_imac_21_5_retina_2019_silver:dxrouqtnyze6_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_imac_21_5_retina_2019_silver__dxrouqtnyze6_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_imac_21_5_retina_2019_silver__dxrouqtnyze6_large_2x.jpg",
+							"widthPx": 434,
+							"heightPx": 366
+						}
+					],
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				}
 			],
 			"configurations": [],
@@ -8776,9 +8799,7 @@
 				"ports": []
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
 			},
@@ -8801,24 +8822,24 @@
 			"priceAud": 1299,
 			"colors": [
 				{
-					"id": "gridcell-class-compare-column-first-child",
-					"displayName": "gridcell\" class=\"compare-column first-child\">",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"id": "silver",
+					"displayName": "Silver",
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
-					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
-				},
-				{
-					"id": "silver-div",
-					"displayName": "Silver <div",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
-					},
-					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"images": [
+						{
+							"label": "mac6-images:compare_imac_21_5_retina_2017_silver:bf6h2nfzob8i_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_imac_21_5_retina_2017_silver__bf6h2nfzob8i_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_imac_21_5_retina_2017_silver__bf6h2nfzob8i_large_2x.jpg",
+							"widthPx": 434,
+							"heightPx": 366
+						}
+					],
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				}
 			],
 			"configurations": [],
@@ -8858,8 +8879,8 @@
 				"speaker": true,
 				"microphone": true,
 				"spatialAudio": true,
-				"speakerConfiguration": "gridcell\" class=\"first-child compare-column template-item-default\" > — Not available <div",
-				"sourceNotes": "gridcell\" class=\"first-child compare-column template-item-default\" > — Not available <div; gridcell\" class=\"first-child compare-column template-item-default\" > Authorise payments on the web <div; gridcell\" class=\"first-child compare-column template-item-default\" > FaceTime video <div"
+				"speakerConfiguration": "gridcell\" class=\"first-child compare-column template-item-default\" > \u2014 Not available <div",
+				"sourceNotes": "gridcell\" class=\"first-child compare-column template-item-default\" > \u2014 Not available <div; gridcell\" class=\"first-child compare-column template-item-default\" > Authorise payments on the web <div; gridcell\" class=\"first-child compare-column template-item-default\" > FaceTime video <div"
 			},
 			"batteryAndPower": {
 				"battery": null,
@@ -8871,9 +8892,7 @@
 				"ports": []
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
 			},
@@ -8896,24 +8915,24 @@
 			"priceAud": 2499,
 			"colors": [
 				{
-					"id": "gridcell-class-compare-column",
-					"displayName": "gridcell\" class=\"compare-column\">",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"id": "silver",
+					"displayName": "Silver",
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
-					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
-				},
-				{
-					"id": "silver-div",
-					"displayName": "Silver <div",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
-					},
-					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"images": [
+						{
+							"label": "mac6-images:compare_imac_27_silver:f3eshdo88ay6_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_imac_27_silver__f3eshdo88ay6_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_imac_27_silver__f3eshdo88ay6_large_2x.jpg",
+							"widthPx": 530,
+							"heightPx": 424
+						}
+					],
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				}
 			],
 			"configurations": [],
@@ -8953,8 +8972,8 @@
 				"speaker": true,
 				"microphone": true,
 				"spatialAudio": true,
-				"speakerConfiguration": "gridcell\" class=\"compare-column template-item-default\" > — Not available <div",
-				"sourceNotes": "gridcell\" class=\"compare-column template-item-default\" > — Not available <div; gridcell\" class=\"compare-column template-item-default\" > Authorise payments on the web <div; gridcell\" class=\"compare-column template-item-default\" > FaceTime video <div"
+				"speakerConfiguration": "gridcell\" class=\"compare-column template-item-default\" > \u2014 Not available <div",
+				"sourceNotes": "gridcell\" class=\"compare-column template-item-default\" > \u2014 Not available <div; gridcell\" class=\"compare-column template-item-default\" > Authorise payments on the web <div; gridcell\" class=\"compare-column template-item-default\" > FaceTime video <div"
 			},
 			"batteryAndPower": {
 				"battery": null,
@@ -8966,9 +8985,7 @@
 				"ports": []
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
 			},
@@ -8991,24 +9008,24 @@
 			"priceAud": 4299,
 			"colors": [
 				{
-					"id": "gridcell-class-compare-column",
-					"displayName": "gridcell\" class=\"compare-column\">",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
-					},
-					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
-				},
-				{
 					"id": "silver",
 					"displayName": "Silver",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
-					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"images": [
+						{
+							"label": "mac6-images:compare_imac_pro_spacegray:e9efe59wjaai_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_imac_pro_spacegray__e9efe59wjaai_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_imac_pro_spacegray__e9efe59wjaai_large_2x.jpg",
+							"widthPx": 532,
+							"heightPx": 428
+						}
+					],
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				}
 			],
 			"configurations": [],
@@ -9061,9 +9078,7 @@
 				"ports": []
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
 			},
@@ -9083,57 +9098,51 @@
 			"id": "mac-mini-m1-2020",
 			"name": "Mac mini (M1, 2020)",
 			"releaseYear": 2020,
-			"priceAud": null,
+			"priceAud": 1099,
 			"colors": [
-				{
-					"id": "gridcell-class-compare-column-first-child",
-					"displayName": "gridcell\" class=\"compare-column first-child\">",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
-					},
-					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
-				},
-				{
-					"id": "midnight",
-					"displayName": "Midnight",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
-					},
-					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
-				},
 				{
 					"id": "starlight",
 					"displayName": "Starlight",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#e3dcd1",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "space-gray",
 					"displayName": "Space Grey",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#68696d",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
-					"id": "silver-div",
-					"displayName": "Silver <div",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"id": "silver",
+					"displayName": "Silver",
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
-					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"images": [
+						{
+							"label": "mac6-images:compare_mac_mini_silver:no4krszk9z62_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_mac_mini_silver__no4krszk9z62_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_mac_mini_silver__no4krszk9z62_large_2x.jpg",
+							"widthPx": 280,
+							"heightPx": 56
+						}
+					],
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				}
 			],
 			"configurations": [],
@@ -9229,7 +9238,7 @@
 				"microphone": true,
 				"spatialAudio": true,
 				"speakerConfiguration": "gridcell\" class=\"first-child compare-column template-item-default\" > Three-mic array with directional beamforming Voice Isolation and Wide Spectrum microphone modes Enhanced voice clarity in audio and video calls <div",
-				"sourceNotes": "gridcell\" class=\"first-child compare-column template-item-default\" > Three-mic array with directional beamforming Voice Isolation and Wide Spectrum microphone modes Enhanced voice clarity in audio and video calls <div; gridcell\" class=\"first-child compare-column template-item-default\" > 3.5-mm headphone jack with advanced support for high-impedance headphones <div; gridcell\" class=\"first-child compare-column template-item-default\" > — Not available <div"
+				"sourceNotes": "gridcell\" class=\"first-child compare-column template-item-default\" > Three-mic array with directional beamforming Voice Isolation and Wide Spectrum microphone modes Enhanced voice clarity in audio and video calls <div; gridcell\" class=\"first-child compare-column template-item-default\" > 3.5-mm headphone jack with advanced support for high-impedance headphones <div; gridcell\" class=\"first-child compare-column template-item-default\" > \u2014 Not available <div"
 			},
 			"batteryAndPower": {
 				"battery": {
@@ -9255,9 +9264,7 @@
 				]
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
 			},
@@ -9277,67 +9284,51 @@
 			"id": "mac-mini-intel-2018",
 			"name": "Mac mini (Intel, 2018)",
 			"releaseYear": 2018,
-			"priceAud": null,
+			"priceAud": 1249,
 			"colors": [
-				{
-					"id": "gridcell-class-compare-column",
-					"displayName": "gridcell\" class=\"compare-column\">",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
-					},
-					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
-				},
-				{
-					"id": "sky",
-					"displayName": "Sky",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
-					},
-					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
-				},
 				{
 					"id": "blue",
 					"displayName": "Blue",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#88aebf",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "silver",
 					"displayName": "Silver",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
-					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"images": [
+						{
+							"label": "mac6-images:compare_mac_mini_spacegray:0wu8xkz5fxuu_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_mac_mini_spacegray__0wu8xkz5fxuu_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_mac_mini_spacegray__0wu8xkz5fxuu_large_2x.jpg",
+							"widthPx": 280,
+							"heightPx": 56
+						}
+					],
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "starlight",
 					"displayName": "Starlight",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#e3dcd1",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
 					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
-				},
-				{
-					"id": "midnight-div",
-					"displayName": "Midnight <div",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
-					},
-					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				}
 			],
 			"configurations": [],
@@ -9433,7 +9424,7 @@
 				"microphone": true,
 				"spatialAudio": true,
 				"speakerConfiguration": "gridcell\" class=\"compare-column template-item-default\" > Three-mic array with directional beamforming Voice Isolation and Wide Spectrum microphone modes Enhanced voice clarity in audio and video calls <div",
-				"sourceNotes": "gridcell\" class=\"compare-column template-item-default\" > Three-mic array with directional beamforming Voice Isolation and Wide Spectrum microphone modes Enhanced voice clarity in audio and video calls <div; gridcell\" class=\"compare-column template-item-default\" > 3.5-mm headphone jack with advanced support for high-impedance headphones <div; gridcell\" class=\"compare-column template-item-default\" > — Not available <div"
+				"sourceNotes": "gridcell\" class=\"compare-column template-item-default\" > Three-mic array with directional beamforming Voice Isolation and Wide Spectrum microphone modes Enhanced voice clarity in audio and video calls <div; gridcell\" class=\"compare-column template-item-default\" > 3.5-mm headphone jack with advanced support for high-impedance headphones <div; gridcell\" class=\"compare-column template-item-default\" > \u2014 Not available <div"
 			},
 			"batteryAndPower": {
 				"battery": {
@@ -9459,9 +9450,7 @@
 				]
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
 			},
@@ -9484,24 +9473,24 @@
 			"priceAud": 9099,
 			"colors": [
 				{
-					"id": "gridcell-class-compare-column",
-					"displayName": "gridcell\" class=\"compare-column\">",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
-					},
-					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
-				},
-				{
 					"id": "silver",
 					"displayName": "Silver",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
-					"images": [],
-					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging."
+					"images": [
+						{
+							"label": "mac6-images:compare_mac_studio_silver:cjho1zelpv6u_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_mac_studio_silver__cjho1zelpv6u_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_mac_studio_silver__cjho1zelpv6u_large_2x.jpg",
+							"widthPx": 280,
+							"heightPx": 140
+						}
+					],
+					"sourceNotes": "Rendered colour label; exact CSS swatch and target image bytes unavailable in owned staging. Base hex approximate, sampled from Apple compare/buy imagery."
 				}
 			],
 			"configurations": [],
@@ -9566,7 +9555,7 @@
 			"displays": [
 				{
 					"id": "display-unknown-gridcell-class-compare-column-template-item-default-not-available",
-					"technology": "gridcell\" class=\"compare-column template-item-default\" > — Not available",
+					"technology": "gridcell\" class=\"compare-column template-item-default\" > \u2014 Not available",
 					"trueTone": true,
 					"promotion": false,
 					"wideColorP3": false
@@ -9576,16 +9565,16 @@
 				{
 					"id": "camera-facetime-hd",
 					"role": "FaceTime",
-					"displayName": "gridcell\" class=\"compare-column template-item-default\" > — Not available",
-					"sourceNotes": "gridcell\" class=\"compare-column template-item-default\" > — Not available"
+					"displayName": "gridcell\" class=\"compare-column template-item-default\" > \u2014 Not available",
+					"sourceNotes": "gridcell\" class=\"compare-column template-item-default\" > \u2014 Not available"
 				}
 			],
 			"audio": {
 				"speaker": true,
 				"microphone": true,
 				"spatialAudio": true,
-				"speakerConfiguration": "gridcell\" class=\"compare-column template-item-default\" > — Not available",
-				"sourceNotes": "gridcell\" class=\"compare-column template-item-default\" > — Not available; gridcell\" class=\"compare-column template-item-default\" > 3.5-mm headphone jack with advanced support for high-impedance headphones; gridcell\" class=\"compare-column template-item-default\" > HDMI port supports multichannel audio output"
+				"speakerConfiguration": "gridcell\" class=\"compare-column template-item-default\" > \u2014 Not available",
+				"sourceNotes": "gridcell\" class=\"compare-column template-item-default\" > \u2014 Not available; gridcell\" class=\"compare-column template-item-default\" > 3.5-mm headphone jack with advanced support for high-impedance headphones; gridcell\" class=\"compare-column template-item-default\" > HDMI port supports multichannel audio output"
 			},
 			"batteryAndPower": {
 				"battery": {
@@ -9628,9 +9617,7 @@
 				]
 			},
 			"authentication": {
-				"methods": [
-					"passcode"
-				],
+				"methods": ["passcode"],
 				"primaryMethod": "passcode",
 				"sourceNotes": "Rendered compare-table authentication unavailable; passcode retained as conservative contract value."
 			},
@@ -9650,27 +9637,47 @@
 			"id": "macbook-pro-16-in-m3-pro-or-m3-max",
 			"name": "MacBook Pro 16-in. (M3 Pro or M3 Max)",
 			"releaseYear": 2023,
-			"priceAud": null,
+			"priceAud": 4299,
 			"colors": [
 				{
 					"id": "space-black",
 					"displayName": "Space Black",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#2e2c2e",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
-					"images": [],
-					"sourceNotes": "Rendered finish label and gallery image class image-compare-macbook-pro-16-m3-spaceblack; exact swatch value, target image bytes, Apple-hosted URL, and dimensions unavailable in supplied HTML."
+					"images": [
+						{
+							"label": "mac6-images:compare_macbook_pro_16_spaceblack:f89510vnuemq_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_macbook_pro_16_spaceblack__f89510vnuemq_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_macbook_pro_16_spaceblack__f89510vnuemq_large_2x.jpg",
+							"widthPx": 596,
+							"heightPx": 368
+						}
+					],
+					"sourceNotes": "Rendered finish label and gallery image class image-compare-macbook-pro-16-m3-spaceblack; exact swatch value, target image bytes, Apple-hosted URL, and dimensions unavailable in supplied HTML. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "silver",
 					"displayName": "Silver",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
-					"images": [],
-					"sourceNotes": "Rendered finish label and gallery image class image-compare-macbook-pro-16-m3-silver; exact swatch value, target image bytes, Apple-hosted URL, and dimensions unavailable in supplied HTML."
+					"images": [
+						{
+							"label": "mac6-images:compare_macbook_pro_16_silver:d4gi8ytb772a_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_macbook_pro_16_silver__d4gi8ytb772a_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_macbook_pro_16_silver__d4gi8ytb772a_large_2x.jpg",
+							"widthPx": 596,
+							"heightPx": 368
+						}
+					],
+					"sourceNotes": "Rendered finish label and gallery image class image-compare-macbook-pro-16-m3-silver; exact swatch value, target image bytes, Apple-hosted URL, and dimensions unavailable in supplied HTML. Base hex approximate, sampled from Apple compare/buy imagery."
 				}
 			],
 			"configurations": [],
@@ -9713,9 +9720,7 @@
 				"ports": []
 			},
 			"authentication": {
-				"methods": [
-					"Touch ID"
-				],
+				"methods": ["Touch ID"],
 				"primaryMethod": "Touch ID",
 				"placement": "keyboard",
 				"sourceNotes": "Rendered authentication row for the selected target column identifies Touch ID; placement is inferred from MacBook keyboard context and recorded explicitly."
@@ -9736,27 +9741,47 @@
 			"id": "macbook-pro-16-in-m2-pro-or-m2-max-2023",
 			"name": "MacBook Pro 16-in. (M2 Pro or M2 Max, 2023)",
 			"releaseYear": 2023,
-			"priceAud": null,
+			"priceAud": 3999,
 			"colors": [
 				{
 					"id": "space-gray",
 					"displayName": "Space Grey",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#68696d",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
-					"images": [],
-					"sourceNotes": "Rendered finish label and gallery image class image-compare-macbook-pro-16-m2-spacegray; exact swatch value, target image bytes, Apple-hosted URL, and dimensions unavailable in supplied HTML."
+					"images": [
+						{
+							"label": "mac6-images:compare_macbook_pro_16_spacegray:fx7v3msxbd6q_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_macbook_pro_16_spacegray__fx7v3msxbd6q_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_macbook_pro_16_spacegray__fx7v3msxbd6q_large_2x.jpg",
+							"widthPx": 596,
+							"heightPx": 368
+						}
+					],
+					"sourceNotes": "Rendered finish label and gallery image class image-compare-macbook-pro-16-m2-spacegray; exact swatch value, target image bytes, Apple-hosted URL, and dimensions unavailable in supplied HTML. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "silver",
 					"displayName": "Silver",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
-					"images": [],
-					"sourceNotes": "Rendered finish label and gallery image class image-compare-macbook-pro-16-m2-silver; exact swatch value, target image bytes, Apple-hosted URL, and dimensions unavailable in supplied HTML."
+					"images": [
+						{
+							"label": "mac6-images:compare_macbook_pro_16_silver:d4gi8ytb772a_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_macbook_pro_16_silver__d4gi8ytb772a_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_macbook_pro_16_silver__d4gi8ytb772a_large_2x.jpg",
+							"widthPx": 596,
+							"heightPx": 368
+						}
+					],
+					"sourceNotes": "Rendered finish label and gallery image class image-compare-macbook-pro-16-m2-silver; exact swatch value, target image bytes, Apple-hosted URL, and dimensions unavailable in supplied HTML. Base hex approximate, sampled from Apple compare/buy imagery."
 				}
 			],
 			"configurations": [],
@@ -9799,9 +9824,7 @@
 				"ports": []
 			},
 			"authentication": {
-				"methods": [
-					"Touch ID"
-				],
+				"methods": ["Touch ID"],
 				"primaryMethod": "Touch ID",
 				"placement": "keyboard",
 				"sourceNotes": "Rendered authentication row for the selected target column identifies Touch ID; placement is inferred from MacBook keyboard context and recorded explicitly."
@@ -9822,27 +9845,47 @@
 			"id": "macbook-pro-14-in-m1-pro-or-m1-max-2021",
 			"name": "MacBook Pro 14-in. (M1 Pro or M1 Max, 2021)",
 			"releaseYear": 2021,
-			"priceAud": null,
+			"priceAud": 2999,
 			"colors": [
 				{
 					"id": "space-gray",
 					"displayName": "Space Grey",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#68696d",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
-					"images": [],
-					"sourceNotes": "Rendered finish label and gallery image class image-compare-macbook-pro-14-spacegray; exact swatch value, target image bytes, Apple-hosted URL, and dimensions unavailable in supplied HTML."
+					"images": [
+						{
+							"label": "mac6-images:compare_macbook_pro_14_spacegray:bs4ph4qrvs76_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_macbook_pro_14_spacegray__bs4ph4qrvs76_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_macbook_pro_14_spacegray__bs4ph4qrvs76_large_2x.jpg",
+							"widthPx": 540,
+							"heightPx": 328
+						}
+					],
+					"sourceNotes": "Rendered finish label and gallery image class image-compare-macbook-pro-14-spacegray; exact swatch value, target image bytes, Apple-hosted URL, and dimensions unavailable in supplied HTML. Base hex approximate, sampled from Apple compare/buy imagery."
 				},
 				{
 					"id": "silver",
 					"displayName": "Silver",
-					"swatch": {
-						"kind": "css",
-						"value": "#ffffff"
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
 					},
-					"images": [],
-					"sourceNotes": "Rendered finish label and gallery image class image-compare-macbook-pro-14-silver; exact swatch value, target image bytes, Apple-hosted URL, and dimensions unavailable in supplied HTML."
+					"images": [
+						{
+							"label": "mac6-images:compare_macbook_pro_14_silver:i4mzeamc5aa2_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_macbook_pro_14_silver__i4mzeamc5aa2_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_macbook_pro_14_silver__i4mzeamc5aa2_large_2x.jpg",
+							"widthPx": 540,
+							"heightPx": 328
+						}
+					],
+					"sourceNotes": "Rendered finish label and gallery image class image-compare-macbook-pro-14-silver; exact swatch value, target image bytes, Apple-hosted URL, and dimensions unavailable in supplied HTML. Base hex approximate, sampled from Apple compare/buy imagery."
 				}
 			],
 			"configurations": [],
@@ -9885,9 +9928,7 @@
 				"ports": []
 			},
 			"authentication": {
-				"methods": [
-					"Touch ID"
-				],
+				"methods": ["Touch ID"],
 				"primaryMethod": "Touch ID",
 				"placement": "keyboard",
 				"sourceNotes": "Rendered authentication row for the selected target column identifies Touch ID; placement is inferred from MacBook keyboard context and recorded explicitly."
@@ -9908,8 +9949,49 @@
 			"id": "macbook-pro-16-in-m1-pro-or-m1-max-2021",
 			"name": "MacBook Pro 16-in. (M1 Pro or M1 Max, 2021)",
 			"releaseYear": 2021,
-			"priceAud": null,
-			"colors": [],
+			"priceAud": 3749,
+			"colors": [
+				{
+					"id": "space-gray",
+					"displayName": "Space Grey",
+					"finish": {
+						"base": "#68696d",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
+					},
+					"images": [
+						{
+							"label": "mac6-images:compare_macbook_pro_16_spacegray:fx7v3msxbd6q_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_macbook_pro_16_spacegray__fx7v3msxbd6q_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_macbook_pro_16_spacegray__fx7v3msxbd6q_large_2x.jpg",
+							"widthPx": 596,
+							"heightPx": 368
+						}
+					],
+					"sourceNotes": "Backfill: finish row mirrors 14-in M1 Pro/Max sibling; product image staged from Apple Mac compare page (16-in Space Gray/Silver)."
+				},
+				{
+					"id": "silver",
+					"displayName": "Silver",
+					"finish": {
+						"base": "#e2e3e4",
+						"material": "matte-aluminum",
+						"shine": 0.2,
+						"grain": 0.1
+					},
+					"images": [
+						{
+							"label": "mac6-images:compare_macbook_pro_16_silver:d4gi8ytb772a_large_2x",
+							"appleUrl": "https://www.apple.com/v/mac/compare/ah/images/overview/compare_macbook_pro_16_silver__d4gi8ytb772a_large_2x.jpg",
+							"localPath": "public/data/mac/images/mac6-images__compare_macbook_pro_16_silver__d4gi8ytb772a_large_2x.jpg",
+							"widthPx": 596,
+							"heightPx": 368
+						}
+					],
+					"sourceNotes": "Backfill: finish row mirrors 14-in M1 Pro/Max sibling; product image staged from Apple Mac compare page (16-in Space Gray/Silver)."
+				}
+			],
 			"configurations": [],
 			"storageOptions": [
 				{
@@ -9990,10 +10072,7 @@
 						{
 							"id": "m1-pro-media-engine",
 							"displayName": "Media Engine",
-							"kinds": [
-								"video-decode",
-								"video-encode"
-							]
+							"kinds": ["video-decode", "video-encode"]
 						}
 					],
 					"sourceNotes": "10-core CPU with 8 performance cores and 2 efficiency cores; 16-core GPU; 16-core Neural Engine; 200GB/s memory bandwidth."
@@ -10015,17 +10094,12 @@
 						{
 							"id": "m1-max-media-engine",
 							"displayName": "Media Engine",
-							"kinds": [
-								"video-decode",
-								"video-encode"
-							]
+							"kinds": ["video-decode", "video-encode"]
 						},
 						{
 							"id": "m1-max-prores-engine",
 							"displayName": "ProRes engine",
-							"kinds": [
-								"ProRes encode-decode"
-							]
+							"kinds": ["ProRes encode-decode"]
 						}
 					],
 					"sourceNotes": "Second listed processor row: up to 32-core GPU; 400GB/s memory bandwidth. Media engine supports H.264, HEVC, ProRes and ProRes RAW decode and encode."
@@ -10068,10 +10142,7 @@
 				"speakerConfiguration": "High-fidelity six-speaker sound system with force-cancelling woofers and wide stereo sound",
 				"microphoneConfiguration": "Studio-quality three-mic array with high signal-to-noise ratio and directional beamforming",
 				"sourceNotes": "Supports Dolby Atmos playback on built-in speakers; Spatial Audio with dynamic head tracking using supported AirPods models.",
-				"formats": [
-					"Dolby Atmos playback",
-					"Spatial Audio"
-				]
+				"formats": ["Dolby Atmos playback", "Spatial Audio"]
 			},
 			"batteryAndPower": {
 				"battery": {
@@ -10131,19 +10202,14 @@
 					}
 				],
 				"wifi": {
-					"standards": [
-						"Wi-Fi 6"
-					]
+					"standards": ["Wi-Fi 6"]
 				},
 				"bluetooth": {
 					"version": "Bluetooth 5.0"
 				}
 			},
 			"authentication": {
-				"methods": [
-					"Touch ID",
-					"passcode"
-				],
+				"methods": ["Touch ID", "passcode"],
 				"primaryMethod": "Touch ID",
 				"placement": "keyboard",
 				"sourceNotes": "Touch ID; authorise payments using Touch ID."
@@ -10177,10 +10243,7 @@
 			},
 			"software": {
 				"operatingSystem": "macOS",
-				"builtInApps": [
-					"FaceTime video",
-					"FaceTime audio"
-				]
+				"builtInApps": ["FaceTime video", "FaceTime audio"]
 			},
 			"accessories": [],
 			"backlitKeyboard": true,

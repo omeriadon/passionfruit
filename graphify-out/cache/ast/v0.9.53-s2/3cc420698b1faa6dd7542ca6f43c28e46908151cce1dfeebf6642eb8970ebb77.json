@@ -1,0 +1,67 @@
+{
+	"nodes": [
+		{
+			"id": "$graphify-root$_data_status_vision_md",
+			"label": "vision.md",
+			"file_type": "document",
+			"node_kind": "page",
+			"source_file": "data/status/vision.md",
+			"source_location": "L1"
+		},
+		{
+			"id": "$graphify-root$_data_status_vision_vision_reconciliation",
+			"label": "Vision reconciliation",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": "data/status/vision.md",
+			"source_location": "L1"
+		},
+		{
+			"id": "$graphify-root$_data_status_vision_inputs",
+			"label": "Inputs",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": "data/status/vision.md",
+			"source_location": "L3"
+		},
+		{
+			"id": "$graphify-root$_data_status_vision_devices",
+			"label": "Devices",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": "data/status/vision.md",
+			"source_location": "L13"
+		}
+	],
+	"edges": [
+		{
+			"source": "$graphify-root$_data_status_vision_md",
+			"target": "$graphify-root$_data_status_vision_vision_reconciliation",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": "data/status/vision.md",
+			"source_location": "L1",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_data_status_vision_vision_reconciliation",
+			"target": "$graphify-root$_data_status_vision_inputs",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": "data/status/vision.md",
+			"source_location": "L3",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_data_status_vision_vision_reconciliation",
+			"target": "$graphify-root$_data_status_vision_devices",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": "data/status/vision.md",
+			"source_location": "L13",
+			"weight": 1.0
+		}
+	],
+	"input_tokens": 0,
+	"output_tokens": 0
+}

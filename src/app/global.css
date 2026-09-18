@@ -1,6 +1,344 @@
 @import "tailwindcss";
 @import "fumadocs-ui/css/neutral.css";
 @import "fumadocs-ui/css/preset.css";
+@import "fumadocs-ui/css/generated/glass.css";
+
+@font-face {
+	font-family: "SF Pro";
+	src: url("/fonts/SF-Pro.ttf") format("truetype");
+	font-display: swap;
+}
+
+:root {
+	--fd-primary: oklch(0.57 0.16 255);
+	--fd-primary-foreground: oklch(0.98 0.01 255);
+}
+
+html,
+body,
+button,
+input,
+textarea,
+select {
+	font-family: "SF Pro", system-ui, sans-serif;
+}
+
+.dark {
+	--fd-primary: oklch(0.72 0.14 255);
+	--fd-primary-foreground: oklch(0.2 0.03 255);
+}
+
+.glass-header-surface {
+	background-color: color-mix(
+		in srgb,
+		var(--color-fd-popover) 32%,
+		transparent
+	) !important;
+	-webkit-backdrop-filter: blur(4px) saturate(125%);
+	backdrop-filter: blur(4px) saturate(125%);
+	border: 1px solid color-mix(in srgb, currentColor 16%, transparent);
+	box-shadow: 0 1px 2px color-mix(in srgb, #000 12%, transparent);
+}
+
+.glass-header-surface:hover,
+.glass-header-surface[data-popup-open="true"],
+.glass-header-surface[data-open="true"] {
+	background-color: color-mix(
+		in srgb,
+		var(--color-fd-popover) 44%,
+		transparent
+	) !important;
+}
+
+.glass-theme-switch > button.bg-fd-accent {
+	background: var(--color-fd-primary);
+	color: var(--color-fd-primary-foreground);
+	box-shadow: var(--shadow-sm);
+}
+
+.glass-theme-switch > button:not(.bg-fd-accent):is(:hover, :focus-visible) {
+	background: var(--color-fd-accent);
+	color: var(--color-fd-accent-foreground);
+}
+
+.glass-header-surface[data-search-full] kbd {
+	background: var(--color-fd-accent);
+	color: var(--color-fd-accent-foreground);
+	border-color: transparent;
+	border-radius: 9999px;
+}
+
+/* Let the default Glass sidebar list continue beneath its title and tabs. */
+#nd-sidebar {
+	overflow: hidden;
+	overscroll-behavior: contain;
+}
+
+#nd-sidebar > div:first-of-type {
+	position: absolute;
+	inset: 0 0 auto;
+	height: 10.5rem;
+	z-index: 2;
+	pointer-events: none;
+	isolation: isolate;
+}
+
+#nd-sidebar:not(.nd-sidebar-with-device-search) > div:first-of-type {
+	height: 6.5rem;
+}
+
+#nd-sidebar > #nd-sidebar-device-search {
+	position: absolute;
+	inset: 2.5rem 0 auto;
+	z-index: 3;
+}
+
+#nd-sidebar > div:first-of-type > * {
+	position: relative;
+	z-index: 2;
+	pointer-events: auto;
+}
+
+#nd-sidebar > div:first-of-type::before,
+#nd-sidebar > div:first-of-type::after {
+	content: "";
+	position: absolute;
+	inset: 0;
+	pointer-events: none;
+}
+
+#nd-sidebar > div:first-of-type::before {
+	z-index: 0;
+	background: color-mix(in srgb, var(--color-fd-popover) 24%, transparent);
+	-webkit-backdrop-filter: blur(10px);
+	backdrop-filter: blur(10px);
+	mask-image: linear-gradient(to bottom, #000 0, #000 42%, transparent 78%);
+	-webkit-mask-image: linear-gradient(
+		to bottom,
+		#000 0,
+		#000 42%,
+		transparent 78%
+	);
+}
+
+#nd-sidebar > div:has(> [data-id$="-viewport"]) > [data-id$="-viewport"] {
+	padding-top: 6.5rem;
+	overflow-x: clip;
+}
+
+#nd-sidebar.nd-sidebar-with-device-search
+	> div:has(> [data-id$="-viewport"])
+	> [data-id$="-viewport"] {
+	padding-top: 10.5rem;
+}
+
+#nd-sidebar > div:first-of-type::after {
+	z-index: 1;
+	background: color-mix(in srgb, var(--color-fd-popover) 12%, transparent);
+	-webkit-backdrop-filter: blur(4px);
+	backdrop-filter: blur(4px);
+	mask-image: linear-gradient(to bottom, #000 22%, #000 64%, transparent 100%);
+	-webkit-mask-image: linear-gradient(
+		to bottom,
+		#000 22%,
+		#000 64%,
+		transparent 100%
+	);
+}
+
+#nd-sidebar > button {
+	position: absolute;
+	inset: 5.5rem 0.5rem auto;
+	margin-top: 6px;
+	z-index: 2;
+	padding-inline: 0.5rem;
+	margin-inline: 0;
+	background-color: color-mix(
+		in srgb,
+		var(--color-fd-popover) 32%,
+		transparent
+	) !important;
+	-webkit-backdrop-filter: blur(4px);
+	backdrop-filter: blur(4px);
+	border-color: color-mix(in srgb, currentColor 16%, transparent) !important;
+}
+
+#nd-sidebar.nd-sidebar-with-device-search > button {
+	right: 0.5rem;
+	margin-left: 3rem;
+	width: auto;
+}
+
+#nd-sidebar.nd-sidebar-with-device-search
+	> #nd-sidebar-device-search
+	[data-sidebar-device-type][data-selected="true"] {
+	background-color: color-mix(
+		in srgb,
+		var(--color-fd-foreground) 12%,
+		transparent
+	) !important;
+	border: 1px solid
+		color-mix(in srgb, var(--color-fd-foreground) 48%, transparent);
+}
+
+#nd-sidebar.nd-sidebar-with-device-search > button > svg:first-child {
+	display: none;
+}
+
+#nd-sidebar.nd-sidebar-with-device-search > button {
+	font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+body > [data-base-ui-portal]:has(a[href="/docs/airpods"]) [role="dialog"] {
+	width: var(--anchor-width) !important;
+	min-width: 0 !important;
+	font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+#nd-sidebar:not(.nd-sidebar-with-device-search) > button {
+	top: 2.5rem;
+}
+
+#nd-sidebar > button[data-popup-open="true"] {
+	background-color: color-mix(
+		in srgb,
+		var(--color-fd-popover) 44%,
+		transparent
+	) !important;
+}
+
+#nd-sidebar > div:has(> [data-id$="-viewport"]) {
+	position: absolute;
+	inset: 0;
+	display: flex;
+	min-height: 0;
+	width: 100%;
+	overflow: hidden;
+}
+
+#nd-sidebar [data-id$="-viewport"] a:has([data-year-start="true"]),
+#nd-mobile-sidebar a:has([data-year-start="true"]) {
+	margin-top: 0.575rem;
+}
+
+#nd-sidebar [data-id$="-viewport"] a[href^="/docs/"] {
+	position: relative;
+	font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+#nd-sidebar
+	[data-id$="-viewport"]
+	a:is(
+		[href="/docs/airpods"],
+		[href="/docs/apple-tv"],
+		[href="/docs/apple-watch"],
+		[href="/docs/homepod"],
+		[href="/docs/ipad"],
+		[href="/docs/iphone"],
+		[href="/docs/mac"],
+		[href="/docs/vision"],
+		[href="/docs/ipad/accessories"],
+		[href="/docs/ipad/accessories/apple-pencil"],
+		[href="/docs/ipad/accessories/magic-keyboard"],
+		[href="/docs/other/apple-display"]
+	) {
+	display: none;
+	margin-bottom: 1rem;
+	background-color: color-mix(
+		in srgb,
+		var(--color-fd-popover) 32%,
+		transparent
+	) !important;
+	-webkit-backdrop-filter: blur(4px) saturate(125%);
+	backdrop-filter: blur(4px) saturate(125%);
+	border: 1px solid color-mix(in srgb, currentColor 16%, transparent);
+	border-radius: 0.75rem;
+	padding: 0.625rem 0.75rem;
+	font-weight: 600;
+}
+
+/* Keep the Glass TOC expanded so its links stay available without hover. */
+#nd-toc {
+	width: 240px !important;
+	padding: 0.75rem 1rem;
+	font-family: ui-monospace, monospace;
+}
+
+#nd-toc-title {
+	display: none;
+}
+
+#nd-toc > div > div {
+	--row: 2.25rem !important;
+	pointer-events: auto !important;
+}
+
+#nd-toc > div > div > a > div {
+	display: none;
+}
+
+#nd-toc > div > div > a > span {
+	opacity: 1 !important;
+}
+
+@media (max-width: 1279px) {
+	.fd-glass-layout {
+		--fd-right-width: 0px !important;
+	}
+
+	#nd-toc {
+		background: transparent !important;
+		border: 0 !important;
+		box-shadow: none !important;
+		grid-area: auto;
+		grid-column: 1 / -1;
+		grid-row: 2;
+		inset: auto !important;
+		mask-image: none !important;
+		max-height: none !important;
+		overflow: visible !important;
+		padding: 0.75rem 1.5rem 2rem;
+		position: static !important;
+		transform: none !important;
+		width: auto !important;
+	}
+
+	#nd-toc > div {
+		width: 100%;
+	}
+}
+
+.catalog-route-boundary {
+	border: 1px dashed var(--fd-border);
+	border-radius: 1rem;
+	padding: 1.5rem;
+}
+
+.catalog-route-boundary__content {
+	border-left: 2px solid var(--fd-primary);
+	padding-left: 1rem;
+}
+
+:root {
+	--fd-primary: oklch(0.57 0.16 255);
+	--fd-primary-foreground: oklch(0.98 0.01 255);
+}
+
+.dark {
+	--fd-primary: oklch(0.72 0.14 255);
+	--fd-primary-foreground: oklch(0.2 0.03 255);
+}
+
+.catalog-route-boundary {
+	border: 1px dashed var(--fd-border);
+	border-radius: 1rem;
+	padding: 1.5rem;
+}
+
+.catalog-route-boundary__content {
+	border-left: 2px solid var(--fd-primary);
+	padding-left: 1rem;
+}
 
 @theme {
 	--font-panchang: var(--font-panchang);
