@@ -1,5 +1,8 @@
 "use client";
 
+// Vercel so mean :(
+// I need to clean this code bruh
+
 import {
 	useCallback,
 	useEffect,
