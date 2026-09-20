@@ -20,7 +20,7 @@ export function baseOptions(): BaseLayoutProps {
 						className="size-7 -ml-2"
 						aria-hidden="true"
 					/>
-					<h1 className="text-lg font-bold font-mono">{appName}</h1>
+					<h1 className="text-lg font-bold font-panchang">{appName}</h1>
 				</>
 			),
 			url: "/",
