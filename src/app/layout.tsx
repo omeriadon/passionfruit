@@ -11,6 +11,22 @@ const panchang = localFont({
 	display: "swap",
 });
 
+const sprite = localFont({
+	src: "../assets/fonts/SpriteGraffiti-Shadow.ttf",
+	variable: "--font-sprite",
+	display: "swap",
+});
+
+const generalSans = localFont({
+	src: "../assets/fonts/GeneralSans-Variable.ttf",
+	variable: "--font-general-sans",
+	display: "swap",
+});
+
+// FONTS: Panchang -> Logo/header font
+// FONTS: Sprite -> Graffiti font
+// FONTS: GeneralSans -> Main font for body, at least on the landing page
+
 export const metadata: Metadata = {
 	icons: {
 		icon: [
@@ -54,16 +70,13 @@ const rootProviderOptions: Omit<RootProviderProps, "children"> = {
 	// also accepts `components` for custom framework Link and Image components.
 };
 
-const generalSans = localFont({
-	src: "../assets/fonts/GeneralSans-Variable.ttf",
-	variable: "--font-general-sans",
-	display: "swap",
-});
-
-
 export default function Layout({ children }: LayoutProps<"/">) {
 	return (
-		<html lang="en" className={`${generalSans.className} ${panchang.variable}`} suppressHydrationWarning>
+		<html
+			lang="en"
+			className={`${generalSans.className} ${panchang.variable} ${sprite.variable}`}
+			suppressHydrationWarning
+		>
 			<body className="flex flex-col min-h-screen">
 				<AuthProvider>
 					<SearchRootProvider {...rootProviderOptions}>
