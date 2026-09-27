@@ -14,10 +14,15 @@ import {
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useTheme } from "fumadocs-ui/provider/base";
-import { ArrowRightIcon } from "@phosphor-icons/react";
+import { ArrowFatLinesDownIcon, ArrowRightIcon } from "@phosphor-icons/react";
 import Strands from "../../components/ui/Strands/Strands";
 import Footer from "./Footer";
 import useTimer from "@/components/ui/Timer/Timer";
+import GlideSelect, {
+	type GlideSelectOption,
+} from "@/components/ui/Glide/GlideSelect";
+import HoveringHint from "@/components/ui/HoveringHint/HoveringHint";
+import FastText from "@/components/ui/FastText/FastText";
 
 const clarusInputPlaceholder = [
 	"Clarus awaits your enquiry...",
@@ -32,6 +37,34 @@ const clarusInputPlaceholder = [
 	"Did you know that you can message Clarus right here?",
 	"Don't ask about actual passionfruits...",
 	"Passionfruits taste good 👍",
+];
+
+// Screenshot shown next to the dropdown
+const deviceScreenshots: Record<string, [string, string]> = {
+	AirPods: ["/ss/airpods.png", "/docs/airpods/airpods-pro-3"],
+	"Apple TV": ["/ss/tv.png", "/docs/apple-tv"],
+	"Apple Watch": ["/ss/watch.png", "/docs/apple-watch/apple-watch-ultra-4"],
+	HomePod: ["/ss/pod.png", "/docs/homepod/homepod-mini"],
+	iPad: ["/ss/pad.png", "/docs/ipad/ipad-air-11-m4"],
+	iPhone: ["/ss/flipflop.png", "/docs/iphone/iphone-duo"],
+	Mac: ["/ss/neo.png", "/docs/mac/macbook-neo-a18-pro"],
+	Vision: ["/ss/eyes.png", "/docs/vision/apple-vision-pro-m5"],
+	"Apple Displays": [
+		"/ss/display.png",
+		"/docs/other/apple-display/studio-display-xdr-2026",
+	],
+};
+
+const formats = [
+	{ value: "1", label: "AirPods", tag: " " },
+	{ value: "2", label: "Apple TV", tag: " " },
+	{ value: "3", label: "Apple Watch", tag: " " },
+	{ value: "4", label: "HomePod", tag: " " },
+	{ value: "5", label: "iPad", tag: " " },
+	{ value: "6", label: "iPhone", tag: " " },
+	{ value: "7", label: "Mac", tag: " " },
+	{ value: "8", label: "Vision", tag: " " },
+	{ value: "9", label: "Apple Displays", tag: " " },
 ];
 
 // Never call this during render: the server and the client would pick different strings (hydration mismatch).
@@ -943,9 +976,13 @@ function FloatingChips({
 export default function HomePage() {
 	const seconds = useTimer();
 
+	const [isImageHovered, setIsImageHovered] = useState(false);
+	const [cursorPosition, setCursorPosition] = useState({ x: 0, y: 0 });
+
 	const router = useRouter();
 	const { resolvedTheme } = useTheme();
 	const [isMounted, setIsMounted] = useState(false);
+	const [scrolled, setScrolled] = useState(false);
 
 	const coloursList =
 		isMounted && resolvedTheme === "light" ? coloursListLight : coloursListDark;
@@ -970,6 +1007,12 @@ export default function HomePage() {
 	const [interacted, setInteracted] = useState(false);
 	const showHint = seconds >= 5 && !open && !interacted;
 
+	// Which device is currently highlighted in the GlideSelect below, so the
+	// screenshot next to it can be swapped.
+	const [activeFormat, setActiveFormat] = useState<GlideSelectOption | null>(
+		null,
+	);
+
 	useEffect(() => {
 		setCurrentWordIndex(Math.floor(Math.random() * words.length));
 		setOrder([0, 1, 2, 3].sort(() => Math.random() - 0.5));
@@ -978,6 +1021,16 @@ export default function HomePage() {
 		);
 		setIsMounted(true);
 	}, []);
+
+	// Scroll indicator fades once the user starts scrolling.
+	useEffect(() => {
+		const onScroll = () => setScrolled(window.scrollY > 10);
+		onScroll();
+		window.addEventListener("scroll", onScroll, { passive: true });
+		return () => window.removeEventListener("scroll", onScroll);
+	}, []);
+
+	const containerStyle = { maxWidth: "var(--fd-layout-width)" };
 
 	useEffect(() => {
 		const el = orbBoxRef.current;
@@ -1065,9 +1118,17 @@ export default function HomePage() {
 
 	const energy = open ? (isTyping ? 1 : 0.4) : 0;
 
+	const activeLabel =
+		activeFormat && typeof activeFormat.label === "string"
+			? activeFormat.label
+			: null;
+	const activeScreenshot = activeLabel
+		? deviceScreenshots[activeLabel]?.[0]
+		: undefined;
+
 	return (
 		<>
-			<div className="flex flex-col items-center justify-center gap-12 py-12 min-h-[90vh]">
+			<div className="flex flex-col items-center justify-center gap-12 py-12 min-h-[95vh]">
 				<h1 className="pb text-center font-panchang text-5xl font-bold">
 					Every{" "}
 					<span className="relative inline-flex justify-start max-w-[355px] font-sprite text-7xl">
@@ -1105,13 +1166,12 @@ export default function HomePage() {
 							onTap={toggle}
 						/>
 
-						{/* Hint sits just under the orb's bottom edge (orb centre + radius). */}
 						<p
 							aria-hidden={!showHint}
 							className={`pointer-events-none absolute left-1/2 -translate-x-1/2 select-none whitespace-nowrap text-center font-mono text-xs text-zinc-500 pt-2 transition-opacity duration-[1100ms] ease-out ${
 								showHint ? "opacity-100" : "opacity-0"
 							}`}
-							style={{ top: `calc(50% + ${ORB_RADIUS}px + 12px)` }}
+							style={{ top: `calc(50% + ${ORB_RADIUS}px + 50px)` }}
 						>
 							Stretch the orb, play with the chips. Press the orb to chat with
 							Clarus.
@@ -1194,8 +1254,11 @@ export default function HomePage() {
 					)}
 				</div>
 
-				<div className="flex flex-col items-center justify-left">
-					<p className="w-[500px] pb-4 text-center font-general-sans">
+				<div
+					style={containerStyle}
+					className={`mx-auto w-full flex flex-col items-center justify-center`}
+				>
+					<p className="w-[500px] max-w-full pb-4 text-center font-general-sans">
 						Every Apple device. Every spec. Every price. All laid out and
 						documented for quick answers from{" "}
 						<a
@@ -1228,10 +1291,135 @@ export default function HomePage() {
 							View on Github
 						</Link>
 					</div>
+
+					<div
+						className={`text-zinc-400 flex flex-col items-center justify-center pt-4 transition-opacity duration-[5000ms] ease-out ${
+							scrolled ? "opacity-0" : "opacity-[20%]"
+						}`}
+					>
+						<ArrowFatLinesDownIcon size={50} className="animate-tall-bounce" />
+					</div>
 				</div>
 			</div>
 
-			<div className="flex flex-col gap-4 px-4 py-8"></div>
+			<div className="flex flex-col gap-10 py-12 w-full pt-24">
+				<div style={containerStyle} className="mx-auto w-full">
+					<div className="flex flex-col gap-3 max-w-3xl">
+						<h1 className="font-panchang font-bold text-4xl tracking-tight text-zinc-900 dark:text-white">
+							Our{" "}
+							<span className="font-sprite text-5xl">
+								{"Purpose".split("").map((letter, index) => (
+									<span key={index} className={colours[index % colours.length]}>
+										{letter}
+									</span>
+								))}
+							</span>
+						</h1>
+						<p className="font-general-sans text-lg text-black dark:text-white leading-relaxed">
+							<span className="flex flex-row gap-1.5">
+								{"We've reimagined the Apple Documentation by "}
+								<FastText className="font-bold text-zinc-900 dark:text-white font-general-sans">
+									turbocharging
+								</FastText>
+							</span>
+							the way you read it. Passionfruit brings every single modern Apple
+							Device — from iPhones to Vision to Apple Displays — together into
+							one comprehensive and searchable platform, condensed with as much
+							information that you'd foam at the mouth¹.
+						</p>
+						<p className="font-general-sans text-xs text-zinc-300 dark:text-500 leading-relaxed mt-[-10px]">
+							¹This is an unproven claim, pls don't sue.
+						</p>
+					</div>
+				</div>
+
+				<div className="flex flex-1 items-stretch">
+					<div style={containerStyle} className="mx-auto w-full">
+						<div className="flex items-stretch gap-8 h-full">
+							<GlideSelect
+								options={formats}
+								defaultValue="1"
+								alwaysOpen
+								onChange={(value, option) => console.log(value, option)}
+								onActiveItemChange={setActiveFormat}
+								ariaLabel="Export format"
+								showTags
+								size="md"
+								radius={12}
+								menuWidth={180}
+							/>
+
+							{activeScreenshot ? (
+								<div
+									className="relative flex-1 min-w-0 overflow-hidden rounded-md"
+									onMouseEnter={() => setIsImageHovered(true)}
+									onMouseLeave={() => setIsImageHovered(false)}
+									onMouseMove={(e) => {
+										const rect = e.currentTarget.getBoundingClientRect();
+										const hint =
+											e.currentTarget.querySelector("[data-hover-hint]");
+										const hintRect = hint?.getBoundingClientRect();
+
+										const hintWidth = hintRect?.width ?? 0;
+										const hintHeight = hintRect?.height ?? 0;
+										const offset = 16;
+
+										let x = e.clientX - rect.left + offset;
+										let y = e.clientY - rect.top + offset;
+
+										if (x + hintWidth > rect.width) {
+											x = e.clientX - rect.left - hintWidth - offset / 10;
+										}
+
+										if (y + hintHeight > rect.height) {
+											y = e.clientY - rect.top - hintHeight - offset / 50;
+										}
+
+										setCursorPosition({ x, y });
+									}}
+								>
+									<img
+										src={activeScreenshot}
+										alt={`${activeLabel || "Device"} Preview`}
+										onClick={() => {
+											const href = activeLabel
+												? deviceScreenshots[activeLabel]?.[1]
+												: undefined;
+
+											if (href) router.push(href);
+										}}
+										className="block h-full w-full cursor-pointer object-cover object-top"
+									/>
+
+									<HoveringHint
+										visible={isImageHovered}
+										x={cursorPosition.x}
+										y={cursorPosition.y}
+										text={"Explore " + activeLabel}
+									/>
+								</div>
+							) : null}
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div className="flex flex-col gap-10 py-12 w-full pt-24">
+				<div style={containerStyle} className="mx-auto w-full">
+					<div className="flex flex-col gap-3">
+						<h1 className="font-panchang font-bold text-4xl tracking-tight text-zinc-900 dark:text-white w-full text-right">
+							<span className="font-sprite text-5xl pr-2">
+								{"Clarus".split("").map((letter, index) => (
+									<span key={index} className={colours[index % colours.length]}>
+										{letter}
+									</span>
+								))}
+							</span>
+							{" The Cowdog"}
+						</h1>
+					</div>
+				</div>
+			</div>
 
 			<Footer />
 		</>

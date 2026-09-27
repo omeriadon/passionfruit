@@ -7,6 +7,8 @@ const links = [
 	{ href: "/clarus", label: "Clarus" },
 ];
 
+// Hello
+
 export default function Footer() {
 	return (
 		<footer className="group w-full border-t border-zinc-200 dark:border-zinc-800">
@@ -17,8 +19,13 @@ export default function Footer() {
 						Apple Inc.
 					</a>
 					<br />
+					Components of this landing page adapted code from{" "}
+					<a href="https://reactbits.dev/" className="hover:underline">
+						React Bits
+					</a>
+					<br />
 					Made with{" "}
-					<span className="inline-block motion-safe:group-hover:animate-heartbeat">
+					<span className="inline-block motion-safe:group-hover:animate-heartbeat hover:cursor-pointer">
 						🫀
 					</span>{" "}
 					by Adon and Dylan.
