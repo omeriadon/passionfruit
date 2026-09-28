@@ -5,6 +5,7 @@ const links = [
 	{ href: "https://github.com/omeriadon/passionfruit", label: "Github" },
 	{ href: "/docs", label: "Docs" },
 	{ href: "/clarus", label: "Clarus" },
+	{ href: "/protect/privacy-policy", label: "Privacy Policy" },
 ];
 
 // Hello

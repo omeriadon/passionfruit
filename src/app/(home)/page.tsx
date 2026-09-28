@@ -23,6 +23,7 @@ import GlideSelect, {
 } from "@/components/ui/Glide/GlideSelect";
 import HoveringHint from "@/components/ui/HoveringHint/HoveringHint";
 import FastText from "@/components/ui/FastText/FastText";
+import ClarusTerminal from "@/components/ui/ClarusTerminal/ClarusTerminal";
 
 const clarusInputPlaceholder = [
 	"Clarus awaits your enquiry...",
@@ -40,17 +41,30 @@ const clarusInputPlaceholder = [
 ];
 
 // Screenshot shown next to the dropdown
-const deviceScreenshots: Record<string, [string, string]> = {
-	AirPods: ["/ss/airpods.png", "/docs/airpods/airpods-pro-3"],
-	"Apple TV": ["/ss/tv.png", "/docs/apple-tv"],
-	"Apple Watch": ["/ss/watch.png", "/docs/apple-watch/apple-watch-ultra-4"],
-	HomePod: ["/ss/pod.png", "/docs/homepod/homepod-mini"],
-	iPad: ["/ss/pad.png", "/docs/ipad/ipad-air-11-m4"],
-	iPhone: ["/ss/flipflop.png", "/docs/iphone/iphone-duo"],
-	Mac: ["/ss/neo.png", "/docs/mac/macbook-neo-a18-pro"],
-	Vision: ["/ss/eyes.png", "/docs/vision/apple-vision-pro-m5"],
+const deviceScreenshots: Record<string, [string, string, string]> = {
+	AirPods: [
+		"/ss/airpods.png",
+		"/ss/airpods-w.png",
+		"/docs/airpods/airpods-pro-3",
+	],
+	"Apple TV": ["/ss/tv.png", "/ss/tv-w.png", "/docs/apple-tv"],
+	"Apple Watch": [
+		"/ss/watch.png",
+		"/ss/watch-w.png",
+		"/docs/apple-watch/apple-watch-ultra-4",
+	],
+	HomePod: ["/ss/pod.png", "/ss/pod-w.png", "/docs/homepod/homepod-mini"],
+	iPad: ["/ss/pad.png", "/ss/pad-w.png", "/docs/ipad/ipad-air-11-m4"],
+	iPhone: ["/ss/flipflop.png", "/ss/flipflop-w.png", "/docs/iphone/iphone-duo"],
+	Mac: ["/ss/neo.png", "/ss/neo-w.png", "/docs/mac/macbook-neo-a18-pro"],
+	Vision: [
+		"/ss/eyes.png",
+		"/ss/eyes-w.png",
+		"/docs/vision/apple-vision-pro-m5",
+	],
 	"Apple Displays": [
 		"/ss/display.png",
+		"/ss/display-w.png",
 		"/docs/other/apple-display/studio-display-xdr-2026",
 	],
 };
@@ -84,6 +98,7 @@ const ORB_RADIUS = 0.46 * GLASS_SIZE * ORB_BOX_H; // px; same maths as RADIUS in
 const ASK_SCROLL_PX_PER_S = 25; // placeholder marquee speed (constant), used when the text is wider than the field
 const ASK_SCROLL_PAUSE_MS = 1000; // how long the marquee holds still at each end
 const FLOAT_MIN_WIDTH = 820; // narrower than this, chips sit under the orb instead
+const AUTO_CYCLE_MS = 1600; // time between steps of the device list auto-cycle
 
 // Forcefield: chips slow down hard inside the soft zone and can never cross the rect edge.
 const FIELD_WIDTH_RATIO = 0.45; // field edge distance from centre, as fraction of width
@@ -1013,6 +1028,12 @@ export default function HomePage() {
 		null,
 	);
 
+	// GlideSelect is fully controlled here so the auto-cycle below can drive it.
+	const [format, setFormat] = useState("1");
+	// On by default. The user's first touch on the list turns it off (via
+	// onAutoCycleInterrupt), and the Auto Scroll switch turns it back on.
+	const [autoCycling, setAutoCycling] = useState(true);
+
 	useEffect(() => {
 		setCurrentWordIndex(Math.floor(Math.random() * words.length));
 		setOrder([0, 1, 2, 3].sort(() => Math.random() - 0.5));
@@ -1029,6 +1050,18 @@ export default function HomePage() {
 		window.addEventListener("scroll", onScroll, { passive: true });
 		return () => window.removeEventListener("scroll", onScroll);
 	}, []);
+
+	// Auto-cycle: steps to the next device on a timer while enabled.
+	useEffect(() => {
+		if (!autoCycling) return;
+		const id = setInterval(() => {
+			setFormat((f) => {
+				const i = formats.findIndex((o) => o.value === f);
+				return formats[(i + 1) % formats.length].value;
+			});
+		}, AUTO_CYCLE_MS);
+		return () => clearInterval(id);
+	}, [autoCycling]);
 
 	const containerStyle = { maxWidth: "var(--fd-layout-width)" };
 
@@ -1118,13 +1151,17 @@ export default function HomePage() {
 
 	const energy = open ? (isTyping ? 1 : 0.4) : 0;
 
+	const isLight = isMounted && resolvedTheme === "light";
+
 	const activeLabel =
 		activeFormat && typeof activeFormat.label === "string"
 			? activeFormat.label
 			: null;
 	const activeScreenshot = activeLabel
-		? deviceScreenshots[activeLabel]?.[0]
+		? deviceScreenshots[activeLabel]?.[isLight ? 1 : 0]
 		: undefined;
+
+	// HERE!!!
 
 	return (
 		<>
@@ -1327,7 +1364,7 @@ export default function HomePage() {
 							one comprehensive and searchable platform, condensed with as much
 							information that you'd foam at the mouth¹.
 						</p>
-						<p className="font-general-sans text-xs text-zinc-300 dark:text-500 leading-relaxed mt-[-10px]">
+						<p className="font-general-sans text-xs text-zinc-500 dark:text-500 leading-relaxed mt-[-10px]">
 							¹This is an unproven claim, pls don't sue.
 						</p>
 					</div>
@@ -1335,23 +1372,38 @@ export default function HomePage() {
 
 				<div className="flex flex-1 items-stretch">
 					<div style={containerStyle} className="mx-auto w-full">
-						<div className="flex items-stretch gap-8 h-full">
-							<GlideSelect
-								options={formats}
-								defaultValue="1"
-								alwaysOpen
-								onChange={(value, option) => console.log(value, option)}
-								onActiveItemChange={setActiveFormat}
-								ariaLabel="Export format"
-								showTags
-								size="md"
-								radius={12}
-								menuWidth={180}
-							/>
+						<div className="flex items-start gap-8 h-full">
+							<div className="flex flex-col relative shrink-0 gap-2">
+								<GlideSelect
+									options={formats}
+									value={format}
+									onChange={(value) => setFormat(value)}
+									alwaysOpen
+									autoCycle={autoCycling}
+									onAutoCycleInterrupt={() => setAutoCycling(false)}
+									onActiveItemChange={setActiveFormat}
+									ariaLabel="Export format"
+									showTags
+									size="md"
+									radius={12}
+									menuWidth={180}
+								/>
+
+								<div className="flex items-center gap-2 px-1">
+									<button
+										type="button"
+										onClick={() => setAutoCycling(true)}
+										disabled={autoCycling}
+										className="self-start rounded-full border border-zinc-300 px-2 py-0.5 font-general-sans text-[11px] leading-none text-zinc-500 transition-colors duration-[125ms] hover:bg-zinc-100 hover:text-zinc-600 disabled:pointer-events-none disabled:opacity-40 dark:border-zinc-700 dark:hover:bg-zinc-800 dark:hover:text-zinc-200"
+									>
+										Auto Scroll
+									</button>
+								</div>
+							</div>
 
 							{activeScreenshot ? (
 								<div
-									className="relative flex-1 min-w-0 overflow-hidden rounded-md"
+									className="relative flex-1 min-w-0 border pt-[1px] pb-[3px] pr-[2px] overflow-hidden rounded-md"
 									onMouseEnter={() => setIsImageHovered(true)}
 									onMouseLeave={() => setIsImageHovered(false)}
 									onMouseMove={(e) => {
@@ -1383,7 +1435,7 @@ export default function HomePage() {
 										alt={`${activeLabel || "Device"} Preview`}
 										onClick={() => {
 											const href = activeLabel
-												? deviceScreenshots[activeLabel]?.[1]
+												? deviceScreenshots[activeLabel]?.[2]
 												: undefined;
 
 											if (href) router.push(href);
@@ -1404,9 +1456,9 @@ export default function HomePage() {
 				</div>
 			</div>
 
-			<div className="flex flex-col gap-10 py-12 w-full pt-24">
+			<div className="flex flex-col gap-10 py-12 w-full pt-30">
 				<div style={containerStyle} className="mx-auto w-full">
-					<div className="flex flex-col gap-3">
+					<div className="flex flex-col gap-3 items-end">
 						<h1 className="font-panchang font-bold text-4xl tracking-tight text-zinc-900 dark:text-white w-full text-right">
 							<span className="font-sprite text-5xl pr-2">
 								{"Clarus".split("").map((letter, index) => (
@@ -1417,6 +1469,16 @@ export default function HomePage() {
 							</span>
 							{" The Cowdog"}
 						</h1>
+						<p className="font-general-sans text-lg text-black dark:text-white leading-relaxed text-right max-w-3xl">
+							Meet Clarus, the dogcow that never left. Ask her anything about
+							specs, prices, or which iPad won't make you cry over storage
+							tiers, and she'll answer on the spot. You won't have to dig
+							through nine different Apple support pages, that's her job now.
+							Just tell her what direction you're going in, and leave the rest
+							to her.
+						</p>
+
+						<ClarusTerminal />
 					</div>
 				</div>
 			</div>

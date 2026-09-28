@@ -240,3 +240,16 @@
 		animation: none;
 	}
 }
+
+.glide-select--inline {
+	display: block;
+	width: var(--gs-menu-w);
+}
+
+.glide-select--inline .glide-select__menu {
+	position: static;
+	opacity: 1;
+	transform: none;
+	transition: none;
+	box-shadow: none;
+}

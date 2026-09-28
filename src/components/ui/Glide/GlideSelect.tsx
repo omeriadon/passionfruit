@@ -8,6 +8,7 @@ import React, {
 	type ReactNode,
 } from "react";
 import "./GlideSelect.css";
+import { useTheme } from "fumadocs-ui/provider/base";
 
 export interface GlideSelectOption {
 	value: string;
@@ -24,10 +25,12 @@ export interface GlideSelectProps {
 	placeholder?: string;
 	showTags?: boolean;
 	alwaysOpen?: boolean;
-	accentColour?: string;
-	surfaceColour?: string;
-	highlightColour?: string;
-	textColour?: string;
+	autoCycle?: boolean; // controlled by the parent: true while the parent's own cycle logic is running
+	onAutoCycleInterrupt?: () => void; // fired when the user touches the list while autoCycle is true
+	accentColour?: string; // overrides the theme palette when passed
+	surfaceColour?: string; // overrides the theme palette when passed
+	highlightColour?: string; // overrides the theme palette when passed
+	textColour?: string; // overrides the theme palette when passed
 	size?: "sm" | "md" | "lg";
 	radius?: number;
 	menuWidth?: number;
@@ -53,6 +56,20 @@ const PAD = 4;
 const GAP = 1;
 const MENU_GAP = 6;
 const DEFAULT_OPTIONS: (string | GlideSelectOption)[] = ["One", "Two", "Three"];
+
+const PALETTE_DARK = {
+	accent: "#f5f5f5",
+	surface: "#27272a",
+	highlight: "#3f3f46",
+	text: "#f5f5f5",
+};
+
+const PALETTE_LIGHT = {
+	accent: "#18181b",
+	surface: "#E2E2E2",
+	highlight: "#B3BCBF",
+	text: "#18181b",
+};
 
 const norm = (o: string | GlideSelectOption): GlideSelectOption =>
 	typeof o === "string" ? { value: o, label: o } : o;
@@ -81,10 +98,12 @@ const GlideSelect: React.FC<GlideSelectProps> = ({
 	placeholder = "Select...",
 	showTags = true,
 	alwaysOpen = false,
-	accentColour = "#f5f5f5",
-	surfaceColour = "#27272a",
-	highlightColour = "#3f3f46",
-	textColour = "#f5f5f5",
+	autoCycle = false,
+	onAutoCycleInterrupt,
+	accentColour,
+	surfaceColour,
+	highlightColour,
+	textColour,
 	size = "md",
 	radius = 10,
 	menuWidth = 176,
@@ -97,6 +116,12 @@ const GlideSelect: React.FC<GlideSelectProps> = ({
 	ariaLabel = "Select",
 	className = "",
 }) => {
+	const { resolvedTheme } = useTheme();
+	const [isMounted, setIsMounted] = useState(false);
+	useEffect(() => setIsMounted(true), []);
+	const isLight = isMounted && resolvedTheme === "light";
+	const palette = isLight ? PALETTE_LIGHT : PALETTE_DARK;
+
 	const items = options.map(norm);
 	const [inner, setInner] = useState(defaultValue ?? "");
 	const current = value ?? inner;
@@ -120,10 +145,23 @@ const GlideSelect: React.FC<GlideSelectProps> = ({
 	const step = S.row + GAP;
 	const popOut = Math.round((popDuration * 2) / 3);
 
-	// Whichever item is currently highlighted (hover/keyboard), falling back to
-	// the actual selection. Reported upward so the parent can render whatever
-	// it wants alongside the dropdown (e.g. a preview image) without this
-	// component knowing anything about that.
+	// While the parent is auto-cycling, it drives `value`. Keep the highlight
+	// pill glued to whatever is currently selected so it glides along with it.
+	useEffect(() => {
+		if (!alwaysOpen || !autoCycle) return;
+		setActive(selected >= 0 ? selected : null);
+	}, [alwaysOpen, autoCycle, selected]);
+
+	// Called from every genuine user interaction. The parent decides what
+	// "interrupt" means (normally: stop its cycle timer).
+	const interrupt = () => {
+		if (autoCycle) onAutoCycleInterrupt?.();
+	};
+
+	// Whichever item is currently highlighted (hover/keyboard/auto-cycle), falling
+	// back to the actual selection. Reported upward so the parent can render
+	// whatever it wants alongside the dropdown (e.g. a preview image) without
+	// this component knowing anything about that.
 	const highlightIndex = active ?? selected;
 	const highlightItem = highlightIndex >= 0 ? items[highlightIndex] : null;
 
@@ -137,15 +175,17 @@ const GlideSelect: React.FC<GlideSelectProps> = ({
 		const el = menuRef.current;
 		const root = rootRef.current;
 		if (!el || !root) return;
-		const r = root.getBoundingClientRect();
-		const need = el.offsetHeight + MENU_GAP;
-		setSide(
-			placement === "bottom" && r.bottom + need > window.innerHeight
-				? "top"
-				: placement === "top" && r.top - need < 0
-					? "bottom"
-					: placement,
-		);
+		if (!alwaysOpen) {
+			const r = root.getBoundingClientRect();
+			const need = el.offsetHeight + MENU_GAP;
+			setSide(
+				placement === "bottom" && r.bottom + need > window.innerHeight
+					? "top"
+					: placement === "top" && r.top - need < 0
+						? "bottom"
+						: placement,
+			);
+		}
 		el.style.transitionDuration = instant.current ? "0ms" : "";
 		el.dataset.state = "closed";
 		void el.offsetHeight;
@@ -214,6 +254,7 @@ const GlideSelect: React.FC<GlideSelectProps> = ({
 	};
 
 	const onTriggerKey = (e: React.KeyboardEvent<HTMLButtonElement>) => {
+		interrupt();
 		const k = e.key;
 		const n = items.length;
 		const cur = active ?? Math.max(0, selected);
@@ -265,6 +306,7 @@ const GlideSelect: React.FC<GlideSelectProps> = ({
 	};
 
 	const onListDown = (e: React.PointerEvent<HTMLDivElement>) => {
+		interrupt();
 		if (scrub.current) return;
 		try {
 			e.currentTarget.setPointerCapture(e.pointerId);
@@ -297,6 +339,7 @@ const GlideSelect: React.FC<GlideSelectProps> = ({
 		const row = (e.target as HTMLElement).closest<HTMLElement>("[data-index");
 		if (!row) return;
 
+		interrupt();
 		const i = Number(row.dataset.index);
 
 		if (i !== active) {
@@ -320,10 +363,10 @@ const GlideSelect: React.FC<GlideSelectProps> = ({
 			data-disabled={disabled ? `` : undefined}
 			style={
 				{
-					"--gs-accent": accentColour,
-					"--gs-surface": surfaceColour,
-					"--gs-highlight": highlightColour,
-					"--gs-text": textColour,
+					"--gs-accent": accentColour ?? palette.accent,
+					"--gs-surface": surfaceColour ?? palette.surface,
+					"--gs-highlight": highlightColour ?? palette.highlight,
+					"--gs-text": textColour ?? palette.text,
 					"--gs-radius": `${radius}px`,
 					"--gs-inner-radius": `${Math.max(3, radius - 4)}px`,
 					"--gs-chip": `${S.chip}px`,
