@@ -3,6 +3,29 @@ import type { Metadata } from "next";
 import { SearchRootProvider } from "@/components/SearchRootProvider";
 import "./global.css";
 import { AuthProvider } from "@/lib/auth/AuthProvider";
+import localFont from "next/font/local";
+
+const panchang = localFont({
+	src: "../assets/fonts/Panchang-Variable.ttf",
+	variable: "--font-panchang",
+	display: "swap",
+});
+
+const sprite = localFont({
+	src: "../assets/fonts/SpriteGraffiti-Shadow.ttf",
+	variable: "--font-sprite",
+	display: "swap",
+});
+
+const generalSans = localFont({
+	src: "../assets/fonts/GeneralSans-Variable.ttf",
+	variable: "--font-general-sans",
+	display: "swap",
+});
+
+// FONTS: Panchang -> Logo/header font
+// FONTS: Sprite -> Graffiti font
+// FONTS: GeneralSans -> Main font for body, at least on the landing page
 
 export const metadata: Metadata = {
 	icons: {
@@ -49,7 +72,11 @@ const rootProviderOptions: Omit<RootProviderProps, "children"> = {
 
 export default function Layout({ children }: LayoutProps<"/">) {
 	return (
-		<html lang="en" suppressHydrationWarning>
+		<html
+			lang="en"
+			className={`${generalSans.className} ${panchang.variable} ${sprite.variable}`}
+			suppressHydrationWarning
+		>
 			<body className="flex flex-col min-h-screen">
 				<AuthProvider>
 					<SearchRootProvider {...rootProviderOptions}>
